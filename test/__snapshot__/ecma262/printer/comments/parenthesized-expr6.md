@@ -41,7 +41,7 @@ c/*6*/)
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 1,
                             "end": 17
                         },
@@ -57,7 +57,7 @@ c/*6*/)
                             "kind": 134299649,
                             "text": "c",
                             "rawText": "c",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 35,
                             "end": 46
                         }

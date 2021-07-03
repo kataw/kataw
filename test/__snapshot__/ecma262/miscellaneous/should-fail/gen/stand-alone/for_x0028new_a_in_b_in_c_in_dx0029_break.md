@@ -84,7 +84,7 @@ for (new a in b in c in d) break
                         "start": 18,
                         "end": 20
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 13,
                     "end": 20
                 },
@@ -102,7 +102,7 @@ for (new a in b in c in d) break
                     "start": 23,
                     "end": 25
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 13,
                 "end": 25
             },

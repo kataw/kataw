@@ -84,7 +84,7 @@ x *
                     "start": 3,
                     "end": 23
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 23
             },

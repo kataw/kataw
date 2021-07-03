@@ -61,7 +61,7 @@ class Foo {
                                 "kind": 134299649,
                                 "text": "static",
                                 "rawText": "static",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 11,
                                 "end": 20
                             },

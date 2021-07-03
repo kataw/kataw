@@ -76,7 +76,7 @@ type A = Obj['a'];
                             "kind": 134217967,
                             "text": "a",
                             "rawText": "'a'",
-                            "flags": 2097216,
+                            "flags": 6291520,
                             "start": 13,
                             "end": 16
                         },

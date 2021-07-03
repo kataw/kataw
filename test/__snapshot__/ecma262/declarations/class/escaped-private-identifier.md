@@ -63,7 +63,7 @@ class z { #\u0020oo }
                                 "kind": 134299649,
                                 "text": "#fofoo",
                                 "rawText": "#fo",
-                                "flags": 96,
+                                "flags": 16480,
                                 "start": 9,
                                 "end": 13
                             },
@@ -84,7 +84,7 @@ class z { #\u0020oo }
                                 "kind": 134299649,
                                 "text": "o",
                                 "rawText": "\\u006f",
-                                "flags": 96,
+                                "flags": 16480,
                                 "start": 13,
                                 "end": 19
                             },
@@ -189,7 +189,7 @@ class z { #\u0020oo }
                                 "kind": 134299649,
                                 "text": "#fofo ",
                                 "rawText": "#fo",
-                                "flags": 96,
+                                "flags": 16480,
                                 "start": 49,
                                 "end": 53
                             },
@@ -210,7 +210,7 @@ class z { #\u0020oo }
                                 "kind": 134299649,
                                 "text": " ",
                                 "rawText": "\\u0020",
-                                "flags": 96,
+                                "flags": 16480,
                                 "start": 53,
                                 "end": 59
                             },
@@ -269,7 +269,7 @@ class z { #\u0020oo }
                                 "kind": 134299649,
                                 "text": "# oo",
                                 "rawText": "#",
-                                "flags": 96,
+                                "flags": 16480,
                                 "start": 72,
                                 "end": 74
                             },
@@ -290,7 +290,7 @@ class z { #\u0020oo }
                                 "kind": 134299649,
                                 "text": " oo",
                                 "rawText": "\\u0020oo",
-                                "flags": 96,
+                                "flags": 16480,
                                 "start": 74,
                                 "end": 82
                             },

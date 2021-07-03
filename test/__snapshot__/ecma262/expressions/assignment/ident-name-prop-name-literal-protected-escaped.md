@@ -59,7 +59,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
                                                 "kind": 134299649,
                                                 "text": "protected",
                                                 "rawText": "prot\\u0065cted",
-                                                "flags": 96,
+                                                "flags": 16480,
                                                 "start": 9,
                                                 "end": 24
                                             },

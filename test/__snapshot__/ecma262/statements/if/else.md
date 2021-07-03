@@ -281,7 +281,7 @@ function f() {
                                                                     "start": 204,
                                                                     "end": 206
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 96,
                                                                 "start": 194,
                                                                 "end": 206
                                                             }
@@ -457,7 +457,7 @@ function f() {
                                                     "kind": 134299649,
                                                     "text": "name",
                                                     "rawText": "name",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 288,
                                                     "end": 299
                                                 },
@@ -525,7 +525,7 @@ function f() {
                                                     "kind": 134299649,
                                                     "text": "value",
                                                     "rawText": "value",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 329,
                                                     "end": 341
                                                 },
@@ -580,7 +580,7 @@ function f() {
                                                                     "start": 368,
                                                                     "end": 370
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 96,
                                                                 "start": 358,
                                                                 "end": 370
                                                             }

@@ -64,7 +64,7 @@ var asserted1 = <any>((n) => { return n; });
                                     "start": 17,
                                     "end": 20
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 15,
                                 "end": 20
                             },
@@ -147,7 +147,7 @@ var asserted1 = <any>((n) => { return n; });
                                 "start": 21,
                                 "end": 43
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 15,
                             "end": 43
                         },

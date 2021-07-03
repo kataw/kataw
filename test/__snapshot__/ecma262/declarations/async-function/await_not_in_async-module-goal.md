@@ -113,7 +113,7 @@ f(await 1);
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 33,
                     "end": 36
                 },

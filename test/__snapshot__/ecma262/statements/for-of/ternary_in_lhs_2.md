@@ -69,7 +69,7 @@ for (a ? b : c of x);
                     "start": 12,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 14
             },

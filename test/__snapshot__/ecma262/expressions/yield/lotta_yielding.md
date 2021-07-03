@@ -99,7 +99,7 @@ var gen = async function *g() {
                                                     "kind": 134299649,
                                                     "text": "callCount",
                                                     "rawText": "callCount",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 31,
                                                     "end": 43
                                                 },

@@ -167,7 +167,7 @@ function* g() { function f(yield) { yield (yield + yield (0)); } }
                                                                 "start": 50,
                                                                 "end": 60
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 96,
                                                             "start": 43,
                                                             "end": 60
                                                         }

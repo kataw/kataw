@@ -77,7 +77,7 @@ class A {async
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 14,
                                     "end": 20
                                 },

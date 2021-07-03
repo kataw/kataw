@@ -45,7 +45,7 @@ while(x) {
                                 "kind": 134299649,
                                 "text": "LABEL",
                                 "rawText": "LABEL",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 10,
                                 "end": 18
                             },

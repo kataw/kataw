@@ -180,7 +180,7 @@ class C2<X, Y> {
                                     "kind": 134299649,
                                     "text": "set",
                                     "rawText": "set",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 33,
                                     "end": 39
                                 },
@@ -550,7 +550,7 @@ class C2<X, Y> {
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 161,
                                 "end": 165
                             },
@@ -640,7 +640,7 @@ class C2<X, Y> {
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 174,
                                     "end": 180
                                 },

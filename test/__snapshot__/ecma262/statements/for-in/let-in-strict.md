@@ -109,7 +109,7 @@ for (let in in x);
                     "start": 31,
                     "end": 33
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 28,
                 "end": 33
             },

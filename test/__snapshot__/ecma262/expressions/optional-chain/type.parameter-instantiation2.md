@@ -179,7 +179,7 @@ a?.a?.a?.a?.<number>(y);
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 18,
                                 "end": 21
                             },

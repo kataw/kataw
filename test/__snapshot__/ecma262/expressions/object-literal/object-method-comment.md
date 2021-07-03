@@ -74,7 +74,7 @@ function foo() {
                                                 "kind": 134299649,
                                                 "text": "bar",
                                                 "rawText": "bar",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 27,
                                                 "end": 74
                                             },
@@ -116,7 +116,7 @@ function foo() {
                                                     "start": 83,
                                                     "end": 85
                                                 },
-                                                "flags": 32,
+                                                "flags": 268435488,
                                                 "start": 27,
                                                 "end": 85
                                             },

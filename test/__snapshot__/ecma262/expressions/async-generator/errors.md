@@ -2774,7 +2774,7 @@ async function * gen() {class C extends await { }}
                                         "start": 1362,
                                         "end": 1370
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 1358,
                                     "end": 1370
                                 },
@@ -3391,7 +3391,7 @@ async function * gen() {class C extends await { }}
                     "start": 1686,
                     "end": 1687
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 1684,
                 "end": 1687
             },
@@ -6818,7 +6818,7 @@ async function * gen() {class C extends await { }}
                                     "start": 3119,
                                     "end": 3122
                                 },
-                                "flags": 32,
+                                "flags": 48,
                                 "start": 3113,
                                 "end": 3122
                             },
@@ -6960,7 +6960,7 @@ async function * gen() {class C extends await { }}
                                     "start": 3173,
                                     "end": 3176
                                 },
-                                "flags": 32,
+                                "flags": 48,
                                 "start": 3167,
                                 "end": 3176
                             },

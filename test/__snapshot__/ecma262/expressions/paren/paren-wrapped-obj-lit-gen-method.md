@@ -142,7 +142,7 @@ x({*foo(){}});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 16,
                     "end": 19
                 },
@@ -239,7 +239,7 @@ x({*foo(){}});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 32,
                     "end": 35
                 },
@@ -336,7 +336,7 @@ x({*foo(){}});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 48,
                     "end": 51
                 },
@@ -481,7 +481,7 @@ x({*foo(){}});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 78,
                     "end": 81
                 },
@@ -626,7 +626,7 @@ x({*foo(){}});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 108,
                     "end": 111
                 },
@@ -723,7 +723,7 @@ x({*foo(){}});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 131,
                     "end": 134
                 },
@@ -826,7 +826,7 @@ x({*foo(){}});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 154,
                     "end": 157
                 },
@@ -971,7 +971,7 @@ x({*foo(){}});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 179,
                     "end": 182
                 },

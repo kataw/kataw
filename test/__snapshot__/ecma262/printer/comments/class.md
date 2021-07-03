@@ -64,7 +64,7 @@ class D {
                                     "kind": 134299649,
                                     "text": "ma",
                                     "rawText": "ma",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 18,
                                     "end": 25
                                 },
@@ -115,7 +115,7 @@ class D {
                                     "kind": 134299649,
                                     "text": "mb",
                                     "rawText": "mb",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 30,
                                     "end": 53
                                 },
@@ -204,7 +204,7 @@ class D {
                                     "kind": 134299649,
                                     "text": "ma",
                                     "rawText": "ma",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 71,
                                     "end": 78
                                 },
@@ -255,7 +255,7 @@ class D {
                                     "kind": 134299649,
                                     "text": "mb",
                                     "rawText": "mb",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 83,
                                     "end": 114
                                 },

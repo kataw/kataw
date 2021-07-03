@@ -132,7 +132,7 @@ type MyObject<A, B, C> = {
                                 "kind": 134299649,
                                 "text": "property",
                                 "rawText": "property",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 26,
                                 "end": 37
                             },
@@ -174,7 +174,7 @@ type MyObject<A, B, C> = {
                                 "kind": 134299649,
                                 "text": "method",
                                 "rawText": "method",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 41,
                                 "end": 50
                             },

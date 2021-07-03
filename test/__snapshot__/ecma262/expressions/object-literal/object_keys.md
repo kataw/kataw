@@ -114,7 +114,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                                 "kind": 134299649,
                                 "text": "Object",
                                 "rawText": "Object",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 19,
                                 "end": 26
                             },
@@ -126,7 +126,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                                 "start": 27,
                                 "end": 31
                             },
-                            "flags": 96,
+                            "flags": 97,
                             "start": 19,
                             "end": 31
                         },
@@ -384,7 +384,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                                 "kind": 134299649,
                                 "text": "Object",
                                 "rawText": "Object",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 94,
                                 "end": 101
                             },
@@ -396,7 +396,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                                 "start": 102,
                                 "end": 106
                             },
-                            "flags": 96,
+                            "flags": 97,
                             "start": 94,
                             "end": 106
                         },

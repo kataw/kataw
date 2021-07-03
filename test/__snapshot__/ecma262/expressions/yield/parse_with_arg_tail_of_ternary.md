@@ -108,7 +108,7 @@ function *f() { 1 ? 2 : yield 3; }
                                     "start": 23,
                                     "end": 31
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 15,
                                 "end": 31
                             },

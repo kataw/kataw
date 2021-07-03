@@ -226,7 +226,7 @@ var x, y, z; m(['b']) ? lhs : {var: x} = {}
                     "start": 29,
                     "end": 43
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 12,
                 "end": 43
             },

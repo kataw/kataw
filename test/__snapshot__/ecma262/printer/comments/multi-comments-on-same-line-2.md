@@ -36,7 +36,7 @@ a; /* 4 */ /* 5 */ /* 6 */
                 "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
-                "flags": 96,
+                "flags": 97,
                 "start": 26,
                 "end": 28
             },

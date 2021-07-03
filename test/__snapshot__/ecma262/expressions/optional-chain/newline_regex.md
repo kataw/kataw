@@ -77,7 +77,7 @@ a?.b
                         "start": 6,
                         "end": 7
                     },
-                    "flags": 32,
+                    "flags": 33,
                     "start": 0,
                     "end": 7
                 },
@@ -95,7 +95,7 @@ a?.b
                     "start": 8,
                     "end": 8
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 0,
                 "end": 8
             },

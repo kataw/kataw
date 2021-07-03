@@ -92,7 +92,7 @@ s.map(// do something
                         "kind": 134299649,
                         "text": "s",
                         "rawText": "s",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 32,
                         "end": 34
                     },
@@ -104,7 +104,7 @@ s.map(// do something
                         "start": 35,
                         "end": 38
                     },
-                    "flags": 96,
+                    "flags": 97,
                     "start": 32,
                     "end": 38
                 },

@@ -133,7 +133,7 @@ x => y {}
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 43,
                                     "end": 45
                                 },

@@ -55,7 +55,7 @@ for (a+b of c) d;
                     "start": 7,
                     "end": 8
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 8
             },

@@ -118,7 +118,7 @@ type T = { [string]: Class<null> }
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 22,
                                     "end": 28
                                 },
@@ -440,7 +440,7 @@ type T = { [string]: Class<null> }
                                     "kind": 134299649,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 118,
                                     "end": 132
                                 },
@@ -581,7 +581,7 @@ type T = { [string]: Class<null> }
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 167,
                                     "end": 173
                                 },

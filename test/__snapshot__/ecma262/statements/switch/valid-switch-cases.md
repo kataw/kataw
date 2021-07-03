@@ -512,7 +512,7 @@ switch (answer) { case 0: let a; };
                                                     "start": 149,
                                                     "end": 151
                                                 },
-                                                "flags": 32,
+                                                "flags": 96,
                                                 "start": 146,
                                                 "end": 151
                                             }
@@ -877,7 +877,7 @@ switch (answer) { case 0: let a; };
                                                     "start": 281,
                                                     "end": 283
                                                 },
-                                                "flags": 32,
+                                                "flags": 96,
                                                 "start": 278,
                                                 "end": 283
                                             },
@@ -1254,7 +1254,7 @@ switch (answer) { case 0: let a; };
                     "start": 391,
                     "end": 395
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 389,
                 "end": 395
             },
@@ -1370,7 +1370,7 @@ switch (answer) { case 0: let a; };
                     "start": 423,
                     "end": 429
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 421,
                 "end": 429
             },
@@ -1958,7 +1958,7 @@ switch (answer) { case 0: let a; };
                     "start": 706,
                     "end": 707
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 704,
                 "end": 707
             },
@@ -2054,7 +2054,7 @@ switch (answer) { case 0: let a; };
                     "start": 735,
                     "end": 736
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 733,
                 "end": 736
             },
@@ -2476,7 +2476,7 @@ switch (answer) { case 0: let a; };
                                             "start": 869,
                                             "end": 873
                                         },
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 863,
                                         "end": 873
                                     },
@@ -2514,7 +2514,7 @@ switch (answer) { case 0: let a; };
                                         "start": 879,
                                         "end": 883
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 863,
                                     "end": 883
                                 },
@@ -2612,7 +2612,7 @@ switch (answer) { case 0: let a; };
                                             "start": 912,
                                             "end": 916
                                         },
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 906,
                                         "end": 916
                                     },
@@ -2682,7 +2682,7 @@ switch (answer) { case 0: let a; };
                                         "start": 922,
                                         "end": 932
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 906,
                                     "end": 932
                                 },
@@ -3016,7 +3016,7 @@ switch (answer) { case 0: let a; };
                                         "start": 1041,
                                         "end": 1051
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 1031,
                                     "end": 1051
                                 },
@@ -3385,7 +3385,7 @@ switch (answer) { case 0: let a; };
                     "start": 1135,
                     "end": 1139
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 1133,
                 "end": 1139
             },

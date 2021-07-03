@@ -69,7 +69,7 @@ declare class B {
                                 "kind": 134299649,
                                 "text": "proto",
                                 "rawText": "proto",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 17,
                                 "end": 25
                             },

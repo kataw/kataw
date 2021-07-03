@@ -2419,7 +2419,7 @@ try {} catch(e) { for(var e of 0); };
                 "kind": 134299649,
                 "text": "i",
                 "rawText": "\\u0069",
-                "flags": 96,
+                "flags": 16480,
                 "start": 3059,
                 "end": 3065
             },
@@ -2446,7 +2446,7 @@ try {} catch(e) { for(var e of 0); };
                 "kind": 134299649,
                 "text": "i",
                 "rawText": "\\u{69}",
-                "flags": 96,
+                "flags": 8288,
                 "start": 3071,
                 "end": 3077
             },
@@ -3634,7 +3634,7 @@ try {} catch(e) { for(var e of 0); };
                 "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
-                "flags": 96,
+                "flags": 97,
                 "start": 3744,
                 "end": 3991
             },
@@ -3654,7 +3654,7 @@ try {} catch(e) { for(var e of 0); };
                 "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
-                "flags": 96,
+                "flags": 97,
                 "start": 3999,
                 "end": 4001
             },
@@ -4929,7 +4929,7 @@ try {} catch(e) { for(var e of 0); };
                                                     "start": 4832,
                                                     "end": 4841
                                                 },
-                                                "flags": 32,
+                                                "flags": 96,
                                                 "start": 4828,
                                                 "end": 4841
                                             },
@@ -5441,7 +5441,7 @@ try {} catch(e) { for(var e of 0); };
                 "kind": 134299649,
                 "text": "i",
                 "rawText": "\\u0069",
-                "flags": 96,
+                "flags": 16480,
                 "start": 5062,
                 "end": 5068
             },
@@ -5468,7 +5468,7 @@ try {} catch(e) { for(var e of 0); };
                 "kind": 134299649,
                 "text": "i",
                 "rawText": "\\u{69}",
-                "flags": 96,
+                "flags": 8288,
                 "start": 5074,
                 "end": 5080
             },

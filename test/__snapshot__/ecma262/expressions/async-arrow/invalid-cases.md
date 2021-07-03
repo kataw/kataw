@@ -553,7 +553,7 @@ async ([a]:string)=>c;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 146,
                     "end": 149
                 },
@@ -605,7 +605,7 @@ async ([a]:string)=>c;
                     "start": 151,
                     "end": 166
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 146,
                 "end": 166
             },
@@ -737,7 +737,7 @@ async ([a]:string)=>c;
                                     "start": 225,
                                     "end": 227
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 221,
                                 "end": 227
                             },
@@ -783,7 +783,7 @@ async ([a]:string)=>c;
                                 "start": 229,
                                 "end": 240
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 221,
                             "end": 240
                         },

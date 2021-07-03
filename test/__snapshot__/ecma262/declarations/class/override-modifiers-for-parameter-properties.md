@@ -79,7 +79,7 @@ class D extends B {
                                     "kind": 134299649,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 19,
                                     "end": 33
                                 },

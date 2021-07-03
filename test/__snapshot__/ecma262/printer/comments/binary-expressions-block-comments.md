@@ -93,11 +93,11 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 8,
                         "end": 25
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 3,
                     "end": 25
                 },
@@ -117,7 +117,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 26,
                     "end": 29
                 },
@@ -147,11 +147,11 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 51,
                         "end": 53
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 31,
                     "end": 53
                 },
@@ -171,7 +171,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 54,
                     "end": 57
                 },
@@ -201,11 +201,11 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 64,
                         "end": 151
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 59,
                     "end": 151
                 },
@@ -225,7 +225,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 152,
                     "end": 155
                 },
@@ -255,11 +255,11 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 247,
                         "end": 249
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 157,
                     "end": 249
                 },
@@ -279,7 +279,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 250,
                     "end": 253
                 },
@@ -313,7 +313,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "start": 260,
                         "end": 347
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 255,
                     "end": 347
                 },
@@ -333,7 +333,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 348,
                     "end": 351
                 },
@@ -363,11 +363,11 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 358,
                         "end": 375
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 353,
                     "end": 375
                 },
@@ -387,7 +387,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 376,
                     "end": 379
                 },
@@ -417,11 +417,11 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 401,
                         "end": 403
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 381,
                     "end": 403
                 },
@@ -441,7 +441,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 404,
                     "end": 407
                 },
@@ -471,11 +471,11 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 414,
                         "end": 501
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 409,
                     "end": 501
                 },
@@ -495,7 +495,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 502,
                     "end": 505
                 },
@@ -525,11 +525,11 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 597,
                         "end": 599
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 507,
                     "end": 599
                 },
@@ -549,7 +549,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 600,
                     "end": 603
                 },
@@ -583,7 +583,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "start": 610,
                         "end": 697
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 605,
                     "end": 697
                 },
@@ -603,7 +603,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 698,
                     "end": 701
                 },
@@ -633,11 +633,11 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 707,
                         "end": 724
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 703,
                     "end": 724
                 },
@@ -657,7 +657,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 725,
                     "end": 728
                 },
@@ -687,11 +687,11 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 749,
                         "end": 751
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 730,
                     "end": 751
                 },
@@ -711,7 +711,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 752,
                     "end": 755
                 },
@@ -741,11 +741,11 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 761,
                         "end": 848
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 757,
                     "end": 848
                 },
@@ -765,7 +765,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 849,
                     "end": 852
                 },
@@ -795,11 +795,11 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 943,
                         "end": 945
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 854,
                     "end": 945
                 },
@@ -819,7 +819,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 946,
                     "end": 949
                 },
@@ -853,7 +853,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                         "start": 955,
                         "end": 1042
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 951,
                     "end": 1042
                 },

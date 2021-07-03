@@ -81,11 +81,11 @@ x = a + b instanceof c
                             "start": 20,
                             "end": 22
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 9,
                         "end": 22
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 3,
                     "end": 22
                 },

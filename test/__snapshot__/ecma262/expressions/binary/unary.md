@@ -60,7 +60,7 @@ const anyTestFailures = !(
                                                 "kind": 134299649,
                                                 "text": "aggregatedResults",
                                                 "rawText": "aggregatedResults",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 26,
                                                 "end": 46
                                             },
@@ -72,7 +72,7 @@ const anyTestFailures = !(
                                                 "start": 47,
                                                 "end": 61
                                             },
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 25,
                                             "end": 61
                                         },
@@ -90,7 +90,7 @@ const anyTestFailures = !(
                                             "start": 65,
                                             "end": 67
                                         },
-                                        "flags": 32,
+                                        "flags": 97,
                                         "start": 25,
                                         "end": 67
                                     },
@@ -108,7 +108,7 @@ const anyTestFailures = !(
                                                 "kind": 134299649,
                                                 "text": "aggregatedResults",
                                                 "rawText": "aggregatedResults",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 70,
                                                 "end": 90
                                             },
@@ -120,7 +120,7 @@ const anyTestFailures = !(
                                                 "start": 91,
                                                 "end": 116
                                             },
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 70,
                                             "end": 116
                                         },
@@ -138,11 +138,11 @@ const anyTestFailures = !(
                                             "start": 120,
                                             "end": 122
                                         },
-                                        "flags": 32,
+                                        "flags": 97,
                                         "start": 116,
                                         "end": 122
                                     },
-                                    "flags": 32,
+                                    "flags": 97,
                                     "start": 25,
                                     "end": 122
                                 },

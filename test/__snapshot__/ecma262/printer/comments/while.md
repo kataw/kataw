@@ -189,7 +189,7 @@ while(1) // Comment
                     "start": 145,
                     "end": 150
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 122,
                 "end": 150
             },
@@ -309,7 +309,7 @@ while(1) // Comment
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 236,
                         "end": 253
                     },

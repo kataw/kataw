@@ -67,7 +67,7 @@ var obj: {
                                             "kind": 134299649,
                                             "text": "size",
                                             "rawText": "size",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 10,
                                             "end": 17
                                         },
@@ -156,7 +156,7 @@ var obj: {
                                             "kind": 134299649,
                                             "text": "size",
                                             "rawText": "size",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 55,
                                             "end": 62
                                         },

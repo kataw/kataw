@@ -159,7 +159,7 @@ function *foo() {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 45,
                                     "end": 49
                                 },
@@ -205,7 +205,7 @@ function *foo() {
                                     "start": 61,
                                     "end": 63
                                 },
-                                "flags": 32,
+                                "flags": 97,
                                 "start": 45,
                                 "end": 63
                             },

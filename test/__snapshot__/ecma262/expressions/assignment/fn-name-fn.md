@@ -79,7 +79,7 @@ fn = function() {};
                     "kind": 134299649,
                     "text": "xFn",
                     "rawText": "xFn",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 12,
                     "end": 17
                 },
@@ -151,7 +151,7 @@ fn = function() {};
                     "kind": 134299649,
                     "text": "fn",
                     "rawText": "fn",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 36,
                     "end": 39
                 },

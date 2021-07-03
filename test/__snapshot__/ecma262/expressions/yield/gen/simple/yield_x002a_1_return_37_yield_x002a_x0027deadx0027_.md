@@ -49,7 +49,7 @@ yield * 1; return 37; yield * 'dead';
                     "start": 7,
                     "end": 9
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 9
             },
@@ -103,7 +103,7 @@ yield * 1; return 37; yield * 'dead';
                     "start": 29,
                     "end": 36
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 21,
                 "end": 36
             },

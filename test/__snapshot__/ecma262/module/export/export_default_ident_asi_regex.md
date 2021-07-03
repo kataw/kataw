@@ -62,7 +62,7 @@ export default x
                         "start": 18,
                         "end": 19
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 14,
                     "end": 19
                 },
@@ -80,7 +80,7 @@ export default x
                     "start": 20,
                     "end": 20
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 14,
                 "end": 20
             },

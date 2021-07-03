@@ -203,7 +203,7 @@ result = [ x = yield ] = vals;
                     "kind": 134299649,
                     "text": "result",
                     "rawText": "result",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 49,
                     "end": 57
                 },

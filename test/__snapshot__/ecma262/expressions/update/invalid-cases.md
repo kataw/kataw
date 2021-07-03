@@ -85,7 +85,7 @@ new new foo().bar++;
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 8,
                         "end": 13
                     },
@@ -136,7 +136,7 @@ new new foo().bar++;
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 21,
                             "end": 26
                         },
@@ -190,7 +190,7 @@ new new foo().bar++;
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 36,
                             "end": 41
                         },
@@ -202,7 +202,7 @@ new new foo().bar++;
                             "start": 42,
                             "end": 45
                         },
-                        "flags": 96,
+                        "flags": 97,
                         "start": 36,
                         "end": 45
                     },

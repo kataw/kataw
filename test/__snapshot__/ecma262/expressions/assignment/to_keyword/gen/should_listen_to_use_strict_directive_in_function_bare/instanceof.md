@@ -95,7 +95,7 @@ function f() {
                                     "start": 43,
                                     "end": 43
                                 },
-                                "flags": 32,
+                                "flags": 97,
                                 "start": 30,
                                 "end": 43
                             },

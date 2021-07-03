@@ -125,7 +125,7 @@ let x = a ? (b, c) : (d, e)
                                 "start": 20,
                                 "end": 27
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 7,
                             "end": 27
                         },

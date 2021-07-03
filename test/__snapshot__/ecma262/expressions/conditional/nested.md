@@ -106,7 +106,7 @@ z(z(z(a ? b : c++)));
                                                         "start": 13,
                                                         "end": 17
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 96,
                                                     "start": 6,
                                                     "end": 17
                                                 }

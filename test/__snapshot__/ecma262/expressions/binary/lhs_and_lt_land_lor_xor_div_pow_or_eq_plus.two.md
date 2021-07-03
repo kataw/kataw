@@ -47,7 +47,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                                 "start": 5,
                                 "end": 8
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 0,
                             "end": 8
                         },
@@ -81,11 +81,11 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                                 "start": 15,
                                 "end": 18
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 13,
                             "end": 18
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 0,
                         "end": 18
                     },
@@ -103,7 +103,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                         "start": 21,
                         "end": 24
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 0,
                     "end": 24
                 },
@@ -171,15 +171,15 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                                     "start": 43,
                                     "end": 46
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 40,
                                 "end": 46
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 35,
                             "end": 46
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 30,
                         "end": 46
                     },
@@ -215,7 +215,7 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                                 "start": 54,
                                 "end": 58
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 51,
                             "end": 58
                         },
@@ -233,15 +233,15 @@ x0 << x1 & x2 < x3 && x4 || x5 ^ x6 / x7 ** x8 | x9 == x10 + x
                             "start": 60,
                             "end": 62
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 51,
                         "end": 62
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 30,
                     "end": 62
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 62
             },

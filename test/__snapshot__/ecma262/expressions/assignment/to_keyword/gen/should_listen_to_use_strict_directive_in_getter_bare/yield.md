@@ -105,7 +105,7 @@ foo = {
                                                             "kind": 134299649,
                                                             "text": "yield",
                                                             "rawText": "yield",
-                                                            "flags": 96,
+                                                            "flags": 97,
                                                             "start": 36,
                                                             "end": 46
                                                         },

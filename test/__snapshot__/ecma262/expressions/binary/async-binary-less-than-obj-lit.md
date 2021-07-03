@@ -49,7 +49,7 @@ async <{}>(x)
                         "start": 7,
                         "end": 9
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 0,
                     "end": 9
                 },
@@ -73,7 +73,7 @@ async <{}>(x)
                     "start": 10,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 13
             },

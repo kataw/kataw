@@ -97,7 +97,7 @@ x: for(;;) continue x
                     "start": 23,
                     "end": 24
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 21,
                 "end": 24
             },

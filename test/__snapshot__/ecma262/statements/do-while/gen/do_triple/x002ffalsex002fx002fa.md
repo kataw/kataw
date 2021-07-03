@@ -72,7 +72,7 @@ do do do /false//a while while while
                                 "start": 17,
                                 "end": 18
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 8,
                             "end": 18
                         },

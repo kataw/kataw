@@ -209,7 +209,7 @@ export type * from "foo";
                         "start": 67,
                         "end": 72
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 60,
                     "end": 72
                 },

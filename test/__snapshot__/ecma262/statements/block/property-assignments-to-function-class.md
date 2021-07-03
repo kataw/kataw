@@ -76,7 +76,7 @@ FooBar.bar = 1;
                                     "kind": 134299649,
                                     "text": "Foo",
                                     "rawText": "Foo",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 14,
                                     "end": 18
                                 },
@@ -88,7 +88,7 @@ FooBar.bar = 1;
                                     "start": 19,
                                     "end": 22
                                 },
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 14,
                                 "end": 22
                             },
@@ -196,7 +196,7 @@ FooBar.bar = 1;
                                     "kind": 134299649,
                                     "text": "Foo2",
                                     "rawText": "Foo2",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 51,
                                     "end": 56
                                 },
@@ -208,7 +208,7 @@ FooBar.bar = 1;
                                     "start": 57,
                                     "end": 60
                                 },
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 51,
                                 "end": 60
                             },
@@ -291,7 +291,7 @@ FooBar.bar = 1;
                                     "kind": 134299649,
                                     "text": "FooBar",
                                     "rawText": "FooBar",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 87,
                                     "end": 94
                                 },
@@ -303,7 +303,7 @@ FooBar.bar = 1;
                                     "start": 95,
                                     "end": 98
                                 },
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 87,
                                 "end": 98
                             },

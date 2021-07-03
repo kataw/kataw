@@ -86,7 +86,7 @@ loop: for (;;) {
                 "kind": 134299649,
                 "text": "loop",
                 "rawText": "loop",
-                "flags": 96,
+                "flags": 97,
                 "start": 61,
                 "end": 67
             },

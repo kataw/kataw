@@ -862,7 +862,7 @@ const processArgs =
                                             "kind": 134299649,
                                             "text": "resolver",
                                             "rawText": "resolver",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 196,
                                             "end": 209
                                         },

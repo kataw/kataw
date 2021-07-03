@@ -102,7 +102,7 @@ function *f() {
                                             "start": 36,
                                             "end": 38
                                         },
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 23,
                                         "end": 38
                                     },
@@ -120,7 +120,7 @@ function *f() {
                                         "start": 40,
                                         "end": 42
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 23,
                                     "end": 42
                                 },

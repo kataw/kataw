@@ -1720,7 +1720,7 @@ let x = { foo(){ super(); } };
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 492,
                     "end": 494
                 },
@@ -1842,7 +1842,7 @@ let x = { foo(){ super(); } };
                     "kind": 134299649,
                     "text": "g",
                     "rawText": "g",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 528,
                     "end": 530
                 },
@@ -1952,7 +1952,7 @@ let x = { foo(){ super(); } };
                     "kind": 134299649,
                     "text": "g",
                     "rawText": "g",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 558,
                     "end": 560
                 },
@@ -2087,7 +2087,7 @@ let x = { foo(){ super(); } };
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 590,
                     "end": 592
                 },
@@ -2424,7 +2424,7 @@ let x = { foo(){ super(); } };
                                 "start": 689,
                                 "end": 697
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 685,
                             "end": 697
                         },

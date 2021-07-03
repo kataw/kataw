@@ -33,7 +33,7 @@
                         "kind": 134299649,
                         "text": "static",
                         "rawText": "\\u0073tatic",
-                        "flags": 96,
+                        "flags": 16480,
                         "start": 1,
                         "end": 12
                     },

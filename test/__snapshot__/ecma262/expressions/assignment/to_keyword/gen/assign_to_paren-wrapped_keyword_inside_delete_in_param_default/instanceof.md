@@ -86,7 +86,7 @@ async (x = delete ((instanceof) = f)) => {}
                                                 "start": 30,
                                                 "end": 30
                                             },
-                                            "flags": 32,
+                                            "flags": 96,
                                             "start": 20,
                                             "end": 30
                                         },

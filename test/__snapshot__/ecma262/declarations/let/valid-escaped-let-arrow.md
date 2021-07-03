@@ -69,7 +69,7 @@ async l\u0065t => 42;
                     "kind": 134299649,
                     "text": "let",
                     "rawText": "l\\u0065t",
-                    "flags": 96,
+                    "flags": 16480,
                     "start": 22,
                     "end": 31
                 },

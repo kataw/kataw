@@ -100,7 +100,7 @@ for ({x=y}=x in x) ;
                         "start": 15,
                         "end": 17
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 11,
                     "end": 17
                 },

@@ -69,7 +69,7 @@ g => await g
                     "kind": 134299649,
                     "text": "g",
                     "rawText": "g",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 13,
                     "end": 15
                 },

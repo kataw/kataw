@@ -67,7 +67,7 @@ var v = a ?
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 11,
                                 "end": 15
                             },
@@ -85,7 +85,7 @@ var v = a ?
                                 "start": 17,
                                 "end": 19
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 7,
                             "end": 19
                         },

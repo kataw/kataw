@@ -111,7 +111,7 @@ let[x] in x;
                     "start": 9,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 6,
                 "end": 11
             },

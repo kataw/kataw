@@ -118,7 +118,7 @@ for (var i = 0; i < 1; i++) label: function f() { };
                     "start": 19,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 15,
                 "end": 21
             },

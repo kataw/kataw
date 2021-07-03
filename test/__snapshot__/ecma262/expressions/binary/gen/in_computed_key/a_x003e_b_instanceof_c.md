@@ -77,7 +77,7 @@ x = {[ a > b instanceof c ]: y}
                                                 "start": 10,
                                                 "end": 12
                                             },
-                                            "flags": 32,
+                                            "flags": 96,
                                             "start": 6,
                                             "end": 12
                                         },
@@ -95,7 +95,7 @@ x = {[ a > b instanceof c ]: y}
                                             "start": 23,
                                             "end": 25
                                         },
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 6,
                                         "end": 25
                                     },

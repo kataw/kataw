@@ -67,7 +67,7 @@ declare class X {
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 17,
                                 "end": 21
                             },
@@ -138,7 +138,7 @@ declare class X {
                                 "kind": 134299649,
                                 "text": "c",
                                 "rawText": "c",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 50,
                                 "end": 54
                             },

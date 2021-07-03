@@ -122,7 +122,7 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                                     "start": 47,
                                                     "end": 49
                                                 },
-                                                "flags": 32,
+                                                "flags": 96,
                                                 "start": 39,
                                                 "end": 49
                                             },
@@ -176,7 +176,7 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                                     "start": 69,
                                                     "end": 76
                                                 },
-                                                "flags": 32,
+                                                "flags": 96,
                                                 "start": 61,
                                                 "end": 76
                                             },

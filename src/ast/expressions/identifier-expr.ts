@@ -5,12 +5,18 @@ export interface Identifier extends SyntaxNode {
   readonly rawText: string;
 }
 
-export function createIdentifier(text: string, rawText: string, start: number, end: number): Identifier {
+export function createIdentifier(
+  text: string,
+  rawText: string,
+  flags: NodeFlags,
+  start: number,
+  end: number
+): Identifier {
   return {
     kind: SyntaxKind.Identifier,
     text,
     rawText,
-    flags: NodeFlags.ExpressionNode | NodeFlags.NoChildren,
+    flags,
     start,
     end
   };

@@ -419,7 +419,7 @@ new function() {};
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 124,
                     "end": 126
                 },
@@ -582,7 +582,7 @@ new function() {};
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 172,
                     "end": 174
                 },
@@ -631,7 +631,7 @@ new function() {};
                     "start": 176,
                     "end": 190
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 172,
                 "end": 190
             },

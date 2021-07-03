@@ -65,7 +65,7 @@ yield: label;
                 "kind": 134299649,
                 "text": "declare",
                 "rawText": "declare",
-                "flags": 96,
+                "flags": 97,
                 "start": 15,
                 "end": 24
             },
@@ -167,7 +167,7 @@ yield: label;
                 "kind": 134299649,
                 "text": "yield",
                 "rawText": "yield",
-                "flags": 96,
+                "flags": 97,
                 "start": 61,
                 "end": 68
             },

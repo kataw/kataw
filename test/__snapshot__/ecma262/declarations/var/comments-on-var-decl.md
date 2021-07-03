@@ -292,7 +292,7 @@ n4 = z2;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 463,
                     "end": 604
                 },
@@ -579,7 +579,7 @@ n4 = z2;
                                     "start": 979,
                                     "end": 981
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 975,
                                 "end": 981
                             },
@@ -872,7 +872,7 @@ n4 = z2;
                     "kind": 134299649,
                     "text": "n4",
                     "rawText": "n4",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 1079,
                     "end": 1082
                 },

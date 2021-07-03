@@ -31,7 +31,7 @@ p\u0072ivate = x;
                     "kind": 134299649,
                     "text": "private",
                     "rawText": "p\\u0072ivate",
-                    "flags": 96,
+                    "flags": 16480,
                     "start": 0,
                     "end": 12
                 },

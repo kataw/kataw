@@ -118,7 +118,7 @@ class A {
                                     "kind": 134299649,
                                     "text": "run",
                                     "rawText": "run",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 31,
                                     "end": 38
                                 },
@@ -148,7 +148,7 @@ class A {
                                                             "kind": 134299649,
                                                             "text": "A",
                                                             "rawText": "A",
-                                                            "flags": 96,
+                                                            "flags": 97,
                                                             "start": 42,
                                                             "end": 48
                                                         },
@@ -160,7 +160,7 @@ class A {
                                                             "start": 49,
                                                             "end": 56
                                                         },
-                                                        "flags": 96,
+                                                        "flags": 97,
                                                         "start": 42,
                                                         "end": 56
                                                     },

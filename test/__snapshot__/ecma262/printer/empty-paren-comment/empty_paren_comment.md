@@ -255,7 +255,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                                 "kind": 134299649,
                                                 "text": "f",
                                                 "rawText": "f",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 104,
                                                 "end": 108
                                             },
@@ -298,7 +298,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                             "kind": 134299649,
                                             "text": "f",
                                             "rawText": "f",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 123,
                                             "end": 127
                                         },
@@ -350,7 +350,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                             "kind": 134299649,
                                             "text": "f",
                                             "rawText": "f",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 147,
                                             "end": 151
                                         },
@@ -404,7 +404,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                             "kind": 134299649,
                                             "text": "f",
                                             "rawText": "f",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 176,
                                             "end": 180
                                         },
@@ -489,7 +489,7 @@ let f4 = () => doThing(a, /* ... */ b);
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 208,
                     "end": 211
                 },
@@ -517,7 +517,7 @@ let f4 = () => doThing(a, /* ... */ b);
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 223,
                     "end": 225
                 },
@@ -554,7 +554,7 @@ let f4 = () => doThing(a, /* ... */ b);
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 240,
                     "end": 242
                 },
@@ -599,7 +599,7 @@ let f4 = () => doThing(a, /* ... */ b);
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 259,
                     "end": 261
                 },

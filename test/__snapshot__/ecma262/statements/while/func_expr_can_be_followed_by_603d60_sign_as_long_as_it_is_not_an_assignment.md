@@ -83,7 +83,7 @@ while (function* () {} === x);
                     "start": 26,
                     "end": 28
                 },
-                "flags": 32,
+                "flags": 288,
                 "start": 7,
                 "end": 28
             },

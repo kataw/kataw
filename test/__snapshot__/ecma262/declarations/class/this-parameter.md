@@ -82,7 +82,7 @@ class two {
                                 "kind": 134299649,
                                 "text": "m1",
                                 "rawText": "m1",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 19,
                                 "end": 24
                             },
@@ -161,7 +161,7 @@ class two {
                                 "kind": 134299649,
                                 "text": "m2",
                                 "rawText": "m2",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 45,
                                 "end": 50
                             },
@@ -270,7 +270,7 @@ class two {
                                 "kind": 134299649,
                                 "text": "m3",
                                 "rawText": "m3",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 82,
                                 "end": 87
                             },
@@ -384,7 +384,7 @@ class two {
                                 "kind": 134299649,
                                 "text": "m4",
                                 "rawText": "m4",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 119,
                                 "end": 124
                             },
@@ -547,7 +547,7 @@ class two {
                                     "kind": 134299649,
                                     "text": "m1",
                                     "rawText": "m1",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 158,
                                     "end": 163
                                 },
@@ -630,7 +630,7 @@ class two {
                                     "kind": 134299649,
                                     "text": "m2",
                                     "rawText": "m2",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 180,
                                     "end": 186
                                 },
@@ -721,7 +721,7 @@ class two {
                                     "kind": 134299649,
                                     "text": "m3",
                                     "rawText": "m3",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 206,
                                     "end": 212
                                 },
@@ -827,7 +827,7 @@ class two {
                                     "kind": 134299649,
                                     "text": "m4",
                                     "rawText": "m4",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 235,
                                     "end": 241
                                 },
@@ -949,7 +949,7 @@ class two {
                                     "kind": 134299649,
                                     "text": "m5",
                                     "rawText": "m5",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 270,
                                     "end": 276
                                 },

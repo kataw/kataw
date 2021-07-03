@@ -76,11 +76,11 @@
                                     "start": 13,
                                     "end": 15
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 10,
                                 "end": 15
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 1,
                             "end": 15
                         },

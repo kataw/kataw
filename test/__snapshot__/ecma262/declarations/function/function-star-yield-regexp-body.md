@@ -100,7 +100,7 @@ function *f() { yield
                                             "start": 25,
                                             "end": 26
                                         },
-                                        "flags": 32,
+                                        "flags": 49,
                                         "start": 21,
                                         "end": 26
                                     },
@@ -118,7 +118,7 @@ function *f() { yield
                                         "start": 27,
                                         "end": 28
                                     },
-                                    "flags": 32,
+                                    "flags": 49,
                                     "start": 21,
                                     "end": 28
                                 },

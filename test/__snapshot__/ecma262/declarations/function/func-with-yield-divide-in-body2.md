@@ -99,7 +99,7 @@ function f2() { yield /=2 /d }
                                         "start": 27,
                                         "end": 28
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 24,
                                     "end": 28
                                 },

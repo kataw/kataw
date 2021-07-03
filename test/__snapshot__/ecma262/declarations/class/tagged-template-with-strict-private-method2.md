@@ -70,7 +70,7 @@ new Foo();
                                     "kind": 134299649,
                                     "text": "#tag",
                                     "rawText": "#tag",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 11,
                                     "end": 18
                                 },
@@ -135,7 +135,7 @@ new Foo();
                                 "kind": 134299649,
                                 "text": "#tag2",
                                 "rawText": "#tag2",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 43,
                                 "end": 52
                             },
@@ -186,7 +186,7 @@ new Foo();
                                     "kind": 134299649,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 65,
                                     "end": 80
                                 },
@@ -285,7 +285,7 @@ new Foo();
                                                             "kind": 134299649,
                                                             "text": "console",
                                                             "rawText": "console",
-                                                            "flags": 96,
+                                                            "flags": 97,
                                                             "start": 133,
                                                             "end": 145
                                                         },
@@ -297,7 +297,7 @@ new Foo();
                                                             "start": 146,
                                                             "end": 152
                                                         },
-                                                        "flags": 96,
+                                                        "flags": 97,
                                                         "start": 133,
                                                         "end": 152
                                                     },
@@ -326,7 +326,7 @@ new Foo();
                                                                     "start": 165,
                                                                     "end": 170
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 96,
                                                                 "start": 153,
                                                                 "end": 170
                                                             }
@@ -423,7 +423,7 @@ new Foo();
                                                             "kind": 134299649,
                                                             "text": "console",
                                                             "rawText": "console",
-                                                            "flags": 96,
+                                                            "flags": 97,
                                                             "start": 224,
                                                             "end": 236
                                                         },
@@ -435,7 +435,7 @@ new Foo();
                                                             "start": 237,
                                                             "end": 243
                                                         },
-                                                        "flags": 96,
+                                                        "flags": 97,
                                                         "start": 224,
                                                         "end": 243
                                                     },
@@ -464,7 +464,7 @@ new Foo();
                                                                     "start": 257,
                                                                     "end": 262
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 96,
                                                                 "start": 244,
                                                                 "end": 262
                                                             }

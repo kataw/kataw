@@ -54,7 +54,7 @@ if (somethingGoesWrong) { // Why this comment goes to the next line...
                                         "kind": 134299649,
                                         "text": "console",
                                         "rawText": "console",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 25,
                                         "end": 80
                                     },
@@ -66,7 +66,7 @@ if (somethingGoesWrong) { // Why this comment goes to the next line...
                                         "start": 81,
                                         "end": 86
                                     },
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 25,
                                     "end": 86
                                 },

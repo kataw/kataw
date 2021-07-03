@@ -136,7 +136,7 @@ function * gen() { function not_gen() { unction* gf() { var a = yield 'foo'; } }
                                                     "start": 48,
                                                     "end": 53
                                                 },
-                                                "flags": 32,
+                                                "flags": 96,
                                                 "start": 39,
                                                 "end": 53
                                             },

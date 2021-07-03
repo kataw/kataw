@@ -79,7 +79,7 @@ export {}
                         "start": 11,
                         "end": 14
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 9,
                     "end": 14
                 },
@@ -97,7 +97,7 @@ export {}
                     "start": 15,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 9,
                 "end": 15
             },

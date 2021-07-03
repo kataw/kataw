@@ -72,7 +72,7 @@ x = 01124n;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 28,
                     "end": 31
                 },
@@ -106,7 +106,7 @@ x = 01124n;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 62,
                     "end": 65
                 },
@@ -140,7 +140,7 @@ x = 01124n;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 78,
                     "end": 81
                 },
@@ -174,7 +174,7 @@ x = 01124n;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 95,
                     "end": 98
                 },

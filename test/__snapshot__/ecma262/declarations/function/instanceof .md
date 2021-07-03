@@ -108,7 +108,7 @@ function foo(value: AOrString) {
                                     "kind": 134299649,
                                     "text": "invariant",
                                     "rawText": "invariant",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 32,
                                     "end": 44
                                 },
@@ -139,7 +139,7 @@ function foo(value: AOrString) {
                                                 "start": 61,
                                                 "end": 63
                                             },
-                                            "flags": 32,
+                                            "flags": 96,
                                             "start": 45,
                                             "end": 63
                                         }

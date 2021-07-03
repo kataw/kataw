@@ -49,7 +49,7 @@ var a = {
                                         "kind": 134299649,
                                         "text": "break",
                                         "rawText": "br\\u{65}ak",
-                                        "flags": 96,
+                                        "flags": 8289,
                                         "start": 9,
                                         "end": 22
                                     }

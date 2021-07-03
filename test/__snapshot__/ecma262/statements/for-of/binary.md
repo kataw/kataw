@@ -76,11 +76,11 @@ a + b - c
                         "start": 7,
                         "end": 9
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 5,
                     "end": 9
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 9
             },

@@ -236,7 +236,7 @@ x = (a,b)+c=>{};
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 49,
                     "end": 51
                 },
@@ -534,7 +534,7 @@ x = (a,b)+c=>{};
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 133,
                     "end": 135
                 },
@@ -782,7 +782,7 @@ x = (a,b)+c=>{};
                     "start": 214,
                     "end": 219
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 208,
                 "end": 219
             },
@@ -817,7 +817,7 @@ x = (a,b)+c=>{};
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 224,
                     "end": 226
                 },
@@ -878,7 +878,7 @@ x = (a,b)+c=>{};
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 238,
                     "end": 240
                 },
@@ -945,7 +945,7 @@ x = (a,b)+c=>{};
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 253,
                     "end": 255
                 },

@@ -87,7 +87,7 @@ export { \u0061bc }
                                 "kind": 134299649,
                                 "text": "abc",
                                 "rawText": "\\u0061bc",
-                                "flags": 96,
+                                "flags": 16480,
                                 "start": 21,
                                 "end": 30
                             },

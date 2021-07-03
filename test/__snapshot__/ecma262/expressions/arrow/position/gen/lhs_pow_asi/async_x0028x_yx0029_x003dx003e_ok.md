@@ -89,7 +89,7 @@ async (x, y) => ok
                     "start": 21,
                     "end": 23
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 15,
                 "end": 23
             },

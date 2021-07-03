@@ -147,7 +147,7 @@ function *P(){
                                     "start": 37,
                                     "end": 39
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 34,
                                 "end": 39
                             },

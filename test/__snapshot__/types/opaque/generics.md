@@ -234,7 +234,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 53,
                                 "end": 59
                             },
@@ -276,7 +276,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "kind": 134299649,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 63,
                                 "end": 69
                             },
@@ -318,7 +318,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "kind": 134299649,
                                 "text": "baz",
                                 "rawText": "baz",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 73,
                                 "end": 79
                             },

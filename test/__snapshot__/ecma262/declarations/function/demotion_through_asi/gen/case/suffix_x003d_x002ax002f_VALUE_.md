@@ -82,7 +82,7 @@ function f(){
                                     "kind": 134299649,
                                     "text": "suffix",
                                     "rawText": "suffix",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 28,
                                     "end": 37
                                 },
@@ -115,7 +115,7 @@ function f(){
                                         "start": 41,
                                         "end": 49
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 39,
                                     "end": 49
                                 },

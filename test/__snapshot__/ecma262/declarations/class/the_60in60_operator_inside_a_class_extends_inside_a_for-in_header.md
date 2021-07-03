@@ -155,7 +155,7 @@ for (class x extends a in b {} in c);
                     "start": 33,
                     "end": 35
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 30,
                 "end": 35
             },

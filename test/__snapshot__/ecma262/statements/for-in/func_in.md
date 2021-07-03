@@ -96,7 +96,7 @@ for (function(){ a in b; }.prop in x);
                                             "start": 21,
                                             "end": 23
                                         },
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 16,
                                         "end": 23
                                     },

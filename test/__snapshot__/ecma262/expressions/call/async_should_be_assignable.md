@@ -57,7 +57,7 @@ async = 5 + 5;
                         "start": 11,
                         "end": 13
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 7,
                     "end": 13
                 },

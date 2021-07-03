@@ -69,7 +69,7 @@ x => ok
                         "start": 10,
                         "end": 12
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 4,
                     "end": 12
                 },

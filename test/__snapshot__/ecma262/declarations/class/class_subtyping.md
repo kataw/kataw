@@ -243,7 +243,7 @@ class D extends C<O> {
                                     "kind": 134299649,
                                     "text": "bar",
                                     "rawText": "bar",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 45,
                                     "end": 51
                                 },

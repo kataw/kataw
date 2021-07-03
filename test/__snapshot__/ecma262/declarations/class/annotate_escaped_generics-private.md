@@ -99,7 +99,7 @@ class I<X> {
                                 "kind": 134299649,
                                 "text": "#i",
                                 "rawText": "#i",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 12,
                                 "end": 17
                             },
@@ -126,7 +126,7 @@ class I<X> {
                                 "kind": 134299649,
                                 "text": "_f",
                                 "rawText": "_f",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 18,
                                 "end": 23
                             },
@@ -158,7 +158,7 @@ class I<X> {
                                     "kind": 134299649,
                                     "text": "_h",
                                     "rawText": "_h",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 24,
                                     "end": 29
                                 },
@@ -271,7 +271,7 @@ class I<X> {
                                     "kind": 134299649,
                                     "text": "g",
                                     "rawText": "g",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 55,
                                     "end": 59
                                 },

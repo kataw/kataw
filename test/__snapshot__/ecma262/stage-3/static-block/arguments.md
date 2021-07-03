@@ -107,7 +107,7 @@ function f() {
                                                                 "kind": 134299649,
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
-                                                                "flags": 96,
+                                                                "flags": 97,
                                                                 "start": 39,
                                                                 "end": 55
                                                             },

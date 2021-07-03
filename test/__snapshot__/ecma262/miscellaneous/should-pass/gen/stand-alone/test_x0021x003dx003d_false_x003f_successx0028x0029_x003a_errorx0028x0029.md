@@ -49,7 +49,7 @@ test !== false ? success() : error()
                         "start": 8,
                         "end": 14
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 0,
                     "end": 14
                 },
@@ -109,7 +109,7 @@ test !== false ? success() : error()
                     "start": 28,
                     "end": 36
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 36
             },

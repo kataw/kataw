@@ -61,7 +61,7 @@ async () => {  \u0070rotected = x  }
                                     "kind": 134299649,
                                     "text": "protected",
                                     "rawText": "\\u0070rotected",
-                                    "flags": 96,
+                                    "flags": 16480,
                                     "start": 13,
                                     "end": 29
                                 },

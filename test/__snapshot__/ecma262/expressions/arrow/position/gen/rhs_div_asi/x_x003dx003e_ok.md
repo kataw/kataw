@@ -73,7 +73,7 @@ x
                     "start": 3,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 0,
                 "end": 11
             },

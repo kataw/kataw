@@ -23,7 +23,7 @@ pa\u0073s();
                     "kind": 134299649,
                     "text": "pass",
                     "rawText": "pa\\u0073s",
-                    "flags": 96,
+                    "flags": 16480,
                     "start": 0,
                     "end": 9
                 },

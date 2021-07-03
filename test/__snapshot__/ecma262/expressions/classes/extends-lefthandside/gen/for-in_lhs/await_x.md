@@ -64,7 +64,7 @@ for (await x in x) ;
                     "start": 15,
                     "end": 17
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 10,
                 "end": 17
             },

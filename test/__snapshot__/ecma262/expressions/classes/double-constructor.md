@@ -61,7 +61,7 @@
                                             "kind": 134299649,
                                             "text": "constructor",
                                             "rawText": "constructor",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 10,
                                             "end": 24
                                         },
@@ -112,7 +112,7 @@
                                             "kind": 134299649,
                                             "text": "constructor",
                                             "rawText": "constructor",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 30,
                                             "end": 44
                                         },

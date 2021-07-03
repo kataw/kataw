@@ -42,7 +42,7 @@
                     "start": 3,
                     "end": 7
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 7
             },
@@ -56,7 +56,7 @@
                 "kind": 134299649,
                 "text": "ɵResourceLoaderImpl_BaseFactory",
                 "rawText": "\\u0275ResourceLoaderImpl_BaseFactory",
-                "flags": 96,
+                "flags": 16481,
                 "start": 7,
                 "end": 44
             },

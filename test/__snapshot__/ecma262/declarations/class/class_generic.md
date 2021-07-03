@@ -96,7 +96,7 @@ class C<T> {
                                 "kind": 134299649,
                                 "text": "arr",
                                 "rawText": "arr",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 12,
                                 "end": 18
                             },
@@ -223,7 +223,7 @@ class C<T> {
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 38,
                                     "end": 45
                                 },

@@ -1,6 +1,6 @@
 import { SyntaxToken, TokenSyntaxKind } from './ast/token';
 import { SyntaxKind, SyntaxNode, NodeFlags } from './ast/syntax-node';
-import { createRootNode, RootNode } from './ast/rootNode';
+import { createRootNode, RootNode } from './ast/root-node';
 import { StatementNode } from './ast/statements';
 import { createAssignmentExpression, AssignmentExpression } from './ast/expressions/assignment-expr';
 import { createForBinding, ForBinding } from './ast/statements/for-binding';
@@ -223,6 +223,7 @@ export function visitEachChild(
             (<BinaryExpression>node).left,
             (<BinaryExpression>node).operatorToken,
             (<BinaryExpression>node).right,
+            (<BinaryExpression>node).flags,
             (<BinaryExpression>node).start,
             (<BinaryExpression>node).end
           )
@@ -560,6 +561,7 @@ export function visitEachChild(
         ? createIdentifier(
             (<Identifier>node).text,
             (<Identifier>node).rawText,
+            (<Identifier>node).flags,
             (<Identifier>node).start,
             (<Identifier>node).end
           )
@@ -589,6 +591,7 @@ export function visitEachChild(
             (<ConditionalExpression>node).consequent,
             (<ConditionalExpression>node).colonToken,
             (<ConditionalExpression>node).alternate,
+            (<ConditionalExpression>node).flags,
             (<ConditionalExpression>node).start,
             (<ConditionalExpression>node).end
           )

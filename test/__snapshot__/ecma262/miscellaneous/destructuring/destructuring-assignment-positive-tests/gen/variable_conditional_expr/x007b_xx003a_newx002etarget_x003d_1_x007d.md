@@ -256,7 +256,7 @@ var x, y, z; m(['b']) ? lhs : { x: new.target = 1 } = {}
                     "start": 29,
                     "end": 56
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 12,
                 "end": 56
             },

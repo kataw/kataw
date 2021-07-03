@@ -217,7 +217,7 @@ Trailing block comment of this script file.
                                 "kind": 134299649,
                                 "text": "instruction1",
                                 "rawText": "instruction1",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 246,
                                 "end": 309
                             },
@@ -231,7 +231,7 @@ Trailing block comment of this script file.
                                 "kind": 134299649,
                                 "text": "instruction2",
                                 "rawText": "instruction2",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 310,
                                 "end": 402
                             },
@@ -245,7 +245,7 @@ Trailing block comment of this script file.
                                 "kind": 134299649,
                                 "text": "instruction3",
                                 "rawText": "instruction3",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 403,
                                 "end": 495
                             },

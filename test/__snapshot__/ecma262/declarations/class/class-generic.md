@@ -94,7 +94,7 @@ class A<TYPE> {
                                 "kind": 134299649,
                                 "text": "aaf",
                                 "rawText": "aaf",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 15,
                                 "end": 21
                             },
@@ -231,7 +231,7 @@ class A<TYPE> {
                                                             "start": 70,
                                                             "end": 74
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 57,
                                                         "end": 74
                                                     },
@@ -269,7 +269,7 @@ class A<TYPE> {
                                                         "start": 75,
                                                         "end": 88
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 96,
                                                     "start": 57,
                                                     "end": 88
                                                 },
@@ -315,7 +315,7 @@ class A<TYPE> {
                                     "kind": 134299649,
                                     "text": "anf",
                                     "rawText": "anf",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 94,
                                     "end": 100
                                 },
@@ -441,7 +441,7 @@ class A<TYPE> {
                                                             "start": 143,
                                                             "end": 147
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 130,
                                                         "end": 147
                                                     },
@@ -479,7 +479,7 @@ class A<TYPE> {
                                                         "start": 148,
                                                         "end": 161
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 96,
                                                     "start": 130,
                                                     "end": 161
                                                 },

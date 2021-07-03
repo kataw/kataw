@@ -142,7 +142,7 @@ export default function <,>() {}
                     "start": 27,
                     "end": 32
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 26,
                 "end": 32
             },

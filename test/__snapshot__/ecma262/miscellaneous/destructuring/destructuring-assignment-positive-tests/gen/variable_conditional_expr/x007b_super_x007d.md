@@ -211,7 +211,7 @@ var x, y, z; m(['b']) ? lhs : { super } = {}
                     "start": 29,
                     "end": 44
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 12,
                 "end": 44
             },

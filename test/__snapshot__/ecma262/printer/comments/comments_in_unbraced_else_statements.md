@@ -61,7 +61,7 @@ else
                         "kind": 134299649,
                         "text": "doFirstThing",
                         "rawText": "doFirstThing",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 16,
                         "end": 44
                     },
@@ -125,7 +125,7 @@ else
                             "kind": 134299649,
                             "text": "doSecondThing",
                             "rawText": "doSecondThing",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 70,
                             "end": 99
                         },
@@ -159,7 +159,7 @@ else
                             "kind": 134299649,
                             "text": "doThirdThing",
                             "rawText": "doThirdThing",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 107,
                             "end": 156
                         },

@@ -58,7 +58,7 @@ import a, ** from 'f';
                         "start": 12,
                         "end": 17
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 9,
                     "end": 17
                 },

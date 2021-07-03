@@ -32,7 +32,7 @@ a ? b : (): string => {}
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 0,
                     "end": 2
                 },
@@ -111,7 +111,7 @@ a ? b : (): string => {}
                     "start": 8,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 0,
                 "end": 21
             },
@@ -141,7 +141,7 @@ a ? b : (): string => {}
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 28,
                     "end": 31
                 },
@@ -216,7 +216,7 @@ a ? b : (): string => {}
                     "start": 43,
                     "end": 56
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 28,
                 "end": 56
             },
@@ -246,7 +246,7 @@ a ? b : (): string => {}
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 63,
                     "end": 66
                 },
@@ -325,7 +325,7 @@ a ? b : (): string => {}
                     "start": 72,
                     "end": 85
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 63,
                 "end": 85
             },
@@ -491,7 +491,7 @@ a ? b : (): string => {}
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 126,
                     "end": 129
                 },
@@ -541,7 +541,7 @@ a ? b : (): string => {}
                     "start": 135,
                     "end": 138
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 126,
                 "end": 138
             },

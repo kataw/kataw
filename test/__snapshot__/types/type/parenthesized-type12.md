@@ -109,7 +109,7 @@ type X = (1<z>[]);
                         "start": 12,
                         "end": 13
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 11,
                     "end": 13
                 },
@@ -133,7 +133,7 @@ type X = (1<z>[]);
                     "start": 14,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 11,
                 "end": 16
             },

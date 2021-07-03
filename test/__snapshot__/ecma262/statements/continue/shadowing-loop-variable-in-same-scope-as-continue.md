@@ -143,7 +143,7 @@ for (let x = 0; x < 10;) {
                     "start": 34,
                     "end": 37
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 30,
                 "end": 37
             },
@@ -166,7 +166,7 @@ for (let x = 0; x < 10;) {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 41,
                                     "end": 45
                                 },
@@ -192,7 +192,7 @@ for (let x = 0; x < 10;) {
                                     "kind": 134299649,
                                     "text": "count",
                                     "rawText": "count",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 48,
                                     "end": 56
                                 },

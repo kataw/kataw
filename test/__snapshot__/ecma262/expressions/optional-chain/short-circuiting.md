@@ -89,7 +89,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 8,
                                     "end": 31
                                 },
@@ -215,7 +215,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                 "kind": 134299649,
                                 "text": "undefined",
                                 "rawText": "undefined",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 44,
                                 "end": 81
                             },
@@ -258,7 +258,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                     "kind": 134299649,
                                     "text": "undefined",
                                     "rawText": "undefined",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 88,
                                     "end": 119
                                 },

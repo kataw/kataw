@@ -61,11 +61,11 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                                 "start": 11,
                                 "end": 14
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 7,
                             "end": 14
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 0,
                         "end": 14
                     },
@@ -103,7 +103,7 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                                     "start": 22,
                                     "end": 25
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 19,
                                 "end": 25
                             },
@@ -121,7 +121,7 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                                 "start": 27,
                                 "end": 30
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 19,
                             "end": 30
                         },
@@ -139,11 +139,11 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                             "start": 32,
                             "end": 35
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 19,
                         "end": 35
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 0,
                     "end": 35
                 },
@@ -195,7 +195,7 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                                 "start": 58,
                                 "end": 61
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 47,
                             "end": 61
                         },
@@ -229,19 +229,19 @@ x0 + x1 === x2 | x3 ** x4 * x5 ^ x6 || x7 && x8 instanceof x9 & x10 << x
                                 "start": 70,
                                 "end": 72
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 67,
                             "end": 72
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 47,
                         "end": 72
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 41,
                     "end": 72
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 72
             },

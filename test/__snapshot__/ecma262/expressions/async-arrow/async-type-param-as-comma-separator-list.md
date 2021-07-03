@@ -84,7 +84,7 @@ async <T, U>(x)
                             "start": 12,
                             "end": 15
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 9,
                         "end": 15
                     }

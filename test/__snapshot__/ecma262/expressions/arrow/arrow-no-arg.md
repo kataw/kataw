@@ -92,15 +92,15 @@
                                 "start": 21,
                                 "end": 23
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 19,
                             "end": 23
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 11,
                         "end": 23
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 5,
                     "end": 23
                 },

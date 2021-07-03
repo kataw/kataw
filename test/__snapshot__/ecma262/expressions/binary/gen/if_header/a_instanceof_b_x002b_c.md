@@ -57,7 +57,7 @@ if ( a instanceof b + c ) ;
                         "start": 17,
                         "end": 19
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 4,
                     "end": 19
                 },
@@ -75,7 +75,7 @@ if ( a instanceof b + c ) ;
                     "start": 21,
                     "end": 23
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 4,
                 "end": 23
             },

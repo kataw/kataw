@@ -405,7 +405,7 @@ a = b => { let b; };
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 75,
                     "end": 78
                 },
@@ -493,7 +493,7 @@ a = b => { let b; };
                     "kind": 134299649,
                     "text": "yield",
                     "rawText": "yield",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 92,
                     "end": 99
                 },
@@ -544,7 +544,7 @@ a = b => { let b; };
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 113,
                     "end": 116
                 },
@@ -709,7 +709,7 @@ a = b => { let b; };
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 155,
                     "end": 158
                 },
@@ -811,7 +811,7 @@ a = b => { let b; };
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 178,
                     "end": 181
                 },
@@ -913,7 +913,7 @@ a = b => { let b; };
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 200,
                     "end": 203
                 },
@@ -1721,7 +1721,7 @@ a = b => { let b; };
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 394,
                     "end": 397
                 },

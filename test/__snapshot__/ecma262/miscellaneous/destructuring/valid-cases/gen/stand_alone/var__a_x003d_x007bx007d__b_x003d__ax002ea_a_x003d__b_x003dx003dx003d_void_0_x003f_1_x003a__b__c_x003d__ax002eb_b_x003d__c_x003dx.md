@@ -150,7 +150,7 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                                     "start": 34,
                                     "end": 41
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 27,
                                 "end": 41
                             },
@@ -182,7 +182,7 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                                 "start": 47,
                                 "end": 50
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 27,
                             "end": 50
                         },
@@ -276,7 +276,7 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                                     "start": 73,
                                     "end": 80
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 66,
                                 "end": 80
                             },
@@ -308,7 +308,7 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                                 "start": 86,
                                 "end": 89
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 66,
                             "end": 89
                         },
@@ -402,7 +402,7 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                                     "start": 112,
                                     "end": 119
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 105,
                                 "end": 119
                             },
@@ -434,7 +434,7 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                                 "start": 125,
                                 "end": 128
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 105,
                             "end": 128
                         },

@@ -68,7 +68,7 @@ type MyObject = {
                                 "kind": 134299649,
                                 "text": "foo",
                                 "rawText": "foo",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 17,
                                 "end": 23
                             },
@@ -101,7 +101,7 @@ type MyObject = {
                                 "kind": 134299649,
                                 "text": "bar",
                                 "rawText": "bar",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 32,
                                 "end": 38
                             },
@@ -134,7 +134,7 @@ type MyObject = {
                                 "kind": 134299649,
                                 "text": "baz",
                                 "rawText": "baz",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 48,
                                 "end": 54
                             },

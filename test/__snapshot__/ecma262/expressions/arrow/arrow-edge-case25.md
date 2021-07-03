@@ -122,7 +122,7 @@ a ? async (b) : c => d : e;
                     "start": 24,
                     "end": 26
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 26
             },

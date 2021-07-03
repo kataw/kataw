@@ -436,7 +436,7 @@ L: let
                     "kind": 134299649,
                     "text": "let",
                     "rawText": "let",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 141,
                     "end": 146
                 },
@@ -534,7 +534,7 @@ L: let
                     "kind": 134299649,
                     "text": "let",
                     "rawText": "let",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 171,
                     "end": 176
                 },
@@ -552,7 +552,7 @@ L: let
                     "start": 178,
                     "end": 180
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 171,
                 "end": 180
             },
@@ -600,7 +600,7 @@ L: let
                     "kind": 134299649,
                     "text": "let",
                     "rawText": "let",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 189,
                     "end": 194
                 },
@@ -826,7 +826,7 @@ L: let
                                                     "start": 262,
                                                     "end": 269
                                                 },
-                                                "flags": 32,
+                                                "flags": 96,
                                                 "start": 257,
                                                 "end": 269
                                             }
@@ -1018,7 +1018,7 @@ L: let
                     "kind": 134299649,
                     "text": "let",
                     "rawText": "let",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 310,
                     "end": 315
                 },
@@ -1053,7 +1053,7 @@ L: let
                 "kind": 134299649,
                 "text": "L",
                 "rawText": "L",
-                "flags": 96,
+                "flags": 97,
                 "start": 320,
                 "end": 323
             },
@@ -1087,7 +1087,7 @@ L: let
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 96,
+                "flags": 97,
                 "start": 328,
                 "end": 330
             },
@@ -1101,7 +1101,7 @@ L: let
                 "kind": 134299649,
                 "text": "L",
                 "rawText": "L",
-                "flags": 96,
+                "flags": 97,
                 "start": 330,
                 "end": 333
             },

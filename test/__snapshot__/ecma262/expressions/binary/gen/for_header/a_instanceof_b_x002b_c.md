@@ -57,7 +57,7 @@ for ( a instanceof b + c ;;);
                         "start": 18,
                         "end": 20
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 0,
                     "end": 20
                 },
@@ -75,7 +75,7 @@ for ( a instanceof b + c ;;);
                     "start": 22,
                     "end": 24
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 24
             },

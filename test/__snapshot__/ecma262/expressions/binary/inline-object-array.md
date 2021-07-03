@@ -149,7 +149,7 @@ const obj = {
                                         "kind": 134299649,
                                         "text": "catalogs",
                                         "rawText": "catalogs",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 26,
                                         "end": 37
                                     },
@@ -178,7 +178,7 @@ const obj = {
                                         "kind": 134299649,
                                         "text": "loadState",
                                         "rawText": "loadState",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 42,
                                         "end": 54
                                     },
@@ -201,7 +201,7 @@ const obj = {
                                         "kind": 134299649,
                                         "text": "opened",
                                         "rawText": "opened",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 63,
                                         "end": 72
                                     },
@@ -222,7 +222,7 @@ const obj = {
                                         "kind": 134299649,
                                         "text": "searchQuery",
                                         "rawText": "searchQuery",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 80,
                                         "end": 94
                                     },
@@ -245,7 +245,7 @@ const obj = {
                                         "kind": 134299649,
                                         "text": "selectedCatalog",
                                         "rawText": "selectedCatalog",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 99,
                                         "end": 117
                                     },
@@ -269,7 +269,7 @@ const obj = {
                         "start": 24,
                         "end": 126
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 11,
                     "end": 126
                 },
@@ -289,7 +289,7 @@ const obj = {
                     "kind": 134299649,
                     "text": "prevState",
                     "rawText": "prevState",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 127,
                     "end": 138
                 },
@@ -321,11 +321,11 @@ const obj = {
                             "kind": 134299649,
                             "text": "defaultState",
                             "rawText": "defaultState",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 153,
                             "end": 168
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 140,
                         "end": 168
                     },
@@ -347,7 +347,7 @@ const obj = {
                                         "kind": 134299649,
                                         "text": "catalogs",
                                         "rawText": "catalogs",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 173,
                                         "end": 186
                                     },
@@ -376,7 +376,7 @@ const obj = {
                                         "kind": 134299649,
                                         "text": "loadState",
                                         "rawText": "loadState",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 191,
                                         "end": 205
                                     },
@@ -399,7 +399,7 @@ const obj = {
                                         "kind": 134299649,
                                         "text": "opened",
                                         "rawText": "opened",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 214,
                                         "end": 225
                                     },
@@ -420,7 +420,7 @@ const obj = {
                                         "kind": 134299649,
                                         "text": "searchQuery",
                                         "rawText": "searchQuery",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 233,
                                         "end": 249
                                     },
@@ -443,7 +443,7 @@ const obj = {
                                         "kind": 134299649,
                                         "text": "selectedCatalog",
                                         "rawText": "selectedCatalog",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 254,
                                         "end": 274
                                     },
@@ -467,7 +467,7 @@ const obj = {
                         "start": 171,
                         "end": 285
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 140,
                     "end": 285
                 },
@@ -487,7 +487,7 @@ const obj = {
                     "kind": 134299649,
                     "text": "prevState",
                     "rawText": "prevState",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 286,
                     "end": 297
                 },
@@ -519,7 +519,7 @@ const obj = {
                             "kind": 134299649,
                             "text": "defaultState",
                             "rawText": "defaultState",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 312,
                             "end": 327
                         },
@@ -541,7 +541,7 @@ const obj = {
                                             "kind": 134299649,
                                             "text": "catalogs",
                                             "rawText": "catalogs",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 332,
                                             "end": 345
                                         },
@@ -570,7 +570,7 @@ const obj = {
                                             "kind": 134299649,
                                             "text": "loadState",
                                             "rawText": "loadState",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 350,
                                             "end": 364
                                         },
@@ -593,7 +593,7 @@ const obj = {
                                             "kind": 134299649,
                                             "text": "opened",
                                             "rawText": "opened",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 373,
                                             "end": 384
                                         },
@@ -614,7 +614,7 @@ const obj = {
                                             "kind": 134299649,
                                             "text": "searchQuery",
                                             "rawText": "searchQuery",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 392,
                                             "end": 408
                                         },
@@ -637,7 +637,7 @@ const obj = {
                                             "kind": 134299649,
                                             "text": "selectedCatalog",
                                             "rawText": "selectedCatalog",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 413,
                                             "end": 433
                                         },
@@ -661,11 +661,11 @@ const obj = {
                             "start": 330,
                             "end": 444
                         },
-                        "flags": 32,
+                        "flags": 97,
                         "start": 327,
                         "end": 444
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 299,
                     "end": 444
                 },
@@ -685,7 +685,7 @@ const obj = {
                     "kind": 134299649,
                     "text": "prevState",
                     "rawText": "prevState",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 445,
                     "end": 456
                 },
@@ -737,11 +737,11 @@ const obj = {
                                 "start": 485,
                                 "end": 498
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 482,
                             "end": 498
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 458,
                         "end": 498
                     },
@@ -763,7 +763,7 @@ const obj = {
                                         "kind": 134299649,
                                         "text": "catalogs",
                                         "rawText": "catalogs",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 503,
                                         "end": 516
                                     },
@@ -792,7 +792,7 @@ const obj = {
                                         "kind": 134299649,
                                         "text": "loadState",
                                         "rawText": "loadState",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 521,
                                         "end": 535
                                     },
@@ -815,7 +815,7 @@ const obj = {
                                         "kind": 134299649,
                                         "text": "opened",
                                         "rawText": "opened",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 544,
                                         "end": 555
                                     },
@@ -836,7 +836,7 @@ const obj = {
                                         "kind": 134299649,
                                         "text": "searchQuery",
                                         "rawText": "searchQuery",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 563,
                                         "end": 579
                                     },
@@ -859,7 +859,7 @@ const obj = {
                                         "kind": 134299649,
                                         "text": "selectedCatalog",
                                         "rawText": "selectedCatalog",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 584,
                                         "end": 604
                                     },
@@ -883,7 +883,7 @@ const obj = {
                         "start": 501,
                         "end": 615
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 458,
                     "end": 615
                 },
@@ -958,7 +958,7 @@ const obj = {
                                                     "kind": 134299649,
                                                     "text": "name",
                                                     "rawText": "name",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 645,
                                                     "end": 654
                                                 },
@@ -981,7 +981,7 @@ const obj = {
                                                     "kind": 134299649,
                                                     "text": "path",
                                                     "rawText": "path",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 670,
                                                     "end": 679
                                                 },
@@ -1017,7 +1017,7 @@ const obj = {
                         "start": 639,
                         "end": 707
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 630,
                     "end": 707
                 },
@@ -1108,7 +1108,7 @@ const obj = {
                                                         "kind": 134299649,
                                                         "text": "name",
                                                         "rawText": "name",
-                                                        "flags": 96,
+                                                        "flags": 97,
                                                         "start": 750,
                                                         "end": 759
                                                     },
@@ -1131,7 +1131,7 @@ const obj = {
                                                         "kind": 134299649,
                                                         "text": "path",
                                                         "rawText": "path",
-                                                        "flags": 96,
+                                                        "flags": 97,
                                                         "start": 775,
                                                         "end": 784
                                                     },
@@ -1167,11 +1167,11 @@ const obj = {
                             "start": 744,
                             "end": 812
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 741,
                         "end": 812
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 722,
                     "end": 812
                 },
@@ -1239,7 +1239,7 @@ const obj = {
                             "start": 836,
                             "end": 846
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 827,
                         "end": 846
                     },
@@ -1266,7 +1266,7 @@ const obj = {
                                                     "kind": 134299649,
                                                     "text": "name",
                                                     "rawText": "name",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 855,
                                                     "end": 864
                                                 },
@@ -1289,7 +1289,7 @@ const obj = {
                                                     "kind": 134299649,
                                                     "text": "path",
                                                     "rawText": "path",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 880,
                                                     "end": 889
                                                 },
@@ -1325,7 +1325,7 @@ const obj = {
                         "start": 849,
                         "end": 917
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 827,
                     "end": 917
                 },
@@ -1459,7 +1459,7 @@ const obj = {
                                                             "kind": 134299649,
                                                             "text": "shouldReturn",
                                                             "rawText": "shouldReturn",
-                                                            "flags": 96,
+                                                            "flags": 97,
                                                             "start": 985,
                                                             "end": 1002
                                                         },
@@ -1475,7 +1475,7 @@ const obj = {
                                                                 "kind": 134299649,
                                                                 "text": "result",
                                                                 "rawText": "result",
-                                                                "flags": 96,
+                                                                "flags": 97,
                                                                 "start": 1005,
                                                                 "end": 1016
                                                             },
@@ -1487,11 +1487,11 @@ const obj = {
                                                                 "start": 1017,
                                                                 "end": 1019
                                                             },
-                                                            "flags": 96,
+                                                            "flags": 97,
                                                             "start": 1005,
                                                             "end": 1019
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 97,
                                                         "start": 983,
                                                         "end": 1019
                                                     },
@@ -1513,7 +1513,7 @@ const obj = {
                                                                         "kind": 134299649,
                                                                         "text": "status",
                                                                         "rawText": "status",
-                                                                        "flags": 96,
+                                                                        "flags": 97,
                                                                         "start": 1024,
                                                                         "end": 1037
                                                                     },
@@ -1536,7 +1536,7 @@ const obj = {
                                                                         "kind": 134299649,
                                                                         "text": "createdAt",
                                                                         "rawText": "createdAt",
-                                                                        "flags": 96,
+                                                                        "flags": 97,
                                                                         "start": 1044,
                                                                         "end": 1060
                                                                     },
@@ -1573,7 +1573,7 @@ const obj = {
                                                                         "kind": 134299649,
                                                                         "text": "updatedAt",
                                                                         "rawText": "updatedAt",
-                                                                        "flags": 96,
+                                                                        "flags": 97,
                                                                         "start": 1079,
                                                                         "end": 1095
                                                                     },
@@ -1613,7 +1613,7 @@ const obj = {
                                                         "start": 1022,
                                                         "end": 1119
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 97,
                                                     "start": 983,
                                                     "end": 1119
                                                 },
@@ -1775,7 +1775,7 @@ const obj = {
                                                                 "kind": 134299649,
                                                                 "text": "shouldReturn",
                                                                 "rawText": "shouldReturn",
-                                                                "flags": 96,
+                                                                "flags": 97,
                                                                 "start": 1194,
                                                                 "end": 1211
                                                             },
@@ -1807,7 +1807,7 @@ const obj = {
                                                                 "start": 1214,
                                                                 "end": 1224
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 97,
                                                             "start": 1192,
                                                             "end": 1224
                                                         },
@@ -1825,7 +1825,7 @@ const obj = {
                                                             "start": 1227,
                                                             "end": 1234
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 97,
                                                         "start": 1192,
                                                         "end": 1234
                                                     },
@@ -1847,7 +1847,7 @@ const obj = {
                                                                         "kind": 134299649,
                                                                         "text": "status",
                                                                         "rawText": "status",
-                                                                        "flags": 96,
+                                                                        "flags": 97,
                                                                         "start": 1239,
                                                                         "end": 1252
                                                                     },
@@ -1870,7 +1870,7 @@ const obj = {
                                                                         "kind": 134299649,
                                                                         "text": "createdAt",
                                                                         "rawText": "createdAt",
-                                                                        "flags": 96,
+                                                                        "flags": 97,
                                                                         "start": 1259,
                                                                         "end": 1275
                                                                     },
@@ -1907,7 +1907,7 @@ const obj = {
                                                                         "kind": 134299649,
                                                                         "text": "updatedAt",
                                                                         "rawText": "updatedAt",
-                                                                        "flags": 96,
+                                                                        "flags": 97,
                                                                         "start": 1294,
                                                                         "end": 1310
                                                                     },
@@ -1947,7 +1947,7 @@ const obj = {
                                                         "start": 1237,
                                                         "end": 1334
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 97,
                                                     "start": 1192,
                                                     "end": 1334
                                                 },
@@ -2019,7 +2019,7 @@ const obj = {
                                             "kind": 134299649,
                                             "text": "state",
                                             "rawText": "state",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 1356,
                                             "end": 1364
                                         },
@@ -2045,11 +2045,11 @@ const obj = {
                                                     "kind": 134299649,
                                                     "text": "stateIsOK",
                                                     "rawText": "stateIsOK",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 1384,
                                                     "end": 1398
                                                 },
-                                                "flags": 32,
+                                                "flags": 96,
                                                 "start": 1356,
                                                 "end": 1398
                                             },
@@ -2071,7 +2071,7 @@ const obj = {
                                                                 "kind": 134299649,
                                                                 "text": "loadState",
                                                                 "rawText": "loadState",
-                                                                "flags": 96,
+                                                                "flags": 97,
                                                                 "start": 1403,
                                                                 "end": 1419
                                                             },
@@ -2094,7 +2094,7 @@ const obj = {
                                                                 "kind": 134299649,
                                                                 "text": "opened",
                                                                 "rawText": "opened",
-                                                                "flags": 96,
+                                                                "flags": 97,
                                                                 "start": 1428,
                                                                 "end": 1441
                                                             },
@@ -2118,7 +2118,7 @@ const obj = {
                                                 "start": 1401,
                                                 "end": 1454
                                             },
-                                            "flags": 32,
+                                            "flags": 96,
                                             "start": 1356,
                                             "end": 1454
                                         },
@@ -2133,7 +2133,7 @@ const obj = {
                                             "kind": 134299649,
                                             "text": "loadNext",
                                             "rawText": "loadNext",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 1455,
                                             "end": 1466
                                         },
@@ -2163,7 +2163,7 @@ const obj = {
                                                     "start": 1480,
                                                     "end": 1488
                                                 },
-                                                "flags": 32,
+                                                "flags": 96,
                                                 "start": 1455,
                                                 "end": 1488
                                             },
@@ -2185,7 +2185,7 @@ const obj = {
                                                                 "kind": 134299649,
                                                                 "text": "skipNext",
                                                                 "rawText": "skipNext",
-                                                                "flags": 96,
+                                                                "flags": 97,
                                                                 "start": 1493,
                                                                 "end": 1508
                                                             },
@@ -2209,7 +2209,7 @@ const obj = {
                                                 "start": 1491,
                                                 "end": 1520
                                             },
-                                            "flags": 32,
+                                            "flags": 96,
                                             "start": 1455,
                                             "end": 1520
                                         },
@@ -2224,7 +2224,7 @@ const obj = {
                                             "kind": 134299649,
                                             "text": "loaded",
                                             "rawText": "loaded",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 1521,
                                             "end": 1530
                                         },

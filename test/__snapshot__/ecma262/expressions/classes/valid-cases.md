@@ -156,7 +156,7 @@ x = class {y = 1; 'z' = 2}
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 26,
                     "end": 29
                 },
@@ -320,7 +320,7 @@ x = class {y = 1; 'z' = 2}
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 56,
                     "end": 59
                 },
@@ -503,7 +503,7 @@ x = class {y = 1; 'z' = 2}
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 95,
                     "end": 98
                 },
@@ -686,7 +686,7 @@ x = class {y = 1; 'z' = 2}
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 134,
                     "end": 137
                 },

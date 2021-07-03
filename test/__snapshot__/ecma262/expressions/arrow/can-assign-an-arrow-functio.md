@@ -94,7 +94,7 @@ y = async (x) => {}
                     "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 11,
                     "end": 14
                 },
@@ -157,7 +157,7 @@ y = async (x) => {}
                     "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 25,
                     "end": 28
                 },
@@ -229,7 +229,7 @@ y = async (x) => {}
                     "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 40,
                     "end": 43
                 },
@@ -297,7 +297,7 @@ y = async (x) => {}
                     "kind": 134299649,
                     "text": "y",
                     "rawText": "y",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 60,
                     "end": 63
                 },

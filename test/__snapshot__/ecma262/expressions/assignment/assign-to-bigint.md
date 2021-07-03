@@ -69,7 +69,7 @@ a= 0b0101n;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 6,
                     "end": 9
                 },
@@ -103,7 +103,7 @@ a= 0b0101n;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 17,
                     "end": 20
                 },
@@ -137,7 +137,7 @@ a= 0b0101n;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 29,
                     "end": 32
                 },

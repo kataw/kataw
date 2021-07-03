@@ -113,7 +113,7 @@ var a = b ? (c): d => e;
                                 "start": 16,
                                 "end": 23
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 7,
                             "end": 23
                         },

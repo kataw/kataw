@@ -109,7 +109,7 @@ x(function (other) { return other });
                                                     "start": 62,
                                                     "end": 68
                                                 },
-                                                "flags": 32,
+                                                "flags": 4194400,
                                                 "start": 54,
                                                 "end": 68
                                             },
@@ -152,7 +152,7 @@ x(function (other) { return other });
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 72,
                     "end": 84
                 },

@@ -90,7 +90,7 @@ function* f(){ yield x + y; }
                                         "start": 24,
                                         "end": 26
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 20,
                                     "end": 26
                                 },

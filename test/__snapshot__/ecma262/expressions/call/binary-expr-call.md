@@ -49,7 +49,7 @@ x<number>(y)
                         "start": 2,
                         "end": 8
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 0,
                     "end": 8
                 },
@@ -73,7 +73,7 @@ x<number>(y)
                     "start": 9,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 12
             },

@@ -394,7 +394,7 @@ var z : Object = (x) => "hi"
                         "kind": 134299649,
                         "text": "f",
                         "rawText": "f",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 295,
                         "end": 297
                     },
@@ -406,7 +406,7 @@ var z : Object = (x) => "hi"
                         "start": 298,
                         "end": 304
                     },
-                    "flags": 96,
+                    "flags": 97,
                     "start": 295,
                     "end": 304
                 },
@@ -1610,7 +1610,7 @@ var z : Object = (x) => "hi"
                                                     "start": 834,
                                                     "end": 836
                                                 },
-                                                "flags": 32,
+                                                "flags": 96,
                                                 "start": 830,
                                                 "end": 836
                                             },

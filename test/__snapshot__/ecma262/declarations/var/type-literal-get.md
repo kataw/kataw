@@ -60,7 +60,7 @@ var obj: {
                                         "staticKeyword": null,
                                         "getKeyword": {
                                             "kind": 16498,
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 10,
                                             "end": 16
                                         },

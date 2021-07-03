@@ -81,11 +81,11 @@ var v = a ? b :
                                 "kind": 134299649,
                                 "text": "c",
                                 "rawText": "c",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 15,
                                 "end": 19
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 7,
                             "end": 19
                         },

@@ -58,7 +58,7 @@ import x, * as a from "y"
                         "start": 11,
                         "end": 14
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 9,
                     "end": 14
                 },

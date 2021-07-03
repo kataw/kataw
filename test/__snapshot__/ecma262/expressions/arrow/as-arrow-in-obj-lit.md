@@ -121,7 +121,7 @@ x = {arrow: (x, y) => ok};
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 23,
                     "end": 26
                 },

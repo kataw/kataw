@@ -120,7 +120,7 @@
                                         "start": 24,
                                         "end": 26
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 22,
                                     "end": 26
                                 },
@@ -128,7 +128,7 @@
                                 "start": 17,
                                 "end": 26
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 0,
                             "end": 26
                         }

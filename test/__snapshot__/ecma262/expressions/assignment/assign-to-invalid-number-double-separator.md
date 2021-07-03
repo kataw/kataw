@@ -81,7 +81,7 @@ x = 0o0011___________;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 14,
                     "end": 17
                 },
@@ -129,7 +129,7 @@ x = 0o0011___________;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 41,
                     "end": 44
                 },

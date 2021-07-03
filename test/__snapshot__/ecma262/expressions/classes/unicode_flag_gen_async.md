@@ -65,7 +65,7 @@ class x { async *prot\u006ftype(){} }
                                     "kind": 134299649,
                                     "text": "prototype",
                                     "rawText": "prot\\u006ftype",
-                                    "flags": 96,
+                                    "flags": 16480,
                                     "start": 17,
                                     "end": 31
                                 },

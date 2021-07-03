@@ -162,7 +162,7 @@ class o {f([b, a], ...b) {}}
                                 "kind": 134299649,
                                 "text": "class",
                                 "rawText": "class",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 29,
                                 "end": 36
                             },

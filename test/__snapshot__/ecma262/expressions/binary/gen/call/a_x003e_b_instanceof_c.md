@@ -64,7 +64,7 @@ foo( a > b instanceof c )
                                     "start": 8,
                                     "end": 10
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 4,
                                 "end": 10
                             },
@@ -82,7 +82,7 @@ foo( a > b instanceof c )
                                 "start": 21,
                                 "end": 23
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 4,
                             "end": 23
                         }

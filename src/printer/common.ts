@@ -105,7 +105,7 @@ export function writeComments(
   leadingSeparator: boolean,
   _trailingSeparator: boolean
 ) {
-  let parts = [];
+  const parts = [];
 
   if (comments && comments.length > 0) {
     if (leadingSeparator) {
@@ -226,7 +226,7 @@ export function printLeadingComments(printer: Printer, pos: number) {
       : getLeadingCommentRanges(printer.source, pos);
   }
 
-  let trailingSeparator = false;
+  const trailingSeparator = false;
 
   if (leadingComments && leadingComments.length > 0) {
     let printLeadingSpace = !trailingSeparator;
@@ -273,7 +273,7 @@ export function printDetachedCommentsAndUpdateCommentsInfo(node: any, printer: P
 
 export function printDetachedComments(printer: Printer, node: any, _newLine: string) {
   let currentDetachedCommentInfo: any;
-  let leadingComments = getLeadingCommentRanges(printer.source, node.start);
+  const leadingComments = getLeadingCommentRanges(printer.source, node.start);
 
   if (leadingComments) {
     const detachedComments: any[] = [];
@@ -606,7 +606,6 @@ export function shouldprintBlockFunctionBodyOnSingleLine(printer: any, node: any
   if (body.flags & NodeFlags.NewLine) return false;
 
   if (body.start !== body.end) {
-
     return false;
   }
 

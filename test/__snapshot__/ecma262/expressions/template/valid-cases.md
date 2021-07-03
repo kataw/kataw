@@ -199,7 +199,7 @@ tag`${a}\\rb`;
                     "start": 93,
                     "end": 104
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 79,
                 "end": 104
             },
@@ -281,7 +281,7 @@ tag`${a}\\rb`;
                     "start": 118,
                     "end": 129
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 105,
                 "end": 129
             },
@@ -379,7 +379,7 @@ tag`${a}\\rb`;
                     "start": 146,
                     "end": 162
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 130,
                 "end": 162
             },
@@ -397,7 +397,7 @@ tag`${a}\\rb`;
                         "kind": 134299649,
                         "text": "tag",
                         "rawText": "tag",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 163,
                         "end": 168
                     },
@@ -485,7 +485,7 @@ tag`${a}\\rb`;
                     "start": 206,
                     "end": 215
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 193,
                 "end": 215
             },
@@ -543,7 +543,7 @@ tag`${a}\\rb`;
                     "start": 227,
                     "end": 238
                 },
-                "flags": 32,
+                "flags": 4194401,
                 "start": 216,
                 "end": 238
             },
@@ -559,7 +559,7 @@ tag`${a}\\rb`;
                     "kind": 134299649,
                     "text": "tag",
                     "rawText": "tag",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 239,
                     "end": 244
                 },
@@ -611,7 +611,7 @@ tag`${a}\\rb`;
                     "kind": 134299649,
                     "text": "tag",
                     "rawText": "tag",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 254,
                     "end": 258
                 },
@@ -663,7 +663,7 @@ tag`${a}\\rb`;
                     "kind": 134299649,
                     "text": "tag",
                     "rawText": "tag",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 268,
                     "end": 272
                 },
@@ -715,7 +715,7 @@ tag`${a}\\rb`;
                     "kind": 134299649,
                     "text": "tag",
                     "rawText": "tag",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 284,
                     "end": 288
                 },
@@ -767,7 +767,7 @@ tag`${a}\\rb`;
                     "kind": 134299649,
                     "text": "tag",
                     "rawText": "tag",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 299,
                     "end": 303
                 },

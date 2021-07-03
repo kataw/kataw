@@ -66,7 +66,7 @@ foo /* 2*/ bar() {}
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 12,
                                             "end": 24
                                         },

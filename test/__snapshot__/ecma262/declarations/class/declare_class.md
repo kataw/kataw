@@ -193,7 +193,7 @@ declare class D extends C { }
                                 "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "constructor",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 72,
                                 "end": 89
                             },

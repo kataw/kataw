@@ -138,7 +138,7 @@ x = {async __proto__(){}, *__proto__(){}};
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 34,
                     "end": 36
                 },
@@ -275,7 +275,7 @@ x = {async __proto__(){}, *__proto__(){}};
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 70,
                     "end": 72
                 },

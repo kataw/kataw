@@ -70,7 +70,7 @@ function *a(){({yi\u0065ld: 0})}
                                                     "kind": 134299649,
                                                     "text": "yield",
                                                     "rawText": "yi\\u0065ld",
-                                                    "flags": 96,
+                                                    "flags": 16480,
                                                     "start": 16,
                                                     "end": 26
                                                 },

@@ -42,7 +42,7 @@ bar
                 "kind": 134299649,
                 "text": "bar",
                 "rawText": "bar",
-                "flags": 96,
+                "flags": 97,
                 "start": 3,
                 "end": 7
             },

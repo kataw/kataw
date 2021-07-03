@@ -31,7 +31,7 @@ p\u0072otected = x;
                     "kind": 134299649,
                     "text": "protected",
                     "rawText": "p\\u0072otected",
-                    "flags": 96,
+                    "flags": 16480,
                     "start": 0,
                     "end": 14
                 },

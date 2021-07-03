@@ -40,7 +40,7 @@ a => a;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 5,
                     "end": 7
                 },

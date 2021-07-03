@@ -146,7 +146,7 @@ function test() {
                                                 "start": 78,
                                                 "end": 82
                                             },
-                                            "flags": 32,
+                                            "flags": 4194400,
                                             "start": 72,
                                             "end": 82
                                         },

@@ -27,7 +27,7 @@ yi\u0065ld: 1;
                 "kind": 134299649,
                 "text": "yield",
                 "rawText": "yi\\u0065ld",
-                "flags": 96,
+                "flags": 16480,
                 "start": 0,
                 "end": 10
             },

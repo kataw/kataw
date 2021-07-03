@@ -72,7 +72,7 @@ new (A, B)();
                     "kind": 134299649,
                     "text": "g",
                     "rawText": "g",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 4,
                     "end": 6
                 },
@@ -109,7 +109,7 @@ new (A, B)();
                     "kind": 134299649,
                     "text": "h",
                     "rawText": "h",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 10,
                     "end": 12
                 },
@@ -154,7 +154,7 @@ new (A, B)();
                     "kind": 134299649,
                     "text": "i",
                     "rawText": "i",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 19,
                     "end": 21
                 },
@@ -219,7 +219,7 @@ new (A, B)();
                     "kind": 134299649,
                     "text": "j",
                     "rawText": "j",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 34,
                     "end": 36
                 },
@@ -270,7 +270,7 @@ new (A, B)();
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 43,
                         "end": 45
                     },
@@ -282,7 +282,7 @@ new (A, B)();
                         "start": 46,
                         "end": 47
                     },
-                    "flags": 96,
+                    "flags": 97,
                     "start": 43,
                     "end": 47
                 },
@@ -334,7 +334,7 @@ new (A, B)();
                                 "start": 55,
                                 "end": 57
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 50,
                             "end": 57
                         },
@@ -384,7 +384,7 @@ new (A, B)();
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 63,
                                 "end": 65
                             },
@@ -396,7 +396,7 @@ new (A, B)();
                                 "start": 66,
                                 "end": 67
                             },
-                            "flags": 96,
+                            "flags": 97,
                             "start": 63,
                             "end": 67
                         },

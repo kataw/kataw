@@ -71,11 +71,11 @@ for (a+b in c) d;
                         "start": 11,
                         "end": 13
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 8,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 13
             },

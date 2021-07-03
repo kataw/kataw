@@ -68,7 +68,7 @@ var foob\\u{c481}r = 0;
                     "kind": 134299649,
                     "text": "쒁r",
                     "rawText": "\\u{c481}r",
-                    "flags": 96,
+                    "flags": 8288,
                     "start": 9,
                     "end": 18
                 },

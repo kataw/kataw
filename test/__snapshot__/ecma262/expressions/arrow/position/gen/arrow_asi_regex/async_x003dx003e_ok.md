@@ -71,7 +71,7 @@ async => ok
                             "start": 13,
                             "end": 14
                         },
-                        "flags": 32,
+                        "flags": 97,
                         "start": 8,
                         "end": 14
                     },
@@ -89,7 +89,7 @@ async => ok
                         "start": 15,
                         "end": 15
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 8,
                     "end": 15
                 },

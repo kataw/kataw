@@ -73,7 +73,7 @@ a?.9:b
                     "start": 5,
                     "end": 6
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 6
             },
@@ -89,7 +89,7 @@ a?.9:b
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 6,
                     "end": 9
                 },
@@ -121,7 +121,7 @@ a?.9:b
                     "start": 13,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 6,
                 "end": 14
             },
@@ -137,7 +137,7 @@ a?.9:b
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 14,
                     "end": 17
                 },
@@ -169,7 +169,7 @@ a?.9:b
                     "start": 21,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 14,
                 "end": 22
             },
@@ -185,7 +185,7 @@ a?.9:b
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 22,
                     "end": 25
                 },
@@ -217,7 +217,7 @@ a?.9:b
                     "start": 29,
                     "end": 30
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 22,
                 "end": 30
             },
@@ -233,7 +233,7 @@ a?.9:b
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 30,
                     "end": 33
                 },
@@ -265,7 +265,7 @@ a?.9:b
                     "start": 37,
                     "end": 38
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 30,
                 "end": 38
             },
@@ -281,7 +281,7 @@ a?.9:b
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 38,
                     "end": 41
                 },
@@ -313,7 +313,7 @@ a?.9:b
                     "start": 45,
                     "end": 46
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 38,
                 "end": 46
             },
@@ -329,7 +329,7 @@ a?.9:b
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 46,
                     "end": 49
                 },
@@ -361,7 +361,7 @@ a?.9:b
                     "start": 53,
                     "end": 54
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 46,
                 "end": 54
             },
@@ -377,7 +377,7 @@ a?.9:b
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 54,
                     "end": 57
                 },
@@ -409,7 +409,7 @@ a?.9:b
                     "start": 61,
                     "end": 62
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 54,
                 "end": 62
             },
@@ -425,7 +425,7 @@ a?.9:b
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 62,
                     "end": 65
                 },
@@ -457,7 +457,7 @@ a?.9:b
                     "start": 69,
                     "end": 70
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 62,
                 "end": 70
             },
@@ -473,7 +473,7 @@ a?.9:b
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 70,
                     "end": 73
                 },
@@ -505,7 +505,7 @@ a?.9:b
                     "start": 77,
                     "end": 78
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 70,
                 "end": 78
             },

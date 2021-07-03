@@ -91,11 +91,11 @@ x = {[ a + b instanceof c ]: y}
                                                 "start": 23,
                                                 "end": 25
                                             },
-                                            "flags": 32,
+                                            "flags": 96,
                                             "start": 12,
                                             "end": 25
                                         },
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 6,
                                         "end": 25
                                     },

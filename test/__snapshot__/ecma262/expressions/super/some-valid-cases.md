@@ -715,7 +715,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 204,
                     "end": 207
                 },
@@ -1201,7 +1201,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 339,
                     "end": 342
                 },
@@ -1317,7 +1317,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 366,
                     "end": 369
                 },

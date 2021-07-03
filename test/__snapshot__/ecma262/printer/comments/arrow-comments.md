@@ -86,7 +86,7 @@ const bem = block =>
                                     "kind": 134299649,
                                     "text": "element",
                                     "rawText": "element",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 171,
                                     "end": 326
                                 },
@@ -105,7 +105,7 @@ const bem = block =>
                                         "kind": 134299649,
                                         "text": "modifier",
                                         "rawText": "modifier",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 329,
                                         "end": 518
                                     },
@@ -139,7 +139,7 @@ const bem = block =>
                                                                 "kind": 134299649,
                                                                 "text": "css",
                                                                 "rawText": "css",
-                                                                "flags": 96,
+                                                                "flags": 97,
                                                                 "start": 542,
                                                                 "end": 554
                                                             },
@@ -170,7 +170,7 @@ const bem = block =>
                                                                 "kind": 134299649,
                                                                 "text": "element",
                                                                 "rawText": "element",
-                                                                "flags": 96,
+                                                                "flags": 97,
                                                                 "start": 562,
                                                                 "end": 578
                                                             },
@@ -249,7 +249,7 @@ const bem = block =>
                                                                 "start": 602,
                                                                 "end": 605
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 97,
                                                             "start": 562,
                                                             "end": 605
                                                         },
@@ -259,7 +259,7 @@ const bem = block =>
                                                                 "kind": 134299649,
                                                                 "text": "modifier",
                                                                 "rawText": "modifier",
-                                                                "flags": 96,
+                                                                "flags": 97,
                                                                 "start": 606,
                                                                 "end": 623
                                                             },
@@ -338,7 +338,7 @@ const bem = block =>
                                                                 "start": 648,
                                                                 "end": 651
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 97,
                                                             "start": 606,
                                                             "end": 651
                                                         }

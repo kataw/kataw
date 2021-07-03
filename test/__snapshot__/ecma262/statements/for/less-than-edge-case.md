@@ -157,7 +157,7 @@ for (let i = 0; i < require('foo').bar; i++) {
                     "start": 19,
                     "end": 38
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 15,
                 "end": 38
             },
@@ -174,7 +174,7 @@ for (let i = 0; i < require('foo').bar; i++) {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 46,
                                     "end": 52
                                 },

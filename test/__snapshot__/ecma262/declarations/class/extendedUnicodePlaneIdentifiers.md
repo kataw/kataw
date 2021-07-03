@@ -61,7 +61,7 @@ class K {
                                 "kind": 134299649,
                                 "text": "#",
                                 "rawText": "K",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 9,
                                 "end": 15
                             },
@@ -116,7 +116,7 @@ class K {
                                 "kind": 134299649,
                                 "text": "#",
                                 "rawText": "4",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 22,
                                 "end": 28
                             },

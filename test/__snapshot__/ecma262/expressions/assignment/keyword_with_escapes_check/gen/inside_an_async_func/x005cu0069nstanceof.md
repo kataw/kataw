@@ -79,7 +79,7 @@ async () => {  \u0069nstanceof = x  }
                                     "start": 30,
                                     "end": 30
                                 },
-                                "flags": 32,
+                                "flags": 16480,
                                 "start": 13,
                                 "end": 30
                             },

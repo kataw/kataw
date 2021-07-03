@@ -60,7 +60,7 @@ x = /a/y;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 9,
                     "end": 12
                 },
@@ -93,7 +93,7 @@ x = /a/y;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 20,
                     "end": 23
                 },

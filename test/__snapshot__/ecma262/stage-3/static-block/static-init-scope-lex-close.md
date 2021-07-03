@@ -147,7 +147,7 @@ class C {
                                                     "kind": 134299649,
                                                     "text": "probe",
                                                     "rawText": "probe",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 68,
                                                     "end": 78
                                                 },

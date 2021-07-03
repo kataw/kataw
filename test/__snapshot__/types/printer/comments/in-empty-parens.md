@@ -269,7 +269,7 @@ f(/* ... */ a, b);
                                                 "kind": 134299649,
                                                 "text": "f",
                                                 "rawText": "f",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 102,
                                                 "end": 106
                                             },
@@ -312,7 +312,7 @@ f(/* ... */ a, b);
                                             "kind": 134299649,
                                             "text": "f",
                                             "rawText": "f",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 121,
                                             "end": 125
                                         },
@@ -364,7 +364,7 @@ f(/* ... */ a, b);
                                             "kind": 134299649,
                                             "text": "f",
                                             "rawText": "f",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 145,
                                             "end": 149
                                         },
@@ -418,7 +418,7 @@ f(/* ... */ a, b);
                                             "kind": 134299649,
                                             "text": "f",
                                             "rawText": "f",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 174,
                                             "end": 178
                                         },
@@ -535,7 +535,7 @@ f(/* ... */ a, b);
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 219,
                                     "end": 223
                                 },
@@ -581,7 +581,7 @@ f(/* ... */ a, b);
                                 "kind": 134299649,
                                 "text": "f",
                                 "rawText": "f",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 237,
                                 "end": 241
                             },
@@ -902,7 +902,7 @@ f(/* ... */ a, b);
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 392,
                     "end": 395
                 },
@@ -930,7 +930,7 @@ f(/* ... */ a, b);
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 407,
                     "end": 409
                 },
@@ -967,7 +967,7 @@ f(/* ... */ a, b);
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 424,
                     "end": 426
                 },
@@ -1012,7 +1012,7 @@ f(/* ... */ a, b);
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 443,
                     "end": 445
                 },

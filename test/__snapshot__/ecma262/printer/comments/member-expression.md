@@ -57,7 +57,7 @@
                     "kind": 134299649,
                     "text": "Array",
                     "rawText": "Array",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 50,
                     "end": 69
                 },

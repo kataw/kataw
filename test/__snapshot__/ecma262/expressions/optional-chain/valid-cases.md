@@ -79,7 +79,7 @@ x?.['y z']();
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 11,
                     "end": 13
                 },
@@ -141,7 +141,7 @@ x?.['y z']();
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 23,
                     "end": 25
                 },

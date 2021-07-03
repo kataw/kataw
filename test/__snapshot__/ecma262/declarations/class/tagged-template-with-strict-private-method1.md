@@ -73,7 +73,7 @@ new Foo();
                                     "kind": 134299649,
                                     "text": "#tag",
                                     "rawText": "#tag",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 11,
                                     "end": 18
                                 },
@@ -143,7 +143,7 @@ new Foo();
                                     "kind": 134299649,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 43,
                                     "end": 58
                                 },
@@ -242,7 +242,7 @@ new Foo();
                                                             "kind": 134299649,
                                                             "text": "console",
                                                             "rawText": "console",
-                                                            "flags": 96,
+                                                            "flags": 97,
                                                             "start": 111,
                                                             "end": 123
                                                         },
@@ -254,7 +254,7 @@ new Foo();
                                                             "start": 124,
                                                             "end": 130
                                                         },
-                                                        "flags": 96,
+                                                        "flags": 97,
                                                         "start": 111,
                                                         "end": 130
                                                     },
@@ -283,7 +283,7 @@ new Foo();
                                                                     "start": 143,
                                                                     "end": 148
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 96,
                                                                 "start": 131,
                                                                 "end": 148
                                                             }

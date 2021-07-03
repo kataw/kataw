@@ -55,15 +55,15 @@
                         "kind": 134299649,
                         "text": "d",
                         "rawText": "d",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 15,
                         "end": 41
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 7,
                     "end": 41
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 41
             },

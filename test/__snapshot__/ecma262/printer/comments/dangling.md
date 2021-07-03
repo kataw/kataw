@@ -264,7 +264,7 @@ Thing(/* dangling */);
                     "kind": 134299649,
                     "text": "Thing",
                     "rawText": "Thing",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 139,
                     "end": 145
                 },

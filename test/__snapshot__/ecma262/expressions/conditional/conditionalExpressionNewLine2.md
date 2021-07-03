@@ -85,7 +85,7 @@ var v = a
                                 "start": 17,
                                 "end": 19
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 7,
                             "end": 19
                         },

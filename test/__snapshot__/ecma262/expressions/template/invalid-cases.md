@@ -111,7 +111,7 @@ a?.b
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 7,
                     "end": 9
                 },
@@ -184,7 +184,7 @@ a?.b
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 17,
                         "end": 19
                     },
@@ -259,7 +259,7 @@ a?.b
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 27,
                         "end": 29
                     },
@@ -344,7 +344,7 @@ a?.b
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 39,
                         "end": 41
                     },
@@ -417,7 +417,7 @@ a?.b
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 51,
                     "end": 54
                 },
@@ -504,7 +504,7 @@ a?.b
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 66,
                         "end": 68
                     },
@@ -613,7 +613,7 @@ a?.b
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 82,
                         "end": 84
                     },
@@ -710,7 +710,7 @@ a?.b
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 98,
                     "end": 100
                 },

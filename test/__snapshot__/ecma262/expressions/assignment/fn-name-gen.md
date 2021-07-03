@@ -85,7 +85,7 @@ gen = function*() {};
                     "kind": 134299649,
                     "text": "xGen",
                     "rawText": "xGen",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 14,
                     "end": 20
                 },
@@ -162,7 +162,7 @@ gen = function*() {};
                     "kind": 134299649,
                     "text": "gen",
                     "rawText": "gen",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 40,
                     "end": 44
                 },

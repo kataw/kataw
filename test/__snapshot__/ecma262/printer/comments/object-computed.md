@@ -78,7 +78,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 15,
                         "end": 20
                     },
@@ -124,7 +124,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 35,
                         "end": 39
                     },
@@ -178,7 +178,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 58,
                                         "end": 62
                                     },
@@ -190,7 +190,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                                         "start": 63,
                                         "end": 66
                                     },
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 58,
                                     "end": 66
                                 },

@@ -153,7 +153,7 @@
                             "start": 42,
                             "end": 63
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 35,
                         "end": 63
                     },

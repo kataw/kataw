@@ -61,7 +61,7 @@ async () => {  \u0069mplements = x  }
                                     "kind": 134299649,
                                     "text": "implements",
                                     "rawText": "\\u0069mplements",
-                                    "flags": 96,
+                                    "flags": 16480,
                                     "start": 13,
                                     "end": 30
                                 },

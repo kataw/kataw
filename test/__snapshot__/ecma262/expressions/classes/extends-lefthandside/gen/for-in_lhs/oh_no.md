@@ -66,7 +66,7 @@ for (oh,no in x) ;
                             "start": 13,
                             "end": 15
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 8,
                         "end": 15
                     }

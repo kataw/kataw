@@ -83,7 +83,7 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                     "start": 28,
                                     "end": 30
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 20,
                                 "end": 30
                             },
@@ -137,7 +137,7 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                     "start": 50,
                                     "end": 57
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 42,
                                 "end": 57
                             },

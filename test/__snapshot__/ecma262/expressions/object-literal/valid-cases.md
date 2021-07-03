@@ -1010,7 +1010,7 @@ x = {y: {z: 1}}?.y?.z;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 234,
                     "end": 237
                 },
@@ -1085,7 +1085,7 @@ x = {y: {z: 1}}?.y?.z;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 256,
                     "end": 259
                 },
@@ -1191,7 +1191,7 @@ x = {y: {z: 1}}?.y?.z;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 280,
                     "end": 283
                 },
@@ -1317,7 +1317,7 @@ x = {y: {z: 1}}?.y?.z;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 308,
                     "end": 311
                 },
@@ -1449,7 +1449,7 @@ x = {y: {z: 1}}?.y?.z;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 334,
                     "end": 337
                 },
@@ -1546,7 +1546,7 @@ x = {y: {z: 1}}?.y?.z;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 354,
                     "end": 357
                 },
@@ -1706,7 +1706,7 @@ x = {y: {z: 1}}?.y?.z;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 378,
                     "end": 381
                 },

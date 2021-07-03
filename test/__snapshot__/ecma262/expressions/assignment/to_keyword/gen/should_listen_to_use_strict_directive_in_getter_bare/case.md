@@ -119,7 +119,7 @@ foo = {
                                     "kind": 134299649,
                                     "text": "case",
                                     "rawText": "case",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 36,
                                     "end": 45
                                 }

@@ -105,7 +105,7 @@ class C2 {
                                     "kind": 134299649,
                                     "text": "method",
                                     "rawText": "method",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 16,
                                     "end": 25
                                 },

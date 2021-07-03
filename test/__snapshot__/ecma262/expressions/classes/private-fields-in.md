@@ -67,7 +67,7 @@ class C {
                                 "kind": 134299649,
                                 "text": "#brand",
                                 "rawText": "#brand",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 9,
                                 "end": 18
                             },
@@ -99,7 +99,7 @@ class C {
                                     "kind": 134299649,
                                     "text": "#method",
                                     "rawText": "#method",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 19,
                                     "end": 30
                                 },
@@ -276,7 +276,7 @@ class C {
                                                                 "start": 97,
                                                                 "end": 101
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 96,
                                                             "start": 87,
                                                             "end": 101
                                                         },
@@ -310,11 +310,11 @@ class C {
                                                                 "start": 115,
                                                                 "end": 119
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 96,
                                                             "start": 112,
                                                             "end": 119
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 87,
                                                         "end": 119
                                                     },
@@ -348,11 +348,11 @@ class C {
                                                             "start": 133,
                                                             "end": 137
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 130,
                                                         "end": 137
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 96,
                                                     "start": 87,
                                                     "end": 137
                                                 },

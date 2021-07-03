@@ -181,7 +181,7 @@ foo[
                                                         "start": 54,
                                                         "end": 74
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 96,
                                                     "start": 51,
                                                     "end": 74
                                                 },
@@ -189,7 +189,7 @@ foo[
                                                 "start": 49,
                                                 "end": 75
                                             },
-                                            "flags": 32,
+                                            "flags": 96,
                                             "start": 39,
                                             "end": 75
                                         },
@@ -197,7 +197,7 @@ foo[
                                         "start": 39,
                                         "end": 76
                                     },
-                                    "flags": 32,
+                                    "flags": 268435488,
                                     "start": 5,
                                     "end": 76
                                 },
@@ -237,7 +237,7 @@ foo[
                                         "start": 104,
                                         "end": 111
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 81,
                                     "end": 111
                                 },
@@ -245,7 +245,7 @@ foo[
                                 "start": 81,
                                 "end": 112
                             },
-                            "flags": 32,
+                            "flags": 33,
                             "start": 5,
                             "end": 112
                         },
@@ -293,7 +293,7 @@ foo[
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 124,
                                 "end": 127
                             },
@@ -307,11 +307,11 @@ foo[
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 129,
                                 "end": 132
                             },
-                            "flags": 32,
+                            "flags": 97,
                             "start": 124,
                             "end": 132
                         },
@@ -325,11 +325,11 @@ foo[
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 134,
                             "end": 137
                         },
-                        "flags": 32,
+                        "flags": 97,
                         "start": 124,
                         "end": 137
                     },
@@ -343,11 +343,11 @@ foo[
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 139,
                         "end": 153
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 124,
                     "end": 153
                 },
@@ -361,11 +361,11 @@ foo[
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 155,
                     "end": 158
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 124,
                 "end": 158
             },
@@ -387,7 +387,7 @@ foo[
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 159,
                                 "end": 162
                             },
@@ -401,11 +401,11 @@ foo[
                                 "kind": 134299649,
                                 "text": "longLongLongLongLongLongLongLongLong",
                                 "rawText": "longLongLongLongLongLongLongLongLong",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 165,
                                 "end": 204
                             },
-                            "flags": 32,
+                            "flags": 97,
                             "start": 159,
                             "end": 204
                         },
@@ -419,11 +419,11 @@ foo[
                             "kind": 134299649,
                             "text": "longLongLongLongLongLongLongLongLong",
                             "rawText": "longLongLongLongLongLongLongLongLong",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 207,
                             "end": 246
                         },
-                        "flags": 32,
+                        "flags": 97,
                         "start": 159,
                         "end": 246
                     },
@@ -437,11 +437,11 @@ foo[
                         "kind": 134299649,
                         "text": "longLongLongLongLongLongLongLongLong",
                         "rawText": "longLongLongLongLongLongLongLongLong",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 249,
                         "end": 300
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 159,
                     "end": 300
                 },
@@ -455,11 +455,11 @@ foo[
                     "kind": 134299649,
                     "text": "longLongLongLongLongLongLongLongLong",
                     "rawText": "longLongLongLongLongLongLongLongLong",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 303,
                     "end": 342
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 159,
                 "end": 342
             },
@@ -481,7 +481,7 @@ foo[
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 342,
                                 "end": 345
                             },
@@ -495,11 +495,11 @@ foo[
                                 "kind": 134299649,
                                 "text": "longLongLongLongLongLongLongLongLong",
                                 "rawText": "longLongLongLongLongLongLongLongLong",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 348,
                                 "end": 387
                             },
-                            "flags": 32,
+                            "flags": 97,
                             "start": 342,
                             "end": 387
                         },
@@ -513,11 +513,11 @@ foo[
                             "kind": 134299649,
                             "text": "longLongLongLongLongLongLongLongLong",
                             "rawText": "longLongLongLongLongLongLongLongLong",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 390,
                             "end": 429
                         },
-                        "flags": 32,
+                        "flags": 97,
                         "start": 342,
                         "end": 429
                     },
@@ -531,11 +531,11 @@ foo[
                         "kind": 134299649,
                         "text": "longLongLongLongLongLongLongLongLong",
                         "rawText": "longLongLongLongLongLongLongLongLong",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 432,
                         "end": 483
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 342,
                     "end": 483
                 },
@@ -549,11 +549,11 @@ foo[
                     "kind": 134299649,
                     "text": "longLongLongLongLongLongLongLongLong",
                     "rawText": "longLongLongLongLongLongLongLongLong",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 486,
                     "end": 525
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 342,
                 "end": 525
             },
@@ -625,7 +625,7 @@ foo[
                                                     "start": 572,
                                                     "end": 602
                                                 },
-                                                "flags": 32,
+                                                "flags": 97,
                                                 "start": 537,
                                                 "end": 602
                                             },
@@ -643,7 +643,7 @@ foo[
                                                 "start": 609,
                                                 "end": 639
                                             },
-                                            "flags": 32,
+                                            "flags": 97,
                                             "start": 537,
                                             "end": 639
                                         },
@@ -661,7 +661,7 @@ foo[
                                             "start": 640,
                                             "end": 672
                                         },
-                                        "flags": 32,
+                                        "flags": 97,
                                         "start": 537,
                                         "end": 672
                                     }
@@ -696,7 +696,7 @@ foo[
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 674,
                     "end": 679
                 },
@@ -710,7 +710,7 @@ foo[
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 680,
                                 "end": 684
                             },
@@ -724,11 +724,11 @@ foo[
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 686,
                                 "end": 690
                             },
-                            "flags": 32,
+                            "flags": 97,
                             "start": 680,
                             "end": 690
                         },
@@ -742,11 +742,11 @@ foo[
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 692,
                             "end": 707
                         },
-                        "flags": 32,
+                        "flags": 97,
                         "start": 680,
                         "end": 707
                     },
@@ -762,7 +762,7 @@ foo[
                             "kind": 134299649,
                             "text": "bar",
                             "rawText": "bar",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 709,
                             "end": 715
                         },
@@ -778,7 +778,7 @@ foo[
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 716,
                                             "end": 722
                                         },
@@ -792,11 +792,11 @@ foo[
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 724,
                                             "end": 730
                                         },
-                                        "flags": 32,
+                                        "flags": 97,
                                         "start": 716,
                                         "end": 730
                                     },
@@ -810,11 +810,11 @@ foo[
                                         "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 732,
                                         "end": 738
                                     },
-                                    "flags": 32,
+                                    "flags": 97,
                                     "start": 716,
                                     "end": 738
                                 },
@@ -828,11 +828,11 @@ foo[
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 740,
                                     "end": 757
                                 },
-                                "flags": 32,
+                                "flags": 97,
                                 "start": 716,
                                 "end": 757
                             },
@@ -846,11 +846,11 @@ foo[
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 759,
                                 "end": 765
                             },
-                            "flags": 32,
+                            "flags": 97,
                             "start": 716,
                             "end": 765
                         },
@@ -858,7 +858,7 @@ foo[
                         "start": 709,
                         "end": 769
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 680,
                     "end": 769
                 },
@@ -892,7 +892,7 @@ foo[
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 776,
                                     "end": 780
                                 },
@@ -906,11 +906,11 @@ foo[
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 782,
                                     "end": 786
                                 },
-                                "flags": 32,
+                                "flags": 97,
                                 "start": 775,
                                 "end": 786
                             },
@@ -924,11 +924,11 @@ foo[
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 788,
                                 "end": 803
                             },
-                            "flags": 32,
+                            "flags": 97,
                             "start": 775,
                             "end": 803
                         },
@@ -960,7 +960,7 @@ foo[
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 810,
                                                     "end": 816
                                                 },
@@ -974,11 +974,11 @@ foo[
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 818,
                                                     "end": 824
                                                 },
-                                                "flags": 32,
+                                                "flags": 97,
                                                 "start": 809,
                                                 "end": 824
                                             },
@@ -992,11 +992,11 @@ foo[
                                                 "kind": 134299649,
                                                 "text": "b",
                                                 "rawText": "b",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 826,
                                                 "end": 832
                                             },
-                                            "flags": 32,
+                                            "flags": 97,
                                             "start": 809,
                                             "end": 832
                                         },
@@ -1010,11 +1010,11 @@ foo[
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 834,
                                             "end": 851
                                         },
-                                        "flags": 32,
+                                        "flags": 97,
                                         "start": 809,
                                         "end": 851
                                     },
@@ -1028,11 +1028,11 @@ foo[
                                         "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 853,
                                         "end": 859
                                     },
-                                    "flags": 32,
+                                    "flags": 97,
                                     "start": 809,
                                     "end": 859
                                 },
@@ -1044,7 +1044,7 @@ foo[
                             "start": 805,
                             "end": 863
                         },
-                        "flags": 32,
+                        "flags": 97,
                         "start": 775,
                         "end": 863
                     },

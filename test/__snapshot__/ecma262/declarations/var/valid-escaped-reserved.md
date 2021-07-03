@@ -88,7 +88,7 @@ var int\u0065rface = 1;
                                         "kind": 134299649,
                                         "text": "implements",
                                         "rawText": "impl\\u0065ments",
-                                        "flags": 96,
+                                        "flags": 16480,
                                         "start": 31,
                                         "end": 47
                                     }
@@ -153,7 +153,7 @@ var int\u0065rface = 1;
                                         "kind": 134299649,
                                         "text": "interface",
                                         "rawText": "int\\u0065rface",
-                                        "flags": 96,
+                                        "flags": 16480,
                                         "start": 63,
                                         "end": 78
                                     }

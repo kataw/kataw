@@ -73,7 +73,7 @@ const f = async <T, R, S>(
                                 "start": 17,
                                 "end": 18
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 9,
                             "end": 18
                         },
@@ -153,7 +153,7 @@ const f = async <T, R, S>(
                     "start": 25,
                     "end": 30
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 24,
                 "end": 30
             },
@@ -178,7 +178,7 @@ const f = async <T, R, S>(
                         "kind": 134299649,
                         "text": "y",
                         "rawText": "y",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 34,
                         "end": 38
                     }
@@ -208,7 +208,7 @@ const f = async <T, R, S>(
                         "kind": 134299649,
                         "text": "z",
                         "rawText": "z",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 42,
                         "end": 46
                     }

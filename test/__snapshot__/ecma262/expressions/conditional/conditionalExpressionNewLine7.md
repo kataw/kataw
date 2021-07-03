@@ -106,7 +106,7 @@ var v = a
                                     "start": 29,
                                     "end": 31
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 13,
                                 "end": 31
                             },
@@ -154,11 +154,11 @@ var v = a
                                     "start": 51,
                                     "end": 53
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 35,
                                 "end": 53
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 7,
                             "end": 53
                         },

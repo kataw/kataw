@@ -82,7 +82,7 @@ f2`hello world`?.a;
                         "kind": 134299649,
                         "text": "obj",
                         "rawText": "obj",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 11,
                         "end": 16
                     },
@@ -94,7 +94,7 @@ f2`hello world`?.a;
                         "start": 17,
                         "end": 18
                     },
-                    "flags": 96,
+                    "flags": 97,
                     "start": 11,
                     "end": 18
                 },
@@ -143,7 +143,7 @@ f2`hello world`?.a;
                         "kind": 134299649,
                         "text": "f2",
                         "rawText": "f2",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 22,
                         "end": 26
                     },

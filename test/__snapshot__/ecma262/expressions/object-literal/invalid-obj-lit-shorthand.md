@@ -88,7 +88,7 @@ f({x = 0});
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 14,
                     "end": 17
                 },

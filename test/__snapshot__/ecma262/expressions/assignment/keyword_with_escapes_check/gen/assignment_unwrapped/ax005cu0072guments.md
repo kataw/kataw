@@ -31,7 +31,7 @@ a\u0072guments = x;
                     "kind": 134299649,
                     "text": "arguments",
                     "rawText": "a\\u0072guments",
-                    "flags": 96,
+                    "flags": 16480,
                     "start": 0,
                     "end": 14
                 },

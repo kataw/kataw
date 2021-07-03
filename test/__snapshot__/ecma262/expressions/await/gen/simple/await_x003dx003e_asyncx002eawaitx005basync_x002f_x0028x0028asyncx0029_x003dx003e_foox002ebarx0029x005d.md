@@ -144,7 +144,7 @@ await => async.await[async / ((async) => foo.bar)]
                             "start": 28,
                             "end": 49
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 21,
                         "end": 49
                     },

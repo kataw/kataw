@@ -73,7 +73,7 @@
                                             "kind": 134299649,
                                             "text": "static",
                                             "rawText": "st\\u0061tic",
-                                            "flags": 96,
+                                            "flags": 16480,
                                             "start": 12,
                                             "end": 24
                                         },
@@ -171,7 +171,7 @@
                                             "kind": 134299649,
                                             "text": "static",
                                             "rawText": "st\\u0061tic",
-                                            "flags": 96,
+                                            "flags": 16480,
                                             "start": 46,
                                             "end": 58
                                         },
@@ -278,7 +278,7 @@
                                             "kind": 134299649,
                                             "text": "static",
                                             "rawText": "st\\u0061tic",
-                                            "flags": 96,
+                                            "flags": 16480,
                                             "start": 78,
                                             "end": 89
                                         },
@@ -371,7 +371,7 @@
                                             "kind": 134299649,
                                             "text": "static",
                                             "rawText": "st\\u0061tic",
-                                            "flags": 96,
+                                            "flags": 16480,
                                             "start": 107,
                                             "end": 119
                                         },
@@ -474,7 +474,7 @@
                                             "kind": 134299649,
                                             "text": "static",
                                             "rawText": "st\\u0061tic",
-                                            "flags": 96,
+                                            "flags": 16480,
                                             "start": 147,
                                             "end": 159
                                         },
@@ -577,7 +577,7 @@
                                             "kind": 134299649,
                                             "text": "static",
                                             "rawText": "st\\u0061tic",
-                                            "flags": 96,
+                                            "flags": 16480,
                                             "start": 187,
                                             "end": 199
                                         },

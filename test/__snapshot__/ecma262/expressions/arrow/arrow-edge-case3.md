@@ -123,7 +123,7 @@ a ? (b) : (c) : d => e;
                     "start": 9,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 22
             },

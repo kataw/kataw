@@ -58,7 +58,7 @@ import * as foo from "foo";
                         "start": 8,
                         "end": 11
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 6,
                     "end": 11
                 },

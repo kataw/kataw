@@ -92,7 +92,7 @@ type T = <
                         "kind": 134299649,
                         "text": "functionName",
                         "rawText": "functionName",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 0,
                         "end": 13
                     },
@@ -110,7 +110,7 @@ type T = <
                         "start": 14,
                         "end": 15
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 0,
                     "end": 15
                 },
@@ -128,7 +128,7 @@ type T = <
                     "start": 32,
                     "end": 32
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 0,
                 "end": 34
             },
@@ -224,7 +224,7 @@ type T = <
                         "kind": 134299649,
                         "text": "functionName",
                         "rawText": "functionName",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 67,
                         "end": 81
                     },
@@ -242,7 +242,7 @@ type T = <
                         "start": 82,
                         "end": 82
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 67,
                     "end": 82
                 },
@@ -260,7 +260,7 @@ type T = <
                     "start": 96,
                     "end": 96
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 67,
                 "end": 98
             },
@@ -334,7 +334,7 @@ type T = <
                 "kind": 134299649,
                 "text": "interface",
                 "rawText": "interface",
-                "flags": 96,
+                "flags": 97,
                 "start": 133,
                 "end": 144
             },
@@ -556,7 +556,7 @@ type T = <
                         "kind": 134299649,
                         "text": "functionName",
                         "rawText": "functionName",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 221,
                         "end": 237
                     },
@@ -570,11 +570,11 @@ type T = <
                         "kind": 134299649,
                         "text": "A",
                         "rawText": "A",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 238,
                         "end": 243
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 221,
                     "end": 243
                 },
@@ -592,7 +592,7 @@ type T = <
                     "start": 257,
                     "end": 257
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 221,
                 "end": 259
             },
@@ -688,7 +688,7 @@ type T = <
                         "kind": 134299649,
                         "text": "functionName",
                         "rawText": "functionName",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 295,
                         "end": 309
                     },
@@ -706,7 +706,7 @@ type T = <
                         "start": 310,
                         "end": 310
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 295,
                     "end": 310
                 },
@@ -724,7 +724,7 @@ type T = <
                     "start": 327,
                     "end": 327
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 295,
                 "end": 329
             },
@@ -798,7 +798,7 @@ type T = <
                 "kind": 134299649,
                 "text": "interface",
                 "rawText": "interface",
-                "flags": 96,
+                "flags": 97,
                 "start": 367,
                 "end": 378
             },
@@ -841,7 +841,7 @@ type T = <
                                                 "kind": 134299649,
                                                 "text": "A",
                                                 "rawText": "A",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 388,
                                                 "end": 393
                                             },

@@ -68,7 +68,7 @@ x = /x/xxx;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 15,
                     "end": 17
                 },
@@ -101,7 +101,7 @@ x = /x/xxx;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 29,
                     "end": 31
                 },
@@ -134,7 +134,7 @@ x = /x/xxx;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 42,
                     "end": 44
                 },
@@ -167,7 +167,7 @@ x = /x/xxx;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 58,
                     "end": 60
                 },
@@ -200,7 +200,7 @@ x = /x/xxx;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 73,
                     "end": 75
                 },
@@ -233,7 +233,7 @@ x = /x/xxx;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 86,
                     "end": 122
                 },

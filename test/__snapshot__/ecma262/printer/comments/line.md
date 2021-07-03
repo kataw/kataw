@@ -145,7 +145,7 @@ function g() {
                                 "kind": 134299649,
                                 "text": "instruction1",
                                 "rawText": "instruction1",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 62,
                                 "end": 114
                             },
@@ -159,7 +159,7 @@ function g() {
                                 "kind": 134299649,
                                 "text": "instruction2",
                                 "rawText": "instruction2",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 115,
                                 "end": 167
                             },
@@ -173,7 +173,7 @@ function g() {
                                 "kind": 134299649,
                                 "text": "instruction3",
                                 "rawText": "instruction3",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 168,
                                 "end": 183
                             },
@@ -187,7 +187,7 @@ function g() {
                                 "kind": 134299649,
                                 "text": "instruction4",
                                 "rawText": "instruction4",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 184,
                                 "end": 236
                             },
@@ -201,7 +201,7 @@ function g() {
                                 "kind": 134299649,
                                 "text": "instruction5",
                                 "rawText": "instruction5",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 237,
                                 "end": 252
                             },
@@ -387,7 +387,7 @@ function g() {
                                                             "kind": 134299649,
                                                             "text": "x",
                                                             "rawText": "x",
-                                                            "flags": 96,
+                                                            "flags": 97,
                                                             "start": 524,
                                                             "end": 592
                                                         },
@@ -410,7 +410,7 @@ function g() {
                                                             "kind": 134299649,
                                                             "text": "y",
                                                             "rawText": "y",
-                                                            "flags": 96,
+                                                            "flags": 97,
                                                             "start": 596,
                                                             "end": 638
                                                         },
@@ -505,7 +505,7 @@ function g() {
                                 "kind": 134299649,
                                 "text": "instruction6",
                                 "rawText": "instruction6",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 770,
                                 "end": 785
                             },
@@ -519,7 +519,7 @@ function g() {
                                 "kind": 134299649,
                                 "text": "instruction7",
                                 "rawText": "instruction7",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 786,
                                 "end": 860
                             },

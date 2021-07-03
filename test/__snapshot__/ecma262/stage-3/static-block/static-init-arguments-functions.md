@@ -176,7 +176,7 @@ class C {
                                                                                 "kind": 134299649,
                                                                                 "text": "fn",
                                                                                 "rawText": "fn",
-                                                                                "flags": 96,
+                                                                                "flags": 97,
                                                                                 "start": 69,
                                                                                 "end": 78
                                                                             },
@@ -355,7 +355,7 @@ class C {
                                                                                         "kind": 134299649,
                                                                                         "text": "gen",
                                                                                         "rawText": "gen",
-                                                                                        "flags": 96,
+                                                                                        "flags": 97,
                                                                                         "start": 165,
                                                                                         "end": 175
                                                                                     },
@@ -554,7 +554,7 @@ class C {
                                                                                 "kind": 134299649,
                                                                                 "text": "asyncFn",
                                                                                 "rawText": "asyncFn",
-                                                                                "flags": 96,
+                                                                                "flags": 97,
                                                                                 "start": 287,
                                                                                 "end": 301
                                                                             },

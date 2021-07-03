@@ -47,11 +47,20 @@ export function transformES2020(transform: Transform): (node: any) => any {
                 ),
                 operatorToken,
                 createToken(SyntaxKind.NullKeyword, NodeFlags.NoChildren, -1, -1) as any,
+                NodeFlags.ExpressionNode,
                 -1,
                 -1
               ),
               createToken(SyntaxKind.LogicalAnd, NodeFlags.NoChildren, -1, -1),
-              createBinaryExpression(right, operatorToken, createIdentifier('undefined', 'undefined', -1, -1), -1, -1),
+              createBinaryExpression(
+                right,
+                operatorToken,
+                createIdentifier('undefined', 'undefined', NodeFlags.ExpressionNode | NodeFlags.NoChildren, -1, -1),
+                NodeFlags.ExpressionNode,
+                -1,
+                -1
+              ),
+              NodeFlags.ExpressionNode,
               -1,
               -1
             ),
@@ -59,6 +68,7 @@ export function transformES2020(transform: Transform): (node: any) => any {
             right,
             createToken(SyntaxKind.Colon, NodeFlags.NoChildren, -1, -1),
             visitNode(node.right, visitor),
+            NodeFlags.ExpressionNode,
             -1,
             -1
           );

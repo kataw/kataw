@@ -31,7 +31,7 @@ publ\u0069c = x;
                     "kind": 134299649,
                     "text": "public",
                     "rawText": "publ\\u0069c",
-                    "flags": 96,
+                    "flags": 16480,
                     "start": 0,
                     "end": 11
                 },

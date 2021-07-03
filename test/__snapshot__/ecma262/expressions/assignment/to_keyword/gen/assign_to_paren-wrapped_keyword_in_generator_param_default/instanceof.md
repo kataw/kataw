@@ -92,7 +92,7 @@ function *f(x = (instanceof) = f) {}
                                         "start": 27,
                                         "end": 27
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 17,
                                     "end": 27
                                 },

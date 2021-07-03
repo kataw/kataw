@@ -51,7 +51,7 @@ const obj = {
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 13,
                                             "end": 19
                                         },
@@ -74,7 +74,7 @@ const obj = {
                                             "kind": 134299649,
                                             "text": "bar",
                                             "rawText": "bar",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 26,
                                             "end": 32
                                         },

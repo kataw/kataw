@@ -27,7 +27,7 @@ aw\u0061it: 1;
                 "kind": 134299649,
                 "text": "await",
                 "rawText": "aw\\u0061it",
-                "flags": 96,
+                "flags": 16480,
                 "start": 0,
                 "end": 10
             },

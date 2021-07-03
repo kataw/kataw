@@ -114,7 +114,7 @@ function *g() { (x = u + yield z) => {}; }
                                                     "start": 24,
                                                     "end": 32
                                                 },
-                                                "flags": 32,
+                                                "flags": 96,
                                                 "start": 20,
                                                 "end": 32
                                             },

@@ -82,7 +82,7 @@ opaque stuff: Box<T> = Container<T>
                             "start": 18,
                             "end": 19
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 13,
                         "end": 19
                     },
@@ -100,7 +100,7 @@ opaque stuff: Box<T> = Container<T>
                         "start": 20,
                         "end": 20
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 13,
                     "end": 20
                 },
@@ -140,7 +140,7 @@ opaque stuff: Box<T> = Container<T>
                         "start": 33,
                         "end": 34
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 22,
                     "end": 34
                 },
@@ -158,7 +158,7 @@ opaque stuff: Box<T> = Container<T>
                     "start": 35,
                     "end": 35
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 22,
                 "end": 35
             },

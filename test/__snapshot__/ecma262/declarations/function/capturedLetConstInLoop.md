@@ -427,7 +427,7 @@ function foo8_c(x) {
                                                                             "start": 109,
                                                                             "end": 111
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 96,
                                                                         "start": 105,
                                                                         "end": 111
                                                                     },
@@ -504,7 +504,7 @@ function foo8_c(x) {
                                                             "start": 134,
                                                             "end": 136
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 130,
                                                         "end": 136
                                                     },
@@ -778,7 +778,7 @@ function foo8_c(x) {
                                                                             "start": 259,
                                                                             "end": 261
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 96,
                                                                         "start": 255,
                                                                         "end": 261
                                                                     },
@@ -855,7 +855,7 @@ function foo8_c(x) {
                                                             "start": 284,
                                                             "end": 286
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 280,
                                                         "end": 286
                                                     },
@@ -1036,7 +1036,7 @@ function foo8_c(x) {
                                     "start": 340,
                                     "end": 342
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 336,
                                 "end": 342
                             },
@@ -1164,7 +1164,7 @@ function foo8_c(x) {
                                                                             "start": 417,
                                                                             "end": 419
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 96,
                                                                         "start": 413,
                                                                         "end": 419
                                                                     },
@@ -1241,7 +1241,7 @@ function foo8_c(x) {
                                                             "start": 442,
                                                             "end": 444
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 438,
                                                         "end": 444
                                                     },
@@ -1359,7 +1359,7 @@ function foo8_c(x) {
                                     "start": 491,
                                     "end": 493
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 486,
                                 "end": 493
                             },
@@ -1487,7 +1487,7 @@ function foo8_c(x) {
                                                                             "start": 563,
                                                                             "end": 565
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 96,
                                                                         "start": 559,
                                                                         "end": 565
                                                                     },
@@ -1564,7 +1564,7 @@ function foo8_c(x) {
                                                             "start": 588,
                                                             "end": 590
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 584,
                                                         "end": 590
                                                     },
@@ -1818,7 +1818,7 @@ function foo8_c(x) {
                                                                             "start": 711,
                                                                             "end": 713
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 96,
                                                                         "start": 707,
                                                                         "end": 713
                                                                     },
@@ -1895,7 +1895,7 @@ function foo8_c(x) {
                                                             "start": 736,
                                                             "end": 738
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 732,
                                                         "end": 738
                                                     },
@@ -1950,7 +1950,7 @@ function foo8_c(x) {
                                     "start": 759,
                                     "end": 761
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 754,
                                 "end": 761
                             },
@@ -2110,7 +2110,7 @@ function foo8_c(x) {
                                     "start": 808,
                                     "end": 810
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 804,
                                 "end": 810
                             },
@@ -2281,7 +2281,7 @@ function foo8_c(x) {
                                                                             "start": 904,
                                                                             "end": 906
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 96,
                                                                         "start": 900,
                                                                         "end": 906
                                                                     },
@@ -2358,7 +2358,7 @@ function foo8_c(x) {
                                                             "start": 929,
                                                             "end": 931
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 925,
                                                         "end": 931
                                                     },
@@ -2562,7 +2562,7 @@ function foo8_c(x) {
                                     "start": 992,
                                     "end": 994
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 988,
                                 "end": 994
                             },
@@ -2692,7 +2692,7 @@ function foo8_c(x) {
                                                                                 "start": 1069,
                                                                                 "end": 1071
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 96,
                                                                             "start": 1065,
                                                                             "end": 1071
                                                                         },
@@ -2710,7 +2710,7 @@ function foo8_c(x) {
                                                                             "start": 1073,
                                                                             "end": 1075
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 96,
                                                                         "start": 1065,
                                                                         "end": 1075
                                                                     },
@@ -2789,7 +2789,7 @@ function foo8_c(x) {
                                                                 "start": 1098,
                                                                 "end": 1100
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 96,
                                                             "start": 1094,
                                                             "end": 1100
                                                         },
@@ -2807,7 +2807,7 @@ function foo8_c(x) {
                                                             "start": 1102,
                                                             "end": 1104
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 1094,
                                                         "end": 1104
                                                     },
@@ -2925,7 +2925,7 @@ function foo8_c(x) {
                                     "start": 1152,
                                     "end": 1154
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 1147,
                                 "end": 1154
                             },
@@ -3107,7 +3107,7 @@ function foo8_c(x) {
                                                                                 "start": 1242,
                                                                                 "end": 1244
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 96,
                                                                             "start": 1238,
                                                                             "end": 1244
                                                                         },
@@ -3125,7 +3125,7 @@ function foo8_c(x) {
                                                                             "start": 1246,
                                                                             "end": 1248
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 96,
                                                                         "start": 1238,
                                                                         "end": 1248
                                                                     },
@@ -3204,7 +3204,7 @@ function foo8_c(x) {
                                                                 "start": 1271,
                                                                 "end": 1273
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 96,
                                                             "start": 1267,
                                                             "end": 1273
                                                         },
@@ -3222,7 +3222,7 @@ function foo8_c(x) {
                                                             "start": 1275,
                                                             "end": 1277
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 1267,
                                                         "end": 1277
                                                     },
@@ -3494,7 +3494,7 @@ function foo8_c(x) {
                                                                                 "start": 1401,
                                                                                 "end": 1403
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 96,
                                                                             "start": 1397,
                                                                             "end": 1403
                                                                         },
@@ -3512,7 +3512,7 @@ function foo8_c(x) {
                                                                             "start": 1405,
                                                                             "end": 1407
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 96,
                                                                         "start": 1397,
                                                                         "end": 1407
                                                                     },
@@ -3591,7 +3591,7 @@ function foo8_c(x) {
                                                                 "start": 1430,
                                                                 "end": 1432
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 96,
                                                             "start": 1426,
                                                             "end": 1432
                                                         },
@@ -3609,7 +3609,7 @@ function foo8_c(x) {
                                                             "start": 1434,
                                                             "end": 1436
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 1426,
                                                         "end": 1436
                                                     },
@@ -3664,7 +3664,7 @@ function foo8_c(x) {
                                     "start": 1457,
                                     "end": 1459
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 1452,
                                 "end": 1459
                             },
@@ -3824,7 +3824,7 @@ function foo8_c(x) {
                                     "start": 1507,
                                     "end": 1509
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 1503,
                                 "end": 1509
                             },
@@ -3997,7 +3997,7 @@ function foo8_c(x) {
                                                                                 "start": 1603,
                                                                                 "end": 1605
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 96,
                                                                             "start": 1599,
                                                                             "end": 1605
                                                                         },
@@ -4015,7 +4015,7 @@ function foo8_c(x) {
                                                                             "start": 1607,
                                                                             "end": 1609
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 96,
                                                                         "start": 1599,
                                                                         "end": 1609
                                                                     },
@@ -4094,7 +4094,7 @@ function foo8_c(x) {
                                                                 "start": 1632,
                                                                 "end": 1634
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 96,
                                                             "start": 1628,
                                                             "end": 1634
                                                         },
@@ -4112,7 +4112,7 @@ function foo8_c(x) {
                                                             "start": 1636,
                                                             "end": 1638
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 1628,
                                                         "end": 1638
                                                     },
@@ -4387,7 +4387,7 @@ function foo8_c(x) {
                                                                             "start": 1780,
                                                                             "end": 1782
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 96,
                                                                         "start": 1776,
                                                                         "end": 1782
                                                                     },
@@ -4464,7 +4464,7 @@ function foo8_c(x) {
                                                             "start": 1805,
                                                             "end": 1807
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 1801,
                                                         "end": 1807
                                                     },
@@ -4738,7 +4738,7 @@ function foo8_c(x) {
                                                                             "start": 1936,
                                                                             "end": 1938
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 96,
                                                                         "start": 1932,
                                                                         "end": 1938
                                                                     },
@@ -4815,7 +4815,7 @@ function foo8_c(x) {
                                                             "start": 1961,
                                                             "end": 1963
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 1957,
                                                         "end": 1963
                                                     },
@@ -4977,7 +4977,7 @@ function foo8_c(x) {
                                     "start": 2021,
                                     "end": 2023
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 2017,
                                 "end": 2023
                             },
@@ -5105,7 +5105,7 @@ function foo8_c(x) {
                                                                             "start": 2096,
                                                                             "end": 2098
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 96,
                                                                         "start": 2092,
                                                                         "end": 2098
                                                                     },
@@ -5182,7 +5182,7 @@ function foo8_c(x) {
                                                             "start": 2121,
                                                             "end": 2123
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 2117,
                                                         "end": 2123
                                                     },
@@ -5300,7 +5300,7 @@ function foo8_c(x) {
                                     "start": 2172,
                                     "end": 2174
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 2167,
                                 "end": 2174
                             },
@@ -5428,7 +5428,7 @@ function foo8_c(x) {
                                                                             "start": 2246,
                                                                             "end": 2248
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 96,
                                                                         "start": 2242,
                                                                         "end": 2248
                                                                     },
@@ -5505,7 +5505,7 @@ function foo8_c(x) {
                                                             "start": 2271,
                                                             "end": 2273
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 2267,
                                                         "end": 2273
                                                     },
@@ -5766,7 +5766,7 @@ function foo8_c(x) {
                                                                             "start": 2404,
                                                                             "end": 2406
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 96,
                                                                         "start": 2400,
                                                                         "end": 2406
                                                                     },
@@ -5843,7 +5843,7 @@ function foo8_c(x) {
                                                             "start": 2429,
                                                             "end": 2431
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 2425,
                                                         "end": 2431
                                                     },
@@ -5898,7 +5898,7 @@ function foo8_c(x) {
                                     "start": 2452,
                                     "end": 2454
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 2447,
                                 "end": 2454
                             },
@@ -6039,7 +6039,7 @@ function foo8_c(x) {
                                     "start": 2505,
                                     "end": 2507
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 2501,
                                 "end": 2507
                             },
@@ -6210,7 +6210,7 @@ function foo8_c(x) {
                                                                             "start": 2601,
                                                                             "end": 2603
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 96,
                                                                         "start": 2597,
                                                                         "end": 2603
                                                                     },
@@ -6287,7 +6287,7 @@ function foo8_c(x) {
                                                             "start": 2626,
                                                             "end": 2628
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 2622,
                                                         "end": 2628
                                                     },
@@ -6472,7 +6472,7 @@ function foo8_c(x) {
                                     "start": 2693,
                                     "end": 2695
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 2689,
                                 "end": 2695
                             },
@@ -6602,7 +6602,7 @@ function foo8_c(x) {
                                                                                 "start": 2768,
                                                                                 "end": 2770
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 96,
                                                                             "start": 2764,
                                                                             "end": 2770
                                                                         },
@@ -6620,7 +6620,7 @@ function foo8_c(x) {
                                                                             "start": 2772,
                                                                             "end": 2774
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 96,
                                                                         "start": 2764,
                                                                         "end": 2774
                                                                     },
@@ -6699,7 +6699,7 @@ function foo8_c(x) {
                                                                 "start": 2797,
                                                                 "end": 2799
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 96,
                                                             "start": 2793,
                                                             "end": 2799
                                                         },
@@ -6717,7 +6717,7 @@ function foo8_c(x) {
                                                             "start": 2801,
                                                             "end": 2803
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 2793,
                                                         "end": 2803
                                                     },
@@ -6835,7 +6835,7 @@ function foo8_c(x) {
                                     "start": 2853,
                                     "end": 2855
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 2848,
                                 "end": 2855
                             },
@@ -7031,7 +7031,7 @@ function foo8_c(x) {
                                                                                 "start": 2955,
                                                                                 "end": 2957
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 96,
                                                                             "start": 2951,
                                                                             "end": 2957
                                                                         },
@@ -7049,7 +7049,7 @@ function foo8_c(x) {
                                                                             "start": 2959,
                                                                             "end": 2961
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 96,
                                                                         "start": 2951,
                                                                         "end": 2961
                                                                     },
@@ -7128,7 +7128,7 @@ function foo8_c(x) {
                                                                 "start": 2984,
                                                                 "end": 2986
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 96,
                                                             "start": 2980,
                                                             "end": 2986
                                                         },
@@ -7146,7 +7146,7 @@ function foo8_c(x) {
                                                             "start": 2988,
                                                             "end": 2990
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 2980,
                                                         "end": 2990
                                                     },
@@ -7432,7 +7432,7 @@ function foo8_c(x) {
                                                                                 "start": 3128,
                                                                                 "end": 3130
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 96,
                                                                             "start": 3124,
                                                                             "end": 3130
                                                                         },
@@ -7450,7 +7450,7 @@ function foo8_c(x) {
                                                                             "start": 3132,
                                                                             "end": 3134
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 96,
                                                                         "start": 3124,
                                                                         "end": 3134
                                                                     },
@@ -7529,7 +7529,7 @@ function foo8_c(x) {
                                                                 "start": 3157,
                                                                 "end": 3159
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 96,
                                                             "start": 3153,
                                                             "end": 3159
                                                         },
@@ -7547,7 +7547,7 @@ function foo8_c(x) {
                                                             "start": 3161,
                                                             "end": 3163
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 3153,
                                                         "end": 3163
                                                     },
@@ -7602,7 +7602,7 @@ function foo8_c(x) {
                                     "start": 3184,
                                     "end": 3186
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 3179,
                                 "end": 3186
                             },
@@ -7743,7 +7743,7 @@ function foo8_c(x) {
                                     "start": 3238,
                                     "end": 3240
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 3234,
                                 "end": 3240
                             },
@@ -7916,7 +7916,7 @@ function foo8_c(x) {
                                                                                 "start": 3334,
                                                                                 "end": 3336
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 96,
                                                                             "start": 3330,
                                                                             "end": 3336
                                                                         },
@@ -7934,7 +7934,7 @@ function foo8_c(x) {
                                                                             "start": 3338,
                                                                             "end": 3340
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 96,
                                                                         "start": 3330,
                                                                         "end": 3340
                                                                     },
@@ -8013,7 +8013,7 @@ function foo8_c(x) {
                                                                 "start": 3363,
                                                                 "end": 3365
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 96,
                                                             "start": 3359,
                                                             "end": 3365
                                                         },
@@ -8031,7 +8031,7 @@ function foo8_c(x) {
                                                             "start": 3367,
                                                             "end": 3369
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 3359,
                                                         "end": 3369
                                                     },

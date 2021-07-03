@@ -472,7 +472,7 @@
                     "kind": 134299649,
                     "text": "onstructor",
                     "rawText": "\\u006fnstructor",
-                    "flags": 96,
+                    "flags": 16480,
                     "start": 130,
                     "end": 145
                 },

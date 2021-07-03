@@ -160,7 +160,7 @@ class C { #aaa
                                 "kind": 134299649,
                                 "text": "#bbb",
                                 "rawText": "#bbb",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 38,
                                 "end": 44
                             },

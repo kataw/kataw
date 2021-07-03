@@ -49,7 +49,7 @@ a ?? b && c;
                         "start": 4,
                         "end": 6
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 0,
                     "end": 6
                 },
@@ -67,7 +67,7 @@ a ?? b && c;
                     "start": 9,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 11
             },
@@ -83,7 +83,7 @@ a ?? b && c;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 12,
                     "end": 15
                 },
@@ -117,11 +117,11 @@ a ?? b && c;
                         "start": 23,
                         "end": 25
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 20,
                     "end": 25
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 12,
                 "end": 25
             },
@@ -139,7 +139,7 @@ a ?? b && c;
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 26,
                         "end": 29
                     },
@@ -157,7 +157,7 @@ a ?? b && c;
                         "start": 32,
                         "end": 34
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 26,
                     "end": 34
                 },
@@ -175,7 +175,7 @@ a ?? b && c;
                     "start": 37,
                     "end": 39
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 26,
                 "end": 39
             },
@@ -191,7 +191,7 @@ a ?? b && c;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 40,
                     "end": 43
                 },
@@ -225,11 +225,11 @@ a ?? b && c;
                         "start": 51,
                         "end": 53
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 48,
                     "end": 53
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 40,
                 "end": 53
             },

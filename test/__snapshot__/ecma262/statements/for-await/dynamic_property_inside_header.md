@@ -123,7 +123,7 @@ async function f() {
                                         "start": 42,
                                         "end": 44
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 38,
                                     "end": 44
                                 },

@@ -386,7 +386,7 @@ a = { y: x = 1 } = b;
                                         "start": 60,
                                         "end": 62
                                     },
-                                    "flags": 32,
+                                    "flags": 48,
                                     "start": 46,
                                     "end": 62
                                 },
@@ -1331,7 +1331,7 @@ a = { y: x = 1 } = b;
                                         "start": 289,
                                         "end": 290
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 282,
                                     "end": 290
                                 },
@@ -1536,7 +1536,7 @@ a = { y: x = 1 } = b;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 329,
                     "end": 332
                 },
@@ -1742,7 +1742,7 @@ a = { y: x = 1 } = b;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 375,
                     "end": 378
                 },
@@ -1944,7 +1944,7 @@ a = { y: x = 1 } = b;
                     "kind": 134299649,
                     "text": "s",
                     "rawText": "s",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 420,
                     "end": 423
                 },
@@ -2006,7 +2006,7 @@ a = { y: x = 1 } = b;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 440,
                     "end": 443
                 },
@@ -2224,7 +2224,7 @@ a = { y: x = 1 } = b;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 491,
                     "end": 494
                 },
@@ -2439,7 +2439,7 @@ a = { y: x = 1 } = b;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 532,
                     "end": 535
                 },
@@ -2546,7 +2546,7 @@ a = { y: x = 1 } = b;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 558,
                     "end": 561
                 },
@@ -2643,7 +2643,7 @@ a = { y: x = 1 } = b;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 582,
                     "end": 585
                 },
@@ -3251,7 +3251,7 @@ a = { y: x = 1 } = b;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 746,
                     "end": 749
                 },
@@ -3827,7 +3827,7 @@ a = { y: x = 1 } = b;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 877,
                     "end": 880
                 },
@@ -3921,7 +3921,7 @@ a = { y: x = 1 } = b;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 896,
                     "end": 899
                 },
@@ -4024,7 +4024,7 @@ a = { y: x = 1 } = b;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 917,
                     "end": 920
                 },
@@ -4100,7 +4100,7 @@ a = { y: x = 1 } = b;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 939,
                     "end": 942
                 },
@@ -4166,7 +4166,7 @@ a = { y: x = 1 } = b;
                                                         "start": 958,
                                                         "end": 960
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 96,
                                                     "start": 952,
                                                     "end": 960
                                                 },
@@ -4214,7 +4214,7 @@ a = { y: x = 1 } = b;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 963,
                     "end": 966
                 },
@@ -4306,7 +4306,7 @@ a = { y: x = 1 } = b;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 985,
                     "end": 988
                 },
@@ -4415,7 +4415,7 @@ a = { y: x = 1 } = b;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 1008,
                     "end": 1011
                 },

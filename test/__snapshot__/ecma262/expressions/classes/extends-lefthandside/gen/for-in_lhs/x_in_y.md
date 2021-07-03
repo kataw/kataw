@@ -69,7 +69,7 @@ for (x in y in x) ;
                     "start": 14,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 9,
                 "end": 16
             },

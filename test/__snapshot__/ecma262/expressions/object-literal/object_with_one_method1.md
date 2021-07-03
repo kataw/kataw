@@ -124,7 +124,7 @@ wrap({0o4432(){}});
                     "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 14,
                     "end": 20
                 },
@@ -216,7 +216,7 @@ wrap({0o4432(){}});
                     "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 30,
                     "end": 36
                 },
@@ -308,7 +308,7 @@ wrap({0o4432(){}});
                     "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 53,
                     "end": 59
                 },
@@ -400,7 +400,7 @@ wrap({0o4432(){}});
                     "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 75,
                     "end": 81
                 },

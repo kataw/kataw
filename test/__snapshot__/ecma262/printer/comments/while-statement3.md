@@ -29,7 +29,7 @@ if /* comment 1 */ (
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 96,
+                "flags": 97,
                 "start": 20,
                 "end": 42
             },

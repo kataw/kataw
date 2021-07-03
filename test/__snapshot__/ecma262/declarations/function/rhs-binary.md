@@ -101,7 +101,7 @@ function z() {
                                         "start": 28,
                                         "end": 31
                                     },
-                                    "flags": 32,
+                                    "flags": 4194400,
                                     "start": 20,
                                     "end": 31
                                 },
@@ -169,7 +169,7 @@ function z() {
                                         "start": 47,
                                         "end": 61
                                     },
-                                    "flags": 32,
+                                    "flags": 4194400,
                                     "start": 39,
                                     "end": 61
                                 },
@@ -215,7 +215,7 @@ function z() {
                                         "start": 73,
                                         "end": 76
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 69,
                                     "end": 76
                                 },
@@ -283,7 +283,7 @@ function z() {
                                         "start": 88,
                                         "end": 102
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 84,
                                     "end": 102
                                 },
@@ -377,7 +377,7 @@ function z() {
                                         "start": 153,
                                         "end": 156
                                     },
-                                    "flags": 32,
+                                    "flags": 4194400,
                                     "start": 145,
                                     "end": 156
                                 },
@@ -423,7 +423,7 @@ function z() {
                                         "start": 168,
                                         "end": 171
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 164,
                                     "end": 171
                                 },
@@ -469,7 +469,7 @@ function z() {
                                         "start": 190,
                                         "end": 193
                                     },
-                                    "flags": 32,
+                                    "flags": 4194400,
                                     "start": 179,
                                     "end": 193
                                 },
@@ -586,7 +586,7 @@ function z() {
                                         "start": 255,
                                         "end": 273
                                     },
-                                    "flags": 32,
+                                    "flags": 4194400,
                                     "start": 247,
                                     "end": 273
                                 },
@@ -655,7 +655,7 @@ function z() {
                                         "start": 289,
                                         "end": 305
                                     },
-                                    "flags": 32,
+                                    "flags": 4194400,
                                     "start": 281,
                                     "end": 305
                                 },

@@ -145,7 +145,7 @@ class X {
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 36,
                                 "end": 40
                             },

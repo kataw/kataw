@@ -33,7 +33,7 @@
                         "kind": 134299649,
                         "text": "package",
                         "rawText": "\\u0070ackage",
-                        "flags": 96,
+                        "flags": 16480,
                         "start": 1,
                         "end": 13
                     },

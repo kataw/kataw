@@ -203,7 +203,7 @@ for ({}.bar = x in obj);
                         "start": 17,
                         "end": 19
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 8,
                     "end": 19
                 },
@@ -278,11 +278,11 @@ for ({}.bar = x in obj);
                         "start": 35,
                         "end": 37
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 32,
                     "end": 37
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 22,
                 "end": 37
             },
@@ -571,7 +571,7 @@ for ({}.bar = x in obj);
                                 "start": 147,
                                 "end": 149
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 144,
                             "end": 149
                         }
@@ -686,7 +686,7 @@ for ({}.bar = x in obj);
                         "start": 178,
                         "end": 182
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 173,
                     "end": 182
                 },
@@ -1286,7 +1286,7 @@ for ({}.bar = x in obj);
                             "start": 329,
                             "end": 331
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 324,
                         "end": 331
                     }
@@ -1368,7 +1368,7 @@ for ({}.bar = x in obj);
                         "start": 349,
                         "end": 351
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 344,
                     "end": 351
                 },
@@ -1683,7 +1683,7 @@ for ({}.bar = x in obj);
                     "start": 449,
                     "end": 450
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 446,
                 "end": 450
             },
@@ -2366,11 +2366,11 @@ for ({}.bar = x in obj);
                         "start": 641,
                         "end": 644
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 636,
                     "end": 644
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 619,
                 "end": 644
             },
@@ -2461,7 +2461,7 @@ for ({}.bar = x in obj);
                     "start": 668,
                     "end": 670
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 664,
                 "end": 670
             },
@@ -2569,7 +2569,7 @@ for ({}.bar = x in obj);
                     "start": 693,
                     "end": 695
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 689,
                 "end": 695
             },
@@ -2667,7 +2667,7 @@ for ({}.bar = x in obj);
                         "start": 715,
                         "end": 717
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 711,
                     "end": 717
                 },
@@ -3101,7 +3101,7 @@ for ({}.bar = x in obj);
                         "start": 833,
                         "end": 835
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 829,
                     "end": 835
                 },
@@ -3242,7 +3242,7 @@ for ({}.bar = x in obj);
                         "start": 875,
                         "end": 877
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 870,
                     "end": 877
                 },
@@ -3346,7 +3346,7 @@ for ({}.bar = x in obj);
                         "start": 899,
                         "end": 901
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 894,
                     "end": 901
                 },
@@ -3450,7 +3450,7 @@ for ({}.bar = x in obj);
                         "start": 921,
                         "end": 923
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 917,
                     "end": 923
                 },
@@ -3540,7 +3540,7 @@ for ({}.bar = x in obj);
                         "start": 943,
                         "end": 945
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 938,
                     "end": 945
                 },
@@ -3621,7 +3621,7 @@ for ({}.bar = x in obj);
                         "start": 963,
                         "end": 965
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 958,
                     "end": 965
                 },
@@ -3873,7 +3873,7 @@ for ({}.bar = x in obj);
                         "start": 1026,
                         "end": 1029
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 1021,
                     "end": 1029
                 },
@@ -4036,7 +4036,7 @@ for ({}.bar = x in obj);
                     "start": 1055,
                     "end": 1059
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 1052,
                 "end": 1059
             },
@@ -4149,7 +4149,7 @@ for ({}.bar = x in obj);
                                     "start": 1100,
                                     "end": 1102
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 1095,
                                 "end": 1102
                             },
@@ -4673,7 +4673,7 @@ for ({}.bar = x in obj);
                             "start": 1228,
                             "end": 1230
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 1223,
                         "end": 1230
                     },
@@ -6029,7 +6029,7 @@ for ({}.bar = x in obj);
                         "start": 1618,
                         "end": 1619
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 1613,
                     "end": 1619
                 },
@@ -6147,7 +6147,7 @@ for ({}.bar = x in obj);
                                 "start": 1651,
                                 "end": 1653
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 1647,
                             "end": 1653
                         },
@@ -6249,7 +6249,7 @@ for ({}.bar = x in obj);
                         "start": 1677,
                         "end": 1679
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 1672,
                     "end": 1679
                 },
@@ -6324,7 +6324,7 @@ for ({}.bar = x in obj);
                         "start": 1696,
                         "end": 1698
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 1691,
                     "end": 1698
                 },
@@ -6494,7 +6494,7 @@ for ({}.bar = x in obj);
                         "start": 1739,
                         "end": 1743
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 1734,
                     "end": 1743
                 },
@@ -6613,7 +6613,7 @@ for ({}.bar = x in obj);
                         "start": 1767,
                         "end": 1771
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 1762,
                     "end": 1771
                 },
@@ -6690,7 +6690,7 @@ for ({}.bar = x in obj);
                                         "start": 1787,
                                         "end": 1789
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 1781,
                                     "end": 1789
                                 },
@@ -6738,7 +6738,7 @@ for ({}.bar = x in obj);
                         "start": 1797,
                         "end": 1801
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 1792,
                     "end": 1801
                 },
@@ -6979,7 +6979,7 @@ for ({}.bar = x in obj);
                                     "start": 1869,
                                     "end": 1871
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 1863,
                                 "end": 1871
                             },
@@ -7089,7 +7089,7 @@ for ({}.bar = x in obj);
                         "start": 1901,
                         "end": 1905
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 1896,
                     "end": 1905
                 },
@@ -7184,7 +7184,7 @@ for ({}.bar = x in obj);
                         "start": 1927,
                         "end": 1931
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 1922,
                     "end": 1931
                 },

@@ -85,7 +85,7 @@ function f(){ new.target + foo }
                                     "start": 26,
                                     "end": 30
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 13,
                                 "end": 30
                             },

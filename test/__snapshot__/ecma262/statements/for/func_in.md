@@ -94,7 +94,7 @@ for (function(){ a in b; };;);
                                         "start": 21,
                                         "end": 23
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 16,
                                     "end": 23
                                 },

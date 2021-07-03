@@ -68,7 +68,7 @@ x => ok ** x
                         "start": 10,
                         "end": 12
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 4,
                     "end": 12
                 },

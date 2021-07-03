@@ -58,7 +58,7 @@ class C {
                                     "kind": 134299649,
                                     "text": "ma",
                                     "rawText": "ma",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 9,
                                     "end": 16
                                 },
@@ -109,7 +109,7 @@ class C {
                                     "kind": 134299649,
                                     "text": "mb",
                                     "rawText": "mb",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 21,
                                     "end": 44
                                 },

@@ -81,7 +81,7 @@ var A = class B {
                                                     "kind": 134299649,
                                                     "text": "method",
                                                     "rawText": "method",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 17,
                                                     "end": 26
                                                 },

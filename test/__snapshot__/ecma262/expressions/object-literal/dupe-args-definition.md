@@ -149,7 +149,7 @@ o = {f([b, a], b=x) {}};
                     "kind": 134299649,
                     "text": "o",
                     "rawText": "o",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 17,
                     "end": 20
                 },
@@ -263,7 +263,7 @@ o = {f([b, a], b=x) {}};
                     "kind": 134299649,
                     "text": "o",
                     "rawText": "o",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 39,
                     "end": 42
                 },
@@ -377,7 +377,7 @@ o = {f([b, a], b=x) {}};
                     "kind": 134299649,
                     "text": "o",
                     "rawText": "o",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 61,
                     "end": 64
                 },
@@ -491,7 +491,7 @@ o = {f([b, a], b=x) {}};
                     "kind": 134299649,
                     "text": "o",
                     "rawText": "o",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 83,
                     "end": 86
                 },
@@ -636,7 +636,7 @@ o = {f([b, a], b=x) {}};
                     "kind": 134299649,
                     "text": "o",
                     "rawText": "o",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 116,
                     "end": 119
                 },
@@ -775,7 +775,7 @@ o = {f([b, a], b=x) {}};
                     "kind": 134299649,
                     "text": "o",
                     "rawText": "o",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 145,
                     "end": 148
                 },
@@ -912,7 +912,7 @@ o = {f([b, a], b=x) {}};
                     "kind": 134299649,
                     "text": "o",
                     "rawText": "o",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 173,
                     "end": 176
                 },
@@ -1041,7 +1041,7 @@ o = {f([b, a], b=x) {}};
                     "kind": 134299649,
                     "text": "o",
                     "rawText": "o",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 197,
                     "end": 200
                 },
@@ -1187,7 +1187,7 @@ o = {f([b, a], b=x) {}};
                     "kind": 134299649,
                     "text": "o",
                     "rawText": "o",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 223,
                     "end": 226
                 },
@@ -1331,7 +1331,7 @@ o = {f([b, a], b=x) {}};
                     "kind": 134299649,
                     "text": "o",
                     "rawText": "o",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 250,
                     "end": 253
                 },

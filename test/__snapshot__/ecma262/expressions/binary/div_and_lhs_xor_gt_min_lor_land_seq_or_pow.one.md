@@ -47,7 +47,7 @@ x0 / x1 & x2 << x3 ^ x4 > x5 - x6 || x7 && x8 === x9 | x10 ** x
                                 "start": 4,
                                 "end": 7
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 0,
                             "end": 7
                         },
@@ -81,11 +81,11 @@ x0 / x1 & x2 << x3 ^ x4 > x5 - x6 || x7 && x8 === x9 | x10 ** x
                                 "start": 15,
                                 "end": 18
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 12,
                             "end": 18
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 0,
                         "end": 18
                     },
@@ -135,15 +135,15 @@ x0 / x1 & x2 << x3 ^ x4 > x5 - x6 || x7 && x8 === x9 | x10 ** x
                                 "start": 30,
                                 "end": 33
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 28,
                             "end": 33
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 23,
                         "end": 33
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 0,
                     "end": 33
                 },
@@ -195,7 +195,7 @@ x0 / x1 & x2 << x3 ^ x4 > x5 - x6 || x7 && x8 === x9 | x10 ** x
                                 "start": 49,
                                 "end": 52
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 45,
                             "end": 52
                         },
@@ -229,19 +229,19 @@ x0 / x1 & x2 << x3 ^ x4 > x5 - x6 || x7 && x8 === x9 | x10 ** x
                                 "start": 61,
                                 "end": 63
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 58,
                             "end": 63
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 45,
                         "end": 63
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 39,
                     "end": 63
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 63
             },

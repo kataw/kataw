@@ -80,7 +80,7 @@ const o = {
                                     "start": 60,
                                     "end": 105
                                 },
-                                "flags": 32,
+                                "flags": 97,
                                 "start": 15,
                                 "end": 105
                             },
@@ -98,7 +98,7 @@ const o = {
                                 "start": 107,
                                 "end": 154
                             },
-                            "flags": 32,
+                            "flags": 97,
                             "start": 15,
                             "end": 154
                         },
@@ -149,7 +149,7 @@ const o = {
                                             "kind": 134299649,
                                             "text": "blablah",
                                             "rawText": "blablah",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 168,
                                             "end": 178
                                         },
@@ -179,7 +179,7 @@ const o = {
                                                     "start": 222,
                                                     "end": 269
                                                 },
-                                                "flags": 32,
+                                                "flags": 96,
                                                 "start": 168,
                                                 "end": 269
                                             },
@@ -197,7 +197,7 @@ const o = {
                                                 "start": 271,
                                                 "end": 320
                                             },
-                                            "flags": 32,
+                                            "flags": 96,
                                             "start": 168,
                                             "end": 320
                                         },
@@ -236,7 +236,7 @@ const o = {
                     "kind": 134299649,
                     "text": "somethingThatsAReallyLongPropName",
                     "rawText": "somethingThatsAReallyLongPropName",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 323,
                     "end": 358
                 },
@@ -310,7 +310,7 @@ const o = {
                         "start": 386,
                         "end": 414
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 360,
                     "end": 414
                 },
@@ -356,7 +356,7 @@ const o = {
                                             "kind": 134299649,
                                             "text": "somethingThatsAReallyLongPropName",
                                             "rawText": "somethingThatsAReallyLongPropName",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 428,
                                             "end": 464
                                         },
@@ -424,7 +424,7 @@ const o = {
                                                 "start": 493,
                                                 "end": 521
                                             },
-                                            "flags": 32,
+                                            "flags": 97,
                                             "start": 428,
                                             "end": 521
                                         },

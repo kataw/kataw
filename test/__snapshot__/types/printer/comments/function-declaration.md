@@ -371,7 +371,7 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
                                 "kind": 134299649,
                                 "text": "func",
                                 "rawText": "func",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 213,
                                 "end": 220
                             },

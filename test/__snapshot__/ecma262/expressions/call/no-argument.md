@@ -90,7 +90,7 @@ new it(/* comment */)
                     "kind": 134299649,
                     "text": "define",
                     "rawText": "define",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 49,
                     "end": 56
                 },
@@ -152,7 +152,7 @@ new it(/* comment */)
                     "kind": 134299649,
                     "text": "it",
                     "rawText": "it",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 97,
                     "end": 100
                 },

@@ -63,7 +63,7 @@ unction* gf() { var a = yield 'foo'; }
                     "start": 8,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 13
             },

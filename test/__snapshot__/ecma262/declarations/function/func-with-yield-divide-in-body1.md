@@ -85,7 +85,7 @@ function f1() { yield / 1 /g }
                                         "start": 23,
                                         "end": 25
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 15,
                                     "end": 25
                                 },
@@ -103,7 +103,7 @@ function f1() { yield / 1 /g }
                                     "start": 27,
                                     "end": 28
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 15,
                                 "end": 28
                             },

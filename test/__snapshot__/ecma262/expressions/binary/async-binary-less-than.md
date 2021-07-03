@@ -45,7 +45,7 @@ async <a > (x);
                         "start": 7,
                         "end": 8
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 0,
                     "end": 8
                 },
@@ -69,7 +69,7 @@ async <a > (x);
                     "start": 10,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 14
             },
@@ -107,7 +107,7 @@ async <a > (x);
                             "start": 25,
                             "end": 26
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 15,
                         "end": 26
                     },
@@ -131,7 +131,7 @@ async <a > (x);
                         "start": 28,
                         "end": 32
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 15,
                     "end": 32
                 },

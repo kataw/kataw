@@ -99,7 +99,7 @@ function f() {
                                             "start": 44,
                                             "end": 44
                                         },
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 34,
                                         "end": 44
                                     },

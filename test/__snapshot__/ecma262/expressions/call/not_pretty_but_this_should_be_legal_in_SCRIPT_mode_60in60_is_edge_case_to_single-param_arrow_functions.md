@@ -47,7 +47,7 @@ async in {}
                     "start": 8,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 11
             },

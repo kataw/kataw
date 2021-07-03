@@ -82,7 +82,7 @@ x, ...z + arr, y]
                             "start": 9,
                             "end": 13
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 6,
                         "end": 13
                     },

@@ -31,7 +31,7 @@ st\u0061tic = x;
                     "kind": 134299649,
                     "text": "static",
                     "rawText": "st\\u0061tic",
-                    "flags": 96,
+                    "flags": 16480,
                     "start": 0,
                     "end": 11
                 },

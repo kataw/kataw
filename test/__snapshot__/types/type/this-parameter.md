@@ -586,7 +586,7 @@ type ten = {
                                 "kind": 134299649,
                                 "text": "m1",
                                 "rawText": "m1",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 177,
                                 "end": 182
                             },
@@ -665,7 +665,7 @@ type ten = {
                                 "kind": 134299649,
                                 "text": "m2",
                                 "rawText": "m2",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 203,
                                 "end": 208
                             },
@@ -774,7 +774,7 @@ type ten = {
                                 "kind": 134299649,
                                 "text": "m3",
                                 "rawText": "m3",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 240,
                                 "end": 245
                             },
@@ -888,7 +888,7 @@ type ten = {
                                 "kind": 134299649,
                                 "text": "m4",
                                 "rawText": "m4",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 277,
                                 "end": 282
                             },

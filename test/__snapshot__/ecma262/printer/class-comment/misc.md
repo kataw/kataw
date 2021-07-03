@@ -60,7 +60,7 @@ class x {
                                     "kind": 134299649,
                                     "text": "focus",
                                     "rawText": "focus",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 9,
                                     "end": 17
                                 },

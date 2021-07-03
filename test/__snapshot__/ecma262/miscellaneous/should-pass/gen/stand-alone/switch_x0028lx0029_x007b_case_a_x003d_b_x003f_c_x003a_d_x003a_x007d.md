@@ -104,7 +104,7 @@ switch (l) { case a = b ? c : d : }
                                     "start": 29,
                                     "end": 31
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 21,
                                 "end": 31
                             },

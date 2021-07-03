@@ -132,7 +132,7 @@ async <T>(fn: () => T);
                         "start": 9,
                         "end": 22
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 8,
                     "end": 22
                 },

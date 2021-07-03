@@ -100,7 +100,7 @@ var q
                         "start": 7,
                         "end": 8
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 5,
                     "end": 8
                 },
@@ -118,7 +118,7 @@ var q
                     "start": 9,
                     "end": 9
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 5,
                 "end": 9
             },

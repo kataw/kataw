@@ -64,7 +64,7 @@ while (0);
                             "start": 26,
                             "end": 46
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 4,
                         "end": 46
                     },
@@ -82,7 +82,7 @@ while (0);
                         "start": 49,
                         "end": 69
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 4,
                     "end": 69
                 },
@@ -100,7 +100,7 @@ while (0);
                     "start": 72,
                     "end": 92
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 4,
                 "end": 92
             },
@@ -159,7 +159,7 @@ while (0);
                             "start": 126,
                             "end": 146
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 104,
                         "end": 146
                     },
@@ -177,7 +177,7 @@ while (0);
                         "start": 149,
                         "end": 169
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 104,
                     "end": 169
                 },
@@ -195,7 +195,7 @@ while (0);
                     "start": 172,
                     "end": 192
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 104,
                 "end": 192
             },
@@ -271,7 +271,7 @@ while (0);
                             "start": 232,
                             "end": 252
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 210,
                         "end": 252
                     },
@@ -289,7 +289,7 @@ while (0);
                         "start": 255,
                         "end": 275
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 210,
                     "end": 275
                 },
@@ -307,7 +307,7 @@ while (0);
                     "start": 278,
                     "end": 298
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 210,
                 "end": 298
             },

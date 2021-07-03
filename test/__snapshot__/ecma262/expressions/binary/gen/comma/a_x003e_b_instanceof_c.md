@@ -62,7 +62,7 @@ x, a > b instanceof c
                                 "start": 6,
                                 "end": 8
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 2,
                             "end": 8
                         },
@@ -80,7 +80,7 @@ x, a > b instanceof c
                             "start": 19,
                             "end": 21
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 2,
                         "end": 21
                     }

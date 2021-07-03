@@ -155,7 +155,7 @@ type a = (&1,|2&3, ['string']) => T;
                                         "kind": 134217967,
                                         "text": "string",
                                         "rawText": "'string'",
-                                        "flags": 2097216,
+                                        "flags": 6291520,
                                         "start": 20,
                                         "end": 28
                                     },

@@ -97,7 +97,7 @@ var x = a <= 1 ? 2 : 3;
                                     "start": 42,
                                     "end": 44
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 34,
                                 "end": 44
                             },
@@ -167,7 +167,7 @@ var x = a <= 1 ? 2 : 3;
                                     "start": 58,
                                     "end": 60
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 53,
                                 "end": 60
                             },
@@ -199,7 +199,7 @@ var x = a <= 1 ? 2 : 3;
                                 "start": 66,
                                 "end": 68
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 53,
                             "end": 68
                         },

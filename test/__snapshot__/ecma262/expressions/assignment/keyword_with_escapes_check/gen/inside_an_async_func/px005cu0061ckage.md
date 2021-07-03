@@ -61,7 +61,7 @@ async () => {  p\u0061ckage = x  }
                                     "kind": 134299649,
                                     "text": "package",
                                     "rawText": "p\\u0061ckage",
-                                    "flags": 96,
+                                    "flags": 16480,
                                     "start": 13,
                                     "end": 27
                                 },

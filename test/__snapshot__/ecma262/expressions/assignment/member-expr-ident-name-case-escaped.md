@@ -84,7 +84,7 @@ obj.c\u0061se = 42;
                         "kind": 134299649,
                         "text": "obj",
                         "rawText": "obj",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 13,
                         "end": 18
                     },
@@ -92,11 +92,11 @@ obj.c\u0061se = 42;
                         "kind": 134299649,
                         "text": "case",
                         "rawText": "c\\u0061se",
-                        "flags": 96,
+                        "flags": 16480,
                         "start": 19,
                         "end": 28
                     },
-                    "flags": 96,
+                    "flags": 97,
                     "start": 13,
                     "end": 28
                 },

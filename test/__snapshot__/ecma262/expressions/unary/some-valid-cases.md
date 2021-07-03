@@ -109,7 +109,7 @@ typeof (0 ? 1 : x);
                             "start": 28,
                             "end": 30
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 21,
                         "end": 30
                     },
@@ -175,7 +175,7 @@ typeof (0 ? 1 : x);
                             "start": 49,
                             "end": 51
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 42,
                         "end": 51
                     },
@@ -601,7 +601,7 @@ typeof (0 ? 1 : x);
                             "start": 207,
                             "end": 209
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 203,
                         "end": 209
                     },
@@ -667,7 +667,7 @@ typeof (0 ? 1 : x);
                             "start": 228,
                             "end": 230
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 221,
                         "end": 230
                     },

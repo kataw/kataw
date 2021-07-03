@@ -47,7 +47,7 @@ await(x);
                     "kind": 134299649,
                     "text": "await",
                     "rawText": "await",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 6,
                     "end": 13
                 },
@@ -81,7 +81,7 @@ await(x);
                     "kind": 134299649,
                     "text": "await",
                     "rawText": "await",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 22,
                     "end": 29
                 },

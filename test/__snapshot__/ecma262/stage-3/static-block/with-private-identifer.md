@@ -114,7 +114,7 @@ class C {
                                                     "kind": 134299649,
                                                     "text": "C",
                                                     "rawText": "C",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 38,
                                                     "end": 44
                                                 },
@@ -126,7 +126,7 @@ class C {
                                                     "start": 45,
                                                     "end": 47
                                                 },
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 38,
                                                 "end": 47
                                             },

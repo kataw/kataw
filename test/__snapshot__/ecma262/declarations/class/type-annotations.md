@@ -922,7 +922,7 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 134299649,
                                 "text": "prop2",
                                 "rawText": "prop2",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 295,
                                 "end": 303
                             },
@@ -1000,7 +1000,7 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 134299649,
                                 "text": "#prop1",
                                 "rawText": "#prop1",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 328,
                                 "end": 337
                             },
@@ -1040,7 +1040,7 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 134299649,
                                 "text": "prop2",
                                 "rawText": "prop2",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 346,
                                 "end": 354
                             },

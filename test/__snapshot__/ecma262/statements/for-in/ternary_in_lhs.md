@@ -96,11 +96,11 @@ for (a ? b : c in x);
                         "start": 17,
                         "end": 19
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 12,
                     "end": 19
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 19
             },

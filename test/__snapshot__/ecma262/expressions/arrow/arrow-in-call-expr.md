@@ -108,7 +108,7 @@ foo(y,(y) => ok);
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 18,
                     "end": 22
                 },
@@ -191,7 +191,7 @@ foo(y,(y) => ok);
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 36,
                     "end": 40
                 },

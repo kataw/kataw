@@ -87,7 +87,7 @@ true ? async.waterfall() : null;
                     "start": 26,
                     "end": 31
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 31
             },

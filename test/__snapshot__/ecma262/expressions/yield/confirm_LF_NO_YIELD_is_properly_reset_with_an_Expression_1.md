@@ -123,7 +123,7 @@ function *g(){ return x + f(yield f); }
                                     "start": 25,
                                     "end": 36
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 21,
                                 "end": 36
                             },

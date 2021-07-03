@@ -52,7 +52,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                                 "kind": 134299649,
                                                 "text": "finally",
                                                 "rawText": "\\u0066inally",
-                                                "flags": 96,
+                                                "flags": 16480,
                                                 "start": 9,
                                                 "end": 22
                                             },

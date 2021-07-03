@@ -123,7 +123,7 @@ function g(x: any): string {
                                     "start": 42,
                                     "end": 44
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 37,
                                 "end": 44
                             },

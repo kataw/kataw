@@ -253,7 +253,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                         "start": 64,
                                                         "end": 67
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 96,
                                                     "start": 54,
                                                     "end": 67
                                                 },
@@ -271,7 +271,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                     "start": 18,
                                     "end": 70
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 14,
                                 "end": 70
                             },

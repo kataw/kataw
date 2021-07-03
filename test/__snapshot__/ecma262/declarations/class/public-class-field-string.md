@@ -66,7 +66,7 @@ class C { \\u0041 }
                 "kind": 134299649,
                 "text": "A",
                 "rawText": "\\u0041",
-                "flags": 96,
+                "flags": 16480,
                 "start": 11,
                 "end": 17
             },

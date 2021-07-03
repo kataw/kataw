@@ -72,7 +72,7 @@ function *f(){
                                     "kind": 134299649,
                                     "text": "private",
                                     "rawText": "\\u0070rivate",
-                                    "flags": 96,
+                                    "flags": 16481,
                                     "start": 14,
                                     "end": 29
                                 },

@@ -65,7 +65,7 @@ foo /* comment */
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 6,
                     "end": 22
                 },
@@ -93,7 +93,7 @@ foo /* comment */
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 37,
                     "end": 42
                 },
@@ -121,7 +121,7 @@ foo /* comment */
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 58,
                     "end": 63
                 },
@@ -149,7 +149,7 @@ foo /* comment */
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 81,
                     "end": 86
                 },

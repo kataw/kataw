@@ -61,7 +61,7 @@ class A {
                                 "kind": 134299649,
                                 "text": "async",
                                 "rawText": "async",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 9,
                                 "end": 17
                             },

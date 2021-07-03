@@ -439,7 +439,7 @@ import { let as l } from 'm.js';
                         "start": 150,
                         "end": 153
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 148,
                     "end": 153
                 },
@@ -905,7 +905,7 @@ import { let as l } from 'm.js';
                         "start": 326,
                         "end": 329
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 324,
                     "end": 329
                 },
@@ -1057,7 +1057,7 @@ import { let as l } from 'm.js';
                         "start": 390,
                         "end": 393
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 388,
                     "end": 393
                 },

@@ -94,7 +94,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "kind": 134299649,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 11,
                                     "end": 27
                                 },
@@ -489,7 +489,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "kind": 134299649,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 160,
                                     "end": 176
                                 },
@@ -808,7 +808,7 @@ var stringArr:Array<string> = ['a','b'];
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 275,
                                 "end": 281
                             },
@@ -879,7 +879,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "kind": 134299649,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 298,
                                     "end": 314
                                 },
@@ -1008,7 +1008,7 @@ var stringArr:Array<string> = ['a','b'];
                                 "kind": 134299649,
                                 "text": "content",
                                 "rawText": "content",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 360,
                                 "end": 372
                             },
@@ -1076,7 +1076,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "kind": 134299649,
                                     "text": "copyContent",
                                     "rawText": "copyContent",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 383,
                                     "end": 399
                                 },

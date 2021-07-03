@@ -102,7 +102,7 @@ for (const ...x in y){}
                     "start": 18,
                     "end": 20
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 14,
                 "end": 20
             },

@@ -103,7 +103,7 @@ class C {
                                                                                 "kind": 134299649,
                                                                                 "text": "arguments",
                                                                                 "rawText": "argument\\u0073",
-                                                                                "flags": 96,
+                                                                                "flags": 16480,
                                                                                 "start": 35,
                                                                                 "end": 49
                                                                             },

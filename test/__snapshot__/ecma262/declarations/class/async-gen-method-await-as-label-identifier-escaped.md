@@ -108,7 +108,7 @@ var C = class { async *gen() {
                                                                     "kind": 134299649,
                                                                     "text": "aawait",
                                                                     "rawText": "a\\u0061wait",
-                                                                    "flags": 96,
+                                                                    "flags": 16481,
                                                                     "start": 30,
                                                                     "end": 46
                                                                 },

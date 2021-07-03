@@ -72,7 +72,7 @@ function *f(){
                                     "kind": 134299649,
                                     "text": "let",
                                     "rawText": "let",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 14,
                                     "end": 20
                                 },

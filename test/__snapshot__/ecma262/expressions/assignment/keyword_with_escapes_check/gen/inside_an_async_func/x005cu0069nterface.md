@@ -61,7 +61,7 @@ async () => {  \u0069nterface = x  }
                                     "kind": 134299649,
                                     "text": "interface",
                                     "rawText": "\\u0069nterface",
-                                    "flags": 96,
+                                    "flags": 16480,
                                     "start": 13,
                                     "end": 29
                                 },

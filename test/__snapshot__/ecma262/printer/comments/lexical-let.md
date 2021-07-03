@@ -88,7 +88,7 @@ let /* 1*/ {
                                             "kind": 134299649,
                                             "text": "a1",
                                             "rawText": "a1",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 5,
                                             "end": 15
                                         },
@@ -162,7 +162,7 @@ let /* 1*/ {
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 39,
                                             "end": 48
                                         },

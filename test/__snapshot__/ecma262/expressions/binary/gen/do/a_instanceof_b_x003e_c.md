@@ -59,7 +59,7 @@ do a instanceof b > c while (x);
                             "start": 15,
                             "end": 17
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 2,
                         "end": 17
                     },
@@ -77,7 +77,7 @@ do a instanceof b > c while (x);
                         "start": 19,
                         "end": 21
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 2,
                     "end": 21
                 },

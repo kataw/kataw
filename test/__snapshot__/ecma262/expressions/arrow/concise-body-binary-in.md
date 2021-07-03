@@ -72,7 +72,7 @@ const t = () => ({
                                                     "kind": 134299649,
                                                     "text": "v",
                                                     "rawText": "v",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 18,
                                                     "end": 22
                                                 },
@@ -128,7 +128,7 @@ const t = () => ({
                                                             "start": 35,
                                                             "end": 37
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 30,
                                                         "end": 37
                                                     },

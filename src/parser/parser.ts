@@ -88,7 +88,7 @@ import { createElementList, ElementList } from '../ast/expressions/element-list'
 import { createBindingProperty, BindingProperty } from '../ast/expressions/binding-property';
 import { createBindingPropertyList, BindingPropertyList } from '../ast/expressions/binding-property-list';
 import { createObjectBindingPattern, ObjectBindingPattern } from '../ast/expressions/object-binding-pattern';
-import { createRootNode, RootNode } from '../ast/rootNode';
+import { createRootNode, RootNode } from '../ast/root-node';
 import { createIdentifier, Identifier } from '../ast/expressions/identifier-expr';
 import { createComputedPropertyName, ComputedPropertyName } from '../ast/expressions/computed-property-name';
 import { createArrayLiteral, ArrayLiteral } from '../ast/expressions/array-literal';
@@ -512,7 +512,7 @@ function parseCaseBlock(
   ownLabels: any
 ): CaseBlock {
   consume(parser, context, SyntaxKind.LeftBrace);
-    const pos = parser.curPos;
+  const pos = parser.curPos;
   const clauses = [];
   let hasDefaultCase = false;
   let caseOrDefaultToken = null;
@@ -551,7 +551,7 @@ function parseCaseBlock(
       clauses.push(createDefaultClause(caseOrDefaultToken, colonToken, statements, pos, parser.curPos));
     }
   }
-  let x = createCaseBlock(clauses as any, pos, parser.curPos);
+  const x = createCaseBlock(clauses as any, pos, parser.curPos);
   consume(
     parser,
     context | Context.AllowRegExp,
@@ -1752,7 +1752,13 @@ function parseBindingIdentifier(
 
     addVarOrBlock(parser, context, scope, parser.tokenValue, type);
     nextToken(parser, context);
-    return createIdentifier(tokenValue, tokenRaw, curPos, parser.curPos);
+    return createIdentifier(
+      tokenValue,
+      tokenRaw,
+      NodeFlags.ExpressionNode | NodeFlags.NoChildren,
+      curPos,
+      parser.curPos
+    );
   }
 
   if (parser.previousErrorPos !== pos) {
@@ -1777,8 +1783,7 @@ function parseIdentifierReference(
   context: Context,
   diagnosticMessage?: DiagnosticCode
 ): Identifier | DummyIdentifier {
-  const { curPos, tokenValue, tokenRaw, pos } = parser;
-
+  const { curPos, tokenValue, tokenRaw, pos, nodeFlags } = parser;
   if (parser.token & Constants.Identifier) {
     parser.assignable = true;
     if (context & (Context.Strict | Context.YieldContext) && parser.token === SyntaxKind.YieldKeyword) {
@@ -1810,7 +1815,13 @@ function parseIdentifierReference(
       );
     }
     nextToken(parser, context);
-    return createIdentifier(tokenValue, tokenRaw, curPos, parser.curPos);
+    return createIdentifier(
+      tokenValue,
+      tokenRaw,
+      nodeFlags | NodeFlags.ExpressionNode | NodeFlags.NoChildren,
+      curPos,
+      parser.curPos
+    );
   }
 
   if (diagnosticMessage && parser.previousErrorPos !== pos) {
@@ -1828,11 +1839,17 @@ function parseIdentifier(
   check: number,
   diagnosticMessage?: DiagnosticCode
 ): Identifier | DummyIdentifier {
-  const { curPos, tokenValue, tokenRaw, pos } = parser;
+  const { curPos, tokenValue, tokenRaw, pos, nodeFlags } = parser;
   parser.assignable = true;
   if (parser.token & check) {
     nextToken(parser, context);
-    return createIdentifier(tokenValue, tokenRaw, curPos, parser.curPos);
+    return createIdentifier(
+      tokenValue,
+      tokenRaw,
+      nodeFlags | NodeFlags.ExpressionNode | NodeFlags.NoChildren,
+      curPos,
+      parser.curPos
+    );
   }
   if (parser.previousErrorPos !== pos) {
     parser.previousErrorPos = pos;
@@ -1983,6 +2000,7 @@ function parseConditionalExpression(
     consequent,
     colonToken,
     alternate,
+    shortCircuit.flags | NodeFlags.ExpressionNode,
     pos,
     parser.curPos
   );
@@ -2018,6 +2036,7 @@ function parseBinaryExpression(
 ): BinaryExpression {
   let t: SyntaxKind;
   let prec: number;
+  const flags = parser.nodeFlags;
   const bit = -((context & Context.DisallowInContext) > 0) & SyntaxKind.InKeyword;
 
   while ((parser.token & SyntaxKind.IsBinaryOp) > 0) {
@@ -2058,6 +2077,7 @@ function parseBinaryExpression(
         t,
         parser.curPos
       ),
+      flags | left.flags | NodeFlags.ExpressionNode,
       pos,
       parser.curPos
     );
@@ -2079,7 +2099,7 @@ function parseLeftHandSideExpression(
 
 function parseExpression(parser: ParserState, context: Context): ExpressionNode {
   const curPos = parser.curPos;
-  let expr = parsePrimaryExpression(parser, context, LeftHandSide.None);
+  const expr = parsePrimaryExpression(parser, context, LeftHandSide.None);
   return parseAssignmentExpression(
     parser,
     context,
@@ -4510,7 +4530,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
 
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
-  let innerParenPos = parser.curPos;
+  const innerParenPos = parser.curPos;
   // - `() => x`
   // - `(() => x)`
   // - `return () => x`
@@ -4614,6 +4634,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           parseExpression(parser, (context | 0b00000000110000000000000010000000) ^ 0b00000000100000000000000010000000),
           consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
           parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+          NodeFlags.ExpressionNode,
           curPos,
           parser.curPos
         );
@@ -4767,6 +4788,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           parseExpression(parser, (context | 0b00000000110000000000000010000000) ^ 0b00000000100000000000000010000000),
           consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
           parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+          NodeFlags.ExpressionNode,
           curPos,
           parser.curPos
         );
@@ -5013,6 +5035,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
               ),
               consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
               parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+              NodeFlags.ExpressionNode,
               curPos,
               parser.curPos
             );
@@ -5143,6 +5166,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
               ),
               consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
               parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+              NodeFlags.ExpressionNode,
               curPos,
               parser.curPos
             );
@@ -5659,7 +5683,13 @@ function parseFunctionExpression(
             }
             // Plain 'async' identifier
             parser.assignable = true;
-            return createIdentifier('async', 'async', pos, parser.curPos);
+            return createIdentifier(
+              'async',
+              'async',
+              NodeFlags.ExpressionNode | NodeFlags.NoChildren,
+              pos,
+              parser.curPos
+            );
           }
           if (leftHandSideContext & (LeftHandSide.NotAssignable | LeftHandSide.DisallowClassExtends)) {
             parser.onError(
@@ -5714,7 +5744,13 @@ function parseFunctionExpression(
         }
       }
 
-      let expression: any = createIdentifier('async', 'async', pos, parser.curPos);
+      let expression: any = createIdentifier(
+        'async',
+        'async',
+        NodeFlags.ExpressionNode | NodeFlags.NoChildren,
+        pos,
+        parser.curPos
+      );
 
       // "new async"
       if (leftHandSideContext & LeftHandSide.NewExpression) return expression;
@@ -5804,6 +5840,7 @@ function parseFunctionExpression(
                 SyntaxKind.Identifier,
                 parser.curPos
               ),
+              NodeFlags.ExpressionNode,
               pos,
               parser.curPos
             ) as any;
@@ -5956,6 +5993,7 @@ function parseFunctionExpression(
                   SyntaxKind.Identifier,
                   parser.curPos
                 ),
+                NodeFlags.ExpressionNode,
                 pos,
                 parser.curPos
               ) as any;
@@ -5975,6 +6013,7 @@ function parseFunctionExpression(
             SyntaxKind.Identifier,
             parser.curPos
           ),
+          NodeFlags.ExpressionNode,
           pos,
           parser.curPos
         ) as any;
@@ -6237,7 +6276,13 @@ function parseFunctionDeclaration(
         return parseCoverCallExpressionAndAsyncArrowHead(
           parser,
           context,
-          createIdentifier(/* text */ 'async', /* rawText */ 'async', pos, parser.curPos),
+          createIdentifier(
+            /* text */ 'async',
+            /* rawText */ 'async',
+            NodeFlags.ExpressionNode | NodeFlags.NoChildren,
+            pos,
+            parser.curPos
+          ),
           /* typeParameters */ null,
           LeftHandSide.None,
           flags,
@@ -6245,7 +6290,13 @@ function parseFunctionDeclaration(
         ) as any;
       }
 
-      let expression: any = createIdentifier(/* text */ 'async', /* rawText */ 'async', pos, parser.curPos);
+      let expression: any = createIdentifier(
+        /* text */ 'async',
+        /* rawText */ 'async',
+        NodeFlags.ExpressionNode | NodeFlags.NoChildren,
+        pos,
+        parser.curPos
+      );
 
       // - `async <T>(x)`
       // - `async <T>(x) => y`
@@ -6310,6 +6361,7 @@ function parseFunctionDeclaration(
                   SyntaxKind.Identifier,
                   parser.curPos
                 ),
+                NodeFlags.ExpressionNode,
                 pos,
                 parser.curPos
               );
@@ -6462,6 +6514,7 @@ function parseFunctionDeclaration(
                   SyntaxKind.Identifier,
                   parser.curPos
                 ),
+                NodeFlags.ExpressionNode,
                 pos,
                 parser.curPos
               );
@@ -6481,6 +6534,7 @@ function parseFunctionDeclaration(
               SyntaxKind.Identifier,
               parser.curPos
             ),
+            NodeFlags.ExpressionNode,
             pos,
             parser.curPos
           );
@@ -7884,19 +7938,27 @@ function parseTypeofType(parser: ParserState, context: Context): TypeofType {
 }
 
 function parseStringType(parser: ParserState, context: Context): StringType {
-  const pos = parser.curPos;
-  const value = parser.tokenValue;
-  const raw = parser.tokenRaw;
+  const { curPos, tokenValue, tokenRaw, nodeFlags } = parser;
   nextToken(parser, context);
-  return createStringType(value, raw, pos, parser.curPos);
+  return createStringType(
+    tokenValue,
+    tokenRaw,
+    nodeFlags | NodeFlags.IsTypeNode | NodeFlags.NoChildren,
+    curPos,
+    parser.curPos
+  );
 }
 
 function parseNumberType(parser: ParserState, context: Context): NumberType {
-  const pos = parser.curPos;
-  const text = parser.tokenValue;
-  const raw = parser.tokenRaw;
+  const { curPos, tokenValue, tokenRaw, nodeFlags } = parser;
   nextToken(parser, context);
-  return createNumberType(text, raw, pos, parser.curPos);
+  return createNumberType(
+    tokenValue,
+    tokenRaw,
+    nodeFlags | NodeFlags.IsTypeNode | NodeFlags.NoChildren,
+    curPos,
+    parser.curPos
+  );
 }
 
 function parseBigIntType(parser: ParserState, context: Context): BigIntType {
@@ -8765,7 +8827,7 @@ function parseTypeAsIdentifierOrTypeAlias(
   const typeToken = consumeToken(parser, context, SyntaxKind.TypeKeyword);
   let nodeFlags = typeToken.flags;
   if (context & Context.OptionsAllowTypes && parser.token & Constants.Identifier) {
-    let expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
+    const expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
     const typeParameters = parseTypeParameterDeclaration(parser, context);
     const assignToken = consumeToken(
       parser,
@@ -8789,7 +8851,13 @@ function parseTypeAsIdentifierOrTypeAlias(
     );
   }
 
-  let expr = createIdentifier('type', 'type', typeToken.start, typeToken.end);
+  let expr = createIdentifier(
+    'type',
+    'type',
+    NodeFlags.ExpressionNode | NodeFlags.NoChildren,
+    typeToken.start,
+    typeToken.end
+  );
 
   parser.assignable = true;
   if (parser.token === SyntaxKind.Colon) {
@@ -8883,7 +8951,7 @@ function parseLetAsIdentifierOrLexicalDeclaration(
       scope,
       /*typeParameters */ null,
       /* returnType */ null,
-      /* params */ createIdentifier('let', 'let', pos, parser.curPos),
+      /* params */ createIdentifier('let', 'let', NodeFlags.ExpressionNode | NodeFlags.NoChildren, pos, parser.curPos),
       /* asyncToken */ null,
       /* nodeFlags */ NodeFlags.ExpressionNode,
       pos
@@ -10035,7 +10103,6 @@ export function parseClassElement(
 
       (parser.nodeFlags & NodeFlags.NewLine) < 1
     ) {
-
       switch (token) {
         case SyntaxKind.StaticKeyword:
           // avoid 'static static'
@@ -10347,7 +10414,6 @@ export function parseClassStaticBlockDeclaration(
   nodeFlags: NodeFlags,
   pos: number
 ): StaticBlock {
-
   // - `@foo class q { static {} }`
   if (decorators) {
     parser.onError(
@@ -10624,7 +10690,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
 
-  let innerPos = parser.curPos;
+  const innerPos = parser.curPos;
 
   if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
     let isType = false;
@@ -10709,6 +10775,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
             ),
             consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
             parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+            NodeFlags.ExpressionNode,
             pos,
             parser.curPos
           );
@@ -10803,6 +10870,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
               consequent,
               consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
               parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+              NodeFlags.ExpressionNode,
               pos,
               parser.curPos
             );
@@ -10909,6 +10977,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
                 consequent,
                 consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
                 parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+                NodeFlags.ExpressionNode,
                 pos,
                 parser.curPos
               );
@@ -11013,6 +11082,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
               ),
               consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon),
               parseExpression(parser, (context | Context.InConditionalExpr) ^ Context.InConditionalExpr),
+              NodeFlags.ExpressionNode,
               pos,
               parser.curPos
             );
@@ -11238,7 +11308,13 @@ function parseOpaqueType(
     );
   }
 
-  let expr = createIdentifier('opaque', 'opaque', opaqueToken.start, opaqueToken.end);
+  let expr = createIdentifier(
+    'opaque',
+    'opaque',
+    NodeFlags.ExpressionNode | NodeFlags.NoChildren,
+    opaqueToken.start,
+    opaqueToken.end
+  );
 
   parser.assignable = true;
   if (parser.token === SyntaxKind.Colon) {

@@ -102,7 +102,7 @@ class C {
                                     "kind": 134299649,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 22,
                                     "end": 36
                                 },
@@ -172,7 +172,7 @@ class C {
                                                                                             "kind": 134299649,
                                                                                             "text": "C",
                                                                                             "rawText": "C",
-                                                                                            "flags": 96,
+                                                                                            "flags": 97,
                                                                                             "start": 69,
                                                                                             "end": 79
                                                                                         },
@@ -184,7 +184,7 @@ class C {
                                                                                             "start": 80,
                                                                                             "end": 82
                                                                                         },
-                                                                                        "flags": 96,
+                                                                                        "flags": 97,
                                                                                         "start": 69,
                                                                                         "end": 82
                                                                                     },

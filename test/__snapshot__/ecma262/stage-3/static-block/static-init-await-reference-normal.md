@@ -94,7 +94,7 @@ class C {
                                                                                 "kind": 134299649,
                                                                                 "text": "method",
                                                                                 "rawText": "method",
-                                                                                "flags": 96,
+                                                                                "flags": 97,
                                                                                 "start": 27,
                                                                                 "end": 40
                                                                             },
@@ -168,7 +168,7 @@ class C {
                                                                                                     "kind": 134299649,
                                                                                                     "text": "fromBody",
                                                                                                     "rawText": "fromBody",
-                                                                                                    "flags": 96,
+                                                                                                    "flags": 97,
                                                                                                     "start": 65,
                                                                                                     "end": 82
                                                                                                 },

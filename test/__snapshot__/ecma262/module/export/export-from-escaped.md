@@ -112,7 +112,7 @@ fro\u006D
                 "kind": 134299649,
                 "text": "from",
                 "rawText": "fro\\u006D",
-                "flags": 96,
+                "flags": 16481,
                 "start": 19,
                 "end": 29
             },

@@ -126,7 +126,7 @@ class D<T> {
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 15,
                                 "end": 19
                             },
@@ -180,7 +180,7 @@ class D<T> {
                                     "kind": 134299649,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 23,
                                     "end": 37
                                 },
@@ -319,7 +319,7 @@ class D<T> {
                                     "kind": 134299649,
                                     "text": "get",
                                     "rawText": "get",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 65,
                                     "end": 71
                                 },
@@ -425,7 +425,7 @@ class D<T> {
                                     "kind": 134299649,
                                     "text": "get_bad",
                                     "rawText": "get_bad",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 101,
                                     "end": 111
                                 },
@@ -595,7 +595,7 @@ class D<T> {
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 157,
                                 "end": 161
                             },
@@ -649,7 +649,7 @@ class D<T> {
                                     "kind": 134299649,
                                     "text": "m",
                                     "rawText": "m",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 165,
                                     "end": 169
                                 },

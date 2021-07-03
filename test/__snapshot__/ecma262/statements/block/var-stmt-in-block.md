@@ -94,7 +94,7 @@ z; }
                             "kind": 134299649,
                             "text": "z",
                             "rawText": "z",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 19,
                             "end": 21
                         },

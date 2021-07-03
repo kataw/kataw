@@ -80,7 +80,7 @@ for (true ? a in b : {}; false; ) ;
                         "start": 16,
                         "end": 18
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 11,
                     "end": 18
                 },
@@ -104,7 +104,7 @@ for (true ? a in b : {}; false; ) ;
                     "start": 20,
                     "end": 23
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 23
             },

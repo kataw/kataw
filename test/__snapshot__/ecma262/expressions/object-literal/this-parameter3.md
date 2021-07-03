@@ -71,7 +71,7 @@ let one = {
                                                 "kind": 134299649,
                                                 "text": "m1",
                                                 "rawText": "m1",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 11,
                                                 "end": 16
                                             },
@@ -184,7 +184,7 @@ let one = {
                     "kind": 134299649,
                     "text": "m2",
                     "rawText": "m2",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 34,
                     "end": 40
                 },
@@ -262,7 +262,7 @@ let one = {
                     "kind": 134299649,
                     "text": "m3",
                     "rawText": "m3",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 61,
                     "end": 67
                 },
@@ -354,7 +354,7 @@ let one = {
                     "kind": 134299649,
                     "text": "m4",
                     "rawText": "m4",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 91,
                     "end": 97
                 },
@@ -464,7 +464,7 @@ let one = {
                         "kind": 134299649,
                         "text": "m5",
                         "rawText": "m5",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 127,
                         "end": 133
                     },
@@ -482,7 +482,7 @@ let one = {
                         "start": 134,
                         "end": 135
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 127,
                     "end": 135
                 },
@@ -505,7 +505,7 @@ let one = {
                     "start": 136,
                     "end": 141
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 127,
                 "end": 141
             },

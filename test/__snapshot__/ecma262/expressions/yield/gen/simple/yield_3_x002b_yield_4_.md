@@ -63,7 +63,7 @@ yield 3 + yield 4;
                     "start": 9,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 5,
                 "end": 15
             },

@@ -262,7 +262,7 @@ class Bar{
                     "kind": 134299649,
                     "text": "outerMethod",
                     "rawText": "outerMethod",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 88,
                     "end": 102
                 },

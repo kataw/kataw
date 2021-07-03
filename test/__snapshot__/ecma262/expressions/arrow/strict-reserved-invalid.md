@@ -105,7 +105,7 @@ new package => x
                     "start": 18,
                     "end": 25
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 13,
                 "end": 25
             },
@@ -274,7 +274,7 @@ new package => x
                                             "start": 68,
                                             "end": 80
                                         },
-                                        "flags": 32,
+                                        "flags": 97,
                                         "start": 63,
                                         "end": 80
                                     },
@@ -295,11 +295,11 @@ new package => x
                         "start": 35,
                         "end": 80
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 34,
                     "end": 80
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 29,
                 "end": 80
             },

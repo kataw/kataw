@@ -72,7 +72,7 @@ function *f(){
                                     "kind": 134299649,
                                     "text": "enum",
                                     "rawText": "enum",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 14,
                                     "end": 21
                                 },

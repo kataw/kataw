@@ -375,7 +375,7 @@ const f = async function * (source, block, opts) {
                                                                                                     "kind": 134299649,
                                                                                                     "text": "cid",
                                                                                                     "rawText": "cid",
-                                                                                                    "flags": 96,
+                                                                                                    "flags": 97,
                                                                                                     "start": 221,
                                                                                                     "end": 237
                                                                                                 },
@@ -386,7 +386,7 @@ const f = async function * (source, block, opts) {
                                                                                                         "kind": 134299649,
                                                                                                         "text": "path",
                                                                                                         "rawText": "path",
-                                                                                                        "flags": 96,
+                                                                                                        "flags": 97,
                                                                                                         "start": 238,
                                                                                                         "end": 255
                                                                                                     },
@@ -423,7 +423,7 @@ const f = async function * (source, block, opts) {
                                                                                                         "kind": 134299649,
                                                                                                         "text": "unixfs",
                                                                                                         "rawText": "unixfs",
-                                                                                                        "flags": 96,
+                                                                                                        "flags": 97,
                                                                                                         "start": 268,
                                                                                                         "end": 287
                                                                                                     },
@@ -511,7 +511,7 @@ const f = async function * (source, block, opts) {
                                                                                                         "kind": 134299649,
                                                                                                         "text": "node",
                                                                                                         "rawText": "node",
-                                                                                                        "flags": 96,
+                                                                                                        "flags": 97,
                                                                                                         "start": 326,
                                                                                                         "end": 343
                                                                                                     },

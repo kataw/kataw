@@ -170,7 +170,7 @@ var ident = <T>(x: T): T => x;
                                     "start": 47,
                                     "end": 49
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 43,
                                 "end": 49
                             },

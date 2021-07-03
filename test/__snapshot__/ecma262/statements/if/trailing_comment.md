@@ -58,7 +58,7 @@ if (
                     "start": 12,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 4,
                 "end": 15
             },
@@ -113,7 +113,7 @@ if (
                     "start": 42,
                     "end": 45
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 34,
                 "end": 45
             },
@@ -168,7 +168,7 @@ if (
                     "start": 83,
                     "end": 86
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 75,
                 "end": 86
             },
@@ -223,7 +223,7 @@ if (
                     "start": 113,
                     "end": 116
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 105,
                 "end": 116
             },
@@ -273,7 +273,7 @@ if (
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 158,
                                 "end": 162
                             },

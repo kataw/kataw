@@ -110,7 +110,7 @@ function *f() {
                                                     "kind": 134299649,
                                                     "text": "yield",
                                                     "rawText": "yield",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 40,
                                                     "end": 50
                                                 },
@@ -266,7 +266,7 @@ function *f() {
                                                     "kind": 134299649,
                                                     "text": "yield",
                                                     "rawText": "yield",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 104,
                                                     "end": 114
                                                 },

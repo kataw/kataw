@@ -108,7 +108,7 @@ let f6 = /* comment */
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 7,
                                     "end": 11
                                 },
@@ -118,7 +118,7 @@ let f6 = /* comment */
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 13,
                                     "end": 29
                                 },
@@ -173,7 +173,7 @@ let f6 = /* comment */
                     "kind": 134299649,
                     "text": "f2",
                     "rawText": "f2",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 38,
                     "end": 42
                 },
@@ -197,7 +197,7 @@ let f6 = /* comment */
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 46,
                                     "end": 50
                                 },
@@ -207,7 +207,7 @@ let f6 = /* comment */
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 52,
                                     "end": 66
                                 },
@@ -262,7 +262,7 @@ let f6 = /* comment */
                     "kind": 134299649,
                     "text": "f3",
                     "rawText": "f3",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 75,
                     "end": 79
                 },
@@ -286,7 +286,7 @@ let f6 = /* comment */
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 83,
                                     "end": 87
                                 },
@@ -296,7 +296,7 @@ let f6 = /* comment */
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 89,
                                     "end": 93
                                 },
@@ -351,7 +351,7 @@ let f6 = /* comment */
                     "kind": 134299649,
                     "text": "f4",
                     "rawText": "f4",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 112,
                     "end": 116
                 },
@@ -414,7 +414,7 @@ let f6 = /* comment */
                     "kind": 134299649,
                     "text": "f5",
                     "rawText": "f5",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 141,
                     "end": 145
                 },
@@ -477,7 +477,7 @@ let f6 = /* comment */
                     "kind": 134299649,
                     "text": "f6",
                     "rawText": "f6",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 172,
                     "end": 176
                 },
@@ -568,7 +568,7 @@ let f6 = /* comment */
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 230,
                                             "end": 234
                                         },
@@ -578,7 +578,7 @@ let f6 = /* comment */
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 236,
                                             "end": 252
                                         },
@@ -666,7 +666,7 @@ let f6 = /* comment */
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 273,
                                             "end": 277
                                         },
@@ -676,7 +676,7 @@ let f6 = /* comment */
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 279,
                                             "end": 293
                                         },
@@ -764,7 +764,7 @@ let f6 = /* comment */
                                             "kind": 134299649,
                                             "text": "a",
                                             "rawText": "a",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 314,
                                             "end": 318
                                         },
@@ -774,7 +774,7 @@ let f6 = /* comment */
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 320,
                                             "end": 324
                                         },

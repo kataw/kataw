@@ -132,7 +132,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                     "kind": 134299649,
                     "text": "result",
                     "rawText": "result",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 48,
                     "end": 56
                 },

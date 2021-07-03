@@ -116,7 +116,7 @@ async  <T, U>(x) >> y - z;
                                     "start": 23,
                                     "end": 25
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 21,
                                 "end": 25
                             },
@@ -124,7 +124,7 @@ async  <T, U>(x) >> y - z;
                             "start": 16,
                             "end": 25
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 10,
                         "end": 25
                     }

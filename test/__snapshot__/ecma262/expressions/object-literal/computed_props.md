@@ -79,7 +79,7 @@ module.exports = {
                                             "kind": 134299649,
                                             "text": "RED",
                                             "rawText": "RED",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 17,
                                             "end": 23
                                         },
@@ -102,7 +102,7 @@ module.exports = {
                                             "kind": 134299649,
                                             "text": "GREEN",
                                             "rawText": "GREEN",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 29,
                                             "end": 37
                                         },
@@ -125,7 +125,7 @@ module.exports = {
                                             "kind": 134299649,
                                             "text": "BLUE",
                                             "rawText": "BLUE",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 43,
                                             "end": 50
                                         },
@@ -198,7 +198,7 @@ module.exports = {
                                             "kind": 134299649,
                                             "text": "RED",
                                             "rawText": "RED",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 82,
                                             "end": 88
                                         },
@@ -221,7 +221,7 @@ module.exports = {
                                             "kind": 134299649,
                                             "text": "GREEN",
                                             "rawText": "GREEN",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 99,
                                             "end": 107
                                         },
@@ -244,7 +244,7 @@ module.exports = {
                                             "kind": 134299649,
                                             "text": "BLUE",
                                             "rawText": "BLUE",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 118,
                                             "end": 125
                                         },
@@ -514,7 +514,7 @@ module.exports = {
                         "kind": 134299649,
                         "text": "module",
                         "rawText": "module",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 276,
                         "end": 284
                     },
@@ -526,7 +526,7 @@ module.exports = {
                         "start": 285,
                         "end": 292
                     },
-                    "flags": 96,
+                    "flags": 97,
                     "start": 276,
                     "end": 292
                 },

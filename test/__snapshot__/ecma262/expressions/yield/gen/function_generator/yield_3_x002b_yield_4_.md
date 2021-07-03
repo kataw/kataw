@@ -136,7 +136,7 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                                                     "start": 49,
                                                     "end": 55
                                                 },
-                                                "flags": 32,
+                                                "flags": 96,
                                                 "start": 45,
                                                 "end": 55
                                             },

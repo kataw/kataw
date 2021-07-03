@@ -43,7 +43,7 @@ a ?? b ?? c;
                         "start": 4,
                         "end": 6
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 0,
                     "end": 6
                 },
@@ -61,7 +61,7 @@ a ?? b ?? c;
                     "start": 9,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 11
             },

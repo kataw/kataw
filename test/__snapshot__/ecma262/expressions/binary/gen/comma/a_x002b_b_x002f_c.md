@@ -76,11 +76,11 @@ x, a + b / c
                                 "start": 10,
                                 "end": 12
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 8,
                             "end": 12
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 2,
                         "end": 12
                     }

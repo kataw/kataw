@@ -150,7 +150,7 @@ runtimeAgent.getProperties(
                                             "kind": 134299649,
                                             "text": "Seq",
                                             "rawText": "Seq",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 46,
                                             "end": 54
                                         },
@@ -246,7 +246,7 @@ runtimeAgent.getProperties(
                                                     "kind": 134299649,
                                                     "text": "markdownDoc",
                                                     "rawText": "markdownDoc",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 101,
                                                     "end": 119
                                                 },
@@ -259,7 +259,7 @@ runtimeAgent.getProperties(
                                                                 "kind": 134299649,
                                                                 "text": "member",
                                                                 "rawText": "member",
-                                                                "flags": 96,
+                                                                "flags": 97,
                                                                 "start": 120,
                                                                 "end": 135
                                                             },
@@ -271,7 +271,7 @@ runtimeAgent.getProperties(
                                                                 "start": 136,
                                                                 "end": 139
                                                             },
-                                                            "flags": 96,
+                                                            "flags": 97,
                                                             "start": 120,
                                                             "end": 139
                                                         },
@@ -384,7 +384,7 @@ runtimeAgent.getProperties(
                                                                             "kind": 134299649,
                                                                             "text": "signatures",
                                                                             "rawText": "signatures",
-                                                                            "flags": 96,
+                                                                            "flags": 97,
                                                                             "start": 198,
                                                                             "end": 218
                                                                         },
@@ -568,7 +568,7 @@ runtimeAgent.getProperties(
                                                     "kind": 134299649,
                                                     "text": "fn",
                                                     "rawText": "fn",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 327,
                                                     "end": 336
                                                 },
@@ -789,7 +789,7 @@ runtimeAgent.getProperties(
                         "kind": 134299649,
                         "text": "runtimeAgent",
                         "rawText": "runtimeAgent",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 440,
                         "end": 454
                     },
@@ -801,7 +801,7 @@ runtimeAgent.getProperties(
                         "start": 455,
                         "end": 468
                     },
-                    "flags": 96,
+                    "flags": 97,
                     "start": 440,
                     "end": 468
                 },
@@ -812,7 +812,7 @@ runtimeAgent.getProperties(
                             "kind": 134299649,
                             "text": "objectId",
                             "rawText": "objectId",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 469,
                             "end": 482
                         },

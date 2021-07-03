@@ -15,6 +15,7 @@ export function createBinaryExpression(
   left: ExpressionNode,
   operatorToken: SyntaxToken<TokenSyntaxKind>,
   right: ExpressionNode,
+  flags: NodeFlags,
   start: number,
   end: number
 ): BinaryExpression {
@@ -23,7 +24,7 @@ export function createBinaryExpression(
     left,
     operatorToken,
     right,
-    flags: NodeFlags.ExpressionNode,
+    flags,
     start,
     end
   };

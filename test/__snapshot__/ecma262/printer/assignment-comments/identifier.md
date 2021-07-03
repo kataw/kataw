@@ -48,7 +48,7 @@ const bifornCringerMoshedPerplexSawder = // !!!
                             "kind": 134299649,
                             "text": "annularCooeedSplicesWalksWayWay",
                             "rawText": "annularCooeedSplicesWalksWayWay",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 37,
                             "end": 82
                         },
@@ -93,7 +93,7 @@ const bifornCringerMoshedPerplexSawder = // !!!
                                 "kind": 134299649,
                                 "text": "glimseGlyphsHazardNoopsTieTie",
                                 "rawText": "glimseGlyphsHazardNoopsTieTie",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 125,
                                 "end": 164
                             },
@@ -109,7 +109,7 @@ const bifornCringerMoshedPerplexSawder = // !!!
                                     "kind": 134299649,
                                     "text": "averredBathersBoxroomBuggyNurl",
                                     "rawText": "averredBathersBoxroomBuggyNurl",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 166,
                                     "end": 199
                                 },
@@ -123,15 +123,15 @@ const bifornCringerMoshedPerplexSawder = // !!!
                                     "kind": 134299649,
                                     "text": "anodyneCondosMalateOverateRetinol",
                                     "rawText": "anodyneCondosMalateOverateRetinol",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 201,
                                     "end": 237
                                 },
-                                "flags": 32,
+                                "flags": 97,
                                 "start": 199,
                                 "end": 237
                             },
-                            "flags": 32,
+                            "flags": 97,
                             "start": 125,
                             "end": 237
                         },

@@ -67,7 +67,7 @@ function relativeComplement() {
                                 "kind": 134299649,
                                 "text": "outer",
                                 "rawText": "outer",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 31,
                                 "end": 39
                             },
@@ -144,7 +144,7 @@ function relativeComplement() {
                                         "start": 57,
                                         "end": 71
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 47,
                                     "end": 71
                                 },
@@ -159,7 +159,7 @@ function relativeComplement() {
                                                     "kind": 134299649,
                                                     "text": "inner",
                                                     "rawText": "inner",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 85,
                                                     "end": 95
                                                 },
@@ -236,7 +236,7 @@ function relativeComplement() {
                                                             "start": 113,
                                                             "end": 127
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 103,
                                                         "end": 127
                                                     },
@@ -515,7 +515,7 @@ function relativeComplement() {
                                                             "kind": 134299649,
                                                             "text": "result",
                                                             "rawText": "result",
-                                                            "flags": 96,
+                                                            "flags": 97,
                                                             "start": 305,
                                                             "end": 314
                                                         },
@@ -527,7 +527,7 @@ function relativeComplement() {
                                                             "start": 315,
                                                             "end": 319
                                                         },
-                                                        "flags": 96,
+                                                        "flags": 97,
                                                         "start": 305,
                                                         "end": 319
                                                     },

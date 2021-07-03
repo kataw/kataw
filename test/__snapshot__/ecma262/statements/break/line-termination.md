@@ -138,7 +138,7 @@ FOR2 : for(var i=1;i<2;i++){
                         "start": 21,
                         "end": 22
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 19,
                     "end": 22
                 },
@@ -153,7 +153,7 @@ FOR2 : for(var i=1;i<2;i++){
                                     "kind": 134299649,
                                     "text": "LABEL1",
                                     "rawText": "LABEL1",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 28,
                                     "end": 37
                                 },
@@ -195,7 +195,7 @@ FOR2 : for(var i=1;i<2;i++){
                                                         "kind": 134299649,
                                                         "text": "FOR1",
                                                         "rawText": "FOR1",
-                                                        "flags": 96,
+                                                        "flags": 97,
                                                         "start": 54,
                                                         "end": 59
                                                     },
@@ -257,7 +257,7 @@ FOR2 : for(var i=1;i<2;i++){
                 "kind": 134299649,
                 "text": "FOR2",
                 "rawText": "FOR2",
-                "flags": 96,
+                "flags": 97,
                 "start": 76,
                 "end": 82
             },
@@ -362,7 +362,7 @@ FOR2 : for(var i=1;i<2;i++){
                         "start": 99,
                         "end": 100
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 97,
                     "end": 100
                 },
@@ -377,7 +377,7 @@ FOR2 : for(var i=1;i<2;i++){
                                     "kind": 134299649,
                                     "text": "LABEL2",
                                     "rawText": "LABEL2",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 106,
                                     "end": 115
                                 },
@@ -406,7 +406,7 @@ FOR2 : for(var i=1;i<2;i++){
                                                         "kind": 134299649,
                                                         "text": "breakFOR2",
                                                         "rawText": "breakFOR2",
-                                                        "flags": 96,
+                                                        "flags": 97,
                                                         "start": 122,
                                                         "end": 136
                                                     },

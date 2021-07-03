@@ -53,7 +53,7 @@ x = {
                                         "kind": 134299649,
                                         "text": "method",
                                         "rawText": "method",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 5,
                                         "end": 16
                                     },

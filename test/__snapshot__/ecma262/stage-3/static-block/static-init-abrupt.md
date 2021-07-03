@@ -116,7 +116,7 @@ try {
                                                                     "kind": 134299649,
                                                                     "text": "sameBlock",
                                                                     "rawText": "sameBlock",
-                                                                    "flags": 96,
+                                                                    "flags": 97,
                                                                     "start": 51,
                                                                     "end": 67
                                                                 },
@@ -233,7 +233,7 @@ try {
                                                                     "kind": 134299649,
                                                                     "text": "subsequentBlock",
                                                                     "rawText": "subsequentBlock",
-                                                                    "flags": 96,
+                                                                    "flags": 97,
                                                                     "start": 133,
                                                                     "end": 155
                                                                 },
@@ -321,7 +321,7 @@ try {
                                         "kind": 134299649,
                                         "text": "caught",
                                         "rawText": "caught",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 191,
                                         "end": 200
                                     },

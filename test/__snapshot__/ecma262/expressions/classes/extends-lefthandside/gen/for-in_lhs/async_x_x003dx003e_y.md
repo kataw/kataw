@@ -50,7 +50,7 @@ x => y in x) ;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 10,
                     "end": 12
                 },
@@ -85,7 +85,7 @@ x => y in x) ;
                         "start": 20,
                         "end": 22
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 15,
                     "end": 22
                 },

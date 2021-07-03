@@ -1242,7 +1242,7 @@ async a => await 1;
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 365,
                     "end": 370
                 },
@@ -1776,7 +1776,7 @@ async a => await 1;
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 530,
                     "end": 532
                 },

@@ -95,7 +95,7 @@ async function f(){ await foo
                                         "start": 31,
                                         "end": 34
                                     },
-                                    "flags": 32,
+                                    "flags": 33,
                                     "start": 19,
                                     "end": 34
                                 },
@@ -113,7 +113,7 @@ async function f(){ await foo
                                     "start": 35,
                                     "end": 35
                                 },
-                                "flags": 32,
+                                "flags": 33,
                                 "start": 19,
                                 "end": 35
                             },

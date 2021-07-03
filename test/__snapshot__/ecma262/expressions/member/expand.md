@@ -153,7 +153,7 @@ window.FooClient.something.setVars({
                                     "start": 87,
                                     "end": 89
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 60,
                                 "end": 89
                             },
@@ -272,7 +272,7 @@ window.FooClient.something.setVars({
                                     "start": 152,
                                     "end": 154
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 125,
                                 "end": 154
                             },
@@ -336,7 +336,7 @@ window.FooClient.something.setVars({
                                                                 "kind": 134299649,
                                                                 "text": "promise",
                                                                 "rawText": "promise",
-                                                                "flags": 96,
+                                                                "flags": 97,
                                                                 "start": 176,
                                                                 "end": 186
                                                             },
@@ -348,7 +348,7 @@ window.FooClient.something.setVars({
                                                                 "start": 187,
                                                                 "end": 194
                                                             },
-                                                            "flags": 96,
+                                                            "flags": 97,
                                                             "start": 176,
                                                             "end": 194
                                                         },
@@ -461,7 +461,7 @@ window.FooClient.something.setVars({
                                                                                 "kind": 134299649,
                                                                                 "text": "console",
                                                                                 "rawText": "console",
-                                                                                "flags": 96,
+                                                                                "flags": 97,
                                                                                 "start": 229,
                                                                                 "end": 241
                                                                             },
@@ -473,7 +473,7 @@ window.FooClient.something.setVars({
                                                                                 "start": 242,
                                                                                 "end": 245
                                                                             },
-                                                                            "flags": 96,
+                                                                            "flags": 97,
                                                                             "start": 229,
                                                                             "end": 245
                                                                         },
@@ -551,7 +551,7 @@ window.FooClient.something.setVars({
                                                 "kind": 134299649,
                                                 "text": "redis",
                                                 "rawText": "redis",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 272,
                                                 "end": 280
                                             },
@@ -563,7 +563,7 @@ window.FooClient.something.setVars({
                                                 "start": 281,
                                                 "end": 286
                                             },
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 272,
                                             "end": 286
                                         },
@@ -587,7 +587,7 @@ window.FooClient.something.setVars({
                                                 "kind": 134299649,
                                                 "text": "other",
                                                 "rawText": "other",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 289,
                                                 "end": 297
                                             },
@@ -599,7 +599,7 @@ window.FooClient.something.setVars({
                                                 "start": 298,
                                                 "end": 303
                                             },
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 289,
                                             "end": 303
                                         },
@@ -689,7 +689,7 @@ window.FooClient.something.setVars({
                                                                                 "kind": 134299649,
                                                                                 "text": "promise",
                                                                                 "rawText": "promise",
-                                                                                "flags": 96,
+                                                                                "flags": 97,
                                                                                 "start": 330,
                                                                                 "end": 340
                                                                             },
@@ -701,7 +701,7 @@ window.FooClient.something.setVars({
                                                                                 "start": 341,
                                                                                 "end": 348
                                                                             },
-                                                                            "flags": 96,
+                                                                            "flags": 97,
                                                                             "start": 330,
                                                                             "end": 348
                                                                         },
@@ -862,7 +862,7 @@ window.FooClient.something.setVars({
                                                                                 "kind": 134299649,
                                                                                 "text": "console",
                                                                                 "rawText": "console",
-                                                                                "flags": 96,
+                                                                                "flags": 97,
                                                                                 "start": 429,
                                                                                 "end": 441
                                                                             },
@@ -874,7 +874,7 @@ window.FooClient.something.setVars({
                                                                                 "start": 442,
                                                                                 "end": 445
                                                                             },
-                                                                            "flags": 96,
+                                                                            "flags": 97,
                                                                             "start": 429,
                                                                             "end": 445
                                                                         },
@@ -952,7 +952,7 @@ window.FooClient.something.setVars({
                                                 "kind": 134299649,
                                                 "text": "redis",
                                                 "rawText": "redis",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 472,
                                                 "end": 480
                                             },
@@ -964,7 +964,7 @@ window.FooClient.something.setVars({
                                                 "start": 481,
                                                 "end": 486
                                             },
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 472,
                                             "end": 486
                                         },
@@ -988,7 +988,7 @@ window.FooClient.something.setVars({
                                                 "kind": 134299649,
                                                 "text": "other",
                                                 "rawText": "other",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 489,
                                                 "end": 497
                                             },
@@ -1000,7 +1000,7 @@ window.FooClient.something.setVars({
                                                 "start": 498,
                                                 "end": 503
                                             },
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 489,
                                             "end": 503
                                         },
@@ -1055,7 +1055,7 @@ window.FooClient.something.setVars({
                                     "kind": 134299649,
                                     "text": "window",
                                     "rawText": "window",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 509,
                                     "end": 517
                                 },
@@ -1067,7 +1067,7 @@ window.FooClient.something.setVars({
                                     "start": 518,
                                     "end": 527
                                 },
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 509,
                                 "end": 527
                             },
@@ -1079,7 +1079,7 @@ window.FooClient.something.setVars({
                                 "start": 528,
                                 "end": 535
                             },
-                            "flags": 96,
+                            "flags": 97,
                             "start": 509,
                             "end": 535
                         },
@@ -1098,7 +1098,7 @@ window.FooClient.something.setVars({
                                                     "kind": 134299649,
                                                     "text": "locale",
                                                     "rawText": "locale",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 537,
                                                     "end": 546
                                                 },
@@ -1159,7 +1159,7 @@ window.FooClient.something.setVars({
                                                     "kind": 134299649,
                                                     "text": "authorizationToken",
                                                     "rawText": "authorizationToken",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 571,
                                                     "end": 592
                                                 },
@@ -1264,7 +1264,7 @@ window.FooClient.something.setVars({
                                         "kind": 134299649,
                                         "text": "window",
                                         "rawText": "window",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 636,
                                         "end": 644
                                     },
@@ -1276,7 +1276,7 @@ window.FooClient.something.setVars({
                                         "start": 645,
                                         "end": 654
                                     },
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 636,
                                     "end": 654
                                 },
@@ -1288,7 +1288,7 @@ window.FooClient.something.setVars({
                                     "start": 655,
                                     "end": 664
                                 },
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 636,
                                 "end": 664
                             },
@@ -1300,7 +1300,7 @@ window.FooClient.something.setVars({
                                 "start": 665,
                                 "end": 672
                             },
-                            "flags": 96,
+                            "flags": 97,
                             "start": 636,
                             "end": 672
                         },
@@ -1319,7 +1319,7 @@ window.FooClient.something.setVars({
                                                     "kind": 134299649,
                                                     "text": "locale",
                                                     "rawText": "locale",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 674,
                                                     "end": 683
                                                 },
@@ -1380,7 +1380,7 @@ window.FooClient.something.setVars({
                                                     "kind": 134299649,
                                                     "text": "authorizationToken",
                                                     "rawText": "authorizationToken",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 708,
                                                     "end": 729
                                                 },
@@ -1485,7 +1485,7 @@ window.FooClient.something.setVars({
                                         "kind": 134299649,
                                         "text": "window",
                                         "rawText": "window",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 773,
                                         "end": 781
                                     },
@@ -1497,7 +1497,7 @@ window.FooClient.something.setVars({
                                         "start": 782,
                                         "end": 791
                                     },
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 773,
                                     "end": 791
                                 },
@@ -1509,7 +1509,7 @@ window.FooClient.something.setVars({
                                     "start": 792,
                                     "end": 801
                                 },
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 773,
                                 "end": 801
                             },
@@ -1521,7 +1521,7 @@ window.FooClient.something.setVars({
                                 "start": 802,
                                 "end": 809
                             },
-                            "flags": 96,
+                            "flags": 97,
                             "start": 773,
                             "end": 809
                         },
@@ -1540,7 +1540,7 @@ window.FooClient.something.setVars({
                                                     "kind": 134299649,
                                                     "text": "locale",
                                                     "rawText": "locale",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 811,
                                                     "end": 820
                                                 },
@@ -1601,7 +1601,7 @@ window.FooClient.something.setVars({
                                                     "kind": 134299649,
                                                     "text": "authorizationToken",
                                                     "rawText": "authorizationToken",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 845,
                                                     "end": 866
                                                 },

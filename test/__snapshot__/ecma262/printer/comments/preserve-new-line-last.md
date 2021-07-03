@@ -75,7 +75,7 @@ function name() {
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 14,
                                 "end": 18
                             },
@@ -137,7 +137,7 @@ function name() {
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 59,
                                 "end": 63
                             },
@@ -201,7 +201,7 @@ function name() {
                                     "kind": 134299649,
                                     "text": "func1",
                                     "rawText": "func1",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 108,
                                     "end": 130
                                 },
@@ -229,7 +229,7 @@ function name() {
                                     "kind": 134299649,
                                     "text": "func2",
                                     "rawText": "func2",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 132,
                                     "end": 155
                                 },

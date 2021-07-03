@@ -94,7 +94,7 @@ class Foo {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 11,
                                     "end": 15
                                 },
@@ -154,7 +154,7 @@ class Foo {
                                     "kind": 134299649,
                                     "text": "b",
                                     "rawText": "b",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 34,
                                     "end": 39
                                 },
@@ -214,7 +214,7 @@ class Foo {
                                     "kind": 134299649,
                                     "text": "d",
                                     "rawText": "d",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 61,
                                     "end": 66
                                 },
@@ -298,7 +298,7 @@ class Foo {
                                     "kind": 134299649,
                                     "text": "d",
                                     "rawText": "d",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 156,
                                     "end": 161
                                 },
@@ -382,7 +382,7 @@ class Foo {
                                     "kind": 134299649,
                                     "text": "c",
                                     "rawText": "c",
-                                    "flags": 96,
+                                    "flags": 67108961,
                                     "start": 262,
                                     "end": 285
                                 },
@@ -442,7 +442,7 @@ class Foo {
                                     "kind": 134299649,
                                     "text": "d",
                                     "rawText": "d",
-                                    "flags": 96,
+                                    "flags": 67108961,
                                     "start": 307,
                                     "end": 330
                                 },
@@ -526,7 +526,7 @@ class Foo {
                                     "kind": 134299649,
                                     "text": "e",
                                     "rawText": "e",
-                                    "flags": 96,
+                                    "flags": 67108961,
                                     "start": 420,
                                     "end": 443
                                 },

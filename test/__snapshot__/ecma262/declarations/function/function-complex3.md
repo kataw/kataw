@@ -400,7 +400,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                                     "kind": 134217967,
                                                     "text": "a",
                                                     "rawText": "'a'",
-                                                    "flags": 2097216,
+                                                    "flags": 6291520,
                                                     "start": 156,
                                                     "end": 160
                                                 },
@@ -511,7 +511,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                                     "start": 187,
                                                     "end": 191
                                                 },
-                                                "flags": 32,
+                                                "flags": 96,
                                                 "start": 182,
                                                 "end": 191
                                             },
@@ -617,7 +617,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                     "kind": 134217967,
                                     "text": "a",
                                     "rawText": "'a'",
-                                    "flags": 2097216,
+                                    "flags": 6291520,
                                     "start": 216,
                                     "end": 220
                                 },
@@ -767,7 +767,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                     "start": 253,
                                     "end": 257
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 248,
                                 "end": 257
                             },

@@ -128,11 +128,11 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 15,
                         "end": 17
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 7,
                     "end": 17
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 17
             },
@@ -148,7 +148,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 18,
                     "end": 20
                 },
@@ -196,7 +196,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 30,
                         "end": 32
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 22,
                     "end": 32
                 },
@@ -214,7 +214,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 34,
                     "end": 36
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 18,
                 "end": 36
             },
@@ -230,7 +230,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 37,
                     "end": 40
                 },
@@ -284,7 +284,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 46,
                     "end": 53
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 37,
                 "end": 53
             },
@@ -300,7 +300,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 54,
                     "end": 56
                 },
@@ -354,7 +354,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 67,
                     "end": 69
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 54,
                 "end": 69
             },
@@ -370,7 +370,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 70,
                     "end": 72
                 },
@@ -424,7 +424,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 78,
                     "end": 85
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 70,
                 "end": 85
             },
@@ -440,7 +440,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 86,
                     "end": 88
                 },
@@ -494,7 +494,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 99,
                     "end": 101
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 86,
                 "end": 101
             },
@@ -510,7 +510,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 102,
                     "end": 105
                 },
@@ -544,7 +544,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 112,
                         "end": 114
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 107,
                     "end": 114
                 },
@@ -562,7 +562,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 116,
                     "end": 118
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 102,
                 "end": 118
             },
@@ -578,7 +578,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 119,
                     "end": 121
                 },
@@ -612,7 +612,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 128,
                         "end": 130
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 123,
                     "end": 130
                 },
@@ -630,7 +630,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 132,
                     "end": 134
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 119,
                 "end": 134
             },
@@ -646,7 +646,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 135,
                     "end": 137
                 },
@@ -680,7 +680,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 144,
                         "end": 146
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 139,
                     "end": 146
                 },
@@ -698,7 +698,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 148,
                     "end": 150
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 135,
                 "end": 150
             },
@@ -714,7 +714,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 151,
                     "end": 154
                 },
@@ -762,11 +762,11 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 165,
                         "end": 167
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 160,
                     "end": 167
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 151,
                 "end": 167
             },
@@ -782,7 +782,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 168,
                     "end": 170
                 },
@@ -830,11 +830,11 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 181,
                         "end": 183
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 176,
                     "end": 183
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 168,
                 "end": 183
             },
@@ -850,7 +850,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 184,
                     "end": 186
                 },
@@ -898,11 +898,11 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 197,
                         "end": 199
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 192,
                     "end": 199
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 184,
                 "end": 199
             },
@@ -918,7 +918,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 200,
                     "end": 203
                 },
@@ -952,7 +952,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "start": 210,
                             "end": 215
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 205,
                         "end": 215
                     },
@@ -984,7 +984,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 221,
                         "end": 223
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 205,
                     "end": 223
                 },
@@ -1004,7 +1004,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 224,
                     "end": 226
                 },
@@ -1038,7 +1038,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "start": 233,
                             "end": 238
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 228,
                         "end": 238
                     },
@@ -1070,7 +1070,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 244,
                         "end": 246
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 228,
                     "end": 246
                 },
@@ -1090,7 +1090,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 247,
                     "end": 250
                 },
@@ -1135,7 +1135,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 "start": 258,
                                 "end": 260
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 251,
                             "end": 260
                         }
@@ -1161,7 +1161,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 262,
                     "end": 264
                 },
@@ -1230,7 +1230,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 "start": 273,
                                 "end": 276
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 265,
                             "end": 276
                         }
@@ -1256,7 +1256,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 278,
                     "end": 280
                 },
@@ -1313,7 +1313,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 "start": 289,
                                 "end": 291
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 281,
                             "end": 291
                         }
@@ -1339,7 +1339,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 293,
                     "end": 295
                 },
@@ -1396,7 +1396,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 "start": 304,
                                 "end": 306
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 296,
                             "end": 306
                         }
@@ -1422,7 +1422,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 308,
                     "end": 311
                 },
@@ -1454,7 +1454,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 317,
                     "end": 319
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 308,
                 "end": 319
             },
@@ -1470,7 +1470,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 320,
                     "end": 323
                 },
@@ -1526,7 +1526,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 330,
                     "end": 333
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 320,
                 "end": 333
             },
@@ -1542,7 +1542,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 334,
                     "end": 336
                 },
@@ -1602,7 +1602,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 344,
                     "end": 348
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 334,
                 "end": 348
             },
@@ -1618,7 +1618,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 349,
                     "end": 351
                 },
@@ -1716,7 +1716,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 360,
                     "end": 365
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 349,
                 "end": 365
             },
@@ -1732,7 +1732,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 366,
                     "end": 368
                 },
@@ -1792,7 +1792,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 377,
                     "end": 382
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 366,
                 "end": 382
             },
@@ -1808,7 +1808,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 383,
                     "end": 385
                 },
@@ -1868,7 +1868,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 393,
                     "end": 397
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 383,
                 "end": 397
             },
@@ -1884,7 +1884,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 398,
                     "end": 400
                 },
@@ -1984,7 +1984,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 410,
                     "end": 416
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 398,
                 "end": 416
             },
@@ -2000,7 +2000,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 417,
                     "end": 419
                 },
@@ -2098,7 +2098,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 430,
                     "end": 437
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 417,
                 "end": 437
             },
@@ -2114,7 +2114,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 438,
                     "end": 440
                 },
@@ -2148,7 +2148,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 447,
                         "end": 449
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 442,
                     "end": 449
                 },
@@ -2182,11 +2182,11 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 456,
                         "end": 458
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 451,
                     "end": 458
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 438,
                 "end": 458
             },
@@ -2202,7 +2202,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 459,
                     "end": 461
                 },
@@ -2277,7 +2277,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "start": 471,
                                     "end": 476
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 468,
                                 "end": 476
                             }
@@ -2362,7 +2362,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "start": 487,
                                     "end": 492
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 484,
                                 "end": 492
                             }
@@ -2376,7 +2376,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 479,
                     "end": 493
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 459,
                 "end": 493
             },
@@ -2392,7 +2392,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 494,
                     "end": 497
                 },
@@ -2448,7 +2448,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 504,
                     "end": 507
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 494,
                 "end": 507
             },
@@ -2464,7 +2464,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 508,
                     "end": 510
                 },
@@ -2533,7 +2533,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 518,
                     "end": 523
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 508,
                 "end": 523
             },
@@ -2549,7 +2549,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 524,
                     "end": 526
                 },
@@ -2627,7 +2627,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 535,
                     "end": 540
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 524,
                 "end": 540
             },
@@ -2643,7 +2643,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 541,
                     "end": 543
                 },
@@ -2722,7 +2722,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 552,
                     "end": 556
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 541,
                 "end": 556
             },
@@ -2738,7 +2738,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 557,
                     "end": 559
                 },
@@ -2818,7 +2818,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 569,
                     "end": 573
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 557,
                 "end": 573
             },
@@ -2834,7 +2834,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 574,
                     "end": 576
                 },
@@ -2913,7 +2913,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 587,
                     "end": 592
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 574,
                 "end": 592
             },
@@ -2929,7 +2929,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 593,
                     "end": 595
                 },
@@ -2963,7 +2963,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 602,
                         "end": 604
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 597,
                     "end": 604
                 },
@@ -2997,11 +2997,11 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 611,
                         "end": 613
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 606,
                     "end": 613
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 593,
                 "end": 613
             },
@@ -3017,7 +3017,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 614,
                     "end": 616
                 },
@@ -3092,7 +3092,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "start": 626,
                                     "end": 631
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 623,
                                 "end": 631
                             }
@@ -3177,7 +3177,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "start": 642,
                                     "end": 647
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 639,
                                 "end": 647
                             }
@@ -3191,7 +3191,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 634,
                     "end": 648
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 614,
                 "end": 648
             },

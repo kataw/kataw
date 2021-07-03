@@ -99,7 +99,7 @@ x: for(;;) break x
                         "start": 20,
                         "end": 21
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 18,
                     "end": 21
                 },
@@ -117,7 +117,7 @@ x: for(;;) break x
                     "start": 22,
                     "end": 23
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 18,
                 "end": 23
             },

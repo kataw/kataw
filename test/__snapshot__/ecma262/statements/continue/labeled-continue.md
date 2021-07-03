@@ -72,7 +72,7 @@ label: for (let x = 0; x < 10;) {
                 "kind": 134299649,
                 "text": "label",
                 "rawText": "label",
-                "flags": 96,
+                "flags": 97,
                 "start": 14,
                 "end": 20
             },
@@ -158,7 +158,7 @@ label: for (let x = 0; x < 10;) {
                         "start": 41,
                         "end": 44
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 37,
                     "end": 44
                 },
@@ -200,7 +200,7 @@ label: for (let x = 0; x < 10;) {
                                                         "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
-                                                        "flags": 96,
+                                                        "flags": 97,
                                                         "start": 65,
                                                         "end": 71
                                                     },
@@ -226,7 +226,7 @@ label: for (let x = 0; x < 10;) {
                                                         "kind": 134299649,
                                                         "text": "count",
                                                         "rawText": "count",
-                                                        "flags": 96,
+                                                        "flags": 97,
                                                         "start": 74,
                                                         "end": 84
                                                     },

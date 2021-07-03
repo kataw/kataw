@@ -130,7 +130,7 @@ async function f(){ await foo\n/foo/g }
                         "start": 32,
                         "end": 35
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 30,
                     "end": 35
                 },
@@ -148,7 +148,7 @@ async function f(){ await foo\n/foo/g }
                     "start": 36,
                     "end": 37
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 30,
                 "end": 37
             },

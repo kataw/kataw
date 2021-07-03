@@ -140,7 +140,7 @@ async function f5() {
                                     "start": 47,
                                     "end": 49
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 28,
                                 "end": 49
                             },
@@ -214,7 +214,7 @@ async function f5() {
                                         "start": 115,
                                         "end": 117
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 96,
                                     "end": 117
                                 },
@@ -359,7 +359,7 @@ async function f5() {
                                                         "kind": 134299649,
                                                         "text": "shouldAmend",
                                                         "rawText": "shouldAmend",
-                                                        "flags": 96,
+                                                        "flags": 97,
                                                         "start": 196,
                                                         "end": 212
                                                     },
@@ -430,7 +430,7 @@ async function f5() {
                                             "start": 253,
                                             "end": 255
                                         },
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 234,
                                         "end": 255
                                     },
@@ -447,7 +447,7 @@ async function f5() {
                                                             "kind": 134299649,
                                                             "text": "allowUntracked",
                                                             "rawText": "allowUntracked",
-                                                            "flags": 96,
+                                                            "flags": 97,
                                                             "start": 280,
                                                             "end": 299
                                                         },
@@ -579,7 +579,7 @@ async function f5() {
                                     "start": 362,
                                     "end": 364
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 343,
                                 "end": 364
                             },
@@ -633,7 +633,7 @@ async function f5() {
                                         "start": 419,
                                         "end": 421
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 400,
                                     "end": 421
                                 },
@@ -645,7 +645,7 @@ async function f5() {
                                             "kind": 134299649,
                                             "text": "shouldAmend",
                                             "rawText": "shouldAmend",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 422,
                                             "end": 448
                                         },
@@ -707,7 +707,7 @@ async function f5() {
                                             "start": 487,
                                             "end": 489
                                         },
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 468,
                                         "end": 489
                                     },
@@ -719,7 +719,7 @@ async function f5() {
                                                 "kind": 134299649,
                                                 "text": "allowUntracked",
                                                 "rawText": "allowUntracked",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 490,
                                                 "end": 531
                                             },
@@ -842,7 +842,7 @@ async function f5() {
                                     "start": 590,
                                     "end": 592
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 571,
                                 "end": 592
                             },
@@ -896,7 +896,7 @@ async function f5() {
                                         "start": 657,
                                         "end": 659
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 638,
                                     "end": 659
                                 },
@@ -908,7 +908,7 @@ async function f5() {
                                             "kind": 134299649,
                                             "text": "shouldAmend",
                                             "rawText": "shouldAmend",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 660,
                                             "end": 693
                                         },
@@ -970,7 +970,7 @@ async function f5() {
                                             "start": 732,
                                             "end": 734
                                         },
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 713,
                                         "end": 734
                                     },
@@ -982,7 +982,7 @@ async function f5() {
                                                 "kind": 134299649,
                                                 "text": "allowUntracked",
                                                 "rawText": "allowUntracked",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 735,
                                                 "end": 795
                                             },
@@ -1105,7 +1105,7 @@ async function f5() {
                                     "start": 854,
                                     "end": 856
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 835,
                                 "end": 856
                             },
@@ -1179,7 +1179,7 @@ async function f5() {
                                         "start": 932,
                                         "end": 934
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 913,
                                     "end": 934
                                 },
@@ -1324,7 +1324,7 @@ async function f5() {
                                                         "kind": 134299649,
                                                         "text": "shouldAmend",
                                                         "rawText": "shouldAmend",
-                                                        "flags": 96,
+                                                        "flags": 97,
                                                         "start": 1019,
                                                         "end": 1037
                                                     },
@@ -1395,7 +1395,7 @@ async function f5() {
                                             "start": 1082,
                                             "end": 1084
                                         },
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 1063,
                                         "end": 1084
                                     },
@@ -1412,7 +1412,7 @@ async function f5() {
                                                             "kind": 134299649,
                                                             "text": "allowUntracked",
                                                             "rawText": "allowUntracked",
-                                                            "flags": 96,
+                                                            "flags": 97,
                                                             "start": 1113,
                                                             "end": 1134
                                                         },
@@ -1544,7 +1544,7 @@ async function f5() {
                                     "start": 1199,
                                     "end": 1201
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 1180,
                                 "end": 1201
                             },
@@ -1618,7 +1618,7 @@ async function f5() {
                                         "start": 1267,
                                         "end": 1269
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 1248,
                                     "end": 1269
                                 },
@@ -1763,7 +1763,7 @@ async function f5() {
                                                         "kind": 134299649,
                                                         "text": "shouldAmend",
                                                         "rawText": "shouldAmend",
-                                                        "flags": 96,
+                                                        "flags": 97,
                                                         "start": 1348,
                                                         "end": 1364
                                                     },
@@ -1834,7 +1834,7 @@ async function f5() {
                                             "start": 1405,
                                             "end": 1407
                                         },
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 1386,
                                         "end": 1407
                                     },
@@ -1851,7 +1851,7 @@ async function f5() {
                                                             "kind": 134299649,
                                                             "text": "allowUntracked",
                                                             "rawText": "allowUntracked",
-                                                            "flags": 96,
+                                                            "flags": 97,
                                                             "start": 1410,
                                                             "end": 1451
                                                         },

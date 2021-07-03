@@ -706,7 +706,7 @@ foo((x, y) => {});
                                 "start": 148,
                                 "end": 149
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 145,
                             "end": 149
                         },
@@ -740,11 +740,11 @@ foo((x, y) => {});
                                 "start": 154,
                                 "end": 155
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 153,
                             "end": 155
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 145,
                         "end": 155
                     },
@@ -952,7 +952,7 @@ foo((x, y) => {});
                     "start": 203,
                     "end": 205
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 186,
                 "end": 205
             },
@@ -968,7 +968,7 @@ foo((x, y) => {});
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 206,
                     "end": 211
                 },
@@ -1242,7 +1242,7 @@ foo((x, y) => {});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 269,
                     "end": 272
                 },
@@ -1599,7 +1599,7 @@ foo((x, y) => {});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 350,
                     "end": 353
                 },
@@ -1714,7 +1714,7 @@ foo((x, y) => {});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 374,
                     "end": 376
                 },
@@ -1846,7 +1846,7 @@ foo((x, y) => {});
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 402,
                     "end": 404
                 },
@@ -2130,7 +2130,7 @@ foo((x, y) => {});
                                         "start": 476,
                                         "end": 477
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 469,
                                     "end": 477
                                 },
@@ -2148,7 +2148,7 @@ foo((x, y) => {});
                                     "start": 478,
                                     "end": 479
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 469,
                                 "end": 479
                             },
@@ -2325,7 +2325,7 @@ foo((x, y) => {});
                                                         "start": 525,
                                                         "end": 527
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 96,
                                                     "start": 521,
                                                     "end": 527
                                                 },
@@ -2404,7 +2404,7 @@ foo((x, y) => {});
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 541,
                     "end": 546
                 },

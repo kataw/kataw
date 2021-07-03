@@ -73,7 +73,7 @@ declare => x, declare(y);
                             "kind": 134299649,
                             "text": "declare",
                             "rawText": "declare",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 13,
                             "end": 22
                         },
@@ -262,7 +262,7 @@ declare => x, declare(y);
                             "kind": 134299649,
                             "text": "declare",
                             "rawText": "declare",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 83,
                             "end": 92
                         },

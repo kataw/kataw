@@ -289,7 +289,7 @@ class Foo {
                                                             "start": 71,
                                                             "end": 75
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 66,
                                                         "end": 75
                                                     }

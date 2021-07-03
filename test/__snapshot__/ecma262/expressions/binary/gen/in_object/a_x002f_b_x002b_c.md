@@ -83,7 +83,7 @@ x = { a: a / b + c }
                                             "start": 12,
                                             "end": 14
                                         },
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 5,
                                         "end": 14
                                     },
@@ -101,7 +101,7 @@ x = { a: a / b + c }
                                         "start": 16,
                                         "end": 18
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 5,
                                     "end": 18
                                 },

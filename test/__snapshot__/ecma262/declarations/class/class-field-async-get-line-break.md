@@ -77,7 +77,7 @@ get(){} }
                                     "kind": 134299649,
                                     "text": "get",
                                     "rawText": "get",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 15,
                                     "end": 19
                                 },

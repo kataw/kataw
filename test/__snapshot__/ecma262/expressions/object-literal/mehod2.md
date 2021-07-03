@@ -124,7 +124,7 @@ x = { method(test) { } }
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 20,
                     "end": 23
                 },
@@ -213,7 +213,7 @@ x = { method(test) { } }
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 39,
                     "end": 42
                 },
@@ -302,7 +302,7 @@ x = { method(test) { } }
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 58,
                     "end": 61
                 },
@@ -478,7 +478,7 @@ x = { method(test) { } }
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 104,
                     "end": 107
                 },
@@ -573,7 +573,7 @@ x = { method(test) { } }
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 127,
                     "end": 130
                 },

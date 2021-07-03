@@ -214,7 +214,7 @@ class AnotherRomote {
                                     "kind": 134299649,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 132,
                                     "end": 148
                                 },

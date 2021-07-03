@@ -255,7 +255,7 @@ import * as x, {y} from 'm.js';
                         "start": 71,
                         "end": 74
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 69,
                     "end": 74
                 },
@@ -372,7 +372,7 @@ import * as x, {y} from 'm.js';
                         "start": 104,
                         "end": 107
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 102,
                     "end": 107
                 },
@@ -431,7 +431,7 @@ import * as x, {y} from 'm.js';
                             "start": 112,
                             "end": 115
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 110,
                         "end": 115
                     }
@@ -649,7 +649,7 @@ import * as x, {y} from 'm.js';
                         "start": 170,
                         "end": 173
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 168,
                     "end": 173
                 },

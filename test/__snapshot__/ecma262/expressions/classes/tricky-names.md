@@ -116,7 +116,7 @@ class A {
                                     "kind": 134299649,
                                     "text": "get",
                                     "rawText": "get",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 9,
                                     "end": 15
                                 },
@@ -167,7 +167,7 @@ class A {
                                     "kind": 134299649,
                                     "text": "set",
                                     "rawText": "set",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 23,
                                     "end": 30
                                 },
@@ -218,7 +218,7 @@ class A {
                                     "kind": 134299649,
                                     "text": "static",
                                     "rawText": "static",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 38,
                                     "end": 48
                                 },
@@ -269,7 +269,7 @@ class A {
                                     "kind": 134299649,
                                     "text": "async",
                                     "rawText": "async",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 56,
                                     "end": 65
                                 },
@@ -468,7 +468,7 @@ class A {
                                 "kind": 134299649,
                                 "text": "static",
                                 "rawText": "static",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 127,
                                 "end": 138
                             },
@@ -494,7 +494,7 @@ class A {
                                     "kind": 134299649,
                                     "text": "get",
                                     "rawText": "get",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 138,
                                     "end": 144
                                 },
@@ -540,7 +540,7 @@ class A {
                                 "kind": 134299649,
                                 "text": "static",
                                 "rawText": "static",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 152,
                                 "end": 162
                             },
@@ -566,7 +566,7 @@ class A {
                                     "kind": 134299649,
                                     "text": "set",
                                     "rawText": "set",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 162,
                                     "end": 168
                                 },
@@ -612,7 +612,7 @@ class A {
                                 "kind": 134299649,
                                 "text": "static",
                                 "rawText": "static",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 176,
                                 "end": 186
                             },
@@ -638,7 +638,7 @@ class A {
                                     "kind": 134299649,
                                     "text": "static",
                                     "rawText": "static",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 186,
                                     "end": 195
                                 },
@@ -684,7 +684,7 @@ class A {
                                 "kind": 134299649,
                                 "text": "static",
                                 "rawText": "static",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 203,
                                 "end": 213
                             },
@@ -710,7 +710,7 @@ class A {
                                     "kind": 134299649,
                                     "text": "async",
                                     "rawText": "async",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 213,
                                     "end": 221
                                 },
@@ -756,7 +756,7 @@ class A {
                                 "kind": 134299649,
                                 "text": "static",
                                 "rawText": "static",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 229,
                                 "end": 239
                             },
@@ -782,7 +782,7 @@ class A {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 239,
                                     "end": 243
                                 },
@@ -828,7 +828,7 @@ class A {
                                 "kind": 134299649,
                                 "text": "get",
                                 "rawText": "get",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 251,
                                 "end": 259
                             },
@@ -854,7 +854,7 @@ class A {
                                     "kind": 134299649,
                                     "text": "async",
                                     "rawText": "async",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 259,
                                     "end": 267
                                 },
@@ -900,7 +900,7 @@ class A {
                                 "kind": 134299649,
                                 "text": "static",
                                 "rawText": "static",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 275,
                                 "end": 286
                             },
@@ -921,7 +921,7 @@ class A {
                                 "kind": 134299649,
                                 "text": "get",
                                 "rawText": "get",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 286,
                                 "end": 292
                             },
@@ -947,7 +947,7 @@ class A {
                                     "kind": 134299649,
                                     "text": "static",
                                     "rawText": "static",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 292,
                                     "end": 301
                                 },

@@ -60,7 +60,7 @@ a+1 ?? b+1 && c;
                     "start": 3,
                     "end": 5
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 0,
                 "end": 5
             },
@@ -76,7 +76,7 @@ a+1 ?? b+1 && c;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 6,
                     "end": 9
                 },
@@ -94,7 +94,7 @@ a+1 ?? b+1 && c;
                     "start": 12,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 6,
                 "end": 12
             },
@@ -112,7 +112,7 @@ a+1 ?? b+1 && c;
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 13,
                         "end": 16
                     },
@@ -130,7 +130,7 @@ a+1 ?? b+1 && c;
                         "start": 19,
                         "end": 21
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 13,
                     "end": 21
                 },
@@ -148,7 +148,7 @@ a+1 ?? b+1 && c;
                     "start": 24,
                     "end": 26
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 13,
                 "end": 26
             },
@@ -166,7 +166,7 @@ a+1 ?? b+1 && c;
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 27,
                         "end": 30
                     },
@@ -184,7 +184,7 @@ a+1 ?? b+1 && c;
                         "start": 33,
                         "end": 35
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 27,
                     "end": 35
                 },
@@ -202,7 +202,7 @@ a+1 ?? b+1 && c;
                     "start": 38,
                     "end": 40
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 27,
                 "end": 40
             },
@@ -218,7 +218,7 @@ a+1 ?? b+1 && c;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 41,
                     "end": 44
                 },
@@ -252,11 +252,11 @@ a+1 ?? b+1 && c;
                         "start": 52,
                         "end": 54
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 49,
                     "end": 54
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 41,
                 "end": 54
             },
@@ -272,7 +272,7 @@ a+1 ?? b+1 && c;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 55,
                     "end": 58
                 },
@@ -306,11 +306,11 @@ a+1 ?? b+1 && c;
                         "start": 66,
                         "end": 68
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 63,
                     "end": 68
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 55,
                 "end": 68
             },
@@ -330,7 +330,7 @@ a+1 ?? b+1 && c;
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 69,
                             "end": 72
                         },
@@ -348,7 +348,7 @@ a+1 ?? b+1 && c;
                             "start": 73,
                             "end": 74
                         },
-                        "flags": 32,
+                        "flags": 97,
                         "start": 69,
                         "end": 74
                     },
@@ -382,11 +382,11 @@ a+1 ?? b+1 && c;
                             "start": 80,
                             "end": 81
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 79,
                         "end": 81
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 69,
                     "end": 81
                 },
@@ -404,7 +404,7 @@ a+1 ?? b+1 && c;
                     "start": 84,
                     "end": 86
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 69,
                 "end": 86
             },
@@ -424,7 +424,7 @@ a+1 ?? b+1 && c;
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 86,
                             "end": 89
                         },
@@ -442,7 +442,7 @@ a+1 ?? b+1 && c;
                             "start": 90,
                             "end": 91
                         },
-                        "flags": 32,
+                        "flags": 97,
                         "start": 86,
                         "end": 91
                     },
@@ -476,11 +476,11 @@ a+1 ?? b+1 && c;
                             "start": 97,
                             "end": 98
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 96,
                         "end": 98
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 86,
                     "end": 98
                 },
@@ -498,7 +498,7 @@ a+1 ?? b+1 && c;
                     "start": 101,
                     "end": 103
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 86,
                 "end": 103
             },
@@ -516,7 +516,7 @@ a+1 ?? b+1 && c;
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 104,
                         "end": 107
                     },
@@ -534,7 +534,7 @@ a+1 ?? b+1 && c;
                         "start": 108,
                         "end": 109
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 104,
                     "end": 109
                 },
@@ -570,7 +570,7 @@ a+1 ?? b+1 && c;
                             "start": 115,
                             "end": 116
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 114,
                         "end": 116
                     },
@@ -588,11 +588,11 @@ a+1 ?? b+1 && c;
                         "start": 119,
                         "end": 121
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 114,
                     "end": 121
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 104,
                 "end": 121
             },
@@ -610,7 +610,7 @@ a+1 ?? b+1 && c;
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 122,
                         "end": 125
                     },
@@ -628,7 +628,7 @@ a+1 ?? b+1 && c;
                         "start": 126,
                         "end": 127
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 122,
                     "end": 127
                 },
@@ -664,7 +664,7 @@ a+1 ?? b+1 && c;
                             "start": 133,
                             "end": 134
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 132,
                         "end": 134
                     },
@@ -682,11 +682,11 @@ a+1 ?? b+1 && c;
                         "start": 137,
                         "end": 139
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 132,
                     "end": 139
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 122,
                 "end": 139
             },

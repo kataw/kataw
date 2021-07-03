@@ -61,7 +61,7 @@ export default (1 + 2);
                         "start": 19,
                         "end": 21
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 16,
                     "end": 21
                 },

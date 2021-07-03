@@ -109,7 +109,7 @@ function* g(){ x ? yield : y }
                                     "start": 26,
                                     "end": 28
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 14,
                                 "end": 28
                             },

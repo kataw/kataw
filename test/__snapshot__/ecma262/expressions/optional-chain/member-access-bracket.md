@@ -130,7 +130,7 @@ obj.a?.[true]
                                                             "kind": 134299649,
                                                             "text": "obj",
                                                             "rawText": "obj",
-                                                            "flags": 96,
+                                                            "flags": 97,
                                                             "start": 11,
                                                             "end": 16
                                                         },
@@ -194,7 +194,7 @@ obj.a?.[true]
                                                     "kind": 134299649,
                                                     "text": "obj",
                                                     "rawText": "obj",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 33,
                                                     "end": 38
                                                 },
@@ -231,7 +231,7 @@ obj.a?.[true]
                                                 "kind": 134299649,
                                                 "text": "obj",
                                                 "rawText": "obj",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 46,
                                                 "end": 51
                                             },
@@ -291,7 +291,7 @@ obj.a?.[true]
                                         "kind": 134299649,
                                         "text": "obj",
                                         "rawText": "obj",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 67,
                                         "end": 72
                                     },
@@ -342,7 +342,7 @@ obj.a?.[true]
                                 "kind": 134299649,
                                 "text": "obj",
                                 "rawText": "obj",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 82,
                                 "end": 87
                             },

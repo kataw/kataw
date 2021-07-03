@@ -78,11 +78,11 @@ x << y | z;
                         "start": 7,
                         "end": 9
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 5,
                     "end": 9
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 9
             },
@@ -100,7 +100,7 @@ x << y | z;
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 10,
                         "end": 12
                     },
@@ -118,7 +118,7 @@ x << y | z;
                         "start": 14,
                         "end": 16
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 10,
                     "end": 16
                 },
@@ -136,7 +136,7 @@ x << y | z;
                     "start": 18,
                     "end": 20
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 10,
                 "end": 20
             },
@@ -152,7 +152,7 @@ x << y | z;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 21,
                     "end": 24
                 },
@@ -186,11 +186,11 @@ x << y | z;
                         "start": 30,
                         "end": 32
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 28,
                     "end": 32
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 21,
                 "end": 32
             },
@@ -208,7 +208,7 @@ x << y | z;
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 33,
                         "end": 35
                     },
@@ -226,7 +226,7 @@ x << y | z;
                         "start": 37,
                         "end": 39
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 33,
                     "end": 39
                 },
@@ -244,7 +244,7 @@ x << y | z;
                     "start": 41,
                     "end": 43
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 33,
                 "end": 43
             },
@@ -262,7 +262,7 @@ x << y | z;
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 44,
                         "end": 46
                     },
@@ -280,7 +280,7 @@ x << y | z;
                         "start": 48,
                         "end": 50
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 44,
                     "end": 50
                 },
@@ -298,7 +298,7 @@ x << y | z;
                     "start": 52,
                     "end": 54
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 44,
                 "end": 54
             },
@@ -316,7 +316,7 @@ x << y | z;
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 55,
                         "end": 57
                     },
@@ -334,7 +334,7 @@ x << y | z;
                         "start": 59,
                         "end": 61
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 55,
                     "end": 61
                 },
@@ -352,7 +352,7 @@ x << y | z;
                     "start": 63,
                     "end": 65
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 55,
                 "end": 65
             },
@@ -370,7 +370,7 @@ x << y | z;
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 66,
                         "end": 69
                     },
@@ -388,7 +388,7 @@ x << y | z;
                         "start": 71,
                         "end": 73
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 66,
                     "end": 73
                 },
@@ -406,7 +406,7 @@ x << y | z;
                     "start": 75,
                     "end": 77
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 66,
                 "end": 77
             },
@@ -424,7 +424,7 @@ x << y | z;
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 78,
                         "end": 81
                     },
@@ -442,7 +442,7 @@ x << y | z;
                         "start": 84,
                         "end": 86
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 78,
                     "end": 86
                 },
@@ -460,7 +460,7 @@ x << y | z;
                     "start": 89,
                     "end": 91
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 78,
                 "end": 91
             },
@@ -478,7 +478,7 @@ x << y | z;
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 92,
                         "end": 94
                     },
@@ -496,7 +496,7 @@ x << y | z;
                         "start": 98,
                         "end": 100
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 92,
                     "end": 100
                 },
@@ -514,7 +514,7 @@ x << y | z;
                     "start": 103,
                     "end": 105
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 92,
                 "end": 105
             },
@@ -532,7 +532,7 @@ x << y | z;
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 106,
                         "end": 108
                     },
@@ -550,7 +550,7 @@ x << y | z;
                         "start": 112,
                         "end": 114
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 106,
                     "end": 114
                 },
@@ -568,7 +568,7 @@ x << y | z;
                     "start": 118,
                     "end": 120
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 106,
                 "end": 120
             },
@@ -584,7 +584,7 @@ x << y | z;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 121,
                     "end": 123
                 },
@@ -618,11 +618,11 @@ x << y | z;
                         "start": 130,
                         "end": 132
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 127,
                     "end": 132
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 121,
                 "end": 132
             },
@@ -638,7 +638,7 @@ x << y | z;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 133,
                     "end": 136
                 },
@@ -672,11 +672,11 @@ x << y | z;
                         "start": 142,
                         "end": 144
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 140,
                     "end": 144
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 133,
                 "end": 144
             },
@@ -694,7 +694,7 @@ x << y | z;
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 145,
                         "end": 147
                     },
@@ -712,7 +712,7 @@ x << y | z;
                         "start": 149,
                         "end": 151
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 145,
                     "end": 151
                 },
@@ -730,7 +730,7 @@ x << y | z;
                     "start": 153,
                     "end": 155
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 145,
                 "end": 155
             },
@@ -748,7 +748,7 @@ x << y | z;
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 156,
                         "end": 158
                     },
@@ -766,7 +766,7 @@ x << y | z;
                         "start": 160,
                         "end": 162
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 156,
                     "end": 162
                 },
@@ -784,7 +784,7 @@ x << y | z;
                     "start": 164,
                     "end": 166
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 156,
                 "end": 166
             },
@@ -802,7 +802,7 @@ x << y | z;
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 167,
                         "end": 169
                     },
@@ -820,7 +820,7 @@ x << y | z;
                         "start": 171,
                         "end": 173
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 167,
                     "end": 173
                 },
@@ -838,7 +838,7 @@ x << y | z;
                     "start": 175,
                     "end": 177
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 167,
                 "end": 177
             },
@@ -856,7 +856,7 @@ x << y | z;
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 178,
                         "end": 180
                     },
@@ -874,7 +874,7 @@ x << y | z;
                         "start": 182,
                         "end": 184
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 178,
                     "end": 184
                 },
@@ -892,7 +892,7 @@ x << y | z;
                     "start": 186,
                     "end": 188
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 178,
                 "end": 188
             },
@@ -908,7 +908,7 @@ x << y | z;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 189,
                     "end": 191
                 },
@@ -942,11 +942,11 @@ x << y | z;
                         "start": 198,
                         "end": 200
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 195,
                     "end": 200
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 189,
                 "end": 200
             },
@@ -964,7 +964,7 @@ x << y | z;
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 201,
                         "end": 203
                     },
@@ -982,7 +982,7 @@ x << y | z;
                         "start": 206,
                         "end": 208
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 201,
                     "end": 208
                 },
@@ -1000,7 +1000,7 @@ x << y | z;
                     "start": 210,
                     "end": 212
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 201,
                 "end": 212
             },

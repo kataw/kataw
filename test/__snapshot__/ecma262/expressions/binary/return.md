@@ -214,11 +214,11 @@ function foo3() {
                                         "start": 87,
                                         "end": 106
                                     },
-                                    "flags": 32,
+                                    "flags": 268435488,
                                     "start": 83,
                                     "end": 106
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 25,
                                 "end": 106
                             },
@@ -427,11 +427,11 @@ function foo3() {
                                             "start": 199,
                                             "end": 218
                                         },
-                                        "flags": 32,
+                                        "flags": 268435488,
                                         "start": 195,
                                         "end": 218
                                     },
-                                    "flags": 32,
+                                    "flags": 268435488,
                                     "start": 137,
                                     "end": 218
                                 },
@@ -459,7 +459,7 @@ function foo3() {
                                     "start": 235,
                                     "end": 241
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 137,
                                 "end": 241
                             },
@@ -713,7 +713,7 @@ function foo3() {
                                         "start": 322,
                                         "end": 369
                                     },
-                                    "flags": 32,
+                                    "flags": 268435488,
                                     "start": 272,
                                     "end": 369
                                 },
@@ -741,7 +741,7 @@ function foo3() {
                                     "start": 386,
                                     "end": 392
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 272,
                                 "end": 392
                             },

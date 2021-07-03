@@ -73,7 +73,7 @@ async x => instanceof = 1
                         "start": 21,
                         "end": 21
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 10,
                     "end": 21
                 },

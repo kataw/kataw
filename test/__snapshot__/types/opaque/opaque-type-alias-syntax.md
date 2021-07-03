@@ -120,7 +120,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                                 "kind": 134299649,
                                 "text": "property",
                                 "rawText": "property",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 61,
                                 "end": 72
                             },
@@ -153,7 +153,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                                 "kind": 134299649,
                                 "text": "method",
                                 "rawText": "method",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 81,
                                 "end": 90
                             },

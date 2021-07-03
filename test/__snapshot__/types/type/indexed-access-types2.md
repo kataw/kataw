@@ -80,7 +80,7 @@ type C = Obj['bar'][foo]['boz'];
                                     "kind": 134217967,
                                     "text": "bar",
                                     "rawText": "'bar'",
-                                    "flags": 2097216,
+                                    "flags": 6291520,
                                     "start": 13,
                                     "end": 18
                                 },
@@ -127,7 +127,7 @@ type C = Obj['bar'][foo]['boz'];
                             "kind": 134217967,
                             "text": "boz",
                             "rawText": "'boz'",
-                            "flags": 2097216,
+                            "flags": 6291520,
                             "start": 25,
                             "end": 30
                         },

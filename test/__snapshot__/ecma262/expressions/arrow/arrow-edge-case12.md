@@ -156,7 +156,7 @@ a ? b ? (c => d) : e => f : g;
                         "start": 27,
                         "end": 29
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 3,
                     "end": 29
                 },
@@ -169,7 +169,7 @@ a ? b ? (c => d) : e => f : g;
                     "start": 29,
                     "end": 29
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 29
             },

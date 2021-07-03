@@ -239,7 +239,7 @@ var x, y, z; m(['b']) ? lhs : [async x => z] = {}
                     "start": 29,
                     "end": 49
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 12,
                 "end": 49
             },

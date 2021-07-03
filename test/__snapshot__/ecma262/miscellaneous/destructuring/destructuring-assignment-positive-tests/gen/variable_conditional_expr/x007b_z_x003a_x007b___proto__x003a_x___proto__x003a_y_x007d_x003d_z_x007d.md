@@ -299,7 +299,7 @@ var x, y, z; m(['b']) ? lhs : { z : { __proto__: x, __proto__: y } = z } = {}
                     "start": 29,
                     "end": 77
                 },
-                "flags": 32,
+                "flags": 268435488,
                 "start": 12,
                 "end": 77
             },

@@ -66,7 +66,7 @@ obj.a &&= b;
                         "kind": 134299649,
                         "text": "obj",
                         "rawText": "obj",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 8,
                         "end": 12
                     },
@@ -78,7 +78,7 @@ obj.a &&= b;
                         "start": 13,
                         "end": 14
                     },
-                    "flags": 96,
+                    "flags": 97,
                     "start": 8,
                     "end": 14
                 },

@@ -377,7 +377,7 @@ class w { static #\u0063onstructor }
                                 "kind": 134299649,
                                 "text": "#constructor",
                                 "rawText": "#",
-                                "flags": 96,
+                                "flags": 16480,
                                 "start": 144,
                                 "end": 146
                             },
@@ -398,7 +398,7 @@ class w { static #\u0063onstructor }
                                 "kind": 134299649,
                                 "text": "constructor",
                                 "rawText": "\\u0063onstructor",
-                                "flags": 96,
+                                "flags": 16480,
                                 "start": 146,
                                 "end": 162
                             },

@@ -74,7 +74,7 @@ var Person = makeClass(
                                                         "kind": 134299649,
                                                         "text": "initialize",
                                                         "rawText": "initialize",
-                                                        "flags": 96,
+                                                        "flags": 97,
                                                         "start": 28,
                                                         "end": 199
                                                     },

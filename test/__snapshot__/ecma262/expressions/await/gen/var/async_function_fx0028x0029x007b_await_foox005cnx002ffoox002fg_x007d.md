@@ -137,7 +137,7 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                         "start": 71,
                         "end": 74
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 69,
                     "end": 74
                 },
@@ -155,7 +155,7 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                     "start": 75,
                     "end": 76
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 69,
                 "end": 76
             },

@@ -182,7 +182,7 @@ function * gen() { function not_gen() { function* g(){ x ? yield : y } }}
                                                                     "start": 66,
                                                                     "end": 68
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 96,
                                                                 "start": 54,
                                                                 "end": 68
                                                             },

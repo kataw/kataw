@@ -93,7 +93,7 @@ for(delete((1)?y:x in y) in z)x
                                 "start": 21,
                                 "end": 23
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 17,
                             "end": 23
                         },

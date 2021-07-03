@@ -145,7 +145,7 @@ wrap(
                         "start": 143,
                         "end": 150
                     },
-                    "flags": 32,
+                    "flags": 4194400,
                     "start": 118,
                     "end": 150
                 },
@@ -191,7 +191,7 @@ wrap(
                     "kind": 134299649,
                     "text": "wrap",
                     "rawText": "wrap",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 204,
                     "end": 210
                 },

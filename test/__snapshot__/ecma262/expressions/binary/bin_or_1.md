@@ -41,7 +41,7 @@ a|b
                     "start": 2,
                     "end": 3
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 3
             },

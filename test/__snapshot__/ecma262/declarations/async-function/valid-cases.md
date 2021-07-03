@@ -195,7 +195,7 @@ new async function() { await 0 }.x
                     "start": 35,
                     "end": 63
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 0,
                 "end": 63
             },
@@ -299,7 +299,7 @@ new async function() { await 0 }.x
                     "start": 67,
                     "end": 100
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 63,
                 "end": 100
             },
@@ -770,7 +770,7 @@ new async function() { await 0 }.x
                     "start": 104,
                     "end": 271
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 100,
                 "end": 271
             },

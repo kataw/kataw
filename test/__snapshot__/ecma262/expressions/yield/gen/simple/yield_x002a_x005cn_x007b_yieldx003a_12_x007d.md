@@ -49,7 +49,7 @@ yield * \n { yield: 12 }
                     "start": 7,
                     "end": 7
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 7
             },

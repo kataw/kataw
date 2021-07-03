@@ -203,7 +203,7 @@ c */? foo : bar : bar;
                                     "start": 19,
                                     "end": 39
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 13,
                                 "end": 39
                             },
@@ -545,7 +545,7 @@ c */? foo : bar : bar;
                                 "start": 152,
                                 "end": 252
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 13,
                             "end": 252
                         },
@@ -639,7 +639,7 @@ c */? foo : bar : bar;
                                     "start": 274,
                                     "end": 294
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 268,
                                 "end": 294
                             },
@@ -981,7 +981,7 @@ c */? foo : bar : bar;
                                 "start": 407,
                                 "end": 507
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 268,
                             "end": 507
                         },
@@ -1205,7 +1205,7 @@ c */? foo : bar : bar;
                                 "start": 708,
                                 "end": 713
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 542,
                             "end": 713
                         },
@@ -1429,7 +1429,7 @@ c */? foo : bar : bar;
                                 "start": 919,
                                 "end": 922
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 749,
                             "end": 922
                         },
@@ -1653,7 +1653,7 @@ c */? foo : bar : bar;
                                 "start": 1124,
                                 "end": 1127
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 958,
                             "end": 1127
                         },
@@ -1761,7 +1761,7 @@ c */? foo : bar : bar;
                                     "start": 1181,
                                     "end": 1194
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 1156,
                                 "end": 1194
                             },
@@ -1839,7 +1839,7 @@ c */? foo : bar : bar;
                                 "start": 1239,
                                 "end": 1270
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 1156,
                             "end": 1270
                         },
@@ -1864,7 +1864,7 @@ c */? foo : bar : bar;
                     "kind": 134299649,
                     "text": "test",
                     "rawText": "test",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 1271,
                     "end": 1282
                 },
@@ -1896,7 +1896,7 @@ c */? foo : bar : bar;
                     "start": 1332,
                     "end": 1336
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 1271,
                 "end": 1336
             },
@@ -1912,7 +1912,7 @@ c */? foo : bar : bar;
                     "kind": 134299649,
                     "text": "test",
                     "rawText": "test",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 1337,
                     "end": 1343
                 },
@@ -1926,7 +1926,7 @@ c */? foo : bar : bar;
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 1347,
                     "end": 1419
                 },
@@ -1944,7 +1944,7 @@ c */? foo : bar : bar;
                     "start": 1423,
                     "end": 1427
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 1337,
                 "end": 1427
             },
@@ -1960,7 +1960,7 @@ c */? foo : bar : bar;
                     "kind": 134299649,
                     "text": "test",
                     "rawText": "test",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 1428,
                     "end": 1434
                 },
@@ -1974,7 +1974,7 @@ c */? foo : bar : bar;
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 1438,
                     "end": 1509
                 },
@@ -2004,7 +2004,7 @@ c */? foo : bar : bar;
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 1522,
                         "end": 1566
                     },
@@ -2022,11 +2022,11 @@ c */? foo : bar : bar;
                         "start": 1570,
                         "end": 1574
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 1513,
                     "end": 1574
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 1428,
                 "end": 1574
             },
@@ -2042,7 +2042,7 @@ c */? foo : bar : bar;
                     "kind": 134299649,
                     "text": "test",
                     "rawText": "test",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 1575,
                     "end": 1581
                 },
@@ -2056,7 +2056,7 @@ c */? foo : bar : bar;
                     "kind": 134299649,
                     "text": "foo",
                     "rawText": "foo",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 1585,
                     "end": 1607
                 },
@@ -2074,7 +2074,7 @@ c */? foo : bar : bar;
                     "start": 1611,
                     "end": 1615
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 1575,
                 "end": 1615
             },
@@ -2090,7 +2090,7 @@ c */? foo : bar : bar;
                     "kind": 134299649,
                     "text": "test",
                     "rawText": "test",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 1616,
                     "end": 1622
                 },
@@ -2118,11 +2118,11 @@ c */? foo : bar : bar;
                     "kind": 134299649,
                     "text": "bar",
                     "rawText": "bar",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 1634,
                     "end": 1707
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 1616,
                 "end": 1707
             },
@@ -2138,7 +2138,7 @@ c */? foo : bar : bar;
                     "kind": 134299649,
                     "text": "test",
                     "rawText": "test",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 1708,
                     "end": 1714
                 },
@@ -2168,7 +2168,7 @@ c */? foo : bar : bar;
                         "kind": 134299649,
                         "text": "test",
                         "rawText": "test",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 1726,
                         "end": 1800
                     },
@@ -2196,15 +2196,15 @@ c */? foo : bar : bar;
                         "kind": 134299649,
                         "text": "bar",
                         "rawText": "bar",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 1812,
                         "end": 1859
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 1726,
                     "end": 1859
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 1708,
                 "end": 1859
             },
@@ -2220,7 +2220,7 @@ c */? foo : bar : bar;
                     "kind": 134299649,
                     "text": "test",
                     "rawText": "test",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 1860,
                     "end": 1866
                 },
@@ -2248,11 +2248,11 @@ c */? foo : bar : bar;
                     "kind": 134299649,
                     "text": "bar",
                     "rawText": "bar",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 1878,
                     "end": 1898
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 1860,
                 "end": 1898
             },
@@ -2268,7 +2268,7 @@ c */? foo : bar : bar;
                     "kind": 134299649,
                     "text": "test",
                     "rawText": "test",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 1899,
                     "end": 1905
                 },
@@ -2316,7 +2316,7 @@ c */? foo : bar : bar;
                         "start": 1929,
                         "end": 1933
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 1907,
                     "end": 1933
                 },
@@ -2334,7 +2334,7 @@ c */? foo : bar : bar;
                     "start": 1935,
                     "end": 1939
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 1899,
                 "end": 1939
             },

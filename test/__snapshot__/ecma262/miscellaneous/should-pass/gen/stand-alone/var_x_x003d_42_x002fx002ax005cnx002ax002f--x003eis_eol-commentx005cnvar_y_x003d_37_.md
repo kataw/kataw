@@ -139,7 +139,7 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                     "start": 27,
                     "end": 34
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 22,
                 "end": 34
             },

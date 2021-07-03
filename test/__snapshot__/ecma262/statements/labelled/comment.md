@@ -34,7 +34,7 @@
                             "kind": 134299649,
                             "text": "inf_leave",
                             "rawText": "inf_leave",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 1,
                             "end": 13
                         },
@@ -96,7 +96,7 @@
                             "kind": 134299649,
                             "text": "inf_leave",
                             "rawText": "inf_leave",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 50,
                             "end": 62
                         },

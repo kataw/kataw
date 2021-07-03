@@ -151,7 +151,7 @@ let tests = [
                                                                 "kind": 134299649,
                                                                 "text": "t",
                                                                 "rawText": "t",
-                                                                "flags": 96,
+                                                                "flags": 97,
                                                                 "start": 39,
                                                                 "end": 45
                                                             },
@@ -179,7 +179,7 @@ let tests = [
                                                                 "kind": 134299649,
                                                                 "text": "t",
                                                                 "rawText": "t",
-                                                                "flags": 96,
+                                                                "flags": 97,
                                                                 "start": 49,
                                                                 "end": 79
                                                             },
@@ -322,7 +322,7 @@ let tests = [
                                                                 "kind": 134299649,
                                                                 "text": "t",
                                                                 "rawText": "t",
-                                                                "flags": 96,
+                                                                "flags": 97,
                                                                 "start": 183,
                                                                 "end": 189
                                                             },
@@ -350,7 +350,7 @@ let tests = [
                                                                 "kind": 134299649,
                                                                 "text": "t",
                                                                 "rawText": "t",
-                                                                "flags": 96,
+                                                                "flags": 97,
                                                                 "start": 195,
                                                                 "end": 231
                                                             },
@@ -510,7 +510,7 @@ let tests = [
                                                                 "kind": 134299649,
                                                                 "text": "t",
                                                                 "rawText": "t",
-                                                                "flags": 96,
+                                                                "flags": 97,
                                                                 "start": 372,
                                                                 "end": 378
                                                             },

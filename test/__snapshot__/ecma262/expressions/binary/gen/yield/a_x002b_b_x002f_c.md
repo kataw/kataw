@@ -116,11 +116,11 @@ function *f() {
                                             "start": 31,
                                             "end": 33
                                         },
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 29,
                                         "end": 33
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 23,
                                     "end": 33
                                 },

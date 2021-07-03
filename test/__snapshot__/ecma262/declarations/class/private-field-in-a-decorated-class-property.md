@@ -57,7 +57,7 @@ class Example {
                                 "kind": 134299649,
                                 "text": "#priv",
                                 "rawText": "#priv",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 15,
                                 "end": 23
                             },
@@ -111,7 +111,7 @@ class Example {
                                 "kind": 134299649,
                                 "text": "method",
                                 "rawText": "method",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 41,
                                 "end": 50
                             },

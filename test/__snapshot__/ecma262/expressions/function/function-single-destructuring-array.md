@@ -773,7 +773,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                     "kind": 134299649,
                                     "text": "excludeFirstFiveResults",
                                     "rawText": "excludeFirstFiveResults",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 490,
                                     "end": 516
                                 },
@@ -932,7 +932,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                         "kind": 134299649,
                         "text": "promise",
                         "rawText": "promise",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 607,
                         "end": 616
                     },
@@ -944,7 +944,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                         "start": 617,
                         "end": 621
                     },
-                    "flags": 96,
+                    "flags": 97,
                     "start": 607,
                     "end": 621
                 },

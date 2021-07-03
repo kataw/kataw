@@ -316,7 +316,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 66,
                                     "end": 70
                                 },
@@ -365,7 +365,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 77,
                                     "end": 89
                                 },
@@ -418,7 +418,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 102,
                                     "end": 114
                                 },
@@ -475,7 +475,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 125,
                                     "end": 129
                                 },
@@ -845,7 +845,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 221,
                                     "end": 225
                                 },
@@ -894,7 +894,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 232,
                                     "end": 236
                                 },
@@ -947,7 +947,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 249,
                                     "end": 261
                                 },
@@ -1020,7 +1020,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 280,
                                     "end": 302
                                 },
@@ -1077,7 +1077,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 313,
                                     "end": 317
                                 },

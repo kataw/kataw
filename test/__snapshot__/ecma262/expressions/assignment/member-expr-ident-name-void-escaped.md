@@ -33,7 +33,7 @@ obj.voi\u0064 = 42;
                         "kind": 134299649,
                         "text": "void",
                         "rawText": "voi\\u0064",
-                        "flags": 96,
+                        "flags": 16480,
                         "start": 4,
                         "end": 13
                     },

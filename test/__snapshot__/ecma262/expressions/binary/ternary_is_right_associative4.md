@@ -57,7 +57,7 @@ a ? b ** x : c ? d : e
                         "start": 8,
                         "end": 10
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 3,
                     "end": 10
                 },
@@ -105,11 +105,11 @@ a ? b ** x : c ? d : e
                         "start": 20,
                         "end": 22
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 12,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 22
             },

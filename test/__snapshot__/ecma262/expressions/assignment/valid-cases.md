@@ -95,7 +95,7 @@ a = !!b;
                                     "start": 10,
                                     "end": 12
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 6,
                                 "end": 12
                             },
@@ -127,7 +127,7 @@ a = !!b;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 14,
                     "end": 16
                 },
@@ -179,7 +179,7 @@ a = !!b;
                                     "start": 26,
                                     "end": 28
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 21,
                                 "end": 28
                             },
@@ -211,7 +211,7 @@ a = !!b;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 30,
                     "end": 32
                 },
@@ -263,7 +263,7 @@ a = !!b;
                                     "start": 42,
                                     "end": 44
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 37,
                                 "end": 44
                             },
@@ -295,7 +295,7 @@ a = !!b;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 46,
                     "end": 48
                 },
@@ -347,7 +347,7 @@ a = !!b;
                                     "start": 59,
                                     "end": 61
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 53,
                                 "end": 61
                             },
@@ -379,7 +379,7 @@ a = !!b;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 63,
                     "end": 65
                 },
@@ -431,7 +431,7 @@ a = !!b;
                                     "start": 76,
                                     "end": 78
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 70,
                                 "end": 78
                             },
@@ -463,7 +463,7 @@ a = !!b;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 80,
                     "end": 82
                 },
@@ -515,7 +515,7 @@ a = !!b;
                                     "start": 91,
                                     "end": 93
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 87,
                                 "end": 93
                             },
@@ -547,7 +547,7 @@ a = !!b;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 95,
                     "end": 97
                 },
@@ -599,7 +599,7 @@ a = !!b;
                                     "start": 106,
                                     "end": 108
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 102,
                                 "end": 108
                             },
@@ -631,7 +631,7 @@ a = !!b;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 110,
                     "end": 112
                 },
@@ -683,7 +683,7 @@ a = !!b;
                                     "start": 122,
                                     "end": 124
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 117,
                                 "end": 124
                             },
@@ -715,7 +715,7 @@ a = !!b;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 126,
                     "end": 128
                 },
@@ -767,7 +767,7 @@ a = !!b;
                                     "start": 138,
                                     "end": 140
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 133,
                                 "end": 140
                             },
@@ -799,7 +799,7 @@ a = !!b;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 142,
                     "end": 144
                 },
@@ -851,7 +851,7 @@ a = !!b;
                                     "start": 154,
                                     "end": 156
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 149,
                                 "end": 156
                             },
@@ -883,7 +883,7 @@ a = !!b;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 158,
                     "end": 160
                 },
@@ -947,7 +947,7 @@ a = !!b;
                                     "start": 170,
                                     "end": 173
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 165,
                                 "end": 173
                             },
@@ -979,7 +979,7 @@ a = !!b;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 175,
                     "end": 177
                 },
@@ -1059,7 +1059,7 @@ a = !!b;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 189,
                     "end": 191
                 },
@@ -1129,7 +1129,7 @@ a = !!b;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 199,
                     "end": 201
                 },
@@ -1199,7 +1199,7 @@ a = !!b;
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 213,
                     "end": 215
                 },

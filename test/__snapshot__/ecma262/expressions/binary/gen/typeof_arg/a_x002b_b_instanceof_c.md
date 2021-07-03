@@ -77,7 +77,7 @@ typeof a + b instanceof c
                         "start": 23,
                         "end": 25
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 12,
                     "end": 25
                 },

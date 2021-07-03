@@ -119,11 +119,11 @@ for (var r == y in x );
                         "start": 18,
                         "end": 20
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 15,
                     "end": 20
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 10,
                 "end": 20
             },

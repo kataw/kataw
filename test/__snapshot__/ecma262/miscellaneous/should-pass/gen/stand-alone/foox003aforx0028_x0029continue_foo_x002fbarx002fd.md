@@ -108,7 +108,7 @@ foo:for(;;)continue foo
                         "start": 25,
                         "end": 28
                     },
-                    "flags": 32,
+                    "flags": 97,
                     "start": 23,
                     "end": 28
                 },
@@ -126,7 +126,7 @@ foo:for(;;)continue foo
                     "start": 29,
                     "end": 30
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 23,
                 "end": 30
             },

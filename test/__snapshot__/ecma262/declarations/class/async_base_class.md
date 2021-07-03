@@ -264,7 +264,7 @@ async function foo() {
                                                                 "kind": 134299649,
                                                                 "text": "resolve",
                                                                 "rawText": "resolve",
-                                                                "flags": 96,
+                                                                "flags": 97,
                                                                 "start": 80,
                                                                 "end": 90
                                                             },

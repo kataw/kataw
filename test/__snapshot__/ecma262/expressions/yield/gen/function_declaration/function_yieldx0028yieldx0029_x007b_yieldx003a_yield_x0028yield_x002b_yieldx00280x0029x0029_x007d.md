@@ -178,7 +178,7 @@ function not_gen() { function yield(yield) { yield: yield (yield + yield(0)); } 
                                                                     "start": 66,
                                                                     "end": 75
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 96,
                                                                 "start": 59,
                                                                 "end": 75
                                                             }

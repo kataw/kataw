@@ -52,7 +52,7 @@ var y = { \u0064ebugger: x } = { debugger: 42 };
                                                 "kind": 134299649,
                                                 "text": "debugger",
                                                 "rawText": "\\u0064ebugger",
-                                                "flags": 96,
+                                                "flags": 16480,
                                                 "start": 9,
                                                 "end": 23
                                             },

@@ -97,7 +97,7 @@ class Foo7<T> {
                                     "kind": 134299649,
                                     "text": "bar",
                                     "rawText": "bar",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 15,
                                     "end": 21
                                 },

@@ -85,7 +85,7 @@ var z = x + x;
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 11,
                         "end": 13
                     },
@@ -97,7 +97,7 @@ var z = x + x;
                         "start": 14,
                         "end": 18
                     },
-                    "flags": 96,
+                    "flags": 97,
                     "start": 11,
                     "end": 18
                 },
@@ -170,7 +170,7 @@ var z = x + x;
                                 "start": 41,
                                 "end": 43
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 37,
                             "end": 43
                         },

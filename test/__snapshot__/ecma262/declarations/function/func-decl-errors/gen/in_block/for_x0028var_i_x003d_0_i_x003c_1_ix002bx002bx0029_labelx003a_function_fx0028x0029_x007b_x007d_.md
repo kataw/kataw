@@ -123,7 +123,7 @@
                                 "start": 20,
                                 "end": 22
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 16,
                             "end": 22
                         },

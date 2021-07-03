@@ -102,7 +102,7 @@ for (function(){ if (a in b); }.prop in x);
                                             "start": 25,
                                             "end": 27
                                         },
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 21,
                                         "end": 27
                                     },

@@ -211,7 +211,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                         "start": 67,
                         "end": 88
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 60,
                     "end": 88
                 },

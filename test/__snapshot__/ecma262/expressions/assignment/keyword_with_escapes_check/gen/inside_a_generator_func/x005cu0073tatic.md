@@ -72,7 +72,7 @@ function *f(){
                                     "kind": 134299649,
                                     "text": "static",
                                     "rawText": "\\u0073tatic",
-                                    "flags": 96,
+                                    "flags": 16481,
                                     "start": 14,
                                     "end": 28
                                 },

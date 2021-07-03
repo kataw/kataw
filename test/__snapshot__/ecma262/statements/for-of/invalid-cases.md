@@ -2360,11 +2360,11 @@ for ({a: b.c}-- of d) e;
                         "start": 617,
                         "end": 619
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 614,
                     "end": 619
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 602,
                 "end": 619
             },

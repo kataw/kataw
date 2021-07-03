@@ -1,4 +1,4 @@
-import { RootNode } from '../ast/rootNode';
+import { RootNode } from '../ast/root-node';
 import { NodeFlags, SyntaxKind } from '../ast/syntax-node';
 import { createToken } from '../ast/token';
 import { StatementNode } from '../ast/statements';

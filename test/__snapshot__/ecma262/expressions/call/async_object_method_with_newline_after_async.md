@@ -42,7 +42,7 @@
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 7,
                                         "end": 12
                                     },

@@ -143,7 +143,7 @@ do while [catch] /false//a
                     "start": 25,
                     "end": 26
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 16,
                 "end": 26
             },

@@ -94,7 +94,7 @@ function* foo() {
                                                 "kind": 134299649,
                                                 "text": "p",
                                                 "rawText": "p",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 29,
                                                 "end": 80
                                             },

@@ -136,7 +136,7 @@ hello();
                                                         "kind": 134299649,
                                                         "text": "console",
                                                         "rawText": "console",
-                                                        "flags": 96,
+                                                        "flags": 97,
                                                         "start": 54,
                                                         "end": 64
                                                     },
@@ -148,7 +148,7 @@ hello();
                                                         "start": 65,
                                                         "end": 68
                                                     },
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 54,
                                                     "end": 68
                                                 },
@@ -179,7 +179,7 @@ hello();
                                                                 "start": 78,
                                                                 "end": 87
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 4194400,
                                                             "start": 69,
                                                             "end": 87
                                                         }
@@ -231,7 +231,7 @@ hello();
                     "kind": 134299649,
                     "text": "hello",
                     "rawText": "hello",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 92,
                     "end": 99
                 },

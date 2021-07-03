@@ -62,7 +62,7 @@ x, a instanceof b + c
                                 "start": 15,
                                 "end": 17
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 2,
                             "end": 17
                         },
@@ -80,7 +80,7 @@ x, a instanceof b + c
                             "start": 19,
                             "end": 21
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 2,
                         "end": 21
                     }

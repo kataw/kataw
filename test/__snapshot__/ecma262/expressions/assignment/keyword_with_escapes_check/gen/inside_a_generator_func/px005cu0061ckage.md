@@ -72,7 +72,7 @@ function *f(){
                                     "kind": 134299649,
                                     "text": "package",
                                     "rawText": "p\\u0061ckage",
-                                    "flags": 96,
+                                    "flags": 16481,
                                     "start": 14,
                                     "end": 29
                                 },

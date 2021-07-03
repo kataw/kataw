@@ -53,7 +53,7 @@ if (this \u0069nstanceof Array) {}
                     "start": 24,
                     "end": 30
                 },
-                "flags": 32,
+                "flags": 16480,
                 "start": 4,
                 "end": 30
             },

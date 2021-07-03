@@ -65,7 +65,7 @@ x; in x) ;
                     "start": 16,
                     "end": 18
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 13,
                 "end": 18
             },
@@ -73,7 +73,7 @@ x; in x) ;
                 "kind": 134299649,
                 "text": "x",
                 "rawText": "x",
-                "flags": 96,
+                "flags": 97,
                 "start": 10,
                 "end": 12
             },

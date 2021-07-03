@@ -92,7 +92,7 @@ function *f(x = (in) = f) {}
                                         "start": 19,
                                         "end": 19
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 17,
                                     "end": 19
                                 },

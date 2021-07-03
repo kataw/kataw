@@ -256,7 +256,7 @@ function a(f: { (): string; (x: number): string }): string {
                                     "start": 75,
                                     "end": 82
                                 },
-                                "flags": 32,
+                                "flags": 268435488,
                                 "start": 69,
                                 "end": 82
                             },

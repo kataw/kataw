@@ -67,7 +67,7 @@ x = a / b + c
                             "start": 7,
                             "end": 9
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 3,
                         "end": 9
                     },
@@ -85,7 +85,7 @@ x = a / b + c
                         "start": 11,
                         "end": 13
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 3,
                     "end": 13
                 },

@@ -100,7 +100,7 @@ var fnNumber = /* comments0 */
                     "kind": 134299649,
                     "text": "fnNumber",
                     "rawText": "fnNumber",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 28,
                     "end": 38
                 },
@@ -134,7 +134,7 @@ var fnNumber = /* comments0 */
                     "kind": 134299649,
                     "text": "fnNumber",
                     "rawText": "fnNumber",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 60,
                     "end": 70
                 },
@@ -168,7 +168,7 @@ var fnNumber = /* comments0 */
                     "kind": 134299649,
                     "text": "fnNumber",
                     "rawText": "fnNumber",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 105,
                     "end": 115
                 },
@@ -202,7 +202,7 @@ var fnNumber = /* comments0 */
                     "kind": 134299649,
                     "text": "fnNumber",
                     "rawText": "fnNumber",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 136,
                     "end": 146
                 },
@@ -236,7 +236,7 @@ var fnNumber = /* comments0 */
                     "kind": 134299649,
                     "text": "fnNumber",
                     "rawText": "fnNumber",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 187,
                     "end": 197
                 },

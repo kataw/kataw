@@ -68,7 +68,7 @@ function f2() {
                                         "kind": 134299649,
                                         "text": "yield",
                                         "rawText": "yield",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 15,
                                         "end": 23
                                     },
@@ -86,7 +86,7 @@ function f2() {
                                         "start": 25,
                                         "end": 27
                                     },
-                                    "flags": 32,
+                                    "flags": 97,
                                     "start": 15,
                                     "end": 27
                                 },
@@ -104,7 +104,7 @@ function f2() {
                                     "start": 29,
                                     "end": 30
                                 },
-                                "flags": 32,
+                                "flags": 97,
                                 "start": 15,
                                 "end": 30
                             },
@@ -122,7 +122,7 @@ function f2() {
                                         "kind": 134299649,
                                         "text": "yield",
                                         "rawText": "yield",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 30,
                                         "end": 38
                                     },
@@ -140,7 +140,7 @@ function f2() {
                                         "start": 42,
                                         "end": 44
                                     },
-                                    "flags": 32,
+                                    "flags": 97,
                                     "start": 30,
                                     "end": 44
                                 },
@@ -158,7 +158,7 @@ function f2() {
                                     "start": 46,
                                     "end": 47
                                 },
-                                "flags": 32,
+                                "flags": 97,
                                 "start": 30,
                                 "end": 47
                             },
@@ -222,7 +222,7 @@ function f2() {
                                     "kind": 134299649,
                                     "text": "yield",
                                     "rawText": "yield",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 65,
                                     "end": 73
                                 },
@@ -256,7 +256,7 @@ function f2() {
                                         "start": 79,
                                         "end": 80
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 76,
                                     "end": 80
                                 },
@@ -276,7 +276,7 @@ function f2() {
                                     "kind": 134299649,
                                     "text": "yield",
                                     "rawText": "yield",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 80,
                                     "end": 88
                                 },
@@ -310,7 +310,7 @@ function f2() {
                                         "start": 96,
                                         "end": 97
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 93,
                                     "end": 97
                                 },

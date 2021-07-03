@@ -104,7 +104,7 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                                 "kind": 134299649,
                                 "text": "prop",
                                 "rawText": "prop",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 26,
                                 "end": 33
                             },
@@ -158,7 +158,7 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                                     "kind": 134299649,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 37,
                                     "end": 58
                                 },
@@ -297,7 +297,7 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                                     "kind": 134299649,
                                     "text": "method",
                                     "rawText": "method",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 117,
                                     "end": 132
                                 },

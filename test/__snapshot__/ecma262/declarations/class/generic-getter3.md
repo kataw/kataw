@@ -94,7 +94,7 @@ class C<T> {
                                 "kind": 134299649,
                                 "text": "data",
                                 "rawText": "data",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 12,
                                 "end": 21
                             },

@@ -136,7 +136,7 @@ x ? ( (a, {}) => {} ) : baz;
                                         "start": 28,
                                         "end": 29
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 25,
                                     "end": 29
                                 },
@@ -170,11 +170,11 @@ x ? ( (a, {}) => {} ) : baz;
                                         "start": 34,
                                         "end": 35
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 33,
                                     "end": 35
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 25,
                                 "end": 35
                             },
@@ -204,7 +204,7 @@ x ? ( (a, {}) => {} ) : baz;
                     "start": 39,
                     "end": 43
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 43
             },
@@ -220,7 +220,7 @@ x ? ( (a, {}) => {} ) : baz;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 44,
                     "end": 46
                 },
@@ -354,7 +354,7 @@ x ? ( (a, {}) => {} ) : baz;
                     "start": 79,
                     "end": 83
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 44,
                 "end": 83
             },
@@ -370,7 +370,7 @@ x ? ( (a, {}) => {} ) : baz;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 84,
                     "end": 86
                 },
@@ -492,7 +492,7 @@ x ? ( (a, {}) => {} ) : baz;
                     "start": 116,
                     "end": 120
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 84,
                 "end": 120
             },
@@ -508,7 +508,7 @@ x ? ( (a, {}) => {} ) : baz;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 121,
                     "end": 123
                 },
@@ -598,7 +598,7 @@ x ? ( (a, {}) => {} ) : baz;
                     "start": 145,
                     "end": 149
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 121,
                 "end": 149
             },

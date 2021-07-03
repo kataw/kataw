@@ -79,7 +79,7 @@ this.subscriptions.add(
                                 "kind": 134299649,
                                 "text": "sortBy",
                                 "rawText": "sortBy",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 8,
                                 "end": 17
                             },
@@ -131,7 +131,7 @@ this.subscriptions.add(
                             "kind": 134299649,
                             "text": "flatten",
                             "rawText": "flatten",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 26,
                             "end": 36
                         },
@@ -141,7 +141,7 @@ this.subscriptions.add(
                                 "kind": 134299649,
                                 "text": "map",
                                 "rawText": "map",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 37,
                                 "end": 43
                             },
@@ -204,7 +204,7 @@ this.subscriptions.add(
                                                             "start": 55,
                                                             "end": 56
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 52,
                                                         "end": 56
                                                     }
@@ -256,7 +256,7 @@ this.subscriptions.add(
                         "kind": 134299649,
                         "text": "somelib",
                         "rawText": "somelib",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 61,
                         "end": 70
                     },
@@ -268,7 +268,7 @@ this.subscriptions.add(
                         "start": 71,
                         "end": 78
                     },
-                    "flags": 96,
+                    "flags": 97,
                     "start": 61,
                     "end": 78
                 },
@@ -281,7 +281,7 @@ this.subscriptions.add(
                                 "kind": 134299649,
                                 "text": "sortBy",
                                 "rawText": "sortBy",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 79,
                                 "end": 88
                             },
@@ -333,7 +333,7 @@ this.subscriptions.add(
                             "kind": 134299649,
                             "text": "flatten",
                             "rawText": "flatten",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 97,
                             "end": 107
                         },
@@ -343,7 +343,7 @@ this.subscriptions.add(
                                 "kind": 134299649,
                                 "text": "map",
                                 "rawText": "map",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 108,
                                 "end": 114
                             },
@@ -406,7 +406,7 @@ this.subscriptions.add(
                                                             "start": 126,
                                                             "end": 127
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 123,
                                                         "end": 127
                                                     }
@@ -456,7 +456,7 @@ this.subscriptions.add(
                     "kind": 134299649,
                     "text": "composeFlipped",
                     "rawText": "composeFlipped",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 132,
                     "end": 148
                 },
@@ -469,7 +469,7 @@ this.subscriptions.add(
                                 "kind": 134299649,
                                 "text": "sortBy",
                                 "rawText": "sortBy",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 149,
                                 "end": 158
                             },
@@ -521,7 +521,7 @@ this.subscriptions.add(
                             "kind": 134299649,
                             "text": "flatten",
                             "rawText": "flatten",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 167,
                             "end": 177
                         },
@@ -531,7 +531,7 @@ this.subscriptions.add(
                                 "kind": 134299649,
                                 "text": "map",
                                 "rawText": "map",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 178,
                                 "end": 184
                             },
@@ -594,7 +594,7 @@ this.subscriptions.add(
                                                             "start": 196,
                                                             "end": 197
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 193,
                                                         "end": 197
                                                     }
@@ -646,7 +646,7 @@ this.subscriptions.add(
                         "kind": 134299649,
                         "text": "somelib",
                         "rawText": "somelib",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 202,
                         "end": 211
                     },
@@ -658,7 +658,7 @@ this.subscriptions.add(
                         "start": 212,
                         "end": 226
                     },
-                    "flags": 96,
+                    "flags": 97,
                     "start": 202,
                     "end": 226
                 },
@@ -671,7 +671,7 @@ this.subscriptions.add(
                                 "kind": 134299649,
                                 "text": "sortBy",
                                 "rawText": "sortBy",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 227,
                                 "end": 236
                             },
@@ -723,7 +723,7 @@ this.subscriptions.add(
                             "kind": 134299649,
                             "text": "flatten",
                             "rawText": "flatten",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 245,
                             "end": 255
                         },
@@ -733,7 +733,7 @@ this.subscriptions.add(
                                 "kind": 134299649,
                                 "text": "map",
                                 "rawText": "map",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 256,
                                 "end": 262
                             },
@@ -796,7 +796,7 @@ this.subscriptions.add(
                                                             "start": 274,
                                                             "end": 275
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 271,
                                                         "end": 275
                                                     }
@@ -1170,7 +1170,7 @@ this.subscriptions.add(
                         "kind": 134299649,
                         "text": "someObj",
                         "rawText": "someObj",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 430,
                         "end": 438
                     },
@@ -1182,7 +1182,7 @@ this.subscriptions.add(
                         "start": 439,
                         "end": 449
                     },
-                    "flags": 96,
+                    "flags": 97,
                     "start": 430,
                     "end": 449
                 },
@@ -1328,7 +1328,7 @@ this.subscriptions.add(
                                     "kind": 134299649,
                                     "text": "compose",
                                     "rawText": "compose",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 497,
                                     "end": 507
                                 },

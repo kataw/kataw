@@ -65,7 +65,7 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                                 "start": 19,
                                 "end": 21
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 14,
                             "end": 21
                         },
@@ -128,7 +128,7 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                                 "start": 42,
                                 "end": 44
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 37,
                             "end": 44
                         },
@@ -191,7 +191,7 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                                 "start": 65,
                                 "end": 67
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 60,
                             "end": 67
                         },
@@ -256,7 +256,7 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                                     "start": 90,
                                     "end": 97
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 81,
                                 "end": 97
                             },
@@ -274,7 +274,7 @@ const all = FLAG_A | FLAG_B | FLAG_C;
                                 "start": 99,
                                 "end": 106
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 81,
                             "end": 106
                         },

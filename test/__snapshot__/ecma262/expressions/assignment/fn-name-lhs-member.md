@@ -33,7 +33,7 @@ o.attr = function() {};
                         "kind": 134299649,
                         "text": "o",
                         "rawText": "o",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 0,
                         "end": 2
                     },
@@ -45,7 +45,7 @@ o.attr = function() {};
                         "start": 3,
                         "end": 7
                     },
-                    "flags": 96,
+                    "flags": 97,
                     "start": 0,
                     "end": 7
                 },

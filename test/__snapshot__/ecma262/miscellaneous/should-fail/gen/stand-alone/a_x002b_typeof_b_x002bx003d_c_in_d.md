@@ -61,7 +61,7 @@ a + typeof b += c in d
                     "start": 3,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 12
             },
@@ -95,7 +95,7 @@ a + typeof b += c in d
                     "start": 20,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 15,
                 "end": 22
             },

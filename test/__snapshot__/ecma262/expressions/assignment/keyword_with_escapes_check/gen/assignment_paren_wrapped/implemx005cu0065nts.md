@@ -33,7 +33,7 @@
                         "kind": 134299649,
                         "text": "implements",
                         "rawText": "implem\\u0065nts",
-                        "flags": 96,
+                        "flags": 16480,
                         "start": 1,
                         "end": 16
                     },

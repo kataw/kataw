@@ -81,7 +81,7 @@ const map = {
                                                     "start": 23,
                                                     "end": 26
                                                 },
-                                                "flags": 32,
+                                                "flags": 96,
                                                 "start": 17,
                                                 "end": 26
                                             },

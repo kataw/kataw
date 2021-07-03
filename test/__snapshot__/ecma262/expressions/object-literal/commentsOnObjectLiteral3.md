@@ -66,7 +66,7 @@ var v = {
                                             "kind": 134299649,
                                             "text": "prop",
                                             "rawText": "prop",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 9,
                                             "end": 27
                                         },
@@ -89,7 +89,7 @@ var v = {
                                             "kind": 134299649,
                                             "text": "func",
                                             "rawText": "func",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 86,
                                             "end": 104
                                         },
@@ -148,7 +148,7 @@ var v = {
                                                 "kind": 134299649,
                                                 "text": "func1",
                                                 "rawText": "func1",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 123,
                                                 "end": 162
                                             },

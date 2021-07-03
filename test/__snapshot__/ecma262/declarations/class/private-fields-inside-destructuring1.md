@@ -62,7 +62,7 @@ class Test {
                                 "kind": 134299649,
                                 "text": "#x",
                                 "rawText": "#x",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 12,
                                 "end": 18
                             },
@@ -96,7 +96,7 @@ class Test {
                                 "kind": 134299649,
                                 "text": "#y",
                                 "rawText": "#y",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 23,
                                 "end": 29
                             },
@@ -136,7 +136,7 @@ class Test {
                                 "kind": 134299649,
                                 "text": "z",
                                 "rawText": "z",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 35,
                                 "end": 40
                             },
@@ -353,7 +353,7 @@ class Test {
                                     "kind": 134299649,
                                     "text": "world",
                                     "rawText": "world",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 107,
                                     "end": 116
                                 },
@@ -479,7 +479,7 @@ class Test {
                                     "kind": 134299649,
                                     "text": "hello",
                                     "rawText": "hello",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 151,
                                     "end": 160
                                 },

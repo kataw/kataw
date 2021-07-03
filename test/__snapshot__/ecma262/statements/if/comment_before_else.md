@@ -54,7 +54,7 @@ else stuff;
                                 "kind": 134299649,
                                 "text": "stuff",
                                 "rawText": "stuff",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 11,
                                 "end": 19
                             },
@@ -104,7 +104,7 @@ else stuff;
                                     "kind": 134299649,
                                     "text": "stuff",
                                     "rawText": "stuff",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 53,
                                     "end": 61
                                 },
@@ -138,7 +138,7 @@ else stuff;
                                     "kind": 134299649,
                                     "text": "stuff",
                                     "rawText": "stuff",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 82,
                                     "end": 90
                                 },

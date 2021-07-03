@@ -763,7 +763,7 @@ type x = {get x (/*1*/): string }
                                 "kind": 134217967,
                                 "text": "bar",
                                 "rawText": "'bar'",
-                                "flags": 2097216,
+                                "flags": 6291520,
                                 "start": 269,
                                 "end": 274
                             },
@@ -842,7 +842,7 @@ type x = {get x (/*1*/): string }
                                 "kind": 134217967,
                                 "text": "bar",
                                 "rawText": "'bar'",
-                                "flags": 2097216,
+                                "flags": 6291520,
                                 "start": 298,
                                 "end": 308
                             },
@@ -1109,7 +1109,7 @@ type x = {get x (/*1*/): string }
                                             "kind": 134299649,
                                             "text": "z",
                                             "rawText": "z",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 439,
                                             "end": 447
                                         },

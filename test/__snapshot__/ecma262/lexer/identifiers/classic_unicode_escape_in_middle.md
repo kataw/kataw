@@ -21,7 +21,7 @@ xxx\u0065xxx
                 "kind": 134299649,
                 "text": "xxxexxx",
                 "rawText": "xxx\\u0065xxx",
-                "flags": 96,
+                "flags": 16480,
                 "start": 0,
                 "end": 12
             },

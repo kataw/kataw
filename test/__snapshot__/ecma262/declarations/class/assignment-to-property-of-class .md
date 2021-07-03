@@ -59,7 +59,7 @@ c.m = n => n * 3;
                                 "kind": 134299649,
                                 "text": "m",
                                 "rawText": "m",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 9,
                                 "end": 80
                             },
@@ -108,7 +108,7 @@ c.m = n => n * 3;
                                         "start": 91,
                                         "end": 93
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 87,
                                     "end": 93
                                 },
@@ -212,7 +212,7 @@ c.m = n => n * 3;
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 116,
                         "end": 118
                     },
@@ -224,7 +224,7 @@ c.m = n => n * 3;
                         "start": 119,
                         "end": 120
                     },
-                    "flags": 96,
+                    "flags": 97,
                     "start": 116,
                     "end": 120
                 },
@@ -277,7 +277,7 @@ c.m = n => n * 3;
                             "start": 131,
                             "end": 133
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 127,
                         "end": 133
                     },

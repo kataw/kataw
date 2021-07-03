@@ -73,11 +73,11 @@ do a + b / c while (x);
                             "start": 10,
                             "end": 12
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 8,
                         "end": 12
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 2,
                     "end": 12
                 },

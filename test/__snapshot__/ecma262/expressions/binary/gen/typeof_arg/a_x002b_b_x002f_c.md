@@ -77,7 +77,7 @@ typeof a + b / c
                         "start": 14,
                         "end": 16
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 12,
                     "end": 16
                 },

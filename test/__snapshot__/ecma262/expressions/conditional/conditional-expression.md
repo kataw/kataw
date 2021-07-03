@@ -269,7 +269,7 @@ async function f2() {
                                                     "kind": 134299649,
                                                     "text": "console",
                                                     "rawText": "console",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 106,
                                                     "end": 116
                                                 },
@@ -281,7 +281,7 @@ async function f2() {
                                                     "start": 117,
                                                     "end": 120
                                                 },
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 106,
                                                 "end": 120
                                             },
@@ -408,7 +408,7 @@ async function f2() {
                                                                     "start": 162,
                                                                     "end": 183
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 96,
                                                                 "start": 133,
                                                                 "end": 183
                                                             },
@@ -578,7 +578,7 @@ async function f2() {
                                             "start": 240,
                                             "end": 270
                                         },
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 225,
                                         "end": 270
                                     },

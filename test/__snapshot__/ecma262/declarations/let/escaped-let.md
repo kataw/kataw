@@ -23,7 +23,7 @@ a;
                 "kind": 134299649,
                 "text": "let",
                 "rawText": "l\\u0065t",
-                "flags": 96,
+                "flags": 16480,
                 "start": 0,
                 "end": 8
             },
@@ -37,7 +37,7 @@ a;
                 "kind": 134299649,
                 "text": "a",
                 "rawText": "a",
-                "flags": 96,
+                "flags": 97,
                 "start": 8,
                 "end": 17
             },

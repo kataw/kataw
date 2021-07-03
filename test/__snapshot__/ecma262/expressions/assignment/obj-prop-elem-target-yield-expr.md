@@ -105,7 +105,7 @@ result = { x: x[yield] } = vals;
                     "kind": 134299649,
                     "text": "result",
                     "rawText": "result",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 21,
                     "end": 29
                 },

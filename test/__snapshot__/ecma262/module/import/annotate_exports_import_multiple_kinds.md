@@ -187,7 +187,7 @@ module.exports = [
                         "kind": 134299649,
                         "text": "module",
                         "rawText": "module",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 62,
                         "end": 70
                     },
@@ -199,7 +199,7 @@ module.exports = [
                         "start": 71,
                         "end": 78
                     },
-                    "flags": 96,
+                    "flags": 97,
                     "start": 62,
                     "end": 78
                 },
@@ -220,7 +220,7 @@ module.exports = [
                                     "kind": 134299649,
                                     "text": "foo1b",
                                     "rawText": "foo1b",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 82,
                                     "end": 90
                                 },
@@ -242,7 +242,7 @@ module.exports = [
                                     "kind": 134299649,
                                     "text": "foo2",
                                     "rawText": "foo2",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 93,
                                     "end": 100
                                 },

@@ -514,7 +514,7 @@
                                     "start": 93,
                                     "end": 93
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 90,
                                 "end": 93
                             },
@@ -532,7 +532,7 @@
                                 "start": 95,
                                 "end": 95
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 90,
                             "end": 95
                         }

@@ -65,7 +65,7 @@ function f() {
                                 "kind": 134299649,
                                 "text": "await",
                                 "rawText": "await",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 14,
                                 "end": 22
                             },

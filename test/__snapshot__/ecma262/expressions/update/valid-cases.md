@@ -65,7 +65,7 @@ new foo().bar++;
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 6,
                         "end": 10
                     },
@@ -77,7 +77,7 @@ new foo().bar++;
                         "start": 11,
                         "end": 14
                     },
-                    "flags": 96,
+                    "flags": 97,
                     "start": 6,
                     "end": 14
                 },
@@ -105,7 +105,7 @@ new foo().bar++;
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 17,
                         "end": 21
                     },
@@ -147,7 +147,7 @@ new foo().bar++;
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 29,
                             "end": 33
                         },
@@ -201,7 +201,7 @@ new foo().bar++;
                             "kind": 134299649,
                             "text": "foo",
                             "rawText": "foo",
-                            "flags": 96,
+                            "flags": 97,
                             "start": 43,
                             "end": 47
                         },

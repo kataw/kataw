@@ -339,7 +339,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                     "start": 63,
                                     "end": 65
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 58,
                                 "end": 65
                             },
@@ -401,7 +401,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                     "start": 88,
                                     "end": 90
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 83,
                                 "end": 90
                             },

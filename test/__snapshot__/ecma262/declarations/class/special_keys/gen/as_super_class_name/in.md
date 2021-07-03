@@ -112,7 +112,7 @@ class x extends in {}
                     "start": 18,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 15,
                 "end": 21
             },

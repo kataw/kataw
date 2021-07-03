@@ -73,7 +73,7 @@ get
                                 "kind": 134299649,
                                 "text": "get",
                                 "rawText": "get",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 16,
                                 "end": 20
                             },
@@ -99,7 +99,7 @@ get
                                     "kind": 134299649,
                                     "text": "#aaa",
                                     "rawText": "#aaa",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 20,
                                     "end": 25
                                 },

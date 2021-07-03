@@ -88,7 +88,7 @@ for ([] + b in obj);
                         "start": 14,
                         "end": 18
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 11,
                     "end": 18
                 },

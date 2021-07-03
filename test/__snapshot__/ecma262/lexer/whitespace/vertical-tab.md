@@ -47,7 +47,7 @@ left|right
                     "start": 5,
                     "end": 10
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 10
             },

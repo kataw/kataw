@@ -96,7 +96,7 @@ let p/
                     "start": 6,
                     "end": 6
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 5,
                 "end": 6
             },

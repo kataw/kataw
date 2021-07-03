@@ -72,7 +72,7 @@ x ** async => ok
                     "start": 4,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 16
             },

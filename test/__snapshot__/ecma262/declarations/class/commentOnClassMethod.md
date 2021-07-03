@@ -69,7 +69,7 @@ class WebControls {
                                     "kind": 134299649,
                                     "text": "createControl",
                                     "rawText": "createControl",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 19,
                                     "end": 77
                                 },

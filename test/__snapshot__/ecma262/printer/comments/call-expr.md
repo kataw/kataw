@@ -93,7 +93,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 13,
                     "end": 16
                 },
@@ -130,7 +130,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 27,
                     "end": 30
                 },
@@ -167,7 +167,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 46,
                     "end": 49
                 },
@@ -204,7 +204,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 65,
                     "end": 68
                 },
@@ -327,7 +327,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 146,
                     "end": 150
                 },
@@ -364,7 +364,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "kind": 134299649,
                     "text": "let",
                     "rawText": "let",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 186,
                     "end": 193
                 },

@@ -88,7 +88,7 @@ var a = b ? (c + e) : d => c+e;
                                         "start": 16,
                                         "end": 18
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 11,
                                     "end": 18
                                 },
@@ -145,7 +145,7 @@ var a = b ? (c + e) : d => c+e;
                                         "start": 29,
                                         "end": 30
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 26,
                                     "end": 30
                                 },
@@ -153,7 +153,7 @@ var a = b ? (c + e) : d => c+e;
                                 "start": 21,
                                 "end": 30
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 7,
                             "end": 30
                         },

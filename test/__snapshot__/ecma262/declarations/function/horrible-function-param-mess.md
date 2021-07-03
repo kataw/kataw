@@ -360,7 +360,7 @@ function processArgs<A1: {}, A2: {}>(
                                                 "kind": 134299649,
                                                 "text": "resolver",
                                                 "rawText": "resolver",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 174,
                                                 "end": 187
                                             },
@@ -700,7 +700,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "kind": 134299649,
                                                     "text": "src",
                                                     "rawText": "src",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 248,
                                                     "end": 256
                                                 },
@@ -740,7 +740,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "kind": 134299649,
                                                     "text": "args",
                                                     "rawText": "args",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 260,
                                                     "end": 269
                                                 },
@@ -780,7 +780,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "kind": 134299649,
                                                     "text": "appContext",
                                                     "rawText": "appContext",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 274,
                                                     "end": 289
                                                 },
@@ -820,7 +820,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "kind": 134299649,
                                                     "text": "info",
                                                     "rawText": "info",
-                                                    "flags": 96,
+                                                    "flags": 97,
                                                     "start": 293,
                                                     "end": 302
                                                 },
@@ -1123,7 +1123,7 @@ function processArgs<A1: {}, A2: {}>(
                                     "kind": 134299649,
                                     "text": "resolver",
                                     "rawText": "resolver",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 82,
                                     "end": 93
                                 },

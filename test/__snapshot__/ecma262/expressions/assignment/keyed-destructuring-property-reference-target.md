@@ -148,7 +148,7 @@ function targetKey() {
                                         "kind": 134299649,
                                         "text": "log",
                                         "rawText": "log",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 35,
                                         "end": 43
                                     },
@@ -160,7 +160,7 @@ function targetKey() {
                                         "start": 44,
                                         "end": 48
                                     },
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 35,
                                     "end": 48
                                 },
@@ -249,7 +249,7 @@ function targetKey() {
                                                                             "kind": 134299649,
                                                                             "text": "log",
                                                                             "rawText": "log",
-                                                                            "flags": 96,
+                                                                            "flags": 97,
                                                                             "start": 90,
                                                                             "end": 106
                                                                         },
@@ -261,7 +261,7 @@ function targetKey() {
                                                                             "start": 107,
                                                                             "end": 111
                                                                         },
-                                                                        "flags": 96,
+                                                                        "flags": 97,
                                                                         "start": 90,
                                                                         "end": 111
                                                                     },
@@ -379,7 +379,7 @@ function targetKey() {
                                         "kind": 134299649,
                                         "text": "log",
                                         "rawText": "log",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 158,
                                         "end": 166
                                     },
@@ -391,7 +391,7 @@ function targetKey() {
                                         "start": 167,
                                         "end": 171
                                     },
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 158,
                                     "end": 171
                                 },
@@ -489,7 +489,7 @@ function targetKey() {
                                                                             "kind": 134299649,
                                                                             "text": "log",
                                                                             "rawText": "log",
-                                                                            "flags": 96,
+                                                                            "flags": 97,
                                                                             "start": 214,
                                                                             "end": 230
                                                                         },
@@ -501,7 +501,7 @@ function targetKey() {
                                                                             "start": 231,
                                                                             "end": 235
                                                                         },
-                                                                        "flags": 96,
+                                                                        "flags": 97,
                                                                         "start": 214,
                                                                         "end": 235
                                                                     },
@@ -619,7 +619,7 @@ function targetKey() {
                                         "kind": 134299649,
                                         "text": "log",
                                         "rawText": "log",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 285,
                                         "end": 293
                                     },
@@ -631,7 +631,7 @@ function targetKey() {
                                         "start": 294,
                                         "end": 298
                                     },
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 285,
                                     "end": 298
                                 },
@@ -680,7 +680,7 @@ function targetKey() {
                                                 "kind": 134299649,
                                                 "text": "toString",
                                                 "rawText": "toString",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 326,
                                                 "end": 343
                                             },
@@ -720,7 +720,7 @@ function targetKey() {
                                                                             "kind": 134299649,
                                                                             "text": "log",
                                                                             "rawText": "log",
-                                                                            "flags": 96,
+                                                                            "flags": 97,
                                                                             "start": 357,
                                                                             "end": 373
                                                                         },
@@ -732,7 +732,7 @@ function targetKey() {
                                                                             "start": 374,
                                                                             "end": 378
                                                                         },
-                                                                        "flags": 96,
+                                                                        "flags": 97,
                                                                         "start": 357,
                                                                         "end": 378
                                                                     },
@@ -871,7 +871,7 @@ function targetKey() {
                                         "kind": 134299649,
                                         "text": "log",
                                         "rawText": "log",
-                                        "flags": 96,
+                                        "flags": 97,
                                         "start": 468,
                                         "end": 476
                                     },
@@ -883,7 +883,7 @@ function targetKey() {
                                         "start": 477,
                                         "end": 481
                                     },
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 468,
                                     "end": 481
                                 },
@@ -932,7 +932,7 @@ function targetKey() {
                                                 "kind": 134299649,
                                                 "text": "toString",
                                                 "rawText": "toString",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 509,
                                                 "end": 526
                                             },
@@ -972,7 +972,7 @@ function targetKey() {
                                                                             "kind": 134299649,
                                                                             "text": "log",
                                                                             "rawText": "log",
-                                                                            "flags": 96,
+                                                                            "flags": 97,
                                                                             "start": 540,
                                                                             "end": 556
                                                                         },
@@ -984,7 +984,7 @@ function targetKey() {
                                                                             "start": 557,
                                                                             "end": 561
                                                                         },
-                                                                        "flags": 96,
+                                                                        "flags": 97,
                                                                         "start": 540,
                                                                         "end": 561
                                                                     },

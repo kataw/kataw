@@ -78,7 +78,7 @@ x * (async => ok)
                     "start": 3,
                     "end": 17
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 17
             },

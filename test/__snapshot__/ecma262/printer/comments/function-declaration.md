@@ -246,7 +246,7 @@ function foo4() {
                     "kind": 134299649,
                     "text": "call",
                     "rawText": "call",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 112,
                     "end": 128
                 },
@@ -708,7 +708,7 @@ function foo4() {
                                                 "kind": 134299649,
                                                 "text": "f1",
                                                 "rawText": "f1",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 420,
                                                 "end": 425
                                             },
@@ -756,7 +756,7 @@ function foo4() {
                                                 "kind": 134299649,
                                                 "text": "f2",
                                                 "rawText": "f2",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 439,
                                                 "end": 444
                                             },
@@ -804,7 +804,7 @@ function foo4() {
                                                 "kind": 134299649,
                                                 "text": "f3",
                                                 "rawText": "f3",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 461,
                                                 "end": 466
                                             },
@@ -852,7 +852,7 @@ function foo4() {
                                                 "kind": 134299649,
                                                 "text": "f4",
                                                 "rawText": "f4",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 487,
                                                 "end": 492
                                             },
@@ -1239,7 +1239,7 @@ function foo4() {
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 696,
                                     "end": 700
                                 },
@@ -1328,7 +1328,7 @@ function foo4() {
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 725,
                                     "end": 729
                                 },
@@ -1417,7 +1417,7 @@ function foo4() {
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 757,
                                     "end": 761
                                 },
@@ -1506,7 +1506,7 @@ function foo4() {
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 793,
                                     "end": 797
                                 },

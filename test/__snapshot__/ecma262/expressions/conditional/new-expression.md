@@ -66,7 +66,7 @@ const testConsole = new TestConsole(
                                                 "kind": 134299649,
                                                 "text": "config",
                                                 "rawText": "config",
-                                                "flags": 96,
+                                                "flags": 97,
                                                 "start": 36,
                                                 "end": 45
                                             },
@@ -78,7 +78,7 @@ const testConsole = new TestConsole(
                                                 "start": 46,
                                                 "end": 55
                                             },
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 36,
                                             "end": 55
                                         },
@@ -138,7 +138,7 @@ const testConsole = new TestConsole(
                                             "start": 74,
                                             "end": 89
                                         },
-                                        "flags": 32,
+                                        "flags": 97,
                                         "start": 36,
                                         "end": 89
                                     }

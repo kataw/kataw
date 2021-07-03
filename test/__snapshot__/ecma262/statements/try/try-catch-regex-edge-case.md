@@ -86,7 +86,7 @@ try/catch/finally/{
                     "start": 18,
                     "end": 19
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 3,
                 "end": 19
             },

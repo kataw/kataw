@@ -73,7 +73,7 @@ for ({a: x + y} = z in obj);
                                         "start": 12,
                                         "end": 14
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 6,
                                     "end": 14
                                 },
@@ -121,7 +121,7 @@ for ({a: x + y} = z in obj);
                         "start": 22,
                         "end": 26
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 17,
                     "end": 26
                 },

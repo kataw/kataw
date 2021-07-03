@@ -73,7 +73,7 @@ switch(y&[]=y){}
                     "start": 9,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 7,
                 "end": 13
             },

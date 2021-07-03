@@ -33,7 +33,7 @@
                         "kind": 134299649,
                         "text": "private",
                         "rawText": "\\u0070rivate",
-                        "flags": 96,
+                        "flags": 16480,
                         "start": 1,
                         "end": 13
                     },

@@ -80,7 +80,7 @@ async function f3() {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 16,
                                     "end": 20
                                 },
@@ -161,7 +161,7 @@ async function f3() {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 39,
                                     "end": 43
                                 },
@@ -219,7 +219,7 @@ async function f3() {
                                             "start": 59,
                                             "end": 61
                                         },
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 51,
                                         "end": 61
                                     },
@@ -243,7 +243,7 @@ async function f3() {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 62,
                                     "end": 66
                                 },
@@ -331,7 +331,7 @@ async function f3() {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 87,
                                     "end": 91
                                 },
@@ -393,7 +393,7 @@ async function f3() {
                                         "start": 105,
                                         "end": 111
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 93,
                                     "end": 111
                                 },
@@ -413,7 +413,7 @@ async function f3() {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 112,
                                     "end": 116
                                 },
@@ -489,7 +489,7 @@ async function f3() {
                                         "start": 132,
                                         "end": 140
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 118,
                                     "end": 140
                                 },
@@ -562,7 +562,7 @@ async function f3() {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 161,
                                     "end": 165
                                 },
@@ -625,7 +625,7 @@ async function f3() {
                                             "start": 182,
                                             "end": 184
                                         },
-                                        "flags": 32,
+                                        "flags": 96,
                                         "start": 174,
                                         "end": 184
                                     },
@@ -649,7 +649,7 @@ async function f3() {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 185,
                                     "end": 189
                                 },
@@ -742,7 +742,7 @@ async function f3() {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 211,
                                     "end": 215
                                 },
@@ -828,7 +828,7 @@ async function f3() {
                                         "start": 232,
                                         "end": 241
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 217,
                                     "end": 241
                                 },
@@ -901,7 +901,7 @@ async function f3() {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 267,
                                     "end": 271
                                 },
@@ -981,7 +981,7 @@ async function f3() {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 290,
                                     "end": 294
                                 },
@@ -1067,7 +1067,7 @@ async function f3() {
                                     "kind": 134299649,
                                     "text": "a",
                                     "rawText": "a",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 315,
                                     "end": 319
                                 },
@@ -1139,7 +1139,7 @@ async function f3() {
                                         "start": 335,
                                         "end": 343
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 321,
                                     "end": 343
                                 },

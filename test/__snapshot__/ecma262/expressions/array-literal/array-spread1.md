@@ -261,7 +261,7 @@ var y: Array<string> = ['3', ...x];
                         "kind": 134299649,
                         "text": "B",
                         "rawText": "B",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 49,
                         "end": 51
                     },
@@ -273,7 +273,7 @@ var y: Array<string> = ['3', ...x];
                         "start": 52,
                         "end": 56
                     },
-                    "flags": 96,
+                    "flags": 97,
                     "start": 49,
                     "end": 56
                 },
@@ -340,7 +340,7 @@ var y: Array<string> = ['3', ...x];
                                     "start": 70,
                                     "end": 72
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 66,
                                 "end": 72
                             },
@@ -372,7 +372,7 @@ var y: Array<string> = ['3', ...x];
                         "kind": 134299649,
                         "text": "C",
                         "rawText": "C",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 74,
                         "end": 76
                     },
@@ -384,7 +384,7 @@ var y: Array<string> = ['3', ...x];
                         "start": 77,
                         "end": 81
                     },
-                    "flags": 96,
+                    "flags": 97,
                     "start": 74,
                     "end": 81
                 },
@@ -451,7 +451,7 @@ var y: Array<string> = ['3', ...x];
                                     "start": 95,
                                     "end": 97
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 91,
                                 "end": 97
                             },

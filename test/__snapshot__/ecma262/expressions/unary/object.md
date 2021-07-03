@@ -48,7 +48,7 @@ state = {
                                     "kind": 134299649,
                                     "text": "hoverColumn",
                                     "rawText": "hoverColumn",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 9,
                                     "end": 37
                                 },

@@ -98,7 +98,7 @@ class /*1*/ y /*2*/ {
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 38,
                                 "end": 44
                             },
@@ -126,7 +126,7 @@ class /*1*/ y /*2*/ {
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 48,
                                 "end": 54
                             },
@@ -222,7 +222,7 @@ class /*1*/ y /*2*/ {
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 129,
                                 "end": 135
                             },
@@ -250,7 +250,7 @@ class /*1*/ y /*2*/ {
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 149,
                                 "end": 155
                             },

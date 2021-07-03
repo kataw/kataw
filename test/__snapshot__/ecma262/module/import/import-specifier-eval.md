@@ -156,7 +156,7 @@ import {eval as o} from 'foo';
                                     "kind": 134299649,
                                     "text": "eval",
                                     "rawText": "ev\\u0061l",
-                                    "flags": 96,
+                                    "flags": 16480,
                                     "start": 35,
                                     "end": 44
                                 },
@@ -405,7 +405,7 @@ import {eval as o} from 'foo';
                                     "kind": 134299649,
                                     "text": "arguments",
                                     "rawText": "\\u0061rguments",
-                                    "flags": 96,
+                                    "flags": 16480,
                                     "start": 137,
                                     "end": 151
                                 },
@@ -537,11 +537,11 @@ import {eval as o} from 'foo';
 
 ```javascript
 ✖ 'eval' and 'arguments' cannot be used as an identifier here - start: 8, end: 13
-✖ 'eval' and 'arguments' cannot be used as an identifier here - start: 35, end: 45
+✖ 'eval' and 'arguments' cannot contain escape characters - start: 35, end: 45
 ✖ Duplicate identifier - start: 44, end: 45
 ✖ Duplicate identifier - start: 71, end: 76
 ✖ Duplicate identifier - start: 104, end: 114
-✖ 'eval' and 'arguments' cannot be used as an identifier here - start: 137, end: 152
+✖ 'eval' and 'arguments' cannot contain escape characters - start: 137, end: 152
 
 ```
 

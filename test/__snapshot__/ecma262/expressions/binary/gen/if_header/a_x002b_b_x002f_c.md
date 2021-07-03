@@ -71,11 +71,11 @@ if ( a + b / c ) ;
                         "start": 12,
                         "end": 14
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 10,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 4,
                 "end": 14
             },

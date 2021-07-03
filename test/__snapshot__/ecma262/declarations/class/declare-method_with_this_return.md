@@ -65,7 +65,7 @@ declare class Foo {
                                 "kind": 134299649,
                                 "text": "m",
                                 "rawText": "m",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 19,
                                 "end": 23
                             },

@@ -50,7 +50,7 @@ a?
                     "start": 2,
                     "end": 2
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 2
             },

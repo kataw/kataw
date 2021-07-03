@@ -114,7 +114,7 @@ const foo3 = 123
                                             "kind": 134299649,
                                             "text": "key",
                                             "rawText": "key",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 23,
                                             "end": 29
                                         },
@@ -187,7 +187,7 @@ const foo3 = 123
                                             "kind": 134299649,
                                             "text": "key",
                                             "rawText": "key",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 63,
                                             "end": 69
                                         },
@@ -260,7 +260,7 @@ const foo3 = 123
                                             "kind": 134299649,
                                             "text": "key",
                                             "rawText": "key",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 92,
                                             "end": 109
                                         },
@@ -333,7 +333,7 @@ const foo3 = 123
                                             "kind": 134299649,
                                             "text": "key",
                                             "rawText": "key",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 132,
                                             "end": 151
                                         },
@@ -718,7 +718,7 @@ const foo3 = 123
                                 "kind": 134299649,
                                 "text": "tag",
                                 "rawText": "tag",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 382,
                                 "end": 397
                             },
@@ -775,7 +775,7 @@ const foo3 = 123
                                 "kind": 134299649,
                                 "text": "tag",
                                 "rawText": "tag",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 416,
                                 "end": 431
                             },

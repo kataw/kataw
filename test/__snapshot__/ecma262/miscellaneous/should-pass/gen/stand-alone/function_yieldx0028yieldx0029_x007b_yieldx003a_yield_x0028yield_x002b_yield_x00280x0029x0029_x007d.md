@@ -144,7 +144,7 @@ function yield(yield) { yield: yield (yield + yield (0)); }
                                                     "start": 45,
                                                     "end": 55
                                                 },
-                                                "flags": 32,
+                                                "flags": 96,
                                                 "start": 38,
                                                 "end": 55
                                             }

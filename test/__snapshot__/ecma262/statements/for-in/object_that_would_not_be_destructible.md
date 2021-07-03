@@ -82,7 +82,7 @@ for ({a: x + y} in obj);
                                     "start": 12,
                                     "end": 14
                                 },
-                                "flags": 32,
+                                "flags": 96,
                                 "start": 6,
                                 "end": 14
                             },

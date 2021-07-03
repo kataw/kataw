@@ -56,7 +56,7 @@ do /false//a while
                         "start": 11,
                         "end": 12
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 2,
                     "end": 12
                 },

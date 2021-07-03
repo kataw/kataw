@@ -116,7 +116,7 @@ const test = (names: string[]) =>
                                     "kind": 134299649,
                                     "text": "names",
                                     "rawText": "names",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 33,
                                     "end": 70
                                 },

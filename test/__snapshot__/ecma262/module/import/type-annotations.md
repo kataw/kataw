@@ -464,7 +464,7 @@ import { type Foo12 } from "bar";
                         "start": 185,
                         "end": 188
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 183,
                     "end": 188
                 },

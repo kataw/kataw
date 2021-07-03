@@ -75,7 +75,7 @@ x(class {} ?? 1);
                                 "start": 8,
                                 "end": 10
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 2,
                             "end": 10
                         }
@@ -101,7 +101,7 @@ x(class {} ?? 1);
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 12,
                     "end": 15
                 },
@@ -193,7 +193,7 @@ x(class {} ?? 1);
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 33,
                     "end": 36
                 },
@@ -222,7 +222,7 @@ x(class {} ?? 1);
                                 "start": 44,
                                 "end": 46
                             },
-                            "flags": 32,
+                            "flags": 96,
                             "start": 37,
                             "end": 46
                         }
@@ -248,7 +248,7 @@ x(class {} ?? 1);
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 48,
                     "end": 51
                 },
@@ -293,7 +293,7 @@ x(class {} ?? 1);
                                 "start": 59,
                                 "end": 61
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 52,
                             "end": 61
                         }
@@ -319,7 +319,7 @@ x(class {} ?? 1);
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 63,
                     "end": 66
                 },
@@ -388,7 +388,7 @@ x(class {} ?? 1);
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 76,
                     "end": 79
                 },
@@ -457,7 +457,7 @@ x(class {} ?? 1);
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 90,
                     "end": 93
                 },
@@ -526,7 +526,7 @@ x(class {} ?? 1);
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 109,
                     "end": 112
                 },
@@ -617,7 +617,7 @@ x(class {} ?? 1);
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 131,
                     "end": 134
                 },
@@ -652,7 +652,7 @@ x(class {} ?? 1);
                                         "start": 139,
                                         "end": 141
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 135,
                                     "end": 141
                                 },
@@ -700,7 +700,7 @@ x(class {} ?? 1);
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 149,
                     "end": 152
                 },
@@ -735,7 +735,7 @@ x(class {} ?? 1);
                                         "start": 157,
                                         "end": 159
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 153,
                                     "end": 159
                                 },
@@ -783,7 +783,7 @@ x(class {} ?? 1);
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 167,
                     "end": 170
                 },
@@ -818,7 +818,7 @@ x(class {} ?? 1);
                                         "start": 176,
                                         "end": 178
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 171,
                                     "end": 178
                                 },
@@ -866,7 +866,7 @@ x(class {} ?? 1);
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 186,
                     "end": 189
                 },

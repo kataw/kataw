@@ -90,7 +90,7 @@ type Animal =
                                             "kind": 134217967,
                                             "text": "insect",
                                             "rawText": "'insect'",
-                                            "flags": 2097216,
+                                            "flags": 6291520,
                                             "start": 24,
                                             "end": 33
                                         },
@@ -134,7 +134,7 @@ type Animal =
                                             "kind": 134217967,
                                             "text": "fish",
                                             "rawText": "'fish'",
-                                            "flags": 2097216,
+                                            "flags": 6291520,
                                             "start": 45,
                                             "end": 52
                                         },
@@ -178,7 +178,7 @@ type Animal =
                                             "kind": 134217967,
                                             "text": "chinese",
                                             "rawText": "'chinese'",
-                                            "flags": 2097216,
+                                            "flags": 6291520,
                                             "start": 64,
                                             "end": 74
                                         },
@@ -222,7 +222,7 @@ type Animal =
                                             "kind": 134217967,
                                             "text": "bird",
                                             "rawText": "'bird'",
-                                            "flags": 2097216,
+                                            "flags": 6291520,
                                             "start": 86,
                                             "end": 93
                                         },

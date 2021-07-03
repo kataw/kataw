@@ -109,7 +109,7 @@ class Foo {
                                     "kind": 134299649,
                                     "text": "abc",
                                     "rawText": "abc",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 25,
                                     "end": 31
                                 },

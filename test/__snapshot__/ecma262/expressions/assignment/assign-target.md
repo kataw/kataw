@@ -74,7 +74,7 @@ x[y] = 0;
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 6,
                         "end": 8
                     },
@@ -86,7 +86,7 @@ x[y] = 0;
                         "start": 9,
                         "end": 10
                     },
-                    "flags": 96,
+                    "flags": 97,
                     "start": 6,
                     "end": 10
                 },
@@ -122,7 +122,7 @@ x[y] = 0;
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 15,
                         "end": 17
                     },

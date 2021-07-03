@@ -114,7 +114,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 10,
                         "end": 15
                     },
@@ -194,7 +194,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 25,
                         "end": 30
                     },
@@ -274,7 +274,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 40,
                         "end": 45
                     },
@@ -354,7 +354,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 55,
                         "end": 60
                     },
@@ -434,7 +434,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "kind": 134299649,
                         "text": "foo",
                         "rawText": "foo",
-                        "flags": 96,
+                        "flags": 97,
                         "start": 70,
                         "end": 75
                     },
@@ -586,7 +586,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                             "kind": 134299649,
                                                             "text": "foo",
                                                             "rawText": "foo",
-                                                            "flags": 96,
+                                                            "flags": 97,
                                                             "start": 85,
                                                             "end": 90
                                                         },
@@ -931,7 +931,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 127,
                                             "end": 132
                                         },
@@ -1176,7 +1176,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 163,
                                             "end": 168
                                         },
@@ -1453,7 +1453,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                             "kind": 134299649,
                                                             "text": "foo",
                                                             "rawText": "foo",
-                                                            "flags": 96,
+                                                            "flags": 97,
                                                             "start": 195,
                                                             "end": 200
                                                         },
@@ -1798,7 +1798,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "kind": 134299649,
                                             "text": "foo",
                                             "rawText": "foo",
-                                            "flags": 96,
+                                            "flags": 97,
                                             "start": 242,
                                             "end": 247
                                         },

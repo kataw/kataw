@@ -80,7 +80,7 @@ class B extends A {
                                     "kind": 134299649,
                                     "text": "constructor",
                                     "rawText": "constructor",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 19,
                                     "end": 35
                                 },
@@ -192,7 +192,7 @@ class B extends A {
                                                             "start": 102,
                                                             "end": 104
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 96,
                                                         "start": 83,
                                                         "end": 104
                                                     },

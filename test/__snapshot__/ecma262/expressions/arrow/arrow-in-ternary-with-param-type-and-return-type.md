@@ -151,7 +151,7 @@ test
                     "start": 27,
                     "end": 29
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 29
             },

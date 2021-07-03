@@ -48,7 +48,7 @@ x in x) ;
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 10,
                     "end": 12
                 },
@@ -66,7 +66,7 @@ x in x) ;
                     "start": 15,
                     "end": 17
                 },
-                "flags": 32,
+                "flags": 97,
                 "start": 10,
                 "end": 17
             },

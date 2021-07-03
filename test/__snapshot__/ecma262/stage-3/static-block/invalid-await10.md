@@ -142,7 +142,7 @@ class C {
                                                                 "kind": 134299649,
                                                                 "text": "await",
                                                                 "rawText": "await",
-                                                                "flags": 96,
+                                                                "flags": 97,
                                                                 "start": 43,
                                                                 "end": 55
                                                             },
@@ -176,7 +176,7 @@ class C {
                                                                 "kind": 134299649,
                                                                 "text": "x",
                                                                 "rawText": "x",
-                                                                "flags": 96,
+                                                                "flags": 97,
                                                                 "start": 60,
                                                                 "end": 77
                                                             },

@@ -98,7 +98,7 @@ class B<X> {
                                 "kind": 134299649,
                                 "text": "s",
                                 "rawText": "s",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 12,
                                 "end": 16
                             },
@@ -152,7 +152,7 @@ class B<X> {
                                     "kind": 134299649,
                                     "text": "f",
                                     "rawText": "f",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 20,
                                     "end": 24
                                 },
@@ -213,7 +213,7 @@ class B<X> {
                                                                         "kind": 134299649,
                                                                         "text": "y",
                                                                         "rawText": "y",
-                                                                        "flags": 96,
+                                                                        "flags": 97,
                                                                         "start": 46,
                                                                         "end": 54
                                                                     },

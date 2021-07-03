@@ -64,7 +64,7 @@ class C {
                                 "kind": 134299649,
                                 "text": "get",
                                 "rawText": "get",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 9,
                                 "end": 17
                             },
@@ -90,7 +90,7 @@ class C {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 17,
                                     "end": 23
                                 },
@@ -157,7 +157,7 @@ class C {
                                 "kind": 134299649,
                                 "text": "set",
                                 "rawText": "set",
-                                "flags": 96,
+                                "flags": 97,
                                 "start": 38,
                                 "end": 47
                             },
@@ -183,7 +183,7 @@ class C {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 47,
                                     "end": 53
                                 },

@@ -36,7 +36,7 @@
                 "kind": 134299649,
                 "text": "protected",
                 "rawText": "protecte\\u0064",
-                "flags": 96,
+                "flags": 16480,
                 "start": 13,
                 "end": 28
             },

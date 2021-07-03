@@ -101,7 +101,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                 "kind": 134217967,
                                                 "text": "a",
                                                 "rawText": "'a'",
-                                                "flags": 2097216,
+                                                "flags": 6291520,
                                                 "start": 12,
                                                 "end": 16
                                             },
@@ -344,7 +344,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                 "kind": 134217967,
                                                 "text": "x",
                                                 "rawText": "'x'",
-                                                "flags": 2097216,
+                                                "flags": 6291520,
                                                 "start": 77,
                                                 "end": 80
                                             },

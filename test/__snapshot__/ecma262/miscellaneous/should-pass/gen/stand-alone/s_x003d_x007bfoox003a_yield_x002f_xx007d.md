@@ -81,7 +81,7 @@ s = {foo: yield / x}
                                         "start": 17,
                                         "end": 19
                                     },
-                                    "flags": 32,
+                                    "flags": 96,
                                     "start": 5,
                                     "end": 19
                                 },

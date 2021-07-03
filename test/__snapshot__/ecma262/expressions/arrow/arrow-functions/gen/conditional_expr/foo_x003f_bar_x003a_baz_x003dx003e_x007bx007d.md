@@ -110,7 +110,7 @@ bar ? (foo ? bar : baz => {}) : baz;
                             "start": 18,
                             "end": 28
                         },
-                        "flags": 32,
+                        "flags": 96,
                         "start": 5,
                         "end": 28
                     },
@@ -132,7 +132,7 @@ bar ? (foo ? bar : baz => {}) : baz;
                     "start": 31,
                     "end": 35
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 35
             },

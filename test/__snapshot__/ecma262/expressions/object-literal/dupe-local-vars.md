@@ -198,7 +198,7 @@ o = {f(){ function x(){} var x = y; }};
                     "kind": 134299649,
                     "text": "o",
                     "rawText": "o",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 27,
                     "end": 30
                 },
@@ -361,7 +361,7 @@ o = {f(){ function x(){} var x = y; }};
                     "kind": 134299649,
                     "text": "o",
                     "rawText": "o",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 56,
                     "end": 59
                 },
@@ -531,7 +531,7 @@ o = {f(){ function x(){} var x = y; }};
                     "kind": 134299649,
                     "text": "o",
                     "rawText": "o",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 91,
                     "end": 94
                 },
@@ -704,7 +704,7 @@ o = {f(){ function x(){} var x = y; }};
                     "kind": 134299649,
                     "text": "o",
                     "rawText": "o",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 128,
                     "end": 131
                 },
@@ -884,7 +884,7 @@ o = {f(){ function x(){} var x = y; }};
                     "kind": 134299649,
                     "text": "o",
                     "rawText": "o",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 171,
                     "end": 174
                 },
@@ -1064,7 +1064,7 @@ o = {f(){ function x(){} var x = y; }};
                     "kind": 134299649,
                     "text": "o",
                     "rawText": "o",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 214,
                     "end": 217
                 },

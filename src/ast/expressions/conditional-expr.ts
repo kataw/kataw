@@ -20,6 +20,7 @@ export function createConditionalExpression(
   consequent: ExpressionNode,
   colonToken: SyntaxToken<TokenSyntaxKind>,
   alternate: ExpressionNode,
+  flags: NodeFlags,
   start: number,
   end: number
 ): ConditionalExpression {
@@ -30,7 +31,7 @@ export function createConditionalExpression(
     consequent,
     colonToken,
     alternate,
-    flags: NodeFlags.ExpressionNode,
+    flags,
     start,
     end
   };

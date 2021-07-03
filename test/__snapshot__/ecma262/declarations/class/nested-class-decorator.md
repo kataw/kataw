@@ -59,7 +59,7 @@ class Bar {
                                                         "kind": 134299649,
                                                         "text": "store",
                                                         "rawText": "store",
-                                                        "flags": 96,
+                                                        "flags": 97,
                                                         "start": 3,
                                                         "end": 11
                                                     },

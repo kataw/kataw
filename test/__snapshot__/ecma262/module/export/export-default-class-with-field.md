@@ -69,7 +69,7 @@ export default class {
                                     "kind": 134299649,
                                     "text": "p",
                                     "rawText": "p",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 22,
                                     "end": 26
                                 },
@@ -119,7 +119,7 @@ export default class {
                     "kind": 134299649,
                     "text": "constructor",
                     "rawText": "constructor",
-                    "flags": 96,
+                    "flags": 97,
                     "start": 30,
                     "end": 45
                 },

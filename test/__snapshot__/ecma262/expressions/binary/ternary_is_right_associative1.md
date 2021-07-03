@@ -43,7 +43,7 @@ a * x ? b : c ? d : e
                         "start": 3,
                         "end": 5
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 0,
                     "end": 5
                 },
@@ -105,11 +105,11 @@ a * x ? b : c ? d : e
                         "start": 19,
                         "end": 21
                     },
-                    "flags": 32,
+                    "flags": 96,
                     "start": 11,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 96,
                 "start": 0,
                 "end": 21
             },

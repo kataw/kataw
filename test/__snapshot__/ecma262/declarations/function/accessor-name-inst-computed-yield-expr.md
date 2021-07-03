@@ -380,7 +380,7 @@ function* g() {
                                     "kind": 134299649,
                                     "text": "C",
                                     "rawText": "C",
-                                    "flags": 96,
+                                    "flags": 97,
                                     "start": 142,
                                     "end": 147
                                 },

@@ -77,7 +77,7 @@
                     "kind": 134299649,
                     "text": "쒁r",
                     "rawText": "\\u{c481}r",
-                    "flags": 96,
+                    "flags": 8288,
                     "start": 23,
                     "end": 32
                 },
