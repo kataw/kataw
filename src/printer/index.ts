@@ -673,7 +673,7 @@ function printList(
       (previousSibling.flags & NodeFlags.DisallowTrailingComma) === 0
     ) {
       if (previousSibling) {
-        printPunctuator(',', printer, previousSibling.end, previousSibling);
+        printPunctuator(',', printer, previousSibling.end, previousSibling, /* addSpace */ false);
       } else {
         write(printer, ',');
       }
@@ -752,8 +752,7 @@ function printElementList(node: ElementList, printer: Printer, parentNode: Array
 function printVariableDeclarationOrLexicalBinding(node: VariableDeclaration | LexicalBinding, printer: Printer): void {
   printStatement(node.binding, printer, node);
   if (node.type) {
-    printPunctuator(':', printer, node.binding.end, node);
-    write(printer, ' ');
+    printPunctuator(':', printer, node.binding.end, node, /* addSpace */ true);
     printStatement(node.type, printer, node);
   }
   printInitializer(node.initializer as any, printer, node.type ? node.type.end : node.binding.end, node);
@@ -799,19 +798,19 @@ function printBindingList(node: BindingList, printer: Printer, parentNode: any):
 
 function printForStatement(node: ForStatement, printer: Printer): void {
   printKeyword(node.forKeyword, printer, node, /* addSpace */ true);
-  let punctuatorPos = printPunctuator('(', printer, node.forKeyword.end, node);
+  let punctuatorPos = printPunctuator('(', printer, node.forKeyword.end, node, /* addSpace */ false);
   printForBinding(node.initializer, printer);
-  punctuatorPos = printPunctuator(';', printer, node.initializer ? node.initializer.end : punctuatorPos, node);
+  punctuatorPos = printPunctuator(';', printer, node.initializer ? node.initializer.end : punctuatorPos, node, /* addSpace */ false);
   if (node.condition) {
     write(printer, ' ');
     printExpression(node.condition, printer, node);
   }
-  punctuatorPos = printPunctuator(';', printer, node.condition ? node.condition.end : punctuatorPos, node);
+  punctuatorPos = printPunctuator(';', printer, node.condition ? node.condition.end : punctuatorPos, node, /* addSpace */ false);
   if (node.incrementor) {
     write(printer, ' ');
     printExpression(node.incrementor, printer, node);
   }
-  printPunctuator(')', printer, node.incrementor ? node.incrementor.end : punctuatorPos, node);
+  printPunctuator(')', printer, node.incrementor ? node.incrementor.end : punctuatorPos, node, /* addSpace */ false);
   printEmbeddedStatement(node.statement, printer);
 }
 
@@ -831,12 +830,12 @@ function printForBinding(node: any, printer: Printer) {
 
 function printForInStatement(node: ForInStatement, printer: Printer): void {
   printKeyword(node.forKeyword, printer, node, /* addSpace */ true);
-  printPunctuator('(', printer, node.forKeyword.end, node);
+  printPunctuator('(', printer, node.forKeyword.end, node, /* addSpace */ false);
   printForBinding(node.initializer, printer);
   write(printer, ' ');
   printKeyword(node.inKeyword, printer, node, /* addSpace */ true);
   printExpression(node.expression, printer, node);
-  printPunctuator(')', printer, node.expression.end, node);
+  printPunctuator(')', printer, node.expression.end, node, /* addSpace */ false);
   printEmbeddedStatement(node.statement, printer);
 }
 
@@ -845,28 +844,28 @@ function printForOfStatement(node: ForOfStatement, printer: Printer): void {
   if (node.awaitKeyword) {
     printKeyword(node.awaitKeyword, printer, node, /* addSpace */ true);
   }
-  printPunctuator('(', printer, node.awaitKeyword ? node.awaitKeyword.end : node.forKeyword.end, node);
+  printPunctuator('(', printer, node.awaitKeyword ? node.awaitKeyword.end : node.forKeyword.end, node, /* addSpace */ false);
   printForBinding(node.initializer, printer);
   write(printer, ' ');
   printKeyword(node.ofKeyword, printer, node, /* addSpace */ true);
   printExpression(node.expression, printer, node);
-  printPunctuator(')', printer, node.expression.end, node);
+  printPunctuator(')', printer, node.expression.end, node, /* addSpace */ false);
   printEmbeddedStatement(node.statement, printer);
 }
 
 function printWhileStatement(node: any, printer: Printer): void {
   printKeyword(node.whileKeyword, printer, node, /* addSpace */ true);
-  printPunctuator('(', printer, node.whileKeyword.end, node);
+  printPunctuator('(', printer, node.whileKeyword.end, node, /* addSpace */ false);
   printExpression(node.expression, printer, node);
-  printPunctuator(')', printer, node.expression.end, node);
+  printPunctuator(')', printer, node.expression.end, node, /* addSpace */ false);
   printEmbeddedStatement(node.statement, printer);
 }
 
 function printWithStatement(node: any, printer: Printer): void {
   printKeyword(node.withKeyword, printer, node, /* addSpace */ true);
-  printPunctuator('(', printer, node.withKeyword.end, node);
+  printPunctuator('(', printer, node.withKeyword.end, node, /* addSpace */ false);
   printExpression(node.expression, printer, node);
-  printPunctuator(')', printer, node.expression.end, node);
+  printPunctuator(')', printer, node.expression.end, node, /* addSpace */ false);
   printEmbeddedStatement(node.statement, printer);
 }
 
@@ -883,8 +882,7 @@ function printBlock(node: Block, printer: Printer, parentNode: BlockStatement): 
     (node.flags & NodeFlags.NewLine) === 0 && isEmptyBlock(node, parentNode, printer)
       ? PrinterContext.SpaceBetweenBraces |
           PrinterContext.SpaceBetweenSiblings |
-          PrinterContext.SingleLine |
-          PrinterContext.Braces
+          PrinterContext.SingleLine | PrinterContext.Braces
       : PrinterContext.Indented | PrinterContext.MultiLine | PrinterContext.NoSpaceIfEmpty | PrinterContext.Braces
   );
 }
@@ -894,26 +892,26 @@ function printDoWhileStatement(node: DoWhileStatement, printer: Printer) {
   printEmbeddedStatement(node.statement, printer);
   write(printer, ' ');
   printKeyword(node.whileKeyword, printer, node, /* addSpace */ true);
-  printPunctuator('(', printer, node.whileKeyword.end, node);
+  printPunctuator('(', printer, node.whileKeyword.end, node, /* addSpace */ false);
   printExpression(node.expression, printer, node);
-  printPunctuator(')', printer, node.expression.end, node);
+  printPunctuator(')', printer, node.expression.end, node, /* addSpace */ false);
 }
 
 function printCatchClause(node: any, printer: Printer) {
   printKeyword(node.catchKeyword, printer, node, /* addSpace */ true);
   if (node.catchParameter) {
-    printPunctuator('(', printer, node.block.end, node);
+    printPunctuator('(', printer, node.block.end, node, /* addSpace */ false);
     printStatement(node.catchParameter, printer, node);
-    printPunctuator(')', printer, node.catchParameter.end, node);
+    printPunctuator(')', printer, node.catchParameter.end, node, /* addSpace */ false);
   }
   printStatement(node.block, printer, node);
 }
 
 function printIfStatement(node: IfStatement, printer: Printer): void {
   printKeyword(node.ifKeyword, printer, node, /* addSpace */ true);
-  printPunctuator('(', printer, node.ifKeyword.end, node);
+  printPunctuator('(', printer, node.ifKeyword.end, node, /* addSpace */ false);
   printExpression(node.expression, printer, node);
-  printPunctuator(')', printer, node.expression.end, node);
+  printPunctuator(')', printer, node.expression.end, node, /* addSpace */ false);
   printEmbeddedStatement(node.consequent, printer);
   if (node.alternate) {
     writeLine(printer);
@@ -1000,21 +998,15 @@ function printContinueStatement(node: ContinueStatement, printer: Printer): void
 
 function printSwitchStatement(node: SwitchStatement, printer: Printer): void {
   printKeyword(node.switchKeyword, printer, node, /* addSpace */ true);
-  printPunctuator('(', printer, node.switchKeyword.end, node);
+  printPunctuator('(', printer, node.switchKeyword.end, node, /* addSpace */ false);
   printExpression(node.expression, printer, node);
-  printPunctuator(')', printer, node.expression.end, node);
+  printPunctuator(')', printer, node.expression.end, node, /* addSpace */ false);
   write(printer, ' ');
   printCaseBlock(node.caseBlock, printer, node);
 }
 
 function printCaseBlock(node: CaseBlock, printer: Printer, parentNode: SwitchStatement): void {
-  printStatementList(
-    printer,
-    node,
-    parentNode,
-    node.clauses as any,
-    PrinterContext.Indented | PrinterContext.MultiLine | PrinterContext.Braces
-  );
+  printStatementList(printer, node, parentNode, node.clauses as any, PrinterContext.Indented | PrinterContext.MultiLine | PrinterContext.Braces);
 }
 
 function printCaseClause(node: any | any, printer: Printer): void {
@@ -1113,9 +1105,9 @@ function printArgumentList(node: any, parentNode: any, printer: Printer, context
 }
 
 function printComputedPropertyName(node: ComputedPropertyName, printer: Printer): void {
-  printPunctuator('[', printer, node.start, node);
+  printPunctuator('[', printer, node.start, node, /* addSpace */ false);
   printExpression(node.expression, printer, node);
-  printPunctuator(']', printer, node.expression.end, node);
+  printPunctuator(']', printer, node.expression.end, node, /* addSpace */ false);
 }
 
 function printCallExpression(node: CallExpression, printer: Printer): void {
@@ -1132,9 +1124,9 @@ function printCallExpression(node: CallExpression, printer: Printer): void {
 }
 
 function printParenthesizedExpression(node: ParenthesizedExpression, printer: Printer): void {
-  printPunctuator('(', printer, node.start, node);
+  printPunctuator('(', printer, node.start, node, /* addSpace */ false);
   printExpression(node.expression, printer, node);
-  printPunctuator(')', printer, node.expression.end, node);
+  printPunctuator(')', printer, node.expression.end, node, /* addSpace */ false);
 }
 
 function printYieldExpression(node: YieldExpression, printer: Printer): void {
@@ -1191,8 +1183,7 @@ function printFunctionDeclarationOrExpression(node: any, printer: Printer): void
   }
   printFormalParameterList(node.formalParameterList, printer, node);
   if (node.returnType) {
-    printPunctuator(':', printer, node.formalParameterList.end, node);
-    write(printer, ' ');
+    printPunctuator(':', printer, node.formalParameterList.end, node, /* addSpace */ true);
     printStatement(node.returnType, printer, node);
   }
   write(printer, ' ');
@@ -1201,11 +1192,11 @@ function printFunctionDeclarationOrExpression(node: any, printer: Printer): void
 
 function printFunctionBody(node: any, printer: Printer): void {
   if (node) {
-    printPunctuator('{', printer, node.start, node);
+    printPunctuator('{', printer, node.start, node, /* addSpace */ false);
     printer.indent++;
     printFunctioBody(node.functionStatementList, printer, node);
     printer.indent--;
-    printPunctuator('}', printer, node.functionStatementList.end, node);
+    printPunctuator('}', printer, node.functionStatementList.end, node, /* addSpace */ false);
   }
 }
 
@@ -1225,10 +1216,7 @@ function printFunctioBody(node: any, printer: Printer, parentNode: any): void {
       node,
       parentNode,
       statements,
-      PrinterContext.SingleLine |
-        PrinterContext.SpaceBetweenSiblings |
-        PrinterContext.SpaceBetweenBraces |
-        PrinterContext.NoSpaceIfEmpty
+      PrinterContext.SingleLine | PrinterContext.SpaceBetweenSiblings | PrinterContext.SpaceBetweenBraces | PrinterContext.NoSpaceIfEmpty
     );
     printer.indent++;
   } else {
@@ -1274,14 +1262,12 @@ function printBindingElement(node: any, printer: Printer): void {
   printKeyword(node.optionalToken, printer, node, /* addSpace */ false);
 
   if (node.type) {
-    printPunctuator(':', printer, node.left.end, node);
-    write(printer, ' ');
+    printPunctuator(':', printer, node.left.end, node, /* addSpace */ true);
     printStatement(node.type, printer, node);
   }
   if (node.right) {
     write(printer, ' ');
-    printPunctuator('=', printer, node.type ? node.type.end : node.left.end, node);
-    write(printer, ' ');
+    printPunctuator('=', printer, node.type ? node.type.end : node.left.end, node, /* addSpace */ true);
     printStatement(node.right, printer, node);
   }
 }
@@ -1311,20 +1297,18 @@ function printPropertyDefinitionList(node: any, printer: Printer, parentNode: an
 function printPropertyDefinition(node: any, printer: Printer): void {
   printExpression(node.left, printer, node);
   write(printer, ' ');
-  printPunctuator(':', printer, node.left.end, node);
-  write(printer, ' ');
+  printPunctuator(':', printer, node.left.end, node, /* addSpace */ true);
   printExpression(node.right, printer, node);
 }
 
 function printCoverInitializedName(node: any, printer: Printer): void {
   printExpression(node.left, printer, node);
   write(printer, ' ');
-  printPunctuator('=', printer, node.left.end, node);
-  write(printer, ' ');
+  printPunctuator('=', printer, node.left.end, node, /* addSpace */ true);
   printExpression(node.right, printer, node);
 }
 
-function printPropertyMethod(node: any, printer: Printer): void {
+function printPropertyMethod(node: PropertyMethod, printer: Printer): void {
   printKeyword(node.asyncKeyword, printer, node, /* addSpace */ true);
   printKeyword(node.asteriskToken, printer, node, /* addSpace */ true);
   printKeyword(node.getKeyword, printer, node, /* addSpace */ true);
@@ -1332,13 +1316,12 @@ function printPropertyMethod(node: any, printer: Printer): void {
   printExpression(node.method, printer, node);
 }
 
-function printMethodDefinition(node: any, printer: Printer): void {
+function printMethodDefinition(node: MethodDefinition, printer: Printer): void {
   printExpression(node.name, printer, node);
-  printStatement(node.typeParameters, printer, node);
+  printStatement(node.typeParameters as TypeParameterDeclaration, printer, node);
   printFormalParameterList(node.formalParameterList, printer, node);
   if (node.returnType) {
-    printPunctuator(':', printer, node.formalParameterList.end, node);
-    write(printer, ' ');
+    printPunctuator(':', printer, node.formalParameterList.end, node, /* addSpace */ true);
     printStatement(node.returnType, printer, node);
   }
   write(printer, ' ');
@@ -1364,9 +1347,9 @@ function printerBindingElementList(node: any, printer: Printer, parentNode: any)
 }
 
 function printObjectBindingPattern(node: any, printer: Printer): void {
-  printPunctuator('{', printer, node.start, node);
+  printPunctuator('{', printer, node.start, node, /* addSpace */ false);
   printBindingPropertyList(node.propertyList, printer, node);
-  printPunctuator('}', printer, node.propertyList.end, node);
+  printPunctuator('}', printer, node.propertyList.end, node, /* addSpace */ false);
 }
 
 function printBindingPropertyList(node: any, printer: Printer, parentNode: any): void {
@@ -1388,8 +1371,7 @@ function printBindingPropertyList(node: any, printer: Printer, parentNode: any):
 function printBindingProperty(node: any, printer: Printer): void {
   printKeyword(node.ellipsisToken, printer, node, /* addSpace */ false);
   printExpression(node.key, printer, node);
-  printPunctuator(':', printer, node.key.end, node);
-  write(printer, ' ');
+  printPunctuator(':', printer, node.key.end, node, /* addSpace */ true);
   printStatement(node.value, printer, node);
   printInitializer(node.initializer as any, printer, node.value.end, node);
 }
@@ -1448,9 +1430,9 @@ function printTail(node: any, printer: Printer): void {
   if (node.flags & NodeFlags.Declared) {
     printObjectType(node.body, printer, node);
   } else {
-    printPunctuator('{', printer, node.start, node);
+    printPunctuator('{', printer, node.start, node, /* addSpace */ false)
     printClassBody(node.body, printer, node);
-    printPunctuator('}', printer, node.body.end, node);
+    printPunctuator('}', printer, node.body.end, node, /* addSpace */ false);
   }
 }
 
@@ -1493,16 +1475,10 @@ function printFieldDefinition(node: any, printer: Printer): void {
   printKeyword(node.optionalToken, printer, node, /* addSpace */ false);
 
   if (node.type) {
-    printPunctuator(':', printer, node.optionalToken ? node.optionalToken.end : node.key.end, node);
-    write(printer, ' ');
+    printPunctuator(':', printer, node.optionalToken ? node.optionalToken.end : node.key.end, node, /* addSpace */ true);
     printStatement(node.type, printer, node);
   }
-  printInitializer(
-    node.initializer as any,
-    printer,
-    node.type ? node.type.end : node.optionalToken ? node.optionalToken.end : node.key.end,
-    node
-  );
+  printInitializer(node.initializer as any, printer, node.type ? node.type.end : node.optionalToken ? node.optionalToken.end : node.key.end, node);
 }
 
 function printBigIntLiteral(node: any, printer: Printer): void {
@@ -1518,15 +1494,15 @@ function printIndexExpression(node: any, printer: Printer): void {
   ) {
     write(printer, '.');
   }
-  printPunctuator('.', printer, node.member.end, node);
+  printPunctuator('.', printer, node.member.end, node, /* addSpace */ false);
   printStatement(node.expression, printer, node);
 }
 
 function printMemberAccessExpression(node: MemberAccessExpression, printer: Printer): void {
   printStatement(node.member, printer, node);
-  printPunctuator('[', printer, node.member.end, node);
+  printPunctuator('[', printer, node.member.end, node, /* addSpace */ false);
   printStatement(node.expression, printer, node);
-  printPunctuator(']', printer, node.expression.end, node);
+    printPunctuator(']', printer, node.expression.end, node, /* addSpace */ false);
 }
 
 function printArrayType(node: ArrayType, printer: Printer): void {
@@ -1541,8 +1517,7 @@ function printArrowFunctionType(node: ArrowFunctionType, printer: Printer): void
   }
   write(printer, '(');
   printStatement(node.arrowTypeParameterList, printer, node);
-  printPunctuator(')', printer, node.arrowTypeParameterList.end, node);
-  write(printer, ' ');
+  printPunctuator(')', printer, node.arrowTypeParameterList.end, node, /* addSpace */ true);
   printKeyword(node.arrowToken, printer, node, /* addSpace */ true);
   printStatement(node.returnType, printer, node);
 }
@@ -1574,9 +1549,9 @@ function printArrowTypeParameter(node: ArrowTypeParameter, printer: Printer): vo
         ':',
         printer,
         node.name ? node.name.end : node.optionalToken ? node.optionalToken.end : node.start,
-        node
+        node,
+         /* addSpace */ true
       );
-      write(printer, ' ');
     }
     printStatement(node.types, printer, node);
   }
@@ -1614,8 +1589,7 @@ function printFunctionTypeParameter(node: FunctionTypeParameter, printer: Printe
         printer,
         node.name ? node.name.end : node.optionalToken ? node.optionalToken.end : node.start,
         node
-      );
-      write(printer, ' ');
+        , /* addSpace */ true);
     }
     printStatement(node.types, printer, node);
   }
@@ -1628,19 +1602,18 @@ function printFunctionType(node: FunctionType, printer: Printer): void {
   }
   write(printer, '(');
   printStatement(node.functionTypeParameterList, printer, node);
-  printPunctuator(')', printer, node.functionTypeParameterList.end, node);
+  printPunctuator(')', printer, node.functionTypeParameterList.end, node, /* addSpace */ false);
   if (node.returnType) {
-    printPunctuator(':', printer, node.functionTypeParameterList.end, node);
-    write(printer, ' ');
+    printPunctuator(':', printer, node.functionTypeParameterList.end, node, /* addSpace */ true);
     printStatement(node.returnType, printer, node);
   }
 }
 
 function printIndexedAccessType(node: IndexedAccessType, printer: Printer): void {
   printStatement(node.objectType, printer, node);
-  printPunctuator('[', printer, node.objectType.end, node);
+  printPunctuator('[', printer, node.objectType.end, node, /* addSpace */ true);
   printStatement(node.indexType, printer, node);
-  printPunctuator(']', printer, node.indexType.end, node);
+  printPunctuator(']', printer, node.indexType.end, node, /* addSpace */ false);
 }
 
 function printIntersectionType(node: IntersectionType, printer: Printer): void {
@@ -1667,10 +1640,9 @@ function printObjectTypeCallProperty(node: ObjectTypeCallProperty, printer: Prin
   }
   write(printer, '(');
   printStatement(node.value, printer, node);
-  let pos = printPunctuator(')', printer, node.value.end, node);
+  let pos = printPunctuator(')', printer, node.value.end, node, /* addSpace */ false);
   if (node.returnType) {
-    printPunctuator(':', printer, pos, node);
-    write(printer, ' ');
+    printPunctuator(':', printer, pos, node, /* addSpace */ true);
     printStatement(node.returnType, printer, node);
   }
 }
@@ -1681,8 +1653,8 @@ function printObjectTypeIndexer(node: ObjectTypeIndexer, printer: Printer): void
   write(printer, '[');
   printStatement(node.name as any, printer, node);
   printStatement(node.key, printer, node);
-  printPunctuator(']', printer, node.key.end, node);
-  printPunctuator(':', printer, node.key.end, node);
+  printPunctuator(']', printer, node.key.end, node, /* addSpace */ false);
+  printPunctuator(':', printer, node.key.end, node, /* addSpace */ true);
   write(printer, ' ');
   printStatement(node.type, printer, node);
 }
@@ -1694,12 +1666,12 @@ function printObjectTypeInternalSlot(node: ObjectTypeInternalSlot, printer: Prin
     '[',
     printer,
     node.protoKeyword ? node.protoKeyword.end : node.staticKeyword ? node.staticKeyword.end : node.start,
-    node
+    node, /* addSpace */ true
   );
-  printPunctuator('[', printer, pos, node);
+  printPunctuator('[', printer, pos, node, /* addSpace */ false);
   printStatement(node.name, printer, node);
-  pos = printPunctuator(']', printer, node.name.end, node);
-  printPunctuator(']', printer, pos, node);
+  pos = printPunctuator(']', printer, node.name.end, node, /* addSpace */ false);
+  printPunctuator(']', printer, pos, node, /* addSpace */ false);
   printKeyword(node.optionalToken, printer, node, /* addSpace */ false);
   printStatement(node.type, printer, node);
 }
@@ -1712,8 +1684,7 @@ function printObjectTypeProperty(node: ObjectTypeProperty, printer: Printer): vo
   if (node.type.kind === SyntaxKind.FunctionType) {
     printStatement(node.type, printer, node);
   } else {
-    printPunctuator(':', printer, node.optionalToken ? node.optionalToken.end : node.key.end, node);
-    write(printer, ' ');
+    printPunctuator(':', printer, node.optionalToken ? node.optionalToken.end : node.key.end, node, /* addSpace */ true);
     printStatement(node.type, printer, node);
   }
 }
@@ -1732,16 +1703,14 @@ function printObjectType(node: ObjectType, printer: Printer, parentNode: SyntaxN
         PrinterContext.Indented |
         PrinterContext.OptionalIfEmpty |
         PrinterContext.NoSpaceIfEmpty |
-        PrinterContext.CommaDelimited
+        PrinterContext.CommaDelimited | PrinterContext.Braces
       : PrinterContext.SingleLine |
         PrinterContext.SpaceBetweenBraces |
         PrinterContext.SpaceBetweenSiblings |
         PrinterContext.NoSpaceIfEmpty |
-        PrinterContext.CommaDelimited;
+        PrinterContext.CommaDelimited | PrinterContext.Braces;
   if (node.trailingComma) flags |= PrinterContext.AllowTrailingComma;
-  write(printer, '{');
   printStatementList(printer, node, parentNode, node.properties, flags);
-  write(printer, '}');
 }
 
 function printOpaqueType(node: OpaqueType, printer: Printer): void {
@@ -1761,11 +1730,8 @@ function printOpaqueType(node: OpaqueType, printer: Printer): void {
       write(printer, ' ');
       printStatement(node.superType, printer, node);
     }
-
     write(printer, ' ');
-    printPunctuator('=', printer, node.superType ? node.superType.end : node.name.end, node);
-
-    write(printer, ' ');
+    printPunctuator('=', printer, node.superType ? node.superType.end : node.name.end, node, /* addSpace */ true);
     printStatement(node.impltype as TypeNode, printer, node);
   }
 }
@@ -1773,9 +1739,9 @@ function printOpaqueType(node: OpaqueType, printer: Printer): void {
 function printOptionalIndexedAccess(node: OptionalIndexedAccess, printer: Printer): void {
   printStatement(node.objectType, printer, node);
   printKeyword(node.optionalIndexedToken, printer, node, /* addSpace */ false);
-  printPunctuator('[', printer, node.optionalIndexedToken.end, node);
+  printPunctuator('[', printer, node.optionalIndexedToken.end, node, /* addSpace */ false);
   printStatement(node.indexType, printer, node);
-  printPunctuator(']', printer, node.indexType.end, node);
+  printPunctuator(']', printer, node.indexType.end, node, /* addSpace */ false);
 }
 
 function printOptionalType(node: OptionalType, printer: Printer): void {
@@ -1784,9 +1750,9 @@ function printOptionalType(node: OptionalType, printer: Printer): void {
 }
 
 function printParenthesizedType(node: ParenthesizedType, printer: Printer): void {
-  printPunctuator('(', printer, node.start, node);
+  printPunctuator('(', printer, node.start, node, /* addSpace */ false);
   printStatement(node.type, printer, node);
-  printPunctuator(')', printer, node.type.end, node);
+  printPunctuator(')', printer, node.type.end, node, /* addSpace */ false);
 }
 
 function printQualifiedType(node: QualifiedType, printer: Printer): void {
@@ -1819,8 +1785,8 @@ function printTupleType(node: TupleType, printer: Printer): void {
       ? PrinterContext.CommaDelimited |
           PrinterContext.SpaceBetweenSiblings |
           PrinterContext.SingleLine |
-          PrinterContext.AllowTrailingComma
-      : PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine
+          PrinterContext.AllowTrailingComma | PrinterContext.SquareBrackets
+      : PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.SquareBrackets
   );
   write(printer, ']');
 }
@@ -1933,14 +1899,14 @@ function printUnionType(node: UnionType, printer: Printer): void {
 
 function printImportCall(node: ImportCall, printer: Printer): void {
   printKeyword(node.importKeyword, printer, node, /* addSpace */ false);
-  printPunctuator('(', printer, node.importKeyword.end, node);
+  printPunctuator('(', printer, node.importKeyword.end, node, /* addSpace */ false);
   printExpression(node.expression, printer, node);
-  printPunctuator(')', printer, node.expression.end, node);
+  printPunctuator(')', printer, node.expression.end, node, /* addSpace */ false);
 }
 
 function printImportMeta(node: any, printer: Printer): void {
   printKeyword(node.importKeyword, printer, node, /* addSpace */ false);
-  printPunctuator('.', printer, node.importKeyword.end, node);
+  printPunctuator('.', printer, node.importKeyword.end, node, /* addSpace */ false);
   printKeyword(node.metaIdentifier, printer, node, /* addSpace */ false);
 }
 
@@ -1981,9 +1947,9 @@ function printMemberAccessChain(node: any, printer: Printer): void {
   if (node.chain) {
     printStatement(node.chain, printer, node);
   }
-  printPunctuator('[', printer, node.chain ? node.chain.end : node.start, node);
+  printPunctuator('[', printer, node.chain ? node.chain.end : node.start, node, /* addSpace */ false);
   printExpression(node.expression, printer, node);
-  printPunctuator(']', printer, node.expression.end, node);
+  printPunctuator(']', printer, node.expression.end, node, /* addSpace */ false);
 }
 
 export function shouldprintWhitespaceBeforeOperand(node: any): boolean {
@@ -2038,10 +2004,10 @@ function printTemplateExpression(node: any, printer: Printer): void {
 
 function printTemplateSpan(node: any, printer: Printer): void {
   write(printer, node.rawText);
-  const pos = printPunctuator('$', printer, node.start, node);
-  printPunctuator('{', printer, pos, node);
+  const pos = printPunctuator('$', printer, node.start, node, /* addSpace */ false);
+  printPunctuator('{', printer, pos, node, /* addSpace */ false);
   printExpression(node.expression, printer, node);
-  printPunctuator('}', printer, node.expression.end, node);
+  printPunctuator('}', printer, node.expression.end, node, /* addSpace */ false);
 }
 
 function printTemplateTail(node: any, printer: Printer): void {
@@ -2072,7 +2038,6 @@ function printNamedImports(node: any, printer: Printer): void {
 }
 
 function printExportsImportsList(node: any, printer: Printer): void {
-  write(printer, '{');
   printStatementList(
     printer,
     node,
@@ -2082,9 +2047,9 @@ function printExportsImportsList(node: any, printer: Printer): void {
       PrinterContext.SpaceBetweenSiblings |
       PrinterContext.AllowTrailingComma |
       PrinterContext.SingleLine |
-      PrinterContext.SpaceBetweenBraces
+      PrinterContext.SpaceBetweenBraces |
+      PrinterContext.Braces
   );
-  write(printer, '}');
 }
 
 function printNameSpaceImport(node: any, printer: Printer): void {
@@ -2221,11 +2186,11 @@ function printStaticBlockBody(node: any, printer: Printer, parentNode: any): voi
     printDetachedCommentsAndUpdateCommentsInfo(node, printer);
   }
   write(printer, ' ');
-  printPunctuator('{', printer, node.start, node);
+  printPunctuator('{', printer, node.start, node, /* addSpace */ false);
   printer.indent++;
   printStatementList(printer, node, parentNode, block.statements, PrinterContext.MultiLine);
   printer.indent--;
-  printPunctuator('}', printer, block.end, node);
+  printPunctuator('}', printer, block.end, node, /* addSpace */ false);
 
   if (end >= 0) {
     printLeadingComments(printer, block.statements.length !== 0 ? lastOrUndefined(block.statements).end : end);
@@ -2242,16 +2207,12 @@ export function printNewTarget(node: any, printer: Printer) {
   printKeyword(node.targetIdentifier, printer, node, /* addSpace */ false);
 }
 
-function printInitializer(
-  node: ExpressionNode | undefined,
-  printer: Printer,
-  equalCommentStartPos: number,
-  container: SyntaxNode
-) {
+
+function printInitializer(node: ExpressionNode | undefined, printer: Printer, equalCommentStartPos: number, container: SyntaxNode) {
   if (node) {
-    write(printer, ' ');
-    printPunctuator('=', printer, equalCommentStartPos, node);
-    write(printer, ' ');
-    printExpression(node, printer, node);
+      write(printer, ' ');
+      printPunctuator('=', printer, equalCommentStartPos, node, /* addSpace */ false);
+      write(printer, ' ');
+      printExpression(node, printer, node);
   }
 }

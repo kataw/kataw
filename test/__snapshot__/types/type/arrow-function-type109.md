@@ -268,7 +268,7 @@ type a = (...b[([x])=> c] | d) => c;
 
 ```javascript
 
-type a = (...b[([x]) => c] | d) => c
+type a = (...b[ ([x]) => c] | d) => c
 
 ```
 

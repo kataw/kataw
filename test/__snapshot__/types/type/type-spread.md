@@ -1186,7 +1186,7 @@ type D32 = {p?: number};
 
 ```javascript
 
-type D = { [string]: number }
+type D = { [string]:  number }
 type E = { foo: number, ...D }
 type C2 = { ...A2, ...B2 }
 type D2 = { p: string }
@@ -1194,8 +1194,8 @@ type C9 = { ...A9, ...B9 }
 type D9 = { p?: number | string }
 type C11 = { ...A11, ...B11 }
 type D11 = { p?: number }
-type D15 = { [string]: number, p?: string | number }
-type D31 = { [string]: number, p?: string | number }
+type D15 = { [string]:  number, p?: string | number }
+type D31 = { [string]:  number, p?: string | number }
 type D32 = { p?: number }
 
 ```

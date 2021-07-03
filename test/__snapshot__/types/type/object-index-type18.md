@@ -209,7 +209,7 @@ var obj: {
 
 ```javascript
 
-var obj: { size: number, [idnumber]: string } = {
+var obj: { size: number, [idnumber]:  string } = {
   size : 0
 };
 

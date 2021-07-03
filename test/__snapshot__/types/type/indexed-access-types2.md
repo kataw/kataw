@@ -161,7 +161,7 @@ type C = Obj['bar'][foo]['boz'];
 
 ```javascript
 
-type C = Obj['\'bar\''][foo]['\'boz\'']
+type C = Obj[ '\'bar\''][ foo][ '\'boz\'']
 
 ```
 

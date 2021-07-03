@@ -541,24 +541,7 @@ export function printKeyword(keyword: any, printer: any, parent: any, addSpace: 
   }
 }
 
-export function printPunctuator1(punctuator: string, printer: any, pos: number, parent: any): number {
-  const startPos = pos;
-
-  pos = skipWhitespace(printer.source, pos);
-
-  if (startPos !== -1 && parent.start !== pos) {
-    printLeadingComments(printer, startPos);
-  }
-
-  write(printer, punctuator);
-
-  if (parent.end !== pos + 1) {
-    printTrailingCommentsOfPosition(printer, 1);
-  }
-  return pos + 1;
-}
-
-export function printPunctuator(punctuator: string, printer: any, pos: number, parent: any): number {
+export function printPunctuator(punctuator: string, printer: any, pos: number, parent: any, addSpace: boolean): number {
   const startPos = pos;
 
   pos = skipWhitespace(printer.source, pos);
@@ -570,6 +553,10 @@ export function printPunctuator(punctuator: string, printer: any, pos: number, p
 
   if (parent.end !== pos + 1) {
     printTrailingCommentsOfPosition(printer, pos + 1);
+  }
+
+  if (addSpace) {
+    write(printer, ' ');
   }
   return pos + 1;
 }

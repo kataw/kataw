@@ -152,7 +152,7 @@ type a = (bj[c])[d];
 
 ```javascript
 
-type a = (bj[c])[d]
+type a = (bj[ c])[ d]
 
 ```
 
