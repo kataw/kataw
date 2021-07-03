@@ -1,6 +1,6 @@
 import { parse, Options } from '../parser/parser';
 import { Context, OnError } from '../parser/common';
-import { RootNode } from '../ast/rootNode';
+import { RootNode } from '../ast/root-node';
 
 // TODO: Add type checker and linter
 

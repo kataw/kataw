@@ -1,7 +1,7 @@
 import { parse, Options } from './parser/parser';
-import { PrinterOptions , printCST } from './printer/index';
+import { PrinterOptions, printCST } from './printer/index';
 import { Context, OnError } from './parser/common';
-import { RootNode } from './ast/rootNode';
+import { RootNode } from './ast/root-node';
 
 export { SyntaxKind } from './ast/syntax-node';
 export { NodeFlags } from './ast/syntax-node';
@@ -88,7 +88,7 @@ export { createElementList } from './ast/expressions/element-list';
 export { createBindingProperty } from './ast/expressions/binding-property';
 export { createBindingPropertyList } from './ast/expressions/binding-property-list';
 export { createObjectBindingPattern } from './ast/expressions/object-binding-pattern';
-export { createRootNode } from './ast/rootNode';
+export { createRootNode } from './ast/root-node';
 export { createIdentifier } from './ast/expressions/identifier-expr';
 export { createComputedPropertyName } from './ast/expressions/computed-property-name';
 export { createArrayLiteral } from './ast/expressions/array-literal';

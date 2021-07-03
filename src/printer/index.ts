@@ -1,5 +1,5 @@
 import { DebuggerStatement } from '../ast/statements/debugger-stmt';
-import { RootNode } from '../ast/rootNode';
+import { RootNode } from '../ast/root-node';
 import { StringLiteral } from '../ast/expressions/string-literal';
 import { ExpressionNode } from '../ast/expressions';
 import { TypeNode } from '../ast/types';
