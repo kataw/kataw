@@ -231,7 +231,7 @@ class Foo {
   #x
   ;
   constructor() {
-    delete  this?.#x;
+    delete this?.#x;
   }
 }
 

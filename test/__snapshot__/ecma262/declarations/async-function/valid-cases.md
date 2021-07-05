@@ -986,7 +986,7 @@ new async function() { await 0 }.x
 
 ```javascript
 
-- async function foo() {
+-async function foo() {
   await 0;
 } - async function () {
   await 0;

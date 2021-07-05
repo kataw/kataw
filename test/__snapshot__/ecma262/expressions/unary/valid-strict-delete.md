@@ -578,25 +578,25 @@
 ```javascript
 
 '"use strict"';
-delete  this;
+delete this;
 '"use strict"';
-delete  1;
+delete 1;
 '"use strict"';
-delete  foo();
+delete foo();
 '"use strict"';
-delete  1 + 2;
+delete 1 + 2;
 '"use strict"';
-delete  foo.bar;
+delete foo.bar;
 '"use strict"';
-delete  foo[bar];
+delete foo[bar];
 '"use strict"';
-delete  foo--;
+delete foo--;
 '"use strict"';
-delete  --foo;
+delete --foo;
 '"use strict"';
-delete  new foo();
+delete new foo();
 '"use strict"';
-delete  new foo(bar);
+delete new foo(bar);
 
 ```
 

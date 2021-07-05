@@ -150,7 +150,7 @@
 
 ```javascript
 
-(x = delete  ((await) = f)) => {};
+(x = delete ((await) = f)) => {};
 
 ```
 

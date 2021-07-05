@@ -3939,11 +3939,11 @@
 ({ x : { x : y }.length } = x);
 ({ x : false });
 ({ x : function () {} });
-({ x : typeof  x });
-({ x : void  x });
+({ x : typeof x });
+({ x : void x });
 ({ x : x + y });
 ({ x : new x });
-({ x : delete  x.y });
+({ x : delete x.y });
 ({ ...'"x"'[x] } = x);
 ({ ...[][x] } = x);
 ({ ...[][x] } = x = y);

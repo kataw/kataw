@@ -103,7 +103,7 @@ typeof @foo class {};
 
 ```javascript
 
-typeof  
+typeof 
 @foo
 class  {
 };

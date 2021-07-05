@@ -1,4 +1,4 @@
-import { DebuggerStatement } from '../ast/statements/debugger-stmt';
+  import { DebuggerStatement } from '../ast/statements/debugger-stmt';
 import { RootNode } from '../ast/root-node';
 import { StringLiteral } from '../ast/expressions/string-literal';
 import { ExpressionNode } from '../ast/expressions';
@@ -2005,23 +2005,27 @@ function printMemberAccessChain(node: any, printer: Printer): void {
   printPunctuator(']', printer, node.expression.end, node, /* addSpace */ false);
 }
 
-export function shouldprintWhitespaceBeforeOperand(node: any): boolean {
+function shouldprintWhitespaceBeforeOperand(node: any): boolean {
   const { operand, operandToken } = node;
-  return (
+    return (
     operandToken.kind === SyntaxKind.VoidKeyword ||
     operandToken.kind === SyntaxKind.DeleteKeyword ||
     operandToken.kind === SyntaxKind.InKeyword ||
     operandToken.kind === SyntaxKind.TypeofKeyword ||
-    (operandToken.kind === SyntaxKind.PrefixUpdateExpression &&
-      ((node.operandToken.kind === SyntaxKind.Add &&
-        (operand.operandToken.kind === SyntaxKind.Add || operand.operandToken.kind === SyntaxKind.Increment)) ||
-        (node.operandToken.kind === SyntaxKind.Subtract &&
-          (operand.operandToken.kind === SyntaxKind.Subtract || operand.operandToken.kind === SyntaxKind.Decrement))))
+    (operand.kind === SyntaxKind.PrefixUpdateExpression && node.operandToken.kind === SyntaxKind.Add
+      && (operand.operandToken.kind === SyntaxKind.Add ||
+        operand.operandToken.kind === SyntaxKind.Increment)
+      ) ||
+      (operand.kind === SyntaxKind.PrefixUpdateExpression && node.operandToken.kind === SyntaxKind.Subtract
+        && (operand.operandToken.kind === SyntaxKind.Subtract ||
+          operand.operandToken.kind === SyntaxKind.Decrement)
+        )
   );
 }
 
+
 function printUnaryExpression(node: any, printer: Printer): void {
-  printKeyword(node.operandToken, printer, node, /* addSpace */ true);
+  printKeyword(node.operandToken, printer, node, /* addSpace */ false);
   if (shouldprintWhitespaceBeforeOperand(node)) {
     write(printer, ' ');
   }

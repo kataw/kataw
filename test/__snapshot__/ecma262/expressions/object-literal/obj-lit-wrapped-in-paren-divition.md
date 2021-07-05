@@ -1752,7 +1752,7 @@
 ({ ...1 in {} });
 ({ set foo(b) {}, set bar(d) {} });
 ({ set foo(c) {}, bar() {} });
-({ foo : typeof  x });
+({ foo : typeof x });
 ({ foo : true / false });
 
 ```

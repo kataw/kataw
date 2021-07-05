@@ -2358,14 +2358,14 @@ c */? foo : bar : bar;
 
 var inspect = 4 === util.inspect.length ?// node <= 0.8.x
  (function (v, colors) {
-  return util.inspect(v, void  0, void  0, colors);
+  return util.inspect(v, void 0, void 0, colors);
 }) :// node > 0.8.x
  (function (v, colors) {
   return util.inspect(v, { colors : colors });
 });
 var inspect = 4 === util.inspect.length ?// node <= 0.8.x
  (function (v, colors) {
-  return util.inspect(v, void  0, void  0, colors);
+  return util.inspect(v, void 0, void 0, colors);
 }) :// node > 0.8.x
  (function (v, colors) {
   return util.inspect(v, { colors : colors });
