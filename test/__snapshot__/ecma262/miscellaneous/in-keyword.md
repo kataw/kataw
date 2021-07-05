@@ -1730,13 +1730,13 @@ let tests = [
   function () {
     ('\'foo\'' in 123);// error
     ('\'foo\'' in '\'bar\'');// error
-    ('\'foo\'' in void  0);// error
+    ('\'foo\'' in void 0);// error
     ('\'foo\'' in null);// error
   },
    // bogus stuff on LHS
   function () {
     (null in {});// error
-    (void  0 in {});// error
+    (void 0 in {});// error
     ({} in {});// error
     ([] in {});// error
     (false in []);// error
@@ -1744,8 +1744,8 @@ let tests = [
    // in predicates
   function () {
     if ('\'foo\'' in 123) { }// error
-    if (! '\'foo\'' in {}) { }// error, !'foo' is a boolean
-    if (! ('\'foo\'' in {})) { }
+    if (!'\'foo\'' in {}) { }// error, !'foo' is a boolean
+    if (!('\'foo\'' in {})) { }
   },
    // annotations on RHS
   function (x: Object, y: mixed) {

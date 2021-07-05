@@ -242,8 +242,8 @@ await / 0 /u
 ```javascript
 
 await 0;
-await + 0;
-await - 0;
+await +0;
+await -0;
 await (0);
 await [0,];
 await / 0 /u;
