@@ -2009,7 +2009,7 @@ function printObjectLiteral(
 ): any {
   return node.flags & NodeFlags.IgnoreNextNode
     ? printer.source.slice(node.start, node.end)
-    : printPropertyDefinitionList(
+    : printBindingPropertyListOrPropertyDefinitionList(
         printer,
         node.propertyList,
         lineMap,
@@ -2017,17 +2017,18 @@ function printObjectLiteral(
       )
 }
 
-function printPropertyDefinitionList(
+function printBindingPropertyListOrPropertyDefinitionList(
   printer: Printer,
   node: any,
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
-  if (node.properties.length === 0) {
+
+  const properties = node.properties
+
+  if (properties.length === 0) {
     return '{}'
   }
-
-  const children = node.properties
 
   const elements: any = []
 
@@ -2036,54 +2037,8 @@ function printPropertyDefinitionList(
 
   const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline
 
-  for (let i = 0; i < children.length; i++) {
-    child = children[i]
-    if (previousSibling) {
-      elements.push(concat([',', ' ', lineBreak]))
-    }
-
-    elements.push(printStatement(printer, child, lineMap, parentNode))
-    previousSibling = child
-  }
-
-  return group(
-    concat(['{', indent(concat([line, concat(elements)])), line, '}']),
-    {},
-  )
-}
-
-function printObjectBindingPattern(
-  printer: Printer,
-  node: any,
-  lineMap: number[],
-  parentNode: SyntaxNode,
-): any {
-  return node.flags & NodeFlags.IgnoreNextNode
-    ? printer.source.slice(node.start, node.end)
-    : printBindingPropertyList(printer, node.propertyList, lineMap, parentNode)
-}
-
-function printBindingPropertyList(
-  printer: Printer,
-  node: any,
-  lineMap: number[],
-  parentNode: SyntaxNode,
-): any {
-  if (node.properties.length === 0) {
-    return '{}'
-  }
-
-  const children = node.properties
-
-  const elements: any = []
-
-  let previousSibling!: SyntaxNode
-  let child!: SyntaxNode
-
-  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline
-
-  for (let i = 0; i < children.length; i++) {
-    child = children[i]
+  for (let i = 0; i < properties.length; i++) {
+    child = properties[i]
     if (previousSibling) {
       elements.push(concat([',', ' ', lineBreak]))
     }
@@ -2096,11 +2051,24 @@ function printBindingPropertyList(
     concat([
       '{',
       indent(concat([lineBreak, concat(elements)])),
+      ifBreak(node.trailingComma ? ',' : ''),
       lineBreak,
       '}',
     ]),
     {},
   )
+}
+
+
+function printObjectBindingPattern(
+  printer: Printer,
+  node: any,
+  lineMap: number[],
+  parentNode: SyntaxNode,
+): any {
+  return node.flags & NodeFlags.IgnoreNextNode
+    ? printer.source.slice(node.start, node.end)
+    : printBindingPropertyListOrPropertyDefinitionList(printer, node.propertyList, lineMap, parentNode)
 }
 
 function printBindingList(
