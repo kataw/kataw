@@ -135,7 +135,6 @@ export function printWithComments(
   printCallback: (node: any, printer: Printer, parentNode: any) => void
 ) {
   if (node) {
-
     printer.hasWrittenComment = false;
 
     const { start, end } = node;
@@ -172,27 +171,26 @@ export function printWithComments(
   }
 }
 
-
 function printTrailingComments(printer: Printer, pos: number): void {
   if (printer.containerEnd === -1 || (pos !== printer.containerEnd && pos !== printer.declarationListContainerEnd)) {
-  const trailingComments = collectTrailingComments(printer.source, pos);
-  if (trailingComments && trailingComments.length > 0) {
-    write(printer, ' ');
-    let printInterveningSeparator = false;
-    for (const comment of trailingComments) {
-      if (printInterveningSeparator) {
-        write(printer, ' ');
-        printInterveningSeparator = false;
-      }
-      write(printer, printer.source.substring(comment.pos, comment.end));
-      if (comment.hasTrailingNewLine) {
-        writeLine(printer);
-      } else {
-        printInterveningSeparator = true;
+    const trailingComments = collectTrailingComments(printer.source, pos);
+    if (trailingComments && trailingComments.length > 0) {
+      write(printer, ' ');
+      let printInterveningSeparator = false;
+      for (const comment of trailingComments) {
+        if (printInterveningSeparator) {
+          write(printer, ' ');
+          printInterveningSeparator = false;
+        }
+        write(printer, printer.source.substring(comment.pos, comment.end));
+        if (comment.hasTrailingNewLine) {
+          writeLine(printer);
+        } else {
+          printInterveningSeparator = true;
+        }
       }
     }
   }
-}
 }
 
 function getLeadingCommentsWithoutDetachedComments(printer: Printer) {
@@ -608,7 +606,6 @@ export function shouldprintBlockFunctionBodyOnSingleLine(printer: any, node: any
   if (body.flags & NodeFlags.NewLine) return false;
 
   if (body.start !== body.end) {
-
     return false;
   }
 

@@ -4,7 +4,7 @@ export const enum DocumentKind {
   Line,
   Concat,
   Indent,
-  Group,
+  Group
 }
 
 export const enum DocumentFlags {
@@ -12,7 +12,7 @@ export const enum DocumentFlags {
   Normal = 1 << 0,
   Soft = 1 << 1,
   Hard = 1 << 2,
-  Literal = 1 << 3,
+  Literal = 1 << 3
 }
 
 export function concat(parts: any) {
@@ -31,7 +31,7 @@ export function group(contents: any, opts: any): any {
     contents: contents,
     break: !!opts.shouldBreak,
     expandedStates: opts.expandedStates,
-    flags: DocumentFlags.None,
+    flags: DocumentFlags.None
   };
 }
 
@@ -44,7 +44,7 @@ export const softline = { kind: DocumentKind.Line, flags: DocumentFlags.Soft };
 export const hardline = { kind: DocumentKind.Line, flags: DocumentFlags.Hard };
 export const literalline = {
   kind: DocumentKind.Line,
-  flags: DocumentFlags.Literal | DocumentFlags.Hard,
+  flags: DocumentFlags.Literal | DocumentFlags.Hard
 };
 
 export function join(sep: any, arr: any) {
@@ -158,11 +158,7 @@ export function toString(doc: any) {
             // fallthrough
             case MODE_FLAT:
               if (!shouldRemeasure) {
-                cmds.push([
-                  ind,
-                  doc.break ? MODE_BREAK : MODE_FLAT,
-                  doc.contents,
-                ]);
+                cmds.push([ind, doc.break ? MODE_BREAK : MODE_FLAT, doc.contents]);
 
                 break;
               }
@@ -177,8 +173,7 @@ export function toString(doc: any) {
                 cmds.push(next);
               } else {
                 if (doc.expandedStates) {
-                  const mostExpanded =
-                    doc.expandedStates[doc.expandedStates.length - 1];
+                  const mostExpanded = doc.expandedStates[doc.expandedStates.length - 1];
 
                   if (doc.break) {
                     cmds.push([ind, MODE_BREAK, mostExpanded]);
@@ -234,10 +229,7 @@ export function toString(doc: any) {
 
             case MODE_BREAK:
               if (out.length > 0) {
-                out[out.length - 1] = out[out.length - 1].replace(
-                  /[^\S\n]*$/,
-                  ''
-                );
+                out[out.length - 1] = out[out.length - 1].replace(/[^\S\n]*$/, '');
               }
 
               if (doc.flags & DocumentFlags.Literal) {

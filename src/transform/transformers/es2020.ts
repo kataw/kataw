@@ -54,7 +54,14 @@ export function transformES2020(transform: Transform): (node: any) => any {
                 -1
               ),
               createToken(SyntaxKind.LogicalAnd, NodeFlags.NoChildren, -1, -1),
-              createBinaryExpression(right, operatorToken, createIdentifier('undefined', 'undefined', NodeFlags.ExpressionNode | NodeFlags.NoChildren, -1, -1), NodeFlags.ExpressionNode, -1, -1),
+              createBinaryExpression(
+                right,
+                operatorToken,
+                createIdentifier('undefined', 'undefined', NodeFlags.ExpressionNode | NodeFlags.NoChildren, -1, -1),
+                NodeFlags.ExpressionNode,
+                -1,
+                -1
+              ),
               NodeFlags.ExpressionNode,
               -1,
               -1

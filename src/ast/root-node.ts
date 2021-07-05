@@ -30,6 +30,6 @@ export function createRootNode(
     fileName,
     flags: NodeFlags.None,
     start: 0,
-    end: source.length,
+    end: source.length
   };
 }

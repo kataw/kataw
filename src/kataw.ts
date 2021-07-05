@@ -220,13 +220,19 @@ export function print(root: any, options?: PrinterOptions): string {
 }
 
 export function printScript(source: string, options?: PrinterOptions): string {
-  return printSource(parseScript(source, { next: true }, function(_source, _kind, msg, line, column) {
-    throw msg + '(' + line + ', ' + column + ')';
-  }), options)
+  return printSource(
+    parseScript(source, { next: true }, function (_source, _kind, msg, line, column) {
+      throw msg + '(' + line + ', ' + column + ')';
+    }),
+    options
+  );
 }
 
 export function printModule(source: string, options?: PrinterOptions): string {
-  return printSource(parseModule(source, { next: true }, function(_source, _kind, msg, line, column) {
-    throw msg + '(' + line + ', ' + column + ')';
-  }), options)
+  return printSource(
+    parseModule(source, { next: true }, function (_source, _kind, msg, line, column) {
+      throw msg + '(' + line + ', ' + column + ')';
+    }),
+    options
+  );
 }
