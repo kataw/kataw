@@ -2175,6 +2175,16 @@ function parseOptionalChain(parser: ParserState, context: Context): any {
   let chain = null;
   let pos = parser.curPos;
 
+  if (parser.token === SyntaxKind.QuestionMarkPeriod) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error | DiagnosticKind.EarlyError,
+      diagnosticMap[DiagnosticCode.Identifier_expected],
+      parser.curPos,
+      parser.pos
+    );
+  }
+
   if (consumeOpt(parser, context | Context.AllowRegExp, SyntaxKind.LeftBracket)) {
     if (parser.token === SyntaxKind.RightBracket) {
       parser.onError(

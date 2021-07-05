@@ -2023,9 +2023,8 @@ function shouldprintWhitespaceBeforeOperand(node: any): boolean {
   );
 }
 
-
 function printUnaryExpression(node: any, printer: Printer): void {
-  printKeyword(node.operandToken, printer, node, /* addSpace */ false);
+  printKeyword(node.operandToken, printer, node, /* addSpace */ true);
   if (shouldprintWhitespaceBeforeOperand(node)) {
     write(printer, ' ');
   }
