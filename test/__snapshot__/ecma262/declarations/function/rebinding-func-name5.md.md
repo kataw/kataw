@@ -155,7 +155,7 @@ x={f(){ let f }}
 
 ```javascript
 
-x = {f(){
+x = {f() {
     let f;
   }};
 ```

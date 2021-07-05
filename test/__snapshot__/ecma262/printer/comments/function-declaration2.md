@@ -1990,54 +1990,78 @@ function foo4() {
 
 function x() {}
 function x() {}
+
 function x() {}
+
 function a() {}
+
 function b() {}
+
 function c(argA, argB, argC) {}
-call(
-  (row) => {}
-);
+
+call((row) => {});
+
 function f1() {}
+
 function f2() {}
+
 function f3() {}
+
 function f4() {}
+
 function f5(a) {}
+
 function f6(a) {}
+
 function f7(a) {}
+
 const obj = {
-    f1(){},
-    f2(){},
-    f3(){},
-    f4(){}
+    f1() {},
+    f2() {},
+    f3() {},
+    f4() {}
   };
+
 (function f() {})();
+
 (function f() {})();
+
 (function f() {})();
+
 (function f() {})();
+
 class C1 {
-  f(){}
+  f() {}
 }
+
 class C2 {
-  f(){}
+  f() {}
 }
+
 class C3 {
-  f(){}
+  f() {}
 }
+
 class C4 {
-  f(){}
+  f() {}
 }
+
 function foo1() {
   return 42;
 }
+
 function foo2() {
   return 42;
 }
+
 function foo3() {
   return 42;
 }
+
 function foo4() {
   return 42;
 }
+
 ```
 
 ### Diagnostics

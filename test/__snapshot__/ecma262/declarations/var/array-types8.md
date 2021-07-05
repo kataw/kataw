@@ -411,9 +411,13 @@ var a: typeof A[];
 
 var a: number [];
 var a: ? number [];
+
 var a: (? number )[];
+
 var a: () =>  number [];
+
 var a: typeof A[];
+
 ```
 
 ### Diagnostics

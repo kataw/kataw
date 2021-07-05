@@ -121,6 +121,7 @@
 "\"use strict\"";
 try {} finally {}
 a();
+
 ```
 
 ### Diagnostics

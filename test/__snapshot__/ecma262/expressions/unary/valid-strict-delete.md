@@ -580,25 +580,43 @@
 "\"use strict\"";
 delete this ;
 "\"use strict\"";
+
 delete 1;
+
 "\"use strict\"";
+
 delete foo();
+
 "\"use strict\"";
+
 delete 1 +  2;
+
 "\"use strict\"";
+
 delete foo.bar;
+
 "\"use strict\"";
+
 delete foo[bar];
+
 "\"use strict\"";
+
 delete foo-- ;
+
 "\"use strict\"";
+
 delete -- foo;
+
 "\"use strict\"";
+
 delete new foo();
+
 "\"use strict\"";
+
 delete new foo(
   bar
 );
+
 ```
 
 ### Diagnostics

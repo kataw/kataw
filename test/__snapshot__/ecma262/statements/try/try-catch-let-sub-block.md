@@ -264,6 +264,7 @@ try {} catch (x) {
     var x;
   }
 }
+
 ```
 
 ### Diagnostics

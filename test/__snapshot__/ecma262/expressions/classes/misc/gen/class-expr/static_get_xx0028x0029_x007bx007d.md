@@ -140,7 +140,7 @@
 ```javascript
 
 (class  {
-    static get x(){}
+    static get x() {}
   });
 ```
 

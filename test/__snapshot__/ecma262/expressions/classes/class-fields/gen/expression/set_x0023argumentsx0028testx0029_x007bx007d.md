@@ -160,7 +160,7 @@ class C extends Base { set #arguments(test) {} }
 ```javascript
 
 class C  extends Base {
-  set #arguments(test){}
+  set #arguments(test) {}
 }
 ```
 

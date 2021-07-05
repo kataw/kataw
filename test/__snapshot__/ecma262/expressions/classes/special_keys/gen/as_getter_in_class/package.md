@@ -131,7 +131,7 @@ class x {get package(){}}
 ```javascript
 
 class x {
-  get package(){}
+  get package() {}
 }
 ```
 

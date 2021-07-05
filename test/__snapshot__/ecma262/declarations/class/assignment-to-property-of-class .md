@@ -308,10 +308,12 @@ c.m = n => n * 3;
 ```javascript
 
 class C {
-  m = n =>  n *  2;;
+  m = n => n *  2;;
 }
 const c = new C();
-c.m = n =>  n *  3;
+
+c.m = n => n *  3;
+
 ```
 
 ### Diagnostics

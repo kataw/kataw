@@ -131,7 +131,7 @@ class x {get get(){}}
 ```javascript
 
 class x {
-  get get(){}
+  get get() {}
 }
 ```
 

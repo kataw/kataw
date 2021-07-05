@@ -126,7 +126,7 @@ class x {private(){}}
 ```javascript
 
 class x {
-  private(){}
+  private() {}
 }
 ```
 

@@ -154,7 +154,7 @@ class w {  t[x](){}  }
 ```javascript
 
 class w {
-  t;[x](){}
+  t;[x]() {}
 }
 ```
 

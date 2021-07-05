@@ -124,7 +124,7 @@ class x {
 ```javascript
 
 class x {
-  focus(){}
+  focus() {}
 }
 ```
 

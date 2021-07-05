@@ -136,7 +136,7 @@ class x {static get while(){}}
 ```javascript
 
 class x {
-  static get while(){}
+  static get while() {}
 }
 ```
 

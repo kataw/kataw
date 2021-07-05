@@ -104,7 +104,7 @@
 
 ```javascript
 
-(async async =>  ok) *  x;
+(async async => ok) *  x;
 ```
 
 ### Diagnostics

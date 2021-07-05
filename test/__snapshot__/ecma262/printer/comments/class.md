@@ -319,13 +319,14 @@ class D {
 ```javascript
 
 class C {
-  ma(){}
-  mb(){}
+  ma() {}
+  mb() {}
 }
 class D {
-  ma(){}
-  mb(){}
+  ma() {}
+  mb() {}
 }
+
 ```
 
 ### Diagnostics

@@ -402,6 +402,7 @@ var f = (async function () {
         async ([y] = [{m: 5 +  t(await bar)}]) => {}
       }
     });
+
 ```
 
 ### Diagnostics

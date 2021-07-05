@@ -203,6 +203,7 @@ var x, y, z; for (x in {var: x} = {});
 
 var x, y, z;
 for (x in {var: x} = {});
+
 ```
 
 ### Diagnostics

@@ -136,7 +136,7 @@ class x {static async class(){}}
 ```javascript
 
 class x {
-  static async class(){}
+  static async class() {}
 }
 ```
 

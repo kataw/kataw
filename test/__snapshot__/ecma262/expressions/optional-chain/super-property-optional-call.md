@@ -204,7 +204,7 @@ class Foo extends Base {
 ```javascript
 
 class Foo  extends Base {
-  method(){
+  method() {
     super .method?.();
   }
 }

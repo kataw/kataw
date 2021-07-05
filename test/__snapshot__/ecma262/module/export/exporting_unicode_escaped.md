@@ -129,6 +129,7 @@ export { abc }
 
 var \u0061bc = 5;
 export { abc  };
+
 ```
 
 ### Diagnostics

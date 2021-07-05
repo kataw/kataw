@@ -170,7 +170,7 @@ class Foo { bar():this { return this; }}
 ```javascript
 
 class Foo {
-  bar(): this {
+  bar(): this  {
     return this ;
   }
 }

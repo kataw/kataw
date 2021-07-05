@@ -1654,43 +1654,64 @@ class c9 {
 
 class c2 {}
 var i2 = new c2();
+
 var i2_c = c2;
+
 class c3 {
-  constructor(){}
+  constructor() {}
 }
+
 var i3 = new c3();
+
 var i3_c = c3;
+
 class c4 {
-  constructor(){}
+  constructor() {}
 }
+
 var i4 = new c4();
+
 var i4_c = c4;
+
 class c5 {
   static s1: number ;;
 }
+
 var i5 = new c5();
+
 var i5_c = c5;
+
 class c6 {
   static s1: number ;;
-  constructor(){}
+  constructor() {}
 }
+
 var i6 = new c6();
+
 var i6_c = c6;
+
 class c7 {
   static s1: number ;;
-  constructor(){}
+  constructor() {}
 }
+
 var i7 = new c7();
+
 var i7_c = c7;
+
 class c8 {
   static s1: number ;;
-  constructor(){}
+  constructor() {}
 }
+
 var i8 = new c8();
+
 var i8_c = c8;
+
 class c9 {
-  constructor(){}
+  constructor() {}
 }
+
 ```
 
 ### Diagnostics

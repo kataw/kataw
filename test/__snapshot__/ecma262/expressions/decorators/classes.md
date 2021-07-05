@@ -287,7 +287,9 @@ const bar =
 
 @ deco class Foo {}
 const foo = @ deco class  {};
+
 const bar = @ deco class  {};
+
 ```
 
 ### Diagnostics

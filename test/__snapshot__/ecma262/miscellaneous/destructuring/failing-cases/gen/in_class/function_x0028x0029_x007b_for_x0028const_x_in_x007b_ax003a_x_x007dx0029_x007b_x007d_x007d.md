@@ -232,7 +232,7 @@ class x { function () { for (const x in { a: x }) { } } }
 ```javascript
 
 class x {
-  function(){
+  function() {
     for (const x in {a: x})
       {}
   }

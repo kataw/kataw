@@ -131,7 +131,7 @@ class x {async with(){}}
 ```javascript
 
 class x {
-  async with(){}
+  async with() {}
 }
 ```
 

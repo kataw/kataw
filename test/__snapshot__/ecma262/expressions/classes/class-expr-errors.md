@@ -846,29 +846,32 @@
 ```javascript
 
 (class  {
-    set #b(val){}
-    fn(){
+    set #b(val) {}
+    fn() {
       return this .#b;
     }
   });
 (class  {
-    get #b(){}
-    fn(){
+    get #b() {}
+    fn() {
       this .#b++ ;
     }
   });
+
 (class  {
-    get #b(){}
-    fn(obj){
+    get #b() {}
+    fn(obj) {
       ({y: this .#b} = obj);
     }
   });
+
 (class  {
-    #b(){}
-    fn(){
+    #b() {}
+    fn() {
       this .#b++ ;
     }
   });
+
 ```
 
 ### Diagnostics

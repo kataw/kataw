@@ -1245,21 +1245,23 @@ function source() {
     "\"source\""
   );
   return {
-    get p(){
+    get p() {
       log.push("\"get\"");
     }
   };
 }
+
 function target() {
   log.push(
     "\"target\""
   );
   return {
-    set q(v){
+    set q(v) {
       log.push("\"set\"");
     }
   };
 }
+
 function sourceKey() {
   log.push(
     "\"source-key\""
@@ -1271,6 +1273,7 @@ function sourceKey() {
     }
   };
 }
+
 function targetKey() {
   log.push(
     "\"target-key\""
@@ -1282,7 +1285,9 @@ function targetKey() {
     }
   };
 }
+
 ({[sourceKey()]: target()[targetKey()]} = source());
+
 ```
 
 ### Diagnostics

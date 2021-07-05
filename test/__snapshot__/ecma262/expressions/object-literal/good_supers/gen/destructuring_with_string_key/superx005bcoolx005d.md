@@ -233,7 +233,7 @@ class x extends y {
 ```javascript
 
 class x  extends y {
-  constructor(){
+  constructor() {
     ({"\"foo\"": super [cool]} = x);
   }
 }

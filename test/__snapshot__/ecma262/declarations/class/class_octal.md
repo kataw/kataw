@@ -122,6 +122,7 @@ class x extends y{}
 
 class x  extends y {}
 09;
+
 ```
 
 ### Diagnostics

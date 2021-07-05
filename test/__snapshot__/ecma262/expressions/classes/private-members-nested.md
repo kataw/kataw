@@ -943,35 +943,38 @@
 ```javascript
 
 (class  {
-    get #a(){
+    get #a() {
       class C {
-        #a(){}
+        #a() {}
       }
     }
   });
 (class  {
-    get #a(){
+    get #a() {
       class C {
-        get #a(){}
+        get #a() {}
       }
     }
   });
+
 (class  {
-    set #a(val){}
-    get #a(){
+    set #a(val) {}
+    get #a() {
       class C {
-        get #a(){}
-        set #a(val){}
+        get #a() {}
+        set #a(val) {}
       }
     }
   });
+
 (class  {
-    #a(){
+    #a() {
       class C {
-        set #a(val){}
+        set #a(val) {}
       }
     }
   });
+
 ```
 
 ### Diagnostics

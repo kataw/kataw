@@ -145,7 +145,7 @@
 
 ```javascript
 
-({async foo(a){
+({async foo(a) {
       await a;
     }});
 ```

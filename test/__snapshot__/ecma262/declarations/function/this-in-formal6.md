@@ -509,8 +509,11 @@ declare function four<T>(this: T): void;
 
 declare function one(this: number ): void  
 declare function two(this: string , a: number ): void  
+
 declare function three(this: string , ...a: any ): void  
+
 declare function four<T>(this: T): void  
+
 ```
 
 ### Diagnostics

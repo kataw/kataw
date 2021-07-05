@@ -164,7 +164,7 @@
 ```javascript
 
 (class   extends Base {
-    set static(v){}
+    set static(v) {}
   });
 ```
 

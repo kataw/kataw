@@ -171,10 +171,11 @@
 
 ```javascript
 
-({async * x(){}});
+({async * x() {}});
 ({
     x: 0
   });
+
 ```
 
 ### Diagnostics

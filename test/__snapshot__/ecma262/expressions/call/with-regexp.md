@@ -137,6 +137,7 @@ x(
   y,
   /a/
 );
+
 ```
 
 ### Diagnostics

@@ -165,7 +165,7 @@ get
 class C {
   static;
   get;
-  #aaa(){}
+  #aaa() {}
 }
 ```
 

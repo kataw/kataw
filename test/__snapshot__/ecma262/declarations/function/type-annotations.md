@@ -2466,26 +2466,47 @@ function foo28(numVal?: number = 2) {}
 
 function foo1(numVal: any ) {}
 function foo2(numVal: number ) {}
+
 function foo3(numVal: number , strVal: string ) {}
+
 function foo4(numVal: number , untypedVal) {}
+
 function foo5(untypedVal, numVal: number ) {}
+
 function foo6(nullableNum: ? number ) {}
+
 function foo7(callback: () =>  void ) {}
+
 function foo8(callback: () =>  number ) {}
+
 function foo9(callback: (_: bool) =>  number ) {}
+
 function foo10(callback: (_1: bool, _2: string ) =>  number ) {}
+
 function foo11(callback: (_1: bool, ...foo: Array<number >) =>  number ) {}
+
 function foo12(): number  {}
+
 function foo13(): () =>  void  {}
+
 function foo14(): (_: bool) =>  number  {}
+
 function foo15(): (_?: bool) =>  number  {}
+
 function foo16(): {} {}
+
 function foo17<T>() {}
+
 function foo21({x}: { x: string  }) {}
+
 function foo22([x]: Array<string >) {}
+
 function foo23(...rest: Array<number >) {}
+
 function foo27(numVal: number  = 2) {}
+
 function foo28(numVal? : number  = 2) {}
+
 ```
 
 ### Diagnostics

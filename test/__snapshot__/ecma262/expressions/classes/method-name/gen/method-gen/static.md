@@ -133,7 +133,7 @@
 
 ```javascript
 
-({* static(x, y){}});
+({* static(x, y) {}});
 ```
 
 ### Diagnostics

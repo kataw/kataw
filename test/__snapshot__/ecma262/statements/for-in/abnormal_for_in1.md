@@ -738,12 +738,14 @@ function bar(x: boolean ) {
       return;
     }
 }
+
 function baz(x: boolean ) {
   for (var prop in {})
     {
       continue ;
     }
 }
+
 ```
 
 ### Diagnostics

@@ -552,9 +552,13 @@ function five<T>(this: T) {}
 
 function one(this: number ) {}
 function two(this: number , a) {}
+
 function three(this: number , ...a) {}
+
 function four(this: number , a, b, ...c) {}
+
 function five<T>(this: T) {}
+
 ```
 
 ### Diagnostics

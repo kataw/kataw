@@ -257,6 +257,7 @@ var f = (async function () {
         await await foo;
       }
     });
+
 ```
 
 ### Diagnostics

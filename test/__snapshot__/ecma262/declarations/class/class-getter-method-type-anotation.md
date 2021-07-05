@@ -145,7 +145,7 @@ class Foo {get fooProp():number{}}
 ```javascript
 
 class Foo {
-  get fooProp(): number {}
+  get fooProp(): number  {}
 }
 ```
 

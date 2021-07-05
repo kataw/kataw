@@ -94,6 +94,7 @@ a(
 
 a();
 a();
+
 ```
 
 ### Diagnostics

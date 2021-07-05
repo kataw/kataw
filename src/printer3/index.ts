@@ -443,7 +443,7 @@ export function printRootNode(
     if (child.kind !== SyntaxKind.EmptyStatement) {
       tokens.push(
         previousSibling && previousSibling.end !== skipWhitespace(printer.source, child.start)
-          ? concat([hardline, printStatement(printer, child, lineMap, parentNode)])
+          ? concat([hardline, printStatement(printer, child, lineMap, parentNode), hardline])
           : printStatement(printer, child, lineMap, node)
       );
       previousSibling = child;
@@ -1102,6 +1102,20 @@ function printArgumentsList(printer: Printer, node: any, lineMap: number[], pare
   if (node.elements.length === 0) {
     return '()';
   }
+
+  if (node.elements.length === 1) {
+    const argument = node.elements[0];
+		if (
+			argument.kind === SyntaxKind.ObjectLiteral ||
+			argument.kind === SyntaxKind.ArrayLiteral ||
+      argument.kind === SyntaxKind.FunctionExpression ||
+      argument.kind === SyntaxKind.FunctionExpression ||
+      argument.kind === SyntaxKind.ArrowFunction
+		) {
+			return concat(["(", printStatement(printer, argument, lineMap, parentNode), ")"]);
+		}
+  }
+
   const children = node.elements;
 
   const elements: any = [];
@@ -1109,12 +1123,10 @@ function printArgumentsList(printer: Printer, node: any, lineMap: number[], pare
   let previousSibling!: SyntaxNode;
   let child!: SyntaxNode;
 
-  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline;
-
   for (let i = 0; i < children.length; i++) {
     child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', ' ', lineBreak]));
+      elements.push(concat([',', ' ', softline]));
     }
 
     elements.push(printStatement(printer, child, lineMap, parentNode));
@@ -1339,13 +1351,13 @@ function printArrowFunction(printer: Printer, node: any, lineMap: number[], pare
       {}
     ),
     ' ',
-    printKeyword(printer, node.arrowToken, node, /* addSpace */ true)
+    printKeyword(printer, node.arrowToken, node, /* addSpace */ false)
   ];
 
   const { contents } = node;
 
   if (contents.kind === SyntaxKind.FunctionBody) {
-    parts.push(printFunctionBody(printer, contents, lineMap, node));
+    parts.push(' ', printFunctionBody(printer, contents, lineMap, node));
     return concat(parts);
   }
 
@@ -1603,6 +1615,7 @@ function printMethodDefinition(printer: Printer, node: any, lineMap: number[]): 
     node.typeParameters ? printStatement(printer, node.typeParameters, lineMap, node) : '',
     printFormalParameterList(printer, node.formalParameterList, lineMap, node),
     node.returnType ? concat([':', ' ', printStatement(printer, node.returnType, lineMap, node)]) : '',
+    ' ',
     printFunctionBody(printer, node.contents, lineMap, node)
   ]);
 }

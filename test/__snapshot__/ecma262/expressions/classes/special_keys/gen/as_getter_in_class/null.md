@@ -131,7 +131,7 @@ class x {get null(){}}
 ```javascript
 
 class x {
-  get null(){}
+  get null() {}
 }
 ```
 

@@ -242,8 +242,8 @@
 ```javascript
 
 (fail = class A {
-  [await](){};
-  "\"x\""(){}
+  [await]() {};
+  "\"x\""() {}
 }) => {};
 ```
 

@@ -185,7 +185,7 @@
 '\'use strict\'';
 function f() {
   class C {
-    yield(){}
+    yield() {}
   }
 }
 ```

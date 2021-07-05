@@ -128,6 +128,7 @@
 
 (obj.aaa).bbb;
 (obj.aaa)();
+
 ```
 
 ### Diagnostics

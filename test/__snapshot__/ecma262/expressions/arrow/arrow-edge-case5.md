@@ -188,7 +188,7 @@ a ? (b = (c) => d) : e => f : g;
 
 ```javascript
 
-a ? (b = (c) =>  d) =>  f : g;
+a ? (b = (c) => d) => f : g;
 ```
 
 ### Diagnostics

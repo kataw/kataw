@@ -358,7 +358,7 @@ class B<X> {
 
 class B<X> {
   s: X;;
-  f(){
+  f() {
     if (this .s) {
         y = this .s;
       }

@@ -133,7 +133,7 @@ f(((a, b) => a + b));
 ```javascript
 
 f(
-  ((a, b) =>  a +  b)
+  ((a, b) => a +  b)
 );
 ```
 

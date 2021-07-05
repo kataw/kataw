@@ -184,6 +184,7 @@ function get() {}
 function * getData() {
   return yield get();
 }
+
 ```
 
 ### Diagnostics

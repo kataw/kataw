@@ -693,13 +693,16 @@ function * stmt_yield(): Generator<number , void , void > {
 function * stmt_return_ok(): Generator<void , number , void > {
   return 0;
 }
+
 function * stmt_return_err(): Generator<void , number , void > {
   return "\"\"";
 }
+
 function * infer_stmt() {
   var x: boolean  = yield 0;
   return "\"\"";
 }
+
 ```
 
 ### Diagnostics

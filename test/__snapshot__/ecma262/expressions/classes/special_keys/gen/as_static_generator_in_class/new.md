@@ -136,7 +136,7 @@ class x {static * new(){}}
 ```javascript
 
 class x {
-  static * new(){}
+  static * new() {}
 }
 ```
 

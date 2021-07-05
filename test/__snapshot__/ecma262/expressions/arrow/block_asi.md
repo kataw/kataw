@@ -105,6 +105,7 @@
 {
   x;
 }
+
 ```
 
 ### Diagnostics

@@ -175,7 +175,7 @@ function f() { class C { await() { } } }
 
 function f() {
   class C {
-    await(){}
+    await() {}
   }
 }
 ```

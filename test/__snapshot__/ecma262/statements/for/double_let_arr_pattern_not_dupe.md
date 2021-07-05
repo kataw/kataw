@@ -207,6 +207,7 @@ for (let [a]=x;;);
 
 for (let [a] = x; ; );
 for (let [a] = x; ; );
+
 ```
 
 ### Diagnostics

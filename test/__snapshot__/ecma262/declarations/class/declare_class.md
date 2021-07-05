@@ -359,6 +359,7 @@ declare class C {
   constructor(x: string ): void
 }
 declare class D  extends C {}
+
 ```
 
 ### Diagnostics

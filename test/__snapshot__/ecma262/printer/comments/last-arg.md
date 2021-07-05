@@ -623,33 +623,33 @@ class Foo {
 ```javascript
 
 class Foo {
-  a(lol){}
-  b(lol){}
+  a(lol) {}
+  b(lol) {}
   d(
     lol,
     lol2,
     lol3,
     lol4
-  ){}
+  ) {}
   d(
     lol,
     lol2,
     lol3,
     lol4
-  ){}
-  c(lol){}
+  ) {}
+  c(lol) {}
   d(
     lol,
     lol2,
     lol3,
     lol4
-  ){}
+  ) {}
   e(
     lol,
     lol2,
     lol3,
     lol4
-  ){}
+  ) {}
 }
 ```
 

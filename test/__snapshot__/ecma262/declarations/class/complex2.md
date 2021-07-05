@@ -820,7 +820,7 @@ class C2<X, Y> {
 
 class E<X>  extends C<X,
 number > {
-  set(x: X): X{
+  set(x: X): X {
     this .x = x;
     if (x) {
         return this .get_bad();
@@ -832,10 +832,11 @@ class C2<X,
 Y> {
   x: { p: Y };;
   foo(): D2<X,
-  Y>{
+  Y> {
     return this .x;
   }
 }
+
 ```
 
 ### Diagnostics

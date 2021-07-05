@@ -104,7 +104,7 @@ async x => (protected) = 1
 
 ```javascript
 
-async x =>  (protected) = 1;
+async x => (protected) = 1;
 ```
 
 ### Diagnostics

@@ -120,7 +120,7 @@
 ```javascript
 
 '\'use strict\'';
-y = async x =>  await x;
+y = async x => await x;
 ```
 
 ### Diagnostics

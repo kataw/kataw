@@ -1544,33 +1544,39 @@ var stringArr:Array<string> = ['a','b'];
 ```javascript
 
 class Tag {
-  constructor(){
+  constructor() {
     var a1: Array<Tag | string > = [];
     var a2: Array<Tag | string > = a1;
   }
 }
 type Node = Tag_ | string
+
 class Tag_ {
-  constructor(){
+  constructor() {
     var a1: Array<Node> = [new Tag_];
     var a2: Array<Node> = a1;
   }
 }
+
 class C {
   x: ? number  | string ;;
-  constructor(){
+  constructor() {
     this .x = null ;
   }
 }
+
 class D {
   content: string  | C;;
-  copyContent(content: C): string  | C{
+  copyContent(content: C): string  | C {
     this .content = content;
     return this .content;
   }
 }
+
 var numberAndStringArr: Array<number  | string > = [1, 2];
+
 var stringArr: Array<string > = ['\'a\'', '\'b\''];
+
 ```
 
 ### Diagnostics

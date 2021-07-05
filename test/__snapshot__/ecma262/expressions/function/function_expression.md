@@ -713,14 +713,23 @@ new function() {};
 
 (function () {}).length;
 typeof (function () {});
+
 (function () {})()``;
+
 (function () {})``;
+
 new (function () {});
+
 (function () {});
+
 a = function f() {} ||  b;
+
 (function () {} &&  a);
+
 a +  function () {};
+
 new function () {};
+
 ```
 
 ### Diagnostics

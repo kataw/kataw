@@ -145,7 +145,7 @@ class x {static set const(x){}}
 ```javascript
 
 class x {
-  static set const(x){}
+  static set const(x) {}
 }
 ```
 

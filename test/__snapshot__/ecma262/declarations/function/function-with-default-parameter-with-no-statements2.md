@@ -208,6 +208,7 @@ function bar(a = console.log) {
 
 function foo(a = console.log) {}
 function bar(a = console.log) {}
+
 ```
 
 ### Diagnostics

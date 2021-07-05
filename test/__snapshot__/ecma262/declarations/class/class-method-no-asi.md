@@ -157,7 +157,7 @@ class A {
 
 class A {
   async;
-  * a(){}
+  * a() {}
 }
 ```
 

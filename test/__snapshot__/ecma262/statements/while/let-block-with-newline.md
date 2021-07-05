@@ -77,6 +77,7 @@ while (false) let // ASI
 
 while (false ) let;
 {}
+
 ```
 
 ### Diagnostics

@@ -173,7 +173,7 @@ class Foo {
 ```javascript
 
 class Foo {
-  @ bar[bizz] abc(){}
+  @ bar[bizz] abc() {}
 }
 ```
 

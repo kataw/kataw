@@ -185,7 +185,7 @@ class MyComponent {
 ```javascript
 
 @ foo class MyComponent {
-  @ task * foo(){}
+  @ task * foo() {}
 }
 ```
 

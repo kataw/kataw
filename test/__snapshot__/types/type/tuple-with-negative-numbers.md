@@ -237,6 +237,7 @@ type x = [-1n, 0n, 1n];
 
 type x = [-1, 0, 1]
 type x = [-1n, 0n, 1n]
+
 ```
 
 ### Diagnostics

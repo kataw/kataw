@@ -106,6 +106,7 @@ var bar; // another comment
 
 var foo;
 var bar;
+
 ```
 
 ### Diagnostics

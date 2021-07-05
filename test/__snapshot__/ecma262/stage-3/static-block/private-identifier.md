@@ -282,7 +282,7 @@ class C {
 
 class C {
   static #_;;
-  constructor(){
+  constructor() {
     class D {
       
     }

@@ -144,7 +144,7 @@ a={get fooProp():number{}}
 
 ```javascript
 
-a = {get fooProp(): number {}};
+a = {get fooProp(): number  {}};
 ```
 
 ### Diagnostics

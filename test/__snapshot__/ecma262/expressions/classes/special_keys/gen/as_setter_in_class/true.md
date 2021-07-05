@@ -140,7 +140,7 @@ class x {set true(x){}}
 ```javascript
 
 class x {
-  set true(x){}
+  set true(x) {}
 }
 ```
 

@@ -1028,9 +1028,12 @@ type ten = {
 type six = (this: number ) =>  void
 type seven = (this: number ,
 a: number ) =>  void
+
 type eight = (this: number ,
 ...a: any ) =>  void
+
 type nine = <T>(this: T) =>  void
+
 type ten = {
   m1(this: string ): void ,
   m2(this: string ,
@@ -1039,6 +1042,7 @@ type ten = {
   ...a: any ): void ,
   m4 (this: T): void
 }
+
 ```
 
 ### Diagnostics

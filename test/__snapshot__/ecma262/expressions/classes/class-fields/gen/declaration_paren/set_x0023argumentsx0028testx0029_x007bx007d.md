@@ -164,7 +164,7 @@
 ```javascript
 
 (class   extends Base {
-    set #arguments(test){}
+    set #arguments(test) {}
   });
 ```
 

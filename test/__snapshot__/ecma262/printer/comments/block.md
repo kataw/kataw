@@ -285,11 +285,13 @@ function f() {}
 function g(a) {
   return a;
 }
+
 function h() {
   instruction1;
   instruction2;
   instruction3;
 }
+
 ```
 
 ### Diagnostics

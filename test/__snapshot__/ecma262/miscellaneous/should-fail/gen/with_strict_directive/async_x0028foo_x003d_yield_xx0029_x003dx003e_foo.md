@@ -116,7 +116,7 @@
 ```javascript
 
 "\"use strict\"";
-async (foo = yield, x) =>  foo
+async (foo = yield, x) => foo
 ```
 
 ### Diagnostics

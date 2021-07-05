@@ -205,7 +205,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
 
 class Foo {
   #foo;;
-  foo(){
+  foo() {
     delete this ?.#foo;
   }
 }

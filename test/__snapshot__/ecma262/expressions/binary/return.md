@@ -789,11 +789,13 @@ function foo2() {
     ? true
     : false ;
 }
+
 function foo3() {
   return this .calculate().compute().first.numberOfThings >  this .calculate().compute().last.numberOfThings
     ? true
     : false ;
 }
+
 ```
 
 ### Diagnostics

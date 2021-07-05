@@ -273,9 +273,9 @@ class A extends B {
 ```javascript
 
 class A  extends B {
-  x(){
+  x() {
     class C  extends D {
-      [super [foo]](){}
+      [super [foo]]() {}
     }
   }
 }

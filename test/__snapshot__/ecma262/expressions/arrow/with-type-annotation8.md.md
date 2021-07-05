@@ -176,7 +176,7 @@
 
 ```javascript
 
-({}: string , [0]? : number ) =>  0;
+({}: string , [0]? : number ) => 0;
 ```
 
 ### Diagnostics

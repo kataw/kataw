@@ -752,17 +752,27 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
 
 ```javascript
 
-async () =>  x
-async (a) =>  x
-async (a) =>  x
-async (a) =>  x
-async (a) =>  x
-async (a, b) =>  x
-async (a) =>  x
-async (a: string ) =>  x
-async (...a: string ) =>  x
-async (...a: string , []) =>  x
+async () => x
+async (a) => x
+
+async (a) => x
+
+async (a) => x
+
+async (a) => x
+
+async (a, b) => x
+
+async (a) => x
+
+async (a: string ) => x
+
+async (...a: string ) => x
+
+async (...a: string , []) => x
+
 async (x? : string ) => {}
+
 ```
 
 ### Diagnostics

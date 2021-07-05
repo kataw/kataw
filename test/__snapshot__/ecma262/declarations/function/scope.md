@@ -1323,9 +1323,10 @@ function default_param_1() {
     return 0;
   }
 }
+
 function default_param_2() {
   let a = "\"\"";
-  function f0(x = () =>  a): number  {
+  function f0(x = () => a): number  {
     let a = 0;
     return x();
   }
@@ -1334,16 +1335,19 @@ function default_param_2() {
     return x;
   }
 }
+
 function for_scope_let() {
   let a: number  = 0;
   for (let a = "\"\""; ; )
     {}
 }
+
 function for_scope_var() {
   var a: number  = 0;
   for (var a = "\"\""; ; )
     {}
 }
+
 ```
 
 ### Diagnostics

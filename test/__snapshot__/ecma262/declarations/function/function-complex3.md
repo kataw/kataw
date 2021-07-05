@@ -848,6 +848,7 @@ function b1<A: '\'a\'',
 B: A>(b: B): void  {
   if (b ===  '\'b\'') {}
 }
+
 ```
 
 ### Diagnostics

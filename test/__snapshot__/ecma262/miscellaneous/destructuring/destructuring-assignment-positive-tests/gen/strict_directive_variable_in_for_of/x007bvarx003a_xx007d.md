@@ -194,6 +194,7 @@
 '\'use strict\'';
 var x, y, z;
 for ({var: x} of {});
+
 ```
 
 ### Diagnostics

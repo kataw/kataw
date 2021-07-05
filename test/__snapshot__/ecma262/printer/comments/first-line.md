@@ -60,6 +60,7 @@ b
 
 a;
 b;
+
 ```
 
 ### Diagnostics

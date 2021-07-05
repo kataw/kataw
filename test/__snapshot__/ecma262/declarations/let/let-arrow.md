@@ -269,6 +269,7 @@ let hello = (greeting: string  = '\' world\'') => {
     console.log('\'hello\'' +  greeting);
   };
 hello();
+
 ```
 
 ### Diagnostics

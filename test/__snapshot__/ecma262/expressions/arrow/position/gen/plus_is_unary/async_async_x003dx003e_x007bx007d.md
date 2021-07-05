@@ -113,6 +113,7 @@ async async => {}
 
 async async => {};
 +x;
+
 ```
 
 ### Diagnostics

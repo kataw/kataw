@@ -145,7 +145,7 @@ class x {static set switch(x){}}
 ```javascript
 
 class x {
-  static set switch(x){}
+  static set switch(x) {}
 }
 ```
 

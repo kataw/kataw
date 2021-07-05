@@ -251,6 +251,7 @@ var f = (async function () {
         var await;
       }
     });
+
 ```
 
 ### Diagnostics

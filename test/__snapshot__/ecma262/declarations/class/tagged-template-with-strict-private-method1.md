@@ -380,10 +380,10 @@ new Foo();
 ```javascript
 
 class Foo {
-  #tag(){
+  #tag() {
     return this ;
   }
-  constructor(){
+  constructor() {
     const receiver = this .#tag`tagged template`;
     console.assert(
       receiver ===  this 
@@ -391,6 +391,7 @@ class Foo {
   }
 }
 new Foo();
+
 ```
 
 ### Diagnostics

@@ -111,7 +111,9 @@ type = x;
 
 type;
 type = x;
+
 (type);
+
 ```
 
 ### Diagnostics

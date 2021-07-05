@@ -131,7 +131,7 @@ class x {async void(){}}
 ```javascript
 
 class x {
-  async void(){}
+  async void() {}
 }
 ```
 

@@ -706,17 +706,29 @@ let nx: mixed;
 
 let a: any ;
 let un: unknown ;
+
 let b: boolean ;
+
 let ne: never ;
+
 let nul: null ;
+
 let num: number ;
+
 let o: object ;
+
 let st: string ;
+
 let sy: symbol ;
+
 let u: undefined ;
+
 let v: void ;
+
 let n: bigint;
+
 let nx: mixed;
+
 ```
 
 ### Diagnostics

@@ -351,8 +351,9 @@ async <A = B, C = D>(x) => y;
 
 ```javascript
 
-async <A= B, C= D>(x) =>  y;
-(async <A= B, C= D>(x) =>  y);
+async <A= B, C= D>(x) => y;
+(async <A= B, C= D>(x) => y);
+
 ```
 
 ### Diagnostics

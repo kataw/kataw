@@ -454,14 +454,23 @@ var fnNumber = /* comments0 */
 
 fnNumber = 3;
 fnNumber = 3;
+
 fnNumber = 3;
+
 fnNumber = 3;
+
 fnNumber = 3;
+
 fnNumber = 3;
+
 var fnNumber = 3;
+
 var fnNumber = 3;
+
 var fnNumber = 3;
+
 var fnNumber = 3;
+
 ```
 
 ### Diagnostics

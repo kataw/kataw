@@ -187,10 +187,9 @@ expect(() => {}).toTriggerReadyStateChanges([
 
 ```javascript
 
-expect(() => {}).toTriggerReadyStateChanges(
-  []
-);
+expect(() => {}).toTriggerReadyStateChanges([]);
 [1, 2, 3];
+
 ```
 
 ### Diagnostics

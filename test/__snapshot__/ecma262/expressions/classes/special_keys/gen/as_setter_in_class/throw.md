@@ -140,7 +140,7 @@ class x {set throw(x){}}
 ```javascript
 
 class x {
-  set throw(x){}
+  set throw(x) {}
 }
 ```
 

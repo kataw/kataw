@@ -349,12 +349,19 @@ while(1) // Comment
 
 while (true ) {}
 while (true ) {}
+
 while (true ) {}
+
 while (true ) {}
+
 while (true  &&  true ) {}
+
 while (true ) {}
+
 while (true ) ++ x;
+
 while (1) foo();
+
 ```
 
 ### Diagnostics

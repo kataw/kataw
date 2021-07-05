@@ -104,7 +104,7 @@ async x => (private) = 1
 
 ```javascript
 
-async x =>  (private) = 1;
+async x => (private) = 1;
 ```
 
 ### Diagnostics

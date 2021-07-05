@@ -104,7 +104,7 @@ async x => (let) = 1
 
 ```javascript
 
-async x =>  (let) = 1;
+async x => (let) = 1;
 ```
 
 ### Diagnostics

@@ -1108,13 +1108,13 @@ class Foo {
 
 class Foo {
   #x;
-  unary(){
+  unary() {
     this .#x++ ;
     this .#x-- ;
     ++ this .#x;
     -- this .#x;
   }
-  binary(){
+  binary() {
     this .#x = 1;
     this .#x += 1;
     this .#x -= 1;

@@ -110,8 +110,9 @@ async l\u0065t => 42;
 
 ```javascript
 
-let =>  42;
-async l\u0065t =>  42;
+let => 42;
+async l\u0065t => 42;
+
 ```
 
 ### Diagnostics

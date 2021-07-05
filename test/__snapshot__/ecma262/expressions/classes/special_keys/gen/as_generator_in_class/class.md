@@ -131,7 +131,7 @@ class x {* class(){}}
 ```javascript
 
 class x {
-  * class(){}
+  * class() {}
 }
 ```
 

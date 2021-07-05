@@ -140,7 +140,7 @@ class x {set in(x){}}
 ```javascript
 
 class x {
-  set in(x){}
+  set in(x) {}
 }
 ```
 

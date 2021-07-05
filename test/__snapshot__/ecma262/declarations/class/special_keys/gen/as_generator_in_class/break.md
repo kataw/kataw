@@ -131,7 +131,7 @@ class x {* break(){}}
 ```javascript
 
 class x {
-  * break(){}
+  * break() {}
 }
 ```
 

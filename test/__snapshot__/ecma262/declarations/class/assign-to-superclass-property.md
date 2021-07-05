@@ -249,7 +249,7 @@ class B extends A {
 ```javascript
 
 class B  extends A {
-  constructor(){
+  constructor() {
     super ();
     this .initializer = this .initializer +  1;
   }

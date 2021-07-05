@@ -250,6 +250,7 @@ var x, y, z; m(['b']) ? lhs : [x,y,z] = {}
 
 var x, y, z;
 m(['\'b\'']) ? lhs : [x, y, z] = {};
+
 ```
 
 ### Diagnostics

@@ -319,6 +319,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
 
 type O1 = { ...{ p: T } | { q: U } }
 type UnsealedInUnion = Union1 | Union2 | typeof y
+
 ```
 
 ### Diagnostics

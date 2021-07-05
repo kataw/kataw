@@ -161,7 +161,7 @@ class A {
 ```javascript
 
 class A {
-  @ dec * m(){}
+  @ dec * m() {}
 }
 ```
 

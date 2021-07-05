@@ -437,23 +437,31 @@ let();
 x(
   a,
 );
+
 x(
   a,
 );
+
 x(
   a,
 );
+
 x(
   a,
 );
+
 (x(a));
+
 (x(a));
+
 x(
   a,
 );
+
 let(
   {} = c
 );
+
 ```
 
 ### Diagnostics

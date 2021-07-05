@@ -172,7 +172,7 @@ class Foo {
 ```javascript
 
 @ decorator class Foo {
-  method(){
+  method() {
     return method;
   }
 }

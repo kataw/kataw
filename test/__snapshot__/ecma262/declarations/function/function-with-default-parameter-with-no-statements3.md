@@ -176,6 +176,7 @@ function bar(a = false) {
 
 function foo(a = false ) {}
 function bar(a = false ) {}
+
 ```
 
 ### Diagnostics

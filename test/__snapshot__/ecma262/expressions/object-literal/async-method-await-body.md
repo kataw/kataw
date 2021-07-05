@@ -136,7 +136,7 @@
 
 ```javascript
 
-({async a(){
+({async a() {
       await 0;
     }});
 ```

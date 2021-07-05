@@ -815,21 +815,25 @@ x = class  {
   '\'z\'' = 2;
 };
 x = class  {
-  y(){};
-  '\'z\''(){}
+  y() {};
+  '\'z\''() {}
 };
+
 x = class  {
-  get y(){};
-  set '\'z\''(z){}
+  get y() {};
+  set '\'z\''(z) {}
 };
+
 x = class  {
-  get y(){};
-  set '\'z\''(z){}
+  get y() {};
+  set '\'z\''(z) {}
 };
+
 x = class  {
   y = 1;;
   '\'z\'' = 2;
 };
+
 ```
 
 ### Diagnostics

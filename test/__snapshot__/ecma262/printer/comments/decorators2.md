@@ -154,7 +154,7 @@ foo /* 2*/ bar() {}
 ```javascript
 
 class x {
-  @ foo bar(){}
+  @ foo bar() {}
 }
 ```
 

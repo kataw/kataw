@@ -145,7 +145,7 @@ class x {static set do(x){}}
 ```javascript
 
 class x {
-  static set do(x){}
+  static set do(x) {}
 }
 ```
 

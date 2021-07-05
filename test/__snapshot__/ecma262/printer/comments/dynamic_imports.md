@@ -248,12 +248,17 @@ wrap(
 
 import('\'something\'');
 import('\'something\'');
+
 import('\'something\'');
+
 import('\'something\'' +  '\'else\'');
+
 import('\'something\'');
+
 wrap(
   import('\'something\'')
 );
+
 ```
 
 ### Diagnostics

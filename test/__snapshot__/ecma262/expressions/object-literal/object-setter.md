@@ -528,14 +528,17 @@
 
 ```javascript
 
-({set ["\"a\""](x){}});
-({set [0](x){}});
-({set [0](x){
+({set ["\"a\""](x) {}});
+({set [0](x) {}});
+
+({set [0](x) {
       super .m("\"b\"", v);
     }});
-({set [0](x){
+
+({set [0](x) {
       super .m("\"1\"", v);
     }});
+
 ```
 
 ### Diagnostics

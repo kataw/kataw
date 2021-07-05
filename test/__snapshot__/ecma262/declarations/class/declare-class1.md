@@ -175,7 +175,9 @@ type T2 = number;
 
 declare class C1 {}
 declare type T1 = number
-type T2 = number 
+
+type T2 = number
+
 ```
 
 ### Diagnostics

@@ -134,7 +134,7 @@
 ```javascript
 
 (class  {
-    * yield(){}
+    * yield() {}
   });
 ```
 

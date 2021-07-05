@@ -594,11 +594,17 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
 async () => {
   (await foo)?.();
 }
+
 (+foo)?.();
+
 +(+foo);
+
 class x  extends (+Bar) {}
+
 class y  extends (Bar ??  Baz) {}
+
 const foo = class   extends (Bar ??  Baz) {};
+
 ```
 
 ### Diagnostics

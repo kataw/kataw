@@ -412,6 +412,7 @@ function g(x: () =>  any ) {
   x();
   const y = x();
 }
+
 ```
 
 ### Diagnostics

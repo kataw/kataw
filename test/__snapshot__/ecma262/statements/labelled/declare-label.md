@@ -211,9 +211,13 @@ yield: label;
 
 opaque:  label;
 declare:  label;
+
 type:  label;
+
 async:  label;
+
 yield:  label;
+
 ```
 
 ### Diagnostics

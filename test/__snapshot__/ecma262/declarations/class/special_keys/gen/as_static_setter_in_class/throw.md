@@ -145,7 +145,7 @@ class x {static set throw(x){}}
 ```javascript
 
 class x {
-  static set throw(x){}
+  static set throw(x) {}
 }
 ```
 

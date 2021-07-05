@@ -81,6 +81,7 @@ x;
 
 new await;
 x;
+
 ```
 
 ### Diagnostics

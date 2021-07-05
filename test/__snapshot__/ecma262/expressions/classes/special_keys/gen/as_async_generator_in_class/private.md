@@ -136,7 +136,7 @@ class x {async * private(){}}
 ```javascript
 
 class x {
-  async * private(){}
+  async * private() {}
 }
 ```
 

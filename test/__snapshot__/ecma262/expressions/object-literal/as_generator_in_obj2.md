@@ -356,10 +356,13 @@
 
 ```javascript
 
-({* type(){}});
-({* interface(){}});
-({* in(){}});
-({* of(){}});
+({* type() {}});
+({* interface() {}});
+
+({* in() {}});
+
+({* of() {}});
+
 ```
 
 ### Diagnostics

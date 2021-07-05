@@ -140,7 +140,7 @@
 ```javascript
 
 (class  {
-    async * #arguments(){}
+    async * #arguments() {}
   });
 ```
 

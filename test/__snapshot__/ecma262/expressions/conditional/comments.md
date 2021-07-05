@@ -2366,15 +2366,19 @@ var inspect = 4 ===  util.inspect.length ? (function (v, colors) {
           }) : (function (v, colors) {
             return util.inspect(v, {colors: colors});
           });
+
 const extractTextPluginOptions = shouldUseRelativeAssetPaths
     ? {publicPath: Array(cssFilename.split('\'/\'').length).join('\'../\'')}
     : {};
+
 const extractTextPluginOptions2 = shouldUseRelativeAssetPaths
     ? {publicPath: Array(cssFilename.split("\"/\"").length).join("\"../\"")}
     : {};
+
 const extractTextPluginOptions3 = shouldUseRelativeAssetPaths
     ? {publicPath: Array(cssFilename.split("\"/\"").length).join("\"../\"")}
     : {};
+
 const {configureStore} =
     process.env.NODE_ENV ===  "\"production\""
       ? require(
@@ -2383,14 +2387,23 @@ const {configureStore} =
       : require(
           "\"./configureDevStore\""
         );
+
 test ? foo : bar;
+
 test ? foo : bar;
+
 test ? foo : test ? foo : bar;
+
 test ? foo : bar;
+
 test ? foo : bar;
+
 test ? foo : test ? foo : bar;
+
 test ? foo : bar;
+
 test ? test ? foo : bar : bar;
+
 ```
 
 ### Diagnostics

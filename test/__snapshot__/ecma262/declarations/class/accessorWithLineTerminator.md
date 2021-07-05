@@ -257,11 +257,11 @@ class C {
 
 class C {
   get;
-  x(){
+  x() {
     return 1;
   }
   set;
-  x(v){}
+  x(v) {}
 }
 ```
 

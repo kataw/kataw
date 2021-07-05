@@ -131,7 +131,7 @@ class x {get switch(){}}
 ```javascript
 
 class x {
-  get switch(){}
+  get switch() {}
 }
 ```
 

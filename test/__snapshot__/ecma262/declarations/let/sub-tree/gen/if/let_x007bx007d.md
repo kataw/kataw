@@ -89,6 +89,7 @@ if (a) let
 
 if (a) let;
 {}
+
 ```
 
 ### Diagnostics

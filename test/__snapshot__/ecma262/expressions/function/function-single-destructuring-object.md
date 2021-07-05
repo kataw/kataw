@@ -1021,22 +1021,23 @@ function StatelessFunctionalComponent({
 }
 function StatelessFunctionalComponent2({
   isActive = true ,
-  onFiltersUpdated = () =>  null ,
-  onSelect = () =>  null ,
-  onSubmitAndDeselect = () =>  null ,
-  onCancel = () =>  null ,
+  onFiltersUpdated = () => null ,
+  onSelect = () => null ,
+  onSubmitAndDeselect = () => null ,
+  onCancel = () => null ,
   searchFilters = null ,
   title = '\'\'',
   items = []
 } = {}) {
   return x;
 }
+
 function StatelessFunctionalComponent3({
   isActive,
-  onFiltersUpdated = () =>  null ,
-  onSelect = () =>  null ,
-  onSubmitAndDeselect = () =>  null ,
-  onCancel = () =>  null ,
+  onFiltersUpdated = () => null ,
+  onSelect = () => null ,
+  onSubmitAndDeselect = () => null ,
+  onCancel = () => null ,
   searchFilters = null ,
   title = '\'\'',
   items = []
@@ -1045,6 +1046,7 @@ function StatelessFunctionalComponent3({
 }) {
   return x;
 }
+
 ```
 
 ### Diagnostics

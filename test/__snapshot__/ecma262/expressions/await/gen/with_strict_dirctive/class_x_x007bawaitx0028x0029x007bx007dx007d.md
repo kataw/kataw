@@ -136,7 +136,7 @@
 
 '\'use strict\'';
 class x {
-  await(){}
+  await() {}
 }
 ```
 

@@ -131,7 +131,7 @@ class x {* case(){}}
 ```javascript
 
 class x {
-  * case(){}
+  * case() {}
 }
 ```
 

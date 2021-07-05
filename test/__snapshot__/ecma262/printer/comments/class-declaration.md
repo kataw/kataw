@@ -317,6 +317,7 @@ class y {
   a = b;
   x: string ;
 }
+
 ```
 
 ### Diagnostics

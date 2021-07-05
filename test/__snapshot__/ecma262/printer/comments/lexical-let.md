@@ -530,18 +530,23 @@ let {
 let {
     a = addd
   } = y1;
+
 let {
     ...h1
   } = y;
+
 let {
     ...ja
   } = y2;
+
 let {
     ...aaa
   } = yd;
+
 let {
     ...a3
   } = ady;
+
 ```
 
 ### Diagnostics

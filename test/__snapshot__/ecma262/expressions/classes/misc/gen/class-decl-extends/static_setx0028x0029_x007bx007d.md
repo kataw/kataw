@@ -151,7 +151,7 @@ class C extends Base { static set() {} }
 ```javascript
 
 class C  extends Base {
-  static set(){}
+  static set() {}
 }
 ```
 

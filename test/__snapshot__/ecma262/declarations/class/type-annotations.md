@@ -1240,32 +1240,41 @@ class Array { concat(items:number | string) {}; }
 
 class Foo4<T> {}
 class Foo5<T>  extends Bar<T> {}
+
 class Foo6<T>  extends mixin(
   Bar
 ) {}
+
 class Foo1 {
-  set fooProp(value: number ){}
+  set fooProp(value: number ) {}
 }
+
 class Foo2 {
-  set fooProp(value: number ): void {}
+  set fooProp(value: number ): void  {}
 }
+
 class Foo3 {
-  get fooProp(): number {}
+  get fooProp(): number  {}
 }
+
 class Foo8 {
-  "\"bar\""<T>(){}
+  "\"bar\""<T>() {}
 }
+
 class Foo10 {
   static prop1: string ;;
   prop2: number ;;
 }
+
 class Foo11 {
   #prop1: string ;;
   prop2: number ;;
 }
+
 class Array {
-  concat(items: number  | string ){};
+  concat(items: number  | string ) {};
 }
+
 ```
 
 ### Diagnostics

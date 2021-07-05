@@ -136,7 +136,7 @@ class x {async * await(){}}
 ```javascript
 
 class x {
-  async * await(){}
+  async * await() {}
 }
 ```
 

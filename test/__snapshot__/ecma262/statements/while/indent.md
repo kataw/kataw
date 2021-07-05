@@ -659,10 +659,12 @@ while (
   someVeryLongStringA &&  someVeryLongStringB &&  someVeryLongStringC &&  someVeryLongStringD
 )
   {}
+
 do  {}
 while (
   someVeryLongStringA &&  someVeryLongStringB &&  someVeryLongStringC &&  someVeryLongStringD
 );
+
 if (
   someVeryLongFunc(
     someVeryLongArgA,
@@ -672,6 +674,7 @@ if (
   )
 )
   {}
+
 while (
   someVeryLongFunc(
     someVeryLongArgA,
@@ -681,6 +684,7 @@ while (
   )
 )
   {}
+
 do  {}
 while (
   someVeryLongFunc(
@@ -690,9 +694,12 @@ while (
     someVeryLongArgD
   )
 );
+
 while (0) 1;
+
 do  1;
 while (0);
+
 ```
 
 ### Diagnostics

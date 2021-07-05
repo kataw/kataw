@@ -1184,24 +1184,31 @@ function x0(y: string ): number  {
 function x1(y: string ): number  {
   return -y;
 }
+
 function x3(y: string ) {
   return ~y;
 }
+
 function x4(y: string ): boolean  {
   return !y;
 }
+
 function x5(a: A<false >): true  {
   return !a;
 }
+
 function x6(a: A<false >): false  {
   return !a;
 }
+
 function x7(a: false  & false ): true  {
   return !a;
 }
+
 function x8(a: false  & false ): false  {
   return !a;
 }
+
 ```
 
 ### Diagnostics

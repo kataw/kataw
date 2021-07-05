@@ -136,7 +136,9 @@ fro\u006D
 
 let x;
 export { x  };
+
 fro\u006D;
+
 ```
 
 ### Diagnostics

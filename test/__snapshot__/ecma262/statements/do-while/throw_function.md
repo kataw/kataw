@@ -141,6 +141,7 @@ do  throw function () {};
 while (y);
 for (;;)
   x;
+
 ```
 
 ### Diagnostics

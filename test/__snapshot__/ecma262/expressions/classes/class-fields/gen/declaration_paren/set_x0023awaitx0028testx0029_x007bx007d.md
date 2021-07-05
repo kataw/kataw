@@ -164,7 +164,7 @@
 ```javascript
 
 (class   extends Base {
-    set #await(test){}
+    set #await(test) {}
   });
 ```
 

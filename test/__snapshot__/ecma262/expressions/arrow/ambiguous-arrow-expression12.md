@@ -144,7 +144,7 @@ var a = b ? (c) : d => e;
 
 ```javascript
 
-var a = b ? (c) : d =>  e;
+var a = b ? (c) : d => e;
 ```
 
 ### Diagnostics

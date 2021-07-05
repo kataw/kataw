@@ -187,7 +187,7 @@ x = { foo(){ return {[super[foo]]: x}; }}
 
 ```javascript
 
-x = {foo(){
+x = {foo() {
     return {[super [foo]]: x};
   }};
 ```

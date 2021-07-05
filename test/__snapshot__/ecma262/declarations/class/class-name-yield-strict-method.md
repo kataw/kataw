@@ -346,15 +346,17 @@ function *f() {
 "\"use strict\"";
 function f() {
   class C {
-    yield(){}
+    yield() {}
   }
 }
 "\"use strict\"";
+
 function * f() {
   class C {
-    yield(){}
+    yield() {}
   }
 }
+
 ```
 
 ### Diagnostics

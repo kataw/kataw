@@ -135,7 +135,7 @@ class x {
 ```javascript
 
 class x {
-  static get defaultSettings(){}
+  static get defaultSettings() {}
 }
 ```
 

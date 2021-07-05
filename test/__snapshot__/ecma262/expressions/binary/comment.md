@@ -1081,13 +1081,19 @@ a =
     )
   ) -  offset;
 a +  a +  a +  a +  a;
+
 a &&  longLongLongLongLongLongLongLongLong &&  longLongLongLongLongLongLongLongLong &&  longLongLongLongLongLongLongLongLong &&  longLongLongLongLongLongLongLongLong;
+
 a ||  longLongLongLongLongLongLongLongLong ||  longLongLongLongLongLongLongLongLong ||  longLongLongLongLongLongLongLongLong ||  longLongLongLongLongLongLongLongLong;
+
 var a = x(
     abifornCringerMoshedPerplexSawder +  kochabCooieGameOnOboleUnweave +  glimseGlyphsHazardNoopsTieTie +  bifornCringerMoshedPerplexSawder
   );
+
 foo[a +  a +  a +  bar[b +  b +  b +  b +  b]];
+
 !(a +  a +  a +  !(b +  b +  b +  b +  b));
+
 ```
 
 ### Diagnostics

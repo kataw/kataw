@@ -557,6 +557,7 @@ var b: {
 var c: { (): string , (x: number ): string  } = function (x: number ): string  {
     return "\"hi\"";
   };
+
 ```
 
 ### Diagnostics

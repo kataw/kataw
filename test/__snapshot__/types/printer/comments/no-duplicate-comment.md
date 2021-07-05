@@ -305,7 +305,9 @@ type c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/
 
 type a = { x: string  } | string
 type b = { x: string  }
-type c = { x: string  } | string 
+
+type c = { x: string  } | string
+
 ```
 
 ### Diagnostics

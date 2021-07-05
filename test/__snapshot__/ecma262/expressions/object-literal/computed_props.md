@@ -652,16 +652,19 @@ const ColorNumber = {
     GREEN: '\'00ff00\'',
     BLUE: '\'0000ff\''
   };
+
 const ColorIdToNumber = {
     [ColorId.RED]: ColorNumber.RED,
     [ColorId.GREEN]: ColorNumber.GREEN,
     [ColorId.BLUE]: ColorNumber.BLUE
   };
+
 module.exports = {
   ...dummy,
   [hello]: '\'world\'',
   ...dummy
 };
+
 ```
 
 ### Diagnostics

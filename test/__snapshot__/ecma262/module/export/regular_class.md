@@ -104,6 +104,7 @@ export class x {} foo
 
 export class x {}
 foo;
+
 ```
 
 ### Diagnostics

@@ -204,7 +204,7 @@ let x = (): Array<(string) => number> => []
 
 ```javascript
 
-let x = () =>  [];
+let x = () => [];
 ```
 
 ### Diagnostics

@@ -126,7 +126,7 @@ class x { \u0063onstructor(){} }
 ```javascript
 
 class x {
-  \u0063onstructor(){}
+  \u0063onstructor() {}
 }
 ```
 

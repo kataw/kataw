@@ -183,6 +183,7 @@ var x, y, z; ({var: x} = {});
 
 var x, y, z;
 ({var: x} = {});
+
 ```
 
 ### Diagnostics

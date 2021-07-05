@@ -179,9 +179,8 @@ s.map(// do something
 ```javascript
 
 var s: string [];
-s.map(
-  function () {}
-);
+s.map(function () {});
+
 ```
 
 ### Diagnostics

@@ -449,13 +449,21 @@ new foo().bar++;
 
 foo++ ;
 foo.bar++ ;
+
 foo[bar]++ ;
+
 foo()[bar]++ ;
+
 foo().bar++ ;
+
 this .foo++ ;
+
 this [foo]++ ;
+
 new foo()[bar]++ ;
+
 new foo().bar++ ;
+
 ```
 
 ### Diagnostics

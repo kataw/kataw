@@ -131,7 +131,7 @@ class x {* finally(){}}
 ```javascript
 
 class x {
-  * finally(){}
+  * finally() {}
 }
 ```
 

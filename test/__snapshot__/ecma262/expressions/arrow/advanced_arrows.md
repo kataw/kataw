@@ -478,9 +478,11 @@ var ident = <T>(x: T): T => x;
 
 ```javascript
 
-var add = (x: number , y: number ) =>  x +  y;
-var bad = (x: number ) =>  x;
-var ident = <T>(x: T) =>  x;
+var add = (x: number , y: number ) => x +  y;
+var bad = (x: number ) => x;
+
+var ident = <T>(x: T) => x;
+
 ```
 
 ### Diagnostics

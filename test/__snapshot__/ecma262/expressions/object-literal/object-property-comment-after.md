@@ -228,11 +228,12 @@ let b = {
 ```javascript
 
 let a = {
-    a: () =>  1
+    a: () => 1
   };
 let b = {
-    "\"a\"": () =>  1
+    "\"a\"": () => 1
   };
+
 ```
 
 ### Diagnostics

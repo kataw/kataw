@@ -283,10 +283,12 @@ function f() {
 function f() {
   a;
 }
+
 function name() {
   func1();
   func2();
 }
+
 ```
 
 ### Diagnostics

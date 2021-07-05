@@ -135,7 +135,7 @@
 ```javascript
 
 (class  {
-    static set(){}
+    static set() {}
   });
 ```
 

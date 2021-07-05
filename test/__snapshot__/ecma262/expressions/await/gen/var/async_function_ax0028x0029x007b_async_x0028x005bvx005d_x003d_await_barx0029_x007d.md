@@ -303,6 +303,7 @@ var f = (async function () {
         async([v] = await bar)
       }
     });
+
 ```
 
 ### Diagnostics

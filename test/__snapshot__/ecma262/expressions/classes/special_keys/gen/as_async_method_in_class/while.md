@@ -131,7 +131,7 @@ class x {async while(){}}
 ```javascript
 
 class x {
-  async while(){}
+  async while() {}
 }
 ```
 

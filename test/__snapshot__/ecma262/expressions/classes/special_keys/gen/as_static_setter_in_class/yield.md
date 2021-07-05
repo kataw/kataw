@@ -145,7 +145,7 @@ class x {static set yield(x){}}
 ```javascript
 
 class x {
-  static set yield(x){}
+  static set yield(x) {}
 }
 ```
 

@@ -101,6 +101,7 @@ class x{}
 
 class x {}
 /foo/g;
+
 ```
 
 ### Diagnostics

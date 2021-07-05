@@ -117,7 +117,7 @@ var asyncFn = async (await) => 'test';
 
 ```javascript
 
-var asyncFn = async (await) =>  '\'test\'';
+var asyncFn = async (await) => '\'test\'';
 ```
 
 ### Diagnostics

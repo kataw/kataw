@@ -243,9 +243,7 @@ request
 request.post('\'/version\'').set(
   '\'Prefer\'',
   '\'plurality=singular\''
-).send().end(
-  (error, response) => {}
-);
+).send().end((error, response) => {});
 ```
 
 ### Diagnostics

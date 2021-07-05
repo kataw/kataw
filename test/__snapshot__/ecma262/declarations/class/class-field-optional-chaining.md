@@ -237,7 +237,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
 
 class C {
   #aaa;;
-  f(f){
+  f(f) {
     f()?.#aaa;
   }
 }

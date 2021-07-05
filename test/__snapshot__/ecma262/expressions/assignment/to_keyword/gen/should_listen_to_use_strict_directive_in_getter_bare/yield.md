@@ -180,7 +180,7 @@ foo = {
 ```javascript
 
 foo = {
-  get x(){
+  get x() {
     yield = x;
   }
 };

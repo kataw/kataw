@@ -1110,39 +1110,51 @@ let obj1 = {
 let obj2 = {
     key: '\'val\''
   };
+
 let obj3 = {
     key: '\'val\''
   };
+
 let obj4 = {
     key: '\'val\''
   };
+
 let obj5 = [
     '\'val\''
   ];
+
 let obj6 = [
     '\'val\''
   ];
+
 let obj7 = [
     '\'val\''
   ];
+
 let obj8 = [
     '\'val\''
   ];
+
 let obj9 = `val`;
+
 let obj10 = `
 val
 val
 `;
+
 let obj11 = tag`val`;
+
 let obj12 = tag`
 val
 val
 `;
+
 let foo1 = '\'val\'';
+
 let foo2 = '\'val\'', bar = '\'val\'';
-const foo3 = 123;["\"2\"", "\"3\""].forEach(
-  x =>  console.log(x)
-);
+
+const foo3 = 123;
+["\"2\"", "\"3\""].forEach(x => console.log(x));
 ```
 
 ### Diagnostics

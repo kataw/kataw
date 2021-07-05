@@ -437,15 +437,16 @@ function* g() {
 var yieldSet, C, iter;
 function * g() {
   class C_ {
-    get [yield ](){
+    get [yield ]() {
       return '\'get yield\'';
     }
-    set [yield ](param){
+    set [yield ](param) {
       yieldSet = param;
     }
   }
   C = C_;
 }
+
 ```
 
 ### Diagnostics

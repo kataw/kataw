@@ -136,7 +136,7 @@ class x {static * extends(){}}
 ```javascript
 
 class x {
-  static * extends(){}
+  static * extends() {}
 }
 ```
 

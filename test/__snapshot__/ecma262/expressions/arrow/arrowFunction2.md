@@ -126,7 +126,7 @@
 
 ```javascript
 
-(...{a}: symbol ) =>  x;
+(...{a}: symbol ) => x;
 ```
 
 ### Diagnostics

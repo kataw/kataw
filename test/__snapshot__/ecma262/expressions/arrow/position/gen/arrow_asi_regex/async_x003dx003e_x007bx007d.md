@@ -95,6 +95,7 @@ async => {}
 
 async => {};
 /x/;
+
 ```
 
 ### Diagnostics

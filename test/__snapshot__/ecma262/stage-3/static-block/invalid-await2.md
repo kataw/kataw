@@ -210,6 +210,7 @@ let await;
 class C {
   
 }
+
 ```
 
 ### Diagnostics

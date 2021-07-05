@@ -136,6 +136,7 @@
 
 (x) => {};
 async (x) => {}
+
 ```
 
 ### Diagnostics

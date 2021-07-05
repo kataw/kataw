@@ -140,7 +140,7 @@ class x {set if(x){}}
 ```javascript
 
 class x {
-  set if(x){}
+  set if(x) {}
 }
 ```
 

@@ -2433,20 +2433,20 @@ class Annotations {
 class C {
   #p: number ;
   #q: number ;
-  constructor(){
+  constructor() {
     this .#p = 0;
     this .#q;
   }
-  test(other: C){
+  test(other: C) {
     other.#q;
   }
 }
 class Outer {
   #outer: number ;
-  constructor(){
+  constructor() {
     var Inner = class A {
         #inner: Outer;
-        constructor(){
+        constructor() {
           this .#inner = new Outer();
           var x = new Outer();
           x.#outer = 0;
@@ -2455,6 +2455,7 @@ class Outer {
       };
   }
 }
+
 class Annotations {
   #p: number ;;
   #q = 0;;
@@ -2466,37 +2467,38 @@ class Annotations {
   static #sr;;
   static #ss: string  = 0;;
   static #st: string  = "\"yay!\"";;
-  test1(): number {
+  test1(): number  {
     return this .#p;
   }
-  test2(): number {
+  test2(): number  {
     return this .#t;
   }
-  test3(): number {
+  test3(): number  {
     return Annotations.#sp;
   }
-  test4(): number {
+  test4(): number  {
     return Annotations.#st;
   }
-  test5(): number {
+  test5(): number  {
     return this .#r;
   }
-  test6(): string {
+  test6(): string  {
     return this .#r;
   }
-  test5And6Helper(){
+  test5And6Helper() {
     this .#r = 3;
   }
-  test7(): number {
+  test7(): number  {
     return Annotations.#sr;
   }
-  test8(): string {
+  test8(): string  {
     return Annotations.#sr;
   }
-  test7And9Helper(){
+  test7And9Helper() {
     Annotations.#sr = 3;
   }
 }
+
 ```
 
 ### Diagnostics

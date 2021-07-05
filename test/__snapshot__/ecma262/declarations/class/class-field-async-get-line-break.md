@@ -142,7 +142,7 @@ get(){} }
 
 class C {
   async;
-  get(){}
+  get() {}
 }
 ```
 

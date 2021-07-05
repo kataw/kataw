@@ -109,7 +109,7 @@
 
 ```javascript
 
-({async delete(){}});
+({async delete() {}});
 ```
 
 ### Diagnostics

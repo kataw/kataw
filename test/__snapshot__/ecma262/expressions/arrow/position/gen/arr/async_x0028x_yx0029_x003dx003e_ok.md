@@ -110,7 +110,7 @@
 
 ```javascript
 
-[async (x, y) =>  ok];
+[async (x, y) => ok];
 ```
 
 ### Diagnostics

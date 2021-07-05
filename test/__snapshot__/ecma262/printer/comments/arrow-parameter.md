@@ -706,18 +706,29 @@
 
 ```javascript
 
-() =>  x;
-(a) =>  x;
-(a) =>  x;
-(a) =>  x;
-(a) =>  x;
-(a, b) =>  x;
-(a) =>  x;
-(a: string ) =>  x;
-(...a: string ) =>  x;
-(...a: string , []) =>  x;
+() => x;
+(a) => x;
+
+(a) => x;
+
+(a) => x;
+
+(a) => x;
+
+(a, b) => x;
+
+(a) => x;
+
+(a: string ) => x;
+
+(...a: string ) => x;
+
+(...a: string , []) => x;
+
 (x) => {};
-() =>  x;
+
+() => x;
+
 ```
 
 ### Diagnostics

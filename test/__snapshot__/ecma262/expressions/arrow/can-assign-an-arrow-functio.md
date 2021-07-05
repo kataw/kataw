@@ -382,9 +382,13 @@ y = async (x) => {}
 
 y = x => {};
 y = () => {};
+
 y = (x) => {};
+
 y = async () => {};
+
 y = async (x) => {};
+
 ```
 
 ### Diagnostics

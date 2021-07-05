@@ -259,6 +259,7 @@ async function x() {
   for await (x of y)
     {}
 }
+
 ```
 
 ### Diagnostics

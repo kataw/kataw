@@ -118,7 +118,7 @@
 
 ```javascript
 
-({foo(){
+({foo() {
       return;
     }});
 ```

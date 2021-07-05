@@ -76,6 +76,7 @@ for /* comment */(;;);
 
 for (;;);
 for (;;);
+
 ```
 
 ### Diagnostics

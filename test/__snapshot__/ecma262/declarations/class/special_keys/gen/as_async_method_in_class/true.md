@@ -131,7 +131,7 @@ class x {async true(){}}
 ```javascript
 
 class x {
-  async true(){}
+  async true() {}
 }
 ```
 

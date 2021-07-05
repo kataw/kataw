@@ -131,7 +131,7 @@ class x {get case(){}}
 ```javascript
 
 class x {
-  get case(){}
+  get case() {}
 }
 ```
 

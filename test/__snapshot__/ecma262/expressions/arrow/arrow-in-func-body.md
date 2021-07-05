@@ -668,15 +668,19 @@
 (function f() {
     ((yield, ...a) => {});
   });
+
 (function f() {
     (([yield]) => {});
   });
+
 (function f() {
     (({yield}) => {});
   });
+
 (function f() {
     ((yield) => {});
   });
+
 ```
 
 ### Diagnostics

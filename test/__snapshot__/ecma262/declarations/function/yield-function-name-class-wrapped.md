@@ -180,7 +180,7 @@ function* wrap() {
 
 function * wrap() {
   class A {
-    * yield(){}
+    * yield() {}
   }
 }
 ```

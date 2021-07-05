@@ -198,8 +198,8 @@ class x { constructor(){ return () => () => super[bar]; }}
 ```javascript
 
 class x {
-  constructor(){
-    return () =>  () =>  super [bar];
+  constructor() {
+    return () => () => super [bar];
   }
 }
 ```

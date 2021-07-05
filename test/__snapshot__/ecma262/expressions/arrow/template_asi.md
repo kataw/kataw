@@ -94,6 +94,7 @@ async x=>{}
 
 async x => {};
 `x`;
+
 ```
 
 ### Diagnostics

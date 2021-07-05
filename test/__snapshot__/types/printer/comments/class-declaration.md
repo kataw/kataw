@@ -485,14 +485,15 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
 
 class Item<T> {
   prop: T;;
-  constructor(param: T){
+  constructor(param: T) {
     this .prop = param;
   }
-  method(): T{
+  method(): T {
     return this .prop;
   }
 }
 class GenericClass<T> {}
+
 ```
 
 ### Diagnostics

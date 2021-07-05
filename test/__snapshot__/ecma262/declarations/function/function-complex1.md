@@ -1218,6 +1218,7 @@ function w2<A: Array<number >>(x: A, f: (number , ...A) =>  void ) {
     ...x
   );
 }
+
 ```
 
 ### Diagnostics

@@ -259,11 +259,10 @@ x(function (other) { return other });
 var x = function (foo) {
     return '\'foo\'' +  '\'bar\'';
   };
-x(
-  function (other) {
-    return other;
-  }
-);
+x(function (other) {
+  return other;
+});
+
 ```
 
 ### Diagnostics

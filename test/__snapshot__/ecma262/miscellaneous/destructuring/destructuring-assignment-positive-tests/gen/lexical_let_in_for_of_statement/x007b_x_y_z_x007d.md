@@ -214,6 +214,7 @@
 '\'use strict\'';
 let x, y, z;
 for (x of {x, y, z} = {});
+
 ```
 
 ### Diagnostics

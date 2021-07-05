@@ -79,6 +79,7 @@ if (false) let // ASI
 
 if (false ) let;
 {}
+
 ```
 
 ### Diagnostics

@@ -192,6 +192,7 @@ async (): string => {}
 
 a ? async () => {} : b;
 async () => {}
+
 ```
 
 ### Diagnostics

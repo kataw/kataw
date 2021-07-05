@@ -145,7 +145,7 @@ class x {static set private(x){}}
 ```javascript
 
 class x {
-  static set private(x){}
+  static set private(x) {}
 }
 ```
 

@@ -1718,8 +1718,8 @@ class Foo {
 
 class Foo {
   #field;
-  #method(){}
-  baseline(){
+  #method() {}
+  baseline() {
     a().foo;
     b().foo(
       x
@@ -1733,7 +1733,7 @@ class Foo {
       x
     );
   }
-  privateField(){
+  privateField() {
     a().#field;
     b().#field(
       x
@@ -1743,7 +1743,7 @@ class Foo {
     );
     d().#field?.(x).e()?.#field?.(x).f()?.foo.#field(x).bar();
   }
-  privateMethod(){
+  privateMethod() {
     a().#method;
     b().#method(
       x

@@ -173,8 +173,8 @@ class C {
 ```javascript
 
 class C {
-  ma(){}
-  mb(){}
+  ma() {}
+  mb() {}
 }
 ```
 

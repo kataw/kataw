@@ -250,6 +250,7 @@ async function f() {
 async function f() {
   for await (yield of x);
 }
+
 ```
 
 ### Diagnostics

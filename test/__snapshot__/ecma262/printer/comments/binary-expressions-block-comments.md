@@ -881,19 +881,33 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
 
 a = b ||  c;
 a = b ||  c;
+
 a = b ||  c;
+
 a = b ||  c;
+
 a = b ||  c;
+
 a = b &&  c;
+
 a = b &&  c;
+
 a = b &&  c;
+
 a = b &&  c;
+
 a = b &&  c;
+
 a = b +  c;
+
 a = b +  c;
+
 a = b +  c;
+
 a = b +  c;
+
 a = b +  c;
+
 ```
 
 ### Diagnostics

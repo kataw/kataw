@@ -147,7 +147,7 @@ class A {* get [x](){}}
 
 class A {
   get;
-  [x](){}
+  [x]() {}
 }
 ```
 

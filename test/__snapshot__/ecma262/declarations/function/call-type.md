@@ -306,6 +306,7 @@ function foo(x: X): A {
 function bar(x: X): B {
   return x;
 }
+
 ```
 
 ### Diagnostics

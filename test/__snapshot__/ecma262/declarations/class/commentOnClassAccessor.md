@@ -241,10 +241,10 @@ class C {
 ```javascript
 
 class C {
-  get bar(): number {
+  get bar(): number  {
     return 1;
   }
-  set bar(v){}
+  set bar(v) {}
 }
 ```
 

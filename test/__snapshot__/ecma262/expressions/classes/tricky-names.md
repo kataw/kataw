@@ -1011,28 +1011,28 @@ class A {
 ```javascript
 
 class A {
-  get(){}
-  set(){}
-  static(){}
-  async(){}
-  '\'get\''(){}
-  '\'set\''(){}
-  '\'async\''(){}
+  get() {}
+  set() {}
+  static() {}
+  async() {}
+  '\'get\''() {}
+  '\'set\''() {}
+  '\'async\''() {}
   static;
-  get(){}
+  get() {}
   static;
-  set(){}
+  set() {}
   static;
-  static(){}
+  static() {}
   static;
-  async(){}
+  async() {}
   static;
-  a(){}
+  a() {}
   get;
-  async(){}
+  async() {}
   static;
   get;
-  static(){}
+  static() {}
 }
 ```
 

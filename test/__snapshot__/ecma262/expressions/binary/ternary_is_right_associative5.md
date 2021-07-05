@@ -161,6 +161,7 @@ typeof x;
 
 a ? b : c ? d : e *  x;
 typeof x;
+
 ```
 
 ### Diagnostics

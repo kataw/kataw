@@ -1344,39 +1344,27 @@ x({get 0o4567(){}});
 
 ```javascript
 
-x(
-  {* foo(){}, * bar(){}}
-);
-x(
-  {[foo](){}, get [bar](){}}
-);
-x(
-  {get [foo](){}}
-);
-x(
-  {get [foo](){}, get [bar](){}}
-);
-x(
-  {get foo(){}}
-);
-x(
-  {get foo(){}, get bar(){}}
-);
-x(
-  {get "\"foo\""(){}}
-);
-x(
-  {get 1(){}}
-);
-x(
-  {get 0x234241(){}}
-);
-x(
-  {get 0b001(){}}
-);
-x(
-  {get 0o4567(){}}
-);
+x({* foo() {}, * bar() {}});
+x({[foo]() {}, get [bar]() {}});
+
+x({get [foo]() {}});
+
+x({get [foo]() {}, get [bar]() {}});
+
+x({get foo() {}});
+
+x({get foo() {}, get bar() {}});
+
+x({get "\"foo\""() {}});
+
+x({get 1() {}});
+
+x({get 0x234241() {}});
+
+x({get 0b001() {}});
+
+x({get 0o4567() {}});
+
 ```
 
 ### Diagnostics

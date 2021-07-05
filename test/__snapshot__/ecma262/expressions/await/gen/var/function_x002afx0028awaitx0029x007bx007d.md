@@ -225,6 +225,7 @@ var await;
 var f = (async function () {
       function * f(await) {}
     });
+
 ```
 
 ### Diagnostics

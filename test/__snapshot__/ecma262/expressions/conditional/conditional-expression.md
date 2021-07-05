@@ -709,10 +709,12 @@ async function f() {
 (async function () {
     console.log(await (true  ? Promise.resolve("\"A\"") : Promise.resolve("\"B\"")));
   })();
+
 async function f2() {
   await (spellcheck &&  spellcheck.setChecking(false ));
   await spellcheck &&  spellcheck.setChecking(false );
 }
+
 ```
 
 ### Diagnostics

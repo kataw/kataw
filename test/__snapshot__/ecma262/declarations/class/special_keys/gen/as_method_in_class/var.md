@@ -126,7 +126,7 @@ class x {var(){}}
 ```javascript
 
 class x {
-  var(){}
+  var() {}
 }
 ```
 

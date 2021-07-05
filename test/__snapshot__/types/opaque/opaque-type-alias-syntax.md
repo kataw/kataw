@@ -462,9 +462,13 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
 
 opaque type StringAlias = string ;
 opaque type ObjectAlias = { property: string , method(): number  };
+
 opaque type UnionAlias = 1 | 2 | 3;
+
 opaque type AliasAlias: ObjectAlias = ObjectAlias;
+
 opaque type VeryOpaque: AliasAlias = ObjectAlias;
+
 ```
 
 ### Diagnostics

@@ -88,6 +88,7 @@ class x{}
 
 class x {}
 /foo/;
+
 ```
 
 ### Diagnostics

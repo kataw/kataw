@@ -1849,20 +1849,33 @@ var z : Object = (x) => "hi"
 
 var a: { someProp: number  } = function () {};
 var b: { apply: Function } = function () {};
+
 var f = function () {};
+
 f.myProp = 123;
+
 var c: { myProp: number  } = f;
-var a: { (x: number ): string  } = (x) =>  x.toString();
-var b: { (x: number ): number  } = (x) =>  "\"hi\"";
-var c: { (x: string ): string  } = (x) =>  x.toFixed();
-var d: { (): string  } = (x) =>  "\"hi\"";
+
+var a: { (x: number ): string  } = (x) => x.toString();
+
+var b: { (x: number ): number  } = (x) => "\"hi\"";
+
+var c: { (x: string ): string  } = (x) => x.toFixed();
+
+var d: { (): string  } = (x) => "\"hi\"";
+
 var e: { (x: any ): void  } = () => {};
-var f: { (): mixed } = () =>  "\"hi\"";
+
+var f: { (): mixed } = () => "\"hi\"";
+
 var g: { (x: Date): void  } = (x) => {
     x *  2;
   };
-var y: {} = (x) =>  "\"hi\"";
-var z: Object = (x) =>  "\"hi\"";
+
+var y: {} = (x) => "\"hi\"";
+
+var z: Object = (x) => "\"hi\"";
+
 ```
 
 ### Diagnostics

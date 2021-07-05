@@ -99,6 +99,7 @@ export default class {} foo
 
 export default class  {};
 foo;
+
 ```
 
 ### Diagnostics

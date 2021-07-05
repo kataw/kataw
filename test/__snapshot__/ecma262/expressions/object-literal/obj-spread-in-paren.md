@@ -198,6 +198,7 @@
 
 ({a, ...obj} = foo);
 ({a: b, ...obj} = foo);
+
 ```
 
 ### Diagnostics

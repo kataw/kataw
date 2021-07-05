@@ -337,10 +337,11 @@ class C<X> {
   x: X;;
 }
 class D  extends C<O> {
-  bar(){
+  bar() {
     this .x;
   }
 }
+
 ```
 
 ### Diagnostics

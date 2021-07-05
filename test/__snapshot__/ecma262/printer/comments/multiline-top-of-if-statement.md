@@ -129,6 +129,7 @@ const x = 0;
 if (true ) {
     x;
   }
+
 ```
 
 ### Diagnostics

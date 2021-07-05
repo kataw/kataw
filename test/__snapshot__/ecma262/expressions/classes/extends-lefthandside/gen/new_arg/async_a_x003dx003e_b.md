@@ -91,7 +91,7 @@ new async a => b
 
 ```javascript
 
-new async a =>  b;
+new async a => b;
 ```
 
 ### Diagnostics

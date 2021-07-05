@@ -96,7 +96,7 @@ delete (async x => ok)
 
 ```javascript
 
-delete (async x =>  ok);
+delete (async x => ok);
 ```
 
 ### Diagnostics

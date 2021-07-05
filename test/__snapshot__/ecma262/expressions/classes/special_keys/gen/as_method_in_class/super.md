@@ -126,7 +126,7 @@ class x {super(){}}
 ```javascript
 
 class x {
-  super(){}
+  super() {}
 }
 ```
 

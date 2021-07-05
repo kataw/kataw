@@ -3310,97 +3310,120 @@ for (;;) {}});
 
 (function * gen() {
     yield 2;
-  })(
-  function * gen() {
-    yield * 2;
-  }
-);
+  })(function * gen() {
+  yield * 2;
+});
 (function * gen() {
     yield * 2;
   });
+
 (function * gen() {
     yield yield 1;
   });
+
 (function * gen() {
     yield * yield * 1;
   });
+
 (function * gen() {
     yield 3 +  (yield 4);
   });
+
 (function * gen() {
     yield * 3 +  (yield * 4);
   });
+
 (function * gen() {
     yield * 1;
     return;
   });
+
 (function * gen() {
     yield 1;
     return 37;
   });
+
 (function * gen() {
     yield * 1;
     return 37;
   });
+
 (function * gen() {
     yield 1;
     return 37;
     yield '\'dead\'';
   });
+
 (function * gen() {
     yield * 1;
     return 37;
     yield * '\'dead\'';
   });
+
 (function * gen() {
     yield ;
   });
+
 (function * gen() {
     yield ;
   });
+
 (function * gen() {
     yield ;
   });
+
 (function * gen() {
     (yield );
   });
+
 (function * gen() {
     [yield ];
   });
+
 (function * gen() {
     {
       yield ;
     }
   });
+
 (function * gen() {
     yield , yield ;
   });
+
 (function * gen() {
     yield ;
     yield ;
   });
+
 (function * gen() {
     (yield ) ? yield  : yield ;
   });
+
 (function * gen() {
     (yield ) ? yield  : yield ;
   });
+
 (function * gen() {
     yield ;
     for (;;) {}
   });
+
 (function * gen() {
     x = class   extends (yield ) {};
   });
+
 (function * gen() {
     x = class   extends f(yield ) {};
   });
+
 (function * gen() {
     x = class   extends (null , yield ) {};
   });
+
 (function * gen() {
     x = class   extends (a ? null  : yield ) {};
   });
+
 ```
 
 ### Diagnostics

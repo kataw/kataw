@@ -224,6 +224,7 @@ var x, y, z; for (x in { x, y, z } = z = {});
 
 var x, y, z;
 for (x in {x, y, z} = z = {});
+
 ```
 
 ### Diagnostics

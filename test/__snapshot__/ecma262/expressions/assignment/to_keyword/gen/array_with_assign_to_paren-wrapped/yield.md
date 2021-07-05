@@ -104,7 +104,7 @@ async x => (yield) = 1
 
 ```javascript
 
-async x =>  (yield) = 1;
+async x => (yield) = 1;
 ```
 
 ### Diagnostics

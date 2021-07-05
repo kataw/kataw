@@ -229,7 +229,7 @@ class Foo {
 
 class Foo {
   #x;;
-  constructor(){
+  constructor() {
     delete this ?.#x;
   }
 }

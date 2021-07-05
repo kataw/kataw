@@ -422,15 +422,17 @@ function decorator(el) {
   return Object.assign(
     el,
     {
-      finisher(Class){
+      finisher(Class) {
         C = Class;
       }
     }
   );
 }
+
 class A {
-  @ decorator foo(){}
+  @ decorator foo() {}
 }
+
 ```
 
 ### Diagnostics

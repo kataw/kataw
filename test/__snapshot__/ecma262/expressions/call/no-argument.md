@@ -222,10 +222,15 @@ new it(/* comment */)
 
 require();
 new require();
+
 define();
+
 new define();
+
 it();
+
 new it();
+
 ```
 
 ### Diagnostics

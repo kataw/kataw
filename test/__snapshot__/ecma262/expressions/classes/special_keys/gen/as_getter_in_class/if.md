@@ -131,7 +131,7 @@ class x {get if(){}}
 ```javascript
 
 class x {
-  get if(){}
+  get if() {}
 }
 ```
 

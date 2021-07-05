@@ -57,6 +57,7 @@ debugger
 
 debugger;
 /bar/;
+
 ```
 
 ### Diagnostics

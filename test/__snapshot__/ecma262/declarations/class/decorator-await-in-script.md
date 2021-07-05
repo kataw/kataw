@@ -157,7 +157,7 @@ class C2 {
 ```javascript
 
 @ await class C2 {
-  method(){}
+  method() {}
 }
 ```
 

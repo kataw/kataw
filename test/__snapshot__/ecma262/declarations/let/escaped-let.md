@@ -61,6 +61,7 @@ a;
 
 l\u0065t;
 a;
+
 ```
 
 ### Diagnostics

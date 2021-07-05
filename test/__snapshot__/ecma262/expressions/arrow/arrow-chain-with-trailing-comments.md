@@ -372,7 +372,7 @@ x2 = (a) => ((askTrovenaBeenaDependsRowans1, askTrovenaBeenaDependsRowans2, askT
 ```javascript
 
 x = (bifornCringerMoshedPerplexSawder) =>
-  ((askTrovenaBeenaDependsRowans, glimseGlyphsHazardNoopsTieTie) =>  (f00) => {
+  ((askTrovenaBeenaDependsRowans, glimseGlyphsHazardNoopsTieTie) => (f00) => {
       averredBathersBoxroomBuggyNurl();
     });
 x2 = (a) =>
@@ -383,6 +383,7 @@ x2 = (a) =>
       c();
     }
   );
+
 ```
 
 ### Diagnostics

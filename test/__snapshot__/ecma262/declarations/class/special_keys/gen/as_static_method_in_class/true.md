@@ -131,7 +131,7 @@ class x {static true(){}}
 ```javascript
 
 class x {
-  static true(){}
+  static true() {}
 }
 ```
 

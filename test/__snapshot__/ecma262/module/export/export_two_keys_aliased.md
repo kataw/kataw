@@ -178,6 +178,7 @@ var x,y; export {x as a, y as b}
 
 var x, y;
 export { x as  a, y as  b };
+
 ```
 
 ### Diagnostics

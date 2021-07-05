@@ -138,7 +138,7 @@ f((async (a, b) => a + b));
 ```javascript
 
 f(
-  (async (a, b) =>  a +  b)
+  (async (a, b) => a +  b)
 );
 ```
 

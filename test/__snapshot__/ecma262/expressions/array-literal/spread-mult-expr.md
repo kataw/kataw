@@ -890,7 +890,9 @@ var callCount = 0;
 
 var source = [3, 4, 5];
 var target;
+
 var callCount = 0;
+
 (function () {
     assert.sameValue(arguments.length, 5);
     assert.sameValue(arguments[0], 1);
@@ -901,6 +903,7 @@ var callCount = 0;
     assert.sameValue(target, source);
     callCount += 1;
   }.apply(null , [1, 2, ...target = source]));
+
 ```
 
 ### Diagnostics

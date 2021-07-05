@@ -441,10 +441,13 @@
 
 ```javascript
 
-(x? : number ) =>  x;
-((k? ) =>  k +  1)();
-(q, x? : number ) =>  x;
-(q, (k? ) =>  k +  1)();
+(x? : number ) => x;
+((k? ) => k +  1)();
+
+(q, x? : number ) => x;
+
+(q, (k? ) => k +  1)();
+
 ```
 
 ### Diagnostics

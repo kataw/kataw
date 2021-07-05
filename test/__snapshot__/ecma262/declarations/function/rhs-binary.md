@@ -706,10 +706,12 @@ function y() {
   (0 in  []);
   ('\'length\'' in  []);
 }
+
 function z() {
   ('\'foo\'' in  new String('\'bar\''));
   ('\'foo\'' in  new Number(123));
 }
+
 ```
 
 ### Diagnostics

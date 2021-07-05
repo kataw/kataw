@@ -66,6 +66,7 @@ bar
 
 foo;
 bar;
+
 ```
 
 ### Diagnostics

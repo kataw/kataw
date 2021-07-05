@@ -351,10 +351,13 @@ for ([].w ^= s; ; )
   x;
 for ([][y] <<= p; ; )
   x;
+
 for ([].u |= c; ; )
   x;
+
 for ({}[y] ^= x; ; )
   x;
+
 ```
 
 ### Diagnostics

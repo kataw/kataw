@@ -1943,11 +1943,13 @@ async function f2() {
   else  if (untrackedChoice ===  1) shouldAmend = true ;
   else  if (untrackedChoice ===  2) allowUntracked = true ;
 }
+
 async function f3() {
   if (untrackedChoice ===  0) null ;
   else  if (untrackedChoice ===  1) shouldAmend = true ;
   else  if (untrackedChoice ===  2) allowUntracked = true ;
 }
+
 async function f4() {
   if (untrackedChoice ===  0) {
       return null ;
@@ -1960,6 +1962,7 @@ async function f4() {
       allowUntracked = true ;
     }
 }
+
 async function f5() {
   if (untrackedChoice ===  0) {
       return null ;
@@ -1972,6 +1975,7 @@ async function f5() {
       allowUntracked = true ;
     }
 }
+
 ```
 
 ### Diagnostics

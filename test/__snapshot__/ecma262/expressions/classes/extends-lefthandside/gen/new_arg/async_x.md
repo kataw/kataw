@@ -81,6 +81,7 @@ x
 
 new async;
 x;
+
 ```
 
 ### Diagnostics

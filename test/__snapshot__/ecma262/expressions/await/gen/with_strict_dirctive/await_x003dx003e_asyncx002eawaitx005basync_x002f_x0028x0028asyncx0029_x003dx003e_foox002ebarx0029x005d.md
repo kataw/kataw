@@ -183,7 +183,7 @@
 ```javascript
 
 '\'use strict\'';
-await =>  async.await[async /  ((async) =>  foo.bar)];
+await => async.await[async /  ((async) => foo.bar)];
 ```
 
 ### Diagnostics

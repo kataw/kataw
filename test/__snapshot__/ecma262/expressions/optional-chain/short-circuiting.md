@@ -374,6 +374,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
 
 a?.[++ x].a?.b.c(++ x).d;
 undefined?.[++ x].undefined?.b.c(++ x).d;
+
 ```
 
 ### Diagnostics

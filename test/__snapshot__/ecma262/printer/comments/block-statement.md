@@ -483,29 +483,38 @@ x /*2*/
 {
   x;
 }
+
 {
   x;
 }
+
 {
   async function x() {}
 }
+
 {}
+
 {
   x;
 }
+
 {
   x;
 }
+
 {
   {}
   x;
 }
+
 {
   let x;
 }
+
 {
   var x;
 }
+
 ```
 
 ### Diagnostics

@@ -126,7 +126,7 @@ class x {try(){}}
 ```javascript
 
 class x {
-  try(){}
+  try() {}
 }
 ```
 

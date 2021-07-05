@@ -140,7 +140,7 @@ class x {set do(x){}}
 ```javascript
 
 class x {
-  set do(x){}
+  set do(x) {}
 }
 ```
 

@@ -105,6 +105,7 @@ true;
 
 var x;
 x = true ;
+
 ```
 
 ### Diagnostics

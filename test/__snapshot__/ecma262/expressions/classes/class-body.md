@@ -6408,190 +6408,251 @@
 (class  {
     ; ;
   });
+
 (class  {
-    m(){}
+    m() {}
   });
+
 (class  {
-    m(){};
+    m() {};
   });
-(class  {
-    ;
-    m(){}
-  });
-(class  {
-    m(){};
-    n(x){}
-  });
-(class  {
-    get x(){}
-  });
-(class  {
-    set x(v){}
-  });
-(class  {
-    get(){}
-  });
-(class  {
-    set(){}
-  });
-(class  {
-    * g(){}
-  });
-(class  {
-    * g(){};
-  });
+
 (class  {
     ;
-    * g(){}
+    m() {}
   });
+
 (class  {
-    * g(){};
-    * h(x){}
+    m() {};
+    n(x) {}
   });
+
 (class  {
-    async * x(){}
+    get x() {}
   });
+
 (class  {
-    static(){}
+    set x(v) {}
   });
+
 (class  {
-    get static(){}
+    get() {}
   });
+
 (class  {
-    set static(v){}
+    set() {}
   });
+
 (class  {
-    static m(){}
+    * g() {}
   });
+
 (class  {
-    static get x(){}
+    * g() {};
   });
+
 (class  {
-    static set x(v){}
+    ;
+    * g() {}
   });
+
 (class  {
-    static get(){}
+    * g() {};
+    * h(x) {}
   });
+
 (class  {
-    static set(){}
+    async * x() {}
   });
+
 (class  {
-    static static(){}
+    static() {}
   });
+
 (class  {
-    static get static(){}
+    get static() {}
   });
+
 (class  {
-    static set static(v){}
+    set static(v) {}
   });
+
 (class  {
-    * static(){}
+    static m() {}
   });
+
 (class  {
-    static * static(){}
+    static get x() {}
   });
+
 (class  {
-    * get(){}
+    static set x(v) {}
   });
+
 (class  {
-    * set(){}
+    static get() {}
   });
+
 (class  {
-    static * g(){}
+    static set() {}
   });
+
 (class  {
-    async(){}
+    static static() {}
   });
+
 (class  {
-    * async(){}
+    static get static() {}
   });
+
 (class  {
-    static async(){}
+    static set static(v) {}
   });
+
 (class  {
-    static * async(){}
+    * static() {}
   });
+
 (class  {
-    static async * x(){}
+    static * static() {}
   });
+
 (class  {
-    static async x(){}
+    * get() {}
   });
+
 (class  {
-    static async(){}
+    * set() {}
   });
+
 (class  {
-    static * async(){}
+    static * g() {}
   });
+
 (class  {
-    async x(){}
+    async() {}
   });
+
 (class  {
-    async 0(){}
+    * async() {}
   });
+
 (class  {
-    async get(){}
+    static async() {}
   });
+
 (class  {
-    async set(){}
+    static * async() {}
   });
+
 (class  {
-    async static(){}
+    static async * x() {}
   });
+
 (class  {
-    async async(){}
+    static async x() {}
   });
+
 (class  {
-    async(){}
+    static async() {}
   });
+
 (class  {
-    * async(){}
+    static * async() {}
   });
+
 (class  {
-    get 42.5(){}
+    async x() {}
   });
+
 (class  {
-    set static(v){}
+    async 0() {}
   });
+
 (class  {
-    static this(){}
+    async get() {}
   });
+
 (class  {
-    static get class(){}
+    async set() {}
   });
+
 (class  {
-    static set 42.5(v){}
+    async static() {}
   });
+
 (class  {
-    * const(){}
+    async async() {}
   });
+
 (class  {
-    static * "\"str\""(){}
+    async() {}
   });
+
+(class  {
+    * async() {}
+  });
+
+(class  {
+    get 42.5() {}
+  });
+
+(class  {
+    set static(v) {}
+  });
+
+(class  {
+    static this() {}
+  });
+
+(class  {
+    static get class() {}
+  });
+
+(class  {
+    static set 42.5(v) {}
+  });
+
+(class  {
+    * const() {}
+  });
+
+(class  {
+    static * "\"str\""() {}
+  });
+
 (class C {
-    true(){}
+    true() {}
   });
+
 (class C {
-    get false(){}
+    get false() {}
   });
+
 (class C {
-    set function(v){}
+    set function(v) {}
   });
+
 (class C {
-    static if(){}
+    static if() {}
   });
+
 (class C {
-    static get let(){}
+    static get let() {}
   });
+
 (class C {
-    static set get(v){}
+    static set get(v) {}
   });
+
 (class C {
-    * set(){}
+    * set() {}
   });
+
 (class C {
-    static * static(){}
+    static * static() {}
   });
+
 ```
 
 ### Diagnostics

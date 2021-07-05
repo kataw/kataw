@@ -111,6 +111,7 @@ try {} finally a()
 
 try {} finally {}
 a();
+
 ```
 
 ### Diagnostics

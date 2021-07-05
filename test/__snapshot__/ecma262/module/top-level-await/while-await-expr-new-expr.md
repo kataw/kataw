@@ -210,8 +210,8 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
 ```javascript
 
 while (await new Promise(function (res, rej) {
-      res(1);
-    })) {
+    res(1);
+  })) {
     break ;
   }
 ```

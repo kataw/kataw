@@ -367,6 +367,7 @@ var f = (async function () {
         return a;
       }
     });
+
 ```
 
 ### Diagnostics

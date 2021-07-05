@@ -433,9 +433,11 @@ let c = (x => /*1*/ x * /*2*/ x)(2);
 
 ```javascript
 
-let a = (x =>  (x, x *  2), 3);
-let b = ((x, y) =>  (x, x *  y), 1);
-let c = (x =>  x *  x)(2);
+let a = (x => (x, x *  2), 3);
+let b = ((x, y) => (x, x *  y), 1);
+
+let c = (x => x *  x)(2);
+
 ```
 
 ### Diagnostics

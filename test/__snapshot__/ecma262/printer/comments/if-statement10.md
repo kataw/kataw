@@ -453,17 +453,25 @@ while (/*1*/x/*2*/) {}
 
 if (x) {}
 if (x) {}
+
 if (x) {}
-if (x) {}
-else  {}
-if (x) {}
-if (x) {}
+
 if (x) {}
 else  {}
+
 if (x) {}
+
+if (x) {}
+
+if (x) {}
+else  {}
+
+if (x) {}
+
 if (x) {
     while (x) {}
   }
+
 ```
 
 ### Diagnostics

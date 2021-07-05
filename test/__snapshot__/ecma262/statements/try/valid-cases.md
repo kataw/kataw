@@ -788,22 +788,27 @@ try {} catch (e) {
 try {} catch (e) {
   if (1) function e() {}
 }
+
 try {} catch (e) {
   if (1) function e() {}
 }
+
 try {} catch (e) {
   {
     function e() {}
   }
 }
+
 try {} catch (e) {
   {
     function e() {}
   }
 }
+
 try {
   var e;
 } catch (e) {}
+
 ```
 
 ### Diagnostics

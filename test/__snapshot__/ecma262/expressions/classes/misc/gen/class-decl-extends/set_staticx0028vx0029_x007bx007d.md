@@ -160,7 +160,7 @@ class C extends Base { set static(v) {} }
 ```javascript
 
 class C  extends Base {
-  set static(v){}
+  set static(v) {}
 }
 ```
 

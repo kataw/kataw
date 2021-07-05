@@ -4078,6 +4078,7 @@ function f(arg = 1) {
     arg
   );
 }
+
 function f(arg, arguments) {
   g(
     arg
@@ -4087,6 +4088,7 @@ function f(arg, arguments) {
     arg
   );
 }
+
 function f(...arg) {
   g(
     arg
@@ -4096,6 +4098,7 @@ function f(...arg) {
     arg
   );
 }
+
 function f(arg) {
   g(
     arg
@@ -4105,6 +4108,7 @@ function f(arg) {
     arg
   );
 }
+
 function f(arg) {
   g(
     arg
@@ -4116,6 +4120,7 @@ function f(arg) {
     arg
   );
 }
+
 function f(arg) {
   g(
     arg
@@ -4125,6 +4130,7 @@ function f(arg) {
     arg
   );
 }
+
 function f(arg, x = 1) {
   g(
     arg
@@ -4134,6 +4140,7 @@ function f(arg, x = 1) {
     arg
   );
 }
+
 function f(arg, ...x) {
   g(
     arg
@@ -4143,6 +4150,7 @@ function f(arg, ...x) {
     arg
   );
 }
+
 function f(arg = 1) {
   g(
     arg
@@ -4152,6 +4160,7 @@ function f(arg = 1) {
     arg
   );
 }
+
 function f(arg) {
   g(
     arg
@@ -4161,46 +4170,45 @@ function f(arg) {
     arg
   );
 }
+
 function f(arg, {a = (g(arg), arg = 42)}) {
   g(
     arg
   );
 }
+
 function f(arg) {
   g(
     arg
   );
-  g(
-    function () {
-      arg = 42;
-    }
-  );
+  g(function () {
+    arg = 42;
+  });
   g(
     arg
   );
 }
+
 function f(arg) {
   g(
     arg
   );
-  g(
-    () =>  arg = 42
-  );
+  g(() => arg = 42);
   g(
     arg
   );
 }
+
 function f(arg) {
   g(
     arg
   );
-  g(
-    () =>  eval('\'arg = 42\'')
-  );
+  g(() => eval('\'arg = 42\''));
   g(
     arg
   );
 }
+
 function f(...arg) {
   g(
     arg
@@ -4212,6 +4220,7 @@ function f(...arg) {
     arg
   );
 }
+
 function f(arg) {
   g(
     arg
@@ -4221,6 +4230,7 @@ function f(arg) {
     arg
   );
 }
+
 function f(arg) {
   g(
     arg
@@ -4232,6 +4242,7 @@ function f(arg) {
     arg
   );
 }
+
 function f(arg) {
   g(
     arg
@@ -4243,19 +4254,21 @@ function f(arg) {
     arg
   );
 }
+
 function f(arg) {
   g(
     arg
   );
-  g(
-    () =>  arguments[0] = 42
-  );
+  g(() => arguments[0] = 42);
   g(
     arg
   );
 }
+
 function f({x: arg = 1}, {y: b = (arg = 2)}) {}
+
 function f({x: arg = (arg = 2)}) {}
+
 ```
 
 ### Diagnostics

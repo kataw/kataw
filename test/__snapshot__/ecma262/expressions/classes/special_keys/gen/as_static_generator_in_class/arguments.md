@@ -136,7 +136,7 @@ class x {static * arguments(){}}
 ```javascript
 
 class x {
-  static * arguments(){}
+  static * arguments() {}
 }
 ```
 

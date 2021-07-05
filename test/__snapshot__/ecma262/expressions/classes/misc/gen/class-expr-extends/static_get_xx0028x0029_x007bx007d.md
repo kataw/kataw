@@ -160,7 +160,7 @@
 ```javascript
 
 (class   extends Base {
-    static get x(){}
+    static get x() {}
   });
 ```
 

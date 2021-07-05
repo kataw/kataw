@@ -403,8 +403,11 @@ type q = { [[foo]]: X }
 
 type x = { [[foo]]: X }
 type y = { [[foo]](): X }
+
 type z = { [[foo]]? : X }
+
 type q = { [[foo]]: X }
+
 ```
 
 ### Diagnostics

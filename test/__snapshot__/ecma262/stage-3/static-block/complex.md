@@ -376,10 +376,12 @@ class C {
 
 const a = 1;
 const b = 2;
+
 class C {
   
   
 }
+
 ```
 
 ### Diagnostics

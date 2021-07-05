@@ -245,6 +245,7 @@ var x, y, z; for (x of x = [x,y,z] = z = {});
 
 var x, y, z;
 for (x of x = [x, y, z] = z = {});
+
 ```
 
 ### Diagnostics

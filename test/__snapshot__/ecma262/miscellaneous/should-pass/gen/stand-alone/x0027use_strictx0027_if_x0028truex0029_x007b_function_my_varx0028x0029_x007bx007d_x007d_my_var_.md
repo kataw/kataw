@@ -145,6 +145,7 @@ if (true ) {
     function my_var() {}
   }
 my_var;
+
 ```
 
 ### Diagnostics

@@ -136,7 +136,7 @@ class x {static async try(){}}
 ```javascript
 
 class x {
-  static async try(){}
+  static async try() {}
 }
 ```
 

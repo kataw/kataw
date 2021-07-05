@@ -136,7 +136,7 @@ class x {static get import(){}}
 ```javascript
 
 class x {
-  static get import(){}
+  static get import() {}
 }
 ```
 

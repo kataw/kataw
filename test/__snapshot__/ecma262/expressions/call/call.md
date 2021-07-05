@@ -899,31 +899,46 @@ f();
 g(
   a
 );
+
 h(
   a,
   b
 );
+
 i(
   a,
   b,
   ...c
 );
+
 j(
   ...a
 );
+
 a.k();
+
 (a +  b).l();
+
 a.m().n();
+
 new A();
+
 new A(
   a
 );
+
 new a.B();
+
 new a.b.C();
+
 new (a().B)();
+
 new A().b();
+
 new new A()();
+
 new (A, B)();
+
 ```
 
 ### Diagnostics

@@ -173,7 +173,7 @@ async <T>(a: T): T => a;
 
 ```javascript
 
-async <T>(a: T) =>  a;
+async <T>(a: T) => a;
 ```
 
 ### Diagnostics

@@ -310,8 +310,8 @@ async function f(){
 
 async function f() {
   (fail = class A {
-    [await x](){};
-    "\"x\""(){}
+    [await x]() {};
+    "\"x\""() {}
   }) => {};
 }
 ```

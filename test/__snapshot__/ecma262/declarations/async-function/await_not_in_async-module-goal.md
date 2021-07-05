@@ -174,6 +174,7 @@ async function f(x) {
 f(
   await 1
 );
+
 ```
 
 ### Diagnostics

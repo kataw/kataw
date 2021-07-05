@@ -140,7 +140,7 @@ class x {set return(x){}}
 ```javascript
 
 class x {
-  set return(x){}
+  set return(x) {}
 }
 ```
 

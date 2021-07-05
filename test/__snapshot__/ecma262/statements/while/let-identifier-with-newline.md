@@ -98,6 +98,7 @@ x = 1;
 
 while (false ) let;
 x = 1;
+
 ```
 
 ### Diagnostics

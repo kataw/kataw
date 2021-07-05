@@ -793,24 +793,43 @@ typeof a == 'b';
 
 a +  b;
 a -  b;
+
 a *  b;
+
 a /  b;
+
 a %  b;
+
 a **  b;
+
 a &  b;
+
 a |  b;
+
 a ^  b;
+
 a <<  b;
+
 a >>  b;
+
 a >>>  b;
+
 a ===  b;
+
 a !==  b;
+
 a ==  b;
+
 a !=  b;
+
 a, b;
+
 a +  '\'\'' ==  b;
+
 typeof a ==  b +  '\'\'';
+
 typeof a ==  '\'b\'';
+
 ```
 
 ### Diagnostics

@@ -115,7 +115,7 @@ x/*2*/
 
 ```javascript
 
-({async x(){}});
+({async x() {}});
 ```
 
 ### Diagnostics

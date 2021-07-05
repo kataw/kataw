@@ -128,7 +128,7 @@
 
 ```javascript
 
-({instanceof(x, y){}});
+({instanceof(x, y) {}});
 ```
 
 ### Diagnostics

@@ -188,7 +188,7 @@ class D extends B {
 ```javascript
 
 class D  extends B {
-  constructor(foo){
+  constructor(foo) {
     super (
       foo
     );

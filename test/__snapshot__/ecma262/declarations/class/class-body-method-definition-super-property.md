@@ -265,10 +265,10 @@ class A {
 ```javascript
 
 class A {
-  constructor(){
+  constructor() {
     super .toString();
   }
-  dontDoThis(){
+  dontDoThis() {
     super .makeBugs = 1;
   }
 }

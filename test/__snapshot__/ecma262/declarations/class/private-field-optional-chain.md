@@ -326,7 +326,7 @@ class Foo {
 
 class Foo {
   #x;
-  foo(){
+  foo() {
     this ?.#x.y;
     this ?.y.#x;
     this .#x?.y;

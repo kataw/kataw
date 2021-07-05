@@ -535,7 +535,7 @@ class A<TYPE> {
   aaf = () => {
     return new Promise  <  TYPE >  (console.log);
   };;
-  anf(): Promise<TYPE>{
+  anf(): Promise<TYPE> {
     return new Promise  <  TYPE >  (console.log);
   }
 }

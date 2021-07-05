@@ -128,7 +128,7 @@
 
 ```javascript
 
-({do(x, y){}});
+({do(x, y) {}});
 ```
 
 ### Diagnostics

@@ -185,12 +185,16 @@ foo /* comment */
 
 foo``;
 foo``;
+
 foo`
 `;
+
 foo`
 `;
+
 foo`
 `;
+
 ```
 
 ### Diagnostics

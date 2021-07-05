@@ -585,6 +585,7 @@ Object.defineProperty(this, "x", {
 
 var count = 0;
 var global = this ;
+
 Object.defineProperty(
   this ,
   "\"x\"",
@@ -593,6 +594,7 @@ Object.defineProperty(
     value: 1
   }
 );
+
 (function () {
     assert.throws(ReferenceError, () => {
         count++ ;
@@ -601,6 +603,7 @@ Object.defineProperty(
       });
     count++ ;
   })();
+
 ```
 
 ### Diagnostics

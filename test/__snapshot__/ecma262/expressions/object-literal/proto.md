@@ -522,11 +522,16 @@
 ```javascript
 
 ({"\"__proto___\"": "\"__proto___\"", "\"__proto___\"": "\"__proto___\""});
-({get prototype(){}});
-({set prototype(x){}});
-({* prototype(){}});
-({async prototype(){}});
-({async * prototype(){}});
+({get prototype() {}});
+
+({set prototype(x) {}});
+
+({* prototype() {}});
+
+({async prototype() {}});
+
+({async * prototype() {}});
+
 ```
 
 ### Diagnostics

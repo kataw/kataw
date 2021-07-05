@@ -143,7 +143,7 @@
 ```javascript
 
 '\'use strict\'';
-({* static(x, y){}});
+({* static(x, y) {}});
 ```
 
 ### Diagnostics

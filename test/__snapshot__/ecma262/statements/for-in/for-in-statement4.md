@@ -187,8 +187,10 @@ for (a in expr) {
 
 var a: number ;
 var expr: any ;
+
 for (a in expr)
   {}
+
 ```
 
 ### Diagnostics

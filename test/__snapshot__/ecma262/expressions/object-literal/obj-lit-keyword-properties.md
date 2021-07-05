@@ -493,11 +493,15 @@
 
 ```javascript
 
-({throw(x, y){}});
-({package(x, y){}});
-({package(x, y){}});
-({this(x, y){}});
-({switch(x, y){}});
+({throw(x, y) {}});
+({package(x, y) {}});
+
+({package(x, y) {}});
+
+({this(x, y) {}});
+
+({switch(x, y) {}});
+
 ```
 
 ### Diagnostics

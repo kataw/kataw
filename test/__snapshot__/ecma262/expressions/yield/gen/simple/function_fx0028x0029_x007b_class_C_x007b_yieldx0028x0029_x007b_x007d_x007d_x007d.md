@@ -175,7 +175,7 @@ function f() { class C { yield() { } } }
 
 function f() {
   class C {
-    yield(){}
+    yield() {}
   }
 }
 ```

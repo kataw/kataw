@@ -179,7 +179,7 @@ async r => result = [...{ x = await x }] = y;
 
 ```javascript
 
-async r =>  result = [...{x = await x}] = y;
+async r => result = [...{x = await x}] = y;
 ```
 
 ### Diagnostics

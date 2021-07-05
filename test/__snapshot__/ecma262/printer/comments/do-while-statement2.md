@@ -84,6 +84,7 @@ do {} while (x)/* comment 1 */ {} /* comment 2 */
 do  {}
 while (x);
 {}
+
 ```
 
 ### Diagnostics

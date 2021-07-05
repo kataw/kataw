@@ -169,6 +169,7 @@
   inf_leave:  for (;;)
     {}
 }
+
 ```
 
 ### Diagnostics

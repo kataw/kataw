@@ -578,6 +578,7 @@ function g() {
   instruction6;
   instruction7;
 }
+
 ```
 
 ### Diagnostics

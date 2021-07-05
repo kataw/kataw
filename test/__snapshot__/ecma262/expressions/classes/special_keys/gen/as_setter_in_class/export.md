@@ -140,7 +140,7 @@ class x {set export(x){}}
 ```javascript
 
 class x {
-  set export(x){}
+  set export(x) {}
 }
 ```
 

@@ -126,7 +126,7 @@ class x {switch(){}}
 ```javascript
 
 class x {
-  switch(){}
+  switch() {}
 }
 ```
 

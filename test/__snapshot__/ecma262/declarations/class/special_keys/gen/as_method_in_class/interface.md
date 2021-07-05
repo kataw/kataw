@@ -126,7 +126,7 @@ class x {interface(){}}
 ```javascript
 
 class x {
-  interface(){}
+  interface() {}
 }
 ```
 

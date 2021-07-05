@@ -675,6 +675,7 @@ var foo2: {
     (name: '\'order\''): string ,
     (name: '\'done\''): string
   };
+
 ```
 
 ### Diagnostics

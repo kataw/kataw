@@ -1380,7 +1380,7 @@ class Foo {
   #d;
   #e;
   #f;
-  foo(){
+  foo() {
     [
       {x: this .#a},
       [[, this .#b, ]],
@@ -1396,16 +1396,14 @@ class Foo {
       [4, 5, 6, 7, 8],
       [{x: [{y: [9]}]}]
     ];
-    return JSON.stringify(
-      [
-        this .#a,
-        this .#b,
-        this .#c,
-        this .#d,
-        this .#e,
-        this .#f
-      ]
-    );
+    return JSON.stringify([
+      this .#a,
+      this .#b,
+      this .#c,
+      this .#d,
+      this .#e,
+      this .#f
+    ]);
   }
 }
 ```

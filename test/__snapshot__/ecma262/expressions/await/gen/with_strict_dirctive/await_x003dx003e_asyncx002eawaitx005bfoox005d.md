@@ -111,7 +111,7 @@
 ```javascript
 
 '\'use strict\'';
-await =>  async.await[foo];
+await => async.await[foo];
 ```
 
 ### Diagnostics

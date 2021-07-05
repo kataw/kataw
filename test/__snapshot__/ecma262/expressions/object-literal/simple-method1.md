@@ -122,7 +122,7 @@ x = {
 ```javascript
 
 x = {
-  method(){}
+  method() {}
 };
 ```
 

@@ -914,18 +914,31 @@ n4 = z2;
 
 var myVariable = 10;
 var anotherVariable = 30;
+
 var aVar = "\"\"";
+
 var anotherAnotherVariable = 70;
+
 var x = 70;
+
 x = myVariable;
+
 var n = 30;
+
 var y = 20;
+
 var yy = 20;
-var z = (x: number , y: number ) =>  x +  y;
+
+var z = (x: number , y: number ) => x +  y;
+
 var z2: (x: number ) =>  string ;
+
 var x2 = z2;
+
 var n4: (x: number ) =>  string ;
+
 n4 = z2;
+
 ```
 
 ### Diagnostics

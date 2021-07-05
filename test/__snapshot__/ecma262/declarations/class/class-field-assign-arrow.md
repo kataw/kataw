@@ -138,7 +138,7 @@ class C { aaa=()=>0 }
 ```javascript
 
 class C {
-  aaa = () =>  0;
+  aaa = () => 0;
 }
 ```
 

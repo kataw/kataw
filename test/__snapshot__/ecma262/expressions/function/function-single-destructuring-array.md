@@ -1136,6 +1136,7 @@ function excludeFirstFiveResults2([
 ] = DEFAULT_FIVE_RESULTS) {
   return rest;
 }
+
 function excludeFirstFiveResults3([
   firstResult,
   secondResult,
@@ -1146,6 +1147,7 @@ function excludeFirstFiveResults3([
 ] = [1, 2, 3, 4, 5]) {
   return rest;
 }
+
 const excludeFirstFiveResults5 = ([
     first,
     second,
@@ -1156,6 +1158,7 @@ const excludeFirstFiveResults5 = ([
   ]) => {
     return rest;
   };
+
 class A {
   excludeFirstFiveResults([
     first,
@@ -1164,22 +1167,22 @@ class A {
     fourth,
     fifth,
     ...restOfResults
-  ]){
+  ]) {
     return restOfResults;
   }
 }
-promise.then(
-  ([
-    firstResult,
-    secondResult,
-    thirdResult,
-    fourthResult,
-    fifthResult,
-    ...rest
-  ]) => {
-    return rest;
-  }
-);
+
+promise.then(([
+  firstResult,
+  secondResult,
+  thirdResult,
+  fourthResult,
+  fifthResult,
+  ...rest
+]) => {
+  return rest;
+});
+
 ```
 
 ### Diagnostics

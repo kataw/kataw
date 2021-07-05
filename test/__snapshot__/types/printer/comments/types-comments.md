@@ -1437,16 +1437,26 @@ type x = {get x (/*1*/): string }
 type a = (Array<string >) =>  void
 type A = (Array<string >,
 ...Array<string >) =>  void
+
 type A = (Array<string >,
 ...Array<string >) =>  void
+
 type Fn1 = <T>(T) =>  T
+
 type E = Obj['\'bar\''][]
+
 type E = Obj['\'bar\''][]
+
 type O1 = { ...{ p: T } | { q: U } }
+
 type a = { "\"string\"": y.z }
+
 type C = { ...A & B }
+
 type foo<number> = string
+
 type x = { x(): string  }
+
 ```
 
 ### Diagnostics

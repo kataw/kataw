@@ -145,7 +145,7 @@ a ? (b) : (c) : d => e;
 
 ```javascript
 
-a ? (b) : (c) =>  e;
+a ? (b) : (c) => e;
 ```
 
 ### Diagnostics

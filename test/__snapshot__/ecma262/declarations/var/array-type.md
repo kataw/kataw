@@ -498,11 +498,17 @@ var a: (?number)[];
 
 var a: number [];
 var a: (() =>  number )[];
+
 var a: () =>  number [];
+
 var a: number [][];
+
 var a: number ;
+
 [];
+
 var a: (? number )[];
+
 ```
 
 ### Diagnostics

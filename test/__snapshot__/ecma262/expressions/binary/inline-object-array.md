@@ -2289,6 +2289,7 @@ prevState = prevState ||  defaultState ||  {
     searchQuery: '\'\'',
     selectedCatalog: null
   };
+
 prevState = prevState ||  defaultState &&  {
     catalogs: [],
     loadState: LOADED,
@@ -2296,6 +2297,7 @@ prevState = prevState ||  defaultState &&  {
     searchQuery: '\'\'',
     selectedCatalog: null
   };
+
 prevState = prevState ||  useDefault &&  defaultState ||  {
     catalogs: [],
     loadState: LOADED,
@@ -2303,24 +2305,28 @@ prevState = prevState ||  useDefault &&  defaultState ||  {
     searchQuery: '\'\'',
     selectedCatalog: null
   };
+
 this .steps = steps ||  [
     {
       name: '\'mock-module\'',
       path: '\'/nux/mock-module\''
     }
   ];
+
 this .steps = steps ||  checkStep &&  [
     {
       name: '\'mock-module\'',
       path: '\'/nux/mock-module\''
     }
   ];
+
 this .steps = steps &&  checkStep ||  [
     {
       name: '\'mock-module\'',
       path: '\'/nux/mock-module\''
     }
   ];
+
 const create = () => {
     const result = doSomething();
     return (shouldReturn &&  result.ok &&  {
@@ -2329,6 +2335,7 @@ const create = () => {
         updatedAt: result.updatedAt
       });
   };
+
 const create2 = () => {
     const result = doSomething();
     return (shouldReturn &&  result.ok &&  result ||  {
@@ -2337,6 +2344,7 @@ const create2 = () => {
         updatedAt: result.updatedAt
       });
   };
+
 const obj = {
     state: shouldHaveState &&  stateIsOK &&  {
       loadState: LOADED,
@@ -2347,6 +2355,7 @@ const obj = {
     },
     loaded: true
   };
+
 ```
 
 ### Diagnostics

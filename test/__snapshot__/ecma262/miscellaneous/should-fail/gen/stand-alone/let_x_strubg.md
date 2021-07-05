@@ -88,6 +88,7 @@ let x; strubg
 
 let x;
 strubg;
+
 ```
 
 ### Diagnostics

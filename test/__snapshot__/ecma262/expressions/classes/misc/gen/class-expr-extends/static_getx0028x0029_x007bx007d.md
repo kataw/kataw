@@ -155,7 +155,7 @@
 ```javascript
 
 (class   extends Base {
-    static get(){}
+    static get() {}
   });
 ```
 

@@ -121,6 +121,7 @@ export default async function f(){} foo
 
 export default async function f() {};
 foo;
+
 ```
 
 ### Diagnostics

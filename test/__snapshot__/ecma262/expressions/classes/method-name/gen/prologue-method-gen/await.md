@@ -143,7 +143,7 @@
 ```javascript
 
 '\'use strict\'';
-({* await(x, y){}});
+({* await(x, y) {}});
 ```
 
 ### Diagnostics

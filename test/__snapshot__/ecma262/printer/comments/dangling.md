@@ -300,10 +300,15 @@ Thing(/* dangling */);
 
 var a = {};
 var b = {};
+
 var b = [];
+
 function d() {}
+
 new Thing();
+
 Thing();
+
 ```
 
 ### Diagnostics

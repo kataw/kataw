@@ -383,11 +383,11 @@ function x() {
 function f() {
   throw (foo.bar());
 }
-fn(
-  function f() {
-    throw (foo.bar());
-  }
-);
+
+fn(function f() {
+  throw (foo.bar());
+});
+
 ```
 
 ### Diagnostics

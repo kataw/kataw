@@ -259,10 +259,15 @@ import(x).then();
 
 import(x);
 import(foo);
+
 import(1);
+
 import(y = x);
+
 import(import(x));
+
 import(x).then();
+
 ```
 
 ### Diagnostics

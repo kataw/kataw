@@ -186,7 +186,7 @@ var C = class { async *gen() {
 ```javascript
 
 var C = class  {
-    async * gen(){
+    async * gen() {
       a\u0061wait: ;
     }
   };

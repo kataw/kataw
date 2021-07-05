@@ -314,9 +314,13 @@ function x (
 
 function x() {}
 function x() {}
+
 function x(a, b) {}
+
 function x(a, b) {}
+
 function x() {}
+
 ```
 
 ### Diagnostics

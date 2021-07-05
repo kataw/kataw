@@ -187,7 +187,9 @@ declare var a: A;
 
 declare opaque
 declare opaque
+
 declare var a: A;
+
 ```
 
 ### Diagnostics

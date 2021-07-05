@@ -132,7 +132,7 @@ function f(a = x => ok) {}
 
 ```javascript
 
-function f(a = x =>  ok) {}
+function f(a = x => ok) {}
 ```
 
 ### Diagnostics

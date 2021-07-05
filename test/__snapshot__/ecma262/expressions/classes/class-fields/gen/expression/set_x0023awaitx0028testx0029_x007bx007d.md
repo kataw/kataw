@@ -160,7 +160,7 @@ class C extends Base { set #await(test) {} }
 ```javascript
 
 class C  extends Base {
-  set #await(test){}
+  set #await(test) {}
 }
 ```
 

@@ -296,6 +296,7 @@ var x, y, z; for (x in { z : { __proto__: x, __proto__: y } = z } = z = {});
 
 var x, y, z;
 for (x in {z: {__proto__: x, __proto__: y} = z} = z = {});
+
 ```
 
 ### Diagnostics

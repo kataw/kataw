@@ -154,7 +154,7 @@ class Foo {
 ```javascript
 
 class Foo {
-  @ dec static bar(){}
+  @ dec static bar() {}
 }
 ```
 

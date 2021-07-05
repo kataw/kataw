@@ -185,7 +185,7 @@ function* gf() { class C { *yield() { } } }
 
 function * gf() {
   class C {
-    * yield(){}
+    * yield() {}
   }
 }
 ```

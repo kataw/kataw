@@ -283,8 +283,9 @@ class AnotherRomote {
 @ decorator(
   "\"hi\""
 ) class AnotherRomote {
-  constructor(){}
+  constructor() {}
 }
+
 ```
 
 ### Diagnostics

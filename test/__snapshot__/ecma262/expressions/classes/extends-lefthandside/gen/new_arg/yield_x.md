@@ -81,6 +81,7 @@ x
 
 new yield;
 x;
+
 ```
 
 ### Diagnostics

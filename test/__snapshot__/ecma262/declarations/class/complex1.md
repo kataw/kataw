@@ -916,13 +916,13 @@ class D<T> {
 class C<X,
 Y> {
   x: X;;
-  constructor(x: X){
+  constructor(x: X) {
     this .x = x;
   }
-  get(): X{
+  get(): X {
     return this .x;
   }
-  get_bad(): Y{
+  get_bad(): Y {
     return this .x;
   }
 }
@@ -931,11 +931,12 @@ class D<T> {
   m<S>(
     z: S,
     u: T
-  ): S{
+  ): S {
     this .x = u;
     return z;
   }
 }
+
 ```
 
 ### Diagnostics

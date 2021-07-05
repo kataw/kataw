@@ -115,6 +115,7 @@
 
 function f() {}
 var f;
+
 ```
 
 ### Diagnostics

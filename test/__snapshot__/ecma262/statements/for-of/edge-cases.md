@@ -201,7 +201,9 @@ for ((async) of x);
 
 for (async.x of y);
 for (async of => {}; ; );
+
 for ((async) of x);
+
 ```
 
 ### Diagnostics

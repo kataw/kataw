@@ -527,6 +527,7 @@ function d(x: { (): string , (x: number ): string  }): () =>  string  {
 function e(x: { (): string , (x: number ): string  }): () =>  number  {
   return x;
 }
+
 ```
 
 ### Diagnostics

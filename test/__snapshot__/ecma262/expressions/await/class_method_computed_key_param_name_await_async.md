@@ -307,8 +307,8 @@ async function f(){
 
 async function f() {
   (fail = class A {
-    [x](await){};
-    "\"x\""(){}
+    [x](await) {};
+    "\"x\""() {}
   }) => {};
 }
 ```

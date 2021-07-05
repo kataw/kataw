@@ -92,6 +92,7 @@ typeof class{}
 
 typeof class  {};
 /foo/;
+
 ```
 
 ### Diagnostics
