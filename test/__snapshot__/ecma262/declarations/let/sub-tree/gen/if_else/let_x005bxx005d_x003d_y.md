@@ -100,7 +100,7 @@ else let [x] = y;
                         "start": 24,
                         "end": 26
                     },
-                    "flags": 32,
+                    "flags": 0,
                     "start": 14,
                     "end": 26
                 },

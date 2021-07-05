@@ -74,7 +74,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 1,
                     "end": 17
                 },
@@ -152,7 +152,7 @@
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 26,
                             "end": 29
                         },
@@ -195,8 +195,8 @@
                         "start": 25,
                         "end": 38
                     },
-                    "flags": 32,
-                    "start": 23,
+                    "flags": 23,
+                    "start": 33,
                     "end": 39
                 },
                 "argumentList": {
@@ -270,7 +270,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 45,
                     "end": 64
                 },
@@ -302,7 +302,7 @@
                     "start": 67,
                     "end": 69
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 42,
                 "end": 69
             },
@@ -359,7 +359,7 @@
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 76,
                                     "end": 79
                                 },
@@ -407,8 +407,8 @@
                         "start": 70,
                         "end": 88
                     },
-                    "flags": 32,
-                    "start": 70,
+                    "flags": 70,
+                    "start": 33,
                     "end": 89
                 },
                 "argumentList": {
@@ -441,11 +441,11 @@
 
 ```javascript
 
-(x?: number) => x;
-((k?) => k + 1)();
-(q, x?: number) => x;
-(q, (k?) => k + 1)();
-
+(x? : number ) =>  x;
+((k? ) =>  k +  1)();
+(q,
+x? : number ) =>  x;
+(q, (k? ) =>  k +  1)();
 ```
 
 ### Diagnostics

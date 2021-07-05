@@ -240,16 +240,9 @@ var c = 'some'
 
 ```javascript
 
-var a = '\'some\'' 
- // comment
-+ '\'text\'';
-var b = '\'some\'' 
- /* comment */
-+ '\'text\'';
-var c = '\'some\'' 
- /* comment */
-+/*comment1*/ '\'text\'';
-
+var a = '\'some\'' +  '\'text\'';
+var b = '\'some\'' +  '\'text\'';
+var c = '\'some\'' +  '\'text\'';
 ```
 
 ### Diagnostics

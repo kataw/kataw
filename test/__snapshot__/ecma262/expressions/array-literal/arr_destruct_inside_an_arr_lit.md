@@ -86,8 +86,8 @@
                     "start": 0,
                     "end": 23
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 23
             },
             "flags": 16,
@@ -108,8 +108,7 @@
 
 ```javascript
 
-(foo, [bar, baz,] = doo);
-
+(foo, [bar, baz] = doo);
 ```
 
 ### Diagnostics

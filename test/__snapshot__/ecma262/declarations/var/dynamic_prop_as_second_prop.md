@@ -136,11 +136,7 @@ var {a, [x]: y} = a;
 
 ```javascript
 
-var {
-  a,
-  [x]: y
-} = a;
-
+var {a, [x]: y} = a;
 ```
 
 ### Diagnostics

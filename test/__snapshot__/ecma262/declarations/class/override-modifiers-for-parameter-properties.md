@@ -187,12 +187,13 @@ class D extends B {
 
 ```javascript
 
-class D extends B {
-  constructor(foo) {
-    super(foo);
+class D  extends B {
+  constructor(foo){
+    super (
+      foo
+    );
   }
 }
-
 ```
 
 ### Diagnostics

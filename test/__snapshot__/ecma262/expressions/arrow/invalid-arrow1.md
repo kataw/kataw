@@ -128,7 +128,7 @@ y = (x => {}(0));
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
                     "start": 1,
                     "end": 10
                 },
@@ -250,7 +250,7 @@ y = (x => {}(0));
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 19,
                     "end": 34
                 },
@@ -269,7 +269,7 @@ y = (x => {}(0));
                     "start": 37,
                     "end": 39
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 16,
                 "end": 39
             },
@@ -355,7 +355,7 @@ y = (x => {}(0));
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 43,
                     "end": 54
                 },
@@ -374,7 +374,7 @@ y = (x => {}(0));
                     "start": 57,
                     "end": 59
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 40,
                 "end": 59
             },
@@ -477,7 +477,7 @@ y = (x => {}(0));
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 63,
                     "end": 78
                 },
@@ -496,7 +496,7 @@ y = (x => {}(0));
                     "start": 81,
                     "end": 83
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 60,
                 "end": 83
             },
@@ -599,7 +599,7 @@ y = (x => {}(0));
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 87,
                     "end": 106
                 },
@@ -618,7 +618,7 @@ y = (x => {}(0));
                     "start": 109,
                     "end": 111
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 84,
                 "end": 111
             },
@@ -706,7 +706,7 @@ y = (x => {}(0));
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 115,
                     "end": 132
                 },
@@ -725,7 +725,7 @@ y = (x => {}(0));
                     "start": 135,
                     "end": 137
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 112,
                 "end": 137
             },
@@ -811,7 +811,7 @@ y = (x => {}(0));
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 141,
                     "end": 156
                 },
@@ -830,7 +830,7 @@ y = (x => {}(0));
                     "start": 159,
                     "end": 161
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 138,
                 "end": 161
             },
@@ -933,7 +933,7 @@ y = (x => {}(0));
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 165,
                     "end": 184
                 },
@@ -952,7 +952,7 @@ y = (x => {}(0));
                     "start": 187,
                     "end": 189
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 162,
                 "end": 189
             },
@@ -970,7 +970,7 @@ y = (x => {}(0));
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 193,
                     "end": 199
                 },
@@ -989,7 +989,7 @@ y = (x => {}(0));
                     "start": 202,
                     "end": 205
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 190,
                 "end": 205
             },
@@ -1013,7 +1013,7 @@ y = (x => {}(0));
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 210,
                     "end": 221
                 },
@@ -1032,7 +1032,7 @@ y = (x => {}(0));
                     "start": 224,
                     "end": 227
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 207,
                 "end": 227
             },
@@ -1058,8 +1058,8 @@ y = (x => {}(0));
                     "start": 232,
                     "end": 232
                 },
-                "flags": 32,
-                "start": 229,
+                "flags": 229,
+                "start": 33,
                 "end": 232
             },
             "flags": 16,
@@ -1141,8 +1141,8 @@ y = (x => {}(0));
                     "start": 242,
                     "end": 247
                 },
-                "flags": 32,
-                "start": 242,
+                "flags": 242,
+                "start": 33,
                 "end": 247
             },
             "flags": 16,
@@ -1252,8 +1252,8 @@ y = (x => {}(0));
                     "start": 258,
                     "end": 270
                 },
-                "flags": 32,
-                "start": 258,
+                "flags": 258,
+                "start": 33,
                 "end": 270
             },
             "flags": 16,
@@ -1334,7 +1334,7 @@ y = (x => {}(0));
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 280,
                     "end": 292
                 },
@@ -1359,7 +1359,7 @@ y = (x => {}(0));
                     "start": 295,
                     "end": 298
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 277,
                 "end": 298
             },
@@ -1377,7 +1377,7 @@ y = (x => {}(0));
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 302,
                     "end": 306
                 },
@@ -1396,7 +1396,7 @@ y = (x => {}(0));
                     "start": 309,
                     "end": 312
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 299,
                 "end": 312
             },
@@ -1422,7 +1422,7 @@ y = (x => {}(0));
                         "kind": 342,
                         "parameters": [],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 33,
                         "start": 317,
                         "end": 317
                     },
@@ -1602,8 +1602,8 @@ y = (x => {}(0));
                     "start": 357,
                     "end": 358
                 },
-                "flags": 32,
-                "start": 356,
+                "flags": 356,
+                "start": 32,
                 "end": 359
             },
             "flags": 16,
@@ -1636,7 +1636,7 @@ y = (x => {}(0));
                         "kind": 342,
                         "parameters": [],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 367,
                         "end": 367
                     },
@@ -1665,7 +1665,7 @@ y = (x => {}(0));
                     "start": 365,
                     "end": 374
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 360,
                 "end": 374
             },
@@ -1685,8 +1685,8 @@ y = (x => {}(0));
                     "start": 375,
                     "end": 376
                 },
-                "flags": 32,
-                "start": 374,
+                "flags": 374,
+                "start": 32,
                 "end": 377
             },
             "flags": 16,
@@ -1762,8 +1762,8 @@ y = (x => {}(0));
                     "start": 378,
                     "end": 398
                 },
-                "flags": 32,
-                "start": 378,
+                "flags": 378,
+                "start": 33,
                 "end": 399
             },
             "flags": 16,
@@ -1784,7 +1784,7 @@ y = (x => {}(0));
                             "kind": 342,
                             "parameters": [],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 404,
                             "end": 404
                         },
@@ -1813,8 +1813,8 @@ y = (x => {}(0));
                         "start": 403,
                         "end": 411
                     },
-                    "flags": 32,
-                    "start": 400,
+                    "flags": 400,
+                    "start": 33,
                     "end": 411
                 },
                 "argumentList": {
@@ -1928,11 +1928,11 @@ y = (x => {}(0));
                         "start": 421,
                         "end": 433
                     },
-                    "flags": 32,
-                    "start": 421,
+                    "flags": 421,
+                    "start": 32,
                     "end": 434
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 416,
                 "end": 434
             },
@@ -2009,8 +2009,8 @@ y = (x => {}(0));
                     "start": 435,
                     "end": 455
                 },
-                "flags": 32,
-                "start": 435,
+                "flags": 435,
+                "start": 33,
                 "end": 456
             },
             "flags": 16,
@@ -2086,8 +2086,8 @@ y = (x => {}(0));
                     "start": 457,
                     "end": 477
                 },
-                "flags": 32,
-                "start": 457,
+                "flags": 457,
+                "start": 33,
                 "end": 478
             },
             "flags": 16,
@@ -2163,8 +2163,8 @@ y = (x => {}(0));
                     "start": 479,
                     "end": 499
                 },
-                "flags": 32,
-                "start": 479,
+                "flags": 479,
+                "start": 33,
                 "end": 500
             },
             "flags": 16,
@@ -2240,8 +2240,8 @@ y = (x => {}(0));
                     "start": 501,
                     "end": 521
                 },
-                "flags": 32,
-                "start": 501,
+                "flags": 501,
+                "start": 33,
                 "end": 522
             },
             "flags": 16,

@@ -78,8 +78,7 @@ const {} = obj;
 
 ```javascript
 
-const { } = obj;
-
+const {} = obj;
 ```
 
 ### Diagnostics

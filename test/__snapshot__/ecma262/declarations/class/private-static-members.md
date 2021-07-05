@@ -338,7 +338,7 @@ class Foo {
                                                         "start": 102,
                                                         "end": 104
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 88,
                                                     "end": 104
                                                 },
@@ -386,7 +386,7 @@ class Foo {
                                                         "start": 117,
                                                         "end": 119
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 104,
                                                     "end": 119
                                                 },
@@ -481,17 +481,16 @@ class Foo {
 ```javascript
 
 class Foo {
-  static #x
-  static get #y() {}
-  static set #y(x) {}
-  static #z() {}
-  foo() {
+  static #x;
+  static get #y(){}
+  static set #y(x){}
+  static #z(){}
+  foo(){
     Foo.#x += 1;
     Foo.#y += 1;
     Foo.#z();
   }
 }
-
 ```
 
 ### Diagnostics

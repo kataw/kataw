@@ -128,8 +128,8 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                                     "start": 39,
                                                     "end": 44
                                                 },
-                                                "flags": 32,
-                                                "start": 37,
+                                                "flags": 37,
+                                                "start": 32,
                                                 "end": 45
                                             },
                                             "flags": 96,

@@ -228,13 +228,11 @@ class Foo {
 ```javascript
 
 class Foo {
-  #x
-  ;
-  constructor() {
-    delete this?.#x;
+  #x;;
+  constructor(){
+    delete this ?.#x;
   }
 }
-
 ```
 
 ### Diagnostics

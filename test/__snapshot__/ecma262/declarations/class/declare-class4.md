@@ -79,8 +79,7 @@ declare var foo;
 
 ```javascript
 
-var foo;
-
+declare var foo;
 ```
 
 ### Diagnostics

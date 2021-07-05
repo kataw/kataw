@@ -64,8 +64,7 @@
 
 ```javascript
 
-[this,];
-
+[this ];
 ```
 
 ### Diagnostics

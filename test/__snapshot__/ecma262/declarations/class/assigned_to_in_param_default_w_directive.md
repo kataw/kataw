@@ -100,7 +100,7 @@ class c {foo(x=eval=y){ "use strict"; }}
                                                     "start": 20,
                                                     "end": 21
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 15,
                                                 "end": 21
                                             },

@@ -163,9 +163,8 @@ function *f(){ return [...yield x]; }
 ```javascript
 
 function * f() {
-  return [...yield  x];
+  return [...yield x];
 }
-
 ```
 
 ### Diagnostics

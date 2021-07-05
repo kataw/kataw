@@ -128,11 +128,8 @@ class c {eval(){ "use strict"; }}
 ```javascript
 
 class c {
-  eval() {
-  '"use strict"';
-  }
+  eval(){}
 }
-
 ```
 
 ### Diagnostics

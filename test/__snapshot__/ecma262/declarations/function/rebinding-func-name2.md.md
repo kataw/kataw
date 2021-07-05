@@ -117,7 +117,7 @@ x=function f(){ var f }
                     "start": 2,
                     "end": 23
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 23
             },
@@ -142,7 +142,6 @@ x=function f(){ var f }
 x = function f() {
   var f;
 };
-
 ```
 
 ### Diagnostics

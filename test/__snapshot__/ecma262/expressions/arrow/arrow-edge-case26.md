@@ -131,8 +131,7 @@ a ? async (b) : c => d;
 
 ```javascript
 
-a ? async(b) : c => d;
-
+a ? async(b) : c =>  d;
 ```
 
 ### Diagnostics

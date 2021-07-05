@@ -139,7 +139,6 @@ declare class B {
 ```javascript
 
 declare class B { static 1(): {} }
-
 ```
 
 ### Diagnostics

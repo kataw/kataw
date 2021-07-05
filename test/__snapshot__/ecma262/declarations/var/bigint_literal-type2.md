@@ -88,7 +88,6 @@ var a: 0x7Bn
 ```javascript
 
 var a: 0x7bn;
-
 ```
 
 ### Diagnostics

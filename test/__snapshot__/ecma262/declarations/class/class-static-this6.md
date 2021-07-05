@@ -152,7 +152,7 @@ x = class { static x = class { y = this } }
                     "start": 3,
                     "end": 43
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 43
             },
@@ -176,10 +176,9 @@ x = class { static x = class { y = this } }
 
 x = class  {
   static x = class  {
-    y = this
-  }
+    y = this ;
+  };
 };
-
 ```
 
 ### Diagnostics

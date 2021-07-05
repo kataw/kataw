@@ -165,7 +165,7 @@ x = class { static x = class { [this.y] } }
                     "start": 3,
                     "end": 43
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 43
             },
@@ -189,10 +189,9 @@ x = class { static x = class { [this.y] } }
 
 x = class  {
   static x = class  {
-    [this.y]
-  }
+    [this .y];
+  };
 };
-
 ```
 
 ### Diagnostics

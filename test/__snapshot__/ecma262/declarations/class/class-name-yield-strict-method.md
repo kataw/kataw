@@ -343,19 +343,18 @@ function *f() {
 
 ```javascript
 
-'"use strict"';
+"\"use strict\"";
 function f() {
   class C {
-    yield() {}
+    yield(){}
   }
 }
-'"use strict"';
+"\"use strict\"";
 function * f() {
   class C {
-    yield() {}
+    yield(){}
   }
 }
-
 ```
 
 ### Diagnostics

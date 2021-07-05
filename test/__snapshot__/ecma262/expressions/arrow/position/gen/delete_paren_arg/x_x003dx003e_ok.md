@@ -66,8 +66,8 @@ delete (x => ok)
                         "start": 8,
                         "end": 15
                     },
-                    "flags": 32,
-                    "start": 6,
+                    "flags": 6,
+                    "start": 32,
                     "end": 16
                 },
                 "flags": 32,
@@ -92,8 +92,7 @@ delete (x => ok)
 
 ```javascript
 
-delete (x => ok);
-
+delete (x =>  ok);
 ```
 
 ### Diagnostics

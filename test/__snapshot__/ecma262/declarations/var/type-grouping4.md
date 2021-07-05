@@ -123,7 +123,6 @@ var a: (typeof A)
 ```javascript
 
 var a: (typeof A);
-
 ```
 
 ### Diagnostics

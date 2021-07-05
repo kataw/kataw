@@ -153,10 +153,8 @@ class A {
 ```javascript
 
 class A {
-  @foo
-  get getter() {}
+  @ foo get getter(){}
 }
-
 ```
 
 ### Diagnostics

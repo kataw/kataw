@@ -88,10 +88,8 @@ if (a) let
 
 ```javascript
 
-if (a)
-  let;
-{ }
-
+if (a) let;
+{}
 ```
 
 ### Diagnostics

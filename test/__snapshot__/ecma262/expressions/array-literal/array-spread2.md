@@ -216,7 +216,6 @@
 
 [a, b, ...rest] = {};
 [a, , ...rest] = {};
-
 ```
 
 ### Diagnostics

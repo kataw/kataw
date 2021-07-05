@@ -136,10 +136,7 @@ function a({x = 10}) {}
 
 ```javascript
 
-function a({
-    x = 10
-  }) {}
-
+function a({x = 10}) {}
 ```
 
 ### Diagnostics

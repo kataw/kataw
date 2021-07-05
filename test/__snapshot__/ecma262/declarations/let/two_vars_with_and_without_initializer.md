@@ -132,7 +132,6 @@ let [foo=a, bar] = arr;
 ```javascript
 
 let [foo = a, bar] = arr;
-
 ```
 
 ### Diagnostics

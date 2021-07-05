@@ -124,9 +124,8 @@ class C { async#aaa(){} }
 ```javascript
 
 class C {
-  async #aaa() {}
+  async #aaa(){}
 }
-
 ```
 
 ### Diagnostics

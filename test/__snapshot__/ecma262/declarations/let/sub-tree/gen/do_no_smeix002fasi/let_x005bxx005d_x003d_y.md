@@ -71,7 +71,7 @@ do let [x] = y while (a);
                         "start": 12,
                         "end": 14
                     },
-                    "flags": 32,
+                    "flags": 0,
                     "start": 2,
                     "end": 14
                 },
@@ -81,7 +81,7 @@ do let [x] = y while (a);
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
                 "start": 14,
                 "end": 20
             },

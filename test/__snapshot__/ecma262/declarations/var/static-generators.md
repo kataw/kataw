@@ -132,10 +132,8 @@ class Foo {
 ```javascript
 
 class Foo {
-  static * bar() {
-  }
+  static * bar(){}
 }
-
 ```
 
 ### Diagnostics

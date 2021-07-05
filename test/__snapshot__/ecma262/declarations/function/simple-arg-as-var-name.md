@@ -126,7 +126,6 @@ function f(x) { var x; }
 function f(x) {
   var x;
 }
-
 ```
 
 ### Diagnostics

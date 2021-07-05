@@ -131,7 +131,6 @@ foo ? bar : baz => {}, bar
 ```javascript
 
 foo ? bar : baz => {}, bar;
-
 ```
 
 ### Diagnostics

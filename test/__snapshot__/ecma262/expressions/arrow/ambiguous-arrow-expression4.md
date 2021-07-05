@@ -74,8 +74,8 @@
                         "start": 5,
                         "end": 11
                     },
-                    "flags": 32,
-                    "start": 3,
+                    "flags": 3,
+                    "start": 32,
                     "end": 12
                 },
                 "colonToken": {
@@ -117,8 +117,8 @@
                         "start": 16,
                         "end": 22
                     },
-                    "flags": 32,
-                    "start": 14,
+                    "flags": 14,
+                    "start": 32,
                     "end": 23
                 },
                 "flags": 96,
@@ -143,8 +143,7 @@
 
 ```javascript
 
-5 ? (t => 5) : (t => 5);
-
+5 ? (t =>  5) : (t =>  5);
 ```
 
 ### Diagnostics

@@ -114,11 +114,7 @@ const {x, y} = obj;
 
 ```javascript
 
-const {
-  x,
-  y
-} = obj;
-
+const {x, y} = obj;
 ```
 
 ### Diagnostics

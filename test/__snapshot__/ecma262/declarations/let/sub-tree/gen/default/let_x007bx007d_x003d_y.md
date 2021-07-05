@@ -137,10 +137,9 @@ switch (a) { default: let
 ```javascript
 
 switch (a) {
-  default: 
-    let { } = y;
+  default
+    let {} = y;
 }
-
 ```
 
 ### Diagnostics

@@ -94,10 +94,7 @@ function d(public){ "use strict"; }
 
 ```javascript
 
-function d(public) {
-'"use strict"';
-}
-
+function d(public) {}
 ```
 
 ### Diagnostics

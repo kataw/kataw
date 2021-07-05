@@ -172,10 +172,8 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
 ```javascript
 
 function foo() {
-'\'use strict\'';
-  function * a(b, c, d,) {}
+  function * a(b, c, d) {}
 }
-
 ```
 
 ### Diagnostics

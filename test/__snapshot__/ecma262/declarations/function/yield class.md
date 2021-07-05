@@ -132,10 +132,8 @@ function* bar() { yield class {} }
 ```javascript
 
 function * bar() {
-  yield  class  {
-  };
+  yield class  {};
 }
-
 ```
 
 ### Diagnostics

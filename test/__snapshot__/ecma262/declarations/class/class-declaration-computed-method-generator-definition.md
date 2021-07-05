@@ -133,9 +133,8 @@ class A {
 ```javascript
 
 class A {
-  * [1]() {}
+  * [1](){}
 }
-
 ```
 
 ### Diagnostics

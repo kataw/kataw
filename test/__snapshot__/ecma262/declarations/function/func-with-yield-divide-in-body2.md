@@ -103,7 +103,7 @@ function f2() { yield /=2 /d }
                                     "start": 24,
                                     "end": 28
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 15,
                                 "end": 28
                             },
@@ -140,9 +140,8 @@ function f2() { yield /=2 /d }
 ```javascript
 
 function f2() {
-  yield /= 2 / d;
+  yield /= 2 /  d;
 }
-
 ```
 
 ### Diagnostics

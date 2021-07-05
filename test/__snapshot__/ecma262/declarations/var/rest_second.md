@@ -113,7 +113,7 @@ export var a, ...b = 1;
                     "start": 20,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 17,
                 "end": 22
             },

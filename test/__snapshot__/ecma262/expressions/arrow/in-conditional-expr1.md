@@ -131,7 +131,6 @@
 ```javascript
 
 1 ? 0 : a => {}, 17, 42;
-
 ```
 
 ### Diagnostics

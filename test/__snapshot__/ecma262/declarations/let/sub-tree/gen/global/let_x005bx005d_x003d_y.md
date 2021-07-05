@@ -89,7 +89,6 @@ let
 ```javascript
 
 let [] = y;
-
 ```
 
 ### Diagnostics

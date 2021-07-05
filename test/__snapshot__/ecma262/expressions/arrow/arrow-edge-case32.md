@@ -85,7 +85,7 @@ let x = (y: any): (() => {}) => { };
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 9,
                                 "end": 28
                             },
@@ -193,8 +193,7 @@ let x = (y: any): (() => {}) => { };
 
 ```javascript
 
-let x = (y: any) => {};
-
+let x = (y: any ) => {};
 ```
 
 ### Diagnostics

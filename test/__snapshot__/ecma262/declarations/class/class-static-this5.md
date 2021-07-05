@@ -150,7 +150,7 @@ x = class Foo { static x = class extends this {} }
                     "start": 3,
                     "end": 50
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 50
             },
@@ -173,10 +173,8 @@ x = class Foo { static x = class extends this {} }
 ```javascript
 
 x = class Foo {
-  static x = class  extends this {
-  }
+  static x = class   extends this  {};
 };
-
 ```
 
 ### Diagnostics

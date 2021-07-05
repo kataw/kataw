@@ -79,7 +79,7 @@ const ...a = 1;
                     "start": 12,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 9,
                 "end": 14
             },

@@ -102,8 +102,7 @@ for (a in b) let
 
 for (a in b)
   let;
-{ }
-
+{}
 ```
 
 ### Diagnostics

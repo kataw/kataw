@@ -800,24 +800,12 @@ function printForStatement(node: ForStatement, printer: Printer): void {
   printKeyword(node.forKeyword, printer, node, /* addSpace */ true);
   let punctuatorPos = printPunctuator('(', printer, node.forKeyword.end, node, /* addSpace */ false);
   printForBinding(node.initializer, printer);
-  punctuatorPos = printPunctuator(
-    ';',
-    printer,
-    node.initializer ? node.initializer.end : punctuatorPos,
-    node,
-    /* addSpace */ false
-  );
+  punctuatorPos = printPunctuator(';', printer, node.initializer ? node.initializer.end : punctuatorPos, node, /* addSpace */ false);
   if (node.condition) {
     write(printer, ' ');
     printExpression(node.condition, printer, node);
   }
-  punctuatorPos = printPunctuator(
-    ';',
-    printer,
-    node.condition ? node.condition.end : punctuatorPos,
-    node,
-    /* addSpace */ false
-  );
+  punctuatorPos = printPunctuator(';', printer, node.condition ? node.condition.end : punctuatorPos, node, /* addSpace */ false);
   if (node.incrementor) {
     write(printer, ' ');
     printExpression(node.incrementor, printer, node);
@@ -856,13 +844,7 @@ function printForOfStatement(node: ForOfStatement, printer: Printer): void {
   if (node.awaitKeyword) {
     printKeyword(node.awaitKeyword, printer, node, /* addSpace */ true);
   }
-  printPunctuator(
-    '(',
-    printer,
-    node.awaitKeyword ? node.awaitKeyword.end : node.forKeyword.end,
-    node,
-    /* addSpace */ false
-  );
+  printPunctuator('(', printer, node.awaitKeyword ? node.awaitKeyword.end : node.forKeyword.end, node, /* addSpace */ false);
   printForBinding(node.initializer, printer);
   write(printer, ' ');
   printKeyword(node.ofKeyword, printer, node, /* addSpace */ true);
@@ -900,8 +882,7 @@ function printBlock(node: Block, printer: Printer, parentNode: BlockStatement): 
     (node.flags & NodeFlags.NewLine) === 0 && isEmptyBlock(node, parentNode, printer)
       ? PrinterContext.SpaceBetweenBraces |
           PrinterContext.SpaceBetweenSiblings |
-          PrinterContext.SingleLine |
-          PrinterContext.Braces
+          PrinterContext.SingleLine | PrinterContext.Braces
       : PrinterContext.Indented | PrinterContext.MultiLine | PrinterContext.NoSpaceIfEmpty | PrinterContext.Braces
   );
 }
@@ -1025,13 +1006,7 @@ function printSwitchStatement(node: SwitchStatement, printer: Printer): void {
 }
 
 function printCaseBlock(node: CaseBlock, printer: Printer, parentNode: SwitchStatement): void {
-  printStatementList(
-    printer,
-    node,
-    parentNode,
-    node.clauses as any,
-    PrinterContext.Indented | PrinterContext.MultiLine | PrinterContext.Braces
-  );
+  printStatementList(printer, node, parentNode, node.clauses as any, PrinterContext.Indented | PrinterContext.MultiLine | PrinterContext.Braces);
 }
 
 function printCaseClause(node: any | any, printer: Printer): void {
@@ -1241,10 +1216,7 @@ function printFunctioBody(node: any, printer: Printer, parentNode: any): void {
       node,
       parentNode,
       statements,
-      PrinterContext.SingleLine |
-        PrinterContext.SpaceBetweenSiblings |
-        PrinterContext.SpaceBetweenBraces |
-        PrinterContext.NoSpaceIfEmpty
+      PrinterContext.SingleLine | PrinterContext.SpaceBetweenSiblings | PrinterContext.SpaceBetweenBraces | PrinterContext.NoSpaceIfEmpty
     );
     printer.indent++;
   } else {
@@ -1458,7 +1430,7 @@ function printTail(node: any, printer: Printer): void {
   if (node.flags & NodeFlags.Declared) {
     printObjectType(node.body, printer, node);
   } else {
-    printPunctuator('{', printer, node.start, node, /* addSpace */ false);
+    printPunctuator('{', printer, node.start, node, /* addSpace */ false)
     printClassBody(node.body, printer, node);
     printPunctuator('}', printer, node.body.end, node, /* addSpace */ false);
   }
@@ -1503,21 +1475,10 @@ function printFieldDefinition(node: any, printer: Printer): void {
   printKeyword(node.optionalToken, printer, node, /* addSpace */ false);
 
   if (node.type) {
-    printPunctuator(
-      ':',
-      printer,
-      node.optionalToken ? node.optionalToken.end : node.key.end,
-      node,
-      /* addSpace */ true
-    );
+    printPunctuator(':', printer, node.optionalToken ? node.optionalToken.end : node.key.end, node, /* addSpace */ true);
     printStatement(node.type, printer, node);
   }
-  printInitializer(
-    node.initializer as any,
-    printer,
-    node.type ? node.type.end : node.optionalToken ? node.optionalToken.end : node.key.end,
-    node
-  );
+  printInitializer(node.initializer as any, printer, node.type ? node.type.end : node.optionalToken ? node.optionalToken.end : node.key.end, node);
 }
 
 function printBigIntLiteral(node: any, printer: Printer): void {
@@ -1541,7 +1502,7 @@ function printMemberAccessExpression(node: MemberAccessExpression, printer: Prin
   printStatement(node.member, printer, node);
   printPunctuator('[', printer, node.member.end, node, /* addSpace */ false);
   printStatement(node.expression, printer, node);
-  printPunctuator(']', printer, node.expression.end, node, /* addSpace */ false);
+    printPunctuator(']', printer, node.expression.end, node, /* addSpace */ false);
 }
 
 function printArrayType(node: ArrayType, printer: Printer): void {
@@ -1589,7 +1550,7 @@ function printArrowTypeParameter(node: ArrowTypeParameter, printer: Printer): vo
         printer,
         node.name ? node.name.end : node.optionalToken ? node.optionalToken.end : node.start,
         node,
-        /* addSpace */ true
+         /* addSpace */ true
       );
     }
     printStatement(node.types, printer, node);
@@ -1627,9 +1588,8 @@ function printFunctionTypeParameter(node: FunctionTypeParameter, printer: Printe
         ':',
         printer,
         node.name ? node.name.end : node.optionalToken ? node.optionalToken.end : node.start,
-        node,
-        /* addSpace */ true
-      );
+        node
+        , /* addSpace */ true);
     }
     printStatement(node.types, printer, node);
   }
@@ -1706,8 +1666,7 @@ function printObjectTypeInternalSlot(node: ObjectTypeInternalSlot, printer: Prin
     '[',
     printer,
     node.protoKeyword ? node.protoKeyword.end : node.staticKeyword ? node.staticKeyword.end : node.start,
-    node,
-    /* addSpace */ true
+    node, /* addSpace */ true
   );
   printPunctuator('[', printer, pos, node, /* addSpace */ false);
   printStatement(node.name, printer, node);
@@ -1725,13 +1684,7 @@ function printObjectTypeProperty(node: ObjectTypeProperty, printer: Printer): vo
   if (node.type.kind === SyntaxKind.FunctionType) {
     printStatement(node.type, printer, node);
   } else {
-    printPunctuator(
-      ':',
-      printer,
-      node.optionalToken ? node.optionalToken.end : node.key.end,
-      node,
-      /* addSpace */ true
-    );
+    printPunctuator(':', printer, node.optionalToken ? node.optionalToken.end : node.key.end, node, /* addSpace */ true);
     printStatement(node.type, printer, node);
   }
 }
@@ -1750,14 +1703,12 @@ function printObjectType(node: ObjectType, printer: Printer, parentNode: SyntaxN
         PrinterContext.Indented |
         PrinterContext.OptionalIfEmpty |
         PrinterContext.NoSpaceIfEmpty |
-        PrinterContext.CommaDelimited |
-        PrinterContext.Braces
+        PrinterContext.CommaDelimited | PrinterContext.Braces
       : PrinterContext.SingleLine |
         PrinterContext.SpaceBetweenBraces |
         PrinterContext.SpaceBetweenSiblings |
         PrinterContext.NoSpaceIfEmpty |
-        PrinterContext.CommaDelimited |
-        PrinterContext.Braces;
+        PrinterContext.CommaDelimited | PrinterContext.Braces;
   if (node.trailingComma) flags |= PrinterContext.AllowTrailingComma;
   printStatementList(printer, node, parentNode, node.properties, flags);
 }
@@ -1834,12 +1785,8 @@ function printTupleType(node: TupleType, printer: Printer): void {
       ? PrinterContext.CommaDelimited |
           PrinterContext.SpaceBetweenSiblings |
           PrinterContext.SingleLine |
-          PrinterContext.AllowTrailingComma |
-          PrinterContext.SquareBrackets
-      : PrinterContext.CommaDelimited |
-          PrinterContext.SpaceBetweenSiblings |
-          PrinterContext.SingleLine |
-          PrinterContext.SquareBrackets
+          PrinterContext.AllowTrailingComma | PrinterContext.SquareBrackets
+      : PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.SquareBrackets
   );
   write(printer, ']');
 }
@@ -2012,16 +1959,16 @@ export function shouldprintWhitespaceBeforeOperand(node: any): boolean {
     operandToken.kind === SyntaxKind.DeleteKeyword ||
     operandToken.kind === SyntaxKind.InKeyword ||
     operandToken.kind === SyntaxKind.TypeofKeyword ||
-    ((operand.kind === SyntaxKind.PrefixUpdateExpression || operand.kind === SyntaxKind.UnaryExpression) &&
-      ((operandToken.kind === SyntaxKind.Add &&
+    (operandToken.kind === SyntaxKind.PrefixUpdateExpression &&
+      ((node.operandToken.kind === SyntaxKind.Add &&
         (operand.operandToken.kind === SyntaxKind.Add || operand.operandToken.kind === SyntaxKind.Increment)) ||
-        (operandToken.kind === SyntaxKind.Subtract &&
+        (node.operandToken.kind === SyntaxKind.Subtract &&
           (operand.operandToken.kind === SyntaxKind.Subtract || operand.operandToken.kind === SyntaxKind.Decrement))))
   );
 }
 
 function printUnaryExpression(node: any, printer: Printer): void {
-  printKeyword(node.operandToken, printer, node, /* addSpace */ false);
+  printKeyword(node.operandToken, printer, node, /* addSpace */ true);
   if (shouldprintWhitespaceBeforeOperand(node)) {
     write(printer, ' ');
   }
@@ -2118,7 +2065,9 @@ function printImportClause(node: any, printer: Printer): void {
     write(printer, ' ');
     printStatement(node.nameSpaceImport, printer, node);
   }
-  printStatement(node.namedImports, printer, node);
+  if (node.namedImports) {
+    printStatement(node.namedImports, printer, node);
+  }
 }
 
 function printFromClause(node: any, printer: Printer): void {
@@ -2260,16 +2209,12 @@ export function printNewTarget(node: any, printer: Printer) {
   printKeyword(node.targetIdentifier, printer, node, /* addSpace */ false);
 }
 
-function printInitializer(
-  node: ExpressionNode | undefined,
-  printer: Printer,
-  equalCommentStartPos: number,
-  container: SyntaxNode
-) {
+
+function printInitializer(node: ExpressionNode | undefined, printer: Printer, equalCommentStartPos: number, container: SyntaxNode) {
   if (node) {
-    write(printer, ' ');
-    printPunctuator('=', printer, equalCommentStartPos, node, /* addSpace */ false);
-    write(printer, ' ');
-    printExpression(node, printer, node);
+      write(printer, ' ');
+      printPunctuator('=', printer, equalCommentStartPos, node, /* addSpace */ false);
+      write(printer, ' ');
+      printExpression(node, printer, node);
   }
 }

@@ -115,7 +115,7 @@ var z = x + x;
                     "start": 20,
                     "end": 28
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 11,
                 "end": 28
             },
@@ -201,10 +201,9 @@ var z = x + x;
 
 ```javascript
 
-var x: any;
-x.name = '"hello"';
-var z = x + x;
-
+var x: any ;
+x.name = "\"hello\"";
+var z = x +  x;
 ```
 
 ### Diagnostics

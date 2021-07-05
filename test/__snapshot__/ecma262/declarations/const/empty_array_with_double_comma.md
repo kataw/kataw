@@ -110,8 +110,7 @@ const [,,] = x;
 
 ```javascript
 
-const [, ,] = x;
-
+const [, ] = x;
 ```
 
 ### Diagnostics

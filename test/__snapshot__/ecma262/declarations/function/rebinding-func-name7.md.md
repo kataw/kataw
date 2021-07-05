@@ -175,7 +175,6 @@ function g() {
   function f() {}
   function f() {}
 }
-
 ```
 
 ### Diagnostics

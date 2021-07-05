@@ -106,10 +106,7 @@ let {x,} = obj;
 
 ```javascript
 
-let {
-  x,
-} = obj;
-
+let {x} = obj;
 ```
 
 ### Diagnostics

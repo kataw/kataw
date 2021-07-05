@@ -65,7 +65,7 @@ var f = (): (number) => 123;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 9,
                                 "end": 20
                             },
@@ -168,7 +168,7 @@ var f = (): (number) => 123;
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 37,
                                 "end": 37
                             },
@@ -237,9 +237,8 @@ var f = (): (number) => 123;
 
 ```javascript
 
-var f = (x) => 1;
-var f = () => 123;
-
+var f = (x) =>  1;
+var f = () =>  123;
 ```
 
 ### Diagnostics

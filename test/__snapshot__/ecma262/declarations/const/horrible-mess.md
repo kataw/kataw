@@ -243,7 +243,7 @@ const processArgs =
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 33,
                                 "start": 39,
                                 "end": 65
                             },
@@ -514,7 +514,7 @@ const processArgs =
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 33,
                                     "start": 84,
                                     "end": 119
                                 },
@@ -694,7 +694,7 @@ const processArgs =
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 33,
                                         "start": 126,
                                         "end": 193
                                     },
@@ -934,15 +934,15 @@ const processArgs =
                                         "start": 196,
                                         "end": 247
                                     },
-                                    "flags": 32,
+                                    "flags": 33,
                                     "start": 122,
                                     "end": 247
                                 },
-                                "flags": 32,
+                                "flags": 33,
                                 "start": 68,
                                 "end": 247
                             },
-                            "flags": 32,
+                            "flags": 33,
                             "start": 19,
                             "end": 247
                         },
@@ -973,8 +973,14 @@ const processArgs =
 
 ```javascript
 
-const processArgs = <A1: {}, A2: {}>(process: (args: A1) => A2) => <S, C, I, R>(resolver: Resolver<S, A2, C, I, R>) => (src: S, args: A1, appContext: C, info: I) => resolver(src, process(args), appContext, info);
-
+const processArgs = <A1: {},
+  A2: {}>(process: (args: A1) =>  A2) =>  <S,
+  C,
+  I,
+  R>(resolver: Resolver<S, A2, C, I, R>) =>  (src: S,
+  args: A1,
+  appContext: C,
+  info: I) =>  resolver(src, process(args), appContext, info);
 ```
 
 ### Diagnostics

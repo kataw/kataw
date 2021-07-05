@@ -137,9 +137,8 @@ class x {static get eval(){}}
 ```javascript
 
 class x {
-  static get eval() {}
+  static get eval(){}
 }
-
 ```
 
 ### Diagnostics

@@ -118,7 +118,6 @@ foo(async => {}).bar
 ```javascript
 
 foo(async => {}).bar;
-
 ```
 
 ### Diagnostics

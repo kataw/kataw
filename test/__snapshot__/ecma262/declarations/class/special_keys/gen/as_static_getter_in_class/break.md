@@ -137,9 +137,8 @@ class x {static get break(){}}
 ```javascript
 
 class x {
-  static get break() {}
+  static get break(){}
 }
-
 ```
 
 ### Diagnostics

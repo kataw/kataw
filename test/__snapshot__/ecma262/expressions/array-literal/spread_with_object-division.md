@@ -139,8 +139,7 @@
 
 ```javascript
 
-[...{ x : y } / y];
-
+[...{ x: y } /  y];
 ```
 
 ### Diagnostics

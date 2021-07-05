@@ -166,9 +166,8 @@ function fn(x = async function () { await 1 }) {}
 ```javascript
 
 function fn(x = async function () {
-    await 1;
-  }) {}
-
+  await 1;
+}) {}
 ```
 
 ### Diagnostics

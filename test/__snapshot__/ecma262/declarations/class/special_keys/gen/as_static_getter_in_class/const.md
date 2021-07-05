@@ -137,9 +137,8 @@ class x {static get const(){}}
 ```javascript
 
 class x {
-  static get const() {}
+  static get const(){}
 }
-
 ```
 
 ### Diagnostics

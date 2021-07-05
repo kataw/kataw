@@ -132,9 +132,8 @@ class x {get public(){}}
 ```javascript
 
 class x {
-  get public() {}
+  get public(){}
 }
-
 ```
 
 ### Diagnostics

@@ -230,10 +230,11 @@ class A {
 ```javascript
 
 class A {
-  @a.b.c.d(e, f)
-  m() {}
+  @ a.b.c.d(
+    e,
+    f
+  ) m(){}
 }
-
 ```
 
 ### Diagnostics

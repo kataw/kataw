@@ -305,7 +305,7 @@ var y: Array<string> = ['3', ...x];
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 58,
                                 "end": 63
                             },
@@ -416,7 +416,7 @@ var y: Array<string> = ['3', ...x];
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 83,
                                 "end": 88
                             },
@@ -733,14 +733,17 @@ var y: Array<string> = ['3', ...x];
 
 ```javascript
 
-var A = [1, 2, 3,];
+var A = [1, 2, 3];
 var B = [...A];
-var C = [1, 2, 3,];
-B.sort((a, b) => a - b);
-C.sort((a, b) => a - b);
-var x: Array<string> = ['\'1\'', '\'2\'',];
-var y: Array<string> = ['\'3\'', ...x];
-
+var C = [1, 2, 3];
+B.sort(
+  (a, b) =>  a -  b
+);
+C.sort(
+  (a, b) =>  a -  b
+);
+var x: Array<string > = ['\'1\'', '\'2\''];
+var y: Array<string > = ['\'3\'', ...x];
 ```
 
 ### Diagnostics

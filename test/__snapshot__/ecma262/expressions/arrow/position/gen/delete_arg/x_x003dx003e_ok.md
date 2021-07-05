@@ -86,8 +86,7 @@ delete x => ok
 
 ```javascript
 
-delete x => ok;
-
+delete x =>  ok;
 ```
 
 ### Diagnostics

@@ -130,10 +130,8 @@ class A {async foo() { }};
 ```javascript
 
 class A {
-  async foo() {}
+  async foo(){}
 }
-;
-
 ```
 
 ### Diagnostics

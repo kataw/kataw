@@ -76,7 +76,7 @@ for (;;) let
                         "start": 17,
                         "end": 19
                     },
-                    "flags": 32,
+                    "flags": 1,
                     "start": 8,
                     "end": 19
                 },

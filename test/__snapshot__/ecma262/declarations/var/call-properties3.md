@@ -424,7 +424,7 @@ var z : Object = (x) => "hi"
                     "start": 306,
                     "end": 310
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 295,
                 "end": 310
             },
@@ -643,7 +643,7 @@ var z : Object = (x) => "hi"
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 379,
                                 "end": 381
                             },
@@ -825,7 +825,7 @@ var z : Object = (x) => "hi"
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 490,
                                 "end": 492
                             },
@@ -979,7 +979,7 @@ var z : Object = (x) => "hi"
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 572,
                                 "end": 574
                             },
@@ -1130,7 +1130,7 @@ var z : Object = (x) => "hi"
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 647,
                                 "end": 649
                             },
@@ -1275,7 +1275,7 @@ var z : Object = (x) => "hi"
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 726,
                                 "end": 726
                             },
@@ -1404,7 +1404,7 @@ var z : Object = (x) => "hi"
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 768,
                                 "end": 768
                             },
@@ -1567,7 +1567,7 @@ var z : Object = (x) => "hi"
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 823,
                                 "end": 825
                             },
@@ -1699,7 +1699,7 @@ var z : Object = (x) => "hi"
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 915,
                                 "end": 917
                             },
@@ -1797,7 +1797,7 @@ var z : Object = (x) => "hi"
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 944,
                                 "end": 946
                             },
@@ -1846,31 +1846,23 @@ var z : Object = (x) => "hi"
 ### Printed
 
 ```javascript
-// Expecting properties that don't exist should be an error
-var a: { someProp: number } = function () {};
- // Expecting properties that do exist should be fine
+
+var a: { someProp: number  } = function () {};
 var b: { apply: Function } = function () {};
- // Expecting properties in the functions statics should be fine
 var f = function () {};
 f.myProp = 123;
-var c: { myProp: number } = f;
-var a: { (x: number): string } = (x) => x.toString();
- // ...and it should notice when the return type is wrong
-var b: { (x: number): number } = (x) => '"hi"';
- // ...or if the param type is wrong
-var c: { (x: string): string } = (x) => x.toFixed();
- // ...or if the arity is wrong
-var d: { (): string } = (x) => '"hi"';
- // ...but subtyping rules still apply
-var e: { (x: any): void } = () => {};// arity
-var f: { (): mixed } = () => '"hi"';// return type
-var g: { (x: Date): void } = (x) => {
-  x * 2;
-};// param type (date < number)
- // A function can be an object
-var y: {} = (x) => '"hi"';
-var z: Object = (x) => '"hi"';
-
+var c: { myProp: number  } = f;
+var a: { (x: number ): string  } = (x) =>  x.toString();
+var b: { (x: number ): number  } = (x) =>  "\"hi\"";
+var c: { (x: string ): string  } = (x) =>  x.toFixed();
+var d: { (): string  } = (x) =>  "\"hi\"";
+var e: { (x: any ): void  } = () => {};
+var f: { (): mixed } = () =>  "\"hi\"";
+var g: { (x: Date): void  } = (x) => {
+    x *  2;
+  };
+var y: {} = (x) =>  "\"hi\"";
+var z: Object = (x) =>  "\"hi\"";
 ```
 
 ### Diagnostics

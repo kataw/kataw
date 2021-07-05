@@ -141,9 +141,8 @@ class x {set yield(x){}}
 ```javascript
 
 class x {
-  set yield(x) {}
+  set yield(x){}
 }
-
 ```
 
 ### Diagnostics

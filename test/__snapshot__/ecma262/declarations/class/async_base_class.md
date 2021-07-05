@@ -420,8 +420,8 @@ async function foo() {
                                             "start": 144,
                                             "end": 151
                                         },
-                                        "flags": 32,
-                                        "start": 142,
+                                        "flags": 142,
+                                        "start": 32,
                                         "end": 152
                                     },
                                     "typeParameter": null,
@@ -492,18 +492,14 @@ async function foo() {
 
 ```javascript
 
-class C {
-}
-;
+class C {}
 var P: Promise<Class<C>> = new Promise(function (resolve, reject) {
-  resolve(C);
-});
+      resolve(C);
+    });
 async function foo() {
-  class Bar extends (await P) {
-  }
+  class Bar  extends (await P) {}
   return Bar;
 }
-
 ```
 
 ### Diagnostics

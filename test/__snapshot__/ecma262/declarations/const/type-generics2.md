@@ -125,7 +125,7 @@ const identity = <T>(t: T): T => t;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 21,
                                 "end": 29
                             },
@@ -197,8 +197,7 @@ const identity = <T>(t: T): T => t;
 
 ```javascript
 
-const identity = <T>(t: T) => t;
-
+const identity = <T>(t: T) =>  t;
 ```
 
 ### Diagnostics

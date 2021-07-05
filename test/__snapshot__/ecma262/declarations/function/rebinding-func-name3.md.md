@@ -134,7 +134,7 @@ x={f(){ var f }}
                     "start": 2,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 16
             },
@@ -156,10 +156,9 @@ x={f(){ var f }}
 
 ```javascript
 
-x = { f() {
+x = { f(){
     var f;
   } };
-
 ```
 
 ### Diagnostics

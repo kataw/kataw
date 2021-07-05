@@ -141,7 +141,6 @@ function f(x) {
     let x;
   }
 }
-
 ```
 
 ### Diagnostics

@@ -128,8 +128,8 @@ function* wrap() {
                                     "start": 24,
                                     "end": 37
                                 },
-                                "flags": 32,
-                                "start": 18,
+                                "flags": 18,
+                                "start": 35,
                                 "end": 38
                             },
                             "flags": 16,
@@ -165,9 +165,8 @@ function* wrap() {
 ```javascript
 
 function * wrap() {
-  ({ * yield() {} });
+  ({ * yield(){} });
 }
-
 ```
 
 ### Diagnostics

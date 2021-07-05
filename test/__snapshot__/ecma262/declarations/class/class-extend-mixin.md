@@ -148,9 +148,9 @@ class Foo<T> extends mixin(Bar) { }
 
 ```javascript
 
-class Foo<T> extends mixin(Bar) {
-}
-
+class Foo<T>  extends mixin(
+  Bar
+) {}
 ```
 
 ### Diagnostics

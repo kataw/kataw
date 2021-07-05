@@ -411,11 +411,10 @@ function test1() {
   }
   async function bar() {
     var a = await foo();
-    var b: number = a;// valid
-    var c: string = a;// Error: number ~> string
+    var b: number  = a;
+    var c: string  = a;
   }
 }
-
 ```
 
 ### Diagnostics

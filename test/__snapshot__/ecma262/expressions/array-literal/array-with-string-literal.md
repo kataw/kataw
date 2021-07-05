@@ -58,8 +58,7 @@
 
 ```javascript
 
-['"string"',];
-
+["\"string\""];
 ```
 
 ### Diagnostics

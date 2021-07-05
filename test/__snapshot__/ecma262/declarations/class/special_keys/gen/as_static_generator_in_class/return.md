@@ -137,9 +137,8 @@ class x {static * return(){}}
 ```javascript
 
 class x {
-  static * return() {}
+  static * return(){}
 }
-
 ```
 
 ### Diagnostics

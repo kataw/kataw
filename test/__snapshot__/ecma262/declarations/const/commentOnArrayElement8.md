@@ -90,9 +90,8 @@ const array = [
 ```javascript
 
 const array = [
-  1,/* comment */
-];
-
+    1
+  ];
 ```
 
 ### Diagnostics

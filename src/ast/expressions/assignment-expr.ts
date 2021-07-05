@@ -12,6 +12,7 @@ export function createAssignmentExpression(
   left: ExpressionNode,
   operatorToken: SyntaxToken<TokenSyntaxKind>,
   right: ExpressionNode,
+  flags: NodeFlags,
   start: number,
   end: number
 ): AssignmentExpression {
@@ -20,7 +21,7 @@ export function createAssignmentExpression(
     left,
     operatorToken,
     right,
-    flags: NodeFlags.ExpressionNode,
+    flags,
     start,
     end
   };

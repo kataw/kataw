@@ -194,8 +194,8 @@
                                         "start": 42,
                                         "end": 103
                                     },
-                                    "flags": 32,
-                                    "start": 40,
+                                    "flags": 40,
+                                    "start": 32,
                                     "end": 104
                                 },
                                 "flags": 32,
@@ -310,8 +310,10 @@
 
 ```javascript
 
-let icecream = what == '"cone"' ? p => (!!p ? `here's your ${p} cone` : `just the empty cone for you`) : p => `here's your ${p} ${what}`;
-
+let icecream =
+    what ==  "\"cone\""
+      ? p =>  (!!p ? `here's your ${p} cone` : `just the empty cone for you`)
+      : p =>  `here's your ${p},  ${what}`;
 ```
 
 ### Diagnostics

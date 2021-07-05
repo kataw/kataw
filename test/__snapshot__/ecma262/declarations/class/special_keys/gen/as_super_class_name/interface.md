@@ -94,9 +94,7 @@ class x extends interface {}
 
 ```javascript
 
-class x extends interface {
-}
-
+class x  extends interface {}
 ```
 
 ### Diagnostics

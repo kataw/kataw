@@ -122,10 +122,9 @@ switch (a) { default: let x }
 ```javascript
 
 switch (a) {
-  default: 
+  default
     let x;
 }
-
 ```
 
 ### Diagnostics

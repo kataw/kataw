@@ -204,13 +204,11 @@ class Foo { #foo; foo() { delete this?.#foo } }
 ```javascript
 
 class Foo {
-  #foo
-  ;
-  foo() {
-    delete this?.#foo;
+  #foo;;
+  foo(){
+    delete this ?.#foo;
   }
 }
-
 ```
 
 ### Diagnostics

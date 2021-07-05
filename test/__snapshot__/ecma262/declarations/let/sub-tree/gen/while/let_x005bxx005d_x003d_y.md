@@ -79,7 +79,7 @@ while (a) let [x] = y;
                         "start": 19,
                         "end": 21
                     },
-                    "flags": 32,
+                    "flags": 0,
                     "start": 9,
                     "end": 21
                 },

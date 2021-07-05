@@ -105,7 +105,6 @@
 {
   let [] = y;
 }
-
 ```
 
 ### Diagnostics

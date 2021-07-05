@@ -75,7 +75,7 @@ function e(x=eval=10){ }
                                 "start": 18,
                                 "end": 20
                             },
-                            "flags": 32,
+                            "flags": 0,
                             "start": 13,
                             "end": 20
                         },
@@ -123,7 +123,6 @@ function e(x=eval=10){ }
 ```javascript
 
 function e(x = eval = 10) {}
-
 ```
 
 ### Diagnostics

@@ -125,7 +125,7 @@ class Example {
                                     "kind": 342,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 54,
                                     "end": 54
                                 },
@@ -225,15 +225,11 @@ class Example {
 ```javascript
 
 class Example {
-  #priv
-  ;
-  @anydecorator
-  method = () => {
-    return this.#priv;
-  }
-  ;
+  #priv;;
+  @ anydecorator method = () => {
+    return this .#priv;
+  };;
 }
-
 ```
 
 ### Diagnostics

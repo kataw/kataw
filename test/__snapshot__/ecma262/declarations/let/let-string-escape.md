@@ -226,7 +226,6 @@ let y = '\'\\09\'';
 let z = '\'\\009\'';
 '\'use strict\'';
 let q = '\'\\0\'';
-
 ```
 
 ### Diagnostics

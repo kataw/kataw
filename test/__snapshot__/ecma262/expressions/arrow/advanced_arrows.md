@@ -122,7 +122,7 @@ var ident = <T>(x: T): T => x;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 11,
                                 "end": 40
                             },
@@ -254,7 +254,7 @@ var ident = <T>(x: T): T => x;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 63,
                                 "end": 81
                             },
@@ -406,7 +406,7 @@ var ident = <T>(x: T): T => x;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 105,
                                 "end": 113
                             },
@@ -478,10 +478,9 @@ var ident = <T>(x: T): T => x;
 
 ```javascript
 
-var add = (x: number, y: number) => x + y;
-var bad = (x: number) => x;
-var ident = <T>(x: T) => x;
-
+var add = (x: number , y: number ) =>  x +  y;
+var bad = (x: number ) =>  x;
+var ident = <T>(x: T) =>  x;
 ```
 
 ### Diagnostics

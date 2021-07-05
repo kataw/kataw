@@ -90,8 +90,7 @@ a, x => ok
 
 ```javascript
 
-a, x => ok;
-
+a, x =>  ok;
 ```
 
 ### Diagnostics

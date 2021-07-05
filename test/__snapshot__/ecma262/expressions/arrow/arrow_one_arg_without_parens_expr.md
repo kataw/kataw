@@ -66,8 +66,7 @@ x=>x;
 
 ```javascript
 
-x => x;
-
+x =>  x;
 ```
 
 ### Diagnostics

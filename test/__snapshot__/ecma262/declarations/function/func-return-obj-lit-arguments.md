@@ -115,7 +115,6 @@ function foo() { return {arguments} }
 function foo() {
   return { arguments };
 }
-
 ```
 
 ### Diagnostics

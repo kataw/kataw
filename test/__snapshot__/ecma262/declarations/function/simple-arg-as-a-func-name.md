@@ -136,7 +136,6 @@ function f(x) { function x() {} }
 function f(x) {
   function x() {}
 }
-
 ```
 
 ### Diagnostics

@@ -177,8 +177,7 @@ function x(y: | z): | /* comment */ () => number {}
 
 ```javascript
 
-function x(y: | z): |/* comment */ () => number {}
-
+function x(y: | z): | () =>  number  {}
 ```
 
 ### Diagnostics

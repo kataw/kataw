@@ -129,7 +129,7 @@ f = ([xCls = class X {}]) => {}
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 2,
+                        "flags": 34,
                         "start": 5,
                         "end": 25
                     },
@@ -158,7 +158,7 @@ f = ([xCls = class X {}]) => {}
                     "start": 3,
                     "end": 31
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 31
             },
@@ -180,9 +180,7 @@ f = ([xCls = class X {}]) => {}
 
 ```javascript
 
-f = ([xCls = class X {
-  }]) => {};
-
+f = ([xCls = class X {}]) => {};
 ```
 
 ### Diagnostics

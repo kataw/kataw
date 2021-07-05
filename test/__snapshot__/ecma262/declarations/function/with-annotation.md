@@ -157,7 +157,7 @@ let {x}: string = y;
                     "start": 33,
                     "end": 35
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 24,
                 "end": 35
             },
@@ -266,7 +266,7 @@ let {x}: string = y;
                     "start": 62,
                     "end": 64
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 53,
                 "end": 64
             },
@@ -351,7 +351,7 @@ let {x}: string = y;
                     "start": 84,
                     "end": 86
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 75,
                 "end": 86
             },

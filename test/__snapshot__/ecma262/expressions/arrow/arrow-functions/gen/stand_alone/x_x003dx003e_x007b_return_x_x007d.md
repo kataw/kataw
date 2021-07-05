@@ -104,7 +104,6 @@ x => { return x; }
 x => {
   return x;
 };
-
 ```
 
 ### Diagnostics

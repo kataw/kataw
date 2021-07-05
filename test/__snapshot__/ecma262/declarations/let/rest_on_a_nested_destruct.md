@@ -145,7 +145,6 @@ let [...[foo, bar]] = obj;
 ```javascript
 
 let [...[foo, bar]] = obj;
-
 ```
 
 ### Diagnostics

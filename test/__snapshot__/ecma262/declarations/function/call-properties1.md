@@ -305,10 +305,9 @@ function a(f: { (): string; (x: number): string }): string {
 
 ```javascript
 
-function a(f: { (): string, (x: number): string }): string {
-  return f() + f(123);
+function a(f: { (): string , (x: number ): string  }): string  {
+  return f() +  f(123);
 }
-
 ```
 
 ### Diagnostics

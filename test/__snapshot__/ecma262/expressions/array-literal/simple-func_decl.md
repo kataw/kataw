@@ -89,7 +89,6 @@ function x () {}
 ```javascript
 
 function x() {}
-
 ```
 
 ### Diagnostics

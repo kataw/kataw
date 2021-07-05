@@ -132,9 +132,8 @@ class x {get debugger(){}}
 ```javascript
 
 class x {
-  get debugger() {}
+  get debugger(){}
 }
-
 ```
 
 ### Diagnostics

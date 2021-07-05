@@ -130,10 +130,8 @@ class A {async await() { }};
 ```javascript
 
 class A {
-  async await() {}
+  async await(){}
 }
-;
-
 ```
 
 ### Diagnostics

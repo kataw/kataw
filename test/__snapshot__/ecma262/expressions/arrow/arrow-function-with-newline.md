@@ -112,7 +112,6 @@ async (f)
 ```javascript
 
 async (f) => {}
-
 ```
 
 ### Diagnostics

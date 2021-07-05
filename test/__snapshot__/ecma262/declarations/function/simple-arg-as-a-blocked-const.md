@@ -148,7 +148,6 @@ function f(x) {
     const x = y;
   }
 }
-
 ```
 
 ### Diagnostics

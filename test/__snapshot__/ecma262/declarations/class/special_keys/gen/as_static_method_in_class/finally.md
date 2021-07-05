@@ -132,9 +132,8 @@ class x {static finally(){}}
 ```javascript
 
 class x {
-  static finally() {}
+  static finally(){}
 }
-
 ```
 
 ### Diagnostics

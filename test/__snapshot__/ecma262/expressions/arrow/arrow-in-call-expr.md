@@ -57,7 +57,7 @@ foo(y,(y) => ok);
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 5,
                                 "end": 10
                             },
@@ -140,7 +140,7 @@ foo(y,(y) => ok);
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 26,
                                 "end": 28
                             },
@@ -223,7 +223,7 @@ foo(y,(y) => ok);
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 44,
                                 "end": 46
                             },
@@ -274,10 +274,17 @@ foo(y,(y) => ok);
 
 ```javascript
 
-foo((x, y) => {});
-foo(x, (y) => {});
-foo(y, (y) => ok);
-
+foo(
+  (x, y) => {}
+);
+foo(
+  x,
+  (y) => {}
+);
+foo(
+  y,
+  (y) =>  ok
+);
 ```
 
 ### Diagnostics

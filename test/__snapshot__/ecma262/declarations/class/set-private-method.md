@@ -141,9 +141,8 @@ class C { set #aaa(x){} }
 ```javascript
 
 class C {
-  set #aaa(x) {}
+  set #aaa(x){}
 }
-
 ```
 
 ### Diagnostics

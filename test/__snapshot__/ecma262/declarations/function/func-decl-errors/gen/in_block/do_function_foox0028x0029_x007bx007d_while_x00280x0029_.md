@@ -85,7 +85,7 @@
                         },
                         "whileKeyword": {
                             "kind": 37757028,
-                            "flags": 64,
+                            "flags": 80,
                             "start": 21,
                             "end": 27
                         },

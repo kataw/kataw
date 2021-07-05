@@ -88,7 +88,6 @@ var a: 0x5E1719E3Bn
 ```javascript
 
 var a: 0x5e1719e3bn;
-
 ```
 
 ### Diagnostics

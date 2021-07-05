@@ -936,8 +936,8 @@
                                                         "start": 237,
                                                         "end": 243
                                                     },
-                                                    "flags": 32,
-                                                    "start": 236,
+                                                    "flags": 236,
+                                                    "start": 32,
                                                     "end": 244
                                                 },
                                                 "flags": 32,
@@ -1398,19 +1398,18 @@
 
 ```javascript
 
-[{ [foo] : bar4 },] = [{ bar : '"bar"' },];
-[{ [foo2()] : bar5 },] = [{ bar : '"bar"' },];
-[{ [foo()] : bar4 },] = [{ bar : '"bar"' },];
-[{ [foo] : bar4 },] = [{ bar : '"bar"' },];
-[{ [foo2()] : bar5 },] = [{ bar : '"bar"' },];
-[{ [foo()] : bar4 },] = [{ bar : '"bar"' },];
-[{ [(1 + {})] : bar4 },] = [{ bar : '"bar"' },];
+[{ [foo]: bar4 }] = [{ bar: "\"bar\"" }];
+[{ [foo2()]: bar5 }] = [{ bar: "\"bar\"" }];
+[{ [foo()]: bar4 }] = [{ bar: "\"bar\"" }];
+[{ [foo]: bar4 }] = [{ bar: "\"bar\"" }];
+[{ [foo2()]: bar5 }] = [{ bar: "\"bar\"" }];
+[{ [foo()]: bar4 }] = [{ bar: "\"bar\"" }];
+[{ [(1 +  {})]: bar4 }] = [{ bar: "\"bar\"" }];
 [...x] = it;
-[[x,],] = [null,];
-[x,] = [];
+[[x]] = [null ];
+[x] = [];
 [...x] = [];
 [...x[yield]] = [];
-
 ```
 
 ### Diagnostics

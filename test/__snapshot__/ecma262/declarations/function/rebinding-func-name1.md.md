@@ -116,7 +116,6 @@ function f(){ let f }
 function f() {
   let f;
 }
-
 ```
 
 ### Diagnostics

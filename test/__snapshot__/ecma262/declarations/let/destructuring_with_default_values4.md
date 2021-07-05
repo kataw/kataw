@@ -125,7 +125,6 @@ let [x=y, z] = []
 ```javascript
 
 let [x = y, z] = [];
-
 ```
 
 ### Diagnostics

@@ -67,8 +67,8 @@ a ? b ? (c) : (d) : (e) => f : g;
                             "start": 9,
                             "end": 10
                         },
-                        "flags": 32,
-                        "start": 7,
+                        "flags": 7,
+                        "start": 32,
                         "end": 11
                     },
                     "colonToken": {
@@ -94,7 +94,7 @@ a ? b ? (c) : (d) : (e) => f : g;
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 15,
                             "end": 23
                         },
@@ -185,8 +185,7 @@ a ? b ? (c) : (d) : (e) => f : g;
 
 ```javascript
 
-a ? b ? (c) : (d) => f : g;
-
+a ? b ? (c) : (d) =>  f : g;
 ```
 
 ### Diagnostics

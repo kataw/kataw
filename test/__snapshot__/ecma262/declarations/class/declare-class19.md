@@ -138,8 +138,7 @@ declare class x {
 
 ```javascript
 
-declare class x { static '"string"'(): {} }
-
+declare class x { static "\"string\""(): {} }
 ```
 
 ### Diagnostics

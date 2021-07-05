@@ -380,16 +380,17 @@ new Foo();
 ```javascript
 
 class Foo {
-  #tag() {
-    return this;
+  #tag(){
+    return this ;
   }
-  constructor() {
-    const receiver = this.#tag`tagged template`;
-    console.assert(receiver === this);
+  constructor(){
+    const receiver = this .#tag`tagged template`;
+    console.assert(
+      receiver ===  this 
+    );
   }
 }
 new Foo();
-
 ```
 
 ### Diagnostics

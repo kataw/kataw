@@ -132,9 +132,8 @@ class x {* catch(){}}
 ```javascript
 
 class x {
-  * catch() {}
+  * catch(){}
 }
-
 ```
 
 ### Diagnostics

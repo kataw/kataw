@@ -180,9 +180,8 @@ function* foo(a = function* foo() { yield b }) {}
 ```javascript
 
 function * foo(a = function * foo() {
-    yield  b;
-  }) {}
-
+  yield b;
+}) {}
 ```
 
 ### Diagnostics

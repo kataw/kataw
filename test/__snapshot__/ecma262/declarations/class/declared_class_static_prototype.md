@@ -130,9 +130,7 @@ declare class A {
 
 ```javascript
 
-declare class A { static prototype: Object// error
- }
-
+declare class A { static prototype: Object }
 ```
 
 ### Diagnostics

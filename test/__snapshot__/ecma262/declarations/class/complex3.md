@@ -935,7 +935,7 @@ var stringArr:Array<string> = ['a','b'];
                                                         "start": 335,
                                                         "end": 340
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 318,
                                                     "end": 340
                                                 },
@@ -1211,7 +1211,7 @@ var stringArr:Array<string> = ['a','b'];
                                                         "start": 446,
                                                         "end": 454
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 423,
                                                     "end": 454
                                                 },
@@ -1544,36 +1544,33 @@ var stringArr:Array<string> = ['a','b'];
 ```javascript
 
 class Tag {
-  constructor() {
-    var a1: Array<Tag | string> = [];
-    var a2: Array<Tag | string> = a1;
+  constructor(){
+    var a1: Array<Tag | string > = [];
+    var a2: Array<Tag | string > = a1;
   }
 }
 type Node = Tag_ | string
 class Tag_ {
-  constructor() {
-    var a1: Array<Node> = [new Tag_,];
+  constructor(){
+    var a1: Array<Node> = [new Tag_];
     var a2: Array<Node> = a1;
   }
 }
 class C {
-  x: ?number | string
-  ;
-  constructor() {
-    this.x = null;
+  x: ? number  | string ;;
+  constructor(){
+    this .x = null ;
   }
 }
 class D {
-  content: string | C
-  ;
-  copyContent(content: C): string | C {
-    this.content = content;
-    return this.content;
+  content: string  | C;;
+  copyContent(content: C): string  | C{
+    this .content = content;
+    return this .content;
   }
 }
-var numberAndStringArr: Array<number | string> = [1, 2,];
-var stringArr: Array<string> = ['\'a\'', '\'b\'',];
-
+var numberAndStringArr: Array<number  | string > = [1, 2];
+var stringArr: Array<string > = ['\'a\'', '\'b\''];
 ```
 
 ### Diagnostics

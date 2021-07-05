@@ -243,7 +243,7 @@ class B<X> {
                                                                         "start": 56,
                                                                         "end": 63
                                                                     },
-                                                                    "flags": 32,
+                                                                    "flags": 0,
                                                                     "start": 46,
                                                                     "end": 63
                                                                 },
@@ -304,7 +304,7 @@ class B<X> {
                                                         "start": 83,
                                                         "end": 85
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 70,
                                                     "end": 85
                                                 },
@@ -357,16 +357,14 @@ class B<X> {
 ```javascript
 
 class B<X> {
-  s: X
-  ;
-  f() {
-    if (this.s) {
-      y = this.s;
-    }
-    this.s = y;
+  s: X;;
+  f(){
+    if (this .s) {
+        y = this .s;
+      }
+    this .s = y;
   }
 }
-
 ```
 
 ### Diagnostics

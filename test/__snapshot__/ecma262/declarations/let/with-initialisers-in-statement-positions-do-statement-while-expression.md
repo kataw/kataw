@@ -63,7 +63,7 @@ do let x = 1; while (false)
                     "start": 10,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 6,
                 "end": 12
             },

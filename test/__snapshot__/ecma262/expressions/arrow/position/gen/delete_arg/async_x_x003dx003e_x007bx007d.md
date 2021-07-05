@@ -98,7 +98,6 @@ delete async x => {}
 ```javascript
 
 delete async x => {};
-
 ```
 
 ### Diagnostics

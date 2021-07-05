@@ -102,7 +102,6 @@ async async => {}, a
 ```javascript
 
 async async => {}, a;
-
 ```
 
 ### Diagnostics

@@ -236,13 +236,11 @@ class C { #aaa; f(f) { f()?.#aaa } }
 ```javascript
 
 class C {
-  #aaa
-  ;
-  f(f) {
+  #aaa;;
+  f(f){
     f()?.#aaa;
   }
 }
-
 ```
 
 ### Diagnostics

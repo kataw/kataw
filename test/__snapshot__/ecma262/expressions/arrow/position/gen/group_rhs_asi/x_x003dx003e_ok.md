@@ -75,8 +75,8 @@ x *
                         "start": 5,
                         "end": 12
                     },
-                    "flags": 32,
-                    "start": 3,
+                    "flags": 3,
+                    "start": 33,
                     "end": 13
                 },
                 "flags": 96,
@@ -101,8 +101,7 @@ x *
 
 ```javascript
 
-x * (x => ok);
-
+x *  (x =>  ok);
 ```
 
 ### Diagnostics

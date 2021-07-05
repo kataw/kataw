@@ -144,7 +144,7 @@ async function fn() {
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 34,
                                                 "start": 34,
                                                 "end": 34
                                             },
@@ -223,9 +223,7 @@ async function fn() {
 
 async function fn() {
   async (x = async(y = await 2)) => {}
-  ;
 }
-
 ```
 
 ### Diagnostics

@@ -68,7 +68,7 @@ x = {arrow: (x, y) => ok};
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 13,
                                         "end": 15
                                     },
@@ -105,7 +105,7 @@ x = {arrow: (x, y) => ok};
                     "start": 3,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 22
             },
@@ -172,7 +172,7 @@ x = {arrow: (x, y) => ok};
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 38,
                                         "end": 43
                                     },
@@ -209,7 +209,7 @@ x = {arrow: (x, y) => ok};
                     "start": 28,
                     "end": 50
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 23,
                 "end": 50
             },
@@ -231,9 +231,8 @@ x = {arrow: (x, y) => ok};
 
 ```javascript
 
-x = { arrow : (x) => ok };
-x = { arrow : (x, y) => ok };
-
+x = { arrow: (x) =>  ok };
+x = { arrow: (x, y) =>  ok };
 ```
 
 ### Diagnostics

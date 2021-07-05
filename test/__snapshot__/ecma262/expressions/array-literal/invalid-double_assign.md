@@ -87,7 +87,7 @@
                     "start": 9,
                     "end": 10
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 10
             },
@@ -109,8 +109,7 @@
 
 ```javascript
 
-[] = n / f >>= v;
-
+[] = n /  f >>= v;
 ```
 
 ### Diagnostics

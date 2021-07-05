@@ -86,7 +86,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 1,
                     "end": 12
                 },
@@ -184,7 +184,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 22,
                     "end": 37
                 },
@@ -209,7 +209,7 @@
                     "start": 40,
                     "end": 43
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 19,
                 "end": 43
             },
@@ -282,7 +282,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 47,
                     "end": 62
                 },
@@ -307,7 +307,7 @@
                     "start": 65,
                     "end": 68
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 44,
                 "end": 68
             },
@@ -403,7 +403,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 72,
                     "end": 95
                 },
@@ -428,7 +428,7 @@
                     "start": 98,
                     "end": 101
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 69,
                 "end": 101
             },
@@ -506,7 +506,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 105,
                     "end": 121
                 },
@@ -531,7 +531,7 @@
                     "start": 124,
                     "end": 127
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 102,
                 "end": 127
             },
@@ -624,7 +624,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 131,
                     "end": 148
                 },
@@ -649,7 +649,7 @@
                     "start": 151,
                     "end": 154
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 128,
                 "end": 154
             },
@@ -704,7 +704,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 158,
                     "end": 171
                 },
@@ -729,7 +729,7 @@
                     "start": 174,
                     "end": 177
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 155,
                 "end": 177
             },
@@ -789,7 +789,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 181,
                     "end": 195
                 },
@@ -814,7 +814,7 @@
                     "start": 198,
                     "end": 201
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 178,
                 "end": 201
             },
@@ -912,7 +912,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 205,
                     "end": 225
                 },
@@ -937,7 +937,7 @@
                     "start": 228,
                     "end": 231
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 202,
                 "end": 231
             },
@@ -959,16 +959,21 @@
 
 ```javascript
 
-(x?: string) => {};
-([x,]: string, a) => {};
-([x,]: string, a) => {};
-([x,]: string, a: number) => {};
-([x,]?: string, a) => {};
-([x,]?: string, a?) => {};
-(...x: string) => {};
-(...x?: string) => {};
-(...[x]?: string, a?) => {};
-
+(x? : string ) => {};
+([x]: string ,
+a) => {};
+([x]: string ,
+a) => {};
+([x]: string ,
+a: number ) => {};
+([x]? : string ,
+a) => {};
+([x]? : string ,
+a? ) => {};
+(...x: string ) => {};
+(...x? : string ) => {};
+(...[x]? : string ,
+a? ) => {};
 ```
 
 ### Diagnostics

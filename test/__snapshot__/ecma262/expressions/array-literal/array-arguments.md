@@ -103,8 +103,7 @@
 
 ```javascript
 
-[arguments,] = [];
-
+[arguments] = [];
 ```
 
 ### Diagnostics

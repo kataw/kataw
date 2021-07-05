@@ -48,8 +48,8 @@
                                     "start": 1,
                                     "end": 5
                                 },
-                                "flags": 32,
-                                "start": 1,
+                                "flags": 1,
+                                "start": 32,
                                 "end": 6
                             }
                         ],
@@ -98,8 +98,7 @@
 
 ```javascript
 
-[(a.x),] = t;
-
+[(a.x)] = t;
 ```
 
 ### Diagnostics

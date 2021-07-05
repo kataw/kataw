@@ -50,8 +50,8 @@
                                                                 "start": 5,
                                                                 "end": 6
                                                             },
-                                                            "flags": 32,
-                                                            "start": 4,
+                                                            "flags": 4,
+                                                            "start": 32,
                                                             "end": 7
                                                         }
                                                     ],
@@ -116,7 +116,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
                     "start": 1,
                     "end": 21
                 },
@@ -164,7 +164,6 @@
 ```javascript
 
 ([[(a)] = []] = []) => {};
-
 ```
 
 ### Diagnostics

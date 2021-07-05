@@ -66,8 +66,8 @@ delete (async => ok)
                         "start": 8,
                         "end": 19
                     },
-                    "flags": 32,
-                    "start": 6,
+                    "flags": 6,
+                    "start": 32,
                     "end": 20
                 },
                 "flags": 32,
@@ -92,8 +92,7 @@ delete (async => ok)
 
 ```javascript
 
-delete (async => ok);
-
+delete (async =>  ok);
 ```
 
 ### Diagnostics

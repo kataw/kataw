@@ -111,9 +111,7 @@ class x extends {} {}
 
 ```javascript
 
-class x extends {} {
-}
-
+class x  extends {} {}
 ```
 
 ### Diagnostics

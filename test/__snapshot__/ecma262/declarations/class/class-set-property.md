@@ -167,10 +167,9 @@ class C {
 ```javascript
 
 class C {
-  set
-  * aaa() {}
+  set;
+  * aaa(){}
 }
-
 ```
 
 ### Diagnostics

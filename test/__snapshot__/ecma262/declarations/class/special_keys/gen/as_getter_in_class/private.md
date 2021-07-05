@@ -132,9 +132,8 @@ class x {get private(){}}
 ```javascript
 
 class x {
-  get private() {}
+  get private(){}
 }
-
 ```
 
 ### Diagnostics

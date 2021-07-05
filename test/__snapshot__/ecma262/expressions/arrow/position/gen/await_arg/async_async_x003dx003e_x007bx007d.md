@@ -155,7 +155,6 @@ async function f() {
 async function f() {
   await async async => {};
 }
-
 ```
 
 ### Diagnostics

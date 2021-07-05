@@ -153,8 +153,8 @@ for (var let = 1; let < 1; let++) {}
 
 ```javascript
 
-for (var let = 1; let++; let  < 1) { }
-
+for (var let = 1; let++ ; let  <  1)
+  {}
 ```
 
 ### Diagnostics

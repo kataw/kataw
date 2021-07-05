@@ -134,7 +134,7 @@ var a: (number: number) => number = (number) => { return 123; }
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 37,
                                 "end": 44
                             },
@@ -211,10 +211,9 @@ var a: (number: number) => number = (number) => { return 123; }
 
 ```javascript
 
-var a: (number: number) => number = (number) => {
-  return 123;
-};
-
+var a: (number: number ) =>  number  = (number) => {
+    return 123;
+  };
 ```
 
 ### Diagnostics

@@ -109,7 +109,7 @@ var x = ({ a } : any = 'foo') => {}
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
                                 "start": 9,
                                 "end": 29
                             },
@@ -165,8 +165,7 @@ var x = ({ a } : any = 'foo') => {}
 
 ```javascript
 
-var x = ({ a }: any = '\'foo\'') => {};
-
+var x = ({ a }: any  = '\'foo\'') => {};
 ```
 
 ### Diagnostics

@@ -85,7 +85,6 @@
 ```javascript
 
 [...x.list];
-
 ```
 
 ### Diagnostics

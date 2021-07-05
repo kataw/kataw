@@ -742,7 +742,7 @@ var callCount = 0;
                                                     "start": 347,
                                                     "end": 349
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 332,
                                                 "end": 349
                                             },
@@ -838,7 +838,7 @@ var callCount = 0;
                                                     "start": 383,
                                                     "end": 390
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 375,
                                                 "end": 390
                                             },
@@ -866,8 +866,8 @@ var callCount = 0;
                     "start": 58,
                     "end": 392
                 },
-                "flags": 32,
-                "start": 55,
+                "flags": 55,
+                "start": 33,
                 "end": 393
             },
             "flags": 16,
@@ -888,20 +888,19 @@ var callCount = 0;
 
 ```javascript
 
-var source = [3, 4, 5,];
+var source = [3, 4, 5];
 var target;
 var callCount = 0;
 (function () {
-  assert.sameValue(arguments.length, 5);
-  assert.sameValue(arguments[0], 1);
-  assert.sameValue(arguments[1], 2);
-  assert.sameValue(arguments[2], 3);
-  assert.sameValue(arguments[3], 4);
-  assert.sameValue(arguments[4], 5);
-  assert.sameValue(target, source);
-  callCount += 1;
-}.apply(null, [1, 2, ...target = source]));
-
+    assert.sameValue(arguments.length, 5);
+    assert.sameValue(arguments[0], 1);
+    assert.sameValue(arguments[1], 2);
+    assert.sameValue(arguments[2], 3);
+    assert.sameValue(arguments[3], 4);
+    assert.sameValue(arguments[4], 5);
+    assert.sameValue(target, source);
+    callCount += 1;
+  }.apply(null , [1, 2, ...target = source]));
 ```
 
 ### Diagnostics

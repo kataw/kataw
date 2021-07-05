@@ -141,10 +141,9 @@ get(){} }
 ```javascript
 
 class C {
-  async
-  get() {}
+  async;
+  get(){}
 }
-
 ```
 
 ### Diagnostics

@@ -79,7 +79,7 @@ if (a) let [x] = y
                         "start": 16,
                         "end": 18
                     },
-                    "flags": 32,
+                    "flags": 0,
                     "start": 6,
                     "end": 18
                 },

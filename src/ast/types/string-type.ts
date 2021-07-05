@@ -5,13 +5,7 @@ export interface StringType extends SyntaxNode {
   readonly rawText: string;
 }
 
-export function createStringType(
-  text: string,
-  rawText: string,
-  flags: NodeFlags,
-  start: number,
-  end: number
-): StringType {
+export function createStringType(text: string, rawText: string, flags: NodeFlags, start: number, end: number): StringType {
   return {
     kind: SyntaxKind.StringType,
     text,

@@ -159,9 +159,8 @@ function *f() { yield
 ```javascript
 
 function * f() {
-  yield  {} / 1 / g;
+  yield {} /  1 /  g;
 }
-
 ```
 
 ### Diagnostics

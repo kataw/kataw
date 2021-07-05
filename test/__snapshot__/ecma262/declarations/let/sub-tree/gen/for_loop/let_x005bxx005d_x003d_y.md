@@ -74,7 +74,7 @@ for (;;) let [x] = y
                         "start": 18,
                         "end": 20
                     },
-                    "flags": 32,
+                    "flags": 0,
                     "start": 8,
                     "end": 20
                 },

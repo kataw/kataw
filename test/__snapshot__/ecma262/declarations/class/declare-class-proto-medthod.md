@@ -134,8 +134,7 @@ declare class C { proto m(): void }
 
 ```javascript
 
-declare class C { proto m(): void }
-
+declare class C { proto m(): void  }
 ```
 
 ### Diagnostics

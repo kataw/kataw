@@ -74,7 +74,7 @@ const f = (...x?) => {}
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 11,
                                 "end": 17
                             },
@@ -130,8 +130,7 @@ const f = (...x?) => {}
 
 ```javascript
 
-const f = (...x?) => {};
-
+const f = (...x? ) => {};
 ```
 
 ### Diagnostics

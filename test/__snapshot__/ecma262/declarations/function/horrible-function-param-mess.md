@@ -518,13 +518,13 @@ function processArgs<A1: {}, A2: {}>(
                                                 "end": 213
                                             },
                                             "right": null,
-                                            "flags": 32,
+                                            "flags": 33,
                                             "start": 160,
                                             "end": 213
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 174,
                                     "end": 243
                                 },
@@ -729,7 +729,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "end": 259
                                                 },
                                                 "right": null,
-                                                "flags": 32,
+                                                "flags": 33,
                                                 "start": 246,
                                                 "end": 259
                                             },
@@ -769,7 +769,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "end": 273
                                                 },
                                                 "right": null,
-                                                "flags": 32,
+                                                "flags": 33,
                                                 "start": 246,
                                                 "end": 273
                                             },
@@ -809,7 +809,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "end": 292
                                                 },
                                                 "right": null,
-                                                "flags": 32,
+                                                "flags": 33,
                                                 "start": 246,
                                                 "end": 292
                                             },
@@ -849,13 +849,13 @@ function processArgs<A1: {}, A2: {}>(
                                                     "end": 305
                                                 },
                                                 "right": null,
-                                                "flags": 32,
+                                                "flags": 33,
                                                 "start": 246,
                                                 "end": 305
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 248,
                                         "end": 321
                                     },
@@ -1474,10 +1474,27 @@ function processArgs<A1: {}, A2: {}>(
 
 ```javascript
 
-function processArgs<A1: {}, A2: {}> (process: (args: A1) => A2): <S, C, I, R>(resolver: Resolver<S, A2, C, I, R>) => Resolver<S, A1, C, I, R> {
-  return <S, C, I, R>(resolver: Resolver<S, A2, C, I, R>) => (src: S, args: A1, appContext: C, info: I) => resolver(src, process(args), appContext, info);
+function processArgs<A1: {},
+A2: {}>(process: (args: A1) =>  A2): <S,
+C,
+I,
+R>(resolver: Resolver<S,
+A2,
+C,
+I,
+R>) =>  Resolver<S,
+A1,
+C,
+I,
+R> {
+  return <S,
+  C,
+  I,
+  R>(resolver: Resolver<S, A2, C, I, R>) =>  (src: S,
+  args: A1,
+  appContext: C,
+  info: I) =>  resolver(src, process(args), appContext, info);
 }
-
 ```
 
 ### Diagnostics

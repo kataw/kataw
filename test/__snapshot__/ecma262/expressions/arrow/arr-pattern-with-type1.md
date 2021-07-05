@@ -86,7 +86,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
                     "start": 1,
                     "end": 13
                 },
@@ -191,7 +191,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 24,
                     "end": 38
                 },
@@ -216,7 +216,7 @@
                     "start": 41,
                     "end": 45
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 21,
                 "end": 45
             },
@@ -319,7 +319,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 49,
                     "end": 71
                 },
@@ -344,7 +344,7 @@
                     "start": 74,
                     "end": 78
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 46,
                 "end": 78
             },
@@ -424,7 +424,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 82,
                     "end": 96
                 },
@@ -449,7 +449,7 @@
                     "start": 99,
                     "end": 103
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 79,
                 "end": 103
             },
@@ -471,11 +471,10 @@
 
 ```javascript
 
-([x: string]) => {};
-([[x,]: string]) => {};
-([[,]: string]) => {};
-([{ x }: string]) => {};
-
+([x: string ]) => {};
+([[x]: string ]) => {};
+([[x: string ]: string ]) => {};
+([{ x }: string ]) => {};
 ```
 
 ### Diagnostics

@@ -660,7 +660,7 @@ class Array { concat(items:number | string) {}; }
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 173,
                                     "end": 186
                                 },
@@ -868,8 +868,8 @@ class Array { concat(items:number | string) {}; }
                                     "start": 245,
                                     "end": 248
                                 },
-                                "flags": 32,
-                                "start": 243,
+                                "flags": 243,
+                                "start": 32,
                                 "end": 249
                             },
                             "colonToken": {
@@ -945,7 +945,7 @@ class Array { concat(items:number | string) {}; }
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 273,
                                     "end": 285
                                 },
@@ -981,8 +981,8 @@ class Array { concat(items:number | string) {}; }
                                 "start": 272,
                                 "end": 292
                             },
-                            "flags": 32,
-                            "start": 270,
+                            "flags": 270,
+                            "start": 32,
                             "end": 293
                         },
                         "flags": 16,
@@ -1031,7 +1031,7 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 342,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 308,
                                     "end": 308
                                 },
@@ -1067,8 +1067,8 @@ class Array { concat(items:number | string) {}; }
                                 "start": 307,
                                 "end": 324
                             },
-                            "flags": 32,
-                            "start": 305,
+                            "flags": 305,
+                            "start": 32,
                             "end": 325
                         },
                         "flags": 16,
@@ -1453,7 +1453,7 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 458,
                                 "end": 458
                             },
@@ -2493,36 +2493,30 @@ class Array { concat(items:number | string) {}; }
 
 ```javascript
 
-var a: number[];
-var a: Map<string, Array<string>>;
-var a: Map<string, Array<string>>;
+var a: number [];
+var a: Map<string , Array<string >>;
+var a: Map<string , Array<string >>;
 var x: typeof Y = Y;
-var x: () => number | () => string = fn;
+var x: () =>  number  | () =>  string  = fn;
 var foo = bar ? (foo) => {} : baz;
-var a: { numVal: number };
+var a: { numVal: number  };
 var foo = bar ? (foo) : number;
-var foo = ((bar) => bar);
-var foo = (() => bar);
-var foo = async (bar) => bar;
-var foo = async () => bar;
+var foo = ((bar) =>  bar);
+var foo = (() =>  bar);
+var foo = async (bar) =>  bar;
+var foo = async () =>  bar;
 var foo = async (foo: bar, bar: foo) => {};
-var foo = () => bar;
-var a: { param1: number, param2?: string };
-var [x]: Array<string> = ['"hello"',];
-var {
-  x
-}: { x: string } = { x : '"hello"' };
-var {
-  x
-}: { x: string } = { x : '"hello"' };
-var a: ?{ numVal: number };
-var x: typeof Y | number = Y;
-var a: { subObj: { strVal: string } };
+var foo = () =>  bar;
+var a: { param1: number , param2? : string  };
+var [x]: Array<string > = ["\"hello\""];
+var {x}: { x: string  } = { x: "\"hello\"" };
+var {x}: { x: string  } = { x: "\"hello\"" };
+var a: ? { numVal: number  };
+var x: typeof Y | number  = Y;
+var a: { subObj: { strVal: string  } };
 class Array {
-  concat(items: number | string) {}
-  ;
+  concat(items: number  | string ){};
 }
-
 ```
 
 ### Diagnostics

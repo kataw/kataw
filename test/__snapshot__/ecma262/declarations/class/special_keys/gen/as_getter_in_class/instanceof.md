@@ -132,9 +132,8 @@ class x {get instanceof(){}}
 ```javascript
 
 class x {
-  get instanceof() {}
+  get instanceof(){}
 }
-
 ```
 
 ### Diagnostics

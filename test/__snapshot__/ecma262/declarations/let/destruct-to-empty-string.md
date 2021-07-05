@@ -88,7 +88,6 @@ let [a] = '';
 ```javascript
 
 let [a] = '\'\'';
-
 ```
 
 ### Diagnostics

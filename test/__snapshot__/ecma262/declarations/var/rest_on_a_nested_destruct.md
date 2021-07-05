@@ -146,7 +146,6 @@ var [...[foo, bar]] = obj;
 ```javascript
 
 var [...[foo, bar]] = obj;
-
 ```
 
 ### Diagnostics

@@ -125,8 +125,7 @@
 
 ```javascript
 
-[x, y, ...z + arr];
-
+[x, y, ...z +  arr];
 ```
 
 ### Diagnostics

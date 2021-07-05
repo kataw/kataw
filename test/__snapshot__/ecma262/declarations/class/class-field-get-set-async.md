@@ -178,15 +178,11 @@ class C { get; set; static; async }
 ```javascript
 
 class C {
-  get
-  ;
-  set
-  ;
-  static
-  ;
-  async
+  get;;
+  set;;
+  static;;
+  async;
 }
-
 ```
 
 ### Diagnostics

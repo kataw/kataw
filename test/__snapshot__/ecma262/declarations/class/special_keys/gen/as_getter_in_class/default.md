@@ -132,9 +132,8 @@ class x {get default(){}}
 ```javascript
 
 class x {
-  get default() {}
+  get default(){}
 }
-
 ```
 
 ### Diagnostics

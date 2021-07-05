@@ -164,7 +164,7 @@ const f = async <T, R, S>(
                                             "end": 33
                                         },
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 33,
                                         "start": 26,
                                         "end": 33
                                     },
@@ -204,7 +204,7 @@ const f = async <T, R, S>(
                                             "end": 41
                                         },
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 33,
                                         "start": 34,
                                         "end": 41
                                     },
@@ -244,7 +244,7 @@ const f = async <T, R, S>(
                                             "end": 49
                                         },
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 33,
                                         "start": 42,
                                         "end": 49
                                     }
@@ -326,9 +326,8 @@ const f = async <T, R, S>(
 ```javascript
 
 const f = async <T, R, S>(x: T, y: R, z: S) => {
-  return null;
-};
-
+    return null ;
+  };
 ```
 
 ### Diagnostics

@@ -132,9 +132,8 @@ class x {static instanceof(){}}
 ```javascript
 
 class x {
-  static instanceof() {}
+  static instanceof(){}
 }
-
 ```
 
 ### Diagnostics

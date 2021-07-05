@@ -115,7 +115,6 @@ function foo() { return {eval} }
 function foo() {
   return { eval };
 }
-
 ```
 
 ### Diagnostics

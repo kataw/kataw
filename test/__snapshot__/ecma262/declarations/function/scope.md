@@ -640,7 +640,7 @@ function for_scope_var() {
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 398,
                                                 "end": 398
                                             },
@@ -1311,41 +1311,39 @@ function for_scope_var() {
 ```javascript
 
 function block_scope() {
-  let a: number = 0;
-  var b: number = 0;
+  let a: number  = 0;
+  var b: number  = 0;
   {
-    let a = '""';
-    var b = '""';
+    let a = "\"\"";
+    var b = "\"\"";
   }
 }
 function default_param_1() {
-   // function binding in scope in default expr
-  function f(x: () => string = f// error: number ~> string
-  ): number {
+  function f(x: () =>  string  = f): number  {
     return 0;
   }
 }
 function default_param_2() {
-   // fn body bindings not visible from param scope
-  let a = '""';
-  function f0(x = () => a): number {
+  let a = "\"\"";
+  function f0(x = () =>  a): number  {
     let a = 0;
-    return x();// error: string ~> number
+    return x();
   }
-  function f1(x = b/* error: cannot resolve b */): number {
+  function f1(x = b): number  {
     let b = 0;
     return x;
   }
 }
 function for_scope_let() {
-  let a: number = 0;
-  for (let a = '""'/* ok: local to init */;;) { }
+  let a: number  = 0;
+  for (let a = "\"\""; ; )
+    {}
 }
 function for_scope_var() {
-  var a: number = 0;
-  for (var a = '""'/* error: string ~> number */;;) { }
+  var a: number  = 0;
+  for (var a = "\"\""; ; )
+    {}
 }
-
 ```
 
 ### Diagnostics

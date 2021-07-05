@@ -58,7 +58,7 @@ x = (a,b) =>{}
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 5,
                         "end": 9
                     },
@@ -87,7 +87,7 @@ x = (a,b) =>{}
                     "start": 3,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -110,7 +110,6 @@ x = (a,b) =>{}
 ```javascript
 
 x = (a, b) => {};
-
 ```
 
 ### Diagnostics

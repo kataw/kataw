@@ -63,7 +63,7 @@ do let
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
                 "start": 9,
                 "end": 15
             },

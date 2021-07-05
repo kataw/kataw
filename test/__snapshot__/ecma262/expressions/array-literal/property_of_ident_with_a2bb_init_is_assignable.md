@@ -90,7 +90,7 @@
                                     "start": 6,
                                     "end": 12
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 1,
                                 "end": 12
                             }
@@ -140,8 +140,7 @@
 
 ```javascript
 
-[x.y = a + b,] = z;
-
+[x.y = a +  b] = z;
 ```
 
 ### Diagnostics

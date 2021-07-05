@@ -334,7 +334,7 @@ function* g() {
                                                                         "start": 129,
                                                                         "end": 135
                                                                     },
-                                                                    "flags": 32,
+                                                                    "flags": 0,
                                                                     "start": 118,
                                                                     "end": 135
                                                                 },
@@ -398,7 +398,7 @@ function* g() {
                                     "start": 149,
                                     "end": 152
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 142,
                                 "end": 152
                             },
@@ -437,16 +437,15 @@ function* g() {
 var yieldSet, C, iter;
 function * g() {
   class C_ {
-    get [yield ]() {
+    get [yield ](){
       return '\'get yield\'';
     }
-    set [yield ](param) {
+    set [yield ](param){
       yieldSet = param;
     }
   }
   C = C_;
 }
-
 ```
 
 ### Diagnostics

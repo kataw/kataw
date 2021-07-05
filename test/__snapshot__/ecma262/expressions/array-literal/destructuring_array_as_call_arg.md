@@ -128,8 +128,9 @@ foo([a, b] = arr);
 
 ```javascript
 
-foo([a, b,] = arr);
-
+foo(
+  [a, b] = arr
+);
 ```
 
 ### Diagnostics

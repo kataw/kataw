@@ -80,7 +80,7 @@ do function foo() {} while (0);
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
                 "start": 20,
                 "end": 26
             },

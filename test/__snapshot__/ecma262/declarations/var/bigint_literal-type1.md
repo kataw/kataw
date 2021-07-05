@@ -88,7 +88,6 @@ var a: 123n
 ```javascript
 
 var a: 123n;
-
 ```
 
 ### Diagnostics

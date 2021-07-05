@@ -171,13 +171,11 @@ class Foo {
 
 ```javascript
 
-@decorator
-class Foo {
-  method() {
+@ decorator class Foo {
+  method(){
     return method;
   }
 }
-
 ```
 
 ### Diagnostics

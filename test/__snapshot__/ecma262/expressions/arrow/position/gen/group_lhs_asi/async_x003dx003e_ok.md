@@ -61,8 +61,8 @@
                         "start": 1,
                         "end": 12
                     },
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 32,
                     "end": 13
                 },
                 "operatorToken": {
@@ -101,8 +101,7 @@
 
 ```javascript
 
-(async => ok) * x;
-
+(async =>  ok) *  x;
 ```
 
 ### Diagnostics

@@ -168,11 +168,9 @@ class C2 {
 
 ```javascript
 
-@a[b]
-class C2 {
-  method() {}
+@ a[b] class C2 {
+  method(){}
 }
-
 ```
 
 ### Diagnostics

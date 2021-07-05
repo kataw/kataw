@@ -150,7 +150,6 @@ function* fn() {
 function * fn() {
   a ? yield  : 2;
 }
-
 ```
 
 ### Diagnostics

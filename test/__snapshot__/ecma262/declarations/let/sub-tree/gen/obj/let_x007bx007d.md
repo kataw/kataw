@@ -66,7 +66,7 @@ a = { let
                     "start": 3,
                     "end": 9
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 9
             },

@@ -92,7 +92,7 @@ test
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 10,
                         "end": 18
                     },
@@ -173,8 +173,7 @@ test
 
 ```javascript
 
-test ? (x: T) => y : z;
-
+test ? (x: T) =>  y : z;
 ```
 
 ### Diagnostics

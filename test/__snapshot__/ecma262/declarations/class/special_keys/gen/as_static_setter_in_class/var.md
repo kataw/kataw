@@ -146,9 +146,8 @@ class x {static set var(x){}}
 ```javascript
 
 class x {
-  static set var(x) {}
+  static set var(x){}
 }
-
 ```
 
 ### Diagnostics

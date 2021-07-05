@@ -108,7 +108,7 @@ class A<TYPE> {
                                     "kind": 342,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 25,
                                     "end": 25
                                 },
@@ -265,8 +265,8 @@ class A<TYPE> {
                                                             "start": 75,
                                                             "end": 87
                                                         },
-                                                        "flags": 32,
-                                                        "start": 75,
+                                                        "flags": 75,
+                                                        "start": 32,
                                                         "end": 88
                                                     },
                                                     "flags": 96,
@@ -475,8 +475,8 @@ class A<TYPE> {
                                                             "start": 148,
                                                             "end": 160
                                                         },
-                                                        "flags": 32,
-                                                        "start": 148,
+                                                        "flags": 148,
+                                                        "start": 32,
                                                         "end": 161
                                                     },
                                                     "flags": 96,
@@ -533,14 +533,12 @@ class A<TYPE> {
 
 class A<TYPE> {
   aaf = () => {
-    return new Promise  < TYPE > (console.log);
-  }
-  ;
-  anf(): Promise<TYPE> {
-    return new Promise  < TYPE > (console.log);
+    return new Promise  <  TYPE >  (console.log);
+  };;
+  anf(): Promise<TYPE>{
+    return new Promise  <  TYPE >  (console.log);
   }
 }
-
 ```
 
 ### Diagnostics

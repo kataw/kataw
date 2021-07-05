@@ -141,9 +141,8 @@ class x {set for(x){}}
 ```javascript
 
 class x {
-  set for(x) {}
+  set for(x){}
 }
-
 ```
 
 ### Diagnostics

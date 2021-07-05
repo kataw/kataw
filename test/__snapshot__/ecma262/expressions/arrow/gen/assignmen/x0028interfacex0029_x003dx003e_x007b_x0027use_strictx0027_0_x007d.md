@@ -58,7 +58,7 @@ x = (interface) => { 'use strict'; 0 } ;
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 5,
                         "end": 15
                     },
@@ -111,7 +111,7 @@ x = (interface) => { 'use strict'; 0 } ;
                     "start": 3,
                     "end": 38
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 38
             },
@@ -134,10 +134,8 @@ x = (interface) => { 'use strict'; 0 } ;
 ```javascript
 
 x = (interface) => {
-'\'use strict\'';
   0;
 };
-
 ```
 
 ### Diagnostics

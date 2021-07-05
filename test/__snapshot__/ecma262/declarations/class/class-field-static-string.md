@@ -102,9 +102,8 @@ class C { static '0' }
 ```javascript
 
 class C {
-  static '\'0\''
+  static '\'0\'';
 }
-
 ```
 
 ### Diagnostics

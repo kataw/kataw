@@ -91,7 +91,7 @@ f ^= 1;
                     "start": 17,
                     "end": 20
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 11,
                 "end": 20
             },
@@ -125,7 +125,7 @@ f ^= 1;
                     "start": 26,
                     "end": 28
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 21,
                 "end": 28
             },
@@ -159,7 +159,7 @@ f ^= 1;
                     "start": 34,
                     "end": 36
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 29,
                 "end": 36
             },
@@ -193,7 +193,7 @@ f ^= 1;
                     "start": 42,
                     "end": 44
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 37,
                 "end": 44
             },
@@ -227,7 +227,7 @@ f ^= 1;
                     "start": 50,
                     "end": 52
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 45,
                 "end": 52
             },
@@ -261,7 +261,7 @@ f ^= 1;
                     "start": 58,
                     "end": 60
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 53,
                 "end": 60
             },
@@ -295,7 +295,7 @@ f ^= 1;
                     "start": 66,
                     "end": 68
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 61,
                 "end": 68
             },
@@ -329,7 +329,7 @@ f ^= 1;
                     "start": 74,
                     "end": 76
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 69,
                 "end": 76
             },
@@ -363,7 +363,7 @@ f ^= 1;
                     "start": 83,
                     "end": 85
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 77,
                 "end": 85
             },
@@ -397,7 +397,7 @@ f ^= 1;
                     "start": 92,
                     "end": 94
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 86,
                 "end": 94
             },
@@ -431,7 +431,7 @@ f ^= 1;
                     "start": 102,
                     "end": 104
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 95,
                 "end": 104
             },
@@ -465,7 +465,7 @@ f ^= 1;
                     "start": 110,
                     "end": 112
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 105,
                 "end": 112
             },
@@ -487,8 +487,7 @@ f ^= 1;
 
 ```javascript
 
-class f {
-}
+class f {}
 f += '\'\'';
 f += 1;
 f -= 1;
@@ -501,7 +500,6 @@ f <<= 1;
 f >>= 1;
 f >>>= 1;
 f ^= 1;
-
 ```
 
 ### Diagnostics

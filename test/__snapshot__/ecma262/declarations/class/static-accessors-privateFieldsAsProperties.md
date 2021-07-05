@@ -142,7 +142,7 @@ new C;
                                                         "start": 37,
                                                         "end": 39
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 30,
                                                     "end": 39
                                                 },
@@ -310,8 +310,8 @@ new C;
                                                         "start": 78,
                                                         "end": 90
                                                     },
-                                                    "flags": 32,
-                                                    "start": 72,
+                                                    "flags": 72,
+                                                    "start": 35,
                                                     "end": 91
                                                 },
                                                 "flags": 16,
@@ -390,17 +390,15 @@ new C;
 ```javascript
 
 class C {
-  static set #p(v) {
+  static set #p(v){
     C.#q = v;
   }
-  static #q
-  ;
-  constructor() {
-    ([C.#p,] = [0,]);
+  static #q;;
+  constructor(){
+    ([C.#p] = [0]);
   }
 }
 new C;
-
 ```
 
 ### Diagnostics

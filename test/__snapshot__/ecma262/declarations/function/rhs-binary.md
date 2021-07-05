@@ -105,8 +105,8 @@ function z() {
                                     "start": 20,
                                     "end": 31
                                 },
-                                "flags": 32,
-                                "start": 14,
+                                "flags": 14,
+                                "start": 33,
                                 "end": 32
                             },
                             "flags": 16,
@@ -173,7 +173,7 @@ function z() {
                                     "start": 39,
                                     "end": 61
                                 },
-                                "flags": 32,
+                                "flags": 33,
                                 "start": 33,
                                 "end": 62
                             },
@@ -219,8 +219,8 @@ function z() {
                                     "start": 69,
                                     "end": 76
                                 },
-                                "flags": 32,
-                                "start": 63,
+                                "flags": 63,
+                                "start": 33,
                                 "end": 77
                             },
                             "flags": 16,
@@ -287,8 +287,8 @@ function z() {
                                     "start": 84,
                                     "end": 102
                                 },
-                                "flags": 32,
-                                "start": 78,
+                                "flags": 78,
+                                "start": 33,
                                 "end": 103
                             },
                             "flags": 16,
@@ -381,8 +381,8 @@ function z() {
                                     "start": 145,
                                     "end": 156
                                 },
-                                "flags": 32,
-                                "start": 139,
+                                "flags": 139,
+                                "start": 33,
                                 "end": 157
                             },
                             "flags": 16,
@@ -427,8 +427,8 @@ function z() {
                                     "start": 164,
                                     "end": 171
                                 },
-                                "flags": 32,
-                                "start": 158,
+                                "flags": 158,
+                                "start": 33,
                                 "end": 172
                             },
                             "flags": 16,
@@ -473,8 +473,8 @@ function z() {
                                     "start": 179,
                                     "end": 193
                                 },
-                                "flags": 32,
-                                "start": 173,
+                                "flags": 173,
+                                "start": 33,
                                 "end": 194
                             },
                             "flags": 16,
@@ -590,8 +590,8 @@ function z() {
                                     "start": 247,
                                     "end": 273
                                 },
-                                "flags": 32,
-                                "start": 241,
+                                "flags": 241,
+                                "start": 33,
                                 "end": 274
                             },
                             "flags": 16,
@@ -659,8 +659,8 @@ function z() {
                                     "start": 281,
                                     "end": 305
                                 },
-                                "flags": 32,
-                                "start": 275,
+                                "flags": 275,
+                                "start": 33,
                                 "end": 306
                             },
                             "flags": 16,
@@ -696,23 +696,20 @@ function z() {
 ```javascript
 
 function x() {
-  ('\'foo\'' in {});
-  ('\'foo\'' in { foo : null });
-  (0 in {});
-  (0 in { '"0"' : null });
+  ('\'foo\'' in  {});
+  ('\'foo\'' in  { foo: null  });
+  (0 in  {});
+  (0 in  { "\"0\"": null  });
 }
- // arrays on RHS
 function y() {
-  ('\'foo\'' in []);
-  (0 in []);
-  ('\'length\'' in []);
+  ('\'foo\'' in  []);
+  (0 in  []);
+  ('\'length\'' in  []);
 }
- // primitive classes on RHS
 function z() {
-  ('\'foo\'' in new String('\'bar\''));
-  ('\'foo\'' in new Number(123));
+  ('\'foo\'' in  new String('\'bar\''));
+  ('\'foo\'' in  new Number(123));
 }
-
 ```
 
 ### Diagnostics

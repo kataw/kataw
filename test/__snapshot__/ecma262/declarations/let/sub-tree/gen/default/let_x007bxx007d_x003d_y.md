@@ -144,12 +144,9 @@ switch (a) { default: let {x} = y }
 ```javascript
 
 switch (a) {
-  default: 
-    let {
-      x
-    } = y;
+  default
+    let {x} = y;
 }
-
 ```
 
 ### Diagnostics

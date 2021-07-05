@@ -121,10 +121,8 @@ bar, eval => { 'use strict'; 0 };
 ```javascript
 
 bar, eval => {
-'\'use strict\'';
   0;
 };
-
 ```
 
 ### Diagnostics

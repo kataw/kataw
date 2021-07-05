@@ -126,7 +126,7 @@ let x: (this: any) => void = () => {}
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 30,
                                 "end": 30
                             },
@@ -182,8 +182,7 @@ let x: (this: any) => void = () => {}
 
 ```javascript
 
-let x: (this: any) => void = () => {};
-
+let x: (this: any ) =>  void  = () => {};
 ```
 
 ### Diagnostics

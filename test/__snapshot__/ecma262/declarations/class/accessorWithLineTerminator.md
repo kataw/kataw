@@ -256,14 +256,13 @@ class C {
 ```javascript
 
 class C {
-  get
-  x() {
+  get;
+  x(){
     return 1;
   }
-  set
-  x(v) {}
+  set;
+  x(v){}
 }
-
 ```
 
 ### Diagnostics

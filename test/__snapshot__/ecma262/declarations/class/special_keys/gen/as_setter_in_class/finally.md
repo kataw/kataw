@@ -141,9 +141,8 @@ class x {set finally(x){}}
 ```javascript
 
 class x {
-  set finally(x) {}
+  set finally(x){}
 }
-
 ```
 
 ### Diagnostics

@@ -92,7 +92,7 @@
                                             "start": 14,
                                             "end": 15
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 9,
                                         "end": 15
                                     },
@@ -258,8 +258,8 @@
                     "start": 1,
                     "end": 57
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 58
             },
             "flags": 16,
@@ -280,8 +280,7 @@
 
 ```javascript
 
-({ a, a : a, a : a = a, [a] : { a }, a : some_call()[a], a : this.a } = 0);
-
+({ a, a: a, a: a = a, [a]: { a }, a: some_call()[a], a: this .a } = 0);
 ```
 
 ### Diagnostics

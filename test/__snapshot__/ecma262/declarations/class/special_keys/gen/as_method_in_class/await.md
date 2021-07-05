@@ -127,9 +127,8 @@ class x {await(){}}
 ```javascript
 
 class x {
-  await() {}
+  await(){}
 }
-
 ```
 
 ### Diagnostics

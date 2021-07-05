@@ -74,7 +74,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 1,
                     "end": 15
                 },
@@ -158,7 +158,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 24,
                     "end": 41
                 },
@@ -177,7 +177,7 @@
                     "start": 44,
                     "end": 46
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 21,
                 "end": 46
             },
@@ -199,9 +199,9 @@
 
 ```javascript
 
-(x: number = 0) => 0;
-(x, y: number = 0) => 0;
-
+(x: number  = 0) =>  0;
+(x,
+y: number  = 0) =>  0;
 ```
 
 ### Diagnostics

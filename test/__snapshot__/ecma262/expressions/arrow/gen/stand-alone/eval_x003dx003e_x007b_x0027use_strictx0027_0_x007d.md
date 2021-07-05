@@ -105,10 +105,8 @@ eval => { 'use strict'; 0 } ;
 ```javascript
 
 eval => {
-'\'use strict\'';
   0;
 };
-
 ```
 
 ### Diagnostics

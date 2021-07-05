@@ -53,7 +53,7 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 43,
                                 "end": 43
                             },
@@ -162,7 +162,7 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 59,
                                                         "end": 71
                                                     },
@@ -221,8 +221,8 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                     "start": 49,
                                     "end": 82
                                 },
-                                "flags": 32,
-                                "start": 47,
+                                "flags": 47,
+                                "start": 34,
                                 "end": 83
                             },
                             "flags": 32,
@@ -256,8 +256,8 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
 
 ```javascript
 
-const functionReturningIdentityAsAField = () => ({ id : <T>(value: T) => value });
-
+const functionReturningIdentityAsAField = () =>
+    ({ id: <T>(value: T) =>  value });
 ```
 
 ### Diagnostics

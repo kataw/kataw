@@ -117,8 +117,7 @@
 
 ```javascript
 
-[{}[foo],] = x;
-
+[{}[foo]] = x;
 ```
 
 ### Diagnostics

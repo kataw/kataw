@@ -78,7 +78,7 @@ y = async (x) => {}
                     "start": 3,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 11
             },
@@ -112,7 +112,7 @@ y = async (x) => {}
                         "kind": 342,
                         "parameters": [],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 18,
                         "end": 18
                     },
@@ -141,7 +141,7 @@ y = async (x) => {}
                     "start": 16,
                     "end": 25
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 11,
                 "end": 25
             },
@@ -184,7 +184,7 @@ y = async (x) => {}
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 32,
                         "end": 34
                     },
@@ -213,7 +213,7 @@ y = async (x) => {}
                     "start": 30,
                     "end": 40
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 25,
                 "end": 40
             },
@@ -281,7 +281,7 @@ y = async (x) => {}
                     "start": 45,
                     "end": 60
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 40,
                 "end": 60
             },
@@ -358,7 +358,7 @@ y = async (x) => {}
                     "start": 65,
                     "end": 81
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 60,
                 "end": 81
             },
@@ -385,7 +385,6 @@ y = () => {};
 y = (x) => {};
 y = async () => {};
 y = async (x) => {};
-
 ```
 
 ### Diagnostics

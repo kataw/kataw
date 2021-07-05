@@ -113,8 +113,7 @@ x => ok, x => ok
 
 ```javascript
 
-x => ok, x => ok;
-
+x =>  ok, x =>  ok;
 ```
 
 ### Diagnostics

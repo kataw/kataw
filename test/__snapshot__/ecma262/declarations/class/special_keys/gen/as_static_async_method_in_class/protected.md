@@ -137,9 +137,8 @@ class x {static async protected(){}}
 ```javascript
 
 class x {
-  static async protected() {}
+  static async protected(){}
 }
-
 ```
 
 ### Diagnostics

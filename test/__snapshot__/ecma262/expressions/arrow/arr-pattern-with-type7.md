@@ -118,7 +118,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
                     "start": 1,
                     "end": 28
                 },
@@ -165,8 +165,7 @@
 
 ```javascript
 
-([x: string = y, z: number]) => {};
-
+([x: string  = y, z: number ]) => {};
 ```
 
 ### Diagnostics

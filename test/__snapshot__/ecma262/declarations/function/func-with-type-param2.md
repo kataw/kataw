@@ -128,7 +128,7 @@ a=function<T,S>() {}
                     "start": 2,
                     "end": 20
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 20
             },
@@ -150,8 +150,7 @@ a=function<T,S>() {}
 
 ```javascript
 
-a = function <T, S> () {};
-
+a = function <T, S>() {};
 ```
 
 ### Diagnostics

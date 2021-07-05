@@ -16,6 +16,7 @@ export interface ArgumentList extends SyntaxNode {
 export function createArgumentList(
   elements: ArgumentListElement[],
   trailingComma: boolean,
+  flags: NodeFlags,
   start: number,
   end: number
 ): ArgumentList {
@@ -23,7 +24,7 @@ export function createArgumentList(
     kind: SyntaxKind.ArgumentList,
     elements,
     trailingComma,
-    flags: NodeFlags.ExpressionNode,
+    flags,
     start,
     end
   };

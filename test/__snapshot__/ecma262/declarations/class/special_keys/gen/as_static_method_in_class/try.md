@@ -132,9 +132,8 @@ class x {static try(){}}
 ```javascript
 
 class x {
-  static try() {}
+  static try(){}
 }
-
 ```
 
 ### Diagnostics

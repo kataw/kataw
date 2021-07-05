@@ -49,7 +49,7 @@ let = 1
                     "start": 5,
                     "end": 7
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -72,7 +72,6 @@ let = 1
 ```javascript
 
 let = 1;
-
 ```
 
 ### Diagnostics

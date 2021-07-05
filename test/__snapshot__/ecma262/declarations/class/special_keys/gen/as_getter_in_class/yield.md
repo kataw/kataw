@@ -132,9 +132,8 @@ class x {get yield(){}}
 ```javascript
 
 class x {
-  get yield() {}
+  get yield(){}
 }
-
 ```
 
 ### Diagnostics

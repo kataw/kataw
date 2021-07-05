@@ -152,9 +152,8 @@ class A {set "foo"(x){}}
 ```javascript
 
 class A {
-  set '"foo"'(x) {}
+  set "\"foo\""(x){}
 }
-
 ```
 
 ### Diagnostics

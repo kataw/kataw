@@ -137,8 +137,8 @@ async function wrap() {
                                     "start": 29,
                                     "end": 48
                                 },
-                                "flags": 32,
-                                "start": 23,
+                                "flags": 23,
+                                "start": 35,
                                 "end": 49
                             },
                             "flags": 16,
@@ -182,8 +182,6 @@ async function wrap() {
 async function wrap() {
   ({ a = await b } = obj);
 }
-;
-
 ```
 
 ### Diagnostics

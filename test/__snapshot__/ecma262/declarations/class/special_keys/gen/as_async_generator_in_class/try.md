@@ -137,9 +137,8 @@ class x {async * try(){}}
 ```javascript
 
 class x {
-  async * try() {}
+  async * try(){}
 }
-
 ```
 
 ### Diagnostics

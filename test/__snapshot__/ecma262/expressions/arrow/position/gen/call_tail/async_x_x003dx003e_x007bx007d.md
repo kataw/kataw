@@ -123,7 +123,6 @@ foo(async x => {}).bar
 ```javascript
 
 foo(async x => {}).bar;
-
 ```
 
 ### Diagnostics

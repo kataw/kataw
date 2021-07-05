@@ -99,7 +99,7 @@
                         "start": 12,
                         "end": 14
                     },
-                    "flags": 32,
+                    "flags": 0,
                     "start": 8,
                     "end": 14
                 },
@@ -125,8 +125,7 @@
 
 ```javascript
 
-[a, b,] = c = d;
-
+[a, b] = c = d;
 ```
 
 ### Diagnostics

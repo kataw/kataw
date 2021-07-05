@@ -90,7 +90,6 @@ var a: 123.0
 ```javascript
 
 var a: 123.0;
-
 ```
 
 ### Diagnostics

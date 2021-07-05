@@ -80,8 +80,8 @@ x *
                         "start": 5,
                         "end": 22
                     },
-                    "flags": 32,
-                    "start": 3,
+                    "flags": 3,
+                    "start": 33,
                     "end": 23
                 },
                 "flags": 96,
@@ -106,8 +106,7 @@ x *
 
 ```javascript
 
-x * (async async => ok);
-
+x *  (async async =>  ok);
 ```
 
 ### Diagnostics

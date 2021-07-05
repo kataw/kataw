@@ -59,9 +59,8 @@ a;
 
 ```javascript
 
-l\u0065t;// ASI
+l\u0065t;
 a;
-
 ```
 
 ### Diagnostics

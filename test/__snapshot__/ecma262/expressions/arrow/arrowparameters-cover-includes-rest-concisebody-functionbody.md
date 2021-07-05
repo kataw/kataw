@@ -78,7 +78,7 @@ var af = (x, ...y) => { return [x, y.length]; };
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 10,
                                 "end": 18
                             },
@@ -193,9 +193,8 @@ var af = (x, ...y) => { return [x, y.length]; };
 ```javascript
 
 var af = (x, ...y) => {
-  return [x, y.length,];
-};
-
+    return [x, y.length];
+  };
 ```
 
 ### Diagnostics

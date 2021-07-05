@@ -492,7 +492,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 126,
                                     "end": 129
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 111,
                                 "end": 129
                             },
@@ -686,7 +686,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 182,
                                     "end": 185
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 167,
                                 "end": 185
                             },
@@ -851,7 +851,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 226,
                                     "end": 229
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 220,
                                 "end": 229
                             },
@@ -1384,7 +1384,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 375,
                                     "end": 378
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 369,
                                 "end": 378
                             },
@@ -1572,7 +1572,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 425,
                                     "end": 428
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 419,
                                 "end": 428
                             },
@@ -1754,7 +1754,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 471,
                                     "end": 474
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 465,
                                 "end": 474
                             },
@@ -1928,7 +1928,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 529,
                                     "end": 532
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 523,
                                 "end": 532
                             },
@@ -2105,8 +2105,8 @@ function f({x:arg = (arg = 2)}) {}
                                             "start": 562,
                                             "end": 578
                                         },
-                                        "flags": 32,
-                                        "start": 562,
+                                        "flags": 562,
+                                        "start": 34,
                                         "end": 578
                                     },
                                     "flags": 0,
@@ -2333,7 +2333,7 @@ function f({x:arg = (arg = 2)}) {}
                                                                     "start": 635,
                                                                     "end": 638
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 0,
                                                                 "start": 630,
                                                                 "end": 638
                                                             },
@@ -2523,7 +2523,7 @@ function f({x:arg = (arg = 2)}) {}
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 679,
                                                 "end": 679
                                             },
@@ -2558,7 +2558,7 @@ function f({x:arg = (arg = 2)}) {}
                                                     "start": 689,
                                                     "end": 692
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 683,
                                                 "end": 692
                                             },
@@ -2734,7 +2734,7 @@ function f({x:arg = (arg = 2)}) {}
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 732,
                                                 "end": 732
                                             },
@@ -3148,7 +3148,7 @@ function f({x:arg = (arg = 2)}) {}
                                     "start": 859,
                                     "end": 862
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 844,
                                 "end": 862
                             },
@@ -3646,7 +3646,7 @@ function f({x:arg = (arg = 2)}) {}
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 1010,
                                                 "end": 1010
                                             },
@@ -3695,7 +3695,7 @@ function f({x:arg = (arg = 2)}) {}
                                                     "start": 1029,
                                                     "end": 1032
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 1014,
                                                 "end": 1032
                                             },
@@ -3889,8 +3889,8 @@ function f({x:arg = (arg = 2)}) {}
                                             "start": 1073,
                                             "end": 1079
                                         },
-                                        "flags": 32,
-                                        "start": 1073,
+                                        "flags": 1073,
+                                        "start": 34,
                                         "end": 1080
                                     },
                                     "flags": 32,
@@ -4008,8 +4008,8 @@ function f({x:arg = (arg = 2)}) {}
                                             "start": 1106,
                                             "end": 1115
                                         },
-                                        "flags": 32,
-                                        "start": 1106,
+                                        "flags": 1106,
+                                        "start": 34,
                                         "end": 1116
                                     },
                                     "flags": 32,
@@ -4067,116 +4067,195 @@ function f({x:arg = (arg = 2)}) {}
 
 function f(arg) {
   function h() {
-    g(arg);
+    g(
+      arg
+    );
   }
-  ;
   h();
 }
 function f(arg = 1) {
-  g(arg);
+  g(
+    arg
+  );
 }
 function f(arg, arguments) {
-  g(arg);
+  g(
+    arg
+  );
   arguments[0] = 42;
-  g(arg);
+  g(
+    arg
+  );
 }
 function f(...arg) {
-  g(arg);
+  g(
+    arg
+  );
   arguments[0] = 42;
-  g(arg);
+  g(
+    arg
+  );
 }
 function f(arg) {
-  g(arg);
+  g(
+    arg
+  );
   arg = 42;
-  g(arg);
+  g(
+    arg
+  );
 }
 function f(arg) {
-  g(arg);
-  eval('\'arg = 42\'');
-  g(arg);
+  g(
+    arg
+  );
+  eval(
+    '\'arg = 42\''
+  );
+  g(
+    arg
+  );
 }
 function f(arg) {
-  g(arg);
+  g(
+    arg
+  );
   var arg = 42;
-  g(arg);
+  g(
+    arg
+  );
 }
 function f(arg, x = 1) {
-  g(arg);
+  g(
+    arg
+  );
   arg = 42;
-  g(arg);
+  g(
+    arg
+  );
 }
 function f(arg, ...x) {
-  g(arg);
+  g(
+    arg
+  );
   arg = 42;
-  g(arg);
+  g(
+    arg
+  );
 }
 function f(arg = 1) {
-  g(arg);
+  g(
+    arg
+  );
   arg = 42;
-  g(arg);
+  g(
+    arg
+  );
 }
 function f(arg) {
-'\'use strict\'';
-  g(arg);
+  g(
+    arg
+  );
   arg = 42;
-  g(arg);
+  g(
+    arg
+  );
 }
-function f(arg, {
-    a = (g(arg), arg = 42)
-  }) {
-  g(arg);
-}
-function f(arg) {
-  g(arg);
-  g(function () {
-    arg = 42;
-  });
-  g(arg);
+function f(arg, {a = (g(arg), arg = 42)}) {
+  g(
+    arg
+  );
 }
 function f(arg) {
-  g(arg);
-  g(() => arg = 42);
-  g(arg);
+  g(
+    arg
+  );
+  g(
+    function () {
+      arg = 42;
+    }
+  );
+  g(
+    arg
+  );
 }
 function f(arg) {
-  g(arg);
-  g(() => eval('\'arg = 42\''));
-  g(arg);
+  g(
+    arg
+  );
+  g(
+    () =>  arg = 42
+  );
+  g(
+    arg
+  );
+}
+function f(arg) {
+  g(
+    arg
+  );
+  g(
+    () =>  eval('\'arg = 42\'')
+  );
+  g(
+    arg
+  );
 }
 function f(...arg) {
-  g(arg);
-  eval('\'arg = 42\'');
-  g(arg);
+  g(
+    arg
+  );
+  eval(
+    '\'arg = 42\''
+  );
+  g(
+    arg
+  );
 }
 function f(arg) {
-  g(arg);
+  g(
+    arg
+  );
   arguments[0] = 42;
-  g(arg);
+  g(
+    arg
+  );
 }
 function f(arg) {
-  g(arg);
-  h(arguments);
-  g(arg);
+  g(
+    arg
+  );
+  h(
+    arguments
+  );
+  g(
+    arg
+  );
 }
 function f(arg) {
-  g(arg);
-  eval('\'arguments[0] = 42\'');
-  g(arg);
+  g(
+    arg
+  );
+  eval(
+    '\'arguments[0] = 42\''
+  );
+  g(
+    arg
+  );
 }
 function f(arg) {
-  g(arg);
-  g(() => arguments[0] = 42);
-  g(arg);
+  g(
+    arg
+  );
+  g(
+    () =>  arguments[0] = 42
+  );
+  g(
+    arg
+  );
 }
-function f({
-    x: arg = 1
-  }, {
-    y: b = (arg = 2)
-  }) {}
-function f({
-    x: arg = (arg = 2)
-  }) {}
-
+function f({x: arg = 1}, {y: b = (arg = 2)}) {}
+function f({x: arg = (arg = 2)}) {}
 ```
 
 ### Diagnostics

@@ -125,7 +125,7 @@ result = [...{ x = yield }] = y;
                     "start": 8,
                     "end": 31
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 31
             },
@@ -148,7 +148,6 @@ result = [...{ x = yield }] = y;
 ```javascript
 
 result = [...{ x = yield }] = y;
-
 ```
 
 ### Diagnostics

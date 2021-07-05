@@ -73,7 +73,7 @@ var v = (a, b) => {
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 9,
                                 "end": 14
                             },
@@ -129,9 +129,7 @@ var v = (a, b) => {
 
 ```javascript
 
-var v = (a, b) => {
-};
-
+var v = (a, b) => {};
 ```
 
 ### Diagnostics

@@ -133,8 +133,7 @@ foo(async (x, y) => ok).bar
 
 ```javascript
 
-foo(async (x, y) => ok).bar;
-
+foo(async (x, y) =>  ok).bar;
 ```
 
 ### Diagnostics

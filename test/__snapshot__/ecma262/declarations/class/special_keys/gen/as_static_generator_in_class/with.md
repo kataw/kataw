@@ -137,9 +137,8 @@ class x {static * with(){}}
 ```javascript
 
 class x {
-  static * with() {}
+  static * with(){}
 }
-
 ```
 
 ### Diagnostics

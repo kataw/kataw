@@ -142,9 +142,8 @@ class x {static async * super(){}}
 ```javascript
 
 class x {
-  static async * super() {}
+  static async * super(){}
 }
-
 ```
 
 ### Diagnostics

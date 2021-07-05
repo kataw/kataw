@@ -103,9 +103,8 @@ class C { [0] }
 ```javascript
 
 class C {
-  [0]
+  [0];
 }
-
 ```
 
 ### Diagnostics

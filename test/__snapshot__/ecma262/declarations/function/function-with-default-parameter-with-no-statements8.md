@@ -207,9 +207,7 @@ function bar(a = foo()) {
 ```javascript
 
 function foo(a = bar()) {}
-function bar(a = foo()) {
-}
-
+function bar(a = foo()) {}
 ```
 
 ### Diagnostics

@@ -95,10 +95,7 @@ let {x} = v
 
 ```javascript
 
-let {
-  x
-} = v;
-
+let {x} = v;
 ```
 
 ### Diagnostics

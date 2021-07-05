@@ -65,7 +65,7 @@ function fn() { (() => {})().#x }
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 18,
                                                 "end": 18
                                             },
@@ -94,8 +94,8 @@ function fn() { (() => {})().#x }
                                             "start": 17,
                                             "end": 25
                                         },
-                                        "flags": 32,
-                                        "start": 15,
+                                        "flags": 15,
+                                        "start": 32,
                                         "end": 26
                                     },
                                     "argumentList": {

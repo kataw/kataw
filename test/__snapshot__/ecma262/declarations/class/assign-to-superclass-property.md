@@ -196,7 +196,7 @@ class B extends A {
                                                         "start": 83,
                                                         "end": 104
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 56,
                                                     "end": 104
                                                 },
@@ -248,13 +248,12 @@ class B extends A {
 
 ```javascript
 
-class B extends A {
-  constructor() {
-    super();
-    this.initializer = this.initializer + 1;
+class B  extends A {
+  constructor(){
+    super ();
+    this .initializer = this .initializer +  1;
   }
 }
-
 ```
 
 ### Diagnostics

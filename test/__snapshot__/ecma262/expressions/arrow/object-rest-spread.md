@@ -95,7 +95,7 @@ var foo = ( { title, ...other } ) => {
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
                                 "start": 11,
                                 "end": 33
                             },
@@ -151,12 +151,7 @@ var foo = ( { title, ...other } ) => {
 
 ```javascript
 
-var foo = ({
-    title,
-    ...other
-  }) => {
-};
-
+var foo = ({title, ...other}) => {};
 ```
 
 ### Diagnostics

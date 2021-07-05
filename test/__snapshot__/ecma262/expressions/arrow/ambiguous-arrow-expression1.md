@@ -74,8 +74,8 @@
                         "start": 5,
                         "end": 11
                     },
-                    "flags": 32,
-                    "start": 3,
+                    "flags": 3,
+                    "start": 32,
                     "end": 12
                 },
                 "colonToken": {
@@ -137,8 +137,7 @@
 
 ```javascript
 
-5 ? (t => 5) : t => 5;
-
+5 ? (t =>  5) : t =>  5;
 ```
 
 ### Diagnostics

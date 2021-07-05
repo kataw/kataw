@@ -108,7 +108,7 @@ x = {arrow: async => {}}
                     "start": 3,
                     "end": 24
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 24
             },
@@ -130,8 +130,7 @@ x = {arrow: async => {}}
 
 ```javascript
 
-x = { arrow : async => {} };
-
+x = { arrow: async => {} };
 ```
 
 ### Diagnostics

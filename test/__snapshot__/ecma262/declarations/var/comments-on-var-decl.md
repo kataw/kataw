@@ -310,7 +310,7 @@ n4 = z2;
                     "start": 606,
                     "end": 617
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 463,
                 "end": 617
             },
@@ -544,7 +544,7 @@ n4 = z2;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 951,
                                 "end": 972
                             },
@@ -890,7 +890,7 @@ n4 = z2;
                     "start": 1084,
                     "end": 1087
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 1079,
                 "end": 1087
             },
@@ -911,38 +911,21 @@ n4 = z2;
 ### Printed
 
 ```javascript
-/** Variable comments*/
-var myVariable = 10;// This trailing Comment1
- /** This is another variable comment*/
-var anotherVariable = 30;
- // shouldn't appear
-var aVar = '""';
- /** this is multiline comment
-  * All these variables are of number type */
-var anotherAnotherVariable = 70;/* these are multiple trailing comments */ /* multiple trailing comments */
- /** Triple slash multiline comment*/
-/** another line in the comment*/
-/** comment line 2*/
-var x = 70;/* multiline trailing comment
-this is multiline trailing comment */
- /** Triple slash comment on the assignment shouldnt be in .d.ts file*/
-x = myVariable;
- /** triple slash comment1*/
-/** jsdocstyle comment - only this comment should be in .d.ts file*/
-var n = 30;
- /** var deckaration with comment on type as well*/
-var y =/** value comment */ 20;
- /// var deckaration with comment on type as well
-var yy = 
- /// value comment
-20;
- /** comment2 */
-var z =/** lambda comment */ (/** lambda comment */x: number, /** lambda comment */y: number) => x + y;
-var z2:/** type comment*/ (/** type comment*/x: number) => string;
-var x2 = z2;
-var n4: (x: number) => string;
-n4 = z2;
 
+var myVariable = 10;
+var anotherVariable = 30;
+var aVar = "\"\"";
+var anotherAnotherVariable = 70;
+var x = 70;
+x = myVariable;
+var n = 30;
+var y = 20;
+var yy = 20;
+var z = (x: number , y: number ) =>  x +  y;
+var z2: (x: number ) =>  string ;
+var x2 = z2;
+var n4: (x: number ) =>  string ;
+n4 = z2;
 ```
 
 ### Diagnostics

@@ -146,11 +146,9 @@ class C { get; #aaa(){} }
 ```javascript
 
 class C {
-  get
-  ;
-  #aaa() {}
+  get;;
+  #aaa(){}
 }
-
 ```
 
 ### Diagnostics

@@ -101,8 +101,8 @@ bar ? (x => { return x; }) : baz;
                         "start": 7,
                         "end": 25
                     },
-                    "flags": 32,
-                    "start": 5,
+                    "flags": 5,
+                    "start": 32,
                     "end": 26
                 },
                 "colonToken": {
@@ -142,9 +142,8 @@ bar ? (x => { return x; }) : baz;
 ```javascript
 
 bar ? (x => {
-  return x;
-}) : baz;
-
+        return x;
+      }) : baz;
 ```
 
 ### Diagnostics

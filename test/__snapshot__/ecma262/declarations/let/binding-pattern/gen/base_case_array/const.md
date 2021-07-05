@@ -96,7 +96,6 @@ const [x] = v
 ```javascript
 
 const [x] = v;
-
 ```
 
 ### Diagnostics

@@ -124,7 +124,6 @@ const [foo=a] = arr;
 ```javascript
 
 const [foo = a] = arr;
-
 ```
 
 ### Diagnostics

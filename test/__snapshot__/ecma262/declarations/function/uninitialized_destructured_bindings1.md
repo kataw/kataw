@@ -106,10 +106,7 @@ function x({ foo }) {}
 
 ```javascript
 
-function x({
-    foo
-  }) {}
-
+function x({foo}) {}
 ```
 
 ### Diagnostics

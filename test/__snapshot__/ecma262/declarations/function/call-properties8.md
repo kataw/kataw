@@ -275,10 +275,9 @@ function b(x: { (z: number): string }): (z: number) => number {
 
 ```javascript
 
-function b(x: { (z: number): string }): (z: number) => number {
+function b(x: { (z: number ): string  }): (z: number ) =>  number  {
   return x;
 }
-
 ```
 
 ### Diagnostics

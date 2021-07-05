@@ -112,7 +112,6 @@ function x(): | a {}
 ```javascript
 
 function x(): | a {}
-
 ```
 
 ### Diagnostics

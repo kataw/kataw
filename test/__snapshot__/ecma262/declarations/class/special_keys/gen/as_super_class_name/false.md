@@ -92,9 +92,7 @@ class x extends false {}
 
 ```javascript
 
-class x extends false {
-}
-
+class x  extends false  {}
 ```
 
 ### Diagnostics

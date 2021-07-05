@@ -132,9 +132,8 @@ class x {get eval(){}}
 ```javascript
 
 class x {
-  get eval() {}
+  get eval(){}
 }
-
 ```
 
 ### Diagnostics

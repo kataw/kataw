@@ -141,9 +141,8 @@ class x {set instanceof(x){}}
 ```javascript
 
 class x {
-  set instanceof(x) {}
+  set instanceof(x){}
 }
-
 ```
 
 ### Diagnostics

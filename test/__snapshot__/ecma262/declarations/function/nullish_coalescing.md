@@ -172,10 +172,9 @@ function g(x: any): string {
 
 ```javascript
 
-function g(x: any): string {
-  return x ?? 1;
+function g(x: any ): string  {
+  return x ??  1;
 }
-
 ```
 
 ### Diagnostics

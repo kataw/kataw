@@ -267,7 +267,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 2,
+                        "flags": 34,
                         "start": 5,
                         "end": 77
                     },
@@ -296,7 +296,7 @@ f = ([cls = class {}, xCls = class X {}, xCls2 = class { static name() {} }]) =>
                     "start": 3,
                     "end": 83
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 83
             },

@@ -202,8 +202,7 @@ declare class A<T> extends B<T> { x: number }
 
 ```javascript
 
-declare class A<T> extends B<T> { x: number }
-
+declare class A<T>  extends B<T> { x: number  }
 ```
 
 ### Diagnostics

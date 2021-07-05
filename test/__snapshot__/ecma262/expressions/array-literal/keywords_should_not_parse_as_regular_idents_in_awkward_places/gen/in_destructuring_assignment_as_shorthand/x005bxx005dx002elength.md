@@ -115,8 +115,7 @@
 
 ```javascript
 
-[[x,].length,] = x;
-
+[[x].length] = x;
 ```
 
 ### Diagnostics

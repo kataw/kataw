@@ -193,9 +193,8 @@ declare class B { () : number }
 
 ```javascript
 
-declare class A { static (): number }
-declare class B { (): number }
-
+declare class A { static (): number  }
+declare class B { (): number  }
 ```
 
 ### Diagnostics

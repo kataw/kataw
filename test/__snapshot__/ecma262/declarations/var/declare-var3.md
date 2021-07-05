@@ -453,10 +453,9 @@ declare var tup: [{foo: string}, {bar: number}];
 
 ```javascript
 
-var arrOfObjs: Array<{ foo: string }>;
-var roArrOfObjs: $ReadOnlyArray<{ foo: string }>;
-var tup: [[{ foo: string }, { bar: number }]];
-
+declare var arrOfObjs: Array<{ foo: string  }>;
+declare var roArrOfObjs: $ReadOnlyArray<{ foo: string  }>;
+declare var tup: [{ foo: string  }, { bar: number  }];
 ```
 
 ### Diagnostics

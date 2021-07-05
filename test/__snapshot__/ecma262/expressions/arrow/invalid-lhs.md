@@ -54,8 +54,8 @@ x = (a,b)+c=>{};
                         "start": 1,
                         "end": 5
                     },
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 32,
                     "end": 6
                 },
                 "template": {
@@ -140,8 +140,8 @@ x = (a,b)+c=>{};
                         "start": 31,
                         "end": 35
                     },
-                    "flags": 32,
-                    "start": 29,
+                    "flags": 29,
+                    "start": 33,
                     "end": 36
                 },
                 "questionToken": {
@@ -201,7 +201,7 @@ x = (a,b)+c=>{};
                     "start": 39,
                     "end": 44
                 },
-                "flags": 32,
+                "flags": 61,
                 "start": 29,
                 "end": 44
             },
@@ -273,8 +273,8 @@ x = (a,b)+c=>{};
                             "start": 55,
                             "end": 59
                         },
-                        "flags": 32,
-                        "start": 53,
+                        "flags": 53,
+                        "start": 32,
                         "end": 60
                     },
                     "expression": {
@@ -289,7 +289,7 @@ x = (a,b)+c=>{};
                     "start": 53,
                     "end": 63
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 49,
                 "end": 63
             },
@@ -361,8 +361,8 @@ x = (a,b)+c=>{};
                         "start": 68,
                         "end": 77
                     },
-                    "flags": 32,
-                    "start": 68,
+                    "flags": 68,
+                    "start": 33,
                     "end": 77
                 },
                 "template": {
@@ -463,8 +463,8 @@ x = (a,b)+c=>{};
                         "start": 100,
                         "end": 109
                     },
-                    "flags": 32,
-                    "start": 100,
+                    "flags": 100,
+                    "start": 33,
                     "end": 109
                 },
                 "template": {
@@ -587,8 +587,8 @@ x = (a,b)+c=>{};
                             "start": 137,
                             "end": 146
                         },
-                        "flags": 32,
-                        "start": 137,
+                        "flags": 137,
+                        "start": 32,
                         "end": 146
                     },
                     "template": {
@@ -627,7 +627,7 @@ x = (a,b)+c=>{};
                     "start": 137,
                     "end": 165
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 133,
                 "end": 165
             },
@@ -849,7 +849,7 @@ x = (a,b)+c=>{};
                     "start": 228,
                     "end": 234
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 224,
                 "end": 234
             },
@@ -910,7 +910,7 @@ x = (a,b)+c=>{};
                     "start": 242,
                     "end": 248
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 238,
                 "end": 248
             },
@@ -983,8 +983,8 @@ x = (a,b)+c=>{};
                             "start": 257,
                             "end": 263
                         },
-                        "flags": 32,
-                        "start": 257,
+                        "flags": 257,
+                        "start": 32,
                         "end": 263
                     },
                     "operatorToken": {
@@ -1030,11 +1030,11 @@ x = (a,b)+c=>{};
                         "start": 264,
                         "end": 269
                     },
-                    "flags": 32,
+                    "flags": 289,
                     "start": 257,
                     "end": 269
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 253,
                 "end": 269
             },

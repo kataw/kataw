@@ -93,7 +93,7 @@ x = (x, {}:string) => {} ;
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 2,
+                        "flags": 34,
                         "start": 5,
                         "end": 18
                     },
@@ -122,7 +122,7 @@ x = (x, {}:string) => {} ;
                     "start": 3,
                     "end": 24
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 24
             },
@@ -144,8 +144,7 @@ x = (x, {}:string) => {} ;
 
 ```javascript
 
-x = (x, {}: string) => {};
-
+x = (x, {}: string ) => {};
 ```
 
 ### Diagnostics

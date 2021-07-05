@@ -123,7 +123,6 @@ var [...foo] = obj;
 ```javascript
 
 var [...foo] = obj;
-
 ```
 
 ### Diagnostics

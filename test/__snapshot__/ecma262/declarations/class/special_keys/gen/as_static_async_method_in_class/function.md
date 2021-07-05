@@ -137,9 +137,8 @@ class x {static async function(){}}
 ```javascript
 
 class x {
-  static async function() {}
+  static async function(){}
 }
-
 ```
 
 ### Diagnostics

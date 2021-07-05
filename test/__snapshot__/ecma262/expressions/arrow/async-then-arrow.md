@@ -82,8 +82,7 @@ a => a;
 ```javascript
 
 async;
-a => a;
-
+a =>  a;
 ```
 
 ### Diagnostics

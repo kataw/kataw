@@ -186,11 +186,10 @@ var C = class { async *gen() {
 ```javascript
 
 var C = class  {
-  async * gen() {
-    a\u0061wait: ;
-  }
-};
-
+    async * gen(){
+      a\u0061wait: ;
+    }
+  };
 ```
 
 ### Diagnostics

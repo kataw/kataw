@@ -96,7 +96,7 @@ hello();
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 49
                             },
@@ -265,11 +265,10 @@ hello();
 
 ```javascript
 
-let hello = (greeting: string = '\' world\'') => {
-  console.log('\'hello\'' + greeting);
-};
+let hello = (greeting: string  = '\' world\'') => {
+    console.log('\'hello\'' +  greeting);
+  };
 hello();
-
 ```
 
 ### Diagnostics

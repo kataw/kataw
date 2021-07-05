@@ -86,7 +86,6 @@ function fn(yield) {}
 ```javascript
 
 function fn(yield) {}
-
 ```
 
 ### Diagnostics

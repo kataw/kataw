@@ -127,9 +127,8 @@ class x {extends(){}}
 ```javascript
 
 class x {
-  extends() {}
+  extends(){}
 }
-
 ```
 
 ### Diagnostics

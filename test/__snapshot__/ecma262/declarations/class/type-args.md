@@ -166,8 +166,8 @@ class C<T> {
                                                             "start": 43,
                                                             "end": 44
                                                         },
-                                                        "flags": 32,
-                                                        "start": 42,
+                                                        "flags": 42,
+                                                        "start": 32,
                                                         "end": 45
                                                     },
                                                     "flags": 97,
@@ -242,8 +242,8 @@ class C<T> {
                                                                 "start": 76,
                                                                 "end": 77
                                                             },
-                                                            "flags": 32,
-                                                            "start": 75,
+                                                            "flags": 75,
+                                                            "start": 32,
                                                             "end": 78
                                                         },
                                                         "flags": 96,
@@ -359,8 +359,8 @@ class C<T> {
                                                             "start": 116,
                                                             "end": 117
                                                         },
-                                                        "flags": 32,
-                                                        "start": 115,
+                                                        "flags": 115,
+                                                        "start": 32,
                                                         "end": 118
                                                     },
                                                     "flags": 97,
@@ -416,13 +416,12 @@ class C<T> {
 ```javascript
 
 class C<T> {
-  foo() {
-    TypeAssertIs  < T > (9);
-    TypeAssertIs  < T | number > (9);
-    TypeAssertIs  < { A : number, B : T } > (9);
+  foo(){
+    TypeAssertIs  <  T >  (9);
+    TypeAssertIs  <  T |  number >  (9);
+    TypeAssertIs  <  { A: number, B: T } >  (9);
   }
 }
-
 ```
 
 ### Diagnostics

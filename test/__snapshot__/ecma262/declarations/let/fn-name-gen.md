@@ -197,7 +197,6 @@ let gen = function*() {};
 
 let xGen = function * x() {};
 let gen = function * () {};
-
 ```
 
 ### Diagnostics

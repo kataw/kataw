@@ -72,7 +72,7 @@ while (a);
                         "start": 12,
                         "end": 14
                     },
-                    "flags": 32,
+                    "flags": 0,
                     "start": 2,
                     "end": 14
                 },
@@ -82,7 +82,7 @@ while (a);
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 65,
+                "flags": 81,
                 "start": 14,
                 "end": 20
             },

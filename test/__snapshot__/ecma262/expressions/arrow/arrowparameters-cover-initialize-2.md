@@ -87,7 +87,7 @@ var af = ({x = 1}) => x;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
                                 "start": 10,
                                 "end": 18
                             },
@@ -137,10 +137,7 @@ var af = ({x = 1}) => x;
 
 ```javascript
 
-var af = ({
-    x = 1
-  }) => x;
-
+var af = ({x = 1}) =>  x;
 ```
 
 ### Diagnostics

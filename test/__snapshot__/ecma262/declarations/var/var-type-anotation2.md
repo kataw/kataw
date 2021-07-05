@@ -105,8 +105,7 @@ var a: ?string[]
 
 ```javascript
 
-var a: ?string[];
-
+var a: ? string [];
 ```
 
 ### Diagnostics

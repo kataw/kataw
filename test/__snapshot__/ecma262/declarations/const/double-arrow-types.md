@@ -200,7 +200,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 41,
                                 "end": 50
                             },
@@ -412,7 +412,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 101,
                                 "end": 111
                             },
@@ -462,9 +462,8 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
 
 ```javascript
 
-const fn: (Object, ?Object) => void = (o1, o2) => o1;
-const fn2: (Object, ?Object,) => void = (o1, o2) => o1;
-
+const fn: (Object, ? Object) =>  void  = (o1, o2) =>  o1;
+const fn2: (Object, ? Object) =>  void  = (o1, o2) =>  o1;
 ```
 
 ### Diagnostics

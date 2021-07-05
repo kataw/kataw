@@ -74,7 +74,7 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 15,
                             "end": 25
                         },
@@ -127,8 +127,8 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                         "start": 13,
                         "end": 48
                     },
-                    "flags": 32,
-                    "start": 11,
+                    "flags": 11,
+                    "start": 32,
                     "end": 50
                 },
                 "flags": 96,
@@ -154,10 +154,8 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
 ```javascript
 
 bar ? baz : ((interface) => {
-'\'use strict\'';
-  0;
-});
-
+        0;
+      });
 ```
 
 ### Diagnostics

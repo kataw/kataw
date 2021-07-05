@@ -110,9 +110,8 @@ function* bar() { yield /re/ }
 ```javascript
 
 function * bar() {
-  yield  /re/;
+  yield /re/;
 }
-
 ```
 
 ### Diagnostics

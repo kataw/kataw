@@ -76,7 +76,7 @@
                                     "start": 13,
                                     "end": 15
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 4,
                                 "end": 15
                             },
@@ -113,7 +113,6 @@
 ```javascript
 
 [...let[x] = y];
-
 ```
 
 ### Diagnostics

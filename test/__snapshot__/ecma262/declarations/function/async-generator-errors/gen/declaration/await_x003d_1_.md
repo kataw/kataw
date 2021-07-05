@@ -106,7 +106,7 @@ async function * gen() {await = 1;}
                                     "start": 31,
                                     "end": 33
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 24,
                                 "end": 33
                             },

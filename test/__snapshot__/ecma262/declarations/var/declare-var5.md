@@ -178,8 +178,7 @@ declare var x3: ?(() => (() => number));
 
 ```javascript
 
-var x3: ?(() => (() => number));
-
+declare var x3: ? (() =>  (() =>  number ));
 ```
 
 ### Diagnostics

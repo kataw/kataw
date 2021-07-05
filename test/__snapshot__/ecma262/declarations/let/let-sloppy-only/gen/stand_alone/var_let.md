@@ -75,7 +75,6 @@ var let
 ```javascript
 
 var let;
-
 ```
 
 ### Diagnostics

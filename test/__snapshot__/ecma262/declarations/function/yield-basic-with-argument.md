@@ -92,8 +92,8 @@
                     "start": 1,
                     "end": 25
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 32,
                 "end": 26
             },
             "flags": 16,
@@ -115,9 +115,8 @@
 ```javascript
 
 (function * () {
-  yield  v;
-});
-
+    yield v;
+  });
 ```
 
 ### Diagnostics

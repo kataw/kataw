@@ -230,7 +230,6 @@ class Foo7<T> {
     return 42;
   }
 }
-
 ```
 
 ### Diagnostics

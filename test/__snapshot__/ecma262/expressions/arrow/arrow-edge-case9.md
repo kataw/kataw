@@ -51,8 +51,8 @@ a ? (b) : c => <T>(d) : e => f;
                         "start": 5,
                         "end": 6
                     },
-                    "flags": 32,
-                    "start": 3,
+                    "flags": 3,
+                    "start": 32,
                     "end": 7
                 },
                 "colonToken": {
@@ -128,7 +128,7 @@ a ? (b) : c => <T>(d) : e => f;
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 19,
                             "end": 25
                         },
@@ -199,8 +199,7 @@ a ? (b) : c => <T>(d) : e => f;
 
 ```javascript
 
-a ? (b) : c => <T>(d) => f;
-
+a ? (b) : c =>  <T>(d) =>  f;
 ```
 
 ### Diagnostics

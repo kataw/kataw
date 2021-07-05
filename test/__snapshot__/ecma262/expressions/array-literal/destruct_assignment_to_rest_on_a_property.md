@@ -123,8 +123,7 @@
 
 ```javascript
 
-[...'"foo"'.bar] = x;
-
+[..."\"foo\"".bar] = x;
 ```
 
 ### Diagnostics

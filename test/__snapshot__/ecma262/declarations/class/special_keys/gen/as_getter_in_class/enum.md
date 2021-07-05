@@ -132,9 +132,8 @@ class x {get enum(){}}
 ```javascript
 
 class x {
-  get enum() {}
+  get enum(){}
 }
-
 ```
 
 ### Diagnostics

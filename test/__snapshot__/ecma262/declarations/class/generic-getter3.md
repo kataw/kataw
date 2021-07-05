@@ -272,13 +272,11 @@ class C<T> {
 ```javascript
 
 class C<T> {
-  data: T
-  ;
-  get x(): T {
-    return this.data;
+  data: T;;
+  get x(): T{
+    return this .data;
   }
 }
-
 ```
 
 ### Diagnostics

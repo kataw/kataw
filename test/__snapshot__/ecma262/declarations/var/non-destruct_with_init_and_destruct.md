@@ -131,7 +131,6 @@ var foo = arr, [bar] = arr2;
 ```javascript
 
 var foo = arr, [bar] = arr2;
-
 ```
 
 ### Diagnostics

@@ -1,8 +1,8 @@
 import { parse, Options } from './parser/parser';
-import { PrinterOptions, printCST } from './printer/index';
+import { PrinterOptions } from './printer/index';
 import { Context, OnError } from './parser/common';
 import { RootNode } from './ast/root-node';
-
+import { printSource } from './printer3';
 export { SyntaxKind } from './ast/syntax-node';
 export { NodeFlags } from './ast/syntax-node';
 export { TokenSyntaxKind, createToken, SyntaxToken } from './ast/token';
@@ -216,23 +216,17 @@ export function parseModule(source: string, options?: Options, onError?: OnError
 }
 
 export function print(root: any, options?: PrinterOptions): string {
-  return printCST(root, options);
+  return printSource(root, options);
 }
 
 export function printScript(source: string, options?: PrinterOptions): string {
-  return printCST(
-    parseScript(source, { next: true }, function (_source, _kind, msg, line, column) {
-      throw msg + '(' + line + ', ' + column + ')';
-    }),
-    options
-  );
+  return printSource(parseScript(source, { next: true }, function(_source, _kind, msg, line, column) {
+    throw msg + '(' + line + ', ' + column + ')';
+  }), options)
 }
 
 export function printModule(source: string, options?: PrinterOptions): string {
-  return printCST(
-    parseModule(source, { next: true }, function (_source, _kind, msg, line, column) {
-      throw msg + '(' + line + ', ' + column + ')';
-    }),
-    options
-  );
+  return printSource(parseModule(source, { next: true }, function(_source, _kind, msg, line, column) {
+    throw msg + '(' + line + ', ' + column + ')';
+  }), options)
 }

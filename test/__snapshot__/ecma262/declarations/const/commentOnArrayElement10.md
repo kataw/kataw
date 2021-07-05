@@ -99,8 +99,7 @@ const array = [,, /* comment */];
 
 ```javascript
 
-const array = [, ,/* comment */];
-
+const array = [, ];
 ```
 
 ### Diagnostics

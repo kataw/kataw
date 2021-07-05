@@ -189,10 +189,8 @@ for (class x { [a](){} }.x in c);
 ```javascript
 
 for (class x {
-  [a]() {}
-}.x in c)
-  ;
-
+  [a](){}
+}.x in c);
 ```
 
 ### Diagnostics

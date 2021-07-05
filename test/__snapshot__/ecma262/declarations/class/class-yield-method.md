@@ -124,9 +124,8 @@ class A {*yield() {}}
 ```javascript
 
 class A {
-  * yield() {}
+  * yield(){}
 }
-
 ```
 
 ### Diagnostics

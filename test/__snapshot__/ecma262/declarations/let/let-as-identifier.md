@@ -300,8 +300,8 @@ L: let
                     "start": 71,
                     "end": 89
                 },
-                "flags": 32,
-                "start": 68,
+                "flags": 68,
+                "start": 33,
                 "end": 90
             },
             "flags": 16,
@@ -454,7 +454,7 @@ L: let
                     "start": 148,
                     "end": 150
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 141,
                 "end": 150
             },
@@ -509,7 +509,7 @@ L: let
                                 "start": 168,
                                 "end": 170
                             },
-                            "flags": 32,
+                            "flags": 0,
                             "start": 162,
                             "end": 170
                         },
@@ -697,8 +697,8 @@ L: let
                     "start": 200,
                     "end": 224
                 },
-                "flags": 32,
-                "start": 197,
+                "flags": 197,
+                "start": 33,
                 "end": 225
             },
             "flags": 16,
@@ -906,8 +906,8 @@ L: let
                         "start": 276,
                         "end": 286
                     },
-                    "flags": 32,
-                    "start": 273,
+                    "flags": 273,
+                    "start": 35,
                     "end": 287
                 },
                 "argumentList": {
@@ -998,7 +998,7 @@ L: let
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 290,
                     "end": 309
                 },
@@ -1173,34 +1173,38 @@ L: let
 
 var let;
 var foo, let;
-try { }
-catch (let){ }
+try {} catch (let) {}
 function let() {}
 (function let() {});
 function foo(let) {}
 function foo(bar, let) {}
 let = 1;
 var foo = let = 1;
-let * 2;
-++let;
-let++;
+let *  2;
+++ let;
+let++ ;
 (function f() {
-  let: 34;
-});
+    let:  34;
+  });
 function let(let) {
-  let: let(let + let(0));
+  let:  let(
+    let +  let(0)
+  );
 }
-({ let : 1 })({ get let() {
-    1;
-  } });
-let(100);
-L: let;
+({ let: 1 })(
+  { get let(){
+      1;
+    } }
+);
+let(
+  100
+);
+L:  let;
 x;
-L: let;
+L:  let;
 {
   x;
 }
-
 ```
 
 ### Diagnostics

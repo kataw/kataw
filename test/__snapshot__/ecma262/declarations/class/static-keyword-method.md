@@ -124,9 +124,8 @@ class C { static delete() {} }
 ```javascript
 
 class C {
-  static delete() {}
+  static delete(){}
 }
-
 ```
 
 ### Diagnostics

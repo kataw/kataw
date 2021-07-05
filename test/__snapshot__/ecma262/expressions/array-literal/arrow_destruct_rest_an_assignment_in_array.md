@@ -80,7 +80,7 @@
                                                 "start": 7,
                                                 "end": 8
                                             },
-                                            "flags": 32,
+                                            "flags": 0,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -103,7 +103,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
                     "start": 1,
                     "end": 10
                 },

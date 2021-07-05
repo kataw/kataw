@@ -256,10 +256,9 @@ var b: { (x: number): number } = function (x: number): string { return "hi"; };
 
 ```javascript
 
-var b: { (x: number): number } = function (x: number): string {
-  return '"hi"';
-};
-
+var b: { (x: number ): number  } = function (x: number ): string  {
+    return "\"hi\"";
+  };
 ```
 
 ### Diagnostics

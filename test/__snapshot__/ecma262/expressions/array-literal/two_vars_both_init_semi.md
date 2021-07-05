@@ -145,8 +145,7 @@
 
 ```javascript
 
-[foo = A, bar = B,] = arr;
-
+[foo = A, bar = B] = arr;
 ```
 
 ### Diagnostics

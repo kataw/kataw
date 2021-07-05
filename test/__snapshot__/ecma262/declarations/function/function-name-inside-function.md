@@ -129,7 +129,6 @@ function fn() {
 function fn() {
   function yield() {}
 }
-
 ```
 
 ### Diagnostics

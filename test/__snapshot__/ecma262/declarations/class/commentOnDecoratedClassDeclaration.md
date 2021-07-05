@@ -276,26 +276,15 @@ class AnotherRomote {
 ### Printed
 
 ```javascript
-/**
- * Leading trivia
- */
- /**
- * Leading trivia
- */
-@decorator('"hello"')
-class Remote {
-}
- /**
- * Floating Comment
- */
- /**
- * Floating Comment
- */
-@decorator('"hi"')
-class AnotherRomote {
-  constructor() {}
-}
 
+@ decorator(
+  "\"hello\""
+) class Remote {}
+@ decorator(
+  "\"hi\""
+) class AnotherRomote {
+  constructor(){}
+}
 ```
 
 ### Diagnostics

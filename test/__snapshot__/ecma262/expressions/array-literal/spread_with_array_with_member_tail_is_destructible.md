@@ -183,8 +183,7 @@
 
 ```javascript
 
-[...[x,].map(y, z)[x]] = a;
-
+[...[x].map(y, z)[x]] = a;
 ```
 
 ### Diagnostics

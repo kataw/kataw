@@ -127,9 +127,8 @@ class x {continue(){}}
 ```javascript
 
 class x {
-  continue() {}
+  continue(){}
 }
-
 ```
 
 ### Diagnostics

@@ -146,9 +146,8 @@ class x {static set false(x){}}
 ```javascript
 
 class x {
-  static set false(x) {}
+  static set false(x){}
 }
-
 ```
 
 ### Diagnostics

@@ -81,7 +81,6 @@ declare class A {}
 ```javascript
 
 declare class A {}
-
 ```
 
 ### Diagnostics

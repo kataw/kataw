@@ -103,8 +103,8 @@ class x extends y{}(09)
                     "start": 20,
                     "end": 22
                 },
-                "flags": 32,
-                "start": 19,
+                "flags": 19,
+                "start": 32,
                 "end": 23
             },
             "flags": 16,
@@ -125,10 +125,7 @@ class x extends y{}(09)
 
 ```javascript
 
-class x extends y {
-}
-(09);
-
+class x  extends y {}(09);
 ```
 
 ### Diagnostics

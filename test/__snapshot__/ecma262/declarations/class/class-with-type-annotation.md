@@ -171,10 +171,9 @@ class Foo { bar():this { return this; }}
 
 class Foo {
   bar(): this {
-    return this;
+    return this ;
   }
 }
-
 ```
 
 ### Diagnostics

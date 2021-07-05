@@ -97,8 +97,9 @@ foo(x => ok)
 
 ```javascript
 
-foo(x => ok);
-
+foo(
+  x =>  ok
+);
 ```
 
 ### Diagnostics

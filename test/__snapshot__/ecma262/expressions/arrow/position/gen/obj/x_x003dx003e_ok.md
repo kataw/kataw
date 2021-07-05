@@ -102,7 +102,7 @@ x = {arrow: x => ok}
                     "start": 3,
                     "end": 20
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 20
             },
@@ -124,8 +124,7 @@ x = {arrow: x => ok}
 
 ```javascript
 
-x = { arrow : x => ok };
-
+x = { arrow: x =>  ok };
 ```
 
 ### Diagnostics

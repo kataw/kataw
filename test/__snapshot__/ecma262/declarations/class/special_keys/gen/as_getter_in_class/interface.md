@@ -132,9 +132,8 @@ class x {get interface(){}}
 ```javascript
 
 class x {
-  get interface() {}
+  get interface(){}
 }
-
 ```
 
 ### Diagnostics

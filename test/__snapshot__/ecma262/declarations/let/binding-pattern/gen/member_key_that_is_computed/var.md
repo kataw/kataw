@@ -131,10 +131,7 @@ var {[a.b]: c} = v
 
 ```javascript
 
-var {
-  [a.b]: c
-} = v;
-
+var {[a.b]: c} = v;
 ```
 
 ### Diagnostics

@@ -76,8 +76,7 @@
 
 ```javascript
 
-[, , x,];
-
+[, , x];
 ```
 
 ### Diagnostics

@@ -142,9 +142,8 @@ class x {static async * catch(){}}
 ```javascript
 
 class x {
-  static async * catch() {}
+  static async * catch(){}
 }
-
 ```
 
 ### Diagnostics

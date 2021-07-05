@@ -31,7 +31,7 @@ for (() => x in y;;);
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 6,
                     "end": 6
                 },
@@ -100,9 +100,7 @@ for (() => x in y;;);
 
 ```javascript
 
-for (() => x in y;;)
-  ;
-
+for (() =>  x in  y; ; );
 ```
 
 ### Diagnostics

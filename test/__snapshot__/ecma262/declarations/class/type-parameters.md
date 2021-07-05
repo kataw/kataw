@@ -587,8 +587,8 @@ class A9<S = number, T: ?string = string> {}
                     "start": 139,
                     "end": 163
                 },
-                "flags": 32,
-                "start": 137,
+                "flags": 137,
+                "start": 33,
                 "end": 164
             },
             "flags": 16,
@@ -609,17 +609,13 @@ class A9<S = number, T: ?string = string> {}
 
 ```javascript
 
-class A6<T= string> {
-}
-class A7<T: ?string= string> {
-}
-class A8<S, T: ?string= string> {
-}
-class A9<S= number, T: ?string= string> {
-}
-(class A10<T= string> {
-});
-
+class A6<T= string > {}
+class A7<T: ? string = string > {}
+class A8<S,
+T: ? string = string > {}
+class A9<S= number ,
+T: ? string = string > {}
+(class A10<T= string > {});
 ```
 
 ### Diagnostics

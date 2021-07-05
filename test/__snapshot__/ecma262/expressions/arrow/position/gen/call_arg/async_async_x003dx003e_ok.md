@@ -102,8 +102,9 @@ foo(async async => ok)
 
 ```javascript
 
-foo(async async => ok);
-
+foo(
+  async async =>  ok
+);
 ```
 
 ### Diagnostics

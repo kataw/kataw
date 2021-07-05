@@ -152,11 +152,9 @@ class A {static async
 ```javascript
 
 class A {
-  static async
-  foo() {}
+  static async;
+  foo(){}
 }
-;
-
 ```
 
 ### Diagnostics

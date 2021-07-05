@@ -43,8 +43,8 @@ bar ? (=> 0) : baz;
                         "start": 7,
                         "end": 7
                     },
-                    "flags": 32,
-                    "start": 5,
+                    "flags": 5,
+                    "start": 32,
                     "end": 7
                 },
                 "colonToken": null,

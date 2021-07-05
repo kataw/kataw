@@ -94,9 +94,7 @@ class x extends yield {}
 
 ```javascript
 
-class x extends yield {
-}
-
+class x  extends yield {}
 ```
 
 ### Diagnostics

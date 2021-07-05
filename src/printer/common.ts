@@ -135,6 +135,9 @@ export function printWithComments(
   printCallback: (node: any, printer: Printer, parentNode: any) => void
 ) {
   if (node) {
+
+    printer.hasWrittenComment = false;
+
     const { start, end } = node;
 
     if ((start < 0 && end < 0) || start === end) {
@@ -169,15 +172,12 @@ export function printWithComments(
   }
 }
 
-function getTrailingCommentsToPrint(printer: Printer, end: number): any {
-  if (printer.containerEnd === -1 || (end !== printer.containerEnd && end !== printer.declarationListContainerEnd)) {
-    return collectTrailingComments(printer.source, end);
-  }
-}
 
-function printTrailingComments(printer: Printer, pos: number) {
-  const trailingComments = getTrailingCommentsToPrint(printer, pos);
+function printTrailingComments(printer: Printer, pos: number): void {
+  if (printer.containerEnd === -1 || (pos !== printer.containerEnd && pos !== printer.declarationListContainerEnd)) {
+  const trailingComments = collectTrailingComments(printer.source, pos);
   if (trailingComments && trailingComments.length > 0) {
+    write(printer, ' ');
     let printInterveningSeparator = false;
     for (const comment of trailingComments) {
       if (printInterveningSeparator) {
@@ -192,7 +192,7 @@ function printTrailingComments(printer: Printer, pos: number) {
       }
     }
   }
-  return '';
+}
 }
 
 function getLeadingCommentsWithoutDetachedComments(printer: Printer) {
@@ -488,9 +488,11 @@ export function shouldWriteSeparatingLineTerminator(
   return context & PrinterContext.MultiLine ? true : false;
 }
 
-export function printTrailingCommentsOfPosition(printer: Printer, pos: number) {
-  const trailingComments = getTrailingCommentsToPrint(printer, pos);
-  return writeComments(printer, trailingComments, /*leadingSeparator*/ false, /*trailingSeparator*/ true);
+export function printTrailingCommentsOfPosition(printer: Printer, pos: number): void {
+  if (printer.containerEnd === -1 || (pos !== printer.containerEnd && pos !== printer.declarationListContainerEnd)) {
+    const trailingComments = collectTrailingComments(printer.source, pos);
+    writeComments(printer, trailingComments, /*leadingSeparator*/ false, /*trailingSeparator*/ true);
+  }
 }
 
 export function shouldWriteClosingLineTerminator(
@@ -606,6 +608,7 @@ export function shouldprintBlockFunctionBodyOnSingleLine(printer: any, node: any
   if (body.flags & NodeFlags.NewLine) return false;
 
   if (body.start !== body.end) {
+
     return false;
   }
 

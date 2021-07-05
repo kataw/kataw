@@ -147,7 +147,6 @@ class Foo {get fooProp():number{}}
 class Foo {
   get fooProp(): number {}
 }
-
 ```
 
 ### Diagnostics

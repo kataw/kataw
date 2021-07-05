@@ -145,10 +145,9 @@ switch (a) { case b: let
 ```javascript
 
 switch (a) {
-  case b: 
-    let { } = y;
+  case b:
+    let {} = y;
 }
-
 ```
 
 ### Diagnostics

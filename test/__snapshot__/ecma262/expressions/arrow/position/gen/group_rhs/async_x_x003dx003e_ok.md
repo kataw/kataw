@@ -79,8 +79,8 @@ x * (async x => ok)
                         "start": 5,
                         "end": 18
                     },
-                    "flags": 32,
-                    "start": 3,
+                    "flags": 3,
+                    "start": 32,
                     "end": 19
                 },
                 "flags": 96,
@@ -105,8 +105,7 @@ x * (async x => ok)
 
 ```javascript
 
-x * (async x => ok);
-
+x *  (async x =>  ok);
 ```
 
 ### Diagnostics

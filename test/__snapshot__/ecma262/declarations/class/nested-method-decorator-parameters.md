@@ -217,7 +217,7 @@ class Bar{
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 74,
                                 "end": 74
                             },

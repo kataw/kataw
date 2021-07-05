@@ -137,9 +137,8 @@ class x {async * arguments(){}}
 ```javascript
 
 class x {
-  async * arguments() {}
+  async * arguments(){}
 }
-
 ```
 
 ### Diagnostics

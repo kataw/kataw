@@ -301,7 +301,7 @@ class C2<X, Y> {
                                                         "start": 63,
                                                         "end": 65
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 50,
                                                     "end": 65
                                                 },
@@ -818,23 +818,24 @@ class C2<X, Y> {
 
 ```javascript
 
-class E<X> extends C<X, number> {
-  set(x: X): X {
-    this.x = x;
+class E<X>  extends C<X,
+number > {
+  set(x: X): X{
+    this .x = x;
     if (x) {
-      return this.get_bad();
-    }
-    return this.get();
+        return this .get_bad();
+      }
+    return this .get();
   }
 }
-class C2<X, Y> {
-  x: { p: Y }
-  ;
-  foo(): D2<X, Y> {
-    return this.x;
+class C2<X,
+Y> {
+  x: { p: Y };;
+  foo(): D2<X,
+  Y>{
+    return this .x;
   }
 }
-
 ```
 
 ### Diagnostics

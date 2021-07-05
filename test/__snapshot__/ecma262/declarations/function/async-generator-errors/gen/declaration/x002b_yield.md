@@ -132,7 +132,6 @@ async function * gen() {+ yield}
 async function * gen() {
   +yield ;
 }
-
 ```
 
 ### Diagnostics

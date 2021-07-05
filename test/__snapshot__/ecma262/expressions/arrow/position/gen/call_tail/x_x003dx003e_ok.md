@@ -111,8 +111,7 @@ foo(x => ok).bar
 
 ```javascript
 
-foo(x => ok).bar;
-
+foo(x =>  ok).bar;
 ```
 
 ### Diagnostics

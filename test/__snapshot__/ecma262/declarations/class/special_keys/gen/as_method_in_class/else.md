@@ -127,9 +127,8 @@ class x {else(){}}
 ```javascript
 
 class x {
-  else() {}
+  else(){}
 }
-
 ```
 
 ### Diagnostics

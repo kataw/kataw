@@ -146,9 +146,8 @@ class x {static set super(x){}}
 ```javascript
 
 class x {
-  static set super(x) {}
+  static set super(x){}
 }
-
 ```
 
 ### Diagnostics

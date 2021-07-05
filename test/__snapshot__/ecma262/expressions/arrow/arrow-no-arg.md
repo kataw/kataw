@@ -25,7 +25,7 @@
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 1,
                     "end": 1
                 },
@@ -126,8 +126,7 @@
 
 ```javascript
 
-() => a + b - yield / 1;
-
+() =>  a +  b -  yield /  1;
 ```
 
 ### Diagnostics

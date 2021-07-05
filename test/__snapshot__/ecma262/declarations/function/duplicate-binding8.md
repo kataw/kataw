@@ -181,7 +181,6 @@ function f() {
     var x;
   }
 }
-
 ```
 
 ### Diagnostics

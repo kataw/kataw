@@ -166,10 +166,9 @@ function* f() { class C { aaa = yield } }
 
 function * f() {
   class C {
-    aaa = yield 
+    aaa = yield ;
   }
 }
-
 ```
 
 ### Diagnostics

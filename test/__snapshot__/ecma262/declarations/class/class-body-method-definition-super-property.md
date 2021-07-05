@@ -212,7 +212,7 @@ class A {
                                                         "start": 91,
                                                         "end": 93
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 70,
                                                     "end": 93
                                                 },
@@ -265,14 +265,13 @@ class A {
 ```javascript
 
 class A {
-  constructor() {
-    super.toString();
+  constructor(){
+    super .toString();
   }
-  dontDoThis() {
-    super.makeBugs = 1;
+  dontDoThis(){
+    super .makeBugs = 1;
   }
 }
-
 ```
 
 ### Diagnostics

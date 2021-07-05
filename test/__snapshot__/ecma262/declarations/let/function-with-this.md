@@ -146,8 +146,7 @@ let f: (this: number) => void;
 
 ```javascript
 
-let f: (this: number) => void;
-
+let f: (this: number ) =>  void ;
 ```
 
 ### Diagnostics

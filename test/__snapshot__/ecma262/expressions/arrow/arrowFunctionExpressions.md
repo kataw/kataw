@@ -108,7 +108,7 @@ var p10 = ([{ value, done }]) => { };
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 9,
                                 "end": 19
                             },
@@ -221,7 +221,7 @@ var p10 = ([{ value, done }]) => { };
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 42,
                                 "end": 52
                             },
@@ -432,7 +432,7 @@ var p10 = ([{ value, done }]) => { };
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 116,
                                 "end": 118
                             },
@@ -611,7 +611,7 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 169,
                                     "end": 171
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 165,
                                 "end": 171
                             },
@@ -672,7 +672,7 @@ var p10 = ([{ value, done }]) => { };
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 182,
                                 "end": 184
                             },
@@ -707,7 +707,7 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 191,
                                     "end": 193
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 187,
                                 "end": 193
                             },
@@ -893,7 +893,7 @@ var p10 = ([{ value, done }]) => { };
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
                                 "start": 231,
                                 "end": 235
                             },
@@ -1005,7 +1005,7 @@ var p10 = ([{ value, done }]) => { };
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
                                 "start": 254,
                                 "end": 261
                             },
@@ -1108,7 +1108,7 @@ var p10 = ([{ value, done }]) => { };
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
                                 "start": 280,
                                 "end": 286
                             },
@@ -1226,7 +1226,7 @@ var p10 = ([{ value, done }]) => { };
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
                                 "start": 305,
                                 "end": 314
                             },
@@ -1340,7 +1340,7 @@ var p10 = ([{ value, done }]) => { };
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
                                 "start": 333,
                                 "end": 341
                             },
@@ -1437,7 +1437,7 @@ var p10 = ([{ value, done }]) => { };
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
                                 "start": 360,
                                 "end": 366
                             },
@@ -1564,7 +1564,7 @@ var p10 = ([{ value, done }]) => { };
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
                                 "start": 385,
                                 "end": 398
                             },
@@ -1678,7 +1678,7 @@ var p10 = ([{ value, done }]) => { };
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
                                 "start": 417,
                                 "end": 427
                             },
@@ -1798,7 +1798,7 @@ var p10 = ([{ value, done }]) => { };
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
                                 "start": 496,
                                 "end": 514
                             },
@@ -1854,40 +1854,29 @@ var p10 = ([{ value, done }]) => { };
 
 ```javascript
 
-var a = (p: string) => p.length;
-var a = (p: string) => {
-  return p.length;
-};
+var a = (p: string ) =>  p.length;
+var a = (p: string ) => {
+    return p.length;
+  };
 var b = j => {
-  return 0;
-};
+    return 0;
+  };
 var b = (j) => {
-  return 0;
-};
-var c: number;
-var d = n => c = n;
-var d = (n) => c = n;
-var d: (n: any) => any;
+    return 0;
+  };
+var c: number ;
+var d = n =>  c = n;
+var d = (n) =>  c = n;
+var d: (n: any ) =>  any ;
 var p1 = ([a]) => {};
 var p2 = ([...a]) => {};
 var p3 = ([, a]) => {};
 var p4 = ([, ...a]) => {};
 var p5 = ([a = 1]) => {};
-var p6 = ({
-    a
-  }) => {};
-var p7 = ({
-    a: { b }
-  }) => {};
-var p8 = ({
-    a = 1
-  }) => {};
- //var p9 = ({ a: { b = 1 } = { b: 1 } }) => { };
-var p10 = ([{
-    value,
-    done
-  }]) => {};
-
+var p6 = ({a}) => {};
+var p7 = ({a: { b }}) => {};
+var p8 = ({a = 1}) => {};
+var p10 = ([{value, done}]) => {};
 ```
 
 ### Diagnostics

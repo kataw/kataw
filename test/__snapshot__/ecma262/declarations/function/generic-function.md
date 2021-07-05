@@ -398,12 +398,10 @@ function from<T>(arg: any): Query<T> {
 
 ```javascript
 
-declare function from<T> (arg: boolean): Query<T> 
-;
-function from<T> (arg: any): Query<T> {
+declare function from<T>(arg: boolean ): Query<T> 
+function from<T>(arg: any ): Query<T> {
   return undefined;
 }
-
 ```
 
 ### Diagnostics

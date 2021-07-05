@@ -190,8 +190,7 @@ var e: { (x: any): void } = function() { } // arity
 
 ```javascript
 
-var e: { (x: any): void } = function () {};// arity
-
+var e: { (x: any ): void  } = function () {};
 ```
 
 ### Diagnostics

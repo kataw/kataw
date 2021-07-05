@@ -141,9 +141,8 @@ class x {set delete(x){}}
 ```javascript
 
 class x {
-  set delete(x) {}
+  set delete(x){}
 }
-
 ```
 
 ### Diagnostics

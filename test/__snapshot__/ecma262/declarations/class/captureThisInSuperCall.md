@@ -268,7 +268,7 @@ class B extends A {
                                                                                     "kind": 342,
                                                                                     "parameters": [],
                                                                                     "trailingComma": false,
-                                                                                    "flags": 0,
+                                                                                    "flags": 32,
                                                                                     "start": 94,
                                                                                     "end": 94
                                                                                 },
@@ -441,15 +441,16 @@ class B extends A {
 ```javascript
 
 class A {
-  constructor(p: any) {}
+  constructor(p: any ){}
 }
-class B extends A {
-  constructor() {
-    super({ test : () => this.someMethod() });
+class B  extends A {
+  constructor(){
+    super (
+      { test: () =>  this .someMethod() }
+    );
   }
-  someMethod() {}
+  someMethod(){}
 }
-
 ```
 
 ### Diagnostics

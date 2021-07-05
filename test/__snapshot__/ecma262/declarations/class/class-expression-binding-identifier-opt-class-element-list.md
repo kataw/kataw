@@ -220,11 +220,10 @@ var A = class B {
 ```javascript
 
 var A = class B {
-  method() {}
-  static method() {}
-  ;
-};
-
+    method(){}
+    static method(){}
+    ;
+  };
 ```
 
 ### Diagnostics

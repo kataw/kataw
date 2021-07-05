@@ -132,9 +132,8 @@ class x {get var(){}}
 ```javascript
 
 class x {
-  get var() {}
+  get var(){}
 }
-
 ```
 
 ### Diagnostics

@@ -102,7 +102,7 @@ x = eval => { 'use strict'; 0 } ;
                     "start": 3,
                     "end": 31
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 31
             },
@@ -125,10 +125,8 @@ x = eval => { 'use strict'; 0 } ;
 ```javascript
 
 x = eval => {
-'\'use strict\'';
   0;
 };
-
 ```
 
 ### Diagnostics

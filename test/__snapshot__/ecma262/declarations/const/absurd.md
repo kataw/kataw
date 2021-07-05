@@ -123,7 +123,7 @@ const absurd = <T>(x: empty): T => {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 31
                             },
@@ -202,7 +202,6 @@ const absurd = <T>(x: empty): T => {};
 ```javascript
 
 const absurd = <T>(x: empty) => {};
-
 ```
 
 ### Diagnostics

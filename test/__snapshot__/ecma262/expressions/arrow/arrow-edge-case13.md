@@ -51,8 +51,8 @@ a ? (b) : c => (d => e) : f => g;
                         "start": 5,
                         "end": 6
                     },
-                    "flags": 32,
-                    "start": 3,
+                    "flags": 3,
+                    "start": 32,
                     "end": 7
                 },
                 "colonToken": {
@@ -120,7 +120,7 @@ a ? (b) : c => (d => e) : f => g;
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 16,
                             "end": 27
                         },

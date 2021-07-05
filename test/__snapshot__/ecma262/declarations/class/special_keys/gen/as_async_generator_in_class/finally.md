@@ -137,9 +137,8 @@ class x {async * finally(){}}
 ```javascript
 
 class x {
-  async * finally() {}
+  async * finally(){}
 }
-
 ```
 
 ### Diagnostics

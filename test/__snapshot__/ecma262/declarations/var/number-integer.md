@@ -91,7 +91,6 @@ var a: 123
 ```javascript
 
 var a: 123;
-
 ```
 
 ### Diagnostics

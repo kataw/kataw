@@ -258,7 +258,7 @@ class Annotations {
                                                         "start": 67,
                                                         "end": 69
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 53,
                                                     "end": 69
                                                 },
@@ -720,7 +720,7 @@ class Annotations {
                                                                                                             "start": 333,
                                                                                                             "end": 345
                                                                                                         },
-                                                                                                        "flags": 32,
+                                                                                                        "flags": 0,
                                                                                                         "start": 311,
                                                                                                         "end": 345
                                                                                                     },
@@ -832,7 +832,7 @@ class Annotations {
                                                                                                             "start": 394,
                                                                                                             "end": 396
                                                                                                         },
-                                                                                                        "flags": 32,
+                                                                                                        "flags": 0,
                                                                                                         "start": 375,
                                                                                                         "end": 396
                                                                                                     },
@@ -900,7 +900,7 @@ class Annotations {
                                                                                                             "start": 464,
                                                                                                             "end": 476
                                                                                                         },
-                                                                                                        "flags": 32,
+                                                                                                        "flags": 0,
                                                                                                         "start": 397,
                                                                                                         "end": 476
                                                                                                     },
@@ -2080,7 +2080,7 @@ class Annotations {
                                                         "start": 1273,
                                                         "end": 1275
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 1259,
                                                     "end": 1275
                                                 },
@@ -2378,7 +2378,7 @@ class Annotations {
                                                         "start": 1455,
                                                         "end": 1457
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 1433,
                                                     "end": 1457
                                                 },
@@ -2431,84 +2431,72 @@ class Annotations {
 ```javascript
 
 class C {
-  #p: number
-  #q: number
-  constructor() {
-    this.#p = 0;// in scope
-    this.#q;// in scope
+  #p: number ;
+  #q: number ;
+  constructor(){
+    this .#p = 0;
+    this .#q;
   }
-  test(other: C) {
-    other.#q;// in lexical scope, object has the property.
+  test(other: C){
+    other.#q;
   }
 }
 class Outer {
-  #outer: number
-  constructor() {
+  #outer: number ;
+  constructor(){
     var Inner = class A {
-      #inner: Outer
-      constructor() {
-        this.#inner = new Outer();
-        var x = new Outer();
-        x.#outer = 0;// Both inner and outer should be visible here!
-        x.#inner = new Outer();// Error, #inner is not a private field of Outer
-      }
-    };
+        #inner: Outer;
+        constructor(){
+          this .#inner = new Outer();
+          var x = new Outer();
+          x.#outer = 0;
+          x.#inner = new Outer();
+        }
+      };
   }
 }
 class Annotations {
-   // Private class fields must either be annotated or have an initializer
-  #p: number
-  ;
-  #q = 0
-  ;
-  #r
-  ;
-  #s: string = 0
-  ;// Error, number ~> string
-  #t: string = '"yay!"'
-  ;
-  static #sp: number
-  ;
-  static #sq = 0
-  ;
-  static #sr
-  ;
-  static #ss: string = 0
-  ;// Error, number ~> string
-  static #st: string = '"yay!"'
-  ;
+  #p: number ;;
+  #q = 0;;
+  #r;;
+  #s: string  = 0;;
+  #t: string  = "\"yay!\"";;
+  static #sp: number ;;
+  static #sq = 0;;
+  static #sr;;
+  static #ss: string  = 0;;
+  static #st: string  = "\"yay!\"";;
   test1(): number {
-    return this.#p;
+    return this .#p;
   }
   test2(): number {
-    return this.#t;// Error, string ~> number
+    return this .#t;
   }
   test3(): number {
     return Annotations.#sp;
   }
   test4(): number {
-    return Annotations.#st;// Error, string ~> number
+    return Annotations.#st;
   }
   test5(): number {
-    return this.#r;
+    return this .#r;
   }
   test6(): string {
-    return this.#r;// Error, number ~> string
+    return this .#r;
   }
-  test5And6Helper() {
-    this.#r = 3;
+  test5And6Helper(){
+    this .#r = 3;
   }
   test7(): number {
     return Annotations.#sr;
   }
   test8(): string {
-    return Annotations.#sr;// Error, number ~> string
+    return Annotations.#sr;
   }
-  test7And9Helper() {
+  test7And9Helper(){
     Annotations.#sr = 3;
   }
 }
-
 ```
 
 ### Diagnostics

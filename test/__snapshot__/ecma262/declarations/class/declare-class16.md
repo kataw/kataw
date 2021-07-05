@@ -131,7 +131,6 @@ declare class B {
 ```javascript
 
 declare class B { proto x: T }
-
 ```
 
 ### Diagnostics

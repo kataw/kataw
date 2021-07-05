@@ -146,9 +146,8 @@ class x {static set import(x){}}
 ```javascript
 
 class x {
-  static set import(x) {}
+  static set import(x){}
 }
-
 ```
 
 ### Diagnostics

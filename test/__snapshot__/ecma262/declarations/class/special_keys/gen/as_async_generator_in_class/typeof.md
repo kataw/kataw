@@ -137,9 +137,8 @@ class x {async * typeof(){}}
 ```javascript
 
 class x {
-  async * typeof() {}
+  async * typeof(){}
 }
-
 ```
 
 ### Diagnostics

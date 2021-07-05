@@ -118,11 +118,10 @@ switch (true) { default: const x = 1; }
 
 ```javascript
 
-switch (true) {
-  default: 
+switch (true ) {
+  default
     const x = 1;
 }
-
 ```
 
 ### Diagnostics

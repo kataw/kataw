@@ -831,24 +831,23 @@ function b1<A: 'a', B: A>(b: B): void {
 
 ```javascript
 
-function c<X: T> (x: $Keys<X>) {
+function c<X: T>(x: $Keys<X>) {
   switch (x) {
-    case '\'p\'': 
-      break;
-    case '\'q\'': 
-      break;
-    case '\'r\'':// error
-     
-      break;
+    case '\'p\'':
+      break ;
+    case '\'q\'':
+      break ;
+    case '\'r\'':
+      break ;
   }
-  function a<A: '\'a\''> (a: A): void {
-    if (a === '\'a\'') { }
+  function a<A: '\'a\''>(a: A): void  {
+    if (a ===  '\'a\'') {}
   }
 }
-function b1<A: '\'a\'', B: A> (b: B): void {
-  if (b === '\'b\'') { }// error 'b' not compatible with 'a'
+function b1<A: '\'a\'',
+B: A>(b: B): void  {
+  if (b ===  '\'b\'') {}
 }
-
 ```
 
 ### Diagnostics

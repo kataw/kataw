@@ -287,8 +287,11 @@ declare class C {
 
 ```javascript
 
-declare class C { static x: number, static foo(x: number): void, constructor(x: string): void }
-
+declare class C {
+  static x: number ,
+  static foo(x: number ): void ,
+  constructor(x: string ): void
+}
 ```
 
 ### Diagnostics

@@ -113,8 +113,7 @@
 
 ```javascript
 
-[x, y, z = 1,];
-
+[x, y, z = 1];
 ```
 
 ### Diagnostics

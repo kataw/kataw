@@ -154,9 +154,8 @@ class x {static *[y](){}}
 ```javascript
 
 class x {
-  static * [y]() {}
+  static * [y](){}
 }
-
 ```
 
 ### Diagnostics

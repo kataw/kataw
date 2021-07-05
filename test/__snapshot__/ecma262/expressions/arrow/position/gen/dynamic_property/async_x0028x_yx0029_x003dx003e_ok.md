@@ -104,8 +104,7 @@ async (x, y) => ok[foo]
 
 ```javascript
 
-async (x, y) => ok[foo]
-
+async (x, y) =>  ok[foo]
 ```
 
 ### Diagnostics

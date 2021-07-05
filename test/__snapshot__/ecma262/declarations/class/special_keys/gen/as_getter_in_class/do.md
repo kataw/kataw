@@ -132,9 +132,8 @@ class x {get do(){}}
 ```javascript
 
 class x {
-  get do() {}
+  get do(){}
 }
-
 ```
 
 ### Diagnostics

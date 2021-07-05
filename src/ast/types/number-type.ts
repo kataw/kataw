@@ -5,13 +5,7 @@ export interface NumberType extends SyntaxNode {
   readonly rawText: string;
 }
 
-export function createNumberType(
-  text: number,
-  rawText: string,
-  flags: NodeFlags,
-  start: number,
-  end: number
-): NumberType {
+export function createNumberType(text: number, rawText: string, flags: NodeFlags, start: number, end: number): NumberType {
   return {
     kind: SyntaxKind.NumberType,
     text,

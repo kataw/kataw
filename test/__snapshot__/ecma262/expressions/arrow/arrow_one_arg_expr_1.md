@@ -34,7 +34,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 1,
                     "end": 3
                 },
@@ -75,8 +75,7 @@
 
 ```javascript
 
-(x) => x;
-
+(x) =>  x;
 ```
 
 ### Diagnostics

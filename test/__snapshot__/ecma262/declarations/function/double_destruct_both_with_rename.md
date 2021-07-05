@@ -125,11 +125,7 @@ let {x : y, z : a} = obj;
 
 ```javascript
 
-let {
-  x: y,
-  z: a
-} = obj;
-
+let {x: y, z: a} = obj;
 ```
 
 ### Diagnostics

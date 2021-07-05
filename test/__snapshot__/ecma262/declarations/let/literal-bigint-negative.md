@@ -95,7 +95,6 @@ let x: -1n;
 ```javascript
 
 let x: -1n;
-
 ```
 
 ### Diagnostics

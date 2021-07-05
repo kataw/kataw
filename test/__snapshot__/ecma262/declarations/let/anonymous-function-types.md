@@ -53,7 +53,7 @@ let x = (): Array<(string) => number> => []
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 9,
                                 "end": 9
                             },
@@ -204,8 +204,7 @@ let x = (): Array<(string) => number> => []
 
 ```javascript
 
-let x = () => [];
-
+let x = () =>  [];
 ```
 
 ### Diagnostics

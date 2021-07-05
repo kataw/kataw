@@ -126,8 +126,7 @@ declare class C { static [[foo]]: T }
 
 ```javascript
 
-declare class C { static [ [foo]]T }
-
+declare class C { static [[foo]]: T }
 ```
 
 ### Diagnostics

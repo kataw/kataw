@@ -101,7 +101,7 @@ for await (a of b) let
                         "start": 27,
                         "end": 29
                     },
-                    "flags": 32,
+                    "flags": 1,
                     "start": 18,
                     "end": 29
                 },

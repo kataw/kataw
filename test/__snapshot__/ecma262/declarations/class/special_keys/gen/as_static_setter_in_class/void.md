@@ -146,9 +146,8 @@ class x {static set void(x){}}
 ```javascript
 
 class x {
-  static set void(x) {}
+  static set void(x){}
 }
-
 ```
 
 ### Diagnostics

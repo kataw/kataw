@@ -61,7 +61,7 @@ do let [x]; while (a);
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
                 "start": 11,
                 "end": 17
             },

@@ -132,9 +132,8 @@ class x {static export(){}}
 ```javascript
 
 class x {
-  static export() {}
+  static export(){}
 }
-
 ```
 
 ### Diagnostics

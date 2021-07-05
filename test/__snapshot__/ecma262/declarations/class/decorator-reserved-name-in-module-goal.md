@@ -154,11 +154,9 @@ class C2 {
 
 ```javascript
 
-@package
-class C2 {
-  method() {}
+@ package class C2 {
+  method(){}
 }
-
 ```
 
 ### Diagnostics

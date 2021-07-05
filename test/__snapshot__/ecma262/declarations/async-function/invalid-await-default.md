@@ -104,7 +104,7 @@ async function wrap() {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 2,
+                                    "flags": 35,
                                     "start": 27,
                                     "end": 39
                                 },
@@ -123,7 +123,7 @@ async function wrap() {
                                     "start": 42,
                                     "end": 44
                                 },
-                                "flags": 34,
+                                "flags": 35,
                                 "start": 23,
                                 "end": 44
                             },
@@ -166,10 +166,8 @@ async function wrap() {
 ```javascript
 
 async function wrap() {
-  (a = await b) => a;
+  (a = await b) =>  a;
 }
-;
-
 ```
 
 ### Diagnostics

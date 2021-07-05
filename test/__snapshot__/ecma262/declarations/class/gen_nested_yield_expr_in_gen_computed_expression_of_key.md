@@ -208,10 +208,9 @@ function *f(){  class x{*[yield](a){}}  }
 
 function * f() {
   class x {
-    * [yield ](a) {}
+    * [yield ](a){}
   }
 }
-
 ```
 
 ### Diagnostics

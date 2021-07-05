@@ -58,7 +58,7 @@ x2 = (a) => ((askTrovenaBeenaDependsRowans1, askTrovenaBeenaDependsRowans2, askT
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 5,
                         "end": 38
                     },
@@ -96,7 +96,7 @@ x2 = (a) => ((askTrovenaBeenaDependsRowans1, askTrovenaBeenaDependsRowans2, askT
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 44,
                                 "end": 104
                             },
@@ -124,7 +124,7 @@ x2 = (a) => ((askTrovenaBeenaDependsRowans1, askTrovenaBeenaDependsRowans2, askT
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 109,
                                     "end": 113
                                 },
@@ -186,15 +186,15 @@ x2 = (a) => ((askTrovenaBeenaDependsRowans1, askTrovenaBeenaDependsRowans2, askT
                             "start": 43,
                             "end": 156
                         },
-                        "flags": 32,
-                        "start": 41,
+                        "flags": 41,
+                        "start": 32,
                         "end": 166
                     },
                     "flags": 32,
                     "start": 3,
                     "end": 166
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 166
             },
@@ -237,7 +237,7 @@ x2 = (a) => ((askTrovenaBeenaDependsRowans1, askTrovenaBeenaDependsRowans2, askT
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 174,
                         "end": 176
                     },
@@ -283,7 +283,7 @@ x2 = (a) => ((askTrovenaBeenaDependsRowans1, askTrovenaBeenaDependsRowans2, askT
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 182,
                                 "end": 274
                             },
@@ -341,15 +341,15 @@ x2 = (a) => ((askTrovenaBeenaDependsRowans1, askTrovenaBeenaDependsRowans2, askT
                             "start": 181,
                             "end": 288
                         },
-                        "flags": 32,
-                        "start": 179,
+                        "flags": 179,
+                        "start": 32,
                         "end": 308
                     },
                     "flags": 32,
                     "start": 172,
                     "end": 308
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 166,
                 "end": 308
             },
@@ -371,15 +371,18 @@ x2 = (a) => ((askTrovenaBeenaDependsRowans1, askTrovenaBeenaDependsRowans2, askT
 
 ```javascript
 
-x = (bifornCringerMoshedPerplexSawder) => ((askTrovenaBeenaDependsRowans, glimseGlyphsHazardNoopsTieTie) => (f00) => {
-  averredBathersBoxroomBuggyNurl();
-}// BOOM
-);
-x2 = (a) => ((askTrovenaBeenaDependsRowans1, askTrovenaBeenaDependsRowans2, askTrovenaBeenaDependsRowans3) => {
-  c();
-}/* ! */ // KABOOM
-);
-
+x = (bifornCringerMoshedPerplexSawder) =>
+  ((askTrovenaBeenaDependsRowans, glimseGlyphsHazardNoopsTieTie) =>  (f00) => {
+      averredBathersBoxroomBuggyNurl();
+    });
+x2 = (a) =>
+  (
+    (askTrovenaBeenaDependsRowans1,
+    askTrovenaBeenaDependsRowans2,
+    askTrovenaBeenaDependsRowans3) => {
+      c();
+    }
+  );
 ```
 
 ### Diagnostics

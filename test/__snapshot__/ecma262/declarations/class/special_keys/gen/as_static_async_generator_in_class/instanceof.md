@@ -142,9 +142,8 @@ class x {static async * instanceof(){}}
 ```javascript
 
 class x {
-  static async * instanceof() {}
+  static async * instanceof(){}
 }
-
 ```
 
 ### Diagnostics

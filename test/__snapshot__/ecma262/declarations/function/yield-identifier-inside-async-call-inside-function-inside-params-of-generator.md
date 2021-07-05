@@ -177,10 +177,8 @@ function* g( x = function() { async(yield) }) {};
 ```javascript
 
 function * g(x = function () {
-    async(yield)
-  }) {}
-;
-
+  async(yield)
+}) {}
 ```
 
 ### Diagnostics

@@ -94,9 +94,7 @@ class x extends enum {}
 
 ```javascript
 
-class x extends enum {
-}
-
+class x  extends enum {}
 ```
 
 ### Diagnostics

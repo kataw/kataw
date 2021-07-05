@@ -97,8 +97,7 @@ let {} = x
 
 ```javascript
 
-let { } = x;
-
+let {} = x;
 ```
 
 ### Diagnostics

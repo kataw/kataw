@@ -135,11 +135,7 @@ const {a, [x]: y} = a;
 
 ```javascript
 
-const {
-  a,
-  [x]: y
-} = a;
-
+const {a, [x]: y} = a;
 ```
 
 ### Diagnostics

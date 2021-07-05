@@ -110,7 +110,7 @@ var d: { (): string } = (x) => "hi"
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 25,
                                 "end": 27
                             },
@@ -160,8 +160,7 @@ var d: { (): string } = (x) => "hi"
 
 ```javascript
 
-var d: { (): string } = (x) => '"hi"';
-
+var d: { (): string  } = (x) =>  "\"hi\"";
 ```
 
 ### Diagnostics

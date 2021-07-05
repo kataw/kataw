@@ -393,8 +393,8 @@ var callCount = 0;
                     "start": 73,
                     "end": 124
                 },
-                "flags": 32,
-                "start": 70,
+                "flags": 70,
+                "start": 33,
                 "end": 125
             },
             "flags": 16,
@@ -415,12 +415,10 @@ var callCount = 0;
 
 ```javascript
 
-let o = { a : 2, b : 3 };
-let executedGetter = false;
+let o = { a: 2, b: 3 };
+let executedGetter = false ;
 var callCount = 0;
-(function (obj) {
-}.apply(null, [{ ...o, get c() {} },]));
-
+(function (obj) {}.apply(null , [{ ...o, get c(){} }]));
 ```
 
 ### Diagnostics

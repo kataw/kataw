@@ -60,8 +60,8 @@
                         "start": 0,
                         "end": 9
                     },
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 32,
                     "end": 9
                 },
                 "operatorToken": {
@@ -100,8 +100,7 @@
 
 ```javascript
 
-(b, ) + 1;
-
+(b, ...a) +  1;
 ```
 
 ### Diagnostics

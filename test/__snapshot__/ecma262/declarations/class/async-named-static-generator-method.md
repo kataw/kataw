@@ -135,10 +135,8 @@ class A {static* async() { }};
 ```javascript
 
 class A {
-  static * async() {}
+  static * async(){}
 }
-;
-
 ```
 
 ### Diagnostics

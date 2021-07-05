@@ -148,7 +148,6 @@ var a : A.B<T>
 ```javascript
 
 var a: A.B<T>;
-
 ```
 
 ### Diagnostics

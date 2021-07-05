@@ -132,9 +132,8 @@ class x {static import(){}}
 ```javascript
 
 class x {
-  static import() {}
+  static import(){}
 }
-
 ```
 
 ### Diagnostics

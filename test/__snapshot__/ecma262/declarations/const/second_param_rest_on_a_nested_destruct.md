@@ -153,7 +153,6 @@ const [x, ...[foo, bar]] = obj;
 ```javascript
 
 const [x, ...[foo, bar]] = obj;
-
 ```
 
 ### Diagnostics

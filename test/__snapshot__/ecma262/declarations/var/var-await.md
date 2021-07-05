@@ -74,7 +74,6 @@ var await = 0
 ```javascript
 
 var await = 0;
-
 ```
 
 ### Diagnostics

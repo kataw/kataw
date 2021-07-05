@@ -509,14 +509,14 @@ class C<T> {
 ```javascript
 
 class C<T> {
-  arr: Array<{ value: T }>
-  ;
-  foo(value: T) {
+  arr: Array<{ value: T }>;;
+  foo(value: T){
     var entry: { value: T } = { value };
-    this.arr.push(entry);
+    this .arr.push(
+      entry
+    );
   }
 }
-
 ```
 
 ### Diagnostics

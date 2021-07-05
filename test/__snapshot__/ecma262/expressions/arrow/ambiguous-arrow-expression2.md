@@ -92,8 +92,8 @@ var a = b ? (c + e) : d => c+e;
                                     "start": 11,
                                     "end": 18
                                 },
-                                "flags": 32,
-                                "start": 11,
+                                "flags": 11,
+                                "start": 32,
                                 "end": 19
                             },
                             "colonToken": {
@@ -184,8 +184,7 @@ var a = b ? (c + e) : d => c+e;
 
 ```javascript
 
-var a = b ? (c + e) : d => c + e;
-
+var a = b ? (c +  e) : d =>  c +  e;
 ```
 
 ### Diagnostics

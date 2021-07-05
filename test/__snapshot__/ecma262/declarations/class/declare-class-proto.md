@@ -222,7 +222,6 @@ declare class B {
 
 declare class A { proto: T }
 declare class B { proto x: T }
-
 ```
 
 ### Diagnostics

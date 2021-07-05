@@ -132,9 +132,8 @@ class x {* function(){}}
 ```javascript
 
 class x {
-  * function() {}
+  * function(){}
 }
-
 ```
 
 ### Diagnostics

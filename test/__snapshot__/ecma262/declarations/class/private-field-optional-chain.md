@@ -325,14 +325,13 @@ class Foo {
 ```javascript
 
 class Foo {
-  #x
-  foo() {
-    this?.#xy;
-    this?.y#x;
-    this.#x?.y;
+  #x;
+  foo(){
+    this ?.#x.y;
+    this ?.y.#x;
+    this .#x?.y;
   }
 }
-
 ```
 
 ### Diagnostics

@@ -137,9 +137,8 @@ async function * gen() {+ yield 3}
 ```javascript
 
 async function * gen() {
-  +yield  3;
+  +yield 3;
 }
-
 ```
 
 ### Diagnostics

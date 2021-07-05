@@ -56,8 +56,7 @@
 
 ```javascript
 
-[,];
-
+[];
 ```
 
 ### Diagnostics

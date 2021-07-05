@@ -95,7 +95,7 @@ for (a in b) let
                         "start": 21,
                         "end": 23
                     },
-                    "flags": 32,
+                    "flags": 1,
                     "start": 12,
                     "end": 23
                 },

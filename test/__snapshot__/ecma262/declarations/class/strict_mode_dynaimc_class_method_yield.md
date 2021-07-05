@@ -162,11 +162,10 @@ class x{[yield](a){}}
 
 ```javascript
 
-'"use strict"';
+"\"use strict\"";
 class x {
-  [yield](a) {}
+  [yield](a){}
 }
-
 ```
 
 ### Diagnostics

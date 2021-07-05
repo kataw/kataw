@@ -141,9 +141,8 @@ class x {set continue(x){}}
 ```javascript
 
 class x {
-  set continue(x) {}
+  set continue(x){}
 }
-
 ```
 
 ### Diagnostics

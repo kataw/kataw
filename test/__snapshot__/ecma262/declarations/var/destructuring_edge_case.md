@@ -147,10 +147,7 @@ var {[2]: y} = {2:3}
 
 ```javascript
 
-var {
-  [2]: y
-} = { 2 : 3 };
-
+var {[2]: y} = { 2: 3 };
 ```
 
 ### Diagnostics

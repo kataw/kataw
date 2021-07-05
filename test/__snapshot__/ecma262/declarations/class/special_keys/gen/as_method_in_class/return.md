@@ -127,9 +127,8 @@ class x {return(){}}
 ```javascript
 
 class x {
-  return() {}
+  return(){}
 }
-
 ```
 
 ### Diagnostics

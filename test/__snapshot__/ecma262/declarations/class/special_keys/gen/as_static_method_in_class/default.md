@@ -132,9 +132,8 @@ class x {static default(){}}
 ```javascript
 
 class x {
-  static default() {}
+  static default(){}
 }
-
 ```
 
 ### Diagnostics

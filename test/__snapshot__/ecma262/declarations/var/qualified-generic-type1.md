@@ -111,7 +111,6 @@ var a : A.B
 ```javascript
 
 var a: A.B;
-
 ```
 
 ### Diagnostics

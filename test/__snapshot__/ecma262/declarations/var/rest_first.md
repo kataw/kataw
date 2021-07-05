@@ -80,7 +80,7 @@ var ...a = 1;
                     "start": 10,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 7,
                 "end": 12
             },

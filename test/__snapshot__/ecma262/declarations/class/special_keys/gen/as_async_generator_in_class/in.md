@@ -137,9 +137,8 @@ class x {async * in(){}}
 ```javascript
 
 class x {
-  async * in() {}
+  async * in(){}
 }
-
 ```
 
 ### Diagnostics

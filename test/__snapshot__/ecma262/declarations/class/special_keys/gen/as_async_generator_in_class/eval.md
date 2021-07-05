@@ -137,9 +137,8 @@ class x {async * eval(){}}
 ```javascript
 
 class x {
-  async * eval() {}
+  async * eval(){}
 }
-
 ```
 
 ### Diagnostics

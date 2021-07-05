@@ -224,10 +224,11 @@ function isUnusedDiagnostic(code) {
     6196,
     6198,
     6199,
-    6205,// All type parameters are unused.
-  ].includes(code);
+    6205
+  ].includes(
+    code
+  );
 }
-
 ```
 
 ### Diagnostics

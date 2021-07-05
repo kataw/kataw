@@ -142,9 +142,8 @@ class x {static async * new(){}}
 ```javascript
 
 class x {
-  static async * new() {}
+  static async * new(){}
 }
-
 ```
 
 ### Diagnostics

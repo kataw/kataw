@@ -83,8 +83,7 @@ for (;;) let
 
 for (;;)
   let;
-{ }
-
+{}
 ```
 
 ### Diagnostics

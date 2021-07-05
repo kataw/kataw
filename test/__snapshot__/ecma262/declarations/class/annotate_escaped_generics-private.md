@@ -370,7 +370,7 @@ class I<X> {
                                                         "start": 81,
                                                         "end": 83
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 67,
                                                     "end": 83
                                                 },
@@ -416,7 +416,7 @@ class I<X> {
                                                         "start": 98,
                                                         "end": 100
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 84,
                                                     "end": 100
                                                 },
@@ -469,19 +469,16 @@ class I<X> {
 ```javascript
 
 class I<X> {
-  #i
-  ;
-  _f
-  ;
-  _h(x: X) {
+  #i;;
+  _f;;
+  _h(x: X){
     return x;
   }
-  g(x: X) {
-    this.#i = x;
-    this._f = x;
+  g(x: X){
+    this .#i = x;
+    this ._f = x;
   }
 }
-
 ```
 
 ### Diagnostics

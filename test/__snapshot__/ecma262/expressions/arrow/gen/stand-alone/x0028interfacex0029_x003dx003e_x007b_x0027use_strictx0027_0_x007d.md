@@ -42,7 +42,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 1,
                     "end": 11
                 },
@@ -114,10 +114,8 @@
 ```javascript
 
 (interface) => {
-'\'use strict\'';
   0;
 };
-
 ```
 
 ### Diagnostics

@@ -120,7 +120,6 @@ x => { return x; }, bar
 x => {
   return x;
 }, bar;
-
 ```
 
 ### Diagnostics

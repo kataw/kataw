@@ -186,7 +186,6 @@ function f() {
   }
   function * x() {}
 }
-
 ```
 
 ### Diagnostics

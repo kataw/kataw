@@ -122,11 +122,9 @@ function foo():any{return ""};
 
 ```javascript
 
-function foo(): any {
-  return '""';
+function foo(): any  {
+  return "\"\"";
 }
-;
-
 ```
 
 ### Diagnostics

@@ -174,7 +174,6 @@ let [a=[...b], ...c] = obj;
 ```javascript
 
 let [a = [...b], ...c] = obj;
-
 ```
 
 ### Diagnostics

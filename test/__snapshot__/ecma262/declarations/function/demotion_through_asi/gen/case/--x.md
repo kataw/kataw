@@ -129,10 +129,9 @@ function f(){
 ```javascript
 
 function f() {
-  '"use strict"';
-  --x;
+  "\"use strict\"";
+  -- x;
 }
-
 ```
 
 ### Diagnostics

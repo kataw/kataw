@@ -48,8 +48,7 @@
 ### Printed
 
 ```javascript
-//[false] = x;
-//[true] = x;
+
 
 ```
 

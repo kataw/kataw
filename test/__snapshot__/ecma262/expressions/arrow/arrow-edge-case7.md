@@ -58,7 +58,7 @@ a ? (b) : c => d : (e) : f => g;
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 5,
                         "end": 11
                     },
@@ -126,7 +126,7 @@ a ? (b) : c => d : (e) : f => g;
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 20,
                         "end": 26
                     },
@@ -193,8 +193,7 @@ a ? (b) : c => d : (e) : f => g;
 
 ```javascript
 
-a ? (b) => d : (e) => g;
-
+a ? (b) =>  d : (e) =>  g;
 ```
 
 ### Diagnostics

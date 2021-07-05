@@ -279,7 +279,7 @@ class D<T> {
                                                         "start": 58,
                                                         "end": 60
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 45,
                                                     "end": 60
                                                 },
@@ -841,7 +841,7 @@ class D<T> {
                                                         "start": 202,
                                                         "end": 204
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 189,
                                                     "end": 204
                                                 },
@@ -913,28 +913,29 @@ class D<T> {
 
 ```javascript
 
-class C<X, Y> {
-  x: X
-  ;
-  constructor(x: X) {
-    this.x = x;
+class C<X,
+Y> {
+  x: X;;
+  constructor(x: X){
+    this .x = x;
   }
-  get(): X {
-    return this.x;
+  get(): X{
+    return this .x;
   }
-  get_bad(): Y {
-    return this.x;
+  get_bad(): Y{
+    return this .x;
   }
 }
 class D<T> {
-  x: T
-  ;
-  m<S>(z: S, u: T): S {
-    this.x = u;
+  x: T;;
+  m<S>(
+    z: S,
+    u: T
+  ): S{
+    this .x = u;
     return z;
   }
 }
-
 ```
 
 ### Diagnostics

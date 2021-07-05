@@ -132,9 +132,8 @@ class x {get return(){}}
 ```javascript
 
 class x {
-  get return() {}
+  get return(){}
 }
-
 ```
 
 ### Diagnostics

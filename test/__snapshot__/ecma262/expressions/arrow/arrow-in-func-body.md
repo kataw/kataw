@@ -97,8 +97,8 @@
                                             "start": 17,
                                             "end": 28
                                         },
-                                        "flags": 32,
-                                        "start": 15,
+                                        "flags": 15,
+                                        "start": 32,
                                         "end": 29
                                     },
                                     "flags": 16,
@@ -119,8 +119,8 @@
                     "start": 1,
                     "end": 32
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 32,
                 "end": 33
             },
             "flags": 16,
@@ -208,7 +208,7 @@
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 53,
                                                 "end": 65
                                             },
@@ -237,8 +237,8 @@
                                             "start": 52,
                                             "end": 71
                                         },
-                                        "flags": 32,
-                                        "start": 50,
+                                        "flags": 50,
+                                        "start": 32,
                                         "end": 72
                                     },
                                     "flags": 16,
@@ -259,8 +259,8 @@
                     "start": 36,
                     "end": 75
                 },
-                "flags": 32,
-                "start": 34,
+                "flags": 34,
+                "start": 33,
                 "end": 76
             },
             "flags": 16,
@@ -340,7 +340,7 @@
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 2,
+                                                "flags": 34,
                                                 "start": 96,
                                                 "end": 104
                                             },
@@ -369,8 +369,8 @@
                                             "start": 95,
                                             "end": 110
                                         },
-                                        "flags": 32,
-                                        "start": 93,
+                                        "flags": 93,
+                                        "start": 32,
                                         "end": 111
                                     },
                                     "flags": 16,
@@ -391,8 +391,8 @@
                     "start": 79,
                     "end": 114
                 },
-                "flags": 32,
-                "start": 77,
+                "flags": 77,
+                "start": 33,
                 "end": 115
             },
             "flags": 16,
@@ -472,7 +472,7 @@
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 2,
+                                                "flags": 34,
                                                 "start": 135,
                                                 "end": 143
                                             },
@@ -501,8 +501,8 @@
                                             "start": 134,
                                             "end": 149
                                         },
-                                        "flags": 32,
-                                        "start": 132,
+                                        "flags": 132,
+                                        "start": 32,
                                         "end": 150
                                     },
                                     "flags": 16,
@@ -523,8 +523,8 @@
                     "start": 118,
                     "end": 153
                 },
-                "flags": 32,
-                "start": 116,
+                "flags": 116,
+                "start": 33,
                 "end": 154
             },
             "flags": 16,
@@ -589,7 +589,7 @@
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 174,
                                                 "end": 180
                                             },
@@ -618,8 +618,8 @@
                                             "start": 173,
                                             "end": 186
                                         },
-                                        "flags": 32,
-                                        "start": 171,
+                                        "flags": 171,
+                                        "start": 32,
                                         "end": 187
                                     },
                                     "flags": 16,
@@ -640,8 +640,8 @@
                     "start": 157,
                     "end": 190
                 },
-                "flags": 32,
-                "start": 155,
+                "flags": 155,
+                "start": 33,
                 "end": 191
             },
             "flags": 16,
@@ -663,23 +663,20 @@
 ```javascript
 
 (function f() {
-  (yield => {});
-});
+    (yield => {});
+  });
 (function f() {
-  ((yield, ...a) => {});
-});
+    ((yield, ...a) => {});
+  });
 (function f() {
-  (([yield]) => {});
-});
+    (([yield]) => {});
+  });
 (function f() {
-  (({
-      yield
-    }) => {});
-});
+    (({yield}) => {});
+  });
 (function f() {
-  ((yield) => {});
-});
-
+    ((yield) => {});
+  });
 ```
 
 ### Diagnostics

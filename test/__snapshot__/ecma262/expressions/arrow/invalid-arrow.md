@@ -45,8 +45,8 @@ x = (a)?c:d=>{}=>{}
                             "start": 5,
                             "end": 6
                         },
-                        "flags": 32,
-                        "start": 3,
+                        "flags": 3,
+                        "start": 32,
                         "end": 7
                     },
                     "questionToken": {
@@ -106,11 +106,11 @@ x = (a)?c:d=>{}=>{}
                         "start": 10,
                         "end": 15
                     },
-                    "flags": 32,
+                    "flags": 35,
                     "start": 3,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 15
             },

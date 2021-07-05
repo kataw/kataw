@@ -172,7 +172,6 @@ function f() {
   var x = y;
   function x() {}
 }
-
 ```
 
 ### Diagnostics

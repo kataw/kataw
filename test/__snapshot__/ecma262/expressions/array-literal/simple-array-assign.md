@@ -97,8 +97,7 @@
 
 ```javascript
 
-[x,] = obj;
-
+[x] = obj;
 ```
 
 ### Diagnostics

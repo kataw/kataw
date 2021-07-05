@@ -207,14 +207,12 @@ class B extends A {
 
 ```javascript
 
-class A {
-}
-class B extends A {
-  constructor() {
-    super();
+class A {}
+class B  extends A {
+  constructor(){
+    super ();
   }
 }
-
 ```
 
 ### Diagnostics

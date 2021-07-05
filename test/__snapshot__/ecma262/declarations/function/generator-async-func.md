@@ -121,7 +121,7 @@ function* wrap() {
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 34,
                                 "start": 18,
                                 "end": 18
                             },
@@ -164,10 +164,10 @@ function* wrap() {
 ```javascript
 
 function * wrap() {
-  async(a = yield  b)
+  async(
+    a = yield b
+  )
 }
-;
-
 ```
 
 ### Diagnostics

@@ -56,7 +56,7 @@ var foo = ((): number => bar);
                                     "kind": 342,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 12,
                                     "end": 12
                                 },
@@ -92,8 +92,8 @@ var foo = ((): number => bar);
                                 "start": 11,
                                 "end": 28
                             },
-                            "flags": 32,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 32,
                             "end": 29
                         },
                         "flags": 16,
@@ -123,8 +123,7 @@ var foo = ((): number => bar);
 
 ```javascript
 
-var foo = (() => bar);
-
+var foo = (() =>  bar);
 ```
 
 ### Diagnostics

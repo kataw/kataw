@@ -51,7 +51,7 @@ f(((a) => a + b)(1, 4), 5);
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 4,
                                         "end": 6
                                     },
@@ -94,8 +94,8 @@ f(((a) => a + b)(1, 4), 5);
                                     "start": 3,
                                     "end": 15
                                 },
-                                "flags": 32,
-                                "start": 2,
+                                "flags": 2,
+                                "start": 32,
                                 "end": 16
                             },
                             "argumentList": {
@@ -163,8 +163,13 @@ f(((a) => a + b)(1, 4), 5);
 
 ```javascript
 
-f(((a) => a + b)(1, 4), 5);
-
+f(
+  ((a) =>  a +  b)(
+    1,
+    4
+  ),
+  5
+);
 ```
 
 ### Diagnostics

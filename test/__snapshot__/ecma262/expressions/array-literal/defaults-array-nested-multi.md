@@ -148,7 +148,6 @@ var [x = 10, [ z ]] = a;
 ```javascript
 
 var [x = 10, [z]] = a;
-
 ```
 
 ### Diagnostics

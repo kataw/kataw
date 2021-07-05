@@ -137,9 +137,8 @@ class x {static get continue(){}}
 ```javascript
 
 class x {
-  static get continue() {}
+  static get continue(){}
 }
-
 ```
 
 ### Diagnostics
