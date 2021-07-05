@@ -23,6 +23,16 @@ import {
   hardline
 } from '../formatter/index';
 
+export interface PrinterOptions {
+  printWidth?: number;
+  tabWidth?: number;
+  noSemi?: number;
+  singleQuote?: number;
+  noBracketSpacing?: number;
+  endOfLine?: string;
+ }
+
+
 export const nodeLookupMap: any = {
   [SyntaxKind.RootNode]: printRootNode,
   [SyntaxKind.ExpressionStatement]: printExpressionStatement,
@@ -205,9 +215,13 @@ export const nodeLookupMap: any = {
   [SyntaxKind.MemberAccessChain]: printMemberAccessChain
 };
 
-export function printSource(root: RootNode, _options?: any) {
+export function printSource(root: RootNode, options?: PrinterOptions) {
   const printer = createPrinter(root.source);
-  return toString(printStatement(printer, root, /* lineMap */ [], root));
+  let printWidth = 80;
+  if (options != null) {
+    if (options.printWidth) printWidth = options.printWidth;
+  }
+  return toString(printWidth, printStatement(printer, root, /* lineMap */ [], root));
 }
 
 export function printStatement(printer: Printer, node: SyntaxNode, lineMap: number[], parentNode: SyntaxNode) {
@@ -2205,7 +2219,7 @@ function printNumericLiteral(printer: Printer, node: any): any {
         .replace(/\.(?=e|$)/, '');
 }
 
-function printStringType(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
+function printStringType(printer: Printer, node: any, lineMap: number[]): any {
   return makeString(node.rawText, node.flags & NodeFlags.SingleQuote ? "'" : '"');
 }
 
