@@ -324,6 +324,7 @@ export function scan(parser: ParserState, context: Context): SyntaxKind {
             if (
               cp === Char.LowerK &&
               source.charCodeAt(pos + 1) === Char.LowerA &&
+              (source.charCodeAt(pos + 12) === Char.LineFeed || source.charCodeAt(pos + 12) === Char.CarriageReturn) &&
               source.charCodeAt(pos + 11) === Char.LowerE &&
               source.charCodeAt(pos + 10) === Char.LowerR &&
               source.charCodeAt(pos + 9) === Char.LowerO &&
