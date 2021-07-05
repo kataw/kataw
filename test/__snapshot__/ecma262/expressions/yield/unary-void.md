@@ -122,7 +122,7 @@ function *f() {  return void yield;  }
 ```javascript
 
 function * f() {
-  return void  yield ;
+  return void yield ;
 }
 
 ```

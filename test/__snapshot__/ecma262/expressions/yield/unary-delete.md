@@ -122,7 +122,7 @@ function *f() {  return delete yield;  }
 ```javascript
 
 function * f() {
-  return delete  yield ;
+  return delete yield ;
 }
 
 ```

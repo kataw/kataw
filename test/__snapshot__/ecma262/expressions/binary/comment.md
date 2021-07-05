@@ -1088,8 +1088,8 @@ var a = x(abifornCringerMoshedPerplexSawder + kochabCooieGameOnOboleUnweave// f
 foo[a + a +// comment
  a + bar[b + b + b +// comment
  b + b]];
-! (a + a +// comment
- a + ! (b + b + b +// comment
+!(a + a +// comment
+ a + !(b + b + b +// comment
  b + b));
 
 ```

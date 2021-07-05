@@ -150,7 +150,7 @@
 
 ```javascript
 
-(x = delete  ((let) = f)) => {};
+(x = delete ((let) = f)) => {};
 
 ```
 
