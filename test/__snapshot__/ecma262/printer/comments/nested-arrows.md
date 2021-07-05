@@ -970,9 +970,7 @@ runtimeAgent.getProperties(
   false ,
   false ,
   false ,
-  (error,
-  properties,
-  internalProperties) => {
+  (error, properties, internalProperties) => {
     return 1;
   },
 );

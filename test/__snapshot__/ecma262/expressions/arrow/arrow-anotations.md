@@ -960,20 +960,14 @@
 ```javascript
 
 (x? : string ) => {};
-([x]: string ,
-a) => {};
-([x]: string ,
-a) => {};
-([x]: string ,
-a: number ) => {};
-([x]? : string ,
-a) => {};
-([x]? : string ,
-a? ) => {};
+([x]: string , a) => {};
+([x]: string , a) => {};
+([x]: string , a: number ) => {};
+([x]? : string , a) => {};
+([x]? : string , a? ) => {};
 (...x: string ) => {};
 (...x? : string ) => {};
-(...[x]? : string ,
-a? ) => {};
+(...[x]? : string , a? ) => {};
 ```
 
 ### Diagnostics

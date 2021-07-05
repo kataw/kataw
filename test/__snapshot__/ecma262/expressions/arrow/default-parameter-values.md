@@ -200,8 +200,7 @@
 ```javascript
 
 (x: number  = 0) =>  0;
-(x,
-y: number  = 0) =>  0;
+(x, y: number  = 0) =>  0;
 ```
 
 ### Diagnostics

@@ -224,9 +224,7 @@
 ```javascript
 
 (a? : number , b) => {};
-(x,
-a? : number ,
-b) => {};
+(x, a? : number , b) => {};
 ```
 
 ### Diagnostics
