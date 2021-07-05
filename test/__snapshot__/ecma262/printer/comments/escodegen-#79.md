@@ -78,11 +78,8 @@ function MyClass() {}
 ### Printed
 
 ```javascript
-/**
- * @class MyClass
- */
-function MyClass() {}
 
+function MyClass() {}
 ```
 
 ### Diagnostics

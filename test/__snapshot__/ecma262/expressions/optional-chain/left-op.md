@@ -96,8 +96,7 @@ a?.b * d
 
 ```javascript
 
-a?.b * d;
-
+a?.b *  d;
 ```
 
 ### Diagnostics

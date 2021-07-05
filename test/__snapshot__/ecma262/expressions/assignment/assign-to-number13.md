@@ -47,7 +47,7 @@ x = 0o1_01_0
                     "start": 3,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 12
             },
@@ -70,7 +70,6 @@ x = 0o1_01_0
 ```javascript
 
 x = 0o1_01_0;
-
 ```
 
 ### Diagnostics

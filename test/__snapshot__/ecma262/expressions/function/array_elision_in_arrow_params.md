@@ -115,7 +115,7 @@ f = ([[,] = g()]) => {};
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 2,
+                        "flags": 34,
                         "start": 5,
                         "end": 17
                     },
@@ -144,7 +144,7 @@ f = ([[,] = g()]) => {};
                     "start": 3,
                     "end": 23
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 23
             },
@@ -166,8 +166,7 @@ f = ([[,] = g()]) => {};
 
 ```javascript
 
-f = ([[,] = g()]) => {};
-
+f = ([[] = g()]) => {};
 ```
 
 ### Diagnostics

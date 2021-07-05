@@ -49,8 +49,7 @@
 
 ```javascript
 
-'"\u{10ffff}"';
-
+"\"\u{10ffff}\"";
 ```
 
 ### Diagnostics

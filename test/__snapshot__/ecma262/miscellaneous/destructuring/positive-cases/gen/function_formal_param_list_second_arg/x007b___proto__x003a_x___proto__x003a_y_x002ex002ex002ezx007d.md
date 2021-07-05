@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/gen/function_formal_param_list_second_arg
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/positive-cases/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/positive-cases/gen/function_formal_param_list_second_arg
 > :: test: function formal param list second arg
 > :: case: { __proto__: x, __proto__: y, ...z}
 ## Options
@@ -177,8 +176,7 @@ function f(argument1, { __proto__: x, __proto__: y, ...z}) {}
 
 ```javascript
 
-function f(argument1, { __proto__: x, __proto__: y, ...z }) {}
-
+function f(argument1, {__proto__: x, __proto__: y, ...z}) {}
 ```
 
 ### Diagnostics

@@ -50,7 +50,6 @@ xxx\u{65}
 ```javascript
 
 xxx\u{65};
-
 ```
 
 ### Diagnostics

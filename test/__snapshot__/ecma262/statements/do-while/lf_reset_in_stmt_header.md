@@ -84,7 +84,7 @@ while(y)
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 65,
+                "flags": 81,
                 "start": 15,
                 "end": 21
             },
@@ -114,10 +114,8 @@ while(y)
 
 ```javascript
 
-do
-  if (x => {})
-    ; while (y)
-
+do  if (x => {});
+while (y);
 ```
 
 ### Diagnostics

@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/should_listen_to_use_strict_directive_in_function_bare
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/gen/should_listen_to_use_strict_directive_in_function_bare
 > :: test: should listen to use strict directive in function bare
 > :: case: enum
 ## Options
@@ -95,7 +94,7 @@ function f() {
                                     "start": 39,
                                     "end": 41
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 30,
                                 "end": 41
                             },
@@ -132,10 +131,8 @@ function f() {
 ```javascript
 
 function f() {
-'"use strict"';
   enum = x;
 }
-
 ```
 
 ### Diagnostics

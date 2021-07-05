@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/var
+- From: kataw/test/__snapshot__/ecma262/expressions/await/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/await/gen/var
 > :: test: var
 > :: case: await = 1
 ## Options
@@ -154,7 +153,7 @@ var await; var f = (async function() { await = 1 });
                                                         "start": 46,
                                                         "end": 48
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 38,
                                                     "end": 48
                                                 },
@@ -176,8 +175,8 @@ var await; var f = (async function() { await = 1 });
                                 "start": 20,
                                 "end": 50
                             },
-                            "flags": 32,
-                            "start": 18,
+                            "flags": 18,
+                            "start": 32,
                             "end": 51
                         },
                         "flags": 16,

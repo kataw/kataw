@@ -69,8 +69,7 @@ foo: break foo;
 
 ```javascript
 
-foo: break foo;
-
+foo:  break  foo;
 ```
 
 ### Diagnostics

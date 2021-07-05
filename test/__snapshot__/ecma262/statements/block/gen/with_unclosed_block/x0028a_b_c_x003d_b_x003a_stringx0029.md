@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/block/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/block/gen/with_unclosed_block
+- From: kataw/test/__snapshot__/ecma262/statements/block/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/statements/block/gen/with_unclosed_block
 > :: test: with unclosed block
 > :: case: (a b, c = b : string)
 ## Options
@@ -93,8 +92,8 @@
                                 "start": 13,
                                 "end": 14
                             },
-                            "flags": 32,
-                            "start": 12,
+                            "flags": 12,
+                            "start": 32,
                             "end": 15
                         },
                         "flags": 16,
@@ -117,8 +116,8 @@
                                             "start": 17,
                                             "end": 20
                                         },
-                                        "flags": 32,
-                                        "start": 17,
+                                        "flags": 17,
+                                        "start": 32,
                                         "end": 20
                                     },
                                     "flags": 16,
@@ -162,7 +161,7 @@
                                                     "start": 27,
                                                     "end": 29
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 23,
                                                 "end": 29
                                             }

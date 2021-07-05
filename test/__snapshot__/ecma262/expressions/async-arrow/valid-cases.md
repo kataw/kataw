@@ -72,7 +72,7 @@ async a => await 1;
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 2,
                     "end": 11
                 },
@@ -97,7 +97,7 @@ async a => await 1;
                     "start": 14,
                     "end": 17
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 0,
                 "end": 17
             },
@@ -205,7 +205,7 @@ async a => await 1;
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 39,
                 "end": 39
             },
@@ -274,7 +274,7 @@ async a => await 1;
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 53,
                 "end": 53
             },
@@ -677,8 +677,8 @@ async a => await 1;
                     "start": 182,
                     "end": 201
                 },
-                "flags": 32,
-                "start": 182,
+                "flags": 182,
+                "start": 33,
                 "end": 201
             },
             "flags": 16,
@@ -739,16 +739,16 @@ async a => await 1;
                             "start": 214,
                             "end": 221
                         },
-                        "flags": 32,
-                        "start": 214,
+                        "flags": 214,
+                        "start": 32,
                         "end": 221
                     },
                     "flags": 288,
                     "start": 204,
                     "end": 221
                 },
-                "flags": 32,
-                "start": 202,
+                "flags": 202,
+                "start": 33,
                 "end": 222
             },
             "flags": 16,
@@ -807,8 +807,8 @@ async a => await 1;
                             "start": 225,
                             "end": 239
                         },
-                        "flags": 32,
-                        "start": 223,
+                        "flags": 223,
+                        "start": 33,
                         "end": 240
                     },
                     {
@@ -893,8 +893,8 @@ async a => await 1;
                     "start": 244,
                     "end": 264
                 },
-                "flags": 32,
-                "start": 244,
+                "flags": 244,
+                "start": 33,
                 "end": 264
             },
             "flags": 16,
@@ -964,16 +964,16 @@ async a => await 1;
                             "start": 279,
                             "end": 286
                         },
-                        "flags": 32,
-                        "start": 279,
+                        "flags": 279,
+                        "start": 32,
                         "end": 286
                     },
                     "flags": 288,
                     "start": 267,
                     "end": 286
                 },
-                "flags": 32,
-                "start": 265,
+                "flags": 265,
+                "start": 33,
                 "end": 287
             },
             "flags": 16,
@@ -1090,8 +1090,8 @@ async a => await 1;
                         "start": 316,
                         "end": 323
                     },
-                    "flags": 32,
-                    "start": 316,
+                    "flags": 316,
+                    "start": 32,
                     "end": 323
                 },
                 "flags": 288,
@@ -1161,8 +1161,8 @@ async a => await 1;
                     "start": 337,
                     "end": 344
                 },
-                "flags": 32,
-                "start": 337,
+                "flags": 337,
+                "start": 32,
                 "end": 344
             },
             "flags": 288,
@@ -1360,7 +1360,7 @@ async a => await 1;
                     "start": 372,
                     "end": 413
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 365,
                 "end": 413
             },

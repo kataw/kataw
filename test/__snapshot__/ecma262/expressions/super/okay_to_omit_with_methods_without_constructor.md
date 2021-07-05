@@ -138,10 +138,9 @@ class x extends y { f(){} }
 
 ```javascript
 
-class x extends y {
-  f() {}
+class x  extends y {
+  f(){}
 }
-
 ```
 
 ### Diagnostics

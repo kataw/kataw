@@ -189,8 +189,8 @@ async <A = B, C = D,>(x) => y;
                     "start": 30,
                     "end": 62
                 },
-                "flags": 32,
-                "start": 30,
+                "flags": 30,
+                "start": 33,
                 "end": 62
             },
             "flags": 16,

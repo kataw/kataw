@@ -104,8 +104,7 @@ type A /* comment 1 */ = /* comment 2 */  typeof /* comment 3 */  (B)
 
 ```javascript
 
-type A/* comment 1 */ =/* comment 2 */ typeof/* comment 3 */ (B)
-
+type A = typeof (B)
 ```
 
 ### Diagnostics

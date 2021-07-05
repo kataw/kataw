@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/with_strict_dirctive
+- From: kataw/test/__snapshot__/ecma262/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/yield/gen/with_strict_dirctive
 > :: test: with_strict_dirctive
 > :: case: x = class extends (a ? null : yield) { }
 ## Options
@@ -113,8 +112,8 @@
                                     "start": 31,
                                     "end": 49
                                 },
-                                "flags": 32,
-                                "start": 31,
+                                "flags": 31,
+                                "start": 32,
                                 "end": 50
                             },
                             "typeParameter": null,
@@ -137,7 +136,7 @@
                     "start": 17,
                     "end": 54
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 13,
                 "end": 54
             },
@@ -160,9 +159,7 @@
 ```javascript
 
 '\'use strict\'';
-x = class  extends (a ? null : yield) {
-};
-
+x = class   extends (a ? null  : yield) {};
 ```
 
 ### Diagnostics

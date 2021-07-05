@@ -134,8 +134,7 @@ import typeof { foo25, bar1 } from "baz";
 
 ```javascript
 
-import typeof {  foo25,  bar1, } from '"baz"';
-
+import typeof {  foo25,  bar1 } from "\"baz\"";
 ```
 
 ### Diagnostics

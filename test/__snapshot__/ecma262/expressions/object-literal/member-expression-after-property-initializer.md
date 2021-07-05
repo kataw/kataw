@@ -119,8 +119,8 @@
                     "start": 1,
                     "end": 25
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 26
             },
             "flags": 16,
@@ -141,8 +141,7 @@
 
 ```javascript
 
-({ a = 42, b : test.d } = {});
-
+({a = 42, b: test.d} = {});
 ```
 
 ### Diagnostics

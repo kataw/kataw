@@ -135,7 +135,7 @@ fn = function() {};
                     "start": 19,
                     "end": 35
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 12,
                 "end": 35
             },
@@ -200,7 +200,7 @@ fn = function() {};
                     "start": 41,
                     "end": 55
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 36,
                 "end": 55
             },
@@ -225,7 +225,6 @@ fn = function() {};
 var xFn, fn;
 xFn = function x() {};
 fn = function () {};
-
 ```
 
 ### Diagnostics

@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_declaration
+- From: kataw/test/__snapshot__/ecma262/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/yield/gen/function_declaration
 > :: test: function declaration
 > :: case: await.b[c] => async
 ## Options

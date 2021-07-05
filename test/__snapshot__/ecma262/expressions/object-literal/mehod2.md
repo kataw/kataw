@@ -108,7 +108,7 @@ x = { method(test) { } }
                     "start": 3,
                     "end": 20
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 20
             },
@@ -197,7 +197,7 @@ x = { method(test) { } }
                     "start": 25,
                     "end": 39
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 20,
                 "end": 39
             },
@@ -286,7 +286,7 @@ x = { method(test) { } }
                     "start": 44,
                     "end": 58
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 39,
                 "end": 58
             },
@@ -454,7 +454,7 @@ x = { method(test) { } }
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 33,
                         "start": 87,
                         "end": 102
                     },
@@ -462,7 +462,7 @@ x = { method(test) { } }
                     "start": 63,
                     "end": 103
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 58,
                 "end": 103
             },
@@ -553,11 +553,11 @@ x = { method(test) { } }
                         "start": 111,
                         "end": 125
                     },
-                    "flags": 32,
-                    "start": 109,
+                    "flags": 109,
+                    "start": 34,
                     "end": 126
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 104,
                 "end": 126
             },
@@ -655,7 +655,7 @@ x = { method(test) { } }
                     "start": 132,
                     "end": 153
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 127,
                 "end": 153
             },
@@ -677,13 +677,12 @@ x = { method(test) { } }
 
 ```javascript
 
-x = { method() {} };
-x = { get() {} };
-x = { set() {} };
-x = { method(test) {} }({ function() {} });
-x = ({ declare() {} });
-x = { method(test) {} };
-
+x = {method(){}};
+x = {get(){}};
+x = {set(){}};
+x = {method(test){}}({function(){}});
+x = ({declare(){}});
+x = {method(test){}};
 ```
 
 ### Diagnostics

@@ -74,8 +74,7 @@ async (await) => x
 
 ```javascript
 
-async (await) => x
-
+async (await) =>  x
 ```
 
 ### Diagnostics

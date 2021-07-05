@@ -111,8 +111,9 @@ log({foo: [bar]});
 
 ```javascript
 
-log({ foo : [bar,] });
-
+log(
+  {foo: [bar]}
+);
 ```
 
 ### Diagnostics

@@ -68,8 +68,8 @@ while(y)
                         "start": 6,
                         "end": 18
                     },
-                    "flags": 32,
-                    "start": 2,
+                    "flags": 2,
+                    "start": 33,
                     "end": 19
                 },
                 "flags": 16,
@@ -78,7 +78,7 @@ while(y)
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 65,
+                "flags": 81,
                 "start": 19,
                 "end": 25
             },
@@ -108,9 +108,8 @@ while(y)
 
 ```javascript
 
-do
-  (function () {}); while (y)
-
+do  (function () {});
+while (y);
 ```
 
 ### Diagnostics

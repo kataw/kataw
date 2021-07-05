@@ -61,7 +61,7 @@ foo: do continue foo; while(true)
                 },
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 21,
                     "end": 27
                 },
@@ -93,9 +93,8 @@ foo: do continue foo; while(true)
 
 ```javascript
 
-foo: do
-  continue foo; while (true)
-
+foo:  do  continue  foo;
+while (true );
 ```
 
 ### Diagnostics

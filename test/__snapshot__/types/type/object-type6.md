@@ -138,8 +138,7 @@ type a = {"string":y.z};
 
 ```javascript
 
-type a = { '"string"': y.z }
-
+type a = { "\"string\"": y.z }
 ```
 
 ### Diagnostics

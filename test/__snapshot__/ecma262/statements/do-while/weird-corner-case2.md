@@ -44,7 +44,7 @@
                         },
                         "whileKeyword": {
                             "kind": 37757028,
-                            "flags": 64,
+                            "flags": 80,
                             "start": 6,
                             "end": 11
                         },
@@ -84,10 +84,9 @@
 ```javascript
 
 {
-  do
-    x; while (y)
+  do  x;
+  while (y);
 }
-
 ```
 
 ### Diagnostics

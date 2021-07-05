@@ -128,7 +128,7 @@ class Foo {
                                             "kind": 342,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 48,
                                             "end": 48
                                         },
@@ -195,7 +195,7 @@ class Foo {
                                                                 "start": 69,
                                                                 "end": 79
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 0,
                                                             "start": 54,
                                                             "end": 79
                                                         },
@@ -253,7 +253,7 @@ class Foo {
                                                                 "start": 96,
                                                                 "end": 105
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 0,
                                                             "start": 80,
                                                             "end": 105
                                                         },
@@ -274,8 +274,8 @@ class Foo {
                                         "start": 47,
                                         "end": 110
                                     },
-                                    "flags": 32,
-                                    "start": 45,
+                                    "flags": 45,
+                                    "start": 32,
                                     "end": 111
                                 },
                                 "argumentList": {
@@ -372,7 +372,7 @@ class Foo {
                                             "kind": 342,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 151,
                                             "end": 151
                                         },
@@ -439,7 +439,7 @@ class Foo {
                                                                 "start": 173,
                                                                 "end": 182
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 0,
                                                             "start": 157,
                                                             "end": 182
                                                         },
@@ -460,8 +460,8 @@ class Foo {
                                         "start": 150,
                                         "end": 187
                                     },
-                                    "flags": 32,
-                                    "start": 148,
+                                    "flags": 148,
+                                    "start": 32,
                                     "end": 188
                                 },
                                 "argumentList": {
@@ -514,21 +514,16 @@ class Foo {
 ```javascript
 
 class Foo {
-  static #bar = 21
-  ;
+  static #bar = 21;;
   static #_ = (() => {
-    this.foo = this.#bar;
-    this.qux1 = this.qux;
-  })()
-  ;
-  static qux = 21
-  ;
+      this .foo = this .#bar;
+      this .qux1 = this .qux;
+    })();;
+  static qux = 21;;
   static #_2 = (() => {
-    this.qux2 = this.qux;
-  })()
-  ;
+      this .qux2 = this .qux;
+    })();;
 }
-
 ```
 
 ### Diagnostics

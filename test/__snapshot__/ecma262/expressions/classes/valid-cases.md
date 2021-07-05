@@ -140,7 +140,7 @@ x = class {y = 1; 'z' = 2}
                     "start": 3,
                     "end": 26
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 26
             },
@@ -304,7 +304,7 @@ x = class {y = 1; 'z' = 2}
                     "start": 31,
                     "end": 56
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 26,
                 "end": 56
             },
@@ -487,7 +487,7 @@ x = class {y = 1; 'z' = 2}
                     "start": 61,
                     "end": 95
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 56,
                 "end": 95
             },
@@ -670,7 +670,7 @@ x = class {y = 1; 'z' = 2}
                     "start": 100,
                     "end": 134
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 95,
                 "end": 134
             },
@@ -788,7 +788,7 @@ x = class {y = 1; 'z' = 2}
                     "start": 139,
                     "end": 162
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 134,
                 "end": 162
             },
@@ -811,31 +811,25 @@ x = class {y = 1; 'z' = 2}
 ```javascript
 
 x = class  {
-  y = 1
-  ;
-  '\'z\'' = 2
+  y = 1;;
+  '\'z\'' = 2;
 };
 x = class  {
-  y() {}
-  ;
-  '\'z\''() {}
+  y(){};
+  '\'z\''(){}
 };
 x = class  {
-  get y() {}
-  ;
-  set '\'z\''(z) {}
+  get y(){};
+  set '\'z\''(z){}
 };
 x = class  {
-  get y() {}
-  ;
-  set '\'z\''(z) {}
+  get y(){};
+  set '\'z\''(z){}
 };
 x = class  {
-  y = 1
-  ;
-  '\'z\'' = 2
+  y = 1;;
+  '\'z\'' = 2;
 };
-
 ```
 
 ### Diagnostics

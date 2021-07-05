@@ -53,8 +53,8 @@ async (x = (yield x))
                                 "start": 10,
                                 "end": 17
                             },
-                            "flags": 32,
-                            "start": 10,
+                            "flags": 10,
+                            "start": 32,
                             "end": 17
                         },
                         "flags": 32,
@@ -71,7 +71,7 @@ async (x = (yield x))
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 0,
                 "end": 0
             },

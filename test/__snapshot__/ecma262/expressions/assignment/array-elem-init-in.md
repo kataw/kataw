@@ -122,7 +122,7 @@ result = [ x = 'x' in {} ] = vals;
                     "start": 8,
                     "end": 33
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 33
             },
@@ -144,8 +144,7 @@ result = [ x = 'x' in {} ] = vals;
 
 ```javascript
 
-result = [x = '\'x\'' in {},] = vals;
-
+result = [x = '\'x\'' in  {}] = vals;
 ```
 
 ### Diagnostics

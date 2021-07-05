@@ -58,9 +58,8 @@
 ### Printed
 
 ```javascript
-/* 1 */
-/* 1 */x/* 2 */, /* 3 */y;/* 4 */
 
+x, y;
 ```
 
 ### Diagnostics

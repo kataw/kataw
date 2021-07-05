@@ -122,8 +122,7 @@ import {x as z,} from "y"
 
 ```javascript
 
-import { x as  z, } from '"y"';
-
+import { x as z } from "\"y\"";
 ```
 
 ### Diagnostics

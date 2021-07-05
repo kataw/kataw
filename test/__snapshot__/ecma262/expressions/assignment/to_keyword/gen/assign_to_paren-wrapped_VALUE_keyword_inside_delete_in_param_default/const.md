@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/assign_to_paren-wrapped_VALUE_keyword_inside_delete_in_param_default
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/gen/assign_to_paren-wrapped_VALUE_keyword_inside_delete_in_param_default
 > :: test: assign to paren-wrapped VALUE keyword inside delete in param default
 > :: case: const
 ## Options
@@ -84,12 +83,12 @@ function *f(x = delete ((const) = f)) {}
                                         "start": 25,
                                         "end": 25
                                     },
-                                    "flags": 32,
-                                    "start": 24,
+                                    "flags": 24,
+                                    "start": 32,
                                     "end": 25
                                 },
-                                "flags": 32,
-                                "start": 22,
+                                "flags": 22,
+                                "start": 32,
                                 "end": 25
                             },
                             "flags": 32,

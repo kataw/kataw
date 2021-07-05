@@ -99,8 +99,9 @@
 
 ```javascript
 
-`foo ${a} and ${b} and ${c} baz`;
-
+`foo ${a},
+ and ${b},
+ and ${c} baz`;
 ```
 
 ### Diagnostics

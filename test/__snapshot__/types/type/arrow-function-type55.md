@@ -186,8 +186,7 @@ type a = ([-1] | (x)) => T;
 
 ```javascript
 
-type a = ([[-1]] | (x)) => T
-
+type a = ([-1] | (x)) =>  T
 ```
 
 ### Diagnostics

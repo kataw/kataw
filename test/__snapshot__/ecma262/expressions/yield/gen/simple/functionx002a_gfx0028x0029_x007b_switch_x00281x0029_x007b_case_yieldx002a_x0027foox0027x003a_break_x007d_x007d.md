@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/simple
+- From: kataw/test/__snapshot__/ecma262/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/yield/gen/simple
 > :: test: simple
 > :: case: function* gf() { switch (1) { case yield* 'foo': break; } }
 ## Options
@@ -180,11 +179,10 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
 
 function * gf() {
   switch (1) {
-    case yield *  '\'foo\'': 
-      break;
+    case yield * '\'foo\'':
+      break ;
   }
 }
-
 ```
 
 ### Diagnostics

@@ -84,8 +84,8 @@
                     "start": 1,
                     "end": 17
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 18
             },
             "flags": 16,
@@ -174,8 +174,8 @@
                     "start": 22,
                     "end": 40
                 },
-                "flags": 32,
-                "start": 19,
+                "flags": 19,
+                "start": 35,
                 "end": 41
             },
             "flags": 16,
@@ -196,9 +196,8 @@
 
 ```javascript
 
-({ a, ...obj } = foo);
-({ a : b, ...obj } = foo);
-
+({a, ...obj} = foo);
+({a: b, ...obj} = foo);
 ```
 
 ### Diagnostics

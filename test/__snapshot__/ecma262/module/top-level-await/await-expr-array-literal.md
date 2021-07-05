@@ -68,7 +68,6 @@ await []
 ```javascript
 
 await [];
-
 ```
 
 ### Diagnostics

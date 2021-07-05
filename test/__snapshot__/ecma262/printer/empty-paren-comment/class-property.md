@@ -174,7 +174,7 @@ class Foo {
                                     "kind": 342,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 56,
                                     "end": 56
                                 },
@@ -304,7 +304,7 @@ class Foo {
                                     "kind": 342,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 114,
                                     "end": 114
                                 },
@@ -518,20 +518,14 @@ class Foo {
 ```javascript
 
 class Foo {
-  f(/* ... */) {}
-  f() {}
-  f = (/* ... */) => {}
-  ;
-  static f(/* ... */) {}
-  ;
-  static f = (/* ... */) => {}
-  ;
-  static f = function (/* ... */) {}
-  ;
-  static f = function f(/* ... */) {}
-  ;
+  f(){}
+  f(){}
+  f = () => {};;
+  static f(){};
+  static f = () => {};;
+  static f = function () {};;
+  static f = function f() {};;
 }
-
 ```
 
 ### Diagnostics

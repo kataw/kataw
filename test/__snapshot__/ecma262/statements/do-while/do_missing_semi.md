@@ -31,7 +31,7 @@ do;while(j)try{}finally{}
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
                 "start": 3,
                 "end": 8
             },
@@ -106,11 +106,8 @@ do;while(j)try{}finally{}
 
 ```javascript
 
-do
-  ; while (j)
-try { }
-finally { }
-
+do ;
+while (j);try {} finally {}
 ```
 
 ### Diagnostics

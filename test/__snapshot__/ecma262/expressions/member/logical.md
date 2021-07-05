@@ -57,8 +57,8 @@
                         "start": 0,
                         "end": 30
                     },
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 32,
                     "end": 31
                 },
                 "expression": {
@@ -131,8 +131,8 @@
                         "start": 37,
                         "end": 124
                     },
-                    "flags": 32,
-                    "start": 37,
+                    "flags": 37,
+                    "start": 33,
                     "end": 125
                 },
                 "expression": {
@@ -143,7 +143,7 @@
                     "start": 126,
                     "end": 130
                 },
-                "flags": 32,
+                "flags": 37,
                 "start": 37,
                 "end": 130
             },
@@ -165,9 +165,10 @@
 
 ```javascript
 
-(veryLongVeryLongVeryLong || e).prop;
-(veryLongVeryLongVeryLong || anotherVeryLongVeryLongVeryLong || veryVeryVeryLongError).prop;
-
+(veryLongVeryLongVeryLong ||  e).prop;
+(
+  veryLongVeryLongVeryLong ||  anotherVeryLongVeryLongVeryLong ||  veryVeryVeryLongError
+).prop;
 ```
 
 ### Diagnostics

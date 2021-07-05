@@ -69,8 +69,8 @@ async <{}>(x)
                         "start": 11,
                         "end": 12
                     },
-                    "flags": 32,
-                    "start": 10,
+                    "flags": 10,
+                    "start": 32,
                     "end": 13
                 },
                 "flags": 96,
@@ -95,8 +95,7 @@ async <{}>(x)
 
 ```javascript
 
-async  < {} > (x);
-
+async  <  {} >  (x);
 ```
 
 ### Diagnostics

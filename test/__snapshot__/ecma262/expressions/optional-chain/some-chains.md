@@ -832,8 +832,8 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "start": 86,
                                 "end": 97
                             },
-                            "flags": 32,
-                            "start": 86,
+                            "flags": 86,
+                            "start": 33,
                             "end": 98
                         },
                         "expression": {
@@ -844,7 +844,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                             "start": 99,
                             "end": 100
                         },
-                        "flags": 32,
+                        "flags": 118,
                         "start": 86,
                         "end": 100
                     },
@@ -856,7 +856,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                         "start": 101,
                         "end": 102
                     },
-                    "flags": 32,
+                    "flags": 118,
                     "start": 86,
                     "end": 102
                 },
@@ -868,7 +868,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                     "start": 103,
                     "end": 104
                 },
-                "flags": 32,
+                "flags": 118,
                 "start": 86,
                 "end": 104
             },
@@ -972,8 +972,8 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                 "start": 105,
                                 "end": 115
                             },
-                            "flags": 32,
-                            "start": 105,
+                            "flags": 105,
+                            "start": 33,
                             "end": 116
                         },
                         "chain": {
@@ -1130,8 +1130,8 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                         "start": 127,
                                         "end": 135
                                     },
-                                    "flags": 32,
-                                    "start": 127,
+                                    "flags": 127,
+                                    "start": 33,
                                     "end": 136
                                 },
                                 "chain": {
@@ -1392,8 +1392,8 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
                                     "start": 153,
                                     "end": 167
                                 },
-                                "flags": 32,
-                                "start": 153,
+                                "flags": 153,
+                                "start": 33,
                                 "end": 168
                             },
                             "chain": {
@@ -1515,15 +1515,14 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
 
 ```javascript
 
-a?.bx.x.x.x.x;
-a?.b?.x?.x?.xx.x;
-z.z.a?.b?.x?.x?.xx.x;
-z.z?.(a)?.b?.x?.x?.xx.x;
-(a?.bx.x).x.x.x;
-(a?.b?.x)?.x?.xx.x;
-(z.z.a)?.b?.x?.x?.xx.x;
-(z.z?.(a)?.b)?.x?.x?.xx.x;
-
+a?.b.x.x.x.x.x;
+a?.b?.x?.x?.x.x.x;
+z.z.a?.b?.x?.x?.x.x.x;
+z.z?.(a)?.b?.x?.x?.x.x.x;
+(a?.b.x.x).x.x.x;
+(a?.b?.x)?.x?.x.x.x;
+(z.z.a)?.b?.x?.x?.x.x.x;
+(z.z?.(a)?.b)?.x?.x?.x.x.x;
 ```
 
 ### Diagnostics

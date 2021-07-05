@@ -57,7 +57,6 @@ new await
 ```javascript
 
 new await;
-
 ```
 
 ### Diagnostics

@@ -175,13 +175,9 @@ class C {
 ```javascript
 
 class C {
-  static #x = 1
-  ;
-  static  {
-    C.#x;
-  }
+  static #x = 1;;
+  
 }
-
 ```
 
 ### Diagnostics

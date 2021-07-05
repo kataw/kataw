@@ -157,7 +157,7 @@ result = { x: [y] } = { x: [321] };
                     "start": 8,
                     "end": 34
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 34
             },
@@ -179,8 +179,7 @@ result = { x: [y] } = { x: [321] };
 
 ```javascript
 
-result = { x : [y,] } = { x : [321,] };
-
+result = {x: [y]} = {x: [321]};
 ```
 
 ### Diagnostics

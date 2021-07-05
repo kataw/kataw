@@ -118,7 +118,6 @@ export let x = 10, y = 20
 ```javascript
 
 export let x = 10, y = 20;
-
 ```
 
 ### Diagnostics

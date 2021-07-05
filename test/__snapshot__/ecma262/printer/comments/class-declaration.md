@@ -303,21 +303,20 @@ class /*1*/ y /*2*/ {
 
 class x {
   ;
-  ;/*1*/
   ;
   ;
-  a = b
-  x/*2*/:/*3*/ string
+  ;
+  a = b;
+  x: string ;
 }
-class/*1*/ y/*2*/ {
-  ;
-  ;/*3*/
+class y {
   ;
   ;
-  a/*4*/ =/*5*/ b
-  x/*6*/:/*7*/ string
+  ;
+  ;
+  a = b;
+  x: string ;
 }
-
 ```
 
 ### Diagnostics

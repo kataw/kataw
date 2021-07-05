@@ -99,8 +99,8 @@
                     "start": 1,
                     "end": 18
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 19
             },
             "flags": 16,
@@ -200,8 +200,8 @@
                     "start": 22,
                     "end": 46
                 },
-                "flags": 32,
-                "start": 20,
+                "flags": 20,
+                "start": 35,
                 "end": 47
             },
             "flags": 16,
@@ -289,8 +289,8 @@
                     "start": 50,
                     "end": 65
                 },
-                "flags": 32,
-                "start": 48,
+                "flags": 48,
+                "start": 35,
                 "end": 66
             },
             "flags": 16,
@@ -369,8 +369,8 @@
                     "start": 69,
                     "end": 83
                 },
-                "flags": 32,
-                "start": 67,
+                "flags": 67,
+                "start": 35,
                 "end": 84
             },
             "flags": 16,
@@ -391,13 +391,12 @@
 
 ```javascript
 
-({ set x(foo) {} });
-({ get x() {
-    return 1;
-  } });
-({ set x(a) {} });
-({ get x() {} });
-
+({set x(foo){}});
+({get x(){
+      return 1;
+    }});
+({set x(a){}});
+({get x(){}});
 ```
 
 ### Diagnostics

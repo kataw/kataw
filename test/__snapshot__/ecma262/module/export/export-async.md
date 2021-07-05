@@ -110,8 +110,6 @@ export async function foo() { };
 ```javascript
 
 export async function foo() {}
-;
-
 ```
 
 ### Diagnostics

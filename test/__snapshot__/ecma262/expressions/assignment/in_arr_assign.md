@@ -96,8 +96,7 @@ x in[]=x
 
 ```javascript
 
-x in [] = x;
-
+x in  [] = x;
 ```
 
 ### Diagnostics

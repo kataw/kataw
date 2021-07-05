@@ -105,8 +105,8 @@ f((async (a, b) => a + b));
                                 "start": 3,
                                 "end": 24
                             },
-                            "flags": 32,
-                            "start": 2,
+                            "flags": 2,
+                            "start": 32,
                             "end": 25
                         }
                     ],
@@ -137,8 +137,9 @@ f((async (a, b) => a + b));
 
 ```javascript
 
-f((async (a, b) => a + b));
-
+f(
+  (async (a, b) =>  a +  b)
+);
 ```
 
 ### Diagnostics

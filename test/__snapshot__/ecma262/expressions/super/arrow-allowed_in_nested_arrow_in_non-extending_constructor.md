@@ -91,7 +91,7 @@ class x { constructor(){ return () => () => super[bar]; }}
                                                         "kind": 342,
                                                         "parameters": [],
                                                         "trailingComma": false,
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 33,
                                                         "end": 33
                                                     },
@@ -110,7 +110,7 @@ class x { constructor(){ return () => () => super[bar]; }}
                                                             "kind": 342,
                                                             "parameters": [],
                                                             "trailingComma": false,
-                                                            "flags": 0,
+                                                            "flags": 32,
                                                             "start": 39,
                                                             "end": 39
                                                         },
@@ -198,11 +198,10 @@ class x { constructor(){ return () => () => super[bar]; }}
 ```javascript
 
 class x {
-  constructor() {
-    return () => () => super[bar];
+  constructor(){
+    return () =>  () =>  super [bar];
   }
 }
-
 ```
 
 ### Diagnostics

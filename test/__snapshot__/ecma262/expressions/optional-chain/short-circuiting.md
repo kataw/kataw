@@ -372,13 +372,8 @@ undefined?.b.c(++x).d; // long short-circuiting.
 
 ```javascript
 
-a?.[++x]// short-circuiting.
-// short-circuiting.
-a?.bc(++x).d;// long short-circuiting.
-undefined?.[++x]// short-circuiting.
-// short-circuiting.
-undefined?.bc(++x).d;// long short-circuiting.
-
+a?.[++ x].a?.b.c(++ x).d;
+undefined?.[++ x].undefined?.b.c(++ x).d;
 ```
 
 ### Diagnostics

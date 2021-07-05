@@ -86,7 +86,7 @@ state = {
                     "start": 7,
                     "end": 43
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 43
             },
@@ -109,10 +109,8 @@ state = {
 ```javascript
 
 state = {
-   // students
-  hoverColumn : -1
+  hoverColumn: -1
 };
-
 ```
 
 ### Diagnostics

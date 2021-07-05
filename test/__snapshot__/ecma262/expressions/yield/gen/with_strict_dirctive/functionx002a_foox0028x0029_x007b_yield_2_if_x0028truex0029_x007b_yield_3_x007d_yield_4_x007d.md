@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/with_strict_dirctive
+- From: kataw/test/__snapshot__/ecma262/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/yield/gen/with_strict_dirctive
 > :: test: with_strict_dirctive
 > :: case: function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
 ## Options
@@ -225,14 +224,12 @@
 
 '\'use strict\'';
 function * foo() {
-  yield  2;
-  if (true) {
-    yield  3;
-  }
-  ;
-  yield  4;
+  yield 2;
+  if (true ) {
+      yield 3;
+    }
+  yield 4;
 }
-
 ```
 
 ### Diagnostics

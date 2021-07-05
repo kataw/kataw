@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/failing-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/failing-cases/gen/arrow_body
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/failing-cases/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/failing-cases/gen/arrow_body
 > :: test: arrow body
 > :: case: function () { for (const x in { a: x }) { } }
 ## Options
@@ -188,8 +187,8 @@
                     "start": 0,
                     "end": 49
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 32,
                 "end": 50
             },
             "flags": 16,

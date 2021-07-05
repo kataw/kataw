@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/binary/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/binary/gen/assignment
+- From: kataw/test/__snapshot__/ecma262/expressions/binary/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/binary/gen/assignment
 > :: test: assignment
 > :: case: a instanceof b + c
 ## Options
@@ -89,7 +88,7 @@ x = a instanceof b + c
                     "start": 3,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 22
             },
@@ -111,8 +110,7 @@ x = a instanceof b + c
 
 ```javascript
 
-x = a instanceof b + c;
-
+x = a instanceof  b +  c;
 ```
 
 ### Diagnostics

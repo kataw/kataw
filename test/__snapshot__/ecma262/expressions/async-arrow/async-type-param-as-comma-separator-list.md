@@ -80,8 +80,8 @@ async <T, U>(x)
                                 "start": 13,
                                 "end": 14
                             },
-                            "flags": 32,
-                            "start": 12,
+                            "flags": 12,
+                            "start": 32,
                             "end": 15
                         },
                         "flags": 96,
@@ -111,8 +111,7 @@ async <T, U>(x)
 
 ```javascript
 
-async  < T, U > (x);
-
+async  <  T, U >  (x);
 ```
 
 ### Diagnostics

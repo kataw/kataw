@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/block/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/block/gen/unclosed_parens
+- From: kataw/test/__snapshot__/ecma262/statements/block/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/statements/block/gen/unclosed_parens
 > :: test: unclosed parens
 > :: case: (a b, c = b : string)
 ## Options
@@ -41,12 +40,12 @@
                                     "start": 2,
                                     "end": 5
                                 },
-                                "flags": 32,
-                                "start": 2,
+                                "flags": 2,
+                                "start": 32,
                                 "end": 5
                             },
-                            "flags": 32,
-                            "start": 1,
+                            "flags": 1,
+                            "start": 32,
                             "end": 5
                         },
                         "flags": 16,
@@ -90,7 +89,7 @@
                                         "start": 12,
                                         "end": 14
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 8,
                                     "end": 14
                                 }

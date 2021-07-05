@@ -117,7 +117,7 @@ function *f(){   s = {"foo": yield}   }
                                     "start": 20,
                                     "end": 35
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 14,
                                 "end": 35
                             },
@@ -154,9 +154,8 @@ function *f(){   s = {"foo": yield}   }
 ```javascript
 
 function * f() {
-  s = { '"foo"' : yield  };
+  s = {"\"foo\"": yield };
 }
-
 ```
 
 ### Diagnostics

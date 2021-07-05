@@ -197,8 +197,8 @@ type a = (x,symbol['string']) => T;
 
 ```javascript
 
-type a = (x, symbol[ '\'string\'']) => T
-
+type a = (x,
+symbol ['\'string\'']) =>  T
 ```
 
 ### Diagnostics

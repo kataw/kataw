@@ -96,7 +96,7 @@ x = {0xeban(){}}
                     "start": 3,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 16
             },
@@ -118,8 +118,7 @@ x = {0xeban(){}}
 
 ```javascript
 
-x = { 0xeban() {} };
-
+x = {0xeban(){}};
 ```
 
 ### Diagnostics

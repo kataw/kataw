@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/type-annotation/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/type-annotation/gen/stand_alone
+- From: kataw/test/__snapshot__/ecma262/expressions/arrow/type-annotation/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/arrow/type-annotation/gen/stand_alone
 > :: test: stand alone
 > :: case: (x: string, [x: string]: string) =>  {};
 ## Options
@@ -34,8 +33,8 @@
                     "start": 0,
                     "end": 2
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 32,
                 "end": 2
             },
             "flags": 16,

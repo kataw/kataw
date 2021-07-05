@@ -182,7 +182,7 @@ export default class {
                                 "start": 62,
                                 "end": 64
                             },
-                            "flags": 32,
+                            "flags": 0,
                             "start": 49,
                             "end": 64
                         },

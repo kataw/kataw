@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/gen/variable_conditional_expr
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/destructuring-assignment-positive-tests/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/destructuring-assignment-positive-tests/gen/variable_conditional_expr
 > :: test: variable conditional expr
 > :: case: { x: new.target = 1 }
 ## Options
@@ -214,7 +213,7 @@ var x, y, z; m(['b']) ? lhs : { x: new.target = 1 } = {}
                                             "start": 47,
                                             "end": 49
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 31,
                                         "end": 49
                                     },

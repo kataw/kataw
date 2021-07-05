@@ -53,7 +53,7 @@ x = import(y);
                     "start": 10,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -76,7 +76,6 @@ x = import(y);
 ```javascript
 
 x = import(y);
-
 ```
 
 ### Diagnostics

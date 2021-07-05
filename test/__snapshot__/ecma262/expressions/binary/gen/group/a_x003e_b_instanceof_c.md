@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/binary/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/binary/gen/group
+- From: kataw/test/__snapshot__/ecma262/expressions/binary/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/binary/gen/group
 > :: test: group
 > :: case: a > b instanceof c
 ## Options
@@ -75,8 +74,8 @@
                     "start": 0,
                     "end": 20
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 32,
                 "end": 22
             },
             "flags": 16,
@@ -97,8 +96,7 @@
 
 ```javascript
 
-(a > b instanceof c);
-
+(a >  b instanceof  c);
 ```
 
 ### Diagnostics

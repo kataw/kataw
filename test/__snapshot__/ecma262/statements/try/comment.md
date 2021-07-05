@@ -211,8 +211,8 @@ fn(function f() {
                                     "start": 84,
                                     "end": 124
                                 },
-                                "flags": 32,
-                                "start": 84,
+                                "flags": 84,
+                                "start": 32,
                                 "end": 128
                             },
                             "flags": 81,
@@ -327,8 +327,8 @@ fn(function f() {
                                                     "start": 158,
                                                     "end": 198
                                                 },
-                                                "flags": 32,
-                                                "start": 158,
+                                                "flags": 158,
+                                                "start": 32,
                                                 "end": 202
                                             },
                                             "flags": 81,
@@ -378,21 +378,16 @@ fn(function f() {
 ```javascript
 
 function x() {
-  throw func2
-   //comment
-  .bar();
+  throw func2.bar();
 }
 function f() {
-  throw (foo
-   // comment
-  .bar());
+  throw (foo.bar());
 }
-fn(function f() {
-  throw (foo
-   // comment
-  .bar());
-});
-
+fn(
+  function f() {
+    throw (foo.bar());
+  }
+);
 ```
 
 ### Diagnostics

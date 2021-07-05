@@ -101,8 +101,9 @@ x({a}=obj);
 
 ```javascript
 
-x({ a } = obj);
-
+x(
+  {a} = obj
+);
 ```
 
 ### Diagnostics

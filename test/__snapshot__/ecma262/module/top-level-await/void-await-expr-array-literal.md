@@ -80,7 +80,6 @@ void await [];
 ```javascript
 
 void await [];
-
 ```
 
 ### Diagnostics

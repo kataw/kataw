@@ -131,8 +131,7 @@ a ? b ? c : d ** x : e
 
 ```javascript
 
-a ? b ? c : d ** x : e;
-
+a ? b ? c : d **  x : e;
 ```
 
 ### Diagnostics

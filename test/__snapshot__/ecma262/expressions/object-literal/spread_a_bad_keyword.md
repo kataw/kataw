@@ -81,7 +81,7 @@ x={...new}
                     "start": 2,
                     "end": 10
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 10
             },

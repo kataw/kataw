@@ -66,10 +66,7 @@ if /* comment 1 */ (
 
 ```javascript
 
-if/* comment 1 */ (
- /* comment 2 */
-x/* comment 3 */)/* comment 4 */ { }
-
+if (x) {}
 ```
 
 ### Diagnostics

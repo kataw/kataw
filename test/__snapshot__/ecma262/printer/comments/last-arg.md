@@ -623,21 +623,34 @@ class Foo {
 ```javascript
 
 class Foo {
-  a(lol/*string*/) {}
-  b(lol/*string*/) {}
-  d(lol/*string*/, lol2/*string*/, lol3/*string*/, lol4/*string*/) {}
-  d(lol/*string*/, lol2/*string*/, lol3/*string*/, lol4/*string*/) {}
-   // kataw-ignore
-   // kataw-ignore
-  c(lol/*string*/) {}
-   // kataw-ignore
-   // kataw-ignore
-  d(lol/*string*/, lol2/*string*/, lol3/*string*/, lol4/*string*/) {}
-   // kataw-ignore
-   // kataw-ignore
-  e(lol/*string*/, lol2/*string*/, lol3/*string*/, lol4/*string*/) {}/* string*/
+  a(lol){}
+  b(lol){}
+  d(
+    lol,
+    lol2,
+    lol3,
+    lol4
+  ){}
+  d(
+    lol,
+    lol2,
+    lol3,
+    lol4
+  ){}
+  c(lol){}
+  d(
+    lol,
+    lol2,
+    lol3,
+    lol4
+  ){}
+  e(
+    lol,
+    lol2,
+    lol3,
+    lol4
+  ){}
 }
-
 ```
 
 ### Diagnostics

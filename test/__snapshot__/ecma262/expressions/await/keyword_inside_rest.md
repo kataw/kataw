@@ -153,7 +153,7 @@ async r => result = [...{ x = await x }] = y;
                         "start": 19,
                         "end": 44
                     },
-                    "flags": 32,
+                    "flags": 0,
                     "start": 10,
                     "end": 44
                 },
@@ -179,8 +179,7 @@ async r => result = [...{ x = await x }] = y;
 
 ```javascript
 
-async r => result = [...{ x = await x }] = y;
-
+async r =>  result = [...{x = await x}] = y;
 ```
 
 ### Diagnostics

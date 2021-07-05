@@ -70,9 +70,7 @@ a);
 
 ```javascript
 
-if (--a)
-  ;
-
+if (-- a);
 ```
 
 ### Diagnostics

@@ -122,8 +122,7 @@ import { null as nil } from "bar"
 
 ```javascript
 
-import { null as  nil, } from '"bar"';
-
+import { null as nil } from "\"bar\"";
 ```
 
 ### Diagnostics

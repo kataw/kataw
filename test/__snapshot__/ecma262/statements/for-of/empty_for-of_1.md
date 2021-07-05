@@ -89,9 +89,7 @@ for (a of b);
 
 ```javascript
 
-for (a of b)
-  ;
-
+for (a of b);
 ```
 
 ### Diagnostics

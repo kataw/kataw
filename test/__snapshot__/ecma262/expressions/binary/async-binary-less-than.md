@@ -65,8 +65,8 @@ async <a > (x);
                         "start": 12,
                         "end": 13
                     },
-                    "flags": 32,
-                    "start": 10,
+                    "flags": 10,
+                    "start": 32,
                     "end": 14
                 },
                 "flags": 96,
@@ -127,16 +127,16 @@ async <a > (x);
                             "start": 30,
                             "end": 31
                         },
-                        "flags": 32,
-                        "start": 28,
+                        "flags": 28,
+                        "start": 32,
                         "end": 32
                     },
                     "flags": 96,
                     "start": 15,
                     "end": 32
                 },
-                "flags": 32,
-                "start": 15,
+                "flags": 15,
+                "start": 33,
                 "end": 33
             },
             "flags": 16,
@@ -157,9 +157,8 @@ async <a > (x);
 
 ```javascript
 
-async  < a > (x);
-(async  < a > (x));
-
+async  <  a >  (x);
+(async  <  a >  (x));
 ```
 
 ### Diagnostics

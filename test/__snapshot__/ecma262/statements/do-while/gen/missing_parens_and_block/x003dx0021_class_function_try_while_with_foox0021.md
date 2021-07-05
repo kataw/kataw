@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/do-while/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/do-while/gen/missing_parens_and_block
+- From: kataw/test/__snapshot__/ecma262/statements/do-while/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/statements/do-while/gen/missing_parens_and_block
 > :: test: missing parens and block
 > :: case: =! class function try while with foo!
 ## Options
@@ -90,7 +89,7 @@ do =! class function try while with foo! while
                         "start": 4,
                         "end": 11
                     },
-                    "flags": 32,
+                    "flags": 0,
                     "start": 2,
                     "end": 11
                 },

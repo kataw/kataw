@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/super/super-no-errors/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/super/super-no-errors/gen/class-method_body_assignment
+- From: kataw/test/__snapshot__/ecma262/expressions/super/super-no-errors/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/super/super-no-errors/gen/class-method_body_assignment
 > :: test: class-method body assignment
 > :: case: new new super()
 ## Options
@@ -140,7 +139,7 @@ class C { m() { k = new new super(); } }
                                                         "start": 19,
                                                         "end": 35
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 15,
                                                     "end": 35
                                                 },

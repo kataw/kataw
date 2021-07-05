@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_declaration
+- From: kataw/test/__snapshot__/ecma262/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/yield/gen/function_declaration
 > :: test: function declaration
 > :: case: (yield) ? yield : yield
 ## Options
@@ -71,8 +70,8 @@ function not_gen() { (yield) ? yield : yield }}
                                         "start": 22,
                                         "end": 27
                                     },
-                                    "flags": 32,
-                                    "start": 20,
+                                    "flags": 20,
+                                    "start": 32,
                                     "end": 28
                                 },
                                 "questionToken": {
@@ -103,7 +102,7 @@ function not_gen() { (yield) ? yield : yield }}
                                     "start": 38,
                                     "end": 44
                                 },
-                                "flags": 32,
+                                "flags": 52,
                                 "start": 20,
                                 "end": 44
                             },

@@ -314,8 +314,8 @@
 
 ```javascript
 
-({ident: { x: y }}) =>  x;
-({ident: { x }}) =>  x;
+({ident: {x: y}}) =>  x;
+({ident: {x}}) =>  x;
 ({a} = b) => {};
 ```
 

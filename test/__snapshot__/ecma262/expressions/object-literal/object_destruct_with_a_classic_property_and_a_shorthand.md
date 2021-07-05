@@ -99,7 +99,7 @@ x = {a:b, c} = obj;
                     "start": 3,
                     "end": 18
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 18
             },
@@ -121,8 +121,7 @@ x = {a:b, c} = obj;
 
 ```javascript
 
-x = { a : b, c } = obj;
-
+x = {a: b, c} = obj;
 ```
 
 ### Diagnostics

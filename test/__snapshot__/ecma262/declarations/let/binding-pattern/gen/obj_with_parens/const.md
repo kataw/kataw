@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/binding-pattern/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/binding-pattern/gen/obj_with_parens
+- From: kataw/test/__snapshot__/ecma262/declarations/let/binding-pattern/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/declarations/let/binding-pattern/gen/obj_with_parens
 > :: test: obj with parens
 > :: case: const
 ## Options

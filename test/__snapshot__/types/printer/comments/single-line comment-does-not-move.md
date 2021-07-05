@@ -125,9 +125,8 @@ if (somethingGoesWrong) { // Why this comment goes to the next line...
 ```javascript
 
 if (somethingGoesWrong) {
-  console.error('\'Something went wrong\'');// ...but this one doesn't?
-}
-
+    console.error('\'Something went wrong\'');
+  }
 ```
 
 ### Diagnostics

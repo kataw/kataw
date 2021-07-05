@@ -132,12 +132,7 @@ for (let {x, y = z} = obj;;);
 
 ```javascript
 
-for (let {
-  x,
-  y = z
-} = obj;;)
-  ;
-
+for (let {x, y = z} = obj; ; );
 ```
 
 ### Diagnostics

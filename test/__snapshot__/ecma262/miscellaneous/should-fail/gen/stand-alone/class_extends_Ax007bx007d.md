@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/gen/stand-alone
 > :: test: stand-alone
 > :: case: class extends A{}
 ## Options
@@ -87,9 +86,7 @@ class extends A{}
 
 ```javascript
 
-class  extends A {
-}
-
+class   extends A {}
 ```
 
 ### Diagnostics

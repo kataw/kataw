@@ -183,7 +183,7 @@ request
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 115,
                                 "end": 131
                             },
@@ -240,9 +240,12 @@ request
 
 ```javascript
 
-request.post('\'/version\'')// comment 1
-.set('\'Prefer\'', '\'plurality=singular\'')/* comment 2 */.send().end((error, response) => {});
-
+request.post('\'/version\'').set(
+  '\'Prefer\'',
+  '\'plurality=singular\''
+).send().end(
+  (error, response) => {}
+);
 ```
 
 ### Diagnostics

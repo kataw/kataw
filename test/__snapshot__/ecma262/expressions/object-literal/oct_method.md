@@ -96,7 +96,7 @@ x = {0o730(){}}
                     "start": 3,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 15
             },
@@ -118,8 +118,7 @@ x = {0o730(){}}
 
 ```javascript
 
-x = { 0o730() {} };
-
+x = {0o730(){}};
 ```
 
 ### Diagnostics

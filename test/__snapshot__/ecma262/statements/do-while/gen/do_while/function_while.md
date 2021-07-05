@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/do-while/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/do-while/gen/do_while
+- From: kataw/test/__snapshot__/ecma262/statements/do-while/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/statements/do-while/gen/do_while
 > :: test: do while
 > :: case: function while
 ## Options
@@ -73,7 +72,7 @@ do function while while
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
                 "start": 11,
                 "end": 17
             },

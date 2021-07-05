@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/gen/stand-alone
 > :: test: stand-alone
 > :: case: [x, y, ...z = arr] = x = obj
 ## Options
@@ -80,7 +79,7 @@
                                         "start": 13,
                                         "end": 17
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 10,
                                     "end": 17
                                 },
@@ -128,7 +127,7 @@
                         "start": 24,
                         "end": 28
                     },
-                    "flags": 32,
+                    "flags": 0,
                     "start": 20,
                     "end": 28
                 },

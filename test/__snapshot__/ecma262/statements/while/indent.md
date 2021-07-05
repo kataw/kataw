@@ -239,7 +239,7 @@ while (0);
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 65,
+                "flags": 81,
                 "start": 202,
                 "end": 208
             },
@@ -500,7 +500,7 @@ while (0);
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 65,
+                "flags": 81,
                 "start": 504,
                 "end": 510
             },
@@ -621,7 +621,7 @@ while (0);
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 65,
+                "flags": 81,
                 "start": 623,
                 "end": 629
             },
@@ -651,17 +651,48 @@ while (0);
 
 ```javascript
 
-if (someVeryLongStringA && someVeryLongStringB && someVeryLongStringC && someVeryLongStringD) { }
-while (someVeryLongStringA && someVeryLongStringB && someVeryLongStringC && someVeryLongStringD) { }
-do { } while (someVeryLongStringA && someVeryLongStringB && someVeryLongStringC && someVeryLongStringD)
-if (someVeryLongFunc(someVeryLongArgA, someVeryLongArgB, someVeryLongArgC, someVeryLongArgD)) { }
-while (someVeryLongFunc(someVeryLongArgA, someVeryLongArgB, someVeryLongArgC, someVeryLongArgD)) { }
-do { } while (someVeryLongFunc(someVeryLongArgA, someVeryLongArgB, someVeryLongArgC, someVeryLongArgD))
-while (0)
-  1;
-do
-  1; while (0)
-
+if (
+  someVeryLongStringA &&  someVeryLongStringB &&  someVeryLongStringC &&  someVeryLongStringD
+)
+  {}
+while (
+  someVeryLongStringA &&  someVeryLongStringB &&  someVeryLongStringC &&  someVeryLongStringD
+)
+  {}
+do  {}
+while (
+  someVeryLongStringA &&  someVeryLongStringB &&  someVeryLongStringC &&  someVeryLongStringD
+);
+if (
+  someVeryLongFunc(
+    someVeryLongArgA,
+    someVeryLongArgB,
+    someVeryLongArgC,
+    someVeryLongArgD
+  )
+)
+  {}
+while (
+  someVeryLongFunc(
+    someVeryLongArgA,
+    someVeryLongArgB,
+    someVeryLongArgC,
+    someVeryLongArgD
+  )
+)
+  {}
+do  {}
+while (
+  someVeryLongFunc(
+    someVeryLongArgA,
+    someVeryLongArgB,
+    someVeryLongArgC,
+    someVeryLongArgD
+  )
+);
+while (0) 1;
+do  1;
+while (0);
 ```
 
 ### Diagnostics

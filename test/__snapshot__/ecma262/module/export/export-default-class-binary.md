@@ -116,10 +116,7 @@ export default class Foo {}++x
 
 ```javascript
 
-export default class Foo {
-};
-++x;
-
+export default class Foo {};++ x;
 ```
 
 ### Diagnostics

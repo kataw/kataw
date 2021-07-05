@@ -63,9 +63,7 @@ with (foo) bar;
 
 ```javascript
 
-with (foo)
-  bar;
-
+with (foo) bar;
 ```
 
 ### Diagnostics

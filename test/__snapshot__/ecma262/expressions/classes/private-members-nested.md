@@ -207,8 +207,8 @@
                     "start": 1,
                     "end": 41
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 32,
                 "end": 42
             },
             "flags": 16,
@@ -400,8 +400,8 @@
                     "start": 46,
                     "end": 90
                 },
-                "flags": 32,
-                "start": 43,
+                "flags": 43,
+                "start": 33,
                 "end": 91
             },
             "flags": 16,
@@ -723,8 +723,8 @@
                     "start": 95,
                     "end": 170
                 },
-                "flags": 32,
-                "start": 92,
+                "flags": 92,
+                "start": 33,
                 "end": 171
             },
             "flags": 16,
@@ -920,8 +920,8 @@
                     "start": 175,
                     "end": 219
                 },
-                "flags": 32,
-                "start": 172,
+                "flags": 172,
+                "start": 33,
                 "end": 220
             },
             "flags": 16,
@@ -943,36 +943,35 @@
 ```javascript
 
 (class  {
-  get #a() {
-    class C {
-      #a() {}
+    get #a(){
+      class C {
+        #a(){}
+      }
     }
-  }
-});
+  });
 (class  {
-  get #a() {
-    class C {
-      get #a() {}
+    get #a(){
+      class C {
+        get #a(){}
+      }
     }
-  }
-});
+  });
 (class  {
-  set #a(val) {}
-  get #a() {
-    class C {
-      get #a() {}
-      set #a(val) {}
+    set #a(val){}
+    get #a(){
+      class C {
+        get #a(){}
+        set #a(val){}
+      }
     }
-  }
-});
+  });
 (class  {
-  #a() {
-    class C {
-      set #a(val) {}
+    #a(){
+      class C {
+        set #a(val){}
+      }
     }
-  }
-});
-
+  });
 ```
 
 ### Diagnostics

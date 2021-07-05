@@ -45,8 +45,8 @@
                     "start": 0,
                     "end": 5
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 32,
                 "end": 6
             },
             "flags": 16,
@@ -94,8 +94,8 @@
                                 "start": 12,
                                 "end": 18
                             },
-                            "flags": 32,
-                            "start": 12,
+                            "flags": 12,
+                            "start": 32,
                             "end": 19
                         }
                     ],
@@ -103,8 +103,8 @@
                     "start": 7,
                     "end": 19
                 },
-                "flags": 32,
-                "start": 7,
+                "flags": 7,
+                "start": 33,
                 "end": 20
             },
             "flags": 16,
@@ -127,7 +127,6 @@
 
 (0, a);
 (0, (0, a));
-
 ```
 
 ### Diagnostics

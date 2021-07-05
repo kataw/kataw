@@ -130,9 +130,7 @@ for (let foo = arr, [bar] = arr2;;);
 
 ```javascript
 
-for (let foo = arr, [bar] = arr2;;)
-  ;
-
+for (let foo = arr, [bar] = arr2; ; );
 ```
 
 ### Diagnostics

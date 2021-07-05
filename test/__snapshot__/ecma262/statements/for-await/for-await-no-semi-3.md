@@ -88,7 +88,7 @@ async function f() {
                                     "start": 37,
                                     "end": 39
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 20,
                                 "end": 39
                             },
@@ -138,10 +138,8 @@ async function f() {
 ```javascript
 
 async function f() {
-  for (x = 0;; false)
-    ;
+  for (x = 0; ; false );
 }
-
 ```
 
 ### Diagnostics

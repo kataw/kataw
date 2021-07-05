@@ -115,10 +115,8 @@ var x; "use strict"; with (x) y;
 ```javascript
 
 var x;
-'"use strict"';
-with (x)
-  y;
-
+"\"use strict\"";
+with (x) y;
 ```
 
 ### Diagnostics

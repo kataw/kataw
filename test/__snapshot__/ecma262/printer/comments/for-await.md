@@ -252,14 +252,13 @@ for /*2*/ await /*3*/(x /*4*/of /*5*/ y/*6*/) /*7*/ {}
 ```javascript
 
 async function x() {
-   /*1*/
-  for await/*2*/ (x/*3*/ of/*4*/ y)/*5*/ { }
+  for await (x of y)
+    {}
 }
 async function x() {
-   /*1*/
-  for/*2*/ await/*3*/ (x/*4*/ of/*5*/ y/*6*/)/*7*/ { }
+  for await (x of y)
+    {}
 }
-
 ```
 
 ### Diagnostics

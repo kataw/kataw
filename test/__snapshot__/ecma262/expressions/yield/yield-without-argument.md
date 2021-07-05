@@ -80,8 +80,8 @@ function* f() {
                                     "start": 19,
                                     "end": 24
                                 },
-                                "flags": 32,
-                                "start": 15,
+                                "flags": 15,
+                                "start": 33,
                                 "end": 25
                             },
                             "flags": 16,
@@ -306,16 +306,14 @@ function* f() {
 
 function * f() {
   (yield );
-  [yield ,];
+  [yield ];
   {
     yield ;
   }
-  ;
   yield ;
-  true ? yield  : 1;
+  true  ? yield  : 1;
   yield , 1;
 }
-
 ```
 
 ### Diagnostics

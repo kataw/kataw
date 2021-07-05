@@ -50,7 +50,7 @@ new (a,b) => x
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 5,
                         "end": 9
                     },
@@ -96,8 +96,7 @@ new (a,b) => x
 
 ```javascript
 
-new (a, b) => x;
-
+new (a, b) =>  x;
 ```
 
 ### Diagnostics

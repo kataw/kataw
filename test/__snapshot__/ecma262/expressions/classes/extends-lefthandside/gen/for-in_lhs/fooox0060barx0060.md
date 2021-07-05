@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/for-in_lhs
+- From: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/gen/for-in_lhs
 > :: test: for-in lhs
 > :: case: fooo`bar`
 ## Options
@@ -91,9 +90,7 @@ for (fooo`bar` in x) ;
 
 ```javascript
 
-for (fooo`bar` in x)
-  ;
-
+for (fooo`bar` in x);
 ```
 
 ### Diagnostics

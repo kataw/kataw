@@ -94,7 +94,7 @@ do if(8)function s(){}while(y)
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
                 "start": 22,
                 "end": 27
             },
@@ -124,10 +124,8 @@ do if(8)function s(){}while(y)
 
 ```javascript
 
-do
-  if (8)
-    function s() {} while (y)
-
+do  if (8) function s() {}
+while (y);
 ```
 
 ### Diagnostics

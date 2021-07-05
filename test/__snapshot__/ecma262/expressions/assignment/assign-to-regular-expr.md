@@ -44,7 +44,7 @@ x = /a/y;
                     "start": 3,
                     "end": 8
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -77,7 +77,7 @@ x = /a/y;
                     "start": 14,
                     "end": 19
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 9,
                 "end": 19
             },
@@ -110,7 +110,7 @@ x = /a/y;
                     "start": 25,
                     "end": 30
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 20,
                 "end": 30
             },
@@ -135,7 +135,6 @@ x = /a/y;
 x = /a/i;
 x = /a/u;
 x = /a/y;
-
 ```
 
 ### Diagnostics

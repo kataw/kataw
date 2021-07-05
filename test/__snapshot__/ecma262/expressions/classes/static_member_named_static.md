@@ -76,8 +76,7 @@ class x{   static static(){}    }
 
 ```javascript
 
-[, , x,];
-
+[, , x];
 ```
 
 ### Diagnostics

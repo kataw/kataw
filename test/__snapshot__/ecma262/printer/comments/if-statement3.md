@@ -68,10 +68,8 @@ if /* comment 2 */ (x) /* comment 3 */ {}
 ### Printed
 
 ```javascript
-/* comment 1 */
-if/* comment 2 */ (x)/* comment 3 */ { }
- /* comment 4 */
 
+if (x) {}
 ```
 
 ### Diagnostics

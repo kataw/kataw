@@ -71,7 +71,7 @@ x = {10n: y}
                     "start": 3,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 12
             },
@@ -93,8 +93,7 @@ x = {10n: y}
 
 ```javascript
 
-x = { 10n : y };
-
+x = {10n: y};
 ```
 
 ### Diagnostics

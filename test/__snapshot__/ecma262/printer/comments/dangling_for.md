@@ -74,12 +74,8 @@ for /* comment */(;;);
 
 ```javascript
 
-for// comment
- (;;)
-  ;
-for/* comment */ (;;)
-  ;
-
+for (;;);
+for (;;);
 ```
 
 ### Diagnostics

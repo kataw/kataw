@@ -153,10 +153,9 @@ async function f(){
 ```javascript
 
 async function f() {
-  for await ('"foo"'.x of c)
+  for await ("\"foo\"".x of c)
     d;
 }
-
 ```
 
 ### Diagnostics

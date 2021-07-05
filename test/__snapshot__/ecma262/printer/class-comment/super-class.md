@@ -400,8 +400,8 @@ extends Base
                     "start": 203,
                     "end": 254
                 },
-                "flags": 32,
-                "start": 200,
+                "flags": 200,
+                "start": 33,
                 "end": 255
             },
             "flags": 16,
@@ -468,8 +468,8 @@ extends Base
                     "start": 259,
                     "end": 316
                 },
-                "flags": 32,
-                "start": 256,
+                "flags": 256,
+                "start": 33,
                 "end": 317
             },
             "flags": 16,
@@ -536,8 +536,8 @@ extends Base
                     "start": 321,
                     "end": 350
                 },
-                "flags": 32,
-                "start": 318,
+                "flags": 318,
+                "start": 33,
                 "end": 351
             },
             "flags": 16,
@@ -604,8 +604,8 @@ extends Base
                     "start": 354,
                     "end": 383
                 },
-                "flags": 32,
-                "start": 352,
+                "flags": 352,
+                "start": 33,
                 "end": 384
             },
             "flags": 16,
@@ -672,8 +672,8 @@ extends Base
                     "start": 387,
                     "end": 416
                 },
-                "flags": 32,
-                "start": 385,
+                "flags": 385,
+                "start": 33,
                 "end": 417
             },
             "flags": 16,
@@ -1021,46 +1021,25 @@ extends Base
 
 ```javascript
 
-class A// comment 1
- 
- // comment 2
-extends B {
+class A  extends B {}
+class A1  extends B {}
+class A2  extends B {}
+class A3  extends B {}
+class A4  extends B {}
+(class A5  extends B {});
+(class A6  extends B {});
+(class A7  extends B {});
+(class A8  extends B {});
+(class A9  extends B {});
+class a  extends b {
+  constructor(){}
 }
-class A1 extends B // comment1
-{
+class c  extends d {
+  constructor(){}
 }
-class A2/* a */ extends B {
+class C2  extends Base {
+  foo(){}
 }
-class A3 extends B /* a */{
-}
-class A4 extends/* a */ B {
-}
-(class A5// comment 1
- 
- // comment 2
-extends B {
-});
-(class A6 extends B // comment1
-{
-});
-(class A7/* a */ extends B {
-});
-(class A8 extends B /* a */{
-});
-(class A9 extends/* a */ B {
-});
-class a extends b // comment
-{
-  constructor() {}
-}
-class c extends d {
-  constructor() {}
-}
-class C2// comment
- extends Base {
-  foo() {}
-}
-
 ```
 
 ### Diagnostics

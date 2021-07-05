@@ -64,7 +64,7 @@
                                                     "start": 7,
                                                     "end": 9
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 2,
                                                 "end": 9
                                             },
@@ -107,7 +107,7 @@
                                                     "start": 16,
                                                     "end": 18
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 10,
                                                 "end": 18
                                             },
@@ -276,8 +276,7 @@
 
 ```javascript
 
-[{ x : x = 1, y : y = 2 }, [a = 3, b = 4, c = 5,],] = {};
-
+[{x: x = 1, y: y = 2}, [a = 3, b = 4, c = 5]] = {};
 ```
 
 ### Diagnostics

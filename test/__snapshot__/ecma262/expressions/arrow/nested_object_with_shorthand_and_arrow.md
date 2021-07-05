@@ -120,7 +120,7 @@
 
 ```javascript
 
-({ident: { x }}) =>  x;
+({ident: {x}}) =>  x;
 ```
 
 ### Diagnostics

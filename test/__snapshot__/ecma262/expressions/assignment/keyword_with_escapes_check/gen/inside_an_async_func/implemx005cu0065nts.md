@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/gen/inside_an_async_func
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/keyword_with_escapes_check/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/keyword_with_escapes_check/gen/inside_an_async_func
 > :: test: inside an async func
 > :: case: implem\u0065nts
 ## Options
@@ -79,7 +78,7 @@ async () => {  implem\u0065nts = x  }
                                     "start": 32,
                                     "end": 34
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 13,
                                 "end": 34
                             },
@@ -117,7 +116,6 @@ async () => {  implem\u0065nts = x  }
 async () => {
   implem\u0065nts = x;
 }
-
 ```
 
 ### Diagnostics

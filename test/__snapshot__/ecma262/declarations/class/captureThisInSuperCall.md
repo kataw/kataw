@@ -446,7 +446,7 @@ class A {
 class B  extends A {
   constructor(){
     super (
-      { test: () =>  this .someMethod() }
+      {test: () =>  this .someMethod()}
     );
   }
   someMethod(){}

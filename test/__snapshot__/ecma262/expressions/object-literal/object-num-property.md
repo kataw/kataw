@@ -128,8 +128,8 @@
                     "start": 1,
                     "end": 20
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 21
             },
             "flags": 16,
@@ -231,8 +231,8 @@
                     "start": 24,
                     "end": 42
                 },
-                "flags": 32,
-                "start": 22,
+                "flags": 22,
+                "start": 35,
                 "end": 43
             },
             "flags": 16,
@@ -343,8 +343,8 @@
                     "start": 46,
                     "end": 67
                 },
-                "flags": 32,
-                "start": 44,
+                "flags": 44,
+                "start": 35,
                 "end": 68
             },
             "flags": 16,
@@ -416,8 +416,8 @@
                     "start": 71,
                     "end": 87
                 },
-                "flags": 32,
-                "start": 69,
+                "flags": 69,
+                "start": 35,
                 "end": 88
             },
             "flags": 16,
@@ -489,8 +489,8 @@
                     "start": 91,
                     "end": 103
                 },
-                "flags": 32,
-                "start": 89,
+                "flags": 89,
+                "start": 35,
                 "end": 104
             },
             "flags": 16,
@@ -569,8 +569,8 @@
                     "start": 107,
                     "end": 121
                 },
-                "flags": 32,
-                "start": 105,
+                "flags": 105,
+                "start": 35,
                 "end": 122
             },
             "flags": 16,
@@ -658,8 +658,8 @@
                     "start": 125,
                     "end": 140
                 },
-                "flags": 32,
-                "start": 123,
+                "flags": 123,
+                "start": 35,
                 "end": 141
             },
             "flags": 16,
@@ -747,8 +747,8 @@
                     "start": 144,
                     "end": 157
                 },
-                "flags": 32,
-                "start": 142,
+                "flags": 142,
+                "start": 35,
                 "end": 158
             },
             "flags": 16,
@@ -850,8 +850,8 @@
                     "start": 161,
                     "end": 183
                 },
-                "flags": 32,
-                "start": 159,
+                "flags": 159,
+                "start": 35,
                 "end": 184
             },
             "flags": 16,
@@ -953,8 +953,8 @@
                     "start": 187,
                     "end": 205
                 },
-                "flags": 32,
-                "start": 185,
+                "flags": 185,
+                "start": 35,
                 "end": 206
             },
             "flags": 16,
@@ -975,17 +975,16 @@
 
 ```javascript
 
-({ 1 : 1, set 1(v) {} });
-({ 1 : 1, get 1() {} });
-({ 1 : 1, set '"1"'(v) {} });
-({ foo : 1, bar : 2 });
-({ 1 : 1, 2 : 2 });
-({ get foo() {} });
-({ set foo(v) {} });
-({ set 1(v) {} });
-({ foo : 1, get bar() {} });
-({ 1 : 1, get 2() {} });
-
+({1: 1, set 1(v){}});
+({1: 1, get 1(){}});
+({1: 1, set "\"1\""(v){}});
+({foo: 1, bar: 2});
+({1: 1, 2: 2});
+({get foo(){}});
+({set foo(v){}});
+({set 1(v){}});
+({foo: 1, get bar(){}});
+({1: 1, get 2(){}});
 ```
 
 ### Diagnostics

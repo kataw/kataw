@@ -245,13 +245,10 @@ async function foo() {
 
 async function foo() {
   class C {
-    static foo() {}
-    static  {
-      await 42;
-    }
+    static foo(){}
+    
   }
 }
-
 ```
 
 ### Diagnostics

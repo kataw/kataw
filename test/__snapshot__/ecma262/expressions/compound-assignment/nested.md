@@ -80,7 +80,7 @@ z(z(z(a&&=)));
                                                         "start": 10,
                                                         "end": 10
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 6,
                                                     "end": 10
                                                 }

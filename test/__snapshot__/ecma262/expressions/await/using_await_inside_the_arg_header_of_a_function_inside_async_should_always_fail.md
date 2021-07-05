@@ -45,7 +45,7 @@ let f = () => (y=await foo) => y;
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 9,
                                 "end": 9
                             },
@@ -65,8 +65,8 @@ let f = () => (y=await foo) => y;
                                     "start": 13,
                                     "end": 22
                                 },
-                                "flags": 32,
-                                "start": 13,
+                                "flags": 13,
+                                "start": 34,
                                 "end": 22
                             },
                             "flags": 32,

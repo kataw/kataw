@@ -149,7 +149,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 2,
+                                                        "flags": 34,
                                                         "start": 43,
                                                         "end": 55
                                                     },
@@ -220,12 +220,11 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
 
 ```javascript
 
-class x extends y {
-  constructor() {
-    return (a = super.foo) => a;
+class x  extends y {
+  constructor(){
+    return (a = super .foo) =>  a;
   }
 }
-
 ```
 
 ### Diagnostics

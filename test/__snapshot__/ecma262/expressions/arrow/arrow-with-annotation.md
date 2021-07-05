@@ -363,7 +363,7 @@
 (x,
 y: string ) =>  z;
 ([a]: string ) =>  x;
-({ a }: string ) =>  x;
+({a}: string ) =>  x;
 ```
 
 ### Diagnostics

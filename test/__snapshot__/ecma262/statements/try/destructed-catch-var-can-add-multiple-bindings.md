@@ -120,9 +120,7 @@ try {} catch ([a,b,c]) { }
 
 ```javascript
 
-try { }
-catch ([a, b, c]){ }
-
+try {} catch ([a, b, c]) {}
 ```
 
 ### Diagnostics

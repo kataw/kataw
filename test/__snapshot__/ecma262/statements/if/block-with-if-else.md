@@ -87,11 +87,9 @@
 ```javascript
 
 {
-  if (false) { }
-  else
-    ;
+  if (false ) {}
+  else ;
 }
-
 ```
 
 ### Diagnostics

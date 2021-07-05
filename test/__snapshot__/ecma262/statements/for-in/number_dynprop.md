@@ -101,7 +101,6 @@ for (456[x] in c) d;
 
 for (456[x] in c)
   d;
-
 ```
 
 ### Diagnostics

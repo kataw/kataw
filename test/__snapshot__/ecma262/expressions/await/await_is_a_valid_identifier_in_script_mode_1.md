@@ -44,7 +44,6 @@ await
 ```javascript
 
 await;
-
 ```
 
 ### Diagnostics

@@ -58,9 +58,8 @@ b
 
 ```javascript
 
-a;// comment
+a;
 b;
-
 ```
 
 ### Diagnostics

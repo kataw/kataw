@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/special_keys/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/special_keys/gen/as_static_async_generator_in_class
+- From: kataw/test/__snapshot__/ecma262/expressions/classes/special_keys/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/classes/special_keys/gen/as_static_async_generator_in_class
 > :: test: as static async generator in class
 > :: case: for
 ## Options
@@ -142,9 +141,8 @@ class x {static async * for(){}}
 ```javascript
 
 class x {
-  static async * for() {}
+  static async * for(){}
 }
-
 ```
 
 ### Diagnostics

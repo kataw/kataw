@@ -115,9 +115,9 @@ async (a => a + 1);
 
 ```javascript
 
-async(a => a + 1)
-;
-
+async(
+  a =>  a +  1
+)
 ```
 
 ### Diagnostics

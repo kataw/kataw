@@ -53,9 +53,8 @@
 ### Printed
 
 ```javascript
-/* detached */
-[];
 
+[];
 ```
 
 ### Diagnostics

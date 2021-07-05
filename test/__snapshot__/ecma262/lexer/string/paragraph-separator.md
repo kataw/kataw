@@ -43,8 +43,7 @@
 
 ```javascript
 
-'"\u2029"';
-
+"\"\u2029\"";
 ```
 
 ### Diagnostics

@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/rhs_mul
+- From: kataw/test/__snapshot__/ecma262/expressions/arrow/position/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/arrow/position/gen/rhs_mul
 > :: test: rhs mul
 > :: case: async => {}
 ## Options
@@ -100,8 +99,7 @@ x * async => {}
 
 ```javascript
 
-x * async => {};
-
+x *  async => {};
 ```
 
 ### Diagnostics

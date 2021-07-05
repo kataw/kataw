@@ -119,8 +119,9 @@ wrap({'a':b, 'c':d});
 
 ```javascript
 
-wrap({ '\'a\'' : b, '\'c\'' : d });
-
+wrap(
+  {'\'a\'': b, '\'c\'': d}
+);
 ```
 
 ### Diagnostics

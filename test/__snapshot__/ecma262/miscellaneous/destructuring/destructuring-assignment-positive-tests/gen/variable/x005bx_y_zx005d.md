@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/gen/variable
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/destructuring-assignment-positive-tests/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/destructuring-assignment-positive-tests/gen/variable
 > :: test: variable
 > :: case: [x,y,z]
 ## Options
@@ -161,8 +160,8 @@ var x, y, z; ([x,y,z] = {});
                     "start": 14,
                     "end": 26
                 },
-                "flags": 32,
-                "start": 12,
+                "flags": 12,
+                "start": 34,
                 "end": 27
             },
             "flags": 16,
@@ -184,8 +183,7 @@ var x, y, z; ([x,y,z] = {});
 ```javascript
 
 var x, y, z;
-([x, y, z,] = {});
-
+([x, y, z] = {});
 ```
 
 ### Diagnostics

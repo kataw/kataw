@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/with_strict_dirctive
+- From: kataw/test/__snapshot__/ecma262/expressions/await/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/await/gen/with_strict_dirctive
 > :: test: with_strict_dirctive
 > :: case: (class { async method(await) {} })
 ## Options
@@ -131,8 +130,8 @@
                     "start": 15,
                     "end": 47
                 },
-                "flags": 32,
-                "start": 13,
+                "flags": 13,
+                "start": 32,
                 "end": 48
             },
             "flags": 16,

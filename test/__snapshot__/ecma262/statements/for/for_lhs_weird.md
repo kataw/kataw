@@ -81,7 +81,7 @@ for ({}[y] ^= x;;) x;
                     "start": 12,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -157,7 +157,7 @@ for ({}[y] ^= x;;) x;
                     "start": 36,
                     "end": 38
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 20,
                 "end": 38
             },
@@ -233,7 +233,7 @@ for ({}[y] ^= x;;) x;
                     "start": 58,
                     "end": 60
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 44,
                 "end": 60
             },
@@ -309,7 +309,7 @@ for ({}[y] ^= x;;) x;
                     "start": 81,
                     "end": 83
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 66,
                 "end": 83
             },
@@ -347,15 +347,14 @@ for ({}[y] ^= x;;) x;
 
 ```javascript
 
-for ([].w ^= s;;)
+for ([].w ^= s; ; )
   x;
-for ([][y] <<= p;;)
+for ([][y] <<= p; ; )
   x;
-for ([].u |= c;;)
+for ([].u |= c; ; )
   x;
-for ({}[y] ^= x;;)
+for ({}[y] ^= x; ; )
   x;
-
 ```
 
 ### Diagnostics

@@ -71,7 +71,7 @@ result = [ arrow = () => {} ] = vals;
                                             "kind": 342,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 20,
                                             "end": 20
                                         },
@@ -132,7 +132,7 @@ result = [ arrow = () => {} ] = vals;
                     "start": 8,
                     "end": 36
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 36
             },
@@ -154,8 +154,7 @@ result = [ arrow = () => {} ] = vals;
 
 ```javascript
 
-result = [arrow = () => {},] = vals;
-
+result = [arrow = () => {}] = vals;
 ```
 
 ### Diagnostics

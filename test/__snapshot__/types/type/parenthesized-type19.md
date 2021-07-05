@@ -122,8 +122,7 @@ type a = (a[-1]);
 
 ```javascript
 
-type a = (a[ -1])
-
+type a = (a[-1])
 ```
 
 ### Diagnostics

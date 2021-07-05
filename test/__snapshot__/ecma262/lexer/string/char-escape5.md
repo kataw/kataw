@@ -43,8 +43,7 @@
 
 ```javascript
 
-'"@{x200}@"';
-
+"\"@{x200}@\"";
 ```
 
 ### Diagnostics

@@ -133,11 +133,10 @@ class x {foo(){ return }}
 ```javascript
 
 class x {
-  foo() {
+  foo(){
     return;
   }
 }
-
 ```
 
 ### Diagnostics

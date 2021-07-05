@@ -344,7 +344,7 @@ g = b + -+-a++;
                     "start": 37,
                     "end": 57
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 33,
                 "end": 57
             },
@@ -402,8 +402,8 @@ g = b + -+-a++;
                             "start": 64,
                             "end": 69
                         },
-                        "flags": 32,
-                        "start": 62,
+                        "flags": 62,
+                        "start": 32,
                         "end": 75
                     },
                     "operatorToken": {
@@ -440,11 +440,11 @@ g = b + -+-a++;
                         "start": 79,
                         "end": 83
                     },
-                    "flags": 32,
+                    "flags": 62,
                     "start": 62,
                     "end": 83
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 58,
                 "end": 83
             },
@@ -502,8 +502,8 @@ g = b + -+-a++;
                             "start": 90,
                             "end": 95
                         },
-                        "flags": 32,
-                        "start": 88,
+                        "flags": 88,
+                        "start": 32,
                         "end": 96
                     },
                     "operatorToken": {
@@ -542,15 +542,15 @@ g = b + -+-a++;
                             "start": 100,
                             "end": 105
                         },
-                        "flags": 32,
-                        "start": 98,
+                        "flags": 98,
+                        "start": 32,
                         "end": 106
                     },
-                    "flags": 32,
+                    "flags": 120,
                     "start": 88,
                     "end": 106
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 84,
                 "end": 106
             },
@@ -624,7 +624,7 @@ g = b + -+-a++;
                     "start": 111,
                     "end": 131
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 107,
                 "end": 131
             },
@@ -682,8 +682,8 @@ g = b + -+-a++;
                             "start": 136,
                             "end": 143
                         },
-                        "flags": 32,
-                        "start": 136,
+                        "flags": 136,
+                        "start": 32,
                         "end": 144
                     },
                     "operatorToken": {
@@ -700,11 +700,11 @@ g = b + -+-a++;
                         "start": 146,
                         "end": 148
                     },
-                    "flags": 32,
+                    "flags": 168,
                     "start": 136,
                     "end": 148
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 132,
                 "end": 148
             },
@@ -778,8 +778,8 @@ g = b + -+-a++;
                                 "start": 161,
                                 "end": 166
                             },
-                            "flags": 32,
-                            "start": 159,
+                            "flags": 159,
+                            "start": 32,
                             "end": 167
                         },
                         "flags": 96,
@@ -804,7 +804,7 @@ g = b + -+-a++;
                     "start": 153,
                     "end": 178
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 149,
                 "end": 178
             },
@@ -878,8 +878,8 @@ g = b + -+-a++;
                                 "start": 191,
                                 "end": 196
                             },
-                            "flags": 32,
-                            "start": 189,
+                            "flags": 189,
+                            "start": 32,
                             "end": 197
                         },
                         "flags": 96,
@@ -904,7 +904,7 @@ g = b + -+-a++;
                     "start": 183,
                     "end": 203
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 179,
                 "end": 203
             },
@@ -972,7 +972,7 @@ g = b + -+-a++;
                     "start": 208,
                     "end": 240
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 204,
                 "end": 240
             },
@@ -1066,7 +1066,7 @@ g = b + -+-a++;
                     "start": 245,
                     "end": 262
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 241,
                 "end": 262
             },
@@ -1160,7 +1160,7 @@ g = b + -+-a++;
                     "start": 267,
                     "end": 300
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 263,
                 "end": 300
             },
@@ -1254,7 +1254,7 @@ g = b + -+-a++;
                     "start": 305,
                     "end": 322
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 301,
                 "end": 322
             },
@@ -1298,7 +1298,7 @@ g = b + -+-a++;
                     "start": 327,
                     "end": 334
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 323,
                 "end": 334
             },
@@ -1364,7 +1364,7 @@ g = b + -+-a++;
                     "start": 344,
                     "end": 365
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 335,
                 "end": 365
             },
@@ -1428,15 +1428,15 @@ g = b + -+-a++;
                             "start": 372,
                             "end": 398
                         },
-                        "flags": 32,
-                        "start": 372,
+                        "flags": 372,
+                        "start": 32,
                         "end": 399
                     },
                     "flags": 32,
                     "start": 370,
                     "end": 399
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 366,
                 "end": 399
             },
@@ -1502,7 +1502,7 @@ g = b + -+-a++;
                     "start": 404,
                     "end": 427
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 400,
                 "end": 427
             },
@@ -1580,7 +1580,7 @@ g = b + -+-a++;
                     "start": 432,
                     "end": 456
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 428,
                 "end": 456
             },
@@ -1656,15 +1656,15 @@ g = b + -+-a++;
                             "start": 464,
                             "end": 486
                         },
-                        "flags": 32,
-                        "start": 463,
+                        "flags": 463,
+                        "start": 32,
                         "end": 487
                     },
                     "flags": 32,
                     "start": 461,
                     "end": 487
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 457,
                 "end": 487
             },
@@ -1708,7 +1708,7 @@ g = b + -+-a++;
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 502,
                                 "end": 502
                             },
@@ -1737,15 +1737,15 @@ g = b + -+-a++;
                             "start": 501,
                             "end": 521
                         },
-                        "flags": 32,
-                        "start": 499,
+                        "flags": 499,
+                        "start": 32,
                         "end": 522
                     },
                     "flags": 32,
                     "start": 492,
                     "end": 522
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 488,
                 "end": 522
             },
@@ -1785,8 +1785,8 @@ g = b + -+-a++;
                                 "start": 529,
                                 "end": 532
                             },
-                            "flags": 32,
-                            "start": 527,
+                            "flags": 527,
+                            "start": 32,
                             "end": 533
                         },
                         "expression": {
@@ -1797,7 +1797,7 @@ g = b + -+-a++;
                             "start": 534,
                             "end": 542
                         },
-                        "flags": 32,
+                        "flags": 559,
                         "start": 527,
                         "end": 542
                     },
@@ -1813,7 +1813,7 @@ g = b + -+-a++;
                     "start": 527,
                     "end": 544
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 523,
                 "end": 544
             },
@@ -1895,7 +1895,7 @@ g = b + -+-a++;
                     "start": 549,
                     "end": 580
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 545,
                 "end": 580
             },
@@ -1998,7 +1998,7 @@ g = b + -+-a++;
                     "start": 585,
                     "end": 606
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 581,
                 "end": 606
             },
@@ -2101,7 +2101,7 @@ g = b + -+-a++;
                     "start": 611,
                     "end": 631
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 607,
                 "end": 631
             },
@@ -2145,8 +2145,8 @@ g = b + -+-a++;
                                         "start": 642,
                                         "end": 649
                                     },
-                                    "flags": 32,
-                                    "start": 640,
+                                    "flags": 640,
+                                    "start": 32,
                                     "end": 650
                                 },
                                 "expression": {
@@ -2157,7 +2157,7 @@ g = b + -+-a++;
                                     "start": 651,
                                     "end": 655
                                 },
-                                "flags": 32,
+                                "flags": 672,
                                 "start": 640,
                                 "end": 655
                             },
@@ -2261,7 +2261,7 @@ g = b + -+-a++;
                     "start": 667,
                     "end": 684
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 663,
                 "end": 684
             },
@@ -2319,8 +2319,8 @@ g = b + -+-a++;
                             "start": 689,
                             "end": 697
                         },
-                        "flags": 32,
-                        "start": 689,
+                        "flags": 689,
+                        "start": 32,
                         "end": 698
                     },
                     "operatorToken": {
@@ -2337,11 +2337,11 @@ g = b + -+-a++;
                         "start": 701,
                         "end": 703
                     },
-                    "flags": 32,
+                    "flags": 689,
                     "start": 689,
                     "end": 703
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 685,
                 "end": 703
             },
@@ -2415,7 +2415,7 @@ g = b + -+-a++;
                     "start": 708,
                     "end": 720
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 704,
                 "end": 720
             },
@@ -2465,8 +2465,8 @@ g = b + -+-a++;
                             "start": 727,
                             "end": 729
                         },
-                        "flags": 32,
-                        "start": 725,
+                        "flags": 725,
+                        "start": 32,
                         "end": 730
                     },
                     "operatorToken": {
@@ -2483,11 +2483,11 @@ g = b + -+-a++;
                         "start": 733,
                         "end": 735
                     },
-                    "flags": 32,
+                    "flags": 757,
                     "start": 725,
                     "end": 735
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 721,
                 "end": 735
             },
@@ -2553,7 +2553,7 @@ g = b + -+-a++;
                     "start": 740,
                     "end": 748
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 736,
                 "end": 748
             },
@@ -2625,15 +2625,15 @@ g = b + -+-a++;
                             "start": 757,
                             "end": 764
                         },
-                        "flags": 32,
-                        "start": 757,
+                        "flags": 757,
+                        "start": 34,
                         "end": 765
                     },
                     "flags": 96,
                     "start": 753,
                     "end": 765
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 749,
                 "end": 765
             },
@@ -2685,7 +2685,7 @@ g = b + -+-a++;
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 778,
                                 "end": 778
                             },
@@ -2714,15 +2714,15 @@ g = b + -+-a++;
                             "start": 777,
                             "end": 785
                         },
-                        "flags": 32,
-                        "start": 775,
+                        "flags": 775,
+                        "start": 32,
                         "end": 786
                     },
                     "flags": 96,
                     "start": 770,
                     "end": 786
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 766,
                 "end": 786
             },
@@ -2760,7 +2760,7 @@ g = b + -+-a++;
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 794,
                                 "end": 794
                             },
@@ -2789,8 +2789,8 @@ g = b + -+-a++;
                             "start": 793,
                             "end": 801
                         },
-                        "flags": 32,
-                        "start": 791,
+                        "flags": 791,
+                        "start": 32,
                         "end": 802
                     },
                     "operatorToken": {
@@ -2807,11 +2807,11 @@ g = b + -+-a++;
                         "start": 805,
                         "end": 807
                     },
-                    "flags": 32,
+                    "flags": 823,
                     "start": 791,
                     "end": 807
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 787,
                 "end": 807
             },
@@ -2887,11 +2887,11 @@ g = b + -+-a++;
                         "start": 812,
                         "end": 833
                     },
-                    "flags": 32,
-                    "start": 812,
+                    "flags": 812,
+                    "start": 32,
                     "end": 834
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 808,
                 "end": 834
             },
@@ -2976,8 +2976,8 @@ g = b + -+-a++;
                                             "start": 848,
                                             "end": 853
                                         },
-                                        "flags": 32,
-                                        "start": 847,
+                                        "flags": 847,
+                                        "start": 32,
                                         "end": 854
                                     },
                                     "flags": 32,
@@ -2993,11 +2993,11 @@ g = b + -+-a++;
                         "start": 839,
                         "end": 854
                     },
-                    "flags": 32,
-                    "start": 839,
+                    "flags": 839,
+                    "start": 32,
                     "end": 855
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 835,
                 "end": 855
             },
@@ -3055,7 +3055,7 @@ g = b + -+-a++;
                     "start": 860,
                     "end": 872
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 856,
                 "end": 872
             },
@@ -3125,7 +3125,7 @@ g = b + -+-a++;
                     "start": 877,
                     "end": 885
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 873,
                 "end": 885
             },
@@ -3195,7 +3195,7 @@ g = b + -+-a++;
                     "start": 890,
                     "end": 898
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 886,
                 "end": 898
             },
@@ -3253,7 +3253,7 @@ g = b + -+-a++;
                     "start": 909,
                     "end": 913
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 899,
                 "end": 913
             },
@@ -3347,7 +3347,7 @@ g = b + -+-a++;
                     "start": 918,
                     "end": 925
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 914,
                 "end": 925
             },
@@ -3429,7 +3429,7 @@ g = b + -+-a++;
                     "start": 930,
                     "end": 937
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 926,
                 "end": 937
             },
@@ -3531,7 +3531,7 @@ g = b + -+-a++;
                     "start": 942,
                     "end": 953
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 938,
                 "end": 953
             },
@@ -3723,8 +3723,8 @@ g = b + -+-a++;
                                                 "start": 1026,
                                                 "end": 1039
                                             },
-                                            "flags": 32,
-                                            "start": 1026,
+                                            "flags": 1026,
+                                            "start": 34,
                                             "end": 1040
                                         },
                                         "flags": 32,
@@ -3775,8 +3775,8 @@ g = b + -+-a++;
                                                 "start": 1045,
                                                 "end": 1060
                                             },
-                                            "flags": 32,
-                                            "start": 1041,
+                                            "flags": 1041,
+                                            "start": 33,
                                             "end": 1061
                                         },
                                         "expression": {
@@ -3787,7 +3787,7 @@ g = b + -+-a++;
                                             "start": 1062,
                                             "end": 1063
                                         },
-                                        "flags": 32,
+                                        "flags": 1073,
                                         "start": 1041,
                                         "end": 1063
                                     },
@@ -3953,8 +3953,8 @@ g = b + -+-a++;
                                                 "start": 1121,
                                                 "end": 1128
                                             },
-                                            "flags": 32,
-                                            "start": 1117,
+                                            "flags": 1117,
+                                            "start": 33,
                                             "end": 1129
                                         },
                                         "operatorToken": {
@@ -3987,11 +3987,11 @@ g = b + -+-a++;
                                                 "start": 1139,
                                                 "end": 1146
                                             },
-                                            "flags": 32,
-                                            "start": 1131,
+                                            "flags": 1131,
+                                            "start": 32,
                                             "end": 1147
                                         },
-                                        "flags": 32,
+                                        "flags": 1149,
                                         "start": 1117,
                                         "end": 1147
                                     },
@@ -4035,7 +4035,7 @@ g = b + -+-a++;
                                                 "start": 1160,
                                                 "end": 1162
                                             },
-                                            "flags": 32,
+                                            "flags": 0,
                                             "start": 1156,
                                             "end": 1162
                                         },
@@ -4118,8 +4118,8 @@ g = b + -+-a++;
                     "start": 956,
                     "end": 1186
                 },
-                "flags": 32,
-                "start": 954,
+                "flags": 954,
+                "start": 33,
                 "end": 1187
             },
             "flags": 16,
@@ -4195,8 +4195,8 @@ g = b + -+-a++;
                                                 "start": 1209,
                                                 "end": 1216
                                             },
-                                            "flags": 32,
-                                            "start": 1208,
+                                            "flags": 1208,
+                                            "start": 32,
                                             "end": 1217
                                         },
                                         "flags": 32,
@@ -4221,8 +4221,8 @@ g = b + -+-a++;
                     "start": 1190,
                     "end": 1220
                 },
-                "flags": 32,
-                "start": 1188,
+                "flags": 1188,
+                "start": 33,
                 "end": 1221
             },
             "flags": 16,
@@ -4249,7 +4249,7 @@ g = b + -+-a++;
                             "kind": 342,
                             "parameters": [],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 1232,
                             "end": 1232
                         },
@@ -4278,8 +4278,8 @@ g = b + -+-a++;
                         "start": 1231,
                         "end": 1239
                     },
-                    "flags": 32,
-                    "start": 1230,
+                    "flags": 1230,
+                    "start": 32,
                     "end": 1240
                 },
                 "flags": 32,
@@ -4304,7 +4304,7 @@ g = b + -+-a++;
                             "kind": 342,
                             "parameters": [],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 1244,
                             "end": 1244
                         },
@@ -4333,8 +4333,8 @@ g = b + -+-a++;
                         "start": 1243,
                         "end": 1251
                     },
-                    "flags": 32,
-                    "start": 1241,
+                    "flags": 1241,
+                    "start": 33,
                     "end": 1252
                 },
                 "questionToken": {
@@ -4365,7 +4365,7 @@ g = b + -+-a++;
                     "start": 1258,
                     "end": 1260
                 },
-                "flags": 32,
+                "flags": 1273,
                 "start": 1241,
                 "end": 1260
             },
@@ -4393,8 +4393,8 @@ g = b + -+-a++;
                         "start": 1263,
                         "end": 1265
                     },
-                    "flags": 32,
-                    "start": 1261,
+                    "flags": 1261,
+                    "start": 35,
                     "end": 1266
                 },
                 "questionToken": {
@@ -4425,7 +4425,7 @@ g = b + -+-a++;
                     "start": 1284,
                     "end": 1292
                 },
-                "flags": 32,
+                "flags": 1261,
                 "start": 1261,
                 "end": 1292
             },
@@ -4457,8 +4457,8 @@ g = b + -+-a++;
                                 "start": 1296,
                                 "end": 1298
                             },
-                            "flags": 32,
-                            "start": 1295,
+                            "flags": 1295,
+                            "start": 34,
                             "end": 1299
                         },
                         "questionToken": {
@@ -4489,12 +4489,12 @@ g = b + -+-a++;
                             "start": 1305,
                             "end": 1307
                         },
-                        "flags": 32,
+                        "flags": 1327,
                         "start": 1295,
                         "end": 1307
                     },
-                    "flags": 32,
-                    "start": 1293,
+                    "flags": 1293,
+                    "start": 33,
                     "end": 1308
                 },
                 "questionToken": {
@@ -4525,7 +4525,7 @@ g = b + -+-a++;
                     "start": 1314,
                     "end": 1316
                 },
-                "flags": 32,
+                "flags": 1325,
                 "start": 1293,
                 "end": 1316
             },
@@ -4578,8 +4578,8 @@ g = b + -+-a++;
                         "start": 1319,
                         "end": 1345
                     },
-                    "flags": 32,
-                    "start": 1317,
+                    "flags": 1317,
+                    "start": 33,
                     "end": 1346
                 },
                 "questionToken": {
@@ -4610,7 +4610,7 @@ g = b + -+-a++;
                     "start": 1352,
                     "end": 1354
                 },
-                "flags": 32,
+                "flags": 1317,
                 "start": 1317,
                 "end": 1354
             },
@@ -4653,8 +4653,8 @@ g = b + -+-a++;
                         "start": 1357,
                         "end": 1365
                     },
-                    "flags": 32,
-                    "start": 1355,
+                    "flags": 1355,
+                    "start": 33,
                     "end": 1366
                 },
                 "questionToken": {
@@ -4685,7 +4685,7 @@ g = b + -+-a++;
                     "start": 1372,
                     "end": 1380
                 },
-                "flags": 32,
+                "flags": 1387,
                 "start": 1355,
                 "end": 1380
             },
@@ -4708,70 +4708,67 @@ g = b + -+-a++;
 ```javascript
 
 var a, b, c, d, e, f, g, x, y, z;
-a = 1 + 2/*1*/ * 3 / 5;
-b = (1 + 2/*2*/) * 3 / 5;
-c = (1 + 2) * (3 - 5);
-d = x | y/*3*/ ^/*4*/ z;
-e = (x | y) ^ z;
-f = '"a"' + (1 + 2) +/*5*/ '"b"';
-g = '"a"' + (1 - 2) + '"b"';
-a = true/*6*/ ||/*7*/ false && null;
-b = c == d || e != f;
-c = x instanceof y || x instanceof z;
-d = x == y && y != z;
-a = !false;/*8*/
-b = !x instanceof Number;
-c = !(x instanceof/*9*/ Number);
-d = typeof a === '\'boolean\'';
-e = !typeof a === '\'boolean\'';
-f = !(typeof a === '\'boolean\'');
-f = typeof ((/*10*/) => {/*11*/});
+a = 1 +  2 *  3 /  5;
+b = (1 +  2) *  3 /  5;
+c = (1 +  2) *  (3 -  5);
+d = x |  y ^  z;
+e = (x |  y) ^  z;
+f = "\"a\"" +  (1 +  2) +  "\"b\"";
+g = "\"a\"" +  (1 -  2) +  "\"b\"";
+a = true  ||  false  &&  null ;
+b = c ==  d ||  e !=  f;
+c = x instanceof  y ||  x instanceof  z;
+d = x ==  y &&  y !=  z;
+a = !false ;
+b = !x instanceof  Number;
+c = !(x instanceof  Number);
+d = typeof a ===  '\'boolean\'';
+e = !typeof a ===  '\'boolean\'';
+f = !(typeof a ===  '\'boolean\'');
+f = typeof (() => {});
 a = (1.1).toString();
-b = new A/*12*/(/*13*/).toString();
+b = new A().toString();
 c = new x.A().toString();
-d = new x.y().z(/*14*/);
+d = new x.y().z();
 var r = (/ab+c/i).exec('\'abc\'');
-a = b ** 2 */*15*/ 3;
-c = (d ** 2) ** 3;
-e = f ** 2 ** 3;
-e = (+2) ** 3;
-e = 2 ** +3;
-f = a + (b = 3);
-g = 1 && (() => {});
-g = (() => {}) && 1;
-g = (1, /*16*/+/*17*/ +2);
-g = (1, + +(2 + 3));
-a = -/*18*/ --i;
-b = - - --i;
-c = + + ++j;/*19*/
+a = b **  2 *  3;
+c = (d **  2) **  3;
+e = f **  2 **  3;
+e = (+2) **  3;
+e = 2 **  +3;
+f = a +  (b = 3);
+g = 1 &&  (() => {});
+g = (() => {}) &&  1;
+g = (1, + +2);
+g = (1, + +(2 +  3));
+a = - -- i;
+b = - - -- i;
+c = + + ++ j;
 d = !!a;
 e = !+-+!a;
-f = -+-a++;
-g = b + -+-a++;
-(async function * () {/*20*/
-  await a + b;
-  await a + await b;
-  await (a =/*21*/ b);
-  (await f(/*22*/)).a;
-  await f(/*23*/).a;
-  yield  1;/*24*/
-  yield  1 + 2;
-  (yield  1) +/*25*/ (yield  2);
-  yield  a = b;
-  const c = yield  3;
-});
+f = -+-a++ ;
+g = b +  -+-a++ ;
+(async function * () {
+    await a +  b;
+    await a +  await b;
+    await (a = b);
+    (await f()).a;
+    await f().a;
+    yield 1;
+    yield 1 +  2;
+    (yield 1) +  (yield 2);
+    yield a = b;
+    const c = yield 3;
+  });
 (function * () {
-  !(yield  1);
-});/*27*/
+    !(yield 1);
+  });
 !(() => {});
 (() => {}) ? a : b;
-({}) ?/*28*/ a/*29*/ :/*30*/ b;
+({}) ? a : b;
 (({}) ? a : b) ? c : d;
-(function () {/*32*/}) ? a : b;
-(class  {
-}) ? a :/*32*/ b;/*33*/
- /*34*/
-
+(function () {}) ? a : b;
+(class  {}) ? a : b;
 ```
 
 ### Diagnostics

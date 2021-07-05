@@ -43,7 +43,7 @@ export default () => x
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 16,
                     "end": 16
                 },
@@ -84,8 +84,7 @@ export default () => x
 
 ```javascript
 
-export default () => x;
-
+export default () =>  x;
 ```
 
 ### Diagnostics

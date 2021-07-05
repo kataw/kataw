@@ -76,7 +76,6 @@ class A {;}
 class A {
   ;
 }
-
 ```
 
 ### Diagnostics

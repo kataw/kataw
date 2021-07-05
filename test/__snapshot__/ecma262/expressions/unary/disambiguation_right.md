@@ -89,8 +89,7 @@ x + + y.x
 
 ```javascript
 
-x + +y.x;
-
+x +  +y.x;
 ```
 
 ### Diagnostics

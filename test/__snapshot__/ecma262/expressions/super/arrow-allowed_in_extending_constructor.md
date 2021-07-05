@@ -111,7 +111,7 @@ class x extends y { constructor(){ return () => super[bar]; }}
                                                         "kind": 342,
                                                         "parameters": [],
                                                         "trailingComma": false,
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 43,
                                                         "end": 43
                                                     },
@@ -194,12 +194,11 @@ class x extends y { constructor(){ return () => super[bar]; }}
 
 ```javascript
 
-class x extends y {
-  constructor() {
-    return () => super[bar];
+class x  extends y {
+  constructor(){
+    return () =>  super [bar];
   }
 }
-
 ```
 
 ### Diagnostics

@@ -98,7 +98,6 @@ async function f(){ return; }
 async function f() {
   return;
 }
-
 ```
 
 ### Diagnostics

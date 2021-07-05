@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_generator
+- From: kataw/test/__snapshot__/ecma262/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/yield/gen/function_generator
 > :: test: function generator
 > :: case: x = class extends (a ? null : yield) { }
 ## Options
@@ -177,8 +176,8 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                                                                     "start": 57,
                                                                     "end": 75
                                                                 },
-                                                                "flags": 32,
-                                                                "start": 57,
+                                                                "flags": 57,
+                                                                "start": 32,
                                                                 "end": 76
                                                             },
                                                             "typeParameter": null,
@@ -201,7 +200,7 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
                                                     "start": 43,
                                                     "end": 80
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 39,
                                                 "end": 80
                                             },
@@ -253,11 +252,9 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
 
 function * gen() {
   function not_gen() {
-    x = class  extends (a ? null : yield) {
-    };
+    x = class   extends (a ? null  : yield) {};
   }
 }
-
 ```
 
 ### Diagnostics

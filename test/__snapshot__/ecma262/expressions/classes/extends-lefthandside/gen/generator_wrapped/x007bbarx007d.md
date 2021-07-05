@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/generator_wrapped
+- From: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/gen/generator_wrapped
 > :: test: generator wrapped
 > :: case: {bar}
 ## Options
@@ -165,10 +164,8 @@ function *P(){
 ```javascript
 
 function * P() {
-  class D extends { bar } {
-  }
+  class D  extends {bar} {}
 }
-
 ```
 
 ### Diagnostics

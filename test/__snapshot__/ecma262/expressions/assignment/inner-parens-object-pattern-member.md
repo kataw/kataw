@@ -72,8 +72,8 @@
                                                     "start": 5,
                                                     "end": 14
                                                 },
-                                                "flags": 32,
-                                                "start": 5,
+                                                "flags": 5,
+                                                "start": 32,
                                                 "end": 15
                                             },
                                             "initializer": null,
@@ -113,7 +113,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
                     "start": 1,
                     "end": 23
                 },
@@ -160,10 +160,7 @@
 
 ```javascript
 
-({
-    a: (foo.qux)
-  } = {}) => {};
-
+({a: (foo.qux)} = {}) => {};
 ```
 
 ### Diagnostics

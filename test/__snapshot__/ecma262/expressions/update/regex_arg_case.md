@@ -68,8 +68,7 @@
 
 ```javascript
 
---/b/.c;
-
+-- /b/.c;
 ```
 
 ### Diagnostics

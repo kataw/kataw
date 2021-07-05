@@ -270,7 +270,7 @@ function foo4() {
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 130,
                                 "end": 145
                             },
@@ -963,8 +963,8 @@ function foo4() {
                         "start": 536,
                         "end": 559
                     },
-                    "flags": 32,
-                    "start": 533,
+                    "flags": 533,
+                    "start": 33,
                     "end": 560
                 },
                 "argumentList": {
@@ -1035,8 +1035,8 @@ function foo4() {
                         "start": 565,
                         "end": 591
                     },
-                    "flags": 32,
-                    "start": 563,
+                    "flags": 563,
+                    "start": 33,
                     "end": 592
                 },
                 "argumentList": {
@@ -1107,8 +1107,8 @@ function foo4() {
                         "start": 597,
                         "end": 627
                     },
-                    "flags": 32,
-                    "start": 595,
+                    "flags": 595,
+                    "start": 33,
                     "end": 628
                 },
                 "argumentList": {
@@ -1179,8 +1179,8 @@ function foo4() {
                         "start": 633,
                         "end": 680
                     },
-                    "flags": 32,
-                    "start": 631,
+                    "flags": 631,
+                    "start": 33,
                     "end": 681
                 },
                 "argumentList": {
@@ -1841,56 +1841,53 @@ function foo4() {
 
 ```javascript
 
-function a(/* comment */) {}// comment
-function b() {}// comment
-function c(/* comment */argA, argB, argC) {}// comment
-call((/*object*/row) => {});
-function f1/* f */() {}
-function f2(/* args */) {}
+function a() {}
+function b() {}
+function c(argA, argB, argC) {}
+call(
+  (row) => {}
+);
+function f1() {}
+function f2() {}
 function f3() {}
-function f4/* f */(/* args */) {}
-function f5/* f */(/* a */a) {}
-function f6/* f */(a/* a */) {}
-function f7/* f */(/* a */a) {}
+function f4() {}
+function f5(a) {}
+function f6(a) {}
+function f7(a) {}
 const obj = {
-  f1/* f */() {},
-  f2(/* args */) {},
-  f3() {},
-  f4/* f */(/* args */) {},
-};
-(function f/* f */() {})();
-(function f(/* args */) {})();
+    f1(){},
+    f2(){},
+    f3(){},
+    f4(){}
+  };
 (function f() {})();
-(function f/* f */(/* args */) {})();
+(function f() {})();
+(function f() {})();
+(function f() {})();
 class C1 {
-  f/* f */() {}
+  f(){}
 }
 class C2 {
-  f(/* args */) {}
+  f(){}
 }
 class C3 {
-  f() {}
+  f(){}
 }
 class C4 {
-  f/* f */(/* args */) {}
+  f(){}
 }
-function foo1() 
- // this is a function
-{
+function foo1() {
   return 42;
-  // this is a function
 }
 function foo2() {
   return 42;
 }
-function foo3() {// this is a function
+function foo3() {
   return 42;
 }
 function foo4() {
-   // this is a function
   return 42;
 }
-
 ```
 
 ### Diagnostics

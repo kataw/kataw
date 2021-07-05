@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/import-call/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/import-call/gen/lexical
+- From: kataw/test/__snapshot__/ecma262/expressions/import-call/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/import-call/gen/lexical
 > :: test: lexical
 > :: case: x = import(x)
 ## Options
@@ -61,7 +60,7 @@ x = import(x)
                     "start": 10,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -84,7 +83,6 @@ x = import(x)
 ```javascript
 
 x = import(x);
-
 ```
 
 ### Diagnostics

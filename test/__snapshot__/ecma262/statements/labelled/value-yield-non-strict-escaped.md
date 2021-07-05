@@ -69,8 +69,7 @@ yi\u0065ld: 1;
 
 ```javascript
 
-yi\u0065ld: 1;
-
+yi\u0065ld:  1;
 ```
 
 ### Diagnostics

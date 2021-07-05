@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/gen/parenthized_arrow
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/positive-cases/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/positive-cases/gen/parenthized_arrow
 > :: test: parenthized arrow
 > :: case: {arguments: x, ...z}
 ## Options
@@ -116,7 +115,7 @@ var f = ({arguments: x, ...z}) => {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
                                 "start": 9,
                                 "end": 30
                             },
@@ -172,11 +171,7 @@ var f = ({arguments: x, ...z}) => {};
 
 ```javascript
 
-var f = ({
-    arguments: x,
-    ...z
-  }) => {};
-
+var f = ({arguments: x, ...z}) => {};
 ```
 
 ### Diagnostics

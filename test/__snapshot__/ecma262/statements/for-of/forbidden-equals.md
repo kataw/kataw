@@ -62,7 +62,7 @@ for (async of = x);
                     "start": 15,
                     "end": 17
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 13,
                 "end": 17
             },

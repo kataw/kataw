@@ -89,7 +89,6 @@ x => {return}
 x => {
   return;
 };
-
 ```
 
 ### Diagnostics

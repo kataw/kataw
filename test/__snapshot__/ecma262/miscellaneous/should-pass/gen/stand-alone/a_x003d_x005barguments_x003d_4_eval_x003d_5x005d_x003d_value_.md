@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/gen/stand-alone
 > :: test: stand-alone
 > :: case: a = [arguments = 4, eval = 5] = value;
 ## Options
@@ -132,7 +131,7 @@ a = [arguments = 4, eval = 5] = value;
                     "start": 3,
                     "end": 37
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 37
             },
@@ -154,8 +153,7 @@ a = [arguments = 4, eval = 5] = value;
 
 ```javascript
 
-a = [arguments = 4, eval = 5,] = value;
-
+a = [arguments = 4, eval = 5] = value;
 ```
 
 ### Diagnostics

@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/with_strict_directive
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/gen/with_strict_directive
 > :: test: with strict directive
 > :: case: async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 5}) {}
 ## Options
@@ -373,7 +372,7 @@
                         "start": 23,
                         "end": 100
                     },
-                    "flags": 32,
+                    "flags": 0,
                     "start": 21,
                     "end": 100
                 },

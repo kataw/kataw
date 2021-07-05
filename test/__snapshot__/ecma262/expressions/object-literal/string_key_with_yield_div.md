@@ -123,7 +123,7 @@ function *f(){   s = {"foo": yield / x}   }
                                     "start": 20,
                                     "end": 43
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 14,
                                 "end": 43
                             },

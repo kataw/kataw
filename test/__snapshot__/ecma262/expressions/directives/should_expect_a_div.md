@@ -84,8 +84,7 @@
 
 ```javascript
 
-'"ignore me"' / x / g;
-
+"\"ignore me\"" /  x /  g;
 ```
 
 ### Diagnostics

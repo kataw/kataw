@@ -268,15 +268,14 @@ function * foo2() {
 ### Printed
 
 ```javascript
-// @target: es6
-function * foo2() {
-   /*comment1*/yield  1;
-  yield/*comment2*/  2;
-  yield  3;/*comment3*/
-  yield */*comment4*/  [4,];
-  yield/*comment5*/ *  [5,];
-}
 
+function * foo2() {
+  yield 1;
+  yield 2;
+  yield 3;
+  yield * [4];
+  yield * [5];
+}
 ```
 
 ### Diagnostics

@@ -96,7 +96,7 @@ x= { prototype(){} }
                     "start": 2,
                     "end": 20
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 20
             },
@@ -118,8 +118,7 @@ x= { prototype(){} }
 
 ```javascript
 
-x = { prototype() {} };
-
+x = {prototype(){}};
 ```
 
 ### Diagnostics

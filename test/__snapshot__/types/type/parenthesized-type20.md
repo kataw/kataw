@@ -118,8 +118,7 @@ type a = ([-1])
 
 ```javascript
 
-type a = ([[-1]])
-
+type a = ([-1])
 ```
 
 ### Diagnostics

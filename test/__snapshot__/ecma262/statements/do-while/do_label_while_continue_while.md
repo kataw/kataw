@@ -85,7 +85,7 @@ do wow: while (x) continue wow; while (x)
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
                 "start": 31,
                 "end": 37
             },
@@ -115,10 +115,8 @@ do wow: while (x) continue wow; while (x)
 
 ```javascript
 
-do
-  wow: while (x)
-    continue wow; while (x)
-
+do  wow:  while (x) continue  wow;
+while (x);
 ```
 
 ### Diagnostics

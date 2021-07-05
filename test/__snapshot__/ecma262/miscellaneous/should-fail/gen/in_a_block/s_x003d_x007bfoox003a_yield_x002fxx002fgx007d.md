@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/in_a_block
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/gen/in_a_block
 > :: test: in a block
 > :: case: s = {foo: yield /x/g}
 ## Options
@@ -124,7 +123,7 @@
                                 "start": 5,
                                 "end": 23
                             },
-                            "flags": 32,
+                            "flags": 0,
                             "start": 1,
                             "end": 23
                         },
@@ -156,9 +155,8 @@
 ```javascript
 
 {
-  s = { foo : yield / x / g };
+  s = {foo: yield /  x /  g};
 }
-
 ```
 
 ### Diagnostics

@@ -42,7 +42,7 @@ delete (foo)=>bar
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 8,
                         "end": 12
                     },
@@ -87,8 +87,7 @@ delete (foo)=>bar
 
 ```javascript
 
-delete (foo) => bar;
-
+delete (foo) =>  bar;
 ```
 
 ### Diagnostics

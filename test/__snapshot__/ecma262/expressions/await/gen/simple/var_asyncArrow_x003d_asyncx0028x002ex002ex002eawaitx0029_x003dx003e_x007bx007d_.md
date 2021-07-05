@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/simple
+- From: kataw/test/__snapshot__/ecma262/expressions/await/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/await/gen/simple
 > :: test: simple
 > :: case: var asyncArrow = async(...await) => {};
 ## Options
@@ -140,7 +139,6 @@ var asyncArrow = async(...await) => {};
 ```javascript
 
 var asyncArrow = async (...await) => {};
-
 ```
 
 ### Diagnostics

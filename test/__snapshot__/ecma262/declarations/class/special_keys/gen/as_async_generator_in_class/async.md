@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/class/special_keys/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/class/special_keys/gen/as_async_generator_in_class
+- From: kataw/test/__snapshot__/ecma262/declarations/class/special_keys/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/declarations/class/special_keys/gen/as_async_generator_in_class
 > :: test: as async generator in class
 > :: case: async
 ## Options

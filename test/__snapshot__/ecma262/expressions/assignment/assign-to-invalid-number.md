@@ -47,7 +47,7 @@ x = 0bxxxxxxxxx19;
                     "start": 3,
                     "end": 17
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 17
             },

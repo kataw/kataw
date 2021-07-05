@@ -450,31 +450,20 @@ while (/*1*/x/*2*/) {}
 ### Printed
 
 ```javascript
-/*1*/
-if/*1*/ (x) { }
- /*2*/if/*3*/ (x) { }
- /*2*/if/*3*/ (/*4*/x/*5*/) { }
- /*2*/if/*3*/ (/*4*/x/*5*/) { }
-else/* 6*/ { }
-if (x)// aaa
- {
-}
-if (x)// aaa
- {
-}
-if (x)// aaa
- {
-}
-else/* 2*/ { }/* 3 */
-if 
- /* 1*/
-(x) {
-}
- // Hello!
-if (x) {
-  while (/*1*/x/*2*/) { }
-}
 
+if (x) {}
+if (x) {}
+if (x) {}
+if (x) {}
+else  {}
+if (x) {}
+if (x) {}
+if (x) {}
+else  {}
+if (x) {}
+if (x) {
+    while (x) {}
+  }
 ```
 
 ### Diagnostics

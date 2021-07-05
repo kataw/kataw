@@ -239,8 +239,8 @@ a ?? b ?? c ? d : e;
                         "start": 41,
                         "end": 50
                     },
-                    "flags": 32,
-                    "start": 41,
+                    "flags": 41,
+                    "start": 33,
                     "end": 51
                 },
                 "operatorToken": {
@@ -257,7 +257,7 @@ a ?? b ?? c ? d : e;
                     "start": 54,
                     "end": 56
                 },
-                "flags": 32,
+                "flags": 41,
                 "start": 41,
                 "end": 56
             },
@@ -591,16 +591,15 @@ a ?? b ?? c ? d : e;
 
 ```javascript
 
-a ?? b;
-a | b ?? c | d;
-a ?? b ? c : d;
-(a || b) ?? c;
-a ?? b ?? c;
-a ?? b ? c : d;
-a ?? b ?? c ? d : e;
-'"use strict"';
-a ?? b ?? c ? d : e;
-
+a ??  b;
+a |  b ??  c |  d;
+a ??  b ? c : d;
+(a ||  b) ??  c;
+a ??  b ??  c;
+a ??  b ? c : d;
+a ??  b ??  c ? d : e;
+"\"use strict\"";
+a ??  b ??  c ? d : e;
 ```
 
 ### Diagnostics

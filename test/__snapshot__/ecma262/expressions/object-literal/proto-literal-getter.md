@@ -108,8 +108,8 @@
                     "start": 1,
                     "end": 41
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 42
             },
             "flags": 16,
@@ -130,8 +130,7 @@
 
 ```javascript
 
-({ '"__proto__"' : null, get __proto__() {} });
-
+({"\"__proto__\"": null , get __proto__(){}});
 ```
 
 ### Diagnostics

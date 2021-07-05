@@ -58,8 +58,7 @@ for (;;) break
 ```javascript
 
 for (;;)
-  break;
-
+  break ;
 ```
 
 ### Diagnostics

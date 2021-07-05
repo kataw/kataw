@@ -125,7 +125,6 @@ type a = {x:y};
 ```javascript
 
 type a = { x: y }
-
 ```
 
 ### Diagnostics

@@ -128,11 +128,7 @@ for (let {x : y} of obj);
 
 ```javascript
 
-for (let {
-  x: y
-} of obj)
-  ;
-
+for (let {x: y} of obj);
 ```
 
 ### Diagnostics

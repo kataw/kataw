@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/gen/inside_a_generator_func
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/keyword_with_escapes_check/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/keyword_with_escapes_check/gen/inside_a_generator_func
 > :: test: inside a generator func
 > :: case: implem\u0065nts
 ## Options
@@ -90,7 +89,7 @@ function *f(){
                                     "start": 34,
                                     "end": 36
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 14,
                                 "end": 36
                             },
@@ -129,7 +128,6 @@ function *f(){
 function * f() {
   implem\u0065nts = x;
 }
-
 ```
 
 ### Diagnostics

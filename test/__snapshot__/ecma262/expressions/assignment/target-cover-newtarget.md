@@ -75,8 +75,8 @@ function f() {
                                         "start": 18,
                                         "end": 28
                                     },
-                                    "flags": 32,
-                                    "start": 14,
+                                    "flags": 14,
+                                    "start": 33,
                                     "end": 29
                                 },
                                 "operatorToken": {
@@ -93,7 +93,7 @@ function f() {
                                     "start": 31,
                                     "end": 33
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 14,
                                 "end": 33
                             },
@@ -132,7 +132,6 @@ function f() {
 function f() {
   (new.target) = 1;
 }
-
 ```
 
 ### Diagnostics

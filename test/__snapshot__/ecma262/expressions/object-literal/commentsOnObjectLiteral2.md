@@ -151,7 +151,7 @@ var Person = makeClass(
                                                                                 "start": 240,
                                                                                 "end": 245
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 0,
                                                                             "start": 217,
                                                                             "end": 245
                                                                         },
@@ -225,16 +225,10 @@ var Person = makeClass(
 ```javascript
 
 var Person = makeClass({
-   /**
-        This is just another way to define a constructor.
-        @constructs
-        @param {string} name The name of the person.
-        */
-  initialize : function (name) {
-    this.name = name;
-  }/* trailing comment 1*/,
-});
-
+      initialize: function (name) {
+        this .name = name;
+      }
+    });
 ```
 
 ### Diagnostics

@@ -57,7 +57,7 @@ async(a = (await) => {}) => {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 11,
                                 "end": 17
                             },
@@ -142,8 +142,6 @@ async(a = (await) => {}) => {};
 ```javascript
 
 async (a = (await) => {}) => {}
-;
-
 ```
 
 ### Diagnostics

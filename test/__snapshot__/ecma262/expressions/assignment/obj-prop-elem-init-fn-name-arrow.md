@@ -75,7 +75,7 @@ result = { x: arrow = () => {} } = {};
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 23,
                                                 "end": 23
                                             },
@@ -104,7 +104,7 @@ result = { x: arrow = () => {} } = {};
                                             "start": 21,
                                             "end": 30
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 10,
                                         "end": 30
                                     },
@@ -146,7 +146,7 @@ result = { x: arrow = () => {} } = {};
                     "start": 8,
                     "end": 37
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 37
             },
@@ -168,8 +168,7 @@ result = { x: arrow = () => {} } = {};
 
 ```javascript
 
-result = { x : arrow = () => {} } = {};
-
+result = {x: arrow = () => {}} = {};
 ```
 
 ### Diagnostics

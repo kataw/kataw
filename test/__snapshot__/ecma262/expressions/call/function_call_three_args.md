@@ -82,8 +82,11 @@ foo(a, b, c)
 
 ```javascript
 
-foo(a, b, c);
-
+foo(
+  a,
+  b,
+  c
+);
 ```
 
 ### Diagnostics

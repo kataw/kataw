@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/binary/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/binary/gen/dynamic_property
+- From: kataw/test/__snapshot__/ecma262/expressions/binary/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/binary/gen/dynamic_property
 > :: test: dynamic property
 > :: case: a instanceof b + c
 ## Options
@@ -105,8 +104,7 @@ foo[ a instanceof b + c ]
 
 ```javascript
 
-foo[a instanceof b + c];
-
+foo[a instanceof  b +  c];
 ```
 
 ### Diagnostics

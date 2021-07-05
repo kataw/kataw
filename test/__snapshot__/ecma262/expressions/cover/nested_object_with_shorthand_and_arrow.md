@@ -79,7 +79,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
                     "start": 1,
                     "end": 14
                 },
@@ -120,10 +120,7 @@
 
 ```javascript
 
-({
-    ident: { x }
-  }) => x;
-
+({ident: {x}}) =>  x;
 ```
 
 ### Diagnostics

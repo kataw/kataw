@@ -124,7 +124,7 @@ x={ dsda(){ return (a=super[bar]) => a; }}
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "flags": 2,
+                                                            "flags": 34,
                                                             "start": 20,
                                                             "end": 33
                                                         },
@@ -178,7 +178,7 @@ x={ dsda(){ return (a=super[bar]) => a; }}
                     "start": 2,
                     "end": 42
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 42
             },
@@ -200,10 +200,9 @@ x={ dsda(){ return (a=super[bar]) => a; }}
 
 ```javascript
 
-x = { dsda() {
-    return (a = super[bar]) => a;
-  } };
-
+x = {dsda(){
+    return (a = super [bar]) =>  a;
+  }};
 ```
 
 ### Diagnostics

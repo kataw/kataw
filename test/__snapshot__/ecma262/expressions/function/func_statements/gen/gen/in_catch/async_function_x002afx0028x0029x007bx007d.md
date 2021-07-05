@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/gen/in_catch
+- From: kataw/test/__snapshot__/ecma262/expressions/function/func_statements/gen/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/function/func_statements/gen/gen/in_catch
 > :: test: in catch
 > :: case: async function *f(){}
 ## Options
@@ -158,12 +157,9 @@ try {
 
 ```javascript
 
-try {
-}
-catch (e){
+try {} catch (e) {
   async function * f() {}
 }
-
 ```
 
 ### Diagnostics

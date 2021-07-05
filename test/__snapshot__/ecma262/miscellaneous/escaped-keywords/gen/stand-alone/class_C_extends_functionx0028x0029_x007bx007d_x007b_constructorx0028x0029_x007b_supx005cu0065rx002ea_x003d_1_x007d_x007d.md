@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/escaped-keywords/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/escaped-keywords/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/escaped-keywords/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/escaped-keywords/gen/stand-alone
 > :: test: stand-alone
 > :: case: class C extends function() {} { constructor() { sup\u0065r.a = 1 } }
 ## Options
@@ -172,7 +171,7 @@ class C extends function() {} { constructor() { sup\u0065r.a = 1 } }
                                                         "start": 62,
                                                         "end": 64
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 47,
                                                     "end": 64
                                                 },

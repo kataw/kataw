@@ -162,11 +162,9 @@ const bifornCringerMoshedPerplexSawder = // !!!
 
 ```javascript
 
-const kochabCooieGameOnOboleUnweave =// ???
- annularCooeedSplicesWalksWayWay;
-const bifornCringerMoshedPerplexSawder =// !!!
- glimseGlyphsHazardNoopsTieTie + averredBathersBoxroomBuggyNurl - anodyneCondosMalateOverateRetinol;
-
+const kochabCooieGameOnOboleUnweave = annularCooeedSplicesWalksWayWay;
+const bifornCringerMoshedPerplexSawder =
+    glimseGlyphsHazardNoopsTieTie +  averredBathersBoxroomBuggyNurl -  anodyneCondosMalateOverateRetinol;
 ```
 
 ### Diagnostics

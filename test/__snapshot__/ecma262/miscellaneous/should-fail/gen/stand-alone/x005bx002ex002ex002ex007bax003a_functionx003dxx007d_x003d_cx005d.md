@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/gen/stand-alone
 > :: test: stand-alone
 > :: case: [...{a: function=x} = c]
 ## Options
@@ -111,7 +110,7 @@
                                                         "start": 17,
                                                         "end": 18
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 5,
                                                     "end": 18
                                                 },

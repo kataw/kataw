@@ -108,8 +108,9 @@ foo(async function(){})
 
 ```javascript
 
-foo(async function () {});
-
+foo(
+  async function () {}
+);
 ```
 
 ### Diagnostics

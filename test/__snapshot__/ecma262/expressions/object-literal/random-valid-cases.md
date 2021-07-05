@@ -145,8 +145,8 @@ a = { y: x = 1 } = b;
                     "start": 1,
                     "end": 10
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 11
             },
             "flags": 16,
@@ -230,8 +230,8 @@ a = { y: x = 1 } = b;
                     "start": 14,
                     "end": 28
                 },
-                "flags": 32,
-                "start": 12,
+                "flags": 12,
+                "start": 35,
                 "end": 29
             },
             "flags": 16,
@@ -300,8 +300,8 @@ a = { y: x = 1 } = b;
                     "start": 32,
                     "end": 41
                 },
-                "flags": 32,
-                "start": 30,
+                "flags": 30,
+                "start": 35,
                 "end": 42
             },
             "flags": 16,
@@ -404,8 +404,8 @@ a = { y: x = 1 } = b;
                     "start": 45,
                     "end": 64
                 },
-                "flags": 32,
-                "start": 43,
+                "flags": 43,
+                "start": 35,
                 "end": 65
             },
             "flags": 16,
@@ -524,8 +524,8 @@ a = { y: x = 1 } = b;
                     "start": 68,
                     "end": 94
                 },
-                "flags": 32,
-                "start": 66,
+                "flags": 66,
+                "start": 35,
                 "end": 95
             },
             "flags": 16,
@@ -586,8 +586,8 @@ a = { y: x = 1 } = b;
                     "start": 98,
                     "end": 108
                 },
-                "flags": 32,
-                "start": 96,
+                "flags": 96,
+                "start": 35,
                 "end": 109
             },
             "flags": 16,
@@ -654,8 +654,8 @@ a = { y: x = 1 } = b;
                     "start": 112,
                     "end": 124
                 },
-                "flags": 32,
-                "start": 110,
+                "flags": 110,
+                "start": 35,
                 "end": 125
             },
             "flags": 16,
@@ -716,8 +716,8 @@ a = { y: x = 1 } = b;
                     "start": 128,
                     "end": 138
                 },
-                "flags": 32,
-                "start": 126,
+                "flags": 126,
+                "start": 35,
                 "end": 139
             },
             "flags": 16,
@@ -756,8 +756,8 @@ a = { y: x = 1 } = b;
                                             "start": 151,
                                             "end": 156
                                         },
-                                        "flags": 32,
-                                        "start": 149,
+                                        "flags": 149,
+                                        "start": 32,
                                         "end": 157
                                     },
                                     "questionToken": {
@@ -788,7 +788,7 @@ a = { y: x = 1 } = b;
                                         "start": 167,
                                         "end": 171
                                     },
-                                    "flags": 32,
+                                    "flags": 181,
                                     "start": 143,
                                     "end": 171
                                 },
@@ -806,8 +806,8 @@ a = { y: x = 1 } = b;
                     "start": 142,
                     "end": 172
                 },
-                "flags": 32,
-                "start": 140,
+                "flags": 140,
+                "start": 35,
                 "end": 173
             },
             "flags": 16,
@@ -886,8 +886,8 @@ a = { y: x = 1 } = b;
                     "start": 176,
                     "end": 191
                 },
-                "flags": 32,
-                "start": 174,
+                "flags": 174,
+                "start": 35,
                 "end": 192
             },
             "flags": 16,
@@ -938,7 +938,7 @@ a = { y: x = 1 } = b;
                                         "start": 206,
                                         "end": 208
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 196,
                                     "end": 208
                                 },
@@ -956,8 +956,8 @@ a = { y: x = 1 } = b;
                     "start": 195,
                     "end": 209
                 },
-                "flags": 32,
-                "start": 193,
+                "flags": 193,
+                "start": 35,
                 "end": 210
             },
             "flags": 16,
@@ -1048,8 +1048,8 @@ a = { y: x = 1 } = b;
                     "start": 213,
                     "end": 231
                 },
-                "flags": 32,
-                "start": 211,
+                "flags": 211,
+                "start": 35,
                 "end": 232
             },
             "flags": 16,
@@ -1146,8 +1146,8 @@ a = { y: x = 1 } = b;
                     "start": 235,
                     "end": 250
                 },
-                "flags": 32,
-                "start": 233,
+                "flags": 233,
+                "start": 35,
                 "end": 251
             },
             "flags": 16,
@@ -1279,8 +1279,8 @@ a = { y: x = 1 } = b;
                     "start": 254,
                     "end": 276
                 },
-                "flags": 32,
-                "start": 252,
+                "flags": 252,
+                "start": 35,
                 "end": 277
             },
             "flags": 16,
@@ -1349,8 +1349,8 @@ a = { y: x = 1 } = b;
                     "start": 281,
                     "end": 291
                 },
-                "flags": 32,
-                "start": 278,
+                "flags": 278,
+                "start": 35,
                 "end": 292
             },
             "flags": 16,
@@ -1421,7 +1421,7 @@ a = { y: x = 1 } = b;
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 295,
                     "end": 306
                 },
@@ -1440,7 +1440,7 @@ a = { y: x = 1 } = b;
                     "start": 309,
                     "end": 311
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 293,
                 "end": 311
             },
@@ -1520,8 +1520,8 @@ a = { y: x = 1 } = b;
                     "start": 314,
                     "end": 327
                 },
-                "flags": 32,
-                "start": 312,
+                "flags": 312,
+                "start": 35,
                 "end": 328
             },
             "flags": 16,
@@ -1726,8 +1726,8 @@ a = { y: x = 1 } = b;
                     "start": 357,
                     "end": 373
                 },
-                "flags": 32,
-                "start": 354,
+                "flags": 354,
+                "start": 35,
                 "end": 374
             },
             "flags": 16,
@@ -1792,7 +1792,7 @@ a = { y: x = 1 } = b;
                                         "start": 386,
                                         "end": 387
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 380,
                                     "end": 387
                                 },
@@ -1810,7 +1810,7 @@ a = { y: x = 1 } = b;
                     "start": 379,
                     "end": 388
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 375,
                 "end": 388
             },
@@ -1860,8 +1860,8 @@ a = { y: x = 1 } = b;
                     "start": 392,
                     "end": 399
                 },
-                "flags": 32,
-                "start": 389,
+                "flags": 389,
+                "start": 35,
                 "end": 400
             },
             "flags": 16,
@@ -1928,8 +1928,8 @@ a = { y: x = 1 } = b;
                     "start": 404,
                     "end": 418
                 },
-                "flags": 32,
-                "start": 401,
+                "flags": 401,
+                "start": 35,
                 "end": 419
             },
             "flags": 16,
@@ -1990,7 +1990,7 @@ a = { y: x = 1 } = b;
                     "start": 425,
                     "end": 439
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 420,
                 "end": 439
             },
@@ -2208,8 +2208,8 @@ a = { y: x = 1 } = b;
                     "start": 465,
                     "end": 489
                 },
-                "flags": 32,
-                "start": 462,
+                "flags": 462,
+                "start": 35,
                 "end": 490
             },
             "flags": 16,
@@ -2423,8 +2423,8 @@ a = { y: x = 1 } = b;
                     "start": 519,
                     "end": 530
                 },
-                "flags": 32,
-                "start": 516,
+                "flags": 516,
+                "start": 35,
                 "end": 531
             },
             "flags": 16,
@@ -2530,7 +2530,7 @@ a = { y: x = 1 } = b;
                     "start": 537,
                     "end": 557
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 532,
                 "end": 557
             },
@@ -2848,8 +2848,8 @@ a = { y: x = 1 } = b;
                     "start": 602,
                     "end": 632
                 },
-                "flags": 32,
-                "start": 599,
+                "flags": 599,
+                "start": 35,
                 "end": 633
             },
             "flags": 16,
@@ -3047,8 +3047,8 @@ a = { y: x = 1 } = b;
                     "start": 637,
                     "end": 698
                 },
-                "flags": 32,
-                "start": 634,
+                "flags": 634,
+                "start": 35,
                 "end": 699
             },
             "flags": 16,
@@ -3082,8 +3082,8 @@ a = { y: x = 1 } = b;
                     "start": 703,
                     "end": 706
                 },
-                "flags": 32,
-                "start": 700,
+                "flags": 700,
+                "start": 35,
                 "end": 707
             },
             "flags": 16,
@@ -3235,8 +3235,8 @@ a = { y: x = 1 } = b;
                     "start": 711,
                     "end": 744
                 },
-                "flags": 32,
-                "start": 708,
+                "flags": 708,
+                "start": 35,
                 "end": 745
             },
             "flags": 16,
@@ -3383,7 +3383,7 @@ a = { y: x = 1 } = b;
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 33,
                         "start": 764,
                         "end": 779
                     },
@@ -3391,7 +3391,7 @@ a = { y: x = 1 } = b;
                     "start": 751,
                     "end": 780
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 746,
                 "end": 780
             },
@@ -3471,8 +3471,8 @@ a = { y: x = 1 } = b;
                     "start": 784,
                     "end": 795
                 },
-                "flags": 32,
-                "start": 781,
+                "flags": 781,
+                "start": 35,
                 "end": 796
             },
             "flags": 16,
@@ -3551,8 +3551,8 @@ a = { y: x = 1 } = b;
                     "start": 800,
                     "end": 814
                 },
-                "flags": 32,
-                "start": 797,
+                "flags": 797,
+                "start": 35,
                 "end": 815
             },
             "flags": 16,
@@ -3631,8 +3631,8 @@ a = { y: x = 1 } = b;
                     "start": 819,
                     "end": 831
                 },
-                "flags": 32,
-                "start": 816,
+                "flags": 816,
+                "start": 35,
                 "end": 832
             },
             "flags": 16,
@@ -3681,8 +3681,8 @@ a = { y: x = 1 } = b;
                     "start": 836,
                     "end": 845
                 },
-                "flags": 32,
-                "start": 833,
+                "flags": 833,
+                "start": 35,
                 "end": 846
             },
             "flags": 16,
@@ -3731,8 +3731,8 @@ a = { y: x = 1 } = b;
                     "start": 850,
                     "end": 857
                 },
-                "flags": 32,
-                "start": 847,
+                "flags": 847,
+                "start": 35,
                 "end": 858
             },
             "flags": 16,
@@ -3811,8 +3811,8 @@ a = { y: x = 1 } = b;
                     "start": 862,
                     "end": 875
                 },
-                "flags": 32,
-                "start": 859,
+                "flags": 859,
+                "start": 35,
                 "end": 876
             },
             "flags": 16,
@@ -3905,7 +3905,7 @@ a = { y: x = 1 } = b;
                     "start": 882,
                     "end": 895
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 877,
                 "end": 895
             },
@@ -4008,7 +4008,7 @@ a = { y: x = 1 } = b;
                     "start": 901,
                     "end": 916
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 896,
                 "end": 916
             },
@@ -4084,7 +4084,7 @@ a = { y: x = 1 } = b;
                     "start": 922,
                     "end": 938
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 917,
                 "end": 938
             },
@@ -4198,7 +4198,7 @@ a = { y: x = 1 } = b;
                     "start": 944,
                     "end": 962
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 939,
                 "end": 962
             },
@@ -4290,7 +4290,7 @@ a = { y: x = 1 } = b;
                     "start": 968,
                     "end": 984
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 963,
                 "end": 984
             },
@@ -4399,7 +4399,7 @@ a = { y: x = 1 } = b;
                     "start": 990,
                     "end": 1007
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 985,
                 "end": 1007
             },
@@ -4467,7 +4467,7 @@ a = { y: x = 1 } = b;
                                             "start": 1022,
                                             "end": 1024
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 1015,
                                         "end": 1024
                                     },
@@ -4503,7 +4503,7 @@ a = { y: x = 1 } = b;
                     "start": 1013,
                     "end": 1030
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 1008,
                 "end": 1030
             },
@@ -4525,59 +4525,66 @@ a = { y: x = 1 } = b;
 
 ```javascript
 
-({ key : {} });
-({ key : { a } = x });
-({ a : b } = obj);
-({ 1 : {}.b ? c : d });
-({ a : { prop : 1 }.prop } = {});
-({ 1 : +b });
-({ [a] : +b });
-({ a : +b });
-({ async : (await) ? yield : foo });
-({ async 100() {} });
-({ key : bar = x });
-({ typeof(x, y) {} });
-({ x() {}, x : 1 });
-({ * x() {}, get x() {} });
-({ '"x"' : y + z });
-({
-    '"x"': [y,]
-  }) => x;
-({ '"x"' : { y : z } });
-x({ [a] : b, [15] : d } = obj);
-({ l : 50..foo } = x);
-a = { '"b"' : c = d };
-({ x : let });
-({ x : let } = null);
-s = { '"foo"' : this };
-x({ set '"foo"'(a) {} });
-({ a = 42, [b] : c.d } = e);
-x({ foo() {}, * bar() {} });
-({ ...[a, b,] });
-x = { a : 1, ...y, b : 1 };
-x({ get 0x234241() {} });
-x({ get 1() {} });
-({ [left()] : y, ...x } = right());
-({ topLeft : { x : x1, y : y1 }, bottomRight : { x : x2, y : y2 } } = rect);
-({ y });
-({ set [0](x) {
-    super.m('"1"', v);
-  } });
-x = { async : b }({ set foo(v) {} });
-({ * set() {} });
-({ * static() {} });
-({ * async() {} });
-({ get : 0 });
-({ if : 4 });
-({ * await() {} });
-x = { * '"foo"'() {} };
-x = { set get(a) {} };
-x = { foo : typeof x };
-x = { '"x"' : { a : y + x } };
-a = { w, a : x } = b;
-a = { ...src.y.x } = b;
-a = { y : x = 1 } = b;
-
+({key: {}});
+({key: {a} = x});
+({a: b} = obj);
+({1: {}.b ? c : d});
+({a: {prop: 1}.prop} = {});
+({1: +b});
+({[a]: +b});
+({a: +b});
+({async: (await) ? yield : foo});
+({async 100(){}});
+({key: bar = x});
+({typeof(x, y){}});
+({x(){}, x: 1});
+({* x(){}, get x(){}});
+({"\"x\"": y +  z});
+({"\"x\"": [y]}) =>  x;
+({"\"x\"": {y: z}});
+x(
+  {[a]: b, [15]: d} = obj
+);
+({l: 50..foo} = x);
+a = {"\"b\"": c = d};
+({x: let});
+({x: let} = null );
+s = {"\"foo\"": this };
+x(
+  {set "\"foo\""(a){}}
+);
+({a = 42, [b]: c.d} = e);
+x(
+  {foo(){}, * bar(){}}
+);
+({...[a, b]});
+x = {a: 1, ...y, b: 1};
+x(
+  {get 0x234241(){}}
+);
+x(
+  {get 1(){}}
+);
+({[left()]: y, ...x} = right());
+({topLeft: {x: x1, y: y1}, bottomRight: {x: x2, y: y2}} = rect);
+({y});
+({set [0](x){
+      super .m("\"1\"", v);
+    }});
+x = {async: b}({set foo(v){}});
+({* set(){}});
+({* static(){}});
+({* async(){}});
+({get: 0});
+({if: 4});
+({* await(){}});
+x = {* "\"foo\""(){}};
+x = {set get(a){}};
+x = {foo: typeof x};
+x = {"\"x\"": {a: y +  x}};
+a = {w, a: x} = b;
+a = {...src.y.x} = b;
+a = {y: x = 1} = b;
 ```
 
 ### Diagnostics

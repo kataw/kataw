@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/gen/stand-alone
 > :: test: stand-alone
 > :: case: someObject = { someKey: { ...mapGetters([ "some_val_1", "some_val_2" ]) } }
 ## Options
@@ -152,7 +151,7 @@ someObject = { someKey: { ...mapGetters([ "some_val_1", "some_val_2" ]) } }
                     "start": 12,
                     "end": 75
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 75
             },
@@ -174,8 +173,7 @@ someObject = { someKey: { ...mapGetters([ "some_val_1", "some_val_2" ]) } }
 
 ```javascript
 
-someObject = { someKey : { ...mapGetters(['"some_val_1"', '"some_val_2"',]) } };
-
+someObject = {someKey: {...mapGetters(["\"some_val_1\"", "\"some_val_2\""])}};
 ```
 
 ### Diagnostics

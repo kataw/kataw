@@ -125,7 +125,7 @@ class C {
                                                                             "start": 51,
                                                                             "end": 57
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 0,
                                                                         "start": 39,
                                                                         "end": 57
                                                                     },
@@ -171,7 +171,7 @@ class C {
                                                                                 "start": 77,
                                                                                 "end": 83
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 0,
                                                                             "start": 60,
                                                                             "end": 83
                                                                         },
@@ -193,8 +193,8 @@ class C {
                                                         "start": 26,
                                                         "end": 90
                                                     },
-                                                    "flags": 32,
-                                                    "start": 20,
+                                                    "flags": 20,
+                                                    "start": 33,
                                                     "end": 91
                                                 },
                                                 "argumentList": {
@@ -254,13 +254,8 @@ class C {
 ```javascript
 
 class C {
-  static  {
-    (function (x = fromParam = await) {
-      fromBody = await;
-    })();
-  }
+  
 }
-
 ```
 
 ### Diagnostics

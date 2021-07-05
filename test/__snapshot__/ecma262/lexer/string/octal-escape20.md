@@ -49,8 +49,7 @@
 
 ```javascript
 
-'"\44"';
-
+"\"\44\"";
 ```
 
 ### Diagnostics

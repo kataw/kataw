@@ -79,7 +79,7 @@ function f(){ do        break y   ; while(true);}
                             },
                             "whileKeyword": {
                                 "kind": 37757028,
-                                "flags": 64,
+                                "flags": 80,
                                 "start": 35,
                                 "end": 41
                             },

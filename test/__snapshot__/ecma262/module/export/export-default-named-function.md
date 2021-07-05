@@ -101,7 +101,6 @@ export default function foo() {}
 ```javascript
 
 export default function foo() {};
-
 ```
 
 ### Diagnostics

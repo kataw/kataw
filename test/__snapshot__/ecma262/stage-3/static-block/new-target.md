@@ -170,7 +170,7 @@ class Base {
                                                                                         "kind": 342,
                                                                                         "parameters": [],
                                                                                         "trailingComma": false,
-                                                                                        "flags": 0,
+                                                                                        "flags": 32,
                                                                                         "start": 74,
                                                                                         "end": 74
                                                                                     },
@@ -235,7 +235,7 @@ class Base {
                                                                                                             "start": 99,
                                                                                                             "end": 110
                                                                                                         },
-                                                                                                        "flags": 32,
+                                                                                                        "flags": 0,
                                                                                                         "start": 80,
                                                                                                         "end": 110
                                                                                                     },
@@ -256,8 +256,8 @@ class Base {
                                                                                     "start": 73,
                                                                                     "end": 119
                                                                                 },
-                                                                                "flags": 32,
-                                                                                "start": 71,
+                                                                                "flags": 71,
+                                                                                "start": 32,
                                                                                 "end": 120
                                                                             },
                                                                             "argumentList": {
@@ -295,7 +295,7 @@ class Base {
                                                         "start": 45,
                                                         "end": 129
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 30,
                                                     "end": 129
                                                 },
@@ -348,16 +348,14 @@ class Base {
 ```javascript
 
 class Base {
-  constructor() {
-    this.Foo = class  {
+  constructor(){
+    this .Foo = class  {
       static #_ = (() => {
-        this.foo = new.target;
-      })()
-      ;
+          this .foo = new.target;
+        })();;
     };
   }
 }
-
 ```
 
 ### Diagnostics

@@ -250,7 +250,7 @@ result = [[x]] = vals;
                     "start": 47,
                     "end": 60
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 37,
                 "end": 60
             },
@@ -274,9 +274,8 @@ result = [[x]] = vals;
 
 var x;
 var result;
-var vals = [[1,],];
-result = [[x,],] = vals;
-
+var vals = [[1]];
+result = [[x]] = vals;
 ```
 
 ### Diagnostics

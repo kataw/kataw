@@ -73,12 +73,7 @@ y) //c
 
 ```javascript
 
-for (x 
- /*a*/
-in//b
- y)//c
-  ;
-
+for (x in y);
 ```
 
 ### Diagnostics

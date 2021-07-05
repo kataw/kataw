@@ -67,8 +67,8 @@ async <(T, U)>y
                             "start": 7,
                             "end": 13
                         },
-                        "flags": 32,
-                        "start": 7,
+                        "flags": 7,
+                        "start": 32,
                         "end": 13
                     },
                     "operatorToken": {
@@ -85,7 +85,7 @@ async <(T, U)>y
                         "start": 14,
                         "end": 15
                     },
-                    "flags": 32,
+                    "flags": 39,
                     "start": 13,
                     "end": 15
                 },
@@ -111,8 +111,7 @@ async <(T, U)>y
 
 ```javascript
 
-async  < (T, U) > y;
-
+async  <  (T, U) >  y;
 ```
 
 ### Diagnostics

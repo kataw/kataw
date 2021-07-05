@@ -75,8 +75,8 @@
                                 "start": 11,
                                 "end": 12
                             },
-                            "flags": 32,
-                            "start": 10,
+                            "flags": 10,
+                            "start": 32,
                             "end": 13
                         },
                         "flags": 48,
@@ -87,8 +87,8 @@
                     "start": 1,
                     "end": 13
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 32,
                 "end": 14
             },
             "flags": 16,
@@ -109,8 +109,7 @@
 
 ```javascript
 
-(async  < {} > (x));
-
+(async  <  {} >  (x));
 ```
 
 ### Diagnostics

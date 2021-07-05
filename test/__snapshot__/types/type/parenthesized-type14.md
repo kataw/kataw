@@ -96,7 +96,6 @@ type X = (1);
 ```javascript
 
 type X = (1)
-
 ```
 
 ### Diagnostics

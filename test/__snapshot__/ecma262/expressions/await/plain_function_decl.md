@@ -86,7 +86,6 @@ function f(await){}
 ```javascript
 
 function f(await) {}
-
 ```
 
 ### Diagnostics

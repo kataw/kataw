@@ -155,7 +155,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 2,
+                                    "flags": 34,
                                     "start": 17,
                                     "end": 41
                                 },
@@ -211,9 +211,8 @@ function *g() { (x = x + foo(a, yield y)) => x; }
 ```javascript
 
 function * g() {
-  (x = x + foo(a, yield  y)) => x;
+  (x = x +  foo(a, yield y)) =>  x;
 }
-
 ```
 
 ### Diagnostics

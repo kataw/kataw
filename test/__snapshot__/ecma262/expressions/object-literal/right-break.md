@@ -314,7 +314,7 @@ const o = {
                     "start": 360,
                     "end": 414
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 323,
                 "end": 414
             },
@@ -469,15 +469,16 @@ const o = {
 
 ```javascript
 
-const blablah = '"aldkfkladfskladklsfkladklfkaldfadfkdaf"' + '"adlfasdklfkldsklfakldsfkladsfkadsfladsfa"' + '"dflkadfkladsfklkadlfkladlfkadklfjadlfdfdaf"';
+const blablah =
+    "\"aldkfkladfskladklsfkladklfkaldfadfkdaf\"" +  "\"adlfasdklfkldsklfakldsfkladsfkadsfladsfa\"" +  "\"dflkadfkladsfklkadlfkladlfkadklfjadlfdfdaf\"";
 const k = {
-  blablah : '"aldkfkladfskladklsfkladklfkaldfadfkdaf"' + '"adlfasdklfkldsklfakldsfkladsfkadsfladsfa"' + '"dflkadfkladsfklkadlfkladlfkadklfjadlfdfdaf"'
-};
-somethingThatsAReallyLongPropName = this.props.cardType === AwesomizerCardEnum.SEEFIRST;
+    blablah: "\"aldkfkladfskladklsfkladklfkaldfadfkdaf\"" +  "\"adlfasdklfkldsklfakldsfkladsfkadsfladsfa\"" +  "\"dflkadfkladsfklkadlfkladlfkadklfjadlfdfdaf\""
+  };
+somethingThatsAReallyLongPropName =
+  this .props.cardType ===  AwesomizerCardEnum.SEEFIRST;
 const o = {
-  somethingThatsAReallyLongPropName : this.props.cardType === AwesomizerCardEnum.SEEFIRST,
-};
-
+    somethingThatsAReallyLongPropName: this .props.cardType ===  AwesomizerCardEnum.SEEFIRST
+  };
 ```
 
 ### Diagnostics

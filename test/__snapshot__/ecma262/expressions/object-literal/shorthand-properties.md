@@ -184,11 +184,10 @@ var x = {
 
 var foo, get, set;
 var x = {
-  foo,
-  get,
-  set
-};
-
+    foo,
+    get,
+    set
+  };
 ```
 
 ### Diagnostics

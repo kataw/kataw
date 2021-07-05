@@ -119,7 +119,7 @@ for (let a, ...b = 1;;);
                     "start": 18,
                     "end": 20
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 15,
                 "end": 20
             },

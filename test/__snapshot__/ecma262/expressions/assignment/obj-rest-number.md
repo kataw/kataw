@@ -88,7 +88,7 @@ result = {...rest} = 69;
                     "start": 8,
                     "end": 23
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 23
             },
@@ -110,8 +110,7 @@ result = {...rest} = 69;
 
 ```javascript
 
-result = { ...rest } = 69;
-
+result = {...rest} = 69;
 ```
 
 ### Diagnostics

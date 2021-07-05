@@ -98,8 +98,8 @@ x
                     "start": 1,
                     "end": 40
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 41
             },
             "flags": 16,
@@ -120,11 +120,7 @@ x
 
 ```javascript
 
-({ async/*1*/ * 
-   /*3*/
-   /*2*/
-  x(/*4*/) {} });
-
+({async * x(){}});
 ```
 
 ### Diagnostics

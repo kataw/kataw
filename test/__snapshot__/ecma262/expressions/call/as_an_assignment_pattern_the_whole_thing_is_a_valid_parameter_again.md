@@ -93,7 +93,7 @@ async({c=3} = {})
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 0,
                 "end": 0
             },
@@ -115,8 +115,9 @@ async({c=3} = {})
 
 ```javascript
 
-async({ c = 3 } = {})
-
+async(
+  {c = 3} = {}
+)
 ```
 
 ### Diagnostics

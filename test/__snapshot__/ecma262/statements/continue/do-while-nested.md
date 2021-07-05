@@ -94,7 +94,7 @@ function f(){ do        if (x) continue   ; while(true);}
                             },
                             "whileKeyword": {
                                 "kind": 37757028,
-                                "flags": 64,
+                                "flags": 80,
                                 "start": 43,
                                 "end": 49
                             },
@@ -137,11 +137,9 @@ function f(){ do        if (x) continue   ; while(true);}
 ```javascript
 
 function f() {
-  do
-    if (x)
-      continue; while (true)
+  do  if (x) continue ;
+  while (true );
 }
-
 ```
 
 ### Diagnostics

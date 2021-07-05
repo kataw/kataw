@@ -159,16 +159,16 @@ Math.min(
                                             "start": 207,
                                             "end": 248
                                         },
-                                        "flags": 32,
-                                        "start": 207,
+                                        "flags": 207,
+                                        "start": 33,
                                         "end": 249
                                     },
                                     "flags": 97,
                                     "start": 9,
                                     "end": 249
                                 },
-                                "flags": 32,
-                                "start": 9,
+                                "flags": 9,
+                                "start": 33,
                                 "end": 253
                             },
                             "operatorToken": {
@@ -185,7 +185,7 @@ Math.min(
                                 "start": 255,
                                 "end": 277
                             },
-                            "flags": 32,
+                            "flags": 41,
                             "start": 9,
                             "end": 277
                         },
@@ -225,12 +225,12 @@ Math.min(
 
 ```javascript
 
-Math.min((
- /* $FlowFixMe(>=0.38.0 site=www) - Flow error detected during the
-     * deployment of v0.38.0. To see the error, remove this comment and
-     * run flow */
-document.body.scrollHeight - (window.scrollY + window.innerHeight)) - devsite_footer_height, 0,);
-
+Math.min(
+  (
+    document.body.scrollHeight -  (window.scrollY +  window.innerHeight)
+  ) -  devsite_footer_height,
+  0,
+);
 ```
 
 ### Diagnostics

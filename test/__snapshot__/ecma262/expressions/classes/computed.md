@@ -77,7 +77,7 @@ class A { [x=y](foo) {} }
                                             "start": 13,
                                             "end": 14
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 11,
                                         "end": 14
                                     },
@@ -154,9 +154,8 @@ class A { [x=y](foo) {} }
 ```javascript
 
 class A {
-  [x = y](foo) {}
+  [x = y](foo){}
 }
-
 ```
 
 ### Diagnostics

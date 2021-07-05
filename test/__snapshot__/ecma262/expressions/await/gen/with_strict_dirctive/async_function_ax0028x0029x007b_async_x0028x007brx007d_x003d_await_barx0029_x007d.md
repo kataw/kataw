@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/with_strict_dirctive
+- From: kataw/test/__snapshot__/ecma262/expressions/await/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/await/gen/with_strict_dirctive
 > :: test: with_strict_dirctive
 > :: case: async function a(){     async ({r} = await bar);     }
 ## Options
@@ -141,7 +140,7 @@
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 34,
                                 "start": 33,
                                 "end": 33
                             },
@@ -185,10 +184,10 @@
 
 '\'use strict\'';
 async function a() {
-  async({ r } = await bar)
-  ;
+  async(
+    {r} = await bar
+  )
 }
-
 ```
 
 ### Diagnostics

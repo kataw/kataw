@@ -65,7 +65,7 @@ x = `1 ${ yield x } 2`
                     "start": 3,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 22
             },
@@ -88,7 +88,6 @@ x = `1 ${ yield x } 2`
 ```javascript
 
 x = `1 ${yield} } 2`;
-
 ```
 
 ### Diagnostics

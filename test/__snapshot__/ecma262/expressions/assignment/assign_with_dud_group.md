@@ -53,12 +53,12 @@ a = ((b)) = c;
                                 "start": 6,
                                 "end": 7
                             },
-                            "flags": 32,
-                            "start": 5,
+                            "flags": 5,
+                            "start": 32,
                             "end": 8
                         },
-                        "flags": 32,
-                        "start": 3,
+                        "flags": 3,
+                        "start": 32,
                         "end": 9
                     },
                     "operatorToken": {
@@ -75,11 +75,11 @@ a = ((b)) = c;
                         "start": 11,
                         "end": 13
                     },
-                    "flags": 32,
+                    "flags": 0,
                     "start": 3,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -102,7 +102,6 @@ a = ((b)) = c;
 ```javascript
 
 a = ((b)) = c;
-
 ```
 
 ### Diagnostics

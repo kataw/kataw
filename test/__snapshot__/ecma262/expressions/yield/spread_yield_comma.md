@@ -114,7 +114,7 @@ function *g() {x={     ...yield,    };}
                                     "start": 17,
                                     "end": 37
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 15,
                                 "end": 37
                             },
@@ -151,9 +151,8 @@ function *g() {x={     ...yield,    };}
 ```javascript
 
 function * g() {
-  x = { ...yield  };
+  x = {...yield };
 }
-
 ```
 
 ### Diagnostics

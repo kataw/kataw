@@ -122,9 +122,7 @@ for (x[a in b] in y);
 
 ```javascript
 
-for (x[a in b] in y)
-  ;
-
+for (x[a in  b] in y);
 ```
 
 ### Diagnostics

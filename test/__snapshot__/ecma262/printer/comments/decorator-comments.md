@@ -145,11 +145,8 @@ class Something {
 ```javascript
 
 class Something {
-  @Annotateme()
-  static property
-  ;
+  @ Annotateme() static property;;
 }
-
 ```
 
 ### Diagnostics

@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/gen/strict_directive_variable_in_for_of
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/destructuring-assignment-positive-tests/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/destructuring-assignment-positive-tests/gen/strict_directive_variable_in_for_of
 > :: test: strict directive variable in for of
 > :: case: { x: new.target = 1 }
 ## Options
@@ -160,7 +159,7 @@
                                     "start": 49,
                                     "end": 51
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 33,
                                 "end": 51
                             },

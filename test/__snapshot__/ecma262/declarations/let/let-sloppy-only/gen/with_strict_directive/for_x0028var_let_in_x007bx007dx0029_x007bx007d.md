@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/let-sloppy-only/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/let-sloppy-only/gen/with_strict_directive
+- From: kataw/test/__snapshot__/ecma262/declarations/let/let-sloppy-only/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/declarations/let/let-sloppy-only/gen/with_strict_directive
 > :: test: with strict directive
 > :: case: for (var let in {}) {}
 ## Options

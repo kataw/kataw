@@ -49,8 +49,7 @@
 
 ```javascript
 
-'"\u180E"';
-
+"\"\u180E\"";
 ```
 
 ### Diagnostics

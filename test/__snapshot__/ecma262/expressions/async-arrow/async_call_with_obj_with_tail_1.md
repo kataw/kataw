@@ -64,7 +64,7 @@ async ({} + 1);
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 0,
                 "end": 0
             },
@@ -92,9 +92,9 @@ async ({} + 1);
 
 ```javascript
 
-async({} + 1)
-;
-
+async(
+  {} +  1
+)
 ```
 
 ### Diagnostics

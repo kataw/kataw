@@ -82,7 +82,6 @@ async function f(){}
 ```javascript
 
 async function f() {}
-
 ```
 
 ### Diagnostics

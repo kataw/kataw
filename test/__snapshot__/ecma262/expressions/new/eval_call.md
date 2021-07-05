@@ -64,7 +64,6 @@ new eval()
 ```javascript
 
 new eval();
-
 ```
 
 ### Diagnostics

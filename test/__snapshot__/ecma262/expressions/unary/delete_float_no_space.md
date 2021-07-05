@@ -56,7 +56,6 @@ delete.500
 ```javascript
 
 delete 0.5;
-
 ```
 
 ### Diagnostics

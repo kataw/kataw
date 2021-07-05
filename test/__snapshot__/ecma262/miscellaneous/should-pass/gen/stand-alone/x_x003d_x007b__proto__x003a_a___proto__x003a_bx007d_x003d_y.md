@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/gen/stand-alone
 > :: test: stand-alone
 > :: case: x = {__proto__: a, __proto__: b} = y
 ## Options
@@ -122,7 +121,7 @@ x = {__proto__: a, __proto__: b} = y
                     "start": 3,
                     "end": 36
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 36
             },
@@ -144,8 +143,7 @@ x = {__proto__: a, __proto__: b} = y
 
 ```javascript
 
-x = { __proto__ : a, __proto__ : b } = y;
-
+x = {__proto__: a, __proto__: b} = y;
 ```
 
 ### Diagnostics

@@ -134,7 +134,7 @@ x={ foo(a = super.foo){ }}
                     "start": 2,
                     "end": 26
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 26
             },
@@ -156,8 +156,7 @@ x={ foo(a = super.foo){ }}
 
 ```javascript
 
-x = { foo(a = super.foo) {} };
-
+x = {foo(a = super .foo){}};
 ```
 
 ### Diagnostics

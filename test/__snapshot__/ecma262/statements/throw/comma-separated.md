@@ -50,7 +50,7 @@ throw x = y, z;
                             "start": 9,
                             "end": 11
                         },
-                        "flags": 32,
+                        "flags": 0,
                         "start": 5,
                         "end": 11
                     },
@@ -86,7 +86,6 @@ throw x = y, z;
 ```javascript
 
 throw x = y, z;
-
 ```
 
 ### Diagnostics

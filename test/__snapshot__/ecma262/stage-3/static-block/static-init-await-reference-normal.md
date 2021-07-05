@@ -139,7 +139,7 @@ class C {
                                                                                                 "start": 56,
                                                                                                 "end": 62
                                                                                             },
-                                                                                            "flags": 32,
+                                                                                            "flags": 0,
                                                                                             "start": 44,
                                                                                             "end": 62
                                                                                         },
@@ -186,7 +186,7 @@ class C {
                                                                                                     "start": 84,
                                                                                                     "end": 90
                                                                                                 },
-                                                                                                "flags": 32,
+                                                                                                "flags": 0,
                                                                                                 "start": 65,
                                                                                                 "end": 90
                                                                                             },
@@ -221,8 +221,8 @@ class C {
                                                             "start": 26,
                                                             "end": 105
                                                         },
-                                                        "flags": 32,
-                                                        "start": 20,
+                                                        "flags": 20,
+                                                        "start": 35,
                                                         "end": 106
                                                     },
                                                     "expression": {
@@ -233,7 +233,7 @@ class C {
                                                         "start": 107,
                                                         "end": 113
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 52,
                                                     "start": 20,
                                                     "end": 113
                                                 },
@@ -294,15 +294,8 @@ class C {
 ```javascript
 
 class C {
-  static  {
-    ({
-      method(x = fromParam = await) {
-        fromBody = await;
-      }
-    }).method();
-  }
+  
 }
-
 ```
 
 ### Diagnostics

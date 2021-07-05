@@ -2728,7 +2728,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "start": 370,
                     "end": 378
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 339,
                 "end": 378
             },
@@ -2993,7 +2993,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "start": 398,
                     "end": 411
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 379,
                 "end": 411
             },
@@ -3159,7 +3159,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "start": 433,
                     "end": 434
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 412,
                 "end": 434
             },

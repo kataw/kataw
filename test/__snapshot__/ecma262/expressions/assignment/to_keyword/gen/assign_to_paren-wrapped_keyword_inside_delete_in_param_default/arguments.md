@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/assign_to_paren-wrapped_keyword_inside_delete_in_param_default
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/gen/assign_to_paren-wrapped_keyword_inside_delete_in_param_default
 > :: test: assign to paren-wrapped keyword inside delete in param default
 > :: case: arguments
 ## Options
@@ -70,8 +69,8 @@ async (x = delete ((arguments) = f)) => {}
                                             "start": 20,
                                             "end": 29
                                         },
-                                        "flags": 32,
-                                        "start": 19,
+                                        "flags": 19,
+                                        "start": 32,
                                         "end": 30
                                     },
                                     "operatorToken": {
@@ -88,12 +87,12 @@ async (x = delete ((arguments) = f)) => {}
                                         "start": 32,
                                         "end": 34
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 19,
                                     "end": 34
                                 },
-                                "flags": 32,
-                                "start": 17,
+                                "flags": 17,
+                                "start": 32,
                                 "end": 35
                             },
                             "flags": 32,
@@ -150,7 +149,6 @@ async (x = delete ((arguments) = f)) => {}
 ```javascript
 
 async (x = delete ((arguments) = f)) => {}
-
 ```
 
 ### Diagnostics

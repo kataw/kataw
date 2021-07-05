@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/for-await/mixed-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/for-await/mixed-cases/gen/with_directive_prologue
+- From: kataw/test/__snapshot__/ecma262/statements/for-await/mixed-cases/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/statements/for-await/mixed-cases/gen/with_directive_prologue
 > :: test: with directive prologue
 > :: case: (const {[Symbol.iterator]: a = 1} of [])
 ## Options
@@ -273,14 +272,9 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
 ```javascript
 
 async function f() {
-'\'use strict\'';
   let a;
-  for await (const {
-    [Symbol.iterator]: a = 1
-  } of [])
-    ;
+  for await (const {[Symbol.iterator]: a = 1} of []);
 }
-
 ```
 
 ### Diagnostics

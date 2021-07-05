@@ -81,7 +81,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
                     "start": 1,
                     "end": 11
                 },
@@ -122,10 +122,7 @@
 
 ```javascript
 
-([{
-    x = y
-  }]) => z;
-
+([{x = y}]) =>  z;
 ```
 
 ### Diagnostics

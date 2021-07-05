@@ -126,8 +126,7 @@ type x = { [x:string]:string }
 
 ```javascript
 
-type x = { [xstring]:  string }
-
+type x = { [string ]: string  }
 ```
 
 ### Diagnostics

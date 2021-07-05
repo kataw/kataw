@@ -61,7 +61,7 @@ foo: do break foo; while(foo);
                 },
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 18,
                     "end": 24
                 },
@@ -95,9 +95,8 @@ foo: do break foo; while(foo);
 
 ```javascript
 
-foo: do
-  break foo; while (foo)
-
+foo:  do  break  foo;
+while (foo);
 ```
 
 ### Diagnostics

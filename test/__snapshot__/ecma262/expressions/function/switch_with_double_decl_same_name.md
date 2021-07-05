@@ -205,12 +205,11 @@ switch (0) {
 ```javascript
 
 switch (0) {
-  case 1: 
+  case 1:
     function f() {}
-  default: 
+  default
     function f() {}
 }
-
 ```
 
 ### Diagnostics

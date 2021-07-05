@@ -146,11 +146,10 @@ class x { constructor(){ super.foo; }}
 ```javascript
 
 class x {
-  constructor() {
-    super.foo;
+  constructor(){
+    super .foo;
   }
 }
-
 ```
 
 ### Diagnostics

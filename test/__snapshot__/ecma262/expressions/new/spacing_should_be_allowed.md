@@ -104,7 +104,6 @@ function f(){ new . target }
 function f() {
   new.target;
 }
-
 ```
 
 ### Diagnostics

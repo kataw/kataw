@@ -96,8 +96,8 @@ q = {"foo": super = x} = x;
                                                         "start": 10,
                                                         "end": 16
                                                     },
-                                                    "flags": 32,
-                                                    "start": 10,
+                                                    "flags": 10,
+                                                    "start": 32,
                                                     "end": 16
                                                 }
                                             ],
@@ -178,7 +178,7 @@ q = {"foo": super = x} = x;
                     "start": 3,
                     "end": 31
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 31
             },
@@ -253,8 +253,8 @@ q = {"foo": super = x} = x;
                                                         "start": 43,
                                                         "end": 49
                                                     },
-                                                    "flags": 32,
-                                                    "start": 43,
+                                                    "flags": 43,
+                                                    "start": 32,
                                                     "end": 49
                                                 }
                                             ],
@@ -305,7 +305,7 @@ q = {"foo": super = x} = x;
                     "start": 36,
                     "end": 57
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 32,
                 "end": 57
             },
@@ -380,8 +380,8 @@ q = {"foo": super = x} = x;
                                                         "start": 69,
                                                         "end": 75
                                                     },
-                                                    "flags": 32,
-                                                    "start": 69,
+                                                    "flags": 69,
+                                                    "start": 32,
                                                     "end": 75
                                                 }
                                             ],
@@ -487,8 +487,8 @@ q = {"foo": super = x} = x;
                                                             "start": 92,
                                                             "end": 97
                                                         },
-                                                        "flags": 32,
-                                                        "start": 92,
+                                                        "flags": 92,
+                                                        "start": 34,
                                                         "end": 98
                                                     }
                                                 ],
@@ -523,7 +523,7 @@ q = {"foo": super = x} = x;
                     "start": 62,
                     "end": 101
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 58,
                 "end": 101
             },
@@ -598,8 +598,8 @@ q = {"foo": super = x} = x;
                                                         "start": 113,
                                                         "end": 119
                                                     },
-                                                    "flags": 32,
-                                                    "start": 113,
+                                                    "flags": 113,
+                                                    "start": 32,
                                                     "end": 119
                                                 }
                                             ],
@@ -644,7 +644,7 @@ q = {"foo": super = x} = x;
                     "start": 106,
                     "end": 134
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 102,
                 "end": 134
             },
@@ -719,8 +719,8 @@ q = {"foo": super = x} = x;
                                                         "start": 146,
                                                         "end": 152
                                                     },
-                                                    "flags": 32,
-                                                    "start": 146,
+                                                    "flags": 146,
+                                                    "start": 32,
                                                     "end": 152
                                                 }
                                             ],
@@ -763,7 +763,7 @@ q = {"foo": super = x} = x;
                     "start": 139,
                     "end": 162
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 135,
                 "end": 162
             },
@@ -838,8 +838,8 @@ q = {"foo": super = x} = x;
                                                         "start": 174,
                                                         "end": 180
                                                     },
-                                                    "flags": 32,
-                                                    "start": 174,
+                                                    "flags": 174,
+                                                    "start": 32,
                                                     "end": 180
                                                 }
                                             ],
@@ -884,7 +884,7 @@ q = {"foo": super = x} = x;
                     "start": 167,
                     "end": 188
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 163,
                 "end": 188
             },
@@ -959,8 +959,8 @@ q = {"foo": super = x} = x;
                                                         "start": 200,
                                                         "end": 206
                                                     },
-                                                    "flags": 32,
-                                                    "start": 200,
+                                                    "flags": 200,
+                                                    "start": 32,
                                                     "end": 206
                                                 }
                                             ],
@@ -1003,7 +1003,7 @@ q = {"foo": super = x} = x;
                     "start": 193,
                     "end": 217
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 189,
                 "end": 217
             },
@@ -1078,8 +1078,8 @@ q = {"foo": super = x} = x;
                                                         "start": 229,
                                                         "end": 235
                                                     },
-                                                    "flags": 32,
-                                                    "start": 229,
+                                                    "flags": 229,
+                                                    "start": 32,
                                                     "end": 235
                                                 }
                                             ],
@@ -1124,7 +1124,7 @@ q = {"foo": super = x} = x;
                     "start": 222,
                     "end": 242
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 218,
                 "end": 242
             },
@@ -1199,8 +1199,8 @@ q = {"foo": super = x} = x;
                                                         "start": 254,
                                                         "end": 260
                                                     },
-                                                    "flags": 32,
-                                                    "start": 254,
+                                                    "flags": 254,
+                                                    "start": 32,
                                                     "end": 260
                                                 }
                                             ],
@@ -1273,7 +1273,7 @@ q = {"foo": super = x} = x;
                     "start": 247,
                     "end": 277
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 243,
                 "end": 277
             },
@@ -1369,7 +1369,7 @@ q = {"foo": super = x} = x;
                     "start": 282,
                     "end": 299
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 278,
                 "end": 299
             },
@@ -1459,7 +1459,7 @@ q = {"foo": super = x} = x;
                     "start": 304,
                     "end": 319
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 300,
                 "end": 319
             },
@@ -1549,7 +1549,7 @@ q = {"foo": super = x} = x;
                     "start": 324,
                     "end": 338
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 320,
                 "end": 338
             },
@@ -1617,7 +1617,7 @@ q = {"foo": super = x} = x;
                                             "start": 359,
                                             "end": 361
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 345,
                                         "end": 361
                                     },
@@ -1653,7 +1653,7 @@ q = {"foo": super = x} = x;
                     "start": 343,
                     "end": 366
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 339,
                 "end": 366
             },
@@ -1719,7 +1719,7 @@ q = {"foo": super = x} = x;
                                             "start": 386,
                                             "end": 388
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 373,
                                         "end": 388
                                     },
@@ -1755,7 +1755,7 @@ q = {"foo": super = x} = x;
                     "start": 371,
                     "end": 393
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 367,
                 "end": 393
             },
@@ -1835,7 +1835,7 @@ q = {"foo": super = x} = x;
                                             "start": 414,
                                             "end": 416
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 400,
                                         "end": 416
                                     },
@@ -1871,7 +1871,7 @@ q = {"foo": super = x} = x;
                     "start": 398,
                     "end": 421
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 394,
                 "end": 421
             },

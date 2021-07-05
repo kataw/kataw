@@ -141,8 +141,8 @@
                     "start": 1,
                     "end": 29
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 32,
                 "end": 30
             },
             "flags": 16,
@@ -227,7 +227,7 @@
                                                                 "kind": 342,
                                                                 "parameters": [],
                                                                 "trailingComma": false,
-                                                                "flags": 0,
+                                                                "flags": 32,
                                                                 "start": 58,
                                                                 "end": 58
                                                             },
@@ -290,8 +290,8 @@
                     "start": 33,
                     "end": 68
                 },
-                "flags": 32,
-                "start": 31,
+                "flags": 31,
+                "start": 33,
                 "end": 69
             },
             "flags": 16,
@@ -403,8 +403,8 @@
                     "start": 72,
                     "end": 96
                 },
-                "flags": 32,
-                "start": 70,
+                "flags": 70,
+                "start": 33,
                 "end": 97
             },
             "flags": 16,
@@ -546,8 +546,8 @@
                     "start": 100,
                     "end": 130
                 },
-                "flags": 32,
-                "start": 98,
+                "flags": 98,
+                "start": 33,
                 "end": 131
             },
             "flags": 16,
@@ -694,8 +694,8 @@
                     "start": 134,
                     "end": 168
                 },
-                "flags": 32,
-                "start": 132,
+                "flags": 132,
+                "start": 33,
                 "end": 169
             },
             "flags": 16,
@@ -851,8 +851,8 @@
                     "start": 172,
                     "end": 209
                 },
-                "flags": 32,
-                "start": 170,
+                "flags": 170,
+                "start": 33,
                 "end": 210
             },
             "flags": 16,
@@ -999,8 +999,8 @@
                     "start": 213,
                     "end": 244
                 },
-                "flags": 32,
-                "start": 211,
+                "flags": 211,
+                "start": 33,
                 "end": 245
             },
             "flags": 16,
@@ -1147,8 +1147,8 @@
                     "start": 248,
                     "end": 284
                 },
-                "flags": 32,
-                "start": 246,
+                "flags": 246,
+                "start": 33,
                 "end": 285
             },
             "flags": 16,
@@ -1300,8 +1300,8 @@
                     "start": 288,
                     "end": 325
                 },
-                "flags": 32,
-                "start": 286,
+                "flags": 286,
+                "start": 33,
                 "end": 326
             },
             "flags": 16,
@@ -1323,51 +1323,50 @@
 ```javascript
 
 (class  {
-  a = class  {
-    #a = 1
-  }
-});
+    a = class  {
+      #a = 1;
+    };
+  });
 (class  {
-  a = class  {
-    #a = () => {}
-  }
-});
+    a = class  {
+      #a = () => {};
+    };
+  });
 (class  {
-  a = class  {
-    #a
-  }
-});
+    a = class  {
+      #a;
+    };
+  });
 (class  {
-  a = class  {
-    #a() {}
-  }
-});
+    a = class  {
+      #a(){}
+    };
+  });
 (class  {
-  a = class  {
-    get #a() {}
-  }
-});
+    a = class  {
+      get #a(){}
+    };
+  });
 (class  {
-  a = class  {
-    set #a(foo) {}
-  }
-});
+    a = class  {
+      set #a(foo){}
+    };
+  });
 (class  {
-  a = class  {
-    * #a() {}
-  }
-});
+    a = class  {
+      * #a(){}
+    };
+  });
 (class  {
-  a = class  {
-    async #a() {}
-  }
-});
+    a = class  {
+      async #a(){}
+    };
+  });
 (class  {
-  a = class  {
-    async * #a() {}
-  }
-});
-
+    a = class  {
+      async * #a(){}
+    };
+  });
 ```
 
 ### Diagnostics

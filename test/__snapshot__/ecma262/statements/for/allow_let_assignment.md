@@ -55,7 +55,7 @@ for (let=10;;);
                     "start": 9,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 11
             },
@@ -85,9 +85,7 @@ for (let=10;;);
 
 ```javascript
 
-for (let = 10;;)
-  ;
-
+for (let = 10; ; );
 ```
 
 ### Diagnostics

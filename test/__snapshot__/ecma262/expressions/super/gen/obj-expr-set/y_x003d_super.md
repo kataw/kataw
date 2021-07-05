@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/super/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/super/gen/obj-expr-set
+- From: kataw/test/__snapshot__/ecma262/expressions/super/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/super/gen/obj-expr-set
 > :: test: obj-expr-set
 > :: case: y = super
 ## Options
@@ -116,7 +115,7 @@
                                                             "start": 17,
                                                             "end": 23
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 0,
                                                         "start": 13,
                                                         "end": 23
                                                     },
@@ -151,8 +150,8 @@
                     "start": 1,
                     "end": 27
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 28
             },
             "flags": 16,

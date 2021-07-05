@@ -112,7 +112,7 @@ function *f(){ ({x} = yield) => {} }
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 2,
+                                    "flags": 34,
                                     "start": 16,
                                     "end": 28
                                 },
@@ -174,11 +174,8 @@ function *f(){ ({x} = yield) => {} }
 ```javascript
 
 function * f() {
-  ({
-      x
-    } = yield ) => {};
+  ({x} = yield ) => {};
 }
-
 ```
 
 ### Diagnostics

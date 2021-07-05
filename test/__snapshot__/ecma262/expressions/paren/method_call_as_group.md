@@ -117,8 +117,8 @@
                     "start": 1,
                     "end": 29
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 30
             },
             "flags": 16,
@@ -139,8 +139,7 @@
 
 ```javascript
 
-({ ident : [foo, bar,].join('""') });
-
+({ident: [foo, bar].join("\"\"")});
 ```
 
 ### Diagnostics

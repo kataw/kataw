@@ -140,8 +140,7 @@ import {x as a, z} from "y"
 
 ```javascript
 
-import { x as  a,  z, } from '"y"';
-
+import { x as a,  z } from "\"y\"";
 ```
 
 ### Diagnostics

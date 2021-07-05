@@ -231,8 +231,8 @@ type a = ((q, x?:string )=> T) => T;
 
 ```javascript
 
-type a = ((q, x?: string) => T) => T
-
+type a = ((q,
+x? : string ) =>  T) =>  T
 ```
 
 ### Diagnostics

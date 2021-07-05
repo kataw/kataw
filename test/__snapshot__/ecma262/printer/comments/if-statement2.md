@@ -64,8 +64,7 @@ if /* comment 1 */ (x) /* comment 2 */ {}
 
 ```javascript
 
-if/* comment 1 */ (x)/* comment 2 */ { }
-
+if (x) {}
 ```
 
 ### Diagnostics

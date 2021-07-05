@@ -111,9 +111,8 @@ function* f(){ yield
 ```javascript
 
 function * f() {
-  yield  /foo/;
+  yield /foo/;
 }
-
 ```
 
 ### Diagnostics

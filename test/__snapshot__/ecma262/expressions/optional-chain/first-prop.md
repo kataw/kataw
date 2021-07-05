@@ -90,8 +90,7 @@ a?.b.b
 
 ```javascript
 
-a?.bb;
-
+a?.b.b;
 ```
 
 ### Diagnostics

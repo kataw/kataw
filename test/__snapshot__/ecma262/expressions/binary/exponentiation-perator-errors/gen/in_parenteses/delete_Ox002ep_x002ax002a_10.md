@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/binary/exponentiation-perator-errors/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/binary/exponentiation-perator-errors/gen/in_parenteses
+- From: kataw/test/__snapshot__/ecma262/expressions/binary/exponentiation-perator-errors/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/binary/exponentiation-perator-errors/gen/in_parenteses
 > :: test: in parenteses
 > :: case: delete O.p ** 10
 ## Options
@@ -184,8 +183,8 @@ var O = { p: 1 }, x = 10; ; (delete O.p ** 10)
                     "start": 29,
                     "end": 45
                 },
-                "flags": 32,
-                "start": 27,
+                "flags": 27,
+                "start": 32,
                 "end": 46
             },
             "flags": 16,

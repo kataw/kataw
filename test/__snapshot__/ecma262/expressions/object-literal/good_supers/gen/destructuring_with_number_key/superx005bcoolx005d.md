@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/object-literal/good_supers/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/object-literal/good_supers/gen/destructuring_with_number_key
+- From: kataw/test/__snapshot__/ecma262/expressions/object-literal/good_supers/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/object-literal/good_supers/gen/destructuring_with_number_key
 > :: test: destructuring with number key
 > :: case: super[cool]
 ## Options
@@ -181,8 +180,8 @@ class x extends y {
                                                         "start": 43,
                                                         "end": 65
                                                     },
-                                                    "flags": 32,
-                                                    "start": 37,
+                                                    "flags": 37,
+                                                    "start": 35,
                                                     "end": 66
                                                 },
                                                 "flags": 16,
@@ -233,12 +232,11 @@ class x extends y {
 
 ```javascript
 
-class x extends y {
-  constructor() {
-    ({ 123 : super[cool] } = x);
+class x  extends y {
+  constructor(){
+    ({123: super [cool]} = x);
   }
 }
-
 ```
 
 ### Diagnostics

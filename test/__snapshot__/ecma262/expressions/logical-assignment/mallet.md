@@ -48,7 +48,7 @@ obj.a ||= b;
                     "start": 5,
                     "end": 7
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -96,7 +96,7 @@ obj.a ||= b;
                     "start": 18,
                     "end": 20
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 8,
                 "end": 20
             },
@@ -120,7 +120,6 @@ obj.a ||= b;
 
 a ||= b;
 obj.a ||= b;
-
 ```
 
 ### Diagnostics

@@ -64,7 +64,6 @@ x[a
 ```javascript
 
 x[a];
-
 ```
 
 ### Diagnostics

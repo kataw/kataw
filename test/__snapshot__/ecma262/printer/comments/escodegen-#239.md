@@ -192,13 +192,9 @@ function test() {
 ```javascript
 
 function test() {
-  var x = '"a"';
-   /*
-    * test3
-    */
-  var y = '\'a\'' + '\'b\'';
+  var x = "\"a\"";
+  var y = '\'a\'' +  '\'b\'';
 }
-
 ```
 
 ### Diagnostics

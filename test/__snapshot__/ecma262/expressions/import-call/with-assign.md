@@ -51,7 +51,7 @@ import(source = "foo.js")
                         "start": 16,
                         "end": 25
                     },
-                    "flags": 32,
+                    "flags": 0,
                     "start": 8,
                     "end": 25
                 },
@@ -77,8 +77,7 @@ import(source = "foo.js")
 
 ```javascript
 
-import(source = '"foo.js"');
-
+import(source = "\"foo.js\"");
 ```
 
 ### Diagnostics

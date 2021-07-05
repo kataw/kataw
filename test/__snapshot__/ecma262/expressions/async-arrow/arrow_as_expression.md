@@ -94,8 +94,9 @@ foo(async () => foo)
 
 ```javascript
 
-foo(async () => foo);
-
+foo(
+  async () =>  foo
+);
 ```
 
 ### Diagnostics

@@ -129,7 +129,7 @@ x={ foo: function(){ super.foo; }}
                     "start": 2,
                     "end": 34
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 34
             },

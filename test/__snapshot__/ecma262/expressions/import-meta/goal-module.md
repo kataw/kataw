@@ -60,7 +60,6 @@ import.meta;
 ```javascript
 
 import.meta;
-
 ```
 
 ### Diagnostics

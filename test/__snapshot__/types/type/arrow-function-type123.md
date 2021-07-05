@@ -108,7 +108,6 @@
 ```javascript
 
 type a = (| x)
-
 ```
 
 ### Diagnostics

@@ -85,8 +85,8 @@
                     "start": 1,
                     "end": 59
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 60
             },
             "flags": 16,
@@ -165,8 +165,8 @@
                     "start": 63,
                     "end": 85
                 },
-                "flags": 32,
-                "start": 61,
+                "flags": 61,
+                "start": 35,
                 "end": 86
             },
             "flags": 16,
@@ -254,8 +254,8 @@
                     "start": 89,
                     "end": 112
                 },
-                "flags": 32,
-                "start": 87,
+                "flags": 87,
+                "start": 35,
                 "end": 113
             },
             "flags": 16,
@@ -334,8 +334,8 @@
                     "start": 116,
                     "end": 135
                 },
-                "flags": 32,
-                "start": 114,
+                "flags": 114,
+                "start": 35,
                 "end": 136
             },
             "flags": 16,
@@ -414,8 +414,8 @@
                     "start": 139,
                     "end": 163
                 },
-                "flags": 32,
-                "start": 137,
+                "flags": 137,
+                "start": 35,
                 "end": 164
             },
             "flags": 16,
@@ -499,8 +499,8 @@
                     "start": 167,
                     "end": 192
                 },
-                "flags": 32,
-                "start": 165,
+                "flags": 165,
+                "start": 35,
                 "end": 193
             },
             "flags": 16,
@@ -521,13 +521,12 @@
 
 ```javascript
 
-({ '"__proto___"' : '"__proto___"', '"__proto___"' : '"__proto___"' });
-({ get prototype() {} });
-({ set prototype(x) {} });
-({ * prototype() {} });
-({ async prototype() {} });
-({ async * prototype() {} });
-
+({"\"__proto___\"": "\"__proto___\"", "\"__proto___\"": "\"__proto___\""});
+({get prototype(){}});
+({set prototype(x){}});
+({* prototype(){}});
+({async prototype(){}});
+({async * prototype(){}});
 ```
 
 ### Diagnostics

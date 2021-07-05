@@ -52,7 +52,7 @@
                                 "start": 9,
                                 "end": 12
                             },
-                            "flags": 32,
+                            "flags": 0,
                             "start": 1,
                             "end": 12
                         },
@@ -86,7 +86,6 @@
 {
   yield = {};
 }
-
 ```
 
 ### Diagnostics

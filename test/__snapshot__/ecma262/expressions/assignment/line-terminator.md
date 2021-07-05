@@ -81,7 +81,7 @@ true;
                     "start": 12,
                     "end": 17
                 },
-                "flags": 32,
+                "flags": 1,
                 "start": 7,
                 "end": 17
             },
@@ -104,8 +104,7 @@ true;
 ```javascript
 
 var x;
-x = true;
-
+x = true ;
 ```
 
 ### Diagnostics

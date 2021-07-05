@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/gen/stand-alone
 > :: test: stand-alone
 > :: case: s = {foo: yield /x/g}
 ## Options
@@ -119,7 +118,7 @@ s = {foo: yield /x/g}
                     "start": 3,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 21
             },
@@ -141,8 +140,7 @@ s = {foo: yield /x/g}
 
 ```javascript
 
-s = { foo : yield / x / g };
-
+s = {foo: yield /  x /  g};
 ```
 
 ### Diagnostics

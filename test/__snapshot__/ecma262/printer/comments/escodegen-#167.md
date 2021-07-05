@@ -256,14 +256,14 @@ x(function (other) { return other });
 
 ```javascript
 
-var x = function (/* pre */foo/* post */) {
-  return '\'foo\'' + '\'bar\'';
-};
- /* raz */
-x(function (other) {
-  return other;
-});
-
+var x = function (foo) {
+    return '\'foo\'' +  '\'bar\'';
+  };
+x(
+  function (other) {
+    return other;
+  }
+);
 ```
 
 ### Diagnostics

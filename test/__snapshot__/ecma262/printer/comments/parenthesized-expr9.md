@@ -43,16 +43,16 @@
                             "start": 13,
                             "end": 26
                         },
-                        "flags": 32,
-                        "start": 7,
+                        "flags": 7,
+                        "start": 32,
                         "end": 32
                     },
-                    "flags": 32,
-                    "start": 1,
+                    "flags": 1,
+                    "start": 32,
                     "end": 38
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 32,
                 "end": 44
             },
             "flags": 16,
@@ -73,8 +73,7 @@
 
 ```javascript
 
-(/*1*/(/*2*/(/*3*/--/*4*/x/*5*/)/*6*/)/*7*/);
-
+(((-- x)));
 ```
 
 ### Diagnostics

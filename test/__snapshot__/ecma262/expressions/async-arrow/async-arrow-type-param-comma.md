@@ -128,8 +128,7 @@ async <T, U>(x)=>y
 
 ```javascript
 
-async <T, U>(x) => y
-
+async <T, U>(x) =>  y
 ```
 
 ### Diagnostics

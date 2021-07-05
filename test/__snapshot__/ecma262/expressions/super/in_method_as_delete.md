@@ -135,7 +135,7 @@ x = { foo(){ delete super[foo]; }}
                     "start": 3,
                     "end": 34
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 34
             },
@@ -157,10 +157,9 @@ x = { foo(){ delete super[foo]; }}
 
 ```javascript
 
-x = { foo() {
-    delete super[foo];
-  } };
-
+x = {foo(){
+    delete super [foo];
+  }};
 ```
 
 ### Diagnostics

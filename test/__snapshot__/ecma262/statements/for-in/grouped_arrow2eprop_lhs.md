@@ -63,7 +63,7 @@ for (((x)=>{}).x in y);
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 7,
                             "end": 9
                         },
@@ -92,8 +92,8 @@ for (((x)=>{}).x in y);
                         "start": 6,
                         "end": 13
                     },
-                    "flags": 32,
-                    "start": 5,
+                    "flags": 5,
+                    "start": 32,
                     "end": 14
                 },
                 "expression": {
@@ -104,7 +104,7 @@ for (((x)=>{}).x in y);
                     "start": 15,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 37,
                 "start": 5,
                 "end": 16
             },
@@ -146,9 +146,7 @@ for (((x)=>{}).x in y);
 
 ```javascript
 
-for (((x) => {}).x in y)
-  ;
-
+for (((x) => {}).x in y);
 ```
 
 ### Diagnostics

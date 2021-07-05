@@ -134,8 +134,8 @@ for (const [...x] in y){}
 
 ```javascript
 
-for (const [...x] in y) { }
-
+for (const [...x] in y)
+  {}
 ```
 
 ### Diagnostics

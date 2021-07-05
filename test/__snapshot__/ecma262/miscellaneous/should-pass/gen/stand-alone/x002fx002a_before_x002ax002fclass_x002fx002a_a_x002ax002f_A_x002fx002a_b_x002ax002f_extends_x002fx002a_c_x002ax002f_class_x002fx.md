@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/gen/stand-alone
 > :: test: stand-alone
 > :: case: /* before */class /* a */ A /* b */ extends /* c */ class /* d */ B /* e */ { /* f */ } /* g */ { /* h */ }/* after */
 ## Options
@@ -121,11 +120,8 @@
 ### Printed
 
 ```javascript
-/* before */
-class/* a */ A/* b */ extends/* c */ class/* d */ B/* e */ {
-} /* g */{
-}/* after */
 
+class A  extends class B {} {}
 ```
 
 ### Diagnostics

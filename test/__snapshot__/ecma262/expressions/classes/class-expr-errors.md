@@ -211,8 +211,8 @@
                     "start": 1,
                     "end": 50
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 32,
                 "end": 51
             },
             "flags": 16,
@@ -399,8 +399,8 @@
                     "start": 55,
                     "end": 97
                 },
-                "flags": 32,
-                "start": 52,
+                "flags": 52,
+                "start": 33,
                 "end": 98
             },
             "flags": 16,
@@ -602,8 +602,8 @@
                                                                 "start": 134,
                                                                 "end": 154
                                                             },
-                                                            "flags": 32,
-                                                            "start": 132,
+                                                            "flags": 132,
+                                                            "start": 34,
                                                             "end": 155
                                                         },
                                                         "flags": 16,
@@ -640,8 +640,8 @@
                     "start": 102,
                     "end": 160
                 },
-                "flags": 32,
-                "start": 99,
+                "flags": 99,
+                "start": 33,
                 "end": 161
             },
             "flags": 16,
@@ -823,8 +823,8 @@
                     "start": 165,
                     "end": 203
                 },
-                "flags": 32,
-                "start": 162,
+                "flags": 162,
+                "start": 33,
                 "end": 204
             },
             "flags": 16,
@@ -846,30 +846,29 @@
 ```javascript
 
 (class  {
-  set #b(val) {}
-  fn() {
-    return this.#b;
-  }
-});
+    set #b(val){}
+    fn(){
+      return this .#b;
+    }
+  });
 (class  {
-  get #b() {}
-  fn() {
-    this.#b++;
-  }
-});
+    get #b(){}
+    fn(){
+      this .#b++ ;
+    }
+  });
 (class  {
-  get #b() {}
-  fn(obj) {
-    ({ y : this.#b } = obj);
-  }
-});
+    get #b(){}
+    fn(obj){
+      ({y: this .#b} = obj);
+    }
+  });
 (class  {
-  #b() {}
-  fn() {
-    this.#b++;
-  }
-});
-
+    #b(){}
+    fn(){
+      this .#b++ ;
+    }
+  });
 ```
 
 ### Diagnostics

@@ -150,10 +150,8 @@ class x {
 ```javascript
 
 class x {
-  @/*1*/foo
-  bar() {}
+  @ foo bar(){}
 }
-
 ```
 
 ### Diagnostics

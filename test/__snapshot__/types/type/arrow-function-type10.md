@@ -259,8 +259,8 @@ type X = (x | y & z, q[t]) => T;
 
 ```javascript
 
-type X = (x | y & z, q[ t]) => T
-
+type X = (x | y & z,
+q[t]) =>  T
 ```
 
 ### Diagnostics

@@ -69,8 +69,7 @@ async in {}
 
 ```javascript
 
-async in {};
-
+async in  {};
 ```
 
 ### Diagnostics

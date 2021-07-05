@@ -41,7 +41,7 @@ await = 16
                     "start": 7,
                     "end": 10
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 10
             },
@@ -64,7 +64,6 @@ await = 16
 ```javascript
 
 await = 16;
-
 ```
 
 ### Diagnostics

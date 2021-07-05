@@ -122,11 +122,7 @@ for (let {x : y} = obj;;);
 
 ```javascript
 
-for (let {
-  x: y
-} = obj;;)
-  ;
-
+for (let {x: y} = obj; ; );
 ```
 
 ### Diagnostics

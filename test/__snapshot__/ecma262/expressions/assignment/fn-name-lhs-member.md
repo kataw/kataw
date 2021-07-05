@@ -94,7 +94,7 @@ o.attr = function() {};
                     "start": 9,
                     "end": 23
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 23
             },
@@ -117,7 +117,6 @@ o.attr = function() {};
 ```javascript
 
 o.attr = function () {};
-
 ```
 
 ### Diagnostics

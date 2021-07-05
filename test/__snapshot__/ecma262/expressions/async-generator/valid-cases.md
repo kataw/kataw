@@ -145,8 +145,8 @@ for (;;) {}});
                         "start": 1,
                         "end": 28
                     },
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 32,
                     "end": 29
                 },
                 "argumentList": {
@@ -239,7 +239,7 @@ for (;;) {}});
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 31,
                     "end": 60
                 },
@@ -340,8 +340,8 @@ for (;;) {}});
                     "start": 65,
                     "end": 95
                 },
-                "flags": 32,
-                "start": 62,
+                "flags": 62,
+                "start": 33,
                 "end": 96
             },
             "flags": 16,
@@ -446,8 +446,8 @@ for (;;) {}});
                     "start": 100,
                     "end": 133
                 },
-                "flags": 32,
-                "start": 97,
+                "flags": 97,
+                "start": 33,
                 "end": 134
             },
             "flags": 16,
@@ -562,8 +562,8 @@ for (;;) {}});
                     "start": 137,
                     "end": 174
                 },
-                "flags": 32,
-                "start": 135,
+                "flags": 135,
+                "start": 33,
                 "end": 175
             },
             "flags": 16,
@@ -664,8 +664,8 @@ for (;;) {}});
                                                     "start": 207,
                                                     "end": 214
                                                 },
-                                                "flags": 32,
-                                                "start": 205,
+                                                "flags": 205,
+                                                "start": 32,
                                                 "end": 215
                                             },
                                             "flags": 96,
@@ -694,8 +694,8 @@ for (;;) {}});
                     "start": 178,
                     "end": 217
                 },
-                "flags": 32,
-                "start": 176,
+                "flags": 176,
+                "start": 33,
                 "end": 218
             },
             "flags": 16,
@@ -806,8 +806,8 @@ for (;;) {}});
                                                     "start": 252,
                                                     "end": 261
                                                 },
-                                                "flags": 32,
-                                                "start": 250,
+                                                "flags": 250,
+                                                "start": 32,
                                                 "end": 262
                                             },
                                             "flags": 96,
@@ -836,8 +836,8 @@ for (;;) {}});
                     "start": 221,
                     "end": 264
                 },
-                "flags": 32,
-                "start": 219,
+                "flags": 219,
+                "start": 33,
                 "end": 265
             },
             "flags": 16,
@@ -946,8 +946,8 @@ for (;;) {}});
                     "start": 269,
                     "end": 305
                 },
-                "flags": 32,
-                "start": 266,
+                "flags": 266,
+                "start": 33,
                 "end": 306
             },
             "flags": 16,
@@ -1058,8 +1058,8 @@ for (;;) {}});
                     "start": 309,
                     "end": 346
                 },
-                "flags": 32,
-                "start": 307,
+                "flags": 307,
+                "start": 33,
                 "end": 347
             },
             "flags": 16,
@@ -1175,8 +1175,8 @@ for (;;) {}});
                     "start": 350,
                     "end": 389
                 },
-                "flags": 32,
-                "start": 348,
+                "flags": 348,
+                "start": 33,
                 "end": 390
             },
             "flags": 16,
@@ -1315,8 +1315,8 @@ for (;;) {}});
                     "start": 393,
                     "end": 445
                 },
-                "flags": 32,
-                "start": 391,
+                "flags": 391,
+                "start": 33,
                 "end": 446
             },
             "flags": 16,
@@ -1465,8 +1465,8 @@ for (;;) {}});
                     "start": 449,
                     "end": 505
                 },
-                "flags": 32,
-                "start": 447,
+                "flags": 447,
+                "start": 33,
                 "end": 506
             },
             "flags": 16,
@@ -1550,8 +1550,8 @@ for (;;) {}});
                     "start": 510,
                     "end": 535
                 },
-                "flags": 32,
-                "start": 507,
+                "flags": 507,
+                "start": 33,
                 "end": 536
             },
             "flags": 16,
@@ -1635,8 +1635,8 @@ for (;;) {}});
                     "start": 539,
                     "end": 563
                 },
-                "flags": 32,
-                "start": 537,
+                "flags": 537,
+                "start": 33,
                 "end": 564
             },
             "flags": 16,
@@ -1720,8 +1720,8 @@ for (;;) {}});
                     "start": 567,
                     "end": 592
                 },
-                "flags": 32,
-                "start": 565,
+                "flags": 565,
+                "start": 33,
                 "end": 593
             },
             "flags": 16,
@@ -1789,8 +1789,8 @@ for (;;) {}});
                                             "start": 616,
                                             "end": 621
                                         },
-                                        "flags": 32,
-                                        "start": 615,
+                                        "flags": 615,
+                                        "start": 32,
                                         "end": 622
                                     },
                                     "flags": 16,
@@ -1811,8 +1811,8 @@ for (;;) {}});
                     "start": 597,
                     "end": 623
                 },
-                "flags": 32,
-                "start": 594,
+                "flags": 594,
+                "start": 33,
                 "end": 624
             },
             "flags": 16,
@@ -1911,8 +1911,8 @@ for (;;) {}});
                     "start": 627,
                     "end": 653
                 },
-                "flags": 32,
-                "start": 625,
+                "flags": 625,
+                "start": 33,
                 "end": 654
             },
             "flags": 16,
@@ -2010,8 +2010,8 @@ for (;;) {}});
                     "start": 657,
                     "end": 683
                 },
-                "flags": 32,
-                "start": 655,
+                "flags": 655,
+                "start": 33,
                 "end": 684
             },
             "flags": 16,
@@ -2118,8 +2118,8 @@ for (;;) {}});
                     "start": 687,
                     "end": 718
                 },
-                "flags": 32,
-                "start": 685,
+                "flags": 685,
+                "start": 33,
                 "end": 719
             },
             "flags": 16,
@@ -2224,8 +2224,8 @@ for (;;) {}});
                     "start": 722,
                     "end": 753
                 },
-                "flags": 32,
-                "start": 720,
+                "flags": 720,
+                "start": 33,
                 "end": 754
             },
             "flags": 16,
@@ -2295,8 +2295,8 @@ for (;;) {}});
                                                 "start": 776,
                                                 "end": 781
                                             },
-                                            "flags": 32,
-                                            "start": 775,
+                                            "flags": 775,
+                                            "start": 32,
                                             "end": 782
                                         },
                                         "questionToken": {
@@ -2341,7 +2341,7 @@ for (;;) {}});
                                             "start": 792,
                                             "end": 798
                                         },
-                                        "flags": 32,
+                                        "flags": 807,
                                         "start": 775,
                                         "end": 798
                                     },
@@ -2363,8 +2363,8 @@ for (;;) {}});
                     "start": 757,
                     "end": 799
                 },
-                "flags": 32,
-                "start": 755,
+                "flags": 755,
+                "start": 33,
                 "end": 800
             },
             "flags": 16,
@@ -2434,8 +2434,8 @@ for (;;) {}});
                                                 "start": 822,
                                                 "end": 827
                                             },
-                                            "flags": 32,
-                                            "start": 821,
+                                            "flags": 821,
+                                            "start": 32,
                                             "end": 828
                                         },
                                         "questionToken": {
@@ -2480,7 +2480,7 @@ for (;;) {}});
                                             "start": 839,
                                             "end": 845
                                         },
-                                        "flags": 32,
+                                        "flags": 821,
                                         "start": 821,
                                         "end": 845
                                     },
@@ -2502,8 +2502,8 @@ for (;;) {}});
                     "start": 803,
                     "end": 846
                 },
-                "flags": 32,
-                "start": 801,
+                "flags": 801,
+                "start": 33,
                 "end": 847
             },
             "flags": 16,
@@ -2615,8 +2615,8 @@ for (;;) {}});
                     "start": 926,
                     "end": 962
                 },
-                "flags": 32,
-                "start": 848,
+                "flags": 848,
+                "start": 33,
                 "end": 963
             },
             "flags": 16,
@@ -2721,8 +2721,8 @@ for (;;) {}});
                                                             "start": 1004,
                                                             "end": 1009
                                                         },
-                                                        "flags": 32,
-                                                        "start": 1002,
+                                                        "flags": 1002,
+                                                        "start": 32,
                                                         "end": 1010
                                                     },
                                                     "typeParameter": null,
@@ -2745,7 +2745,7 @@ for (;;) {}});
                                             "start": 988,
                                             "end": 1013
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 985,
                                         "end": 1013
                                     },
@@ -2767,8 +2767,8 @@ for (;;) {}});
                     "start": 967,
                     "end": 1014
                 },
-                "flags": 32,
-                "start": 964,
+                "flags": 964,
+                "start": 33,
                 "end": 1015
             },
             "flags": 16,
@@ -2914,7 +2914,7 @@ for (;;) {}});
                                             "start": 1039,
                                             "end": 1065
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 1036,
                                         "end": 1065
                                     },
@@ -2936,8 +2936,8 @@ for (;;) {}});
                     "start": 1018,
                     "end": 1066
                 },
-                "flags": 32,
-                "start": 1016,
+                "flags": 1016,
+                "start": 33,
                 "end": 1067
             },
             "flags": 16,
@@ -3056,8 +3056,8 @@ for (;;) {}});
                                                             "start": 1105,
                                                             "end": 1118
                                                         },
-                                                        "flags": 32,
-                                                        "start": 1105,
+                                                        "flags": 1105,
+                                                        "start": 32,
                                                         "end": 1119
                                                     },
                                                     "typeParameter": null,
@@ -3080,7 +3080,7 @@ for (;;) {}});
                                             "start": 1091,
                                             "end": 1123
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 1088,
                                         "end": 1123
                                     },
@@ -3102,8 +3102,8 @@ for (;;) {}});
                     "start": 1070,
                     "end": 1124
                 },
-                "flags": 32,
-                "start": 1068,
+                "flags": 1068,
+                "start": 33,
                 "end": 1125
             },
             "flags": 16,
@@ -3240,8 +3240,8 @@ for (;;) {}});
                                                             "start": 1163,
                                                             "end": 1181
                                                         },
-                                                        "flags": 32,
-                                                        "start": 1163,
+                                                        "flags": 1163,
+                                                        "start": 32,
                                                         "end": 1182
                                                     },
                                                     "typeParameter": null,
@@ -3264,7 +3264,7 @@ for (;;) {}});
                                             "start": 1149,
                                             "end": 1186
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 1146,
                                         "end": 1186
                                     },
@@ -3286,8 +3286,8 @@ for (;;) {}});
                     "start": 1128,
                     "end": 1187
                 },
-                "flags": 32,
-                "start": 1126,
+                "flags": 1126,
+                "start": 33,
                 "end": 1188
             },
             "flags": 16,
@@ -3309,102 +3309,98 @@ for (;;) {}});
 ```javascript
 
 (function * gen() {
-  yield  2;
-})(function * gen() {
-  yield *  2;
-});
-(function * gen() {
-  yield *  2;
-});
-(function * gen() {
-  yield  yield  1;
-});
-(function * gen() {
-  yield *  yield *  1;
-});
-(function * gen() {
-  yield  3 + (yield  4);
-});
-(function * gen() {
-  yield *  3 + (yield *  4);
-});
-(function * gen() {
-  yield *  1;
-  return;
-});
-(function * gen() {
-  yield  1;
-  return 37;
-});
-(function * gen() {
-  yield *  1;
-  return 37;
-});
-(function * gen() {
-  yield  1;
-  return 37;
-  yield  '\'dead\'';
-});
-(function * gen() {
-  yield *  1;
-  return 37;
-  yield *  '\'dead\'';
-});
-(function * gen() {
-  yield ;
-});
-(function * gen() {
-  yield ;
-});
-(function * gen() {
-  yield ;
-});
-(function * gen() {
-  (yield );
-});
-(function * gen() {
-  [yield ,];
-});
-(function * gen() {
-  {
-    yield ;
+    yield 2;
+  })(
+  function * gen() {
+    yield * 2;
   }
-});
+);
 (function * gen() {
-  yield , yield ;
-});
+    yield * 2;
+  });
 (function * gen() {
-  yield ;
-  yield ;
-});
+    yield yield 1;
+  });
 (function * gen() {
-  (yield ) ? yield  : yield ;
-});
+    yield * yield * 1;
+  });
 (function * gen() {
-  (yield ) ? yield  : yield ;
-});
- // If there is a newline before the next token, we don't look for RHS.
+    yield 3 +  (yield 4);
+  });
 (function * gen() {
-  yield ;
-  for (;;) { }
-});
+    yield * 3 +  (yield * 4);
+  });
 (function * gen() {
-  x = class  extends (yield ) {
-  };
-});
+    yield * 1;
+    return;
+  });
 (function * gen() {
-  x = class  extends f(yield ) {
-  };
-});
+    yield 1;
+    return 37;
+  });
 (function * gen() {
-  x = class  extends (null, yield ) {
-  };
-});
+    yield * 1;
+    return 37;
+  });
 (function * gen() {
-  x = class  extends (a ? null : yield ) {
-  };
-});
-
+    yield 1;
+    return 37;
+    yield '\'dead\'';
+  });
+(function * gen() {
+    yield * 1;
+    return 37;
+    yield * '\'dead\'';
+  });
+(function * gen() {
+    yield ;
+  });
+(function * gen() {
+    yield ;
+  });
+(function * gen() {
+    yield ;
+  });
+(function * gen() {
+    (yield );
+  });
+(function * gen() {
+    [yield ];
+  });
+(function * gen() {
+    {
+      yield ;
+    }
+  });
+(function * gen() {
+    yield , yield ;
+  });
+(function * gen() {
+    yield ;
+    yield ;
+  });
+(function * gen() {
+    (yield ) ? yield  : yield ;
+  });
+(function * gen() {
+    (yield ) ? yield  : yield ;
+  });
+(function * gen() {
+    yield ;
+    for (;;) {}
+  });
+(function * gen() {
+    x = class   extends (yield ) {};
+  });
+(function * gen() {
+    x = class   extends f(yield ) {};
+  });
+(function * gen() {
+    x = class   extends (null , yield ) {};
+  });
+(function * gen() {
+    x = class   extends (a ? null  : yield ) {};
+  });
 ```
 
 ### Diagnostics

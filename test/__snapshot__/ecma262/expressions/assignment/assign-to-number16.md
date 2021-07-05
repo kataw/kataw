@@ -47,7 +47,7 @@ x = 0b89897kklb101b
                     "start": 3,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 12
             },

@@ -89,8 +89,7 @@ y/[]=x
 
 ```javascript
 
-y / [] = x;
-
+y /  [] = x;
 ```
 
 ### Diagnostics

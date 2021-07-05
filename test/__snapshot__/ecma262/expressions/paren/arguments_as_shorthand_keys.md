@@ -56,7 +56,7 @@ x = {arguments}
                     "start": 3,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 15
             },
@@ -78,8 +78,7 @@ x = {arguments}
 
 ```javascript
 
-x = { arguments };
-
+x = {arguments};
 ```
 
 ### Diagnostics

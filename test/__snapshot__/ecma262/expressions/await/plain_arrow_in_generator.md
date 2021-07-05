@@ -73,7 +73,7 @@ function *f(){  (await) => x  }
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 17,
                                     "end": 23
                                 },
@@ -129,9 +129,8 @@ function *f(){  (await) => x  }
 ```javascript
 
 function * f() {
-  (await) => x;
+  (await) =>  x;
 }
-
 ```
 
 ### Diagnostics

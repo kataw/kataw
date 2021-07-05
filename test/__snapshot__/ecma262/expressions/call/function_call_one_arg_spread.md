@@ -78,8 +78,9 @@ foo(...a)
 
 ```javascript
 
-foo(...a);
-
+foo(
+  ...a
+);
 ```
 
 ### Diagnostics

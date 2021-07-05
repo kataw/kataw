@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/invalid_obj_rest/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/invalid_obj_rest/gen/case
+- From: kataw/test/__snapshot__/ecma262/declarations/let/invalid_obj_rest/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/declarations/let/invalid_obj_rest/gen/case
 > :: test: case
 > :: case: let {...obj1,} = foo
 ## Options

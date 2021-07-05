@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/gen/stand-alone
 > :: test: stand-alone
 > :: case: var {a = my_var} = {}
 ## Options
@@ -119,10 +118,7 @@ var {a = my_var} = {}
 
 ```javascript
 
-var {
-  a = my_var
-} = {};
-
+var {a = my_var} = {};
 ```
 
 ### Diagnostics

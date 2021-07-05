@@ -63,8 +63,7 @@ await/x
 
 ```javascript
 
-await / x;
-
+await /  x;
 ```
 
 ### Diagnostics

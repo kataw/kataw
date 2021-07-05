@@ -69,8 +69,8 @@ x<number>(y)
                         "start": 10,
                         "end": 11
                     },
-                    "flags": 32,
-                    "start": 9,
+                    "flags": 9,
+                    "start": 32,
                     "end": 12
                 },
                 "flags": 96,
@@ -95,8 +95,7 @@ x<number>(y)
 
 ```javascript
 
-x  < number > (y);
-
+x  <  number >  (y);
 ```
 
 ### Diagnostics

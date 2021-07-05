@@ -93,7 +93,7 @@ const test = (names: string[]) =>
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 14,
                                 "end": 30
                             },
@@ -223,10 +223,7 @@ const test = (names: string[]) =>
 
 ```javascript
 
-const test = (names: string[]) => 
- // single-line comment
-names?.filter(x => x);
-
+const test = (names: string []) =>  names?.filter(x =>  x);
 ```
 
 ### Diagnostics

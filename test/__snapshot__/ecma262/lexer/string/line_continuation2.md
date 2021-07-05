@@ -101,15 +101,14 @@ post"
 
 ```javascript
 
-'"\
-"';
-'"pre\
-"';
-'"\
-post"';
-'"pre\
-post"';
-
+"\"\
+\"";
+"\"pre\
+\"";
+"\"\
+post\"";
+"\"pre\
+post\"";
 ```
 
 ### Diagnostics

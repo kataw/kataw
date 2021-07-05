@@ -65,9 +65,7 @@ if (foo) bar;
 
 ```javascript
 
-if (foo)
-  bar;
-
+if (foo) bar;
 ```
 
 ### Diagnostics

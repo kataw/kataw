@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/do-while/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/do-while/gen/with_unclosed_array
+- From: kataw/test/__snapshot__/ecma262/statements/do-while/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/statements/do-while/gen/with_unclosed_array
 > :: test: with unclosed array
 > :: case: while try this and !foo
 ## Options
@@ -53,7 +52,7 @@ do[ while try this and !foo
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
                 "start": 3,
                 "end": 9
             },

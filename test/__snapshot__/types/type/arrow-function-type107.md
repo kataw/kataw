@@ -241,8 +241,7 @@ type a = (b[([x])=> c]) => c;
 
 ```javascript
 
-type a = (b[ ([[x]]) => c]) => c
-
+type a = (b[([x]) =>  c]) =>  c
 ```
 
 ### Diagnostics

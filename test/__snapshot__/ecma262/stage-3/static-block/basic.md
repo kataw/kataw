@@ -172,7 +172,7 @@ class C {
                                                     "start": 53,
                                                     "end": 62
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 38,
                                                 "end": 62
                                             },
@@ -221,12 +221,9 @@ class C {
 ```javascript
 
 class C {
-  static foo() {}
-  static  {
-    this.bar = this.foo;
-  }
+  static foo(){}
+  
 }
-
 ```
 
 ### Diagnostics

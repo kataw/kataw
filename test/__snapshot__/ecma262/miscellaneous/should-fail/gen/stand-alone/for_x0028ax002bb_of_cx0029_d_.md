@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/gen/stand-alone
 > :: test: stand-alone
 > :: case: for (a+b of c) d;
 ## Options
@@ -107,9 +106,8 @@ for (a+b of c) d;
 
 ```javascript
 
-for (a + b; c; of)
+for (a +  b; c; of)
   d;
-
 ```
 
 ### Diagnostics

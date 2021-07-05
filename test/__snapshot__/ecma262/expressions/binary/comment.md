@@ -185,24 +185,24 @@ foo[
                                                     "start": 51,
                                                     "end": 74
                                                 },
-                                                "flags": 32,
-                                                "start": 49,
+                                                "flags": 49,
+                                                "start": 32,
                                                 "end": 75
                                             },
                                             "flags": 96,
                                             "start": 39,
                                             "end": 75
                                         },
-                                        "flags": 32,
-                                        "start": 39,
+                                        "flags": 39,
+                                        "start": 32,
                                         "end": 76
                                     },
                                     "flags": 268435488,
                                     "start": 5,
                                     "end": 76
                                 },
-                                "flags": 32,
-                                "start": 5,
+                                "flags": 5,
+                                "start": 33,
                                 "end": 77
                             },
                             "operatorToken": {
@@ -241,16 +241,16 @@ foo[
                                     "start": 81,
                                     "end": 111
                                 },
-                                "flags": 32,
-                                "start": 81,
+                                "flags": 81,
+                                "start": 32,
                                 "end": 112
                             },
-                            "flags": 33,
+                            "flags": 37,
                             "start": 5,
                             "end": 112
                         },
-                        "flags": 32,
-                        "start": 3,
+                        "flags": 3,
+                        "start": 32,
                         "end": 114
                     },
                     "operatorToken": {
@@ -267,11 +267,11 @@ foo[
                         "start": 116,
                         "end": 123
                     },
-                    "flags": 32,
+                    "flags": 35,
                     "start": 3,
                     "end": 123
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 123
             },
@@ -1036,8 +1036,8 @@ foo[
                                     "start": 809,
                                     "end": 859
                                 },
-                                "flags": 32,
-                                "start": 809,
+                                "flags": 809,
+                                "start": 32,
                                 "end": 863
                             },
                             "flags": 32,
@@ -1048,8 +1048,8 @@ foo[
                         "start": 775,
                         "end": 863
                     },
-                    "flags": 32,
-                    "start": 775,
+                    "flags": 775,
+                    "start": 32,
                     "end": 865
                 },
                 "flags": 32,
@@ -1074,24 +1074,20 @@ foo[
 
 ```javascript
 
-a = (
- // Comment 1
-(Math.random() * (yRange * (1 - minVerticalFraction))) + (minVerticalFraction * yRange)) - offset;
-a + a + a +// comment
- a + a;
-a && longLongLongLongLongLongLongLongLong && longLongLongLongLongLongLongLongLong &&// comment
- longLongLongLongLongLongLongLongLong && longLongLongLongLongLongLongLongLong;
-a || longLongLongLongLongLongLongLongLong || longLongLongLongLongLongLongLongLong ||// comment
- longLongLongLongLongLongLongLongLong || longLongLongLongLongLongLongLongLong;
-var a = x(abifornCringerMoshedPerplexSawder + kochabCooieGameOnOboleUnweave// f
- + glimseGlyphsHazardNoopsTieTie + bifornCringerMoshedPerplexSawder);
-foo[a + a +// comment
- a + bar[b + b + b +// comment
- b + b]];
-!(a + a +// comment
- a + !(b + b + b +// comment
- b + b));
-
+a =
+  (
+    (Math.random() *  (yRange *  (1 -  minVerticalFraction))) +  (
+      minVerticalFraction *  yRange
+    )
+  ) -  offset;
+a +  a +  a +  a +  a;
+a &&  longLongLongLongLongLongLongLongLong &&  longLongLongLongLongLongLongLongLong &&  longLongLongLongLongLongLongLongLong &&  longLongLongLongLongLongLongLongLong;
+a ||  longLongLongLongLongLongLongLongLong ||  longLongLongLongLongLongLongLongLong ||  longLongLongLongLongLongLongLongLong ||  longLongLongLongLongLongLongLongLong;
+var a = x(
+    abifornCringerMoshedPerplexSawder +  kochabCooieGameOnOboleUnweave +  glimseGlyphsHazardNoopsTieTie +  bifornCringerMoshedPerplexSawder
+  );
+foo[a +  a +  a +  bar[b +  b +  b +  b +  b]];
+!(a +  a +  a +  !(b +  b +  b +  b +  b));
 ```
 
 ### Diagnostics

@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/gen/stand-alone
 > :: test: stand-alone
 > :: case: class x {static set key(ident){}}
 ## Options
@@ -146,9 +145,8 @@ class x {static set key(ident){}}
 ```javascript
 
 class x {
-  static set key(ident) {}
+  static set key(ident){}
 }
-
 ```
 
 ### Diagnostics

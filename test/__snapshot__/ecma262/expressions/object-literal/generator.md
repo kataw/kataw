@@ -101,7 +101,7 @@ x= { *prototype(){} }
                     "start": 2,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 21
             },
@@ -123,8 +123,7 @@ x= { *prototype(){} }
 
 ```javascript
 
-x = { * prototype() {} };
-
+x = {* prototype(){}};
 ```
 
 ### Diagnostics

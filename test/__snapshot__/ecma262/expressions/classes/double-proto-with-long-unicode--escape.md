@@ -119,9 +119,8 @@ class x { "construct\u{6f}r"(){} }
 ```javascript
 
 class x {
-  '"construct\u{6f}r"'() {}
+  "\"construct\u{6f}r\""(){}
 }
-
 ```
 
 ### Diagnostics

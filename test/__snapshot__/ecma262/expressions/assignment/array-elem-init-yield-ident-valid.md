@@ -276,7 +276,7 @@ result = [ x = yield ] = vals;
                     "start": 59,
                     "end": 80
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 49,
                 "end": 80
             },
@@ -302,8 +302,7 @@ var yield = 4;
 var x;
 var result;
 var vals = [];
-result = [x = yield,] = vals;
-
+result = [x = yield] = vals;
 ```
 
 ### Diagnostics

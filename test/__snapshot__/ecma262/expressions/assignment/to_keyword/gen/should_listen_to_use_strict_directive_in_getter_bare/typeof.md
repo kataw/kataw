@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/should_listen_to_use_strict_directive_in_getter_bare
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/gen/should_listen_to_use_strict_directive_in_getter_bare
 > :: test: should listen to use strict directive in getter bare
 > :: case: typeof
 ## Options
@@ -135,7 +134,7 @@ foo = {
                                                             "start": 49,
                                                             "end": 51
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 0,
                                                         "start": 36,
                                                         "end": 51
                                                     },
@@ -170,7 +169,7 @@ foo = {
                     "start": 5,
                     "end": 57
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 57
             },

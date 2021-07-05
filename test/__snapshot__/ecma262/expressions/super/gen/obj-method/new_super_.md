@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/super/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/super/gen/obj-method
+- From: kataw/test/__snapshot__/ecma262/expressions/super/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/super/gen/obj-method
 > :: test: obj-method
 > :: case: new super;
 ## Options
@@ -130,8 +129,8 @@
                     "start": 1,
                     "end": 28
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 29
             },
             "flags": 16,

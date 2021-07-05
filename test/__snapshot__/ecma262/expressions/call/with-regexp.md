@@ -133,8 +133,10 @@
 ```javascript
 
 x(/^(<[^>]+>)/)[1];
-x(y, /a/);
-
+x(
+  y,
+  /a/
+);
 ```
 
 ### Diagnostics

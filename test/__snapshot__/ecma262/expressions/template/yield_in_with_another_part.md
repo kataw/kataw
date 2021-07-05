@@ -81,7 +81,7 @@ x = `1 ${ yield } 2 ${ 3 } 4`
                     "start": 3,
                     "end": 29
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 29
             },
@@ -103,8 +103,7 @@ x = `1 ${ yield } 2 ${ 3 } 4`
 
 ```javascript
 
-x = `1 ${yield} 2 ${3} 4`;
-
+x = `1 ${yield},  2 ${3} 4`;
 ```
 
 ### Diagnostics

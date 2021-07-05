@@ -41,7 +41,7 @@ x = "\8";
                     "start": 3,
                     "end": 8
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -63,8 +63,7 @@ x = "\8";
 
 ```javascript
 
-x = '"8"';
-
+x = "\"8\"";
 ```
 
 ### Diagnostics

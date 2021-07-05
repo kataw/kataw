@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/gen/in_try
+- From: kataw/test/__snapshot__/ecma262/expressions/function/func_statements/gen/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/function/func_statements/gen/gen/in_try
 > :: test: in try
 > :: case: async function f(){}
 ## Options
@@ -155,10 +154,7 @@ try {
 
 try {
   async function f() {}
-}
-catch (e){
-}
-
+} catch (e) {}
 ```
 
 ### Diagnostics

@@ -51,8 +51,8 @@ import((dummy, source))
                         "start": 7,
                         "end": 22
                     },
-                    "flags": 32,
-                    "start": 7,
+                    "flags": 7,
+                    "start": 32,
                     "end": 22
                 },
                 "flags": 32,
@@ -78,7 +78,6 @@ import((dummy, source))
 ```javascript
 
 import((dummy, source));
-
 ```
 
 ### Diagnostics

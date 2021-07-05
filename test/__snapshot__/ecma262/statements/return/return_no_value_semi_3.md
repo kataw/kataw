@@ -100,7 +100,6 @@ function f(){   return 15;    }
 function f() {
   return 15;
 }
-
 ```
 
 ### Diagnostics

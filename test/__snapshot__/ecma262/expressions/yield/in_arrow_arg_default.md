@@ -165,9 +165,7 @@ function *g() { async (x = yield) => {}; }
 
 function * g() {
   async (x = yield ) => {}
-  ;
 }
-
 ```
 
 ### Diagnostics

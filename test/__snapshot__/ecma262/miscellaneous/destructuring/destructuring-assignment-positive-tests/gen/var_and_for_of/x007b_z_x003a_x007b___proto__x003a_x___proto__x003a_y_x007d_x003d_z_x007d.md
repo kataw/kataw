@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/gen/var_and_for_of
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/destructuring-assignment-positive-tests/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/destructuring-assignment-positive-tests/gen/var_and_for_of
 > :: test: var and for of
 > :: case: { z : { __proto__: x, __proto__: y } = z }
 ## Options
@@ -280,7 +279,7 @@ var x, y, z; for (x of x = { z : { __proto__: x, __proto__: y } = z } = z = {});
                             "start": 75,
                             "end": 78
                         },
-                        "flags": 32,
+                        "flags": 0,
                         "start": 71,
                         "end": 78
                     },
@@ -288,7 +287,7 @@ var x, y, z; for (x of x = { z : { __proto__: x, __proto__: y } = z } = z = {});
                     "start": 26,
                     "end": 78
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 22,
                 "end": 78
             },
@@ -317,9 +316,7 @@ var x, y, z; for (x of x = { z : { __proto__: x, __proto__: y } = z } = z = {});
 ```javascript
 
 var x, y, z;
-for (x of x = { z : { __proto__ : x, __proto__ : y } = z } = z = {})
-  ;
-
+for (x of x = {z: {__proto__: x, __proto__: y} = z} = z = {});
 ```
 
 ### Diagnostics

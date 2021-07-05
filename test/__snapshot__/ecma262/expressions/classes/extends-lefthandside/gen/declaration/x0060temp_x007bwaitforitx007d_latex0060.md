@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/declaration
+- From: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/gen/declaration
 > :: test: declaration
 > :: case: `temp {waitforit} late`
 ## Options
@@ -94,9 +93,7 @@ class A extends `temp {waitforit} late` {}
 
 ```javascript
 
-class A extends `temp {waitforit} late` {
-}
-
+class A  extends `temp {waitforit} late` {}
 ```
 
 ### Diagnostics

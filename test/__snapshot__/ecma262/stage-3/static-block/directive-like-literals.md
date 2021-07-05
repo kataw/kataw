@@ -187,7 +187,7 @@ class C {
                                                     "start": 107,
                                                     "end": 116
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 56,
                                                 "end": 116
                                             },
@@ -236,13 +236,9 @@ class C {
 ```javascript
 
 class C {
-  static foo() {}
-  static  {
-    '"use strict"';// will not be parsed as directives
-    this.bar = this.foo;
-  }
+  static foo(){}
+  
 }
-
 ```
 
 ### Diagnostics

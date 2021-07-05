@@ -34,8 +34,8 @@ for ((async) of [7]);
                     "start": 6,
                     "end": 11
                 },
-                "flags": 32,
-                "start": 5,
+                "flags": 5,
+                "start": 32,
                 "end": 12
             },
             "ofKeyword": {
@@ -91,9 +91,7 @@ for ((async) of [7]);
 
 ```javascript
 
-for ((async) of [7,])
-  ;
-
+for ((async) of [7]);
 ```
 
 ### Diagnostics

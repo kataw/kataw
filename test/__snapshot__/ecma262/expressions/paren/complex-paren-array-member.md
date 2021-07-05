@@ -118,8 +118,8 @@
                                                             "start": 7,
                                                             "end": 20
                                                         },
-                                                        "flags": 32,
-                                                        "start": 6,
+                                                        "flags": 6,
+                                                        "start": 34,
                                                         "end": 21
                                                     }
                                                 ],
@@ -176,8 +176,8 @@
                     "start": 1,
                     "end": 29
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 30
             },
             "flags": 16,
@@ -198,8 +198,7 @@
 
 ```javascript
 
-([...[([...[].x] = x),].x] = x);
-
+([...[([...[].x] = x)].x] = x);
 ```
 
 ### Diagnostics

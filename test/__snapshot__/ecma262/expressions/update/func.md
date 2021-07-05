@@ -110,9 +110,8 @@ function f(){ return --a; }
 ```javascript
 
 function f() {
-  return --a;
+  return -- a;
 }
-
 ```
 
 ### Diagnostics

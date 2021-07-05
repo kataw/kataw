@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/expression
+- From: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/gen/expression
 > :: test: expression
 > :: case: function f(){}
 ## Options
@@ -121,8 +120,8 @@
                     "start": 1,
                     "end": 34
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 32,
                 "end": 35
             },
             "flags": 16,
@@ -143,9 +142,7 @@
 
 ```javascript
 
-(class B extends function f() {} {
-});
-
+(class B  extends function f() {} {});
 ```
 
 ### Diagnostics

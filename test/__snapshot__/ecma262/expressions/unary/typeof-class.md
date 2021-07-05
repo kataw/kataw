@@ -76,9 +76,7 @@ typeof class {};
 
 ```javascript
 
-typeof class  {
-};
-
+typeof class  {};
 ```
 
 ### Diagnostics

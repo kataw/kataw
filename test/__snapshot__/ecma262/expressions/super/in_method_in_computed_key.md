@@ -165,7 +165,7 @@ x = { foo(){ return {[super[foo]]: x}; }}
                     "start": 3,
                     "end": 41
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 41
             },
@@ -187,10 +187,9 @@ x = { foo(){ return {[super[foo]]: x}; }}
 
 ```javascript
 
-x = { foo() {
-    return { [super[foo]] : x };
-  } };
-
+x = {foo(){
+    return {[super [foo]]: x};
+  }};
 ```
 
 ### Diagnostics

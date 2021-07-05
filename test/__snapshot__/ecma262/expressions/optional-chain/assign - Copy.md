@@ -74,7 +74,7 @@ foo?.bar = x
                     "start": 10,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 12
             },

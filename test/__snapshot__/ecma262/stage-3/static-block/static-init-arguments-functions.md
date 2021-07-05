@@ -138,7 +138,7 @@ class C {
                                                                                         "start": 55,
                                                                                         "end": 65
                                                                                     },
-                                                                                    "flags": 32,
+                                                                                    "flags": 0,
                                                                                     "start": 45,
                                                                                     "end": 65
                                                                                 },
@@ -194,7 +194,7 @@ class C {
                                                                                 "start": 80,
                                                                                 "end": 90
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 0,
                                                                             "start": 69,
                                                                             "end": 90
                                                                         },
@@ -216,8 +216,8 @@ class C {
                                                         "start": 26,
                                                         "end": 97
                                                     },
-                                                    "flags": 32,
-                                                    "start": 20,
+                                                    "flags": 20,
+                                                    "start": 33,
                                                     "end": 98
                                                 },
                                                 "argumentList": {
@@ -317,7 +317,7 @@ class C {
                                                                                                 "start": 151,
                                                                                                 "end": 161
                                                                                             },
-                                                                                            "flags": 32,
+                                                                                            "flags": 0,
                                                                                             "start": 140,
                                                                                             "end": 161
                                                                                         },
@@ -373,7 +373,7 @@ class C {
                                                                                         "start": 177,
                                                                                         "end": 187
                                                                                     },
-                                                                                    "flags": 32,
+                                                                                    "flags": 0,
                                                                                     "start": 165,
                                                                                     "end": 187
                                                                                 },
@@ -395,8 +395,8 @@ class C {
                                                                 "start": 118,
                                                                 "end": 194
                                                             },
-                                                            "flags": 32,
-                                                            "start": 111,
+                                                            "flags": 111,
+                                                            "start": 33,
                                                             "end": 195
                                                         },
                                                         "argumentList": {
@@ -516,7 +516,7 @@ class C {
                                                                                         "start": 273,
                                                                                         "end": 283
                                                                                     },
-                                                                                    "flags": 32,
+                                                                                    "flags": 0,
                                                                                     "start": 258,
                                                                                     "end": 283
                                                                                 },
@@ -572,7 +572,7 @@ class C {
                                                                                 "start": 303,
                                                                                 "end": 313
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 0,
                                                                             "start": 287,
                                                                             "end": 313
                                                                         },
@@ -594,8 +594,8 @@ class C {
                                                         "start": 232,
                                                         "end": 320
                                                     },
-                                                    "flags": 32,
-                                                    "start": 225,
+                                                    "flags": 225,
+                                                    "start": 33,
                                                     "end": 321
                                                 },
                                                 "argumentList": {
@@ -664,25 +664,8 @@ class C {
 ```javascript
 
 class C {
-  static  {
-    (function ({
-        test262 = fnParam = arguments
-      }) {
-      fn = arguments;
-    })('\'function\'');
-    (function * ({
-        test262 = genParam = arguments
-      }) {
-      gen = arguments;
-    })('\'generator function\'').next();
-    (async function ({
-        test262 = asyncFnParam = arguments
-      }) {
-      asyncFn = arguments;
-    })('\'async function\'');
-  }
+  
 }
-
 ```
 
 ### Diagnostics

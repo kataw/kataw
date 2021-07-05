@@ -64,7 +64,7 @@ export ...x = y
                     "start": 13,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 10,
                 "end": 15
             },

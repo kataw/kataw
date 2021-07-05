@@ -75,7 +75,6 @@ b
 
 a`foo\r\nbar`;
 b;
-
 ```
 
 ### Diagnostics

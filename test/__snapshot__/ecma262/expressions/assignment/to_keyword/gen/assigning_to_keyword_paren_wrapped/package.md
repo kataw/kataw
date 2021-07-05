@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/assigning_to_keyword_paren_wrapped
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/gen/assigning_to_keyword_paren_wrapped
 > :: test: assigning to keyword paren wrapped
 > :: case: package
 ## Options
@@ -55,8 +54,8 @@
                     "start": 0,
                     "end": 12
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 13
             },
             "flags": 16,
@@ -78,7 +77,6 @@
 ```javascript
 
 (package = x);
-
 ```
 
 ### Diagnostics

@@ -90,7 +90,7 @@ result = [x[yield]] = vals;
                     "start": 8,
                     "end": 26
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 26
             },
@@ -112,8 +112,7 @@ result = [x[yield]] = vals;
 
 ```javascript
 
-result = [x[yield],] = vals;
-
+result = [x[yield]] = vals;
 ```
 
 ### Diagnostics

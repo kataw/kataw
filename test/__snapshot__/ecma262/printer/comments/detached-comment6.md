@@ -53,10 +53,8 @@
 ### Printed
 
 ```javascript
-// detached comment 1
-x;
- /* detached comment 2 */
 
+x;
 ```
 
 ### Diagnostics

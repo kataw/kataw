@@ -66,7 +66,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
                     "start": 1,
                     "end": 13
                 },
@@ -113,10 +113,7 @@
 
 ```javascript
 
-({
-    x
-  } = yield) => {};
-
+({x} = yield) => {};
 ```
 
 ### Diagnostics

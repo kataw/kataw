@@ -73,7 +73,7 @@ a={"b":c=d}
                                         "start": 9,
                                         "end": 10
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 3,
                                     "end": 10
                                 },
@@ -91,7 +91,7 @@ a={"b":c=d}
                     "start": 2,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 11
             },
@@ -113,8 +113,7 @@ a={"b":c=d}
 
 ```javascript
 
-a = { '"b"' : c = d };
-
+a = {"\"b\"": c = d};
 ```
 
 ### Diagnostics

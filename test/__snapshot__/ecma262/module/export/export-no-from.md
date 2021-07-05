@@ -120,8 +120,7 @@ export { x }
 ```javascript
 
 let x;
-export { x, };
-
+export { x  };
 ```
 
 ### Diagnostics

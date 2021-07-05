@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_declaration
+- From: kataw/test/__snapshot__/ecma262/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/yield/gen/function_declaration
 > :: test: function declaration
 > :: case: x = class extends (a ? null : yield) { }
 ## Options
@@ -138,8 +137,8 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                                                     "start": 38,
                                                     "end": 56
                                                 },
-                                                "flags": 32,
-                                                "start": 38,
+                                                "flags": 38,
+                                                "start": 32,
                                                 "end": 57
                                             },
                                             "typeParameter": null,
@@ -162,7 +161,7 @@ function not_gen() { x = class extends (a ? null : yield) { } }}
                                     "start": 24,
                                     "end": 61
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 20,
                                 "end": 61
                             },

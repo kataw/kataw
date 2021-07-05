@@ -72,7 +72,7 @@ if (0) let
                         "start": 16,
                         "end": 18
                     },
-                    "flags": 32,
+                    "flags": 1,
                     "start": 6,
                     "end": 18
                 },

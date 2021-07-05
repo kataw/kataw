@@ -90,7 +90,7 @@ class C {
                                     "kind": 342,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 25,
                                     "end": 25
                                 },
@@ -151,9 +151,8 @@ class C {
 ```javascript
 
 class C {
-  [await 0] = () => {}
+  [await 0] = () => {};
 }
-
 ```
 
 ### Diagnostics

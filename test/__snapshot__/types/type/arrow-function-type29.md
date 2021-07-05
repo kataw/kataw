@@ -342,8 +342,8 @@ type a = ((q | y, x?:string | (x?:string)=> T)=> T) => T;
 
 ```javascript
 
-type a = ((q | y, x?: string | (x?: string) => T) => T) => T
-
+type a = ((q | y,
+x? : string  | (x?: string ) =>  T) =>  T) =>  T
 ```
 
 ### Diagnostics

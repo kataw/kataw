@@ -173,8 +173,8 @@
                         "start": 0,
                         "end": 153
                     },
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 32,
                     "end": 155
                 },
                 "argumentList": {
@@ -287,8 +287,8 @@
                         "start": 158,
                         "end": 198
                     },
-                    "flags": 32,
-                    "start": 158,
+                    "flags": 158,
+                    "start": 33,
                     "end": 200
                 },
                 "argumentList": {
@@ -401,8 +401,8 @@
                         "start": 203,
                         "end": 354
                     },
-                    "flags": 32,
-                    "start": 203,
+                    "flags": 203,
+                    "start": 33,
                     "end": 356
                 },
                 "argumentList": {
@@ -515,8 +515,8 @@
                         "start": 359,
                         "end": 395
                     },
-                    "flags": 32,
-                    "start": 359,
+                    "flags": 359,
+                    "start": 33,
                     "end": 397
                 },
                 "argumentList": {
@@ -633,8 +633,8 @@
                                 "start": 400,
                                 "end": 555
                             },
-                            "flags": 32,
-                            "start": 400,
+                            "flags": 400,
+                            "start": 33,
                             "end": 557
                         },
                         "argumentList": {
@@ -775,8 +775,8 @@
                                 "start": 564,
                                 "end": 719
                             },
-                            "flags": 32,
-                            "start": 564,
+                            "flags": 564,
+                            "start": 33,
                             "end": 721
                         },
                         "argumentList": {
@@ -1100,13 +1100,26 @@
 
 ```javascript
 
-(aaaaaaaaaaaaaaaaaaaaaaaaa && bbbbbbbbbbbbbbbbbbbbbbbbb && ccccccccccccccccccccccccc && ddddddddddddddddddddddddd && eeeeeeeeeeeeeeeeeeeeeeeee)();
-(aa && bb && cc && dd && ee)();
-(aaaaaaaaaaaaaaaaaaaaaaaaa + bbbbbbbbbbbbbbbbbbbbbbbbb + ccccccccccccccccccccccccc + ddddddddddddddddddddddddd + eeeeeeeeeeeeeeeeeeeeeeeee)();
-(aa + bb + cc + dd + ee)();
-(aaaaaaaaaaaaaaaaaaaaaaaaa && bbbbbbbbbbbbbbbbbbbbbbbbb && ccccccccccccccccccccccccc && ddddddddddddddddddddddddd && eeeeeeeeeeeeeeeeeeeeeeeee)()()();
-(aaaaaaaaaaaaaaaaaaaaaaaaa && bbbbbbbbbbbbbbbbbbbbbbbbb && ccccccccccccccccccccccccc && ddddddddddddddddddddddddd && eeeeeeeeeeeeeeeeeeeeeeeee)(aaaaaaaaaaaaaaaaaaaaaaaaa && bbbbbbbbbbbbbbbbbbbbbbbbb && ccccccccccccccccccccccccc && ddddddddddddddddddddddddd && eeeeeeeeeeeeeeeeeeeeeeeee)(aaaaaaaaaaaaaaaaaaaaaaaaa && bbbbbbbbbbbbbbbbbbbbbbbbb && ccccccccccccccccccccccccc && ddddddddddddddddddddddddd && eeeeeeeeeeeeeeeeeeeeeeeee)(aaaaaaaaaaaaaaaaaaaaaaaaa && bbbbbbbbbbbbbbbbbbbbbbbbb && ccccccccccccccccccccccccc && ddddddddddddddddddddddddd && eeeeeeeeeeeeeeeeeeeeeeeee);
-
+(
+  aaaaaaaaaaaaaaaaaaaaaaaaa &&  bbbbbbbbbbbbbbbbbbbbbbbbb &&  ccccccccccccccccccccccccc &&  ddddddddddddddddddddddddd &&  eeeeeeeeeeeeeeeeeeeeeeeee
+)();
+(aa &&  bb &&  cc &&  dd &&  ee)();
+(
+  aaaaaaaaaaaaaaaaaaaaaaaaa +  bbbbbbbbbbbbbbbbbbbbbbbbb +  ccccccccccccccccccccccccc +  ddddddddddddddddddddddddd +  eeeeeeeeeeeeeeeeeeeeeeeee
+)();
+(aa +  bb +  cc +  dd +  ee)();
+(
+  aaaaaaaaaaaaaaaaaaaaaaaaa &&  bbbbbbbbbbbbbbbbbbbbbbbbb &&  ccccccccccccccccccccccccc &&  ddddddddddddddddddddddddd &&  eeeeeeeeeeeeeeeeeeeeeeeee
+)()()();
+(
+  aaaaaaaaaaaaaaaaaaaaaaaaa &&  bbbbbbbbbbbbbbbbbbbbbbbbb &&  ccccccccccccccccccccccccc &&  ddddddddddddddddddddddddd &&  eeeeeeeeeeeeeeeeeeeeeeeee
+)(
+  aaaaaaaaaaaaaaaaaaaaaaaaa &&  bbbbbbbbbbbbbbbbbbbbbbbbb &&  ccccccccccccccccccccccccc &&  ddddddddddddddddddddddddd &&  eeeeeeeeeeeeeeeeeeeeeeeee
+)(
+  aaaaaaaaaaaaaaaaaaaaaaaaa &&  bbbbbbbbbbbbbbbbbbbbbbbbb &&  ccccccccccccccccccccccccc &&  ddddddddddddddddddddddddd &&  eeeeeeeeeeeeeeeeeeeeeeeee
+)(
+  aaaaaaaaaaaaaaaaaaaaaaaaa &&  bbbbbbbbbbbbbbbbbbbbbbbbb &&  ccccccccccccccccccccccccc &&  ddddddddddddddddddddddddd &&  eeeeeeeeeeeeeeeeeeeeeeeee
+);
 ```
 
 ### Diagnostics

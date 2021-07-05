@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/special_keys/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/special_keys/gen/as_getter_in_class
+- From: kataw/test/__snapshot__/ecma262/expressions/classes/special_keys/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/classes/special_keys/gen/as_getter_in_class
 > :: test: as getter in class
 > :: case: instanceof
 ## Options
@@ -132,9 +131,8 @@ class x {get instanceof(){}}
 ```javascript
 
 class x {
-  get instanceof() {}
+  get instanceof(){}
 }
-
 ```
 
 ### Diagnostics

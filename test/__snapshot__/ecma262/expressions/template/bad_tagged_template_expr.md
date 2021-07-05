@@ -82,7 +82,6 @@ x`foo ${a b} bar`
 ```javascript
 
 x`foo ${a}} bar`;
-
 ```
 
 ### Diagnostics

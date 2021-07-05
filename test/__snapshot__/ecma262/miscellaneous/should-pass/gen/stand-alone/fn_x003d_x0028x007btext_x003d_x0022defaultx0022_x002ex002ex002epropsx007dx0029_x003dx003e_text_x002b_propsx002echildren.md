@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/gen/stand-alone
 > :: test: stand-alone
 > :: case: fn = ({text = "default", ...props}) => text + props.children
 ## Options
@@ -113,7 +112,7 @@ fn = ({text = "default", ...props}) => text + props.children
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 2,
+                        "flags": 34,
                         "start": 6,
                         "end": 35
                     },
@@ -170,7 +169,7 @@ fn = ({text = "default", ...props}) => text + props.children
                     "start": 4,
                     "end": 60
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 60
             },
@@ -192,11 +191,7 @@ fn = ({text = "default", ...props}) => text + props.children
 
 ```javascript
 
-fn = ({
-    text = '"default"',
-    ...props
-  }) => text + props.children;
-
+fn = ({text = "\"default\"", ...props}) =>  text +  props.children;
 ```
 
 ### Diagnostics

@@ -1217,8 +1217,8 @@ function targetKey() {
                     "start": 632,
                     "end": 681
                 },
-                "flags": 32,
-                "start": 628,
+                "flags": 628,
+                "start": 35,
                 "end": 682
             },
             "flags": 16,
@@ -1241,41 +1241,48 @@ function targetKey() {
 
 var log = [];
 function source() {
-  log.push('"source"');
+  log.push(
+    "\"source\""
+  );
   return {
-    get p() {
-      log.push('"get"');
+    get p(){
+      log.push("\"get\"");
     }
   };
 }
 function target() {
-  log.push('"target"');
+  log.push(
+    "\"target\""
+  );
   return {
-    set q(v) {
-      log.push('"set"');
+    set q(v){
+      log.push("\"set\"");
     }
   };
 }
 function sourceKey() {
-  log.push('"source-key"');
+  log.push(
+    "\"source-key\""
+  );
   return {
-    toString : function () {
-      log.push('"source-key-tostring"');
-      return '"p"';
+    toString: function () {
+      log.push("\"source-key-tostring\"");
+      return "\"p\"";
     }
   };
 }
 function targetKey() {
-  log.push('"target-key"');
+  log.push(
+    "\"target-key\""
+  );
   return {
-    toString : function () {
-      log.push('"target-key-tostring"');
-      return '"q"';
+    toString: function () {
+      log.push("\"target-key-tostring\"");
+      return "\"q\"";
     }
   };
 }
-({ [sourceKey()] : target()[targetKey()] } = source());
-
+({[sourceKey()]: target()[targetKey()]} = source());
 ```
 
 ### Diagnostics

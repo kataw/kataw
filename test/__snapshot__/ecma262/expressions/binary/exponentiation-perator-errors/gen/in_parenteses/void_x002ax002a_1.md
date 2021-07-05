@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/binary/exponentiation-perator-errors/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/binary/exponentiation-perator-errors/gen/in_parenteses
+- From: kataw/test/__snapshot__/ecma262/expressions/binary/exponentiation-perator-errors/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/binary/exponentiation-perator-errors/gen/in_parenteses
 > :: test: in parenteses
 > :: case: void ** 1
 ## Options
@@ -170,8 +169,8 @@ var O = { p: 1 }, x = 10; ; (void ** 1)
                     "start": 29,
                     "end": 38
                 },
-                "flags": 32,
-                "start": 27,
+                "flags": 27,
+                "start": 32,
                 "end": 39
             },
             "flags": 16,

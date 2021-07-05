@@ -54,7 +54,7 @@ y(y/=x,{}=x)
                                 "start": 5,
                                 "end": 6
                             },
-                            "flags": 32,
+                            "flags": 0,
                             "start": 2,
                             "end": 6
                         },
@@ -120,8 +120,10 @@ y(y/=x,{}=x)
 
 ```javascript
 
-y(y /= x, {} = x);
-
+y(
+  y /= x,
+  {} = x
+);
 ```
 
 ### Diagnostics

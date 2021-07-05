@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/new_arg
+- From: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/gen/new_arg
 > :: test: new arg
 > :: case: x in y
 ## Options
@@ -84,8 +83,7 @@ new x in y
 
 ```javascript
 
-new x in y;
-
+new x in  y;
 ```
 
 ### Diagnostics

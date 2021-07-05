@@ -78,8 +78,8 @@ for ({x = y} = (z);;) {}
                         "start": 16,
                         "end": 17
                     },
-                    "flags": 32,
-                    "start": 14,
+                    "flags": 14,
+                    "start": 32,
                     "end": 18
                 },
                 "flags": 32,
@@ -119,8 +119,8 @@ for ({x = y} = (z);;) {}
 
 ```javascript
 
-for ({ x = y } = (z);;) { }
-
+for ({x = y} = (z); ; )
+  {}
 ```
 
 ### Diagnostics

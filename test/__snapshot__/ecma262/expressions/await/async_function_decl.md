@@ -82,7 +82,6 @@ async function await(){}
 ```javascript
 
 async function await() {}
-
 ```
 
 ### Diagnostics

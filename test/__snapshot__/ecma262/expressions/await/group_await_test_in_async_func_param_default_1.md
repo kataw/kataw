@@ -80,8 +80,8 @@ async function f(x=(await z)=y){}
                                     "start": 20,
                                     "end": 27
                                 },
-                                "flags": 32,
-                                "start": 19,
+                                "flags": 19,
+                                "start": 32,
                                 "end": 28
                             },
                             "operatorToken": {
@@ -98,7 +98,7 @@ async function f(x=(await z)=y){}
                                 "start": 29,
                                 "end": 30
                             },
-                            "flags": 32,
+                            "flags": 0,
                             "start": 19,
                             "end": 30
                         },

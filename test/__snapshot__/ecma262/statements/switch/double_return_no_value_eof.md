@@ -108,7 +108,6 @@ function f() {
   return;
   return;
 }
-
 ```
 
 ### Diagnostics

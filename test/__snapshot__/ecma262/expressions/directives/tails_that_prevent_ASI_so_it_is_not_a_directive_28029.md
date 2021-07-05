@@ -104,7 +104,7 @@ function f(){ "use strict"
                                     "start": 55,
                                     "end": 57
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 48,
                                 "end": 57
                             },
@@ -141,11 +141,9 @@ function f(){ "use strict"
 ```javascript
 
 function f() {
-  '"use strict"'
-   /* suffix = */.foo;
+  "\"use strict\"".foo;
   eval = 1;
 }
-
 ```
 
 ### Diagnostics

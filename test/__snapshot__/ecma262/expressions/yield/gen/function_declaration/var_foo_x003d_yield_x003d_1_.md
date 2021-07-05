@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_declaration
+- From: kataw/test/__snapshot__/ecma262/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/yield/gen/function_declaration
 > :: test: function declaration
 > :: case: var foo = yield = 1;
 ## Options
@@ -104,7 +103,7 @@ function not_gen() { var foo = yield = 1; }}
                                                 "start": 38,
                                                 "end": 40
                                             },
-                                            "flags": 32,
+                                            "flags": 0,
                                             "start": 30,
                                             "end": 40
                                         },

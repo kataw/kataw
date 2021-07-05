@@ -101,7 +101,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "start": 3,
                     "end": 25
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 25
             },
@@ -155,7 +155,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "start": 31,
                     "end": 53
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 26,
                 "end": 53
             },
@@ -209,7 +209,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "start": 59,
                     "end": 151
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 54,
                 "end": 151
             },
@@ -263,7 +263,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "start": 157,
                     "end": 249
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 152,
                 "end": 249
             },
@@ -317,7 +317,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "start": 255,
                     "end": 347
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 250,
                 "end": 347
             },
@@ -371,7 +371,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "start": 353,
                     "end": 375
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 348,
                 "end": 375
             },
@@ -425,7 +425,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "start": 381,
                     "end": 403
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 376,
                 "end": 403
             },
@@ -479,7 +479,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "start": 409,
                     "end": 501
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 404,
                 "end": 501
             },
@@ -533,7 +533,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "start": 507,
                     "end": 599
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 502,
                 "end": 599
             },
@@ -587,7 +587,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "start": 605,
                     "end": 697
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 600,
                 "end": 697
             },
@@ -641,7 +641,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "start": 703,
                     "end": 724
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 698,
                 "end": 724
             },
@@ -695,7 +695,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "start": 730,
                     "end": 751
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 725,
                 "end": 751
             },
@@ -749,7 +749,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "start": 757,
                     "end": 848
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 752,
                 "end": 848
             },
@@ -803,7 +803,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "start": 854,
                     "end": 945
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 849,
                 "end": 945
             },
@@ -857,7 +857,7 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
                     "start": 951,
                     "end": 1042
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 946,
                 "end": 1042
             },
@@ -879,22 +879,21 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
 
 ```javascript
 
-a = b ||/** Comment */ c;
-a = b/** Comment */ || c;
-a = b ||/** TODO this is a very very very very long comment that makes it go > 80 columns */ c;
-a = b/** TODO this is a very very very very long comment that makes it go > 80 columns */ || c;
-a = b ||/** TODO this is a very very very very long comment that makes it go > 80 columns */ c;
-a = b &&/** Comment */ c;
-a = b/** Comment */ && c;
-a = b &&/** TODO this is a very very very very long comment that makes it go > 80 columns */ c;
-a = b/** TODO this is a very very very very long comment that makes it go > 80 columns */ && c;
-a = b &&/** TODO this is a very very very very long comment that makes it go > 80 columns */ c;
-a = b +/** Comment */ c;
-a = b/** Comment */ + c;
-a = b +/** TODO this is a very very very very long comment that makes it go > 80 columns */ c;
-a = b/** TODO this is a very very very very long comment that makes it go > 80 columns */ + c;
-a = b +/** TODO this is a very very very very long comment that makes it go > 80 columns */ c;
-
+a = b ||  c;
+a = b ||  c;
+a = b ||  c;
+a = b ||  c;
+a = b ||  c;
+a = b &&  c;
+a = b &&  c;
+a = b &&  c;
+a = b &&  c;
+a = b &&  c;
+a = b +  c;
+a = b +  c;
+a = b +  c;
+a = b +  c;
+a = b +  c;
 ```
 
 ### Diagnostics

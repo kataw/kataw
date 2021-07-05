@@ -90,7 +90,7 @@ foo: do { bar: do continue bar;while(z) } while(z)
                                     },
                                     "whileKeyword": {
                                         "kind": 37757028,
-                                        "flags": 64,
+                                        "flags": 80,
                                         "start": 31,
                                         "end": 36
                                     },
@@ -121,7 +121,7 @@ foo: do { bar: do continue bar;while(z) } while(z)
                 },
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 41,
                     "end": 47
                 },
@@ -155,11 +155,11 @@ foo: do { bar: do continue bar;while(z) } while(z)
 
 ```javascript
 
-foo: do {
-  bar: do
-    continue bar; while (z)
-} while (z)
-
+foo:  do  {
+    bar:  do  continue  bar;
+    while (z);
+  }
+while (z);
 ```
 
 ### Diagnostics

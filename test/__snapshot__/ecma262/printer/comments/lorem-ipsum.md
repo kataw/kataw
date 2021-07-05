@@ -167,8 +167,8 @@ function foo(a, b, c) {
                                                 "start": 36,
                                                 "end": 62
                                             },
-                                            "flags": 32,
-                                            "start": 36,
+                                            "flags": 36,
+                                            "start": 33,
                                             "end": 63
                                         },
                                         "operatorToken": {
@@ -205,7 +205,7 @@ function foo(a, b, c) {
                                             "start": 111,
                                             "end": 118
                                         },
-                                        "flags": 33,
+                                        "flags": 37,
                                         "start": 36,
                                         "end": 118
                                     },
@@ -243,12 +243,12 @@ function foo(a, b, c) {
                                         "start": 123,
                                         "end": 131
                                     },
-                                    "flags": 33,
+                                    "flags": 37,
                                     "start": 36,
                                     "end": 131
                                 },
-                                "flags": 32,
-                                "start": 34,
+                                "flags": 34,
+                                "start": 32,
                                 "end": 137
                             },
                             "flags": 81,
@@ -284,12 +284,8 @@ function foo(a, b, c) {
 ```javascript
 
 function foo(a, b, c) {
-  return ((a >= b && a <= c) 
-   // lorem
-  // ipsum
-  || a === 42 || a === 666);
+  return ((a >=  b &&  a <=  c) ||  a ===  42 ||  a ===  666);
 }
-
 ```
 
 ### Diagnostics

@@ -103,7 +103,6 @@ import(y);
 
 export default import(y);
 import(y);
-
 ```
 
 ### Diagnostics

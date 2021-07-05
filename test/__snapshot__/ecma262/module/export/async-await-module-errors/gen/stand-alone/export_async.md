@@ -1,13 +1,12 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/module/export/async-await-module-errors/autogen.md
-- Path: kataw/test/__snapshot__/parser/module/export/async-await-module-errors/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/module/export/async-await-module-errors/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/module/export/async-await-module-errors/gen/stand-alone
 > :: test: stand-alone
 > :: case: export async
 ## Options
 
 `````js
-{"module":true}
+{}
 `````
 ## Input
 
@@ -54,7 +53,7 @@ export async
             "end": 12
         }
     ],
-    "isModule": true,
+    "isModule": false,
     "source": "export async",
     "fileName": "__root__",
     "flags": 0,
@@ -72,6 +71,7 @@ export async
 ### Diagnostics
 
 ```javascript
+✖ The `export` keyword can only be used with the module goal - start: 0, end: 6
 ✖ Declaration or statement expected - start: 6, end: 12
 
 ```

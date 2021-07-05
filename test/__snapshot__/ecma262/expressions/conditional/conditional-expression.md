@@ -412,8 +412,8 @@ async function f2() {
                                                                 "start": 133,
                                                                 "end": 183
                                                             },
-                                                            "flags": 32,
-                                                            "start": 131,
+                                                            "flags": 131,
+                                                            "start": 32,
                                                             "end": 184
                                                         },
                                                         "flags": 32,
@@ -448,8 +448,8 @@ async function f2() {
                         "start": 88,
                         "end": 191
                     },
-                    "flags": 32,
-                    "start": 85,
+                    "flags": 85,
+                    "start": 33,
                     "end": 192
                 },
                 "argumentList": {
@@ -582,8 +582,8 @@ async function f2() {
                                         "start": 225,
                                         "end": 270
                                     },
-                                    "flags": 32,
-                                    "start": 225,
+                                    "flags": 225,
+                                    "start": 32,
                                     "end": 271
                                 },
                                 "flags": 32,
@@ -704,16 +704,15 @@ async function f2() {
 ```javascript
 
 async function f() {
-  const result = typeof fn === '\'function\'' ? await fn() : null;
+  const result = typeof fn ===  '\'function\'' ? await fn() : null ;
 }
 (async function () {
-  console.log(await (true ? Promise.resolve('"A"') : Promise.resolve('"B"')));
-})();
+    console.log(await (true  ? Promise.resolve("\"A\"") : Promise.resolve("\"B\"")));
+  })();
 async function f2() {
-  await (spellcheck && spellcheck.setChecking(false));
-  await spellcheck && spellcheck.setChecking(false);
+  await (spellcheck &&  spellcheck.setChecking(false ));
+  await spellcheck &&  spellcheck.setChecking(false );
 }
-
 ```
 
 ### Diagnostics

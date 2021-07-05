@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/binary/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/binary/gen/typeof_arg
+- From: kataw/test/__snapshot__/ecma262/expressions/binary/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/binary/gen/typeof_arg
 > :: test: typeof arg
 > :: case: a / b + c
 ## Options
@@ -103,8 +102,7 @@ typeof a / b + c
 
 ```javascript
 
-typeof a / b + c;
-
+typeof a /  b +  c;
 ```
 
 ### Diagnostics

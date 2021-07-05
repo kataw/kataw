@@ -59,11 +59,9 @@
 ### Printed
 
 ```javascript
-/*1*/
-{/*2*/ }
- /*1*/{/*2*/ }
- // 3
 
+{}
+{}
 ```
 
 ### Diagnostics

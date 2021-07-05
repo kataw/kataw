@@ -224,7 +224,7 @@ class A {
                                                                                     "start": 93,
                                                                                     "end": 99
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 0,
                                                                                 "start": 83,
                                                                                 "end": 99
                                                                             },
@@ -419,17 +419,18 @@ class A {
 
 var C;
 function decorator(el) {
-  return Object.assign(el, {
-    finisher(Class) {
-      C = Class;
-    },
-  });
+  return Object.assign(
+    el,
+    {
+      finisher(Class){
+        C = Class;
+      }
+    }
+  );
 }
 class A {
-  @decorator
-  foo() {}
+  @ decorator foo(){}
 }
-
 ```
 
 ### Diagnostics

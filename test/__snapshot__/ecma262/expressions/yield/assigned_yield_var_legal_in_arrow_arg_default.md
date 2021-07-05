@@ -64,7 +64,7 @@ async (x = z = yield) => {}
                                 "start": 14,
                                 "end": 20
                             },
-                            "flags": 32,
+                            "flags": 0,
                             "start": 10,
                             "end": 20
                         },
@@ -118,7 +118,6 @@ async (x = z = yield) => {}
 ```javascript
 
 async (x = z = yield) => {}
-
 ```
 
 ### Diagnostics

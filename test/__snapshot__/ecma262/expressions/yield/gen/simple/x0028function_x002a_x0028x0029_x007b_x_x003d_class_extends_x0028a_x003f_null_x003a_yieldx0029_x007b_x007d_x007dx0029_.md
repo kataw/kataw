@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/simple
+- From: kataw/test/__snapshot__/ecma262/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/yield/gen/simple
 > :: test: simple
 > :: case: (function * () { x = class extends (a ? null : yield) { } });
 ## Options
@@ -146,8 +145,8 @@
                                                             "start": 34,
                                                             "end": 52
                                                         },
-                                                        "flags": 32,
-                                                        "start": 34,
+                                                        "flags": 34,
+                                                        "start": 32,
                                                         "end": 53
                                                     },
                                                     "typeParameter": null,
@@ -170,7 +169,7 @@
                                             "start": 20,
                                             "end": 57
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 16,
                                         "end": 57
                                     },
@@ -192,8 +191,8 @@
                     "start": 1,
                     "end": 59
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 32,
                 "end": 60
             },
             "flags": 16,
@@ -215,10 +214,8 @@
 ```javascript
 
 (function * () {
-  x = class  extends (a ? null : yield ) {
-  };
-});
-
+    x = class   extends (a ? null  : yield ) {};
+  });
 ```
 
 ### Diagnostics

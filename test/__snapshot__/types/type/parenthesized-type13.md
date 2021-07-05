@@ -95,8 +95,7 @@ type X = ("string");
 
 ```javascript
 
-type X = ('"string"')
-
+type X = ("\"string\"")
 ```
 
 ### Diagnostics

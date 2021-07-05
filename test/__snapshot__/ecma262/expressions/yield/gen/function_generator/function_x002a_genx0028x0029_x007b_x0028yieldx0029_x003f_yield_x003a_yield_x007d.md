@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_generator
+- From: kataw/test/__snapshot__/ecma262/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/yield/gen/function_generator
 > :: test: function generator
 > :: case: function * gen() { (yield) ? yield : yield }
 ## Options
@@ -156,8 +155,8 @@ function * gen() { function not_gen() { function * gen() { (yield) ? yield : yie
                                                                         "start": 60,
                                                                         "end": 65
                                                                     },
-                                                                    "flags": 32,
-                                                                    "start": 58,
+                                                                    "flags": 58,
+                                                                    "start": 32,
                                                                     "end": 66
                                                                 },
                                                                 "questionToken": {
@@ -202,7 +201,7 @@ function * gen() { function not_gen() { function * gen() { (yield) ? yield : yie
                                                                     "start": 76,
                                                                     "end": 82
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 58,
                                                                 "start": 58,
                                                                 "end": 82
                                                             },
@@ -273,7 +272,6 @@ function * gen() {
     }
   }
 }
-
 ```
 
 ### Diagnostics

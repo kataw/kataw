@@ -43,8 +43,8 @@
                         "start": 1,
                         "end": 5
                     },
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 32,
                     "end": 6
                 },
                 "argumentList": {
@@ -78,7 +78,6 @@
 ```javascript
 
 (4..x)();
-
 ```
 
 ### Diagnostics

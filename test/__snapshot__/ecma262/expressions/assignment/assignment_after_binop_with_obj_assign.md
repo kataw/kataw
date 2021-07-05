@@ -99,8 +99,8 @@ for(x in(t&{}=y))x
                     "start": 8,
                     "end": 15
                 },
-                "flags": 32,
-                "start": 8,
+                "flags": 8,
+                "start": 32,
                 "end": 16
             },
             "statement": {
@@ -135,9 +135,8 @@ for(x in(t&{}=y))x
 
 ```javascript
 
-for (x in (t & {} = y))
+for (x in (t &  {} = y))
   x;
-
 ```
 
 ### Diagnostics

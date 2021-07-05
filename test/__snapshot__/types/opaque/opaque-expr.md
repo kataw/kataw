@@ -93,7 +93,7 @@ opaque += 4;
                     "start": 25,
                     "end": 27
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 15,
                 "end": 27
             },
@@ -117,7 +117,6 @@ opaque += 4;
 
 var opaque = 0;
 opaque += 4;
-
 ```
 
 ### Diagnostics

@@ -94,9 +94,8 @@ while (await /1/) { break; }
 ```javascript
 
 while (await /1/) {
-  break;
-}
-
+    break ;
+  }
 ```
 
 ### Diagnostics

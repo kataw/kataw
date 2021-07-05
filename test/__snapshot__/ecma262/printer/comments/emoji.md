@@ -75,11 +75,8 @@ const test = '💖'
 ### Printed
 
 ```javascript
-/* #2091 */
-const test = '\'💖\'';
- // This comment
-// should not get collapsed
 
+const test = '\'💖\'';
 ```
 
 ### Diagnostics

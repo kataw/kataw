@@ -1178,7 +1178,7 @@ try {} catch({ x: "str" }) {}
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 307,
                     "end": 309
                 },
@@ -1439,8 +1439,8 @@ try {} catch({ x: "str" }) {}
                     "start": 368,
                     "end": 382
                 },
-                "flags": 32,
-                "start": 366,
+                "flags": 366,
+                "start": 32,
                 "end": 383
             },
             "flags": 16,
@@ -1588,8 +1588,8 @@ try {} catch({ x: "str" }) {}
                     "start": 403,
                     "end": 416
                 },
-                "flags": 32,
-                "start": 401,
+                "flags": 401,
+                "start": 32,
                 "end": 417
             },
             "flags": 16,
@@ -2580,7 +2580,7 @@ try {} catch({ x: "str" }) {}
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 732,
                                 "end": 732
                             },
@@ -2739,7 +2739,7 @@ try {} catch({ x: "str" }) {}
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 768,
                     "end": 770
                 },
@@ -3027,8 +3027,8 @@ try {} catch({ x: "str" }) {}
                     "start": 834,
                     "end": 848
                 },
-                "flags": 32,
-                "start": 832,
+                "flags": 832,
+                "start": 32,
                 "end": 849
             },
             "flags": 16,
@@ -3181,8 +3181,8 @@ try {} catch({ x: "str" }) {}
                     "start": 876,
                     "end": 889
                 },
-                "flags": 32,
-                "start": 874,
+                "flags": 874,
+                "start": 32,
                 "end": 890
             },
             "flags": 16,
@@ -3318,8 +3318,8 @@ try {} catch({ x: "str" }) {}
                     "start": 915,
                     "end": 922
                 },
-                "flags": 32,
-                "start": 915,
+                "flags": 915,
+                "start": 32,
                 "end": 923
             },
             "flags": 16,

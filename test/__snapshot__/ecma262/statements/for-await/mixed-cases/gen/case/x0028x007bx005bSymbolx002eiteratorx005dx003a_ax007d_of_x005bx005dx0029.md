@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/for-await/mixed-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/for-await/mixed-cases/gen/case
+- From: kataw/test/__snapshot__/ecma262/statements/for-await/mixed-cases/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/statements/for-await/mixed-cases/gen/case
 > :: test: case
 > :: case: ({[Symbol.iterator]: a} of [])
 ## Options
@@ -230,10 +229,8 @@ async function f() { let a; for await ({[Symbol.iterator]: a} of []) ; }
 
 async function f() {
   let a;
-  for await ({ [Symbol.iterator] : a } of [])
-    ;
+  for await ({[Symbol.iterator]: a} of []);
 }
-
 ```
 
 ### Diagnostics

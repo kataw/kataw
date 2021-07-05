@@ -178,8 +178,7 @@ type a = (a[][][][][][]) => T;
 
 ```javascript
 
-type a = (a[][][][][][]) => T
-
+type a = (a[][][][][][]) =>  T
 ```
 
 ### Diagnostics

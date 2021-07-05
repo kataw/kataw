@@ -207,10 +207,9 @@ async function f() {
 
 async function f() {
   class x {
-    [x](a = await) {}
+    [x](a = await){}
   }
 }
-
 ```
 
 ### Diagnostics

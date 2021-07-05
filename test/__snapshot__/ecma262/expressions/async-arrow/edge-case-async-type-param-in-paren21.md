@@ -329,8 +329,8 @@ async <A = B, C = D>(x) => y;
                     "start": 32,
                     "end": 60
                 },
-                "flags": 32,
-                "start": 29,
+                "flags": 29,
+                "start": 33,
                 "end": 61
             },
             "flags": 16,
@@ -351,9 +351,8 @@ async <A = B, C = D>(x) => y;
 
 ```javascript
 
-async <A= B, C= D>(x) => y;
-(async <A= B, C= D>(x) => y);
-
+async <A= B, C= D>(x) =>  y;
+(async <A= B, C= D>(x) =>  y);
 ```
 
 ### Diagnostics

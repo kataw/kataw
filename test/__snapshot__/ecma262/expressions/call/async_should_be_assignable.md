@@ -61,7 +61,7 @@ async = 5 + 5;
                     "start": 7,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -83,8 +83,7 @@ async = 5 + 5;
 
 ```javascript
 
-async = 5 + 5;
-
+async = 5 +  5;
 ```
 
 ### Diagnostics

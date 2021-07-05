@@ -134,12 +134,11 @@ switch (A) {default: D; case B: C; }
 ```javascript
 
 switch (A) {
-  default: 
+  default
     D;
-  case B: 
+  case B:
     C;
 }
-
 ```
 
 ### Diagnostics

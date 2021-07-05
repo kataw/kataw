@@ -55,7 +55,7 @@ var a = (b) => c;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 9,
                                 "end": 11
                             },
@@ -105,8 +105,7 @@ var a = (b) => c;
 
 ```javascript
 
-var a = (b) => c;
-
+var a = (b) =>  c;
 ```
 
 ### Diagnostics

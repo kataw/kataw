@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/do-while/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/do-while/gen/do_triple
+- From: kataw/test/__snapshot__/ecma262/statements/do-while/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/statements/do-while/gen/do_triple
 > :: test: do triple
 > :: case: =! class function try while with foo!
 ## Options
@@ -106,7 +105,7 @@ do do do =! class function try while with foo! while while while
                                 "start": 10,
                                 "end": 17
                             },
-                            "flags": 32,
+                            "flags": 0,
                             "start": 8,
                             "end": 17
                         },

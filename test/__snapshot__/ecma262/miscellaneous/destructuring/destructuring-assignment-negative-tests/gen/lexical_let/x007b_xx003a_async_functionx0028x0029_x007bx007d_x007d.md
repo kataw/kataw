@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-negative-tests/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-negative-tests/gen/lexical_let
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/destructuring-assignment-negative-tests/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/destructuring-assignment-negative-tests/gen/lexical_let
 > :: test: lexical let
 > :: case: { x: async function() {} }
 ## Options
@@ -204,8 +203,8 @@
                     "start": 28,
                     "end": 58
                 },
-                "flags": 32,
-                "start": 26,
+                "flags": 26,
+                "start": 34,
                 "end": 59
             },
             "flags": 16,

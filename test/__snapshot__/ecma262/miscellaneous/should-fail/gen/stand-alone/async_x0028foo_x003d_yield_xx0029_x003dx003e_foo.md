@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/gen/stand-alone
 > :: test: stand-alone
 > :: case: async (foo = yield x) => foo
 ## Options
@@ -107,8 +106,7 @@ async (foo = yield x) => foo
 
 ```javascript
 
-async (foo = yield, x) => foo
-
+async (foo = yield, x) =>  foo
 ```
 
 ### Diagnostics

@@ -182,7 +182,7 @@ o = {f(){ function x(){} var x = y; }};
                     "start": 3,
                     "end": 26
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 26
             },
@@ -345,7 +345,7 @@ o = {f(){ function x(){} var x = y; }};
                     "start": 32,
                     "end": 55
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 27,
                 "end": 55
             },
@@ -515,7 +515,7 @@ o = {f(){ function x(){} var x = y; }};
                     "start": 61,
                     "end": 90
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 56,
                 "end": 90
             },
@@ -688,7 +688,7 @@ o = {f(){ function x(){} var x = y; }};
                     "start": 96,
                     "end": 127
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 91,
                 "end": 127
             },
@@ -868,7 +868,7 @@ o = {f(){ function x(){} var x = y; }};
                     "start": 133,
                     "end": 170
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 128,
                 "end": 170
             },
@@ -1048,7 +1048,7 @@ o = {f(){ function x(){} var x = y; }};
                     "start": 176,
                     "end": 213
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 171,
                 "end": 213
             },
@@ -1229,7 +1229,7 @@ o = {f(){ function x(){} var x = y; }};
                     "start": 219,
                     "end": 254
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 214,
                 "end": 254
             },

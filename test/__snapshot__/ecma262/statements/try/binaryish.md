@@ -325,16 +325,16 @@ function f() {
                                                         "start": 135,
                                                         "end": 204
                                                     },
-                                                    "flags": 32,
-                                                    "start": 135,
+                                                    "flags": 135,
+                                                    "start": 33,
                                                     "end": 205
                                                 },
                                                 "flags": 268435488,
                                                 "start": 93,
                                                 "end": 205
                                             },
-                                            "flags": 32,
-                                            "start": 93,
+                                            "flags": 93,
+                                            "start": 33,
                                             "end": 206
                                         },
                                         "flags": 268435488,
@@ -461,8 +461,8 @@ function f() {
                                     "start": 22,
                                     "end": 266
                                 },
-                                "flags": 32,
-                                "start": 22,
+                                "flags": 22,
+                                "start": 32,
                                 "end": 270
                             },
                             "flags": 81,
@@ -629,8 +629,8 @@ function f() {
                                     "start": 280,
                                     "end": 545
                                 },
-                                "flags": 32,
-                                "start": 280,
+                                "flags": 280,
+                                "start": 32,
                                 "end": 549
                             },
                             "flags": 81,
@@ -828,11 +828,30 @@ function f() {
 ```javascript
 
 function f() {
-  throw (property.isIdentifier() && FUNCTIONS[property.node.name] && (object.isIdentifier(JEST_GLOBAL) || (callee.isMemberExpression() && shouldHoistExpression(object))) && FUNCTIONS[property.node.name](expr.get('\'arguments\'')));
-  throw (chalk.bold('\'No tests found related to files changed since last commit.\n\'',) + chalk.dim(patternInfo.watch ? '\'Press `a` to run all tests, or run Jest with `--watchAll`.\'' : '\'Run Jest without `-o` to run all tests.\'',));
-  throw !filePath.includes(coverageDirectory) && !filePath.endsWith(`.${SNAPSHOT_EXTENSION}`);
+  throw (
+    property.isIdentifier() &&  FUNCTIONS[property.node.name] &&  (
+      object.isIdentifier(
+        JEST_GLOBAL
+      ) ||  (callee.isMemberExpression() &&  shouldHoistExpression(object))
+    ) &&  FUNCTIONS[property.node.name](
+      expr.get(
+        '\'arguments\''
+      )
+    )
+  );
+  throw (
+    chalk.bold(
+      '\'No tests found related to files changed since last commit.\n\'',
+    ) +  chalk.dim(
+      patternInfo.watch
+        ? '\'Press `a` to run all tests, or run Jest with `--watchAll`.\''
+        : '\'Run Jest without `-o` to run all tests.\'',
+    )
+  );
+  throw !filePath.includes(
+    coverageDirectory
+  ) &&  !filePath.endsWith(`.${SNAPSHOT_EXTENSION}`);
 }
-
 ```
 
 ### Diagnostics

@@ -25,7 +25,7 @@
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 1,
                     "end": 1
                 },
@@ -72,7 +72,7 @@
                                 },
                                 "whileKeyword": {
                                     "kind": 37757028,
-                                    "flags": 64,
+                                    "flags": 80,
                                     "start": 32,
                                     "end": 38
                                 },

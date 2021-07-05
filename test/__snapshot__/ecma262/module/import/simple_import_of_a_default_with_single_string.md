@@ -87,7 +87,6 @@ import x from 'y'
 ```javascript
 
 import x from '\'y\'';
-
 ```
 
 ### Diagnostics

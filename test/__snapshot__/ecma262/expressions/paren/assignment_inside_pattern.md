@@ -87,7 +87,7 @@
                                                         "start": 23,
                                                         "end": 24
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 21,
                                                     "end": 24
                                                 }
@@ -133,8 +133,8 @@
                     "start": 1,
                     "end": 31
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 32
             },
             "flags": 16,
@@ -155,8 +155,7 @@
 
 ```javascript
 
-([target()[targetKey(a = b)],] = x);
-
+([target()[targetKey(a = b)]] = x);
 ```
 
 ### Diagnostics

@@ -112,7 +112,6 @@ function f() {
   '\'foo\'';
   '\'bar\'';
 }
-
 ```
 
 ### Diagnostics

@@ -150,8 +150,7 @@ type a = ({} | {}) => T;
 
 ```javascript
 
-type a = ({} | {}) => T
-
+type a = ({} | {}) =>  T
 ```
 
 ### Diagnostics

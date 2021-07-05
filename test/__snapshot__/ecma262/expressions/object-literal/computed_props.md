@@ -620,7 +620,7 @@ module.exports = {
                     "start": 294,
                     "end": 342
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 276,
                 "end": 342
             },
@@ -643,26 +643,25 @@ module.exports = {
 ```javascript
 
 const ColorId = {
-  RED : '\'R\'',
-  GREEN : '\'G\'',
-  BLUE : '\'B\'',
-};
+    RED: '\'R\'',
+    GREEN: '\'G\'',
+    BLUE: '\'B\''
+  };
 const ColorNumber = {
-  RED : '\'ff0000\'',
-  GREEN : '\'00ff00\'',
-  BLUE : '\'0000ff\'',
-};
+    RED: '\'ff0000\'',
+    GREEN: '\'00ff00\'',
+    BLUE: '\'0000ff\''
+  };
 const ColorIdToNumber = {
-  [ColorId.RED] : ColorNumber.RED,
-  [ColorId.GREEN] : ColorNumber.GREEN,
-  [ColorId.BLUE] : ColorNumber.BLUE,
-};
+    [ColorId.RED]: ColorNumber.RED,
+    [ColorId.GREEN]: ColorNumber.GREEN,
+    [ColorId.BLUE]: ColorNumber.BLUE
+  };
 module.exports = {
   ...dummy,
-  [hello] : '\'world\'',
+  [hello]: '\'world\'',
   ...dummy
 };
-
 ```
 
 ### Diagnostics

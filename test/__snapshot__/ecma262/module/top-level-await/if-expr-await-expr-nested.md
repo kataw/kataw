@@ -250,8 +250,10 @@ if (await await await await await await await await await await await await awai
 
 ```javascript
 
-if (await await await await await await await await await await await await await await await '\'await\'') { }
-
+if (
+  await await await await await await await await await await await await await await await '\'await\''
+)
+  {}
 ```
 
 ### Diagnostics

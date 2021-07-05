@@ -112,7 +112,6 @@ for (a.b in c) d;
 
 for (a.b in c)
   d;
-
 ```
 
 ### Diagnostics

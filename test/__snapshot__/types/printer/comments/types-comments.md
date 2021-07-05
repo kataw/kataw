@@ -1433,22 +1433,20 @@ type x = {get x (/*1*/): string }
 ### Printed
 
 ```javascript
-/*1*/
-type/*1*/ a = (Array<string>) => void
-type A = (Array<string>, .../*1*/Array<string>) => void
-type A = (Array</*1*/string>/*2*/, .../*3*/Array<string>/*4*/) => void
-type Fn1/*1*/ =/*2*/ </*3*/T>/*4*/(/*5*/T/*6*/)/*7*/ =>/*8*/ T
-type E = Obj/*1*/[ '\'bar\''][]
-type E = Obj/*1*/[/*2*/ '\'bar\''/*3*/]/*4*//*5*/[]
-type O1 = { /*1*/...{ /*2*/p: T/*3*/ }/*4*/ | { /*5*/q: U }/*6*/ }
-type/*1*/ a/*2*/ =/*3*/ { /*4*/'"string"'/*5*/:/*6*/ y.
- /*7*/
-z }
-type C = { .../*1*//*1*/A & B/*1*/ }
-type foo<number>/*1*/ =/*2*/ string
-type x = { x(): string }
- /*4*/
 
+type a = (Array<string >) =>  void
+type A = (Array<string >,
+...Array<string >) =>  void
+type A = (Array<string >,
+...Array<string >) =>  void
+type Fn1 = <T>(T) =>  T
+type E = Obj['\'bar\''][]
+type E = Obj['\'bar\''][]
+type O1 = { ...{ p: T } | { q: U } }
+type a = { "\"string\"": y.z }
+type C = { ...A & B }
+type foo<number> = string
+type x = { x(): string  }
 ```
 
 ### Diagnostics

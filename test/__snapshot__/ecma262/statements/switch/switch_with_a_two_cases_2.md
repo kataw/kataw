@@ -168,14 +168,13 @@ switch (A) {case B: C; break; case D: E; break;}
 ```javascript
 
 switch (A) {
-  case B: 
+  case B:
     C;
-    break;
-  case D: 
+    break ;
+  case D:
     E;
-    break;
+    break ;
 }
-
 ```
 
 ### Diagnostics

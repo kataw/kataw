@@ -239,8 +239,7 @@ type x<y> = z<<q>(r) => s>
 
 ```javascript
 
-type x<y> = z<<q>(r) => s>
-
+type x<y> = z<<q>(r) =>  s>
 ```
 
 ### Diagnostics

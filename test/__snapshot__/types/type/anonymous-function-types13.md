@@ -63,7 +63,7 @@ var f = (x): | 1 | 2 => 1;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 9,
                                 "end": 20
                             },
@@ -149,8 +149,7 @@ var f = (x): | 1 | 2 => 1;
 
 ```javascript
 
-var f = (x) => 1;
-
+var f = (x) =>  1;
 ```
 
 ### Diagnostics

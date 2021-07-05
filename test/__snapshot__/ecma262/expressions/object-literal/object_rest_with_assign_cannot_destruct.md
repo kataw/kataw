@@ -72,7 +72,7 @@ x={...x=y}=z
                                             "start": 8,
                                             "end": 9
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 6,
                                         "end": 9
                                     },
@@ -108,7 +108,7 @@ x={...x=y}=z
                     "start": 2,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 12
             },

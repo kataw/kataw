@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/async_wrapped
+- From: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/gen/async_wrapped
 > :: test: async wrapped
 > :: case: true
 ## Options
@@ -148,10 +147,8 @@ async function p(){
 ```javascript
 
 async function p() {
-  class C extends true {
-  }
+  class C  extends true  {}
 }
-
 ```
 
 ### Diagnostics

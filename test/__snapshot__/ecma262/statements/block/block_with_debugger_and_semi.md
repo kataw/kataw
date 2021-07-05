@@ -58,7 +58,6 @@
 {
   debugger;
 }
-
 ```
 
 ### Diagnostics

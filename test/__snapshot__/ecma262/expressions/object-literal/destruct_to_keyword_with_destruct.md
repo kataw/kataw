@@ -73,7 +73,7 @@ s = {s: true = x} = x
                                             "start": 14,
                                             "end": 16
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 5,
                                         "end": 16
                                     },
@@ -109,7 +109,7 @@ s = {s: true = x} = x
                     "start": 3,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 21
             },

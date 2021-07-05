@@ -117,7 +117,7 @@ var gen = async function *g() {
                                                     "start": 46,
                                                     "end": 48
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 31,
                                                 "end": 48
                                             },
@@ -363,8 +363,8 @@ var gen = async function *g() {
                                                                         "start": 94,
                                                                         "end": 181
                                                                     },
-                                                                    "flags": 32,
-                                                                    "start": 93,
+                                                                    "flags": 93,
+                                                                    "start": 32,
                                                                     "end": 182
                                                                 },
                                                                 "flags": 1073741856,
@@ -458,17 +458,16 @@ var gen = async function *g() {
 ```javascript
 
 var gen = async function * g() {
-  callCount += 1;
-  yield  {
-    ...yield  yield ,
-    ...(function (arg) {
-      var yield = arg;
-      return { ...yield };
-    }(yield )),
-    ...yield 
+    callCount += 1;
+    yield {
+      ...yield yield ,
+      ...(function (arg) {
+          var yield = arg;
+          return {...yield};
+        }(yield )),
+      ...yield 
+    };
   };
-};
-
 ```
 
 ### Diagnostics

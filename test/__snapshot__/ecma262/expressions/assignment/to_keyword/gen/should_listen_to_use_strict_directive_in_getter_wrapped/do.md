@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/should_listen_to_use_strict_directive_in_getter_wrapped
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/gen/should_listen_to_use_strict_directive_in_getter_wrapped
 > :: test: should listen to use strict directive in getter wrapped
 > :: case: do
 ## Options
@@ -109,8 +108,8 @@ foo = {
                                                             "start": 42,
                                                             "end": 42
                                                         },
-                                                        "flags": 32,
-                                                        "start": 36,
+                                                        "flags": 36,
+                                                        "start": 33,
                                                         "end": 42
                                                     },
                                                     "flags": 16,
@@ -151,7 +150,7 @@ foo = {
                                                                 "start": 46,
                                                                 "end": 48
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 0,
                                                             "start": 44,
                                                             "end": 48
                                                         },
@@ -199,7 +198,7 @@ foo = {
                     "start": 5,
                     "end": 56
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 56
             },

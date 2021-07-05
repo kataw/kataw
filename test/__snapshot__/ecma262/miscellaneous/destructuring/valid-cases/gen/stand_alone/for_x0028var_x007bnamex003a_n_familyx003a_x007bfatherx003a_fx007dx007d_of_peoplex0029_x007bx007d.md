@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/valid-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/valid-cases/gen/stand_alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/valid-cases/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/valid-cases/gen/stand_alone
 > :: test: stand alone
 > :: case: for (var {name: n, family: {father: f}} of people) {}
 ## Options
@@ -196,13 +195,8 @@ for (var {name: n, family: {father: f}} of people) {}
 
 ```javascript
 
-for (var {
-  name: n,
-  family: {
-    father: f
-  }
-} of people) { }
-
+for (var {name: n, family: {father: f}} of people)
+  {}
 ```
 
 ### Diagnostics

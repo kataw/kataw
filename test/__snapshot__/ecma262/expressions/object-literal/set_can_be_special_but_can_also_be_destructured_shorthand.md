@@ -101,8 +101,9 @@ wrap({set} = x);
 
 ```javascript
 
-wrap({ set } = x);
-
+wrap(
+  {set} = x
+);
 ```
 
 ### Diagnostics

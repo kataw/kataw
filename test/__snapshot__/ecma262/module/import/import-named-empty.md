@@ -91,8 +91,7 @@ import {} from "foo";
 
 ```javascript
 
-import { } from '"foo"';
-
+import {} from "\"foo\"";
 ```
 
 ### Diagnostics

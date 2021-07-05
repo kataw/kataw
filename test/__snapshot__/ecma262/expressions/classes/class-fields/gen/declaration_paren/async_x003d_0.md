@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/class-fields/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/class-fields/gen/declaration_paren
+- From: kataw/test/__snapshot__/ecma262/expressions/classes/class-fields/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/classes/class-fields/gen/declaration_paren
 > :: test: declaration_paren
 > :: case: async = 0
 ## Options
@@ -105,8 +104,8 @@
                     "start": 1,
                     "end": 33
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 32,
                 "end": 34
             },
             "flags": 16,
@@ -127,10 +126,9 @@
 
 ```javascript
 
-(class  extends Base {
-  async = 0
-});
-
+(class   extends Base {
+    async = 0;
+  });
 ```
 
 ### Diagnostics

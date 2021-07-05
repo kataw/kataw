@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/with_strict_dirctive
+- From: kataw/test/__snapshot__/ecma262/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/yield/gen/with_strict_dirctive
 > :: test: with_strict_dirctive
 > :: case: class C extends yield { }
 ## Options
@@ -104,9 +103,7 @@
 ```javascript
 
 '\'use strict\'';
-class C extends yield {
-}
-
+class C  extends yield {}
 ```
 
 ### Diagnostics

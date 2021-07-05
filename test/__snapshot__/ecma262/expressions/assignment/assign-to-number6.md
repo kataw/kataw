@@ -47,7 +47,7 @@ x = 0o4567
                     "start": 3,
                     "end": 10
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 10
             },
@@ -70,7 +70,6 @@ x = 0o4567
 ```javascript
 
 x = 0o4567;
-
 ```
 
 ### Diagnostics

@@ -103,9 +103,7 @@ async (x, ...a)=>0;
 
 ```javascript
 
-async (x, ...a) => 0
-;
-
+async (x, ...a) =>  0
 ```
 
 ### Diagnostics

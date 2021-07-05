@@ -214,7 +214,7 @@ FOR2 : for(var i=1;i<2;i++){
                                     },
                                     "whileKeyword": {
                                         "kind": 37757028,
-                                        "flags": 64,
+                                        "flags": 80,
                                         "start": 64,
                                         "end": 70
                                     },
@@ -425,7 +425,7 @@ FOR2 : for(var i=1;i<2;i++){
                                     },
                                     "whileKeyword": {
                                         "kind": 37757028,
-                                        "flags": 64,
+                                        "flags": 80,
                                         "start": 141,
                                         "end": 147
                                     },
@@ -476,18 +476,21 @@ FOR2 : for(var i=1;i<2;i++){
 
 ```javascript
 
-FOR1: for (var i = 1; i++; i  < 2) {
-  LABEL1: do {
-    break;
-    FOR1;
-  } while (0)
-}
-FOR2: for (var i = 1; i++; i  < 2) {
-  LABEL2: do {
-    breakFOR2;
-  } while (0)
-}
-
+FOR1:  for (var i = 1; i++ ; i  <  2)
+  {
+    LABEL1:  do  {
+        break ;
+        FOR1;
+      }
+    while (0);
+  }
+FOR2:  for (var i = 1; i++ ; i  <  2)
+  {
+    LABEL2:  do  {
+        breakFOR2;
+      }
+    while (0);
+  }
 ```
 
 ### Diagnostics

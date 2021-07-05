@@ -80,7 +80,7 @@ result = [,] = vals;
                     "start": 8,
                     "end": 19
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 19
             },
@@ -102,8 +102,7 @@ result = [,] = vals;
 
 ```javascript
 
-result = [,] = vals;
-
+result = [] = vals;
 ```
 
 ### Diagnostics

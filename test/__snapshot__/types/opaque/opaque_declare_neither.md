@@ -72,8 +72,7 @@ declare opaque type Foo
 
 ```javascript
 
-declare opaque
-
+declare opaque 
 ```
 
 ### Diagnostics

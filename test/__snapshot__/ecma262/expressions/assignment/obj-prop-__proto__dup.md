@@ -116,7 +116,7 @@ result = ({ __proto__: x, __proto__: y } = value);
                     "start": 8,
                     "end": 47
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 47
             },
@@ -225,11 +225,11 @@ result = ({ __proto__: x, __proto__: y } = value);
                         "start": 60,
                         "end": 98
                     },
-                    "flags": 32,
-                    "start": 58,
+                    "flags": 58,
+                    "start": 34,
                     "end": 99
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 48,
                 "end": 99
             },
@@ -251,9 +251,8 @@ result = ({ __proto__: x, __proto__: y } = value);
 
 ```javascript
 
-result = { __proto__ : x, __proto__ : y } = value;
-result = ({ __proto__ : x, __proto__ : y } = value);
-
+result = {__proto__: x, __proto__: y} = value;
+result = ({__proto__: x, __proto__: y} = value);
 ```
 
 ### Diagnostics

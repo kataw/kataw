@@ -76,7 +76,7 @@ x?.y = 0;
                     "start": 8,
                     "end": 10
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 10
             },
@@ -143,7 +143,7 @@ x?.y = 0;
                     "start": 19,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 11,
                 "end": 21
             },

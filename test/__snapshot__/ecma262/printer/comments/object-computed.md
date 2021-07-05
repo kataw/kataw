@@ -106,7 +106,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                     "start": 29,
                     "end": 34
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 15,
                 "end": 34
             },
@@ -152,7 +152,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                     "start": 52,
                     "end": 57
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 35,
                 "end": 57
             },
@@ -254,7 +254,7 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
                     "start": 110,
                     "end": 115
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 58,
                 "end": 115
             },
@@ -277,10 +277,9 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
 ```javascript
 
 const foo = {};
-foo['"bar"'] = true;
-foo['"foo-bar"'] = true;
-foo.bar['"bar"']['"lorem_ispsum"'].foo['"lorem-ipsum"'] = true;
-
+foo["\"bar\""] = true ;
+foo["\"foo-bar\""] = true ;
+foo.bar["\"bar\""]["\"lorem_ispsum\""].foo["\"lorem-ipsum\""] = true ;
 ```
 
 ### Diagnostics

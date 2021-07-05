@@ -44,7 +44,6 @@
 ```javascript
 
 `some \" quote`;
-
 ```
 
 ### Diagnostics

@@ -187,8 +187,7 @@ type a = ((...b?:string | d) => c);
 
 ```javascript
 
-type a = ((...b?: string | d) => c)
-
+type a = ((...b? : string  | d) =>  c)
 ```
 
 ### Diagnostics

@@ -126,10 +126,7 @@
 
 ```javascript
 
-+function f([x]) {
-'"use strict"';
-};
-
++function f([x]) {};
 ```
 
 ### Diagnostics

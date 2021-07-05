@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/assign_to_paren-wrapped_keyword_in_param_default
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/gen/assign_to_paren-wrapped_keyword_in_param_default
 > :: test: assign to paren-wrapped keyword in param default
 > :: case: interface
 ## Options
@@ -60,8 +59,8 @@ async (x = (interface) = f) => {}
                                     "start": 12,
                                     "end": 21
                                 },
-                                "flags": 32,
-                                "start": 10,
+                                "flags": 10,
+                                "start": 32,
                                 "end": 22
                             },
                             "operatorToken": {
@@ -78,7 +77,7 @@ async (x = (interface) = f) => {}
                                 "start": 24,
                                 "end": 26
                             },
-                            "flags": 32,
+                            "flags": 0,
                             "start": 10,
                             "end": 26
                         },
@@ -132,7 +131,6 @@ async (x = (interface) = f) => {}
 ```javascript
 
 async (x = (interface) = f) => {}
-
 ```
 
 ### Diagnostics

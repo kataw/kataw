@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/simple
+- From: kataw/test/__snapshot__/ecma262/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/yield/gen/simple
 > :: test: simple
 > :: case: function *a(){yield typeof 0}
 ## Options
@@ -131,9 +130,8 @@ function *a(){yield typeof 0}
 ```javascript
 
 function * a() {
-  yield  typeof 0;
+  yield typeof 0;
 }
-
 ```
 
 ### Diagnostics

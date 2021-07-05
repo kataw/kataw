@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/type-annotation/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/type-annotation/gen/strict_directive
+- From: kataw/test/__snapshot__/ecma262/expressions/arrow/type-annotation/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/arrow/type-annotation/gen/strict_directive
 > :: test: strict directive
 > :: case: ({x: [y: string]}: string = y, z?) => ok
 ## Options
@@ -43,8 +42,8 @@
                     "start": 13,
                     "end": 21
                 },
-                "flags": 32,
-                "start": 13,
+                "flags": 13,
+                "start": 34,
                 "end": 21
             },
             "flags": 16,
@@ -94,7 +93,7 @@
                             "start": 41,
                             "end": 43
                         },
-                        "flags": 32,
+                        "flags": 0,
                         "start": 32,
                         "end": 43
                     },

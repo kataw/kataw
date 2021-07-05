@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/in_a_block
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/gen/in_a_block
 > :: test: in a block
 > :: case: ({interface}) => null
 ## Options
@@ -62,7 +61,7 @@
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
                                 "start": 3,
                                 "end": 15
                             },
@@ -111,11 +110,8 @@
 ```javascript
 
 {
-  ({
-      interface
-    }) => null;
+  ({interface}) =>  null ;
 }
-
 ```
 
 ### Diagnostics

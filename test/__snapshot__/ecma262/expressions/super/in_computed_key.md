@@ -89,7 +89,7 @@ x = {[super[foo]]: x};
                     "start": 3,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 21
             },

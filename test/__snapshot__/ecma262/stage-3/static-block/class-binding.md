@@ -157,7 +157,7 @@ class Foo {
                                                     "start": 56,
                                                     "end": 64
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 41,
                                                 "end": 64
                                             },
@@ -206,13 +206,9 @@ class Foo {
 ```javascript
 
 class Foo {
-  static bar = 42
-  ;
-  static  {
-    this.foo = Foo.bar;
-  }
+  static bar = 42;;
+  
 }
-
 ```
 
 ### Diagnostics

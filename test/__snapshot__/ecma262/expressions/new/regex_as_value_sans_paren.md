@@ -78,8 +78,9 @@ f(new /z/)
 
 ```javascript
 
-f(new /z/);
-
+f(
+  new /z/
+);
 ```
 
 ### Diagnostics

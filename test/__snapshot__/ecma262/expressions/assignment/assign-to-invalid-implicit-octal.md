@@ -56,7 +56,7 @@ x = 01124n;
                     "start": 3,
                     "end": 27
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 27
             },
@@ -90,7 +90,7 @@ x = 01124n;
                     "start": 33,
                     "end": 61
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 28,
                 "end": 61
             },
@@ -124,7 +124,7 @@ x = 01124n;
                     "start": 67,
                     "end": 77
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 62,
                 "end": 77
             },
@@ -154,11 +154,11 @@ x = 01124n;
                     "kind": 201392400,
                     "text": "01____124",
                     "rawText": "01____124n",
-                    "flags": 96,
+                    "flags": 65632,
                     "start": 83,
                     "end": 94
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 78,
                 "end": 94
             },
@@ -192,7 +192,7 @@ x = 01124n;
                     "start": 100,
                     "end": 107
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 95,
                 "end": 107
             },

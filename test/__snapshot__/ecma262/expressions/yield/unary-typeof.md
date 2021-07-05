@@ -129,9 +129,8 @@ function *f() {  return typeof yield foo;  }
 ```javascript
 
 function * f() {
-  return typeof yield  foo;
+  return typeof yield foo;
 }
-
 ```
 
 ### Diagnostics

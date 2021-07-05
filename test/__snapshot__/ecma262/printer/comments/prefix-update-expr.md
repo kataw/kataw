@@ -55,8 +55,7 @@
 
 ```javascript
 
---/*1*/a;
-
+-- a;
 ```
 
 ### Diagnostics

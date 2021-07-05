@@ -365,15 +365,12 @@ try {
 ```javascript
 
 try {
-  await { function() {} };
+  await {function(){}};
+} catch (e) {
+  await {function(){}};
+} finally {
+  await {function(){}};
 }
-catch (e){
-  await { function() {} };
-}
-finally {
-  await { function() {} };
-}
-
 ```
 
 ### Diagnostics

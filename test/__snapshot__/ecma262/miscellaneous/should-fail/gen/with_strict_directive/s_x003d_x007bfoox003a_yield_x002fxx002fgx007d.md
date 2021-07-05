@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/with_strict_directive
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/gen/with_strict_directive
 > :: test: with strict directive
 > :: case: s = {foo: yield /x/g}
 ## Options
@@ -128,7 +127,7 @@
                     "start": 17,
                     "end": 35
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 13,
                 "end": 35
             },
@@ -150,9 +149,8 @@
 
 ```javascript
 
-'"use strict"';
-s = { foo : yield / x / g };
-
+"\"use strict\"";
+s = {foo: yield /  x /  g};
 ```
 
 ### Diagnostics

@@ -91,7 +91,7 @@ for (let ...a = 1;;);
                     "start": 15,
                     "end": 17
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 12,
                 "end": 17
             },

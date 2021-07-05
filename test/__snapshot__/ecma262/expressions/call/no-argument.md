@@ -220,13 +220,12 @@ new it(/* comment */)
 
 ```javascript
 
-require(/* comment */);
-new require(/* comment */);
-define(/* comment */);
-new define(/* comment */);
-it(/* comment */);
-new it(/* comment */);
-
+require();
+new require();
+define();
+new define();
+it();
+new it();
 ```
 
 ### Diagnostics

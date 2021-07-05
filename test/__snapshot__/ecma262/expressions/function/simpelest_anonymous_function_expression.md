@@ -103,8 +103,9 @@ foo(function(){})
 
 ```javascript
 
-foo(function () {});
-
+foo(
+  function () {}
+);
 ```
 
 ### Diagnostics

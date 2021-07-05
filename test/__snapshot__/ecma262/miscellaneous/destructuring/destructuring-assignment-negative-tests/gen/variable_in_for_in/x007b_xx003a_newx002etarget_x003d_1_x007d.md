@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-negative-tests/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-negative-tests/gen/variable_in_for_in
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/destructuring-assignment-negative-tests/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/destructuring-assignment-negative-tests/gen/variable_in_for_in
 > :: test: variable in for in
 > :: case: { x: new.target = 1 }
 ## Options
@@ -166,7 +165,7 @@ var x, y, z; for (x in { x: new.target = 1 } = {});
                                         "start": 40,
                                         "end": 42
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 24,
                                     "end": 42
                                 },

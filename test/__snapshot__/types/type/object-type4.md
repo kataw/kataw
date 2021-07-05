@@ -139,7 +139,6 @@ type a = {x:y.z};
 ```javascript
 
 type a = { x: y.z }
-
 ```
 
 ### Diagnostics

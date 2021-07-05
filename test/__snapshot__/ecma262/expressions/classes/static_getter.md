@@ -129,9 +129,8 @@ class A {static get foo(){}}
 ```javascript
 
 class A {
-  static get foo() {}
+  static get foo(){}
 }
-
 ```
 
 ### Diagnostics

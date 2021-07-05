@@ -102,7 +102,7 @@ const obj = {
                                                 "start": 37,
                                                 "end": 41
                                             },
-                                            "flags": 32,
+                                            "flags": 0,
                                             "start": 26,
                                             "end": 41
                                         },

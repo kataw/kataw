@@ -65,7 +65,7 @@ await(x);
                     "start": 15,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 6,
                 "end": 21
             },
@@ -126,8 +126,9 @@ await(x);
 
 await;
 await = yield;
-await(x);
-
+await(
+  x
+);
 ```
 
 ### Diagnostics

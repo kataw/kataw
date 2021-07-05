@@ -84,7 +84,7 @@ x = {a, ...y, b}
                     "start": 3,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 16
             },
@@ -106,8 +106,7 @@ x = {a, ...y, b}
 
 ```javascript
 
-x = { a, ...y, b };
-
+x = {a, ...y, b};
 ```
 
 ### Diagnostics

@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/object-literal/good_supers/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/object-literal/good_supers/gen/object_with_string_key
+- From: kataw/test/__snapshot__/ecma262/expressions/object-literal/good_supers/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/object-literal/good_supers/gen/object_with_string_key
 > :: test: object with string key
 > :: case: super.cool
 ## Options
@@ -161,8 +160,8 @@ class x extends y {
                                                         "start": 43,
                                                         "end": 62
                                                     },
-                                                    "flags": 32,
-                                                    "start": 37,
+                                                    "flags": 37,
+                                                    "start": 35,
                                                     "end": 63
                                                 },
                                                 "flags": 16,
@@ -213,12 +212,11 @@ class x extends y {
 
 ```javascript
 
-class x extends y {
-  constructor() {
-    ({ '"foo"' : super.cool });
+class x  extends y {
+  constructor(){
+    ({"\"foo\"": super .cool});
   }
 }
-
 ```
 
 ### Diagnostics

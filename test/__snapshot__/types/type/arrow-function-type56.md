@@ -224,8 +224,7 @@ type a = ([-1] | x | q & (x)) => T;
 
 ```javascript
 
-type a = ([[-1]] | x | q & (x)) => T
-
+type a = ([-1] | x | q & (x)) =>  T
 ```
 
 ### Diagnostics

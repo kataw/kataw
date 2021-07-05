@@ -130,8 +130,7 @@ type x = { get (): string }
 
 ```javascript
 
-type x = { get(): string }
-
+type x = { get(): string  }
 ```
 
 ### Diagnostics

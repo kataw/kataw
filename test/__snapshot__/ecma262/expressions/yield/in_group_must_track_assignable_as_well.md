@@ -117,7 +117,7 @@ function *g() { async (x = y = yield z) => {}; }
                                                 "start": 30,
                                                 "end": 38
                                             },
-                                            "flags": 32,
+                                            "flags": 0,
                                             "start": 26,
                                             "end": 38
                                         },
@@ -191,10 +191,8 @@ function *g() { async (x = y = yield z) => {}; }
 ```javascript
 
 function * g() {
-  async (x = y = yield  z) => {}
-  ;
+  async (x = y = yield z) => {}
 }
-
 ```
 
 ### Diagnostics

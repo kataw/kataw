@@ -176,12 +176,9 @@ function * g() {
 
 function * g() {
   class C {
-    static  {
-      yield;
-    }
+    
   }
 }
-
 ```
 
 ### Diagnostics

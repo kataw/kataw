@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/for-await/for-await-of/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/for-await/for-await-of/gen/Eigth
+- From: kataw/test/__snapshot__/ecma262/statements/for-await/for-await-of/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/statements/for-await/for-await-of/gen/Eigth
 > :: test: Eigth
 > :: case: (var {[Symbol.iterator]: a = 1} of [])
 ## Options
@@ -236,11 +235,9 @@ await (var {[Symbol.iterator]: a = 1} of []) { } }
 ```javascript
 
 async function f() {
-  for await (var {
-    [Symbol.iterator]: a = 1
-  } of []) { }
+  for await (var {[Symbol.iterator]: a = 1} of [])
+    {}
 }
-
 ```
 
 ### Diagnostics

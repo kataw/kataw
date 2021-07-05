@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/template_tail
+- From: kataw/test/__snapshot__/ecma262/expressions/arrow/position/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/arrow/position/gen/template_tail
 > :: test: template tail
 > :: case: async => ok
 ## Options
@@ -112,8 +111,7 @@
 
 ```javascript
 
-`a ${async => ok} b`.length;
-
+`a ${async =>  ok} b`.length;
 ```
 
 ### Diagnostics

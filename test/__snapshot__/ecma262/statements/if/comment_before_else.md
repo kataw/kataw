@@ -232,21 +232,16 @@ else stuff;
 ```javascript
 
 if (cond) {
-  stuff;
-}
-else if (cond) {
-  stuff;
-}
- // comment
-else {
-  stuff;
-}
-if (cond)
-  stuff;
- // comment
-else
-  stuff;
-
+    stuff;
+  }
+else  if (cond) {
+    stuff;
+  }
+else  {
+    stuff;
+  }
+if (cond) stuff;
+else  stuff;
 ```
 
 ### Diagnostics

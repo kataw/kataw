@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/gen/variable_declaration
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/positive-cases/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/positive-cases/gen/variable_declaration
 > :: test: variable declaration
 > :: case: { __proto__: x, __proto__: y}
 ## Options
@@ -140,11 +139,7 @@ var { __proto__: x, __proto__: y} = {};
 
 ```javascript
 
-var {
-  __proto__: x,
-  __proto__: y
-} = {};
-
+var {__proto__: x, __proto__: y} = {};
 ```
 
 ### Diagnostics

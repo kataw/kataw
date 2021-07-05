@@ -65,8 +65,8 @@ export default (1 + 2);
                     "start": 16,
                     "end": 21
                 },
-                "flags": 32,
-                "start": 14,
+                "flags": 14,
+                "start": 32,
                 "end": 22
             },
             "flags": 16,
@@ -87,8 +87,7 @@ export default (1 + 2);
 
 ```javascript
 
-export default (1 + 2);
-
+export default (1 +  2);
 ```
 
 ### Diagnostics

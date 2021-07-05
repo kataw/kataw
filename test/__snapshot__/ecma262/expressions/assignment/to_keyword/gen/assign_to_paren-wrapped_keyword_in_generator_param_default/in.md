@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/assign_to_paren-wrapped_keyword_in_generator_param_default
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/gen/assign_to_paren-wrapped_keyword_in_generator_param_default
 > :: test: assign to paren-wrapped keyword in generator param default
 > :: case: in
 ## Options
@@ -96,8 +95,8 @@ function *f(x = (in) = f) {}
                                     "start": 17,
                                     "end": 19
                                 },
-                                "flags": 32,
-                                "start": 15,
+                                "flags": 15,
+                                "start": 32,
                                 "end": 20
                             },
                             "operatorToken": {
@@ -114,7 +113,7 @@ function *f(x = (in) = f) {}
                                 "start": 22,
                                 "end": 24
                             },
-                            "flags": 32,
+                            "flags": 0,
                             "start": 15,
                             "end": 24
                         },

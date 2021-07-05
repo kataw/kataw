@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/sub-tree/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/sub-tree/gen/for-in_loop
+- From: kataw/test/__snapshot__/ecma262/declarations/let/sub-tree/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/declarations/let/sub-tree/gen/for-in_loop
 > :: test: for-in loop
 > :: case: let [x] = y
 ## Options

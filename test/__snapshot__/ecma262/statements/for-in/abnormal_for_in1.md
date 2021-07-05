@@ -722,26 +722,28 @@ function baz(x: boolean) {
 
 ```javascript
 
-function foo(x: boolean) {
-  var obj = { a : 1, b : 2 };
-  for (var prop in obj) {
-    if (x) {
-      continue;
+function foo(x: boolean ) {
+  var obj = {a: 1, b: 2};
+  for (var prop in obj)
+    {
+      if (x) {
+          continue ;
+        }
+      return;
     }
-    return;
-  }
 }
-function bar(x: boolean) {
-  for (var prop in {}) {
-    return;
-  }
+function bar(x: boolean ) {
+  for (var prop in {})
+    {
+      return;
+    }
 }
-function baz(x: boolean) {
-  for (var prop in {}) {
-    continue;
-  }
+function baz(x: boolean ) {
+  for (var prop in {})
+    {
+      continue ;
+    }
 }
-
 ```
 
 ### Diagnostics

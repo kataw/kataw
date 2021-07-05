@@ -142,7 +142,7 @@ o = {f(x) { let x }}
                     "start": 3,
                     "end": 20
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 20
             },

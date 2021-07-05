@@ -62,9 +62,7 @@ switch /* comment 1 */ (x) {}
 
 ```javascript
 
-switch/* comment 1 */ (x) {
-}
-
+switch (x) {}
 ```
 
 ### Diagnostics

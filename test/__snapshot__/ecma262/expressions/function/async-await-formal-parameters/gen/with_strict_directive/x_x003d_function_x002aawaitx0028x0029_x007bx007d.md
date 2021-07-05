@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/function/async-await-formal-parameters/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/function/async-await-formal-parameters/gen/with_strict_directive
+- From: kataw/test/__snapshot__/ecma262/expressions/function/async-await-formal-parameters/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/function/async-await-formal-parameters/gen/with_strict_directive
 > :: test: with strict directive
 > :: case: x = function *await() {}
 ## Options
@@ -204,7 +203,6 @@
 
 '\'use strict\'';
 var f = async function f(x = function * await() {}) {};
-
 ```
 
 ### Diagnostics

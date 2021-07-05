@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/do-while/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/do-while/gen/do_parens
+- From: kataw/test/__snapshot__/ecma262/statements/do-while/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/statements/do-while/gen/do_parens
 > :: test: do parens
 > :: case: =! class function try while with foo!
 ## Options
@@ -92,12 +91,12 @@ do( =! class function try while with foo! while
                             "start": 5,
                             "end": 12
                         },
-                        "flags": 32,
+                        "flags": 0,
                         "start": 3,
                         "end": 12
                     },
-                    "flags": 32,
-                    "start": 2,
+                    "flags": 2,
+                    "start": 32,
                     "end": 12
                 },
                 "flags": 16,

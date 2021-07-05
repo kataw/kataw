@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/array_with_assign_to_unwrapped
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/gen/array_with_assign_to_unwrapped
 > :: test: array with assign to unwrapped
 > :: case: function
 ## Options
@@ -104,7 +103,7 @@ async x => function = 1
                         "start": 21,
                         "end": 23
                     },
-                    "flags": 32,
+                    "flags": 0,
                     "start": 10,
                     "end": 23
                 },

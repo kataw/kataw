@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/gen/lexical_let_in_for_in_statement
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/destructuring-assignment-positive-tests/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/destructuring-assignment-positive-tests/gen/lexical_let_in_for_in_statement
 > :: test: lexical let in for in statement
 > :: case: { z : { __proto__: x, __proto__: y } = z }
 ## Options
@@ -285,9 +284,7 @@
 
 '\'use strict\'';
 let x, y, z;
-for (x in { z : { __proto__ : x, __proto__ : y } = z } = {})
-  ;
-
+for (x in {z: {__proto__: x, __proto__: y} = z} = {});
 ```
 
 ### Diagnostics

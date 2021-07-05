@@ -69,8 +69,7 @@ left|right
 
 ```javascript
 
-left | right;
-
+left |  right;
 ```
 
 ### Diagnostics

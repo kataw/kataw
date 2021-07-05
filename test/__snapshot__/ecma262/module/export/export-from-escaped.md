@@ -135,9 +135,8 @@ fro\u006D
 ```javascript
 
 let x;
-export { x, };
+export { x  };
 fro\u006D;
-
 ```
 
 ### Diagnostics

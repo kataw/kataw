@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/simple
+- From: kataw/test/__snapshot__/ecma262/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/yield/gen/simple
 > :: test: simple
 > :: case: function *a(){yield 2e308}
 ## Options
@@ -119,9 +118,8 @@ function *a(){yield 2e308}
 ```javascript
 
 function * a() {
-  yield  2e308;
+  yield 2e308;
 }
-
 ```
 
 ### Diagnostics

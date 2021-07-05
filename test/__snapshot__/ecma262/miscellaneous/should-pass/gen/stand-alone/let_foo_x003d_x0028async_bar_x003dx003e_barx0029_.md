@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/gen/stand-alone
 > :: test: stand-alone
 > :: case: let foo = (async bar => bar);
 ## Options
@@ -83,8 +82,8 @@ let foo = (async bar => bar);
                                 "start": 11,
                                 "end": 27
                             },
-                            "flags": 32,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 32,
                             "end": 28
                         },
                         "flags": 16,
@@ -114,8 +113,7 @@ let foo = (async bar => bar);
 
 ```javascript
 
-let foo = (async bar => bar);
-
+let foo = (async bar =>  bar);
 ```
 
 ### Diagnostics

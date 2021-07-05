@@ -103,8 +103,11 @@ z(z(z()));
 
 ```javascript
 
-z(z(z()));
-
+z(
+  z(
+    z()
+  )
+);
 ```
 
 ### Diagnostics

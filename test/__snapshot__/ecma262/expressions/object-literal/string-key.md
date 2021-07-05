@@ -103,7 +103,7 @@ x = {
                     "start": 3,
                     "end": 19
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 19
             },
@@ -126,9 +126,8 @@ x = {
 ```javascript
 
 x = {
-  * '""'() {},
+  * "\"\""(){}
 };
-
 ```
 
 ### Diagnostics

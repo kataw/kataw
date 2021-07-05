@@ -77,8 +77,7 @@ for (x in y) continue
 ```javascript
 
 for (x in y)
-  continue;
-
+  continue ;
 ```
 
 ### Diagnostics

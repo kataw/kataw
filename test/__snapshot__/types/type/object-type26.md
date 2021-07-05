@@ -286,8 +286,7 @@ type a = {[((({a():foo}) => [c|d]))]:string};
 
 ```javascript
 
-type a = { [(({ a(): foo }) => [[c | d]])]:  string }
-
+type a = { [(({ a(): foo }) =>  [c | d])]: string  }
 ```
 
 ### Diagnostics

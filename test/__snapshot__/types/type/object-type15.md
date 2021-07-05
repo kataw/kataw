@@ -165,8 +165,7 @@ type a = {x: {x?:y}};
 
 ```javascript
 
-type a = { x: { x?: y } }
-
+type a = { x: { x? : y } }
 ```
 
 ### Diagnostics

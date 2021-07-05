@@ -331,7 +331,7 @@ Object.defineProperty(this, "x", {
                                                             "kind": 342,
                                                             "parameters": [],
                                                             "trailingComma": false,
-                                                            "flags": 0,
+                                                            "flags": 32,
                                                             "start": 171,
                                                             "end": 171
                                                         },
@@ -444,11 +444,11 @@ Object.defineProperty(this, "x", {
                                                                                     "start": 198,
                                                                                     "end": 218
                                                                                 },
-                                                                                "flags": 32,
-                                                                                "start": 198,
+                                                                                "flags": 198,
+                                                                                "start": 32,
                                                                                 "end": 219
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 0,
                                                                             "start": 190,
                                                                             "end": 219
                                                                         },
@@ -549,8 +549,8 @@ Object.defineProperty(this, "x", {
                         "start": 109,
                         "end": 252
                     },
-                    "flags": 32,
-                    "start": 106,
+                    "flags": 106,
+                    "start": 33,
                     "end": 253
                 },
                 "argumentList": {
@@ -584,21 +584,23 @@ Object.defineProperty(this, "x", {
 ```javascript
 
 var count = 0;
-var global = this;
-Object.defineProperty(this, '"x"', {
-  configurable : true,
-  value : 1
-});
+var global = this ;
+Object.defineProperty(
+  this ,
+  "\"x\"",
+  {
+    configurable: true ,
+    value: 1
+  }
+);
 (function () {
-'"use strict"';
-  assert.throws(ReferenceError, () => {
-    count++;
-    x = (delete global.x, 2);
-    count++;
-  });
-  count++;
-})();
-
+    assert.throws(ReferenceError, () => {
+        count++ ;
+        x = (delete global.x, 2);
+        count++ ;
+      });
+    count++ ;
+  })();
 ```
 
 ### Diagnostics

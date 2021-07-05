@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/with_strict_dirctive
+- From: kataw/test/__snapshot__/ecma262/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/yield/gen/with_strict_dirctive
 > :: test: with_strict_dirctive
 > :: case: function* gf() { yield 'foo' }
 ## Options
@@ -129,9 +128,8 @@
 
 '\'use strict\'';
 function * gf() {
-  yield  '\'foo\'';
+  yield '\'foo\'';
 }
-
 ```
 
 ### Diagnostics

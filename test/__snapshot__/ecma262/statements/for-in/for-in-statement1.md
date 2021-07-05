@@ -185,11 +185,10 @@ for (a in expr) {
 
 ```javascript
 
-var a: any;
-var expr: any;
-for (a in expr) {
-}
-
+var a: any ;
+var expr: any ;
+for (a in expr)
+  {}
 ```
 
 ### Diagnostics

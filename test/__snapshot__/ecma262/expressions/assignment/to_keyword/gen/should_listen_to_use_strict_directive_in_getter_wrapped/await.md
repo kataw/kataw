@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/should_listen_to_use_strict_directive_in_getter_wrapped
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/gen/should_listen_to_use_strict_directive_in_getter_wrapped
 > :: test: should listen to use strict directive in getter wrapped
 > :: case: await
 ## Options
@@ -129,8 +128,8 @@ foo = {
                                                             "start": 36,
                                                             "end": 51
                                                         },
-                                                        "flags": 32,
-                                                        "start": 36,
+                                                        "flags": 36,
+                                                        "start": 35,
                                                         "end": 52
                                                     },
                                                     "flags": 16,
@@ -164,7 +163,7 @@ foo = {
                     "start": 5,
                     "end": 59
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 59
             },
@@ -187,12 +186,10 @@ foo = {
 ```javascript
 
 foo = {
-  get x() {
-  '"use strict"';
+  get x(){
     (await = x);
   }
 };
-
 ```
 
 ### Diagnostics

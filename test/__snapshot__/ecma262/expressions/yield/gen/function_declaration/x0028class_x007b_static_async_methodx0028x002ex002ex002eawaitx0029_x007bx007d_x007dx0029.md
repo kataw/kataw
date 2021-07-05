@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_declaration
+- From: kataw/test/__snapshot__/ecma262/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/yield/gen/function_declaration
 > :: test: function declaration
 > :: case: (class { static async method(...await) {} })
 ## Options
@@ -176,8 +175,8 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                     "start": 22,
                                     "end": 64
                                 },
-                                "flags": 32,
-                                "start": 20,
+                                "flags": 20,
+                                "start": 32,
                                 "end": 65
                             },
                             "flags": 16,

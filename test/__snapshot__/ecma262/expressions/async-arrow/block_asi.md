@@ -104,7 +104,6 @@ async () => {}
 {
   x;
 }
-
 ```
 
 ### Diagnostics

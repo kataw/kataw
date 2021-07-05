@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/gen/lexical_let_with_strict_directive
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/positive-cases/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/positive-cases/gen/lexical_let_with_strict_directive
 > :: test: lexical let with strict directive
 > :: case: { __proto__: x, __proto__: y}
 ## Options
@@ -149,11 +148,7 @@
 ```javascript
 
 '\'use strict\'';
-let {
-  __proto__: x,
-  __proto__: y
-} = {};
-
+let {__proto__: x, __proto__: y} = {};
 ```
 
 ### Diagnostics

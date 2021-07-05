@@ -108,13 +108,8 @@ var Person = makeClass(
 ### Printed
 
 ```javascript
-// @removeComments: false
-var Person = makeClass(
- /**
-     @scope Person
-   */
-{});
 
+var Person = makeClass({});
 ```
 
 ### Diagnostics

@@ -73,8 +73,9 @@ z(x);
 
 ```javascript
 
-z(x);
-
+z(
+  x
+);
 ```
 
 ### Diagnostics

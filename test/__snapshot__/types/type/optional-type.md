@@ -115,8 +115,7 @@ type x = [y?];
 
 ```javascript
 
-type x = [[y?]]
-
+type x = [y? ]
 ```
 
 ### Diagnostics

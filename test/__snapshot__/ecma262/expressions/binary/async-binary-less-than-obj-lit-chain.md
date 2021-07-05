@@ -73,8 +73,8 @@ async <{}>(x) >> y + z
                                 "start": 11,
                                 "end": 12
                             },
-                            "flags": 32,
-                            "start": 10,
+                            "flags": 10,
+                            "start": 32,
                             "end": 13
                         },
                         "operatorToken": {
@@ -91,7 +91,7 @@ async <{}>(x) >> y + z
                             "start": 16,
                             "end": 18
                         },
-                        "flags": 32,
+                        "flags": 42,
                         "start": 13,
                         "end": 18
                     },
@@ -135,8 +135,7 @@ async <{}>(x) >> y + z
 
 ```javascript
 
-async  < {} > (x) >> y + z;
-
+async  <  {} >  (x) >>  y +  z;
 ```
 
 ### Diagnostics

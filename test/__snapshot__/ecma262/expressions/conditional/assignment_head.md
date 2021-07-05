@@ -75,7 +75,7 @@ a=b?c:d
                     "start": 2,
                     "end": 7
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -98,7 +98,6 @@ a=b?c:d
 ```javascript
 
 a = b ? c : d;
-
 ```
 
 ### Diagnostics

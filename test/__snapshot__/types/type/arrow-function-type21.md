@@ -163,8 +163,7 @@ type a = ({}[x]) => T;
 
 ```javascript
 
-type a = ({}[ x]) => T
-
+type a = ({}[x]) =>  T
 ```
 
 ### Diagnostics

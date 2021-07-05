@@ -86,7 +86,7 @@ for ({}[y] ^= x;;) x;
                     "start": 13,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 15
             },
@@ -124,9 +124,8 @@ for ({}[y] ^= x;;) x;
 
 ```javascript
 
-for ({}[y] ^= x;;)
+for ({}[y] ^= x; ; )
   x;
-
 ```
 
 ### Diagnostics

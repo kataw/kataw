@@ -75,7 +75,7 @@ for ([][y] <<= p;;) x;
                     "start": 14,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 16
             },
@@ -113,9 +113,8 @@ for ([][y] <<= p;;) x;
 
 ```javascript
 
-for ([][y] <<= p;;)
+for ([][y] <<= p; ; )
   x;
-
 ```
 
 ### Diagnostics

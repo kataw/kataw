@@ -67,7 +67,7 @@ type = x;
                     "start": 13,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 5,
                 "end": 15
             },
@@ -87,8 +87,8 @@ type = x;
                     "start": 19,
                     "end": 23
                 },
-                "flags": 32,
-                "start": 16,
+                "flags": 16,
+                "start": 33,
                 "end": 24
             },
             "flags": 16,
@@ -112,7 +112,6 @@ type = x;
 type;
 type = x;
 (type);
-
 ```
 
 ### Diagnostics

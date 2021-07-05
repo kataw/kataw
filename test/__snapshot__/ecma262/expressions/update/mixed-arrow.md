@@ -51,7 +51,7 @@
                                             "kind": 342,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 6,
                                             "end": 6
                                         },
@@ -120,8 +120,7 @@
 
 ```javascript
 
---{ _ : () => null }._;
-
+-- {_: () =>  null }._;
 ```
 
 ### Diagnostics

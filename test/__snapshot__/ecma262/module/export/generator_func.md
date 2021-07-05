@@ -121,7 +121,6 @@ export default function *f(){} foo
 
 export default function * f() {};
 foo;
-
 ```
 
 ### Diagnostics

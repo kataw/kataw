@@ -196,9 +196,9 @@ function* foo(a = {*bar() { yield b }}) {}
 
 ```javascript
 
-function * foo(a = { * bar(){
+function * foo(a = {* bar(){
     yield b;
-  } }) {}
+  }}) {}
 ```
 
 ### Diagnostics

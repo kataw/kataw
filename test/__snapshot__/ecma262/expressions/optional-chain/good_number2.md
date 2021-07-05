@@ -537,7 +537,6 @@ a ? 6 : b;
 a ? 7 : b;
 a ? 8 : b;
 a ? 9 : b;
-
 ```
 
 ### Diagnostics

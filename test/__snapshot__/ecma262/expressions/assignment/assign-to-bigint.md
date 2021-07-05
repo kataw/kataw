@@ -53,7 +53,7 @@ a= 0b0101n;
                     "start": 2,
                     "end": 5
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -87,7 +87,7 @@ a= 0b0101n;
                     "start": 10,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 6,
                 "end": 16
             },
@@ -121,7 +121,7 @@ a= 0b0101n;
                     "start": 21,
                     "end": 28
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 17,
                 "end": 28
             },
@@ -155,7 +155,7 @@ a= 0b0101n;
                     "start": 33,
                     "end": 41
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 29,
                 "end": 41
             },
@@ -181,7 +181,6 @@ a = 1n;
 a = 0x80n;
 a = 0o755n;
 a = 0b0101n;
-
 ```
 
 ### Diagnostics

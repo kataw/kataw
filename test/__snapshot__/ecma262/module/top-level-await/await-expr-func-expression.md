@@ -93,7 +93,6 @@ await function() {}
 ```javascript
 
 await function () {};
-
 ```
 
 ### Diagnostics

@@ -375,7 +375,7 @@ async function f5() {
                                                         "start": 214,
                                                         "end": 219
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 196,
                                                     "end": 219
                                                 },
@@ -463,7 +463,7 @@ async function f5() {
                                                             "start": 301,
                                                             "end": 306
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 0,
                                                         "start": 280,
                                                         "end": 306
                                                     },
@@ -661,7 +661,7 @@ async function f5() {
                                             "start": 450,
                                             "end": 455
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 422,
                                         "end": 455
                                     },
@@ -735,7 +735,7 @@ async function f5() {
                                                 "start": 533,
                                                 "end": 538
                                             },
-                                            "flags": 32,
+                                            "flags": 0,
                                             "start": 490,
                                             "end": 538
                                         },
@@ -924,7 +924,7 @@ async function f5() {
                                             "start": 695,
                                             "end": 700
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 660,
                                         "end": 700
                                     },
@@ -998,7 +998,7 @@ async function f5() {
                                                 "start": 797,
                                                 "end": 802
                                             },
-                                            "flags": 32,
+                                            "flags": 0,
                                             "start": 735,
                                             "end": 802
                                         },
@@ -1340,7 +1340,7 @@ async function f5() {
                                                         "start": 1039,
                                                         "end": 1044
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 1019,
                                                     "end": 1044
                                                 },
@@ -1428,7 +1428,7 @@ async function f5() {
                                                             "start": 1136,
                                                             "end": 1141
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 0,
                                                         "start": 1113,
                                                         "end": 1141
                                                     },
@@ -1779,7 +1779,7 @@ async function f5() {
                                                         "start": 1366,
                                                         "end": 1371
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 1348,
                                                     "end": 1371
                                                 },
@@ -1867,7 +1867,7 @@ async function f5() {
                                                             "start": 1453,
                                                             "end": 1458
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 0,
                                                         "start": 1410,
                                                         "end": 1458
                                                     },
@@ -1927,58 +1927,51 @@ async function f5() {
 ```javascript
 
 async function f1() {
-  if (untrackedChoice === 0)/* Cancel */ {
-    return null;
-  }
-  else if (untrackedChoice === 1)/* Add */ {
-    await repository.addAll(Array.from(untrackedChanges.keys()));
-    shouldAmend = true;
-  }
-  else if (untrackedChoice === 2)/* Allow Untracked */ {
-    allowUntracked = true;
-  }
+  if (untrackedChoice ===  0) {
+      return null ;
+    }
+  else  if (untrackedChoice ===  1) {
+      await repository.addAll(Array.from(untrackedChanges.keys()));
+      shouldAmend = true ;
+    }
+  else  if (untrackedChoice ===  2) {
+      allowUntracked = true ;
+    }
 }
 async function f2() {
-  if (untrackedChoice === 0)/* Cancel */
-    null;
-  else if (untrackedChoice === 1)/* Add */
-    shouldAmend = true;
-  else if (untrackedChoice === 2)/* Allow Untracked */
-    allowUntracked = true;
+  if (untrackedChoice ===  0) null ;
+  else  if (untrackedChoice ===  1) shouldAmend = true ;
+  else  if (untrackedChoice ===  2) allowUntracked = true ;
 }
 async function f3() {
-  if (untrackedChoice === 0)/* Cancel */ // Cancel
-    null;
-  else if (untrackedChoice === 1)/* Add */ // Add
-    shouldAmend = true;
-  else if (untrackedChoice === 2)/* Allow Untracked */ // Allow Untracked
-    allowUntracked = true;
+  if (untrackedChoice ===  0) null ;
+  else  if (untrackedChoice ===  1) shouldAmend = true ;
+  else  if (untrackedChoice ===  2) allowUntracked = true ;
 }
 async function f4() {
-  if (untrackedChoice === 0) {
-    return null;
-  }
-  else if (untrackedChoice === 1) {
-    await repository.addAll(Array.from(untrackedChanges.keys()));
-    shouldAmend = true;
-  }
-  else if (untrackedChoice === 2) {
-    allowUntracked = true;
-  }
+  if (untrackedChoice ===  0) {
+      return null ;
+    }
+  else  if (untrackedChoice ===  1) {
+      await repository.addAll(Array.from(untrackedChanges.keys()));
+      shouldAmend = true ;
+    }
+  else  if (untrackedChoice ===  2) {
+      allowUntracked = true ;
+    }
 }
 async function f5() {
-  if (untrackedChoice === 0) {
-     /* Cancel */return null;
-  }
-  else if (untrackedChoice === 1) {
-     /* Add */await repository.addAll(Array.from(untrackedChanges.keys()));
-    shouldAmend = true;
-  }
-  else if (untrackedChoice === 2) {
-     /* Allow Untracked */allowUntracked = true;
-  }
+  if (untrackedChoice ===  0) {
+      return null ;
+    }
+  else  if (untrackedChoice ===  1) {
+      await repository.addAll(Array.from(untrackedChanges.keys()));
+      shouldAmend = true ;
+    }
+  else  if (untrackedChoice ===  2) {
+      allowUntracked = true ;
+    }
 }
-
 ```
 
 ### Diagnostics

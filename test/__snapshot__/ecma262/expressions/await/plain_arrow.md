@@ -190,7 +190,7 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 2,
+                                    "flags": 34,
                                     "start": 25,
                                     "end": 55
                                 },
@@ -252,9 +252,8 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
 ```javascript
 
 async function a() {
-  (foo = [{ m : 5 + t(await bar) },]) => {};
+  (foo = [{m: 5 +  t(await bar)}]) => {};
 }
-
 ```
 
 ### Diagnostics

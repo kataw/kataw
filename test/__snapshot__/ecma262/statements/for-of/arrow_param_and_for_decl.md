@@ -156,7 +156,6 @@ a => {
   for (let a of b)
     c;
 };
-
 ```
 
 ### Diagnostics

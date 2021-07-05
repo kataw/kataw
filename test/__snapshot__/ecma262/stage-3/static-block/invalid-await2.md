@@ -208,13 +208,8 @@ class C {
 
 let await;
 class C {
-  static  {
-    let {
-      await
-    } = {};// illegal, cannot declare a new binding for await
-  }
+  
 }
-
 ```
 
 ### Diagnostics

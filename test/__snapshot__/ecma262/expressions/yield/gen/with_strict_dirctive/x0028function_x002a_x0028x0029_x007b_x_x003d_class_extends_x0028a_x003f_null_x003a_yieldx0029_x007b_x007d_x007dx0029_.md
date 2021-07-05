@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/with_strict_dirctive
+- From: kataw/test/__snapshot__/ecma262/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/yield/gen/with_strict_dirctive
 > :: test: with_strict_dirctive
 > :: case: (function * () { x = class extends (a ? null : yield) { } });
 ## Options
@@ -155,8 +154,8 @@
                                                             "start": 48,
                                                             "end": 66
                                                         },
-                                                        "flags": 32,
-                                                        "start": 48,
+                                                        "flags": 48,
+                                                        "start": 32,
                                                         "end": 67
                                                     },
                                                     "typeParameter": null,
@@ -179,7 +178,7 @@
                                             "start": 34,
                                             "end": 71
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 30,
                                         "end": 71
                                     },
@@ -201,8 +200,8 @@
                     "start": 15,
                     "end": 73
                 },
-                "flags": 32,
-                "start": 13,
+                "flags": 13,
+                "start": 32,
                 "end": 74
             },
             "flags": 16,
@@ -225,10 +224,8 @@
 
 '\'use strict\'';
 (function * () {
-  x = class  extends (a ? null : yield ) {
-  };
-});
-
+    x = class   extends (a ? null  : yield ) {};
+  });
 ```
 
 ### Diagnostics

@@ -354,7 +354,7 @@ var v = {
                                                                     "start": 269,
                                                                     "end": 275
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 0,
                                                                 "start": 255,
                                                                 "end": 275
                                                             },
@@ -417,24 +417,16 @@ var v = {
 ```javascript
 
 var v = {
-   //property
-  prop : 1/* multiple trailing comments */ /*trailing comments*/,
-   //property
-  func : function () {
-  },
-   //PropertyName + CallSignature
-   //PropertyName + CallSignature
-  func1() {},
-   //getter
-  get a() {
-    return this.prop;
-  }/*trailing 1*/,
-   //setter
-  set a(value) {
-    this.prop = value;
-  }// trailing 2
-};
-
+    prop: 1,
+    func: function () {},
+    func1(){},
+    get a(){
+      return this .prop;
+    },
+    set a(value){
+      this .prop = value;
+    }
+  };
 ```
 
 ### Diagnostics

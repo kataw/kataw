@@ -77,9 +77,8 @@
 ```javascript
 
 while (x) {
-  break;
-}
-
+    break ;
+  }
 ```
 
 ### Diagnostics

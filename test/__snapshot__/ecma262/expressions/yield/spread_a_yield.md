@@ -133,7 +133,6 @@ function *g() { [...yield]; }
 function * g() {
   [...yield ];
 }
-
 ```
 
 ### Diagnostics

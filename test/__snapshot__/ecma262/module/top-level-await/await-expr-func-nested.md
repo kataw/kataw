@@ -230,7 +230,6 @@ await await await await await await await await await await await await await aw
 ```javascript
 
 await await await await await await await await await await await await await await await '\'await\'';
-
 ```
 
 ### Diagnostics

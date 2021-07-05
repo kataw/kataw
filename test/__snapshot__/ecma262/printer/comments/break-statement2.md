@@ -109,12 +109,9 @@ foo: while (
 
 ```javascript
 
-foo: while (x
- // comment 1
-) {
-  break/* comment 2 */ foo;
-}
-
+foo:  while (x) {
+    break  foo;
+  }
 ```
 
 ### Diagnostics

@@ -134,9 +134,10 @@ function* f(){ call(yield x); }
 ```javascript
 
 function * f() {
-  call(yield  x);
+  call(
+    yield x
+  );
 }
-
 ```
 
 ### Diagnostics

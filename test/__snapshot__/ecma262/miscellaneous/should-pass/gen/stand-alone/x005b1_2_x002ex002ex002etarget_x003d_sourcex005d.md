@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/gen/stand-alone
 > :: test: stand-alone
 > :: case: [1, 2, ...target = source]
 ## Options
@@ -78,7 +77,7 @@
                                     "start": 18,
                                     "end": 25
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 10,
                                 "end": 25
                             },
@@ -115,7 +114,6 @@
 ```javascript
 
 [1, 2, ...target = source];
-
 ```
 
 ### Diagnostics

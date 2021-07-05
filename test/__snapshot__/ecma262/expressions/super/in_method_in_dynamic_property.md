@@ -143,7 +143,7 @@ x = { foo(){ return x[super.foo]; }}
                     "start": 3,
                     "end": 36
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 36
             },
@@ -165,10 +165,9 @@ x = { foo(){ return x[super.foo]; }}
 
 ```javascript
 
-x = { foo() {
-    return x[super.foo];
-  } };
-
+x = {foo(){
+    return x[super .foo];
+  }};
 ```
 
 ### Diagnostics

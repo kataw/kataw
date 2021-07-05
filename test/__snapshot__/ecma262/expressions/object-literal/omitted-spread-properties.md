@@ -57,7 +57,7 @@ const example = (obj) => {
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 17,
                                 "end": 21
                             },
@@ -284,13 +284,9 @@ const example = (obj) => {
 ```javascript
 
 const example = (obj) => {
-  const foo = '\'foo\'';
-  const {
-    [`prefix_${foo}`]: _,
-    ...rest
-  } = obj;
-};
-
+    const foo = '\'foo\'';
+    const {[`prefix_${foo}`]: _, ...rest} = obj;
+  };
 ```
 
 ### Diagnostics

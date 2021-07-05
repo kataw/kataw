@@ -113,7 +113,7 @@ function foo() { return {arguments} }
 ```javascript
 
 function foo() {
-  return { arguments };
+  return {arguments};
 }
 ```
 

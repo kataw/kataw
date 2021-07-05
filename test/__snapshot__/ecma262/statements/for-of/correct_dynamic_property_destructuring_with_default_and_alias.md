@@ -141,11 +141,7 @@ for (let {[x]: y = z} of obj);
 
 ```javascript
 
-for (let {
-  [x]: y = z
-} of obj)
-  ;
-
+for (let {[x]: y = z} of obj);
 ```
 
 ### Diagnostics

@@ -86,7 +86,7 @@ function f(){ do        { continue }     while(true);}
                             },
                             "whileKeyword": {
                                 "kind": 37757028,
-                                "flags": 64,
+                                "flags": 80,
                                 "start": 36,
                                 "end": 46
                             },
@@ -129,11 +129,11 @@ function f(){ do        { continue }     while(true);}
 ```javascript
 
 function f() {
-  do {
-    continue;
-  } while (true)
+  do  {
+      continue ;
+    }
+  while (true );
 }
-
 ```
 
 ### Diagnostics

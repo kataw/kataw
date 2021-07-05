@@ -75,7 +75,7 @@ for ({}.u |= c;;) x;
                     "start": 12,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -113,9 +113,8 @@ for ({}.u |= c;;) x;
 
 ```javascript
 
-for ({}.u |= c;;)
+for ({}.u |= c; ; )
   x;
-
 ```
 
 ### Diagnostics

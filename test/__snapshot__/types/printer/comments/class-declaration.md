@@ -257,7 +257,7 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                                                         "start": 106,
                                                         "end": 112
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 80,
                                                     "end": 112
                                                 },
@@ -483,22 +483,16 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
 
 ```javascript
 
-class/*1*/ Item<T>/*2*/ {
-  prop: T
-  ;/*3*/
-  constructor/*4*/(param/*5*/: T) {
-    this/*6*/./*7*/prop = param;
+class Item<T> {
+  prop: T;;
+  constructor(param: T){
+    this .prop = param;
   }
-   /*8*/
-   /*8*/
-  method():/*9*/ T/*10*/ {/*11*/
-    return this/*12*/ /*13*/.prop;/*14*/
+  method(): T{
+    return this .prop;
   }
- /*15*/
 }
-class GenericClass/*1*/</*2*/T>/*3*//*4*/ {
-}
-
+class GenericClass<T> {}
 ```
 
 ### Diagnostics

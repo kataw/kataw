@@ -145,14 +145,12 @@ default /* comment 6 */ : /* comment 7 */ foo;
 
 ```javascript
 
-switch/* comment 1 */ (x)/* comment 2 */ {
-  case/* comment 3 */ y:/* comment 4 */ 
+switch (x) {
+  case y:
     foo;
-   // comment 5
-  default/* comment 6 */:/* comment 7 */ 
+  default
     foo;
-}/* comment 8 */
-
+}
 ```
 
 ### Diagnostics

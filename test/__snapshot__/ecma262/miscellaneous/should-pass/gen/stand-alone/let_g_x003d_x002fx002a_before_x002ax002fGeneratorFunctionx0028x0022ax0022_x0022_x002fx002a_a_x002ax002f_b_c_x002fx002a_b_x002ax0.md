@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/gen/stand-alone
 > :: test: stand-alone
 > :: case: let g = /* before */GeneratorFunction("a", " /* a */ b, c /* b */ //", "/* c */ yield yield; /* d */ //")/* after */;
 ## Options
@@ -119,8 +118,11 @@ let g = /* before */GeneratorFunction("a", " /* a */ b, c /* b */ //", "/* c */ 
 
 ```javascript
 
-let g =/* before */ GeneratorFunction('"a"', '" /* a */ b, c /* b */ //"', '"/* c */ yield yield; /* d */ //"')/* after */;
-
+let g = GeneratorFunction(
+    "\"a\"",
+    "\" /* a */ b, c /* b */ //\"",
+    "\"/* c */ yield yield; /* d */ //\""
+  );
 ```
 
 ### Diagnostics

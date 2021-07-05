@@ -83,7 +83,7 @@ while (function* () {} += x);
                     "start": 25,
                     "end": 27
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 7,
                 "end": 27
             },

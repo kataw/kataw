@@ -90,8 +90,7 @@
 
 ```javascript
 
-`${x => x}`;
-
+`${x =>  x}`;
 ```
 
 ### Diagnostics

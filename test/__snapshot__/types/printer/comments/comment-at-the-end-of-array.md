@@ -1068,68 +1068,43 @@ const hj = [
 
 ```javascript
 
-[/* element 1*/1/* end of element 1 */, 2/* end of element 2 */,];
-const ix = [, ,/* comment */];
-var iq = [, ,/* comment */];
-[,/* comment */];
+[1, 2];
+const ix = [, ];
+var iq = [, ];
+[];
 var aryuray = [
-  ,
-  ,/* comment */
-];
-var ayiu = [/* comment */];
-const yuid = [1/* comment */,];
-const yiyv = [/* comment */1/* comment */,];
+    ,
+    
+  ];
+var ayiu = [];
+const yuid = [1];
+const yiyv = [1];
 const yig = [
-   // comment start
-  1,
-  2,
-   // comment end
-];
+    1,
+    2
+  ];
 const yius = [
-   /* element 1 */
-  1,
-   /* end of element 1 */
-];
+    1
+  ];
 const yuh = [
-   /* element 1 */
-  1,
-   /* end of element 1 */
-  /* extra comment */
-];
+    1
+  ];
 const hsy = [
-  1,/* comment */
-];
+    1
+  ];
 const aiya = [
-   // comment start
-  1,
-  2,
-   // comment end
-];
+    1,
+    2
+  ];
 const hj = [
-   /* element 1 */
-  1,
-   /* end of element 1 */
-  /* extra comment */
-];
-const ig = [
-   /* element 1 */
-  1,
-   /* end of element 1 */
-  /* extra comment */
-];
-const yj = [
-   /* element 1 */
-  1,
-   /* end of element 1 */
-  /* extra comment */
-];
-const ka = [
-   /* element 1 */
-  1,
-   /* end of element 1 */
-  /* extra comment */
-];
-
+    1
+  ];const ig = [
+    1
+  ];const yj = [
+    1
+  ];const ka = [
+    1
+  ];
 ```
 
 ### Diagnostics

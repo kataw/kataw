@@ -280,8 +280,8 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 46,
                         "end": 53
                     },
-                    "flags": 32,
-                    "start": 46,
+                    "flags": 46,
+                    "start": 32,
                     "end": 53
                 },
                 "flags": 97,
@@ -336,8 +336,8 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 58,
                         "end": 65
                     },
-                    "flags": 32,
-                    "start": 58,
+                    "flags": 58,
+                    "start": 32,
                     "end": 65
                 },
                 "colonToken": {
@@ -420,8 +420,8 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 78,
                         "end": 85
                     },
-                    "flags": 32,
-                    "start": 78,
+                    "flags": 78,
+                    "start": 32,
                     "end": 85
                 },
                 "flags": 97,
@@ -476,8 +476,8 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 90,
                         "end": 97
                     },
-                    "flags": 32,
-                    "start": 90,
+                    "flags": 90,
+                    "start": 32,
                     "end": 97
                 },
                 "colonToken": {
@@ -988,7 +988,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 205,
                     "end": 223
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 200,
                 "end": 223
             },
@@ -1074,7 +1074,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "start": 228,
                     "end": 246
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 224,
                 "end": 246
             },
@@ -3219,18 +3219,26 @@ a ? c : (b, c);
 a ? (b, c) : c;
 a ? c : (b, d);
 a ? (b, c) : d;
-a ? b || c : c;
-a ? b || c : d;
-a ? b && c : c;
-a ? c : b && c;
-a ? c : b && d;
-a ? c : b || c;
-a = b == null ? c : b;
-a = b != null ? b : c;
-a(b ? 0 : 0);
-a(b ? +0 : -0);
-a(b ? +0 : 0);
-a(b ? -0 : 0);
+a ? b ||  c : c;
+a ? b ||  c : d;
+a ? b &&  c : c;
+a ? c : b &&  c;
+a ? c : b &&  d;
+a ? c : b ||  c;
+a = b ==  null  ? c : b;
+a = b !=  null  ? b : c;
+a(
+  b ? 0 : 0
+);
+a(
+  b ? +0 : -0
+);
+a(
+  b ? +0 : 0
+);
+a(
+  b ? -0 : 0
+);
 a ? b : b;
 a ? -b : -b;
 a ? b.c : b.c;
@@ -3239,17 +3247,16 @@ a ? b[c] : b[c];
 a ? b() : b();
 a ? b?.() : b?.();
 a ? b?.[c] : b?.[c];
-a ? b == c : b == c;
-a ? b.c(d + e[f]) : b.c(d + e[f]);
+a ? b ==  c : b ==  c;
+a ? b.c(d +  e[f]) : b.c(d +  e[f]);
 a ? -b : !b;
 a ? b() : b(c);
 a ? b(c) : b(d);
 a ? b?.c : b.c;
 a ? b?.() : b();
 a ? b?.[c] : b[c];
-a ? b == c : b != c;
-a ? b.c(d + e[f]) : b.c(d + e[g]);
-
+a ? b ==  c : b !=  c;
+a ? b.c(d +  e[f]) : b.c(d +  e[g]);
 ```
 
 ### Diagnostics

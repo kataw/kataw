@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/assign_to_paren-wrapped_keyword_inside_delete_in_param_default
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/gen/assign_to_paren-wrapped_keyword_inside_delete_in_param_default
 > :: test: assign to paren-wrapped keyword inside delete in param default
 > :: case: for
 ## Options
@@ -72,12 +71,12 @@ async (x = delete ((for) = f)) => {}
                                         "start": 20,
                                         "end": 20
                                     },
-                                    "flags": 32,
-                                    "start": 19,
+                                    "flags": 19,
+                                    "start": 32,
                                     "end": 20
                                 },
-                                "flags": 32,
-                                "start": 17,
+                                "flags": 17,
+                                "start": 32,
                                 "end": 20
                             },
                             "flags": 32,
@@ -90,7 +89,7 @@ async (x = delete ((for) = f)) => {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 0,
                 "end": 0
             },
@@ -149,7 +148,7 @@ async (x = delete ((for) = f)) => {}
                         "start": 26,
                         "end": 28
                     },
-                    "flags": 32,
+                    "flags": 0,
                     "start": 24,
                     "end": 28
                 },

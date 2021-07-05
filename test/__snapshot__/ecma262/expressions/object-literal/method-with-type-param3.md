@@ -198,7 +198,7 @@ a={123<T>(x: T): T {}}
                     "start": 2,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 22
             },
@@ -220,8 +220,7 @@ a={123<T>(x: T): T {}}
 
 ```javascript
 
-a = { 123<T>(x: T): T {} };
-
+a = {123<T>(x: T): T{}};
 ```
 
 ### Diagnostics

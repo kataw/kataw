@@ -77,7 +77,7 @@ c;
                     "start": 3,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 21
             },
@@ -131,7 +131,7 @@ c;
                     "start": 27,
                     "end": 115
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 22,
                 "end": 115
             },
@@ -185,7 +185,7 @@ c;
                     "start": 121,
                     "end": 139
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 116,
                 "end": 139
             },
@@ -239,7 +239,7 @@ c;
                     "start": 145,
                     "end": 233
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 140,
                 "end": 233
             },
@@ -293,7 +293,7 @@ c;
                     "start": 239,
                     "end": 256
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 234,
                 "end": 256
             },
@@ -347,7 +347,7 @@ c;
                     "start": 262,
                     "end": 349
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 257,
                 "end": 349
             },
@@ -369,19 +369,12 @@ c;
 
 ```javascript
 
-a = b ||// Comment
- c;
-a = b ||// TODO this is a very very very very long comment that makes it go > 80 columns
- c;
-a = b &&// Comment
- c;
-a = b &&// TODO this is a very very very very long comment that makes it go > 80 columns
- c;
-a = b +// Comment
- c;
-a = b +// TODO this is a very very very very long comment that makes it go > 80 columns
- c;
-
+a = b ||  c;
+a = b ||  c;
+a = b &&  c;
+a = b &&  c;
+a = b +  c;
+a = b +  c;
 ```
 
 ### Diagnostics

@@ -93,7 +93,7 @@ do h(function(){});while(x)
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
                 "start": 19,
                 "end": 24
             },
@@ -123,9 +123,8 @@ do h(function(){});while(x)
 
 ```javascript
 
-do
-  h(function () {}); while (x)
-
+do  h(function () {});
+while (x);
 ```
 
 ### Diagnostics

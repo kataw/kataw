@@ -39,7 +39,7 @@ do x;while(y)z
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
                 "start": 5,
                 "end": 10
             },
@@ -83,10 +83,8 @@ do x;while(y)z
 
 ```javascript
 
-do
-  x; while (y)
-z;
-
+do  x;
+while (y);z;
 ```
 
 ### Diagnostics

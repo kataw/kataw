@@ -108,7 +108,7 @@ x = { method(test: string) { } };
                     "start": 3,
                     "end": 24
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 24
             },
@@ -216,7 +216,7 @@ x = { method(test: string) { } };
                     "start": 30,
                     "end": 44
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 25,
                 "end": 44
             },

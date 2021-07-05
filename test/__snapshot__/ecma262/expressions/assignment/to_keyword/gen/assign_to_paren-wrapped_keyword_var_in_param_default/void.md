@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/assign_to_paren-wrapped_keyword_var_in_param_default
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/gen/assign_to_paren-wrapped_keyword_var_in_param_default
 > :: test: assign to paren-wrapped keyword var in param default
 > :: case: void
 ## Options
@@ -69,8 +68,8 @@
                                         "start": 6,
                                         "end": 10
                                     },
-                                    "flags": 32,
-                                    "start": 4,
+                                    "flags": 4,
+                                    "start": 32,
                                     "end": 11
                                 },
                                 "operatorToken": {
@@ -87,7 +86,7 @@
                                     "start": 13,
                                     "end": 15
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 4,
                                 "end": 15
                             },
@@ -97,7 +96,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
                     "start": 1,
                     "end": 16
                 },

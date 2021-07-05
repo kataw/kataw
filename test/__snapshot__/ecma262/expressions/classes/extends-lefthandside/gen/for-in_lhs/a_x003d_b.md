@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/for-in_lhs
+- From: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/gen/for-in_lhs
 > :: test: for-in lhs
 > :: case: a = b
 ## Options
@@ -75,7 +74,7 @@ for (a = b in x) ;
                     "start": 8,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 15
             },

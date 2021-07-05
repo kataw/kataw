@@ -69,7 +69,6 @@ delete /foo/.bar;
 ```javascript
 
 delete /foo/.bar;
-
 ```
 
 ### Diagnostics

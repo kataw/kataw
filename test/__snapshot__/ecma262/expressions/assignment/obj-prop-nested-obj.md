@@ -172,7 +172,7 @@ result = { x: { y } } = { x: { y: 2 } };
                     "start": 8,
                     "end": 39
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 39
             },
@@ -194,8 +194,7 @@ result = { x: { y } } = { x: { y: 2 } };
 
 ```javascript
 
-result = { x : { y } } = { x : { y : 2 } };
-
+result = {x: {y}} = {x: {y: 2}};
 ```
 
 ### Diagnostics

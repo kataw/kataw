@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/arrow-functions/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/arrow-functions/gen/conditional_expr
+- From: kataw/test/__snapshot__/ecma262/expressions/arrow/arrow-functions/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/arrow/arrow-functions/gen/conditional_expr
 > :: test: conditional expr
 > :: case: foo ? bar : baz => {}
 ## Options

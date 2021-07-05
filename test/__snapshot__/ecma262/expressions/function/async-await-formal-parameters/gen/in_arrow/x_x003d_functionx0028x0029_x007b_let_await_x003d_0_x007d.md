@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/function/async-await-formal-parameters/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/function/async-await-formal-parameters/gen/in_arrow
+- From: kataw/test/__snapshot__/ecma262/expressions/function/async-await-formal-parameters/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/function/async-await-formal-parameters/gen/in_arrow
 > :: test: in arrow
 > :: case: x = function() { let await = 0; }
 ## Options
@@ -229,7 +228,6 @@
 var f = async (x = function () {
     let await = 0;
   }) => {};
-
 ```
 
 ### Diagnostics

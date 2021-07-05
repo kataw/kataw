@@ -122,8 +122,8 @@ class C {
                                                         "start": 42,
                                                         "end": 43
                                                     },
-                                                    "flags": 32,
-                                                    "start": 41,
+                                                    "flags": 41,
+                                                    "start": 32,
                                                     "end": 44
                                                 },
                                                 "flags": 32,
@@ -176,11 +176,8 @@ class C {
 
 let await;
 class C {
-  static  {
-    await (1);// illegal
-  }
+  
 }
-
 ```
 
 ### Diagnostics

@@ -46,7 +46,7 @@ a;
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 9,
                                 "end": 9
                             },
@@ -108,8 +108,7 @@ a;
 
 ```javascript
 
-let x = () => --a;
-
+let x = () =>  -- a;
 ```
 
 ### Diagnostics

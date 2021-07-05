@@ -102,7 +102,7 @@ a = {...b.c} = d;
                     "start": 3,
                     "end": 16
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 16
             },
@@ -124,8 +124,7 @@ a = {...b.c} = d;
 
 ```javascript
 
-a = { ...b.c } = d;
-
+a = {...b.c} = d;
 ```
 
 ### Diagnostics

@@ -107,11 +107,10 @@ switch(x) /* comment */ { case y: foo }
 
 ```javascript
 
-switch (x)/* comment */ {
-  case y: 
+switch (x) {
+  case y:
     foo;
 }
-
 ```
 
 ### Diagnostics

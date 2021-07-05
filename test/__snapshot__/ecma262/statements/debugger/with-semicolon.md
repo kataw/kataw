@@ -42,7 +42,6 @@ debugger;
 ```javascript
 
 debugger;
-
 ```
 
 ### Diagnostics

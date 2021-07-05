@@ -62,7 +62,7 @@ x?.[y] = 0;
                                         "start": 7,
                                         "end": 9
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 4,
                                     "end": 9
                                 },
@@ -142,7 +142,7 @@ x?.[y] = 0;
                     "start": 21,
                     "end": 23
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 15,
                 "end": 23
             },
@@ -209,7 +209,7 @@ x?.[y] = 0;
                     "start": 31,
                     "end": 33
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 24,
                 "end": 33
             },
@@ -276,7 +276,7 @@ x?.[y] = 0;
                     "start": 43,
                     "end": 45
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 34,
                 "end": 45
             },
@@ -346,8 +346,8 @@ x?.[y] = 0;
                     "start": 48,
                     "end": 58
                 },
-                "flags": 32,
-                "start": 46,
+                "flags": 46,
+                "start": 35,
                 "end": 59
             },
             "flags": 16,
@@ -441,8 +441,8 @@ x?.[y] = 0;
                     "start": 62,
                     "end": 74
                 },
-                "flags": 32,
-                "start": 60,
+                "flags": 60,
+                "start": 35,
                 "end": 75
             },
             "flags": 16,
@@ -531,8 +531,8 @@ x?.[y] = 0;
                     "start": 78,
                     "end": 92
                 },
-                "flags": 32,
-                "start": 76,
+                "flags": 76,
+                "start": 35,
                 "end": 93
             },
             "flags": 16,

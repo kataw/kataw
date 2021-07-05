@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/block/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/block/gen/x007b_triple
+- From: kataw/test/__snapshot__/ecma262/statements/block/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/statements/block/gen/x007b_triple
 > :: test: { triple
 > :: case: as = x
 ## Options
@@ -64,7 +63,7 @@
                                                         "start": 10,
                                                         "end": 12
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 5,
                                                     "end": 12
                                                 },

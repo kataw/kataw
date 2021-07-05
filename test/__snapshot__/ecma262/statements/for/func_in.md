@@ -143,10 +143,8 @@ for (function(){ a in b; };;);
 ```javascript
 
 for (function () {
-  a in b;
-};;)
-  ;
-
+    a in  b;
+  }; ; );
 ```
 
 ### Diagnostics

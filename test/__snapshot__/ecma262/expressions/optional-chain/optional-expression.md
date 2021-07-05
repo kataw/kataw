@@ -110,7 +110,6 @@ obj?.a?.b
 ```javascript
 
 obj?.a?.b;
-
 ```
 
 ### Diagnostics

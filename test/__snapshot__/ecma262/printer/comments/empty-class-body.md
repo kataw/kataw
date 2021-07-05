@@ -68,10 +68,7 @@ while-statement6# Kataw parser test case
 
 ```javascript
 
-class Something {
- // comment
-}
-
+class Something {}
 ```
 
 ### Diagnostics

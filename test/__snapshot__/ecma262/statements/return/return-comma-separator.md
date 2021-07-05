@@ -118,7 +118,6 @@ function one() {
 function one() {
   return two, three;
 }
-
 ```
 
 ### Diagnostics

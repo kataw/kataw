@@ -101,7 +101,7 @@ function f(){ do        if (x) break y   ; while(true);}
                             },
                             "whileKeyword": {
                                 "kind": 37757028,
-                                "flags": 64,
+                                "flags": 80,
                                 "start": 42,
                                 "end": 48
                             },

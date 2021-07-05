@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/do-while/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/do-while/gen/do_triple
+- From: kataw/test/__snapshot__/ecma262/statements/do-while/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/statements/do-while/gen/do_triple
 > :: test: do triple
 > :: case: function while
 ## Options
@@ -89,7 +88,7 @@ do do do function while while while while
                     },
                     "whileKeyword": {
                         "kind": 37757028,
-                        "flags": 64,
+                        "flags": 80,
                         "start": 17,
                         "end": 23
                     },
@@ -107,7 +106,7 @@ do do do function while while while while
                 },
                 "whileKeyword": {
                     "kind": 37757028,
-                    "flags": 64,
+                    "flags": 80,
                     "start": 23,
                     "end": 29
                 },
@@ -125,7 +124,7 @@ do do do function while while while while
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
                 "start": 29,
                 "end": 35
             },

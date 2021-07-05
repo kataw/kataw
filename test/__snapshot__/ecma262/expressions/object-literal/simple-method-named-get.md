@@ -99,7 +99,7 @@ x = {
                     "start": 3,
                     "end": 25
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 25
             },
@@ -128,11 +128,8 @@ x = {
 ```javascript
 
 x = {
-  get() {
-  }
+  get(){}
 };
-;
-
 ```
 
 ### Diagnostics

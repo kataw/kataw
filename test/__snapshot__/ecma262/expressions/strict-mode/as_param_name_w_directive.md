@@ -50,7 +50,7 @@ f = (interface) => { "use strict"; }
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 5,
                         "end": 15
                     },
@@ -88,7 +88,7 @@ f = (interface) => { "use strict"; }
                     "start": 3,
                     "end": 36
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 36
             },
@@ -110,10 +110,7 @@ f = (interface) => { "use strict"; }
 
 ```javascript
 
-f = (interface) => {
-'"use strict"';
-};
-
+f = (interface) => {};
 ```
 
 ### Diagnostics

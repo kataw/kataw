@@ -43,8 +43,7 @@
 
 ```javascript
 
-'"\7"';
-
+"\"\7\"";
 ```
 
 ### Diagnostics

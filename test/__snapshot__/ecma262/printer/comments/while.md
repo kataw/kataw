@@ -347,22 +347,14 @@ while(1) // Comment
 
 ```javascript
 
-while (true
- // Comment
-) { }
-while (true)// Comment
- { }
-while (true) { }// Comment
-while (true)/*Comment*/ { }
-while (true// Comment
- && true// Comment
-) { }
-while (true) { }// comment
-while (true)/* comment */
-  ++x;
-while (1)// Comment
-  foo();
-
+while (true ) {}
+while (true ) {}
+while (true ) {}
+while (true ) {}
+while (true  &&  true ) {}
+while (true ) {}
+while (true ) ++ x;
+while (1) foo();
 ```
 
 ### Diagnostics

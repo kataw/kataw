@@ -94,7 +94,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 5,
                     "end": 7
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -128,7 +128,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 15,
                     "end": 21
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 8,
                 "end": 21
             },
@@ -162,7 +162,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 28,
                     "end": 34
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 22,
                 "end": 34
             },
@@ -196,7 +196,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 41,
                     "end": 47
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 35,
                 "end": 47
             },
@@ -230,7 +230,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 55,
                     "end": 58
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 48,
                 "end": 58
             },
@@ -264,7 +264,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 65,
                     "end": 68
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 59,
                 "end": 68
             },
@@ -298,7 +298,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 75,
                     "end": 78
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 69,
                 "end": 78
             },
@@ -360,7 +360,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 90,
                     "end": 101
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 79,
                 "end": 101
             },
@@ -422,7 +422,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 112,
                     "end": 123
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 102,
                 "end": 123
             },
@@ -484,7 +484,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 134,
                     "end": 145
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 124,
                 "end": 145
             },
@@ -574,7 +574,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 164,
                     "end": 179
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 146,
                 "end": 179
             },
@@ -664,7 +664,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 197,
                     "end": 212
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 180,
                 "end": 212
             },
@@ -754,7 +754,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 230,
                     "end": 245
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 213,
                 "end": 245
             },
@@ -900,7 +900,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 267,
                     "end": 288
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 246,
                 "end": 288
             },
@@ -1046,7 +1046,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 309,
                     "end": 330
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 289,
                 "end": 330
             },
@@ -1108,7 +1108,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 341,
                     "end": 352
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 331,
                 "end": 352
             },
@@ -1170,7 +1170,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 363,
                     "end": 374
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 353,
                 "end": 374
             },
@@ -1220,8 +1220,8 @@ oobj["obj"][incr()] ??= incr();
                             "start": 375,
                             "end": 392
                         },
-                        "flags": 32,
-                        "start": 375,
+                        "flags": 375,
+                        "start": 33,
                         "end": 393
                     },
                     "expression": {
@@ -1232,7 +1232,7 @@ oobj["obj"][incr()] ??= incr();
                         "start": 394,
                         "end": 398
                     },
-                    "flags": 32,
+                    "flags": 375,
                     "start": 375,
                     "end": 398
                 },
@@ -1303,8 +1303,8 @@ oobj["obj"][incr()] ??= incr();
                             "start": 404,
                             "end": 420
                         },
-                        "flags": 32,
-                        "start": 404,
+                        "flags": 404,
+                        "start": 33,
                         "end": 421
                     },
                     "expression": {
@@ -1315,7 +1315,7 @@ oobj["obj"][incr()] ??= incr();
                         "start": 422,
                         "end": 426
                     },
-                    "flags": 32,
+                    "flags": 436,
                     "start": 404,
                     "end": 426
                 },
@@ -1386,8 +1386,8 @@ oobj["obj"][incr()] ??= incr();
                             "start": 432,
                             "end": 448
                         },
-                        "flags": 32,
-                        "start": 432,
+                        "flags": 432,
+                        "start": 33,
                         "end": 449
                     },
                     "expression": {
@@ -1398,7 +1398,7 @@ oobj["obj"][incr()] ??= incr();
                         "start": 450,
                         "end": 454
                     },
-                    "flags": 32,
+                    "flags": 432,
                     "start": 432,
                     "end": 454
                 },
@@ -1479,8 +1479,8 @@ oobj["obj"][incr()] ??= incr();
                     "start": 466,
                     "end": 491
                 },
-                "flags": 32,
-                "start": 466,
+                "flags": 466,
+                "start": 32,
                 "end": 492
             },
             "consequent": {
@@ -1540,8 +1540,8 @@ oobj["obj"][incr()] ??= incr();
                     "start": 502,
                     "end": 525
                 },
-                "flags": 32,
-                "start": 502,
+                "flags": 502,
+                "start": 32,
                 "end": 526
             },
             "consequent": {
@@ -1601,8 +1601,8 @@ oobj["obj"][incr()] ??= incr();
                     "start": 536,
                     "end": 559
                 },
-                "flags": 32,
-                "start": 536,
+                "flags": 536,
+                "start": 32,
                 "end": 560
             },
             "consequent": {
@@ -1662,8 +1662,8 @@ oobj["obj"][incr()] ??= incr();
                     "start": 570,
                     "end": 593
                 },
-                "flags": 32,
-                "start": 570,
+                "flags": 570,
+                "start": 32,
                 "end": 594
             },
             "consequent": {
@@ -1720,7 +1720,7 @@ oobj["obj"][incr()] ??= incr();
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 608,
                         "end": 610
                     },
@@ -1743,7 +1743,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 606,
                     "end": 615
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 599,
                 "end": 615
             },
@@ -1786,7 +1786,7 @@ oobj["obj"][incr()] ??= incr();
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 624,
                         "end": 626
                     },
@@ -1809,7 +1809,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 622,
                     "end": 631
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 616,
                 "end": 631
             },
@@ -1852,7 +1852,7 @@ oobj["obj"][incr()] ??= incr();
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 640,
                         "end": 642
                     },
@@ -1875,7 +1875,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 638,
                     "end": 647
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 632,
                 "end": 647
             },
@@ -1959,7 +1959,7 @@ oobj["obj"][incr()] ??= incr();
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 672,
                                     "end": 674
                                 },
@@ -1987,11 +1987,11 @@ oobj["obj"][incr()] ??= incr();
                         "start": 655,
                         "end": 679
                     },
-                    "flags": 32,
-                    "start": 655,
+                    "flags": 655,
+                    "start": 32,
                     "end": 680
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 648,
                 "end": 680
             },
@@ -2075,7 +2075,7 @@ oobj["obj"][incr()] ??= incr();
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 704,
                                     "end": 706
                                 },
@@ -2103,11 +2103,11 @@ oobj["obj"][incr()] ??= incr();
                         "start": 687,
                         "end": 711
                     },
-                    "flags": 32,
-                    "start": 687,
+                    "flags": 687,
+                    "start": 32,
                     "end": 712
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 681,
                 "end": 712
             },
@@ -2191,7 +2191,7 @@ oobj["obj"][incr()] ??= incr();
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 736,
                                     "end": 738
                                 },
@@ -2219,11 +2219,11 @@ oobj["obj"][incr()] ??= incr();
                         "start": 719,
                         "end": 743
                     },
-                    "flags": 32,
-                    "start": 719,
+                    "flags": 719,
+                    "start": 32,
                     "end": 744
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 713,
                 "end": 744
             },
@@ -2285,7 +2285,7 @@ oobj["obj"][incr()] ??= incr();
                                     "start": 772,
                                     "end": 775
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 759,
                                 "end": 775
                             },
@@ -2293,8 +2293,8 @@ oobj["obj"][incr()] ??= incr();
                             "start": 745,
                             "end": 775
                         },
-                        "flags": 32,
-                        "start": 745,
+                        "flags": 745,
+                        "start": 33,
                         "end": 776
                     },
                     "expression": {
@@ -2305,7 +2305,7 @@ oobj["obj"][incr()] ??= incr();
                         "start": 777,
                         "end": 781
                     },
-                    "flags": 32,
+                    "flags": 745,
                     "start": 745,
                     "end": 781
                 },
@@ -2388,7 +2388,7 @@ oobj["obj"][incr()] ??= incr();
                                     "start": 813,
                                     "end": 816
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 800,
                                 "end": 816
                             },
@@ -2396,8 +2396,8 @@ oobj["obj"][incr()] ??= incr();
                             "start": 787,
                             "end": 816
                         },
-                        "flags": 32,
-                        "start": 787,
+                        "flags": 787,
+                        "start": 33,
                         "end": 817
                     },
                     "expression": {
@@ -2408,7 +2408,7 @@ oobj["obj"][incr()] ??= incr();
                         "start": 818,
                         "end": 822
                     },
-                    "flags": 32,
+                    "flags": 819,
                     "start": 787,
                     "end": 822
                 },
@@ -2491,7 +2491,7 @@ oobj["obj"][incr()] ??= incr();
                                     "start": 854,
                                     "end": 857
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 841,
                                 "end": 857
                             },
@@ -2499,8 +2499,8 @@ oobj["obj"][incr()] ??= incr();
                             "start": 828,
                             "end": 857
                         },
-                        "flags": 32,
-                        "start": 828,
+                        "flags": 828,
+                        "start": 33,
                         "end": 858
                     },
                     "expression": {
@@ -2511,7 +2511,7 @@ oobj["obj"][incr()] ??= incr();
                         "start": 859,
                         "end": 863
                     },
-                    "flags": 32,
+                    "flags": 828,
                     "start": 828,
                     "end": 863
                 },
@@ -2608,7 +2608,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 886,
                     "end": 893
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 869,
                 "end": 893
             },
@@ -2698,7 +2698,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 918,
                     "end": 925
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 894,
                 "end": 925
             },
@@ -2774,7 +2774,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 942,
                     "end": 949
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 926,
                 "end": 949
             },
@@ -2864,7 +2864,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 974,
                     "end": 981
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 950,
                 "end": 981
             },
@@ -2940,7 +2940,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 998,
                     "end": 1005
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 982,
                 "end": 1005
             },
@@ -3030,7 +3030,7 @@ oobj["obj"][incr()] ??= incr();
                     "start": 1030,
                     "end": 1037
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 1006,
                 "end": 1037
             },
@@ -3053,49 +3053,56 @@ oobj["obj"][incr()] ??= incr();
 ```javascript
 
 a ||= b;
-a &&= '"foo"';
-b ||= '"foo"';
-c ??= '"foo"';
+a &&= "\"foo\"";
+b ||= "\"foo\"";
+c ??= "\"foo\"";
 d &&= 42;
 e ||= 42;
 f ??= 42;
 a.baz &&= result.baz;
 b.baz ||= result.baz;
 c.baz ??= result.baz;
-a.foo['"baz"'] &&= result.foo.baz;
-b.foo['"baz"'] ||= result.foo.baz;
-c.foo['"baz"'] ??= result.foo.baz;
+a.foo["\"baz\""] &&= result.foo.baz;
+b.foo["\"baz\""] ||= result.foo.baz;
+c.foo["\"baz\""] ??= result.foo.baz;
 a.foo.bar().baz &&= result.foo.bar().baz;
 b.foo.bar().baz ||= result.foo.bar().baz;
 b.baz ||= result.baz;
 c.baz ??= result.baz;
-(results ||= []).push(100);
-(results &&= []).push(100);
-(results ??= []).push(100);
-if ((thing &&= thing.original)) {
-}
-if ((thing &&= defaultValue)) {
-}
-if ((thing ||= defaultValue)) {
-}
-if ((thing ??= defaultValue)) {
-}
-f ||= (a) => a;
-f &&= (a) => a;
-f ??= (a) => a;
-f ||= (f.toString(), (a) => a);
-f &&= (f.toString(), (a) => a);
-f ??= (f.toString(), (a) => a);
-(results ||= results1 ||= []).push(100);
-(results &&= results1 &&= []).push(100);
-(results ??= results1 ??= []).push(100);
+(results ||= []).push(
+  100
+);
+(results &&= []).push(
+  100
+);
+(results ??= []).push(
+  100
+);
+if ((thing &&= thing.original)) {}
+if ((thing &&= defaultValue)) {}
+if ((thing ||= defaultValue)) {}
+if ((thing ??= defaultValue)) {}
+f ||= (a) =>  a;
+f &&= (a) =>  a;
+f ??= (a) =>  a;
+f ||= (f.toString(), (a) =>  a);
+f &&= (f.toString(), (a) =>  a);
+f ??= (f.toString(), (a) =>  a);
+(results ||= results1 ||= []).push(
+  100
+);
+(results &&= results1 &&= []).push(
+  100
+);
+(results ??= results1 ??= []).push(
+  100
+);
 obj[incr()] ||= incr();
-oobj['"obj"'][incr()] ||= incr();
+oobj["\"obj\""][incr()] ||= incr();
 obj[incr()] &&= incr();
-oobj['"obj"'][incr()] &&= incr();
+oobj["\"obj\""][incr()] &&= incr();
 obj[incr()] ??= incr();
-oobj['"obj"'][incr()] ??= incr();
-
+oobj["\"obj\""][incr()] ??= incr();
 ```
 
 ### Diagnostics

@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_declaration
+- From: kataw/test/__snapshot__/ecma262/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/yield/gen/function_declaration
 > :: test: function declaration
 > :: case: (function * () { x = class extends (a ? null : yield) { } });
 ## Options
@@ -180,8 +179,8 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                                                             "start": 55,
                                                                             "end": 73
                                                                         },
-                                                                        "flags": 32,
-                                                                        "start": 55,
+                                                                        "flags": 55,
+                                                                        "start": 32,
                                                                         "end": 74
                                                                     },
                                                                     "typeParameter": null,
@@ -204,7 +203,7 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                                             "start": 41,
                                                             "end": 78
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 0,
                                                         "start": 37,
                                                         "end": 78
                                                     },
@@ -226,8 +225,8 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                     "start": 22,
                                     "end": 80
                                 },
-                                "flags": 32,
-                                "start": 20,
+                                "flags": 20,
+                                "start": 32,
                                 "end": 81
                             },
                             "flags": 16,

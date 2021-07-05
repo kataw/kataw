@@ -57,7 +57,6 @@ new yield
 ```javascript
 
 new yield;
-
 ```
 
 ### Diagnostics

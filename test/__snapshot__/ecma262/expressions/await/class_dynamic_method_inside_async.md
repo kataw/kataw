@@ -190,10 +190,9 @@ async function f() {
 
 async function f() {
   class x {
-    [x](await) {}
+    [x](await){}
   }
 }
-
 ```
 
 ### Diagnostics

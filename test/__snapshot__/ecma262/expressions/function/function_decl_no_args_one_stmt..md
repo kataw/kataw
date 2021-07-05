@@ -100,7 +100,6 @@ function f(){foo}
 function f() {
   foo;
 }
-
 ```
 
 ### Diagnostics

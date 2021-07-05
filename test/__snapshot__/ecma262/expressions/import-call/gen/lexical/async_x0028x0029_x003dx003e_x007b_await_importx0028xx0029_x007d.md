@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/import-call/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/import-call/gen/lexical
+- From: kataw/test/__snapshot__/ecma262/expressions/import-call/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/import-call/gen/lexical
 > :: test: lexical
 > :: case: async () => { await import(x) }
 ## Options
@@ -121,7 +120,6 @@ async () => { await import(x) }
 async () => {
   await import(x);
 }
-
 ```
 
 ### Diagnostics

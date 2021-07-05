@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/for-await/for-await-of/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/for-await/for-await-of/gen/Fifthteen
+- From: kataw/test/__snapshot__/ecma262/statements/for-await/for-await-of/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/statements/for-await/for-await-of/gen/Fifthteen
 > :: test: Fifthteen
 > :: case: ({[Symbol.iterator]: a = 1} of [])
 ## Options
@@ -142,7 +141,7 @@ async function * f() { for await
                                                     "start": 57,
                                                     "end": 59
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 35,
                                                 "end": 59
                                             },
@@ -226,9 +225,9 @@ async function * f() { for await
 ```javascript
 
 async function * f() {
-  for await ({ [Symbol.iterator] : a = 1 } of []) { }
+  for await ({[Symbol.iterator]: a = 1} of [])
+    {}
 }
-
 ```
 
 ### Diagnostics

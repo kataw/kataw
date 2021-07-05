@@ -100,8 +100,8 @@
                     "start": 1,
                     "end": 60
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 66
             },
             "flags": 16,
@@ -122,13 +122,9 @@
 
 ```javascript
 
-(
- /*1*/
-{
-  async/*2*/ */*3*/ 
-   /*4*/x/*5*/(/*6*/) {}
-}/*7*/);
-
+({
+    async * x(){}
+  });
 ```
 
 ### Diagnostics

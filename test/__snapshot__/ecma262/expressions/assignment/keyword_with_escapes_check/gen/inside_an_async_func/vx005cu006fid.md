@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/gen/inside_an_async_func
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/keyword_with_escapes_check/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/keyword_with_escapes_check/gen/inside_an_async_func
 > :: test: inside an async func
 > :: case: v\u006fid
 ## Options
@@ -91,7 +90,7 @@ async () => {  v\u006fid = x  }
                                     "start": 26,
                                     "end": 28
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 13,
                                 "end": 28
                             },

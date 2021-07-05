@@ -202,7 +202,7 @@ class C {
                                                                                         "start": 84,
                                                                                         "end": 87
                                                                                     },
-                                                                                    "flags": 32,
+                                                                                    "flags": 0,
                                                                                     "start": 69,
                                                                                     "end": 87
                                                                                 },
@@ -281,17 +281,13 @@ class C {
 ```javascript
 
 class C {
-  static #_
-  ;
-  constructor() {
+  static #_;;
+  constructor(){
     class D {
-      static  {
-        C.#_ = 42;
-      }
+      
     }
   }
 }
-
 ```
 
 ### Diagnostics

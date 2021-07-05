@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_generator
+- From: kataw/test/__snapshot__/ecma262/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/yield/gen/function_generator
 > :: test: function generator
 > :: case: (function * () { x = class extends (a ? null : yield) { } });
 ## Options
@@ -219,8 +218,8 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                                             "start": 74,
                                                                                             "end": 92
                                                                                         },
-                                                                                        "flags": 32,
-                                                                                        "start": 74,
+                                                                                        "flags": 74,
+                                                                                        "start": 32,
                                                                                         "end": 93
                                                                                     },
                                                                                     "typeParameter": null,
@@ -243,7 +242,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                                             "start": 60,
                                                                             "end": 97
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 0,
                                                                         "start": 56,
                                                                         "end": 97
                                                                     },
@@ -265,8 +264,8 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
                                                     "start": 41,
                                                     "end": 99
                                                 },
-                                                "flags": 32,
-                                                "start": 39,
+                                                "flags": 39,
+                                                "start": 32,
                                                 "end": 100
                                             },
                                             "flags": 16,
@@ -318,12 +317,10 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
 function * gen() {
   function not_gen() {
     (function * () {
-      x = class  extends (a ? null : yield ) {
-      };
-    });
+        x = class   extends (a ? null  : yield ) {};
+      });
   }
 }
-
 ```
 
 ### Diagnostics

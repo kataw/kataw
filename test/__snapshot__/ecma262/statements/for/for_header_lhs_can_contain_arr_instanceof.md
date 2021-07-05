@@ -102,9 +102,7 @@ for ([] instanceof obj;;);
 
 ```javascript
 
-for ([] instanceof obj;;)
-  ;
-
+for ([] instanceof  obj; ; );
 ```
 
 ### Diagnostics

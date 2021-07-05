@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/gen/stand-alone
 > :: test: stand-alone
 > :: case: assignmentResult = { x: x = yield } = value
 ## Options
@@ -83,7 +82,7 @@ assignmentResult = { x: x = yield } = value
                                             "start": 27,
                                             "end": 33
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 20,
                                         "end": 33
                                     },
@@ -119,7 +118,7 @@ assignmentResult = { x: x = yield } = value
                     "start": 18,
                     "end": 43
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 43
             },
@@ -141,8 +140,7 @@ assignmentResult = { x: x = yield } = value
 
 ```javascript
 
-assignmentResult = { x : x = yield } = value;
-
+assignmentResult = {x: x = yield} = value;
 ```
 
 ### Diagnostics

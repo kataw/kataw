@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/object-literal/private-members/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/object-literal/private-members/gen/obj_expr_strict
+- From: kataw/test/__snapshot__/ecma262/expressions/object-literal/private-members/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/object-literal/private-members/gen/obj_expr_strict
 > :: test: obj_expr_strict
 > :: case: a: class { #a }
 ## Options
@@ -117,8 +116,8 @@
                     "start": 15,
                     "end": 34
                 },
-                "flags": 32,
-                "start": 13,
+                "flags": 13,
+                "start": 34,
                 "end": 35
             },
             "flags": 16,
@@ -140,10 +139,9 @@
 ```javascript
 
 '\'use strict\'';
-({ a : class  {
-    #a
-  } });
-
+({a: class  {
+      #a;
+    }});
 ```
 
 ### Diagnostics

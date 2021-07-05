@@ -139,8 +139,9 @@ x({a:b, c:d}=obj);
 
 ```javascript
 
-x({ a : b, c : d } = obj);
-
+x(
+  {a: b, c: d} = obj
+);
 ```
 
 ### Diagnostics

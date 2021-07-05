@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/declaration
+- From: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/gen/declaration
 > :: test: declaration
 > :: case: true
 ## Options
@@ -92,9 +91,7 @@ class A extends true {}
 
 ```javascript
 
-class A extends true {
-}
-
+class A  extends true  {}
 ```
 
 ### Diagnostics

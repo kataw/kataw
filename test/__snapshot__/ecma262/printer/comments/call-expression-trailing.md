@@ -74,8 +74,10 @@ fn(a, /* comment 1 */ b, /* comment 1 */) /* comment 2*/;
 
 ```javascript
 
-fn(a, /* comment 1 */b,/* comment 1 */)/* comment 2*/;
-
+fn(
+  a,
+  b,
+);
 ```
 
 ### Diagnostics

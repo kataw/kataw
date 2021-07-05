@@ -109,7 +109,6 @@ function f() {
   return;
   foo;
 }
-
 ```
 
 ### Diagnostics

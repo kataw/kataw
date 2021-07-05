@@ -55,7 +55,7 @@ do x, y; while (z)
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
                 "start": 8,
                 "end": 14
             },
@@ -85,9 +85,8 @@ do x, y; while (z)
 
 ```javascript
 
-do
-  x, y; while (z)
-
+do  x, y;
+while (z);
 ```
 
 ### Diagnostics

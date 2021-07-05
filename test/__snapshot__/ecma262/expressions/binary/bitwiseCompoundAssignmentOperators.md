@@ -156,7 +156,7 @@ f |= f;
                     "start": 29,
                     "end": 31
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 24,
                 "end": 31
             },
@@ -188,7 +188,7 @@ f |= f;
                     "start": 36,
                     "end": 41
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 32,
                 "end": 41
             },
@@ -222,7 +222,7 @@ f |= f;
                     "start": 47,
                     "end": 49
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 42,
                 "end": 49
             },
@@ -256,7 +256,7 @@ f |= f;
                     "start": 54,
                     "end": 56
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 50,
                 "end": 56
             },
@@ -290,7 +290,7 @@ f |= f;
                     "start": 62,
                     "end": 64
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 57,
                 "end": 64
             },
@@ -322,7 +322,7 @@ f |= f;
                     "start": 69,
                     "end": 74
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 65,
                 "end": 74
             },
@@ -356,7 +356,7 @@ f |= f;
                     "start": 80,
                     "end": 82
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 75,
                 "end": 82
             },
@@ -390,7 +390,7 @@ f |= f;
                     "start": 87,
                     "end": 89
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 83,
                 "end": 89
             },
@@ -510,7 +510,7 @@ f |= f;
                     "start": 122,
                     "end": 124
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 117,
                 "end": 124
             },
@@ -542,7 +542,7 @@ f |= f;
                     "start": 129,
                     "end": 135
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 125,
                 "end": 135
             },
@@ -576,7 +576,7 @@ f |= f;
                     "start": 141,
                     "end": 143
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 136,
                 "end": 143
             },
@@ -610,7 +610,7 @@ f |= f;
                     "start": 148,
                     "end": 150
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 144,
                 "end": 150
             },
@@ -644,7 +644,7 @@ f |= f;
                     "start": 156,
                     "end": 158
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 151,
                 "end": 158
             },
@@ -676,7 +676,7 @@ f |= f;
                     "start": 163,
                     "end": 169
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 159,
                 "end": 169
             },
@@ -710,7 +710,7 @@ f |= f;
                     "start": 175,
                     "end": 177
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 170,
                 "end": 177
             },
@@ -830,7 +830,7 @@ f |= f;
                     "start": 209,
                     "end": 211
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 204,
                 "end": 211
             },
@@ -862,7 +862,7 @@ f |= f;
                     "start": 216,
                     "end": 221
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 212,
                 "end": 221
             },
@@ -896,7 +896,7 @@ f |= f;
                     "start": 227,
                     "end": 229
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 222,
                 "end": 229
             },
@@ -930,7 +930,7 @@ f |= f;
                     "start": 234,
                     "end": 236
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 230,
                 "end": 236
             },
@@ -964,7 +964,7 @@ f |= f;
                     "start": 242,
                     "end": 244
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 237,
                 "end": 244
             },
@@ -996,7 +996,7 @@ f |= f;
                     "start": 249,
                     "end": 254
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 245,
                 "end": 254
             },
@@ -1030,7 +1030,7 @@ f |= f;
                     "start": 260,
                     "end": 262
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 255,
                 "end": 262
             },
@@ -1052,35 +1052,34 @@ f |= f;
 
 ```javascript
 
-var a = true;
+var a = true ;
 var b = 1;
 a ^= a;
-a = true;
+a = true ;
 b ^= b;
 b = 1;
 a ^= b;
-a = true;
+a = true ;
 b ^= a;
 b = 1;
-var c = false;
+var c = false ;
 var d = 2;
 c &= c;
-c = false;
+c = false ;
 d &= d;
 d = 2;
 c &= d;
-c = false;
+c = false ;
 d &= c;
-var e = true;
+var e = true ;
 var f = 0;
 e |= e;
-e = true;
+e = true ;
 f |= f;
 f = 0;
 e |= f;
-e = true;
+e = true ;
 f |= f;
-
 ```
 
 ### Diagnostics

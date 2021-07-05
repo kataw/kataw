@@ -50,8 +50,8 @@
                                         "start": 1,
                                         "end": 5
                                     },
-                                    "flags": 32,
-                                    "start": 1,
+                                    "flags": 1,
+                                    "start": 32,
                                     "end": 6
                                 },
                                 "expression": {
@@ -112,8 +112,7 @@
 
 ```javascript
 
-[(x())[y],] = z;
-
+[(x())[y]] = z;
 ```
 
 ### Diagnostics

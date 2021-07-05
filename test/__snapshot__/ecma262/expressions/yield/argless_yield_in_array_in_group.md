@@ -67,8 +67,8 @@
                                 "start": 1,
                                 "end": 14
                             },
-                            "flags": 32,
-                            "start": 1,
+                            "flags": 1,
+                            "start": 34,
                             "end": 15
                         },
                         "flags": 16,
@@ -99,9 +99,8 @@
 ```javascript
 
 {
-  (x = [yield,]);
+  (x = [yield]);
 }
-
 ```
 
 ### Diagnostics

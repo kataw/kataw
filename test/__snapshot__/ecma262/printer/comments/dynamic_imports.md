@@ -246,17 +246,14 @@ wrap(
 
 ```javascript
 
-import(/* Hello */'\'something\'');
-import('\'something\''/* Hello */);
-import(/* Hello */'\'something\''/* Hello */);
-import('\'something\''/* Hello */ + '\'else\'');
-import(
- /* Hello */
-'\'something\''
- /* Hello */
+import('\'something\'');
+import('\'something\'');
+import('\'something\'');
+import('\'something\'' +  '\'else\'');
+import('\'something\'');
+wrap(
+  import('\'something\'')
 );
-wrap(import(/* Hello */'\'something\''));
-
 ```
 
 ### Diagnostics

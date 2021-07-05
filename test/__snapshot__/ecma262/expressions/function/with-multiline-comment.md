@@ -82,8 +82,8 @@ x; })
                     "start": 1,
                     "end": 47
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 32,
                 "end": 48
             },
             "flags": 16,
@@ -161,8 +161,8 @@ x; })
                     "start": 52,
                     "end": 86
                 },
-                "flags": 32,
-                "start": 49,
+                "flags": 49,
+                "start": 33,
                 "end": 87
             },
             "flags": 16,
@@ -184,13 +184,12 @@ x; })
 ```javascript
 
 (function () {
-  return/* Multiline\nComment */ x;
-});
+    return x;
+  });
 (function () {
-  return;// Comment
-  x;
-});
-
+    return;
+    x;
+  });
 ```
 
 ### Diagnostics

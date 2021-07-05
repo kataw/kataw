@@ -172,8 +172,8 @@
                     "start": 1,
                     "end": 59
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 60
             },
             "flags": 16,
@@ -245,8 +245,8 @@
                     "start": 64,
                     "end": 98
                 },
-                "flags": 32,
-                "start": 61,
+                "flags": 61,
+                "start": 35,
                 "end": 99
             },
             "flags": 16,
@@ -267,9 +267,8 @@
 
 ```javascript
 
-({ __proto__ : null, get __proto__() {}, set __proto__(x) {} });
-({ 1 : '"__proto__"', 1 : '"__proto__"' });
-
+({__proto__: null , get __proto__(){}, set __proto__(x){}});
+({1: "\"__proto__\"", 1: "\"__proto__\""});
 ```
 
 ### Diagnostics

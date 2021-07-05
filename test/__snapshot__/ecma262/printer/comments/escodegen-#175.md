@@ -89,8 +89,7 @@ test/**/*-test.js
 
 ```javascript
 
-test/**/ * -test.js;
-
+test *  -test.js;
 ```
 
 ### Diagnostics

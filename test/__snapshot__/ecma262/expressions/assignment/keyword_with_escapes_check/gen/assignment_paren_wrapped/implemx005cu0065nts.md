@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/gen/assignment_paren_wrapped
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/keyword_with_escapes_check/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/keyword_with_escapes_check/gen/assignment_paren_wrapped
 > :: test: assignment paren wrapped
 > :: case: implem\u0065nts
 ## Options
@@ -51,12 +50,12 @@
                         "start": 18,
                         "end": 20
                     },
-                    "flags": 32,
+                    "flags": 16416,
                     "start": 0,
                     "end": 20
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 21
             },
             "flags": 16,
@@ -78,7 +77,6 @@
 ```javascript
 
 (implem\u0065nts = x);
-
 ```
 
 ### Diagnostics

@@ -50,7 +50,7 @@ const test = () => {
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 14,
                                 "end": 14
                             },
@@ -142,12 +142,8 @@ const test = () => {
 ```javascript
 
 const test = () => {
-   /**
-     * Multiline comment
-     **/
-  return bar();
-};
-
+    return bar();
+  };
 ```
 
 ### Diagnostics

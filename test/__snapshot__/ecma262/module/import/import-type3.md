@@ -115,8 +115,7 @@ import { type Foo12 } from "bar";
 
 ```javascript
 
-import {  type  Foo12, } from '"bar"';
-
+import {  type Foo12 } from "\"bar\"";
 ```
 
 ### Diagnostics

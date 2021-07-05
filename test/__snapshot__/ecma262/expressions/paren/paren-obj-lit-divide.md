@@ -96,8 +96,8 @@
                     "start": 1,
                     "end": 14
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 15
             },
             "flags": 16,
@@ -180,8 +180,8 @@
                     "start": 18,
                     "end": 33
                 },
-                "flags": 32,
-                "start": 16,
+                "flags": 16,
+                "start": 35,
                 "end": 34
             },
             "flags": 16,
@@ -298,8 +298,8 @@
                                 "start": 52,
                                 "end": 59
                             },
-                            "flags": 32,
-                            "start": 52,
+                            "flags": 52,
+                            "start": 34,
                             "end": 60
                         },
                         "flags": 96,
@@ -310,7 +310,7 @@
                     "start": 37,
                     "end": 60
                 },
-                "flags": 32,
+                "flags": 35,
                 "start": 35,
                 "end": 61
             },
@@ -426,16 +426,16 @@
                                         "start": 86,
                                         "end": 87
                                     },
-                                    "flags": 32,
-                                    "start": 84,
+                                    "flags": 84,
+                                    "start": 32,
                                     "end": 88
                                 },
                                 "flags": 32,
                                 "start": 79,
                                 "end": 88
                             },
-                            "flags": 32,
-                            "start": 79,
+                            "flags": 79,
+                            "start": 34,
                             "end": 89
                         },
                         "flags": 96,
@@ -446,8 +446,8 @@
                     "start": 64,
                     "end": 89
                 },
-                "flags": 32,
-                "start": 62,
+                "flags": 62,
+                "start": 35,
                 "end": 90
             },
             "flags": 16,
@@ -563,16 +563,16 @@
                                         "start": 116,
                                         "end": 117
                                     },
-                                    "flags": 32,
-                                    "start": 114,
+                                    "flags": 114,
+                                    "start": 32,
                                     "end": 118
                                 },
                                 "flags": 32,
                                 "start": 109,
                                 "end": 118
                             },
-                            "flags": 32,
-                            "start": 109,
+                            "flags": 109,
+                            "start": 34,
                             "end": 119
                         },
                         "flags": 96,
@@ -583,8 +583,8 @@
                     "start": 93,
                     "end": 119
                 },
-                "flags": 32,
-                "start": 91,
+                "flags": 91,
+                "start": 35,
                 "end": 120
             },
             "flags": 16,
@@ -706,16 +706,16 @@
                                         "start": 148,
                                         "end": 149
                                     },
-                                    "flags": 32,
-                                    "start": 146,
+                                    "flags": 146,
+                                    "start": 32,
                                     "end": 150
                                 },
                                 "flags": 32,
                                 "start": 141,
                                 "end": 150
                             },
-                            "flags": 32,
-                            "start": 141,
+                            "flags": 141,
+                            "start": 34,
                             "end": 151
                         },
                         "flags": 96,
@@ -726,8 +726,8 @@
                     "start": 123,
                     "end": 151
                 },
-                "flags": 32,
-                "start": 121,
+                "flags": 121,
+                "start": 35,
                 "end": 152
             },
             "flags": 16,
@@ -748,13 +748,12 @@
 
 ```javascript
 
-({ a = [b,] } = c);
-({ a = [b,] } = '"a"');
-({ a = [b,] } = 1 / (c = d));
-({ a = [b,] } = 1 / (d = (e)));
-({ '"a"' : [b,] } = 1 / (d = (e)));
-({ ['"a"'] : [b,] } = 1 / (d = (e)));
-
+({a = [b]} = c);
+({a = [b]} = "\"a\"");
+({a = [b]} = 1 /  (c = d));
+({a = [b]} = 1 /  (d = (e)));
+({"\"a\"": [b]} = 1 /  (d = (e)));
+({["\"a\""]: [b]} = 1 /  (d = (e)));
 ```
 
 ### Diagnostics

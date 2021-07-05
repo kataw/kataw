@@ -81,9 +81,8 @@ if /* comment 1 */ (x)  /* comment 2 */  {}  /* comment 3 */  else {}
 
 ```javascript
 
-if/* comment 1 */ (x)/* comment 2 */ { }
-else { }
-
+if (x) {}
+else  {}
 ```
 
 ### Diagnostics

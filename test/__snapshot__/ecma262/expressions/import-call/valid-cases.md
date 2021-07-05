@@ -139,7 +139,7 @@ import(x).then();
                         "start": 48,
                         "end": 49
                     },
-                    "flags": 32,
+                    "flags": 0,
                     "start": 46,
                     "end": 49
                 },
@@ -263,7 +263,6 @@ import(1);
 import(y = x);
 import(import(x));
 import(x).then();
-
 ```
 
 ### Diagnostics

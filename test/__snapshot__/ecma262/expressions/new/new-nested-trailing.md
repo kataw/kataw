@@ -63,8 +63,8 @@ new (x().y)();
                         "start": 3,
                         "end": 10
                     },
-                    "flags": 32,
-                    "start": 3,
+                    "flags": 3,
+                    "start": 32,
                     "end": 11
                 },
                 "argumentList": {
@@ -98,7 +98,6 @@ new (x().y)();
 ```javascript
 
 new (x().y)();
-
 ```
 
 ### Diagnostics

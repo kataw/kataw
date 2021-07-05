@@ -186,11 +186,8 @@ declare var a: A;
 ```javascript
 
 declare opaque
-;
 declare opaque
-;
-var a: A;
-
+declare var a: A;
 ```
 
 ### Diagnostics

@@ -113,7 +113,6 @@ typeof x;
 !a;
 +b;
 typeof x;
-
 ```
 
 ### Diagnostics

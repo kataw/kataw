@@ -273,7 +273,7 @@ const obj = {
                     "start": 11,
                     "end": 126
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 126
             },
@@ -471,7 +471,7 @@ const obj = {
                     "start": 140,
                     "end": 285
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 127,
                 "end": 285
             },
@@ -669,7 +669,7 @@ const obj = {
                     "start": 299,
                     "end": 444
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 286,
                 "end": 444
             },
@@ -887,7 +887,7 @@ const obj = {
                     "start": 458,
                     "end": 615
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 445,
                 "end": 615
             },
@@ -1021,7 +1021,7 @@ const obj = {
                     "start": 630,
                     "end": 707
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 616,
                 "end": 707
             },
@@ -1175,7 +1175,7 @@ const obj = {
                     "start": 722,
                     "end": 812
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 708,
                 "end": 812
             },
@@ -1329,7 +1329,7 @@ const obj = {
                     "start": 827,
                     "end": 917
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 813,
                 "end": 917
             },
@@ -1367,7 +1367,7 @@ const obj = {
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 936,
                                 "end": 936
                             },
@@ -1617,8 +1617,8 @@ const obj = {
                                                     "start": 983,
                                                     "end": 1119
                                                 },
-                                                "flags": 32,
-                                                "start": 983,
+                                                "flags": 983,
+                                                "start": 32,
                                                 "end": 1123
                                             },
                                             "flags": 81,
@@ -1681,7 +1681,7 @@ const obj = {
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 1145,
                                 "end": 1145
                             },
@@ -1951,8 +1951,8 @@ const obj = {
                                                     "start": 1192,
                                                     "end": 1334
                                                 },
-                                                "flags": 32,
-                                                "start": 1192,
+                                                "flags": 1192,
+                                                "start": 32,
                                                 "end": 1338
                                             },
                                             "flags": 81,
@@ -2275,79 +2275,78 @@ const obj = {
 
 ```javascript
 
-prevState = prevState || {
-  catalogs : [],
-  loadState : LOADED,
-  opened : false,
-  searchQuery : '\'\'',
-  selectedCatalog : null,
-};
-prevState = prevState || defaultState || {
-  catalogs : [],
-  loadState : LOADED,
-  opened : false,
-  searchQuery : '\'\'',
-  selectedCatalog : null,
-};
-prevState = prevState || defaultState && {
-  catalogs : [],
-  loadState : LOADED,
-  opened : false,
-  searchQuery : '\'\'',
-  selectedCatalog : null,
-};
-prevState = prevState || useDefault && defaultState || {
-  catalogs : [],
-  loadState : LOADED,
-  opened : false,
-  searchQuery : '\'\'',
-  selectedCatalog : null,
-};
-this.steps = steps || [
-  {
-    name : '\'mock-module\'',
-    path : '\'/nux/mock-module\'',
-  },
-];
-this.steps = steps || checkStep && [
-  {
-    name : '\'mock-module\'',
-    path : '\'/nux/mock-module\'',
-  },
-];
-this.steps = steps && checkStep || [
-  {
-    name : '\'mock-module\'',
-    path : '\'/nux/mock-module\'',
-  },
-];
+prevState = prevState ||  {
+    catalogs: [],
+    loadState: LOADED,
+    opened: false ,
+    searchQuery: '\'\'',
+    selectedCatalog: null
+  };
+prevState = prevState ||  defaultState ||  {
+    catalogs: [],
+    loadState: LOADED,
+    opened: false ,
+    searchQuery: '\'\'',
+    selectedCatalog: null
+  };
+prevState = prevState ||  defaultState &&  {
+    catalogs: [],
+    loadState: LOADED,
+    opened: false ,
+    searchQuery: '\'\'',
+    selectedCatalog: null
+  };
+prevState = prevState ||  useDefault &&  defaultState ||  {
+    catalogs: [],
+    loadState: LOADED,
+    opened: false ,
+    searchQuery: '\'\'',
+    selectedCatalog: null
+  };
+this .steps = steps ||  [
+    {
+      name: '\'mock-module\'',
+      path: '\'/nux/mock-module\''
+    }
+  ];
+this .steps = steps ||  checkStep &&  [
+    {
+      name: '\'mock-module\'',
+      path: '\'/nux/mock-module\''
+    }
+  ];
+this .steps = steps &&  checkStep ||  [
+    {
+      name: '\'mock-module\'',
+      path: '\'/nux/mock-module\''
+    }
+  ];
 const create = () => {
-  const result = doSomething();
-  return (shouldReturn && result.ok && {
-    status : '"ok"',
-    createdAt : result.createdAt,
-    updatedAt : result.updatedAt
-  });
-};
+    const result = doSomething();
+    return (shouldReturn &&  result.ok &&  {
+        status: "\"ok\"",
+        createdAt: result.createdAt,
+        updatedAt: result.updatedAt
+      });
+  };
 const create2 = () => {
-  const result = doSomething();
-  return (shouldReturn && result.ok && result || {
-    status : '"ok"',
-    createdAt : result.createdAt,
-    updatedAt : result.updatedAt
-  });
-};
+    const result = doSomething();
+    return (shouldReturn &&  result.ok &&  result ||  {
+        status: "\"ok\"",
+        createdAt: result.createdAt,
+        updatedAt: result.updatedAt
+      });
+  };
 const obj = {
-  state : shouldHaveState && stateIsOK && {
-    loadState : LOADED,
-    opened : false
-  },
-  loadNext : stateIsOK && hasNext || {
-    skipNext : true
-  },
-  loaded : true
-};
-
+    state: shouldHaveState &&  stateIsOK &&  {
+      loadState: LOADED,
+      opened: false
+    },
+    loadNext: stateIsOK &&  hasNext ||  {
+      skipNext: true
+    },
+    loaded: true
+  };
 ```
 
 ### Diagnostics

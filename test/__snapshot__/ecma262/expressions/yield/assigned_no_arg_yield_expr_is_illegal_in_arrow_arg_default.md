@@ -110,7 +110,7 @@ function *f(){ async (x = z = yield) => {} }
                                                 "start": 29,
                                                 "end": 35
                                             },
-                                            "flags": 32,
+                                            "flags": 0,
                                             "start": 25,
                                             "end": 35
                                         },
@@ -180,7 +180,6 @@ function *f(){ async (x = z = yield) => {} }
 function * f() {
   async (x = z = yield ) => {}
 }
-
 ```
 
 ### Diagnostics

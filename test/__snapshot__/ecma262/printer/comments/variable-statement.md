@@ -50,8 +50,8 @@ var foo = /* comment */ (
                                 "start": 25,
                                 "end": 32
                             },
-                            "flags": 32,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 32,
                             "end": 34
                         },
                         "flags": 16,
@@ -81,8 +81,7 @@ var foo = /* comment */ (
 
 ```javascript
 
-var foo =/* comment */ (42);
-
+var foo = (42);
 ```
 
 ### Diagnostics

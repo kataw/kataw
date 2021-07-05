@@ -67,7 +67,7 @@ result = {} = vals;
                     "start": 8,
                     "end": 18
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 18
             },
@@ -90,7 +90,6 @@ result = {} = vals;
 ```javascript
 
 result = {} = vals;
-
 ```
 
 ### Diagnostics

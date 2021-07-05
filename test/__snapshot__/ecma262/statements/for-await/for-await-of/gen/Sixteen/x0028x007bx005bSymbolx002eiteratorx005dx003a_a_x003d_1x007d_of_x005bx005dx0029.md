@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/for-await/for-await-of/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/for-await/for-await-of/gen/Sixteen
+- From: kataw/test/__snapshot__/ecma262/statements/for-await/for-await-of/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/statements/for-await/for-await-of/gen/Sixteen
 > :: test: Sixteen
 > :: case: ({[Symbol.iterator]: a = 1} of [])
 ## Options
@@ -146,7 +145,7 @@ async function f() { 'use strict'; for await
                                                     "start": 69,
                                                     "end": 71
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 47,
                                                 "end": 71
                                             },
@@ -223,11 +222,8 @@ async function f() { 'use strict'; for await
 ```javascript
 
 async function f() {
-'\'use strict\'';
-  for await ({ [Symbol.iterator] : a = 1 } of [])
-    ;
+  for await ({[Symbol.iterator]: a = 1} of []);
 }
-
 ```
 
 ### Diagnostics

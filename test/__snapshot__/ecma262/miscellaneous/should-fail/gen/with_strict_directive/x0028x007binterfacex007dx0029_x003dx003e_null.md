@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/with_strict_directive
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/gen/with_strict_directive
 > :: test: with strict directive
 > :: case: ({interface}) => null
 ## Options
@@ -66,7 +65,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
                     "start": 15,
                     "end": 27
                 },
@@ -105,11 +104,8 @@
 
 ```javascript
 
-'"use strict"';
-({
-    interface
-  }) => null;
-
+"\"use strict\"";
+({interface}) =>  null ;
 ```
 
 ### Diagnostics

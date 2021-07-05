@@ -105,7 +105,6 @@ typeof await function() {};
 ```javascript
 
 typeof await function () {};
-
 ```
 
 ### Diagnostics

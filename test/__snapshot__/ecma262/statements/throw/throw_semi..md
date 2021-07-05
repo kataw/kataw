@@ -50,7 +50,6 @@ throw foo;
 ```javascript
 
 throw foo;
-
 ```
 
 ### Diagnostics

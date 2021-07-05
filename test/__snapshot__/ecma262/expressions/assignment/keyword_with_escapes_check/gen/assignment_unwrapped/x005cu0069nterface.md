@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/gen/assignment_unwrapped
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/keyword_with_escapes_check/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/keyword_with_escapes_check/gen/assignment_unwrapped
 > :: test: assignment unwrapped
 > :: case: \u0069nterface
 ## Options
@@ -49,7 +48,7 @@
                     "start": 16,
                     "end": 18
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 18
             },
@@ -72,7 +71,6 @@
 ```javascript
 
 \u0069nterface = x;
-
 ```
 
 ### Diagnostics

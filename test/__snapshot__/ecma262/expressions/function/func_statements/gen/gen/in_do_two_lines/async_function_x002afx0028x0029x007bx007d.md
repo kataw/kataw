@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/gen/in_do_two_lines
+- From: kataw/test/__snapshot__/ecma262/expressions/function/func_statements/gen/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/function/func_statements/gen/gen/in_do_two_lines
 > :: test: in do two lines
 > :: case: async function *f(){}
 ## Options
@@ -91,7 +90,7 @@ while (x);
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 65,
+                "flags": 81,
                 "start": 24,
                 "end": 30
             },

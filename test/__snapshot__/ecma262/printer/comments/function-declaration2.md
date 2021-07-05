@@ -417,7 +417,7 @@ function foo4() {
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 212,
                                 "end": 227
                             },
@@ -1110,8 +1110,8 @@ function foo4() {
                         "start": 618,
                         "end": 641
                     },
-                    "flags": 32,
-                    "start": 615,
+                    "flags": 615,
+                    "start": 33,
                     "end": 642
                 },
                 "argumentList": {
@@ -1182,8 +1182,8 @@ function foo4() {
                         "start": 647,
                         "end": 673
                     },
-                    "flags": 32,
-                    "start": 645,
+                    "flags": 645,
+                    "start": 33,
                     "end": 674
                 },
                 "argumentList": {
@@ -1254,8 +1254,8 @@ function foo4() {
                         "start": 679,
                         "end": 709
                     },
-                    "flags": 32,
-                    "start": 677,
+                    "flags": 677,
+                    "start": 33,
                     "end": 710
                 },
                 "argumentList": {
@@ -1326,8 +1326,8 @@ function foo4() {
                         "start": 715,
                         "end": 762
                     },
-                    "flags": 32,
-                    "start": 713,
+                    "flags": 713,
+                    "start": 33,
                     "end": 763
                 },
                 "argumentList": {
@@ -1988,59 +1988,56 @@ function foo4() {
 
 ```javascript
 
-function x(/*1*/) {}
-function x(/*2*/) {}
-function/*1*/ x/*2*/(/*3*/) {}
-function a(/* comment */) {}// comment
-function b() {}// comment
-function c(/* comment */argA, argB, argC) {}// comment
-call((/*object*/row) => {});
-function f1/* f */() {}
-function f2(/* args */) {}
+function x() {}
+function x() {}
+function x() {}
+function a() {}
+function b() {}
+function c(argA, argB, argC) {}
+call(
+  (row) => {}
+);
+function f1() {}
+function f2() {}
 function f3() {}
-function f4/* f */(/* args */) {}
-function f5/* f */(/* a */a) {}
-function f6/* f */(a/* a */) {}
-function f7/* f */(/* a */a) {}
+function f4() {}
+function f5(a) {}
+function f6(a) {}
+function f7(a) {}
 const obj = {
-  f1/* f */() {},
-  f2(/* args */) {},
-  f3() {},
-  f4/* f */(/* args */) {},
-};
-(function f/* f */() {})();
-(function f(/* args */) {})();
+    f1(){},
+    f2(){},
+    f3(){},
+    f4(){}
+  };
 (function f() {})();
-(function f/* f */(/* args */) {})();
+(function f() {})();
+(function f() {})();
+(function f() {})();
 class C1 {
-  f/* f */() {}
+  f(){}
 }
 class C2 {
-  f(/* args */) {}
+  f(){}
 }
 class C3 {
-  f() {}
+  f(){}
 }
 class C4 {
-  f/* f */(/* args */) {}
+  f(){}
 }
-function foo1() 
- // this is a function
-{
+function foo1() {
   return 42;
-  // this is a function
 }
 function foo2() {
   return 42;
 }
-function foo3() {// this is a function
+function foo3() {
   return 42;
 }
 function foo4() {
-   // this is a function
   return 42;
 }
-
 ```
 
 ### Diagnostics

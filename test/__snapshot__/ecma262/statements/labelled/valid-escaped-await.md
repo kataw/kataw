@@ -69,8 +69,7 @@ aw\u0061it: 1;
 
 ```javascript
 
-aw\u0061it: 1;
-
+aw\u0061it:  1;
 ```
 
 ### Diagnostics

@@ -147,7 +147,6 @@ function loadImport(file) {
 function loadImport(file) {
   return import(`test/${file}.js`);
 }
-
 ```
 
 ### Diagnostics

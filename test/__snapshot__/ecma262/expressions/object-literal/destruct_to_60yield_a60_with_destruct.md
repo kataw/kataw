@@ -113,7 +113,7 @@ s = {"foo": yield a = x} = x
                     "start": 3,
                     "end": 28
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 28
             },

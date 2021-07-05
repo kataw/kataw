@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/var
+- From: kataw/test/__snapshot__/ecma262/expressions/await/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/await/gen/var
 > :: test: var
 > :: case: async function a(){     async ({r} = await bar);     }
 ## Options
@@ -225,7 +224,7 @@ var await; var f = (async function() { async function a(){     async ({r} = awai
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
-                                                                    "flags": 32,
+                                                                    "flags": 34,
                                                                     "start": 58,
                                                                     "end": 58
                                                                 },
@@ -267,8 +266,8 @@ var await; var f = (async function() { async function a(){     async ({r} = awai
                                 "start": 20,
                                 "end": 95
                             },
-                            "flags": 32,
-                            "start": 18,
+                            "flags": 18,
+                            "start": 32,
                             "end": 96
                         },
                         "flags": 16,
@@ -300,12 +299,10 @@ var await; var f = (async function() { async function a(){     async ({r} = awai
 
 var await;
 var f = (async function () {
-  async function a() {
-    async({ r } = await bar)
-    ;
-  }
-});
-
+      async function a() {
+        async({r} = await bar)
+      }
+    });
 ```
 
 ### Diagnostics

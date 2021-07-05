@@ -123,11 +123,9 @@ foo: while(z) { while(z) continue foo }
 
 ```javascript
 
-foo: while (z) {
-  while (z)
-    continue foo;
-}
-
+foo:  while (z) {
+    while (z) continue  foo;
+  }
 ```
 
 ### Diagnostics

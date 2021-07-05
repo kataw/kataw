@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/gen/assignment_unwrapped
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/keyword_with_escapes_check/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/keyword_with_escapes_check/gen/assignment_unwrapped
 > :: test: assignment unwrapped
 > :: case: publ\u0069c
 ## Options
@@ -49,7 +48,7 @@ publ\u0069c = x;
                     "start": 13,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 15
             },
@@ -72,7 +71,6 @@ publ\u0069c = x;
 ```javascript
 
 publ\u0069c = x;
-
 ```
 
 ### Diagnostics

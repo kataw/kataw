@@ -84,8 +84,7 @@ new x()
 
 ```javascript
 
-new x() / y;
-
+new x() /  y;
 ```
 
 ### Diagnostics

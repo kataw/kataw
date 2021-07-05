@@ -86,7 +86,7 @@ for (a = b in x);
                     "start": 8,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 15
             },

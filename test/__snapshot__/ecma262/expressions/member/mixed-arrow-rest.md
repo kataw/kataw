@@ -52,7 +52,7 @@ a[{...()=>{}}.m()]
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 7,
                                                 "end": 7
                                             },
@@ -141,8 +141,7 @@ a[{...()=>{}}.m()]
 
 ```javascript
 
-a[{ ...() => {} }.m()];
-
+a[{...() => {}}.m()];
 ```
 
 ### Diagnostics

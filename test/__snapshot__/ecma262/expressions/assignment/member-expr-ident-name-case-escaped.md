@@ -114,7 +114,7 @@ obj.c\u0061se = 42;
                     "start": 30,
                     "end": 33
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 13,
                 "end": 33
             },
@@ -138,7 +138,6 @@ obj.c\u0061se = 42;
 
 var obj = {};
 obj.c\u0061se = 42;
-
 ```
 
 ### Diagnostics

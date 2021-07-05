@@ -63,8 +63,7 @@ interface: x;
 
 ```javascript
 
-interface: x;
-
+interface:  x;
 ```
 
 ### Diagnostics

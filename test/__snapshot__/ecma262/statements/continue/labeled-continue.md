@@ -303,14 +303,14 @@ label: for (let x = 0; x < 10;) {
 ```javascript
 
 var count = 0;
-label: for (let x = 0;; x  < 10) {
-  while (true) {
-    x++;
-    count++;
-    continue label;
+label:  for (let x = 0; ; x  <  10)
+  {
+    while (true ) {
+        x++ ;
+        count++ ;
+        continue  label;
+      }
   }
-}
-
 ```
 
 ### Diagnostics

@@ -133,7 +133,7 @@ function *g(){ (x = {[yield]: 1}) => z }
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 2,
+                                    "flags": 34,
                                     "start": 16,
                                     "end": 33
                                 },
@@ -189,9 +189,8 @@ function *g(){ (x = {[yield]: 1}) => z }
 ```javascript
 
 function * g() {
-  (x = { [yield ] : 1 }) => z;
+  (x = {[yield ]: 1}) =>  z;
 }
-
 ```
 
 ### Diagnostics

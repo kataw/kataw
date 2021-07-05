@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/yield_arg
+- From: kataw/test/__snapshot__/ecma262/expressions/arrow/position/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/arrow/position/gen/yield_arg
 > :: test: yield arg
 > :: case: async x => ok
 ## Options
@@ -149,9 +148,8 @@ function *f() {
 ```javascript
 
 function * f() {
-  yield  async x => ok;
+  yield async x =>  ok;
 }
-
 ```
 
 ### Diagnostics

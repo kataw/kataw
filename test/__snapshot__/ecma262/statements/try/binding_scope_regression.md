@@ -100,7 +100,7 @@
                                                 "start": 64,
                                                 "end": 70
                                             },
-                                            "flags": 32,
+                                            "flags": 0,
                                             "start": 37,
                                             "end": 70
                                         },
@@ -155,7 +155,7 @@
                                                     "start": 110,
                                                     "end": 116
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 83,
                                                 "end": 116
                                             },
@@ -208,13 +208,11 @@
 {
   let AAAAAAAAAAAAAAAAAAAA;
   try {
-    AAAAAAAAAAAAAAAAAAAA = false;
-  }
-  catch {
-    AAAAAAAAAAAAAAAAAAAA = false;
+    AAAAAAAAAAAAAAAAAAAA = false ;
+  } catch {
+    AAAAAAAAAAAAAAAAAAAA = false ;
   }
 }
-
 ```
 
 ### Diagnostics

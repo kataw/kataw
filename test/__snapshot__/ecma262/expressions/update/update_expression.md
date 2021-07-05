@@ -58,8 +58,8 @@ const uuid = String(this._uuidCounter++);
                             "start": 0,
                             "end": 9
                         },
-                        "flags": 32,
-                        "start": 0,
+                        "flags": 0,
+                        "start": 32,
                         "end": 10
                     },
                     "expression": {
@@ -122,8 +122,8 @@ const uuid = String(this._uuidCounter++);
                         "start": 25,
                         "end": 30
                     },
-                    "flags": 32,
-                    "start": 25,
+                    "flags": 25,
+                    "start": 32,
                     "end": 31
                 },
                 "argumentList": null,
@@ -162,7 +162,7 @@ const uuid = String(this._uuidCounter++);
                         "end": 37
                     },
                     "flags": 32,
-                    "start": 32,
+                    "start": 33,
                     "end": 38
                 },
                 "argumentList": {
@@ -285,11 +285,10 @@ const uuid = String(this._uuidCounter++);
 
 ```javascript
 
-(this.x++).toString();
-new (r++);
-(x++)();
-const uuid = String(this._uuidCounter++);
-
+(this .x++ ).toString();
+new (r++ );
+(x++ )();
+const uuid = String(this ._uuidCounter++ );
 ```
 
 ### Diagnostics

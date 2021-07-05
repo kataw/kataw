@@ -43,8 +43,8 @@
                         "start": 0,
                         "end": 5
                     },
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 32,
                     "end": 6
                 },
                 "operatorToken": {
@@ -61,7 +61,7 @@
                     "start": 9,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 11
             },
@@ -84,7 +84,6 @@
 ```javascript
 
 (a[b]) += 1;
-
 ```
 
 ### Diagnostics

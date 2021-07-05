@@ -130,7 +130,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "start": 20,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 16,
                 "end": 22
             },
@@ -1088,7 +1088,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                         "start": 383,
                         "end": 385
                     },
-                    "flags": 32,
+                    "flags": 1,
                     "start": 369,
                     "end": 385
                 },
@@ -1261,7 +1261,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                                     "start": 433,
                                     "end": 435
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 427,
                                 "end": 435
                             }
@@ -1545,7 +1545,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                                     "start": 511,
                                     "end": 513
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 502,
                                 "end": 513
                             },
@@ -1838,7 +1838,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                                     "start": 586,
                                     "end": 588
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 580,
                                 "end": 588
                             }

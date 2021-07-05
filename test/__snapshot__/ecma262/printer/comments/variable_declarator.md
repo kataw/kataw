@@ -1104,57 +1104,45 @@ const foo3 = 123
 
 ```javascript
 
-let obj1 =// Comment
- {
-  key : '\'val\''
-};
-let obj2// Comment
- = {
-  key : '\'val\''
-};
+let obj1 = {
+    key: '\'val\''
+  };
+let obj2 = {
+    key: '\'val\''
+  };
 let obj3 = {
-  key : '\'val\''
-};
+    key: '\'val\''
+  };
 let obj4 = {
-   // Comment
-  key : '\'val\''
-};
-let obj5 =// Comment
- [
-  '\'val\'',
-];
-let obj6// Comment
- = [
-  '\'val\'',
-];
+    key: '\'val\''
+  };
+let obj5 = [
+    '\'val\''
+  ];
+let obj6 = [
+    '\'val\''
+  ];
 let obj7 = [
-  '\'val\'',
-];
+    '\'val\''
+  ];
 let obj8 = [
-   // Comment
-  '\'val\'',
-];
-let obj9 =// Comment
- `val`;
-let obj10 =// Comment
- `
+    '\'val\''
+  ];
+let obj9 = `val`;
+let obj10 = `
 val
 val
 `;
-let obj11 =// Comment
- tag`val`;
-let obj12 =// Comment
- tag`
+let obj11 = tag`val`;
+let obj12 = tag`
 val
 val
 `;
-let // Comment
-foo1 = '\'val\'';
-let // Comment
-foo2 = '\'val\'', bar = '\'val\'';
-const foo3 = 123;
-['"2"', '"3"',].forEach(x => console.log(x));
-
+let foo1 = '\'val\'';
+let foo2 = '\'val\'', bar = '\'val\'';
+const foo3 = 123;["\"2\"", "\"3\""].forEach(
+  x =>  console.log(x)
+);
 ```
 
 ### Diagnostics

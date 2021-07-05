@@ -90,7 +90,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 7,
                     "end": 9
                 },
@@ -137,8 +137,8 @@
 
 ```javascript
 
-<A, B>(x) => {};
-
+<A,
+B>(x) => {};
 ```
 
 ### Diagnostics

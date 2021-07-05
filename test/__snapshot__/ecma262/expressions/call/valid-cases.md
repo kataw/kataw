@@ -120,7 +120,7 @@ x(class {} ?? 1);
                                         "kind": 342,
                                         "parameters": [],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 18,
                                         "end": 18
                                     },
@@ -149,8 +149,8 @@ x(class {} ?? 1);
                                     "start": 17,
                                     "end": 25
                                 },
-                                "flags": 32,
-                                "start": 16,
+                                "flags": 16,
+                                "start": 32,
                                 "end": 26
                             },
                             "operatorToken": {
@@ -167,7 +167,7 @@ x(class {} ?? 1);
                                 "start": 29,
                                 "end": 31
                             },
-                            "flags": 32,
+                            "flags": 48,
                             "start": 16,
                             "end": 31
                         }
@@ -573,8 +573,8 @@ x(class {} ?? 1);
                                     "start": 113,
                                     "end": 123
                                 },
-                                "flags": 32,
-                                "start": 113,
+                                "flags": 113,
+                                "start": 32,
                                 "end": 124
                             },
                             "operatorToken": {
@@ -591,7 +591,7 @@ x(class {} ?? 1);
                                 "start": 127,
                                 "end": 129
                             },
-                            "flags": 32,
+                            "flags": 113,
                             "start": 113,
                             "end": 129
                         }
@@ -656,8 +656,8 @@ x(class {} ?? 1);
                                     "start": 135,
                                     "end": 141
                                 },
-                                "flags": 32,
-                                "start": 135,
+                                "flags": 135,
+                                "start": 32,
                                 "end": 142
                             },
                             "operatorToken": {
@@ -674,7 +674,7 @@ x(class {} ?? 1);
                                 "start": 145,
                                 "end": 147
                             },
-                            "flags": 32,
+                            "flags": 167,
                             "start": 135,
                             "end": 147
                         }
@@ -739,8 +739,8 @@ x(class {} ?? 1);
                                     "start": 153,
                                     "end": 159
                                 },
-                                "flags": 32,
-                                "start": 153,
+                                "flags": 153,
+                                "start": 32,
                                 "end": 160
                             },
                             "operatorToken": {
@@ -757,7 +757,7 @@ x(class {} ?? 1);
                                 "start": 163,
                                 "end": 165
                             },
-                            "flags": 32,
+                            "flags": 185,
                             "start": 153,
                             "end": 165
                         }
@@ -822,8 +822,8 @@ x(class {} ?? 1);
                                     "start": 171,
                                     "end": 178
                                 },
-                                "flags": 32,
-                                "start": 171,
+                                "flags": 171,
+                                "start": 32,
                                 "end": 179
                             },
                             "operatorToken": {
@@ -840,7 +840,7 @@ x(class {} ?? 1);
                                 "start": 182,
                                 "end": 184
                             },
-                            "flags": 32,
+                            "flags": 171,
                             "start": 171,
                             "end": 184
                         }
@@ -950,20 +950,42 @@ x(class {} ?? 1);
 
 ```javascript
 
-x(/./ ?? 1);
-x((() => {}) ?? 1);
-x(null ?? 1);
-x(y[z] ?? 1);
-x(-y ?? 1);
-x(++y ?? 1);
-x(delete y ?? 1);
-x((y, void z) ?? 1);
-x((y - z) ?? 1);
-x((y | z) ?? 1);
-x((y ?? z) ?? 1);
-x(class  {
-} ?? 1);
-
+x(
+  /./ ??  1
+);
+x(
+  (() => {}) ??  1
+);
+x(
+  null  ??  1
+);
+x(
+  y[z] ??  1
+);
+x(
+  -y ??  1
+);
+x(
+  ++ y ??  1
+);
+x(
+  delete y ??  1
+);
+x(
+  (y, void z) ??  1
+);
+x(
+  (y -  z) ??  1
+);
+x(
+  (y |  z) ??  1
+);
+x(
+  (y ??  z) ??  1
+);
+x(
+  class  {} ??  1
+);
 ```
 
 ### Diagnostics

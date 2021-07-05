@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/with_strict_dirctive
+- From: kataw/test/__snapshot__/ecma262/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/yield/gen/with_strict_dirctive
 > :: test: with_strict_dirctive
 > :: case: var foo = yield = 1;
 ## Options
@@ -79,7 +78,7 @@
                                 "start": 31,
                                 "end": 33
                             },
-                            "flags": 32,
+                            "flags": 0,
                             "start": 23,
                             "end": 33
                         },
@@ -112,7 +111,6 @@
 
 '\'use strict\'';
 var foo = yield = 1;
-
 ```
 
 ### Diagnostics

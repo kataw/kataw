@@ -55,7 +55,7 @@ x = z();
                     "start": 3,
                     "end": 7
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -78,7 +78,6 @@ x = z();
 ```javascript
 
 x = z();
-
 ```
 
 ### Diagnostics

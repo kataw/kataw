@@ -161,10 +161,8 @@ async function f(){
 ```javascript
 
 async function f() {
-  for (a ? b : c; x; of)
-    ;
+  for (a ? b : c; x; of);
 }
-
 ```
 
 ### Diagnostics

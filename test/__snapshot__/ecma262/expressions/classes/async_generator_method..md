@@ -129,9 +129,8 @@ class A {async * 34(){}}
 ```javascript
 
 class A {
-  async * 34() {}
+  async * 34(){}
 }
-
 ```
 
 ### Diagnostics

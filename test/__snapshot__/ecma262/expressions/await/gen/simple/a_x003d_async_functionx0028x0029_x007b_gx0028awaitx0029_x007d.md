@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/simple
+- From: kataw/test/__snapshot__/ecma262/expressions/await/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/await/gen/simple
 > :: test: simple
 > :: case: a = async function() { g(await) }
 ## Options
@@ -135,7 +134,7 @@ a = async function() { g(await) }
                     "start": 3,
                     "end": 33
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 33
             },

@@ -149,7 +149,7 @@ var fnString = // Comment
                     "start": 10,
                     "end": 52
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 52
             },
@@ -223,7 +223,7 @@ var fnString = // Comment
                     "start": 65,
                     "end": 108
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 53,
                 "end": 108
             },
@@ -297,7 +297,7 @@ var fnString = // Comment
                     "start": 121,
                     "end": 165
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 109,
                 "end": 165
             },
@@ -371,7 +371,7 @@ var fnString = // Comment
                     "start": 178,
                     "end": 223
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 166,
                 "end": 223
             },
@@ -445,7 +445,7 @@ var fnString = // Comment
                     "start": 236,
                     "end": 293
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 224,
                 "end": 293
             },
@@ -699,7 +699,7 @@ var fnString = // Comment
                     "start": 306,
                     "end": 435
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 294,
                 "end": 435
             },
@@ -773,7 +773,7 @@ var fnString = // Comment
                     "start": 448,
                     "end": 503
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 436,
                 "end": 503
             },
@@ -847,7 +847,7 @@ var fnString = // Comment
                     "start": 516,
                     "end": 556
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 504,
                 "end": 556
             },
@@ -921,7 +921,7 @@ var fnString = // Comment
                     "start": 569,
                     "end": 611
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 557,
                 "end": 611
             },
@@ -1711,57 +1711,24 @@ var fnString = // Comment
 
 ```javascript
 
-fnString = 
- // Comment
-'\'some\'' + '\'long\'' + '\'string\'';
-fnString = 
- // Comment
-'\'some\'' + '\'long\'' + '\'string\'';
-fnString = 
- // Comment
-'\'some\'' + '\'long\'' + '\'string\'';
-fnString = 
- /* comment */
-'\'some\'' + '\'long\'' + '\'string\'';
-fnString = 
- /**
-   * multi-line
-   */
-'\'some\'' + '\'long\'' + '\'string\'';
-fnString = 
- /* inline */'\'some\'' + '\'long\'' + '\'string\'' + '\'some\'' + '\'long\'' + '\'string\'' + '\'some\'' + '\'long\'' + '\'string\'' + '\'some\'' + '\'long\'' + '\'string\'';
-fnString =// Comment0
- 
- // Comment1
-'\'some\'' + '\'long\'' + '\'string\'';
-fnString =// Comment
- '\'some\'' + '\'long\'' + '\'string\'';
-fnString = 
- // Comment
-'\'some\'' + '\'long\'' + '\'string\'';
-var fnString = 
- // Comment
-'\'some\'' + '\'long\'' + '\'string\'';
-var fnString = 
- // Comment
-'\'some\'' + '\'long\'' + '\'string\'';
-var fnString = 
- /* comment */
-'\'some\'' + '\'long\'' + '\'string\'';
-var fnString = 
- /**
-   * multi-line
-   */
-'\'some\'' + '\'long\'' + '\'string\'';
-var fnString = 
- /* inline */'\'some\'' + '\'long\'' + '\'string\'' + '\'some\'' + '\'long\'' + '\'string\'' + '\'some\'' + '\'long\'' + '\'string\'' + '\'some\'' + '\'long\'' + '\'string\'';
-var fnString =// Comment0
- 
- // Comment1
-'\'some\'' + '\'long\'' + '\'string\'';
-var fnString =// Comment
- '\'some\'' + '\'long\'' + '\'string\'';
-
+fnString = '\'some\'' +  '\'long\'' +  '\'string\'';
+fnString = '\'some\'' +  '\'long\'' +  '\'string\'';
+fnString = '\'some\'' +  '\'long\'' +  '\'string\'';
+fnString = '\'some\'' +  '\'long\'' +  '\'string\'';
+fnString = '\'some\'' +  '\'long\'' +  '\'string\'';
+fnString =
+  '\'some\'' +  '\'long\'' +  '\'string\'' +  '\'some\'' +  '\'long\'' +  '\'string\'' +  '\'some\'' +  '\'long\'' +  '\'string\'' +  '\'some\'' +  '\'long\'' +  '\'string\'';
+fnString = '\'some\'' +  '\'long\'' +  '\'string\'';
+fnString = '\'some\'' +  '\'long\'' +  '\'string\'';
+fnString = '\'some\'' +  '\'long\'' +  '\'string\'';
+var fnString = '\'some\'' +  '\'long\'' +  '\'string\'';
+var fnString = '\'some\'' +  '\'long\'' +  '\'string\'';
+var fnString = '\'some\'' +  '\'long\'' +  '\'string\'';
+var fnString = '\'some\'' +  '\'long\'' +  '\'string\'';
+var fnString =
+    '\'some\'' +  '\'long\'' +  '\'string\'' +  '\'some\'' +  '\'long\'' +  '\'string\'' +  '\'some\'' +  '\'long\'' +  '\'string\'' +  '\'some\'' +  '\'long\'' +  '\'string\'';
+var fnString = '\'some\'' +  '\'long\'' +  '\'string\'';
+var fnString = '\'some\'' +  '\'long\'' +  '\'string\'';
 ```
 
 ### Diagnostics

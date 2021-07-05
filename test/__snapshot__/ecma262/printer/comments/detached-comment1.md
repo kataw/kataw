@@ -27,7 +27,7 @@
 ### Printed
 
 ```javascript
-/* detached comment */
+
 
 ```
 

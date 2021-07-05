@@ -42,7 +42,7 @@ foo = bar;
                     "start": 21,
                     "end": 25
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 25
             },
@@ -63,9 +63,8 @@ foo = bar;
 ### Printed
 
 ```javascript
-// kataw-ignore
-foo = bar;
 
+foo = bar;
 ```
 
 ### Diagnostics

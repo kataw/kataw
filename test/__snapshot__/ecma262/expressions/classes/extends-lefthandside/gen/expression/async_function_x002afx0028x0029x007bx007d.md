@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/expression
+- From: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/gen/expression
 > :: test: expression
 > :: case: async function *f(){}
 ## Options
@@ -131,8 +130,8 @@
                     "start": 1,
                     "end": 41
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 32,
                 "end": 42
             },
             "flags": 16,
@@ -153,9 +152,7 @@
 
 ```javascript
 
-(class B extends async function * f() {} {
-});
-
+(class B  extends async function * f() {} {});
 ```
 
 ### Diagnostics

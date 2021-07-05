@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_generator
+- From: kataw/test/__snapshot__/ecma262/expressions/yield/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/yield/gen/function_generator
 > :: test: function generator
 > :: case: var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
 ## Options
@@ -317,14 +316,13 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
 function * gen() {
   function not_gen() {
     var gfe = function * rgfe() {
-      switch (1) {
-        case yield *  '\'foo\'': 
-          break;
-      }
-    };
+        switch (1) {
+          case yield * '\'foo\'':
+            break ;
+        }
+      };
   }
 }
-
 ```
 
 ### Diagnostics

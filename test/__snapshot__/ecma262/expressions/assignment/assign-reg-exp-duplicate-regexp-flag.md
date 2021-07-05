@@ -52,7 +52,7 @@ x = /x/xxx;
                     "start": 3,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -85,7 +85,7 @@ x = /x/xxx;
                     "start": 19,
                     "end": 28
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 15,
                 "end": 28
             },
@@ -118,7 +118,7 @@ x = /x/xxx;
                     "start": 33,
                     "end": 41
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 29,
                 "end": 41
             },
@@ -151,7 +151,7 @@ x = /x/xxx;
                     "start": 46,
                     "end": 57
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 42,
                 "end": 57
             },
@@ -184,7 +184,7 @@ x = /x/xxx;
                     "start": 62,
                     "end": 72
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 58,
                 "end": 72
             },
@@ -217,7 +217,7 @@ x = /x/xxx;
                     "start": 77,
                     "end": 85
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 73,
                 "end": 85
             },
@@ -250,7 +250,7 @@ x = /x/xxx;
                     "start": 124,
                     "end": 131
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 86,
                 "end": 131
             },

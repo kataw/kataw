@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-pass/gen/stand-alone
 > :: test: stand-alone
 > :: case: x = a > b instanceof c
 ## Options
@@ -89,7 +88,7 @@ x = a > b instanceof c
                     "start": 3,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 22
             },
@@ -111,8 +110,7 @@ x = a > b instanceof c
 
 ```javascript
 
-x = a > b instanceof c;
-
+x = a >  b instanceof  c;
 ```
 
 ### Diagnostics

@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/assign_to_paren-wrapped_keyword_var_inside_delete_in_param_default
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/gen/assign_to_paren-wrapped_keyword_var_inside_delete_in_param_default
 > :: test: assign to paren-wrapped keyword var inside delete in param default
 > :: case: void
 ## Options
@@ -79,8 +78,8 @@
                                                 "start": 14,
                                                 "end": 18
                                             },
-                                            "flags": 32,
-                                            "start": 13,
+                                            "flags": 13,
+                                            "start": 32,
                                             "end": 19
                                         },
                                         "operatorToken": {
@@ -97,12 +96,12 @@
                                             "start": 21,
                                             "end": 23
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 13,
                                         "end": 23
                                     },
-                                    "flags": 32,
-                                    "start": 11,
+                                    "flags": 11,
+                                    "start": 32,
                                     "end": 24
                                 },
                                 "flags": 32,
@@ -115,7 +114,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
                     "start": 1,
                     "end": 25
                 },

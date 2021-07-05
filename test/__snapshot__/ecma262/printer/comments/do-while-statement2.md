@@ -38,7 +38,7 @@ do {} while (x)/* comment 1 */ {} /* comment 2 */
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
                 "start": 5,
                 "end": 11
             },
@@ -81,9 +81,9 @@ do {} while (x)/* comment 1 */ {} /* comment 2 */
 
 ```javascript
 
-do { } while (x)/* comment 1 */
-{ }/* comment 2 */
-
+do  {}
+while (x);
+{}
 ```
 
 ### Diagnostics

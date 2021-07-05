@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/async-await-errors/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/async-await-errors/gen/with_strict_directive
+- From: kataw/test/__snapshot__/ecma262/expressions/await/async-await-errors/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/await/async-await-errors/gen/with_strict_directive
 > :: test: with strict directive
 > :: case: var O = { *async method() {} };
 ## Options
@@ -151,8 +150,7 @@
 ```javascript
 
 '\'use strict\'';
-var O = { async method() {} };
-
+var O = {async method(){}};
 ```
 
 ### Diagnostics

@@ -63,8 +63,7 @@ a>>>b
 
 ```javascript
 
-a >>> b;
-
+a >>>  b;
 ```
 
 ### Diagnostics

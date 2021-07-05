@@ -122,8 +122,9 @@ x({[a]:b}=obj);
 
 ```javascript
 
-x({ [a] : b } = obj);
-
+x(
+  {[a]: b} = obj
+);
 ```
 
 ### Diagnostics

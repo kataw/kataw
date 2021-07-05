@@ -135,8 +135,7 @@ type A = {
 
 ```javascript
 
-type A = { [B]:  (C/* comment 2 */) }
-
+type A = { [B]: (C) }
 ```
 
 ### Diagnostics

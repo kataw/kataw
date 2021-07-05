@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/class/special_keys/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/class/special_keys/gen/as_static_async_method_in_class
+- From: kataw/test/__snapshot__/ecma262/declarations/class/special_keys/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/declarations/class/special_keys/gen/as_static_async_method_in_class
 > :: test: as static async method in class
 > :: case: throw
 ## Options

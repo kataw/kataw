@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/array_with_assign_to_paren-wrapped
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/gen/array_with_assign_to_paren-wrapped
 > :: test: array with assign to paren-wrapped
 > :: case: in
 ## Options
@@ -81,8 +80,8 @@ async x => (in) = 1
                             "start": 12,
                             "end": 14
                         },
-                        "flags": 32,
-                        "start": 10,
+                        "flags": 10,
+                        "start": 32,
                         "end": 15
                     },
                     "operatorToken": {
@@ -99,7 +98,7 @@ async x => (in) = 1
                         "start": 17,
                         "end": 19
                     },
-                    "flags": 32,
+                    "flags": 0,
                     "start": 10,
                     "end": 19
                 },

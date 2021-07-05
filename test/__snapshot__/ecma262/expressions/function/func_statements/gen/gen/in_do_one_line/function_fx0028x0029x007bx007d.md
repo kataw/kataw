@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/gen/in_do_one_line
+- From: kataw/test/__snapshot__/ecma262/expressions/function/func_statements/gen/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/function/func_statements/gen/gen/in_do_one_line
 > :: test: in do one line
 > :: case: function f(){}
 ## Options
@@ -80,7 +79,7 @@ do function f(){} while (x);
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
                 "start": 17,
                 "end": 23
             },

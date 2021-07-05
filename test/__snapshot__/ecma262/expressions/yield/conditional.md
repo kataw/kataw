@@ -109,8 +109,8 @@ async function f3() {
                                             "start": 24,
                                             "end": 29
                                         },
-                                        "flags": 32,
-                                        "start": 22,
+                                        "flags": 22,
+                                        "start": 32,
                                         "end": 30
                                     },
                                     "questionToken": {
@@ -141,11 +141,11 @@ async function f3() {
                                         "start": 36,
                                         "end": 38
                                     },
-                                    "flags": 32,
+                                    "flags": 54,
                                     "start": 22,
                                     "end": 38
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 16,
                                 "end": 38
                             },
@@ -227,7 +227,7 @@ async function f3() {
                                     "start": 45,
                                     "end": 61
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 39,
                                 "end": 61
                             },
@@ -279,8 +279,8 @@ async function f3() {
                                             "start": 70,
                                             "end": 77
                                         },
-                                        "flags": 32,
-                                        "start": 68,
+                                        "flags": 68,
+                                        "start": 32,
                                         "end": 78
                                     },
                                     "questionToken": {
@@ -311,11 +311,11 @@ async function f3() {
                                         "start": 84,
                                         "end": 86
                                     },
-                                    "flags": 32,
+                                    "flags": 100,
                                     "start": 68,
                                     "end": 86
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 62,
                                 "end": 86
                             },
@@ -397,7 +397,7 @@ async function f3() {
                                     "start": 93,
                                     "end": 111
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 87,
                                 "end": 111
                             },
@@ -493,7 +493,7 @@ async function f3() {
                                     "start": 118,
                                     "end": 140
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 112,
                                 "end": 140
                             },
@@ -633,7 +633,7 @@ async function f3() {
                                     "start": 167,
                                     "end": 184
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 161,
                                 "end": 184
                             },
@@ -690,8 +690,8 @@ async function f3() {
                                             "start": 193,
                                             "end": 201
                                         },
-                                        "flags": 32,
-                                        "start": 191,
+                                        "flags": 191,
+                                        "start": 32,
                                         "end": 202
                                     },
                                     "questionToken": {
@@ -722,11 +722,11 @@ async function f3() {
                                         "start": 208,
                                         "end": 210
                                     },
-                                    "flags": 32,
+                                    "flags": 191,
                                     "start": 191,
                                     "end": 210
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 185,
                                 "end": 210
                             },
@@ -832,7 +832,7 @@ async function f3() {
                                     "start": 217,
                                     "end": 241
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 211,
                                 "end": 241
                             },
@@ -965,7 +965,7 @@ async function f3() {
                                     "start": 273,
                                     "end": 289
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 267,
                                 "end": 289
                             },
@@ -1015,8 +1015,8 @@ async function f3() {
                                             "start": 298,
                                             "end": 305
                                         },
-                                        "flags": 32,
-                                        "start": 296,
+                                        "flags": 296,
+                                        "start": 32,
                                         "end": 306
                                     },
                                     "questionToken": {
@@ -1047,11 +1047,11 @@ async function f3() {
                                         "start": 312,
                                         "end": 314
                                     },
-                                    "flags": 32,
+                                    "flags": 296,
                                     "start": 296,
                                     "end": 314
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 290,
                                 "end": 314
                             },
@@ -1143,7 +1143,7 @@ async function f3() {
                                     "start": 321,
                                     "end": 343
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 315,
                                 "end": 343
                             },
@@ -1181,22 +1181,21 @@ async function f3() {
 
 function * f1() {
   a = (yield ) ? 1 : 1;
-  a = yield  1 ? 1 : 1;
-  a = (yield  1) ? 1 : 1;
+  a = yield 1 ? 1 : 1;
+  a = (yield 1) ? 1 : 1;
   a = 1 ? yield  : yield ;
-  a = 1 ? yield  1 : yield  1;
+  a = 1 ? yield 1 : yield 1;
 }
 function * f2() {
-  a = yield *  1 ? 1 : 1;
-  a = (yield *  1) ? 1 : 1;
-  a = 1 ? yield *  1 : yield *  1;
+  a = yield * 1 ? 1 : 1;
+  a = (yield * 1) ? 1 : 1;
+  a = 1 ? yield * 1 : yield * 1;
 }
 async function f3() {
   a = await 1 ? 1 : 1;
   a = (await 1) ? 1 : 1;
   a = 1 ? await 1 : await 1;
 }
-
 ```
 
 ### Diagnostics

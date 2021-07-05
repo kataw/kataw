@@ -99,7 +99,6 @@
 ```javascript
 
 `a ${function () {}} b`;
-
 ```
 
 ### Diagnostics

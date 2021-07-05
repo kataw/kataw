@@ -63,8 +63,8 @@ function f(x=(yield)=y){}
                                     "start": 14,
                                     "end": 19
                                 },
-                                "flags": 32,
-                                "start": 13,
+                                "flags": 13,
+                                "start": 32,
                                 "end": 20
                             },
                             "operatorToken": {
@@ -81,7 +81,7 @@ function f(x=(yield)=y){}
                                 "start": 21,
                                 "end": 22
                             },
-                            "flags": 32,
+                            "flags": 0,
                             "start": 13,
                             "end": 22
                         },
@@ -129,7 +129,6 @@ function f(x=(yield)=y){}
 ```javascript
 
 function f(x = (yield) = y) {}
-
 ```
 
 ### Diagnostics

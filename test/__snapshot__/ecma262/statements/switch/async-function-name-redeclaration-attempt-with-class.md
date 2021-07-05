@@ -195,13 +195,11 @@ switch (0) { case 1: async function f() {} default: class f {} }
 ```javascript
 
 switch (0) {
-  case 1: 
+  case 1:
     async function f() {}
-  default: 
-    class f {
-    }
+  default
+    class f {}
 }
-
 ```
 
 ### Diagnostics

@@ -328,11 +328,10 @@ foo?.function?.bar
 
 ```javascript
 
-foo?.classbar;
-foo?.functionbar;
-foo?.bar?.classbar;
+foo?.class.bar;
+foo?.function.bar;
+foo?.bar?.class.bar;
 foo?.function?.bar;
-
 ```
 
 ### Diagnostics

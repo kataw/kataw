@@ -302,15 +302,15 @@ for (let x = 0; x < 10;) {
 ```javascript
 
 var count = 0;
-for (let x = 0;; x  < 10) {
-  x++;
-  count++;
+for (let x = 0; ; x  <  10)
   {
-    let x = '"hello"';
-    continue;
+    x++ ;
+    count++ ;
+    {
+      let x = "\"hello\"";
+      continue ;
+    }
   }
-}
-
 ```
 
 ### Diagnostics

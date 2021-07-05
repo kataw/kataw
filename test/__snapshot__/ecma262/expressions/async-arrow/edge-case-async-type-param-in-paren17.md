@@ -231,8 +231,8 @@ async <T: U,>(x) => y;
                     "start": 25,
                     "end": 46
                 },
-                "flags": 32,
-                "start": 22,
+                "flags": 22,
+                "start": 33,
                 "end": 47
             },
             "flags": 16,
@@ -253,9 +253,8 @@ async <T: U,>(x) => y;
 
 ```javascript
 
-async <T: U,>(x) => y;
-(async <T: U,>(x) => y);
-
+async <T: U>(x) =>  y;
+(async <T: U>(x) =>  y);
 ```
 
 ### Diagnostics

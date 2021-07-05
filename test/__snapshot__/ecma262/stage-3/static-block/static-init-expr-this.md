@@ -89,7 +89,7 @@ class C {
                                                     "start": 32,
                                                     "end": 37
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 20,
                                                 "end": 37
                                             },
@@ -138,11 +138,8 @@ class C {
 ```javascript
 
 class C {
-  static  {
-    value = this;
-  }
+  
 }
-
 ```
 
 ### Diagnostics

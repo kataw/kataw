@@ -171,12 +171,11 @@ class x extends y { constructor() { new super() }}
 
 ```javascript
 
-class x extends y {
-  constructor() {
-    new super();
+class x  extends y {
+  constructor(){
+    new super ();
   }
 }
-
 ```
 
 ### Diagnostics

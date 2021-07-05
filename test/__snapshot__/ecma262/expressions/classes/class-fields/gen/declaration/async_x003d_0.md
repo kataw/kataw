@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/class-fields/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/class-fields/gen/declaration
+- From: kataw/test/__snapshot__/ecma262/expressions/classes/class-fields/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/classes/class-fields/gen/declaration
 > :: test: declaration
 > :: case: async = 0
 ## Options
@@ -104,9 +103,8 @@ class C { async = 0 }
 ```javascript
 
 class C {
-  async = 0
+  async = 0;
 }
-
 ```
 
 ### Diagnostics

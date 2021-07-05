@@ -115,8 +115,7 @@ type x = [...aladdin];
 
 ```javascript
 
-type x = [[...aladdin]]
-
+type x = [...aladdin]
 ```
 
 ### Diagnostics

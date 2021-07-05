@@ -58,7 +58,7 @@ result = { arrow = () => {} } = {}
                                             "kind": 342,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 20,
                                             "end": 20
                                         },
@@ -125,7 +125,7 @@ result = { arrow = () => {} } = {}
                     "start": 8,
                     "end": 34
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 34
             },
@@ -147,8 +147,7 @@ result = { arrow = () => {} } = {}
 
 ```javascript
 
-result = { arrow = () => {} } = {};
-
+result = {arrow = () => {}} = {};
 ```
 
 ### Diagnostics

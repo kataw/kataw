@@ -182,8 +182,6 @@ export default class  {
     return 42;
   }
 };
-;
-
 ```
 
 ### Diagnostics

@@ -195,8 +195,7 @@ type X = {[bj[c] & a | b]: string};
 
 ```javascript
 
-type X = { [bj[ c] & a | b]:  string }
-
+type X = { [bj[c] & a | b]: string  }
 ```
 
 ### Diagnostics

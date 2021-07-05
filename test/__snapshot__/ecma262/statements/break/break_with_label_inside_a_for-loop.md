@@ -84,9 +84,8 @@ foo: for (;;) break foo
 
 ```javascript
 
-foo: for (;;)
-  break foo;
-
+foo:  for (;;)
+  break  foo;
 ```
 
 ### Diagnostics

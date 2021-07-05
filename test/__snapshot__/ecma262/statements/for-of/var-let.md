@@ -98,9 +98,7 @@ for (var let of x) ;
 
 ```javascript
 
-for (var let of x)
-  ;
-
+for (var let of x);
 ```
 
 ### Diagnostics

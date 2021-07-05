@@ -172,8 +172,7 @@ type x = { [y]: z[q] | null };
 
 ```javascript
 
-type x = { [y]:  z[ q] | null }
-
+type x = { [y]: z[q] | null  }
 ```
 
 ### Diagnostics

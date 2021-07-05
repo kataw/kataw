@@ -54,7 +54,7 @@ var f = (): (number) => 123;
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 9,
                                 "end": 9
                             },
@@ -123,8 +123,7 @@ var f = (): (number) => 123;
 
 ```javascript
 
-var f = () => 123;
-
+var f = () =>  123;
 ```
 
 ### Diagnostics

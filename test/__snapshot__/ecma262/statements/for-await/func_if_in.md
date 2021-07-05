@@ -226,12 +226,9 @@ async function f(){
 
 async function f() {
   for await (function () {
-    if (a in b)
-      ;
-  }.prop of x)
-    ;
+    if (a in  b);
+  }.prop of x);
 }
-
 ```
 
 ### Diagnostics

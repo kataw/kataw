@@ -147,8 +147,7 @@ var obj: { [user_id: number]: string } = {};
 
 ```javascript
 
-var obj: { [user_idnumber]:  string } = {};
-
+var obj: { [number ]: string  } = {};
 ```
 
 ### Diagnostics

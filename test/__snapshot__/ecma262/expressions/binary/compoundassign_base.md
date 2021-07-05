@@ -41,7 +41,7 @@ a **= b
                     "start": 5,
                     "end": 7
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -64,7 +64,6 @@ a **= b
 ```javascript
 
 a **= b;
-
 ```
 
 ### Diagnostics

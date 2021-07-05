@@ -91,8 +91,8 @@
                                                                         "start": 22,
                                                                         "end": 23
                                                                     },
-                                                                    "flags": 32,
-                                                                    "start": 21,
+                                                                    "flags": 21,
+                                                                    "start": 32,
                                                                     "end": 24
                                                                 }
                                                             ],
@@ -162,7 +162,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
                     "start": 1,
                     "end": 34
                 },
@@ -210,9 +210,8 @@
 ```javascript
 
 (a = function (a) {
-    [(a),] = [0,];
-  }) => {};
-
+  [(a)] = [0];
+}) => {};
 ```
 
 ### Diagnostics

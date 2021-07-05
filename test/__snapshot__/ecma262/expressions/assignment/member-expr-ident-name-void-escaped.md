@@ -55,7 +55,7 @@ obj.voi\u0064 = 42;
                     "start": 15,
                     "end": 18
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 18
             },
@@ -78,7 +78,6 @@ obj.voi\u0064 = 42;
 ```javascript
 
 obj.voi\u0064 = 42;
-
 ```
 
 ### Diagnostics

@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/obj_tail
+- From: kataw/test/__snapshot__/ecma262/expressions/arrow/position/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/arrow/position/gen/obj_tail
 > :: test: obj tail
 > :: case: async x => {}
 ## Options
@@ -149,7 +148,7 @@ x = {arrow: async x => {}}.y
 
 ```javascript
 
-x = { arrow: async x => {} }.y;
+x = {arrow: async x => {}}.y;
 ```
 
 ### Diagnostics

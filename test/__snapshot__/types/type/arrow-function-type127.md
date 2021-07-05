@@ -194,8 +194,8 @@ type a = (&1,|2&3, ) => T;
 
 ```javascript
 
-type a = (& 1, | 2 & 3,) => T
-
+type a = (& 1,
+| 2 & 3) =>  T
 ```
 
 ### Diagnostics

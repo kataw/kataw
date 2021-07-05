@@ -74,7 +74,7 @@ x = 1;
                     "start": 28,
                     "end": 30
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 17,
                 "end": 30
             },
@@ -96,10 +96,8 @@ x = 1;
 
 ```javascript
 
-while (false)
-  let;// ASI
+while (false ) let;
 x = 1;
-
 ```
 
 ### Diagnostics

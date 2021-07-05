@@ -80,7 +80,7 @@ for (a in b=c);
                     "start": 12,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 9,
                 "end": 13
             },
@@ -108,9 +108,7 @@ for (a in b=c);
 
 ```javascript
 
-for (a in b = c)
-  ;
-
+for (a in b = c);
 ```
 
 ### Diagnostics

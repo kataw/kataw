@@ -113,7 +113,7 @@ function* g(x) { yield x = yield 3; }
                                         "start": 26,
                                         "end": 34
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 22,
                                     "end": 34
                                 },
@@ -154,9 +154,8 @@ function* g(x) { yield x = yield 3; }
 ```javascript
 
 function * g(x) {
-  yield  x = yield  3;
+  yield x = yield 3;
 }
-
 ```
 
 ### Diagnostics

@@ -84,9 +84,8 @@ foo: for (;;) continue foo
 
 ```javascript
 
-foo: for (;;)
-  continue foo;
-
+foo:  for (;;)
+  continue  foo;
 ```
 
 ### Diagnostics

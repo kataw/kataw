@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/for-in_lhs
+- From: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/gen/for-in_lhs
 > :: test: for-in lhs
 > :: case: async
 >          x => y
@@ -117,9 +116,7 @@ x => y in x) ;
 
 ```javascript
 
-for (async;; x => y in x)
-  ;
-
+for (async; ; x =>  y in  x);
 ```
 
 ### Diagnostics

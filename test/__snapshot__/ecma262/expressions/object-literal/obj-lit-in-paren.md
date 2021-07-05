@@ -61,7 +61,7 @@
                                         "start": 7,
                                         "end": 8
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 5,
                                     "end": 8
                                 },
@@ -79,8 +79,8 @@
                     "start": 1,
                     "end": 9
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 10
             },
             "flags": 16,
@@ -146,8 +146,8 @@
                     "start": 13,
                     "end": 21
                 },
-                "flags": 32,
-                "start": 11,
+                "flags": 11,
+                "start": 35,
                 "end": 22
             },
             "flags": 16,
@@ -213,8 +213,8 @@
                     "start": 25,
                     "end": 37
                 },
-                "flags": 32,
-                "start": 23,
+                "flags": 23,
+                "start": 35,
                 "end": 38
             },
             "flags": 16,
@@ -294,8 +294,8 @@
                     "start": 41,
                     "end": 53
                 },
-                "flags": 32,
-                "start": 39,
+                "flags": 39,
+                "start": 35,
                 "end": 54
             },
             "flags": 16,
@@ -349,8 +349,8 @@
                     "start": 57,
                     "end": 66
                 },
-                "flags": 32,
-                "start": 55,
+                "flags": 55,
+                "start": 35,
                 "end": 67
             },
             "flags": 16,
@@ -433,8 +433,8 @@
                     "start": 70,
                     "end": 83
                 },
-                "flags": 32,
-                "start": 68,
+                "flags": 68,
+                "start": 35,
                 "end": 84
             },
             "flags": 16,
@@ -455,13 +455,12 @@
 
 ```javascript
 
-({ ...x = y });
-({ ...x + y });
-({ ...x, ...y });
-({ ...x.y } = z);
-({ ...x, y });
-([{ x = y },] = z);
-
+({...x = y});
+({...x +  y});
+({...x, ...y});
+({...x.y} = z);
+({...x, y});
+([{x = y}] = z);
 ```
 
 ### Diagnostics

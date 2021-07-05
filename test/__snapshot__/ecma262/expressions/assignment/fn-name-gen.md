@@ -146,7 +146,7 @@ gen = function*() {};
                     "start": 22,
                     "end": 39
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 14,
                 "end": 39
             },
@@ -216,7 +216,7 @@ gen = function*() {};
                     "start": 46,
                     "end": 61
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 40,
                 "end": 61
             },
@@ -241,7 +241,6 @@ gen = function*() {};
 var xGen, gen;
 xGen = function * x() {};
 gen = function * () {};
-
 ```
 
 ### Diagnostics

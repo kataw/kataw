@@ -188,12 +188,9 @@ async function f() {
 
 async function f() {
   class C {
-    static  {
-      await 0;
-    }
+    
   }
 }
-
 ```
 
 ### Diagnostics

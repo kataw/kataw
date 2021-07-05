@@ -86,8 +86,7 @@ e => yield* 10
 
 ```javascript
 
-e => yield * 10;
-
+e =>  yield *  10;
 ```
 
 ### Diagnostics

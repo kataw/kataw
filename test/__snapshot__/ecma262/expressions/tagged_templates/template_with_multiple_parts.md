@@ -97,8 +97,8 @@ foo`x${a}y${b}z`
 
 ```javascript
 
-foo`x${a}y${b}z`;
-
+foo`x${a},
+y${b}z`;
 ```
 
 ### Diagnostics

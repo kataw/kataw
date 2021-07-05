@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/misc/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/misc/gen/class-expr-extends
+- From: kataw/test/__snapshot__/ecma262/expressions/classes/misc/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/classes/misc/gen/class-expr-extends
 > :: test: class-expr-extends
 > :: case: set static(v) {}
 ## Options
@@ -142,8 +141,8 @@
                     "start": 1,
                     "end": 38
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 32,
                 "end": 39
             },
             "flags": 16,
@@ -164,10 +163,9 @@
 
 ```javascript
 
-(class  extends Base {
-  set static(v) {}
-});
-
+(class   extends Base {
+    set static(v){}
+  });
 ```
 
 ### Diagnostics

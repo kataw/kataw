@@ -124,8 +124,7 @@ type A = ?(?B)
 
 ```javascript
 
-type A = ?(?B)
-
+type A = ? (? B)
 ```
 
 ### Diagnostics

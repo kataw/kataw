@@ -124,8 +124,7 @@ export default function <T>() {}
 
 ```javascript
 
-export default function <T> () {};
-
+export default function <T>() {};
 ```
 
 ### Diagnostics

@@ -133,9 +133,7 @@ try {} catch([a:string]) {}
 
 ```javascript
 
-try { }
-catch ([a: string]){ }
-
+try {} catch ([a: string ]) {}
 ```
 
 ### Diagnostics

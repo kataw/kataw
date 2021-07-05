@@ -135,8 +135,8 @@ for (async in { a: 1, b: 2 }) {}
 
 ```javascript
 
-for (async in { a : 1, b : 2 }) { }
-
+for (async in {a: 1, b: 2})
+  {}
 ```
 
 ### Diagnostics

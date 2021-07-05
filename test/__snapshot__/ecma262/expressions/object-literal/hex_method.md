@@ -96,7 +96,7 @@ x = {0xabc(){}}
                     "start": 3,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 15
             },
@@ -118,8 +118,7 @@ x = {0xabc(){}}
 
 ```javascript
 
-x = { 0xabc() {} };
-
+x = {0xabc(){}};
 ```
 
 ### Diagnostics

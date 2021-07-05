@@ -78,7 +78,7 @@ for(;;)x
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 65,
+                "flags": 81,
                 "start": 21,
                 "end": 27
             },
@@ -137,11 +137,10 @@ for(;;)x
 
 ```javascript
 
-do
-  throw function () {}; while (y)
+do  throw function () {};
+while (y);
 for (;;)
   x;
-
 ```
 
 ### Diagnostics

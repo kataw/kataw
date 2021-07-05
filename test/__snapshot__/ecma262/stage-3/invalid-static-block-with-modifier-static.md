@@ -105,10 +105,8 @@ class Foo {
 ```javascript
 
 class Foo {
-  static  {
-  }
+  
 }
-
 ```
 
 ### Diagnostics

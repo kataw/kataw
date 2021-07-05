@@ -128,9 +128,7 @@ for (true ? 0 : 0 in {}; false; ) ;
 
 ```javascript
 
-for (true ? 0 : 0 in {};; false)
-  ;
-
+for (true  ? 0 : 0 in  {}; ; false );
 ```
 
 ### Diagnostics

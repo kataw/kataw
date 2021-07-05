@@ -153,7 +153,7 @@ o = {f(x) { function x() {} }}
                     "start": 3,
                     "end": 30
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 30
             },
@@ -175,10 +175,9 @@ o = {f(x) { function x() {} }}
 
 ```javascript
 
-o = { f(x) {
+o = {f(x){
     function x() {}
-  } };
-
+  }};
 ```
 
 ### Diagnostics

@@ -212,8 +212,7 @@ type a = ({key():string}[x]) => T;
 
 ```javascript
 
-type a = ({ key(): string }[ x]) => T
-
+type a = ({ key(): string  }[x]) =>  T
 ```
 
 ### Diagnostics

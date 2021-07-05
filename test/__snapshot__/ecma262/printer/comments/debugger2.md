@@ -40,9 +40,8 @@
 ### Printed
 
 ```javascript
-/* comment 1 */
-debugger/* comment 2 */;
 
+debugger;
 ```
 
 ### Diagnostics

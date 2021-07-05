@@ -47,7 +47,7 @@ x = 123;
                     "start": 3,
                     "end": 7
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -70,7 +70,6 @@ x = 123;
 ```javascript
 
 x = 123;
-
 ```
 
 ### Diagnostics

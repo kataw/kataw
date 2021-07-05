@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/simple
+- From: kataw/test/__snapshot__/ecma262/expressions/await/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/await/gen/simple
 > :: test: simple
 > :: case: async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
 ## Options
@@ -274,9 +273,8 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
 ```javascript
 
 async function a() {
-  async ([y] = [{ m : 5 + t(await bar) },]) => {}
+  async ([y] = [{m: 5 +  t(await bar)}]) => {}
 }
-
 ```
 
 ### Diagnostics

@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/misc/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/misc/gen/class-decl-extends
+- From: kataw/test/__snapshot__/ecma262/expressions/classes/misc/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/classes/misc/gen/class-decl-extends
 > :: test: class-decl-extends
 > :: case: static *static() {}
 ## Options
@@ -156,10 +155,9 @@ class C extends Base { static *static() {} }
 
 ```javascript
 
-class C extends Base {
-  static * static() {}
+class C  extends Base {
+  static * static(){}
 }
-
 ```
 
 ### Diagnostics

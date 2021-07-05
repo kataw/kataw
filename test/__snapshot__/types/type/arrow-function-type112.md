@@ -347,9 +347,8 @@ type a = ((bj[c] | e) => T);
 
 ```javascript
 
-type a = ((bj[ c] & d) => T)
-type a = ((bj[ c] | e) => T)
-
+type a = ((bj[c] & d) =>  T)
+type a = ((bj[c] | e) =>  T)
 ```
 
 ### Diagnostics

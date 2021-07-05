@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/unicode-escape/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/unicode-escape/gen/simple
+- From: kataw/test/__snapshot__/ecma262/expressions/unicode-escape/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/unicode-escape/gen/simple
 > :: test: simple
 > :: case: var foob\\u123r = 0;
 ## Options
@@ -86,7 +85,7 @@ var foob\\u123r = 0;
                     "start": 17,
                     "end": 19
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 10,
                 "end": 19
             },

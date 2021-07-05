@@ -110,8 +110,7 @@ type a = (["string"]);
 
 ```javascript
 
-type a = ([['"string"']])
-
+type a = (["\"string\""])
 ```
 
 ### Diagnostics

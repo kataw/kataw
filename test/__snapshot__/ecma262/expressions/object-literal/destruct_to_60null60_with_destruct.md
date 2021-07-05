@@ -73,7 +73,7 @@ s = {"foo": null = x} = x
                                             "start": 18,
                                             "end": 20
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 5,
                                         "end": 20
                                     },
@@ -109,7 +109,7 @@ s = {"foo": null = x} = x
                     "start": 3,
                     "end": 25
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 25
             },

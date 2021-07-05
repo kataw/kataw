@@ -78,8 +78,7 @@ for (x of y) continue
 ```javascript
 
 for (x of y)
-  continue;
-
+  continue ;
 ```
 
 ### Diagnostics

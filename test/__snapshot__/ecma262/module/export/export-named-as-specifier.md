@@ -94,8 +94,7 @@ export {foo as bar};
 
 ```javascript
 
-export { foo as  bar, };
-
+export { foo as  bar };
 ```
 
 ### Diagnostics

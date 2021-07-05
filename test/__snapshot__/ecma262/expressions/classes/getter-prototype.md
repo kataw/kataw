@@ -124,9 +124,8 @@ class x { get prototype(){} }
 ```javascript
 
 class x {
-  get prototype() {}
+  get prototype(){}
 }
-
 ```
 
 ### Diagnostics

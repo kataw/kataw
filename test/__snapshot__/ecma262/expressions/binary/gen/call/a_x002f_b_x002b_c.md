@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/binary/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/binary/gen/call
+- From: kataw/test/__snapshot__/ecma262/expressions/binary/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/binary/gen/call
 > :: test: call
 > :: case: a / b + c
 ## Options
@@ -114,8 +113,9 @@ foo( a / b + c )
 
 ```javascript
 
-foo(a / b + c);
-
+foo(
+  a /  b +  c
+);
 ```
 
 ### Diagnostics

@@ -97,10 +97,8 @@ export default class {} foo
 
 ```javascript
 
-export default class  {
-};
+export default class  {};
 foo;
-
 ```
 
 ### Diagnostics

@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/async-await-errors/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/async-await-errors/gen/stand_alone
+- From: kataw/test/__snapshot__/ecma262/expressions/await/async-await-errors/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/await/async-await-errors/gen/stand_alone
 > :: test: stand alone
 > :: case: ar O = { async method(x = await 1) { return x; } };
 ## Options
@@ -182,7 +181,7 @@ ar O = { async method(x = await 1) { return x; } };
                     "start": 6,
                     "end": 50
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 2,
                 "end": 50
             },

@@ -145,7 +145,7 @@
                             "start": 16,
                             "end": 19
                         },
-                        "flags": 32,
+                        "flags": 0,
                         "start": 12,
                         "end": 19
                     },
@@ -153,8 +153,8 @@
                     "start": 1,
                     "end": 19
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 20
             },
             "flags": 16,
@@ -269,7 +269,7 @@
                             "start": 45,
                             "end": 48
                         },
-                        "flags": 32,
+                        "flags": 0,
                         "start": 41,
                         "end": 48
                     },
@@ -277,8 +277,8 @@
                     "start": 23,
                     "end": 48
                 },
-                "flags": 32,
-                "start": 21,
+                "flags": 21,
+                "start": 35,
                 "end": 49
             },
             "flags": 16,
@@ -385,8 +385,8 @@
                     "start": 52,
                     "end": 76
                 },
-                "flags": 32,
-                "start": 50,
+                "flags": 50,
+                "start": 35,
                 "end": 77
             },
             "flags": 16,
@@ -536,7 +536,7 @@
                                             "start": 103,
                                             "end": 105
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 98,
                                         "end": 105
                                     },
@@ -579,7 +579,7 @@
                                             "start": 113,
                                             "end": 116
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 106,
                                         "end": 116
                                     },
@@ -621,8 +621,8 @@
                     "start": 97,
                     "end": 122
                 },
-                "flags": 32,
-                "start": 95,
+                "flags": 95,
+                "start": 35,
                 "end": 123
             },
             "flags": 16,
@@ -712,8 +712,8 @@
                     "start": 124,
                     "end": 145
                 },
-                "flags": 32,
-                "start": 124,
+                "flags": 124,
+                "start": 35,
                 "end": 145
             },
             "flags": 16,
@@ -797,8 +797,8 @@
                     "start": 148,
                     "end": 164
                 },
-                "flags": 32,
-                "start": 146,
+                "flags": 146,
+                "start": 35,
                 "end": 165
             },
             "flags": 16,
@@ -872,8 +872,8 @@
                     "start": 168,
                     "end": 183
                 },
-                "flags": 32,
-                "start": 166,
+                "flags": 166,
+                "start": 35,
                 "end": 184
             },
             "flags": 16,
@@ -922,8 +922,8 @@
                     "start": 188,
                     "end": 194
                 },
-                "flags": 32,
-                "start": 185,
+                "flags": 185,
+                "start": 35,
                 "end": 195
             },
             "flags": 16,
@@ -992,8 +992,8 @@
                     "start": 198,
                     "end": 206
                 },
-                "flags": 32,
-                "start": 196,
+                "flags": 196,
+                "start": 35,
                 "end": 207
             },
             "flags": 16,
@@ -1060,8 +1060,8 @@
                     "start": 210,
                     "end": 221
                 },
-                "flags": 32,
-                "start": 208,
+                "flags": 208,
+                "start": 35,
                 "end": 222
             },
             "flags": 16,
@@ -1110,8 +1110,8 @@
                     "start": 225,
                     "end": 231
                 },
-                "flags": 32,
-                "start": 223,
+                "flags": 223,
+                "start": 35,
                 "end": 232
             },
             "flags": 16,
@@ -1180,8 +1180,8 @@
                     "start": 235,
                     "end": 243
                 },
-                "flags": 32,
-                "start": 233,
+                "flags": 233,
+                "start": 35,
                 "end": 244
             },
             "flags": 16,
@@ -1248,8 +1248,8 @@
                     "start": 247,
                     "end": 258
                 },
-                "flags": 32,
-                "start": 245,
+                "flags": 245,
+                "start": 35,
                 "end": 259
             },
             "flags": 16,
@@ -1316,8 +1316,8 @@
                     "start": 262,
                     "end": 273
                 },
-                "flags": 32,
-                "start": 260,
+                "flags": 260,
+                "start": 35,
                 "end": 274
             },
             "flags": 16,
@@ -1372,8 +1372,8 @@
                     "start": 277,
                     "end": 285
                 },
-                "flags": 32,
-                "start": 275,
+                "flags": 275,
+                "start": 35,
                 "end": 286
             },
             "flags": 16,
@@ -1429,8 +1429,8 @@
                         "start": 289,
                         "end": 294
                     },
-                    "flags": 32,
-                    "start": 287,
+                    "flags": 287,
+                    "start": 35,
                     "end": 295
                 },
                 "argumentList": {
@@ -1513,8 +1513,8 @@
                         "start": 300,
                         "end": 307
                     },
-                    "flags": 32,
-                    "start": 298,
+                    "flags": 298,
+                    "start": 35,
                     "end": 308
                 },
                 "argumentList": {
@@ -1639,8 +1639,8 @@
                     "start": 314,
                     "end": 336
                 },
-                "flags": 32,
-                "start": 311,
+                "flags": 311,
+                "start": 35,
                 "end": 337
             },
             "flags": 16,
@@ -1687,8 +1687,8 @@
                     "start": 340,
                     "end": 350
                 },
-                "flags": 32,
-                "start": 338,
+                "flags": 338,
+                "start": 35,
                 "end": 351
             },
             "flags": 16,
@@ -1768,8 +1768,8 @@
                     "start": 354,
                     "end": 371
                 },
-                "flags": 32,
-                "start": 352,
+                "flags": 352,
+                "start": 35,
                 "end": 372
             },
             "flags": 16,
@@ -1830,8 +1830,8 @@
                     "start": 375,
                     "end": 388
                 },
-                "flags": 32,
-                "start": 373,
+                "flags": 373,
+                "start": 35,
                 "end": 389
             },
             "flags": 16,
@@ -1892,8 +1892,8 @@
                     "start": 392,
                     "end": 403
                 },
-                "flags": 32,
-                "start": 390,
+                "flags": 390,
+                "start": 35,
                 "end": 404
             },
             "flags": 16,
@@ -1962,8 +1962,8 @@
                     "start": 407,
                     "end": 417
                 },
-                "flags": 32,
-                "start": 405,
+                "flags": 405,
+                "start": 35,
                 "end": 418
             },
             "flags": 16,
@@ -2025,8 +2025,8 @@
                     "start": 421,
                     "end": 431
                 },
-                "flags": 32,
-                "start": 419,
+                "flags": 419,
+                "start": 35,
                 "end": 432
             },
             "flags": 16,
@@ -2101,8 +2101,8 @@
                     "start": 435,
                     "end": 450
                 },
-                "flags": 32,
-                "start": 433,
+                "flags": 433,
+                "start": 35,
                 "end": 451
             },
             "flags": 16,
@@ -2182,8 +2182,8 @@
                     "start": 455,
                     "end": 470
                 },
-                "flags": 32,
-                "start": 452,
+                "flags": 452,
+                "start": 35,
                 "end": 471
             },
             "flags": 16,
@@ -2269,8 +2269,8 @@
                     "start": 474,
                     "end": 488
                 },
-                "flags": 32,
-                "start": 472,
+                "flags": 472,
+                "start": 35,
                 "end": 489
             },
             "flags": 16,
@@ -2368,7 +2368,7 @@
                             "start": 508,
                             "end": 510
                         },
-                        "flags": 32,
+                        "flags": 0,
                         "start": 504,
                         "end": 510
                     },
@@ -2376,8 +2376,8 @@
                     "start": 492,
                     "end": 510
                 },
-                "flags": 32,
-                "start": 490,
+                "flags": 490,
+                "start": 35,
                 "end": 511
             },
             "flags": 16,
@@ -2477,11 +2477,11 @@
                                 "start": 532,
                                 "end": 533
                             },
-                            "flags": 32,
-                            "start": 530,
+                            "flags": 530,
+                            "start": 32,
                             "end": 534
                         },
-                        "flags": 32,
+                        "flags": 0,
                         "start": 526,
                         "end": 534
                     },
@@ -2489,8 +2489,8 @@
                     "start": 514,
                     "end": 534
                 },
-                "flags": 32,
-                "start": 512,
+                "flags": 512,
+                "start": 35,
                 "end": 535
             },
             "flags": 16,
@@ -2576,8 +2576,8 @@
                                 "start": 552,
                                 "end": 553
                             },
-                            "flags": 32,
-                            "start": 550,
+                            "flags": 550,
+                            "start": 32,
                             "end": 554
                         },
                         "operatorToken": {
@@ -2596,11 +2596,11 @@
                                 "start": 558,
                                 "end": 559
                             },
-                            "flags": 32,
-                            "start": 556,
+                            "flags": 556,
+                            "start": 32,
                             "end": 560
                         },
-                        "flags": 32,
+                        "flags": 0,
                         "start": 550,
                         "end": 560
                     },
@@ -2608,8 +2608,8 @@
                     "start": 538,
                     "end": 560
                 },
-                "flags": 32,
-                "start": 536,
+                "flags": 536,
+                "start": 35,
                 "end": 561
             },
             "flags": 16,
@@ -2695,8 +2695,8 @@
                     "start": 564,
                     "end": 578
                 },
-                "flags": 32,
-                "start": 562,
+                "flags": 562,
+                "start": 35,
                 "end": 579
             },
             "flags": 16,
@@ -2766,8 +2766,8 @@
                                                         "start": 594,
                                                         "end": 595
                                                     },
-                                                    "flags": 32,
-                                                    "start": 592,
+                                                    "flags": 592,
+                                                    "start": 32,
                                                     "end": 596
                                                 },
                                                 "expression": {
@@ -2782,7 +2782,7 @@
                                                 "start": 592,
                                                 "end": 599
                                             },
-                                            "flags": 32,
+                                            "flags": 0,
                                             "start": 589,
                                             "end": 599
                                         },
@@ -2822,8 +2822,8 @@
                     "start": 582,
                     "end": 605
                 },
-                "flags": 32,
-                "start": 580,
+                "flags": 580,
+                "start": 35,
                 "end": 606
             },
             "flags": 16,
@@ -2902,8 +2902,8 @@
                     "start": 610,
                     "end": 626
                 },
-                "flags": 32,
-                "start": 607,
+                "flags": 607,
+                "start": 35,
                 "end": 627
             },
             "flags": 16,
@@ -2982,8 +2982,8 @@
                     "start": 630,
                     "end": 646
                 },
-                "flags": 32,
-                "start": 628,
+                "flags": 628,
+                "start": 35,
                 "end": 647
             },
             "flags": 16,
@@ -3068,8 +3068,8 @@
                     "start": 650,
                     "end": 670
                 },
-                "flags": 32,
-                "start": 648,
+                "flags": 648,
+                "start": 35,
                 "end": 671
             },
             "flags": 16,
@@ -3148,8 +3148,8 @@
                     "start": 674,
                     "end": 690
                 },
-                "flags": 32,
-                "start": 672,
+                "flags": 672,
+                "start": 35,
                 "end": 691
             },
             "flags": 16,
@@ -3237,8 +3237,8 @@
                     "start": 694,
                     "end": 711
                 },
-                "flags": 32,
-                "start": 692,
+                "flags": 692,
+                "start": 35,
                 "end": 712
             },
             "flags": 16,
@@ -3332,8 +3332,8 @@
                     "start": 715,
                     "end": 734
                 },
-                "flags": 32,
-                "start": 713,
+                "flags": 713,
+                "start": 35,
                 "end": 735
             },
             "flags": 16,
@@ -3449,8 +3449,8 @@
                     "start": 739,
                     "end": 758
                 },
-                "flags": 32,
-                "start": 736,
+                "flags": 736,
+                "start": 35,
                 "end": 759
             },
             "flags": 16,
@@ -3566,8 +3566,8 @@
                     "start": 762,
                     "end": 780
                 },
-                "flags": 32,
-                "start": 760,
+                "flags": 760,
+                "start": 35,
                 "end": 781
             },
             "flags": 16,
@@ -3663,8 +3663,8 @@
                     "start": 784,
                     "end": 811
                 },
-                "flags": 32,
-                "start": 782,
+                "flags": 782,
+                "start": 35,
                 "end": 812
             },
             "flags": 16,
@@ -3732,8 +3732,8 @@
                     "start": 815,
                     "end": 826
                 },
-                "flags": 32,
-                "start": 813,
+                "flags": 813,
+                "start": 35,
                 "end": 827
             },
             "flags": 16,
@@ -3795,7 +3795,7 @@
                                         "start": 839,
                                         "end": 841
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 834,
                                     "end": 841
                                 },
@@ -3821,8 +3821,8 @@
                     "start": 830,
                     "end": 845
                 },
-                "flags": 32,
-                "start": 828,
+                "flags": 828,
+                "start": 35,
                 "end": 846
             },
             "flags": 16,
@@ -3870,7 +3870,7 @@
                                         "start": 856,
                                         "end": 858
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 853,
                                     "end": 858
                                 },
@@ -3896,8 +3896,8 @@
                     "start": 849,
                     "end": 862
                 },
-                "flags": 32,
-                "start": 847,
+                "flags": 847,
+                "start": 35,
                 "end": 863
             },
             "flags": 16,
@@ -3918,52 +3918,51 @@
 
 ```javascript
 
-({ x : y } = z = {});
-({ x : foo()[y] } = z = {});
-({ x : { foo : foo().y } });
-[...{ a }] = [{},];
-({ x : z = 1, x1 : y = 20 } = {});
-(q, { x = 10 } = {});
-({ x } = { x : 3 });
-({ x = 10 } = {});
-({ 1 : x });
-({ 1 : x } = 1);
-({ 1 : x } = null);
-({ 1 : x });
-({ 1 : x } = 1);
-({ 1 : x } = null);
-({ a : b } = null);
-({ [x] : 1 });
-({ a } = 1)();
-({ a : a } = 1)();
-({ x : { x : y }.length } = x);
-({ x : false });
-({ x : function () {} });
-({ x : typeof x });
-({ x : void x });
-({ x : x + y });
-({ x : new x });
-({ x : delete x.y });
-({ ...'"x"'[x] } = x);
-({ ...[][x] } = x);
-({ ...[][x] } = x = y);
-({ ...[][x] } = x = (y));
-({ ...[][x] } = (x) = (y));
-({ ...{}[x] } = x);
-({ ...{}[x = (y)[z]] } = x);
-({ async x() {} });
-({ async x() {} });
-({ async [foo]() {} });
-({ get 500() {} });
-({ set 500(b) {} });
-({ set [foo](d) {} });
-({ ...{ b : 0 }[x] } = {});
-({ ...{ b : 0 }.x } = {});
-([target()[targetKey()],] = x);
-({ ...x.x, y });
-({ ...x.x = y, y });
-({ ...x = y, y });
-
+({x: y} = z = {});
+({x: foo()[y]} = z = {});
+({x: {foo: foo().y}});
+[...{a}] = [{}];
+({x: z = 1, x1: y = 20} = {});
+(q, {x = 10} = {});
+({x} = {x: 3});
+({x = 10} = {});
+({1: x});
+({1: x} = 1);
+({1: x} = null );
+({1: x});
+({1: x} = 1);
+({1: x} = null );
+({a: b} = null );
+({[x]: 1});
+({a} = 1)();
+({a: a} = 1)();
+({x: {x: y}.length} = x);
+({x: false });
+({x: function () {}});
+({x: typeof x});
+({x: void x});
+({x: x +  y});
+({x: new x});
+({x: delete x.y});
+({..."\"x\""[x]} = x);
+({...[][x]} = x);
+({...[][x]} = x = y);
+({...[][x]} = x = (y));
+({...[][x]} = (x) = (y));
+({...{}[x]} = x);
+({...{}[x = (y)[z]]} = x);
+({async x(){}});
+({async x(){}});
+({async [foo](){}});
+({get 500(){}});
+({set 500(b){}});
+({set [foo](d){}});
+({...{b: 0}[x]} = {});
+({...{b: 0}.x} = {});
+([target()[targetKey()]] = x);
+({...x.x, y});
+({...x.x = y, y});
+({...x = y, y});
 ```
 
 ### Diagnostics

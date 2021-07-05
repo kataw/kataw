@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/async-await-errors/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/async-await-errors/gen/with_strict_directive
+- From: kataw/test/__snapshot__/ecma262/expressions/await/async-await-errors/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/await/async-await-errors/gen/with_strict_directive
 > :: test: with strict directive
 > :: case: ar O = { async method(x = await 1) { return x; } };
 ## Options
@@ -191,7 +190,7 @@
                     "start": 20,
                     "end": 64
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 16,
                 "end": 64
             },

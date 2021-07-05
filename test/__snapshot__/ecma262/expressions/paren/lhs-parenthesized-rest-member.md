@@ -56,8 +56,8 @@
                                         "start": 4,
                                         "end": 8
                                     },
-                                    "flags": 32,
-                                    "start": 4,
+                                    "flags": 4,
+                                    "start": 32,
                                     "end": 9
                                 },
                                 "flags": 1073741856,
@@ -117,7 +117,6 @@
 ```javascript
 
 [...(a.b)] = [];
-
 ```
 
 ### Diagnostics

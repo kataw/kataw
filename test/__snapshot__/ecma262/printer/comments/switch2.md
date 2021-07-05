@@ -62,10 +62,7 @@ switch (x) {
 
 ```javascript
 
-switch (x) {
- /*1*/
-}
-
+switch (x) {}
 ```
 
 ### Diagnostics

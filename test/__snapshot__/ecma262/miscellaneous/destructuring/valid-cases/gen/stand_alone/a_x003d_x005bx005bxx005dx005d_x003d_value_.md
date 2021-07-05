@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/valid-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/valid-cases/gen/stand_alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/valid-cases/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/valid-cases/gen/stand_alone
 > :: test: stand alone
 > :: case: a = [[x]] = value;
 ## Options
@@ -99,7 +98,7 @@ a = [[x]] = value;
                     "start": 3,
                     "end": 17
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 17
             },
@@ -121,8 +120,7 @@ a = [[x]] = value;
 
 ```javascript
 
-a = [[x,],] = value;
-
+a = [[x]] = value;
 ```
 
 ### Diagnostics

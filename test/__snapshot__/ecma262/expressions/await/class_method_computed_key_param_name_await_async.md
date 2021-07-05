@@ -244,7 +244,7 @@ async function f(){
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 2,
+                                    "flags": 35,
                                     "start": 23,
                                     "end": 62
                                 },
@@ -269,7 +269,7 @@ async function f(){
                                     "start": 65,
                                     "end": 68
                                 },
-                                "flags": 34,
+                                "flags": 35,
                                 "start": 19,
                                 "end": 68
                             },
@@ -307,12 +307,10 @@ async function f(){
 
 async function f() {
   (fail = class A {
-      [x](await) {}
-      ;
-      '"x"'() {}
-    }) => {};
+    [x](await){};
+    "\"x\""(){}
+  }) => {};
 }
-
 ```
 
 ### Diagnostics

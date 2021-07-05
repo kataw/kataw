@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/gen/stand-alone
 > :: test: stand-alone
 > :: case: "use strict"; (arguments = a)
 ## Options
@@ -64,8 +63,8 @@
                     "start": 13,
                     "end": 28
                 },
-                "flags": 32,
-                "start": 13,
+                "flags": 13,
+                "start": 34,
                 "end": 29
             },
             "flags": 16,

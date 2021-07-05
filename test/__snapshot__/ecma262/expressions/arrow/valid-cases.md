@@ -90,7 +90,7 @@ foo ? bar : baz => {};
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 1,
                     "end": 1
                 },
@@ -133,7 +133,7 @@ foo ? bar : baz => {};
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 11,
                     "end": 11
                 },
@@ -215,7 +215,7 @@ foo ? bar : baz => {};
                             "kind": 342,
                             "parameters": [],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 37,
                             "end": 37
                         },
@@ -244,8 +244,8 @@ foo ? bar : baz => {};
                         "start": 36,
                         "end": 44
                     },
-                    "flags": 32,
-                    "start": 34,
+                    "flags": 34,
+                    "start": 32,
                     "end": 45
                 },
                 "flags": 97,
@@ -339,7 +339,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 68,
                     "end": 70
                 },
@@ -385,7 +385,7 @@ foo ? bar : baz => {};
                     "start": 73,
                     "end": 87
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 66,
                 "end": 87
             },
@@ -420,7 +420,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 90,
                     "end": 95
                 },
@@ -486,7 +486,7 @@ foo ? bar : baz => {};
                     "start": 98,
                     "end": 116
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 88,
                 "end": 116
             },
@@ -529,7 +529,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 119,
                     "end": 127
                 },
@@ -615,7 +615,7 @@ foo ? bar : baz => {};
                     "start": 130,
                     "end": 152
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 117,
                 "end": 152
             },
@@ -650,7 +650,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 155,
                     "end": 160
                 },
@@ -707,7 +707,7 @@ foo ? bar : baz => {};
                                         "start": 171,
                                         "end": 173
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 165,
                                     "end": 173
                                 },
@@ -724,7 +724,7 @@ foo ? bar : baz => {};
                     "start": 163,
                     "end": 176
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 153,
                 "end": 176
             },
@@ -742,7 +742,7 @@ foo ? bar : baz => {};
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 179,
                     "end": 179
                 },
@@ -882,7 +882,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 209,
                     "end": 211
                 },
@@ -901,7 +901,7 @@ foo ? bar : baz => {};
                     "start": 214,
                     "end": 216
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 207,
                 "end": 216
             },
@@ -928,7 +928,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 219,
                     "end": 221
                 },
@@ -967,7 +967,7 @@ foo ? bar : baz => {};
                     "start": 224,
                     "end": 230
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 217,
                 "end": 230
             },
@@ -1002,7 +1002,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 233,
                     "end": 238
                 },
@@ -1041,7 +1041,7 @@ foo ? bar : baz => {};
                     "start": 241,
                     "end": 247
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 231,
                 "end": 247
             },
@@ -1087,7 +1087,7 @@ foo ? bar : baz => {};
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 33,
                             "start": 250,
                             "end": 258
                         },
@@ -1106,7 +1106,7 @@ foo ? bar : baz => {};
                             "start": 261,
                             "end": 263
                         },
-                        "flags": 32,
+                        "flags": 33,
                         "start": 248,
                         "end": 263
                     },
@@ -1162,7 +1162,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 272,
                     "end": 277
                 },
@@ -1211,11 +1211,11 @@ foo ? bar : baz => {};
                         "start": 286,
                         "end": 288
                     },
-                    "flags": 32,
+                    "flags": 0,
                     "start": 280,
                     "end": 288
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 270,
                 "end": 288
             },
@@ -1233,7 +1233,7 @@ foo ? bar : baz => {};
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 291,
                     "end": 291
                 },
@@ -1284,8 +1284,8 @@ foo ? bar : baz => {};
                         "start": 297,
                         "end": 310
                     },
-                    "flags": 32,
-                    "start": 295,
+                    "flags": 295,
+                    "start": 34,
                     "end": 311
                 },
                 "flags": 32,
@@ -1403,7 +1403,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 331,
                     "end": 336
                 },
@@ -1439,7 +1439,7 @@ foo ? bar : baz => {};
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 341,
                         "end": 346
                     },
@@ -1522,7 +1522,7 @@ foo ? bar : baz => {};
                     "start": 339,
                     "end": 359
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 329,
                 "end": 359
             },
@@ -1557,7 +1557,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 362,
                     "end": 367
                 },
@@ -1633,8 +1633,8 @@ foo ? bar : baz => {};
                                 "start": 379,
                                 "end": 386
                             },
-                            "flags": 32,
-                            "start": 379,
+                            "flags": 379,
+                            "start": 32,
                             "end": 387
                         },
                         "flags": 96,
@@ -1645,7 +1645,7 @@ foo ? bar : baz => {};
                     "start": 370,
                     "end": 387
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 360,
                 "end": 387
             },
@@ -1699,7 +1699,7 @@ foo ? bar : baz => {};
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 395,
                         "end": 400
                     },
@@ -1756,8 +1756,8 @@ foo ? bar : baz => {};
                                 "start": 407,
                                 "end": 414
                             },
-                            "flags": 32,
-                            "start": 407,
+                            "flags": 407,
+                            "start": 32,
                             "end": 415
                         },
                         "flags": 96,
@@ -1791,7 +1791,7 @@ foo ? bar : baz => {};
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 420,
                                 "end": 420
                             },
@@ -1833,8 +1833,8 @@ foo ? bar : baz => {};
                     "start": 416,
                     "end": 430
                 },
-                "flags": 32,
-                "start": 416,
+                "flags": 416,
+                "start": 33,
                 "end": 431
             },
             "flags": 16,
@@ -1872,7 +1872,7 @@ foo ? bar : baz => {};
                                     "kind": 342,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 440,
                                     "end": 440
                                 },
@@ -1914,11 +1914,11 @@ foo ? bar : baz => {};
                         "start": 437,
                         "end": 450
                     },
-                    "flags": 32,
-                    "start": 437,
+                    "flags": 437,
+                    "start": 32,
                     "end": 451
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 432,
                 "end": 451
             },
@@ -2025,7 +2025,7 @@ foo ? bar : baz => {};
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 616,
                             "end": 621
                         },
@@ -2105,7 +2105,7 @@ foo ? bar : baz => {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 636,
                                 "end": 641
                             },
@@ -2133,8 +2133,8 @@ foo ? bar : baz => {};
                     "start": 627,
                     "end": 646
                 },
-                "flags": 32,
-                "start": 627,
+                "flags": 627,
+                "start": 33,
                 "end": 647
             },
             "flags": 16,
@@ -2171,7 +2171,7 @@ foo ? bar : baz => {};
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 33,
                             "start": 650,
                             "end": 655
                         },
@@ -2190,7 +2190,7 @@ foo ? bar : baz => {};
                             "start": 658,
                             "end": 660
                         },
-                        "flags": 32,
+                        "flags": 33,
                         "start": 648,
                         "end": 660
                     },
@@ -2219,7 +2219,7 @@ foo ? bar : baz => {};
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 663,
                             "end": 668
                         },
@@ -2359,8 +2359,8 @@ foo ? bar : baz => {};
                     "start": 674,
                     "end": 699
                 },
-                "flags": 32,
-                "start": 674,
+                "flags": 674,
+                "start": 33,
                 "end": 699
             },
             "flags": 16,
@@ -2399,7 +2399,7 @@ foo ? bar : baz => {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 703,
                                 "end": 708
                             },
@@ -2481,8 +2481,8 @@ foo ? bar : baz => {};
                                 "start": 717,
                                 "end": 727
                             },
-                            "flags": 32,
-                            "start": 715,
+                            "flags": 715,
+                            "start": 32,
                             "end": 728
                         }
                     ],
@@ -2490,8 +2490,8 @@ foo ? bar : baz => {};
                     "start": 700,
                     "end": 728
                 },
-                "flags": 32,
-                "start": 700,
+                "flags": 700,
+                "start": 33,
                 "end": 729
             },
             "flags": 16,
@@ -2551,7 +2551,7 @@ foo ? bar : baz => {};
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 740,
                                             "end": 745
                                         },
@@ -2579,8 +2579,8 @@ foo ? bar : baz => {};
                                 "start": 734,
                                 "end": 750
                             },
-                            "flags": 32,
-                            "start": 734,
+                            "flags": 734,
+                            "start": 32,
                             "end": 751
                         }
                     ],
@@ -2588,8 +2588,8 @@ foo ? bar : baz => {};
                     "start": 730,
                     "end": 751
                 },
-                "flags": 32,
-                "start": 730,
+                "flags": 730,
+                "start": 33,
                 "end": 752
             },
             "flags": 16,
@@ -2698,7 +2698,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 892,
                     "end": 895
                 },
@@ -2723,7 +2723,7 @@ foo ? bar : baz => {};
                     "start": 898,
                     "end": 901
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 851,
                 "end": 901
             },
@@ -2764,7 +2764,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 904,
                     "end": 910
                 },
@@ -2789,7 +2789,7 @@ foo ? bar : baz => {};
                     "start": 913,
                     "end": 916
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 902,
                 "end": 916
             },
@@ -2830,7 +2830,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 919,
                     "end": 925
                 },
@@ -2855,7 +2855,7 @@ foo ? bar : baz => {};
                     "start": 928,
                     "end": 931
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 917,
                 "end": 931
             },
@@ -2888,7 +2888,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 934,
                     "end": 937
                 },
@@ -2913,7 +2913,7 @@ foo ? bar : baz => {};
                     "start": 940,
                     "end": 943
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 932,
                 "end": 943
             },
@@ -2954,7 +2954,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 946,
                     "end": 952
                 },
@@ -2979,7 +2979,7 @@ foo ? bar : baz => {};
                     "start": 955,
                     "end": 958
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 944,
                 "end": 958
             },
@@ -3020,7 +3020,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 961,
                     "end": 967
                 },
@@ -3045,7 +3045,7 @@ foo ? bar : baz => {};
                     "start": 970,
                     "end": 973
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 959,
                 "end": 973
             },
@@ -3089,7 +3089,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 976,
                     "end": 982
                 },
@@ -3114,7 +3114,7 @@ foo ? bar : baz => {};
                     "start": 985,
                     "end": 988
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 974,
                 "end": 988
             },
@@ -3166,7 +3166,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 991,
                     "end": 1000
                 },
@@ -3191,7 +3191,7 @@ foo ? bar : baz => {};
                     "start": 1003,
                     "end": 1006
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 989,
                 "end": 1006
             },
@@ -3243,7 +3243,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 1009,
                     "end": 1018
                 },
@@ -3268,7 +3268,7 @@ foo ? bar : baz => {};
                     "start": 1021,
                     "end": 1024
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 1007,
                 "end": 1024
             },
@@ -3310,7 +3310,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 1027,
                     "end": 1031
                 },
@@ -3335,7 +3335,7 @@ foo ? bar : baz => {};
                     "start": 1034,
                     "end": 1037
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 1025,
                 "end": 1037
             },
@@ -3379,7 +3379,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 1040,
                     "end": 1046
                 },
@@ -3404,7 +3404,7 @@ foo ? bar : baz => {};
                     "start": 1049,
                     "end": 1052
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 1038,
                 "end": 1052
             },
@@ -3456,7 +3456,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 1055,
                     "end": 1064
                 },
@@ -3481,7 +3481,7 @@ foo ? bar : baz => {};
                     "start": 1067,
                     "end": 1070
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 1053,
                 "end": 1070
             },
@@ -3533,7 +3533,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 1073,
                     "end": 1082
                 },
@@ -3558,7 +3558,7 @@ foo ? bar : baz => {};
                     "start": 1085,
                     "end": 1088
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 1071,
                 "end": 1088
             },
@@ -3618,7 +3618,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 1091,
                     "end": 1103
                 },
@@ -3643,7 +3643,7 @@ foo ? bar : baz => {};
                     "start": 1106,
                     "end": 1109
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 1089,
                 "end": 1109
             },
@@ -3720,7 +3720,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 1112,
                     "end": 1128
                 },
@@ -3745,7 +3745,7 @@ foo ? bar : baz => {};
                     "start": 1131,
                     "end": 1134
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 1110,
                 "end": 1134
             },
@@ -3787,7 +3787,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 1137,
                     "end": 1142
                 },
@@ -3812,7 +3812,7 @@ foo ? bar : baz => {};
                     "start": 1145,
                     "end": 1148
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 1135,
                 "end": 1148
             },
@@ -3862,7 +3862,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 1151,
                     "end": 1159
                 },
@@ -3887,7 +3887,7 @@ foo ? bar : baz => {};
                     "start": 1162,
                     "end": 1165
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 1149,
                 "end": 1165
             },
@@ -3954,7 +3954,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 1168,
                     "end": 1180
                 },
@@ -3979,7 +3979,7 @@ foo ? bar : baz => {};
                     "start": 1183,
                     "end": 1186
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 1166,
                 "end": 1186
             },
@@ -4054,7 +4054,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 1189,
                     "end": 1204
                 },
@@ -4079,7 +4079,7 @@ foo ? bar : baz => {};
                     "start": 1207,
                     "end": 1210
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 1187,
                 "end": 1210
             },
@@ -4202,7 +4202,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 1213,
                     "end": 1240
                 },
@@ -4227,7 +4227,7 @@ foo ? bar : baz => {};
                     "start": 1243,
                     "end": 1246
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 1211,
                 "end": 1246
             },
@@ -4292,7 +4292,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 1249,
                     "end": 1258
                 },
@@ -4317,7 +4317,7 @@ foo ? bar : baz => {};
                     "start": 1261,
                     "end": 1264
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 1247,
                 "end": 1264
             },
@@ -4382,7 +4382,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 1267,
                     "end": 1276
                 },
@@ -4407,7 +4407,7 @@ foo ? bar : baz => {};
                     "start": 1279,
                     "end": 1282
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 1265,
                 "end": 1282
             },
@@ -4466,7 +4466,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 1285,
                     "end": 1294
                 },
@@ -4491,7 +4491,7 @@ foo ? bar : baz => {};
                     "start": 1297,
                     "end": 1300
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 1283,
                 "end": 1300
             },
@@ -4550,7 +4550,7 @@ foo ? bar : baz => {};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 1303,
                     "end": 1311
                 },
@@ -4575,7 +4575,7 @@ foo ? bar : baz => {};
                     "start": 1314,
                     "end": 1317
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 1301,
                 "end": 1317
             },

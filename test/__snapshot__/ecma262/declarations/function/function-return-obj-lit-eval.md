@@ -113,7 +113,7 @@ function foo() { return {eval} }
 ```javascript
 
 function foo() {
-  return { eval };
+  return {eval};
 }
 ```
 

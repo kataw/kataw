@@ -635,10 +635,12 @@ const f = async function * (source, block, opts) {
     for await (const entry of source) {
         yield async function () {
           const cid = await persist(entry.content.serialize(), block, opts);
-          return { cid,
+          return {
+            cid,
             path: entry.path,
             unixfs: UnixFS.unmarshal(entry.content.Data),
-            node: entry.content };
+            node: entry.content
+          };
         };
       }
   };

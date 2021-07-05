@@ -129,9 +129,7 @@ try { } catch ([a = 0]) { }
 
 ```javascript
 
-try { }
-catch ([a = 0]){ }
-
+try {} catch ([a = 0]) {}
 ```
 
 ### Diagnostics

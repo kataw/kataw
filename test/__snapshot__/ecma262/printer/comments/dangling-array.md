@@ -46,7 +46,7 @@ expect(() => {}).toTriggerReadyStateChanges([
                                         "kind": 342,
                                         "parameters": [],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 8,
                                         "end": 8
                                     },
@@ -187,11 +187,10 @@ expect(() => {}).toTriggerReadyStateChanges([
 
 ```javascript
 
-expect(() => {}).toTriggerReadyStateChanges([
- // Nothing.
-]);
-[1/* first comment */, 2/* second comment */, 3,];
-
+expect(() => {}).toTriggerReadyStateChanges(
+  []
+);
+[1, 2, 3];
 ```
 
 ### Diagnostics

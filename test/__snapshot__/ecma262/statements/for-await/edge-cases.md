@@ -138,10 +138,8 @@ async function f() {
 ```javascript
 
 async function f() {
-  for await (async of [])
-    ;
+  for await (async of []);
 }
-
 ```
 
 ### Diagnostics

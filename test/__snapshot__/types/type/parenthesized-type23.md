@@ -110,8 +110,7 @@ type X = (([1]))
 
 ```javascript
 
-type X = ([[1]])
-
+type X = ([1])
 ```
 
 ### Diagnostics

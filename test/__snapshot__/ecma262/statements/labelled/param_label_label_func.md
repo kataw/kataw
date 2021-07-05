@@ -174,9 +174,8 @@ function w(casecase){y:j:function casecase(){}}
 ```javascript
 
 function w(casecase) {
-  y: j: function casecase() {}
+  y:  j:  function casecase() {}
 }
-
 ```
 
 ### Diagnostics

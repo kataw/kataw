@@ -146,8 +146,8 @@ const anyTestFailures = !(
                                     "start": 25,
                                     "end": 122
                                 },
-                                "flags": 32,
-                                "start": 25,
+                                "flags": 25,
+                                "start": 32,
                                 "end": 124
                             },
                             "flags": 32,
@@ -181,8 +181,10 @@ const anyTestFailures = !(
 
 ```javascript
 
-const anyTestFailures = !(aggregatedResults.numFailedTests === 0 && aggregatedResults.numRuntimeErrorTestSuites === 0);
-
+const anyTestFailures =
+    !(
+      aggregatedResults.numFailedTests ===  0 &&  aggregatedResults.numRuntimeErrorTestSuites ===  0
+    );
 ```
 
 ### Diagnostics

@@ -50,8 +50,8 @@
                     "start": 1,
                     "end": 25
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 26
             },
             "flags": 16,
@@ -72,8 +72,7 @@
 
 ```javascript
 
-({ __proto__, __proto__ });
-
+({__proto__, __proto__});
 ```
 
 ### Diagnostics

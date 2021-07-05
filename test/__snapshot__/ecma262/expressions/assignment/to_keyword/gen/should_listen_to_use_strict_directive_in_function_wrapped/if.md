@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/should_listen_to_use_strict_directive_in_function_wrapped
+- From: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/assignment/to_keyword/gen/should_listen_to_use_strict_directive_in_function_wrapped
 > :: test: should listen to use strict directive in function wrapped
 > :: case: if
 ## Options
@@ -81,8 +80,8 @@ function f() {
                                     "start": 34,
                                     "end": 34
                                 },
-                                "flags": 32,
-                                "start": 30,
+                                "flags": 30,
+                                "start": 33,
                                 "end": 34
                             },
                             "flags": 16,
@@ -121,7 +120,7 @@ function f() {
                                     "start": 38,
                                     "end": 40
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 36,
                                 "end": 40
                             },

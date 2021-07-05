@@ -82,7 +82,6 @@ function *await(){}
 ```javascript
 
 function * await() {}
-
 ```
 
 ### Diagnostics

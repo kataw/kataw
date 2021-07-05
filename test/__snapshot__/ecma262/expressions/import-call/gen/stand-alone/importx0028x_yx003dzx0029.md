@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/import-call/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/import-call/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/expressions/import-call/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/import-call/gen/stand-alone
 > :: test: stand-alone
 > :: case: import(x,y=z)
 ## Options
@@ -72,7 +71,7 @@ import(x,y=z)
                             "start": 11,
                             "end": 12
                         },
-                        "flags": 32,
+                        "flags": 0,
                         "start": 9,
                         "end": 12
                     }

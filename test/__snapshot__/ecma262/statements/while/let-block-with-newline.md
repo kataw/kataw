@@ -75,10 +75,8 @@ while (false) let // ASI
 
 ```javascript
 
-while (false)
-  let;// ASI
-{ }
-
+while (false ) let;
+{}
 ```
 
 ### Diagnostics

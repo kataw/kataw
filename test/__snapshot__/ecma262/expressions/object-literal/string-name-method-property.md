@@ -155,11 +155,10 @@ var x = {
 ```javascript
 
 var x = {
-  '"foo"'() {
-    return bar;
-  }
-};
-
+    "\"foo\""(){
+      return bar;
+    }
+  };
 ```
 
 ### Diagnostics

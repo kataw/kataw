@@ -104,8 +104,7 @@ type x = [-1];
 
 ```javascript
 
-type x = [[-1]]
-
+type x = [-1]
 ```
 
 ### Diagnostics

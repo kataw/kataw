@@ -84,7 +84,7 @@ var fnNumber = /* comments0 */
                     "start": 10,
                     "end": 27
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 27
             },
@@ -118,7 +118,7 @@ var fnNumber = /* comments0 */
                     "start": 40,
                     "end": 59
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 28,
                 "end": 59
             },
@@ -152,7 +152,7 @@ var fnNumber = /* comments0 */
                     "start": 72,
                     "end": 104
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 60,
                 "end": 104
             },
@@ -186,7 +186,7 @@ var fnNumber = /* comments0 */
                     "start": 117,
                     "end": 135
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 105,
                 "end": 135
             },
@@ -220,7 +220,7 @@ var fnNumber = /* comments0 */
                     "start": 148,
                     "end": 186
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 136,
                 "end": 186
             },
@@ -254,7 +254,7 @@ var fnNumber = /* comments0 */
                     "start": 199,
                     "end": 216
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 187,
                 "end": 216
             },
@@ -452,35 +452,16 @@ var fnNumber = /* comments0 */
 
 ```javascript
 
-fnNumber = 
- // Comment
-3;
-fnNumber = 
- // Comment
-3;
-fnNumber = 
- // Comment0
-// Comment1
-3;
-fnNumber =/* comment */ 3;
-fnNumber =/* comments0 */ 
- /* comments1 */
-3;
-fnNumber = 
- // Comment
-3;
-var fnNumber = 
- // Comment
-3;
-var fnNumber = 
- // Comment0
-// Comment1
-3;
-var fnNumber =/* comment */ 3;
-var fnNumber =/* comments0 */ 
- /* comments1 */
-3;
-
+fnNumber = 3;
+fnNumber = 3;
+fnNumber = 3;
+fnNumber = 3;
+fnNumber = 3;
+fnNumber = 3;
+var fnNumber = 3;
+var fnNumber = 3;
+var fnNumber = 3;
+var fnNumber = 3;
 ```
 
 ### Diagnostics

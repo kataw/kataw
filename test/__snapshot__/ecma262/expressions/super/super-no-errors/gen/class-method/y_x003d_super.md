@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/super/super-no-errors/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/super/super-no-errors/gen/class-method
+- From: kataw/test/__snapshot__/ecma262/expressions/super/super-no-errors/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/super/super-no-errors/gen/class-method
 > :: test: class-method
 > :: case: y = super
 ## Options
@@ -134,7 +133,7 @@ class C { m() { foo(y = super); } }
                                                                     "start": 23,
                                                                     "end": 29
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 0,
                                                                 "start": 20,
                                                                 "end": 29
                                                             }

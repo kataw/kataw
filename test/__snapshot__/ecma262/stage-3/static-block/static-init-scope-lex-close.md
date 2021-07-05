@@ -165,7 +165,7 @@ class C {
                                                     "start": 80,
                                                     "end": 88
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 68,
                                                 "end": 88
                                             },
@@ -214,14 +214,9 @@ class C {
 ```javascript
 
 class C {
-  static  {
-    let test262 = '\'first block\'';
-  }
-  static  {
-    probe = test262;
-  }
+  
+  
 }
-
 ```
 
 ### Diagnostics

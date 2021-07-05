@@ -478,8 +478,8 @@ function * x() { "use strict";  yield: 34; }
                                     "start": 212,
                                     "end": 232
                                 },
-                                "flags": 32,
-                                "start": 210,
+                                "flags": 210,
+                                "start": 32,
                                 "end": 233
                             },
                             "flags": 16,
@@ -961,8 +961,8 @@ function * x() { "use strict";  yield: 34; }
                                     "start": 459,
                                     "end": 481
                                 },
-                                "flags": 32,
-                                "start": 457,
+                                "flags": 457,
+                                "start": 32,
                                 "end": 482
                             },
                             "flags": 16,
@@ -1057,7 +1057,7 @@ function * x() { "use strict";  yield: 34; }
                                     "start": 527,
                                     "end": 529
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 519,
                                 "end": 529
                             },
@@ -1174,7 +1174,7 @@ function * x() { "use strict";  yield: 34; }
                                                 "start": 585,
                                                 "end": 587
                                             },
-                                            "flags": 32,
+                                            "flags": 0,
                                             "start": 577,
                                             "end": 587
                                         },

@@ -50,7 +50,6 @@ abc\uD835\uDFD0def
 ```javascript
 
 abc\uD835\uDFD0def;
-
 ```
 
 ### Diagnostics

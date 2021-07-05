@@ -88,7 +88,6 @@ async () => {return}
 async () => {
   return;
 }
-
 ```
 
 ### Diagnostics

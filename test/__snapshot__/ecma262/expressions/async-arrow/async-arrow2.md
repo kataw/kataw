@@ -118,7 +118,6 @@ async <T>() => {}
 ```javascript
 
 async <T>() => {};
-
 ```
 
 ### Diagnostics

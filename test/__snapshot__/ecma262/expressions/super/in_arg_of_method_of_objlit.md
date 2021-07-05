@@ -191,7 +191,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                     "start": 2,
                     "end": 51
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 51
             },

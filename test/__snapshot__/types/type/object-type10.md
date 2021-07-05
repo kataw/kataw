@@ -157,7 +157,6 @@ type a = {function:y.z[][][]};
 ```javascript
 
 type a = { function: y.z[][][] }
-
 ```
 
 ### Diagnostics

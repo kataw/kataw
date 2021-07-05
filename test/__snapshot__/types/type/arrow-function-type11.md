@@ -134,8 +134,7 @@ type a = ("string") => T;
 
 ```javascript
 
-type a = ('"string"') => T
-
+type a = ("\"string\"") =>  T
 ```
 
 ### Diagnostics

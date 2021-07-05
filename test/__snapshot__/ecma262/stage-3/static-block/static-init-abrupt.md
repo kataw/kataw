@@ -132,7 +132,7 @@ try {
                                                                     "start": 69,
                                                                     "end": 74
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 0,
                                                                 "start": 51,
                                                                 "end": 74
                                                             },
@@ -196,7 +196,7 @@ try {
                                                     "start": 114,
                                                     "end": 119
                                                 },
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 96,
                                                 "end": 119
                                             },
@@ -249,7 +249,7 @@ try {
                                                                     "start": 157,
                                                                     "end": 162
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 0,
                                                                 "start": 133,
                                                                 "end": 162
                                                             },
@@ -339,7 +339,7 @@ try {
                                         "start": 202,
                                         "end": 208
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 191,
                                     "end": 208
                                 },
@@ -382,21 +382,13 @@ try {
 
 try {
   class C {
-    static  {
-      throw thrown;
-      sameBlock = true;
-    }
-    static x = subsequentField = true
-    ;
-    static  {
-      subsequentBlock = true;
-    }
+    
+    static x = subsequentField = true ;;
+    
   }
-}
-catch (error){
+} catch (error) {
   caught = error;
 }
-
 ```
 
 ### Diagnostics

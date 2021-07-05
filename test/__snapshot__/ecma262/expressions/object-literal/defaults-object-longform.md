@@ -110,10 +110,7 @@ var { x: x = 10 } = x;
 
 ```javascript
 
-var {
-  x: x = 10
-} = x;
-
+var {x: x = 10} = x;
 ```
 
 ### Diagnostics

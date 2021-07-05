@@ -126,9 +126,8 @@ function * x () {
 ```javascript
 
 function * x() {
-  y: yield ;
+  y:  yield ;
 }
-
 ```
 
 ### Diagnostics

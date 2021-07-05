@@ -82,7 +82,7 @@
                                                 "start": 13,
                                                 "end": 15
                                             },
-                                            "flags": 32,
+                                            "flags": 0,
                                             "start": 6,
                                             "end": 15
                                         },
@@ -147,8 +147,7 @@
 
 ```javascript
 
-0, { x : x = y } = {};
-
+0, {x: x = y} = {};
 ```
 
 ### Diagnostics

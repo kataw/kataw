@@ -86,8 +86,8 @@
                                         "start": 15,
                                         "end": 16
                                     },
-                                    "flags": 32,
-                                    "start": 14,
+                                    "flags": 14,
+                                    "start": 32,
                                     "end": 17
                                 },
                                 "operatorToken": {
@@ -124,7 +124,7 @@
                                     "start": 22,
                                     "end": 26
                                 },
-                                "flags": 32,
+                                "flags": 46,
                                 "start": 17,
                                 "end": 26
                             },
@@ -137,8 +137,8 @@
                     "start": 0,
                     "end": 27
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 32,
                 "end": 27
             },
             "flags": 16,
@@ -159,8 +159,7 @@
 
 ```javascript
 
-(async  < T, U > (x) >> y - z);
-
+(async  <  T, U >  (x) >>  y -  z);
 ```
 
 ### Diagnostics

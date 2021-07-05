@@ -123,11 +123,9 @@ for /*2*/(x /*3*/in /*4*/ y) /*5*/ {}
 
 ```javascript
 
-for/* comment 1 */ (/* comment 2 */a/* comment 3 */ in/* comment 4 */ b/* comment 5 */)/* comment 6 */
-  ;/* comment 7 */
- /*1*/
-for/*2*/ (x/*3*/ in/*4*/ y)/*5*/ { }
-
+for (a in b);
+for (x in y)
+  {}
 ```
 
 ### Diagnostics

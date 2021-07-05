@@ -252,8 +252,7 @@ type a = (a[a & b[a]][c]) => T;
 
 ```javascript
 
-type a = (a[ a & b[ a]][ c]) => T
-
+type a = (a[a & b[a]][c]) =>  T
 ```
 
 ### Diagnostics

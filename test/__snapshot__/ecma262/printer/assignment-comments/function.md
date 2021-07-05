@@ -128,7 +128,7 @@ let f6 = /* comment */
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 2,
+                        "flags": 34,
                         "start": 7,
                         "end": 31
                     },
@@ -157,7 +157,7 @@ let f6 = /* comment */
                     "start": 5,
                     "end": 37
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 37
             },
@@ -217,7 +217,7 @@ let f6 = /* comment */
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 2,
+                        "flags": 34,
                         "start": 46,
                         "end": 68
                     },
@@ -246,7 +246,7 @@ let f6 = /* comment */
                     "start": 44,
                     "end": 74
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 38,
                 "end": 74
             },
@@ -306,7 +306,7 @@ let f6 = /* comment */
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 2,
+                        "flags": 34,
                         "start": 83,
                         "end": 105
                     },
@@ -335,7 +335,7 @@ let f6 = /* comment */
                     "start": 81,
                     "end": 111
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 75,
                 "end": 111
             },
@@ -369,7 +369,7 @@ let f6 = /* comment */
                         "kind": 342,
                         "parameters": [],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 33,
                         "start": 133,
                         "end": 133
                     },
@@ -398,7 +398,7 @@ let f6 = /* comment */
                     "start": 118,
                     "end": 140
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 112,
                 "end": 140
             },
@@ -432,7 +432,7 @@ let f6 = /* comment */
                         "kind": 342,
                         "parameters": [],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 33,
                         "start": 165,
                         "end": 165
                     },
@@ -461,7 +461,7 @@ let f6 = /* comment */
                     "start": 147,
                     "end": 172
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 141,
                 "end": 172
             },
@@ -495,7 +495,7 @@ let f6 = /* comment */
                         "kind": 342,
                         "parameters": [],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 33,
                         "start": 211,
                         "end": 211
                     },
@@ -524,7 +524,7 @@ let f6 = /* comment */
                     "start": 178,
                     "end": 218
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 172,
                 "end": 218
             },
@@ -588,7 +588,7 @@ let f6 = /* comment */
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
                                 "start": 230,
                                 "end": 254
                             },
@@ -686,7 +686,7 @@ let f6 = /* comment */
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
                                 "start": 273,
                                 "end": 295
                             },
@@ -784,7 +784,7 @@ let f6 = /* comment */
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
                                 "start": 314,
                                 "end": 336
                             },
@@ -856,7 +856,7 @@ let f6 = /* comment */
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 33,
                                 "start": 368,
                                 "end": 368
                             },
@@ -928,7 +928,7 @@ let f6 = /* comment */
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 33,
                                 "start": 405,
                                 "end": 405
                             },
@@ -1000,7 +1000,7 @@ let f6 = /* comment */
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 33,
                                 "start": 455,
                                 "end": 455
                             },
@@ -1056,37 +1056,18 @@ let f6 = /* comment */
 
 ```javascript
 
-f1 = (a = 
-   //comment
-  b) => {};
-f2 = (a =//comment
-   b) => {};
-f3 = (a = b//comment
-) => {};
-f4 =// Comment
- () => {};
-f5 = 
- // Comment
-() => {};
-f6 =/* comment */ 
- // Comment
-() => {};
-let f1 = (a = 
-   //comment
-  b) => {};
-let f2 = (a =//comment
-   b) => {};
-let f3 = (a = b//comment
-) => {};
-let f4 =// Comment
- () => {};
-let f5 = 
- // Comment
-() => {};
-let f6 =/* comment */ 
- // Comment
-() => {};
-
+f1 = (a = b) => {};
+f2 = (a = b) => {};
+f3 = (a = b) => {};
+f4 = () => {};
+f5 = () => {};
+f6 = () => {};
+let f1 = (a = b) => {};
+let f2 = (a = b) => {};
+let f3 = (a = b) => {};
+let f4 = () => {};
+let f5 = () => {};
+let f6 = () => {};
 ```
 
 ### Diagnostics

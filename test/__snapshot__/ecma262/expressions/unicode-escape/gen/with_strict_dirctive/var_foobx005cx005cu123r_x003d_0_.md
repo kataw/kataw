@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/unicode-escape/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/unicode-escape/gen/with_strict_dirctive
+- From: kataw/test/__snapshot__/ecma262/expressions/unicode-escape/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/unicode-escape/gen/with_strict_dirctive
 > :: test: with_strict_dirctive
 > :: case: var foob\\u123r = 0;
 ## Options
@@ -95,7 +94,7 @@
                     "start": 31,
                     "end": 33
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 24,
                 "end": 33
             },

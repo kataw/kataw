@@ -81,7 +81,7 @@ function f() {
                             },
                             "whileKeyword": {
                                 "kind": 37757028,
-                                "flags": 64,
+                                "flags": 80,
                                 "start": 30,
                                 "end": 36
                             },

@@ -259,17 +259,9 @@ let {d //comment
 
 ```javascript
 
-const {
-  a/* comment */ = 1
-} = b;
-const {
-  c = 1/* comment */
-} = d;
-let {
-  d//comment
-   = b
-} = c;
-
+const {a = 1} = b;
+const {c = 1} = d;
+let {d = b} = c;
 ```
 
 ### Diagnostics

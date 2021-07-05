@@ -113,7 +113,6 @@ new a.b.c.d()
 ```javascript
 
 new a.b.c.d();
-
 ```
 
 ### Diagnostics

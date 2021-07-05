@@ -70,7 +70,7 @@ x = {...a=b}
                                         "start": 10,
                                         "end": 11
                                     },
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 8,
                                     "end": 11
                                 },
@@ -88,7 +88,7 @@ x = {...a=b}
                     "start": 3,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 12
             },
@@ -110,8 +110,7 @@ x = {...a=b}
 
 ```javascript
 
-x = { ...a = b };
-
+x = {...a = b};
 ```
 
 ### Diagnostics

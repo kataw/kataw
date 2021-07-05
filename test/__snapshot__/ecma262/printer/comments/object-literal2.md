@@ -76,8 +76,8 @@
                     "start": 1,
                     "end": 38
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 39
             },
             "flags": 16,
@@ -98,8 +98,7 @@
 
 ```javascript
 
-({ /*1*/x/*2*/ =/*3*/ y/*4*/ }/*5*/ =/*6*/ z);
-
+({x = y} = z);
 ```
 
 ### Diagnostics

@@ -38,7 +38,7 @@ do {} while ((""));
             },
             "whileKeyword": {
                 "kind": 37757028,
-                "flags": 64,
+                "flags": 80,
                 "start": 5,
                 "end": 11
             },
@@ -52,8 +52,8 @@ do {} while ((""));
                     "start": 14,
                     "end": 16
                 },
-                "flags": 32,
-                "start": 13,
+                "flags": 13,
+                "start": 32,
                 "end": 17
             },
             "flags": 80,
@@ -74,8 +74,8 @@ do {} while ((""));
 
 ```javascript
 
-do { } while (('""'))
-
+do  {}
+while (("\"\""));
 ```
 
 ### Diagnostics

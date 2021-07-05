@@ -110,7 +110,6 @@ function f() {
   return;
   /x/;
 }
-
 ```
 
 ### Diagnostics

@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/error-recovery/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/error-recovery/gen/ax002f_case
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/error-recovery/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/error-recovery/gen/ax002f_case
 > :: test: a/ case
 > :: case: async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
 ## Options
@@ -72,7 +71,7 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 24,
                                 "end": 24
                             },
@@ -135,8 +134,8 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                                                         "start": 60,
                                                         "end": 63
                                                     },
-                                                    "flags": 32,
-                                                    "start": 59,
+                                                    "flags": 59,
+                                                    "start": 32,
                                                     "end": 64
                                                 },
                                                 "flags": 32,
@@ -204,10 +203,8 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
 ```javascript
 
 async function foo(a = () => {
-  '"use strict"';
-    return eval => ('"x"');
-  }) {}
-
+  return eval =>  ("\"x\"");
+}) {}
 ```
 
 ### Diagnostics

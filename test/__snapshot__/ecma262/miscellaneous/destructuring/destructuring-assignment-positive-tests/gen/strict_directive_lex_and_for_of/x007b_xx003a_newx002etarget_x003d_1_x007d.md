@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/gen/strict_directive_lex_and_for_of
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/destructuring-assignment-positive-tests/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/destructuring/destructuring-assignment-positive-tests/gen/strict_directive_lex_and_for_of
 > :: test: strict directive lex and for of
 > :: case: { x: new.target = 1 }
 ## Options
@@ -191,7 +190,7 @@
                                             "start": 58,
                                             "end": 60
                                         },
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 42,
                                         "end": 60
                                     },
@@ -245,7 +244,7 @@
                             "start": 68,
                             "end": 71
                         },
-                        "flags": 32,
+                        "flags": 0,
                         "start": 64,
                         "end": 71
                     },
@@ -253,7 +252,7 @@
                     "start": 40,
                     "end": 71
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 36,
                 "end": 71
             },

@@ -317,16 +317,15 @@ class D {
 ### Printed
 
 ```javascript
-// #8718
+
 class C {
-  ma() {}/* D */ /* E */
-  mb() {}
+  ma(){}
+  mb(){}
 }
 class D {
-  ma() {}/* D */ /* E */ /* F */
-  mb() {}
+  ma(){}
+  mb(){}
 }
-
 ```
 
 ### Diagnostics

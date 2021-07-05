@@ -43,8 +43,7 @@
 
 ```javascript
 
-'"\u0009str\u0009ing\u0009"';
-
+"\"\u0009str\u0009ing\u0009\"";
 ```
 
 ### Diagnostics

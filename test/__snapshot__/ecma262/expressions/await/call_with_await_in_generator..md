@@ -120,9 +120,10 @@ function *f(){  foo(await)  }
 ```javascript
 
 function * f() {
-  foo(await);
+  foo(
+    await
+  );
 }
-
 ```
 
 ### Diagnostics

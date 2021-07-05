@@ -163,9 +163,7 @@
 
 ```javascript
 
-async ([x: string, y: number]) => {}
-;
-
+async ([x: string , y: number ]) => {}
 ```
 
 ### Diagnostics

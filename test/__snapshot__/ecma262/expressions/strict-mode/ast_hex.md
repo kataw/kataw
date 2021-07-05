@@ -43,8 +43,7 @@
 
 ```javascript
 
-'"use\u0020strict"';
-
+"\"use\u0020strict\"";
 ```
 
 ### Diagnostics

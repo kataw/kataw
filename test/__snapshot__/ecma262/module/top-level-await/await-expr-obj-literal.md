@@ -116,8 +116,7 @@ await { function() {} };
 
 ```javascript
 
-await { function() {} };
-
+await {function(){}};
 ```
 
 ### Diagnostics

@@ -101,10 +101,9 @@ foo: while (true) { continue foo; }
 
 ```javascript
 
-foo: while (true) {
-  continue foo;
-}
-
+foo:  while (true ) {
+    continue  foo;
+  }
 ```
 
 ### Diagnostics

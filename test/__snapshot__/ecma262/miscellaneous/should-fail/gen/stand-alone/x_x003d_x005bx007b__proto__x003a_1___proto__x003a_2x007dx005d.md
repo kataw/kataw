@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/stand-alone
+- From: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/miscellaneous/should-fail/gen/stand-alone
 > :: test: stand-alone
 > :: case: x = [{__proto__: 1, __proto__: 2}]
 ## Options
@@ -117,7 +116,7 @@ x = [{__proto__: 1, __proto__: 2}]
                     "start": 3,
                     "end": 34
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 34
             },
@@ -139,8 +138,7 @@ x = [{__proto__: 1, __proto__: 2}]
 
 ```javascript
 
-x = [{ __proto__ : 1, __proto__ : 2 },];
-
+x = [{__proto__: 1, __proto__: 2}];
 ```
 
 ### Diagnostics

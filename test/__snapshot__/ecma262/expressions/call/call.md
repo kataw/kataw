@@ -338,8 +338,8 @@ new (A, B)();
                             "start": 50,
                             "end": 57
                         },
-                        "flags": 32,
-                        "start": 50,
+                        "flags": 50,
+                        "start": 33,
                         "end": 58
                     },
                     "expression": {
@@ -350,7 +350,7 @@ new (A, B)();
                         "start": 59,
                         "end": 60
                     },
-                    "flags": 32,
+                    "flags": 50,
                     "start": 50,
                     "end": 60
                 },
@@ -689,8 +689,8 @@ new (A, B)();
                         "start": 121,
                         "end": 128
                     },
-                    "flags": 32,
-                    "start": 121,
+                    "flags": 121,
+                    "start": 32,
                     "end": 129
                 },
                 "argumentList": {
@@ -861,8 +861,8 @@ new (A, B)();
                         "start": 164,
                         "end": 171
                     },
-                    "flags": 32,
-                    "start": 164,
+                    "flags": 164,
+                    "start": 32,
                     "end": 171
                 },
                 "argumentList": {
@@ -896,22 +896,34 @@ new (A, B)();
 ```javascript
 
 f();
-g(a);
-h(a, b);
-i(a, b, ...c);
-j(...a);
+g(
+  a
+);
+h(
+  a,
+  b
+);
+i(
+  a,
+  b,
+  ...c
+);
+j(
+  ...a
+);
 a.k();
-(a + b).l();
+(a +  b).l();
 a.m().n();
 new A();
-new A(a);
+new A(
+  a
+);
 new a.B();
 new a.b.C();
 new (a().B)();
 new A().b();
 new new A()();
 new (A, B)();
-
 ```
 
 ### Diagnostics

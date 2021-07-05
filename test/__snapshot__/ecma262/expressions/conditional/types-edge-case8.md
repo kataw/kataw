@@ -85,8 +85,8 @@ let x = a ? (b, c) : (d, e)
                                     "start": 11,
                                     "end": 18
                                 },
-                                "flags": 32,
-                                "start": 11,
+                                "flags": 11,
+                                "start": 32,
                                 "end": 18
                             },
                             "colonToken": {
@@ -121,8 +121,8 @@ let x = a ? (b, c) : (d, e)
                                     "start": 20,
                                     "end": 27
                                 },
-                                "flags": 32,
-                                "start": 20,
+                                "flags": 20,
+                                "start": 32,
                                 "end": 27
                             },
                             "flags": 96,
@@ -157,7 +157,6 @@ let x = a ? (b, c) : (d, e)
 ```javascript
 
 let x = a ? (b, c) : (d, e);
-
 ```
 
 ### Diagnostics

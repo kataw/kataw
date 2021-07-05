@@ -36,7 +36,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 2,
                     "end": 15
                 },
@@ -134,9 +134,8 @@
 
 ```javascript
 
-(/*1*/x) => {};
+(x) => {};
 async (x) => {}
-
 ```
 
 ### Diagnostics

@@ -71,7 +71,7 @@ a ? ({b}) => {} : c
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 2,
+                        "flags": 34,
                         "start": 5,
                         "end": 9
                     },
@@ -136,10 +136,7 @@ a ? ({b}) => {} : c
 
 ```javascript
 
-a ? ({
-    b
-  }) => {} : c;
-
+a ? ({b}) => {} : c;
 ```
 
 ### Diagnostics

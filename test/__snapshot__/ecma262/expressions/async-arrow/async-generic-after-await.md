@@ -185,11 +185,9 @@ async () => {
 ```javascript
 
 async () => {
-  await null;
-  async <T>() => null;
+  await null ;
+  async <T>() =>  null ;
 }
-;
-
 ```
 
 ### Diagnostics

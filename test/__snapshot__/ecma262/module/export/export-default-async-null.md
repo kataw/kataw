@@ -59,7 +59,7 @@ export default async=null
                         "start": 21,
                         "end": 25
                     },
-                    "flags": 32,
+                    "flags": 0,
                     "start": 14,
                     "end": 25
                 },
@@ -85,8 +85,7 @@ export default async=null
 
 ```javascript
 
-export default async = null;;
-
+export default async = null ;;
 ```
 
 ### Diagnostics

@@ -87,8 +87,7 @@
 
 ```javascript
 
-[/*1*/a, /*2*/b = c,];
-
+[a, b = c];
 ```
 
 ### Diagnostics

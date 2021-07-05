@@ -303,10 +303,9 @@ type c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/
 
 ```javascript
 
-type a =/*a*/ /*a*/{ x: string }/* foo */ | string/* bar */ /*b*/
-type b =/*c*/ /* leading */ { x: string }/* trailing */ /*d*/
-type c =/*e*/ /*e*/{ x: string }/* inner */ | string// trailing/*f*/
-
+type a = { x: string  } | string
+type b = { x: string  }
+type c = { x: string  } | string 
 ```
 
 ### Diagnostics

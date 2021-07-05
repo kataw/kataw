@@ -157,7 +157,6 @@ type a = {await:y.z[][][]};
 ```javascript
 
 type a = { await: y.z[][][] }
-
 ```
 
 ### Diagnostics

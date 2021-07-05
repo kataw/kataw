@@ -94,9 +94,8 @@ function f(){
 ```javascript
 
 function f() {
-  '"foo"';
+  "\"foo\"";
 }
-
 ```
 
 ### Diagnostics

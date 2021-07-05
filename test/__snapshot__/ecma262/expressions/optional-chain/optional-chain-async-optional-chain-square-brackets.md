@@ -203,9 +203,8 @@ async function x() {
 ```javascript
 
 async function x() {
-  await { y : [11,] }?.z[0];
+  await {y: [11]}?.z[0];
 }
-
 ```
 
 ### Diagnostics

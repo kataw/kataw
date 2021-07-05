@@ -126,7 +126,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                                                             "start": 44,
                                                             "end": 46
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 0,
                                                         "start": 28,
                                                         "end": 46
                                                     },
@@ -162,7 +162,7 @@ async function g() {   s = {"foo": await a = x} = x   }
                                     "start": 26,
                                     "end": 51
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 20,
                                 "end": 51
                             },

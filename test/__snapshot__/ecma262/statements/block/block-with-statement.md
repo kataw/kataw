@@ -84,10 +84,8 @@
 ```javascript
 
 {
-  length: 3000;
-}/*{ StatementListItem }*/
-;
-
+  length:  3000;
+}
 ```
 
 ### Diagnostics

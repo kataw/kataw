@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/new_arg
+- From: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/classes/extends-lefthandside/gen/new_arg
 > :: test: new arg
 > :: case: a = b
 ## Options
@@ -62,7 +61,7 @@ new a = b
                     "start": 7,
                     "end": 9
                 },
-                "flags": 32,
+                "flags": 0,
                 "start": 0,
                 "end": 9
             },

@@ -192,8 +192,9 @@ type a = (1,2, x) => T;
 
 ```javascript
 
-type a = (1, 2, x) => T
-
+type a = (1,
+2,
+x) =>  T
 ```
 
 ### Diagnostics

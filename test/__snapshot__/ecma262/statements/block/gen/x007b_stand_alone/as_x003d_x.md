@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/block/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/block/gen/x007b_stand_alone
+- From: kataw/test/__snapshot__/ecma262/statements/block/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/statements/block/gen/x007b_stand_alone
 > :: test: { stand alone
 > :: case: as = x
 ## Options
@@ -54,7 +53,7 @@
                                 "start": 6,
                                 "end": 8
                             },
-                            "flags": 32,
+                            "flags": 0,
                             "start": 1,
                             "end": 8
                         },

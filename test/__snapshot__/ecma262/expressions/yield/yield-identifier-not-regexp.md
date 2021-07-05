@@ -260,7 +260,7 @@ function f2() {
                                     "start": 76,
                                     "end": 80
                                 },
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 65,
                                 "end": 80
                             },
@@ -314,7 +314,7 @@ function f2() {
                                     "start": 93,
                                     "end": 97
                                 },
-                                "flags": 32,
+                                "flags": 1,
                                 "start": 80,
                                 "end": 97
                             },
@@ -351,14 +351,13 @@ function f2() {
 ```javascript
 
 function f1() {
-  yield / 1 / g;
-  yield / 1 / g;
+  yield /  1 /  g;
+  yield /  1 /  g;
 }
 function f2() {
-  yield /= 2 / i;
-  yield /= 2 / i;
+  yield /= 2 /  i;
+  yield /= 2 /  i;
 }
-
 ```
 
 ### Diagnostics

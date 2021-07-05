@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/special_keys/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/special_keys/gen/as_static_getter_in_class
+- From: kataw/test/__snapshot__/ecma262/expressions/classes/special_keys/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/classes/special_keys/gen/as_static_getter_in_class
 > :: test: as static getter in class
 > :: case: static
 ## Options
@@ -137,9 +136,8 @@ class x {static get static(){}}
 ```javascript
 
 class x {
-  static get static() {}
+  static get static(){}
 }
-
 ```
 
 ### Diagnostics

@@ -1,7 +1,6 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/call/trailing_comma/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/call/trailing_comma/gen/can_after_spread
+- From: kataw/test/__snapshot__/ecma262/expressions/call/trailing_comma/autogen.md
+- Path: kataw/test/__snapshot__/ecma262/expressions/call/trailing_comma/gen/can_after_spread
 > :: test: can after spread
 > :: case: undefined
 ## Options
@@ -86,8 +85,9 @@ foo(...a,);
 
 ```javascript
 
-foo(...a);
-
+foo(
+  ...a,
+);
 ```
 
 ### Diagnostics

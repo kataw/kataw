@@ -173,10 +173,9 @@ class C {
 ```javascript
 
 class C {
-  ma() {}/* D */ /* E */
-  mb() {}
+  ma(){}
+  mb(){}
 }
-
 ```
 
 ### Diagnostics
