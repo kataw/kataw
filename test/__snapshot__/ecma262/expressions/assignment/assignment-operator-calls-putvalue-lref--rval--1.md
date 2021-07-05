@@ -593,7 +593,7 @@ Object.defineProperty(this, '"x"', {
 '"use strict"';
   assert.throws(ReferenceError, () => {
     count++;
-    x = (delete global.x, 2);
+    x = (delete  global.x, 2);
     count++;
   });
   count++;

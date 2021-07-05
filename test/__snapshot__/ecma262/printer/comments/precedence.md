@@ -4719,13 +4719,13 @@ a = true/*6*/ ||/*7*/ false && null;
 b = c == d || e != f;
 c = x instanceof y || x instanceof z;
 d = x == y && y != z;
-a = !false;/*8*/
-b = !x instanceof Number;
-c = !(x instanceof/*9*/ Number);
-d = typeof a === '\'boolean\'';
-e = !typeof a === '\'boolean\'';
-f = !(typeof a === '\'boolean\'');
-f = typeof ((/*10*/) => {/*11*/});
+a = ! false;/*8*/
+b = ! x instanceof Number;
+c = ! (x instanceof/*9*/ Number);
+d = typeof  a === '\'boolean\'';
+e = ! typeof  a === '\'boolean\'';
+f = ! (typeof  a === '\'boolean\'');
+f = typeof  ((/*10*/) => {/*11*/});
 a = (1.1).toString();
 b = new A/*12*/(/*13*/).toString();
 c = new x.A().toString();
@@ -4734,20 +4734,20 @@ var r = (/ab+c/i).exec('\'abc\'');
 a = b ** 2 */*15*/ 3;
 c = (d ** 2) ** 3;
 e = f ** 2 ** 3;
-e = (+2) ** 3;
-e = 2 ** +3;
+e = (+ 2) ** 3;
+e = 2 ** + 3;
 f = a + (b = 3);
 g = 1 && (() => {});
 g = (() => {}) && 1;
-g = (1, /*16*/+/*17*/+2);
-g = (1, ++(2 + 3));
-a = -/*18*/ --i;
-b = -- --i;
-c = ++ ++j;/*19*/
-d = !!a;
-e = !+-+!a;
-f = -+-a++;
-g = b + -+-a++;
+g = (1, /*16*/+/*17*/ + 2);
+g = (1, + + (2 + 3));
+a = -/*18*/  --i;
+b = - -  --i;
+c = + +  ++j;/*19*/
+d = ! ! a;
+e = ! + - + ! a;
+f = - + - a++;
+g = b + - + - a++;
 (async function * () {/*20*/
   await a + b;
   await a + await b;
@@ -4761,9 +4761,9 @@ g = b + -+-a++;
   const c = yield  3;
 });
 (function * () {
-  !(yield  1);
+  ! (yield  1);
 });/*27*/
-!(() => {});
+! (() => {});
 (() => {}) ? a : b;
 ({}) ?/*28*/ a/*29*/ :/*30*/ b;
 (({}) ? a : b) ? c : d;

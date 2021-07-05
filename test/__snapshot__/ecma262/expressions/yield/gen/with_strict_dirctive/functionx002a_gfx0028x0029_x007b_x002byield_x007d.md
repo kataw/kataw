@@ -134,7 +134,7 @@
 
 '\'use strict\'';
 function * gf() {
-  +yield ;
+  + yield ;
 }
 
 ```

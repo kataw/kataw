@@ -76,7 +76,7 @@ new delete x
 
 ```javascript
 
-new delete x;
+new delete  x;
 
 ```
 

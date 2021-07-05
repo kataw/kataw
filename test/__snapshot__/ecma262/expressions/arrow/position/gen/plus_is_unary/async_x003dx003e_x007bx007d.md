@@ -108,7 +108,7 @@ async => {}
 ```javascript
 
 async => {};
-+x;
++ x;
 
 ```
 

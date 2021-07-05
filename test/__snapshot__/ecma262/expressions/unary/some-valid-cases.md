@@ -775,21 +775,21 @@ typeof (0 ? 1 : x);
 
 ```javascript
 
-delete (x);
-delete (true && x);
-delete (0 ? 1 : x);
-delete (1, NaN);
-delete (1, Infinity);
-delete (1, -Infinity);
-typeof (1, -Infinity);
-typeof a == b + '\'\'';
-typeof a != b + '\'\'';
-void x;
-typeof (0 || x);
-typeof (0 ? 1 : x);
-!x;
--x;
-+x;
+delete  (x);
+delete  (true && x);
+delete  (0 ? 1 : x);
+delete  (1, NaN);
+delete  (1, Infinity);
+delete  (1, - Infinity);
+typeof  (1, - Infinity);
+typeof  a == b + '\'\'';
+typeof  a != b + '\'\'';
+void  x;
+typeof  (0 || x);
+typeof  (0 ? 1 : x);
+! x;
+- x;
++ x;
 
 ```
 

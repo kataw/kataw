@@ -159,7 +159,7 @@ function *f(x = delete ((await) = f)) {}
 
 ```javascript
 
-function * f(x = delete ((await) = f)) {}
+function * f(x = delete  ((await) = f)) {}
 
 ```
 

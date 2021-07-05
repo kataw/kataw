@@ -594,9 +594,9 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
 async/*2*/ () => {
   (await foo)?.();
 }/*3*/
-(+foo)/*4*/?./*5*/();
-+(+foo);/*6*/
-class x extends (/*7*/+Bar/*8*/) /*9*/{
+(+ foo)/*4*/?./*5*/();
++ (+ foo);/*6*/
+class x extends (/*7*/+ Bar/*8*/) /*9*/{
 }
 class y extends (Bar/*10*/ ?? Baz) {
 }

@@ -149,7 +149,7 @@ async (x = delete ((protected) = f)) => {}
 
 ```javascript
 
-async (x = delete ((protected) = f)) => {}
+async (x = delete  ((protected) = f)) => {}
 
 ```
 

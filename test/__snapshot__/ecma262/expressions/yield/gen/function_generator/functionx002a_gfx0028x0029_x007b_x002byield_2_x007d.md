@@ -234,7 +234,7 @@ function * gen() { function not_gen() { function* gf() { +yield 2; } }}
 function * gen() {
   function not_gen() {
     function * gf() {
-      +yield  2;
+      + yield  2;
     }
   }
 }

@@ -5625,7 +5625,7 @@ switch (x) {
 ;
 switch ([/a/,]) {
   case y: 
-    !x;
+    ! x;
 }
 ;
 switch (x) {

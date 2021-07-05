@@ -83,7 +83,7 @@ typeof new x()
 
 ```javascript
 
-typeof new x();
+typeof  new x();
 
 ```
 

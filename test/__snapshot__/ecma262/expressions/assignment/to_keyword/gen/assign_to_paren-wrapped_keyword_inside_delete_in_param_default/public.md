@@ -149,7 +149,7 @@ async (x = delete ((public) = f)) => {}
 
 ```javascript
 
-async (x = delete ((public) = f)) => {}
+async (x = delete  ((public) = f)) => {}
 
 ```
 

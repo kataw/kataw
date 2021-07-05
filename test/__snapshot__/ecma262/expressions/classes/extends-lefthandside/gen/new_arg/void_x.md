@@ -76,7 +76,7 @@ new void x
 
 ```javascript
 
-new void x;
+new void  x;
 
 ```
 

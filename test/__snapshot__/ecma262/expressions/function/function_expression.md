@@ -712,7 +712,7 @@ new function() {};
 ```javascript
 
 (function () {}).length;
-typeof (function () {});
+typeof  (function () {});
 (function () {})()``;
 (function () {})``;
 new (function () {});

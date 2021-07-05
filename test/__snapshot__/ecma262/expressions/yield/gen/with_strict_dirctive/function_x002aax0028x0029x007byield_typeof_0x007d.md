@@ -141,7 +141,7 @@
 
 '\'use strict\'';
 function * a() {
-  yield  typeof 0;
+  yield  typeof  0;
 }
 
 ```

@@ -95,13 +95,12 @@ a?.?.b
 
 ```javascript
 
-a?.?.b;
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Identifier expected - start: 3, end: 5
+
 ```
 

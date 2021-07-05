@@ -141,7 +141,7 @@
 
 '\'use strict\'';
 function * g() {
-  yield  void x;
+  yield  void  x;
 }
 
 ```

@@ -786,7 +786,7 @@ let tests = [
 let tests = [
   function (t: [[number]]) {
     t[1];// error, out of bounds
-    t[-1];// error, out of bounds
+    t[- 1];// error, out of bounds
   },
    // toString's to an invalid index
   function (t: [[number, string]]) {
