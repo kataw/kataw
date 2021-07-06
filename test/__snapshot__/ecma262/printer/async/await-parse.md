@@ -832,9 +832,7 @@ async function f3() {
 }
 
 async () => {
-  new A(
-    await x
-  );
+  new A(await x);
   obj[await x];
 }
 

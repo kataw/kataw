@@ -1655,13 +1655,18 @@ function printArgumentsList(
     elements.push(printStatement(printer, child, lineMap, parentNode))
     previousSibling = child
   }
-  return concat([
-    '(',
-    indent(concat([softline, concat(elements)])),
-    ifBreak(node.trailingComma ? ',' : ''),
-    softline,
-    ')',
-  ])
+
+  return group(
+    concat([
+      '(',
+      indent(
+        concat([softline, concat(elements)])
+      ),
+      ifBreak(node.trailingComma ? ',' : ''),
+      softline,
+      ')'
+    ]), {}
+  );
 }
 
 function printCallExpression(

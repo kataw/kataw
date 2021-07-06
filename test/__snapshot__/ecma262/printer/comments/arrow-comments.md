@@ -481,9 +481,7 @@ const bem = block => element => modifier =>
       css(block),
       element ? `__${css(element)}` : "\"\"",
       modifier ? `--${css(modifier)}` : "\"\""
-    ].join(
-      "\"\""
-    );
+    ].join("\"\"");
 ```
 
 ### Diagnostics

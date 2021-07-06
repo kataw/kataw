@@ -161,9 +161,7 @@ new Ctor(class {});
 ```javascript
 
 new class  {};
-new Ctor(
-  class  {}
-);
+new Ctor(class  {});
 
 ```
 

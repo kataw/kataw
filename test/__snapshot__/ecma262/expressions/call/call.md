@@ -1034,9 +1034,7 @@ a.m().n();
 
 new A();
 
-new A(
-  a
-);
+new A(a);
 
 new a.B();
 
