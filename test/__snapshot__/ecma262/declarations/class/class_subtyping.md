@@ -377,7 +377,7 @@ class C<X> {
 }
 class D  extends C<O> {
   bar() {
-    this .x;
+    this.x;
   }
 }
 

@@ -195,7 +195,7 @@ x = class { static x = class { y = this } }
 
 x = class  {
   static x = class  {
-    y = this ;
+    y = this;
   };
 };
 ```

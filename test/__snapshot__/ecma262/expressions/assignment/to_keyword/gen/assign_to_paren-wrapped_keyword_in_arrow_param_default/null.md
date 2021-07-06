@@ -143,7 +143,7 @@
 
 ```javascript
 
-(x = (null ) = f) => {};
+(x = (null) = f) => {};
 ```
 
 ### Diagnostics

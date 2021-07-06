@@ -517,8 +517,8 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
 
 ```javascript
 
-opaque type StringAlias = string ;
-opaque type ObjectAlias = { property: string , method(): number  };
+opaque type StringAlias = string;
+opaque type ObjectAlias = { property: string, method(): number };
 
 opaque type UnionAlias = 1 | 2 | 3;
 

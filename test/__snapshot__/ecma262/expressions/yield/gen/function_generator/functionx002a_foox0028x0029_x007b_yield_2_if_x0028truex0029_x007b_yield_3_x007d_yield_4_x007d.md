@@ -357,7 +357,7 @@ function * gen() {
   function not_gen() {
     function * foo() {
       yield 2;
-      if (true ) {
+      if (true) {
           yield 3;
         }
       yield 4;

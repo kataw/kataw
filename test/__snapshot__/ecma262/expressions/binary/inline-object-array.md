@@ -2584,14 +2584,14 @@ const obj = {
 prevState = prevState || {
       catalogs: [],
       loadState: LOADED,
-      opened: false ,
+      opened: false,
       searchQuery: '\'\'',
       selectedCatalog: null
     };
 prevState = prevState || defaultState || {
       catalogs: [],
       loadState: LOADED,
-      opened: false ,
+      opened: false,
       searchQuery: '\'\'',
       selectedCatalog: null
     };
@@ -2599,7 +2599,7 @@ prevState = prevState || defaultState || {
 prevState = prevState || defaultState && {
       catalogs: [],
       loadState: LOADED,
-      opened: false ,
+      opened: false,
       searchQuery: '\'\'',
       selectedCatalog: null
     };
@@ -2607,26 +2607,26 @@ prevState = prevState || defaultState && {
 prevState = prevState || useDefault && defaultState || {
       catalogs: [],
       loadState: LOADED,
-      opened: false ,
+      opened: false,
       searchQuery: '\'\'',
       selectedCatalog: null
     };
 
-this .steps = steps || [
+this.steps = steps || [
       {
         name: '\'mock-module\'',
         path: '\'/nux/mock-module\''
       }
     ];
 
-this .steps = steps || checkStep && [
+this.steps = steps || checkStep && [
       {
         name: '\'mock-module\'',
         path: '\'/nux/mock-module\''
       }
     ];
 
-this .steps = steps && checkStep || [
+this.steps = steps && checkStep || [
       {
         name: '\'mock-module\'',
         path: '\'/nux/mock-module\''

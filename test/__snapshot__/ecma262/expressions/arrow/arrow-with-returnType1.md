@@ -122,7 +122,7 @@
 
 ```javascript
 
-(foo, bar) => null ;
+(foo, bar) => null;
 ```
 
 ### Diagnostics

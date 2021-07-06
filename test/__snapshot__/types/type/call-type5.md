@@ -171,8 +171,8 @@ type F = $Call<Fn1, number, string>;
 ```javascript
 
 type F = $Call<Fn1,
-number ,
-string >
+number,
+string>
 ```
 
 ### Diagnostics

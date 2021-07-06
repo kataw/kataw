@@ -177,7 +177,7 @@ class Foo { static x = function() { return this } }
 
 class Foo {
   static x = function () {
-    return this ;
+    return this;
   };
 }
 ```

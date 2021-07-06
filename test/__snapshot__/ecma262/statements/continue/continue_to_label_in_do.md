@@ -105,7 +105,7 @@ foo: do continue foo; while(true)
 ```javascript
 
 foo:  do  continue  foo;
-while (true );
+while (true);
 ```
 
 ### Diagnostics

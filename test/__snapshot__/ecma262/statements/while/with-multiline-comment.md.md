@@ -170,11 +170,11 @@ there; }
 
 ```javascript
 
-while (true ) {
+while (true) {
     break ;
     there;
   }
-while (true ) {
+while (true) {
     break ;
     there;
   }

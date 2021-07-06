@@ -137,7 +137,7 @@ let arr: (number|string)[] = [];
 
 ```javascript
 
-let arr: (number  | string )[] = [];
+let arr: (number | string)[] = [];
 ```
 
 ### Diagnostics

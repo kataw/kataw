@@ -50,7 +50,7 @@ this
 
 ```javascript
 
-this ;
+this;
 ```
 
 ### Diagnostics

@@ -6051,9 +6051,9 @@ const promiseFromCallback = fn =>
 
 runtimeAgent.getProperties(
   objectId,
-  false ,
-  false ,
-  false ,
+  false,
+  false,
+  false,
   (error, properties, internalProperties) => {
     return 1;
   },

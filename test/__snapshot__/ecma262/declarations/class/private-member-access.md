@@ -194,7 +194,7 @@
 class C {
   #aaa;;
   f() {
-    this .#aaa;
+    this.#aaa;
   }
 }
 ```

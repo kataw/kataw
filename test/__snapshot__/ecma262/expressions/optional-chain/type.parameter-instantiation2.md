@@ -384,10 +384,10 @@ a?.a?.a?.a?.<number>(y);
 
 ```javascript
 
-a?.a?.<number >(
+a?.a?.<number>(
   y
 );
-a?.a?.a?.a?.<number >(
+a?.a?.a?.a?.<number>(
   y
 );
 

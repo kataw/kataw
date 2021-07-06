@@ -210,7 +210,7 @@ x = class { static x = class { [this.y] } }
 
 x = class  {
   static x = class  {
-    [this .y];
+    [this.y];
   };
 };
 ```

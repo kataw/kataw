@@ -12050,99 +12050,99 @@ class x {
   });
 
 (class  {
-    #b;; #a() {}
+    #b;;#a() {}
   });
 
 (class  {
-    #b;; get #a() {}
+    #b;;get #a() {}
   });
 
 (class  {
-    #b;; set #a(foo) {}
+    #b;;set #a(foo) {}
   });
 
 (class  {
-    #b;; * #a() {}
+    #b;;* #a() {}
   });
 
 (class  {
-    #b;; async #a() {}
+    #b;;async #a() {}
   });
 
 (class  {
-    #b;; async * #a() {}
+    #b;;async * #a() {}
   });
 
 (class  {
-    #b = 1;; #a() {}
+    #b = 1;;#a() {}
   });
 
 (class  {
-    #b = 1;; get #a() {}
+    #b = 1;;get #a() {}
   });
 
 (class  {
-    #b = 1;; set #a(foo) {}
+    #b = 1;;set #a(foo) {}
   });
 
 (class  {
-    #b = 1;; * #a() {}
+    #b = 1;;* #a() {}
   });
 
 (class  {
-    #b = 1;; async #a() {}
+    #b = 1;;async #a() {}
   });
 
 (class  {
-    #b = 1;; async * #a() {}
+    #b = 1;;async * #a() {}
   });
 
 (class  {
-    a;; #a() {}
+    a;;#a() {}
   });
 
 (class  {
-    a;; get #a() {}
+    a;;get #a() {}
   });
 
 (class  {
-    a;; set #a(foo) {}
+    a;;set #a(foo) {}
   });
 
 (class  {
-    a;; * #a() {}
+    a;;* #a() {}
   });
 
 (class  {
-    a;; async #a() {}
+    a;;async #a() {}
   });
 
 (class  {
-    a;; async * #a() {}
+    a;;async * #a() {}
   });
 
 (class  {
-    a = 1;; #a() {}
+    a = 1;;#a() {}
   });
 
 (class  {
-    a = 1;; get #a() {}
+    a = 1;;get #a() {}
   });
 
 (class  {
-    a = 1;; set #a(foo) {}
+    a = 1;;set #a(foo) {}
   });
 
 (class  {
-    a = 1;; * #a() {}
+    a = 1;;* #a() {}
   });
 
 (class  {
-    a = 1;; async #a() {}
+    a = 1;;async #a() {}
   });
 
 (class  {
-    a = 1;; async * #a() {}
+    a = 1;;async * #a() {}
   });
 
 ```

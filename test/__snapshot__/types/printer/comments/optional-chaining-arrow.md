@@ -249,7 +249,7 @@ const test = (names: string[]) =>
 
 ```javascript
 
-const test = (names: string []) => names?.filter(x => x);
+const test = (names: string[]) => names?.filter(x => x);
 ```
 
 ### Diagnostics

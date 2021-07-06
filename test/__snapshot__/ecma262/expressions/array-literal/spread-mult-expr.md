@@ -1019,7 +1019,7 @@ var callCount = 0;
     assert.sameValue(arguments[4], 5);
     assert.sameValue(target, source);
     callCount += 1;
-  }.apply(null , [1, 2, ...target = source]));
+  }.apply(null, [1, 2, ...target = source]));
 
 ```
 

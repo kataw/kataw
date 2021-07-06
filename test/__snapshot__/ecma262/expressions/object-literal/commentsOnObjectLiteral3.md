@@ -472,10 +472,10 @@ var v = {
     func: function () {},
     func1() {},
     get a() {
-      return this .prop;
+      return this.prop;
     },
     set a(value) {
-      this .prop = value;
+      this.prop = value;
     }
   };
 ```

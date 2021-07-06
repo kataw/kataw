@@ -132,7 +132,7 @@ let x: [string[]?]
 
 ```javascript
 
-let x: [string []? ];
+let x: [string[]? ];
 ```
 
 ### Diagnostics

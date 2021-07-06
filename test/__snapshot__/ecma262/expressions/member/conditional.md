@@ -232,10 +232,10 @@
 (
   valid
     ? helper.responseBody(
-        this .currentUser
+        this.currentUser
       )
     : helper.responseBody(
-        this .defaultUser
+        this.defaultUser
       )
 ).prop;
 ```

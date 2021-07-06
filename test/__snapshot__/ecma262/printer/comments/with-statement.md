@@ -67,7 +67,7 @@
 
 ```javascript
 
-with (false ) {}
+with (false) {}
 ```
 
 ### Diagnostics

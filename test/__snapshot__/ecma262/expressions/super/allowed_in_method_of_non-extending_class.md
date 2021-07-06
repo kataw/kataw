@@ -163,7 +163,7 @@ class x { foo(){ super.foo; }}
 
 class x {
   foo() {
-    super .foo;
+    super.foo;
   }
 }
 ```

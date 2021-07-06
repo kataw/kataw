@@ -244,7 +244,7 @@ var a: { (x: number): string } = (x) => x.toString()
 
 ```javascript
 
-var a: { (x: number ): string  } = (x) => x.toString();
+var a: { (x: number): string } = (x) => x.toString();
 ```
 
 ### Diagnostics

@@ -146,7 +146,7 @@ var o: { [string]: number } = {};
 
 ```javascript
 
-var o: { [string ]: number  } = {};
+var o: { [string]: number } = {};
 ```
 
 ### Diagnostics

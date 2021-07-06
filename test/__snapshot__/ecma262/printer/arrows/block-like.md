@@ -130,7 +130,7 @@ a = () => ({} = this);
 
 ```javascript
 
-a = () => ({} = this );
+a = () => ({} = this);
 ```
 
 ### Diagnostics

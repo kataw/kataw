@@ -145,7 +145,7 @@ function x(): |  () => number {}
 
 ```javascript
 
-function x(): | () =>  number  {}
+function x(): | () =>  number {}
 ```
 
 ### Diagnostics

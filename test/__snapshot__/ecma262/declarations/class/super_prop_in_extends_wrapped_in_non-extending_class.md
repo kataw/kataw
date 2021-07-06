@@ -231,7 +231,7 @@ class a { foo(){      class x extends super.foo {}    }}
 
 class a {
   foo() {
-    class x  extends super .foo {}
+    class x  extends super.foo {}
   }
 }
 ```

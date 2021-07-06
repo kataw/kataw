@@ -402,10 +402,10 @@ class B<X> {
 class B<X> {
   s: X;;
   f() {
-    if (this .s) {
-        y = this .s;
+    if (this.s) {
+        y = this.s;
       }
-    this .s = y;
+    this.s = y;
   }
 }
 ```

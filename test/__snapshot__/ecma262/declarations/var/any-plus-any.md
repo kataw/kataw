@@ -225,7 +225,7 @@ var z = x + x;
 
 ```javascript
 
-var x: any ;
+var x: any;
 x.name = "\"hello\"";
 
 var z = x + x;

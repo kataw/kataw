@@ -2033,37 +2033,37 @@ const d = {
   };
 
 const e = {
-    NaN: null ,
-    1: null ,
-    1.5: null ,
-    0.1: null ,
-    1: null ,
-    1.0: null ,
-    999999999999999999999: null ,
-    0.99999999999999999: null ,
-    1e2: null ,
-    1e3: null ,
-    1e100: null ,
-    0b10: null ,
-    0o10: null ,
+    NaN: null,
+    1: null,
+    1.5: null,
+    0.1: null,
+    1: null,
+    1.0: null,
+    999999999999999999999: null,
+    0.99999999999999999: null,
+    1e2: null,
+    1e3: null,
+    1e100: null,
+    0b10: null,
+    0o10: null,
     0xf: null
   };
 
 const f = {
-    "\"NaN\"": null ,
-    "\"1\"": null ,
-    "\"1.5\"": null ,
-    "\".1\"": null ,
-    "\"1.\"": null ,
-    "\"1.0\"": null ,
-    "\"999999999999999999999\"": null ,
-    "\"0.99999999999999999\"": null ,
-    "\"1E2\"": null ,
-    "\"1e+3\"": null ,
-    "\"1e+100\"": null ,
-    "\"0b10\"": null ,
-    "\"0o10\"": null ,
-    "\"0xf\"": null ,
+    "\"NaN\"": null,
+    "\"1\"": null,
+    "\"1.5\"": null,
+    "\".1\"": null,
+    "\"1.\"": null,
+    "\"1.0\"": null,
+    "\"999999999999999999999\"": null,
+    "\"0.99999999999999999\"": null,
+    "\"1E2\"": null,
+    "\"1e+3\"": null,
+    "\"1e+100\"": null,
+    "\"0b10\"": null,
+    "\"0o10\"": null,
+    "\"0xf\"": null,
     "\"2n\"": null
   };
 
@@ -2087,7 +2087,7 @@ Object.entries({
 });
 
 !{
-  "\"-1\"": null ,
+  "\"-1\"": null,
   "\"-1.5\"": null
 };
 

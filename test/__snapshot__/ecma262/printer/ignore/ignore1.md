@@ -1601,18 +1601,18 @@ function a() {
   var fnString =
 
         '\'"\'' +
-        this .USE +
+        this.USE +
         '\' \'' +
-        this .STRICT +
+        this.STRICT +
         '\'";\n\'' +
-        this .filterPrefix() +
+        this.filterPrefix() +
         '\'var fn=\'' +
-        this .generateFunction(
+        this.generateFunction(
           '\'fn\'',
           '\'s,l,a,i\''
         ) +
         extra +
-        this .watchFns() +
+        this.watchFns() +
         '\'return fn;\''
       ;
   const identity = Matrix.create(1, 0, 0, 0, 1, 0, 0, 0, 0);

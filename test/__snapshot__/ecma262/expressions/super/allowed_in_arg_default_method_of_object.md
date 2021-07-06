@@ -174,7 +174,7 @@ x={ foo(a = super.foo){ }}
 
 ```javascript
 
-x = {foo(a = super .foo) {}};
+x = {foo(a = super.foo) {}};
 ```
 
 ### Diagnostics

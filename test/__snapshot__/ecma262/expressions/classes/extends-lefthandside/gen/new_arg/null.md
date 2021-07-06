@@ -66,7 +66,7 @@ new null
 
 ```javascript
 
-new null ;
+new null;
 ```
 
 ### Diagnostics

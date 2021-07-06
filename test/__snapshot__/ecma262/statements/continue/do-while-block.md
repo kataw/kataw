@@ -147,7 +147,7 @@ function f() {
   do  {
       continue ;
     }
-  while (true );
+  while (true);
 }
 ```
 

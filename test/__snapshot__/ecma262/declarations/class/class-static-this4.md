@@ -174,7 +174,7 @@ class Foo { static x = class { y = this } }
 
 class Foo {
   static x = class  {
-    y = this ;
+    y = this;
   };
 }
 ```

@@ -194,7 +194,7 @@ var {x}: {x: string; } = { x: "hello" };
 
 ```javascript
 
-var {x}: { x: string  } = {x: "\"hello\""};
+var {x}: { x: string } = {x: "\"hello\""};
 ```
 
 ### Diagnostics

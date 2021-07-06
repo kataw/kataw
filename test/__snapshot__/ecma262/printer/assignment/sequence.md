@@ -547,13 +547,13 @@ for (i = 0, len = arr.length; i < len; i++) {
 
 ```javascript
 
-for ((i = 0), (len = arr.length); i++ ; i  < len)
+for ((i = 0), (len = arr.length); i++; i  < len)
   {
     console.log(
       arr[i]
     );
   }
-for (i = 0, len = arr.length; i++ ; i  < len)
+for (i = 0, len = arr.length; i++; i  < len)
   {
     console.log(
       arr[i]

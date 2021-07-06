@@ -51,7 +51,7 @@
 
 ```javascript
 
-(true );
+(true);
 ```
 
 ### Diagnostics

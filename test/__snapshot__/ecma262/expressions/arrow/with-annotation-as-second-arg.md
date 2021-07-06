@@ -125,7 +125,7 @@
 
 ```javascript
 
-(x, y: string ) => x;
+(x, y: string) => x;
 ```
 
 ### Diagnostics

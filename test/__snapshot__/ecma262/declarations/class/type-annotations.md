@@ -1400,15 +1400,15 @@ class Foo6<T>  extends mixin(
 ) {}
 
 class Foo1 {
-  set fooProp(value: number ) {}
+  set fooProp(value: number) {}
 }
 
 class Foo2 {
-  set fooProp(value: number ): void  {}
+  set fooProp(value: number): void {}
 }
 
 class Foo3 {
-  get fooProp(): number  {}
+  get fooProp(): number {}
 }
 
 class Foo8 {
@@ -1416,17 +1416,17 @@ class Foo8 {
 }
 
 class Foo10 {
-  static prop1: string ;;
-  prop2: number ;;
+  static prop1: string;;
+  prop2: number;;
 }
 
 class Foo11 {
-  #prop1: string ;;
-  prop2: number ;;
+  #prop1: string;;
+  prop2: number;;
 }
 
 class Array {
-  concat(items: number  | string ) {};
+  concat(items: number | string) {};
 }
 
 ```

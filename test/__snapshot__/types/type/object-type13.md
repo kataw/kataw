@@ -181,7 +181,7 @@ type a = {[{x:y}]:string};
 
 ```javascript
 
-type a = { [{ x: y }]: string  }
+type a = { [{ x: y }]: string }
 ```
 
 ### Diagnostics

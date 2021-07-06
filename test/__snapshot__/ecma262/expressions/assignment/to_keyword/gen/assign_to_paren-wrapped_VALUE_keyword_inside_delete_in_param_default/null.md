@@ -174,7 +174,7 @@ function *f(x = delete ((null) = f)) {}
 
 ```javascript
 
-function * f(x = delete ((null ) = f)) {}
+function * f(x = delete ((null) = f)) {}
 ```
 
 ### Diagnostics

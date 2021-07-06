@@ -209,7 +209,7 @@ declare class X {
 
 ```javascript
 
-declare class X { a: number , static b: number , c: number  }
+declare class X { a: number, static b: number, c: number }
 ```
 
 ### Diagnostics

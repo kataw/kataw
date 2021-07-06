@@ -144,7 +144,7 @@ function *f(){
 ```javascript
 
 function * f() {
-  (null ) = 1;
+  (null) = 1;
 }
 ```
 

@@ -378,10 +378,10 @@ function baz (this : number, ...a) {}
 
 ```javascript
 
-function foo(this: number , a: string , b) {}
-function bar(this: number ) {}
+function foo(this: number, a: string, b) {}
+function bar(this: number) {}
 
-function baz(this: number , ...a) {}
+function baz(this: number, ...a) {}
 
 ```
 

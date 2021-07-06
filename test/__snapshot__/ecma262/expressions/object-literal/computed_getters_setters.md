@@ -494,9 +494,9 @@ var f = {
     get ['\'d\'']() {
       return '\'foo\'';
     },
-    set ['\'d\''](x: number ) {},
-    set "\"stringLiteral\""(x: number ) {},
-    get "\"stringLiteral\""(): number  {
+    set ['\'d\''](x: number) {},
+    set "\"stringLiteral\""(x: number) {},
+    get "\"stringLiteral\""(): number {
       return 4;
     }
   };

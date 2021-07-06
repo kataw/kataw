@@ -133,7 +133,7 @@ a?.<number>(y)
 
 ```javascript
 
-a?.<number >(
+a?.<number>(
   y
 );
 ```

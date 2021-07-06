@@ -163,7 +163,7 @@ class x { constructor(){ super.foo; }}
 
 class x {
   constructor() {
-    super .foo;
+    super.foo;
   }
 }
 ```

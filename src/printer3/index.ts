@@ -5,6 +5,7 @@ import {
   Printer,
   createPrinter,
   printKeyword,
+  printKeywordNoSpace,
   canBreakAssignment,
   shouldFlatten,
   shouldprintWhitespaceBeforeOperand,
@@ -182,29 +183,29 @@ export const nodeLookupMap: any = {
   [SyntaxKind.ImportMeta]: printImportMeta,
   [SyntaxKind.TaggedTemplate]: printTaggedTemplate,
   [SyntaxKind.TemplateExpression]: printTemplateExpression,
-  [SyntaxKind.ThisKeyword]: printKeyword,
-  [SyntaxKind.NullKeyword]: printKeyword,
-  [SyntaxKind.FalseKeyword]: printKeyword,
-  [SyntaxKind.TrueKeyword]: printKeyword,
-  [SyntaxKind.Semicolon]: printKeyword,
-  [SyntaxKind.SuperKeyword]: printKeyword,
-  [SyntaxKind.Multiply]: printKeyword,
-  [SyntaxKind.ThisKeyword]: printKeyword,
-  [SyntaxKind.AnyKeyword]: printKeyword,
-  [SyntaxKind.NullKeyword]: printKeyword,
-  [SyntaxKind.UnknownKeyword]: printKeyword,
-  [SyntaxKind.UndefinedKeyword]: printKeyword,
-  [SyntaxKind.ObjectKeyword]: printKeyword,
-  [SyntaxKind.NeverKeyword]: printKeyword,
-  [SyntaxKind.VoidKeyword]: printKeyword,
-  [SyntaxKind.SymbolKeyword]: printKeyword,
-  [SyntaxKind.MixedKeyword]: printKeyword,
-  [SyntaxKind.NumberKeyword]: printKeyword,
-  [SyntaxKind.StringKeyword]: printKeyword,
-  [SyntaxKind.BooleanKeyword]: printKeyword,
-  [SyntaxKind.EmptyKeyword]: printKeyword,
-  [SyntaxKind.FalseKeyword]: printKeyword,
-  [SyntaxKind.TrueKeyword]: printKeyword,
+  [SyntaxKind.ThisKeyword]: printKeywordNoSpace,
+  [SyntaxKind.NullKeyword]: printKeywordNoSpace,
+  [SyntaxKind.FalseKeyword]: printKeywordNoSpace,
+  [SyntaxKind.TrueKeyword]: printKeywordNoSpace,
+  [SyntaxKind.Semicolon]: printKeywordNoSpace,
+  [SyntaxKind.SuperKeyword]: printKeywordNoSpace,
+  [SyntaxKind.Multiply]: printKeywordNoSpace,
+  [SyntaxKind.ThisKeyword]: printKeywordNoSpace,
+  [SyntaxKind.AnyKeyword]: printKeywordNoSpace,
+  [SyntaxKind.NullKeyword]: printKeywordNoSpace,
+  [SyntaxKind.UnknownKeyword]: printKeywordNoSpace,
+  [SyntaxKind.UndefinedKeyword]: printKeywordNoSpace,
+  [SyntaxKind.ObjectKeyword]: printKeywordNoSpace,
+  [SyntaxKind.NeverKeyword]: printKeywordNoSpace,
+  [SyntaxKind.VoidKeyword]: printKeywordNoSpace,
+  [SyntaxKind.SymbolKeyword]: printKeywordNoSpace,
+  [SyntaxKind.MixedKeyword]: printKeywordNoSpace,
+  [SyntaxKind.NumberKeyword]: printKeywordNoSpace,
+  [SyntaxKind.StringKeyword]: printKeywordNoSpace,
+  [SyntaxKind.BooleanKeyword]: printKeywordNoSpace,
+  [SyntaxKind.EmptyKeyword]: printKeywordNoSpace,
+  [SyntaxKind.FalseKeyword]: printKeywordNoSpace,
+  [SyntaxKind.TrueKeyword]: printKeywordNoSpace,
   [SyntaxKind.TemplateSpan]: printTemplateSpan,
   [SyntaxKind.TemplateTail]: printTemplateTail,
   [SyntaxKind.ClassElement]: printClassElement,
@@ -398,8 +399,6 @@ function printBinaryExpressionRest(
   ])
 }
 
-
-
 function printPrefixUpdateExpression(printer: Printer, node: any, lineMap: number[]): any {
   return concat([
     printKeyword(printer, node.operandToken, node, /* addSpace */ true),
@@ -410,7 +409,7 @@ function printPrefixUpdateExpression(printer: Printer, node: any, lineMap: numbe
 function printPostfixUpdateExpression(printer: Printer, node: any, lineMap: number[]): any {
   return concat([
     printStatement(printer, node.operand, lineMap, node),
-    printKeyword(printer, node.operandToken, node, /* addSpace */ true)
+    printKeyword(printer, node.operandToken, node, /* addSpace */ false)
   ]);
 }
 
@@ -2287,6 +2286,28 @@ export function printStringLiteral(printer: Printer, node: any): any {
 }
 
 function printCommaOperator(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
+
+  if (
+		parentNode.kind === SyntaxKind.ExpressionStatement ||
+		parentNode.kind === SyntaxKind.ForStatement ||
+		parentNode.kind === SyntaxKind.CommaOperator
+	) {
+		// Indent expressions after the first to improve the readability
+		return group(
+			concat(
+				node.expressions.map((expr: any, i: any) =>
+					i === 0
+						? printStatement(printer, expr, lineMap, node)
+						: concat([
+								",",
+								indent(concat([line, printStatement(printer, expr, lineMap, node)])),
+							])
+				),
+			), {}
+		);
+	}
+
+
   const children = node.expressions;
 
   const elements: any = [];
@@ -2300,7 +2321,7 @@ function printCommaOperator(printer: Printer, node: any, lineMap: number[], pare
       elements.push(concat([',', ' ', softline]));
     }
 
-    elements.push(printStatement(printer, child, lineMap, parentNode));
+    elements.push(printStatement(printer, child, lineMap, node));
     previousSibling = child;
   }
   return group(concat(elements), {});

@@ -945,12 +945,12 @@ function c<X: T>(x: $Keys<X>) {
     case '\'r\'':
       break ;
   }
-  function a<A: '\'a\''>(a: A): void  {
+  function a<A: '\'a\''>(a: A): void {
     if (a === '\'a\'') {}
   }
 }
 function b1<A: '\'a\'',
-B: A>(b: B): void  {
+B: A>(b: B): void {
   if (b === '\'b\'') {}
 }
 

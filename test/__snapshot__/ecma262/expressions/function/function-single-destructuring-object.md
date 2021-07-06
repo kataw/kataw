@@ -1142,12 +1142,12 @@ function StatelessFunctionalComponent({
   x;
 }
 function StatelessFunctionalComponent2({
-  isActive = true ,
-  onFiltersUpdated = () => null ,
-  onSelect = () => null ,
-  onSubmitAndDeselect = () => null ,
-  onCancel = () => null ,
-  searchFilters = null ,
+  isActive = true,
+  onFiltersUpdated = () => null,
+  onSelect = () => null,
+  onSubmitAndDeselect = () => null,
+  onCancel = () => null,
+  searchFilters = null,
   title = '\'\'',
   items = []
 } = {}) {
@@ -1156,11 +1156,11 @@ function StatelessFunctionalComponent2({
 
 function StatelessFunctionalComponent3({
   isActive,
-  onFiltersUpdated = () => null ,
-  onSelect = () => null ,
-  onSubmitAndDeselect = () => null ,
-  onCancel = () => null ,
-  searchFilters = null ,
+  onFiltersUpdated = () => null,
+  onSelect = () => null,
+  onSubmitAndDeselect = () => null,
+  onCancel = () => null,
+  searchFilters = null,
   title = '\'\'',
   items = []
 } = {

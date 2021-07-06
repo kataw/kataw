@@ -95,7 +95,7 @@ var foo: null
 
 ```javascript
 
-var foo: null ;
+var foo: null;
 ```
 
 ### Diagnostics

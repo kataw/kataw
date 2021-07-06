@@ -149,7 +149,7 @@ do if (a) with (b) continue; else debugger; while (false)
 
 do  if (a) with (b) continue ;
   else  debugger;
-while (false );
+while (false);
 ```
 
 ### Diagnostics

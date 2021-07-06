@@ -122,7 +122,7 @@ type A = { [string]: number };
 
 ```javascript
 
-type A = { [string ]: number  }
+type A = { [string]: number }
 ```
 
 ### Diagnostics

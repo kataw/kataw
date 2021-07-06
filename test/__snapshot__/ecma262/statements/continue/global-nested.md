@@ -99,7 +99,7 @@ do     if (x) continue   ; while(true);
 ```javascript
 
 do  if (x) continue ;
-while (true );
+while (true);
 ```
 
 ### Diagnostics

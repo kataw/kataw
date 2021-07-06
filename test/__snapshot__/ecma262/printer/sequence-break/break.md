@@ -1446,9 +1446,9 @@ a.then(() =>
 
 for (
   aLongIdentifierName = 0,
-  aLongIdentifierName = 0,
-  aLongIdentifierName = 0,
-  aLongIdentifierName = 0;
+    aLongIdentifierName = 0,
+    aLongIdentifierName = 0,
+    aLongIdentifierName = 0;
   update;
   test
 )

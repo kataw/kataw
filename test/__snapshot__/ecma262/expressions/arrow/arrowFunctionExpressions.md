@@ -2097,8 +2097,8 @@ var p10 = ([{ value, done }]) => { };
 
 ```javascript
 
-var a = (p: string ) => p.length;
-var a = (p: string ) => {
+var a = (p: string) => p.length;
+var a = (p: string) => {
     return p.length;
   };
 
@@ -2110,13 +2110,13 @@ var b = (j) => {
     return 0;
   };
 
-var c: number ;
+var c: number;
 
 var d = n => c = n;
 
 var d = (n) => c = n;
 
-var d: (n: any ) =>  any ;
+var d: (n: any) =>  any;
 
 var p1 = ([a]) => {};
 

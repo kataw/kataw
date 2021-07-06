@@ -144,7 +144,7 @@ let[{}=class{}]=null
 
 ```javascript
 
-let [{} = class  {}] = null ;
+let [{} = class  {}] = null;
 ```
 
 ### Diagnostics

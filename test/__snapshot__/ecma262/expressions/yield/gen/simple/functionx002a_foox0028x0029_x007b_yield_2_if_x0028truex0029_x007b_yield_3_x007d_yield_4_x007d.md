@@ -241,7 +241,7 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
 
 function * foo() {
   yield 2;
-  if (true ) {
+  if (true) {
       yield 3;
     }
   yield 4;

@@ -64,7 +64,7 @@ await null;
 
 ```javascript
 
-await null ;
+await null;
 ```
 
 ### Diagnostics

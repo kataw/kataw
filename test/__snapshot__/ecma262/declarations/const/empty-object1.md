@@ -147,7 +147,7 @@ const someObj: { id: number } = {};
 
 ```javascript
 
-const someObj: { id: number  } = {};
+const someObj: { id: number } = {};
 ```
 
 ### Diagnostics

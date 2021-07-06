@@ -1608,7 +1608,7 @@ type DuplexStreamOptions = ReadableStreamOptions &
 type Props = { propA: X } & { propB: X } & { propC: X } & { propD: X }
 type Props = {
     focusedChildren? : React.Children,
-    onClick: () =>  void ,
+    onClick: () =>  void,
     overlayChildren? : React.Children,
     style? : Object,
     thumbnail: ImageSource
@@ -1616,22 +1616,22 @@ type Props = {
 & FooterProps
 
 type DuplexStreamOptions = ReadableStreamOptions
-& { allowHalfOpen? : boolean , readableObjectMode? : boolean  }
+& { allowHalfOpen? : boolean, readableObjectMode? : boolean }
 
 type DuplexStreamOptions = {
-    allowHalfOpen? : boolean ,
+    allowHalfOpen? : boolean,
     readableObjectMode? : boolean
   }
-& { allowHalfOpen? : boolean , readableObjectMode? : boolean  }
+& { allowHalfOpen? : boolean, readableObjectMode? : boolean }
 
 type DuplexStreamOptions = ReadableStreamOptions
 & WritableStreamOptions
-& { allowHalfOpen? : boolean , readableObjectMode? : boolean  }
+& { allowHalfOpen? : boolean, readableObjectMode? : boolean }
 
 type DuplexStreamOptions = ReadableStreamOptions
 & WritableStreamOptions
-& { allowHalfOpen? : boolean , readableObjectMode? : boolean  }
-& { allowHalfOpen? : boolean , readableObjectMode? : boolean  }
+& { allowHalfOpen? : boolean, readableObjectMode? : boolean }
+& { allowHalfOpen? : boolean, readableObjectMode? : boolean }
 
 ```
 

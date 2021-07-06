@@ -529,12 +529,12 @@ var nullable_array_parens: ?(number[]) = nullable_array;
 
 ```javascript
 
-var array_of_tuple: [number , string ][] = [[0, "\"foo\""], [1, "\"bar\""]];
-var array_of_tuple_parens: ([number , string ])[] = array_of_tuple;
+var array_of_tuple: [number, string][] = [[0, "\"foo\""], [1, "\"bar\""]];
+var array_of_tuple_parens: ([number, string])[] = array_of_tuple;
 
-var nullable_array: ? number [] = null ;
+var nullable_array: ? number[] = null;
 
-var nullable_array_parens: ? (number []) = nullable_array;
+var nullable_array_parens: ? (number[]) = nullable_array;
 
 ```
 

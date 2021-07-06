@@ -177,7 +177,7 @@ x = { foo(){ delete super[foo]; }}
 ```javascript
 
 x = {foo() {
-    delete super [foo];
+    delete super[foo];
   }};
 ```
 

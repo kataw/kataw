@@ -1946,9 +1946,9 @@ let tests = [
 let tests = [
     function () {
       ('\'foo\'' in {});
-      ('\'foo\'' in {foo: null });
+      ('\'foo\'' in {foo: null});
       (0 in {});
-      (0 in {"\"0\"": null });
+      (0 in {"\"0\"": null});
     },
     function () {
       ('\'foo\'' in []);
@@ -1963,14 +1963,14 @@ let tests = [
       ('\'foo\'' in 123);
       ('\'foo\'' in '\'bar\'');
       ('\'foo\'' in void 0);
-      ('\'foo\'' in null );
+      ('\'foo\'' in null);
     },
     function () {
-      (null  in {});
+      (null in {});
       (void 0 in {});
       ({} in {});
       ([] in {});
-      (false  in []);
+      (false in []);
     },
     function () {
       if ('\'foo\'' in 123) {}

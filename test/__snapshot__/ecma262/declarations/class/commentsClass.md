@@ -1880,7 +1880,7 @@ var i4 = new c4();
 var i4_c = c4;
 
 class c5 {
-  static s1: number ;;
+  static s1: number;;
 }
 
 var i5 = new c5();
@@ -1888,7 +1888,7 @@ var i5 = new c5();
 var i5_c = c5;
 
 class c6 {
-  static s1: number ;;
+  static s1: number;;
   constructor() {}
 }
 
@@ -1897,7 +1897,7 @@ var i6 = new c6();
 var i6_c = c6;
 
 class c7 {
-  static s1: number ;;
+  static s1: number;;
   constructor() {}
 }
 
@@ -1906,7 +1906,7 @@ var i7 = new c7();
 var i7_c = c7;
 
 class c8 {
-  static s1: number ;;
+  static s1: number;;
   constructor() {}
 }
 

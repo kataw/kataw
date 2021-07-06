@@ -144,7 +144,7 @@ function *f(){
 ```javascript
 
 function * f() {
-  (true ) = 1;
+  (true) = 1;
 }
 ```
 

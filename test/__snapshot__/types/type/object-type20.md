@@ -149,7 +149,7 @@ type a = {get "string"():string};
 
 ```javascript
 
-type a = { "\"string\""(): string  }
+type a = { "\"string\""(): string }
 ```
 
 ### Diagnostics

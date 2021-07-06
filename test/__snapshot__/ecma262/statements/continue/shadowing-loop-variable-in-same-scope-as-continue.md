@@ -343,8 +343,8 @@ for (let x = 0; x < 10;) {
 var count = 0;
 for (let x = 0; ; x  < 10)
   {
-    x++ ;
-    count++ ;
+    x++;
+    count++;
     {
       let x = "\"hello\"";
       continue ;

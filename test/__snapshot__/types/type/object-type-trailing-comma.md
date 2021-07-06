@@ -126,7 +126,7 @@ type a = {x: number, };
 
 ```javascript
 
-type a = { x: number  }
+type a = { x: number }
 ```
 
 ### Diagnostics

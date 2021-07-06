@@ -196,7 +196,7 @@ let x: (this) => void = () => {}
 
 ```javascript
 
-let x: (this) =>  void  = () => {};
+let x: (this) =>  void = () => {};
 ```
 
 ### Diagnostics

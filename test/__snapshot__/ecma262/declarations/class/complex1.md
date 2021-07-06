@@ -1029,13 +1029,13 @@ class C<X,
 Y> {
   x: X;;
   constructor(x: X) {
-    this .x = x;
+    this.x = x;
   }
   get(): X {
-    return this .x;
+    return this.x;
   }
   get_bad(): Y {
-    return this .x;
+    return this.x;
   }
 }
 class D<T> {
@@ -1044,7 +1044,7 @@ class D<T> {
     z: S,
     u: T
   ): S {
-    this .x = u;
+    this.x = u;
     return z;
   }
 }

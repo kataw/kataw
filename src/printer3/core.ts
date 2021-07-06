@@ -47,6 +47,12 @@ export function canBreakAssignment(left: any, right: any): boolean {
 
   return false;
 }
+export function printKeywordNoSpace(printer: any, keyword: any): any {
+  if (keyword) {
+    return tokenToString(keyword);
+  }
+  return '';
+}
 
 export function printKeyword(printer: any, keyword: any, parent: any, addSpace: boolean): any {
   if (keyword) {

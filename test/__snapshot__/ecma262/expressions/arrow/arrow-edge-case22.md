@@ -249,8 +249,8 @@
 
 ```javascript
 
-(a? : number , b) => {};
-(x, a? : number , b) => {};
+(a? : number, b) => {};
+(x, a? : number, b) => {};
 
 ```
 

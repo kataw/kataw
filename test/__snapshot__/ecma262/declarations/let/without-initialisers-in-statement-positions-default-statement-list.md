@@ -124,7 +124,7 @@ switch (true) { default: let x; }
 
 ```javascript
 
-switch (true ) {
+switch (true) {
   default
     let x;
 }

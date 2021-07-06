@@ -60,7 +60,7 @@ a--/*1*/;
 
 ```javascript
 
-a-- ;
+a--;
 ```
 
 ### Diagnostics

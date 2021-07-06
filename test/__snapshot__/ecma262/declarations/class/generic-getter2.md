@@ -468,7 +468,7 @@ class A<T> {}
 class C<T> {
   data: A<T>;;
   get x(): A<T> {
-    return this .data;
+    return this.data;
   }
 }
 

@@ -1559,12 +1559,12 @@ class Foo {
   #f;
   foo() {
     [
-      {x: this .#a},
-      [[, this .#b, ]],
-      {y: this .#c = 3},
-      {x: this .x, y: this .y, ...this .#d},
-      [, , ...this .#e],
-      [{x: [{y: [this .#f]}]}]
+      {x: this.#a},
+      [[, this.#b, ]],
+      {y: this.#c = 3},
+      {x: this.x, y: this.y, ...this.#d},
+      [, , ...this.#e],
+      [{x: [{y: [this.#f]}]}]
     ] = [
       {x: 1},
       [[1, 2, 3]],
@@ -1574,12 +1574,12 @@ class Foo {
       [{x: [{y: [9]}]}]
     ];
     return JSON.stringify([
-      this .#a,
-      this .#b,
-      this .#c,
-      this .#d,
-      this .#e,
-      this .#f
+      this.#a,
+      this.#b,
+      this.#c,
+      this.#d,
+      this.#e,
+      this.#f
     ]);
   }
 }

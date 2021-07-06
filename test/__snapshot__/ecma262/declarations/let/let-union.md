@@ -102,7 +102,7 @@
 
 ```javascript
 
-let x: | string ;
+let x: | string;
 ```
 
 ### Diagnostics

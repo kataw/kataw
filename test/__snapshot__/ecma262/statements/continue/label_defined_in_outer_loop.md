@@ -136,8 +136,8 @@ while (true) {
 
 ```javascript
 
-while (true ) {
-    x:  while (true ) continue  x;
+while (true) {
+    x:  while (true) continue  x;
   }
 ```
 

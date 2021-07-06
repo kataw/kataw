@@ -154,7 +154,7 @@ function f(){ do        if (x) continue   ; while(true);}
 
 function f() {
   do  if (x) continue ;
-  while (true );
+  while (true);
 }
 ```
 

@@ -92,7 +92,7 @@ declare type bool = any;
 
 ```javascript
 
-declare type bool = any 
+declare type bool = any
 ```
 
 ### Diagnostics

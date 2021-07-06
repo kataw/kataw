@@ -80,7 +80,7 @@
 
 ```javascript
 
-[this ];
+[this];
 ```
 
 ### Diagnostics

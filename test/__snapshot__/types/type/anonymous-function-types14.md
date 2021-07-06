@@ -179,7 +179,7 @@ type T = Array<(string) => number>
 
 ```javascript
 
-type T = Array<(string ) =>  number >
+type T = Array<(string) =>  number>
 ```
 
 ### Diagnostics

@@ -2011,7 +2011,7 @@
 
 ({foo: typeof x});
 
-({foo: true  / false });
+({foo: true / false});
 
 ```
 

@@ -163,7 +163,7 @@ var obj: { [user_id: number]: string } = {};
 
 ```javascript
 
-var obj: { [number ]: string  } = {};
+var obj: { [number]: string } = {};
 ```
 
 ### Diagnostics

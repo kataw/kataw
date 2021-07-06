@@ -93,7 +93,7 @@ type Foo = (string)
 
 ```javascript
 
-type Foo = (string )
+type Foo = (string)
 ```
 
 ### Diagnostics

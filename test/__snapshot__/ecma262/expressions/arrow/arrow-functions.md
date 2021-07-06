@@ -1118,20 +1118,20 @@ const bar9 = <T>(x) => {};
 
 ```javascript
 
-const bar1 = (x: number ) => {};
+const bar1 = (x: number) => {};
 const bar2 = (x? ) => {};
 
-const bar3 = (x? : string ) => {};
+const bar3 = (x? : string) => {};
 
-const bar4 = (x, y? : string ) => {};
+const bar4 = (x, y? : string) => {};
 
-const bar5 = (x, ...y? : string ) => {};
+const bar5 = (x, ...y? : string) => {};
 
 const bar6 = x => {};
 
 const bar7 = (x) => {};
 
-const bar8 = (x: number ) => {};
+const bar8 = (x: number) => {};
 
 const bar9 = <T>(x) => {};
 

@@ -180,7 +180,7 @@ function method(obj: { [key: string]: any }) {}
 
 ```javascript
 
-function method(obj: { [string ]: any  }) {}
+function method(obj: { [string]: any }) {}
 ```
 
 ### Diagnostics

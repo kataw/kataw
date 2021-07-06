@@ -641,20 +641,17 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
 
 ```javascript
 
-if (this .hasPlugin("\"dynamicImports\"") && this .lookahead().type) {}
+if (this.hasPlugin("\"dynamicImports\"") && this.lookahead().type) {}
 if (
-  this .hasPlugin(
-    "\"dynamicImports\""
-  ) &&
-    this .lookahead().type === tt.parenLeft
+  this.hasPlugin("\"dynamicImports\"") && this.lookahead().type === tt.parenLeft
 )
   {}
 
 if (
-  this .hasPlugin(
+  this.hasPlugin(
     "\"dynamicImports\""
   ) &&
-    this .lookahead().type === tt.parenLeft.right
+    this.lookahead().type === tt.parenLeft.right
 )
   {}
 

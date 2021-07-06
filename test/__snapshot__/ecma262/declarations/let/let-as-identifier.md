@@ -1345,7 +1345,7 @@ let * 2;
 
 ++ let;
 
-let++ ;
+let++;
 
 (function f() {
     let:  34;

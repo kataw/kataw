@@ -184,7 +184,7 @@ for (const x in [1, 2, 3]) { x++ }
 
 for (const x in [1, 2, 3])
   {
-    x++ ;
+    x++;
   }
 ```
 

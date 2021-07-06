@@ -759,16 +759,16 @@ class Test {
   #y = [];;
   z = 2;;
   get x() {
-    return this .#x;
+    return this.#x;
   }
   get y() {
-    return this .#y;
+    return this.#y;
   }
   world() {
     return [1, [2, 3], 4];
   }
   hello() {
-    [this .#x, this .#y, this .z] = this .world();
+    [this.#x, this.#y, this.z] = this.world();
   }
 }
 ```

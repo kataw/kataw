@@ -192,7 +192,7 @@ function f(
 
 ```javascript
 
-function f(a: number ): number  {
+function f(a: number): number {
   return a + 1;
 }
 ```

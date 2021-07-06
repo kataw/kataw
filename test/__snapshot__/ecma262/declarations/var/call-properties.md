@@ -880,16 +880,16 @@ var a: { <T>(x: T): number; };
 
 ```javascript
 
-var a: { (): number  };
-var a: { <T>(x: T): number  };
+var a: { (): number };
+var a: { <T>(x: T): number };
 
-var a: { (): number  };
+var a: { (): number };
 
-var a: { (): number  };
+var a: { (): number };
 
-var a: { (): number , y: string , (x: string ): string  };
+var a: { (): number, y: string, (x: string): string };
 
-var a: { <T>(x: T): number  };
+var a: { <T>(x: T): number };
 
 ```
 

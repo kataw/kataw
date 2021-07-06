@@ -461,8 +461,8 @@ function test1() {
   }
   async function bar() {
     var a = await foo();
-    var b: number  = a;
-    var c: string  = a;
+    var b: number = a;
+    var c: string = a;
   }
 }
 ```

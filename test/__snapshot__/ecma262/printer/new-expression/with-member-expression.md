@@ -294,8 +294,8 @@ function functionName() {
 ```javascript
 
 function functionName() {
-  if (true ) {
-      this ._aVeryLongVariableNameToForceLineBreak = new this .Promise((resolve,
+  if (true) {
+      this._aVeryLongVariableNameToForceLineBreak = new this.Promise((resolve,
       reject) => {});
     }
 }

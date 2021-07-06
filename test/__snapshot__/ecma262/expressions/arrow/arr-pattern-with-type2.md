@@ -175,7 +175,7 @@
 
 ```javascript
 
-([x: string , y: number ]) => {};
+([x: string, y: number]) => {};
 ```
 
 ### Diagnostics

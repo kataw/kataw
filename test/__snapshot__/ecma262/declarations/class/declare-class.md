@@ -191,7 +191,7 @@ declare class A { static foo(): number; static x : string }
 
 ```javascript
 
-declare class A { static foo(): number , static x: string  }
+declare class A { static foo(): number, static x: string }
 ```
 
 ### Diagnostics

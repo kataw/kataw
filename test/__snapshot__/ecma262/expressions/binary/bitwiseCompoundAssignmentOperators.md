@@ -1199,12 +1199,12 @@ f |= f;
 
 ```javascript
 
-var a = true ;
+var a = true;
 var b = 1;
 
 a ^= a;
 
-a = true ;
+a = true;
 
 b ^= b;
 
@@ -1212,19 +1212,19 @@ b = 1;
 
 a ^= b;
 
-a = true ;
+a = true;
 
 b ^= a;
 
 b = 1;
 
-var c = false ;
+var c = false;
 
 var d = 2;
 
 c &= c;
 
-c = false ;
+c = false;
 
 d &= d;
 
@@ -1232,17 +1232,17 @@ d = 2;
 
 c &= d;
 
-c = false ;
+c = false;
 
 d &= c;
 
-var e = true ;
+var e = true;
 
 var f = 0;
 
 e |= e;
 
-e = true ;
+e = true;
 
 f |= f;
 
@@ -1250,7 +1250,7 @@ f = 0;
 
 e |= f;
 
-e = true ;
+e = true;
 
 f |= f;
 

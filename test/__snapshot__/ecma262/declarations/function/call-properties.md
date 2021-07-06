@@ -584,10 +584,10 @@ function e(x: { (): string; (x: number): string }): () => number {
 
 ```javascript
 
-function d(x: { (): string , (x: number ): string  }): () =>  string  {
+function d(x: { (): string, (x: number): string }): () =>  string {
   return x;
 }
-function e(x: { (): string , (x: number ): string  }): () =>  number  {
+function e(x: { (): string, (x: number): string }): () =>  number {
   return x;
 }
 

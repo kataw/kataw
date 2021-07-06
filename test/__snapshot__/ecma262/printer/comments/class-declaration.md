@@ -340,7 +340,7 @@ class x {
   ;
   ;
   a = b;
-  x: string ;
+  x: string;
 }
 class y {
   ;
@@ -348,7 +348,7 @@ class y {
   ;
   ;
   a = b;
-  x: string ;
+  x: string;
 }
 
 ```

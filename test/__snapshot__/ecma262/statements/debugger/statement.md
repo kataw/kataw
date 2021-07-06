@@ -65,7 +65,7 @@ while (false) debugger;
 
 ```javascript
 
-while (false ) debugger;
+while (false) debugger;
 ```
 
 ### Diagnostics

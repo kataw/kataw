@@ -739,12 +739,12 @@ defaultContent.filter(defaultLocale => {
 
 ```javascript
 
-this ._cumulativeHeights &&
+this._cumulativeHeights &&
   Math.abs(
 
-      this ._cachedItemHeight(
-        this ._firstVisibleIndex + i
-      ) - this ._provider.fastHeight(i + this ._firstVisibleIndex)
+      this._cachedItemHeight(
+        this._firstVisibleIndex + i
+      ) - this._provider.fastHeight(i + this._firstVisibleIndex)
     ,
   ) >
     1;
@@ -759,7 +759,7 @@ const isPartOfPackageJSON =
       ) !== -1
     ;
 
-defaultContent.filter(defaultLocale => {})[0] || null ;
+defaultContent.filter(defaultLocale => {})[0] || null;
 
 ```
 

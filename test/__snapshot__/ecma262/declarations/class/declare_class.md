@@ -396,9 +396,9 @@ declare class D extends C { }
 ```javascript
 
 declare class C {
-  static x: number ,
-  static foo(x: number ): void ,
-  constructor(x: string ): void
+  static x: number,
+  static foo(x: number): void,
+  constructor(x: string): void
 }
 declare class D  extends C {}
 

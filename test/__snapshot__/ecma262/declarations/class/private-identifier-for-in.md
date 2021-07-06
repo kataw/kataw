@@ -184,7 +184,7 @@ class Foo { #foo = () => { for (#foo in this) ; } }
 
 class Foo {
   #foo = () => {
-    for (#foo in this );
+    for (#foo in this);
   };
 }
 ```

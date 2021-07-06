@@ -221,7 +221,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
 
 ```javascript
 
-declare class IViewFactory { didAnimate(view: Object, prop: string ): void  }
+declare class IViewFactory { didAnimate(view: Object, prop: string): void }
 ```
 
 ### Diagnostics

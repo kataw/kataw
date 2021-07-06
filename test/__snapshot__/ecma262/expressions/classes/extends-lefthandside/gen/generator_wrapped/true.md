@@ -163,7 +163,7 @@ function *P(){
 ```javascript
 
 function * P() {
-  class D  extends true  {}
+  class D  extends true {}
 }
 ```
 

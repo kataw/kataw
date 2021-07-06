@@ -250,7 +250,7 @@ async function * gen() {x = class extends (a ? null : await 10) { }}
 ```javascript
 
 async function * gen() {
-  x = class   extends (a ? null  : await 10) {};
+  x = class   extends (a ? null : await 10) {};
 }
 ```
 

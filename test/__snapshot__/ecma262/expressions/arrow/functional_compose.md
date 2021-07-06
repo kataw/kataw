@@ -1990,18 +1990,18 @@ somelib.composeFlipped(
 
 const hasValue = hasOwnProperty(a, b);
 
-this .compose(
+this.compose(
   sortBy(x => x),
   flatten
 );
 
-this .a.b.c.compose(
+this.a.b.c.compose(
   sortBy(x => x),
   flatten
 );
 
 someObj.someMethod(
-  this .field.compose(
+  this.field.compose(
     a,
     b
   )
@@ -2009,17 +2009,17 @@ someObj.someMethod(
 
 class A  extends B {
   compose() {
-    super .compose(
+    super.compose(
       sortBy(x => x),
       flatten
     );
   }
 }
 
-this .subscriptions.add(
-  this .componentUpdates.pipe(
+this.subscriptions.add(
+  this.componentUpdates.pipe(
     startWith(
-      this .props
+      this.props
     ),
     distinctUntilChanged(
       isEqual

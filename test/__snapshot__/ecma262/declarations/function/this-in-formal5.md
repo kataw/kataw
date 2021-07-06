@@ -615,12 +615,12 @@ function five<T>(this: T) {}
 
 ```javascript
 
-function one(this: number ) {}
-function two(this: number , a) {}
+function one(this: number) {}
+function two(this: number, a) {}
 
-function three(this: number , ...a) {}
+function three(this: number, ...a) {}
 
-function four(this: number , a, b, ...c) {}
+function four(this: number, a, b, ...c) {}
 
 function five<T>(this: T) {}
 

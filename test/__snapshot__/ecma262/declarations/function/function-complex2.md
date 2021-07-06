@@ -1184,18 +1184,18 @@ function d<X: [number, number]>(x: X): X {
 
 ```javascript
 
-function a<X: $ReadOnlyArray<number >>(x: X): X {
+function a<X: $ReadOnlyArray<number>>(x: X): X {
   return [...x];
 }
-function b<X: $ReadOnlyArray<number >>(x: X): X {
+function b<X: $ReadOnlyArray<number>>(x: X): X {
   return [...x, ...x];
 }
 
-function c<X: $ReadOnlyArray<number >>(x: X): X {
+function c<X: $ReadOnlyArray<number>>(x: X): X {
   return [42, ...x];
 }
 
-function d<X: [number , number ]>(x: X): X {
+function d<X: [number, number]>(x: X): X {
   return [...x, ...x];
 }
 

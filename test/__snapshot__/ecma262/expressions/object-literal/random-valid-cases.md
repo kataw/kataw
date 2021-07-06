@@ -5184,9 +5184,9 @@ a = {"\"b\"": c = d};
 
 ({x: let});
 
-({x: let} = null );
+({x: let} = null);
 
-s = {"\"foo\"": this };
+s = {"\"foo\"": this};
 
 x({set "\"foo\""(a) {}});
 
@@ -5209,7 +5209,7 @@ x({get 1() {}});
 ({y});
 
 ({set [0](x) {
-      super .m("\"1\"", v);
+      super.m("\"1\"", v);
     }});
 
 x = {async: b}({set foo(v) {}});

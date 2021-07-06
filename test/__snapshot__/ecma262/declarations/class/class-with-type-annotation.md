@@ -187,8 +187,8 @@ class Foo { bar():this { return this; }}
 ```javascript
 
 class Foo {
-  bar(): this  {
-    return this ;
+  bar(): this {
+    return this;
   }
 }
 ```

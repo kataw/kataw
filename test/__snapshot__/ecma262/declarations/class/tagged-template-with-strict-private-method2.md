@@ -634,17 +634,17 @@ new Foo();
 
 class Foo {
   #tag() {
-    return this ;
+    return this;
   }
-  #tag2 = this .#tag;;
+  #tag2 = this.#tag;;
   constructor() {
-    const receiver = this .#tag`tagged template`;
+    const receiver = this.#tag`tagged template`;
     console.assert(
-      receiver === this 
+      receiver === this
     );
-    const receiver2 = this .#tag2`tagged template`;
+    const receiver2 = this.#tag2`tagged template`;
     console.assert(
-      receiver2 === this 
+      receiver2 === this
     );
   }
 }

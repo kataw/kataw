@@ -163,7 +163,7 @@ async function p(){
 ```javascript
 
 async function p() {
-  class C  extends false  {}
+  class C  extends false {}
 }
 ```
 

@@ -133,7 +133,7 @@ function foo(...args: any) { }
 
 ```javascript
 
-function foo(...args: any ) {}
+function foo(...args: any) {}
 ```
 
 ### Diagnostics

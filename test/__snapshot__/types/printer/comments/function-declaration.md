@@ -1230,7 +1230,7 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
 
 ```javascript
 
-function identity(value: string ): string  {
+function identity(value: string): string {
   return value;
 }
 function identity<T>(value: T): T {

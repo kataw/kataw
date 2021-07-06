@@ -306,8 +306,8 @@ label: for (let x = 0; x < 10;) {
 var count = 0;
 label:  for (let x = 0; ; x  < 10)
   {
-    x++ ;
-    count++ ;
+    x++;
+    count++;
     continue  label;
   }
 

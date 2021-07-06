@@ -142,7 +142,7 @@ var a: number & (string | bool)
 
 ```javascript
 
-var a: number  & (string  | bool);
+var a: number & (string | bool);
 ```
 
 ### Diagnostics

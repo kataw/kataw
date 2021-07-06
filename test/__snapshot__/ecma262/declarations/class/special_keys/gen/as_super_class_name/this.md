@@ -100,7 +100,7 @@ class x extends this {}
 
 ```javascript
 
-class x  extends this  {}
+class x  extends this {}
 ```
 
 ### Diagnostics

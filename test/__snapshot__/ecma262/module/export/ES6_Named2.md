@@ -1046,12 +1046,12 @@ export { specifierNumber5 as  specifierNumber5Renamed };
 
 export { groupedSpecifierNumber3 , groupedSpecifierNumber4  };
 
-export function givesANumber2(): number  {
+export function givesANumber2(): number {
   return 42;
 }
 
 export class NumberGenerator2 {
-  givesANumber(): number  {
+  givesANumber(): number {
     return 42;
   }
 }

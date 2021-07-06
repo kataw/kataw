@@ -156,7 +156,7 @@
 ```javascript
 
 '\'use strict\'';
-if (true ) {
+if (true) {
     function my_var() {}
   }
 my_var;

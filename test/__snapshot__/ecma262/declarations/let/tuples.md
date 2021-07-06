@@ -881,20 +881,20 @@ let tests = [
 ```javascript
 
 let tests = [
-    function (t: [number ]) {
+    function (t: [number]) {
       t[1];
       t[-1];
     },
-    function (t: [number , string ]) {
+    function (t: [number, string]) {
       t[0.5];
       t[0.0000000000000000000001];
     },
-    function (t: [number ]) {
+    function (t: [number]) {
       const x = 0.5;
       t[x];
     },
     function () {
-      function a(x: [1, 2]): string  {
+      function a(x: [1, 2]): string {
         return x.length;
       }
     }

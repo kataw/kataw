@@ -104,7 +104,7 @@
 
 ```javascript
 
-({interface}) => null ;
+({interface}) => null;
 ```
 
 ### Diagnostics

@@ -1217,19 +1217,19 @@ type FieldLayoutWith<
 
 ```javascript
 
-type FieldLayoutWith<T: string ,
-S: unknown = { xxxxxxxx: number , y: string  }> = {
+type FieldLayoutWith<T: string,
+S: unknown= { xxxxxxxx: number, y: string }> = {
   type: T,
-  code: string ,
+  code: string,
   size: S
 }
-type FieldLayoutWith<T: string ,
-S: unknown > = { type: T, code: string , size: S }
+type FieldLayoutWith<T: string,
+S: unknown> = { type: T, code: string, size: S }
 
-type FieldLayoutWith<T: string > = { type: T, code: string , size: S }
+type FieldLayoutWith<T: string> = { type: T, code: string, size: S }
 
 type FieldLayoutWith<T: stringgggggggggggggggggg,
-S: stringgggggggggggggggggg> = { type: T, code: string , size: S }
+S: stringgggggggggggggggggg> = { type: T, code: string, size: S }
 
 ```
 

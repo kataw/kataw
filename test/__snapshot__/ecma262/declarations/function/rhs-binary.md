@@ -791,9 +791,9 @@ function z() {
 
 function x() {
   ('\'foo\'' in {});
-  ('\'foo\'' in {foo: null });
+  ('\'foo\'' in {foo: null});
   (0 in {});
-  (0 in {"\"0\"": null });
+  (0 in {"\"0\"": null});
 }
 function y() {
   ('\'foo\'' in []);

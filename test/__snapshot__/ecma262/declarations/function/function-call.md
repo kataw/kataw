@@ -135,7 +135,7 @@ function foo():any{return ""};
 
 ```javascript
 
-function foo(): any  {
+function foo(): any {
   return "\"\"";
 }
 ```

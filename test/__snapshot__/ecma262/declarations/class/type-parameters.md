@@ -691,16 +691,16 @@ class A9<S = number, T: ?string = string> {}
 
 ```javascript
 
-class A6<T= string > {}
-class A7<T: ? string = string > {}
+class A6<T= string> {}
+class A7<T: ? string= string> {}
 
 class A8<S,
-T: ? string = string > {}
+T: ? string= string> {}
 
-class A9<S= number ,
-T: ? string = string > {}
+class A9<S= number,
+T: ? string= string> {}
 
-(class A10<T= string > {});
+(class A10<T= string> {});
 
 ```
 

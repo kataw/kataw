@@ -2820,18 +2820,18 @@ class Array { concat(items:number | string) {}; }
 
 ```javascript
 
-var a: number [];
-var a: Map<string , Array<string >>;
+var a: number[];
+var a: Map<string, Array<string>>;
 
-var a: Map<string , Array<string >>;
+var a: Map<string, Array<string>>;
 
 var x: typeof Y = Y;
 
-var x: () =>  number  | () =>  string  = fn;
+var x: () =>  number | () =>  string = fn;
 
 var foo = bar ? (foo) => {} : baz;
 
-var a: { numVal: number  };
+var a: { numVal: number };
 
 var foo = bar ? (foo) : number;
 
@@ -2847,22 +2847,22 @@ var foo = async (foo: bar, bar: foo) => {};
 
 var foo = () => bar;
 
-var a: { param1: number , param2? : string  };
+var a: { param1: number, param2? : string };
 
-var [x]: Array<string > = ["\"hello\""];
+var [x]: Array<string> = ["\"hello\""];
 
-var {x}: { x: string  } = {x: "\"hello\""};
+var {x}: { x: string } = {x: "\"hello\""};
 
-var {x}: { x: string  } = {x: "\"hello\""};
+var {x}: { x: string } = {x: "\"hello\""};
 
-var a: ? { numVal: number  };
+var a: ? { numVal: number };
 
-var x: typeof Y | number  = Y;
+var x: typeof Y | number = Y;
 
-var a: { subObj: { strVal: string  } };
+var a: { subObj: { strVal: string } };
 
 class Array {
-  concat(items: number  | string ) {};
+  concat(items: number | string) {};
 }
 
 ```

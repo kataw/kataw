@@ -245,7 +245,7 @@ class x extends y { foo(){ return () => () => super.foo; }}
 
 class x  extends y {
   foo() {
-    return () => () => super .foo;
+    return () => () => super.foo;
   }
 }
 ```

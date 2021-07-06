@@ -3882,11 +3882,11 @@ for (;;) {}});
   });
 
 (function * gen() {
-    x = class   extends (null , yield ) {};
+    x = class   extends (null, yield ) {};
   });
 
 (function * gen() {
-    x = class   extends (a ? null  : yield ) {};
+    x = class   extends (a ? null : yield ) {};
   });
 
 ```

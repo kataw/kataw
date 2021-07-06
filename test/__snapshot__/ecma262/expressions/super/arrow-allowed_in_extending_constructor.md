@@ -219,7 +219,7 @@ class x extends y { constructor(){ return () => super[bar]; }}
 
 class x  extends y {
   constructor() {
-    return () => super [bar];
+    return () => super[bar];
   }
 }
 ```

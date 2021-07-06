@@ -1057,7 +1057,7 @@ const { async = true } = x;
 
 ```javascript
 
-const a = function ({async = true }) {};
+const a = function ({async = true}) {};
 const b = function ({async: bar}) {};
 
 const c = async ({async: bar}) => {
@@ -1076,7 +1076,7 @@ const f = async function ({async = bar}) {
     await baz;
   };
 
-const {async = true } = x;
+const {async = true} = x;
 
 ```
 

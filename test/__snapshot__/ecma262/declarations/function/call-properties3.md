@@ -309,7 +309,7 @@ function e(x: { (): string; (x: number): string }): () => number {
 
 ```javascript
 
-function e(x: { (): string , (x: number ): string  }): () =>  number  {
+function e(x: { (): string, (x: number): string }): () =>  number {
   return x;
 }
 ```

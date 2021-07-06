@@ -90,8 +90,8 @@
 
 ```javascript
 
-(false );
-(false , true );
+(false);
+(false, true);
 
 ```
 

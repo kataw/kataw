@@ -232,7 +232,7 @@ var obj: {
 
 ```javascript
 
-var obj: { size: number , [number ]: string  } = {
+var obj: { size: number, [number]: string } = {
     size: 0
   };
 ```

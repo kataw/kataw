@@ -155,7 +155,7 @@
 
 ```javascript
 
-async ([x, y: number ]) => {}
+async ([x, y: number]) => {}
 ```
 
 ### Diagnostics

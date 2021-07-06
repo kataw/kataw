@@ -250,7 +250,7 @@ type a = ({x:y} | { [[x]]:string}) => T;
 
 ```javascript
 
-type a = ({ x: y } | { [[x]]: string  }) =>  T
+type a = ({ x: y } | { [[x]]: string }) =>  T
 ```
 
 ### Diagnostics

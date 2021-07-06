@@ -3695,9 +3695,9 @@ a ? c : b && d;
 
 a ? c : b || c;
 
-a = b == null  ? c : b;
+a = b == null ? c : b;
 
-a = b != null  ? b : c;
+a = b != null ? b : c;
 
 a(
   b ? 0 : 0

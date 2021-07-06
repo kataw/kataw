@@ -139,7 +139,7 @@ type x = { [x:string]:string }
 
 ```javascript
 
-type x = { [string ]: string  }
+type x = { [string]: string }
 ```
 
 ### Diagnostics

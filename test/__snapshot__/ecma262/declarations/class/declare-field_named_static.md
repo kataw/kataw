@@ -123,7 +123,7 @@ declare class A { static : number }
 
 ```javascript
 
-declare class A { static: number  }
+declare class A { static: number }
 ```
 
 ### Diagnostics

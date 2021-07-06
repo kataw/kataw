@@ -252,7 +252,7 @@ var Person = makeClass(
 
 var Person = makeClass({
     initialize: function (name) {
-      this .name = name;
+      this.name = name;
     }
   });
 ```

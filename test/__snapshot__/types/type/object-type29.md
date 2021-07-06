@@ -163,7 +163,7 @@ type a = {x: number,y: string};
 
 ```javascript
 
-type a = { x: number , y: string  }
+type a = { x: number, y: string }
 ```
 
 ### Diagnostics

@@ -150,7 +150,7 @@ declare class B {
 
 ```javascript
 
-declare class B { static proto(): string  }
+declare class B { static proto(): string }
 ```
 
 ### Diagnostics

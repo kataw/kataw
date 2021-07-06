@@ -658,7 +658,7 @@
 ```javascript
 
 "\"use strict\"";
-delete this ;
+delete this;
 "\"use strict\"";
 
 delete 1;
@@ -681,7 +681,7 @@ delete foo[bar];
 
 "\"use strict\"";
 
-delete foo-- ;
+delete foo--;
 
 "\"use strict\"";
 

@@ -395,18 +395,18 @@ while(1) // Comment
 
 ```javascript
 
-while (true ) {}
-while (true ) {}
+while (true) {}
+while (true) {}
 
-while (true ) {}
+while (true) {}
 
-while (true ) {}
+while (true) {}
 
-while (true  && true ) {}
+while (true && true) {}
 
-while (true ) {}
+while (true) {}
 
-while (true ) ++ x;
+while (true) ++ x;
 
 while (1) foo();
 

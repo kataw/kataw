@@ -722,9 +722,9 @@ function relativeComplement() {
 ```javascript
 
 function relativeComplement() {
-  outer:  for (; offsetB++ ; offsetB  < arrayB.length)
+  outer:  for (; offsetB++; offsetB  < arrayB.length)
     {
-      inner:  for (; offsetA++ ; offsetA  < arrayA.length)
+      inner:  for (; offsetA++; offsetA  < arrayA.length)
         {
           switch (comparer(arrayB[offsetB], arrayA[offsetA])) {
             case -1:

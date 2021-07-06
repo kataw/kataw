@@ -858,7 +858,7 @@
 
 ({async: (await) ? yield : foo});
 
-({async: true });
+({async: true});
 
 ({async() {}});
 

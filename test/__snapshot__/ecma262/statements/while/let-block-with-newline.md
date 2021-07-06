@@ -83,7 +83,7 @@ while (false) let // ASI
 
 ```javascript
 
-while (false ) let;
+while (false) let;
 {}
 
 ```

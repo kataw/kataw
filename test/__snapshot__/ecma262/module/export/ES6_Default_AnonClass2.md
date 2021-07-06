@@ -198,7 +198,7 @@ export default class { givesANum(): number { return 42; }};
 ```javascript
 
 export default class  {
-  givesANum(): number  {
+  givesANum(): number {
     return 42;
   }
 };

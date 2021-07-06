@@ -1916,7 +1916,7 @@ const x10 =
 foo(
   obj.property * new Class() && obj instanceof Class && longVariable
     ? number + 5
-    : false 
+    : false
 );
 
 ```

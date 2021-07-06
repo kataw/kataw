@@ -117,7 +117,7 @@ function foo():number{}
 
 ```javascript
 
-function foo(): number  {}
+function foo(): number {}
 ```
 
 ### Diagnostics

@@ -142,7 +142,7 @@ async (x = (false) = f) => {}
 
 ```javascript
 
-async (x = (false ) = f) => {}
+async (x = (false) = f) => {}
 ```
 
 ### Diagnostics

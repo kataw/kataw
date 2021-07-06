@@ -659,24 +659,24 @@ Object.defineProperty(this, "x", {
 ```javascript
 
 var count = 0;
-var global = this ;
+var global = this;
 
 Object.defineProperty(
-  this ,
+  this,
   "\"x\"",
   {
-    configurable: true ,
+    configurable: true,
     value: 1
   }
 );
 
 (function () {
     assert.throws(ReferenceError, () => {
-        count++ ;
+        count++;
         x = (delete global.x, 2);
-        count++ ;
+        count++;
       });
-    count++ ;
+    count++;
   })();
 
 ```

@@ -4192,9 +4192,9 @@
 ```javascript
 
 ({x = y} = {});
-({x: [x]} = {x: null });
+({x: [x]} = {x: null});
 
-({x: {x}} = {x: null });
+({x: {x}} = {x: null});
 
 ({x: {x}} = {x: undefined});
 

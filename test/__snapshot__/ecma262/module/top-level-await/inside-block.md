@@ -107,7 +107,7 @@ if (true) {
 
 ```javascript
 
-if (true ) {
+if (true) {
     await 0;
   }
 ```

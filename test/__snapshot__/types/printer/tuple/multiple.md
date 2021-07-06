@@ -270,10 +270,10 @@ function aPrettyLongFunctionE(aRatherLongParameterName: Array<{
 
 ```javascript
 
-function aPrettyLongFunctionE(aRatherLongParameterName: Array<{ __id: string  }
-  | null >
+function aPrettyLongFunctionE(aRatherLongParameterName: Array<{ __id: string }
+  | null>
 | null
-| void ): string [] {}
+| void): string[] {}
 ```
 
 ### Diagnostics

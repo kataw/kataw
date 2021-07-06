@@ -147,7 +147,7 @@ type x = { [|a]:string }
 
 ```javascript
 
-type x = { [| a]: string  }
+type x = { [| a]: string }
 ```
 
 ### Diagnostics

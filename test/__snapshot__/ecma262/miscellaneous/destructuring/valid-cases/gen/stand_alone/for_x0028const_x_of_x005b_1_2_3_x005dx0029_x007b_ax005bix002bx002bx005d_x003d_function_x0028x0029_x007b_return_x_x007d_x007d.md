@@ -290,7 +290,7 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
 
 for (const x of [1, 2, 3])
   {
-    a[i++ ] = function () {
+    a[i++] = function () {
       return x;
     };
   }

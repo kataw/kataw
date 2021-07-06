@@ -183,7 +183,7 @@
 
 ```javascript
 
-([x: string  = y, z: number ]) => {};
+([x: string = y, z: number]) => {};
 ```
 
 ### Diagnostics

@@ -432,7 +432,7 @@ try {
 try {
   class C {
     
-    static x = subsequentField = true ;;
+    static x = subsequentField = true;;
     
   }
 } catch (error) {

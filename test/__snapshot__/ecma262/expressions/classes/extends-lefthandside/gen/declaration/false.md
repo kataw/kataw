@@ -100,7 +100,7 @@ class A extends false {}
 
 ```javascript
 
-class A  extends false  {}
+class A  extends false {}
 ```
 
 ### Diagnostics

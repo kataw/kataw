@@ -204,7 +204,7 @@ type MyObject = {
 
 ```javascript
 
-type MyObject = { foo: number , bar: boolean , baz: string  }
+type MyObject = { foo: number, bar: boolean, baz: string }
 ```
 
 ### Diagnostics

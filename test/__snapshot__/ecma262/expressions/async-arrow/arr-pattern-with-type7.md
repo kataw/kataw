@@ -189,7 +189,7 @@ async ([x: string = y, z: number]) =>  {};
 
 ```javascript
 
-async ([x: string  = y, z: number ]) => {}
+async ([x: string = y, z: number]) => {}
 ```
 
 ### Diagnostics

@@ -160,7 +160,7 @@ class WebControls {
 ```javascript
 
 class WebControls {
-  createControl(): any  {}
+  createControl(): any {}
 }
 ```
 

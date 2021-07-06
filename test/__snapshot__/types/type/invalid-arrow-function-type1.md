@@ -682,7 +682,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
 
 ```javascript
 
-type a = (a[a & b][c | d][{ a(): string  }][][][(a[a & b][c | d][{
+type a = (a[a & b][c | d][{ a(): string }][][][(a[a & b][c | d][{
   a(): string
 }][][][]) =>  T]) =>  T
 ```

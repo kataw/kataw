@@ -814,7 +814,7 @@ function baz(x: boolean) {
 
 ```javascript
 
-function foo(x: boolean ) {
+function foo(x: boolean) {
   var obj = {a: 1, b: 2};
   for (var prop in obj)
     {
@@ -824,14 +824,14 @@ function foo(x: boolean ) {
       return;
     }
 }
-function bar(x: boolean ) {
+function bar(x: boolean) {
   for (var prop in {})
     {
       return;
     }
 }
 
-function baz(x: boolean ) {
+function baz(x: boolean) {
   for (var prop in {})
     {
       continue ;

@@ -5411,7 +5411,7 @@ f = "\"a\"" + (1 + 2) + "\"b\"";
 
 g = "\"a\"" + (1 - 2) + "\"b\"";
 
-a = true  || false  && null ;
+a = true || false && null;
 
 b = c == d || e != f;
 
@@ -5419,7 +5419,7 @@ c = x instanceof y || x instanceof z;
 
 d = x == y && y != z;
 
-a = !false ;
+a = !false;
 
 b = !x instanceof Number;
 
@@ -5473,9 +5473,9 @@ d = !!a;
 
 e = !+-+!a;
 
-f = -+-a++ ;
+f = -+-a++;
 
-g = b + -+-a++ ;
+g = b + -+-a++;
 
 (async function * () {
     await a + b;

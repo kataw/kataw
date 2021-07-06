@@ -109,7 +109,7 @@ type Foo = (string | number)
 
 ```javascript
 
-type Foo = (string  | number )
+type Foo = (string | number)
 ```
 
 ### Diagnostics

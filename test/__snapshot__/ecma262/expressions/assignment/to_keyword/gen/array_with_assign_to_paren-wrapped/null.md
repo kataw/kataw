@@ -113,7 +113,7 @@ async x => (null) = 1
 
 ```javascript
 
-async x => (null ) = 1;
+async x => (null) = 1;
 ```
 
 ### Diagnostics

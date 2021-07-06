@@ -546,11 +546,11 @@ const k = {
   };
 
 somethingThatsAReallyLongPropName =
-  this .props.cardType === AwesomizerCardEnum.SEEFIRST;
+  this.props.cardType === AwesomizerCardEnum.SEEFIRST;
 
 const o = {
     somethingThatsAReallyLongPropName:
-      this .props.cardType === AwesomizerCardEnum.SEEFIRST
+      this.props.cardType === AwesomizerCardEnum.SEEFIRST
 
   };
 

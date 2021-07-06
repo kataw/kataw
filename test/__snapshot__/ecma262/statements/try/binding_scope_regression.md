@@ -234,9 +234,9 @@
 {
   let AAAAAAAAAAAAAAAAAAAA;
   try {
-    AAAAAAAAAAAAAAAAAAAA = false ;
+    AAAAAAAAAAAAAAAAAAAA = false;
   } catch {
-    AAAAAAAAAAAAAAAAAAAA = false ;
+    AAAAAAAAAAAAAAAAAAAA = false;
   }
 }
 ```

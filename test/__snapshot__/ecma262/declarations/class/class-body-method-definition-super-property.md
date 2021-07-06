@@ -297,10 +297,10 @@ class A {
 
 class A {
   constructor() {
-    super .toString();
+    super.toString();
   }
   dontDoThis() {
-    super .makeBugs = 1;
+    super.makeBugs = 1;
   }
 }
 ```

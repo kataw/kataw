@@ -134,7 +134,7 @@
 
 ```javascript
 
--- {_: () => null }._;
+-- {_: () => null}._;
 ```
 
 ### Diagnostics

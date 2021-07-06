@@ -193,7 +193,7 @@ class x extends y { constructor() { new super() }}
 
 class x  extends y {
   constructor() {
-    new super ();
+    new super();
   }
 }
 ```

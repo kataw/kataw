@@ -561,18 +561,18 @@ var a: (?number)[];
 
 ```javascript
 
-var a: number [];
-var a: (() =>  number )[];
+var a: number[];
+var a: (() =>  number)[];
 
-var a: () =>  number [];
+var a: () =>  number[];
 
-var a: number [][];
+var a: number[][];
 
-var a: number ;
+var a: number;
 
 [];
 
-var a: (? number )[];
+var a: (? number)[];
 
 ```
 

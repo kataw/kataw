@@ -286,7 +286,7 @@ var a: { (x: number): string } = function (x: number): string { return "hi"; };
 
 ```javascript
 
-var a: { (x: number ): string  } = function (x: number ): string  {
+var a: { (x: number): string } = function (x: number): string {
     return "\"hi\"";
   };
 ```

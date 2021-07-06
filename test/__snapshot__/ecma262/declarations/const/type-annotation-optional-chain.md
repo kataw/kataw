@@ -435,12 +435,12 @@ const d: string | null = c?.c;
 
 ```javascript
 
-const a: any  | null  = 1337;
-const b: string  | null  = a?.a;
+const a: any | null = 1337;
+const b: string | null = a?.a;
 
-const c: ? any  = 1337;
+const c: ? any = 1337;
 
-const d: string  | null  = c?.c;
+const d: string | null = c?.c;
 
 ```
 

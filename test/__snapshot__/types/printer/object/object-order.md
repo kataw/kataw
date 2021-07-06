@@ -227,7 +227,7 @@ type Foo = {
 
 ```javascript
 
-type Foo = { alpha: '\'hello\'', [string ]: void , beta: 10 }
+type Foo = { alpha: '\'hello\'', [string]: void, beta: 10 }
 ```
 
 ### Diagnostics

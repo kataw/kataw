@@ -955,27 +955,27 @@
 (class  {
     set #b(val) {}
     fn() {
-      return this .#b;
+      return this.#b;
     }
   });
 (class  {
     get #b() {}
     fn() {
-      this .#b++ ;
+      this.#b++;
     }
   });
 
 (class  {
     get #b() {}
     fn(obj) {
-      ({y: this .#b} = obj);
+      ({y: this.#b} = obj);
     }
   });
 
 (class  {
     #b() {}
     fn() {
-      this .#b++ ;
+      this.#b++;
     }
   });
 

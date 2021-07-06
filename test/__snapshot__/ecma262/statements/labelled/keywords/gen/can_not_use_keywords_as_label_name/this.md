@@ -74,7 +74,7 @@ this: x
 
 ```javascript
 
-this :  x;
+this:  x;
 ```
 
 ### Diagnostics

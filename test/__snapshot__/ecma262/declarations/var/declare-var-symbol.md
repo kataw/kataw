@@ -101,7 +101,7 @@ declare var x: symbol;
 
 ```javascript
 
-declare var x: symbol ;
+declare var x: symbol;
 ```
 
 ### Diagnostics

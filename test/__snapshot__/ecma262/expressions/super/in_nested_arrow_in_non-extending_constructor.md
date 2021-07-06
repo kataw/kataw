@@ -222,7 +222,7 @@ class x { constructor(){ return () => () => super.foo; }}
 
 class x {
   constructor() {
-    return () => () => super .foo;
+    return () => () => super.foo;
   }
 }
 ```

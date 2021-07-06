@@ -140,7 +140,7 @@
 ```javascript
 
 const x = 0;
-if (true ) {
+if (true) {
     x;
   }
 

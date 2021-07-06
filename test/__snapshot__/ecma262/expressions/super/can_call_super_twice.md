@@ -216,8 +216,8 @@ class x extends y { constructor() { super.mom; super.mom; } }
 
 class x  extends y {
   constructor() {
-    super .mom;
-    super .mom;
+    super.mom;
+    super.mom;
   }
 }
 ```

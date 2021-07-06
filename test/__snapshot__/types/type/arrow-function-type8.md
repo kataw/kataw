@@ -238,7 +238,7 @@ type X = (x | y, z: string) => T;
 ```javascript
 
 type X = (x | y,
-z: string ) =>  T
+z: string) =>  T
 ```
 
 ### Diagnostics

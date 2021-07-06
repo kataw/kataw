@@ -743,15 +743,15 @@ var foo2: {
 ```javascript
 
 var foo: {
-    (name: string ): string ,
-    (name: '\'order\''): string ,
-    (name: '\'content\''): string ,
+    (name: string): string,
+    (name: '\'order\''): string,
+    (name: '\'content\''): string,
     (name: '\'done\''): string
   };
 var foo2: {
-    (name: string ): string ,
-    (name: '\'order\''): string ,
-    (name: '\'order\''): string ,
+    (name: string): string,
+    (name: '\'order\''): string,
+    (name: '\'order\''): string,
     (name: '\'done\''): string
   };
 

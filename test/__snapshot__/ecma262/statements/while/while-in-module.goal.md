@@ -111,7 +111,7 @@ while (i-- > 0) {}
 
 ```javascript
 
-while (i--  > 0) {}
+while (i-- > 0) {}
 ```
 
 ### Diagnostics

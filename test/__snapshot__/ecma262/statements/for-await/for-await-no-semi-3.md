@@ -154,7 +154,7 @@ async function f() {
 ```javascript
 
 async function f() {
-  for (x = 0; ; false );
+  for (x = 0; ; false);
 }
 ```
 

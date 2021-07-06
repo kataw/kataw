@@ -215,12 +215,12 @@
 
 ```javascript
 
-foo:  switch (false ) {
-  case false :
+foo:  switch (false) {
+  case false:
     break  foo;
   default
 
-  case false :
+  case false:
     {}
 }
 ```

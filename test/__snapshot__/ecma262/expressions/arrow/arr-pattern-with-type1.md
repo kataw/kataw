@@ -529,12 +529,12 @@
 
 ```javascript
 
-([x: string ]) => {};
-([[x]: string ]) => {};
+([x: string]) => {};
+([[x]: string]) => {};
 
-([[x: string ]: string ]) => {};
+([[x: string]: string]) => {};
 
-([{x}: string ]) => {};
+([{x}: string]) => {};
 
 ```
 

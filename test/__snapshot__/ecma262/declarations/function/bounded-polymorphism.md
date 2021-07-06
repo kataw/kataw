@@ -155,7 +155,7 @@ function bar<T: ?number>() {}
 
 ```javascript
 
-function bar<T: ? number >() {}
+function bar<T: ? number>() {}
 ```
 
 ### Diagnostics

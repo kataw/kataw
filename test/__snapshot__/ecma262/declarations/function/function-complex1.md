@@ -1326,7 +1326,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
 
 ```javascript
 
-function w<A: [number , number ]>(x: A, f: (number , ...A) =>  void ) {
+function w<A: [number, number]>(x: A, f: (number, ...A) =>  void) {
   f(
     ...x
   );
@@ -1345,7 +1345,7 @@ function w<A: [number , number ]>(x: A, f: (number , ...A) =>  void ) {
     ...x
   );
 }
-function w2<A: Array<number >>(x: A, f: (number , ...A) =>  void ) {
+function w2<A: Array<number>>(x: A, f: (number, ...A) =>  void) {
   f(
     ...x
   );

@@ -113,7 +113,7 @@ async x => (true) = 1
 
 ```javascript
 
-async x => (true ) = 1;
+async x => (true) = 1;
 ```
 
 ### Diagnostics

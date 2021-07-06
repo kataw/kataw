@@ -113,7 +113,7 @@ foo: while (true) { continue foo; }
 
 ```javascript
 
-foo:  while (true ) {
+foo:  while (true) {
     continue  foo;
   }
 ```

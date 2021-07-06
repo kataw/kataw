@@ -193,7 +193,7 @@ x = class Foo { static x = class extends this {} }
 ```javascript
 
 x = class Foo {
-  static x = class   extends this  {};
+  static x = class   extends this {};
 };
 ```
 

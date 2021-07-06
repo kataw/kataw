@@ -107,7 +107,7 @@ x = 1;
 
 ```javascript
 
-while (false ) let;
+while (false) let;
 x = 1;
 
 ```

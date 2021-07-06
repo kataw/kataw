@@ -94,7 +94,7 @@ export default async=null
 
 ```javascript
 
-export default async = null ;;
+export default async = null;;
 ```
 
 ### Diagnostics

@@ -172,8 +172,8 @@ class Foo { prop1:string; prop2:number; }
 ```javascript
 
 class Foo {
-  prop1: string ;;
-  prop2: number ;;
+  prop1: string;;
+  prop2: number;;
 }
 ```
 

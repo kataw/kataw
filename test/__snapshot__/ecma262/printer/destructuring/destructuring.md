@@ -2012,12 +2012,12 @@ class A {
 
 ```javascript
 
-const [one, two = null , three = null ] = arr;
+const [one, two = null, three = null] = arr;
 a = ([s = 1,]) => 1;
 
-const {children, ...props} = this .props;
+const {children, ...props} = this.props;
 
-const {user: {firstName, lastName}} = this .props;
+const {user: {firstName, lastName}} = this.props;
 
 const {
     name: {first, last},

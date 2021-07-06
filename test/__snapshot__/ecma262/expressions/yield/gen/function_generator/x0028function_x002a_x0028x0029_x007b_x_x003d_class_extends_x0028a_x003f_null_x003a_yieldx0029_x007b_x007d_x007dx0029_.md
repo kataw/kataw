@@ -357,7 +357,7 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
 function * gen() {
   function not_gen() {
     (function * () {
-        x = class   extends (a ? null  : yield ) {};
+        x = class   extends (a ? null : yield ) {};
       });
   }
 }

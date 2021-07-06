@@ -2392,16 +2392,16 @@ class Foo {
 
 class Foo {
   get #foo() {
-    return this .foo;
+    return this.foo;
   }
   set #bar(val) {
-    this .bar = val;
+    this.bar = val;
   }
   get #prop() {
-    return this .prop;
+    return this.prop;
   }
   set #prop(val) {
-    this .prop = val;
+    this.prop = val;
   }
   foo(fn) {
     fn().#foo;
@@ -2410,8 +2410,8 @@ class Foo {
     fn().#prop = 2;
   }
   unary(fn) {
-    fn().#prop++ ;
-    fn().#prop-- ;
+    fn().#prop++;
+    fn().#prop--;
     ++ fn().#prop;
     -- fn().#prop;
   }

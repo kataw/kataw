@@ -141,7 +141,7 @@ example.inner?.<string>()
 
 ```javascript
 
-example.inner?.<string >();
+example.inner?.<string>();
 ```
 
 ### Diagnostics

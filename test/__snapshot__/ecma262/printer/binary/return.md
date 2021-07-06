@@ -886,25 +886,25 @@ function foo3() {
 ```javascript
 
 function foo() {
-  return this .hasPlugin(
+  return this.hasPlugin(
     "\"dynamicImports\""
   ) &&
-    this .lookahead().type === tt.parenLeft.right;
+    this.lookahead().type === tt.parenLeft.right;
 }
 function foo2() {
-  return this .hasPlugin(
+  return this.hasPlugin(
     "\"dynamicImports\""
   ) &&
-    this .lookahead().type === tt.parenLeft.right
+    this.lookahead().type === tt.parenLeft.right
     ? true
-    : false ;
+    : false;
 }
 
 function foo3() {
-  return this .calculate().compute().first.numberOfThings >
-    this .calculate().compute().last.numberOfThings
+  return this.calculate().compute().first.numberOfThings >
+    this.calculate().compute().last.numberOfThings
     ? true
-    : false ;
+    : false;
 }
 
 ```

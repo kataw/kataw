@@ -1215,25 +1215,25 @@ class two {
 ```javascript
 
 declare class one {
-  m1(this: string ): void ,
-  m2(this: string ,
-  a: number ): void ,
-  m3(this: string ,
-  ...a: any ): void ,
+  m1(this: string): void,
+  m2(this: string,
+  a: number): void,
+  m3(this: string,
+  ...a: any): void,
   m4 (this: T): void
 }
 class two {
-  m1(this: number ) {}
+  m1(this: number) {}
   m2(
-    this: number ,
+    this: number,
     a
   ) {}
   m3(
-    this: number ,
+    this: number,
     ...a
   ) {}
   m4(
-    this: number ,
+    this: number,
     a,
     b,
     ...c

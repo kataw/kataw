@@ -164,7 +164,7 @@
 
 ```javascript
 
-(x = delete ((false ) = f)) => {};
+(x = delete ((false) = f)) => {};
 ```
 
 ### Diagnostics

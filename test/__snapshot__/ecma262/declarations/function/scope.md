@@ -1479,39 +1479,39 @@ function for_scope_var() {
 ```javascript
 
 function block_scope() {
-  let a: number  = 0;
-  var b: number  = 0;
+  let a: number = 0;
+  var b: number = 0;
   {
     let a = "\"\"";
     var b = "\"\"";
   }
 }
 function default_param_1() {
-  function f(x: () =>  string  = f): number  {
+  function f(x: () =>  string = f): number {
     return 0;
   }
 }
 
 function default_param_2() {
   let a = "\"\"";
-  function f0(x = () => a): number  {
+  function f0(x = () => a): number {
     let a = 0;
     return x();
   }
-  function f1(x = b): number  {
+  function f1(x = b): number {
     let b = 0;
     return x;
   }
 }
 
 function for_scope_let() {
-  let a: number  = 0;
+  let a: number = 0;
   for (let a = "\"\""; ; )
     {}
 }
 
 function for_scope_var() {
-  var a: number  = 0;
+  var a: number = 0;
   for (var a = "\"\""; ; )
     {}
 }

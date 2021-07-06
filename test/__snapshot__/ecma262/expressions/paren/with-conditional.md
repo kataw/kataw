@@ -1241,25 +1241,25 @@
 ```javascript
 
 ([b]? ) => {};
-([b]? : string ) => {};
+([b]? : string) => {};
 
 ([b] ? b : c);
 
 ({b}? ) => {};
 
-({b}? : string ) => {};
+({b}? : string) => {};
 
 ({b} ? b : c);
 
 (a, [b]? ) => {};
 
-(a, [b]? : string ) => {};
+(a, [b]? : string) => {};
 
 (a, [b] ? b : c);
 
 (a, {b}? ) => {};
 
-(a, {b}? : string ) => {};
+(a, {b}? : string) => {};
 
 (a, {b} ? b : c);
 

@@ -2199,51 +2199,51 @@ async function f5() {
 
 async function f1() {
   if (untrackedChoice === 0) {
-      return null ;
+      return null;
     }
   else  if (untrackedChoice === 1) {
       await repository.addAll(Array.from(untrackedChanges.keys()));
-      shouldAmend = true ;
+      shouldAmend = true;
     }
   else  if (untrackedChoice === 2) {
-      allowUntracked = true ;
+      allowUntracked = true;
     }
 }
 async function f2() {
-  if (untrackedChoice === 0) null ;
-  else  if (untrackedChoice === 1) shouldAmend = true ;
-  else  if (untrackedChoice === 2) allowUntracked = true ;
+  if (untrackedChoice === 0) null;
+  else  if (untrackedChoice === 1) shouldAmend = true;
+  else  if (untrackedChoice === 2) allowUntracked = true;
 }
 
 async function f3() {
-  if (untrackedChoice === 0) null ;
-  else  if (untrackedChoice === 1) shouldAmend = true ;
-  else  if (untrackedChoice === 2) allowUntracked = true ;
+  if (untrackedChoice === 0) null;
+  else  if (untrackedChoice === 1) shouldAmend = true;
+  else  if (untrackedChoice === 2) allowUntracked = true;
 }
 
 async function f4() {
   if (untrackedChoice === 0) {
-      return null ;
+      return null;
     }
   else  if (untrackedChoice === 1) {
       await repository.addAll(Array.from(untrackedChanges.keys()));
-      shouldAmend = true ;
+      shouldAmend = true;
     }
   else  if (untrackedChoice === 2) {
-      allowUntracked = true ;
+      allowUntracked = true;
     }
 }
 
 async function f5() {
   if (untrackedChoice === 0) {
-      return null ;
+      return null;
     }
   else  if (untrackedChoice === 1) {
       await repository.addAll(Array.from(untrackedChanges.keys()));
-      shouldAmend = true ;
+      shouldAmend = true;
     }
   else  if (untrackedChoice === 2) {
-      allowUntracked = true ;
+      allowUntracked = true;
     }
 }
 

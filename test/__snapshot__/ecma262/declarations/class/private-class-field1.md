@@ -2737,23 +2737,23 @@ class Annotations {
 ```javascript
 
 class C {
-  #p: number ;
-  #q: number ;
+  #p: number;
+  #q: number;
   constructor() {
-    this .#p = 0;
-    this .#q;
+    this.#p = 0;
+    this.#q;
   }
   test(other: C) {
     other.#q;
   }
 }
 class Outer {
-  #outer: number ;
+  #outer: number;
   constructor() {
     var Inner = class A {
         #inner: Outer;
         constructor() {
-          this .#inner = new Outer();
+          this.#inner = new Outer();
           var x = new Outer();
           x.#outer = 0;
           x.#inner = new Outer();
@@ -2763,41 +2763,41 @@ class Outer {
 }
 
 class Annotations {
-  #p: number ;;
+  #p: number;;
   #q = 0;;
   #r;;
-  #s: string  = 0;;
-  #t: string  = "\"yay!\"";;
-  static #sp: number ;;
+  #s: string = 0;;
+  #t: string = "\"yay!\"";;
+  static #sp: number;;
   static #sq = 0;;
   static #sr;;
-  static #ss: string  = 0;;
-  static #st: string  = "\"yay!\"";;
-  test1(): number  {
-    return this .#p;
+  static #ss: string = 0;;
+  static #st: string = "\"yay!\"";;
+  test1(): number {
+    return this.#p;
   }
-  test2(): number  {
-    return this .#t;
+  test2(): number {
+    return this.#t;
   }
-  test3(): number  {
+  test3(): number {
     return Annotations.#sp;
   }
-  test4(): number  {
+  test4(): number {
     return Annotations.#st;
   }
-  test5(): number  {
-    return this .#r;
+  test5(): number {
+    return this.#r;
   }
-  test6(): string  {
-    return this .#r;
+  test6(): string {
+    return this.#r;
   }
   test5And6Helper() {
-    this .#r = 3;
+    this.#r = 3;
   }
-  test7(): number  {
+  test7(): number {
     return Annotations.#sr;
   }
-  test8(): string  {
+  test8(): string {
     return Annotations.#sr;
   }
   test7And9Helper() {

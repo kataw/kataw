@@ -229,7 +229,7 @@ class Foo extends Base {
 
 class Foo  extends Base {
   method() {
-    super .method?.();
+    super.method?.();
   }
 }
 ```

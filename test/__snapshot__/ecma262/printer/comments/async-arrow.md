@@ -862,13 +862,13 @@ async (a, b) => x
 
 async (a) => x
 
-async (a: string ) => x
+async (a: string) => x
 
-async (...a: string ) => x
+async (...a: string) => x
 
-async (...a: string , []) => x
+async (...a: string, []) => x
 
-async (x? : string ) => {}
+async (x? : string) => {}
 
 ```
 

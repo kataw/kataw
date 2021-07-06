@@ -219,7 +219,7 @@ class x extends y { fo(){ return () => super[bar]; }}
 
 class x  extends y {
   fo() {
-    return () => super [bar];
+    return () => super[bar];
   }
 }
 ```

@@ -143,7 +143,7 @@ type a = {function():string};
 
 ```javascript
 
-type a = { function(): string  }
+type a = { function(): string }
 ```
 
 ### Diagnostics

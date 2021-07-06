@@ -798,26 +798,26 @@ let nx: mixed;
 
 ```javascript
 
-let a: any ;
-let un: unknown ;
+let a: any;
+let un: unknown;
 
-let b: boolean ;
+let b: boolean;
 
-let ne: never ;
+let ne: never;
 
-let nul: null ;
+let nul: null;
 
-let num: number ;
+let num: number;
 
-let o: object ;
+let o: object;
 
-let st: string ;
+let st: string;
 
-let sy: symbol ;
+let sy: symbol;
 
-let u: undefined ;
+let u: undefined;
 
-let v: void ;
+let v: void;
 
 let n: bigint;
 

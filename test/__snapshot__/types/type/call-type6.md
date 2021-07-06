@@ -117,7 +117,7 @@ type Fn0 = () => number;
 
 ```javascript
 
-type Fn0 = () =>  number 
+type Fn0 = () =>  number
 ```
 
 ### Diagnostics

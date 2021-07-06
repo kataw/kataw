@@ -1154,12 +1154,12 @@ export { specifierNumber3  };
 
 export { groupedSpecifierNumber1 , groupedSpecifierNumber2  };
 
-export function givesANumber(): number  {
+export function givesANumber(): number {
   return 42;
 }
 
 export class NumberGenerator {
-  givesANumber(): number  {
+  givesANumber(): number {
     return 42;
   }
 }

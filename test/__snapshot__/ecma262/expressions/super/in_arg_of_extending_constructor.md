@@ -248,7 +248,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
 
 class x  extends y {
   constructor() {
-    return (a = super .foo) => a;
+    return (a = super.foo) => a;
   }
 }
 ```

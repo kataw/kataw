@@ -325,12 +325,12 @@ const uuid = String(this._uuidCounter++);
 
 ```javascript
 
-(this .x++ ).toString();
-new (r++ );
+(this.x++).toString();
+new (r++);
 
-(x++ )();
+(x++)();
 
-const uuid = String(this ._uuidCounter++ );
+const uuid = String(this._uuidCounter++);
 
 ```
 

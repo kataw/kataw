@@ -932,12 +932,12 @@ type B = Foo<
 
 ```javascript
 
-type A3<T: ? string = string > = T
+type A3<T: ? string= string> = T
 type A4<S,
-T: ? string = string > = T
+T: ? string= string> = T
 
-type A5<S= number ,
-T: ? string = string > = T
+type A5<S= number,
+T: ? string= string> = T
 
 type A = Foo<| { type: "\"A\"" } | { type: "\"B\"" }>
 

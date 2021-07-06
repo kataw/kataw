@@ -463,12 +463,12 @@ var a: typeof A[];
 
 ```javascript
 
-var a: number [];
-var a: ? number [];
+var a: number[];
+var a: ? number[];
 
-var a: (? number )[];
+var a: (? number)[];
 
-var a: () =>  number [];
+var a: () =>  number[];
 
 var a: typeof A[];
 

@@ -163,7 +163,7 @@ x={ foo(){ super.foo; }}
 ```javascript
 
 x = {foo() {
-    super .foo;
+    super.foo;
   }};
 ```
 

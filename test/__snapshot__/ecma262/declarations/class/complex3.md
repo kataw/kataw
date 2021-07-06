@@ -1744,8 +1744,8 @@ var stringArr:Array<string> = ['a','b'];
 
 class Tag {
   constructor() {
-    var a1: Array<Tag | string > = [];
-    var a2: Array<Tag | string > = a1;
+    var a1: Array<Tag | string> = [];
+    var a2: Array<Tag | string> = a1;
   }
 }
 type Node = Tag_ | string
@@ -1758,23 +1758,23 @@ class Tag_ {
 }
 
 class C {
-  x: ? number  | string ;;
+  x: ? number | string;;
   constructor() {
-    this .x = null ;
+    this.x = null;
   }
 }
 
 class D {
-  content: string  | C;;
-  copyContent(content: C): string  | C {
-    this .content = content;
-    return this .content;
+  content: string | C;;
+  copyContent(content: C): string | C {
+    this.content = content;
+    return this.content;
   }
 }
 
-var numberAndStringArr: Array<number  | string > = [1, 2];
+var numberAndStringArr: Array<number | string> = [1, 2];
 
-var stringArr: Array<string > = ['\'a\'', '\'b\''];
+var stringArr: Array<string> = ['\'a\'', '\'b\''];
 
 ```
 

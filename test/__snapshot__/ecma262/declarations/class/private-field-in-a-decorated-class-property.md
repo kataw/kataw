@@ -253,7 +253,7 @@ class Example {
 class Example {
   #priv;;
   @ anydecorator method = () => {
-    return this .#priv;
+    return this.#priv;
   };;
 }
 ```

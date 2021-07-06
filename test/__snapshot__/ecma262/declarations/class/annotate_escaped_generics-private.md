@@ -530,8 +530,8 @@ class I<X> {
     return x;
   }
   g(x: X) {
-    this .#i = x;
-    this ._f = x;
+    this.#i = x;
+    this._f = x;
   }
 }
 ```

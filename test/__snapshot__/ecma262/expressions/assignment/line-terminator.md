@@ -115,7 +115,7 @@ true;
 ```javascript
 
 var x;
-x = true ;
+x = true;
 
 ```
 

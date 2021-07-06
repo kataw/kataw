@@ -301,10 +301,10 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
 
 ```javascript
 
-var obj: { str: string , i: number , j: boolean  } = {
+var obj: { str: string, i: number, j: boolean } = {
     str: "\"...\"",
     i: "\"...\"",
-    k: false 
+    k: false
   };
 ```
 

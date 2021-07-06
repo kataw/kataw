@@ -410,11 +410,11 @@ function aPrettyLongFunctionE(aRatherLongParameterName: Array<{
 ```javascript
 
 function aPrettyLongFunctionD(aRatherLongParameterName: MyType
-| null ): string [] {}
-function aPrettyLongFunctionE(aRatherLongParameterName: Array<{ __id: string  }
-  | null >
+| null): string[] {}
+function aPrettyLongFunctionE(aRatherLongParameterName: Array<{ __id: string }
+  | null>
 | null
-| void ): string [] {}
+| void): string[] {}
 
 ```
 

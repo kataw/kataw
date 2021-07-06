@@ -138,7 +138,7 @@ foo: while (true) if (x) { continue foo; }
 
 ```javascript
 
-foo:  while (true ) if (x) {
+foo:  while (true) if (x) {
       continue  foo;
     }
 ```

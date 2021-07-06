@@ -511,13 +511,13 @@ declare var union: Foo | null | void;
 declare var x: Foo;
 declare var mixed: mixed;
 
-declare var any: any ;
+declare var any: any;
 
 declare var empty: empty;
 
 declare var maybe: ? Foo;
 
-declare var union: Foo | null  | void ;
+declare var union: Foo | null | void;
 
 ```
 

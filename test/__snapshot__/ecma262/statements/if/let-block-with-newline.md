@@ -85,7 +85,7 @@ if (false) let // ASI
 
 ```javascript
 
-if (false ) let;
+if (false) let;
 {}
 
 ```

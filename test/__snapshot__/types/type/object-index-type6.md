@@ -148,7 +148,7 @@ type X = {[(x)]: string};
 
 ```javascript
 
-type X = { [(x)]: string  }
+type X = { [(x)]: string }
 ```
 
 ### Diagnostics

@@ -927,44 +927,44 @@ true
 ```javascript
 
 if (1) {
-    false ;
+    false;
   }
-else  if (2) true ;
-else  if (3) true ;
+else  if (2) true;
+else  if (3) true;
 else  if (4) {}
 else  {}
-if (5) true ;
+if (5) true;
 
 if (6) {
-    true ;
+    true;
   }
-else  if (7) true ;
+else  if (7) true;
 else  {
-    true ;
+    true;
   }
 
 if (8) {
-    true ;
+    true;
   }
-else  if (9) true ;
+else  if (9) true;
 else  {
-    true ;
+    true;
   }
 
 if (10) {
-    true ;
+    true;
   }
-else  if (11) true ;
-else  if (12) true ;
-else  if (13) true ;
+else  if (11) true;
+else  if (12) true;
+else  if (13) true;
 else  {
-    true ;
+    true;
   }
 
 if (14) {
-    true ;
+    true;
   }
-else  if (15) true ;
+else  if (15) true;
 
 ```
 

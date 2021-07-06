@@ -93,7 +93,7 @@ opaque type ID = string;
 
 ```javascript
 
-opaque type ID = string ;
+opaque type ID = string;
 ```
 
 ### Diagnostics

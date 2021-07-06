@@ -392,9 +392,9 @@ class Base {
 
 class Base {
   constructor() {
-    this .Foo = class  {
+    this.Foo = class  {
       static #_ = (() => {
-          this .foo = new.target;
+          this.foo = new.target;
         })();;
     };
   }

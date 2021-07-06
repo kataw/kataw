@@ -160,7 +160,7 @@ x = (x, {}:string) => {} ;
 
 ```javascript
 
-x = (x, {}: string ) => {};
+x = (x, {}: string) => {};
 ```
 
 ### Diagnostics
