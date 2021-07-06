@@ -815,7 +815,7 @@ function baz(x: boolean) {
 ```javascript
 
 function foo(x: boolean) {
-  var obj = {a: 1, b: 2};
+  var obj = { a: 1, b: 2 };
   for (var prop in obj) {
       if (x) {
           continue ;

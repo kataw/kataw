@@ -563,16 +563,16 @@
 
 ```javascript
 
-({prototype: 1});
-({get prototype() {}});
+({ prototype: 1 });
+({ get prototype() {} });
 
-({set prototype(x) {}});
+({ set prototype(x) {} });
 
-({* prototype() {}});
+({ * prototype() {} });
 
-({async prototype() {}});
+({ async prototype() {} });
 
-({async * prototype() {}});
+({ async * prototype() {} });
 
 ```
 

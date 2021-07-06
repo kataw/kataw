@@ -184,10 +184,7 @@
 
 ```javascript
 
-({
-    async get() {},
-    async set() {}
-  });
+({ async get() {}, async set() {} });
 ```
 
 ### Diagnostics

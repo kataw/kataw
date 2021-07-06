@@ -250,7 +250,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 (function * () {
     x = class   extends (a ? null : yield ) {};
   });

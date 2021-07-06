@@ -853,24 +853,24 @@
 
 ```javascript
 
-({async});
-({async: await});
+({ async });
+({ async: await });
 
-({async: (await) ? yield : foo});
+({ async: (await) ? yield : foo });
 
-({async: true});
+({ async: true });
 
-({async() {}});
+({ async() {} });
 
-({async foo() {}});
+({ async foo() {} });
 
-({x, y, z() {}});
+({ x, y, z() {} });
 
-({async delete() {}});
+({ async delete() {} });
 
-({async [foo]() {}});
+({ async [foo]() {} });
 
-({async 100() {}});
+({ async 100() {} });
 
 ```
 

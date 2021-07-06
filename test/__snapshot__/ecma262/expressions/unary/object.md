@@ -120,9 +120,7 @@ state = {
 
 ```javascript
 
-state = {
-  hoverColumn: -1
-};
+state = { hoverColumn: -1 };
 ```
 
 ### Diagnostics

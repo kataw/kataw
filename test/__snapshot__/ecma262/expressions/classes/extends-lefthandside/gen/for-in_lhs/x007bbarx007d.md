@@ -100,7 +100,7 @@ for ({bar} in x) ;
 
 ```javascript
 
-for ({bar} in x);
+for ({ bar } in x);
 ```
 
 ### Diagnostics

@@ -213,9 +213,9 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 var x, y, z;
-for ({var: x} of {});
+for ({ var: x } of {});
 
 ```
 

@@ -236,9 +236,7 @@ class C {
 class C {
   name() {}
 }
-({
-    name() {}
-  });
+({ name() {} });
 
 ```
 

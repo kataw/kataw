@@ -422,7 +422,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
 function * gen() {
   function not_gen() {
     async function a() {
-      async ([y] = [{m: 5 + t(await bar)}]) => {}
+      async ([y] = [{ m: 5 + t(await bar) }]) => {}
     }
   }
 }

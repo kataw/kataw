@@ -297,7 +297,7 @@ async function f() { let a; for await (const {[Symbol.iterator]: a = 1} of []) ;
 
 async function f() {
   let a;
-  for await (const {[Symbol.iterator]: a = 1} of []);
+  for await (const { [Symbol.iterator]: a = 1 } of []);
 }
 ```
 

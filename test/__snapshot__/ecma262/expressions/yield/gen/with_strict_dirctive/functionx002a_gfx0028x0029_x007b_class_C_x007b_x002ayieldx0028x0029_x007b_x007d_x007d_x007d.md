@@ -213,7 +213,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 function * gf() {
   class C {
     * yield() {}

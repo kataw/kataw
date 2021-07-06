@@ -134,7 +134,7 @@ function argsLengthRestObject(...{a}) {}
 
 ```javascript
 
-function argsLengthRestObject(...{a}) {}
+function argsLengthRestObject(...{ a }) {}
 ```
 
 ### Diagnostics

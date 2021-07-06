@@ -195,9 +195,9 @@
 
 ```javascript
 
-({* g1() {
-      return {x: yield 1};
-    }});
+({ * g1() {
+      return { x: yield 1 };
+    } });
 ```
 
 ### Diagnostics

@@ -406,7 +406,7 @@
 
 ([a]: string) => x;
 
-({a}: string) => x;
+({ a }: string) => x;
 
 ```
 

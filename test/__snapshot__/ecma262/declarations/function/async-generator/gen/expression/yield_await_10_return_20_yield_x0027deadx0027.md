@@ -237,11 +237,11 @@
 
 ```javascript
 
-({async * gen() {
+({ async * gen() {
       yield await 10;
       return 20;
-      yield '\'dead\'';
-    }});
+      yield "'dead'";
+    } });
 ```
 
 ### Diagnostics

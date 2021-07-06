@@ -199,11 +199,9 @@ foo = {
 
 ```javascript
 
-foo = {
-  get x() {
+foo = { get x() {
     await = x;
-  }
-};
+  } };
 ```
 
 ### Diagnostics

@@ -136,7 +136,7 @@
 
 ```javascript
 
-[...{x} / y];
+[...{ x } / y];
 ```
 
 ### Diagnostics

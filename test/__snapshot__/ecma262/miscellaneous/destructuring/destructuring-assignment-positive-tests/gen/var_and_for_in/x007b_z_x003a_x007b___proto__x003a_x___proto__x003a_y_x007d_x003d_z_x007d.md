@@ -332,7 +332,7 @@ var x, y, z; for (x in { z : { __proto__: x, __proto__: y } = z } = z = {});
 ```javascript
 
 var x, y, z;
-for (x in {z: {__proto__: x, __proto__: y} = z} = z = {});
+for (x in { z: { __proto__: x, __proto__: y } = z } = z = {});
 
 ```
 

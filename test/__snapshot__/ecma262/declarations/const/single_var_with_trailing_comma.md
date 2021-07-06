@@ -115,7 +115,7 @@ const {x,} = obj;
 
 ```javascript
 
-const {x} = obj;
+const { x } = obj;
 ```
 
 ### Diagnostics

@@ -3456,15 +3456,15 @@ class TwentySix {
 }
 
 class TwentySeven {
-  static get '\'constructor\''() {}
+  static get "'constructor'"() {}
 }
 
 class TwentyEigth {
-  * ['\'constructor\'']() {}
+  * ["'constructor'"]() {}
 }
 
 class TwentyNine {
-  async '\'prototype\''() {}
+  async "'prototype'"() {}
 }
 
 ```

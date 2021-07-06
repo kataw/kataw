@@ -137,8 +137,8 @@
 
 ```javascript
 
-'\'use strict\'';
-let {eval: x} = {};
+"'use strict'";
+let { eval: x } = {};
 ```
 
 ### Diagnostics

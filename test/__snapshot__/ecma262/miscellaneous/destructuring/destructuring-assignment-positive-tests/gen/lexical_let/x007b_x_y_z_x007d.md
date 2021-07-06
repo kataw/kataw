@@ -212,9 +212,9 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 let x, y, z;
-({x, y, z} = {});
+({ x, y, z } = {});
 
 ```
 

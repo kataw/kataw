@@ -1121,9 +1121,9 @@ class A {
   set() {}
   static() {}
   async() {}
-  '\'get\''() {}
-  '\'set\''() {}
-  '\'async\''() {}
+  "'get'"() {}
+  "'set'"() {}
+  "'async'"() {}
   static;
   get() {}
   static;

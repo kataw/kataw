@@ -936,12 +936,7 @@ let f1 = () => {};
 
 function f2() {}
 
-const obj = {
-    f() {},
-    f: () => {},
-    f: function () {},
-    f: function f() {}
-  };
+const obj = { f() {}, f: () => {}, f: function () {}, f: function f() {} };
 
 f();
 

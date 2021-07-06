@@ -164,7 +164,7 @@
 ```javascript
 
 "\"use strict\"";
-x = [{__proto__: 1, __proto__: 2}];
+x = [{ __proto__: 1, __proto__: 2 }];
 ```
 
 ### Diagnostics

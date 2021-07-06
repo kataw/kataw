@@ -898,9 +898,9 @@ delete (1, -Infinity);
 
 typeof (1, -Infinity);
 
-typeof a == b + '\'\'';
+typeof a == b + "''";
 
-typeof a != b + '\'\'';
+typeof a != b + "''";
 
 void x;
 

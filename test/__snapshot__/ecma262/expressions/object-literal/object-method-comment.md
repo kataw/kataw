@@ -186,9 +186,7 @@ function foo() {
 ```javascript
 
 function foo() {
-  return {
-    bar: baz() + 1
-  };
+  return { bar: baz() + 1 };
 }
 ```
 

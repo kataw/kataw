@@ -166,7 +166,7 @@ try {} catch({ __proto__: x, __proto__: y}) {}
 
 ```javascript
 
-try {} catch ({__proto__: x, __proto__: y}) {}
+try {} catch ({ __proto__: x, __proto__: y }) {}
 ```
 
 ### Diagnostics

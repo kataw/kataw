@@ -1774,7 +1774,7 @@ class D {
 
 var numberAndStringArr: Array<number | string> = [1, 2];
 
-var stringArr: Array<string> = ['\'a\'', '\'b\''];
+var stringArr: Array<string> = ["'a'", "'b'"];
 
 ```
 

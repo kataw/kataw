@@ -124,7 +124,7 @@ let {x, y} = obj;
 
 ```javascript
 
-let {x, y} = obj;
+let { x, y } = obj;
 ```
 
 ### Diagnostics

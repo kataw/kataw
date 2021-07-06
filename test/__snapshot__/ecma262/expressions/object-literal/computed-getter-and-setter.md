@@ -205,7 +205,7 @@
 
 ```javascript
 
-({get [x]() {}, set [x](v) {}});
+({ get [x]() {}, set [x](v) {} });
 ```
 
 ### Diagnostics

@@ -113,7 +113,7 @@
 
 ```javascript
 
-({...yield} = obj);
+({ ...yield } = obj);
 ```
 
 ### Diagnostics

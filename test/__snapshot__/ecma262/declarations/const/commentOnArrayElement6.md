@@ -104,7 +104,7 @@ const array = [1, /* comment */];
 
 ```javascript
 
-const array = [1];
+const array = [1,];
 ```
 
 ### Diagnostics

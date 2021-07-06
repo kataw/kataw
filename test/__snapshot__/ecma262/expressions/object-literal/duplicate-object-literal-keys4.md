@@ -261,7 +261,7 @@
 
 ```javascript
 
-({get x() {}, set x(y) {}, set x(y) {}});
+({ get x() {}, set x(y) {}, set x(y) {} });
 ```
 
 ### Diagnostics

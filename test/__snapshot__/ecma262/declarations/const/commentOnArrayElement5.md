@@ -109,9 +109,7 @@ const array = [
 
 ```javascript
 
-const array = [
-    1
-  ];
+const array = [1,];
 ```
 
 ### Diagnostics

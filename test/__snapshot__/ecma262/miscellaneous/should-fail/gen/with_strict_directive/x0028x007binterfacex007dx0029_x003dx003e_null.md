@@ -115,7 +115,7 @@
 ```javascript
 
 "\"use strict\"";
-({interface}) => null;
+({ interface }) => null;
 ```
 
 ### Diagnostics

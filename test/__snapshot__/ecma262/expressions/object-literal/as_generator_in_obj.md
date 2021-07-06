@@ -121,7 +121,7 @@
 
 ```javascript
 
-({* try() {}});
+({ * try() {} });
 ```
 
 ### Diagnostics

@@ -83,7 +83,7 @@ const test = '💖'
 
 ```javascript
 
-const test = '\'💖\'';
+const test = "'💖'";
 ```
 
 ### Diagnostics

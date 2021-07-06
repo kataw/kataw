@@ -112,7 +112,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 class C  extends yield {}
 ```
 

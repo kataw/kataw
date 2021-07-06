@@ -157,8 +157,8 @@
 
 ```javascript
 
-'\'use strict\'';
-({* protected(x, y) {}});
+"'use strict'";
+({ * protected(x, y) {} });
 ```
 
 ### Diagnostics

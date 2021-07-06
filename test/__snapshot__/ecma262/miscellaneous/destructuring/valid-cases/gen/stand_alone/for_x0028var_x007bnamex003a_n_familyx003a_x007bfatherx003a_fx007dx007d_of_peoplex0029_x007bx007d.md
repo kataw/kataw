@@ -218,7 +218,7 @@ for (var {name: n, family: {father: f}} of people) {}
 
 ```javascript
 
-for (var {name: n, family: {father: f}} of people) {}
+for (var { name: n, family: { father: f } } of people) {}
 ```
 
 ### Diagnostics

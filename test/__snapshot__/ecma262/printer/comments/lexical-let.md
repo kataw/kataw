@@ -586,28 +586,16 @@ let /* 1*/ {
 
 ```javascript
 
-let {
-    a1: b1
-  } = y;
-let {
-    a = addd
-  } = y1;
+let { a1: b1 } = y;
+let { a = addd } = y1;
 
-let {
-    ...h1
-  } = y;
+let { ...h1 } = y;
 
-let {
-    ...ja
-  } = y2;
+let { ...ja } = y2;
 
-let {
-    ...aaa
-  } = yd;
+let { ...aaa } = yd;
 
-let {
-    ...a3
-  } = ady;
+let { ...a3 } = ady;
 
 ```
 

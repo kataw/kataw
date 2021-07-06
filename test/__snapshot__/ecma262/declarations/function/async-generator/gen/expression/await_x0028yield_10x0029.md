@@ -189,9 +189,9 @@
 
 ```javascript
 
-({async * gen() {
+({ async * gen() {
       await (yield 10);
-    }});
+    } });
 ```
 
 ### Diagnostics

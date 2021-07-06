@@ -1627,9 +1627,9 @@ type A = (Array<string>,
 
 type Fn1 = <T>(T) =>  T
 
-type E = Obj['\'bar\''][]
+type E = Obj["'bar'"][]
 
-type E = Obj['\'bar\''][]
+type E = Obj["'bar'"][]
 
 type O1 = { ...{ p: T } | { q: U } }
 

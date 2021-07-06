@@ -100,7 +100,7 @@ x = {...a,}
 
 ```javascript
 
-x = {...a};
+x = { ...a };
 ```
 
 ### Diagnostics

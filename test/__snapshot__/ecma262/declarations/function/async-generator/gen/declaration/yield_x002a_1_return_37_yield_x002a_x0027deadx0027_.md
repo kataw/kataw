@@ -207,7 +207,7 @@ async function * gen() {yield * 1; return 37; yield * 'dead';}
 async function * gen() {
   yield * 1;
   return 37;
-  yield * '\'dead\'';
+  yield * "'dead'";
 }
 ```
 

@@ -155,7 +155,7 @@
 
 ```javascript
 
-({__proto__: null, set __proto__(x) {}});
+({ __proto__: null, set __proto__(x) {} });
 ```
 
 ### Diagnostics

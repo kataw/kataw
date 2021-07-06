@@ -259,9 +259,9 @@
 
 ```javascript
 
-({async * gen() {
+({ async * gen() {
       x = class   extends (null, await 10) {};
-    }});
+    } });
 ```
 
 ### Diagnostics

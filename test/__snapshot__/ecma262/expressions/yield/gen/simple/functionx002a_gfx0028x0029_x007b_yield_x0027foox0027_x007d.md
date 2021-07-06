@@ -130,7 +130,7 @@ function* gf() { yield 'foo' }
 ```javascript
 
 function * gf() {
-  yield '\'foo\'';
+  yield "'foo'";
 }
 ```
 

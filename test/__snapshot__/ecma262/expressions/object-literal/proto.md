@@ -589,16 +589,16 @@
 
 ```javascript
 
-({"\"__proto___\"": "\"__proto___\"", "\"__proto___\"": "\"__proto___\""});
-({get prototype() {}});
+({ "\"__proto___\"": "\"__proto___\"", "\"__proto___\"": "\"__proto___\"" });
+({ get prototype() {} });
 
-({set prototype(x) {}});
+({ set prototype(x) {} });
 
-({* prototype() {}});
+({ * prototype() {} });
 
-({async prototype() {}});
+({ async prototype() {} });
 
-({async * prototype() {}});
+({ async * prototype() {} });
 
 ```
 

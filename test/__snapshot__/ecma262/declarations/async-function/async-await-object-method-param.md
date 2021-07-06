@@ -232,9 +232,9 @@ async function foo(a = {async bar() { await b }}) {};
 
 ```javascript
 
-async function foo(a = {async bar() {
+async function foo(a = { async bar() {
     await b;
-  }}) {}
+  } }) {}
 ```
 
 ### Diagnostics

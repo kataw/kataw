@@ -250,7 +250,7 @@ var x, y, z; for (x in { x, y, z } = z = {});
 ```javascript
 
 var x, y, z;
-for (x in {x, y, z} = z = {});
+for (x in { x, y, z } = z = {});
 
 ```
 

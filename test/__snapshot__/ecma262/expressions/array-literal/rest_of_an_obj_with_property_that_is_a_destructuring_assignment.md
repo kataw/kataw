@@ -150,7 +150,7 @@
 
 ```javascript
 
-[...{a: b.b}] = c;
+[...{ a: b.b }] = c;
 ```
 
 ### Diagnostics

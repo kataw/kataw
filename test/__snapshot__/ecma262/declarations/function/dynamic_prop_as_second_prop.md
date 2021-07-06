@@ -148,7 +148,7 @@ let {a, [x]: y} = a;
 
 ```javascript
 
-let {a, [x]: y} = a;
+let { a, [x]: y } = a;
 ```
 
 ### Diagnostics

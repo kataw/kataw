@@ -127,7 +127,7 @@
 
 ```javascript
 
-({async * 500() {}});
+({ async * 500() {} });
 ```
 
 ### Diagnostics

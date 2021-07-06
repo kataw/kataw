@@ -186,7 +186,7 @@
 
 ```javascript
 
-({a, b}: T) => {};
+({ a, b }: T) => {};
 ```
 
 ### Diagnostics

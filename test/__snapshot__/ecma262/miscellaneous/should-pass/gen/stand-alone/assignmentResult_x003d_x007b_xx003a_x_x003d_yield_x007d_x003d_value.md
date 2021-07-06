@@ -156,7 +156,7 @@ assignmentResult = { x: x = yield } = value
 
 ```javascript
 
-assignmentResult = {x: x = yield} = value;
+assignmentResult = { x: x = yield } = value;
 ```
 
 ### Diagnostics

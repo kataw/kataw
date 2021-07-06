@@ -15,6 +15,7 @@ import {
   canBreakAssignment,
   shouldFlatten,
   shouldprintWhitespaceBeforeOperand,
+  PrinterFlags,
   makeString,
 } from './core'
 import {
@@ -32,12 +33,13 @@ import {
 } from '../formatter/index'
 
 export interface PrinterOptions {
-  printWidth?: number
-  tabWidth?: number
-  noSemi?: number
-  singleQuote?: number
-  noBracketSpacing?: number
-  endOfLine?: string
+  printWidth?: number;
+  tabWidth?: number;
+  noSemi?: boolean;
+  singleQuote?: boolean;
+  noObjectCurlySpacing?: boolean;
+  arrayBracketSpacing?: boolean;
+  endOfLine?: string;
 }
 
 export const nodeLookupMap: any = {
@@ -207,11 +209,19 @@ export const nodeLookupMap: any = {
 }
 
 export function printSource(root: RootNode, options?: PrinterOptions) {
-  const printer = createPrinter(root.source)
+  let flags = PrinterFlags.ObjectCurlySpacing;
   let printWidth = 80
+  let tabWidth = 2
   if (options != null) {
     if (options.printWidth) printWidth = options.printWidth
+    if (options.tabWidth) tabWidth = options.tabWidth
+    if (options.noSemi) flags |= PrinterFlags.NoSemi;
+    if (options.singleQuote) flags |= PrinterFlags.SingleQuote;
+    if (options.arrayBracketSpacing) flags |= PrinterFlags.ArrayBracketSpacing;
+    if (options.noObjectCurlySpacing) flags & ~PrinterFlags.ObjectCurlySpacing;
   }
+
+  const printer = createPrinter(root.source, flags)
   return toString(
     printWidth,
     printStatement(printer, root, /* lineMap */ [], root),
@@ -580,12 +590,10 @@ export function printElementList(
 
   const trailingComma = node.trailingComma ? ifBreak(',') : ''
 
-  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline
-
   for (let i = 0; i < children.length; i++) {
     child = children[i]
     if (previousSibling) {
-      elements.push(concat([',', ' ', lineBreak]))
+      elements.push(concat([',', ' ', softline]))
     }
 
     elements.push(printStatement(printer, child, lineMap, parentNode))
@@ -595,13 +603,20 @@ export function printElementList(
   return group(
     concat([
       '[',
-      indent(concat([lineBreak, concat([concat(elements), trailingComma])])),
-      lineBreak,
+      indent(concat([printer.flags & PrinterFlags.ArrayBracketSpacing ? line : softline, concat([concat(elements)])])),
+      node.trailingComma
+        ? ','
+        : '',
+      ifBreak(
+        node.trailingComma
+          ? ','
+          : '',
+      ),
+      printer.flags & PrinterFlags.ArrayBracketSpacing ? line : softline,
       ']',
     ]),
     {},
-    // shouldBreak
-  )
+  );
 }
 
 function printArrayBindingPattern(
@@ -825,7 +840,7 @@ function printIntersectionType(
   parentNode: any,
 ): any {
   const printed = concat([
-    ifBreak(concat([parentNode.transformFlags & TransformFlags.TypeParameter ? hardline : '', '&', ' '])),
+    //ifBreak(concat([parentNode.transformFlags & TransformFlags.TypeParameter ? hardline : '', '&', ' '])),
     join(
       concat([line, '&', ' ']),
       node.types.map((type: any) =>
@@ -2090,12 +2105,10 @@ function printBindingPropertyListOrPropertyDefinitionList(
   let previousSibling!: SyntaxNode
   let child!: SyntaxNode
 
-  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline
-
   for (let i = 0; i < properties.length; i++) {
     child = properties[i]
     if (previousSibling) {
-      elements.push(concat([',', ' ', lineBreak]))
+      elements.push(concat([',', ' ', softline]))
     }
 
     elements.push(printStatement(printer, child, lineMap, parentNode))
@@ -2105,9 +2118,9 @@ function printBindingPropertyListOrPropertyDefinitionList(
   return group(
     concat([
       '{',
-      indent(concat([lineBreak, concat(elements)])),
+      indent(concat([printer.flags & PrinterFlags.ObjectCurlySpacing ? line : softline, concat(elements)])),
       ifBreak(node.trailingComma ? ',' : ''),
-      lineBreak,
+      printer.flags & PrinterFlags.ObjectCurlySpacing ? line : softline,
       '}',
     ]),
     {},
@@ -2274,6 +2287,7 @@ function printVariableDeclarationOrLexicalBinding(
       {},
     )
   }
+
   return concat([
     printStatement(printer, node.binding, lineMap, node),
     node.type
@@ -2291,8 +2305,14 @@ function printPropertyDefinition(
     concat([
       printStatement(printer, node.left, lineMap, node),
       ':',
-      ' ',
-      printStatement(printer, node.right, lineMap, node),
+      canBreakAssignment(node.left, node.right)
+      ? group(
+        indent(
+          concat([line, printStatement(printer, node.right, lineMap, node)]),
+        ),
+        {},
+      )
+    : concat([' ', printStatement(printer, node.right, lineMap, node)]),
     ]),
     {},
   )
@@ -3356,14 +3376,14 @@ function printNumericLiteral(printer: Printer, node: any): any {
 function printStringType(printer: Printer, node: any, lineMap: number[]): any {
   return makeString(
     node.rawText,
-    node.flags & NodeFlags.SingleQuote ? "'" : '"',
+    printer.flags & PrinterFlags.SingleQuote ? "'" : '"',
   )
 }
 
 export function printStringLiteral(printer: Printer, node: any): any {
   return makeString(
     node.rawText,
-    node.flags & NodeFlags.SingleQuote ? "'" : '"',
+    printer.flags & PrinterFlags.SingleQuote ? "'" : '"',
   )
 }
 

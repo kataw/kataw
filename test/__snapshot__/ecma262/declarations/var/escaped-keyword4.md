@@ -171,7 +171,7 @@ var y = { \u0064ebugger: x } = { debugger: 42 };
 
 ```javascript
 
-var y = {\u0064ebugger: x} = {debugger: 42};
+var y = { \u0064ebugger: x } = { debugger: 42 };
 ```
 
 ### Diagnostics

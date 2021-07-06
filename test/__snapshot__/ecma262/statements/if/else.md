@@ -728,7 +728,7 @@ function f() {
 ```javascript
 
 function f() {
-  if (position) return {name: pair};
+  if (position) return { name: pair };
   else
     return {
       name: pair.substring(0, position),
@@ -736,8 +736,9 @@ function f() {
     };
 }
 function f() {
-  if (position) return {name: pair};
-  else  return {
+  if (position) return { name: pair };
+  else
+    return {
       name: pair.substring(0, position),
       value: pair.substring(position + 1)
     };

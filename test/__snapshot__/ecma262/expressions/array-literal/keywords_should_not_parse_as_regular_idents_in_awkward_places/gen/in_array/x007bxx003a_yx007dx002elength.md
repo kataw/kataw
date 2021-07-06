@@ -120,7 +120,7 @@
 
 ```javascript
 
-[{x: y}.length];
+[{ x: y }.length];
 ```
 
 ### Diagnostics

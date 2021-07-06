@@ -2261,12 +2261,7 @@ function f6(a) {}
 
 function f7(a) {}
 
-const obj = {
-    f1() {},
-    f2() {},
-    f3() {},
-    f4() {}
-  };
+const obj = { f1() {}, f2() {}, f3() {}, f4() {} };
 
 (function f() {})();
 

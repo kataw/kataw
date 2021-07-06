@@ -106,7 +106,7 @@ wrap({15:b});
 
 ```javascript
 
-wrap({15: b});
+wrap({ 15: b });
 ```
 
 ### Diagnostics

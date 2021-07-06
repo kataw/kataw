@@ -143,7 +143,7 @@
 
 ```javascript
 
-[{x: y}.length] = x;
+[{ x: y }.length] = x;
 ```
 
 ### Diagnostics

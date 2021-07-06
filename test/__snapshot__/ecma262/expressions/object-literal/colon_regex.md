@@ -86,7 +86,7 @@
 
 ```javascript
 
-({x: /foo/});
+({ x: /foo/ });
 ```
 
 ### Diagnostics

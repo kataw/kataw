@@ -207,9 +207,7 @@ const t = () => ({
 
 ```javascript
 
-const t = () => ({
-        v: (v) => v in z
-      });
+const t = () => ({ v: (v) => v in z });
 ```
 
 ### Diagnostics

@@ -131,7 +131,7 @@ x = {0xabc(){}}
 
 ```javascript
 
-x = {0xabc() {}};
+x = { 0xabc() {} };
 ```
 
 ### Diagnostics

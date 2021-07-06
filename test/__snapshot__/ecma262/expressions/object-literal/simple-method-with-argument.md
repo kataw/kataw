@@ -152,9 +152,7 @@ x = {
 
 ```javascript
 
-x = {
-  method(test) {}
-};
+x = { method(test) {} };
 ```
 
 ### Diagnostics

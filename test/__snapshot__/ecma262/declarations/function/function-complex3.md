@@ -938,19 +938,19 @@ function b1<A: 'a', B: A>(b: B): void {
 
 function c<X: T>(x: $Keys<X>) {
   switch (x) {
-    case '\'p\'':
+    case "'p'":
       break ;
-    case '\'q\'':
+    case "'q'":
       break ;
-    case '\'r\'':
+    case "'r'":
       break ;
   }
-  function a<A: '\'a\''>(a: A): void {
-    if (a === '\'a\'') {}
+  function a<A: "'a'">(a: A): void {
+    if (a === "'a'") {}
   }
 }
-function b1<A: '\'a\'', B: A>(b: B): void {
-  if (b === '\'b\'') {}
+function b1<A: "'a'", B: A>(b: B): void {
+  if (b === "'b'") {}
 }
 
 ```

@@ -1934,14 +1934,10 @@ const veryVeryVeryVeryVeryVeryVeryLong = doc.expandedStates[
   ];
 const small = doc.expandedStates[doc.expandedStates.length - 1];
 
-const promises = [
-    promise.resolve().then(console.log).catch(err => {
+const promises = [promise.resolve().then(console.log).catch(err => {
       console.log(err);
       return null;
-    }),
-    redis.fetch(),
-    other.fetch()
-  ];
+    }), redis.fetch(), other.fetch(),];
 
 const promises2 = [
     promise.resolve().veryLongFunctionCall().veryLongFunctionCall().then(
@@ -1951,23 +1947,29 @@ const promises2 = [
       return null;
     }),
     redis.fetch(),
-    other.fetch()
+    other.fetch(),,
   ];
 
 window.FooClient.setVars({
-  locale: getFooLocale({page}),
+  locale: getFooLocale({ page }),
   authorizationToken: data.token
-}).initVerify("\"foo_container\"");
+}).initVerify(
+  "\"foo_container\""
+);
 
 window.something.FooClient.setVars({
-  locale: getFooLocale({page}),
+  locale: getFooLocale({ page }),
   authorizationToken: data.token
-}).initVerify("\"foo_container\"");
+}).initVerify(
+  "\"foo_container\""
+);
 
 window.FooClient.something.setVars({
-  locale: getFooLocale({page}),
+  locale: getFooLocale({ page }),
   authorizationToken: data.token
-}).initVerify("\"foo_container\"");
+}).initVerify(
+  "\"foo_container\""
+);
 
 ```
 

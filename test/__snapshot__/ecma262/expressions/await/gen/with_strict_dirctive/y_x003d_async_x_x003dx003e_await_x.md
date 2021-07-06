@@ -132,7 +132,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 y = async x => await x;
 ```
 

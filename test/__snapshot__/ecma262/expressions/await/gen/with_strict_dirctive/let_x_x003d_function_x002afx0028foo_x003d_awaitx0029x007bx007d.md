@@ -174,7 +174,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 let x = function * f(foo = await) {};
 ```
 

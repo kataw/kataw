@@ -194,7 +194,7 @@
 
 ```javascript
 
-(function (obj) {}.apply(null, [{...null}]));
+(function (obj) {}.apply(null, [{ ...null }]));
 ```
 
 ### Diagnostics

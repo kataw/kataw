@@ -475,12 +475,15 @@ const bem = block =>
 
 ```javascript
 
-const bem = block => element => modifier => [
+const bem = block => element => modifier =>
+    [
       "\".\"",
       css(block),
       element ? `__${css(element)}` : "\"\"",
       modifier ? `--${css(modifier)}` : "\"\""
-    ].join("\"\"");
+    ].join(
+      "\"\""
+    );
 ```
 
 ### Diagnostics

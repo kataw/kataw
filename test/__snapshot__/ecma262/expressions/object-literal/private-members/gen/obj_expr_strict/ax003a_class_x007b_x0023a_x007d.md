@@ -152,10 +152,10 @@
 
 ```javascript
 
-'\'use strict\'';
-({a: class  {
+"'use strict'";
+({ a: class  {
       #a;
-    }});
+    } });
 ```
 
 ### Diagnostics

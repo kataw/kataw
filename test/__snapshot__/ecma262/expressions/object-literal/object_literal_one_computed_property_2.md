@@ -169,7 +169,7 @@ x({[a]:b, [15]:d}=obj);
 
 ```javascript
 
-x({[a]: b, [15]: d} = obj);
+x({ [a]: b, [15]: d } = obj);
 ```
 
 ### Diagnostics

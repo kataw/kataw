@@ -203,7 +203,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 await => async.await[async / ((async) => foo.bar)];
 ```
 

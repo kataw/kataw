@@ -122,7 +122,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 var e = (await, f);
 ```
 

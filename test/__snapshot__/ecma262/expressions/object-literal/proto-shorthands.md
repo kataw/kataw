@@ -79,7 +79,7 @@
 
 ```javascript
 
-({__proto__, __proto__});
+({ __proto__, __proto__ });
 ```
 
 ### Diagnostics

@@ -79,7 +79,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 {
   yield;
 }

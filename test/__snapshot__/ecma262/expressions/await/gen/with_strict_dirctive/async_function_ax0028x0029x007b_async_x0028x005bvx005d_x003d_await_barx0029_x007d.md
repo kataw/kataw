@@ -203,7 +203,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 async function a() {
   async([v] = await bar)
 }

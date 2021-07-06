@@ -156,7 +156,7 @@ x = { a: a + b instanceof c }
 
 ```javascript
 
-x = {a: a + b instanceof c};
+x = { a: a + b instanceof c };
 ```
 
 ### Diagnostics

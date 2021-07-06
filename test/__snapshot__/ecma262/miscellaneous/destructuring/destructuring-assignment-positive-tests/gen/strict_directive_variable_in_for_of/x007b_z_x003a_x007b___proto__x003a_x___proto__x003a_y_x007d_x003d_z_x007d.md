@@ -296,9 +296,9 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 var x, y, z;
-for ({z: {__proto__: x, __proto__: y} = z} of {});
+for ({ z: { __proto__: x, __proto__: y } = z } of {});
 
 ```
 

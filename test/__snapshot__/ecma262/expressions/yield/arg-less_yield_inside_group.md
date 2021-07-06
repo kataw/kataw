@@ -153,9 +153,9 @@
 
 ```javascript
 
-({* g1() {
+({ * g1() {
       (yield );
-    }});
+    } });
 ```
 
 ### Diagnostics

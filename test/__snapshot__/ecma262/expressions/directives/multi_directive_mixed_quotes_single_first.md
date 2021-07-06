@@ -63,7 +63,7 @@
 
 ```javascript
 
-'\'foo\'';
+"'foo'";
 "\"bar\"";
 
 ```

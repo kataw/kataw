@@ -208,7 +208,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 var f = async (x = function await() {}) => {};
 ```
 

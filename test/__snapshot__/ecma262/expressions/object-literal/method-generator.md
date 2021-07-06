@@ -131,7 +131,7 @@
 
 ```javascript
 
-({* bar(x) {}});
+({ * bar(x) {} });
 ```
 
 ### Diagnostics

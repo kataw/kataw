@@ -128,7 +128,7 @@ var {eval: x} = {};
 
 ```javascript
 
-var {eval: x} = {};
+var { eval: x } = {};
 ```
 
 ### Diagnostics

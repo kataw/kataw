@@ -134,7 +134,7 @@
 ```javascript
 
 {
-  (x = {[yield]: 1});
+  (x = { [yield]: 1 });
 }
 ```
 

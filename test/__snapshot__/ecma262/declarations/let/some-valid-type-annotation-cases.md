@@ -2404,10 +2404,10 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
 
 ```javascript
 
-let one: { x: '\'a\'', y: false, z: null };
+let one: { x: "'a'", y: false, z: null };
 let two: { foo(): void };
 
-let three: { ['\'x\'']: number };
+let three: { ["'x'"]: number };
 
 let five: { [string]: number };
 

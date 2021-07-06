@@ -163,8 +163,8 @@
 
 ```javascript
 
-'\'use strict\'';
-let {arguments: x, ...z} = {};
+"'use strict'";
+let { arguments: x, ...z } = {};
 ```
 
 ### Diagnostics

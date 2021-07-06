@@ -1057,26 +1057,26 @@ const { async = true } = x;
 
 ```javascript
 
-const a = function ({async = true}) {};
-const b = function ({async: bar}) {};
+const a = function ({ async = true }) {};
+const b = function ({ async: bar }) {};
 
-const c = async ({async: bar}) => {
+const c = async ({ async: bar }) => {
     await baz;
   };
 
-const d = async ({async = bar}) => {
+const d = async ({ async = bar }) => {
     await baz;
   };
 
-const e = async function ({async: bar}) {
+const e = async function ({ async: bar }) {
     await baz;
   };
 
-const f = async function ({async = bar}) {
+const f = async function ({ async = bar }) {
     await baz;
   };
 
-const {async = true} = x;
+const { async = true } = x;
 
 ```
 

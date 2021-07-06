@@ -227,8 +227,8 @@
 
 ```javascript
 
-({* method(public) {}});
-({method(protected) {}});
+({ * method(public) {} });
+({ method(protected) {} });
 
 ```
 

@@ -160,7 +160,7 @@ switch (a) { default: let {x} = y }
 
 switch (a) {
   default
-    let {x} = y;
+    let { x } = y;
 }
 ```
 

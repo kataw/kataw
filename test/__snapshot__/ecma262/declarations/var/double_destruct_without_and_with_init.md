@@ -144,7 +144,7 @@ var {x, y = z} = obj;
 
 ```javascript
 
-var {x, y = z} = obj;
+var { x, y = z } = obj;
 ```
 
 ### Diagnostics

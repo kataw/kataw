@@ -182,7 +182,7 @@ function *P(){
 ```javascript
 
 function * P() {
-  class D  extends {bar} {}
+  class D  extends { bar } {}
 }
 ```
 

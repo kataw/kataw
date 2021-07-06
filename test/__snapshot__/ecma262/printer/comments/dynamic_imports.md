@@ -277,16 +277,16 @@ wrap(
 
 ```javascript
 
-import('\'something\'');
-import('\'something\'');
+import("'something'");
+import("'something'");
 
-import('\'something\'');
+import("'something'");
 
-import('\'something\'' + '\'else\'');
+import("'something'" + "'else'");
 
-import('\'something\'');
+import("'something'");
 
-wrap(import('\'something\''));
+wrap(import("'something'"));
 
 ```
 

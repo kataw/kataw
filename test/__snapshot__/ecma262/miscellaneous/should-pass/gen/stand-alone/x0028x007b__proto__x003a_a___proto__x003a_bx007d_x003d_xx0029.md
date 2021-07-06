@@ -143,7 +143,7 @@
 
 ```javascript
 
-({__proto__: a, __proto__: b} = x);
+({ __proto__: a, __proto__: b } = x);
 ```
 
 ### Diagnostics

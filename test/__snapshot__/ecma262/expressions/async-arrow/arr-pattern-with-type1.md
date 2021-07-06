@@ -558,7 +558,7 @@ async ([[x]: string]) => {}
 
 async ([[x: string]: string]) => {}
 
-async ([{x}: string]) => {}
+async ([{ x }: string]) => {}
 
 ```
 

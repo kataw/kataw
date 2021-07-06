@@ -268,7 +268,7 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
 
 ```javascript
 
-var {x: y, z: {a: b}} = {x: "\"3\"", z: {a: "\"b\""}};
+var { x: y, z: { a: b } } = { x: "\"3\"", z: { a: "\"b\"" } };
 ```
 
 ### Diagnostics

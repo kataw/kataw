@@ -467,17 +467,11 @@ var v = {
 
 ```javascript
 
-var v = {
-    prop: 1,
-    func: function () {},
-    func1() {},
-    get a() {
+var v = { prop: 1, func: function () {}, func1() {}, get a() {
       return this.prop;
-    },
-    set a(value) {
+    }, set a(value) {
       this.prop = value;
-    }
-  };
+    } };
 ```
 
 ### Diagnostics

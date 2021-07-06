@@ -680,18 +680,18 @@
 
 ```javascript
 
-({* set() {}});
-({* get() {}});
+({ * set() {} });
+({ * get() {} });
 
-({* private() {}});
+({ * private() {} });
 
-({* readonly() {}});
+({ * readonly() {} });
 
-({* async() {}});
+({ * async() {} });
 
-({* function() {}});
+({ * function() {} });
 
-({* declare() {}});
+({ * declare() {} });
 
 ```
 

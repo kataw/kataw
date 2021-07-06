@@ -494,11 +494,11 @@ let tests = [
 ```javascript
 
 let tests = [
-    {...a, ...b},
-    {a, b, ...c},
-    {...a, b, c},
-    {a, ...b, c},
-    {a, b, ...c, ...d, e, f, ...g, ...h, i, j}
+    { ...a, ...b },
+    { a, b, ...c },
+    { ...a, b, c },
+    { a, ...b, c },
+    { a, b, ...c, ...d, e, f, ...g, ...h, i, j },,
   ];
 ```
 

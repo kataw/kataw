@@ -162,7 +162,7 @@ wrap({foo(a,b,c){}});
 
 ```javascript
 
-wrap({foo(a, b, c) {}});
+wrap({ foo(a, b, c) {} });
 ```
 
 ### Diagnostics

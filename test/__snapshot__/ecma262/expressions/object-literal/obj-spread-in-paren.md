@@ -221,8 +221,8 @@
 
 ```javascript
 
-({a, ...obj} = foo);
-({a: b, ...obj} = foo);
+({ a, ...obj } = foo);
+({ a: b, ...obj } = foo);
 
 ```
 

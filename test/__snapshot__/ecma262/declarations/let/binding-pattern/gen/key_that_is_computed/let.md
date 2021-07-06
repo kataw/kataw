@@ -127,7 +127,7 @@ let {[a]: c} = v
 
 ```javascript
 
-let {[a]: c} = v;
+let { [a]: c } = v;
 ```
 
 ### Diagnostics

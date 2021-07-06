@@ -164,7 +164,7 @@ result = [...{ x = yield }] = y;
 
 ```javascript
 
-result = [...{x = yield}] = y;
+result = [...{ x = yield }] = y;
 ```
 
 ### Diagnostics

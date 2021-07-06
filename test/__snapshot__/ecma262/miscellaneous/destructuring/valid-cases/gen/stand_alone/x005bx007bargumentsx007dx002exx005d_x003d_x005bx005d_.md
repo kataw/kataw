@@ -133,7 +133,7 @@
 
 ```javascript
 
-[{arguments}.x] = [];
+[{ arguments }.x] = [];
 ```
 
 ### Diagnostics

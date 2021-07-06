@@ -165,8 +165,8 @@
 
 ```javascript
 
-'\'use strict\'';
-var O = {async method() {}};
+"'use strict'";
+var O = { async method() {} };
 ```
 
 ### Diagnostics

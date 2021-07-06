@@ -160,7 +160,7 @@ function f({arguments: x, ...z}) {}
 
 ```javascript
 
-function f({arguments: x, ...z}) {}
+function f({ arguments: x, ...z }) {}
 ```
 
 ### Diagnostics

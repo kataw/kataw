@@ -171,7 +171,7 @@ for ({a: b.c}.foo of d) e
 
 ```javascript
 
-for ({a: b.c}.foo of d) e;
+for ({ a: b.c }.foo of d) e;
 ```
 
 ### Diagnostics

@@ -171,11 +171,9 @@ var x = {
 
 ```javascript
 
-var x = {
-    "\"foo\""() {
+var x = { "\"foo\""() {
       return bar;
-    }
-  };
+    } };
 ```
 
 ### Diagnostics

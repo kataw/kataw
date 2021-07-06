@@ -1363,7 +1363,7 @@ var x3: typeof Y = Y;
 
 var x4: typeof Y | number = Y;
 
-var {x5}: { x5: string } = {x5: "\"hello\""};
+var { x5 }: { x5: string } = { x5: "\"hello\"" };
 
 ```
 

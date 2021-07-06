@@ -150,10 +150,7 @@
 
 ```javascript
 
-const foo = {
-    a: '\'a\'',
-    b: '\'b\''
-  };
+const foo = { a: "'a'", b: "'b'" };
 ```
 
 ### Diagnostics

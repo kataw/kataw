@@ -104,8 +104,8 @@
 
 ```javascript
 
-'\'use strict\'';
-({await: async});
+"'use strict'";
+({ await: async });
 ```
 
 ### Diagnostics

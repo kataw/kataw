@@ -790,20 +790,20 @@ function z() {
 ```javascript
 
 function x() {
-  ('\'foo\'' in {});
-  ('\'foo\'' in {foo: null});
+  ("'foo'" in {});
+  ("'foo'" in { foo: null });
   (0 in {});
-  (0 in {"\"0\"": null});
+  (0 in { "\"0\"": null });
 }
 function y() {
-  ('\'foo\'' in []);
+  ("'foo'" in []);
   (0 in []);
-  ('\'length\'' in []);
+  ("'length'" in []);
 }
 
 function z() {
-  ('\'foo\'' in new String('\'bar\''));
-  ('\'foo\'' in new Number(123));
+  ("'foo'" in new String("'bar'"));
+  ("'foo'" in new Number(123));
 }
 
 ```

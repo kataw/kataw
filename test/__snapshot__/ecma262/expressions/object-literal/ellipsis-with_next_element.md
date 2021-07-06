@@ -109,7 +109,7 @@ x = {...y, b}
 
 ```javascript
 
-x = {...y, b};
+x = { ...y, b };
 ```
 
 ### Diagnostics

@@ -761,7 +761,7 @@
   });
 
 (function f() {
-    (({yield}) => {});
+    (({ yield }) => {});
   });
 
 (function f() {

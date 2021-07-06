@@ -968,7 +968,7 @@
 (class  {
     get #b() {}
     fn(obj) {
-      ({y: this.#b} = obj);
+      ({ y: this.#b } = obj);
     }
   });
 

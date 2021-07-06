@@ -143,7 +143,7 @@ const {[a.b]: c} = v
 
 ```javascript
 
-const {[a.b]: c} = v;
+const { [a.b]: c } = v;
 ```
 
 ### Diagnostics

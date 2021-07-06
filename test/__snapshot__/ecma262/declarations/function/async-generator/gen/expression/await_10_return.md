@@ -181,10 +181,10 @@
 
 ```javascript
 
-({async * gen() {
+({ async * gen() {
       await 10;
       return;
-    }});
+    } });
 ```
 
 ### Diagnostics

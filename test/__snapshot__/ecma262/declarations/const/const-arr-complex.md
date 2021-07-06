@@ -156,7 +156,7 @@ const arr = [0, ...[,,,]];
 
 ```javascript
 
-const arr = [0, ...[, , ]];
+const arr = [0, ...[, , ,]];
 ```
 
 ### Diagnostics

@@ -123,7 +123,7 @@ var x = y, {z};
 
 ```javascript
 
-var x = y, {z};
+var x = y, { z };
 ```
 
 ### Diagnostics

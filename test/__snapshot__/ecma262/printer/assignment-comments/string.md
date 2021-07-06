@@ -1949,64 +1949,64 @@ var fnString = // Comment
 
 ```javascript
 
-fnString = '\'some\'' + '\'long\'' + '\'string\'';
-fnString = '\'some\'' + '\'long\'' + '\'string\'';
+fnString = "'some'" + "'long'" + "'string'";
+fnString = "'some'" + "'long'" + "'string'";
 
-fnString = '\'some\'' + '\'long\'' + '\'string\'';
+fnString = "'some'" + "'long'" + "'string'";
 
-fnString = '\'some\'' + '\'long\'' + '\'string\'';
+fnString = "'some'" + "'long'" + "'string'";
 
-fnString = '\'some\'' + '\'long\'' + '\'string\'';
+fnString = "'some'" + "'long'" + "'string'";
 
 fnString =
 
-    '\'some\'' +
-    '\'long\'' +
-    '\'string\'' +
-    '\'some\'' +
-    '\'long\'' +
-    '\'string\'' +
-    '\'some\'' +
-    '\'long\'' +
-    '\'string\'' +
-    '\'some\'' +
-    '\'long\'' +
-    '\'string\''
+    "'some'" +
+    "'long'" +
+    "'string'" +
+    "'some'" +
+    "'long'" +
+    "'string'" +
+    "'some'" +
+    "'long'" +
+    "'string'" +
+    "'some'" +
+    "'long'" +
+    "'string'"
   ;
 
-fnString = '\'some\'' + '\'long\'' + '\'string\'';
+fnString = "'some'" + "'long'" + "'string'";
 
-fnString = '\'some\'' + '\'long\'' + '\'string\'';
+fnString = "'some'" + "'long'" + "'string'";
 
-fnString = '\'some\'' + '\'long\'' + '\'string\'';
+fnString = "'some'" + "'long'" + "'string'";
 
-var fnString = '\'some\'' + '\'long\'' + '\'string\'';
+var fnString = "'some'" + "'long'" + "'string'";
 
-var fnString = '\'some\'' + '\'long\'' + '\'string\'';
+var fnString = "'some'" + "'long'" + "'string'";
 
-var fnString = '\'some\'' + '\'long\'' + '\'string\'';
+var fnString = "'some'" + "'long'" + "'string'";
 
-var fnString = '\'some\'' + '\'long\'' + '\'string\'';
+var fnString = "'some'" + "'long'" + "'string'";
 
 var fnString =
 
-      '\'some\'' +
-      '\'long\'' +
-      '\'string\'' +
-      '\'some\'' +
-      '\'long\'' +
-      '\'string\'' +
-      '\'some\'' +
-      '\'long\'' +
-      '\'string\'' +
-      '\'some\'' +
-      '\'long\'' +
-      '\'string\''
+      "'some'" +
+      "'long'" +
+      "'string'" +
+      "'some'" +
+      "'long'" +
+      "'string'" +
+      "'some'" +
+      "'long'" +
+      "'string'" +
+      "'some'" +
+      "'long'" +
+      "'string'"
     ;
 
-var fnString = '\'some\'' + '\'long\'' + '\'string\'';
+var fnString = "'some'" + "'long'" + "'string'";
 
-var fnString = '\'some\'' + '\'long\'' + '\'string\'';
+var fnString = "'some'" + "'long'" + "'string'";
 
 ```
 

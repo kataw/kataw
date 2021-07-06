@@ -137,7 +137,7 @@ x= { *prototype(){} }
 
 ```javascript
 
-x = {* prototype() {}};
+x = { * prototype() {} };
 ```
 
 ### Diagnostics

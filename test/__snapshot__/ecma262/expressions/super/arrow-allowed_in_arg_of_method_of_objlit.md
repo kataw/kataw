@@ -224,9 +224,9 @@ x={ dsda(){ return (a=super[bar]) => a; }}
 
 ```javascript
 
-x = {dsda() {
+x = { dsda() {
     return (a = super[bar]) => a;
-  }};
+  } };
 ```
 
 ### Diagnostics

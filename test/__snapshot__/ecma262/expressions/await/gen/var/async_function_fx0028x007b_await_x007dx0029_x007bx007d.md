@@ -266,7 +266,7 @@ var await; var f = (async function() { async function f({ await }) {} });
 
 var await;
 var f = (async function () {
-      async function f({await}) {}
+      async function f({ await }) {}
     });
 
 ```

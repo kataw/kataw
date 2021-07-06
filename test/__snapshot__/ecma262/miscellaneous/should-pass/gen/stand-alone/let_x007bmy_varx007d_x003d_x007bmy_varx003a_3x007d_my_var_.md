@@ -153,7 +153,7 @@ let {my_var} = {my_var: 3}; my_var;
 
 ```javascript
 
-let {my_var} = {my_var: 3};
+let { my_var } = { my_var: 3 };
 my_var;
 
 ```

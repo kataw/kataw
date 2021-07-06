@@ -2670,27 +2670,27 @@ c */? foo : bar : bar;
 var inspect = 4 === util.inspect.length ? (function (v, colors) {
             return util.inspect(v, void 0, void 0, colors);
           }) : (function (v, colors) {
-            return util.inspect(v, {colors: colors});
+            return util.inspect(v, { colors: colors });
           });
 var inspect = 4 === util.inspect.length ? (function (v, colors) {
             return util.inspect(v, void 0, void 0, colors);
           }) : (function (v, colors) {
-            return util.inspect(v, {colors: colors});
+            return util.inspect(v, { colors: colors });
           });
 
 const extractTextPluginOptions = shouldUseRelativeAssetPaths
-    ? {publicPath: Array(cssFilename.split('\'/\'').length).join('\'../\'')}
+    ? { publicPath: Array(cssFilename.split("'/'").length).join("'../'") }
     : {};
 
 const extractTextPluginOptions2 = shouldUseRelativeAssetPaths
-    ? {publicPath: Array(cssFilename.split("\"/\"").length).join("\"../\"")}
+    ? { publicPath: Array(cssFilename.split("\"/\"").length).join("\"../\"") }
     : {};
 
 const extractTextPluginOptions3 = shouldUseRelativeAssetPaths
-    ? {publicPath: Array(cssFilename.split("\"/\"").length).join("\"../\"")}
+    ? { publicPath: Array(cssFilename.split("\"/\"").length).join("\"../\"") }
     : {};
 
-const {configureStore} =
+const { configureStore } =
     process.env.NODE_ENV === "\"production\""
       ? require("\"./configureProdStore\"")
       : require("\"./configureDevStore\"");

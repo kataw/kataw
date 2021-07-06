@@ -610,7 +610,7 @@ let {
     bottom: offsetBottom,
     left: offsetLeft,
     right: offsetRight,
-    top: offsetTop
+    top: offsetTop,
   } = getPressRectOffset == null ? DEFAULT_PRESS_RECT : getPressRectOffset();
 const {
     accessibilityModule: FooAccessibilityModule,
@@ -619,7 +619,7 @@ const {
     accessibilityModule: FooAccessibilityModule4,
   } = foo || {};
 
-({prop: toAssign = "\"default\""} = {prop: "\"propval\""});
+({ prop: toAssign = "\"default\"" } = { prop: "\"propval\"" });
 
 ```
 

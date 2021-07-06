@@ -145,7 +145,7 @@
 ```javascript
 
 "\"use strict\"";
-const {[eval]: []} = a;
+const { [eval]: [] } = a;
 ```
 
 ### Diagnostics

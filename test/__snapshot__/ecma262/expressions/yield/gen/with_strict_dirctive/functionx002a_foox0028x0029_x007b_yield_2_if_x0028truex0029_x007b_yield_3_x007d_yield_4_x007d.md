@@ -249,7 +249,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 function * foo() {
   yield 2;
   if (true) {

@@ -110,7 +110,7 @@ let z = {...x}
 
 ```javascript
 
-let z = {...x};
+let z = { ...x };
 ```
 
 ### Diagnostics

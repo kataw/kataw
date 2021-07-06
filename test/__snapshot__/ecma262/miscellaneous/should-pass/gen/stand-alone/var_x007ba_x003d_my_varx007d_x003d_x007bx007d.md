@@ -130,7 +130,7 @@ var {a = my_var} = {}
 
 ```javascript
 
-var {a = my_var} = {};
+var { a = my_var } = {};
 ```
 
 ### Diagnostics

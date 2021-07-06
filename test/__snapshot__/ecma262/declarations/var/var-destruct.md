@@ -138,7 +138,7 @@ var {[a]: [b]} = c
 
 ```javascript
 
-var {[a]: [b]} = c;
+var { [a]: [b] } = c;
 ```
 
 ### Diagnostics

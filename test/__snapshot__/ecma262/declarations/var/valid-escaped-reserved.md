@@ -285,9 +285,9 @@ var int\u0065rface = 1;
 ```javascript
 
 var impl\u0065ments = 1;
-var {impl\u0065ments} = {};
+var { impl\u0065ments } = {};
 
-var {int\u0065rface} = {};
+var { int\u0065rface } = {};
 
 var int\u0065rface = 1;
 

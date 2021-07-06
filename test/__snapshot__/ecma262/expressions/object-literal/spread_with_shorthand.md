@@ -84,7 +84,7 @@
 
 ```javascript
 
-({...obj});
+({ ...obj });
 ```
 
 ### Diagnostics

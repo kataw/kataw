@@ -121,7 +121,7 @@
 
 ```javascript
 
-({async await() {}});
+({ async await() {} });
 ```
 
 ### Diagnostics

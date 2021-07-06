@@ -160,10 +160,7 @@ const obj = {
 
 ```javascript
 
-const obj = {
-    async,
-    * generator() {}
-  };
+const obj = { async, * generator() {} };
 ```
 
 ### Diagnostics

@@ -288,7 +288,7 @@ x(function (other) { return other });
 ```javascript
 
 var x = function (foo) {
-    return '\'foo\'' + '\'bar\'';
+    return "'foo'" + "'bar'";
   };
 x(function (other) {
   return other;

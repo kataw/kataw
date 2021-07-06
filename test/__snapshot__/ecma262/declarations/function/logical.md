@@ -14152,19 +14152,19 @@ function logical19b(x: { y: string, z: boolean }): boolean {
 
 function logical1a(): number {
   var x = false;
-  return x && '\'123\'';
+  return x && "'123'";
 }
 function logical1b(): string {
   var x = true;
-  return x && '\'123\'';
+  return x && "'123'";
 }
 
 function logical2a(): number {
-  return false && '\'123\'';
+  return false && "'123'";
 }
 
 function logical2b(): number {
-  return 0 && '\'123\'';
+  return 0 && "'123'";
 }
 
 function logical2c(): string {
@@ -14173,35 +14173,35 @@ function logical2c(): string {
 
 function logical2d(): string {
   return;
-  true && '\'123\'';
+  true && "'123'";
 }
 
 function logical2e(): number {
-  return '\'foo\'' && 123;
+  return "'foo'" && 123;
 }
 
 function logical2f(): string {
-  return 123 && '\'foo\'';
+  return 123 && "'foo'";
 }
 
 function logical2g(): string {
-  return [1, 2, 3] && '\'foo\'';
+  return [1, 2, 3] && "'foo'";
 }
 
 function logical2h(x: { a: number }): string {
-  return x && '\'foo\'';
+  return x && "'foo'";
 }
 
 function logical2i(x: Object): string {
-  return x && '\'foo\'';
+  return x && "'foo'";
 }
 
 function logical2j(x: (a: number) =>  number): string {
-  return x && '\'foo\'';
+  return x && "'foo'";
 }
 
 function logical2k(x: Function): string {
-  return x && '\'foo\'';
+  return x && "'foo'";
 }
 
 function logical3a(): string {
@@ -14220,7 +14220,7 @@ function logical3c(): ? number {
 }
 
 function logical4(x: boolean): string {
-  return x && '\'123\'';
+  return x && "'123'";
 }
 
 function logical5a(): number {
@@ -14239,11 +14239,11 @@ function logical5c(): string {
 }
 
 function logical6a(): string {
-  return false || '\'123\'';
+  return false || "'123'";
 }
 
 function logical6b(): string {
-  return 0 || '\'123\'';
+  return 0 || "'123'";
 }
 
 function logical6c(): number {
@@ -14252,15 +14252,15 @@ function logical6c(): number {
 
 function logical6d(): number {
   return;
-  true || '\'123\'';
+  true || "'123'";
 }
 
 function logical6e(): string {
-  return '\'foo\'' || 123;
+  return "'foo'" || 123;
 }
 
 function logical6f(): number {
-  return 123 || '\'foo\'';
+  return 123 || "'foo'";
 }
 
 function logical7a(): number {
@@ -14277,41 +14277,41 @@ function logical7c(x: string): number {
 }
 
 function logical7d(x: number): string {
-  return x && '\'foo\'' || '\'bar\'';
+  return x && "'foo'" || "'bar'";
 }
 
 function logical7e(x: number): string {
-  return false && x || '\'bar\'';
+  return false && x || "'bar'";
 }
 
 function logical8a(): number {
   var x = false;
-  return (x || 0) && '\'foo\'';
+  return (x || 0) && "'foo'";
 }
 
 function logical8b(): string {
   var x = false;
-  return (x || 1) && '\'foo\'';
+  return (x || 1) && "'foo'";
 }
 
 function logical8c(): string {
   var x = true;
-  return (x || 1) && '\'foo\'';
+  return (x || 1) && "'foo'";
 }
 
 function logical8d(): number {
   var x = false;
-  return x || (0 && '\'foo\'');
+  return x || (0 && "'foo'");
 }
 
 function logical8e(): string {
   var x = false;
-  return x || (1 && '\'foo\'');
+  return x || (1 && "'foo'");
 }
 
 function logical8f(): string {
   var x = true;
-  return x || (1 && '\'foo\'');
+  return x || (1 && "'foo'");
 }
 
 function logical9a(x: number, y: string): number | string {
@@ -14323,7 +14323,7 @@ function logical9b(x: number, y: string): number | string {
 }
 
 function logical9c(x: number, y: boolean): string {
-  return '\'a\'' || x || y;
+  return "'a'" || x || y;
 }
 
 function logical10a(x: number, y: string): number | string {
@@ -14372,27 +14372,27 @@ function logical12b(y: number): number {
 
 function logical13(x: number): Array<{ x: string }> {
   return [
-    {x: x && "\"bar\""},
-    {x: true && "\"bar\""},
-    {x: true && false},
-    {x: false && false},
-    {x: 1 && "\"bar\""},
-    {x: "\"foo\"" && "\"bar\""},
-    {x: "\"foo\"" && "\"bar\""},
-    {x: "\"foo\"" && "\"bar\""}
+    { x: x && "\"bar\"" },
+    { x: true && "\"bar\"" },
+    { x: true && false },
+    { x: false && false },
+    { x: 1 && "\"bar\"" },
+    { x: "\"foo\"" && "\"bar\"" },
+    { x: "\"foo\"" && "\"bar\"" },
+    { x: "\"foo\"" && "\"bar\"" },,
   ];
 }
 
 function logical14(x: number): Array<{ x: string }> {
   return [
-    {x: x || "\"bar\""},
-    {x: false || "\"bar\""},
-    {x: false || true},
-    {x: true || false},
-    {x: 0 || "\"bar\""},
-    {x: "\"foo\"" || "\"bar\""},
-    {x: "\"foo\"" || "\"bar\""},
-    {x: "\"foo\"" || "\"bar\""}
+    { x: x || "\"bar\"" },
+    { x: false || "\"bar\"" },
+    { x: false || true },
+    { x: true || false },
+    { x: 0 || "\"bar\"" },
+    { x: "\"foo\"" || "\"bar\"" },
+    { x: "\"foo\"" || "\"bar\"" },
+    { x: "\"foo\"" || "\"bar\"" },,
   ];
 }
 

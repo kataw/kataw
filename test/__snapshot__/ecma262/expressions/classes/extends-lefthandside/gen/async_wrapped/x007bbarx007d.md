@@ -182,7 +182,7 @@ async function p(){
 ```javascript
 
 async function p() {
-  class C  extends {bar} {}
+  class C  extends { bar } {}
 }
 ```
 

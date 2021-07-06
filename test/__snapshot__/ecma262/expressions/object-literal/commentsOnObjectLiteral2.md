@@ -250,11 +250,9 @@ var Person = makeClass(
 
 ```javascript
 
-var Person = makeClass({
-    initialize: function (name) {
+var Person = makeClass({ initialize: function (name) {
       this.name = name;
-    }
-  });
+    } });
 ```
 
 ### Diagnostics

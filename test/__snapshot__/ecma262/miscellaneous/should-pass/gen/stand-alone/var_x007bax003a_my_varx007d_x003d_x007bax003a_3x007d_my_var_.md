@@ -171,7 +171,7 @@ var {a: my_var} = {a: 3}; my_var;
 
 ```javascript
 
-var {a: my_var} = {a: 3};
+var { a: my_var } = { a: 3 };
 my_var;
 
 ```

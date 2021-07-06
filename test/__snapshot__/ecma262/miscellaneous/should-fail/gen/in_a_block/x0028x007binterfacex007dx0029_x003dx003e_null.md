@@ -121,7 +121,7 @@
 ```javascript
 
 {
-  ({interface}) => null;
+  ({ interface }) => null;
 }
 ```
 

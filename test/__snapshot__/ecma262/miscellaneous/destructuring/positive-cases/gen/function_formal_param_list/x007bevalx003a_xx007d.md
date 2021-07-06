@@ -134,7 +134,7 @@ function f({eval: x}) {}
 
 ```javascript
 
-function f({eval: x}) {}
+function f({ eval: x }) {}
 ```
 
 ### Diagnostics

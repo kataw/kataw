@@ -200,7 +200,7 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
 
 function * gf() {
   switch (1) {
-    case yield * '\'foo\'':
+    case yield * "'foo'":
       break ;
   }
 }

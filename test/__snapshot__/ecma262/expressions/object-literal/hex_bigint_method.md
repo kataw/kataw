@@ -131,7 +131,7 @@ x = {0xeban(){}}
 
 ```javascript
 
-x = {0xeban() {}};
+x = { 0xeban() {} };
 ```
 
 ### Diagnostics

@@ -1402,43 +1402,35 @@ function targetKey() {
 var log = [];
 function source() {
   log.push("\"source\"");
-  return {
-    get p() {
+  return { get p() {
       log.push("\"get\"");
-    }
-  };
+    } };
 }
 
 function target() {
   log.push("\"target\"");
-  return {
-    set q(v) {
+  return { set q(v) {
       log.push("\"set\"");
-    }
-  };
+    } };
 }
 
 function sourceKey() {
   log.push("\"source-key\"");
-  return {
-    toString: function () {
+  return { toString: function () {
       log.push("\"source-key-tostring\"");
       return "\"p\"";
-    }
-  };
+    } };
 }
 
 function targetKey() {
   log.push("\"target-key\"");
-  return {
-    toString: function () {
+  return { toString: function () {
       log.push("\"target-key-tostring\"");
       return "\"q\"";
-    }
-  };
+    } };
 }
 
-({[sourceKey()]: target()[targetKey()]} = source());
+({ [sourceKey()]: target()[targetKey()] } = source());
 
 ```
 

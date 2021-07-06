@@ -152,7 +152,7 @@ for (let {a, [x]: y} = a;;);
 
 ```javascript
 
-for (let {a, [x]: y} = a; ; );
+for (let { a, [x]: y } = a; ; );
 ```
 
 ### Diagnostics

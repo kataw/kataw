@@ -792,7 +792,7 @@ async function f2() {
 ```javascript
 
 async function f() {
-  const result = typeof fn === '\'function\'' ? await fn() : null;
+  const result = typeof fn === "'function'" ? await fn() : null;
 }
 (async function () {
     console.log(

@@ -360,7 +360,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
 
 async function f() {
   async function f() {
-    (a = {[await foo]() {}, "\"x\""() {}}) => a;
+    (a = { [await foo]() {}, "\"x\""() {} }) => a;
   }
 }
 ```

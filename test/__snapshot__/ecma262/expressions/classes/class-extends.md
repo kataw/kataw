@@ -1366,25 +1366,25 @@
 
 (class name  extends class base {} {});
 
-'\'use strict\'';
+"'use strict'";
 
 {
   class name  extends F {}
 }
 
-'\'use strict\'';
+"'use strict'";
 
 {
   class name  extends (F, G) {}
 }
 
-'\'use strict\'';
+"'use strict'";
 
 {
   class name  extends class  {} {}
 }
 
-'\'use strict\'';
+"'use strict'";
 
 {
   class name  extends class base {} {}

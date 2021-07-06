@@ -236,9 +236,9 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 let x, y, z;
-for (x of {x, y, z} = {});
+for (x of { x, y, z } = {});
 
 ```
 

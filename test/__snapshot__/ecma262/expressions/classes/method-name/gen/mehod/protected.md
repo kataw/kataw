@@ -141,7 +141,7 @@
 
 ```javascript
 
-({protected(x, y) {}});
+({ protected(x, y) {} });
 ```
 
 ### Diagnostics

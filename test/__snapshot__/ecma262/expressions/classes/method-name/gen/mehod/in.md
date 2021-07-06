@@ -141,7 +141,7 @@
 
 ```javascript
 
-({in(x, y) {}});
+({ in(x, y) {} });
 ```
 
 ### Diagnostics

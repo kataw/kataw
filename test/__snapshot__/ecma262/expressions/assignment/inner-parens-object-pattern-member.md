@@ -178,7 +178,7 @@
 
 ```javascript
 
-({a: (foo.qux)} = {}) => {};
+({ a: (foo.qux) } = {}) => {};
 ```
 
 ### Diagnostics

@@ -121,7 +121,7 @@
 
 ```javascript
 
-({async typeof() {}});
+({ async typeof() {} });
 ```
 
 ### Diagnostics

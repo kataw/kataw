@@ -160,7 +160,7 @@ function f({ __proto__: x, __proto__: y}) {}
 
 ```javascript
 
-function f({__proto__: x, __proto__: y}) {}
+function f({ __proto__: x, __proto__: y }) {}
 ```
 
 ### Diagnostics

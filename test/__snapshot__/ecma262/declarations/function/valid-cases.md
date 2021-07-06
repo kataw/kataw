@@ -4621,7 +4621,7 @@ function f(arg) {
 
 function f(arg) {
   g(arg);
-  eval('\'arg = 42\'');
+  eval("'arg = 42'");
   g(arg);
 }
 
@@ -4655,7 +4655,7 @@ function f(arg) {
   g(arg);
 }
 
-function f(arg, {a = (g(arg), arg = 42)}) {
+function f(arg, { a = (g(arg), arg = 42) }) {
   g(arg);
 }
 
@@ -4675,13 +4675,13 @@ function f(arg) {
 
 function f(arg) {
   g(arg);
-  g(() => eval('\'arg = 42\''));
+  g(() => eval("'arg = 42'"));
   g(arg);
 }
 
 function f(...arg) {
   g(arg);
-  eval('\'arg = 42\'');
+  eval("'arg = 42'");
   g(arg);
 }
 
@@ -4699,7 +4699,7 @@ function f(arg) {
 
 function f(arg) {
   g(arg);
-  eval('\'arguments[0] = 42\'');
+  eval("'arguments[0] = 42'");
   g(arg);
 }
 
@@ -4709,9 +4709,9 @@ function f(arg) {
   g(arg);
 }
 
-function f({x: arg = 1}, {y: b = (arg = 2)}) {}
+function f({ x: arg = 1 }, { y: b = (arg = 2) }) {}
 
-function f({x: arg = (arg = 2)}) {}
+function f({ x: arg = (arg = 2) }) {}
 
 ```
 

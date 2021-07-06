@@ -209,7 +209,7 @@ async function * gen() {yield await 10; return 20; yield 'dead'}
 async function * gen() {
   yield await 10;
   return 20;
-  yield '\'dead\'';
+  yield "'dead'";
 }
 ```
 

@@ -189,7 +189,7 @@ result = { x: arrow = () => {} } = {};
 
 ```javascript
 
-result = {x: arrow = () => {}} = {};
+result = { x: arrow = () => {} } = {};
 ```
 
 ### Diagnostics

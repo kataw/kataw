@@ -5425,11 +5425,11 @@ b = !x instanceof Number;
 
 c = !(x instanceof Number);
 
-d = typeof a === '\'boolean\'';
+d = typeof a === "'boolean'";
 
-e = !typeof a === '\'boolean\'';
+e = !typeof a === "'boolean'";
 
-f = !(typeof a === '\'boolean\'');
+f = !(typeof a === "'boolean'");
 
 f = typeof (() => {});
 
@@ -5441,7 +5441,7 @@ c = new x.A().toString();
 
 d = new x.y().z();
 
-var r = (/ab+c/i).exec('\'abc\'');
+var r = (/ab+c/i).exec("'abc'");
 
 a = b ** 2 * 3;
 

@@ -201,10 +201,7 @@ class Foo {
 ```javascript
 
 class Foo {
-  @ deco([
-    foo,
-    bar
-  ]) prop = value;;
+  @ deco([foo, bar]) prop = value;;
 }
 ```
 

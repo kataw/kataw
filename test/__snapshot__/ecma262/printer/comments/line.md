@@ -638,10 +638,7 @@ function g() {
     default
       break ;
   }
-  var point = {
-      x: 0,
-      y: 1
-    };
+  var point = { x: 0, y: 1 };
   var object = {};
   instruction6;
   instruction7;

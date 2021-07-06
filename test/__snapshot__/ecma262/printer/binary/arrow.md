@@ -1048,14 +1048,12 @@ function f2() {
       entity.isInstallAvailable() &&
       !entity.isQueue() &&
       entity.isDisabled() &&
-      {
-        id: entity.id
-      });
+      { id: entity.id });
 }
 
-((x) => x) + '\'\'';
+((x) => x) + "''";
 
-'\'\'' + ((x) => x);
+"''" + ((x) => x);
 
 ```
 

@@ -168,7 +168,7 @@ var foo = ( { title, ...other } ) => {
 
 ```javascript
 
-var foo = ({title, ...other}) => {};
+var foo = ({ title, ...other }) => {};
 ```
 
 ### Diagnostics

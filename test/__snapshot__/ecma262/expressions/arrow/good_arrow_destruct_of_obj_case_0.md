@@ -149,7 +149,7 @@
 
 ```javascript
 
-({a: b, ...obj}) => {};
+({ a: b, ...obj }) => {};
 ```
 
 ### Diagnostics

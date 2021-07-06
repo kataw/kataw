@@ -131,7 +131,7 @@
 
 ```javascript
 
-({set async(x) {}});
+({ set async(x) {} });
 ```
 
 ### Diagnostics

@@ -212,10 +212,10 @@
 
 ```javascript
 
-({async * gen() {
+({ async * gen() {
       await (yield 10);
       return 20;
-    }});
+    } });
 ```
 
 ### Diagnostics

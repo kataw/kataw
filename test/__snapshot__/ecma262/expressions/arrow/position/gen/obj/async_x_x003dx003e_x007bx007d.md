@@ -149,7 +149,7 @@ x = {arrow: async x => {}}
 
 ```javascript
 
-x = {arrow: async x => {}};
+x = { arrow: async x => {} };
 ```
 
 ### Diagnostics

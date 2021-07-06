@@ -204,7 +204,7 @@ var x, y, z; ({ x, y, z } = {});
 ```javascript
 
 var x, y, z;
-({x, y, z} = {});
+({ x, y, z } = {});
 
 ```
 

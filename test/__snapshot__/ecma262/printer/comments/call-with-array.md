@@ -140,7 +140,7 @@ const obsever = mockReducersAndSomething(
 
 ```javascript
 
-const obsever = mockReducersAndSomething(true, true, ['\'reducer\'']);
+const obsever = mockReducersAndSomething(true, true, ["'reducer'"]);
 ```
 
 ### Diagnostics

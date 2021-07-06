@@ -147,7 +147,7 @@
 
 ```javascript
 
-({* async(x, y) {}});
+({ * async(x, y) {} });
 ```
 
 ### Diagnostics

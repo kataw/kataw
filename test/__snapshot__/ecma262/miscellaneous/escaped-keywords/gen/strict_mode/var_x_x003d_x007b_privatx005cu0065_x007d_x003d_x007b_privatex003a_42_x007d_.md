@@ -161,7 +161,7 @@ var x = { privat\u0065 } = { private: 42 };
 
 ```javascript
 
-var x = {privat\u0065} = {private: 42};
+var x = { privat\u0065 } = { private: 42 };
 ```
 
 ### Diagnostics

@@ -155,7 +155,7 @@ var O = { *async method() {} };
 
 ```javascript
 
-var O = {async method() {}};
+var O = { async method() {} };
 ```
 
 ### Diagnostics

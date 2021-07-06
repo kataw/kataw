@@ -1355,9 +1355,9 @@ function let(let) {
   let:  let(let + let(0));
 }
 
-({let: 1})({get let() {
+({ let: 1 })({ get let() {
     1;
-  }});
+  } });
 
 let(100);
 

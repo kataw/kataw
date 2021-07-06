@@ -157,8 +157,8 @@
 
 ```javascript
 
-'\'use strict\'';
-({* await(x, y) {}});
+"'use strict'";
+({ * await(x, y) {} });
 ```
 
 ### Diagnostics

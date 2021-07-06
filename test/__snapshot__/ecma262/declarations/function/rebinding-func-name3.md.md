@@ -174,9 +174,9 @@ x={f(){ var f }}
 
 ```javascript
 
-x = {f() {
+x = { f() {
     var f;
-  }};
+  } };
 ```
 
 ### Diagnostics

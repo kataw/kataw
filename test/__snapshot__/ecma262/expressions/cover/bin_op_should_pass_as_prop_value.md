@@ -136,7 +136,7 @@
 
 ```javascript
 
-({ident: [foo, bar] + x});
+({ ident: [foo, bar] + x });
 ```
 
 ### Diagnostics

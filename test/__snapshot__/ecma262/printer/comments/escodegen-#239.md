@@ -215,7 +215,7 @@ function test() {
 
 function test() {
   var x = "\"a\"";
-  var y = '\'a\'' + '\'b\'';
+  var y = "'a'" + "'b'";
 }
 ```
 

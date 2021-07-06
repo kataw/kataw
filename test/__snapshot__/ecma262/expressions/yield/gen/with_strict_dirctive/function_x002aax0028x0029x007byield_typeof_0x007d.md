@@ -153,7 +153,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 function * a() {
   yield typeof 0;
 }

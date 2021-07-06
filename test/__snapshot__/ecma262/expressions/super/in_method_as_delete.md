@@ -176,9 +176,9 @@ x = { foo(){ delete super[foo]; }}
 
 ```javascript
 
-x = {foo() {
+x = { foo() {
     delete super[foo];
-  }};
+  } };
 ```
 
 ### Diagnostics

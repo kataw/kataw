@@ -2015,40 +2015,42 @@ class A {
 const [one, two = null, three = null] = arr;
 a = ([s = 1,]) => 1;
 
-const {children, ...props} = this.props;
+const { children, ...props } = this.props;
 
-const {user: {firstName, lastName}} = this.props;
+const { user: { firstName, lastName } } = this.props;
 
 const {
-    name: {first, last},
-    organisation: {address: {street: orgStreetAddress, postcode: orgPostcode}}
+    name: { first, last },
+    organisation: {
+      address: { street: orgStreetAddress, postcode: orgPostcode }
+    }
   } = user;
 
-function f({data: {name}}) {}
+function f({ data: { name } }) {}
 
 const UserComponent = function ({
-    name: {first, last},
-    organisation: {address: {street: orgStreetAddress, postcode: orgPostcode}}
+    name: { first, last },
+    organisation: {
+      address: { street: orgStreetAddress, postcode: orgPostcode }
+    },
   }) {
     return;
   };
 
-const {a, b, c, d: {e}} = someObject;
+const { a, b, c, d: { e } } = someObject;
 
-try {} catch ({data: {message}}) {}
+try {} catch ({ data: { message } }) {}
 
-try {} catch ({data: {message: {errors}}}) {}
+try {} catch ({ data: { message: { errors } } }) {}
 
-const obj = {
-    func(id, {blog: {title}}) {
+const obj = { func(id, { blog: { title } }) {
       return id + title;
-    }
-  };
+    } };
 
 class A {
   func(
     id,
-    {blog: {title}}
+    { blog: { title } }
   ) {
     return id + title;
   }

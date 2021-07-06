@@ -534,7 +534,7 @@
 
 ([[x: string]: string]) => {};
 
-([{x}: string]) => {};
+([{ x }: string]) => {};
 
 ```
 

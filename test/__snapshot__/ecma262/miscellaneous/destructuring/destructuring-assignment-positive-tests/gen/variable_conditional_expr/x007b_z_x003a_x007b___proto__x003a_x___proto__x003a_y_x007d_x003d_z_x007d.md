@@ -361,7 +361,7 @@ var x, y, z; m(['b']) ? lhs : { z : { __proto__: x, __proto__: y } = z } = {}
 ```javascript
 
 var x, y, z;
-m(['\'b\'']) ? lhs : {z: {__proto__: x, __proto__: y} = z} = {};
+m(["'b'"]) ? lhs : { z: { __proto__: x, __proto__: y } = z } = {};
 
 ```
 

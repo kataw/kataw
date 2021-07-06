@@ -290,10 +290,10 @@ let {d //comment
 
 ```javascript
 
-const {a = 1} = b;
-const {c = 1} = d;
+const { a = 1 } = b;
+const { c = 1 } = d;
 
-let {d = b} = c;
+let { d = b } = c;
 
 ```
 

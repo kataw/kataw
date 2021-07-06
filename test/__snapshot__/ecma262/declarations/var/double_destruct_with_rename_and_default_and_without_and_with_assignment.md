@@ -201,7 +201,7 @@ var {x:y=z}, {a:b=c} = obj;
 
 ```javascript
 
-var {x: y = z}, {a: b = c} = obj;
+var { x: y = z }, { a: b = c } = obj;
 ```
 
 ### Diagnostics

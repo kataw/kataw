@@ -1244,36 +1244,20 @@ const foo3 = 123
 
 ```javascript
 
-let obj1 = {
-    key: '\'val\''
-  };
-let obj2 = {
-    key: '\'val\''
-  };
+let obj1 = { key: "'val'" };
+let obj2 = { key: "'val'" };
 
-let obj3 = {
-    key: '\'val\''
-  };
+let obj3 = { key: "'val'" };
 
-let obj4 = {
-    key: '\'val\''
-  };
+let obj4 = { key: "'val'" };
 
-let obj5 = [
-    '\'val\''
-  ];
+let obj5 = ["'val'"];
 
-let obj6 = [
-    '\'val\''
-  ];
+let obj6 = ["'val'"];
 
-let obj7 = [
-    '\'val\''
-  ];
+let obj7 = ["'val'"];
 
-let obj8 = [
-    '\'val\''
-  ];
+let obj8 = ["'val'"];
 
 let obj9 = `val`;
 
@@ -1289,9 +1273,9 @@ val
 val
 `;
 
-let foo1 = '\'val\'';
+let foo1 = "'val'";
 
-let foo2 = '\'val\'', bar = '\'val\'';
+let foo2 = "'val'", bar = "'val'";
 
 const foo3 = 123;
 ["\"2\"", "\"3\""].forEach(x => console.log(x));

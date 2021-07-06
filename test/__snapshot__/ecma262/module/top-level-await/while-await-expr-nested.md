@@ -301,7 +301,7 @@ while (await await await await await await await await await await await await a
 ```javascript
 
 while (
-  await await await await await await await await await await await await await await await '\'await\''
+  await await await await await await await await await await await await await await await "'await'"
 )
   {
     break ;

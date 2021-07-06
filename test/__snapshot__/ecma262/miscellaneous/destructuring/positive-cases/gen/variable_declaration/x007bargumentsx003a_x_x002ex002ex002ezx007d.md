@@ -154,7 +154,7 @@ var {arguments: x, ...z} = {};
 
 ```javascript
 
-var {arguments: x, ...z} = {};
+var { arguments: x, ...z } = {};
 ```
 
 ### Diagnostics

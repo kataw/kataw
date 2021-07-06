@@ -157,8 +157,8 @@
 
 ```javascript
 
-'\'use strict\'';
-({* break(x, y) {}});
+"'use strict'";
+({ * break(x, y) {} });
 ```
 
 ### Diagnostics

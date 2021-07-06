@@ -161,7 +161,7 @@ function *g() { yield {...(x),}}
 ```javascript
 
 function * g() {
-  yield {...(x)};
+  yield { ...(x) };
 }
 ```
 

@@ -176,7 +176,7 @@ x = { "a": {x} = y.z };
 
 ```javascript
 
-x = {"\"a\"": {x} = y.z};
+x = { "\"a\"": { x } = y.z };
 ```
 
 ### Diagnostics

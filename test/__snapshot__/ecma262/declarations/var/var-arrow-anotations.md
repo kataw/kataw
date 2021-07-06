@@ -2851,9 +2851,9 @@ var a: { param1: number, param2? : string };
 
 var [x]: Array<string> = ["\"hello\""];
 
-var {x}: { x: string } = {x: "\"hello\""};
+var { x }: { x: string } = { x: "\"hello\"" };
 
-var {x}: { x: string } = {x: "\"hello\""};
+var { x }: { x: string } = { x: "\"hello\"" };
 
 var a: ? { numVal: number };
 

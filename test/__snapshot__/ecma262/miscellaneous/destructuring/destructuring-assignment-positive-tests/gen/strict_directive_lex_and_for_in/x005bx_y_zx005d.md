@@ -281,7 +281,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 let x, y, z;
 for (x in x = [x, y, z] = z = {});
 

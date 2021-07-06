@@ -227,7 +227,7 @@ async function f(){
 ```javascript
 
 async function f() {
-  for await ([{x = y}] = x of x);
+  for await ([{ x = y }] = x of x);
 }
 ```
 

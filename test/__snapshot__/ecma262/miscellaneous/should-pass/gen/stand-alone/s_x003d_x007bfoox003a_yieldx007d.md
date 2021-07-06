@@ -110,7 +110,7 @@ s = {foo: yield}
 
 ```javascript
 
-s = {foo: yield};
+s = { foo: yield };
 ```
 
 ### Diagnostics

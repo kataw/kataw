@@ -166,7 +166,7 @@ try {} catch({arguments: x, ...z}) {}
 
 ```javascript
 
-try {} catch ({arguments: x, ...z}) {}
+try {} catch ({ arguments: x, ...z }) {}
 ```
 
 ### Diagnostics

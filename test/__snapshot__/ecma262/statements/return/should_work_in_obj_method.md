@@ -131,9 +131,9 @@
 
 ```javascript
 
-({foo() {
+({ foo() {
       return;
-    }});
+    } });
 ```
 
 ### Diagnostics

@@ -123,7 +123,7 @@
 
 ```javascript
 
-({...a[x]} = x);
+({ ...a[x] } = x);
 ```
 
 ### Diagnostics

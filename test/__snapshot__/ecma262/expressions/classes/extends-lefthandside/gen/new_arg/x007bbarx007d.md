@@ -85,7 +85,7 @@ new {bar}
 
 ```javascript
 
-new {bar};
+new { bar };
 ```
 
 ### Diagnostics

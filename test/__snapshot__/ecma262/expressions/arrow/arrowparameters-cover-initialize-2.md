@@ -152,7 +152,7 @@ var af = ({x = 1}) => x;
 
 ```javascript
 
-var af = ({x = 1}) => x;
+var af = ({ x = 1 }) => x;
 ```
 
 ### Diagnostics

@@ -6525,7 +6525,7 @@ switch (x) {
 
 switch (x) {
   case y:
-    x = {...x};
+    x = { ...x };
 }
 
 switch (x) {
@@ -6550,12 +6550,12 @@ switch (x) {
     foo ? 1 : (x) => {};
 }
 
-switch ({x: y}) {
+switch ({ x: y }) {
   case y:
     [...a];
 }
 
-switch ({x: y}) {
+switch ({ x: y }) {
   case y:
     [...a] = b;
 }

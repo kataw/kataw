@@ -441,14 +441,14 @@
 
 ```javascript
 
-({set x(foo) {}});
-({get x() {
+({ set x(foo) {} });
+({ get x() {
       return 1;
-    }});
+    } });
 
-({set x(a) {}});
+({ set x(a) {} });
 
-({get x() {}});
+({ get x() {} });
 
 ```
 

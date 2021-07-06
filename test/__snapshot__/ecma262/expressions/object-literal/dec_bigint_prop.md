@@ -103,7 +103,7 @@ x = {10n: y}
 
 ```javascript
 
-x = {10n: y};
+x = { 10n: y };
 ```
 
 ### Diagnostics

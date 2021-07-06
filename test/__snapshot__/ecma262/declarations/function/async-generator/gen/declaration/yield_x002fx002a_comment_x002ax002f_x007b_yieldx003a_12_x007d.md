@@ -172,7 +172,7 @@ async function * gen() {yield /* comment */ { yield: 12 }}
 ```javascript
 
 async function * gen() {
-  yield {yield: 12};
+  yield { yield: 12 };
 }
 ```
 

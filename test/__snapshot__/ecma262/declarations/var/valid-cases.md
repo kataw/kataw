@@ -1979,11 +1979,11 @@ var x = 4;
 
 var x = 5;
 
-var {x} = {x: 4, b: (x = 5)};
+var { x } = { x: 4, b: (x = 5) };
 
-var x = {a: 4, b: (x = 5)};
+var x = { a: 4, b: (x = 5) };
 
-'\'use strict\'';
+"'use strict'";
 
 var x = 0;
 
@@ -1997,9 +1997,9 @@ try {} catch (x) {
   x = 5;
 }
 
-var f = ({x: arg = 1}, {y: b = (arg = 2)}) => {};
+var f = ({ x: arg = 1 }, { y: b = (arg = 2) }) => {};
 
-var f = ({x: arg = (arg = 2)}) => {};
+var f = ({ x: arg = (arg = 2) }) => {};
 
 var foo;
 
@@ -2007,17 +2007,17 @@ var foo = 0;
 
 var [foo] = [1];
 
-var {foo} = {foo: 2};
+var { foo } = { foo: 2 };
 
-var {foo = 3} = {};
+var { foo = 3 } = {};
 
-var {get = defaultValue} = obj;
+var { get = defaultValue } = obj;
 
-var {propName = defaultValue} = obj;
+var { propName = defaultValue } = obj;
 
-var {propName: localVar = defaultValue} = obj;
+var { propName: localVar = defaultValue } = obj;
 
-var {get} = obj;
+var { get } = obj;
 
 ```
 

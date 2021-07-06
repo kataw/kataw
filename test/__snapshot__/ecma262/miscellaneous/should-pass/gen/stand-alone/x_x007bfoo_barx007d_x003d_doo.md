@@ -120,7 +120,7 @@ x, {foo, bar} = doo
 
 ```javascript
 
-x, {foo, bar} = doo;
+x, { foo, bar } = doo;
 ```
 
 ### Diagnostics

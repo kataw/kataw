@@ -449,7 +449,7 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
 var await;
 var f = (async function () {
       async function a() {
-        async ([y] = [{m: 5 + t(await bar)}]) => {}
+        async ([y] = [{ m: 5 + t(await bar) }]) => {}
       }
     });
 

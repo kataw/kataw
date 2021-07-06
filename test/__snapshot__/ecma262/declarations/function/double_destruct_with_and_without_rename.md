@@ -141,7 +141,7 @@ let {x : y, z} = obj;
 
 ```javascript
 
-let {x: y, z} = obj;
+let { x: y, z } = obj;
 ```
 
 ### Diagnostics

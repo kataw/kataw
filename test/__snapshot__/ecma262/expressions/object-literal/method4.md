@@ -131,7 +131,7 @@ x = { get() { } }
 
 ```javascript
 
-x = {get() {}};
+x = { get() {} };
 ```
 
 ### Diagnostics

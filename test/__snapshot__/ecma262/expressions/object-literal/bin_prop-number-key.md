@@ -103,7 +103,7 @@ x = {0b001001: y}
 
 ```javascript
 
-x = {0b001001: y};
+x = { 0b001001: y };
 ```
 
 ### Diagnostics

@@ -130,7 +130,7 @@ class Foo {}
 
 ```javascript
 
-@ foo('\'bar\'') class Foo {}
+@ foo("'bar'") class Foo {}
 ```
 
 ### Diagnostics

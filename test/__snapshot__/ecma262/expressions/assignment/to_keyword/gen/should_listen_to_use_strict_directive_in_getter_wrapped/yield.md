@@ -206,11 +206,9 @@ foo = {
 
 ```javascript
 
-foo = {
-  get x() {
+foo = { get x() {
     (yield = x);
-  }
-};
+  } };
 ```
 
 ### Diagnostics

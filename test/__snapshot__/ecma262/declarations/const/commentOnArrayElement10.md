@@ -109,7 +109,7 @@ const array = [,, /* comment */];
 
 ```javascript
 
-const array = [, ];
+const array = [, ,];
 ```
 
 ### Diagnostics

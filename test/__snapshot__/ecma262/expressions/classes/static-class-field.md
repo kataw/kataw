@@ -5242,7 +5242,7 @@ class x {
 
 (class C {
     static a = 0;;
-    ['\'b\'']() {}
+    ["'b'"]() {}
   });
 
 (class C {
@@ -5266,55 +5266,55 @@ class x {
 
 (class C {
     static a;;
-    ['\'b\'']() {}
+    ["'b'"]() {}
   });
 
 (class C {
-    static ['\'a\''] = 0;;
+    static ["'a'"] = 0;;
   });
 
 (class C {
-    static ['\'a\''] = 0;;
+    static ["'a'"] = 0;;
     b;
   });
 
 (class C {
-    static ['\'a\''] = 0;;
+    static ["'a'"] = 0;;
     b() {}
   });
 
 (class C {
-    static ['\'a\''] = 0;;
+    static ["'a'"] = 0;;
     * b() {}
   });
 
 (class C {
-    static ['\'a\''] = 0;;
-    ['\'b\'']() {}
+    static ["'a'"] = 0;;
+    ["'b'"]() {}
   });
 
 (class C {
-    static ['\'a\''];;
+    static ["'a'"];;
   });
 
 (class C {
-    static ['\'a\''];;
+    static ["'a'"];;
     b;;
   });
 
 (class C {
-    static ['\'a\''];;
+    static ["'a'"];;
     b() {}
   });
 
 (class C {
-    static ['\'a\''];;
+    static ["'a'"];;
     * b() {}
   });
 
 (class C {
-    static ['\'a\''];;
-    ['\'b\'']() {}
+    static ["'a'"];;
+    ["'b'"]() {}
   });
 
 (class   extends x {
@@ -5326,11 +5326,11 @@ class x {
   });
 
 (class   extends x {
-    static '\'a\'' = 0;;
+    static "'a'" = 0;;
   });
 
 (class   extends x {
-    static '\'a\'';;
+    static "'a'";;
   });
 
 (class C {

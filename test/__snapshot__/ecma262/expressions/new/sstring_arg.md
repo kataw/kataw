@@ -93,7 +93,7 @@ new 'foo'.__proto__.constructor
 
 ```javascript
 
-new '\'foo\''.__proto__.constructor;
+new "'foo'".__proto__.constructor;
 ```
 
 ### Diagnostics

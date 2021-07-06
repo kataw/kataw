@@ -337,7 +337,7 @@ var await; var f = (async function() { async function a(){     async ({r} = awai
 var await;
 var f = (async function () {
       async function a() {
-        async({r} = await bar)
+        async({ r } = await bar)
       }
     });
 

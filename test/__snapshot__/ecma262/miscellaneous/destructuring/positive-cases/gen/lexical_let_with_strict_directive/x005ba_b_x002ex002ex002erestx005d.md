@@ -155,7 +155,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 let [a, b, ...rest] = {};
 ```
 

@@ -224,9 +224,9 @@
 
 ```javascript
 
-({async * gen() {
+({ async * gen() {
       (yield ) ? yield  : yield ;
-    }});
+    } });
 ```
 
 ### Diagnostics

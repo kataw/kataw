@@ -133,8 +133,8 @@
 
 ```javascript
 
-'\'use strict\'';
-async function f({await}) {}
+"'use strict'";
+async function f({ await }) {}
 ```
 
 ### Diagnostics

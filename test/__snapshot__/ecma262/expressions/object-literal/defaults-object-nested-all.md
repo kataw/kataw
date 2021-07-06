@@ -178,7 +178,7 @@ var {x = 10, y: { z = 10}} = a;
 
 ```javascript
 
-var {x = 10, y: {z = 10}} = a;
+var { x = 10, y: { z = 10 } } = a;
 ```
 
 ### Diagnostics

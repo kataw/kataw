@@ -1166,7 +1166,7 @@ export class NumberGenerator {
 
 export const varDeclNumber1 = 1, varDeclNumber2 = 2;
 
-export const {destructuredObjNumber} = {destructuredObjNumber: 1};
+export const { destructuredObjNumber } = { destructuredObjNumber: 1 };
 
 export const [destructuredArrNumber] = [1];
 

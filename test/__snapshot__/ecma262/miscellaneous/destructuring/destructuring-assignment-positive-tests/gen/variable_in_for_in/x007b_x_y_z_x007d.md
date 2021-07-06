@@ -227,7 +227,7 @@ var x, y, z; for (x in { x, y, z } = {});
 ```javascript
 
 var x, y, z;
-for (x in {x, y, z} = {});
+for (x in { x, y, z } = {});
 
 ```
 

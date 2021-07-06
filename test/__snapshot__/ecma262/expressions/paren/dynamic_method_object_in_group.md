@@ -122,7 +122,7 @@
 
 ```javascript
 
-({[x]() {}});
+({ [x]() {} });
 ```
 
 ### Diagnostics

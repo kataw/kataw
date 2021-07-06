@@ -497,7 +497,7 @@ class A {
 }
 class B  extends A {
   constructor() {
-    super({test: () => this.someMethod()});
+    super({ test: () => this.someMethod() });
   }
   someMethod() {}
 }

@@ -121,7 +121,7 @@ type A = Obj['a'];
 
 ```javascript
 
-type A = Obj['\'a\'']
+type A = Obj["'a'"]
 ```
 
 ### Diagnostics

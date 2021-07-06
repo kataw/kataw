@@ -1,16 +1,25 @@
 import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags, tokenToString } from '../ast/syntax-node';
 import { concat } from '../formatter/index';
 
+export const enum PrinterFlags {
+  None,
+  SingleQuote = 1 << 0,
+  ObjectCurlySpacing = 1 << 1,
+  ArrayBracketSpacing = 1 << 2,
+  NoSemi = 1 << 2,
+}
+
 export interface Printer {
   source: string;
+  flags: PrinterFlags
 }
 
-export function createPrinter(source: string): Printer {
+export function createPrinter(source: string, flags: PrinterFlags): Printer {
   return {
-    source
+    source,
+    flags
   };
 }
-
 export function canBreakAssignment(left: any, right: any): boolean {
 
   switch (right.kind) {

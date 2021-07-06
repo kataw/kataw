@@ -235,11 +235,11 @@
 
 ```javascript
 
-({async * gen() {
+({ async * gen() {
       yield * 1;
       return 37;
-      yield * '\'dead\'';
-    }});
+      yield * "'dead'";
+    } });
 ```
 
 ### Diagnostics

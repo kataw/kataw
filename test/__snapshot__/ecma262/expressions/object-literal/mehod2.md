@@ -763,16 +763,16 @@ x = { method(test) { } }
 
 ```javascript
 
-x = {method() {}};
-x = {get() {}};
+x = { method() {} };
+x = { get() {} };
 
-x = {set() {}};
+x = { set() {} };
 
-x = {method(test) {}}({function() {}});
+x = { method(test) {} }({ function() {} });
 
-x = ({declare() {}});
+x = ({ declare() {} });
 
-x = {method(test) {}};
+x = { method(test) {} };
 
 ```
 

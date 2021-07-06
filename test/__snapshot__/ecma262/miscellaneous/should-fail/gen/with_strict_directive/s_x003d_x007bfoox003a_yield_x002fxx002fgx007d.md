@@ -167,7 +167,7 @@
 ```javascript
 
 "\"use strict\"";
-s = {foo: yield / x / g};
+s = { foo: yield / x / g };
 ```
 
 ### Diagnostics

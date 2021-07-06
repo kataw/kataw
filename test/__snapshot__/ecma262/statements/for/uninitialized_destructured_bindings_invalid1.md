@@ -125,7 +125,7 @@ for (var { foo };;) {}
 
 ```javascript
 
-for (var {foo}; ; ) {}
+for (var { foo }; ; ) {}
 ```
 
 ### Diagnostics

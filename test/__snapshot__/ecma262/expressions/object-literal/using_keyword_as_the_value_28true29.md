@@ -101,7 +101,7 @@ s = {s: true}
 
 ```javascript
 
-s = {s: true};
+s = { s: true };
 ```
 
 ### Diagnostics

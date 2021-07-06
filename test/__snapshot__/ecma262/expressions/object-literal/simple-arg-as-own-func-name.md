@@ -141,7 +141,7 @@ o = {f(f) { }}
 
 ```javascript
 
-o = {f(f) {}};
+o = { f(f) {} };
 ```
 
 ### Diagnostics

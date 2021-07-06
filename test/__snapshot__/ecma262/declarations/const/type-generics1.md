@@ -286,7 +286,8 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
 
 ```javascript
 
-const functionReturningIdentityAsAField = () => ({id: <T>(value: T) => value});
+const functionReturningIdentityAsAField = () =>
+    ({ id: <T>(value: T) => value });
 ```
 
 ### Diagnostics

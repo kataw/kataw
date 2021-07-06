@@ -86,7 +86,7 @@ x = {arguments}
 
 ```javascript
 
-x = {arguments};
+x = { arguments };
 ```
 
 ### Diagnostics

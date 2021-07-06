@@ -282,9 +282,9 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 let x, y, z;
-for (x of x = {x, y, z} = z = {});
+for (x of x = { x, y, z } = z = {});
 
 ```
 

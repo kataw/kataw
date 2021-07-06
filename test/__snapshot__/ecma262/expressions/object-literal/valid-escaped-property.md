@@ -148,7 +148,7 @@ function *a(){({yi\u0065ld: 0})}
 ```javascript
 
 function * a() {
-  ({yi\u0065ld: 0});
+  ({ yi\u0065ld: 0 });
 }
 ```
 

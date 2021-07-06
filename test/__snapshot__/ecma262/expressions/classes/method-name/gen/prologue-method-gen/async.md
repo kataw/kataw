@@ -157,8 +157,8 @@
 
 ```javascript
 
-'\'use strict\'';
-({* async(x, y) {}});
+"'use strict'";
+({ * async(x, y) {} });
 ```
 
 ### Diagnostics

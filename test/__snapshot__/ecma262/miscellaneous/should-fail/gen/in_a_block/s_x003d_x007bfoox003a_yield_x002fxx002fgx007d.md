@@ -173,7 +173,7 @@
 ```javascript
 
 {
-  s = {foo: yield / x / g};
+  s = { foo: yield / x / g };
 }
 ```
 

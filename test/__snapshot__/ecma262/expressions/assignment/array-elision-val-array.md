@@ -113,7 +113,7 @@ result = [,] = vals;
 
 ```javascript
 
-result = [] = vals;
+result = [,] = vals;
 ```
 
 ### Diagnostics

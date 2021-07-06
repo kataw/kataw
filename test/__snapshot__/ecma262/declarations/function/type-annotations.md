@@ -2810,7 +2810,7 @@ function foo16(): {} {}
 
 function foo17<T>() {}
 
-function foo21({x}: { x: string }) {}
+function foo21({ x }: { x: string }) {}
 
 function foo22([x]: Array<string>) {}
 

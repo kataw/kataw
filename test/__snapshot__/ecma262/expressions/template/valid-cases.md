@@ -956,9 +956,9 @@ ${j}bb` + `xxx${bar}yyyy`;
 
 tag`template` + `template2`;
 
-`a${foo}b` + '\'string\'';
+`a${foo}b` + "'string'";
 
-'\'string\'' + `a${foo}b`;
+"'string'" + `a${foo}b`;
 
 tag`${a}\nb`;
 

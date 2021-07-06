@@ -99,7 +99,7 @@
 
 ```javascript
 
-({x, ...rest});
+({ x, ...rest });
 ```
 
 ### Diagnostics

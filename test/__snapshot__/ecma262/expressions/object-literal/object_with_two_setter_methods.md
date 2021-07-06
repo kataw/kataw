@@ -234,7 +234,7 @@ x({set [foo](b){}, set [bar](d){}});
 
 ```javascript
 
-x({set [foo](b) {}, set [bar](d) {}});
+x({ set [foo](b) {}, set [bar](d) {} });
 ```
 
 ### Diagnostics

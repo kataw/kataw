@@ -279,7 +279,7 @@
 
 ```javascript
 
-'\'use strict\'';
+"'use strict'";
 let foo = function * () {
     try {
       yield 42;

@@ -465,11 +465,11 @@
 
 ```javascript
 
-({...(obj)} = foo),
-({...obj} = foo),
-({...obj.x} = foo),
-({...{}.x} = foo),
-({...[].x} = foo);
+({ ...(obj) } = foo),
+({ ...obj } = foo),
+({ ...obj.x } = foo),
+({ ...{}.x } = foo),
+({ ...[].x } = foo);
 ```
 
 ### Diagnostics

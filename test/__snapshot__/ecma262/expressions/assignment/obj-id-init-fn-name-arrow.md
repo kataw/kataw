@@ -165,7 +165,7 @@ result = { arrow = () => {} } = {}
 
 ```javascript
 
-result = {arrow = () => {}} = {};
+result = { arrow = () => {} } = {};
 ```
 
 ### Diagnostics

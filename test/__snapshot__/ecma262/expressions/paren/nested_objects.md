@@ -121,7 +121,7 @@
 
 ```javascript
 
-({ident: {x: y}});
+({ ident: { x: y } });
 ```
 
 ### Diagnostics

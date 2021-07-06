@@ -139,7 +139,7 @@ class X {
 ```javascript
 
 class X {
-  '\'\''() {}
+  "''"() {}
 }
 ```
 

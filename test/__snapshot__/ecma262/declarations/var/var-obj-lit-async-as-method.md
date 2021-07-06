@@ -150,7 +150,7 @@ var obj = { async() {} };
 
 ```javascript
 
-var obj = {async() {}};
+var obj = { async() {} };
 ```
 
 ### Diagnostics

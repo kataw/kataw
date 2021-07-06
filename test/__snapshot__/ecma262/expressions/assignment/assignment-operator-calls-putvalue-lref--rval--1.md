@@ -661,10 +661,7 @@ Object.defineProperty(this, "x", {
 var count = 0;
 var global = this;
 
-Object.defineProperty(this, "\"x\"", {
-    configurable: true,
-    value: 1
-  });
+Object.defineProperty(this, "\"x\"", { configurable: true, value: 1 });
 
 (function () {
     assert.throws(ReferenceError, () => {

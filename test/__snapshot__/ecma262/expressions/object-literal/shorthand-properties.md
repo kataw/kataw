@@ -203,11 +203,7 @@ var x = {
 ```javascript
 
 var foo, get, set;
-var x = {
-    foo,
-    get,
-    set
-  };
+var x = { foo, get, set };
 
 ```
 

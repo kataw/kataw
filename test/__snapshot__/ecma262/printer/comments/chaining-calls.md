@@ -269,9 +269,9 @@ request
 
 ```javascript
 
-request.post('\'/version\'').set(
-  '\'Prefer\'',
-  '\'plurality=singular\''
+request.post("'/version'").set(
+  "'Prefer'",
+  "'plurality=singular'"
 ).send().end((error, response) => {});
 ```
 

@@ -110,7 +110,7 @@
 
 ```javascript
 
-({obj: x, ...a});
+({ obj: x, ...a });
 ```
 
 ### Diagnostics

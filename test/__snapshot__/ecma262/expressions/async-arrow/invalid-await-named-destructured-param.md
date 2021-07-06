@@ -130,7 +130,7 @@ async ({a: await}) => 1;
 
 ```javascript
 
-async ({a: await}) => 1
+async ({ a: await }) => 1
 ```
 
 ### Diagnostics

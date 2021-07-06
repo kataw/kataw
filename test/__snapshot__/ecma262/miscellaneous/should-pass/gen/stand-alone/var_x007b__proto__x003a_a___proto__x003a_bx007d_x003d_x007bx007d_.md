@@ -154,7 +154,7 @@ var {__proto__: a, __proto__: b} = {};
 
 ```javascript
 
-var {__proto__: a, __proto__: b} = {};
+var { __proto__: a, __proto__: b } = {};
 ```
 
 ### Diagnostics
