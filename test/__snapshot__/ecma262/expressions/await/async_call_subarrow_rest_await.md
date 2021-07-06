@@ -155,9 +155,7 @@ async (a = (...await) => {});
 
 ```javascript
 
-async(
-  a = (...await) => {}
-)
+async(a = (...await) => {})
 ```
 
 ### Diagnostics

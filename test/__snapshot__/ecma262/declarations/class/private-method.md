@@ -1951,23 +1951,17 @@ class Foo {
   #method() {}
   baseline() {
     a().foo;
-    b().foo(
-      x
-    );
+    b().foo(x);
     c()?.foo(
       x
     );
-    d().foo?.(
-      x
-    ).e()?.foo?.(
+    d().foo?.(x).e()?.foo?.(
       x
     );
   }
   privateField() {
     a().#field;
-    b().#field(
-      x
-    );
+    b().#field(x);
     c()?.#field(
       x
     );
@@ -1975,9 +1969,7 @@ class Foo {
   }
   privateMethod() {
     a().#method;
-    b().#method(
-      x
-    );
+    b().#method(x);
     c()?.#method(
       x
     );

@@ -254,9 +254,7 @@ function* g() { function f(yield) { yield (yield + yield (0)); } }
 
 function * g() {
   function f(yield) {
-    yield(
-      yield + yield(0)
-    );
+    yield(yield + yield(0));
   }
 }
 ```

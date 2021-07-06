@@ -6060,9 +6060,7 @@ runtimeAgent.getProperties(
 );
 
 fooooooooooooooooooooooooooooooooooooooooooooooooooo(action => next =>
-  dispatch(
-    action
-  ));
+  dispatch(action));
 
 foo(({a, b}) => {});
 
@@ -6070,10 +6068,7 @@ foo(({a, b}) => {});
 
 foo(({a, b}) => {});
 
-foo(
-  a,
-  ({a, b}) => {}
-);
+foo(a, ({a, b}) => {});
 
 foo(({a, b}) => a);
 

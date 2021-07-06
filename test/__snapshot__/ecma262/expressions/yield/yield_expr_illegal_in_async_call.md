@@ -74,10 +74,7 @@ async (yield x)
 
 ```javascript
 
-async(
-  yield,
-  x
-)
+async(yield, x)
 ```
 
 ### Diagnostics

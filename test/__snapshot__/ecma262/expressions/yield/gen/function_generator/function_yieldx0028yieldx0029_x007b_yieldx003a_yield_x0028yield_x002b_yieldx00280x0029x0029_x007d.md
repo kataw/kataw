@@ -332,9 +332,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
 function * gen() {
   function not_gen() {
     function yield(yield) {
-      yield:  yield(
-        yield + yield(0)
-      );
+      yield:  yield(yield + yield(0));
     }
   }
 }

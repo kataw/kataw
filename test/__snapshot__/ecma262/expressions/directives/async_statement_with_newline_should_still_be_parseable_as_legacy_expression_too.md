@@ -73,9 +73,7 @@ async
 
 ```javascript
 
-async(
-  2
-)
+async(2)
 ```
 
 ### Diagnostics

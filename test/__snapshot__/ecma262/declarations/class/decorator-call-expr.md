@@ -198,9 +198,7 @@ class C2 {
 
 ```javascript
 
-@ a(
-  b
-) class C2 {
+@ a(b) class C2 {
   method() {}
 }
 ```

@@ -2692,12 +2692,8 @@ const extractTextPluginOptions3 = shouldUseRelativeAssetPaths
 
 const {configureStore} =
     process.env.NODE_ENV === "\"production\""
-      ? require(
-          "\"./configureProdStore\""
-        )
-      : require(
-          "\"./configureDevStore\""
-        );
+      ? require("\"./configureProdStore\"")
+      : require("\"./configureDevStore\"");
 
 test ? foo : bar;
 

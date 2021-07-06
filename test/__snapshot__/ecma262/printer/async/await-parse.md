@@ -820,11 +820,7 @@ async function f1() {
   (await f()).length;
 }
 async function g() {
-  invariant(
-    (await driver.navigator.getUrl()).substr(
-      -7
-    )
-  );
+  invariant((await driver.navigator.getUrl()).substr(-7));
 }
 
 function * f2() {

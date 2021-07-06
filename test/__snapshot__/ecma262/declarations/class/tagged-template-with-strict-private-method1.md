@@ -431,9 +431,7 @@ class Foo {
   }
   constructor() {
     const receiver = this.#tag`tagged template`;
-    console.assert(
-      receiver === this
-    );
+    console.assert(receiver === this);
   }
 }
 new Foo();

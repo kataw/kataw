@@ -4593,202 +4593,120 @@ function f({x:arg = (arg = 2)}) {}
 
 function f(arg) {
   function h() {
-    g(
-      arg
-    );
+    g(arg);
   }
   h();
 }
 function f(arg = 1) {
-  g(
-    arg
-  );
+  g(arg);
 }
 
 function f(arg, arguments) {
-  g(
-    arg
-  );
+  g(arg);
   arguments[0] = 42;
-  g(
-    arg
-  );
+  g(arg);
 }
 
 function f(...arg) {
-  g(
-    arg
-  );
+  g(arg);
   arguments[0] = 42;
-  g(
-    arg
-  );
+  g(arg);
 }
 
 function f(arg) {
-  g(
-    arg
-  );
+  g(arg);
   arg = 42;
-  g(
-    arg
-  );
+  g(arg);
 }
 
 function f(arg) {
-  g(
-    arg
-  );
-  eval(
-    '\'arg = 42\''
-  );
-  g(
-    arg
-  );
+  g(arg);
+  eval('\'arg = 42\'');
+  g(arg);
 }
 
 function f(arg) {
-  g(
-    arg
-  );
+  g(arg);
   var arg = 42;
-  g(
-    arg
-  );
+  g(arg);
 }
 
 function f(arg, x = 1) {
-  g(
-    arg
-  );
+  g(arg);
   arg = 42;
-  g(
-    arg
-  );
+  g(arg);
 }
 
 function f(arg, ...x) {
-  g(
-    arg
-  );
+  g(arg);
   arg = 42;
-  g(
-    arg
-  );
+  g(arg);
 }
 
 function f(arg = 1) {
-  g(
-    arg
-  );
+  g(arg);
   arg = 42;
-  g(
-    arg
-  );
+  g(arg);
 }
 
 function f(arg) {
-  g(
-    arg
-  );
+  g(arg);
   arg = 42;
-  g(
-    arg
-  );
+  g(arg);
 }
 
 function f(arg, {a = (g(arg), arg = 42)}) {
-  g(
-    arg
-  );
+  g(arg);
 }
 
 function f(arg) {
-  g(
-    arg
-  );
+  g(arg);
   g(function () {
     arg = 42;
   });
-  g(
-    arg
-  );
+  g(arg);
 }
 
 function f(arg) {
-  g(
-    arg
-  );
+  g(arg);
   g(() => arg = 42);
-  g(
-    arg
-  );
+  g(arg);
 }
 
 function f(arg) {
-  g(
-    arg
-  );
+  g(arg);
   g(() => eval('\'arg = 42\''));
-  g(
-    arg
-  );
+  g(arg);
 }
 
 function f(...arg) {
-  g(
-    arg
-  );
-  eval(
-    '\'arg = 42\''
-  );
-  g(
-    arg
-  );
+  g(arg);
+  eval('\'arg = 42\'');
+  g(arg);
 }
 
 function f(arg) {
-  g(
-    arg
-  );
+  g(arg);
   arguments[0] = 42;
-  g(
-    arg
-  );
+  g(arg);
 }
 
 function f(arg) {
-  g(
-    arg
-  );
-  h(
-    arguments
-  );
-  g(
-    arg
-  );
+  g(arg);
+  h(arguments);
+  g(arg);
 }
 
 function f(arg) {
-  g(
-    arg
-  );
-  eval(
-    '\'arguments[0] = 42\''
-  );
-  g(
-    arg
-  );
+  g(arg);
+  eval('\'arguments[0] = 42\'');
+  g(arg);
 }
 
 function f(arg) {
-  g(
-    arg
-  );
+  g(arg);
   g(() => arguments[0] = 42);
-  g(
-    arg
-  );
+  g(arg);
 }
 
 function f({x: arg = 1}, {y: b = (arg = 2)}) {}

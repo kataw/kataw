@@ -206,9 +206,7 @@ function foo(value: AOrString) {
 ```javascript
 
 function foo(value: AOrString) {
-  invariant(
-    value instanceof B
-  );
+  invariant(value instanceof B);
 }
 ```
 

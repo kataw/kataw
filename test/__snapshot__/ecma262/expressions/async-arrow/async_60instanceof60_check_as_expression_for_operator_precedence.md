@@ -118,9 +118,7 @@ f(a + async instanceof b)
 
 ```javascript
 
-f(
-  a + async instanceof b
-);
+f(a + async instanceof b);
 ```
 
 ### Diagnostics

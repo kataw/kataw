@@ -249,9 +249,7 @@ function isUnusedDiagnostic(code) {
     6198,
     6199,
     6205
-  ].includes(
-    code
-  );
+  ].includes(code);
 }
 ```
 

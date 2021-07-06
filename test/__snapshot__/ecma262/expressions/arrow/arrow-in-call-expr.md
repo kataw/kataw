@@ -308,15 +308,9 @@ foo(y,(y) => ok);
 ```javascript
 
 foo((x, y) => {});
-foo(
-  x,
-  (y) => {}
-);
+foo(x, (y) => {});
 
-foo(
-  y,
-  (y) => ok
-);
+foo(y, (y) => ok);
 
 ```
 

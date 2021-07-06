@@ -190,9 +190,7 @@ f(await 1);
 async function f(x) {
   return x;
 }
-f(
-  await 1
-);
+f(await 1);
 
 ```
 

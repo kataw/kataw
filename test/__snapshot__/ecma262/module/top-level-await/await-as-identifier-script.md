@@ -140,9 +140,7 @@ await(x);
 await;
 await = yield;
 
-await(
-  x
-);
+await(x);
 
 ```
 

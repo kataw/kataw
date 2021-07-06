@@ -742,9 +742,8 @@ defaultContent.filter(defaultLocale => {
 this._cumulativeHeights &&
   Math.abs(
 
-      this._cachedItemHeight(
-        this._firstVisibleIndex + i
-      ) - this._provider.fastHeight(i + this._firstVisibleIndex)
+      this._cachedItemHeight(this._firstVisibleIndex + i) -
+      this._provider.fastHeight(i + this._firstVisibleIndex)
     ,
   ) >
     1;

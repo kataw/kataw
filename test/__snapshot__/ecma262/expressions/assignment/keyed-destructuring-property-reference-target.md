@@ -1401,9 +1401,7 @@ function targetKey() {
 
 var log = [];
 function source() {
-  log.push(
-    "\"source\""
-  );
+  log.push("\"source\"");
   return {
     get p() {
       log.push("\"get\"");
@@ -1412,9 +1410,7 @@ function source() {
 }
 
 function target() {
-  log.push(
-    "\"target\""
-  );
+  log.push("\"target\"");
   return {
     set q(v) {
       log.push("\"set\"");
@@ -1423,9 +1419,7 @@ function target() {
 }
 
 function sourceKey() {
-  log.push(
-    "\"source-key\""
-  );
+  log.push("\"source-key\"");
   return {
     toString: function () {
       log.push("\"source-key-tostring\"");
@@ -1435,9 +1429,7 @@ function sourceKey() {
 }
 
 function targetKey() {
-  log.push(
-    "\"target-key\""
-  );
+  log.push("\"target-key\"");
   return {
     toString: function () {
       log.push("\"target-key-tostring\"");

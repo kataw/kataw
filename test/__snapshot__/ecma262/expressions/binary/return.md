@@ -885,15 +885,11 @@ function foo3() {
 ```javascript
 
 function foo() {
-  return this.hasPlugin(
-    "\"dynamicImports\""
-  ) &&
+  return this.hasPlugin("\"dynamicImports\"") &&
     this.lookahead().type === tt.parenLeft.right;
 }
 function foo2() {
-  return this.hasPlugin(
-    "\"dynamicImports\""
-  ) &&
+  return this.hasPlugin("\"dynamicImports\"") &&
     this.lookahead().type === tt.parenLeft.right
     ? true
     : false;

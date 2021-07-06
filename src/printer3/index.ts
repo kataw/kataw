@@ -1178,10 +1178,10 @@ function printArgumentsList(printer: Printer, node: any, lineMap: number[], pare
 }
 
 function printCallExpression(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
-  return concat([
+  return group(concat([
     printStatement(printer, node.expression, lineMap, node),
     printArgumentsList(printer, node.argumentList, lineMap, node)
-  ]);
+  ]), {});
 }
 
 function printYieldExpression(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
@@ -1206,12 +1206,12 @@ function printRegularExpressionLiteral(printer: Printer, node: any, lineMap: num
 }
 
 function printImportCall(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
-  return concat([
+  return group(concat([
     printKeyword(printer, node.importKeyword, node, /* addSpace */ false),
     '(',
     printStatement(printer, node.expression, lineMap, node),
     ')'
-  ]);
+  ]), {});
 }
 
 function printImportMeta(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {

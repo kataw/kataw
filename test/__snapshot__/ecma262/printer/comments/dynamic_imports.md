@@ -286,9 +286,7 @@ import('\'something\'' + '\'else\'');
 
 import('\'something\'');
 
-wrap(
-  import('\'something\'')
-);
+wrap(import('\'something\''));
 
 ```
 

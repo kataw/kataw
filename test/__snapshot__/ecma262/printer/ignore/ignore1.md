@@ -1607,10 +1607,7 @@ function a() {
         '\'";\n\'' +
         this.filterPrefix() +
         '\'var fn=\'' +
-        this.generateFunction(
-          '\'fn\'',
-          '\'s,l,a,i\''
-        ) +
+        this.generateFunction('\'fn\'', '\'s,l,a,i\'') +
         extra +
         this.watchFns() +
         '\'return fn;\''
@@ -1620,9 +1617,7 @@ function a() {
       "\"ewww\"": "\"gross-formatting\""
     };
   function giveMeSome() {
-    a(
-      a
-    );
+    a(a);
   }
   
 

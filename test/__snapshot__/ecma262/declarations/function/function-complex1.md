@@ -1327,48 +1327,17 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
 ```javascript
 
 function w<A: [number, number]>(x: A, f: (number, ...A) =>  void) {
-  f(
-    ...x
-  );
-  f(
-    42,
-    42,
-    42
-  );
-  f(
-    42,
-    ...x
-  );
-  f(
-    42,
-    ...x,
-    ...x
-  );
+  f(...x);
+  f(42, 42, 42);
+  f(42, ...x);
+  f(42, ...x, ...x);
 }
 function w2<A: Array<number>>(x: A, f: (number, ...A) =>  void) {
-  f(
-    ...x
-  );
-  f(
-    42,
-    42,
-    42
-  );
-  f(
-    42,
-    42,
-    42,
-    ...x
-  );
-  f(
-    42,
-    ...x
-  );
-  f(
-    42,
-    ...x,
-    ...x
-  );
+  f(...x);
+  f(42, 42, 42);
+  f(42, 42, 42, ...x);
+  f(42, ...x);
+  f(42, ...x, ...x);
 }
 
 ```

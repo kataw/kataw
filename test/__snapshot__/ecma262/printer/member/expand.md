@@ -1952,23 +1952,17 @@ const promises2 = [
 window.FooClient.setVars({
   locale: getFooLocale({page}),
   authorizationToken: data.token
-}).initVerify(
-  "\"foo_container\""
-);
+}).initVerify("\"foo_container\"");
 
 window.something.FooClient.setVars({
   locale: getFooLocale({page}),
   authorizationToken: data.token
-}).initVerify(
-  "\"foo_container\""
-);
+}).initVerify("\"foo_container\"");
 
 window.FooClient.something.setVars({
   locale: getFooLocale({page}),
   authorizationToken: data.token
-}).initVerify(
-  "\"foo_container\""
-);
+}).initVerify("\"foo_container\"");
 
 ```
 

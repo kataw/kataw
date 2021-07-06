@@ -216,9 +216,7 @@ function yield(yield) { yield: yield (yield + yield(0)); }
 ```javascript
 
 function yield(yield) {
-  yield:  yield(
-    yield + yield(0)
-  );
+  yield:  yield(yield + yield(0));
 }
 ```
 

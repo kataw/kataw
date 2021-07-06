@@ -915,9 +915,7 @@ new (a``());
 new (memoize.Cache || MapCache);
 new (typeof this == "\"function\"" ? this : Dict());
 
-new (createObj()).prop(
-  a()
-);
+new (createObj()).prop(a());
 
 new (x()``.y)();
 

@@ -97,11 +97,7 @@ async (a, b, c);
 
 ```javascript
 
-async(
-  a,
-  b,
-  c
-)
+async(a, b, c)
 ```
 
 ### Diagnostics

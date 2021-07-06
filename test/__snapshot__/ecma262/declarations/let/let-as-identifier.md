@@ -1352,18 +1352,14 @@ let++;
   });
 
 function let(let) {
-  let:  let(
-    let + let(0)
-  );
+  let:  let(let + let(0));
 }
 
 ({let: 1})({get let() {
     1;
   }});
 
-let(
-  100
-);
+let(100);
 
 L:  let;
 

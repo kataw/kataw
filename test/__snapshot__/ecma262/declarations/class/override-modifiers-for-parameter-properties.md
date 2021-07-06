@@ -210,9 +210,7 @@ class D extends B {
 
 class D  extends B {
   constructor(foo) {
-    super(
-      foo
-    );
+    super(foo);
   }
 }
 ```

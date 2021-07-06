@@ -1416,12 +1416,8 @@ for (aLongIdentifierName = 0, aLongIdentifierName = 0, aLongIdentifierName = 0, 
 
 const f = (argument1, argument2, argument3) =>
     (
-      doSomethingWithArgument(
-        argument1
-      ),
-      doSomethingWithArgument(
-        argument2
-      ),
+      doSomethingWithArgument(argument1),
+      doSomethingWithArgument(argument2),
       argument1
     );
 (function () {

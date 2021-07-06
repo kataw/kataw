@@ -6458,9 +6458,7 @@ switch (x) {
 
 switch (x) {
   case y:
-    x(
-      foo
-    );
+    x(foo);
 }
 
 switch (x) {

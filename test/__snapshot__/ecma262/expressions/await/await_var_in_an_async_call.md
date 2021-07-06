@@ -72,9 +72,7 @@ async(await);
 
 ```javascript
 
-async(
-  await
-)
+async(await)
 ```
 
 ### Diagnostics

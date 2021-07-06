@@ -3513,17 +3513,11 @@ b.baz ||= result.baz;
 
 c.baz ??= result.baz;
 
-(results ||= []).push(
-  100
-);
+(results ||= []).push(100);
 
-(results &&= []).push(
-  100
-);
+(results &&= []).push(100);
 
-(results ??= []).push(
-  100
-);
+(results ??= []).push(100);
 
 if ((thing &&= thing.original)) {}
 
@@ -3545,17 +3539,11 @@ f &&= (f.toString(), (a) => a);
 
 f ??= (f.toString(), (a) => a);
 
-(results ||= results1 ||= []).push(
-  100
-);
+(results ||= results1 ||= []).push(100);
 
-(results &&= results1 &&= []).push(
-  100
-);
+(results &&= results1 &&= []).push(100);
 
-(results ??= results1 ??= []).push(
-  100
-);
+(results ??= results1 ??= []).push(100);
 
 obj[incr()] ||= incr();
 

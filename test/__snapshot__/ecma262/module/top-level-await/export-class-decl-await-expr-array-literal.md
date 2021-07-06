@@ -292,9 +292,7 @@ export class C extends fn(await []) {};
 function fn() {
   return function () {};
 }
-export class C  extends fn(
-  await []
-) {}
+export class C  extends fn(await []) {}
 
 ```
 

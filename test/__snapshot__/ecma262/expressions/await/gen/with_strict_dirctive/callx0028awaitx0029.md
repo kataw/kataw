@@ -90,9 +90,7 @@
 ```javascript
 
 '\'use strict\'';
-call(
-  await
-);
+call(await);
 ```
 
 ### Diagnostics

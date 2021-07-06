@@ -147,9 +147,7 @@ f(((a, b) => a + b));
 
 ```javascript
 
-f(
-  ((a, b) => a + b)
-);
+f(((a, b) => a + b));
 ```
 
 ### Diagnostics

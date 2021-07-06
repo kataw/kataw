@@ -945,19 +945,11 @@ const obj = {
 
 f();
 
-f(
-  a,
-);
+f(a);
 
-f(
-  a,
-  b
-);
+f(a, b);
 
-f(
-  a,
-  b
-);
+f(a, b);
 
 let f3 = () => import(a);
 

@@ -648,9 +648,7 @@ if (
   {}
 
 if (
-  this.hasPlugin(
-    "\"dynamicImports\""
-  ) &&
+  this.hasPlugin("\"dynamicImports\"") &&
     this.lookahead().type === tt.parenLeft.right
 )
   {}
