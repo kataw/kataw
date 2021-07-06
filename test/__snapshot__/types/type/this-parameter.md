@@ -1171,7 +1171,7 @@ type ten = {
   a: number): void,
   m3(this: string,
   ...a: any): void,
-  m4 (this: T): void
+  m4<T> (this: T): void
 }
 
 ```

@@ -921,8 +921,7 @@ class C2<X, Y> {
 
 ```javascript
 
-class E<X>  extends C<X,
-number> {
+class E<X>  extends C<X, number> {
   set(x: X): X {
     this.x = x;
     if (x) {
@@ -931,11 +930,9 @@ number> {
     return this.get();
   }
 }
-class C2<X,
-Y> {
+class C2<X, Y> {
   x: { p: Y };;
-  foo(): D2<X,
-  Y> {
+  foo(): D2<X, Y> {
     return this.x;
   }
 }

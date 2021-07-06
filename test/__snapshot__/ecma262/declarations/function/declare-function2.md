@@ -340,10 +340,10 @@ declare function foo(): void
 
 ```javascript
 
-declare function foo<T>(): void 
-declare function foo(x: number, y: string): void 
+declare function foo<T>(): void;
+declare function foo(x: number, y: string): void;
 
-declare function foo(): void 
+declare function foo(): void;
 
 ```
 

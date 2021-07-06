@@ -384,12 +384,8 @@ a?.a?.a?.a?.<number>(y);
 
 ```javascript
 
-a?.a?.<number>(
-  y
-);
-a?.a?.a?.a?.<number>(
-  y
-);
+a?.a?.<number>(y);
+a?.a?.a?.a?.<number>(y);
 
 ```
 

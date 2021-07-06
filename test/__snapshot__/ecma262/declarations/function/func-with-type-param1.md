@@ -145,8 +145,7 @@ function foo<T,S>() {}
 
 ```javascript
 
-function foo<T,
-S>() {}
+function foo<T, S>() {}
 ```
 
 ### Diagnostics

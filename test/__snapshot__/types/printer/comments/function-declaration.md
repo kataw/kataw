@@ -1237,7 +1237,7 @@ function identity<T>(value: T): T {
   return value;
 }
 
-type IdentityWrapper = { func (T): T }
+type IdentityWrapper = { func<T> (T): T }
 
 function method<T>(param: T): T {}
 

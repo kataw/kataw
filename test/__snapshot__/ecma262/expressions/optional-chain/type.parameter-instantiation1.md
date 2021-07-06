@@ -133,9 +133,7 @@ a?.<number>(y)
 
 ```javascript
 
-a?.<number>(
-  y
-);
+a?.<number>(y);
 ```
 
 ### Diagnostics

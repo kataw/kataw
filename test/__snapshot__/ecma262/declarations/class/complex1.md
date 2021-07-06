@@ -1025,8 +1025,7 @@ class D<T> {
 
 ```javascript
 
-class C<X,
-Y> {
+class C<X, Y> {
   x: X;;
   constructor(x: X) {
     this.x = x;

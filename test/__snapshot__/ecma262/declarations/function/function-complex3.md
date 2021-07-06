@@ -949,8 +949,7 @@ function c<X: T>(x: $Keys<X>) {
     if (a === '\'a\'') {}
   }
 }
-function b1<A: '\'a\'',
-B: A>(b: B): void {
+function b1<A: '\'a\'', B: A>(b: B): void {
   if (b === '\'b\'') {}
 }
 
