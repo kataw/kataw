@@ -95,7 +95,7 @@ foo() in x);
                     "end": 19
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 12,
                 "end": 19
             },

@@ -87,7 +87,7 @@ var c = 'some'
                                 "end": 42
                             },
                             "flags": 4194401,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 7,
                             "end": 42
                         },
@@ -160,7 +160,7 @@ var c = 'some'
                                 "end": 90
                             },
                             "flags": 4194401,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 52,
                             "end": 90
                         },
@@ -233,7 +233,7 @@ var c = 'some'
                                 "end": 155
                             },
                             "flags": 4194401,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 100,
                             "end": 155
                         },

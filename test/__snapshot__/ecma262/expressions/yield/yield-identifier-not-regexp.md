@@ -93,7 +93,7 @@ function f2() {
                                         "end": 27
                                     },
                                     "flags": 97,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 15,
                                     "end": 27
                                 },
@@ -114,7 +114,7 @@ function f2() {
                                     "end": 30
                                 },
                                 "flags": 97,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 15,
                                 "end": 30
                             },
@@ -155,7 +155,7 @@ function f2() {
                                         "end": 44
                                     },
                                     "flags": 97,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 30,
                                     "end": 44
                                 },
@@ -176,7 +176,7 @@ function f2() {
                                     "end": 47
                                 },
                                 "flags": 97,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 30,
                                 "end": 47
                             },
@@ -287,7 +287,7 @@ function f2() {
                                         "end": 80
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 76,
                                     "end": 80
                                 },
@@ -349,7 +349,7 @@ function f2() {
                                         "end": 97
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 93,
                                     "end": 97
                                 },

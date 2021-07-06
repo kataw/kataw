@@ -1035,7 +1035,7 @@ const bar9 = <T>(x) => {};
                                     "end": 274
                                 },
                                 "flags": 2097152,
-                                "transformFlags": 0,
+                                "transformFlags": 512,
                                 "start": 271,
                                 "end": 275
                             },

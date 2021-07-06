@@ -87,7 +87,7 @@ declare function foo(): void
                     "end": 22
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 20,
                 "end": 23
             },

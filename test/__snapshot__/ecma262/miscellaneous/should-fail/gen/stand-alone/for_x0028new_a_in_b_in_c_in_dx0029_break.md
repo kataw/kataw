@@ -92,7 +92,7 @@ for (new a in b in c in d) break
                         "end": 20
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 13,
                     "end": 20
                 },
@@ -113,7 +113,7 @@ for (new a in b in c in d) break
                     "end": 25
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 13,
                 "end": 25
             },

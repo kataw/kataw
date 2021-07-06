@@ -101,7 +101,7 @@ for (function(){ a in b; };;);
                                         "end": 23
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 16,
                                     "end": 23
                                 },

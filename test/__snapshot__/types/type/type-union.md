@@ -122,7 +122,7 @@ type overloads2 = {
                                             "text": "A",
                                             "rawText": "\"A\"",
                                             "flags": 2097216,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 22,
                                             "end": 26
                                         },
@@ -171,7 +171,7 @@ type overloads2 = {
                                             "text": "B",
                                             "rawText": "\"B\"",
                                             "flags": 2097216,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 37,
                                             "end": 41
                                         },
@@ -535,7 +535,7 @@ type overloads2 = {
                                                             "text": "A",
                                                             "rawText": "\"A\"",
                                                             "flags": 2097216,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 1024,
                                                             "start": 155,
                                                             "end": 159
                                                         },
@@ -584,7 +584,7 @@ type overloads2 = {
                                                             "text": "B",
                                                             "rawText": "\"B\"",
                                                             "flags": 2097216,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 1024,
                                                             "start": 173,
                                                             "end": 177
                                                         },
@@ -729,7 +729,7 @@ type overloads2 = {
                                                             "text": "A",
                                                             "rawText": "\"A\"",
                                                             "flags": 2097216,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 1024,
                                                             "start": 220,
                                                             "end": 224
                                                         },
@@ -778,7 +778,7 @@ type overloads2 = {
                                                             "text": "B",
                                                             "rawText": "\"B\"",
                                                             "flags": 2097216,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 1024,
                                                             "start": 238,
                                                             "end": 242
                                                         },

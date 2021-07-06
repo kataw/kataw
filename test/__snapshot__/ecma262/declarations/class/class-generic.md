@@ -80,7 +80,7 @@ class A<TYPE> {
                     "end": 12
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 7,
                 "end": 13
             },
@@ -174,7 +174,7 @@ class A<TYPE> {
                                                 "end": 40
                                             },
                                             "flags": 2097152,
-                                            "transformFlags": 0,
+                                            "transformFlags": 512,
                                             "start": 35,
                                             "end": 41
                                         },
@@ -255,7 +255,7 @@ class A<TYPE> {
                                                             "end": 74
                                                         },
                                                         "flags": 96,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 57,
                                                         "end": 74
                                                     },
@@ -299,7 +299,7 @@ class A<TYPE> {
                                                         "end": 88
                                                     },
                                                     "flags": 96,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 1024,
                                                     "start": 57,
                                                     "end": 88
                                                 },
@@ -420,7 +420,7 @@ class A<TYPE> {
                                                 "end": 116
                                             },
                                             "flags": 2097152,
-                                            "transformFlags": 0,
+                                            "transformFlags": 512,
                                             "start": 111,
                                             "end": 117
                                         },
@@ -494,7 +494,7 @@ class A<TYPE> {
                                                             "end": 147
                                                         },
                                                         "flags": 96,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 130,
                                                         "end": 147
                                                     },
@@ -538,7 +538,7 @@ class A<TYPE> {
                                                         "end": 161
                                                     },
                                                     "flags": 96,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 1024,
                                                     "start": 130,
                                                     "end": 161
                                                 },

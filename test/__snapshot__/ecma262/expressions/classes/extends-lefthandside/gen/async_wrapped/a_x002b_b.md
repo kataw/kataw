@@ -153,7 +153,7 @@ async function p(){
                                     "end": 43
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 39,
                                 "end": 43
                             },

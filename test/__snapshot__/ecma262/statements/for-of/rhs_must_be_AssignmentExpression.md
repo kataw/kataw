@@ -126,7 +126,7 @@ for (let x of a,b) c
                         }
                     ],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 15,
                     "end": 17
                 },

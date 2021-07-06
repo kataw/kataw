@@ -166,7 +166,7 @@ window.FooClient.something.setVars({
                                     "end": 89
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 60,
                                 "end": 89
                             },
@@ -302,7 +302,7 @@ window.FooClient.something.setVars({
                                     "end": 154
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 125,
                                 "end": 154
                             },

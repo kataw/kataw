@@ -567,7 +567,7 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                                                 "end": 147
                                             },
                                             "flags": 2097152,
-                                            "transformFlags": 0,
+                                            "transformFlags": 512,
                                             "start": 140,
                                             "end": 148
                                         },

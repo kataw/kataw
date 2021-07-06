@@ -148,7 +148,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                     "end": 20
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 6,
                 "end": 21
             },
@@ -365,7 +365,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                     "end": 49
                                 },
                                 "flags": 2097152,
-                                "transformFlags": 0,
+                                "transformFlags": 512,
                                 "start": 47,
                                 "end": 50
                             },

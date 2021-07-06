@@ -97,7 +97,7 @@ function *g() { yield void x }
                                         "end": 28
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 21,
                                     "end": 28
                                 },

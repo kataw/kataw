@@ -161,7 +161,7 @@ new function() {};
                     "end": 45
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 22,
                 "end": 45
             },
@@ -556,7 +556,7 @@ new function() {};
                         "end": 149
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 128,
                     "end": 149
                 },
@@ -637,7 +637,7 @@ new function() {};
                         "end": 170
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 152,
                     "end": 170
                 },
@@ -716,7 +716,7 @@ new function() {};
                     "end": 190
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 172,
                 "end": 190
             },

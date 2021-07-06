@@ -83,7 +83,7 @@ async (x = delete ((typeof) = f)) => {}
                                                 "end": 26
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 20,
                                             "end": 26
                                         },
@@ -119,7 +119,7 @@ async (x = delete ((typeof) = f)) => {}
                                 "end": 32
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 10,
                             "end": 32
                         },

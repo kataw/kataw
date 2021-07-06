@@ -99,7 +99,7 @@ for (true ? 0 : 0 in {}; false; ) ;
                         "end": 23
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 15,
                     "end": 23
                 },

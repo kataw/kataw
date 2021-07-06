@@ -169,7 +169,7 @@ var O = { p: 1 }, x = 10; foo(void ** 1)
                                     "end": 34
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 30,
                                 "end": 34
                             },
@@ -190,7 +190,7 @@ var O = { p: 1 }, x = 10; foo(void ** 1)
                                 "end": 39
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 30,
                             "end": 39
                         }

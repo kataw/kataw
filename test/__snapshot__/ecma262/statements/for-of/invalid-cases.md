@@ -1095,7 +1095,7 @@ for ({a: b.c}-- of d) e;
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 221,
                 "end": 232
             },
@@ -1637,7 +1637,7 @@ for ({a: b.c}-- of d) e;
                         }
                     ],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 357,
                     "end": 361
                 },
@@ -1789,7 +1789,7 @@ for ({a: b.c}-- of d) e;
                         }
                     ],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 387,
                     "end": 391
                 },
@@ -2293,7 +2293,7 @@ for ({a: b.c}-- of d) e;
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 502,
                 "end": 513
             },
@@ -2680,12 +2680,12 @@ for ({a: b.c}-- of d) e;
                         "end": 619
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 614,
                     "end": 619
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 602,
                 "end": 619
             },
@@ -2771,7 +2771,7 @@ for ({a: b.c}-- of d) e;
                         }
                     ],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 634,
                     "end": 636
                 },
@@ -2840,7 +2840,7 @@ for ({a: b.c}-- of d) e;
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 641,
                 "end": 651
             },
@@ -3294,7 +3294,7 @@ for ({a: b.c}-- of d) e;
                                     "end": 760
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 753,
                                 "end": 760
                             },
@@ -4675,7 +4675,7 @@ for ({a: b.c}-- of d) e;
                                     "end": 1075
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 1068,
                                 "end": 1075
                             },
@@ -5276,7 +5276,7 @@ for ({a: b.c}-- of d) e;
                         }
                     ],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 1202,
                     "end": 1203
                 },
@@ -5461,7 +5461,7 @@ for ({a: b.c}-- of d) e;
                                         "end": 1253
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 1246,
                                     "end": 1253
                                 },
@@ -6028,7 +6028,7 @@ for ({a: b.c}-- of d) e;
                                     "end": 1392
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 1385,
                                 "end": 1392
                             },

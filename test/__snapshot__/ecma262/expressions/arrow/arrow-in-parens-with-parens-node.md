@@ -70,7 +70,7 @@ var asserted1 = <any>((n) => { return n; });
                                     "end": 20
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 15,
                                 "end": 20
                             },
@@ -165,7 +165,7 @@ var asserted1 = <any>((n) => { return n; });
                                 "end": 43
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 15,
                             "end": 43
                         },

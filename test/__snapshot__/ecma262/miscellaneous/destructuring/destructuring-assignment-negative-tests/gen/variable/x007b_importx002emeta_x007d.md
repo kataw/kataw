@@ -108,7 +108,7 @@ var x, y, z; ({ import.meta } = {});
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 12,
                     "end": 27
                 },

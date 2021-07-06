@@ -2366,7 +2366,7 @@ function f({x:arg = (arg = 2)}) {}
                                                 }
                                             ],
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 562,
                                             "end": 578
                                         },

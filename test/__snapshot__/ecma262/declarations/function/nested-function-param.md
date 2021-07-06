@@ -186,7 +186,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                     "end": 27
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 10,
                 "end": 28
             },
@@ -378,7 +378,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                     "end": 65
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 58,
                                 "end": 65
                             },
@@ -449,7 +449,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                     "end": 90
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 83,
                                 "end": 90
                             },

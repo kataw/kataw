@@ -138,7 +138,7 @@ type B = Foo<
                     "end": 27
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 7,
                 "end": 28
             },
@@ -300,7 +300,7 @@ type B = Foo<
                     "end": 65
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 42,
                 "end": 66
             },
@@ -483,7 +483,7 @@ type B = Foo<
                     "end": 112
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 80,
                 "end": 113
             },
@@ -613,7 +613,7 @@ type B = Foo<
                                                                 "text": "A",
                                                                 "rawText": "\"A\"",
                                                                 "flags": 2097216,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 1024,
                                                                 "start": 144,
                                                                 "end": 148
                                                             },
@@ -662,7 +662,7 @@ type B = Foo<
                                                                 "text": "B",
                                                                 "rawText": "\"B\"",
                                                                 "flags": 2097216,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 1024,
                                                                 "start": 160,
                                                                 "end": 164
                                                             },
@@ -702,7 +702,7 @@ type B = Foo<
                             "end": 165
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 132,
                         "end": 167
                     },
@@ -809,7 +809,7 @@ type B = Foo<
                                                                 "text": "A",
                                                                 "rawText": "\"A\"",
                                                                 "flags": 2097216,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 1024,
                                                                 "start": 194,
                                                                 "end": 198
                                                             },
@@ -858,7 +858,7 @@ type B = Foo<
                                                                 "text": "B",
                                                                 "rawText": "\"B\"",
                                                                 "flags": 2097216,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 1024,
                                                                 "start": 210,
                                                                 "end": 214
                                                             },
@@ -898,7 +898,7 @@ type B = Foo<
                             "end": 215
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 182,
                         "end": 217
                     },

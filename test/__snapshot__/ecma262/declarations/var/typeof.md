@@ -126,7 +126,7 @@ var a : typeof A.B<T>
                                             "end": 20
                                         },
                                         "flags": 2097152,
-                                        "transformFlags": 0,
+                                        "transformFlags": 512,
                                         "start": 18,
                                         "end": 21
                                     },

@@ -86,7 +86,7 @@ function from<T>(arg: any): Query<T> {
                     "end": 23
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 21,
                 "end": 24
             },
@@ -190,7 +190,7 @@ function from<T>(arg: any): Query<T> {
                             "end": 47
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 45,
                         "end": 48
                     },
@@ -269,7 +269,7 @@ function from<T>(arg: any): Query<T> {
                     "end": 65
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 63,
                 "end": 66
             },
@@ -412,7 +412,7 @@ function from<T>(arg: any): Query<T> {
                             "end": 85
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 83,
                         "end": 86
                     },

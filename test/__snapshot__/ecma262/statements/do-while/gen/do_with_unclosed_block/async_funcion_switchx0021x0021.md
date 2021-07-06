@@ -151,12 +151,12 @@ do {} while (x) { async funcion switch!!
                                     "end": 40
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 39,
                                 "end": 40
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 38,
                             "end": 40
                         },

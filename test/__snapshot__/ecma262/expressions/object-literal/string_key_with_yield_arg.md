@@ -82,7 +82,7 @@ s = {"foo": yield /x/}
                                             "end": 20
                                         },
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 1024,
                                         "start": 5,
                                         "end": 20
                                     },
@@ -103,7 +103,7 @@ s = {"foo": yield /x/}
                                         "end": 21
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 5,
                                     "end": 21
                                 },

@@ -176,7 +176,7 @@ for (let i = 0; i < require('foo').bar; i++) {
                     "end": 38
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 15,
                 "end": 38
             },

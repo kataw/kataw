@@ -130,7 +130,7 @@ type x = {get x (/*1*/): string }
                                             "end": 33
                                         },
                                         "flags": 2097152,
-                                        "transformFlags": 0,
+                                        "transformFlags": 512,
                                         "start": 26,
                                         "end": 34
                                     },
@@ -277,7 +277,7 @@ type x = {get x (/*1*/): string }
                                                         "end": 69
                                                     },
                                                     "flags": 2097152,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 512,
                                                     "start": 62,
                                                     "end": 70
                                                 },
@@ -344,7 +344,7 @@ type x = {get x (/*1*/): string }
                                                         "end": 92
                                                     },
                                                     "flags": 2097152,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 512,
                                                     "start": 85,
                                                     "end": 93
                                                 },
@@ -503,7 +503,7 @@ type x = {get x (/*1*/): string }
                                                         "end": 132
                                                     },
                                                     "flags": 2097152,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 512,
                                                     "start": 120,
                                                     "end": 138
                                                 },
@@ -570,7 +570,7 @@ type x = {get x (/*1*/): string }
                                                         "end": 160
                                                     },
                                                     "flags": 2097152,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 512,
                                                     "start": 153,
                                                     "end": 161
                                                 },
@@ -708,7 +708,7 @@ type x = {get x (/*1*/): string }
                             "end": 209
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 193,
                         "end": 216
                     },
@@ -858,7 +858,7 @@ type x = {get x (/*1*/): string }
                                 "text": "bar",
                                 "rawText": "'bar'",
                                 "flags": 6291520,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 269,
                                 "end": 274
                             },
@@ -948,7 +948,7 @@ type x = {get x (/*1*/): string }
                                 "text": "bar",
                                 "rawText": "'bar'",
                                 "flags": 6291520,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 298,
                                 "end": 308
                             },
@@ -1460,7 +1460,7 @@ type x = {get x (/*1*/): string }
                     "end": 498
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 491,
                 "end": 499
             },

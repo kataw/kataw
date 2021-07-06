@@ -103,7 +103,7 @@ opaque type Counter: Box<T> = Container<T>;
                             "end": 26
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 24,
                         "end": 27
                     },
@@ -171,7 +171,7 @@ opaque type Counter: Box<T> = Container<T>;
                             "end": 41
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 39,
                         "end": 42
                     },

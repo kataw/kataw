@@ -189,7 +189,7 @@ var await; var f = (async function() { var e = (await, f); });
                                                                         }
                                                                     ],
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 1024,
                                                                     "start": 46,
                                                                     "end": 57
                                                                 },

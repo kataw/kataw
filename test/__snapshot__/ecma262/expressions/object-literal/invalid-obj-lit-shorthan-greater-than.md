@@ -25,7 +25,7 @@
                         "kind": 132,
                         "expressions": [],
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 1,
                         "end": 15
                     },

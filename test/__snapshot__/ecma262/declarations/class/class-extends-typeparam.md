@@ -75,7 +75,7 @@ class Foo<T> extends Bar<T> { }
                     "end": 11
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 9,
                 "end": 12
             },
@@ -138,7 +138,7 @@ class Foo<T> extends Bar<T> { }
                             "end": 26
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 24,
                         "end": 27
                     },

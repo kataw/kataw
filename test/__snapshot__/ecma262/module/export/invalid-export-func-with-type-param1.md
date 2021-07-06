@@ -82,7 +82,7 @@ export default function <T>() {}
                         "end": 26
                     },
                     "flags": 2097152,
-                    "transformFlags": 0,
+                    "transformFlags": 512,
                     "start": 23,
                     "end": 27
                 },

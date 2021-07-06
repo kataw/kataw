@@ -93,7 +93,7 @@ function foo(001, 003) { "use strict"; }
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 13,
                 "end": 21
             },

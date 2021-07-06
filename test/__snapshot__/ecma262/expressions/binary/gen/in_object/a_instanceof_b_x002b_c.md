@@ -89,7 +89,7 @@ x = { a: a instanceof b + c }
                                             "end": 23
                                         },
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 1024,
                                         "start": 5,
                                         "end": 23
                                     },
@@ -110,7 +110,7 @@ x = { a: a instanceof b + c }
                                         "end": 27
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 5,
                                     "end": 27
                                 },

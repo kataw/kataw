@@ -94,7 +94,7 @@ delete async (x, y) => ok
                     "end": 25
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 25
             },

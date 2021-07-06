@@ -551,7 +551,7 @@ let one = {
                                                     "end": 135
                                                 },
                                                 "flags": 2097152,
-                                                "transformFlags": 0,
+                                                "transformFlags": 512,
                                                 "start": 133,
                                                 "end": 136
                                             },

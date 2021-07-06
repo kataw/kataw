@@ -99,7 +99,7 @@ type A5<S = number, T: ?string = string> = T;
                     "end": 18
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 7,
                 "end": 19
             },
@@ -213,7 +213,7 @@ type A5<S = number, T: ?string = string> = T;
                     "end": 38
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 32,
                 "end": 39
             },
@@ -356,7 +356,7 @@ type A5<S = number, T: ?string = string> = T;
                     "end": 72
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 52,
                 "end": 73
             },
@@ -518,7 +518,7 @@ type A5<S = number, T: ?string = string> = T;
                     "end": 109
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 86,
                 "end": 110
             },
@@ -701,7 +701,7 @@ type A5<S = number, T: ?string = string> = T;
                     "end": 155
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 123,
                 "end": 156
             },

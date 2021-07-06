@@ -103,7 +103,7 @@ x ** async (x, y) => ok
                     "end": 23
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 23
             },

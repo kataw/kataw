@@ -233,7 +233,7 @@ function *infer_stmt() {
                             "end": 52
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 33,
                         "end": 53
                     },
@@ -405,7 +405,7 @@ function *infer_stmt() {
                             "end": 138
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 119,
                         "end": 139
                     },
@@ -577,7 +577,7 @@ function *infer_stmt() {
                             "end": 214
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 195,
                         "end": 215
                     },

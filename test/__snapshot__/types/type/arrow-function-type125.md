@@ -117,7 +117,7 @@ type a = (|1,symbol['string']) => T;
                                             "text": "string",
                                             "rawText": "'string'",
                                             "flags": 6291520,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 20,
                                             "end": 28
                                         },

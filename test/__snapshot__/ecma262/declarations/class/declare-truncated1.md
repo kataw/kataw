@@ -149,7 +149,7 @@ declare class B {
                     "end": 28
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 26,
                 "end": 28
             },

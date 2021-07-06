@@ -78,7 +78,7 @@ function call(foo= 5 + (await bar())){}
                                     "kind": 132,
                                     "expressions": [],
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 22,
                                     "end": 29
                                 },
@@ -88,7 +88,7 @@ function call(foo= 5 + (await bar())){}
                                 "end": 29
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 18,
                             "end": 29
                         },

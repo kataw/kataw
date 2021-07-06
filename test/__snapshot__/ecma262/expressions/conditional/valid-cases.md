@@ -307,7 +307,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             }
                         ],
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 46,
                         "end": 53
                     },
@@ -371,7 +371,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             }
                         ],
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 58,
                         "end": 65
                     },
@@ -467,7 +467,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             }
                         ],
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 78,
                         "end": 85
                     },
@@ -531,7 +531,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             }
                         ],
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 90,
                         "end": 97
                     },
@@ -614,7 +614,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "end": 114
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 107,
                     "end": 114
                 },
@@ -692,7 +692,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "end": 130
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 123,
                     "end": 130
                 },
@@ -770,7 +770,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "end": 146
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 139,
                     "end": 146
                 },
@@ -864,7 +864,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "end": 167
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 160,
                     "end": 167
                 },
@@ -942,7 +942,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "end": 183
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 176,
                     "end": 183
                 },
@@ -1020,7 +1020,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "end": 199
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 192,
                     "end": 199
                 },
@@ -1082,7 +1082,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "end": 215
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 205,
                         "end": 215
                     },
@@ -1181,7 +1181,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "end": 238
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 228,
                         "end": 238
                     },
@@ -1366,7 +1366,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 271
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 268,
                                 "end": 271
                             },
@@ -1396,7 +1396,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 276
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 273,
                                 "end": 276
                             },
@@ -1475,7 +1475,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 287
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 284,
                                 "end": 287
                             },
@@ -1570,7 +1570,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 302
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 299,
                                 "end": 302
                             },
@@ -1706,7 +1706,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "end": 328
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 325,
                     "end": 328
                 },
@@ -1736,7 +1736,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "end": 333
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 330,
                     "end": 333
                 },
@@ -2454,7 +2454,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "end": 449
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 442,
                     "end": 449
                 },
@@ -2493,7 +2493,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "end": 458
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 451,
                     "end": 458
                 },
@@ -2601,7 +2601,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 476
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 468,
                                 "end": 476
                             }
@@ -2698,7 +2698,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 492
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 484,
                                 "end": 492
                             }
@@ -2763,7 +2763,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "end": 502
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 499,
                     "end": 502
                 },
@@ -2793,7 +2793,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "end": 507
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 504,
                     "end": 507
                 },
@@ -3387,7 +3387,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "end": 604
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 597,
                     "end": 604
                 },
@@ -3426,7 +3426,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "end": 613
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 606,
                     "end": 613
                 },
@@ -3534,7 +3534,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 631
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 623,
                                 "end": 631
                             }
@@ -3631,7 +3631,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 647
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 639,
                                 "end": 647
                             }

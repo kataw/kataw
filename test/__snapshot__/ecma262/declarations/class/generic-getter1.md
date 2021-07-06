@@ -80,7 +80,7 @@ class C<T> {
                     "end": 9
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 7,
                 "end": 10
             },

@@ -98,7 +98,7 @@ class Array { concat(items:number | string) {}; }
                     "end": 12
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 10,
                 "end": 13
             },
@@ -175,7 +175,7 @@ class Array { concat(items:number | string) {}; }
                     "end": 29
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 27,
                 "end": 30
             },
@@ -238,7 +238,7 @@ class Array { concat(items:number | string) {}; }
                             "end": 44
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 42,
                         "end": 45
                     },
@@ -317,7 +317,7 @@ class Array { concat(items:number | string) {}; }
                     "end": 61
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 59,
                 "end": 62
             },
@@ -890,7 +890,7 @@ class Array { concat(items:number | string) {}; }
                                         "end": 249
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 247,
                                     "end": 250
                                 },

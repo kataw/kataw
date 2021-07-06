@@ -59,7 +59,7 @@ a ?? b ?? c ? d : e;
                     "end": 6
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 6
             },
@@ -100,7 +100,7 @@ a ?? b ?? c ? d : e;
                         "end": 14
                     },
                     "flags": 97,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 7,
                     "end": 14
                 },
@@ -139,12 +139,12 @@ a ?? b ?? c ? d : e;
                         "end": 23
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 19,
                     "end": 23
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 7,
                 "end": 23
             },
@@ -185,7 +185,7 @@ a ?? b ?? c ? d : e;
                         "end": 32
                     },
                     "flags": 97,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 24,
                     "end": 32
                 },
@@ -265,7 +265,7 @@ a ?? b ?? c ? d : e;
                             "end": 50
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 41,
                         "end": 50
                     },
@@ -291,7 +291,7 @@ a ?? b ?? c ? d : e;
                     "end": 56
                 },
                 "flags": 41,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 41,
                 "end": 56
             },
@@ -332,7 +332,7 @@ a ?? b ?? c ? d : e;
                         "end": 65
                     },
                     "flags": 97,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 57,
                     "end": 65
                 },
@@ -353,7 +353,7 @@ a ?? b ?? c ? d : e;
                     "end": 70
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 57,
                 "end": 70
             },
@@ -394,7 +394,7 @@ a ?? b ?? c ? d : e;
                         "end": 79
                     },
                     "flags": 97,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 71,
                     "end": 79
                 },
@@ -474,7 +474,7 @@ a ?? b ?? c ? d : e;
                             "end": 96
                         },
                         "flags": 97,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 88,
                         "end": 96
                     },
@@ -495,7 +495,7 @@ a ?? b ?? c ? d : e;
                         "end": 101
                     },
                     "flags": 97,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 88,
                     "end": 101
                 },
@@ -591,7 +591,7 @@ a ?? b ?? c ? d : e;
                             "end": 132
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 125,
                         "end": 132
                     },
@@ -612,7 +612,7 @@ a ?? b ?? c ? d : e;
                         "end": 137
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 125,
                     "end": 137
                 },

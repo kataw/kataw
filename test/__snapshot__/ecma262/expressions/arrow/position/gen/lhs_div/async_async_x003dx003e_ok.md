@@ -79,7 +79,7 @@ async async => ok / x
                         "end": 21
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 14,
                     "end": 21
                 },

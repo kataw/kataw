@@ -164,7 +164,7 @@ var O = { p: 1 }, x = 10; ; (delete x ** 10)
                             "end": 37
                         },
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 29,
                         "end": 37
                     },
@@ -185,7 +185,7 @@ var O = { p: 1 }, x = 10; ; (delete x ** 10)
                         "end": 43
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 29,
                     "end": 43
                 },

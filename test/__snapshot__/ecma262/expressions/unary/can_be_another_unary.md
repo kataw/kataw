@@ -43,12 +43,12 @@ delete typeof true
                         "end": 18
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 6,
                     "end": 18
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 18
             },

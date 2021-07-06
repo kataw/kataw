@@ -85,7 +85,7 @@ async () => {  inst\u0061nceof = x  }
                                     "end": 30
                                 },
                                 "flags": 16480,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 13,
                                 "end": 30
                             },

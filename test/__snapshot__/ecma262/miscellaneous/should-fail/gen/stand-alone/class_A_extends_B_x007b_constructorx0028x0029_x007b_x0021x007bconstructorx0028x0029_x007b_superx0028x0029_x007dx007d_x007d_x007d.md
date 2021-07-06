@@ -223,7 +223,7 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                                                         "end": 65
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 1024,
                                                     "start": 35,
                                                     "end": 65
                                                 },

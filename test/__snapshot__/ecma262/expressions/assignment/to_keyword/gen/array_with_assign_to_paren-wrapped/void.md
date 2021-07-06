@@ -74,7 +74,7 @@ async x => (void) = 1
                                 "end": 16
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 12,
                             "end": 16
                         },

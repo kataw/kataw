@@ -76,7 +76,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                     "end": 11
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 9,
                 "end": 12
             },
@@ -144,7 +144,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                     "end": 26
                                 },
                                 "flags": 2097152,
-                                "transformFlags": 0,
+                                "transformFlags": 512,
                                 "start": 24,
                                 "end": 27
                             },
@@ -203,7 +203,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                     "end": 43
                                 },
                                 "flags": 2097152,
-                                "transformFlags": 0,
+                                "transformFlags": 512,
                                 "start": 41,
                                 "end": 44
                             },
@@ -279,7 +279,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                     "end": 66
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 64,
                 "end": 67
             },
@@ -347,7 +347,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                     "end": 83
                                 },
                                 "flags": 2097152,
-                                "transformFlags": 0,
+                                "transformFlags": 512,
                                 "start": 74,
                                 "end": 84
                             },
@@ -406,7 +406,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                     "end": 100
                                 },
                                 "flags": 2097152,
-                                "transformFlags": 0,
+                                "transformFlags": 512,
                                 "start": 98,
                                 "end": 101
                             },

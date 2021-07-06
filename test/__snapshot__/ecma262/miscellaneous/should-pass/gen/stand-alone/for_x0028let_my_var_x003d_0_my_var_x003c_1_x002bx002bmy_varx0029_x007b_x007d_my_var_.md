@@ -131,7 +131,7 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
                     "end": 31
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 20,
                 "end": 31
             },

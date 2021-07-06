@@ -76,7 +76,7 @@ x, {x: foo + y, bar} = doo
                                                 "end": 14
                                             },
                                             "flags": 96,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 4,
                                             "end": 14
                                         },
@@ -129,7 +129,7 @@ x, {x: foo + y, bar} = doo
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 26
             },

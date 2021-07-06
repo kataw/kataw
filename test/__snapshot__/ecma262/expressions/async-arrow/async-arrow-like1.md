@@ -147,12 +147,12 @@ async <T>(fn: () => T);
                         "end": 22
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 8,
                     "end": 22
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 22
             },

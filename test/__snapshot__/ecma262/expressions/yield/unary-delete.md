@@ -94,7 +94,7 @@ function *f() {  return delete yield;  }
                                     "end": 36
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 23,
                                 "end": 36
                             },

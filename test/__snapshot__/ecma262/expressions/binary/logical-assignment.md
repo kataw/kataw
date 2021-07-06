@@ -2258,7 +2258,7 @@ oobj["obj"][incr()] ??= incr();
                             }
                         ],
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 655,
                         "end": 679
                     },
@@ -2390,7 +2390,7 @@ oobj["obj"][incr()] ??= incr();
                             }
                         ],
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 687,
                         "end": 711
                     },
@@ -2522,7 +2522,7 @@ oobj["obj"][incr()] ??= incr();
                             }
                         ],
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 719,
                         "end": 743
                     },

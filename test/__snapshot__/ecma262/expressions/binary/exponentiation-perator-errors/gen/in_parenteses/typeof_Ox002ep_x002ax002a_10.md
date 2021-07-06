@@ -180,7 +180,7 @@ var O = { p: 1 }, x = 10; ; (typeof O.p ** 10)
                             "end": 39
                         },
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 29,
                         "end": 39
                     },
@@ -201,7 +201,7 @@ var O = { p: 1 }, x = 10; ; (typeof O.p ** 10)
                         "end": 45
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 29,
                     "end": 45
                 },

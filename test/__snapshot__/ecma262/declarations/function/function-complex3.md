@@ -120,7 +120,7 @@ function b1<A: 'a', B: A>(b: B): void {
                     "end": 15
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 10,
                 "end": 16
             },
@@ -194,7 +194,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                         "end": 27
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 25,
                                     "end": 28
                                 },
@@ -446,7 +446,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                                     "text": "a",
                                                     "rawText": "'a'",
                                                     "flags": 6291520,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 1024,
                                                     "start": 156,
                                                     "end": 160
                                                 },
@@ -470,7 +470,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                     "end": 160
                                 },
                                 "flags": 2097152,
-                                "transformFlags": 0,
+                                "transformFlags": 512,
                                 "start": 153,
                                 "end": 161
                             },
@@ -572,7 +572,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                                     "end": 191
                                                 },
                                                 "flags": 96,
-                                                "transformFlags": 0,
+                                                "transformFlags": 1024,
                                                 "start": 182,
                                                 "end": 191
                                             },
@@ -693,7 +693,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                     "text": "a",
                                     "rawText": "'a'",
                                     "flags": 6291520,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 216,
                                     "end": 220
                                 },
@@ -761,7 +761,7 @@ function b1<A: 'a', B: A>(b: B): void {
                     "end": 226
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 213,
                 "end": 227
             },
@@ -863,7 +863,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                     "end": 257
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 248,
                                 "end": 257
                             },

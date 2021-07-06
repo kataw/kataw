@@ -53,7 +53,7 @@ x<number>(y)
                         "end": 8
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 8
                 },
@@ -81,7 +81,7 @@ x<number>(y)
                     "end": 12
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 12
             },

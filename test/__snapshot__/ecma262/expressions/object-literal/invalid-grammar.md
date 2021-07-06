@@ -98,7 +98,7 @@ q = {"foo": super = x} = x;
                                                             }
                                                         ],
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 10,
                                                         "end": 16
                                                     },
@@ -277,7 +277,7 @@ q = {"foo": super = x} = x;
                                                             }
                                                         ],
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 43,
                                                         "end": 49
                                                     },
@@ -422,7 +422,7 @@ q = {"foo": super = x} = x;
                                                             }
                                                         ],
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 69,
                                                         "end": 75
                                                     },
@@ -671,7 +671,7 @@ q = {"foo": super = x} = x;
                                                             }
                                                         ],
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 113,
                                                         "end": 119
                                                     },
@@ -809,7 +809,7 @@ q = {"foo": super = x} = x;
                                                             }
                                                         ],
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 146,
                                                         "end": 152
                                                     },
@@ -945,7 +945,7 @@ q = {"foo": super = x} = x;
                                                             }
                                                         ],
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 174,
                                                         "end": 180
                                                     },
@@ -1083,7 +1083,7 @@ q = {"foo": super = x} = x;
                                                             }
                                                         ],
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 200,
                                                         "end": 206
                                                     },
@@ -1219,7 +1219,7 @@ q = {"foo": super = x} = x;
                                                             }
                                                         ],
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 229,
                                                         "end": 235
                                                     },
@@ -1357,7 +1357,7 @@ q = {"foo": super = x} = x;
                                                             }
                                                         ],
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 254,
                                                         "end": 260
                                                     },

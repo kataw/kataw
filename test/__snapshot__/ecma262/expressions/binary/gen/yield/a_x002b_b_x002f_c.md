@@ -126,12 +126,12 @@ function *f() {
                                             "end": 33
                                         },
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 1024,
                                         "start": 29,
                                         "end": 33
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 23,
                                     "end": 33
                                 },

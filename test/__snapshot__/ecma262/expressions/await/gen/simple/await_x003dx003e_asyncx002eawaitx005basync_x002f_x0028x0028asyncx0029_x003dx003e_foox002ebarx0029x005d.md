@@ -159,7 +159,7 @@ await => async.await[async / ((async) => foo.bar)]
                             "end": 49
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 21,
                         "end": 49
                     },

@@ -25,7 +25,7 @@ export function createBinaryExpression(
     operatorToken,
     right,
     flags,
-    transformFlags: TransformFlags.None,
+    transformFlags: TransformFlags.CanBreak,
     start,
     end
   };

@@ -185,7 +185,7 @@ var O = { p: 1 }, x = 10; ; if (typeof O.p ** 10) { foo(); }
                         "end": 42
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 32,
                     "end": 42
                 },
@@ -206,7 +206,7 @@ var O = { p: 1 }, x = 10; ; if (typeof O.p ** 10) { foo(); }
                     "end": 48
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 32,
                 "end": 48
             },

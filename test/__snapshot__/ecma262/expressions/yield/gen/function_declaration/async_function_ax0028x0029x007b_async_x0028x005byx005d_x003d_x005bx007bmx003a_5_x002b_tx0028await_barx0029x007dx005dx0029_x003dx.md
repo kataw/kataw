@@ -236,7 +236,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                             "end": 79
                                                                                         },
                                                                                         "flags": 96,
-                                                                                        "transformFlags": 0,
+                                                                                        "transformFlags": 1024,
                                                                                         "start": 60,
                                                                                         "end": 79
                                                                                     },

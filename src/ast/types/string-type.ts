@@ -11,7 +11,7 @@ export function createStringType(text: string, rawText: string, flags: NodeFlags
     text,
     rawText,
     flags,
-    transformFlags: TransformFlags.None,
+    transformFlags: TransformFlags.CanBreak,
     start,
     end
   };

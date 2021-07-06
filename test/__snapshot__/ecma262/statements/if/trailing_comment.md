@@ -63,7 +63,7 @@ if (
                     "end": 15
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 4,
                 "end": 15
             },
@@ -126,7 +126,7 @@ if (
                     "end": 45
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 34,
                 "end": 45
             },
@@ -189,7 +189,7 @@ if (
                     "end": 86
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 75,
                 "end": 86
             },
@@ -252,7 +252,7 @@ if (
                     "end": 116
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 105,
                 "end": 116
             },

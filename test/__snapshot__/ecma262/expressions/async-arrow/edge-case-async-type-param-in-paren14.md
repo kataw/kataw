@@ -93,7 +93,7 @@ async <T: U>(x) => y;
                         "end": 12
                     },
                     "flags": 2097152,
-                    "transformFlags": 0,
+                    "transformFlags": 512,
                     "start": 0,
                     "end": 12
                 },
@@ -213,7 +213,7 @@ async <T: U>(x) => y;
                             "end": 36
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 24,
                         "end": 36
                     },

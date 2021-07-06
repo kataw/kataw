@@ -536,7 +536,7 @@ class two {
                                         "end": 126
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 124,
                                     "end": 127
                                 },
@@ -1097,7 +1097,7 @@ class two {
                                         "end": 278
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 276,
                                     "end": 279
                                 },

@@ -66,7 +66,7 @@ x, a instanceof b > c
                                 "end": 17
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 2,
                             "end": 17
                         },
@@ -87,13 +87,13 @@ x, a instanceof b > c
                             "end": 21
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 2,
                         "end": 21
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 21
             },

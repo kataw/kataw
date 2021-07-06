@@ -103,7 +103,7 @@ for (function(){ a in b; }.prop in x);
                                             "end": 23
                                         },
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 1024,
                                         "start": 16,
                                         "end": 23
                                     },

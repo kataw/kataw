@@ -118,7 +118,7 @@ type x = (Record<string, any> | null)[] & { length: 2; }
                                                     "end": 28
                                                 },
                                                 "flags": 2097152,
-                                                "transformFlags": 0,
+                                                "transformFlags": 512,
                                                 "start": 16,
                                                 "end": 29
                                             },

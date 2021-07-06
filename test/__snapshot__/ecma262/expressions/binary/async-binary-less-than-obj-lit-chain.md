@@ -56,7 +56,7 @@ async <{}>(x) >> y + z
                             "end": 9
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 0,
                         "end": 9
                     },
@@ -102,12 +102,12 @@ async <{}>(x) >> y + z
                             "end": 18
                         },
                         "flags": 42,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 13,
                         "end": 18
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 18
                 },
@@ -128,7 +128,7 @@ async <{}>(x) >> y + z
                     "end": 22
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 22
             },

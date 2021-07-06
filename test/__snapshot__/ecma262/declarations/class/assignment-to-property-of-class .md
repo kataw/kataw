@@ -117,7 +117,7 @@ c.m = n => n * 3;
                                         "end": 93
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 87,
                                     "end": 93
                                 },
@@ -311,7 +311,7 @@ c.m = n => n * 3;
                             "end": 133
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 127,
                         "end": 133
                     },

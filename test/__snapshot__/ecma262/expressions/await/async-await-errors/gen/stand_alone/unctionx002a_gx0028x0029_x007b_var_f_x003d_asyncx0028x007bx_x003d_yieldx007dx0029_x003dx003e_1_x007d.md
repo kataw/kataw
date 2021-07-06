@@ -68,7 +68,7 @@ unction* g() { var f = async({x = yield}) => 1; }
                     "end": 12
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 12
             },

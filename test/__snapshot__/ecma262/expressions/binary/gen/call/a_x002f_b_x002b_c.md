@@ -68,7 +68,7 @@ foo( a / b + c )
                                     "end": 10
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 4,
                                 "end": 10
                             },
@@ -89,7 +89,7 @@ foo( a / b + c )
                                 "end": 14
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 4,
                             "end": 14
                         }

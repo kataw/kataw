@@ -152,7 +152,7 @@ const fn = async (a?: any): Promise<void> => {};
                                             "end": 40
                                         },
                                         "flags": 2097152,
-                                        "transformFlags": 0,
+                                        "transformFlags": 512,
                                         "start": 35,
                                         "end": 41
                                     },

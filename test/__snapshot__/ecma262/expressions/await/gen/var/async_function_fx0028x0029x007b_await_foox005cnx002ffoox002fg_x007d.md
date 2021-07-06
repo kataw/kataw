@@ -95,7 +95,7 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                                 "kind": 132,
                                 "expressions": [],
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 18,
                                 "end": 68
                             },
@@ -152,7 +152,7 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                         "end": 74
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 69,
                     "end": 74
                 },
@@ -173,7 +173,7 @@ var await; var f = (async function() { async function f(){ await foo\n/foo/g } }
                     "end": 76
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 69,
                 "end": 76
             },

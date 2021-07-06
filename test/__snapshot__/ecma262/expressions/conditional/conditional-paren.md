@@ -73,7 +73,7 @@ a ? (1 + 2) : (3 + 4)
                             "end": 10
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 5,
                         "end": 10
                     },
@@ -119,7 +119,7 @@ a ? (1 + 2) : (3 + 4)
                             "end": 20
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 15,
                         "end": 20
                     },

@@ -52,7 +52,7 @@ inst\u0061nceof = x;
                     "end": 15
                 },
                 "flags": 16480,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 15
             },

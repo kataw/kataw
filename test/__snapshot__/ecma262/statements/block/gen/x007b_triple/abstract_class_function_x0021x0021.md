@@ -170,12 +170,12 @@
                                                             "end": 32
                                                         },
                                                         "flags": 32,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 31,
                                                         "end": 32
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 1024,
                                                     "start": 29,
                                                     "end": 32
                                                 },

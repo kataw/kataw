@@ -142,7 +142,7 @@ declare => x, declare(y);
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 13,
                 "end": 41
             },
@@ -270,7 +270,7 @@ declare => x, declare(y);
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 56,
                 "end": 82
             },
@@ -356,7 +356,7 @@ declare => x, declare(y);
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 83,
                 "end": 109
             },

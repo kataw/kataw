@@ -467,7 +467,7 @@ declare function four<T>(this: T): void;
                     "end": 173
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 171,
                 "end": 174
             },

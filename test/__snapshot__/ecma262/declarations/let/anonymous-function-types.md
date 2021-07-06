@@ -155,7 +155,7 @@ let x = (): Array<(string) => number> => []
                                             "end": 36
                                         },
                                         "flags": 2097152,
-                                        "transformFlags": 0,
+                                        "transformFlags": 512,
                                         "start": 17,
                                         "end": 37
                                     },

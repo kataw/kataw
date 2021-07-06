@@ -105,7 +105,7 @@ let p/
                     "end": 6
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 5,
                 "end": 6
             },

@@ -190,7 +190,7 @@ var z = x + x;
                                 "end": 43
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 37,
                             "end": 43
                         },

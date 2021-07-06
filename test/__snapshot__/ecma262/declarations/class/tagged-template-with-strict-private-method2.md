@@ -362,7 +362,7 @@ new Foo();
                                                                     "end": 170
                                                                 },
                                                                 "flags": 96,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 1024,
                                                                 "start": 153,
                                                                 "end": 170
                                                             }
@@ -520,7 +520,7 @@ new Foo();
                                                                     "end": 262
                                                                 },
                                                                 "flags": 96,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 1024,
                                                                 "start": 244,
                                                                 "end": 262
                                                             }

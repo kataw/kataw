@@ -79,7 +79,7 @@ class C<T> {
                     "end": 9
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 7,
                 "end": 10
             },
@@ -158,7 +158,7 @@ class C<T> {
                                                             "end": 41
                                                         },
                                                         "flags": 97,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 22,
                                                         "end": 41
                                                     },
@@ -186,7 +186,7 @@ class C<T> {
                                                         "end": 45
                                                     },
                                                     "flags": 97,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 1024,
                                                     "start": 22,
                                                     "end": 45
                                                 },
@@ -227,7 +227,7 @@ class C<T> {
                                                             "end": 65
                                                         },
                                                         "flags": 97,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 46,
                                                         "end": 65
                                                     },
@@ -273,12 +273,12 @@ class C<T> {
                                                             "end": 78
                                                         },
                                                         "flags": 96,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 74,
                                                         "end": 78
                                                     },
                                                     "flags": 97,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 1024,
                                                     "start": 46,
                                                     "end": 78
                                                 },
@@ -379,7 +379,7 @@ class C<T> {
                                                             "end": 114
                                                         },
                                                         "flags": 97,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 79,
                                                         "end": 114
                                                     },
@@ -407,7 +407,7 @@ class C<T> {
                                                         "end": 118
                                                     },
                                                     "flags": 97,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 1024,
                                                     "start": 79,
                                                     "end": 118
                                                 },

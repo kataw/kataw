@@ -109,7 +109,7 @@ x: for(;;) continue x
                     "end": 24
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 21,
                 "end": 24
             },

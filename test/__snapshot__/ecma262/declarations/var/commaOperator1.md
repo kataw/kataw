@@ -91,7 +91,7 @@ function f1() {
                                                 }
                                             ],
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 10,
                                             "end": 18
                                         },
@@ -143,7 +143,7 @@ function f1() {
                                                 }
                                             ],
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 26,
                                             "end": 32
                                         },
@@ -154,7 +154,7 @@ function f1() {
                                     }
                                 ],
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 8,
                                 "end": 33
                             },
@@ -307,7 +307,7 @@ function f1() {
                                     }
                                 ],
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 77,
                                 "end": 86
                             },

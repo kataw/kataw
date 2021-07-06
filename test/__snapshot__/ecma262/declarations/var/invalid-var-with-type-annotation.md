@@ -121,7 +121,7 @@ var f: >x:int) => string;
                     "end": 9
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 6,
                 "end": 9
             },

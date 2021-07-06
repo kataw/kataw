@@ -104,7 +104,7 @@ type D = $Call<Fn1>;
                             "end": 18
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 14,
                         "end": 19
                     },

@@ -190,7 +190,7 @@ class Foo {
                                                         "end": 55
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 1024,
                                                     "start": 35,
                                                     "end": 55
                                                 },

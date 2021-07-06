@@ -78,7 +78,7 @@ class Foo7<T> {
                     "end": 12
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 10,
                 "end": 13
             },
@@ -140,7 +140,7 @@ class Foo7<T> {
                                         "end": 23
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 21,
                                     "end": 24
                                 },

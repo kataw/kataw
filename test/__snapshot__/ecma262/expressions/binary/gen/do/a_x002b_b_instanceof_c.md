@@ -79,12 +79,12 @@ do a + b instanceof c while (x);
                             "end": 21
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 8,
                         "end": 21
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 2,
                     "end": 21
                 },

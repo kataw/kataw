@@ -119,7 +119,7 @@ foo:for(;;)continue foo
                         "end": 28
                     },
                     "flags": 97,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 23,
                     "end": 28
                 },
@@ -140,7 +140,7 @@ foo:for(;;)continue foo
                     "end": 30
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 23,
                 "end": 30
             },

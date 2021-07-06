@@ -123,7 +123,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                     "end": 28
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 20,
                 "end": 29
             },

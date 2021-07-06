@@ -94,7 +94,7 @@ f(((a) => a + b)(1, 4), 5);
                                             "end": 15
                                         },
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 1024,
                                         "start": 9,
                                         "end": 15
                                     },

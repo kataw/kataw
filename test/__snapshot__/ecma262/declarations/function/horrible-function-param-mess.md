@@ -140,7 +140,7 @@ function processArgs<A1: {}, A2: {}>(
                     "end": 35
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 20,
                 "end": 36
             },
@@ -384,7 +384,7 @@ function processArgs<A1: {}, A2: {}>(
                                         "end": 172
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 160,
                                     "end": 173
                                 },
@@ -562,7 +562,7 @@ function processArgs<A1: {}, A2: {}>(
                                                             "end": 212
                                                         },
                                                         "flags": 2097152,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 512,
                                                         "start": 197,
                                                         "end": 213
                                                     },
@@ -747,7 +747,7 @@ function processArgs<A1: {}, A2: {}>(
                                                 "end": 242
                                             },
                                             "flags": 2097152,
-                                            "transformFlags": 0,
+                                            "transformFlags": 512,
                                             "start": 227,
                                             "end": 243
                                         },
@@ -1016,7 +1016,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "end": 320
                                                 },
                                                 "flags": 2097152,
-                                                "transformFlags": 0,
+                                                "transformFlags": 512,
                                                 "start": 318,
                                                 "end": 321
                                             },
@@ -1246,7 +1246,7 @@ function processArgs<A1: {}, A2: {}>(
                             "end": 80
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 68,
                         "end": 81
                     },
@@ -1424,7 +1424,7 @@ function processArgs<A1: {}, A2: {}>(
                                                 "end": 118
                                             },
                                             "flags": 2097152,
-                                            "transformFlags": 0,
+                                            "transformFlags": 512,
                                             "start": 103,
                                             "end": 119
                                         },
@@ -1615,7 +1615,7 @@ function processArgs<A1: {}, A2: {}>(
                                     "end": 148
                                 },
                                 "flags": 2097152,
-                                "transformFlags": 0,
+                                "transformFlags": 512,
                                 "start": 133,
                                 "end": 149
                             },

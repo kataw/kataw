@@ -97,12 +97,12 @@ async <T>[(x)];
                         "end": 14
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 8,
                     "end": 14
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 14
             },
@@ -185,12 +185,12 @@ async <T>[(x)];
                             "end": 32
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 26,
                         "end": 32
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 18,
                     "end": 32
                 },

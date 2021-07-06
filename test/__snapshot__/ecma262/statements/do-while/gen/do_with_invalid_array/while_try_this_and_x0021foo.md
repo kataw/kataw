@@ -251,7 +251,7 @@ do while [catch] while try this and !foo
                     "end": 40
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 35,
                 "end": 40
             },

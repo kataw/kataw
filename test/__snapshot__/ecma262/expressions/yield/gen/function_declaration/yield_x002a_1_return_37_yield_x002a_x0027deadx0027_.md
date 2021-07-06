@@ -89,7 +89,7 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                     "end": 30
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 20,
                                 "end": 30
                             },
@@ -151,7 +151,7 @@ function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                     "end": 57
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 42,
                                 "end": 57
                             },

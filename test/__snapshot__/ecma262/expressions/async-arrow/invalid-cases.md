@@ -683,7 +683,7 @@ async ([a]:string)=>c;
                     "end": 166
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 146,
                 "end": 166
             },
@@ -742,7 +742,7 @@ async ([a]:string)=>c;
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 179,
                     "end": 205
                 },
@@ -833,7 +833,7 @@ async ([a]:string)=>c;
                                     "end": 227
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 221,
                                 "end": 227
                             },
@@ -886,7 +886,7 @@ async ([a]:string)=>c;
                                 "end": 240
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 221,
                             "end": 240
                         },
@@ -981,7 +981,7 @@ async ([a]:string)=>c;
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 262,
                     "end": 293
                 },
@@ -1026,7 +1026,7 @@ async ([a]:string)=>c;
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 300,
                     "end": 321
                 },
@@ -1097,7 +1097,7 @@ async ([a]:string)=>c;
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 334,
                     "end": 357
                 },
@@ -1142,7 +1142,7 @@ async ([a]:string)=>c;
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 364,
                     "end": 380
                 },
@@ -1213,7 +1213,7 @@ async ([a]:string)=>c;
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 393,
                     "end": 411
                 },

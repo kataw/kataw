@@ -130,7 +130,7 @@ const f = async <T, R, S>(
                                     "end": 24
                                 },
                                 "flags": 2097152,
-                                "transformFlags": 0,
+                                "transformFlags": 512,
                                 "start": 9,
                                 "end": 25
                             },

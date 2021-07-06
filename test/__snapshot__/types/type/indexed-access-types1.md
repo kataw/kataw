@@ -82,7 +82,7 @@ type A = Obj['a'];
                             "text": "a",
                             "rawText": "'a'",
                             "flags": 6291520,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 13,
                             "end": 16
                         },

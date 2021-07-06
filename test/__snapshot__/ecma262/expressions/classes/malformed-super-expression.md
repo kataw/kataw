@@ -127,7 +127,7 @@ class A {
                                                         "end": 32
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 1024,
                                                     "start": 18,
                                                     "end": 32
                                                 },

@@ -83,7 +83,7 @@ declare function aw<T>(p: Pr<T> | T): T;
                     "end": 21
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 19,
                 "end": 22
             },
@@ -160,7 +160,7 @@ declare function aw<T>(p: Pr<T> | T): T;
                                                 "end": 30
                                             },
                                             "flags": 2097152,
-                                            "transformFlags": 0,
+                                            "transformFlags": 512,
                                             "start": 28,
                                             "end": 31
                                         },

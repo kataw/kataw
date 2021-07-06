@@ -147,7 +147,7 @@ async function foo3(): Promise<string> {
                             "end": 37
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 30,
                         "end": 38
                     },
@@ -287,7 +287,7 @@ async function foo3(): Promise<string> {
                             "end": 91
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 84,
                         "end": 92
                     },
@@ -496,7 +496,7 @@ async function foo3(): Promise<string> {
                             "end": 155
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 148,
                         "end": 156
                     },

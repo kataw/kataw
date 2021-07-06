@@ -260,7 +260,7 @@ let one = {
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 46,
                 "end": 56
             },
@@ -349,7 +349,7 @@ let one = {
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 73,
                 "end": 81
             },
@@ -472,7 +472,7 @@ let one = {
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 103,
                 "end": 117
             },
@@ -544,7 +544,7 @@ let one = {
                         "end": 135
                     },
                     "flags": 97,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 127,
                     "end": 135
                 },
@@ -561,7 +561,7 @@ let one = {
                         "kind": 132,
                         "expressions": [],
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 136,
                         "end": 141
                     },
@@ -571,7 +571,7 @@ let one = {
                     "end": 141
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 127,
                 "end": 141
             },

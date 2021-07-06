@@ -127,7 +127,7 @@ do {} while (x) { =! class function try while with foo!
                     "end": 26
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 19,
                 "end": 26
             },
@@ -284,7 +284,7 @@ do {} while (x) { =! class function try while with foo!
                             "end": 55
                         },
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 54,
                         "end": 55
                     },

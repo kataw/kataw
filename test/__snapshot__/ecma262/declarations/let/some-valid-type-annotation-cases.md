@@ -105,7 +105,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                 "text": "a",
                                                 "rawText": "'a'",
                                                 "flags": 6291520,
-                                                "transformFlags": 0,
+                                                "transformFlags": 1024,
                                                 "start": 12,
                                                 "end": 16
                                             },
@@ -379,7 +379,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                 "text": "x",
                                                 "rawText": "'x'",
                                                 "flags": 6291520,
-                                                "transformFlags": 0,
+                                                "transformFlags": 1024,
                                                 "start": 77,
                                                 "end": 80
                                             },
@@ -705,7 +705,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                         "end": 170
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 167,
                                     "end": 171
                                 },
@@ -779,7 +779,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                 "end": 182
                                             },
                                             "flags": 2097152,
-                                            "transformFlags": 0,
+                                            "transformFlags": 512,
                                             "start": 180,
                                             "end": 183
                                         },
@@ -929,7 +929,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                         "end": 204
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 200,
                                     "end": 205
                                 },
@@ -1069,7 +1069,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                         "end": 225
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 221,
                                     "end": 226
                                 },
@@ -1237,7 +1237,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                             "end": 249
                                                         },
                                                         "flags": 2097152,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 512,
                                                         "start": 247,
                                                         "end": 250
                                                     },
@@ -1259,7 +1259,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                         "end": 250
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 243,
                                     "end": 251
                                 },
@@ -1419,7 +1419,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                             "end": 275
                                                         },
                                                         "flags": 2097152,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 512,
                                                         "start": 273,
                                                         "end": 276
                                                     },
@@ -1441,7 +1441,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                         "end": 276
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 269,
                                     "end": 277
                                 },
@@ -1629,7 +1629,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                                                 "end": 307
                                                                             },
                                                                             "flags": 2097152,
-                                                                            "transformFlags": 0,
+                                                                            "transformFlags": 512,
                                                                             "start": 305,
                                                                             "end": 308
                                                                         },
@@ -1651,7 +1651,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                             "end": 308
                                                         },
                                                         "flags": 2097152,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 512,
                                                         "start": 303,
                                                         "end": 309
                                                     },
@@ -1673,7 +1673,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                         "end": 309
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 299,
                                     "end": 310
                                 },
@@ -1853,7 +1853,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                                                 "end": 338
                                                                             },
                                                                             "flags": 2097152,
-                                                                            "transformFlags": 0,
+                                                                            "transformFlags": 512,
                                                                             "start": 336,
                                                                             "end": 339
                                                                         },
@@ -1875,7 +1875,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                             "end": 339
                                                         },
                                                         "flags": 2097152,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 512,
                                                         "start": 334,
                                                         "end": 340
                                                     },
@@ -1897,7 +1897,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                         "end": 340
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 330,
                                     "end": 341
                                 },
@@ -2005,7 +2005,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                 "end": 353
                             },
                             "flags": 2097152,
-                            "transformFlags": 0,
+                            "transformFlags": 512,
                             "start": 351,
                             "end": 354
                         },
@@ -2134,7 +2134,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                     "end": 370
                                                 },
                                                 "flags": 2097152,
-                                                "transformFlags": 0,
+                                                "transformFlags": 512,
                                                 "start": 368,
                                                 "end": 371
                                             },
@@ -2156,7 +2156,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                 "end": 371
                             },
                             "flags": 2097152,
-                            "transformFlags": 0,
+                            "transformFlags": 512,
                             "start": 366,
                             "end": 372
                         },
@@ -2305,7 +2305,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                                         "end": 390
                                                                     },
                                                                     "flags": 2097152,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 512,
                                                                     "start": 388,
                                                                     "end": 391
                                                                 },
@@ -2327,7 +2327,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                     "end": 391
                                                 },
                                                 "flags": 2097152,
-                                                "transformFlags": 0,
+                                                "transformFlags": 512,
                                                 "start": 386,
                                                 "end": 392
                                             },
@@ -2349,7 +2349,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                 "end": 392
                             },
                             "flags": 2097152,
-                            "transformFlags": 0,
+                            "transformFlags": 512,
                             "start": 384,
                             "end": 393
                         },

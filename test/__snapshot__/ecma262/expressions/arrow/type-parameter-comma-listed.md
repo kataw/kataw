@@ -79,7 +79,7 @@
                         "end": 5
                     },
                     "flags": 2097152,
-                    "transformFlags": 0,
+                    "transformFlags": 512,
                     "start": 0,
                     "end": 6
                 },

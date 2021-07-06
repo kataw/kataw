@@ -92,7 +92,7 @@ async (x = delete ((in) = f)) => {}
                                                 "end": 22
                                             },
                                             "flags": 96,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 20,
                                             "end": 22
                                         },
@@ -128,7 +128,7 @@ async (x = delete ((in) = f)) => {}
                                 "end": 28
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 10,
                             "end": 28
                         },

@@ -76,7 +76,7 @@ type a = (["string"]) => T;
                                                 "text": "string",
                                                 "rawText": "\"string\"",
                                                 "flags": 2097216,
-                                                "transformFlags": 0,
+                                                "transformFlags": 1024,
                                                 "start": 11,
                                                 "end": 19
                                             },

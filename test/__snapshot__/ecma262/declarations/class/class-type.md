@@ -326,7 +326,7 @@ type T = { [string]: Class<null> }
                                         "end": 74
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 72,
                                     "end": 75
                                 },
@@ -847,7 +847,7 @@ type T = { [string]: Class<null> }
                                             "end": 227
                                         },
                                         "flags": 2097152,
-                                        "transformFlags": 0,
+                                        "transformFlags": 512,
                                         "start": 222,
                                         "end": 228
                                     },

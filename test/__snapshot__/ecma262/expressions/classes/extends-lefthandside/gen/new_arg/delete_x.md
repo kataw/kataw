@@ -52,7 +52,7 @@ new delete x
                         "end": 12
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 3,
                     "end": 12
                 },

@@ -143,7 +143,7 @@ async function foo(a, b) { await a + await b };
                                     "end": 44
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 26,
                                 "end": 44
                             },

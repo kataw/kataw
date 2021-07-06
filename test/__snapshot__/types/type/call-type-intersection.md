@@ -117,7 +117,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                                 "end": 18
                                                             },
                                                             "flags": 2097152,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 512,
                                                             "start": 16,
                                                             "end": 19
                                                         },
@@ -246,7 +246,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                                 "end": 34
                                                             },
                                                             "flags": 2097152,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 512,
                                                             "start": 32,
                                                             "end": 35
                                                         },
@@ -406,7 +406,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                             "end": 51
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 14,
                         "end": 52
                     },

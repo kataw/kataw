@@ -150,7 +150,7 @@ x ? ( (a, {}) => {} ) : baz;
                                         "end": 29
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 25,
                                     "end": 29
                                 },
@@ -189,12 +189,12 @@ x ? ( (a, {}) => {} ) : baz;
                                         "end": 35
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 33,
                                     "end": 35
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 25,
                                 "end": 35
                             },
@@ -374,7 +374,7 @@ x ? ( (a, {}) => {} ) : baz;
                             }
                         ],
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 48,
                         "end": 75
                     },
@@ -515,7 +515,7 @@ x ? ( (a, {}) => {} ) : baz;
                                             }
                                         ],
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 1024,
                                         "start": 94,
                                         "end": 110
                                     },
@@ -526,7 +526,7 @@ x ? ( (a, {}) => {} ) : baz;
                                 }
                             ],
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 90,
                             "end": 111
                         },

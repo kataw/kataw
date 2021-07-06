@@ -90,7 +90,7 @@ class C2<X, Y> {
                     "end": 9
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 7,
                 "end": 10
             },
@@ -169,7 +169,7 @@ class C2<X, Y> {
                             "end": 30
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 20,
                         "end": 31
                     },
@@ -597,7 +597,7 @@ class C2<X, Y> {
                     "end": 158
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 153,
                 "end": 159
             },
@@ -812,7 +812,7 @@ class C2<X, Y> {
                                                 "end": 191
                                             },
                                             "flags": 2097152,
-                                            "transformFlags": 0,
+                                            "transformFlags": 512,
                                             "start": 186,
                                             "end": 192
                                         },

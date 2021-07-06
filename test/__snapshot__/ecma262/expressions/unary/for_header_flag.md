@@ -63,7 +63,7 @@ for(delete(x in y);;)x
                             "end": 17
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 10,
                         "end": 17
                     },
@@ -73,7 +73,7 @@ for(delete(x in y);;)x
                     "end": 18
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 4,
                 "end": 18
             },

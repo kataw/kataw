@@ -88,7 +88,7 @@ let x = a ? (b, c) : (d, e)
                                         }
                                     ],
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 11,
                                     "end": 18
                                 },
@@ -129,7 +129,7 @@ let x = a ? (b, c) : (d, e)
                                         }
                                     ],
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 20,
                                     "end": 27
                                 },

@@ -182,7 +182,7 @@ function * gen() { function not_gen() { function* gf() { +yield 2; } }}
                                                                     "end": 65
                                                                 },
                                                                 "flags": 32,
-                                                                "transformFlags": 0,
+                                                                "transformFlags": 1024,
                                                                 "start": 56,
                                                                 "end": 65
                                                             },

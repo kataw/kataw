@@ -221,7 +221,7 @@ this.subscriptions.add(
                                                             "end": 56
                                                         },
                                                         "flags": 96,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 52,
                                                         "end": 56
                                                     }
@@ -450,7 +450,7 @@ this.subscriptions.add(
                                                             "end": 127
                                                         },
                                                         "flags": 96,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 123,
                                                         "end": 127
                                                     }
@@ -663,7 +663,7 @@ this.subscriptions.add(
                                                             "end": 197
                                                         },
                                                         "flags": 96,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 193,
                                                         "end": 197
                                                     }
@@ -892,7 +892,7 @@ this.subscriptions.add(
                                                             "end": 275
                                                         },
                                                         "flags": 96,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 271,
                                                         "end": 275
                                                     }

@@ -519,7 +519,7 @@ function five<T>(this: T) {}
                     "end": 163
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 161,
                 "end": 164
             },

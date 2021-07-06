@@ -188,7 +188,7 @@ var ident = <T>(x: T): T => x;
                                     "end": 49
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 43,
                                 "end": 49
                             },
@@ -400,7 +400,7 @@ var ident = <T>(x: T): T => x;
                                     "end": 103
                                 },
                                 "flags": 2097152,
-                                "transformFlags": 0,
+                                "transformFlags": 512,
                                 "start": 100,
                                 "end": 104
                             },

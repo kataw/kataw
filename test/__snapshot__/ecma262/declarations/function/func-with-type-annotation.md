@@ -78,7 +78,7 @@ function a<string>(x: string): string {
                     "end": 17
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 10,
                 "end": 18
             },

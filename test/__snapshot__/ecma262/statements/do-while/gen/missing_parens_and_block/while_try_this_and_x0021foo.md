@@ -150,7 +150,7 @@ do while try this and !foo while
                     "end": 26
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 21,
                 "end": 26
             },

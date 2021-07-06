@@ -74,7 +74,7 @@ type Foo<T> = Bar<T>
                     "end": 10
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 8,
                 "end": 11
             },
@@ -139,7 +139,7 @@ type Foo<T> = Bar<T>
                             "end": 19
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 17,
                         "end": 20
                     },

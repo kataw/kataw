@@ -197,7 +197,7 @@ hello();
                                                                 "end": 87
                                                             },
                                                             "flags": 4194400,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 1024,
                                                             "start": 69,
                                                             "end": 87
                                                         }

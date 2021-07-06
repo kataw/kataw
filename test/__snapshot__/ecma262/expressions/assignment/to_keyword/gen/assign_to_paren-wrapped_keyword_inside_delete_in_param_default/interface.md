@@ -105,7 +105,7 @@ async (x = delete ((interface) = f)) => {}
                                 "end": 35
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 10,
                             "end": 35
                         },

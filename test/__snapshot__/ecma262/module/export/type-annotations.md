@@ -235,7 +235,7 @@ export type * from "foo";
                         "end": 72
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 60,
                     "end": 72
                 },

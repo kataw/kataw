@@ -131,7 +131,7 @@ for (var i = 0; i < 1; i++) label: function f() { };
                     "end": 21
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 15,
                 "end": 21
             },

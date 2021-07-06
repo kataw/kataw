@@ -131,12 +131,12 @@ for (var r == y in x );
                         "end": 20
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 15,
                     "end": 20
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 10,
                 "end": 20
             },

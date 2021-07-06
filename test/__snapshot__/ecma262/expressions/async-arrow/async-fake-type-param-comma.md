@@ -68,7 +68,7 @@ async <(T, U)>y
                                 }
                             ],
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 7,
                             "end": 13
                         },
@@ -94,12 +94,12 @@ async <(T, U)>y
                         "end": 15
                     },
                     "flags": 39,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 13,
                     "end": 15
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 15
             },

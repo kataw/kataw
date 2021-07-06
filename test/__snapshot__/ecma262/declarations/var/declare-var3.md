@@ -139,7 +139,7 @@ declare var tup: [{foo: string}, {bar: number}];
                                         "end": 44
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 28,
                                     "end": 45
                                 },
@@ -284,7 +284,7 @@ declare var tup: [{foo: string}, {bar: number}];
                                         "end": 100
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 86,
                                     "end": 101
                                 },

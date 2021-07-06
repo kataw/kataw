@@ -110,7 +110,7 @@ function *f() { yield
                                             "end": 26
                                         },
                                         "flags": 49,
-                                        "transformFlags": 0,
+                                        "transformFlags": 1024,
                                         "start": 21,
                                         "end": 26
                                     },
@@ -131,7 +131,7 @@ function *f() { yield
                                         "end": 28
                                     },
                                     "flags": 49,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 21,
                                     "end": 28
                                 },

@@ -45,7 +45,7 @@ typeof a + b instanceof c
                         "end": 8
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 8
                 },
@@ -84,12 +84,12 @@ typeof a + b instanceof c
                         "end": 25
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 12,
                     "end": 25
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 25
             },

@@ -61,7 +61,7 @@ for ( a > b instanceof c ;;);
                         "end": 11
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 11
                 },
@@ -82,7 +82,7 @@ for ( a > b instanceof c ;;);
                     "end": 24
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 24
             },

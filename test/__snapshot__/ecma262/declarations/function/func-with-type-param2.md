@@ -106,7 +106,7 @@ a=function<T,S>() {}
                             "end": 14
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 10,
                         "end": 15
                     },

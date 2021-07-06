@@ -109,7 +109,7 @@ type A = (Array<string>, ...Array<string>) => void
                                                         "end": 22
                                                     },
                                                     "flags": 2097152,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 512,
                                                     "start": 15,
                                                     "end": 23
                                                 },
@@ -176,7 +176,7 @@ type A = (Array<string>, ...Array<string>) => void
                                                         "end": 40
                                                     },
                                                     "flags": 2097152,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 512,
                                                     "start": 33,
                                                     "end": 41
                                                 },

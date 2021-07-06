@@ -88,7 +88,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                             "end": 17
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 9,
                         "end": 18
                     },
@@ -179,7 +179,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                                             "end": 34
                                         },
                                         "flags": 2097152,
-                                        "transformFlags": 0,
+                                        "transformFlags": 512,
                                         "start": 27,
                                         "end": 35
                                     },

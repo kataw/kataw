@@ -286,7 +286,7 @@ type a = {[((({a([x][]):foo}) => [c|d]))]:string};
                                 "end": 37
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 34,
                             "end": 37
                         }

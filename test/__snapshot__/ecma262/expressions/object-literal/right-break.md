@@ -86,7 +86,7 @@ const o = {
                                     "end": 105
                                 },
                                 "flags": 97,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 15,
                                 "end": 105
                             },
@@ -107,7 +107,7 @@ const o = {
                                 "end": 154
                             },
                             "flags": 97,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 15,
                             "end": 154
                         },
@@ -198,7 +198,7 @@ const o = {
                                                     "end": 269
                                                 },
                                                 "flags": 96,
-                                                "transformFlags": 0,
+                                                "transformFlags": 1024,
                                                 "start": 168,
                                                 "end": 269
                                             },
@@ -219,7 +219,7 @@ const o = {
                                                 "end": 320
                                             },
                                             "flags": 96,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 168,
                                             "end": 320
                                         },
@@ -350,7 +350,7 @@ const o = {
                         "end": 414
                     },
                     "flags": 97,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 360,
                     "end": 414
                 },
@@ -479,7 +479,7 @@ const o = {
                                                 "end": 521
                                             },
                                             "flags": 97,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 428,
                                             "end": 521
                                         },

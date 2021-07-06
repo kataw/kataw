@@ -172,7 +172,7 @@ Math.min(
                                                 "end": 248
                                             },
                                             "flags": 96,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 207,
                                             "end": 248
                                         },
@@ -182,7 +182,7 @@ Math.min(
                                         "end": 249
                                     },
                                     "flags": 97,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 9,
                                     "end": 249
                                 },
@@ -208,7 +208,7 @@ Math.min(
                                 "end": 277
                             },
                             "flags": 41,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 9,
                             "end": 277
                         },

@@ -99,7 +99,7 @@ async (x, y) => ok
                         "end": 22
                     },
                     "flags": 97,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 15,
                     "end": 22
                 },
@@ -120,7 +120,7 @@ async (x, y) => ok
                     "end": 26
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 15,
                 "end": 26
             },

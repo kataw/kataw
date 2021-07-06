@@ -15,7 +15,7 @@ export function createTypeParameterInstantiation(
     kind: SyntaxKind.TypeParameterInstantiation,
     typeInstantiations,
     flags,
-    transformFlags: TransformFlags.None,
+    transformFlags: TransformFlags.TypeParameter,
     start,
     end
   };

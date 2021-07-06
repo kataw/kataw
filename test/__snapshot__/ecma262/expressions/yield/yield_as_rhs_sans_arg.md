@@ -125,7 +125,7 @@ function *g() { function f(x = x + yield) {}; }
                                                 "end": 40
                                             },
                                             "flags": 96,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 30,
                                             "end": 40
                                         },

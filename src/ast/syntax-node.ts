@@ -78,7 +78,9 @@ export enum TransformFlags {
   MultiplicativeOperators = 1 << 5,
   BitshiftOperators = 1 << 6,
   ShouldIndentIfInlining = 1 << 7,
-  ShouldNotIndent = 1 << 8
+  ShouldNotIndent = 1 << 8,
+  TypeParameter = 1 << 9,
+  CanBreak = 1 << 10
 }
 
 // DO NOT EDIT ANY OF THIS NUMBERS. IT WILL BREAK THE PARSER!!!!!

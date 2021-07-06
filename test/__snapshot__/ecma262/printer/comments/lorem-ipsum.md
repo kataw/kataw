@@ -136,7 +136,7 @@ function foo(a, b, c) {
                                                         "end": 52
                                                     },
                                                     "flags": 96,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 1024,
                                                     "start": 36,
                                                     "end": 52
                                                 },
@@ -175,12 +175,12 @@ function foo(a, b, c) {
                                                         "end": 62
                                                     },
                                                     "flags": 96,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 1024,
                                                     "start": 57,
                                                     "end": 62
                                                 },
                                                 "flags": 96,
-                                                "transformFlags": 0,
+                                                "transformFlags": 1024,
                                                 "start": 36,
                                                 "end": 62
                                             },
@@ -224,12 +224,12 @@ function foo(a, b, c) {
                                                 "end": 118
                                             },
                                             "flags": 96,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 111,
                                             "end": 118
                                         },
                                         "flags": 37,
-                                        "transformFlags": 0,
+                                        "transformFlags": 1024,
                                         "start": 36,
                                         "end": 118
                                     },
@@ -268,12 +268,12 @@ function foo(a, b, c) {
                                             "end": 131
                                         },
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 1024,
                                         "start": 123,
                                         "end": 131
                                     },
                                     "flags": 37,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 36,
                                     "end": 131
                                 },

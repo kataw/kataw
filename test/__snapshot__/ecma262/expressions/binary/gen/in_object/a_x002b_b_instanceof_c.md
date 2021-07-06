@@ -105,12 +105,12 @@ x = { a: a + b instanceof c }
                                             "end": 27
                                         },
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 1024,
                                         "start": 14,
                                         "end": 27
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 5,
                                     "end": 27
                                 },

@@ -91,7 +91,7 @@ async () => (await 5) ** 6;
                     "end": 26
                 },
                 "flags": 43,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 11,
                 "end": 26
             },

@@ -137,7 +137,7 @@ function *g(){ return x + f(yield f); }
                                     "end": 36
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 21,
                                 "end": 36
                             },

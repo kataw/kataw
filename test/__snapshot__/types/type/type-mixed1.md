@@ -72,7 +72,7 @@ type x<y> = z<<q>(r) => s>
                     "end": 8
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 6,
                 "end": 9
             },
@@ -141,7 +141,7 @@ type x<y> = z<<q>(r) => s>
                                                 "end": 16
                                             },
                                             "flags": 2097152,
-                                            "transformFlags": 0,
+                                            "transformFlags": 512,
                                             "start": 14,
                                             "end": 17
                                         },
@@ -233,7 +233,7 @@ type x<y> = z<<q>(r) => s>
                             "end": 25
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 13,
                         "end": 26
                     },

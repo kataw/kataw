@@ -431,7 +431,7 @@ async function f(){}
                                                     "end": 109
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 1024,
                                                 "start": 104,
                                                 "end": 109
                                             },
@@ -536,7 +536,7 @@ async function f(){}
                                                     "end": 129
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 1024,
                                                 "start": 126,
                                                 "end": 129
                                             },
@@ -619,7 +619,7 @@ async function f(){}
                                                     "end": 144
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 1024,
                                                 "start": 142,
                                                 "end": 144
                                             },
@@ -772,7 +772,7 @@ async function f(){}
                                                     "end": 175
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 1024,
                                                 "start": 174,
                                                 "end": 175
                                             },
@@ -899,7 +899,7 @@ async function f(){}
                                                     "end": 208
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 1024,
                                                 "start": 191,
                                                 "end": 208
                                             },

@@ -203,7 +203,7 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                                         "end": 56
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 1024,
                                                     "start": 38,
                                                     "end": 56
                                                 },
@@ -224,7 +224,7 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                                     "end": 60
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 1024,
                                                 "start": 38,
                                                 "end": 60
                                             },
@@ -245,7 +245,7 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                                 "end": 64
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 38,
                                             "end": 64
                                         },
@@ -266,7 +266,7 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                             "end": 68
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 1024,
                                         "start": 38,
                                         "end": 68
                                     },
@@ -287,7 +287,7 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                         "end": 72
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 38,
                                     "end": 72
                                 },
@@ -308,7 +308,7 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                     "end": 76
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 38,
                                 "end": 76
                             },

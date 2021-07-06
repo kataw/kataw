@@ -762,7 +762,7 @@ async a => await 1;
                         }
                     ],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 182,
                     "end": 201
                 },
@@ -832,7 +832,7 @@ async a => await 1;
                                 }
                             ],
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 214,
                             "end": 221
                         },
@@ -930,7 +930,7 @@ async a => await 1;
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 223,
                 "end": 243
             },
@@ -1008,7 +1008,7 @@ async a => await 1;
                         }
                     ],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 244,
                     "end": 264
                 },
@@ -1088,7 +1088,7 @@ async a => await 1;
                                 }
                             ],
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 279,
                             "end": 286
                         },
@@ -1169,7 +1169,7 @@ async a => await 1;
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 288,
                 "end": 304
             },
@@ -1232,7 +1232,7 @@ async a => await 1;
                             }
                         ],
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 316,
                         "end": 323
                     },
@@ -1313,7 +1313,7 @@ async a => await 1;
                         }
                     ],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 337,
                     "end": 344
                 },
@@ -1674,7 +1674,7 @@ async a => await 1;
                                     "end": 451
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 439,
                                 "end": 451
                             },
@@ -1881,7 +1881,7 @@ async a => await 1;
                                                         "end": 509
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 1024,
                                                     "start": 491,
                                                     "end": 509
                                                 },
@@ -1902,7 +1902,7 @@ async a => await 1;
                                                     "end": 513
                                                 },
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 1024,
                                                 "start": 491,
                                                 "end": 513
                                             },
@@ -1923,7 +1923,7 @@ async a => await 1;
                                                 "end": 517
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 491,
                                             "end": 517
                                         },
@@ -1944,7 +1944,7 @@ async a => await 1;
                                             "end": 521
                                         },
                                         "flags": 32,
-                                        "transformFlags": 0,
+                                        "transformFlags": 1024,
                                         "start": 491,
                                         "end": 521
                                     },
@@ -1965,7 +1965,7 @@ async a => await 1;
                                         "end": 525
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 491,
                                     "end": 525
                                 },
@@ -1986,7 +1986,7 @@ async a => await 1;
                                     "end": 529
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 491,
                                 "end": 529
                             },

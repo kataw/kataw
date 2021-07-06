@@ -99,7 +99,7 @@
                                             "end": 32
                                         },
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 1024,
                                         "start": 19,
                                         "end": 32
                                     },
@@ -120,7 +120,7 @@
                                         "end": 34
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 19,
                                     "end": 34
                                 },

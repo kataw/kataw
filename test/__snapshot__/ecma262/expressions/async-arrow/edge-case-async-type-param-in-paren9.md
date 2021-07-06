@@ -58,7 +58,7 @@
                                 "end": 11
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 1,
                             "end": 11
                         },
@@ -97,13 +97,13 @@
                                 "end": 20
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 0,
                             "end": 20
                         }
                     ],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 21
                 },

@@ -111,7 +111,7 @@ type A = (...Array<string>) => void
                                             "end": 25
                                         },
                                         "flags": 2097152,
-                                        "transformFlags": 0,
+                                        "transformFlags": 512,
                                         "start": 18,
                                         "end": 26
                                     },

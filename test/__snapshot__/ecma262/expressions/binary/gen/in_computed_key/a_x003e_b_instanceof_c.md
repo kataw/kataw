@@ -82,7 +82,7 @@ x = {[ a > b instanceof c ]: y}
                                                 "end": 12
                                             },
                                             "flags": 96,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 6,
                                             "end": 12
                                         },
@@ -103,7 +103,7 @@ x = {[ a > b instanceof c ]: y}
                                             "end": 25
                                         },
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 1024,
                                         "start": 6,
                                         "end": 25
                                     },

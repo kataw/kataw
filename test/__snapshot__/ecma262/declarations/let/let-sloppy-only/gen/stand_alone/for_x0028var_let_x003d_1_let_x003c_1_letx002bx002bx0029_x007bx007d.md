@@ -131,7 +131,7 @@ for (var let = 1; let < 1; let++) {}
                     "end": 25
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 17,
                 "end": 25
             },

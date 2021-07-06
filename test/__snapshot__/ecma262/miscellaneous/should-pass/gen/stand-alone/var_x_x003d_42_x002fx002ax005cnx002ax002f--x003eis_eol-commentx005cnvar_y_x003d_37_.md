@@ -116,7 +116,7 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                     "end": 22
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 11,
                 "end": 22
             },
@@ -155,7 +155,7 @@ var x = 42;/*\n*/-->is eol-comment\nvar y = 37;
                     "end": 34
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 22,
                 "end": 34
             },

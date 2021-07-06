@@ -2746,7 +2746,7 @@ let x = { foo(){ super(); } };
                                 "end": 697
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 685,
                             "end": 697
                         },

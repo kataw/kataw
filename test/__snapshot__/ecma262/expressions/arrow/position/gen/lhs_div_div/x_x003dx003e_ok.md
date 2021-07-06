@@ -76,7 +76,7 @@ x => ok
                             "end": 11
                         },
                         "flags": 97,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 4,
                         "end": 11
                     },
@@ -97,7 +97,7 @@ x => ok
                         "end": 15
                     },
                     "flags": 97,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 4,
                     "end": 15
                 },

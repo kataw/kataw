@@ -119,7 +119,7 @@ async (x = delete ((super) = f)) => {}
                                 "end": 31
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 10,
                             "end": 31
                         },

@@ -74,7 +74,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                     "end": 20
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 15,
                 "end": 21
             },
@@ -182,7 +182,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                                                     "end": 54
                                                 },
                                                 "flags": 2097152,
-                                                "transformFlags": 0,
+                                                "transformFlags": 512,
                                                 "start": 49,
                                                 "end": 55
                                             },

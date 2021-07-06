@@ -285,7 +285,7 @@ import * as x, {y} from 'm.js';
                         "end": 74
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 69,
                     "end": 74
                 },
@@ -335,7 +335,7 @@ import * as x, {y} from 'm.js';
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 74,
                 "end": 81
             },
@@ -418,7 +418,7 @@ import * as x, {y} from 'm.js';
                         "end": 107
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 102,
                     "end": 107
                 },
@@ -485,13 +485,13 @@ import * as x, {y} from 'm.js';
                             "end": 115
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 110,
                         "end": 115
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 107,
                 "end": 115
             },
@@ -733,7 +733,7 @@ import * as x, {y} from 'm.js';
                         "end": 173
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 168,
                     "end": 173
                 },
@@ -800,7 +800,7 @@ import * as x, {y} from 'm.js';
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 173,
                 "end": 180
             },

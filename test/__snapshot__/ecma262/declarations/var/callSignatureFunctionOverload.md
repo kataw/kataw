@@ -166,7 +166,7 @@ var foo2: {
                                                             "text": "order",
                                                             "rawText": "'order'",
                                                             "flags": 6291520,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 1024,
                                                             "start": 49,
                                                             "end": 57
                                                         },
@@ -238,7 +238,7 @@ var foo2: {
                                                             "text": "content",
                                                             "rawText": "'content'",
                                                             "flags": 6291520,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 1024,
                                                             "start": 78,
                                                             "end": 88
                                                         },
@@ -310,7 +310,7 @@ var foo2: {
                                                             "text": "done",
                                                             "rawText": "'done'",
                                                             "flags": 6291520,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 1024,
                                                             "start": 109,
                                                             "end": 116
                                                         },
@@ -512,7 +512,7 @@ var foo2: {
                                                             "text": "order",
                                                             "rawText": "'order'",
                                                             "flags": 6291520,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 1024,
                                                             "start": 180,
                                                             "end": 188
                                                         },
@@ -584,7 +584,7 @@ var foo2: {
                                                             "text": "order",
                                                             "rawText": "'order'",
                                                             "flags": 6291520,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 1024,
                                                             "start": 209,
                                                             "end": 217
                                                         },
@@ -656,7 +656,7 @@ var foo2: {
                                                             "text": "done",
                                                             "rawText": "'done'",
                                                             "flags": 6291520,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 1024,
                                                             "start": 238,
                                                             "end": 245
                                                         },

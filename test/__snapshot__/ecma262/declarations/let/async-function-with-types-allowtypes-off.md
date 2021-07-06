@@ -79,7 +79,7 @@ const f = async <T, R, S>(
                                 "end": 18
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 9,
                             "end": 18
                         },
@@ -161,7 +161,7 @@ const f = async <T, R, S>(
                         "kind": 132,
                         "expressions": [],
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 25,
                         "end": 30
                     },
@@ -171,7 +171,7 @@ const f = async <T, R, S>(
                     "end": 30
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 24,
                 "end": 30
             },
@@ -205,7 +205,7 @@ const f = async <T, R, S>(
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 31,
                 "end": 38
             },
@@ -239,7 +239,7 @@ const f = async <T, R, S>(
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 39,
                 "end": 46
             },
@@ -273,7 +273,7 @@ const f = async <T, R, S>(
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 47,
                 "end": 50
             },

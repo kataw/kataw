@@ -119,7 +119,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                                                     "text": "a",
                                                                     "rawText": "'a'",
                                                                     "flags": 6291520,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 1024,
                                                                     "start": 41,
                                                                     "end": 45
                                                                 },
@@ -153,7 +153,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                         "end": 46
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 35,
                                     "end": 47
                                 },

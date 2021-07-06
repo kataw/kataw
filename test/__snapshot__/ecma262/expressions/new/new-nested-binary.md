@@ -68,7 +68,7 @@ new C<T>(e)
                         "end": 7
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 7
                 },
@@ -96,7 +96,7 @@ new C<T>(e)
                     "end": 11
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 11
             },

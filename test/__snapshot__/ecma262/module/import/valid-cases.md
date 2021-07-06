@@ -493,7 +493,7 @@ import { let as l } from 'm.js';
                         "end": 153
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 148,
                     "end": 153
                 },
@@ -1022,7 +1022,7 @@ import { let as l } from 'm.js';
                         "end": 329
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 324,
                     "end": 329
                 },
@@ -1195,7 +1195,7 @@ import { let as l } from 'm.js';
                         "end": 393
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 388,
                     "end": 393
                 },

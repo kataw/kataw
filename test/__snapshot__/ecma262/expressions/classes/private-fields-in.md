@@ -303,7 +303,7 @@ class C {
                                                                 "end": 101
                                                             },
                                                             "flags": 96,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 1024,
                                                             "start": 87,
                                                             "end": 101
                                                         },
@@ -342,12 +342,12 @@ class C {
                                                                 "end": 119
                                                             },
                                                             "flags": 96,
-                                                            "transformFlags": 0,
+                                                            "transformFlags": 1024,
                                                             "start": 112,
                                                             "end": 119
                                                         },
                                                         "flags": 96,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 87,
                                                         "end": 119
                                                     },
@@ -386,12 +386,12 @@ class C {
                                                             "end": 137
                                                         },
                                                         "flags": 96,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 130,
                                                         "end": 137
                                                     },
                                                     "flags": 96,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 1024,
                                                     "start": 87,
                                                     "end": 137
                                                 },

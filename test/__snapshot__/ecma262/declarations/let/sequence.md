@@ -118,13 +118,13 @@ let d = (1, 2, 3);
                                                             "end": 23
                                                         },
                                                         "flags": 96,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 13,
                                                         "end": 23
                                                     }
                                                 ],
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 1024,
                                                 "start": 13,
                                                 "end": 24
                                             },
@@ -149,7 +149,7 @@ let d = (1, 2, 3);
                                     }
                                 ],
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 7,
                                 "end": 27
                             },
@@ -285,13 +285,13 @@ let d = (1, 2, 3);
                                                             "end": 58
                                                         },
                                                         "flags": 96,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 48,
                                                         "end": 58
                                                     }
                                                 ],
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 1024,
                                                 "start": 48,
                                                 "end": 59
                                             },
@@ -316,7 +316,7 @@ let d = (1, 2, 3);
                                     }
                                 ],
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 37,
                                 "end": 62
                             },
@@ -418,7 +418,7 @@ let d = (1, 2, 3);
                                             "end": 84
                                         },
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 1024,
                                         "start": 78,
                                         "end": 84
                                     },
@@ -530,7 +530,7 @@ let d = (1, 2, 3);
                                     }
                                 ],
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 97,
                                 "end": 106
                             },

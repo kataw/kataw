@@ -239,12 +239,12 @@ function foo3() {
                                         "end": 106
                                     },
                                     "flags": 268435488,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 83,
                                     "end": 106
                                 },
                                 "flags": 268435488,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 25,
                                 "end": 106
                             },
@@ -482,12 +482,12 @@ function foo3() {
                                             "end": 218
                                         },
                                         "flags": 268435488,
-                                        "transformFlags": 0,
+                                        "transformFlags": 1024,
                                         "start": 195,
                                         "end": 218
                                     },
                                     "flags": 268435488,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 137,
                                     "end": 218
                                 },
@@ -810,7 +810,7 @@ function foo3() {
                                         "end": 369
                                     },
                                     "flags": 268435488,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 272,
                                     "end": 369
                                 },
@@ -891,21 +891,17 @@ function foo() {
     this .lookahead().type === tt.parenLeft.right;
 }
 function foo2() {
-  return
-    this .hasPlugin(
-      "\"dynamicImports\""
-    ) &&
+  return this .hasPlugin(
+    "\"dynamicImports\""
+  ) &&
     this .lookahead().type === tt.parenLeft.right
-
     ? true
     : false ;
 }
 
 function foo3() {
-  return
-    this .calculate().compute().first.numberOfThings >
+  return this .calculate().compute().first.numberOfThings >
     this .calculate().compute().last.numberOfThings
-
     ? true
     : false ;
 }

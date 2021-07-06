@@ -81,7 +81,7 @@ declare class A<T> extends B<T> { x: number }
                     "end": 17
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 15,
                 "end": 18
             },
@@ -144,7 +144,7 @@ declare class A<T> extends B<T> { x: number }
                             "end": 30
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 28,
                         "end": 31
                     },

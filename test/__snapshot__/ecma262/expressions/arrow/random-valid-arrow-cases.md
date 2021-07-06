@@ -361,7 +361,7 @@ foo((x, y) => {});
                                     }
                                 ],
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 39,
                                 "end": 55
                             },
@@ -372,7 +372,7 @@ foo((x, y) => {});
                         }
                     ],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 35,
                     "end": 56
                 },
@@ -505,7 +505,7 @@ foo((x, y) => {});
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 73,
                 "end": 84
             },
@@ -789,7 +789,7 @@ foo((x, y) => {});
                                 "end": 149
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 145,
                             "end": 149
                         },
@@ -828,12 +828,12 @@ foo((x, y) => {});
                                 "end": 155
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 153,
                             "end": 155
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 145,
                         "end": 155
                     },
@@ -1071,7 +1071,7 @@ foo((x, y) => {});
                     "end": 205
                 },
                 "flags": 268435488,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 186,
                 "end": 205
             },
@@ -1365,7 +1365,7 @@ foo((x, y) => {});
                                     }
                                 ],
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 250,
                                 "end": 266
                             },
@@ -1376,7 +1376,7 @@ foo((x, y) => {});
                         }
                     ],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 245,
                     "end": 267
                 },
@@ -2250,7 +2250,7 @@ foo((x, y) => {});
                     "end": 444
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 425,
                 "end": 444
             },
@@ -2403,7 +2403,7 @@ foo((x, y) => {});
                                         "end": 477
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 469,
                                     "end": 477
                                 },
@@ -2424,7 +2424,7 @@ foo((x, y) => {});
                                     "end": 479
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 469,
                                 "end": 479
                             },
@@ -2624,7 +2624,7 @@ foo((x, y) => {});
                                                         "end": 527
                                                     },
                                                     "flags": 96,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 1024,
                                                     "start": 521,
                                                     "end": 527
                                                 },
@@ -2698,7 +2698,7 @@ foo((x, y) => {});
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 500,
                 "end": 540
             },

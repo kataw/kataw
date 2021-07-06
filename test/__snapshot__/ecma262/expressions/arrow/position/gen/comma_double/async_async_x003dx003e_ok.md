@@ -111,7 +111,7 @@ async async => ok, async async => ok
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 36
             },

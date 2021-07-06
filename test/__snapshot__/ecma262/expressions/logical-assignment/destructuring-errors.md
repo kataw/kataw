@@ -325,7 +325,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 65,
                     "end": 80
                 },
@@ -689,7 +689,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 162,
                     "end": 177
                 },

@@ -162,7 +162,7 @@ function *P(){
                                     "end": 39
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 34,
                                 "end": 39
                             },

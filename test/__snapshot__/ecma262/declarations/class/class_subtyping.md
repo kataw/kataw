@@ -80,7 +80,7 @@ class D extends C<O> {
                     "end": 10
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 8,
                 "end": 11
             },
@@ -241,7 +241,7 @@ class D extends C<O> {
                             "end": 42
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 40,
                         "end": 43
                     },

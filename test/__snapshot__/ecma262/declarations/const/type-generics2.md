@@ -82,7 +82,7 @@ const identity = <T>(t: T): T => t;
                                     "end": 19
                                 },
                                 "flags": 2097152,
-                                "transformFlags": 0,
+                                "transformFlags": 512,
                                 "start": 16,
                                 "end": 20
                             },

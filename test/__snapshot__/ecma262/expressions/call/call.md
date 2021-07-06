@@ -375,7 +375,7 @@ new (A, B)();
                                 "end": 57
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 50,
                             "end": 57
                         },
@@ -974,7 +974,7 @@ new (A, B)();
                             }
                         ],
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 164,
                         "end": 171
                     },

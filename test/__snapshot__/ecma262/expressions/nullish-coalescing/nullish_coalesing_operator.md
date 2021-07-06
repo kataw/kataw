@@ -82,7 +82,7 @@ foo && (baz ?? baz);
                     "end": 20
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 20
             },
@@ -173,7 +173,7 @@ foo && (baz ?? baz);
                                                 "end": 55
                                             },
                                             "flags": 96,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 44,
                                             "end": 55
                                         },
@@ -282,7 +282,7 @@ foo && (baz ?? baz);
                         "end": 81
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 70,
                     "end": 81
                 },
@@ -362,7 +362,7 @@ foo && (baz ?? baz);
                             "end": 108
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 96,
                         "end": 108
                     },
@@ -372,7 +372,7 @@ foo && (baz ?? baz);
                     "end": 109
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 88,
                 "end": 109
             },
@@ -415,7 +415,7 @@ foo && (baz ?? baz);
                             "end": 122
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 110,
                         "end": 122
                     },
@@ -441,7 +441,7 @@ foo && (baz ?? baz);
                     "end": 130
                 },
                 "flags": 110,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 110,
                 "end": 130
             },
@@ -484,7 +484,7 @@ foo && (baz ?? baz);
                             "end": 223
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 131,
                         "end": 223
                     },
@@ -510,7 +510,7 @@ foo && (baz ?? baz);
                     "end": 231
                 },
                 "flags": 163,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 131,
                 "end": 231
             },
@@ -569,7 +569,7 @@ foo && (baz ?? baz);
                             "end": 251
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 239,
                         "end": 251
                     },
@@ -579,7 +579,7 @@ foo && (baz ?? baz);
                     "end": 252
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 232,
                 "end": 252
             },
@@ -622,7 +622,7 @@ foo && (baz ?? baz);
                             "end": 266
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 253,
                         "end": 266
                     },
@@ -648,7 +648,7 @@ foo && (baz ?? baz);
                     "end": 274
                 },
                 "flags": 253,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 253,
                 "end": 274
             },
@@ -707,7 +707,7 @@ foo && (baz ?? baz);
                             "end": 294
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 282,
                         "end": 294
                     },
@@ -717,7 +717,7 @@ foo && (baz ?? baz);
                     "end": 295
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 275,
                 "end": 295
             },
@@ -760,7 +760,7 @@ foo && (baz ?? baz);
                             "end": 309
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 296,
                         "end": 309
                     },
@@ -786,7 +786,7 @@ foo && (baz ?? baz);
                     "end": 317
                 },
                 "flags": 296,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 296,
                 "end": 317
             },
@@ -845,7 +845,7 @@ foo && (baz ?? baz);
                             "end": 337
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 325,
                         "end": 337
                     },
@@ -855,7 +855,7 @@ foo && (baz ?? baz);
                     "end": 338
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 318,
                 "end": 338
             },
@@ -898,7 +898,7 @@ foo && (baz ?? baz);
                             "end": 352
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 339,
                         "end": 352
                     },
@@ -924,7 +924,7 @@ foo && (baz ?? baz);
                     "end": 360
                 },
                 "flags": 371,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 339,
                 "end": 360
             },
@@ -983,7 +983,7 @@ foo && (baz ?? baz);
                             "end": 380
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 368,
                         "end": 380
                     },
@@ -993,7 +993,7 @@ foo && (baz ?? baz);
                     "end": 381
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 361,
                 "end": 381
             },

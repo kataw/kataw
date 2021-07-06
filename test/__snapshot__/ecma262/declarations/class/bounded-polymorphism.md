@@ -100,7 +100,7 @@ class A<T: Foo> {}
                     "end": 14
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 7,
                 "end": 15
             },

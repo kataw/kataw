@@ -110,7 +110,7 @@ function *f(x = delete ((in) = f)) {}
                                                 "end": 27
                                             },
                                             "flags": 96,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 25,
                                             "end": 27
                                         },
@@ -146,7 +146,7 @@ function *f(x = delete ((in) = f)) {}
                                 "end": 33
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 15,
                             "end": 33
                         },

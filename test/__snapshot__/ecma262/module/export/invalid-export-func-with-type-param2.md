@@ -62,7 +62,7 @@ export default function <>() {}
                         "end": 25
                     },
                     "flags": 2097152,
-                    "transformFlags": 0,
+                    "transformFlags": 512,
                     "start": 23,
                     "end": 26
                 },

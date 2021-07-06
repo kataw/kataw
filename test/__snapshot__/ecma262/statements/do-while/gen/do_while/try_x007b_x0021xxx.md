@@ -66,7 +66,7 @@ do try { !xxx while
                                         "end": 13
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 8,
                                     "end": 13
                                 },

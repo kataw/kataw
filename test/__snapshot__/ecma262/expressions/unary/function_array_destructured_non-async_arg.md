@@ -163,7 +163,7 @@ async function f(){   function fh([+ await x]) { }   }
                                     "end": 44
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 35,
                                 "end": 44
                             },

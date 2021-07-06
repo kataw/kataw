@@ -1412,7 +1412,7 @@ function foo28(numVal?: number = 2) {}
                                                             "end": 487
                                                         },
                                                         "flags": 2097152,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 512,
                                                         "start": 480,
                                                         "end": 488
                                                     },
@@ -2096,7 +2096,7 @@ function foo28(numVal?: number = 2) {}
                     "end": 679
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 677,
                 "end": 680
             },
@@ -2376,7 +2376,7 @@ function foo28(numVal?: number = 2) {}
                                         "end": 757
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 750,
                                     "end": 758
                                 },
@@ -2513,7 +2513,7 @@ function foo28(numVal?: number = 2) {}
                                         "end": 799
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 792,
                                     "end": 800
                                 },

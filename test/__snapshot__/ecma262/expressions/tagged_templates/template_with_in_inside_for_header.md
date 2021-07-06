@@ -70,7 +70,7 @@ for(t`${x in y}`;;);
                                     "end": 14
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 8,
                                 "end": 14
                             },

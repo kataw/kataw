@@ -148,7 +148,7 @@ function * gen() { function not_gen() { yield 3 + yield 4; }}
                                                     "end": 55
                                                 },
                                                 "flags": 96,
-                                                "transformFlags": 0,
+                                                "transformFlags": 1024,
                                                 "start": 45,
                                                 "end": 55
                                             },

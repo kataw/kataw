@@ -20,8 +20,7 @@ export function canBreakAssignment(left: any, right: any): boolean {
       const { shortCircuit } = right;
       return (
         shortCircuit.kind === SyntaxKind.BinaryExpression &&
-        ((shortCircuit.right.kind !== SyntaxKind.ArrayLiteral &&
-          shortCircuit.right.kind !== SyntaxKind.ObjectLiteral) ||
+        ((shortCircuit.right.transformFlags & TransformFlags.ArrayOrObjectLiteral) === 0 ||
           (shortCircuit.right.kind === SyntaxKind.ArrayLiteral && shortCircuit.right.elementList.elements.length > 0) ||
           (shortCircuit.right.kind === SyntaxKind.ObjectLiteral &&
             shortCircuit.right.propertyList.properties.length > 0))

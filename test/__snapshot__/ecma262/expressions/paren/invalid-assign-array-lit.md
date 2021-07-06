@@ -642,7 +642,7 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 108,
                     "end": 118
                 },
@@ -671,7 +671,7 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 121,
                     "end": 130
                 },
@@ -1362,7 +1362,7 @@
                         }
                     ],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 252,
                     "end": 263
                 },
@@ -1434,7 +1434,7 @@
                         }
                     ],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 264,
                     "end": 275
                 },

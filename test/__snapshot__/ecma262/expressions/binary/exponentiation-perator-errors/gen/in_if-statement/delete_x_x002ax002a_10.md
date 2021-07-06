@@ -169,7 +169,7 @@ var O = { p: 1 }, x = 10; ; if (delete x ** 10) { foo(); }
                         "end": 40
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 32,
                     "end": 40
                 },
@@ -190,7 +190,7 @@ var O = { p: 1 }, x = 10; ; if (delete x ** 10) { foo(); }
                     "end": 46
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 32,
                 "end": 46
             },

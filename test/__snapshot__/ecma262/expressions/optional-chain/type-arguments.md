@@ -93,7 +93,7 @@ example.inner?.<string>()
                                 "end": 22
                             },
                             "flags": 2097152,
-                            "transformFlags": 0,
+                            "transformFlags": 512,
                             "start": 15,
                             "end": 23
                         },

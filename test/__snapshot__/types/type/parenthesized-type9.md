@@ -122,7 +122,7 @@ type X = (x.y<z>);
                                 "end": 15
                             },
                             "flags": 2097152,
-                            "transformFlags": 0,
+                            "transformFlags": 512,
                             "start": 13,
                             "end": 16
                         },

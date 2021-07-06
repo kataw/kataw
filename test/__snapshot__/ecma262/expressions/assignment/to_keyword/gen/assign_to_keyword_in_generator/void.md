@@ -90,7 +90,7 @@ function *f(){
                                         "end": 21
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 14,
                                     "end": 21
                                 },

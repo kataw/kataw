@@ -103,7 +103,7 @@ a={*id<T>(x: T): T {}}
                                             "end": 8
                                         },
                                         "flags": 2097152,
-                                        "transformFlags": 0,
+                                        "transformFlags": 512,
                                         "start": 6,
                                         "end": 9
                                     },

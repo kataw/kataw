@@ -135,7 +135,7 @@ function g(x: any): string {
                                     "end": 44
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 37,
                                 "end": 44
                             },

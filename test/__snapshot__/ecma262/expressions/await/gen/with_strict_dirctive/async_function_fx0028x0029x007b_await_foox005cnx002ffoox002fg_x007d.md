@@ -154,7 +154,7 @@
                         "end": 49
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 44,
                     "end": 49
                 },
@@ -175,7 +175,7 @@
                     "end": 51
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 44,
                 "end": 51
             },

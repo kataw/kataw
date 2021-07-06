@@ -115,7 +115,7 @@ a?.a?.a?.a?.<number>(y);
                                 "end": 13
                             },
                             "flags": 2097152,
-                            "transformFlags": 0,
+                            "transformFlags": 512,
                             "start": 6,
                             "end": 14
                         },
@@ -326,7 +326,7 @@ a?.a?.a?.a?.<number>(y);
                                 "end": 39
                             },
                             "flags": 2097152,
-                            "transformFlags": 0,
+                            "transformFlags": 512,
                             "start": 32,
                             "end": 40
                         },

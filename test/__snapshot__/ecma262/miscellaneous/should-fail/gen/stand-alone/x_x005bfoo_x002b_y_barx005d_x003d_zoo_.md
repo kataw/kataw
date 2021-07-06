@@ -71,7 +71,7 @@ x, [foo + y, bar] = zoo;
                                             "end": 11
                                         },
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 1024,
                                         "start": 4,
                                         "end": 11
                                     },
@@ -119,7 +119,7 @@ x, [foo + y, bar] = zoo;
                     }
                 ],
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 23
             },

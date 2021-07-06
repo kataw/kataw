@@ -90,7 +90,7 @@ function *f(x = (typeof) = f) {}
                                         "end": 23
                                     },
                                     "flags": 32,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 17,
                                     "end": 23
                                 },

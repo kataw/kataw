@@ -109,7 +109,7 @@ var q
                         "end": 8
                     },
                     "flags": 97,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 5,
                     "end": 8
                 },
@@ -130,7 +130,7 @@ var q
                     "end": 9
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 5,
                 "end": 9
             },

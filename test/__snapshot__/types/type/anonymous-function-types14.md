@@ -145,7 +145,7 @@ type T = Array<(string) => number>
                             "end": 33
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 14,
                         "end": 34
                     },

@@ -81,7 +81,7 @@ class C<T> {
                     "end": 9
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 7,
                 "end": 10
             },
@@ -158,7 +158,7 @@ class C<T> {
                     "end": 25
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 23,
                 "end": 26
             },
@@ -238,7 +238,7 @@ class C<T> {
                                             "end": 42
                                         },
                                         "flags": 2097152,
-                                        "transformFlags": 0,
+                                        "transformFlags": 512,
                                         "start": 40,
                                         "end": 43
                                     },
@@ -355,7 +355,7 @@ class C<T> {
                                                 "end": 61
                                             },
                                             "flags": 2097152,
-                                            "transformFlags": 0,
+                                            "transformFlags": 512,
                                             "start": 59,
                                             "end": 62
                                         },

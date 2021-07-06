@@ -39,7 +39,7 @@ do( async funcion switch!! while
                         "kind": 132,
                         "expressions": [],
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 2,
                         "end": 17
                     },
@@ -105,12 +105,12 @@ do( async funcion switch!! while
                         "end": 26
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 25,
                     "end": 26
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 24,
                 "end": 26
             },

@@ -11,7 +11,7 @@ export function createCommaOperator(expressions: ExpressionNode[], start: number
     kind: SyntaxKind.CommaOperator,
     expressions,
     flags: NodeFlags.ExpressionNode,
-    transformFlags: TransformFlags.None,
+    transformFlags: TransformFlags.CanBreak,
     start,
     end
   };

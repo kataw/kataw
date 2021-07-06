@@ -1280,7 +1280,7 @@ y = (x => {}(0));
                         }
                     ],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 242,
                     "end": 247
                 },
@@ -1401,13 +1401,13 @@ y = (x => {}(0));
                                 "end": 269
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 258,
                             "end": 269
                         }
                     ],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 258,
                     "end": 270
                 },
@@ -1489,7 +1489,7 @@ y = (x => {}(0));
                                 "end": 288
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 277,
                             "end": 288
                         },

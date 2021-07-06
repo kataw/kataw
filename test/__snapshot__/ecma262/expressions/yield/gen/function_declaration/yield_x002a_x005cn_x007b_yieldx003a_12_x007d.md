@@ -89,7 +89,7 @@ function not_gen() { yield * \n { yield: 12 } }}
                                     "end": 28
                                 },
                                 "flags": 96,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 20,
                                 "end": 28
                             },

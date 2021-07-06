@@ -92,7 +92,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
                     "text": "div",
                     "rawText": "\"div\"",
                     "flags": 2097216,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 31,
                     "end": 37
                 },

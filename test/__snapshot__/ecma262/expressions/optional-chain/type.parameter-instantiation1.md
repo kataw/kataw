@@ -75,7 +75,7 @@ a?.<number>(y)
                                 "end": 10
                             },
                             "flags": 2097152,
-                            "transformFlags": 0,
+                            "transformFlags": 512,
                             "start": 3,
                             "end": 11
                         },

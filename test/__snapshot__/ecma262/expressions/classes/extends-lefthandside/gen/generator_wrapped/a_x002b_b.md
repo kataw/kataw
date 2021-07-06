@@ -153,7 +153,7 @@ function *P(){
                                     "end": 38
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 34,
                                 "end": 38
                             },

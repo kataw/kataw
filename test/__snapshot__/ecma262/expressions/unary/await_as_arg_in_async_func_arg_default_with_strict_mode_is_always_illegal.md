@@ -136,7 +136,7 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                                                 "end": 52
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 42,
                                             "end": 52
                                         },

@@ -99,7 +99,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                     "end": 20
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 15,
                 "end": 21
             },
@@ -443,7 +443,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                         "end": 45
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 35,
                                     "end": 46
                                 },

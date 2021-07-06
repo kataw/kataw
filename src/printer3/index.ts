@@ -327,8 +327,6 @@ function printBinaryExpression(
     : parentKind === SyntaxKind.UnaryExpression ||
       parentNode.transformFlags &
         (SyntaxKind.IndexExpression | SyntaxKind.CallExpression) ||
-      parentNode.flags &
-        (NodeFlags.IsCallExpression | NodeFlags.IsMemberExpression) ||
       parentKind === SyntaxKind.OptionalExpression
     ? group(concat([indent(concat([softline, concat(parts)])), softline]), {})
     : (node.kind === SyntaxKind.BinaryExpression &&
@@ -685,10 +683,6 @@ function printNullableType(printer: Printer, node: any, lineMap: number[]): any 
 }
 
 function printIntersectionType(printer: Printer, node: any, lineMap: number[], parentNode: any): any {
-  // Indentation may be handled by the parent node
-  const shouldIndent =
-    parentNode.kind !== SyntaxKind.TypeParameterDeclaration &&
-    parentNode.kind !== SyntaxKind.TypeParameterInstantiation;
 
   const printed = concat([
     //  ifBreak(concat([shouldIndent ? hardline : '', '&', ' '])),
@@ -698,7 +692,7 @@ function printIntersectionType(printer: Printer, node: any, lineMap: number[], p
     )
   ]);
 
-  return group(shouldIndent ? indent(printed) : printed, {});
+  return group(parentNode.transformFlags & TransformFlags.TypeParameter ? indent(printed) : printed, {});
 }
 
 function printIndexedAccessType(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
@@ -986,10 +980,6 @@ function printTypeofType(printer: Printer, node: any, lineMap: number[]): any {
 }
 
 function printUnionType(printer: Printer, node: any, lineMap: number[], parentNode: any): any {
-  // Indentation may be handled by the parent node
-  const shouldIndent =
-    parentNode.kind !== SyntaxKind.TypeParameterDeclaration &&
-    parentNode.kind !== SyntaxKind.TypeParameterInstantiation;
 
   const printed = concat([
     //ifBreak(concat([shouldIndent ? hardline : '', '|', ' '])),
@@ -999,7 +989,7 @@ function printUnionType(printer: Printer, node: any, lineMap: number[], parentNo
     )
   ]);
 
-  return group(shouldIndent ? indent(printed) : printed, {});
+  return group(parentNode.transformFlags & TransformFlags.TypeParameter  ? indent(printed) : printed, {});
 }
 
 function printArrowTypeParameterList(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
@@ -1606,39 +1596,51 @@ function printVariableDeclarationOrLexicalBinding(
   printer: Printer,
   node: any,
   lineMap: number[],
-  parentNode: SyntaxNode
+  parentNode: SyntaxNode,
 ): any {
   if (node.initializer) {
-    const { initializer } = node;
-
-    const canBreak =
-      initializer.kind === SyntaxKind.CommaOperator ||
-      initializer.kind === SyntaxKind.StringType ||
-      initializer.kind === SyntaxKind.BinaryExpression ||
-      (initializer.kind === SyntaxKind.ClassExpression && initializer.decorators) ||
-      initializer.kind === SyntaxKind.CommaOperator ||
-      initializer.kind === SyntaxKind.UnaryExpression ||
-      (initializer.kind === SyntaxKind.ConditionalExpression &&
-        initializer.shortCircuit.kind === SyntaxKind.BinaryExpression &&
-        (initializer.shortCircuit.right.transformFlags & TransformFlags.ArrayOrObjectLiteral) === 0 );
+    const { initializer } = node
 
     return group(
       concat([
         printStatement(printer, node.binding, lineMap, node),
-        node.type ? concat([':', ' ', printStatement(printer, node.type, lineMap, node)]) : '',
+        node.type
+          ? concat([
+              ':',
+              ' ',
+              printStatement(printer, node.type, lineMap, node),
+            ])
+          : '',
         ' ',
         '=',
-        canBreak
-          ? group(indent(concat([line, printStatement(printer, initializer, lineMap, node)])), {})
-          : concat([' ', printStatement(printer, initializer, lineMap, node)])
+        initializer.transformFlags & TransformFlags.CanBreak ||
+        (initializer.kind === SyntaxKind.ClassExpression &&
+          initializer.decorators) ||
+        (initializer.kind === SyntaxKind.ConditionalExpression &&
+          initializer.shortCircuit.kind === SyntaxKind.BinaryExpression &&
+          (initializer.shortCircuit.right.transformFlags &
+            TransformFlags.ArrayOrObjectLiteral) ===
+            0)
+          ? group(
+              indent(
+                concat([
+                  line,
+                  printStatement(printer, initializer, lineMap, node),
+                ]),
+              ),
+              {},
+            )
+          : concat([' ', printStatement(printer, initializer, lineMap, node)]),
       ]),
-      {}
-    );
+      {},
+    )
   }
   return concat([
     printStatement(printer, node.binding, lineMap, node),
-    node.type ? concat([':', ' ', printStatement(printer, node.type, lineMap, node)]) : ''
-  ]);
+    node.type
+      ? concat([':', ' ', printStatement(printer, node.type, lineMap, node)])
+      : '',
+  ])
 }
 
 function printPropertyDefinition(printer: Printer, node: any, lineMap: number[]): any {

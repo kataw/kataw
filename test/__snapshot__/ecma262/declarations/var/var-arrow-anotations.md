@@ -233,7 +233,7 @@ class Array { concat(items:number | string) {}; }
                                                             "end": 49
                                                         },
                                                         "flags": 2097152,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 512,
                                                         "start": 42,
                                                         "end": 50
                                                     },
@@ -255,7 +255,7 @@ class Array { concat(items:number | string) {}; }
                                         "end": 50
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 28,
                                     "end": 51
                                 },
@@ -390,7 +390,7 @@ class Array { concat(items:number | string) {}; }
                                                             "end": 85
                                                         },
                                                         "flags": 2097152,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 512,
                                                         "start": 78,
                                                         "end": 86
                                                     },
@@ -412,7 +412,7 @@ class Array { concat(items:number | string) {}; }
                                         "end": 86
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 64,
                                     "end": 88
                                 },
@@ -1925,7 +1925,7 @@ class Array { concat(items:number | string) {}; }
                                         "end": 540
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 533,
                                     "end": 541
                                 },

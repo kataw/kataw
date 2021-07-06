@@ -2002,7 +2002,7 @@ async(a, [q].z = y);
                             "end": 438
                         },
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 431,
                         "end": 438
                     }
@@ -2084,7 +2084,7 @@ async(a, [q].z = y);
                             "end": 455
                         },
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 447,
                         "end": 455
                     }
@@ -2269,7 +2269,7 @@ async(a, [q].z = y);
                                 "end": 490
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 484,
                             "end": 490
                         },
@@ -2554,7 +2554,7 @@ async(a, [q].z = y);
                             "end": 547
                         },
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 539,
                         "end": 547
                     }
@@ -2645,7 +2645,7 @@ async(a, [q].z = y);
                             "end": 567
                         },
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 558,
                         "end": 567
                     }
@@ -2848,7 +2848,7 @@ async(a, [q].z = y);
                                 "end": 608
                             },
                             "flags": 96,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 602,
                             "end": 608
                         },

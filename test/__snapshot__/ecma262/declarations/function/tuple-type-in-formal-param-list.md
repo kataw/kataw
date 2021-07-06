@@ -165,7 +165,7 @@ function x({ y }: z<[string |Q]>) {}
                                         "end": 31
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 19,
                                     "end": 32
                                 },

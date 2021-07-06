@@ -87,7 +87,7 @@ export {}
                         "end": 14
                     },
                     "flags": 97,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 9,
                     "end": 14
                 },
@@ -108,7 +108,7 @@ export {}
                     "end": 15
                 },
                 "flags": 97,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 9,
                 "end": 15
             },

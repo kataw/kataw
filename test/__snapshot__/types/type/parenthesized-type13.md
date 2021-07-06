@@ -65,7 +65,7 @@ type X = ("string");
                             "text": "string",
                             "rawText": "\"string\"",
                             "flags": 2097216,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 10,
                             "end": 18
                         },

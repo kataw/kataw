@@ -47,7 +47,7 @@ typeof a / b + c
                             "end": 8
                         },
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 0,
                         "end": 8
                     },
@@ -68,7 +68,7 @@ typeof a / b + c
                         "end": 12
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 0,
                     "end": 12
                 },
@@ -89,7 +89,7 @@ typeof a / b + c
                     "end": 16
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 0,
                 "end": 16
             },

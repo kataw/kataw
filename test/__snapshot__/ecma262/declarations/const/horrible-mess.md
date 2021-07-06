@@ -137,7 +137,7 @@ const processArgs =
                                     "end": 37
                                 },
                                 "flags": 2097153,
-                                "transformFlags": 0,
+                                "transformFlags": 512,
                                 "start": 19,
                                 "end": 38
                             },
@@ -374,7 +374,7 @@ const processArgs =
                                         "end": 82
                                     },
                                     "flags": 2097153,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 68,
                                     "end": 83
                                 },
@@ -552,7 +552,7 @@ const processArgs =
                                                             "end": 117
                                                         },
                                                         "flags": 2097152,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 512,
                                                         "start": 102,
                                                         "end": 118
                                                     },
@@ -939,7 +939,7 @@ const processArgs =
                                                     "end": 192
                                                 },
                                                 "flags": 2097152,
-                                                "transformFlags": 0,
+                                                "transformFlags": 512,
                                                 "start": 177,
                                                 "end": 193
                                             },

@@ -15,7 +15,7 @@ export function createTypeParameterDeclaration(
     kind: SyntaxKind.TypeParameterDeclaration,
     declarations,
     flags,
-    transformFlags: TransformFlags.None,
+    transformFlags: TransformFlags.TypeParameter,
     start,
     end
   };

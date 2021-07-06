@@ -77,12 +77,12 @@ if ( a + b instanceof c ) ;
                         "end": 23
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 10,
                     "end": 23
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 4,
                 "end": 23
             },

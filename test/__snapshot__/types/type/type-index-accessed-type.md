@@ -119,7 +119,7 @@ type Age = typeof MyArray[number]["age"];
                             "text": "age",
                             "rawText": "\"age\"",
                             "flags": 2097216,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 34,
                             "end": 39
                         },

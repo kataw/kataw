@@ -135,7 +135,7 @@ type a = (|2&3,symbol['string']) => T;
                                             "text": "string",
                                             "rawText": "'string'",
                                             "flags": 6291520,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 22,
                                             "end": 30
                                         },

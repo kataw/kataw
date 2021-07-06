@@ -158,7 +158,7 @@ type a = (1,2&3, ['string']) => T;
                                         "text": "string",
                                         "rawText": "'string'",
                                         "flags": 6291520,
-                                        "transformFlags": 0,
+                                        "transformFlags": 1024,
                                         "start": 18,
                                         "end": 26
                                     },

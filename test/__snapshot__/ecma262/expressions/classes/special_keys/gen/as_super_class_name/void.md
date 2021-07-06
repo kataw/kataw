@@ -80,7 +80,7 @@ class x extends void {}
                             "end": 23
                         },
                         "flags": 32,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 15,
                         "end": 23
                     },

@@ -121,7 +121,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                                                         "text": "a",
                                                                         "rawText": "'a'",
                                                                         "flags": 6291520,
-                                                                        "transformFlags": 0,
+                                                                        "transformFlags": 1024,
                                                                         "start": 53,
                                                                         "end": 57
                                                                     },
@@ -155,7 +155,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                             "end": 58
                                         },
                                         "flags": 2097152,
-                                        "transformFlags": 0,
+                                        "transformFlags": 512,
                                         "start": 47,
                                         "end": 59
                                     },
@@ -203,7 +203,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                     "end": 68
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 20,
                 "end": 69
             },

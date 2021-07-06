@@ -62,7 +62,7 @@ export default function <,>() {}
                         "end": 25
                     },
                     "flags": 2097152,
-                    "transformFlags": 0,
+                    "transformFlags": 512,
                     "start": 23,
                     "end": 25
                 },
@@ -159,7 +159,7 @@ export default function <,>() {}
                     "end": 32
                 },
                 "flags": 96,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 26,
                 "end": 32
             },

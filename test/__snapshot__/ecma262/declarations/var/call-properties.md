@@ -190,7 +190,7 @@ var a: { <T>(x: T): number; };
                                                 "end": 36
                                             },
                                             "flags": 2097152,
-                                            "transformFlags": 0,
+                                            "transformFlags": 512,
                                             "start": 33,
                                             "end": 37
                                         },
@@ -757,7 +757,7 @@ var a: { <T>(x: T): number; };
                                                 "end": 168
                                             },
                                             "flags": 2097152,
-                                            "transformFlags": 0,
+                                            "transformFlags": 512,
                                             "start": 165,
                                             "end": 169
                                         },

@@ -96,7 +96,7 @@ type Animal =
                                             "text": "insect",
                                             "rawText": "'insect'",
                                             "flags": 6291520,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 24,
                                             "end": 33
                                         },
@@ -145,7 +145,7 @@ type Animal =
                                             "text": "fish",
                                             "rawText": "'fish'",
                                             "flags": 6291520,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 45,
                                             "end": 52
                                         },
@@ -194,7 +194,7 @@ type Animal =
                                             "text": "chinese",
                                             "rawText": "'chinese'",
                                             "flags": 6291520,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 64,
                                             "end": 74
                                         },
@@ -243,7 +243,7 @@ type Animal =
                                             "text": "bird",
                                             "rawText": "'bird'",
                                             "flags": 6291520,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 86,
                                             "end": 93
                                         },
@@ -296,9 +296,9 @@ type Animal =
 ```javascript
 
 type Animal = | { type: '\'insect\'' }
-  | { type: '\'fish\'' }
-  | { type: '\'chinese\'' }
-  | { type: '\'bird\'' }
+| { type: '\'fish\'' }
+| { type: '\'chinese\'' }
+| { type: '\'bird\'' }
 ```
 
 ### Diagnostics

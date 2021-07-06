@@ -82,7 +82,7 @@ export default function <T><T>() {}
                         "end": 26
                     },
                     "flags": 2097152,
-                    "transformFlags": 0,
+                    "transformFlags": 512,
                     "start": 23,
                     "end": 27
                 },
@@ -159,7 +159,7 @@ export default function <T><T>() {}
                         "end": 29
                     },
                     "flags": 2097152,
-                    "transformFlags": 0,
+                    "transformFlags": 512,
                     "start": 27,
                     "end": 30
                 },

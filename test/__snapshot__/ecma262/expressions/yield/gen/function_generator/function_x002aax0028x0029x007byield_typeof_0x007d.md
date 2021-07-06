@@ -177,7 +177,7 @@ function * gen() { function not_gen() { function *a(){yield typeof 0} }}
                                                                         "end": 68
                                                                     },
                                                                     "flags": 32,
-                                                                    "transformFlags": 0,
+                                                                    "transformFlags": 1024,
                                                                     "start": 59,
                                                                     "end": 68
                                                                 },

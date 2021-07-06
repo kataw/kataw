@@ -99,7 +99,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                             "end": 12
                                         },
                                         "flags": 2097152,
-                                        "transformFlags": 0,
+                                        "transformFlags": 512,
                                         "start": 10,
                                         "end": 13
                                     },
@@ -201,7 +201,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                     "end": 26
                                                 },
                                                 "flags": 2097152,
-                                                "transformFlags": 0,
+                                                "transformFlags": 512,
                                                 "start": 24,
                                                 "end": 27
                                             },
@@ -270,7 +270,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                             "end": 34
                                         },
                                         "flags": 2097152,
-                                        "transformFlags": 0,
+                                        "transformFlags": 512,
                                         "start": 32,
                                         "end": 35
                                     },
@@ -372,7 +372,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                     "end": 48
                                                 },
                                                 "flags": 2097152,
-                                                "transformFlags": 0,
+                                                "transformFlags": 512,
                                                 "start": 46,
                                                 "end": 49
                                             },
@@ -491,7 +491,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                             "end": 64
                                         },
                                         "flags": 2097152,
-                                        "transformFlags": 0,
+                                        "transformFlags": 512,
                                         "start": 62,
                                         "end": 65
                                     },
@@ -593,7 +593,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                     "end": 78
                                                 },
                                                 "flags": 2097152,
-                                                "transformFlags": 0,
+                                                "transformFlags": 512,
                                                 "start": 76,
                                                 "end": 79
                                             },
@@ -662,7 +662,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                             "end": 86
                                         },
                                         "flags": 2097152,
-                                        "transformFlags": 0,
+                                        "transformFlags": 512,
                                         "start": 84,
                                         "end": 87
                                     },
@@ -764,7 +764,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                     "end": 100
                                                 },
                                                 "flags": 2097152,
-                                                "transformFlags": 0,
+                                                "transformFlags": 512,
                                                 "start": 98,
                                                 "end": 101
                                             },
@@ -882,7 +882,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                         "end": 116
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 114,
                                     "end": 117
                                 },
@@ -984,7 +984,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                 "end": 130
                                             },
                                             "flags": 2097152,
-                                            "transformFlags": 0,
+                                            "transformFlags": 512,
                                             "start": 128,
                                             "end": 131
                                         },

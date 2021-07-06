@@ -154,7 +154,7 @@ FOR2 : for(var i=1;i<2;i++){
                         "end": 22
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 19,
                     "end": 22
                 },
@@ -411,7 +411,7 @@ FOR2 : for(var i=1;i<2;i++){
                         "end": 100
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 97,
                     "end": 100
                 },

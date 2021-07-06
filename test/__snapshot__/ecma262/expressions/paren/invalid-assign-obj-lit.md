@@ -282,7 +282,7 @@
                         }
                     ],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 24,
                     "end": 51
                 },
@@ -586,7 +586,7 @@
                         }
                     ],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 83,
                     "end": 116
                 },
@@ -689,7 +689,7 @@
                                             "end": 141
                                         },
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 1024,
                                         "start": 126,
                                         "end": 141
                                     },
@@ -791,7 +791,7 @@
                                                     }
                                                 ],
                                                 "flags": 32,
-                                                "transformFlags": 0,
+                                                "transformFlags": 1024,
                                                 "start": 153,
                                                 "end": 158
                                             },
@@ -1281,7 +1281,7 @@
                             "end": 241
                         },
                         "flags": 96,
-                        "transformFlags": 0,
+                        "transformFlags": 1024,
                         "start": 220,
                         "end": 241
                     },
@@ -1550,7 +1550,7 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 284,
                     "end": 287
                 },
@@ -2611,7 +2611,7 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 522,
                     "end": 529
                 },

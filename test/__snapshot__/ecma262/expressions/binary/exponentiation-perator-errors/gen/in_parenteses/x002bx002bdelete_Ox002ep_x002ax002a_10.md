@@ -189,7 +189,7 @@ var O = { p: 1 }, x = 10; ; (++delete O.p ** 10)
                                 "end": 41
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 31,
                             "end": 41
                         },
@@ -215,7 +215,7 @@ var O = { p: 1 }, x = 10; ; (++delete O.p ** 10)
                         "end": 47
                     },
                     "flags": 32,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 29,
                     "end": 47
                 },

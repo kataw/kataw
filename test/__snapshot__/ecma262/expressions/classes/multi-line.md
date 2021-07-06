@@ -76,7 +76,7 @@ class C extends (
                                 }
                             ],
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 15,
                             "end": 28
                         },

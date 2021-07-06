@@ -161,7 +161,7 @@ function test() {
                                                 "end": 82
                                             },
                                             "flags": 4194400,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 72,
                                             "end": 82
                                         },

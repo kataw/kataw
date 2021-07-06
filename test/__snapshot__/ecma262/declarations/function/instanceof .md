@@ -152,7 +152,7 @@ function foo(value: AOrString) {
                                                 "end": 63
                                             },
                                             "flags": 96,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 45,
                                             "end": 63
                                         }

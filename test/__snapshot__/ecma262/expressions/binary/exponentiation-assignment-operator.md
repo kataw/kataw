@@ -103,12 +103,12 @@
                                             "end": 18
                                         },
                                         "flags": 96,
-                                        "transformFlags": 0,
+                                        "transformFlags": 1024,
                                         "start": 13,
                                         "end": 18
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 2,
                                     "end": 18
                                 },
@@ -161,7 +161,7 @@
                                                 "end": 31
                                             },
                                             "flags": 96,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 23,
                                             "end": 31
                                         },
@@ -187,7 +187,7 @@
                                         "end": 37
                                     },
                                     "flags": 55,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 19,
                                     "end": 37
                                 },
@@ -950,7 +950,7 @@
                                                 "end": 226
                                             },
                                             "flags": 32,
-                                            "transformFlags": 0,
+                                            "transformFlags": 1024,
                                             "start": 220,
                                             "end": 226
                                         },

@@ -86,7 +86,7 @@ type D = (Obj['bar'])['baz'];
                                     "text": "bar",
                                     "rawText": "'bar'",
                                     "flags": 6291520,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 14,
                                     "end": 19
                                 },
@@ -114,7 +114,7 @@ type D = (Obj['bar'])['baz'];
                             "text": "baz",
                             "rawText": "'baz'",
                             "flags": 6291520,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 22,
                             "end": 27
                         },

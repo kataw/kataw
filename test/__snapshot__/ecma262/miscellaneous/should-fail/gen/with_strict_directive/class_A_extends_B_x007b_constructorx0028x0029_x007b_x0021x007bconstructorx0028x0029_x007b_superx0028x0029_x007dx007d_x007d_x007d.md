@@ -233,7 +233,7 @@
                                                         "end": 79
                                                     },
                                                     "flags": 32,
-                                                    "transformFlags": 0,
+                                                    "transformFlags": 1024,
                                                     "start": 49,
                                                     "end": 79
                                                 },

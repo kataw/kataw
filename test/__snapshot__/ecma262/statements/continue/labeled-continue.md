@@ -177,7 +177,7 @@ label: for (let x = 0; x < 10;) {
                         "end": 44
                     },
                     "flags": 96,
-                    "transformFlags": 0,
+                    "transformFlags": 1024,
                     "start": 37,
                     "end": 44
                 },

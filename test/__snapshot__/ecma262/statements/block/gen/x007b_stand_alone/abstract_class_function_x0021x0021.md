@@ -160,12 +160,12 @@
                                     "end": 28
                                 },
                                 "flags": 32,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 27,
                                 "end": 28
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 25,
                             "end": 28
                         },

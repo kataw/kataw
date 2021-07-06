@@ -281,7 +281,7 @@ x@{x9}@+@{x9}@y
                     "end": 13
                 },
                 "flags": 32,
-                "transformFlags": 0,
+                "transformFlags": 1024,
                 "start": 7,
                 "end": 13
             },

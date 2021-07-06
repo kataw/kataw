@@ -158,7 +158,7 @@ function *f(x = delete ((function) = f)) {}
                                 "end": 40
                             },
                             "flags": 32,
-                            "transformFlags": 0,
+                            "transformFlags": 1024,
                             "start": 15,
                             "end": 40
                         },

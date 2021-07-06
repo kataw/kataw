@@ -95,7 +95,7 @@ function foo<T,S>() {}
                     "end": 16
                 },
                 "flags": 2097152,
-                "transformFlags": 0,
+                "transformFlags": 512,
                 "start": 12,
                 "end": 17
             },

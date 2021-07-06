@@ -519,7 +519,7 @@ type ten = {
                             "end": 145
                         },
                         "flags": 2097152,
-                        "transformFlags": 0,
+                        "transformFlags": 512,
                         "start": 142,
                         "end": 146
                     },
@@ -1110,7 +1110,7 @@ type ten = {
                                         "end": 284
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 282,
                                     "end": 285
                                 },

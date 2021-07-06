@@ -123,7 +123,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                             "end": 23
                                         },
                                         "flags": 2097152,
-                                        "transformFlags": 0,
+                                        "transformFlags": 512,
                                         "start": 15,
                                         "end": 24
                                     },
@@ -221,7 +221,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                         "end": 43
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 40,
                                     "end": 44
                                 },
@@ -401,7 +401,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                         "end": 73
                                     },
                                     "flags": 2097152,
-                                    "transformFlags": 0,
+                                    "transformFlags": 512,
                                     "start": 70,
                                     "end": 74
                                 },
@@ -798,7 +798,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                             "end": 154
                                         },
                                         "flags": 2097152,
-                                        "transformFlags": 0,
+                                        "transformFlags": 512,
                                         "start": 149,
                                         "end": 155
                                     },

@@ -159,7 +159,7 @@ function relativeComplement() {
                                         "end": 71
                                     },
                                     "flags": 96,
-                                    "transformFlags": 0,
+                                    "transformFlags": 1024,
                                     "start": 47,
                                     "end": 71
                                 },
@@ -263,7 +263,7 @@ function relativeComplement() {
                                                             "end": 127
                                                         },
                                                         "flags": 96,
-                                                        "transformFlags": 0,
+                                                        "transformFlags": 1024,
                                                         "start": 103,
                                                         "end": 127
                                                     },
@@ -388,7 +388,7 @@ function relativeComplement() {
                                                                                         "end": 215
                                                                                     },
                                                                                     "flags": 32,
-                                                                                    "transformFlags": 0,
+                                                                                    "transformFlags": 1024,
                                                                                     "start": 212,
                                                                                     "end": 215
                                                                                 },

@@ -285,7 +285,7 @@ function a(f: { (): string; (x: number): string }): string {
                                     "end": 82
                                 },
                                 "flags": 268435488,
-                                "transformFlags": 0,
+                                "transformFlags": 1024,
                                 "start": 69,
                                 "end": 82
                             },
