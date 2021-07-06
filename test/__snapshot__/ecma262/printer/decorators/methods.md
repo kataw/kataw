@@ -442,7 +442,6 @@ class Yo {
 ### Printed
 
 ```javascript
-
 class Yo {
   @ foo("\"hello\"") async plop() {}
   @ anotherDecoratorWithALongName(

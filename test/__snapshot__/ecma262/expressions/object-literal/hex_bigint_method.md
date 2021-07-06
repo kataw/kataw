@@ -130,7 +130,6 @@ x = {0xeban(){}}
 ### Printed
 
 ```javascript
-
 x = { 0xeban() {} };
 ```
 

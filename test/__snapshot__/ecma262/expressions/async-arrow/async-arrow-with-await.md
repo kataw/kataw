@@ -173,7 +173,6 @@ var x = async (a, b) => await a + b;
 ### Printed
 
 ```javascript
-
 var x = async (a, b) => await a + b;
 ```
 

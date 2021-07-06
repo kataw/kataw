@@ -51,7 +51,6 @@ xxx\u{65}
 ### Printed
 
 ```javascript
-
 xxx\u{65};
 ```
 

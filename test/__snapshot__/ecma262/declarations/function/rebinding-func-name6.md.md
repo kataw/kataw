@@ -151,7 +151,6 @@
 ### Printed
 
 ```javascript
-
 {
   function f() {}
   function f() {}

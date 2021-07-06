@@ -142,7 +142,6 @@ async (x?: number): any => x;
 ### Printed
 
 ```javascript
-
 async (x? : number) => x
 ```
 

@@ -102,7 +102,6 @@ function d(public){ "use strict"; }
 ### Printed
 
 ```javascript
-
 function d(public) {}
 ```
 

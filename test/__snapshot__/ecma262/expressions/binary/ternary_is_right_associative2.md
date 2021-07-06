@@ -146,7 +146,6 @@ a ? b : c ** x ? d : e
 ### Printed
 
 ```javascript
-
 a ? b : c ** x ? d : e;
 ```
 

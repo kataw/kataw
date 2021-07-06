@@ -71,7 +71,6 @@ class x {}
 ### Printed
 
 ```javascript
-
 class x {}
 ```
 

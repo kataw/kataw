@@ -142,7 +142,6 @@ class x { *[y](){}}
 ### Printed
 
 ```javascript
-
 class x {
   * [y]() {}
 }

@@ -108,7 +108,6 @@ x = {x, ...y}
 ### Printed
 
 ```javascript
-
 x = { x, ...y };
 ```
 

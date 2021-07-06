@@ -123,7 +123,6 @@
 ### Printed
 
 ```javascript
-
 ([0]? ) => 0;
 ```
 

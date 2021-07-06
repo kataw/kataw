@@ -104,7 +104,6 @@ x<number>(y)
 ### Printed
 
 ```javascript
-
 x  < number > (y);
 ```
 

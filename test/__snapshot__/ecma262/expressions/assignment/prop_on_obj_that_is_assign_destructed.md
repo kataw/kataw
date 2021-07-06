@@ -173,7 +173,6 @@
 ### Printed
 
 ```javascript
-
 [...[{ prop: 1 }.prop]] = [];
 ```
 

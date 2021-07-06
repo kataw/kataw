@@ -111,7 +111,6 @@ function f(){ new . target }
 ### Printed
 
 ```javascript
-
 function f() {
   new.target;
 }

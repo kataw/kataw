@@ -157,8 +157,7 @@
 ### Printed
 
 ```javascript
-
-(class  {
+(class {
     set #arguments(test) {}
   });
 ```

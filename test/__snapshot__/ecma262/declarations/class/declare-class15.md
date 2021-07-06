@@ -100,7 +100,6 @@ declare var string: any;
 ### Printed
 
 ```javascript
-
 declare var string: any;
 ```
 

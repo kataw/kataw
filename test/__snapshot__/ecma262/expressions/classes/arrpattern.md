@@ -138,8 +138,7 @@ class n extends ([] = x) {}
 ### Printed
 
 ```javascript
-
-class n  extends ([] = x) {}
+class n extends ([] = x) {}
 ```
 
 ### Diagnostics

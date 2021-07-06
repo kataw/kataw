@@ -379,7 +379,6 @@ declare => x, declare(y);
 ### Printed
 
 ```javascript
-
 declare => x;
 declare => x, declare => x;
 

@@ -134,7 +134,6 @@ async (a = 1, b = 2) => x;
 ### Printed
 
 ```javascript
-
 async (a = 1, b = 2) => x
 ```
 

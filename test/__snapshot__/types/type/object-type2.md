@@ -87,7 +87,6 @@ type a = {};
 ### Printed
 
 ```javascript
-
 type a = {}
 ```
 

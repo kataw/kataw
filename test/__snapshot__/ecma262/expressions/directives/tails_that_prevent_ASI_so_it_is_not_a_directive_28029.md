@@ -155,7 +155,6 @@ function f(){ "use strict"
 ### Printed
 
 ```javascript
-
 function f() {
   "\"use strict\"".foo;
   eval = 1;

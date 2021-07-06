@@ -1942,7 +1942,6 @@ let tests = [
 ### Printed
 
 ```javascript
-
 let tests = [function () {
       ("'foo'" in {});
       ("'foo'" in { foo: null });

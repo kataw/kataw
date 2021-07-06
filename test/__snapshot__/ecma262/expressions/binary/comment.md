@@ -1222,7 +1222,6 @@ foo[
 ### Printed
 
 ```javascript
-
 a =
 
     (

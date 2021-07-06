@@ -217,7 +217,6 @@ class F { static get foo() {} static get foo() {} }
 ### Printed
 
 ```javascript
-
 class F {
   static get foo() {}
   static get foo() {}

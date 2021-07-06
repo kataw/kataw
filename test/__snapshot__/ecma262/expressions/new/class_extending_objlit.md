@@ -101,8 +101,7 @@ class x extends {} {}
 ### Printed
 
 ```javascript
-
-class x  extends {} {}
+class x extends {} {}
 ```
 
 ### Diagnostics

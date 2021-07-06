@@ -315,7 +315,6 @@
 ### Printed
 
 ```javascript
-
 0e-100;
 1e-100;
 

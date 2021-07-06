@@ -45,7 +45,6 @@
 ### Printed
 
 ```javascript
-
 "\"\7\"";
 ```
 

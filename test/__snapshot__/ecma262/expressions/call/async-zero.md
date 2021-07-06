@@ -87,7 +87,6 @@ async(0,...a)
 ### Printed
 
 ```javascript
-
 async(0, ...a)
 ```
 

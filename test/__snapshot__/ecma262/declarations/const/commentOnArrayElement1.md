@@ -118,7 +118,6 @@ const array = [
 ### Printed
 
 ```javascript
-
 const array = [1, 2];
 ```
 

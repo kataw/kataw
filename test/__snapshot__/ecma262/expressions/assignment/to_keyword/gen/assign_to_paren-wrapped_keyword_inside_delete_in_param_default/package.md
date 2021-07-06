@@ -164,7 +164,6 @@ async (x = delete ((package) = f)) => {}
 ### Printed
 
 ```javascript
-
 async (x = delete ((package) = f)) => {}
 ```
 

@@ -144,7 +144,6 @@ class Foo {
 ### Printed
 
 ```javascript
-
 class Foo {
   static * bar() {}
 }

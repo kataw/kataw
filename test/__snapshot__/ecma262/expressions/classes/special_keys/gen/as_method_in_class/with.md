@@ -136,7 +136,6 @@ class x {with(){}}
 ### Printed
 
 ```javascript
-
 class x {
   with() {}
 }

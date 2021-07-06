@@ -306,7 +306,6 @@ foo(y,(y) => ok);
 ### Printed
 
 ```javascript
-
 foo((x, y) => {});
 foo(x, (y) => {});
 

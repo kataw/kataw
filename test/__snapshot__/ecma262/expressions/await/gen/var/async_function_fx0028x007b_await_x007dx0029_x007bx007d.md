@@ -263,7 +263,6 @@ var await; var f = (async function() { async function f({ await }) {} });
 ### Printed
 
 ```javascript
-
 var await;
 var f = (async function () {
       async function f({ await }) {}

@@ -78,7 +78,6 @@ class /*x*/ x {}
 ### Printed
 
 ```javascript
-
 class x {}
 ```
 

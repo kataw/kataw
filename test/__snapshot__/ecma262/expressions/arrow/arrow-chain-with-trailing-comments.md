@@ -416,7 +416,6 @@ x2 = (a) => ((askTrovenaBeenaDependsRowans1, askTrovenaBeenaDependsRowans2, askT
 ### Printed
 
 ```javascript
-
 x = (bifornCringerMoshedPerplexSawder) =>
   ((askTrovenaBeenaDependsRowans, glimseGlyphsHazardNoopsTieTie) => (f00) => {
       averredBathersBoxroomBuggyNurl();

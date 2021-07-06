@@ -212,7 +212,6 @@ const f = (x?, y?:Object = {}) => {}
 ### Printed
 
 ```javascript
-
 const f = (x? , y? : Object = {}) => {};
 ```
 

@@ -142,7 +142,6 @@ class x {async var(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async var() {}
 }

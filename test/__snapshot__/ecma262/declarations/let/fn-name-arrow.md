@@ -111,7 +111,6 @@ let arrow = () => {};
 ### Printed
 
 ```javascript
-
 let arrow = () => {};
 ```
 

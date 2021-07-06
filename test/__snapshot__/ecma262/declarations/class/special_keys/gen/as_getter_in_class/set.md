@@ -142,7 +142,6 @@ class x {get set(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get set() {}
 }

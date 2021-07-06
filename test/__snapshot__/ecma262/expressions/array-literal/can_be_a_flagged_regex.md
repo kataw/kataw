@@ -119,7 +119,6 @@
 ### Printed
 
 ```javascript
-
 [/x/g.length] = x;
 ```
 

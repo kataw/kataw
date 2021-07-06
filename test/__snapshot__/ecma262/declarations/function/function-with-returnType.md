@@ -116,7 +116,6 @@ function foo():number{}
 ### Printed
 
 ```javascript
-
 function foo(): number {}
 ```
 

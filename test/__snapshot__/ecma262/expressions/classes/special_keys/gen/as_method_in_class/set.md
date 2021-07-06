@@ -136,7 +136,6 @@ class x {set(){}}
 ### Printed
 
 ```javascript
-
 class x {
   set() {}
 }

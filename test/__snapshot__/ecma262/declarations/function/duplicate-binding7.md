@@ -200,7 +200,6 @@ function f() { { var x } function* x() {} }
 ### Printed
 
 ```javascript
-
 function f() {
   {
     var x;

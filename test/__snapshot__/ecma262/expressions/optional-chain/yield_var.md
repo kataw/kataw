@@ -149,7 +149,6 @@
 ### Printed
 
 ```javascript
-
 (x = a?.(yield)) => y;
 ```
 

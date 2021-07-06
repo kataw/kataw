@@ -179,7 +179,6 @@ class Foo {set fooProp(value:number){}}
 ### Printed
 
 ```javascript
-
 class Foo {
   set fooProp(value: number) {}
 }

@@ -156,7 +156,6 @@ type C = { ...A&B };
 ### Printed
 
 ```javascript
-
 type C = { ...A & B }
 ```
 

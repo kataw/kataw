@@ -94,7 +94,6 @@ x => {return}
 ### Printed
 
 ```javascript
-
 x => {
   return;
 };

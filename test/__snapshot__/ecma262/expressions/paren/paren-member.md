@@ -449,7 +449,6 @@
 ### Printed
 
 ```javascript
-
 (a[b]);
 (a[{}]);
 

@@ -140,7 +140,6 @@ import {bar, baz,} from "foo";
 ### Printed
 
 ```javascript
-
 import {  bar,  baz } from "\"foo\"";
 ```
 

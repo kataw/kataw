@@ -114,8 +114,7 @@
 ### Printed
 
 ```javascript
-
-(class  {
+(class {
     await;;
   });
 ```

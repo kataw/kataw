@@ -190,7 +190,6 @@ var f = (argument1,[a,b,...rest]) => {};
 ### Printed
 
 ```javascript
-
 var f = (argument1, [a, b, ...rest]) => {};
 ```
 

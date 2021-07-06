@@ -136,7 +136,6 @@ class x {public(){}}
 ### Printed
 
 ```javascript
-
 class x {
   public() {}
 }

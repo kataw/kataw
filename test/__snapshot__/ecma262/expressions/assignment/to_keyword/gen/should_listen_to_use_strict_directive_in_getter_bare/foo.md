@@ -198,8 +198,9 @@ foo = {
 ### Printed
 
 ```javascript
-
 foo = { get x() {
+
+    "\"use strict\"";
     foo = x;
   } };
 ```

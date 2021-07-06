@@ -220,7 +220,6 @@
 ### Printed
 
 ```javascript
-
 ({ a, ...obj } = foo);
 ({ a: b, ...obj } = foo);
 

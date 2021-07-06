@@ -154,7 +154,6 @@ class x {static async * this(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async * this() {}
 }

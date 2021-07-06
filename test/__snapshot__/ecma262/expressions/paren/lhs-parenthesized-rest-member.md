@@ -129,7 +129,6 @@
 ### Printed
 
 ```javascript
-
 [...(a.b)] = [];
 ```
 

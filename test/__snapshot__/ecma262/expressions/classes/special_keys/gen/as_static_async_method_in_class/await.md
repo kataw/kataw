@@ -148,7 +148,6 @@ class x {static async await(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async await() {}
 }

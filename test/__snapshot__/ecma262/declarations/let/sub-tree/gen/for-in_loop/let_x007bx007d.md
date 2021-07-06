@@ -108,7 +108,6 @@ for (a in b) let
 ### Printed
 
 ```javascript
-
 for (a in b) let;
 {}
 

@@ -357,11 +357,10 @@ declare function three(value :mixed) :boolean;
 ### Printed
 
 ```javascript
+declare function one(value: null): false;
+declare function two(value: void): false;
 
-declare function one(value: null): false
-declare function two(value: void): false
-
-declare function three(value: mixed): boolean
+declare function three(value: mixed): boolean;
 
 ```
 

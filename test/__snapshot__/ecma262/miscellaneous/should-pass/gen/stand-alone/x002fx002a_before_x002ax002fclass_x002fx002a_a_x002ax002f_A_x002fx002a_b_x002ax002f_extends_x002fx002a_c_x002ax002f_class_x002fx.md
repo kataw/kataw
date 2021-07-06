@@ -133,8 +133,7 @@
 ### Printed
 
 ```javascript
-
-class A  extends class B {} {}
+class A extends class B {} {}
 ```
 
 ### Diagnostics

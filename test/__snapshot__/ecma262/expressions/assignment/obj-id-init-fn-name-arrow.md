@@ -164,7 +164,6 @@ result = { arrow = () => {} } = {}
 ### Printed
 
 ```javascript
-
 result = { arrow = () => {} } = {};
 ```
 

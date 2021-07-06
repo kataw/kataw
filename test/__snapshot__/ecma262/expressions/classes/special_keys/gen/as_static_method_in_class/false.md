@@ -142,7 +142,6 @@ class x {static false(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static false() {}
 }

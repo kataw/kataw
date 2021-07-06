@@ -102,7 +102,6 @@ x = {10n: y}
 ### Printed
 
 ```javascript
-
 x = { 10n: y };
 ```
 

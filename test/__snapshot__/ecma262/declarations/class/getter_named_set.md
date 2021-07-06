@@ -154,7 +154,6 @@ class A {get set(){}}
 ### Printed
 
 ```javascript
-
 class A {
   get set() {}
 }

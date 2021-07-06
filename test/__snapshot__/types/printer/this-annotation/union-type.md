@@ -428,7 +428,6 @@ type B = (
 ### Printed
 
 ```javascript
-
 type A = (this: | SupperLongLongLongLongLongLongLongLongLongLongLongType
 | FooBarBazLorem12345,
 b: number) =>  boolean

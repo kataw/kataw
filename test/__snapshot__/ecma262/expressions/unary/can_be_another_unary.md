@@ -71,7 +71,6 @@ delete typeof true
 ### Printed
 
 ```javascript
-
 delete typeof true;
 ```
 

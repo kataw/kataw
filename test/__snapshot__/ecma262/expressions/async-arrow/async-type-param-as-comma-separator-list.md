@@ -122,7 +122,6 @@ async <T, U>(x)
 ### Printed
 
 ```javascript
-
 async  < T, U > (x);
 ```
 

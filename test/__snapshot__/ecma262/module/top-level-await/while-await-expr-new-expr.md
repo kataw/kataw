@@ -233,7 +233,6 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
 ### Printed
 
 ```javascript
-
 while (await new Promise(function (res, rej) {
     res(1);
   })) {

@@ -82,7 +82,6 @@
 ### Printed
 
 ```javascript
-
 (implem\u0065nts = x);
 ```
 

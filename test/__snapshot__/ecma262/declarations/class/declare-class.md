@@ -190,7 +190,6 @@ declare class A { static foo(): number; static x : string }
 ### Printed
 
 ```javascript
-
 declare class A { static foo(): number, static x: string }
 ```
 

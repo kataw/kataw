@@ -122,7 +122,6 @@ var x = y, {z};
 ### Printed
 
 ```javascript
-
 var x = y, { z };
 ```
 

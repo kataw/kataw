@@ -171,7 +171,6 @@ async function f() {
 ### Printed
 
 ```javascript
-
 async function f() {
   const a: await = 1;
 }

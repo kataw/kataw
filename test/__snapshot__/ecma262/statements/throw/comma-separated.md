@@ -93,7 +93,6 @@ throw x = y, z;
 ### Printed
 
 ```javascript
-
 throw x = y, z;
 ```
 

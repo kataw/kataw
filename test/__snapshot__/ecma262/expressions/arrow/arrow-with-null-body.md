@@ -89,7 +89,6 @@
 ### Printed
 
 ```javascript
-
 (a) => 00;
 ```
 

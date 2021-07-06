@@ -169,7 +169,6 @@ for ({a: b.c}.foo in d) e
 ### Printed
 
 ```javascript
-
 for ({ a: b.c }.foo in d) e;
 ```
 

@@ -59,7 +59,6 @@ delete.500
 ### Printed
 
 ```javascript
-
 delete 0.5;
 ```
 

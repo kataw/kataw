@@ -68,7 +68,6 @@
 ### Printed
 
 ```javascript
-
 (async());
 ```
 

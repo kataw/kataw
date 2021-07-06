@@ -122,7 +122,6 @@ x = {...a=b}
 ### Printed
 
 ```javascript
-
 x = { ...a = b };
 ```
 

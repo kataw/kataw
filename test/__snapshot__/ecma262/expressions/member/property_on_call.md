@@ -83,7 +83,6 @@ a().b
 ### Printed
 
 ```javascript
-
 a().b;
 ```
 

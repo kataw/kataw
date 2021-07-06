@@ -169,7 +169,6 @@ async function f() {
 ### Printed
 
 ```javascript
-
 async function f() {
   for (let x in y);
 }

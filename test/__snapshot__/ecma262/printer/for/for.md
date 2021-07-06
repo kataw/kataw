@@ -366,7 +366,6 @@ for (var i = 0; i < 10; ++i) 0;
 ### Printed
 
 ```javascript
-
 for (;;)
   {}
 for (var i = 0; ++ i; i  < 10) {}

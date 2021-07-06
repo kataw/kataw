@@ -168,7 +168,6 @@ function *g(){ (x = [yield y]) }
 ### Printed
 
 ```javascript
-
 function * g() {
   (x = [yield y]);
 }

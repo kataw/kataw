@@ -203,7 +203,6 @@ const anyTestFailures = !(
 ### Printed
 
 ```javascript
-
 const anyTestFailures =
     !(
       aggregatedResults.numFailedTests === 0 &&

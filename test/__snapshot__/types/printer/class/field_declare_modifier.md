@@ -189,7 +189,6 @@ class Foo {
 ### Printed
 
 ```javascript
-
 class Foo {
   declare foo: number;;
   declare static bar: string;;

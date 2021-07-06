@@ -62,7 +62,6 @@ import "y"
 ### Printed
 
 ```javascript
-
 import "\"y\""
 ```
 

@@ -127,7 +127,6 @@ async({c=3} = {})
 ### Printed
 
 ```javascript
-
 async({ c = 3 } = {})
 ```
 

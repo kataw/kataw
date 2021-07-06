@@ -478,7 +478,6 @@ const foo4: Fooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 ### Printed
 
 ```javascript
-
 const foo1: Fooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo<
     bigint> = a;
 const foo2: Fooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo<

@@ -62,7 +62,6 @@ a; /* 4 */ /* 5 */ /* 6 */
 ### Printed
 
 ```javascript
-
 a;
 a;
 

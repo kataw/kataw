@@ -107,7 +107,6 @@ function foo(): {} {}
 ### Printed
 
 ```javascript
-
 function foo(): {} {}
 ```
 

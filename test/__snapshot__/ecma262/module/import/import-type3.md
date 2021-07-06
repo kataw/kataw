@@ -126,7 +126,6 @@ import { type Foo12 } from "bar";
 ### Printed
 
 ```javascript
-
 import {  type Foo12 } from "\"bar\"";
 ```
 

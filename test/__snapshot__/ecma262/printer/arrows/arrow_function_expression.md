@@ -3024,7 +3024,6 @@ a = b => {
 ### Printed
 
 ```javascript
-
 (a => {}).length;
 typeof (() => {});
 

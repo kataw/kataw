@@ -267,7 +267,6 @@ var c = 'some'
 ### Printed
 
 ```javascript
-
 var a = "'some'" + "'text'";
 var b = "'some'" + "'text'";
 

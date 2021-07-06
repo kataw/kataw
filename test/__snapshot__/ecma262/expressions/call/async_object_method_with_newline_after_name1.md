@@ -136,7 +136,6 @@ class x {async foo
 ### Printed
 
 ```javascript
-
 class x {
   async foo() {}
 }

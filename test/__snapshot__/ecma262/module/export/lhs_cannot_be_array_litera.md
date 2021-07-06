@@ -105,7 +105,6 @@ export default [x] = y
 ### Printed
 
 ```javascript
-
 export default [x] = y;
 ```
 

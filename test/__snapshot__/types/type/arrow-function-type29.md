@@ -383,7 +383,6 @@ type a = ((q | y, x?:string | (x?:string)=> T)=> T) => T;
 ### Printed
 
 ```javascript
-
 type a = ((q | y,
 x? : string | (x?: string) =>  T) =>  T) =>  T
 ```

@@ -151,7 +151,6 @@ for ({x=y}=x of x) ;
 ### Printed
 
 ```javascript
-
 for ({ x = y } = x of x);
 ```
 

@@ -98,7 +98,6 @@ test/**/*-test.js
 ### Printed
 
 ```javascript
-
 test * -test.js;
 ```
 

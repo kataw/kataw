@@ -98,7 +98,6 @@ for (true.x in c) d;
 ### Printed
 
 ```javascript
-
 for (true.x in c) d;
 ```
 

@@ -142,7 +142,6 @@ class x {get static(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get static() {}
 }

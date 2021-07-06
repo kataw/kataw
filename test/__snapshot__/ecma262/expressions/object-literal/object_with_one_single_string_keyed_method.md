@@ -133,7 +133,6 @@ wrap({'foo'(){}});
 ### Printed
 
 ```javascript
-
 wrap({ "'foo'"() {} });
 ```
 

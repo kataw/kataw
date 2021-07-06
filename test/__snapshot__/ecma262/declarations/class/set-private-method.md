@@ -153,7 +153,6 @@ class C { set #aaa(x){} }
 ### Printed
 
 ```javascript
-
 class C {
   set #aaa(x) {}
 }

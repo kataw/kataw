@@ -226,8 +226,7 @@ class Foo extends Base {
 ### Printed
 
 ```javascript
-
-class Foo  extends Base {
+class Foo extends Base {
   method() {
     super.method?.();
   }

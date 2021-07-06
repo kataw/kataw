@@ -65,7 +65,6 @@ new this
 ### Printed
 
 ```javascript
-
 new this;
 ```
 

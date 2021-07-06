@@ -82,7 +82,6 @@
 ### Printed
 
 ```javascript
-
 (a\u0072guments = x);
 ```
 

@@ -169,7 +169,6 @@ const a = async (foo: string = "") => {}
 ### Printed
 
 ```javascript
-
 const a = async (foo: string = "\"\"") => {};
 ```
 

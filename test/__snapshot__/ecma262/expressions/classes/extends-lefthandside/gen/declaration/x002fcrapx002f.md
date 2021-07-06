@@ -100,8 +100,7 @@ class A extends /crap/ {}
 ### Printed
 
 ```javascript
-
-class A  extends /crap/ {}
+class A extends /crap/ {}
 ```
 
 ### Diagnostics

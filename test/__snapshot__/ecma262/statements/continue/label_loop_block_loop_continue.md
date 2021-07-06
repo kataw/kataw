@@ -137,7 +137,6 @@ foo: while(z) { while(z) continue foo }
 ### Printed
 
 ```javascript
-
 foo:  while (z) {
     while (z) continue  foo;
   }

@@ -530,7 +530,6 @@ const o = {
 ### Printed
 
 ```javascript
-
 const blablah =
 
       "\"aldkfkladfskladklsfkladklfkaldfadfkdaf\"" +

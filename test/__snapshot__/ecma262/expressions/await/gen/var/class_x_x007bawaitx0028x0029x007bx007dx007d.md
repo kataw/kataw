@@ -277,7 +277,6 @@ var await; var f = (async function() { class x {await(){}} });
 ### Printed
 
 ```javascript
-
 var await;
 var f = (async function () {
       class x {

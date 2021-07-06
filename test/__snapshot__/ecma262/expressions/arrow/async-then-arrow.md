@@ -88,7 +88,6 @@ a => a;
 ### Printed
 
 ```javascript
-
 async;
 a => a;
 

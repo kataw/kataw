@@ -148,7 +148,6 @@ class x {static get finally(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get finally() {}
 }

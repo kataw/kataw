@@ -605,7 +605,6 @@ const { accessibilityModule: FooAccessibilityModule, accessibilityModule: FooAcc
 ### Printed
 
 ```javascript
-
 let {
     bottom: offsetBottom,
     left: offsetLeft,

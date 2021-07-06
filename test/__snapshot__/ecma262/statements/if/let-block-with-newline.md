@@ -84,7 +84,6 @@ if (false) let // ASI
 ### Printed
 
 ```javascript
-
 if (false) let;
 {}
 

@@ -78,7 +78,6 @@ z(x);
 ### Printed
 
 ```javascript
-
 z(x);
 ```
 

@@ -219,7 +219,6 @@ class x { constructor(){ return () => () => super.foo; }}
 ### Printed
 
 ```javascript
-
 class x {
   constructor() {
     return () => () => super.foo;

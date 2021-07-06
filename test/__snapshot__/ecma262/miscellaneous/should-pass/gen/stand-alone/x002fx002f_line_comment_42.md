@@ -54,7 +54,6 @@
 ### Printed
 
 ```javascript
-
 42;
 ```
 

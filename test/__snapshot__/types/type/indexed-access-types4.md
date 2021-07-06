@@ -127,7 +127,6 @@ type E = Obj['bar'][];
 ### Printed
 
 ```javascript
-
 type E = Obj["'bar'"][]
 ```
 

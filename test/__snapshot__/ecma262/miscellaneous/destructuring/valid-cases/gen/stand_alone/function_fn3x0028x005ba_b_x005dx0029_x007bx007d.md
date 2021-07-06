@@ -132,7 +132,6 @@ function fn3([a,, b,]) {}
 ### Printed
 
 ```javascript
-
 function fn3([a, , b,]) {}
 ```
 

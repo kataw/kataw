@@ -127,8 +127,7 @@
 ### Printed
 
 ```javascript
-
-(class  {})(class  {});
+(class {})(class {});
 ```
 
 ### Diagnostics

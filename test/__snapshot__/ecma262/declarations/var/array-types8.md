@@ -462,7 +462,6 @@ var a: typeof A[];
 ### Printed
 
 ```javascript
-
 var a: number[];
 var a: ? number[];
 

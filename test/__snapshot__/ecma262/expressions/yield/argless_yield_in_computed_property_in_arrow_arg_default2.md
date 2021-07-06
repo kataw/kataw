@@ -157,7 +157,6 @@
 ### Printed
 
 ```javascript
-
 {
   (x = { [yield]: 1 }) => z;
 }

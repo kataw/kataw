@@ -109,7 +109,6 @@ s = {foo: yield}
 ### Printed
 
 ```javascript
-
 s = { foo: yield };
 ```
 

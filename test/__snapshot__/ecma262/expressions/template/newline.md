@@ -47,7 +47,6 @@
 ### Printed
 
 ```javascript
-
 `
 `;
 ```

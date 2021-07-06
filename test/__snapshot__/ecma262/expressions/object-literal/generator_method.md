@@ -156,7 +156,6 @@
 ### Printed
 
 ```javascript
-
 ({ async * [ha + ha]() {} });
 ```
 

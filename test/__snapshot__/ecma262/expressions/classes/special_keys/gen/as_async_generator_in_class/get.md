@@ -148,7 +148,6 @@ class x {async * get(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async * get() {}
 }

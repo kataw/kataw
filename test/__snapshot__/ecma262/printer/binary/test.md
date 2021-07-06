@@ -1842,7 +1842,6 @@ foo(obj.property * new Class() && obj instanceof Class && longVariable ? number 
 ### Printed
 
 ```javascript
-
 const x = longVariable + longVariable + longVariable;
 const x1 =
 

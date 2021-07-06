@@ -81,7 +81,6 @@ new delete x
 ### Printed
 
 ```javascript
-
 new delete x;
 ```
 

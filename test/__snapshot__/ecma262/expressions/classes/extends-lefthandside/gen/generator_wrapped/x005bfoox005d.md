@@ -180,9 +180,8 @@ function *P(){
 ### Printed
 
 ```javascript
-
 function * P() {
-  class D  extends [foo] {}
+  class D extends [foo] {}
 }
 ```
 

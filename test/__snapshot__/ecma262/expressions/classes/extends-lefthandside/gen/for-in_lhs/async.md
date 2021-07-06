@@ -82,7 +82,6 @@ for (async in x) ;
 ### Printed
 
 ```javascript
-
 for (async in x);
 ```
 

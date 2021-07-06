@@ -156,7 +156,6 @@ let f = a + b + async()=>d
 ### Printed
 
 ```javascript
-
 let f = a + b + async () => d;
 ```
 

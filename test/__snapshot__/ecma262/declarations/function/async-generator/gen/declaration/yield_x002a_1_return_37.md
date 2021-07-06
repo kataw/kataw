@@ -165,7 +165,6 @@ async function * gen() {yield * 1; return 37}
 ### Printed
 
 ```javascript
-
 async function * gen() {
   yield * 1;
   return 37;

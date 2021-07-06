@@ -125,7 +125,6 @@
 ### Printed
 
 ```javascript
-
 ({ s: "\"foo\"".foo } = x);
 ```
 

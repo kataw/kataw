@@ -94,7 +94,6 @@ a?.(x)
 ### Printed
 
 ```javascript
-
 a?.(x);
 ```
 

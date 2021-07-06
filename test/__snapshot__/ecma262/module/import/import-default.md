@@ -93,7 +93,6 @@ import foo from "foo";
 ### Printed
 
 ```javascript
-
 import foo from "\"foo\"";
 ```
 

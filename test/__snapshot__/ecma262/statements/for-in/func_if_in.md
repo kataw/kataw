@@ -201,7 +201,6 @@ for (function(){ if (a in b); }.prop in x);
 ### Printed
 
 ```javascript
-
 for (function () {
   if (a in b);
 }.prop in x);

@@ -107,7 +107,6 @@ for (let foo in x);
 ### Printed
 
 ```javascript
-
 for (let foo in x);
 ```
 

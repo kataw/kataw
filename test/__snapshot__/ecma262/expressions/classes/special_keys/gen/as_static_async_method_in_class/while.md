@@ -148,7 +148,6 @@ class x {static async while(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async while() {}
 }

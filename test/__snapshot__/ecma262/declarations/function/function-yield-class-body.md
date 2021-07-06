@@ -164,9 +164,8 @@ function* bar() { yield class {} }
 ### Printed
 
 ```javascript
-
 function * bar() {
-  yield class  {};
+  yield class {};
 }
 ```
 

@@ -62,7 +62,6 @@
 ### Printed
 
 ```javascript
-
 "'foo'";
 "\"bar\"";
 

@@ -137,7 +137,6 @@ function *f(){
 ### Printed
 
 ```javascript
-
 function * f() {
   p\u0072ivate = x;
 }

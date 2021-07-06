@@ -185,7 +185,6 @@ class Foo { bar():this { return this; }}
 ### Printed
 
 ```javascript
-
 class Foo {
   bar(): this {
     return this;

@@ -148,7 +148,6 @@ class x {static * break(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static * break() {}
 }

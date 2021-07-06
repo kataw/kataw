@@ -218,7 +218,6 @@ async <T>[(x)];
 ### Printed
 
 ```javascript
-
 async  < T > [(x)];
 (async  < T > [(x)]);
 

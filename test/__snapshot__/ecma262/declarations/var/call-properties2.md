@@ -615,7 +615,6 @@ var c: { (): string; (x: number): string } =
 ### Printed
 
 ```javascript
-
 var b: { (): string, (x: number): string } = function (x? : number): string {
     return "\"hi\"";
   };

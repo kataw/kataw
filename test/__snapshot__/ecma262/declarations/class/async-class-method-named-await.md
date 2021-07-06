@@ -142,7 +142,6 @@ class A {async await() { }};
 ### Printed
 
 ```javascript
-
 class A {
   async await() {}
 }

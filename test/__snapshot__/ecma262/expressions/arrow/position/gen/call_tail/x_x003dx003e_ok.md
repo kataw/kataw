@@ -120,7 +120,6 @@ foo(x => ok).bar
 ### Printed
 
 ```javascript
-
 foo(x => ok).bar;
 ```
 

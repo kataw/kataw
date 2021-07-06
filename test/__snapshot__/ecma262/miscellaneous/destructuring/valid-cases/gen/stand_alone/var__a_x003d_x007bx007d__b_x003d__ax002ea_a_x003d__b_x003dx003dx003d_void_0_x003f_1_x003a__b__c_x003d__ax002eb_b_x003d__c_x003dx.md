@@ -525,7 +525,6 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
 ### Printed
 
 ```javascript
-
 var _a = {},
   _b = _a.a,
   a = _b === void 0 ? 1 : _b,

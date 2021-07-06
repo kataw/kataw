@@ -159,7 +159,6 @@ class Something {
 ### Printed
 
 ```javascript
-
 class Something {
   @ Annotateme() static property;;
 }

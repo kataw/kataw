@@ -208,7 +208,6 @@ declare class X {
 ### Printed
 
 ```javascript
-
 declare class X { a: number, static b: number, c: number }
 ```
 

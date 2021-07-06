@@ -120,7 +120,6 @@ for await (const a of b);
 ### Printed
 
 ```javascript
-
 for await (const a of b);
 ```
 

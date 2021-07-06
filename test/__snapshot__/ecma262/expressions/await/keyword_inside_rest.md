@@ -201,7 +201,6 @@ async r => result = [...{ x = await x }] = y;
 ### Printed
 
 ```javascript
-
 async r => result = [...{ x = await x }] = y;
 ```
 

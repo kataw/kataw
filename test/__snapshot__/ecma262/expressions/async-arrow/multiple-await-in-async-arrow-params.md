@@ -185,7 +185,6 @@ async ({ x = [ await ], y = { await } }) => {}
 ### Printed
 
 ```javascript
-
 async ({ x = [await], y = { await } }) => {}
 ```
 

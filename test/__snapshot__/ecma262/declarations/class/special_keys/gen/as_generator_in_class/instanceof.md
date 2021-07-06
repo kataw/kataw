@@ -142,7 +142,6 @@ class x {* instanceof(){}}
 ### Printed
 
 ```javascript
-
 class x {
   * instanceof() {}
 }

@@ -174,7 +174,6 @@ class Foo { static x = function() { return this } }
 ### Printed
 
 ```javascript
-
 class Foo {
   static x = function () {
     return this;

@@ -65,7 +65,6 @@ export default "foo";
 ### Printed
 
 ```javascript
-
 export default "\"foo\"";
 ```
 

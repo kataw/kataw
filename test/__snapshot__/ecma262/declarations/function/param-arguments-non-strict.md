@@ -92,7 +92,6 @@ function foo(arguments){}
 ### Printed
 
 ```javascript
-
 function foo(arguments) {}
 ```
 

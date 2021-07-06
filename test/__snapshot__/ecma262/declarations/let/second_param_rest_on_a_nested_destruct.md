@@ -166,7 +166,6 @@ let [x, ...[foo, bar]] = obj;
 ### Printed
 
 ```javascript
-
 let [x, ...[foo, bar]] = obj;
 ```
 

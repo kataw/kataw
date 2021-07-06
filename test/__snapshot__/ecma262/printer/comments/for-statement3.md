@@ -64,7 +64,6 @@ for/*1*/(/*2*/;
 ### Printed
 
 ```javascript
-
 for (;;);
 ```
 

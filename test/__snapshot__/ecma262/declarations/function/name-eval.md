@@ -82,7 +82,6 @@ function eval() { }
 ### Printed
 
 ```javascript
-
 function eval() {}
 ```
 

@@ -103,7 +103,6 @@ foo(a, b, ...c)
 ### Printed
 
 ```javascript
-
 foo(a, b, ...c);
 ```
 

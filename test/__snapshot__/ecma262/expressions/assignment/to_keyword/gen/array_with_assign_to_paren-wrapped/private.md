@@ -114,7 +114,6 @@ async x => (private) = 1
 ### Printed
 
 ```javascript
-
 async x => (private) = 1;
 ```
 

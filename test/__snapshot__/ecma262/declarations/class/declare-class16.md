@@ -142,7 +142,6 @@ declare class B {
 ### Printed
 
 ```javascript
-
 declare class B { proto x: T }
 ```
 

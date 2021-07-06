@@ -142,7 +142,6 @@ class x {get enum(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get enum() {}
 }

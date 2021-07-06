@@ -108,7 +108,6 @@ for (let [] = x;;);
 ### Printed
 
 ```javascript
-
 for (let [] = x; ; );
 ```
 

@@ -99,7 +99,6 @@ let x = import(x)
 ### Printed
 
 ```javascript
-
 let x = import(x);
 ```
 

@@ -145,7 +145,6 @@ var [a,b,...rest] = {};
 ### Printed
 
 ```javascript
-
 var [a, b, ...rest] = {};
 ```
 

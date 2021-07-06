@@ -207,7 +207,6 @@ it => { var [,,...rest] = it; return rest; }
 ### Printed
 
 ```javascript
-
 it => {
   var [, , ...rest] = it;
   return rest;

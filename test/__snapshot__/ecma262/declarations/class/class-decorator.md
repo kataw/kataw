@@ -105,7 +105,6 @@ class Foo {
 ### Printed
 
 ```javascript
-
 @ abc class Foo {}
 ```
 

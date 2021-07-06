@@ -100,7 +100,6 @@ for ((async) of [7]);
 ### Printed
 
 ```javascript
-
 for ((async) of [7]);
 ```
 

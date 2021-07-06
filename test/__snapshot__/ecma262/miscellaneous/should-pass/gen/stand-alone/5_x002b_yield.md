@@ -75,7 +75,6 @@
 ### Printed
 
 ```javascript
-
 5 + yield;
 ```
 

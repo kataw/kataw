@@ -738,7 +738,6 @@ defaultContent.filter(defaultLocale => {
 ### Printed
 
 ```javascript
-
 this._cumulativeHeights &&
   Math.abs(
 
@@ -747,9 +746,8 @@ this._cumulativeHeights &&
     ,
   ) >
     1;
-foooooooooooooooooooooooooooooooooooooooooooooooooooooooooo(
-  aaaaaaaaaaaaaaaaaaa
-) + a;
+foooooooooooooooooooooooooooooooooooooooooooooooooooooooooo(aaaaaaaaaaaaaaaaaaa) +
+  a;
 
 const isPartOfPackageJSON =
 

@@ -154,7 +154,6 @@ function *f(x = (enum) = f) {}
 ### Printed
 
 ```javascript
-
 function * f(x = (enum) = f) {}
 ```
 

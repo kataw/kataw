@@ -298,7 +298,6 @@ function* a(b, c, d/*1*/,
 ### Printed
 
 ```javascript
-
 function * a(b, c, d) {}
 function * a(b, c, d) {}
 

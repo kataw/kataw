@@ -785,7 +785,6 @@ var h = [{h:5}, null];
 ### Printed
 
 ```javascript
-
 var a = false ? 1 : null;
 var b = false ? undefined : 0;
 

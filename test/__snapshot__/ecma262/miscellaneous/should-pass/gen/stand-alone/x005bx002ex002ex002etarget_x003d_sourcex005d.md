@@ -106,7 +106,6 @@
 ### Printed
 
 ```javascript
-
 [...target = source];
 ```
 

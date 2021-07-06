@@ -399,7 +399,6 @@ let {q=3} = {};
 ### Printed
 
 ```javascript
-
 let x;
 let y = 0;
 

@@ -143,7 +143,6 @@
 ### Printed
 
 ```javascript
-
 [new x().y] = z;
 ```
 

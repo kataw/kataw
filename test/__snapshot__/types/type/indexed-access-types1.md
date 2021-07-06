@@ -120,7 +120,6 @@ type A = Obj['a'];
 ### Printed
 
 ```javascript
-
 type A = Obj["'a'"]
 ```
 

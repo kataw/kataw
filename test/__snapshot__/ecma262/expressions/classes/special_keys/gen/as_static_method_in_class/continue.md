@@ -142,7 +142,6 @@ class x {static continue(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static continue() {}
 }

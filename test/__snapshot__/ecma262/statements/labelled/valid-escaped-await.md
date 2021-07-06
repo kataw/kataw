@@ -74,7 +74,6 @@ aw\u0061it: 1;
 ### Printed
 
 ```javascript
-
 aw\u0061it:  1;
 ```
 

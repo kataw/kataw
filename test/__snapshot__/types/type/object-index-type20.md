@@ -238,7 +238,6 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
 ### Printed
 
 ```javascript
-
 type LinkedList<Type> = Type & { next: LinkedList<Type> }
 ```
 

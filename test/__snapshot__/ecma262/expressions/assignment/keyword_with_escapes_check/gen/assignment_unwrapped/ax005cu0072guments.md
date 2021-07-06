@@ -75,7 +75,6 @@ a\u0072guments = x;
 ### Printed
 
 ```javascript
-
 a\u0072guments = x;
 ```
 

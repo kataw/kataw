@@ -133,7 +133,6 @@ x * (async (x, y) => ok)
 ### Printed
 
 ```javascript
-
 x * (async (x, y) => ok);
 ```
 

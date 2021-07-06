@@ -82,7 +82,6 @@
 ### Printed
 
 ```javascript
-
 (private = x);
 ```
 

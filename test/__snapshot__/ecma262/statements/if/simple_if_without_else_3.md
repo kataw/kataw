@@ -132,7 +132,6 @@ if (foo) a; if (bar) b; else c;
 ### Printed
 
 ```javascript
-
 if (foo) a;
 if (bar) b;
 else  c;

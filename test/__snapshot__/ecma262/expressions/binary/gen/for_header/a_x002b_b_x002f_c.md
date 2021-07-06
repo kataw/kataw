@@ -114,7 +114,6 @@ for ( a + b / c ;;);
 ### Printed
 
 ```javascript
-
 for (a + b / c; ; );
 ```
 

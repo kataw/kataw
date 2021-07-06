@@ -99,7 +99,6 @@
 ### Printed
 
 ```javascript
-
 {
   const enum = null;
 }

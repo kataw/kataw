@@ -143,7 +143,6 @@ async (x = (let) = f) => {}
 ### Printed
 
 ```javascript
-
 async (x = (let) = f) => {}
 ```
 

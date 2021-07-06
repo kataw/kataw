@@ -142,7 +142,6 @@
 ### Printed
 
 ```javascript
-
 (function not_gen() {
     yield * 2;
   });

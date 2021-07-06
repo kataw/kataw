@@ -152,7 +152,6 @@ class x {set export(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set export(x) {}
 }

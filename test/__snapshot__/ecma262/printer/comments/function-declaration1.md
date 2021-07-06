@@ -346,7 +346,6 @@ function x (
 ### Printed
 
 ```javascript
-
 function x() {}
 function x() {}
 

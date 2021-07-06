@@ -74,7 +74,6 @@ yi\u0065ld: 1;
 ### Printed
 
 ```javascript
-
 yi\u0065ld:  1;
 ```
 

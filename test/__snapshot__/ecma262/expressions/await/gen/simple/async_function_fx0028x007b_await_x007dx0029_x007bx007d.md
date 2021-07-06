@@ -122,7 +122,6 @@ async function f({ await }) {}
 ### Printed
 
 ```javascript
-
 async function f({ await }) {}
 ```
 

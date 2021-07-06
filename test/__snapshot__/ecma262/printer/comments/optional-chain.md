@@ -266,7 +266,6 @@ a?.(/*1*/x/*2*/)/*3*/
 ### Printed
 
 ```javascript
-
 a?.b;
 a?.[b];
 

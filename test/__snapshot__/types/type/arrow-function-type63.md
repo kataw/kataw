@@ -350,7 +350,6 @@ type a = ((((() => T) => T) => T) => T) => T;
 ### Printed
 
 ```javascript
-
 type a = ((((() =>  T) =>  T) =>  T) =>  T) =>  T
 ```
 

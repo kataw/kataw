@@ -562,7 +562,6 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
 ### Printed
 
 ```javascript
-
 function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
   if (n === 0) return y;
   if (n === 1) return z;

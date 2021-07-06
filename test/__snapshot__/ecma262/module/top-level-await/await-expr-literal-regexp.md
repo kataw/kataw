@@ -64,7 +64,6 @@ await /1/;
 ### Printed
 
 ```javascript
-
 await /1/;
 ```
 

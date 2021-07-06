@@ -75,7 +75,6 @@ p\u0072otected = x;
 ### Printed
 
 ```javascript
-
 p\u0072otected = x;
 ```
 

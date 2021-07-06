@@ -142,7 +142,6 @@ class x {* new(){}}
 ### Printed
 
 ```javascript
-
 class x {
   * new() {}
 }

@@ -138,7 +138,6 @@
 ### Printed
 
 ```javascript
-
 ({ "\"__proto__\"": null, __proto__() {} });
 ```
 

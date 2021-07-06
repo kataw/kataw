@@ -167,7 +167,6 @@ class w {  t[x](){}  }
 ### Printed
 
 ```javascript
-
 class w {
   t;[x]() {}
 }

@@ -142,7 +142,6 @@ class x {async null(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async null() {}
 }

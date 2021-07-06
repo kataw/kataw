@@ -142,7 +142,6 @@ class x {get extends(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get extends() {}
 }

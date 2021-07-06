@@ -157,7 +157,6 @@
 ### Printed
 
 ```javascript
-
 ({ a = 42, b: test.d } = {});
 ```
 

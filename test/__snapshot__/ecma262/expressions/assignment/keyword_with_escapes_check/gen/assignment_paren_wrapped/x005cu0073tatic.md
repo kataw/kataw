@@ -82,7 +82,6 @@
 ### Printed
 
 ```javascript
-
 (\u0073tatic = x);
 ```
 

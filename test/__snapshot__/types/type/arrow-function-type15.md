@@ -254,7 +254,6 @@ type a = (?bj[c] & a | b) => T;
 ### Printed
 
 ```javascript
-
 type a = (? bj[c] & a | b) =>  T
 ```
 

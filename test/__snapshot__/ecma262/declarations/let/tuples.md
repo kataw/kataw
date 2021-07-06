@@ -879,7 +879,6 @@ let tests = [
 ### Printed
 
 ```javascript
-
 let tests = [function (t: [number]) {
       t[1];
       t[-1];

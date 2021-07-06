@@ -99,7 +99,6 @@ new async async => ok
 ### Printed
 
 ```javascript
-
 new async async => ok;
 ```
 

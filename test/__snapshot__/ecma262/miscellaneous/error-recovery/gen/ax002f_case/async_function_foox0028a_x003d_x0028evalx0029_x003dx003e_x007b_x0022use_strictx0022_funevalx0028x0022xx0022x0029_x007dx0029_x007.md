@@ -220,8 +220,9 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
 ### Printed
 
 ```javascript
-
 async function foo(a = (eval) => {
+
+  "\"use strict\"";
   funeval("\"x\"");
 }) {}
 ```

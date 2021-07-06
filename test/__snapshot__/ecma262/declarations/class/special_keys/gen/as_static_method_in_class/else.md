@@ -142,7 +142,6 @@ class x {static else(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static else() {}
 }

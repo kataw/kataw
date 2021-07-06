@@ -110,7 +110,6 @@
 ### Printed
 
 ```javascript
-
 {
   let {} = y;
 }

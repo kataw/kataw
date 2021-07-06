@@ -1004,7 +1004,6 @@ var callCount = 0;
 ### Printed
 
 ```javascript
-
 var source = [3, 4, 5];
 var target;
 

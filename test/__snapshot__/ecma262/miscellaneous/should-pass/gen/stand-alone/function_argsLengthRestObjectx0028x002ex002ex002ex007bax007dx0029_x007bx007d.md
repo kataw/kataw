@@ -133,7 +133,6 @@ function argsLengthRestObject(...{a}) {}
 ### Printed
 
 ```javascript
-
 function argsLengthRestObject(...{ a }) {}
 ```
 

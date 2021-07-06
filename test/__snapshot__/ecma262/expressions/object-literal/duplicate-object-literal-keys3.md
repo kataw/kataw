@@ -250,7 +250,6 @@
 ### Printed
 
 ```javascript
-
 ({ get x() {}, set x(y) {}, get x() {} });
 ```
 

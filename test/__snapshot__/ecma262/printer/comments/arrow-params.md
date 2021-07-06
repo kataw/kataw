@@ -5001,7 +5001,6 @@ foo(
 ### Printed
 
 ```javascript
-
 fooooooooooooooooooooooooooooooooooooooooooooooooooo(action => next =>
   dispatch(action));
 foo(({ a, b }) => {});

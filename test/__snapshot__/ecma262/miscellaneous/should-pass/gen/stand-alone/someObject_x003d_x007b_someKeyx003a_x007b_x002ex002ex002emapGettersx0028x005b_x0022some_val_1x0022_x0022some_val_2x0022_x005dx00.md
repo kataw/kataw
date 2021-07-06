@@ -192,7 +192,6 @@ someObject = { someKey: { ...mapGetters([ "some_val_1", "some_val_2" ]) } }
 ### Printed
 
 ```javascript
-
 someObject = {
   someKey: { ...mapGetters(["\"some_val_1\"", "\"some_val_2\""]) }
 };

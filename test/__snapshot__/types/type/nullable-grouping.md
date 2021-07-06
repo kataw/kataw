@@ -137,7 +137,6 @@ type A = ?(?B)
 ### Printed
 
 ```javascript
-
 type A = ? (? B)
 ```
 

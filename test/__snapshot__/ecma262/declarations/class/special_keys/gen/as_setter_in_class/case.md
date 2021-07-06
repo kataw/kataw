@@ -152,7 +152,6 @@ class x {set case(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set case(x) {}
 }

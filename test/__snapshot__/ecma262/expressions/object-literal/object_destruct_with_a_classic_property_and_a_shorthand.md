@@ -134,7 +134,6 @@ x = {a:b, c} = obj;
 ### Printed
 
 ```javascript
-
 x = { a: b, c } = obj;
 ```
 

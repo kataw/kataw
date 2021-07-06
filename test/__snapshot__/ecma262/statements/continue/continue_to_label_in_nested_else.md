@@ -133,7 +133,6 @@ foo: while (true) if (x); else continue foo;
 ### Printed
 
 ```javascript
-
 foo:  while (true) if (x);
   else  continue  foo;
 ```

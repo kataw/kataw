@@ -193,7 +193,6 @@ x({async foo(){}, bar(){}});
 ### Printed
 
 ```javascript
-
 x({ async foo() {}, bar() {} });
 ```
 

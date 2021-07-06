@@ -217,7 +217,6 @@ wrap({[foo](){}, set [bar](e){}});
 ### Printed
 
 ```javascript
-
 wrap({ [foo]() {}, set [bar](e) {} });
 ```
 

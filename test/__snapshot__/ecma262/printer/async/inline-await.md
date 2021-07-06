@@ -535,7 +535,6 @@ async function f() {
 ### Printed
 
 ```javascript
-
 async function f() {
   const admins = (
       await (

@@ -276,7 +276,6 @@ wrap(
 ### Printed
 
 ```javascript
-
 import("'something'");
 import("'something'");
 

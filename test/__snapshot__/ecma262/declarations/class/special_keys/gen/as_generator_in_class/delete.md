@@ -142,7 +142,6 @@ class x {* delete(){}}
 ### Printed
 
 ```javascript
-
 class x {
   * delete() {}
 }

@@ -105,7 +105,6 @@
 ### Printed
 
 ```javascript
-
 (x = (yield) = y);
 ```
 

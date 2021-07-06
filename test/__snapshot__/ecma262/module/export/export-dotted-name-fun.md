@@ -196,7 +196,6 @@ export function bar() {
 ### Printed
 
 ```javascript
-
 export function bar() {
   return A.B.C.foo();
 }

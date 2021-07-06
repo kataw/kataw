@@ -82,7 +82,6 @@ for (arguments in x) ;
 ### Printed
 
 ```javascript
-
 for (arguments in x);
 ```
 

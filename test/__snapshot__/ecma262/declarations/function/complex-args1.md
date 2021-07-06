@@ -127,7 +127,6 @@ function f([b, a, a]) {}
 ### Printed
 
 ```javascript
-
 function f([b, a, a]) {}
 ```
 

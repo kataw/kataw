@@ -62,7 +62,6 @@ b
 ### Printed
 
 ```javascript
-
 a;
 b;
 

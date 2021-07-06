@@ -264,7 +264,6 @@ var f = (): (number) => 123;
 ### Printed
 
 ```javascript
-
 var f = (x) => 1;
 var f = () => 123;
 

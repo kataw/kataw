@@ -142,7 +142,6 @@ try { } catch ([a = 0]) { }
 ### Printed
 
 ```javascript
-
 try {} catch ([a = 0]) {}
 ```
 

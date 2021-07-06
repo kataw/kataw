@@ -94,7 +94,6 @@ var a: 0x5E1719E3Bn
 ### Printed
 
 ```javascript
-
 var a: 0x5e1719e3bn;
 ```
 

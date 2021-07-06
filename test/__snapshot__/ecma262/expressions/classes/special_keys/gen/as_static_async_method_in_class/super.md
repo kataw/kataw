@@ -148,7 +148,6 @@ class x {static async super(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async super() {}
 }

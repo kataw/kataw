@@ -159,7 +159,6 @@ function f({arguments: x, ...z}) {}
 ### Printed
 
 ```javascript
-
 function f({ arguments: x, ...z }) {}
 ```
 

@@ -148,7 +148,6 @@ class x {async * instanceof(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async * instanceof() {}
 }

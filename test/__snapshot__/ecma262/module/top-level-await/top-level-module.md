@@ -65,7 +65,6 @@ await 0;
 ### Printed
 
 ```javascript
-
 await 0;
 ```
 

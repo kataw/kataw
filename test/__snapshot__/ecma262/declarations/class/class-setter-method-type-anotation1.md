@@ -194,7 +194,6 @@ class Foo {set fooProp(value:number):void{}}
 ### Printed
 
 ```javascript
-
 class Foo {
   set fooProp(value: number): void {}
 }

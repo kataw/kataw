@@ -171,7 +171,6 @@ class C2 {
 ### Printed
 
 ```javascript
-
 @ await class C2 {
   method() {}
 }

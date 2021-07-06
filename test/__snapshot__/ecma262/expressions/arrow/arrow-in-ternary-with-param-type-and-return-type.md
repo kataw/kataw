@@ -191,7 +191,6 @@ test
 ### Printed
 
 ```javascript
-
 test ? (x: T) => y : z;
 ```
 

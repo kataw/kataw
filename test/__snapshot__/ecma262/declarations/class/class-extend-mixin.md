@@ -163,8 +163,7 @@ class Foo<T> extends mixin(Bar) { }
 ### Printed
 
 ```javascript
-
-class Foo<T>  extends mixin(Bar) {}
+class Foo <T>extends mixin(Bar) {}
 ```
 
 ### Diagnostics

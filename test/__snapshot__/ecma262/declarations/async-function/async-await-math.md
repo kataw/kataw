@@ -190,7 +190,6 @@ async function foo(a, b) { await a + await b };
 ### Printed
 
 ```javascript
-
 async function foo(a, b) {
   await a + await b;
 }

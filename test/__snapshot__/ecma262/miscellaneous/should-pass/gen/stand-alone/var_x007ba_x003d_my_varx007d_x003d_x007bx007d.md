@@ -129,7 +129,6 @@ var {a = my_var} = {}
 ### Printed
 
 ```javascript
-
 var { a = my_var } = {};
 ```
 

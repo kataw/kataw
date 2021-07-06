@@ -183,7 +183,6 @@ type X = (?x.y<z>);
 ### Printed
 
 ```javascript
-
 type X = (? x.y<z>)
 ```
 

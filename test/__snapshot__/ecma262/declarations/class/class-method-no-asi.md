@@ -169,7 +169,6 @@ class A {
 ### Printed
 
 ```javascript
-
 class A {
   async;
   * a() {}

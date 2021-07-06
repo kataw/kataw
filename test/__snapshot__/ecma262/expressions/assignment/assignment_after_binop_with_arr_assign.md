@@ -113,7 +113,6 @@ switch(y&[]=y){}
 ### Printed
 
 ```javascript
-
 switch (y & [] = y) {}
 ```
 

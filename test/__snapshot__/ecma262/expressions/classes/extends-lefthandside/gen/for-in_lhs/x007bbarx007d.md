@@ -99,7 +99,6 @@ for ({bar} in x) ;
 ### Printed
 
 ```javascript
-
 for ({ bar } in x);
 ```
 

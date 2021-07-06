@@ -4590,7 +4590,6 @@ function f({x:arg = (arg = 2)}) {}
 ### Printed
 
 ```javascript
-
 function f(arg) {
   function h() {
     g(arg);
@@ -4650,6 +4649,8 @@ function f(arg = 1) {
 }
 
 function f(arg) {
+
+  "'use strict'";
   g(arg);
   arg = 42;
   g(arg);

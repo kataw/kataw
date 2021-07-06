@@ -99,7 +99,6 @@ for ([foo] in x) ;
 ### Printed
 
 ```javascript
-
 for ([foo] in x);
 ```
 

@@ -1166,7 +1166,6 @@ x << y | z;
 ### Printed
 
 ```javascript
-
 x + y / z;
 x / y + z;
 

@@ -148,7 +148,6 @@ class x {static async new(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async new() {}
 }

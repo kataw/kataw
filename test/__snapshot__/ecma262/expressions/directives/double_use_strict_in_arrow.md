@@ -134,7 +134,6 @@
 ### Printed
 
 ```javascript
-
 (w, o, e, m) => {};
 ```
 

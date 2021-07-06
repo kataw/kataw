@@ -117,7 +117,6 @@
 ### Printed
 
 ```javascript
-
 foo:  while (x) {
     break  foo;
   }

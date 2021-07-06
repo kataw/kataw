@@ -398,8 +398,7 @@ class B<X> {
 ### Printed
 
 ```javascript
-
-class B<X> {
+class B <X>{
   s: X;;
   f() {
     if (this.s) {

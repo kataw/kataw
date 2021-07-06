@@ -126,7 +126,6 @@ var v = a ? b : c;
 ### Printed
 
 ```javascript
-
 var v = a ? b : c;
 ```
 

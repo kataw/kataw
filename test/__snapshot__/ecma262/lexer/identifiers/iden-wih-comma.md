@@ -72,7 +72,6 @@ foo, bar, zoo
 ### Printed
 
 ```javascript
-
 foo, bar, zoo;
 ```
 

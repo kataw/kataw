@@ -173,7 +173,6 @@ let x = a ? (b, c) : (d, e)
 ### Printed
 
 ```javascript
-
 let x = a ? (b, c) : (d, e);
 ```
 

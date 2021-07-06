@@ -143,7 +143,6 @@ async (x = (protected) = f) => {}
 ### Printed
 
 ```javascript
-
 async (x = (protected) = f) => {}
 ```
 

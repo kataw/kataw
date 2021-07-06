@@ -120,7 +120,6 @@ import { for } from "iteration"
 ### Printed
 
 ```javascript
-
 import {  for } from "\"iteration\"";
 ```
 

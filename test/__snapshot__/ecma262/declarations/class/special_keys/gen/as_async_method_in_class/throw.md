@@ -142,7 +142,6 @@ class x {async throw(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async throw() {}
 }

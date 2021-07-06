@@ -63,7 +63,6 @@ import.meta;
 ### Printed
 
 ```javascript
-
 import.meta;
 ```
 

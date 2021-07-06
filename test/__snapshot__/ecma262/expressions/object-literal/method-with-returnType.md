@@ -159,7 +159,6 @@ a={get fooProp():number{}}
 ### Printed
 
 ```javascript
-
 a = { get fooProp(): number {} };
 ```
 

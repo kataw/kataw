@@ -102,7 +102,6 @@ let {x} = v
 ### Printed
 
 ```javascript
-
 let { x } = v;
 ```
 

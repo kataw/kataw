@@ -1348,46 +1348,45 @@
 ### Printed
 
 ```javascript
-
 (class name {});
-(class   extends F {});
+(class extends F {});
 
-(class name  extends F {});
+(class name extends F {});
 
-(class   extends (F, G) {});
+(class extends (F, G) {});
 
-(class name  extends (F, G) {});
+(class name extends (F, G) {});
 
-(class   extends class  {} {});
+(class extends class {} {});
 
-(class name  extends class  {} {});
+(class name extends class {} {});
 
-(class   extends class base {} {});
+(class extends class base {} {});
 
-(class name  extends class base {} {});
+(class name extends class base {} {});
 
 "'use strict'";
 
 {
-  class name  extends F {}
+  class name extends F {}
 }
 
 "'use strict'";
 
 {
-  class name  extends (F, G) {}
+  class name extends (F, G) {}
 }
 
 "'use strict'";
 
 {
-  class name  extends class  {} {}
+  class name extends class {} {}
 }
 
 "'use strict'";
 
 {
-  class name  extends class base {} {}
+  class name extends class base {} {}
 }
 
 ```

@@ -178,7 +178,6 @@ typeof x;
 ### Printed
 
 ```javascript
-
 a ? b : c ? d : e * x;
 typeof x;
 

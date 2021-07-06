@@ -171,7 +171,6 @@
 ### Printed
 
 ```javascript
-
 {
   s = { foo: yield / x / g };
 }

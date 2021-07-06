@@ -310,7 +310,6 @@ function *f() {
 ### Printed
 
 ```javascript
-
 function * f() {
   (yield a => a);
   (yield async a => a);

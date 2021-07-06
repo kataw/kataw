@@ -78,7 +78,6 @@ class enum {}
 ### Printed
 
 ```javascript
-
 class enum {}
 ```
 

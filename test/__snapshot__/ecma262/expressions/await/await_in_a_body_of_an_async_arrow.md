@@ -148,7 +148,6 @@ let y = async x => { await x; }
 ### Printed
 
 ```javascript
-
 let y = async x => {
     await x;
   };

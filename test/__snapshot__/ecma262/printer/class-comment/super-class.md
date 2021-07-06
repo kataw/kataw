@@ -1153,35 +1153,34 @@ extends Base
 ### Printed
 
 ```javascript
+class A extends B {}
+class A1 extends B {}
 
-class A  extends B {}
-class A1  extends B {}
+class A2 extends B {}
 
-class A2  extends B {}
+class A3 extends B {}
 
-class A3  extends B {}
+class A4 extends B {}
 
-class A4  extends B {}
+(class A5 extends B {});
 
-(class A5  extends B {});
+(class A6 extends B {});
 
-(class A6  extends B {});
+(class A7 extends B {});
 
-(class A7  extends B {});
+(class A8 extends B {});
 
-(class A8  extends B {});
+(class A9 extends B {});
 
-(class A9  extends B {});
-
-class a  extends b {
+class a extends b {
   constructor() {}
 }
 
-class c  extends d {
+class c extends d {
   constructor() {}
 }
 
-class C2  extends Base {
+class C2 extends Base {
   foo() {}
 }
 

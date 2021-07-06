@@ -158,7 +158,6 @@ class x {static set break(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   static set break(x) {}
 }

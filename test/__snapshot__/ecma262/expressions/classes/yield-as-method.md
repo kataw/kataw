@@ -146,8 +146,7 @@
 ### Printed
 
 ```javascript
-
-(class  {
+(class {
     * yield() {}
   });
 ```

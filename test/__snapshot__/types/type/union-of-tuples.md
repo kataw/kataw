@@ -137,7 +137,6 @@ type x = [number] | [string];
 ### Printed
 
 ```javascript
-
 type x = [number] | [string]
 ```
 

@@ -82,7 +82,6 @@ function yield() {}
 ### Printed
 
 ```javascript
-
 function yield() {}
 ```
 

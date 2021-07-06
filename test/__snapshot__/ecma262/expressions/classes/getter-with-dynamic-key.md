@@ -148,7 +148,6 @@ class x { static get [y](){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get [y]() {}
 }

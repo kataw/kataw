@@ -132,7 +132,6 @@ async <T>() => await null;
 ### Printed
 
 ```javascript
-
 async <T>() => await null;
 ```
 

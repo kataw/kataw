@@ -124,7 +124,6 @@ async () => {  inte\u0072face = x  }
 ### Printed
 
 ```javascript
-
 async () => {
   inte\u0072face = x;
 }

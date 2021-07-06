@@ -99,7 +99,6 @@ new a ? b : c
 ### Printed
 
 ```javascript
-
 new a ? b : c;
 ```
 

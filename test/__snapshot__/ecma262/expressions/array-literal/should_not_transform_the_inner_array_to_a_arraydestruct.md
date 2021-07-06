@@ -143,7 +143,6 @@
 ### Printed
 
 ```javascript
-
 [a, b = [x, y]] = z;
 ```
 

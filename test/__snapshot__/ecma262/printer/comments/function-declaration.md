@@ -2068,7 +2068,6 @@ function foo4() {
 ### Printed
 
 ```javascript
-
 function a() {}
 function b() {}
 

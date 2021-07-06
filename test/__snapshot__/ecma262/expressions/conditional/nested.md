@@ -176,7 +176,6 @@ z(z(z(a ? b : c++)));
 ### Printed
 
 ```javascript
-
 z(z(z(a ? b : c++)));
 ```
 

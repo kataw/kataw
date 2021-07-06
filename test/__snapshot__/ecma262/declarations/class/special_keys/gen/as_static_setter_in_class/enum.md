@@ -158,7 +158,6 @@ class x {static set enum(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   static set enum(x) {}
 }

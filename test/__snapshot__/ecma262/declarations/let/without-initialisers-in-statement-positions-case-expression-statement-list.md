@@ -130,7 +130,6 @@ switch (true) { case true: let x; }
 ### Printed
 
 ```javascript
-
 switch (true) {
   case true:
     let x;

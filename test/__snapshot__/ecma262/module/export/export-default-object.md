@@ -99,7 +99,6 @@ export default { foo: 1 };
 ### Printed
 
 ```javascript
-
 export default { foo: 1 };
 ```
 

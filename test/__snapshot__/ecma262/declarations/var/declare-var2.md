@@ -142,7 +142,6 @@ declare var C: Class<string>;
 ### Printed
 
 ```javascript
-
 declare var C: Class<string>;
 ```
 

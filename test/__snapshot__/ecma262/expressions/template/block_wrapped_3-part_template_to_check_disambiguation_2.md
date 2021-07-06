@@ -187,7 +187,6 @@
 ### Printed
 
 ```javascript
-
 {
   `foo ${a},
    and ${b},

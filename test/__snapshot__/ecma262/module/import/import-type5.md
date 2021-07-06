@@ -116,7 +116,6 @@ import type a * from "b";
 ### Printed
 
 ```javascript
-
 import type a from "\"b\"";
 ```
 

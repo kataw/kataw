@@ -156,7 +156,6 @@ const test = () => {
 ### Printed
 
 ```javascript
-
 const test = () => {
     return bar();
   };

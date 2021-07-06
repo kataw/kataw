@@ -1971,7 +1971,6 @@ var {get} = obj;
 ### Printed
 
 ```javascript
-
 var x;
 var x = 5;
 

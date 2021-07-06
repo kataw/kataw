@@ -294,7 +294,6 @@ type Animal =
 ### Printed
 
 ```javascript
-
 type Animal = | { type: "'insect'" }
 | { type: "'fish'" }
 | { type: "'chinese'" }

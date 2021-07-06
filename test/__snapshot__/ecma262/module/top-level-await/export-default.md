@@ -79,7 +79,6 @@ export default await 0;
 ### Printed
 
 ```javascript
-
 export default await 0;
 ```
 

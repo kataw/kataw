@@ -302,7 +302,6 @@ function * foo2() {
 ### Printed
 
 ```javascript
-
 function * foo2() {
   yield 1;
   yield 2;

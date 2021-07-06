@@ -79,7 +79,6 @@
 ### Printed
 
 ```javascript
-
 `foo${{}}baz`;
 ```
 

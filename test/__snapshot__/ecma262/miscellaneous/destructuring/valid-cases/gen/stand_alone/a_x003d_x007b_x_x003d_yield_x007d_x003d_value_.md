@@ -131,7 +131,6 @@ a = { x = yield } = value;
 ### Printed
 
 ```javascript
-
 a = { x = yield } = value;
 ```
 

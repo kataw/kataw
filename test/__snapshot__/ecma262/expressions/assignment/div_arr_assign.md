@@ -98,7 +98,6 @@ y/[]=x
 ### Printed
 
 ```javascript
-
 y / [] = x;
 ```
 

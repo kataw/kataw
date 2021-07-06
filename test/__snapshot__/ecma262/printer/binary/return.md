@@ -884,7 +884,6 @@ function foo3() {
 ### Printed
 
 ```javascript
-
 function foo() {
   return this.hasPlugin("\"dynamicImports\"") &&
     this.lookahead().type === tt.parenLeft.right;

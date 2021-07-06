@@ -142,7 +142,6 @@ class x {static catch(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static catch() {}
 }

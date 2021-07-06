@@ -454,7 +454,6 @@ function test1() {
 ### Printed
 
 ```javascript
-
 function test1() {
   async function foo() {
     return 42;

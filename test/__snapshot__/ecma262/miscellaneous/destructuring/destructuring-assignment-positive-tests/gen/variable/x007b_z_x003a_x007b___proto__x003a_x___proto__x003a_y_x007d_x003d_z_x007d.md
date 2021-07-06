@@ -284,7 +284,6 @@ var x, y, z; ({ z : { __proto__: x, __proto__: y } = z } = {});
 ### Printed
 
 ```javascript
-
 var x, y, z;
 ({ z: { __proto__: x, __proto__: y } = z } = {});
 

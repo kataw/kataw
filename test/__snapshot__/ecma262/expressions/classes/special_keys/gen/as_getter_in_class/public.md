@@ -142,7 +142,6 @@ class x {get public(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get public() {}
 }

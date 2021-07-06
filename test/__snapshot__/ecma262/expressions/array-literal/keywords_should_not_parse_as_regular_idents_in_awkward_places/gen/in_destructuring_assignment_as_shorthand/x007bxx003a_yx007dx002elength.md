@@ -142,7 +142,6 @@
 ### Printed
 
 ```javascript
-
 [{ x: y }.length] = x;
 ```
 

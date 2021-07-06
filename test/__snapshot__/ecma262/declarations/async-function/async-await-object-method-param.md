@@ -231,7 +231,6 @@ async function foo(a = {async bar() { await b }}) {};
 ### Printed
 
 ```javascript
-
 async function foo(a = { async bar() {
     await b;
   } }) {}

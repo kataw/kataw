@@ -142,7 +142,6 @@ class x {* super(){}}
 ### Printed
 
 ```javascript
-
 class x {
   * super() {}
 }

@@ -175,7 +175,6 @@ function *f(x = delete ((enum) = f)) {}
 ### Printed
 
 ```javascript
-
 function * f(x = delete ((enum) = f)) {}
 ```
 

@@ -52,7 +52,6 @@ let
 ### Printed
 
 ```javascript
-
 let;
 ```
 

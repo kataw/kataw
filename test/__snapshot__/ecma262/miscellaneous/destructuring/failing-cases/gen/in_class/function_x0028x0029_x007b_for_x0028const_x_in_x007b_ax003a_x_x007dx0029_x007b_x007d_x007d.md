@@ -257,7 +257,6 @@ class x { function () { for (const x in { a: x }) { } } }
 ### Printed
 
 ```javascript
-
 class x {
   function() {
     for (const x in { a: x }) {}

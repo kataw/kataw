@@ -113,7 +113,6 @@ true;
 ### Printed
 
 ```javascript
-
 var x;
 x = true;
 

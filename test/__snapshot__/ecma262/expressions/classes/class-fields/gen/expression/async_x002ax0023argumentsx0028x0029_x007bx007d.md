@@ -171,8 +171,7 @@ class C extends Base { async *#arguments() {} }
 ### Printed
 
 ```javascript
-
-class C  extends Base {
+class C extends Base {
   async * #arguments() {}
 }
 ```

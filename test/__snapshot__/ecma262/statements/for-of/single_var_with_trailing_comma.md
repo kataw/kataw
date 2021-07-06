@@ -125,7 +125,6 @@ for (let {x,} of obj);
 ### Printed
 
 ```javascript
-
 for (let { x } of obj);
 ```
 

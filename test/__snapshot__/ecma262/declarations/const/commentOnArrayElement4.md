@@ -93,7 +93,6 @@ const array = [/* comment */];
 ### Printed
 
 ```javascript
-
 const array = [];
 ```
 

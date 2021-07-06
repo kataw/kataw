@@ -178,7 +178,6 @@ type A = (b: (B)) => C
 ### Printed
 
 ```javascript
-
 type A = (b: (B)) =>  C
 ```
 

@@ -128,7 +128,6 @@ async function * gen() {yield /* comment */}
 ### Printed
 
 ```javascript
-
 async function * gen() {
   yield ;
 }

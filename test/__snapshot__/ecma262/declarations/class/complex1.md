@@ -1024,8 +1024,7 @@ class D<T> {
 ### Printed
 
 ```javascript
-
-class C<X, Y> {
+class C <X, Y>{
   x: X;;
   constructor(x: X) {
     this.x = x;
@@ -1037,7 +1036,7 @@ class C<X, Y> {
     return this.x;
   }
 }
-class D<T> {
+class D <T>{
   x: T;;
   m<S>(
     z: S,

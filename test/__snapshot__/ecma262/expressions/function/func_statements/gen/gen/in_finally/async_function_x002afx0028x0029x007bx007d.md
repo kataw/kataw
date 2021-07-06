@@ -157,7 +157,6 @@ try {
 ### Printed
 
 ```javascript
-
 try {} finally {
   async function * f() {}
 }

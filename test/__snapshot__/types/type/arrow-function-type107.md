@@ -268,7 +268,6 @@ type a = (b[([x])=> c]) => c;
 ### Printed
 
 ```javascript
-
 type a = (b[([x]) =>  c]) =>  c
 ```
 

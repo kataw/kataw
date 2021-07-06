@@ -160,7 +160,6 @@ class x{   static *static(){}    }
 ### Printed
 
 ```javascript
-
 class x {
   static * static() {}
 }

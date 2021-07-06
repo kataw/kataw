@@ -92,7 +92,6 @@ var a: false
 ### Printed
 
 ```javascript
-
 var a: false;
 ```
 

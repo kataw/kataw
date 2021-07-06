@@ -738,27 +738,26 @@
 ### Printed
 
 ```javascript
-
-(class  {
+(class {
     get st\u0061tic() {}
   });
-(class  {
+(class {
     set st\u0061tic(x) {}
   });
 
-(class  {
+(class {
     * st\u0061tic() {}
   });
 
-(class  {
+(class {
     st\u0061tic() {}
   });
 
-(class  {
+(class {
     static get st\u0061tic() {}
   });
 
-(class  {
+(class {
     static set st\u0061tic(x) {}
   });
 

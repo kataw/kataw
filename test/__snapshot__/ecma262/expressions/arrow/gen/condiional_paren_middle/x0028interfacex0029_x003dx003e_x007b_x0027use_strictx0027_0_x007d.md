@@ -168,8 +168,9 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
 ### Printed
 
 ```javascript
-
 bar ? ((interface) => {
+
+        "'use strict'";
         0;
       }) : baz;
 ```

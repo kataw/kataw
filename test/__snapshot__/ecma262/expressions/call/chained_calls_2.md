@@ -175,7 +175,6 @@ foo(a)(b)(c)(d)(e)
 ### Printed
 
 ```javascript
-
 foo(a)(b)(c)(d)(e);
 ```
 

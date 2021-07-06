@@ -80,7 +80,6 @@ for (;;c);
 ### Printed
 
 ```javascript
-
 for (; c; );
 ```
 

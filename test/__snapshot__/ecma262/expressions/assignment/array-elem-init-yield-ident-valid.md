@@ -334,7 +334,6 @@ result = [ x = yield ] = vals;
 ### Printed
 
 ```javascript
-
 var yield = 4;
 var x;
 

@@ -158,8 +158,9 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
 ### Printed
 
 ```javascript
-
 bar ? baz : (eval => {
+
+        "'use strict'";
         0;
       });
 ```

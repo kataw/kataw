@@ -276,7 +276,6 @@ function bar(a = [1 + 1]) {
 ### Printed
 
 ```javascript
-
 function foo(a = [1 + 1]) {}
 function bar(a = [1 + 1]) {}
 

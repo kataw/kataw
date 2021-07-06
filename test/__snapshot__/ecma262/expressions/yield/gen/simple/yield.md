@@ -52,7 +52,6 @@ yield
 ### Printed
 
 ```javascript
-
 yield;
 ```
 

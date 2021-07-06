@@ -134,7 +134,6 @@ for (() => { x in y };;);
 ### Printed
 
 ```javascript
-
 for (() => {
     x in y;
   }; ; );

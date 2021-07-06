@@ -142,7 +142,6 @@ class x {get private(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get private() {}
 }

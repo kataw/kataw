@@ -131,7 +131,6 @@ const [...x] = y
 ### Printed
 
 ```javascript
-
 const [...x] = y;
 ```
 

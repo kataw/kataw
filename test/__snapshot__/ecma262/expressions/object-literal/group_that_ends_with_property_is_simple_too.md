@@ -149,7 +149,6 @@
 ### Printed
 
 ```javascript
-
 ({ a: (b).c } = [2]);
 ```
 

@@ -142,7 +142,6 @@ function f(argument1, {eval: x}) {}
 ### Printed
 
 ```javascript
-
 function f(argument1, { eval: x }) {}
 ```
 

@@ -164,7 +164,6 @@ async (x = delete ((private) = f)) => {}
 ### Printed
 
 ```javascript
-
 async (x = delete ((private) = f)) => {}
 ```
 

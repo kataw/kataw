@@ -104,7 +104,6 @@ async function f(){ return; }
 ### Printed
 
 ```javascript
-
 async function f() {
   return;
 }

@@ -1026,7 +1026,6 @@ n4 = z2;
 ### Printed
 
 ```javascript
-
 var myVariable = 10;
 var anotherVariable = 30;
 

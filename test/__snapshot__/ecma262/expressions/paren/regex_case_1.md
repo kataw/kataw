@@ -98,7 +98,6 @@
 ### Printed
 
 ```javascript
-
 ([delete /a/.x]);
 ```
 

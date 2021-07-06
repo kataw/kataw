@@ -658,7 +658,6 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
 ### Printed
 
 ```javascript
-
 let a;
 let b = `this is a template`;
 

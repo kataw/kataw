@@ -91,7 +91,6 @@ a++;
 ### Printed
 
 ```javascript
-
 ++ a;
 a++;
 

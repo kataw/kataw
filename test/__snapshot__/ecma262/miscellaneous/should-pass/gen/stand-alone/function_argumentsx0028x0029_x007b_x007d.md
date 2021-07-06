@@ -89,7 +89,6 @@ function arguments() { }
 ### Printed
 
 ```javascript
-
 function arguments() {}
 ```
 

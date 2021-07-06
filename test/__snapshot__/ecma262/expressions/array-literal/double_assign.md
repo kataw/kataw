@@ -133,7 +133,6 @@
 ### Printed
 
 ```javascript
-
 [] = n / f >>= v;
 ```
 

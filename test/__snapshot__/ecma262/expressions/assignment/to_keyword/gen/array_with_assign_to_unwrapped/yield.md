@@ -107,7 +107,6 @@ async x => yield = 1
 ### Printed
 
 ```javascript
-
 async x => yield = 1;
 ```
 

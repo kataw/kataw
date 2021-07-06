@@ -146,7 +146,6 @@
 ### Printed
 
 ```javascript
-
 ({ * function(x, y) {} });
 ```
 

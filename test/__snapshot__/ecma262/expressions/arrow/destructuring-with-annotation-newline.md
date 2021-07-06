@@ -185,7 +185,6 @@
 ### Printed
 
 ```javascript
-
 ({ a, b }: T) => {};
 ```
 

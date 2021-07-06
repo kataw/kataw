@@ -141,7 +141,6 @@ async (x = (null) = f) => {}
 ### Printed
 
 ```javascript
-
 async (x = (null) = f) => {}
 ```
 

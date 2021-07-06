@@ -201,7 +201,6 @@ var x, y, z; ({var: x} = {});
 ### Printed
 
 ```javascript
-
 var x, y, z;
 ({ var: x } = {});
 

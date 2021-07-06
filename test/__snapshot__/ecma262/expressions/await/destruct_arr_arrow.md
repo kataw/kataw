@@ -298,7 +298,6 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
 ### Printed
 
 ```javascript
-
 async function a() {
   ([y] = [{ m: 5 + t(await bar) }]) => {};
 }

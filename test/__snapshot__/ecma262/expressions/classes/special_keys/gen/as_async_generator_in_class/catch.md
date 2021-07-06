@@ -148,7 +148,6 @@ class x {async * catch(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async * catch() {}
 }

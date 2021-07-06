@@ -400,7 +400,6 @@
 ### Printed
 
 ```javascript
-
 ({ * type() {} });
 ({ * interface() {} });
 

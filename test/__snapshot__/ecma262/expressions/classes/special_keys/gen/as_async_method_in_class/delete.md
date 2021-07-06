@@ -142,7 +142,6 @@ class x {async delete(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async delete() {}
 }

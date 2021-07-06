@@ -127,7 +127,6 @@ x => y in x) ;
 ### Printed
 
 ```javascript
-
 for (async; ; x => y in x);
 ```
 

@@ -143,7 +143,6 @@ async (x = (static) = f) => {}
 ### Printed
 
 ```javascript
-
 async (x = (static) = f) => {}
 ```
 

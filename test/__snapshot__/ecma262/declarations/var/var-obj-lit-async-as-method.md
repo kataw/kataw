@@ -149,7 +149,6 @@ var obj = { async() {} };
 ### Printed
 
 ```javascript
-
 var obj = { async() {} };
 ```
 

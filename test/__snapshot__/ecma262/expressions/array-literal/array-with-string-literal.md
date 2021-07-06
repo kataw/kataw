@@ -62,7 +62,6 @@
 ### Printed
 
 ```javascript
-
 ["\"string\""];
 ```
 

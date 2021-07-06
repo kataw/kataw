@@ -142,7 +142,6 @@ class x {static private(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static private() {}
 }

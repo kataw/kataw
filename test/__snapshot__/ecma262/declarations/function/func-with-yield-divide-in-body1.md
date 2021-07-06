@@ -153,7 +153,6 @@ function f1() { yield / 1 /g }
 ### Printed
 
 ```javascript
-
 function f1() {
   yield / 1 / g;
 }

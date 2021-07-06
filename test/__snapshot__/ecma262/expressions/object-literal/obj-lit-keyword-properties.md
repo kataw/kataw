@@ -553,7 +553,6 @@
 ### Printed
 
 ```javascript
-
 ({ throw(x, y) {} });
 ({ package(x, y) {} });
 

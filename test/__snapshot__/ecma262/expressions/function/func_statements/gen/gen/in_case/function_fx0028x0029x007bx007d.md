@@ -156,7 +156,6 @@ switch (x) {
 ### Printed
 
 ```javascript
-
 switch (x) {
   case foo:
     function f() {}

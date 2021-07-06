@@ -152,7 +152,6 @@ class x {set try(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set try(x) {}
 }

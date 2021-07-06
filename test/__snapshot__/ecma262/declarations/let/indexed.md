@@ -136,7 +136,6 @@ let x: T[K];
 ### Printed
 
 ```javascript
-
 let x: T[K];
 ```
 

@@ -1155,7 +1155,6 @@ type ten = {
 ### Printed
 
 ```javascript
-
 type six = (this: number) =>  void
 type seven = (this: number,
 a: number) =>  void

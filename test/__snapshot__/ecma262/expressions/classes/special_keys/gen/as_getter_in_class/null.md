@@ -142,7 +142,6 @@ class x {get null(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get null() {}
 }

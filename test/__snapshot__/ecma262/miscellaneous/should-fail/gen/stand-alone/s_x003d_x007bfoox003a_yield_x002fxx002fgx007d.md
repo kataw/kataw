@@ -155,7 +155,6 @@ s = {foo: yield /x/g}
 ### Printed
 
 ```javascript
-
 s = { foo: yield / x / g };
 ```
 

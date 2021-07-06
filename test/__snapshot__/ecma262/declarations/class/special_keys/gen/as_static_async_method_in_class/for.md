@@ -148,7 +148,6 @@ class x {static async for(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async for() {}
 }

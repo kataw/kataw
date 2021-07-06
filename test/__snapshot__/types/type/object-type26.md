@@ -318,7 +318,6 @@ type a = {[((({a():foo}) => [c|d]))]:string};
 ### Printed
 
 ```javascript
-
 type a = { [(({ a(): foo }) =>  [c | d])]: string }
 ```
 

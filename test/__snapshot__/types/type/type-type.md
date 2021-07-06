@@ -172,7 +172,6 @@ type Foo<T> = Bar<T>
 ### Printed
 
 ```javascript
-
 type Foo<T> = Bar<T>
 ```
 

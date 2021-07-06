@@ -158,7 +158,6 @@ class x {static set arguments(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   static set arguments(x) {}
 }

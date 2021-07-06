@@ -158,7 +158,6 @@ class x {static set export(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   static set export(x) {}
 }

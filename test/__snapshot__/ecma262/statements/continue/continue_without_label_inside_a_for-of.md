@@ -84,7 +84,6 @@ for (x of y) continue
 ### Printed
 
 ```javascript
-
 for (x of y) continue ;
 ```
 

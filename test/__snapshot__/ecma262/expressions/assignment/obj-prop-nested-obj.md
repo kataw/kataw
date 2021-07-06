@@ -216,7 +216,6 @@ result = { x: { y } } = { x: { y: 2 } };
 ### Printed
 
 ```javascript
-
 result = { x: { y } } = { x: { y: 2 } };
 ```
 

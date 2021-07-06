@@ -622,7 +622,6 @@ function g() {
 ### Printed
 
 ```javascript
-
 function f() {}
 function g() {
   instruction1;

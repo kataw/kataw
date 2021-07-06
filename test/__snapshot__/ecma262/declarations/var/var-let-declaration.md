@@ -79,7 +79,6 @@ var let = a;
 ### Printed
 
 ```javascript
-
 var let = a;
 ```
 

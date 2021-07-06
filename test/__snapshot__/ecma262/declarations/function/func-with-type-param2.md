@@ -165,7 +165,6 @@ a=function<T,S>() {}
 ### Printed
 
 ```javascript
-
 a = function <T, S>() {};
 ```
 

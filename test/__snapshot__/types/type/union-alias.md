@@ -114,7 +114,6 @@ type UnionAlias = 1 | 2 | 3;
 ### Printed
 
 ```javascript
-
 type UnionAlias = 1 | 2 | 3
 ```
 

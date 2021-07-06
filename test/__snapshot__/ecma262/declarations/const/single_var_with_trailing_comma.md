@@ -114,7 +114,6 @@ const {x,} = obj;
 ### Printed
 
 ```javascript
-
 const { x } = obj;
 ```
 

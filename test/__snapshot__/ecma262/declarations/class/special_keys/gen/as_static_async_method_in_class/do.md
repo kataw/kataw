@@ -148,7 +148,6 @@ class x {static async do(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async do() {}
 }

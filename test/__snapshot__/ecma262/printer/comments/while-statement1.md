@@ -67,7 +67,6 @@ while /* comment */ (x) {}
 ### Printed
 
 ```javascript
-
 while (x) {}
 ```
 

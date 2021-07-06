@@ -394,13 +394,12 @@ declare class D extends C { }
 ### Printed
 
 ```javascript
-
 declare class C {
   static x: number,
   static foo(x: number): void,
   constructor(x: string): void
 }
-declare class D  extends C {}
+declare class D extends C {}
 
 ```
 

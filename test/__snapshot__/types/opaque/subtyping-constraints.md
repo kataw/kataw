@@ -224,7 +224,6 @@ opaque type Good: {x: string} = {x: string, y: number};
 ### Printed
 
 ```javascript
-
 opaque type Good: { x: string } = { x: string, y: number };
 ```
 

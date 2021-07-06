@@ -51,7 +51,6 @@
 ### Printed
 
 ```javascript
-
 "\"\012\"";
 ```
 

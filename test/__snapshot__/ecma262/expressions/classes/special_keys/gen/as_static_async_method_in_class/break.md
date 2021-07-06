@@ -148,7 +148,6 @@ class x {static async break(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async break() {}
 }

@@ -92,7 +92,6 @@ yield
 ### Printed
 
 ```javascript
-
 yield / x / d;
 ```
 

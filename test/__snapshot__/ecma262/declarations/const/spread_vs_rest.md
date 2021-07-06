@@ -190,7 +190,6 @@ const [a=[...b], ...c] = obj;
 ### Printed
 
 ```javascript
-
 const [a = [...b], ...c] = obj;
 ```
 

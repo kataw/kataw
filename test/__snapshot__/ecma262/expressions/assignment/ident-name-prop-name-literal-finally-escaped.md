@@ -170,7 +170,6 @@ var y = { \u0066inally: x } = { finally: 42 };
 ### Printed
 
 ```javascript
-
 var y = { \u0066inally: x } = { finally: 42 };
 ```
 

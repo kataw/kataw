@@ -428,7 +428,6 @@ try {
 ### Printed
 
 ```javascript
-
 try {
   class C {
     

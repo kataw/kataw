@@ -131,7 +131,6 @@
 ### Printed
 
 ```javascript
-
 {
   async (foo = yield, x) => foo
 }

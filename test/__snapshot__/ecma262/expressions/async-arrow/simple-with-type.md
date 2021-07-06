@@ -114,7 +114,6 @@ async (s: any) => x
 ### Printed
 
 ```javascript
-
 async (s: any) => x
 ```
 

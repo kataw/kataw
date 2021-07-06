@@ -160,7 +160,6 @@ for (((x)=>{}).x in y);
 ### Printed
 
 ```javascript
-
 for (((x) => {}).x in y);
 ```
 

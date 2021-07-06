@@ -214,7 +214,6 @@ function yield(yield) { yield: yield (yield + yield (0)); }
 ### Printed
 
 ```javascript
-
 function yield(yield) {
   yield:  yield(yield + yield(0));
 }

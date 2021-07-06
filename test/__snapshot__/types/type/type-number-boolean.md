@@ -137,7 +137,6 @@ type A = { [string | boolean]: number };
 ### Printed
 
 ```javascript
-
 type A = { [string | boolean]: number }
 ```
 

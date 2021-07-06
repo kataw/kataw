@@ -142,7 +142,6 @@ class x {get continue(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get continue() {}
 }

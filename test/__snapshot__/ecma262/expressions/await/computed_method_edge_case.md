@@ -357,7 +357,6 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
 ### Printed
 
 ```javascript
-
 async function f() {
   async function f() {
     (a = { [await foo]() {}, "\"x\""() {} }) => a;

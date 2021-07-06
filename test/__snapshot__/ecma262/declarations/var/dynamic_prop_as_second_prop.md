@@ -148,7 +148,6 @@ var {a, [x]: y} = a;
 ### Printed
 
 ```javascript
-
 var { a, [x]: y } = a;
 ```
 

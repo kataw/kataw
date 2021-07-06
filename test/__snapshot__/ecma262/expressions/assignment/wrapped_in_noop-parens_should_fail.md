@@ -81,7 +81,6 @@
 ### Printed
 
 ```javascript
-
 (1) = x;
 ```
 

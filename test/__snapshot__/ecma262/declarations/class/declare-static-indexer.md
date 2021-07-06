@@ -143,7 +143,6 @@ declare class A { static [ indexer: number]: string }
 ### Printed
 
 ```javascript
-
 declare class A { static [number]: string }
 ```
 

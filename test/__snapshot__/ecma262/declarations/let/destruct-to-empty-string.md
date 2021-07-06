@@ -95,7 +95,6 @@ let [a] = '';
 ### Printed
 
 ```javascript
-
 let [a] = "''";
 ```
 

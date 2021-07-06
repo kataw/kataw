@@ -229,7 +229,6 @@ class C {
 ### Printed
 
 ```javascript
-
 let await;
 class C {
   

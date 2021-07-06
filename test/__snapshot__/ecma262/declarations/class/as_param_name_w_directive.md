@@ -149,7 +149,6 @@ class c {foo(eval){ "use strict"; }}
 ### Printed
 
 ```javascript
-
 class c {
   foo(eval) {}
 }

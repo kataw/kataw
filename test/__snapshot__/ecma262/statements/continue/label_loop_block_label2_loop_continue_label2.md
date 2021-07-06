@@ -174,7 +174,6 @@ foo: do { bar: do continue bar;while(z) } while(z)
 ### Printed
 
 ```javascript
-
 foo:  do  {
     bar:  do  continue  bar;
     while (z);

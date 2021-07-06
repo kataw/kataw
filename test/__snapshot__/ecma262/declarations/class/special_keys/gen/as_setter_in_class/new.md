@@ -152,7 +152,6 @@ class x {set new(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set new(x) {}
 }

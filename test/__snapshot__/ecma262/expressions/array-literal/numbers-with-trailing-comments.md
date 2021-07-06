@@ -239,7 +239,6 @@ function isUnusedDiagnostic(code) {
 ### Printed
 
 ```javascript
-
 function isUnusedDiagnostic(code) {
   return [6133, 6138, 6192, 6196, 6198, 6199, 6205,].includes(code);
 }

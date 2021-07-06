@@ -63,7 +63,6 @@ await this;
 ### Printed
 
 ```javascript
-
 await this;
 ```
 

@@ -134,7 +134,6 @@ function *f() {  return void yield;  }
 ### Printed
 
 ```javascript
-
 function * f() {
   return void yield ;
 }

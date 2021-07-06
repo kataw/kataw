@@ -178,7 +178,6 @@ function f(){ x({[new.target]:y}) }
 ### Printed
 
 ```javascript
-
 function f() {
   x({ [new.target]: y });
 }

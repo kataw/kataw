@@ -220,7 +220,6 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
 ### Printed
 
 ```javascript
-
 declare class IViewFactory { didAnimate(view: Object, prop: string): void }
 ```
 

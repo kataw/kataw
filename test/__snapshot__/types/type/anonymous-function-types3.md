@@ -156,7 +156,6 @@ type A = (string,) => void
 ### Printed
 
 ```javascript
-
 type A = (string) =>  void
 ```
 

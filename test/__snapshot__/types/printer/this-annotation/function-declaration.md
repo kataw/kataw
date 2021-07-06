@@ -377,7 +377,6 @@ function baz (this : number, ...a) {}
 ### Printed
 
 ```javascript
-
 function foo(this: number, a: string, b) {}
 function bar(this: number) {}
 

@@ -152,7 +152,6 @@ class x {set catch(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set catch(x) {}
 }

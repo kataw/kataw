@@ -149,7 +149,6 @@
 ### Printed
 
 ```javascript
-
 [...{ a: b.b }] = c;
 ```
 

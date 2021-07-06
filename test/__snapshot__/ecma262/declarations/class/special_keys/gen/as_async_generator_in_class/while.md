@@ -148,7 +148,6 @@ class x {async * while(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async * while() {}
 }

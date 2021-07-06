@@ -174,8 +174,7 @@ declare function foo(x: number, y: string): void;
 ### Printed
 
 ```javascript
-
-declare function foo(x: number, y: string): void
+declare function foo(x: number, y: string): void;
 ```
 
 ### Diagnostics

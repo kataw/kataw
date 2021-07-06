@@ -115,8 +115,7 @@
 ### Printed
 
 ```javascript
-
-(class  {
+(class {
     async = 0;
   });
 ```

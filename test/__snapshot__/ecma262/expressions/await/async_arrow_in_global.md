@@ -80,7 +80,6 @@ async (await) => x
 ### Printed
 
 ```javascript
-
 async (await) => x
 ```
 

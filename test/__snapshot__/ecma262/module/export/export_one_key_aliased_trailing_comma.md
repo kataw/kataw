@@ -144,7 +144,6 @@ var x; export {x as a,}
 ### Printed
 
 ```javascript
-
 var x;
 export { x as  a };
 

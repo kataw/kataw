@@ -93,7 +93,6 @@ finally {}
 ### Printed
 
 ```javascript
-
 try {
   ;
 } finally {}

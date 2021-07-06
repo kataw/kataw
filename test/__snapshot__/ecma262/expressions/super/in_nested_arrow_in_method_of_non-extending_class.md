@@ -242,8 +242,7 @@ class x extends y { foo(){ return () => () => super.foo; }}
 ### Printed
 
 ```javascript
-
-class x  extends y {
+class x extends y {
   foo() {
     return () => () => super.foo;
   }

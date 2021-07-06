@@ -134,7 +134,6 @@ import {default as foo} from "foo";
 ### Printed
 
 ```javascript
-
 import { default as foo } from "\"foo\"";
 ```
 

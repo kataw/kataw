@@ -158,7 +158,6 @@ class x {static set implements(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   static set implements(x) {}
 }

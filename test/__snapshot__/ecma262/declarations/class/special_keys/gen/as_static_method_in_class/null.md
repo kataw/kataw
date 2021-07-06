@@ -142,7 +142,6 @@ class x {static null(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static null() {}
 }

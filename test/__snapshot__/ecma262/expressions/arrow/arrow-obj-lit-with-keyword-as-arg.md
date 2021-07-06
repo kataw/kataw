@@ -115,7 +115,6 @@
 ### Printed
 
 ```javascript
-
 ({ do: x }) => x;
 ```
 

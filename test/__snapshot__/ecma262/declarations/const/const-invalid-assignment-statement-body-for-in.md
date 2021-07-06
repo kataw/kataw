@@ -181,7 +181,6 @@ for (const x in [1, 2, 3]) { x++ }
 ### Printed
 
 ```javascript
-
 for (const x in [1, 2, 3]) {
     x++;
   }

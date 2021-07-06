@@ -5395,7 +5395,6 @@ g = b + -+-a++;
 ### Printed
 
 ```javascript
-
 var a, b, c, d, e, f, g, x, y, z;
 a = 1 + 2 * 3 / 5;
 
@@ -5504,7 +5503,7 @@ g = b + -+-a++;
 
 (function () {}) ? a : b;
 
-(class  {}) ? a : b;
+(class {}) ? a : b;
 
 ```
 

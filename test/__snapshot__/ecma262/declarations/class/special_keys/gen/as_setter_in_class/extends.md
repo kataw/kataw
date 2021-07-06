@@ -152,7 +152,6 @@ class x {set extends(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set extends(x) {}
 }

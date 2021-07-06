@@ -80,7 +80,6 @@ for /* comment */(;;);
 ### Printed
 
 ```javascript
-
 for (;;);
 for (;;);
 

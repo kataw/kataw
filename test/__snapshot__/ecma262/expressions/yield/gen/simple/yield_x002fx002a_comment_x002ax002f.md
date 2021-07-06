@@ -52,7 +52,6 @@ yield /* comment */
 ### Printed
 
 ```javascript
-
 yield;
 ```
 

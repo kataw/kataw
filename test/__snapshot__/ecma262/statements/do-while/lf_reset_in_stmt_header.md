@@ -126,7 +126,6 @@ while(y)
 ### Printed
 
 ```javascript
-
 do  if (x => {});
 while (y);
 ```

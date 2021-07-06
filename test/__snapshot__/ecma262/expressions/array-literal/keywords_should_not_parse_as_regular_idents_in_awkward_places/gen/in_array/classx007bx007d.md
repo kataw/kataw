@@ -93,8 +93,7 @@
 ### Printed
 
 ```javascript
-
-[class  {}];
+[class {}];
 ```
 
 ### Diagnostics

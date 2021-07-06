@@ -68,7 +68,6 @@ bar
 ### Printed
 
 ```javascript
-
 foo;
 bar;
 

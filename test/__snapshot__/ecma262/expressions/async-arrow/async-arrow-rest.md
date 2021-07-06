@@ -134,7 +134,6 @@ async (...args: any) => {};
 ### Printed
 
 ```javascript
-
 async (...args: any) => {}
 ```
 

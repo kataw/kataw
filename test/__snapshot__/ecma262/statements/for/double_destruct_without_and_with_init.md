@@ -146,7 +146,6 @@ for (let {x, y = z} = obj;;);
 ### Printed
 
 ```javascript
-
 for (let { x, y = z } = obj; ; );
 ```
 

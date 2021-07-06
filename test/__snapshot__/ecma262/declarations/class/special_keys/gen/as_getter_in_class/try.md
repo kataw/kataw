@@ -142,7 +142,6 @@ class x {get try(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get try() {}
 }

@@ -552,7 +552,6 @@ f ^= 1;
 ### Printed
 
 ```javascript
-
 class f {}
 f += "''";
 

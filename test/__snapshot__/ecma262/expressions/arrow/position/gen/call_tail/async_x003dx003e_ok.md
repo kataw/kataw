@@ -120,7 +120,6 @@ foo(async => ok).bar
 ### Printed
 
 ```javascript
-
 foo(async => ok).bar;
 ```
 

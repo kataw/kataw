@@ -105,7 +105,6 @@ try { } catch ({}) {}
 ### Printed
 
 ```javascript
-
 try {} catch ({}) {}
 ```
 

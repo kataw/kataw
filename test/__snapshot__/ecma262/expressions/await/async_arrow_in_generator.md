@@ -140,7 +140,6 @@ function *f(){  async (await) => x  }
 ### Printed
 
 ```javascript
-
 function * f() {
   async (await) => x
 }

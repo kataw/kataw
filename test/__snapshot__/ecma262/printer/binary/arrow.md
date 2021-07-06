@@ -1034,7 +1034,6 @@ function f2() {
 ### Printed
 
 ```javascript
-
 function f() {
   const appEntities = getAppEntities(loadObject).filter(entity =>
       entity &&

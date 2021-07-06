@@ -179,7 +179,6 @@ function method(obj: { [key: string]: any }) {}
 ### Printed
 
 ```javascript
-
 function method(obj: { [string]: any }) {}
 ```
 

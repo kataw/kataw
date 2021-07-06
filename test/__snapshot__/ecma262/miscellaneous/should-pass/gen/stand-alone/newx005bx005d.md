@@ -74,7 +74,6 @@ new[]
 ### Printed
 
 ```javascript
-
 new [];
 ```
 

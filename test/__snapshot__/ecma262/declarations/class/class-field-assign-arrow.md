@@ -148,7 +148,6 @@ class C { aaa=()=>0 }
 ### Printed
 
 ```javascript
-
 class C {
   aaa = () => 0;
 }

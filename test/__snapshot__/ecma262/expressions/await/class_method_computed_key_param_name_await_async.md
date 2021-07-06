@@ -340,7 +340,6 @@ async function f(){
 ### Printed
 
 ```javascript
-
 async function f() {
   (fail = class A {
     [x](await) {};

@@ -186,7 +186,6 @@ var x = { *test () { yield *v } };
 ### Printed
 
 ```javascript
-
 var x = { * test() {
       yield * v;
     } };

@@ -126,7 +126,6 @@ export @bar class Foo { }
 ### Printed
 
 ```javascript
-
 export @ bar class Foo {}
 ```
 

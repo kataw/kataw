@@ -136,7 +136,6 @@ else function f(){}
 ### Printed
 
 ```javascript
-
 if (x) x;
 else  function f() {}
 ```

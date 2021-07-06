@@ -133,7 +133,6 @@ class Foo {
 ### Printed
 
 ```javascript
-
 class Foo {
   method() {}
 }

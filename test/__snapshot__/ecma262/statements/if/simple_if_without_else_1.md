@@ -70,7 +70,6 @@ if (foo) bar;
 ### Printed
 
 ```javascript
-
 if (foo) bar;
 ```
 

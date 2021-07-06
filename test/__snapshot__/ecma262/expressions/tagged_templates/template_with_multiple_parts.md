@@ -106,7 +106,6 @@ foo`x${a}y${b}z`
 ### Printed
 
 ```javascript
-
 foo`x${a},
 y${b}z`;
 ```

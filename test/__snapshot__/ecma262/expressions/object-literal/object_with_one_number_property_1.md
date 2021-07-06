@@ -105,7 +105,6 @@ wrap({15:b});
 ### Printed
 
 ```javascript
-
 wrap({ 15: b });
 ```
 

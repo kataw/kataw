@@ -74,7 +74,6 @@ x = 0x1_2b5
 ### Printed
 
 ```javascript
-
 x = 0x1_2b5;
 ```
 

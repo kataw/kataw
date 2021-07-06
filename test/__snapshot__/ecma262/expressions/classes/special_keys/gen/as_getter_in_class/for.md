@@ -142,7 +142,6 @@ class x {get for(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get for() {}
 }

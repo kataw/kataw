@@ -135,7 +135,6 @@
 ### Printed
 
 ```javascript
-
 [...{ x } / y];
 ```
 

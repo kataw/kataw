@@ -68,7 +68,6 @@ foo:
 ### Printed
 
 ```javascript
-
 foo:  /bar/;
 ```
 

@@ -157,7 +157,6 @@ function *f(){ return [...yield]; }
 ### Printed
 
 ```javascript
-
 function * f() {
   return [...yield ];
 }

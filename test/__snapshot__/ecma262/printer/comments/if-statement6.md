@@ -69,7 +69,6 @@ if /* comment 1 */ (x) {} // comment 2
 ### Printed
 
 ```javascript
-
 if (x) {}
 ```
 

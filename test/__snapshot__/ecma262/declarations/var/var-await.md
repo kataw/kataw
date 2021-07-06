@@ -79,7 +79,6 @@ var await = 0
 ### Printed
 
 ```javascript
-
 var await = 0;
 ```
 

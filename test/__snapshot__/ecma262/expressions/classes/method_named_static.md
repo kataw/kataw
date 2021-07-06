@@ -129,7 +129,6 @@ class x{   static(){}   }
 ### Printed
 
 ```javascript
-
 class x {
   static() {}
 }

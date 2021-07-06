@@ -77,7 +77,6 @@ async x =>  y
 ### Printed
 
 ```javascript
-
 async x => y;
 ```
 

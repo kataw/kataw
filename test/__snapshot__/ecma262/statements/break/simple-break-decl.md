@@ -114,7 +114,6 @@ loop: while (x) { break loop; }
 ### Printed
 
 ```javascript
-
 loop:  while (x) {
     break  loop;
   }

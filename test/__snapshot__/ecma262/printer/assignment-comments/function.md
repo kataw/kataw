@@ -1188,7 +1188,6 @@ let f6 = /* comment */
 ### Printed
 
 ```javascript
-
 f1 = (a = b) => {};
 f2 = (a = b) => {};
 

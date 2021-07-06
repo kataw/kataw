@@ -142,7 +142,6 @@ type a = {function():string};
 ### Printed
 
 ```javascript
-
 type a = { function(): string }
 ```
 

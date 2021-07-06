@@ -130,8 +130,9 @@ bar, eval => { 'use strict'; 0 };
 ### Printed
 
 ```javascript
-
 bar, eval => {
+
+  "'use strict'";
   0;
 };
 ```

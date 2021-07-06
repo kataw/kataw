@@ -91,7 +91,6 @@
 ### Printed
 
 ```javascript
-
 (let[a] = b);
 ```
 

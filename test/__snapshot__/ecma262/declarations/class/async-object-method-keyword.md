@@ -120,7 +120,6 @@
 ### Printed
 
 ```javascript
-
 ({ async delete() {} });
 ```
 

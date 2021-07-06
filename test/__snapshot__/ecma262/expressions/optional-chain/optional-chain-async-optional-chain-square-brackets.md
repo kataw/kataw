@@ -226,7 +226,6 @@ async function x() {
 ### Printed
 
 ```javascript
-
 async function x() {
   await { y: [11] }?.z[0];
 }

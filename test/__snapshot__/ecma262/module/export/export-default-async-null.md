@@ -93,7 +93,6 @@ export default async=null
 ### Printed
 
 ```javascript
-
 export default async = null;;
 ```
 

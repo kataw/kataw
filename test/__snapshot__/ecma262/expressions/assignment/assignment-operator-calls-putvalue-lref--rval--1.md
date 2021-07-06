@@ -657,13 +657,14 @@ Object.defineProperty(this, "x", {
 ### Printed
 
 ```javascript
-
 var count = 0;
 var global = this;
 
 Object.defineProperty(this, "\"x\"", { configurable: true, value: 1 });
 
 (function () {
+
+    "\"use strict\"";
     assert.throws(ReferenceError, () => {
         count++;
         x = (delete global.x, 2);

@@ -148,7 +148,6 @@ class x {static async protected(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async protected() {}
 }

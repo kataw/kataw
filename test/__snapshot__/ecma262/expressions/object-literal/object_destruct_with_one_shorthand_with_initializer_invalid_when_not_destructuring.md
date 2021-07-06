@@ -127,7 +127,6 @@ x({a=b}=c);
 ### Printed
 
 ```javascript
-
 x({ a = b } = c);
 ```
 

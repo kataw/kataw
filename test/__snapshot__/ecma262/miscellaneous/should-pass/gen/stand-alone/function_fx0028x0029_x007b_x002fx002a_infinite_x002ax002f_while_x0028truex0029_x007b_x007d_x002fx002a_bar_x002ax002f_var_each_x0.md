@@ -168,7 +168,6 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
 ### Printed
 
 ```javascript
-
 function f() {
   while (true) {}
   var each;

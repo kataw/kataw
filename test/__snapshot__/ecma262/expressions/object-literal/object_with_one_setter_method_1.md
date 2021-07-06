@@ -149,7 +149,6 @@ wrap({set foo(a){}});
 ### Printed
 
 ```javascript
-
 wrap({ set foo(a) {} });
 ```
 

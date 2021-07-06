@@ -216,8 +216,7 @@ class x extends y { fo(){ return () => super[bar]; }}
 ### Printed
 
 ```javascript
-
-class x  extends y {
+class x extends y {
   fo() {
     return () => super[bar];
   }

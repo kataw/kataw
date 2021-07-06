@@ -136,7 +136,6 @@ delete (((((foo(await)))))).bar
 ### Printed
 
 ```javascript
-
 delete (((((foo(await)))))).bar;
 ```
 

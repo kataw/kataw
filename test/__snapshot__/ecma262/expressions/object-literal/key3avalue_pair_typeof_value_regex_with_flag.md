@@ -99,7 +99,6 @@
 ### Printed
 
 ```javascript
-
 ({ foo: typeof /x/g });
 ```
 

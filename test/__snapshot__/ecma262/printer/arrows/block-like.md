@@ -129,7 +129,6 @@ a = () => ({} = this);
 ### Printed
 
 ```javascript
-
 a = () => ({} = this);
 ```
 

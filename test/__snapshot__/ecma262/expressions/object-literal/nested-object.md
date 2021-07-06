@@ -267,7 +267,6 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
 ### Printed
 
 ```javascript
-
 var { x: y, z: { a: b } } = { x: "\"3\"", z: { a: "\"b\"" } };
 ```
 

@@ -170,7 +170,6 @@ type A = (x: string, number) => void
 ### Printed
 
 ```javascript
-
 type A = (x: string,
 number) =>  void
 ```

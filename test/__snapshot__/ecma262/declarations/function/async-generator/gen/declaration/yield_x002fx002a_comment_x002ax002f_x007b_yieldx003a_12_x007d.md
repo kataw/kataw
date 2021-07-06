@@ -170,7 +170,6 @@ async function * gen() {yield /* comment */ { yield: 12 }}
 ### Printed
 
 ```javascript
-
 async function * gen() {
   yield { yield: 12 };
 }

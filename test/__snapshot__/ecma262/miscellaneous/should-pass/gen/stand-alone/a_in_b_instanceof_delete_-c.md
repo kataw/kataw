@@ -126,7 +126,6 @@ a in b instanceof delete -c
 ### Printed
 
 ```javascript
-
 a in b instanceof delete -c;
 ```
 

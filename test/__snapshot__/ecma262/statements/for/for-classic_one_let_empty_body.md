@@ -101,7 +101,6 @@ for (let a;;);
 ### Printed
 
 ```javascript
-
 for (let a; ; );
 ```
 

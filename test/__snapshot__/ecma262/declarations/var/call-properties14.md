@@ -176,7 +176,6 @@ var d: { (): string } = (x) => "hi"
 ### Printed
 
 ```javascript
-
 var d: { (): string } = (x) => "\"hi\"";
 ```
 

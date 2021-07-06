@@ -117,7 +117,6 @@ f(a + async instanceof b)
 ### Printed
 
 ```javascript
-
 f(a + async instanceof b);
 ```
 

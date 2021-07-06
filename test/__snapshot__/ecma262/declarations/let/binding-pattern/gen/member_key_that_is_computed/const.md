@@ -142,7 +142,6 @@ const {[a.b]: c} = v
 ### Printed
 
 ```javascript
-
 const { [a.b]: c } = v;
 ```
 

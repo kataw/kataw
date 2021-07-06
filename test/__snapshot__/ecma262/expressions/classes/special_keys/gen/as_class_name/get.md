@@ -78,7 +78,6 @@ class get {}
 ### Printed
 
 ```javascript
-
 class get {}
 ```
 

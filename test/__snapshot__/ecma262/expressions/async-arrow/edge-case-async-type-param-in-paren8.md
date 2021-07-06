@@ -177,7 +177,6 @@
 ### Printed
 
 ```javascript
-
 (async  < T, U > (x) >> y - z);
 ```
 

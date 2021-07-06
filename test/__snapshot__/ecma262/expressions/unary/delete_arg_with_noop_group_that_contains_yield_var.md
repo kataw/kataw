@@ -136,7 +136,6 @@ delete (((((foo(yield)))))).bar
 ### Printed
 
 ```javascript
-
 delete (((((foo(yield)))))).bar;
 ```
 

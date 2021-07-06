@@ -109,7 +109,6 @@ with (0) 1;
 ### Printed
 
 ```javascript
-
 with (0) {}
 with (0) 1;
 

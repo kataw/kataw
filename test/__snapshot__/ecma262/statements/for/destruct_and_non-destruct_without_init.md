@@ -136,7 +136,6 @@ for (let [foo] = arr, bar;;);
 ### Printed
 
 ```javascript
-
 for (let [foo] = arr, bar; ; );
 ```
 

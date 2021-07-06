@@ -234,7 +234,6 @@
 ### Printed
 
 ```javascript
-
 ({ ...a ? b : c });
 (x, { ...a ? b : c });
 

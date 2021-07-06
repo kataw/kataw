@@ -136,7 +136,6 @@
 ### Printed
 
 ```javascript
-
 [x, ...z + arr, y];
 ```
 

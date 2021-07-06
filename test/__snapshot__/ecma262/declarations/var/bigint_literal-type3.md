@@ -101,7 +101,6 @@ var a: - 123n
 ### Printed
 
 ```javascript
-
 var a: -123n;
 ```
 

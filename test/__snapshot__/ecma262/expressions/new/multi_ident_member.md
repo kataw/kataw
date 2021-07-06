@@ -124,7 +124,6 @@ new a.b.c.d()
 ### Printed
 
 ```javascript
-
 new a.b.c.d();
 ```
 

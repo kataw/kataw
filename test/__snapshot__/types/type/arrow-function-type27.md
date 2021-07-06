@@ -345,7 +345,6 @@ type a = ((x?:string, (x?:string)=> T)=> T) => T;
 ### Printed
 
 ```javascript
-
 type a = (((x?: string,
 (x?: string) =>  T) =>  T) =>  T)
 ```

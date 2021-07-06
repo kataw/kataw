@@ -170,7 +170,6 @@ class A {static set 10(x){}}
 ### Printed
 
 ```javascript
-
 class A {
   static set 10(x) {}
 }

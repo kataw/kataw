@@ -154,7 +154,6 @@ x({a:b, c:d}=obj);
 ### Printed
 
 ```javascript
-
 x({ a: b, c: d } = obj);
 ```
 

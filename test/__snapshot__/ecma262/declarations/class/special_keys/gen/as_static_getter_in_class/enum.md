@@ -148,7 +148,6 @@ class x {static get enum(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get enum() {}
 }

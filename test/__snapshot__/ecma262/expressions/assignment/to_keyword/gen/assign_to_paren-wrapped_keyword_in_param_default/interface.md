@@ -143,7 +143,6 @@ async (x = (interface) = f) => {}
 ### Printed
 
 ```javascript
-
 async (x = (interface) = f) => {}
 ```
 

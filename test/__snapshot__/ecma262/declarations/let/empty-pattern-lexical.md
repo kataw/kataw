@@ -92,7 +92,6 @@ let [] = [];
 ### Printed
 
 ```javascript
-
 let [] = [];
 ```
 

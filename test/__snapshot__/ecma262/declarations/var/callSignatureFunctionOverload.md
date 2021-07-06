@@ -741,7 +741,6 @@ var foo2: {
 ### Printed
 
 ```javascript
-
 var foo: {
     (name: string): string,
     (name: "'order'"): string,

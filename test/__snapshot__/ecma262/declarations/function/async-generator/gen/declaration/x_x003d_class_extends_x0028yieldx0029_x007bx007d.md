@@ -205,9 +205,8 @@ async function * gen() {x = class extends (yield) {}}
 ### Printed
 
 ```javascript
-
 async function * gen() {
-  x = class   extends (yield ) {};
+  x = class extends (yield ) {};
 }
 ```
 

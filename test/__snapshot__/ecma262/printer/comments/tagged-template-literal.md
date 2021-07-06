@@ -203,7 +203,6 @@ foo /* comment */
 ### Printed
 
 ```javascript
-
 foo``;
 foo``;
 

@@ -113,7 +113,6 @@
 ### Printed
 
 ```javascript
-
 (async  < T > (x));
 ```
 

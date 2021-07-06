@@ -143,7 +143,6 @@ async (x = (yield) = f) => {}
 ### Printed
 
 ```javascript
-
 async (x = (yield) = f) => {}
 ```
 

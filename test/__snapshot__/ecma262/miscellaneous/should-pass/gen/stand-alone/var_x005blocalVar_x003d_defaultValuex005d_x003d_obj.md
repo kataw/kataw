@@ -122,7 +122,6 @@ var [localVar = defaultValue] = obj
 ### Printed
 
 ```javascript
-
 var [localVar = defaultValue] = obj;
 ```
 

@@ -124,7 +124,6 @@ for ({}.u |= c;;) x;
 ### Printed
 
 ```javascript
-
 for ({}.u |= c; ; ) x;
 ```
 

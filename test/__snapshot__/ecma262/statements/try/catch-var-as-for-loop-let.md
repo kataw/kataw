@@ -177,7 +177,6 @@ try {} catch (e) { for (let e;;) {} }
 ### Printed
 
 ```javascript
-
 try {} catch (e) {
   for (let e; ; ) {}
 }

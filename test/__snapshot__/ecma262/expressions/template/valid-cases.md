@@ -931,7 +931,6 @@ tag`${a}\\rb`;
 ### Printed
 
 ```javascript
-
 `a\nb`;
 `a\rb`;
 

@@ -75,7 +75,6 @@ await = x
 ### Printed
 
 ```javascript
-
 await = x;
 ```
 

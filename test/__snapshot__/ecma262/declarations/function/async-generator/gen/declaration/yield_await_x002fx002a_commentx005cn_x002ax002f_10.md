@@ -150,7 +150,6 @@ async function * gen() {yield await /* comment\n */ 10}
 ### Printed
 
 ```javascript
-
 async function * gen() {
   yield await 10;
 }

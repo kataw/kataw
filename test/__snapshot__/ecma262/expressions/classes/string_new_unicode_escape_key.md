@@ -135,7 +135,6 @@ class x { "prot\u{6f}type"(){} }
 ### Printed
 
 ```javascript
-
 class x {
   "\"prot\u{6f}type\""() {}
 }

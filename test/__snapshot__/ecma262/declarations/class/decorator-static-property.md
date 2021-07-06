@@ -142,7 +142,6 @@ class A {
 ### Printed
 
 ```javascript
-
 class A {
   @ dec static name = 0;
 }

@@ -124,7 +124,6 @@ let foo = (async bar => bar);
 ### Printed
 
 ```javascript
-
 let foo = (async bar => bar);
 ```
 

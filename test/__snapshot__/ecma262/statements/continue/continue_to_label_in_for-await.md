@@ -181,7 +181,6 @@ async function f(){ foo: for await (x of y) continue foo; }
 ### Printed
 
 ```javascript
-
 async function f() {
   foo:  for await (x of y) continue  foo;
 }

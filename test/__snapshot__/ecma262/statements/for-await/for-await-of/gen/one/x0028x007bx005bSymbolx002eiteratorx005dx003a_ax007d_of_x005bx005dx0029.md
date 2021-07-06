@@ -214,7 +214,6 @@ async function f() { for await ({[Symbol.iterator]: a} of []) ; }
 ### Printed
 
 ```javascript
-
 async function f() {
   for await ({ [Symbol.iterator]: a } of []);
 }

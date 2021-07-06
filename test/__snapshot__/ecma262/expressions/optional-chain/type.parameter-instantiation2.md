@@ -383,7 +383,6 @@ a?.a?.a?.a?.<number>(y);
 ### Printed
 
 ```javascript
-
 a?.a?.<number>(y);
 a?.a?.a?.a?.<number>(y);
 

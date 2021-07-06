@@ -206,7 +206,6 @@ async ([{x}: string], y, z: string) =>  {};
 ### Printed
 
 ```javascript
-
 async ([{ x }: string], y, z: string) => {}
 ```
 

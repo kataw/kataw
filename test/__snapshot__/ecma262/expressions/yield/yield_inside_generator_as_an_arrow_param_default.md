@@ -192,7 +192,6 @@ function *f(){ ({x} = yield) => {} }
 ### Printed
 
 ```javascript
-
 function * f() {
   ({ x } = yield ) => {};
 }

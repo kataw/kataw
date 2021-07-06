@@ -159,7 +159,6 @@ function *g() { yield {...(x),}}
 ### Printed
 
 ```javascript
-
 function * g() {
   yield { ...(x) };
 }

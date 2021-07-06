@@ -143,7 +143,6 @@ async (x = (enum) = f) => {}
 ### Printed
 
 ```javascript
-
 async (x = (enum) = f) => {}
 ```
 

@@ -197,7 +197,6 @@ function x(y: | /* comment 1 */ z):
 ### Printed
 
 ```javascript
-
 function x(y: | z): | () =>  number {}
 ```
 

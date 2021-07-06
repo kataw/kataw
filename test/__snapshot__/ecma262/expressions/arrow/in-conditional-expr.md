@@ -701,7 +701,6 @@ x ? ( (a, {}) => {} ) : baz;
 ### Printed
 
 ```javascript
-
 x ? ((x, y) => (u, v) => x * u + y * v) : baz;
 x ? ((a, b) => 0, (c, d) => 1) : baz;
 

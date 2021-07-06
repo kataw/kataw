@@ -106,7 +106,6 @@ new async a => {}
 ### Printed
 
 ```javascript
-
 new async a => {};
 ```
 

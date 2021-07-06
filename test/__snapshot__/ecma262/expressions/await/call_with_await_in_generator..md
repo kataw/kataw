@@ -131,7 +131,6 @@ function *f(){  foo(await)  }
 ### Printed
 
 ```javascript
-
 function * f() {
   foo(await);
 }

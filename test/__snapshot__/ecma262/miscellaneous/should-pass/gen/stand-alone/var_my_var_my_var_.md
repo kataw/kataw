@@ -94,7 +94,6 @@ var my_var; my_var;
 ### Printed
 
 ```javascript
-
 var my_var;
 my_var;
 

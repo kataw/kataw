@@ -94,7 +94,6 @@ var foo: null;
 ### Printed
 
 ```javascript
-
 var foo: null;
 ```
 

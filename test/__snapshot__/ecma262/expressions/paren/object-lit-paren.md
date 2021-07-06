@@ -4471,7 +4471,6 @@
 ### Printed
 
 ```javascript
-
 ({ x: y } = z = {});
 ({ x: foo()[y] } = z = {});
 

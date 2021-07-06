@@ -200,7 +200,6 @@ async function f(){
 ### Printed
 
 ```javascript
-
 async function f() {
   for await ({ x = y } = x of x);
 }

@@ -148,7 +148,6 @@ class x {static * debugger(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static * debugger() {}
 }

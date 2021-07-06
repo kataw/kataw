@@ -202,7 +202,6 @@ var x, y, z; ([x,y,z] = {});
 ### Printed
 
 ```javascript
-
 var x, y, z;
 ([x, y, z] = {});
 

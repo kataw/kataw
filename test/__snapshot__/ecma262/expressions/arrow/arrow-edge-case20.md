@@ -348,7 +348,6 @@
 ### Printed
 
 ```javascript
-
 let icecream =
     what == "\"cone\""
       ? p => (!!p ? `here's your ${p} cone` : `just the empty cone for you`)

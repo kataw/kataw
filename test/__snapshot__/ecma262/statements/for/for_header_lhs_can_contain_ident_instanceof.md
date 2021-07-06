@@ -103,7 +103,6 @@ for (a instanceof b;;);
 ### Printed
 
 ```javascript
-
 for (a instanceof b; ; );
 ```
 

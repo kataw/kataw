@@ -304,7 +304,6 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
 ### Printed
 
 ```javascript
-
 function * gen() {
   function not_gen() {
     function f() {

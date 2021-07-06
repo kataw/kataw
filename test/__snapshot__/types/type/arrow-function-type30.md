@@ -198,7 +198,6 @@ type a = (a[][][][][][]) => T;
 ### Printed
 
 ```javascript
-
 type a = (a[][][][][][]) =>  T
 ```
 

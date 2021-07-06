@@ -272,7 +272,6 @@ await / 0 /u
 ### Printed
 
 ```javascript
-
 await 0;
 await +0;
 

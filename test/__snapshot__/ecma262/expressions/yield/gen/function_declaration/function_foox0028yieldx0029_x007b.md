@@ -153,7 +153,6 @@ function not_gen() { function foo(yield) { }}
 ### Printed
 
 ```javascript
-
 function not_gen() {
   function foo(yield) {}
 }

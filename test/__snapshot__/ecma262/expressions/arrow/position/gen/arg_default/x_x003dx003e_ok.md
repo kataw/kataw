@@ -144,7 +144,6 @@ function f(a = x => ok) {}
 ### Printed
 
 ```javascript
-
 function f(a = x => ok) {}
 ```
 

@@ -122,7 +122,6 @@ async async => {}
 ### Printed
 
 ```javascript
-
 async async => {};
 +x;
 

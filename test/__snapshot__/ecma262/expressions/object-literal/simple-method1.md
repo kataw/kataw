@@ -133,7 +133,6 @@ x = {
 ### Printed
 
 ```javascript
-
 x = { method() {} };
 ```
 

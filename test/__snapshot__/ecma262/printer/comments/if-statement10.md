@@ -507,7 +507,6 @@ while (/*1*/x/*2*/) {}
 ### Printed
 
 ```javascript
-
 if (x) {}
 if (x) {}
 

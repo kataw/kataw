@@ -408,7 +408,6 @@ function aPrettyLongFunctionE(aRatherLongParameterName: Array<{
 ### Printed
 
 ```javascript
-
 function aPrettyLongFunctionD(aRatherLongParameterName: MyType
 | null): string[] {}
 function aPrettyLongFunctionE(aRatherLongParameterName: Array<

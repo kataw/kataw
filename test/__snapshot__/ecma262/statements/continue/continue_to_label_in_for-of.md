@@ -115,7 +115,6 @@ foo: for (x of y) continue foo;
 ### Printed
 
 ```javascript
-
 foo:  for (x of y) continue  foo;
 ```
 

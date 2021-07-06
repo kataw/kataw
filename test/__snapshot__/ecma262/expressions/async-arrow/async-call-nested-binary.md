@@ -104,7 +104,6 @@ async < T > (x);
 ### Printed
 
 ```javascript
-
 async  < T > (x);
 ```
 

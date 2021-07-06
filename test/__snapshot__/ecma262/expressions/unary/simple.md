@@ -122,7 +122,6 @@ typeof x;
 ### Printed
 
 ```javascript
-
 !a;
 +b;
 

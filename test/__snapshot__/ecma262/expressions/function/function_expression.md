@@ -805,7 +805,6 @@ new function() {};
 ### Printed
 
 ```javascript
-
 (function () {}).length;
 typeof (function () {});
 

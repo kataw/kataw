@@ -135,7 +135,6 @@ type a = (bj[c])
 ### Printed
 
 ```javascript
-
 type a = (bj[c])
 ```
 

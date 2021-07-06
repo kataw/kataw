@@ -145,7 +145,6 @@ result = [...[x]] = vals;
 ### Printed
 
 ```javascript
-
 result = [...[x]] = vals;
 ```
 

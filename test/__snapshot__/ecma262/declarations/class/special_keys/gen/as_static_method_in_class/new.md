@@ -142,7 +142,6 @@ class x {static new(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static new() {}
 }

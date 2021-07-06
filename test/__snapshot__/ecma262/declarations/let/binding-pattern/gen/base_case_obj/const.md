@@ -102,7 +102,6 @@ const {x} = v
 ### Printed
 
 ```javascript
-
 const { x } = v;
 ```
 

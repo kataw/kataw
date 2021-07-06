@@ -148,7 +148,6 @@ class x {static get implements(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get implements() {}
 }

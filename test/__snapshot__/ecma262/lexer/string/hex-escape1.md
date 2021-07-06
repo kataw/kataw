@@ -243,7 +243,6 @@
 ### Printed
 
 ```javascript
-
 "\"\x00\"";
 "\"\x12\"";
 

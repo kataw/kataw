@@ -142,7 +142,6 @@ class x {static throw(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static throw() {}
 }

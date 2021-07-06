@@ -159,7 +159,6 @@ switch (x) {
 ### Printed
 
 ```javascript
-
 switch (x) {
   default
     async function * f() {}

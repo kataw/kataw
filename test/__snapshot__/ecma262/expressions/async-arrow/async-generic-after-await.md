@@ -205,7 +205,6 @@ async () => {
 ### Printed
 
 ```javascript
-
 async () => {
   await null;
   async <T>() => null;

@@ -69,7 +69,6 @@
 ### Printed
 
 ```javascript
-
 ({ x });
 ```
 

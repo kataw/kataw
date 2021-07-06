@@ -214,7 +214,6 @@ var y : {} = function (x: number): string { return "hi"; };
 ### Printed
 
 ```javascript
-
 var y: {} = function (x: number): string {
     return "\"hi\"";
   };

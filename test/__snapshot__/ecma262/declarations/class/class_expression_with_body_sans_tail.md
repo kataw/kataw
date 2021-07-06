@@ -108,7 +108,6 @@
 ### Printed
 
 ```javascript
-
 (class x {}.foo);
 ```
 

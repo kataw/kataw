@@ -105,7 +105,6 @@ function f(){foo}
 ### Printed
 
 ```javascript
-
 function f() {
   foo;
 }

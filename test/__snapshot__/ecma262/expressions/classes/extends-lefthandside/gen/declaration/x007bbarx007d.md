@@ -118,8 +118,7 @@ class A extends {bar} {}
 ### Printed
 
 ```javascript
-
-class A  extends { bar } {}
+class A extends { bar } {}
 ```
 
 ### Diagnostics

@@ -134,7 +134,6 @@ import {bar as baz} from "foo";
 ### Printed
 
 ```javascript
-
 import { bar as baz } from "\"foo\"";
 ```
 

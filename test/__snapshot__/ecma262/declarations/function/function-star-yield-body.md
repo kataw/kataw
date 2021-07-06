@@ -120,7 +120,6 @@ function* bar() { yield /re/ }
 ### Printed
 
 ```javascript
-
 function * bar() {
   yield /re/;
 }

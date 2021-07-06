@@ -120,7 +120,6 @@ true ? async.waterfall() : null;
 ### Printed
 
 ```javascript
-
 true ? async.waterfall() : null;
 ```
 

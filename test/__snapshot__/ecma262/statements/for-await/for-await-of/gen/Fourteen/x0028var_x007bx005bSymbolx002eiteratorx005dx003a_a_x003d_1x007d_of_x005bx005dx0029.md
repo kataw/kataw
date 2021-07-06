@@ -262,7 +262,6 @@ async function f() { for await
 ### Printed
 
 ```javascript
-
 async function f() {
   for await (var { [Symbol.iterator]: a = 1 } of []) {}
 }

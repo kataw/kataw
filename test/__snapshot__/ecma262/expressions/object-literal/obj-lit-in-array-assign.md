@@ -311,7 +311,6 @@
 ### Printed
 
 ```javascript
-
 [{ x: x = 1, y: y = 2 }, [a = 3, b = 4, c = 5]] = {};
 ```
 

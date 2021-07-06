@@ -268,7 +268,6 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
 ### Printed
 
 ```javascript
-
 var g: { (x: Date): void } = (x) => {
     x * 2;
   };

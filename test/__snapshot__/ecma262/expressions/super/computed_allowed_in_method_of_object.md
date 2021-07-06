@@ -161,7 +161,6 @@ x={ foo(){ super[foo]; }}
 ### Printed
 
 ```javascript
-
 x = { foo() {
     super[foo];
   } };

@@ -351,7 +351,6 @@ class A {
 ### Printed
 
 ```javascript
-
 class A {
   static #method() {}
   run() {

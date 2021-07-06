@@ -236,7 +236,6 @@ async function f() { for await ({0: a = 1} = 1 of []) ; }
 ### Printed
 
 ```javascript
-
 async function f() {
   for await ({ 0: a = 1 } = 1 of []);
 }

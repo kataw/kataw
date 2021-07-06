@@ -82,7 +82,6 @@ for (eval in x) ;
 ### Printed
 
 ```javascript
-
 for (eval in x);
 ```
 

@@ -243,7 +243,6 @@ var A = class B {
 ### Printed
 
 ```javascript
-
 var A = class B {
     method() {}
     static method() {}

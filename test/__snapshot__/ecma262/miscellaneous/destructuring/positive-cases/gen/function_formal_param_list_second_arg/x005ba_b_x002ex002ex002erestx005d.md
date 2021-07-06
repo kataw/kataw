@@ -160,7 +160,6 @@ function f(argument1, [a,b,...rest]) {}
 ### Printed
 
 ```javascript
-
 function f(argument1, [a, b, ...rest]) {}
 ```
 

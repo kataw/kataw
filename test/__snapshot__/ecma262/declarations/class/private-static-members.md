@@ -538,7 +538,6 @@ class Foo {
 ### Printed
 
 ```javascript
-
 class Foo {
   static #x;
   static get #y() {}

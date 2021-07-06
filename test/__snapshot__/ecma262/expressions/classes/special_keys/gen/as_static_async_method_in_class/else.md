@@ -148,7 +148,6 @@ class x {static async else(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async else() {}
 }

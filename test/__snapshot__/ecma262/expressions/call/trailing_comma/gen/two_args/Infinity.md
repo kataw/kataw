@@ -87,7 +87,6 @@ foo(x,y,);
 ### Printed
 
 ```javascript
-
 foo(x, y);
 ```
 

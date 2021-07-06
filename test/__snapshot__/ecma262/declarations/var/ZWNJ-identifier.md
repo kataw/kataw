@@ -182,7 +182,6 @@ var $\u200C = 3;
 ### Printed
 
 ```javascript
-
 var $ = 1;
 var $\u200D = 2;
 

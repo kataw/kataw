@@ -130,7 +130,6 @@ obj.a &&= b;
 ### Printed
 
 ```javascript
-
 a &&= b;
 obj.a &&= b;
 

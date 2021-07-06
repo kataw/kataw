@@ -116,7 +116,6 @@ b
 ### Printed
 
 ```javascript
-
 function commentedParameters(a, b) {}
 ```
 

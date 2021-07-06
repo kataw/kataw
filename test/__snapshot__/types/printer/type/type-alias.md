@@ -1216,7 +1216,6 @@ type FieldLayoutWith<
 ### Printed
 
 ```javascript
-
 type FieldLayoutWith<T: string, S: unknown= { xxxxxxxx: number, y: string }> = {
   type: T,
   code: string,

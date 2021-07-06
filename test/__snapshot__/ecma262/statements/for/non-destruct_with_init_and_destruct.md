@@ -144,7 +144,6 @@ for (let foo = arr, [bar] = arr2;;);
 ### Printed
 
 ```javascript
-
 for (let foo = arr, [bar] = arr2; ; );
 ```
 

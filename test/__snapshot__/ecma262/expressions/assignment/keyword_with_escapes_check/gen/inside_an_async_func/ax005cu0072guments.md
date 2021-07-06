@@ -124,7 +124,6 @@ async () => {  a\u0072guments = x  }
 ### Printed
 
 ```javascript
-
 async () => {
   a\u0072guments = x;
 }

@@ -382,7 +382,6 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
 ### Printed
 
 ```javascript
-
 function * gen() {
   function not_gen() {
     let foo = function * () {

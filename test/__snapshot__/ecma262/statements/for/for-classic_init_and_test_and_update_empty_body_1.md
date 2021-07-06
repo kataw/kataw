@@ -96,7 +96,6 @@ for (a;b;c);
 ### Printed
 
 ```javascript
-
 for (a; c; b);
 ```
 

@@ -162,7 +162,6 @@ foo({bar(){ new.target }})
 ### Printed
 
 ```javascript
-
 foo({ bar() {
     new.target;
   } });

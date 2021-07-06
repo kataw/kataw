@@ -14149,7 +14149,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
 ### Printed
 
 ```javascript
-
 function logical1a(): number {
   var x = false;
   return x && "'123'";

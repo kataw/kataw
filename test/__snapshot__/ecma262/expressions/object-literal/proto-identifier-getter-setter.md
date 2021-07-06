@@ -299,7 +299,6 @@
 ### Printed
 
 ```javascript
-
 ({ __proto__: null, get __proto__() {}, set __proto__(x) {} });
 ({ 1: "\"__proto__\"", 1: "\"__proto__\"" });
 

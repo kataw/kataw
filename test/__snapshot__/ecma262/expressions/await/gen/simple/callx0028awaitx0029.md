@@ -78,7 +78,6 @@ call(await)
 ### Printed
 
 ```javascript
-
 call(await);
 ```
 

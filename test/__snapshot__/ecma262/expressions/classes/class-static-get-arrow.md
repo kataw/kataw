@@ -193,8 +193,7 @@
 ### Printed
 
 ```javascript
-
-(class  {
+(class {
     static get [() => null]() {}
   }());
 ```

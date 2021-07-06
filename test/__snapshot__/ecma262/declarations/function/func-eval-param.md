@@ -92,7 +92,6 @@ function c(eval){ }
 ### Printed
 
 ```javascript
-
 function c(eval) {}
 ```
 

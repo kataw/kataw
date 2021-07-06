@@ -96,7 +96,6 @@ async (a, async, c);
 ### Printed
 
 ```javascript
-
 async(a, async, c)
 ```
 

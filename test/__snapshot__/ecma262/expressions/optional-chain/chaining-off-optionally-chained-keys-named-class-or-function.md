@@ -372,7 +372,6 @@ foo?.function?.bar
 ### Printed
 
 ```javascript
-
 foo?.class.bar;
 foo?.function.bar;
 

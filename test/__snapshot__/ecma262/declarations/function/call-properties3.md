@@ -308,7 +308,6 @@ function e(x: { (): string; (x: number): string }): () => number {
 ### Printed
 
 ```javascript
-
 function e(x: { (): string, (x: number): string }): () =>  number {
   return x;
 }

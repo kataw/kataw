@@ -3772,7 +3772,6 @@ for (;;) {}});
 ### Printed
 
 ```javascript
-
 (function * gen() {
     yield 2;
   })(function * gen() {
@@ -3874,19 +3873,19 @@ for (;;) {}});
   });
 
 (function * gen() {
-    x = class   extends (yield ) {};
+    x = class extends (yield ) {};
   });
 
 (function * gen() {
-    x = class   extends f(yield ) {};
+    x = class extends f(yield ) {};
   });
 
 (function * gen() {
-    x = class   extends (null, yield ) {};
+    x = class extends (null, yield ) {};
   });
 
 (function * gen() {
-    x = class   extends (a ? null : yield ) {};
+    x = class extends (a ? null : yield ) {};
   });
 
 ```

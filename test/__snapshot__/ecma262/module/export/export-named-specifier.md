@@ -88,8 +88,7 @@ export {foo};
 ### Printed
 
 ```javascript
-
-export { foo  }
+export { foo  };
 ```
 
 ### Diagnostics

@@ -200,7 +200,6 @@
 ### Printed
 
 ```javascript
-
 ([{ x }: string], y, z: string) => {};
 ```
 

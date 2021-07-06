@@ -136,7 +136,6 @@ class x {try(){}}
 ### Printed
 
 ```javascript
-
 class x {
   try() {}
 }

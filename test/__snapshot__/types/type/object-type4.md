@@ -151,7 +151,6 @@ type a = {x:y.z};
 ### Printed
 
 ```javascript
-
 type a = { x: y.z }
 ```
 

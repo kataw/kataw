@@ -114,7 +114,6 @@ for(delete(x in y);;)x
 ### Printed
 
 ```javascript
-
 for (delete (x in y); ; ) x;
 ```
 

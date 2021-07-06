@@ -196,7 +196,6 @@
 ### Printed
 
 ```javascript
-
 ({ async * gen() {
       yield * 1;
       return 37;

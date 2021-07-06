@@ -238,7 +238,6 @@ new (factory())(factory())
 ### Printed
 
 ```javascript
-
 new (factory())();
 new factory()();
 

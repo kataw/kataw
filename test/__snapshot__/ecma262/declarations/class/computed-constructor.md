@@ -1377,7 +1377,6 @@
 ### Printed
 
 ```javascript
-
 class one {
   ["'constructor'"] = 0;
 }

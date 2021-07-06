@@ -164,7 +164,6 @@ async (x = delete ((foo) = f)) => {}
 ### Printed
 
 ```javascript
-
 async (x = delete ((foo) = f)) => {}
 ```
 

@@ -173,7 +173,6 @@
 ### Printed
 
 ```javascript
-
 ([target()[targetKey(a = b)]] = x);
 ```
 

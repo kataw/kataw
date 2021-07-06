@@ -128,7 +128,6 @@
 ### Printed
 
 ```javascript
-
 +x.def + +y.x;
 ```
 

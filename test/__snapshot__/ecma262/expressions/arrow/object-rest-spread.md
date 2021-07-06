@@ -167,7 +167,6 @@ var foo = ( { title, ...other } ) => {
 ### Printed
 
 ```javascript
-
 var foo = ({ title, ...other }) => {};
 ```
 

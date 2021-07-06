@@ -813,7 +813,6 @@ function baz(x: boolean) {
 ### Printed
 
 ```javascript
-
 function foo(x: boolean) {
   var obj = { a: 1, b: 2 };
   for (var prop in obj) {

@@ -138,7 +138,6 @@ a = {...b.c} = d;
 ### Printed
 
 ```javascript
-
 a = { ...b.c } = d;
 ```
 

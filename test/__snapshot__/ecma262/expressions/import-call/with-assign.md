@@ -84,7 +84,6 @@ import(source = "foo.js")
 ### Printed
 
 ```javascript
-
 import(source = "\"foo.js\"");
 ```
 

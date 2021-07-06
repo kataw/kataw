@@ -224,8 +224,7 @@ declare class A<T> extends B<T> { x: number }
 ### Printed
 
 ```javascript
-
-declare class A<T>  extends B<T> { x: number }
+declare class A <T>extends B<T> { x: number }
 ```
 
 ### Diagnostics

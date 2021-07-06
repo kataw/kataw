@@ -139,7 +139,6 @@ wrap({*async(){}});
 ### Printed
 
 ```javascript
-
 wrap({ * async() {} });
 ```
 

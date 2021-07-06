@@ -1338,7 +1338,6 @@ type D32 = {p?: number};
 ### Printed
 
 ```javascript
-
 type D = { [string]: number }
 type E = { foo: number, ...D }
 

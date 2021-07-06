@@ -158,7 +158,6 @@ class x {static set switch(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   static set switch(x) {}
 }

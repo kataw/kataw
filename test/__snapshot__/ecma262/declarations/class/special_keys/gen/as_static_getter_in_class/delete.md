@@ -148,7 +148,6 @@ class x {static get delete(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get delete() {}
 }

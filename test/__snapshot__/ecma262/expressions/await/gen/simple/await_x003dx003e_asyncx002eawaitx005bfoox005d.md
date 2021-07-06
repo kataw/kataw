@@ -110,7 +110,6 @@ await => async.await[foo]
 ### Printed
 
 ```javascript
-
 await => async.await[foo];
 ```
 

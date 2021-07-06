@@ -96,7 +96,6 @@ async => ok, a
 ### Printed
 
 ```javascript
-
 async => ok, a;
 ```
 

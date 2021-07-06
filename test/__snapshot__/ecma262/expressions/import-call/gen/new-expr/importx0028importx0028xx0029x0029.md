@@ -80,7 +80,6 @@ import(import(x))
 ### Printed
 
 ```javascript
-
 import(import(x));
 ```
 

@@ -176,7 +176,6 @@ function *f() {
 ### Printed
 
 ```javascript
-
 function * f() {
   yield a instanceof b + c;
 }

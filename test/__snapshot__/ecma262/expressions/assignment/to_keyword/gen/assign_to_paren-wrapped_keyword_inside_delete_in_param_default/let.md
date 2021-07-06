@@ -164,7 +164,6 @@ async (x = delete ((let) = f)) => {}
 ### Printed
 
 ```javascript
-
 async (x = delete ((let) = f)) => {}
 ```
 

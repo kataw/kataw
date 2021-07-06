@@ -86,7 +86,6 @@ var obj = { /*comment*/ };
 ### Printed
 
 ```javascript
-
 var obj = {};
 ```
 

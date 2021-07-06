@@ -86,7 +86,6 @@ declare class A {}
 ### Printed
 
 ```javascript
-
 declare class A {}
 ```
 

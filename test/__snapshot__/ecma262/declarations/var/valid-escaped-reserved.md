@@ -283,7 +283,6 @@ var int\u0065rface = 1;
 ### Printed
 
 ```javascript
-
 var impl\u0065ments = 1;
 var { impl\u0065ments } = {};
 

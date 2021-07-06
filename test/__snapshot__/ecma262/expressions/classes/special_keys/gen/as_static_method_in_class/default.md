@@ -142,7 +142,6 @@ class x {static default(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static default() {}
 }

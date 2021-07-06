@@ -127,7 +127,6 @@ o.attr = function() {};
 ### Printed
 
 ```javascript
-
 o.attr = function () {};
 ```
 

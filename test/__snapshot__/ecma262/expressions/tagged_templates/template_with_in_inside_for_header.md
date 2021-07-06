@@ -127,7 +127,6 @@ for(t`${x in y}`;;);
 ### Printed
 
 ```javascript
-
 for (t`${x in y}`; ; );
 ```
 

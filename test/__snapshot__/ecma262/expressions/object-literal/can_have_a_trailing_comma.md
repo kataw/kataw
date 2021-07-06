@@ -99,7 +99,6 @@ x = {...a,}
 ### Printed
 
 ```javascript
-
 x = { ...a };
 ```
 

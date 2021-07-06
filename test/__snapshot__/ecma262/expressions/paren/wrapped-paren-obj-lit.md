@@ -828,7 +828,6 @@
 ### Printed
 
 ```javascript
-
 (((((({ x: foo().x, y: foo().y } = { x: 201, y: 301 }))))));
 (
   ((((({ x: foo().x, y: foo().y } = { x: 201, y: 301 }))))),

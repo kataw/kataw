@@ -128,7 +128,6 @@ x, {foo = y, bar} = doo
 ### Printed
 
 ```javascript
-
 x, { foo = y, bar } = doo;
 ```
 

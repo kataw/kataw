@@ -248,7 +248,6 @@ var x, y, z; for (x in { x, y, z } = z = {});
 ### Printed
 
 ```javascript
-
 var x, y, z;
 for (x in { x, y, z } = z = {});
 

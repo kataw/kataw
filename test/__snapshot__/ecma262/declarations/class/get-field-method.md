@@ -159,7 +159,6 @@ class C { get; #aaa(){} }
 ### Printed
 
 ```javascript
-
 class C {
   get;;
   #aaa() {}

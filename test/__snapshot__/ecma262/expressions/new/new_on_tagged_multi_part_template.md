@@ -121,7 +121,6 @@ new Foo`a${b}c${c}e`
 ### Printed
 
 ```javascript
-
 new Foo`a${b},
 c${c}e`;
 ```

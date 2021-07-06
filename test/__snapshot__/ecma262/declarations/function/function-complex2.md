@@ -1183,7 +1183,6 @@ function d<X: [number, number]>(x: X): X {
 ### Printed
 
 ```javascript
-
 function a<X: $ReadOnlyArray<number>>(x: X): X {
   return [...x];
 }

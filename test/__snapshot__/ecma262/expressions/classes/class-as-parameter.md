@@ -466,7 +466,6 @@ class A {
 ### Printed
 
 ```javascript
-
 var C;
 function decorator(el) {
   return Object.assign(el, { finisher(Class) {

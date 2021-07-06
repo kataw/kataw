@@ -130,7 +130,6 @@ export { x }
 ### Printed
 
 ```javascript
-
 let x;
 export { x  };
 

@@ -61,7 +61,6 @@ for (;;) break
 ### Printed
 
 ```javascript
-
 for (;;)
   break ;
 ```

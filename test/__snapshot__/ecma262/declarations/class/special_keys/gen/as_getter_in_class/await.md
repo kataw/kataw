@@ -142,7 +142,6 @@ class x {get await(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get await() {}
 }

@@ -236,7 +236,6 @@ type a = ({set y(y): string}) => T;
 ### Printed
 
 ```javascript
-
 type a = ({ y(y): string }) =>  T
 ```
 

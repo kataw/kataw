@@ -168,7 +168,6 @@ x({[a]:b, [15]:d}=obj);
 ### Printed
 
 ```javascript
-
 x({ [a]: b, [15]: d } = obj);
 ```
 

@@ -148,7 +148,6 @@ class x {static * set(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static * set() {}
 }

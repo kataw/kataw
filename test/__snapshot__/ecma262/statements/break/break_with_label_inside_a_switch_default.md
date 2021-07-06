@@ -130,7 +130,6 @@ foo: switch (x) { default: break foo; }
 ### Printed
 
 ```javascript
-
 foo:  switch (x) {
   default
     break  foo;

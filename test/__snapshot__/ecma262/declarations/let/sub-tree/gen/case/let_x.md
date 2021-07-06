@@ -141,7 +141,6 @@ switch (a) { case b: let x }
 ### Printed
 
 ```javascript
-
 switch (a) {
   case b:
     let x;

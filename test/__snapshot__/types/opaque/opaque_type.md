@@ -104,7 +104,6 @@ opaque type ID = number;
 ### Printed
 
 ```javascript
-
 opaque type ID = number;
 ```
 

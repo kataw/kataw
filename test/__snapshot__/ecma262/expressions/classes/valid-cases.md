@@ -909,27 +909,26 @@ x = class {y = 1; 'z' = 2}
 ### Printed
 
 ```javascript
-
-x = class  {
+x = class {
   y = 1;;
   "'z'" = 2;
 };
-x = class  {
+x = class {
   y() {};
   "'z'"() {}
 };
 
-x = class  {
+x = class {
   get y() {};
   set "'z'"(z) {}
 };
 
-x = class  {
+x = class {
   get y() {};
   set "'z'"(z) {}
 };
 
-x = class  {
+x = class {
   y = 1;;
   "'z'" = 2;
 };

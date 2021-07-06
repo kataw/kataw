@@ -212,7 +212,6 @@ fn = ({text = "default", ...props}) => text + props.children
 ### Printed
 
 ```javascript
-
 fn = ({ text = "\"default\"", ...props }) => text + props.children;
 ```
 

@@ -147,7 +147,6 @@ function a({x = 10}) {}
 ### Printed
 
 ```javascript
-
 function a({ x = 10 }) {}
 ```
 

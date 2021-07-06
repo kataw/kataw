@@ -126,7 +126,6 @@ function one(this: number) {}
 ### Printed
 
 ```javascript
-
 function one(this: number) {}
 ```
 

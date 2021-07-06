@@ -103,7 +103,6 @@ foo(async () => foo)
 ### Printed
 
 ```javascript
-
 foo(async () => foo);
 ```
 

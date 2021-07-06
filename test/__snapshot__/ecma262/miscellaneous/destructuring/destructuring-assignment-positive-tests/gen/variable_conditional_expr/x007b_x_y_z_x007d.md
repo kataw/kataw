@@ -277,7 +277,6 @@ var x, y, z; m(['b']) ? lhs : { x, y, z } = {}
 ### Printed
 
 ```javascript
-
 var x, y, z;
 m(["'b'"]) ? lhs : { x, y, z } = {};
 

@@ -999,7 +999,6 @@ a = b + /** TODO this is a very very very very long comment that makes it go > 8
 ### Printed
 
 ```javascript
-
 a = b || c;
 a = b || c;
 

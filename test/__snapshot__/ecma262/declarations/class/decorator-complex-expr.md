@@ -254,7 +254,6 @@ class A {
 ### Printed
 
 ```javascript
-
 class A {
   @ a.b.c.d(e, f) m() {}
 }

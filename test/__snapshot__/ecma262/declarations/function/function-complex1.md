@@ -1325,7 +1325,6 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
 ### Printed
 
 ```javascript
-
 function w<A: [number, number]>(x: A, f: (number, ...A) =>  void) {
   f(...x);
   f(42, 42, 42);

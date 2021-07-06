@@ -64,7 +64,6 @@
 ### Printed
 
 ```javascript
-
 {}
 {}
 

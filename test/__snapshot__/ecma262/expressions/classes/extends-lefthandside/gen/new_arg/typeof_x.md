@@ -81,7 +81,6 @@ new typeof x
 ### Printed
 
 ```javascript
-
 new typeof x;
 ```
 

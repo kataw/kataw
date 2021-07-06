@@ -124,7 +124,6 @@ async () => {  publ\u0069c = x  }
 ### Printed
 
 ```javascript
-
 async () => {
   publ\u0069c = x;
 }

@@ -148,7 +148,6 @@ class x {static get default(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get default() {}
 }

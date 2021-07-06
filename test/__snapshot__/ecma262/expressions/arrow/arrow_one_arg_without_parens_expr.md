@@ -71,7 +71,6 @@ x=>x;
 ### Printed
 
 ```javascript
-
 x => x;
 ```
 

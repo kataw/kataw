@@ -136,7 +136,6 @@ do h(function(){});while(x)
 ### Printed
 
 ```javascript
-
 do  h(function () {});
 while (x);
 ```

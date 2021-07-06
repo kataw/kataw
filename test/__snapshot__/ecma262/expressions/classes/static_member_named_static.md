@@ -82,7 +82,6 @@ class x{   static static(){}    }
 ### Printed
 
 ```javascript
-
 [, , x];
 ```
 

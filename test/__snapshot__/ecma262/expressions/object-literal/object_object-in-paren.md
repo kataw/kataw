@@ -110,7 +110,6 @@
 ### Printed
 
 ```javascript
-
 ({ ...{ a, b } });
 ```
 

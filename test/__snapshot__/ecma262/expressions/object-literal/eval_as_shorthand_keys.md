@@ -85,7 +85,6 @@ x = {eval}
 ### Printed
 
 ```javascript
-
 x = { eval };
 ```
 

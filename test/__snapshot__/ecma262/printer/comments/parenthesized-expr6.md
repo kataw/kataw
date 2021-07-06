@@ -94,7 +94,6 @@ c/*6*/)
 ### Printed
 
 ```javascript
-
 (a, b, c);
 ```
 

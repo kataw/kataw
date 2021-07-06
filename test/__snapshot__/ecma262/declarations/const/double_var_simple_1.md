@@ -123,7 +123,6 @@ const {x, y} = obj;
 ### Printed
 
 ```javascript
-
 const { x, y } = obj;
 ```
 

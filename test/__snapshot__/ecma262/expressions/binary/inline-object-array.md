@@ -2580,7 +2580,6 @@ const obj = {
 ### Printed
 
 ```javascript
-
 prevState =
 
     prevState ||

@@ -92,8 +92,7 @@ export * from x
 ### Printed
 
 ```javascript
-
-export *  from x;
+export *  from x;;
 ```
 
 ### Diagnostics

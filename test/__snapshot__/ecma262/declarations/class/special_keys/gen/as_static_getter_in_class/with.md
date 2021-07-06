@@ -148,7 +148,6 @@ class x {static get with(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get with() {}
 }

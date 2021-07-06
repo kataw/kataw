@@ -135,7 +135,6 @@ for ({}[y] ^= x;;) x;
 ### Printed
 
 ```javascript
-
 for ({}[y] ^= x; ; ) x;
 ```
 

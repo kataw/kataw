@@ -391,7 +391,6 @@ for ({}[y] ^= x;;) x;
 ### Printed
 
 ```javascript
-
 for ([].w ^= s; ; ) x;
 for ([][y] <<= p; ; ) x;
 

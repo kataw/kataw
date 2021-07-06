@@ -98,7 +98,6 @@ async function f() { "use strict"; }
 ### Printed
 
 ```javascript
-
 async function f() {}
 ```
 

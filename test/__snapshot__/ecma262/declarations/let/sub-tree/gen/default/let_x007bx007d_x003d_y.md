@@ -149,7 +149,6 @@ switch (a) { default: let
 ### Printed
 
 ```javascript
-
 switch (a) {
   default
     let {} = y;

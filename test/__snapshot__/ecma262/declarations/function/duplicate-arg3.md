@@ -118,7 +118,6 @@ function f(a, [a]) {}
 ### Printed
 
 ```javascript
-
 function f(a, [a]) {}
 ```
 

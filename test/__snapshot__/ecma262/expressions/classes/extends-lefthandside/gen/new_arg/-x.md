@@ -81,7 +81,6 @@ new -x
 ### Printed
 
 ```javascript
-
 new -x;
 ```
 

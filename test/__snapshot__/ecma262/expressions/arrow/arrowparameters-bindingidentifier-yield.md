@@ -106,7 +106,6 @@ var af = yield => 1;
 ### Printed
 
 ```javascript
-
 var af = yield => 1;
 ```
 

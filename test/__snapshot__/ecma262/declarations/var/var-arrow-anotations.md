@@ -2819,7 +2819,6 @@ class Array { concat(items:number | string) {}; }
 ### Printed
 
 ```javascript
-
 var a: number[];
 var a: Map<string, Array<string>>;
 

@@ -98,7 +98,6 @@ x + + y.x
 ### Printed
 
 ```javascript
-
 x + +y.x;
 ```
 

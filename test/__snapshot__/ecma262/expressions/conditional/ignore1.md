@@ -95,7 +95,6 @@ a
 ### Printed
 
 ```javascript
-
 // kataw-ignore
 a
 ?  b

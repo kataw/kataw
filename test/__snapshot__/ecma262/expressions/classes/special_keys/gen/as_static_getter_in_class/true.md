@@ -148,7 +148,6 @@ class x {static get true(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get true() {}
 }

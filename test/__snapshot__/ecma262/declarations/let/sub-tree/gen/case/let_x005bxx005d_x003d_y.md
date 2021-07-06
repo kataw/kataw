@@ -166,7 +166,6 @@ switch (a) { case b: let [x] = y }
 ### Printed
 
 ```javascript
-
 switch (a) {
   case b:
     let [x] = y;

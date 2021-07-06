@@ -106,7 +106,6 @@ x = 1;
 ### Printed
 
 ```javascript
-
 while (false) let;
 x = 1;
 

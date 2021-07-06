@@ -113,7 +113,6 @@ async (a, ...b) => a;
 ### Printed
 
 ```javascript
-
 async (a, ...b) => a
 ```
 

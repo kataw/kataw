@@ -114,7 +114,6 @@ new async function *(){}
 ### Printed
 
 ```javascript
-
 new async function * () {};
 ```
 

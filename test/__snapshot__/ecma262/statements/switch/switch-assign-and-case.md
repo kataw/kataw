@@ -149,7 +149,6 @@ switch([x = y]) { case y: foo }
 ### Printed
 
 ```javascript
-
 switch ([x = y]) {
   case y:
     foo;

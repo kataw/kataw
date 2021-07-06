@@ -164,7 +164,6 @@ async (x = delete ((enum) = f)) => {}
 ### Printed
 
 ```javascript
-
 async (x = delete ((enum) = f)) => {}
 ```
 

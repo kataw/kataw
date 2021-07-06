@@ -68,7 +68,6 @@ await = 16
 ### Printed
 
 ```javascript
-
 await = 16;
 ```
 

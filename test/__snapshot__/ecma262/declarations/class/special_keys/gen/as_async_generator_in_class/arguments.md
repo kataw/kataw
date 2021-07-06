@@ -148,7 +148,6 @@ class x {async * arguments(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async * arguments() {}
 }

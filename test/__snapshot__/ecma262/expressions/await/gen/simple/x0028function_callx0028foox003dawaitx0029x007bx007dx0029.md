@@ -131,7 +131,6 @@
 ### Printed
 
 ```javascript
-
 (function call(foo = await) {});
 ```
 

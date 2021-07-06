@@ -261,7 +261,6 @@ type x = [-1n, 0n, 1n];
 ### Printed
 
 ```javascript
-
 type x = [-1, 0, 1]
 type x = [-1n, 0n, 1n]
 

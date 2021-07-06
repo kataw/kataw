@@ -164,7 +164,6 @@ class A {set "foo"(x){}}
 ### Printed
 
 ```javascript
-
 class A {
   set "\"foo\""(x) {}
 }

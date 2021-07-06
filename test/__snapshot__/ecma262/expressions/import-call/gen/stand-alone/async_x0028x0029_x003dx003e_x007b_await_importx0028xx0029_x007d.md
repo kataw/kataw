@@ -129,7 +129,6 @@ async () => { await import(x) }
 ### Printed
 
 ```javascript
-
 async () => {
   await import(x);
 }

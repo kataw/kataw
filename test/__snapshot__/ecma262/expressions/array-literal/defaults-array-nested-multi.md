@@ -160,7 +160,6 @@ var [x = 10, [ z ]] = a;
 ### Printed
 
 ```javascript
-
 var [x = 10, [z]] = a;
 ```
 

@@ -146,7 +146,6 @@ f(((a, b) => a + b));
 ### Printed
 
 ```javascript
-
 f(((a, b) => a + b));
 ```
 

@@ -208,7 +208,6 @@ expect(() => {}).toTriggerReadyStateChanges([
 ### Printed
 
 ```javascript
-
 expect(() => {}).toTriggerReadyStateChanges([]);
 [1, 2, 3];
 

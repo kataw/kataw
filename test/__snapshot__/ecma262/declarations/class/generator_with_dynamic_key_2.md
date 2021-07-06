@@ -167,7 +167,6 @@ class x {static *[y](){}}
 ### Printed
 
 ```javascript
-
 class x {
   static * [y]() {}
 }

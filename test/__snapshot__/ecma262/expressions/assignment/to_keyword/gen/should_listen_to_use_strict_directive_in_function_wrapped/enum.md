@@ -149,8 +149,9 @@ function f() {
 ### Printed
 
 ```javascript
-
 function f() {
+
+  "\"use strict\"";
   (enum = x);
 }
 ```

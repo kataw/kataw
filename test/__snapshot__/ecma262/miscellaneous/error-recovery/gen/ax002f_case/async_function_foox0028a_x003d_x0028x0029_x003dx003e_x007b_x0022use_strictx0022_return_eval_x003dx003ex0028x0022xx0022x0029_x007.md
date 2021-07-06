@@ -224,8 +224,9 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
 ### Printed
 
 ```javascript
-
 async function foo(a = () => {
+
+  "\"use strict\"";
   return eval => ("\"x\"");
 }) {}
 ```

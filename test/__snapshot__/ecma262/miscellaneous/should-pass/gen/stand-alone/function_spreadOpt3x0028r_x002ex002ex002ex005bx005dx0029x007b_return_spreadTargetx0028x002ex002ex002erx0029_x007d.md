@@ -196,7 +196,6 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
 ### Printed
 
 ```javascript
-
 function spreadOpt3(r, ...[]) {
   return spreadTarget(...r);
 }

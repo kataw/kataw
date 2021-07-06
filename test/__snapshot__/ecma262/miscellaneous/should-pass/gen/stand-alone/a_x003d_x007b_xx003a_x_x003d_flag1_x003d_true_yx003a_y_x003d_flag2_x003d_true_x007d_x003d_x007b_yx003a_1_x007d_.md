@@ -280,7 +280,6 @@ a = { x: x = flag1 = true, y: y = flag2 = true } = { y: 1 };
 ### Printed
 
 ```javascript
-
 a = { x: x = flag1 = true, y: y = flag2 = true } = { y: 1 };
 ```
 

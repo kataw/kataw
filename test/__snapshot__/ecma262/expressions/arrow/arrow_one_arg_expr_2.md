@@ -90,7 +90,6 @@
 ### Printed
 
 ```javascript
-
 (x, y) => x;
 ```
 

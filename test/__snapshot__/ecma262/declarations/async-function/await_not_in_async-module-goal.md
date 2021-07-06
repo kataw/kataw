@@ -186,7 +186,6 @@ f(await 1);
 ### Printed
 
 ```javascript
-
 async function f(x) {
   return x;
 }

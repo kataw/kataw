@@ -529,7 +529,6 @@ async function foo3(): Promise<string> {
 ### Printed
 
 ```javascript
-
 async function foo1(): Promise<string> {
   return;
 }

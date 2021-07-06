@@ -93,7 +93,6 @@ do x, y; while (z)
 ### Printed
 
 ```javascript
-
 do  x, y;
 while (z);
 ```

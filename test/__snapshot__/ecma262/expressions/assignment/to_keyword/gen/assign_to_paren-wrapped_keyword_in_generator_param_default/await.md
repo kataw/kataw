@@ -154,7 +154,6 @@ function *f(x = (await) = f) {}
 ### Printed
 
 ```javascript
-
 function * f(x = (await) = f) {}
 ```
 

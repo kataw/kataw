@@ -152,7 +152,6 @@ class x {set delete(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set delete(x) {}
 }

@@ -179,7 +179,6 @@ var { __proto__: x, __proto__: y, ...z} = {};
 ### Printed
 
 ```javascript
-
 var { __proto__: x, __proto__: y, ...z } = {};
 ```
 

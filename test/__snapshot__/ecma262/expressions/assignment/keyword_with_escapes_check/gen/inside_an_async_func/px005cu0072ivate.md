@@ -124,7 +124,6 @@ async () => {  p\u0072ivate = x  }
 ### Printed
 
 ```javascript
-
 async () => {
   p\u0072ivate = x;
 }

@@ -88,7 +88,6 @@ function *await(){}
 ### Printed
 
 ```javascript
-
 function * await() {}
 ```
 

@@ -211,7 +211,6 @@ var b: { (x: number): number } = (x) => "hi"
 ### Printed
 
 ```javascript
-
 var b: { (x: number): number } = (x) => "\"hi\"";
 ```
 

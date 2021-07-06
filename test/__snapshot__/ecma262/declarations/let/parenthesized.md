@@ -103,7 +103,6 @@ type T = ({});
 ### Printed
 
 ```javascript
-
 type T = ({})
 ```
 

@@ -286,7 +286,6 @@ try {} catch (x) { { var x } }
 ### Printed
 
 ```javascript
-
 try {} catch (x) {
   {
     let x;

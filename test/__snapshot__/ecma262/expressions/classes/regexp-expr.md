@@ -99,8 +99,7 @@ typeof class{}
 ### Printed
 
 ```javascript
-
-typeof class  {};
+typeof class {};
 /foo/;
 
 ```

@@ -227,7 +227,6 @@ async function f() {
 ### Printed
 
 ```javascript
-
 async function f() {
   class x {
     [x](a = await) {}

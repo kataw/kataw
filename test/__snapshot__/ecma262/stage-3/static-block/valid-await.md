@@ -213,7 +213,6 @@ class C {
 ### Printed
 
 ```javascript
-
 class C {
   
 }

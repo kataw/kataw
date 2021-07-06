@@ -152,7 +152,6 @@ class x {set set(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set set(x) {}
 }

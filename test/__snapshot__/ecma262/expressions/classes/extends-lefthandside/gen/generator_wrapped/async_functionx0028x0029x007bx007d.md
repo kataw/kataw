@@ -204,9 +204,8 @@ function *P(){
 ### Printed
 
 ```javascript
-
 function * P() {
-  class D  extends async function () {} {}
+  class D extends async function () {} {}
 }
 ```
 

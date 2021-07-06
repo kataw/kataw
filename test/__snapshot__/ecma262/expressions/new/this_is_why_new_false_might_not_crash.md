@@ -90,7 +90,6 @@ new false.__proto__.constructor
 ### Printed
 
 ```javascript
-
 new false.__proto__.constructor;
 ```
 

@@ -137,7 +137,6 @@
 ### Printed
 
 ```javascript
-
 [a, { b: d }, c] = obj;
 ```
 

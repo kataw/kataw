@@ -259,7 +259,6 @@ async function f() { for await ({[Symbol.iterator]: a = 1} = 1 of []) ; }
 ### Printed
 
 ```javascript
-
 async function f() {
   for await ({ [Symbol.iterator]: a = 1 } = 1 of []);
 }

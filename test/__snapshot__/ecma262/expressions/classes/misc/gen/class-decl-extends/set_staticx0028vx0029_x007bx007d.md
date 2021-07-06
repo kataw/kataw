@@ -175,8 +175,7 @@ class C extends Base { set static(v) {} }
 ### Printed
 
 ```javascript
-
-class C  extends Base {
+class C extends Base {
   set static(v) {}
 }
 ```

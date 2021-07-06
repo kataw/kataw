@@ -123,7 +123,6 @@ switch (true) { default: let x; }
 ### Printed
 
 ```javascript
-
 switch (true) {
   default
     let x;

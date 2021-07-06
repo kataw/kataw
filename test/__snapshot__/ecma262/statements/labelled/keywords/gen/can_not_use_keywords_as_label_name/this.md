@@ -73,7 +73,6 @@ this: x
 ### Printed
 
 ```javascript
-
 this:  x;
 ```
 

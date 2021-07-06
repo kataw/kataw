@@ -1519,7 +1519,6 @@ x({get 0o4567(){}});
 ### Printed
 
 ```javascript
-
 x({ * foo() {}, * bar() {} });
 x({ [foo]() {}, get [bar]() {} });
 

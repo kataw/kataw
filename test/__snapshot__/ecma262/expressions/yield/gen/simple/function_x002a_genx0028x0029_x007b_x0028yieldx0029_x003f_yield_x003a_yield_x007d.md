@@ -182,7 +182,6 @@ function * gen() { (yield) ? yield : yield }
 ### Printed
 
 ```javascript
-
 function * gen() {
   (yield ) ? yield  : yield ;
 }

@@ -1964,7 +1964,6 @@ this.subscriptions.add(
 ### Printed
 
 ```javascript
-
 compose(sortBy(x => x), flatten, map(x => [x, x * 2]));
 somelib.compose(sortBy(x => x), flatten, map(x => [x, x * 2]));
 
@@ -1980,7 +1979,7 @@ this.a.b.c.compose(sortBy(x => x), flatten);
 
 someObj.someMethod(this.field.compose(a, b));
 
-class A  extends B {
+class A extends B {
   compose() {
     super.compose(sortBy(x => x), flatten);
   }

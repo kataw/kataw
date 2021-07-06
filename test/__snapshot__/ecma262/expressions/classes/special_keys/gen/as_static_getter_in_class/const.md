@@ -148,7 +148,6 @@ class x {static get const(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get const() {}
 }

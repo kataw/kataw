@@ -774,7 +774,6 @@ function *infer_stmt() {
 ### Printed
 
 ```javascript
-
 function * stmt_yield(): Generator<number, void, void> {
   yield 0;
   yield "\"\"";

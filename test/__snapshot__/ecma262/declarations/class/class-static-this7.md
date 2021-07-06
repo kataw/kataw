@@ -207,9 +207,8 @@ x = class { static x = class { [this.y] } }
 ### Printed
 
 ```javascript
-
-x = class  {
-  static x = class  {
+x = class {
+  static x = class {
     [this.y];
   };
 };

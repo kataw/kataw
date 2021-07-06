@@ -142,7 +142,6 @@ class x {* implements(){}}
 ### Printed
 
 ```javascript
-
 class x {
   * implements() {}
 }

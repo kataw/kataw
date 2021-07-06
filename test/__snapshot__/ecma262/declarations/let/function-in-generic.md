@@ -168,7 +168,6 @@ let x: Array<() => void>;
 ### Printed
 
 ```javascript
-
 let x: Array<() =>  void>;
 ```
 

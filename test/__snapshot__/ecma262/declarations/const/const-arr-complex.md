@@ -155,7 +155,6 @@ const arr = [0, ...[,,,]];
 ### Printed
 
 ```javascript
-
 const arr = [0, ...[, , ,]];
 ```
 

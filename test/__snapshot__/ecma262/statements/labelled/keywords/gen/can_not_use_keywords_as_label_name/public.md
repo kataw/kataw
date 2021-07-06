@@ -75,7 +75,6 @@ public: x
 ### Printed
 
 ```javascript
-
 public:  x;
 ```
 

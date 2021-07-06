@@ -285,7 +285,6 @@ var b: { (x: number): number } = function (x: number): string { return "hi"; };
 ### Printed
 
 ```javascript
-
 var b: { (x: number): number } = function (x: number): string {
     return "\"hi\"";
   };

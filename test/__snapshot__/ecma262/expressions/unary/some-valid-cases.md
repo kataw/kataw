@@ -884,7 +884,6 @@ typeof (0 ? 1 : x);
 ### Printed
 
 ```javascript
-
 delete (x);
 delete (true && x);
 

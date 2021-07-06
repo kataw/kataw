@@ -84,7 +84,6 @@ new x().y;
 ### Printed
 
 ```javascript
-
 new x().y;
 ```
 

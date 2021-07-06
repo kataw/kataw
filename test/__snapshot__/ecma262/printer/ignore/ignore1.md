@@ -1596,7 +1596,6 @@ const response = {
 ### Printed
 
 ```javascript
-
 function a() {
   var fnString =
 

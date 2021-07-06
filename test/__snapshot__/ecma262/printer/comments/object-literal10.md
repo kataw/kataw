@@ -301,7 +301,6 @@
 ### Printed
 
 ```javascript
-
 ({})({} = c)({ async * x() {} });
 ({ a = c } = c);
 

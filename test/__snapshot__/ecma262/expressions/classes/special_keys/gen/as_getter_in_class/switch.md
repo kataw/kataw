@@ -142,7 +142,6 @@ class x {get switch(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get switch() {}
 }

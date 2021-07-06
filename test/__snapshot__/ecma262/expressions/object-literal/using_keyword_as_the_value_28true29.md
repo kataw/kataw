@@ -100,7 +100,6 @@ s = {s: true}
 ### Printed
 
 ```javascript
-
 s = { s: true };
 ```
 

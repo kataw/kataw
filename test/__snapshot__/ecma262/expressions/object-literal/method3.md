@@ -140,7 +140,6 @@ x = { method(test) { } }
 ### Printed
 
 ```javascript
-
 x = { method(test) {} };
 ```
 

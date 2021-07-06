@@ -158,7 +158,6 @@ class x {static set extends(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   static set extends(x) {}
 }

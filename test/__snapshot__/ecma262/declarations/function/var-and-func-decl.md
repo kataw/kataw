@@ -186,7 +186,6 @@ function f(){ var x = y; function x(){} }
 ### Printed
 
 ```javascript
-
 function f() {
   var x = y;
   function x() {}

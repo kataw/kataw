@@ -148,7 +148,6 @@ class x {static async debugger(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async debugger() {}
 }

@@ -105,7 +105,6 @@ new (a,b) => x
 ### Printed
 
 ```javascript
-
 new (a, b) => x;
 ```
 

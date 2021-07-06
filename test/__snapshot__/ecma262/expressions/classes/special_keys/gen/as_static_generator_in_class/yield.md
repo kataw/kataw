@@ -148,7 +148,6 @@ class x {static * yield(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static * yield() {}
 }

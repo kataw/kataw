@@ -103,7 +103,6 @@
 ### Printed
 
 ```javascript
-
 ({ interface }) => null;
 ```
 

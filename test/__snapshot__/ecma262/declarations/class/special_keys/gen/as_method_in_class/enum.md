@@ -136,7 +136,6 @@ class x {enum(){}}
 ### Printed
 
 ```javascript
-
 class x {
   enum() {}
 }

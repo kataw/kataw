@@ -138,7 +138,6 @@ for (var a=1, b;;);
 ### Printed
 
 ```javascript
-
 for (var a = 1, b; ; );
 ```
 

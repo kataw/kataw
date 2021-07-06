@@ -139,7 +139,6 @@ foo([a, b] = arr);
 ### Printed
 
 ```javascript
-
 foo([a, b] = arr);
 ```
 

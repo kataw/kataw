@@ -114,7 +114,6 @@ async x => (interface) = 1
 ### Printed
 
 ```javascript
-
 async x => (interface) = 1;
 ```
 

@@ -151,7 +151,6 @@ var f = (): string | (number) => 123;
 ### Printed
 
 ```javascript
-
 var f = () => 123;
 ```
 

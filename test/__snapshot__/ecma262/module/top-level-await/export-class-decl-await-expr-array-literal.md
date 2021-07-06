@@ -288,11 +288,10 @@ export class C extends fn(await []) {};
 ### Printed
 
 ```javascript
-
 function fn() {
   return function () {};
 }
-export class C  extends fn(await []) {}
+export class C extends fn(await []) {}
 
 ```
 

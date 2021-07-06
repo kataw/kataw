@@ -147,7 +147,6 @@ let {a, [x]: y} = a;
 ### Printed
 
 ```javascript
-
 let { a, [x]: y } = a;
 ```
 

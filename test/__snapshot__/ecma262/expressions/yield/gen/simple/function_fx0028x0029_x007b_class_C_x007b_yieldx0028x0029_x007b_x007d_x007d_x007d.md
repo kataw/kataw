@@ -190,7 +190,6 @@ function f() { class C { yield() { } } }
 ### Printed
 
 ```javascript
-
 function f() {
   class C {
     yield() {}

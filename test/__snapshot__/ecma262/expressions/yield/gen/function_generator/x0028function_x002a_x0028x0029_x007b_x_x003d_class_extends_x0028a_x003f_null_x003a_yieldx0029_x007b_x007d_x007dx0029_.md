@@ -353,11 +353,10 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
 ### Printed
 
 ```javascript
-
 function * gen() {
   function not_gen() {
     (function * () {
-        x = class   extends (a ? null : yield ) {};
+        x = class extends (a ? null : yield ) {};
       });
   }
 }

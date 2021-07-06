@@ -152,7 +152,6 @@ let {my_var} = {my_var: 3}; my_var;
 ### Printed
 
 ```javascript
-
 let { my_var } = { my_var: 3 };
 my_var;
 

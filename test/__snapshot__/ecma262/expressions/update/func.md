@@ -120,7 +120,6 @@ function f(){ return --a; }
 ### Printed
 
 ```javascript
-
 function f() {
   return -- a;
 }

@@ -88,8 +88,7 @@ export {try};
 ### Printed
 
 ```javascript
-
-export { try  }
+export { try  };
 ```
 
 ### Diagnostics

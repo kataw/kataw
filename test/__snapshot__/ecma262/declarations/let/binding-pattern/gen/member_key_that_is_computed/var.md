@@ -143,7 +143,6 @@ var {[a.b]: c} = v
 ### Printed
 
 ```javascript
-
 var { [a.b]: c } = v;
 ```
 

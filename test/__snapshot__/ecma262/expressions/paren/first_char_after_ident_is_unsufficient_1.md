@@ -131,7 +131,6 @@
 ### Printed
 
 ```javascript
-
 ([foo /= g / m.x]);
 ```
 

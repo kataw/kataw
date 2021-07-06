@@ -3671,7 +3671,6 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
 ### Printed
 
 ```javascript
-
 a ? b : c ? b : d;
 a ? b ? c : d : d;
 

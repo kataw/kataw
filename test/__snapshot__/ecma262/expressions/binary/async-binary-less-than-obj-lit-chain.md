@@ -151,7 +151,6 @@ async <{}>(x) >> y + z
 ### Printed
 
 ```javascript
-
 async  < {} > (x) >> y + z;
 ```
 

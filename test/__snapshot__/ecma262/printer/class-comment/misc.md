@@ -134,7 +134,6 @@ class x {
 ### Printed
 
 ```javascript
-
 class x {
   focus() {}
 }

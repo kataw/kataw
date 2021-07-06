@@ -152,7 +152,6 @@
 ### Printed
 
 ```javascript
-
 ({ * g1() {
       (yield );
     } });

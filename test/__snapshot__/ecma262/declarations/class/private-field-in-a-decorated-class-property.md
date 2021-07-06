@@ -249,7 +249,6 @@ class Example {
 ### Printed
 
 ```javascript
-
 class Example {
   #priv;;
   @ anydecorator method = () => {

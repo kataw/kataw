@@ -136,7 +136,6 @@ class x {true(){}}
 ### Printed
 
 ```javascript
-
 class x {
   true() {}
 }

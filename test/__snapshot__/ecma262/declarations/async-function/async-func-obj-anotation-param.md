@@ -189,7 +189,6 @@ async function foo({x}: { x: string; }) {}
 ### Printed
 
 ```javascript
-
 async function foo({ x }: { x: string }) {}
 ```
 

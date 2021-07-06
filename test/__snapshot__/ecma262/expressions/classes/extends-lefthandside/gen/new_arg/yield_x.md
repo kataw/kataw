@@ -85,7 +85,6 @@ x
 ### Printed
 
 ```javascript
-
 new yield;
 x;
 

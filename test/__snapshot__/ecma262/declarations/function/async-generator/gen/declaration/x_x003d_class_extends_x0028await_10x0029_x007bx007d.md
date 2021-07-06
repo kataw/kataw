@@ -211,9 +211,8 @@ async function * gen() {x = class extends (await 10) {}}
 ### Printed
 
 ```javascript
-
 async function * gen() {
-  x = class   extends (await 10) {};
+  x = class extends (await 10) {};
 }
 ```
 

@@ -105,7 +105,6 @@ var {} = obj;
 ### Printed
 
 ```javascript
-
 var {} = obj;
 ```
 

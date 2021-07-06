@@ -168,7 +168,6 @@ class A {
 ### Printed
 
 ```javascript
-
 class A {
   @ foo get getter() {}
 }

@@ -178,9 +178,8 @@ function *P(){
 ### Printed
 
 ```javascript
-
 function * P() {
-  class D  extends new x {}
+  class D extends new x {}
 }
 ```
 

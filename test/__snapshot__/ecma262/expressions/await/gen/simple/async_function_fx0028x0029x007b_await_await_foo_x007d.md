@@ -140,7 +140,6 @@ async function f(){ await await foo; }
 ### Printed
 
 ```javascript
-
 async function f() {
   await await foo;
 }

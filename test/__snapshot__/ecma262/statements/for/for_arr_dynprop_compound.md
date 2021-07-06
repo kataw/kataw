@@ -124,7 +124,6 @@ for ([][y] <<= p;;) x;
 ### Printed
 
 ```javascript
-
 for ([][y] <<= p; ; ) x;
 ```
 

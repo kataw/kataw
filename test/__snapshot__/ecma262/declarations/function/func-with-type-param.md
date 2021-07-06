@@ -125,7 +125,6 @@ function foo<T>() {}
 ### Printed
 
 ```javascript
-
 function foo<T>() {}
 ```
 

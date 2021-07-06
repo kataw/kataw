@@ -411,11 +411,10 @@ declare function baz (this : number, ...a : any): void
 ### Printed
 
 ```javascript
+declare function foo(this: number, a: string, b): void;
+declare function bar(this: number): void;
 
-declare function foo(this: number, a: string, b): void
-declare function bar(this: number): void
-
-declare function baz(this: number, ...a: any): void
+declare function baz(this: number, ...a: any): void;
 
 ```
 

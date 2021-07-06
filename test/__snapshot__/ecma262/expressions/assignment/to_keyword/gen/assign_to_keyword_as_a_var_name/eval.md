@@ -75,7 +75,6 @@ eval = x
 ### Printed
 
 ```javascript
-
 eval = x;
 ```
 

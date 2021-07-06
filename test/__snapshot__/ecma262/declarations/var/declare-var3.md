@@ -507,7 +507,6 @@ declare var tup: [{foo: string}, {bar: number}];
 ### Printed
 
 ```javascript
-
 declare var arrOfObjs: Array<{ foo: string }>;
 declare var roArrOfObjs: $ReadOnlyArray<{ foo: string }>;
 

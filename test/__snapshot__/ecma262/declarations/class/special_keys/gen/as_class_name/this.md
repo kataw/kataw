@@ -78,7 +78,6 @@ class this {}
 ### Printed
 
 ```javascript
-
 class this {}
 ```
 

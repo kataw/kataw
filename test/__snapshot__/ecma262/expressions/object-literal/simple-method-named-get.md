@@ -140,7 +140,6 @@ x = {
 ### Printed
 
 ```javascript
-
 x = { get() {} };
 ```
 

@@ -236,7 +236,6 @@ type a = (a[b][x][][]) => T;
 ### Printed
 
 ```javascript
-
 type a = (a[b][x][][]) =>  T
 ```
 

@@ -122,7 +122,6 @@ x => ok, x => ok
 ### Printed
 
 ```javascript
-
 x => ok, x => ok;
 ```
 

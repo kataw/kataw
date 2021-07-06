@@ -546,7 +546,6 @@ for (i = 0, len = arr.length; i < len; i++) {
 ### Printed
 
 ```javascript
-
 for ((i = 0), (len = arr.length); i++; i  < len) {
     console.log(arr[i]);
   }

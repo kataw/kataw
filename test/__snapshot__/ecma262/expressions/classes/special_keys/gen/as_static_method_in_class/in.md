@@ -142,7 +142,6 @@ class x {static in(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static in() {}
 }

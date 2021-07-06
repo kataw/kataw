@@ -181,7 +181,6 @@ var {[2]: y = 1} = {2:3}
 ### Printed
 
 ```javascript
-
 var { [2]: y = 1 } = { 2: 3 };
 ```
 

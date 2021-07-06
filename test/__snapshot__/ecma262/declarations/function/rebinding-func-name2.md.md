@@ -154,7 +154,6 @@ x=function f(){ var f }
 ### Printed
 
 ```javascript
-
 x = function f() {
   var f;
 };

@@ -228,10 +228,9 @@ class a { foo(){      class x extends super.foo {}    }}
 ### Printed
 
 ```javascript
-
 class a {
   foo() {
-    class x  extends super.foo {}
+    class x extends super.foo {}
   }
 }
 ```

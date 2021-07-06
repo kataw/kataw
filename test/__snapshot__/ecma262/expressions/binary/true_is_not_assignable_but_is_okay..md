@@ -66,7 +66,6 @@ true ** a
 ### Printed
 
 ```javascript
-
 true ** a;
 ```
 

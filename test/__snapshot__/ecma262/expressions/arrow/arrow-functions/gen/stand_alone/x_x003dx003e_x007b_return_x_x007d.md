@@ -109,7 +109,6 @@ x => { return x; }
 ### Printed
 
 ```javascript
-
 x => {
   return x;
 };

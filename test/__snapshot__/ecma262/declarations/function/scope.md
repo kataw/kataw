@@ -1477,7 +1477,6 @@ function for_scope_var() {
 ### Printed
 
 ```javascript
-
 function block_scope() {
   let a: number = 0;
   var b: number = 0;

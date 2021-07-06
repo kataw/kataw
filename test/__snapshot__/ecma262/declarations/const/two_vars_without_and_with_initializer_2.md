@@ -150,7 +150,6 @@ const [foo=a, bar=b] = arr;
 ### Printed
 
 ```javascript
-
 const [foo = a, bar = b] = arr;
 ```
 

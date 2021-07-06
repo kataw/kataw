@@ -211,7 +211,6 @@ opaque type Counter: Box<T> = Container<T>;
 ### Printed
 
 ```javascript
-
 opaque type Counter: Box<T> = Container<T>;
 ```
 

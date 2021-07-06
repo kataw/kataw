@@ -90,8 +90,7 @@ export default class {}
 ### Printed
 
 ```javascript
-
-export default class  {};
+export default class {};
 ```
 
 ### Diagnostics

@@ -429,7 +429,6 @@ y = async (x) => {}
 ### Printed
 
 ```javascript
-
 y = x => {};
 y = () => {};
 

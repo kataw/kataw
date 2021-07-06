@@ -75,7 +75,6 @@ package = x
 ### Printed
 
 ```javascript
-
 package = x;
 ```
 

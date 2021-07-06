@@ -60,7 +60,6 @@ new await
 ### Printed
 
 ```javascript
-
 new await;
 ```
 

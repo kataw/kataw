@@ -227,7 +227,6 @@ f2`hello world`?.a;
 ### Printed
 
 ```javascript
-
 "\"hello\""?.a;
 obj.a?.b;
 

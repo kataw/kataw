@@ -507,7 +507,6 @@ declare var union: Foo | null | void;
 ### Printed
 
 ```javascript
-
 declare var x: Foo;
 declare var mixed: mixed;
 

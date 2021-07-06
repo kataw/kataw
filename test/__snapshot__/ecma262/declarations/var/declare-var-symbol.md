@@ -100,7 +100,6 @@ declare var x: symbol;
 ### Printed
 
 ```javascript
-
 declare var x: symbol;
 ```
 

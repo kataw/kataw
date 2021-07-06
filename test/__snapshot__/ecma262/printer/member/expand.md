@@ -1923,7 +1923,6 @@ window.FooClient.something.setVars({
 ### Printed
 
 ```javascript
-
 const veryVeryVeryVeryVeryVeryVeryLong = doc.expandedStates[
     doc.expandedStates.length - 1
   ];

@@ -150,7 +150,6 @@ switch (x) { case x: const y = x }
 ### Printed
 
 ```javascript
-
 switch (x) {
   case x:
     const y = x;

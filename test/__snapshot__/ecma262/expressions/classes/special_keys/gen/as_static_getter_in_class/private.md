@@ -148,7 +148,6 @@ class x {static get private(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get private() {}
 }

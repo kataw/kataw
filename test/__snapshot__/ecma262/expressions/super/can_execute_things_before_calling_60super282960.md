@@ -255,8 +255,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
 ### Printed
 
 ```javascript
-
-class x  extends y {
+class x extends y {
   constructor() {
     let xx = x + x;
     super.mom;

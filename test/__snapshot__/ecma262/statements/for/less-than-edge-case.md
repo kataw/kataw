@@ -257,7 +257,6 @@ for (let i = 0; i < require('foo').bar; i++) {
 ### Printed
 
 ```javascript
-
 for (let i = 0; i++; i  < require("'foo'").bar) {
     x(i);
   }

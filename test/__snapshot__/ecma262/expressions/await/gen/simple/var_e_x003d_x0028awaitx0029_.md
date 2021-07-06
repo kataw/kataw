@@ -93,7 +93,6 @@ var e = (await);
 ### Printed
 
 ```javascript
-
 var e = (await);
 ```
 

@@ -297,7 +297,6 @@
 ### Printed
 
 ```javascript
-
 ((a) => x);
 (x, (a) => x);
 

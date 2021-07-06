@@ -181,7 +181,6 @@ var f = ([a,b,...rest]) => {};
 ### Printed
 
 ```javascript
-
 var f = ([a, b, ...rest]) => {};
 ```
 

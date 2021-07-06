@@ -138,7 +138,6 @@ type x = { [x:string]:string }
 ### Printed
 
 ```javascript
-
 type x = { [string]: string }
 ```
 

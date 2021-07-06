@@ -95,7 +95,6 @@ new function(){}
 ### Printed
 
 ```javascript
-
 new function () {};
 ```
 

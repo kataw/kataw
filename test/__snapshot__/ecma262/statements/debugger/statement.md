@@ -64,7 +64,6 @@ while (false) debugger;
 ### Printed
 
 ```javascript
-
 while (false) debugger;
 ```
 

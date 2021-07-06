@@ -1587,7 +1587,6 @@
 ### Printed
 
 ```javascript
-
 [{ [foo]: bar4 }] = [{ bar: "\"bar\"" }];
 [{ [foo2()]: bar5 }] = [{ bar: "\"bar\"" }];
 

@@ -95,7 +95,6 @@ for (a of b);
 ### Printed
 
 ```javascript
-
 for (a of b);
 ```
 

@@ -199,7 +199,6 @@ function x(y: | z):
 ### Printed
 
 ```javascript
-
 function x(y: | z): | () =>  number {}
 ```
 

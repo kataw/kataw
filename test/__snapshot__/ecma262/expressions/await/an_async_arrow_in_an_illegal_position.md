@@ -138,7 +138,6 @@ let y = typeof async x => await x
 ### Printed
 
 ```javascript
-
 let y = typeof async x => await x;
 ```
 

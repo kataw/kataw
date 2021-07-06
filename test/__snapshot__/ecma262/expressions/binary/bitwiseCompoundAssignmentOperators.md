@@ -1198,7 +1198,6 @@ f |= f;
 ### Printed
 
 ```javascript
-
 var a = true;
 var b = 1;
 

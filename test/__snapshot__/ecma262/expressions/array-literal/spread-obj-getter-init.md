@@ -467,7 +467,6 @@ var callCount = 0;
 ### Printed
 
 ```javascript
-
 let o = { a: 2, b: 3 };
 let executedGetter = false;
 

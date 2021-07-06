@@ -108,7 +108,6 @@ switch (x) { case x: break; }
 ### Printed
 
 ```javascript
-
 switch (x) {
   case x:
     break ;

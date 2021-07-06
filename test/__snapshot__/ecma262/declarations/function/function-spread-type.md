@@ -132,7 +132,6 @@ function foo(...args: any) { }
 ### Printed
 
 ```javascript
-
 function foo(...args: any) {}
 ```
 

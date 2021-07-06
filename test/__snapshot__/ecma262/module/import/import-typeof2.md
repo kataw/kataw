@@ -99,7 +99,6 @@ import typeof foo24 from "bar";
 ### Printed
 
 ```javascript
-
 import typeof foo24 from "\"bar\"";
 ```
 

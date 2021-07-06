@@ -138,7 +138,6 @@ for (x(x in t);;) x
 ### Printed
 
 ```javascript
-
 for (x(x in t); ; ) x;
 ```
 

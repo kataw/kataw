@@ -68,7 +68,6 @@ x / await
 ### Printed
 
 ```javascript
-
 x / await;
 ```
 

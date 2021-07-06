@@ -344,7 +344,6 @@ c.m = n => n * 3;
 ### Printed
 
 ```javascript
-
 class C {
   m = n => n * 2;;
 }

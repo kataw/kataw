@@ -191,7 +191,6 @@ try {} catch (e) { for (let e in y) {} }
 ### Printed
 
 ```javascript
-
 try {} catch (e) {
   for (let e in y) {}
 }

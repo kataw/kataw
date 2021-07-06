@@ -66,7 +66,6 @@ new /more crap/g
 ### Printed
 
 ```javascript
-
 new /more crap/g;
 ```
 

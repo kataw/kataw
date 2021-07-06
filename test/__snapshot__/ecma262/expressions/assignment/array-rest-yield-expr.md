@@ -138,7 +138,6 @@ result = [...x[yield]] = vals;
 ### Printed
 
 ```javascript
-
 result = [...x[yield]] = vals;
 ```
 

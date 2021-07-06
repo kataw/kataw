@@ -143,7 +143,6 @@ async (x = (package) = f) => {}
 ### Printed
 
 ```javascript
-
 async (x = (package) = f) => {}
 ```
 

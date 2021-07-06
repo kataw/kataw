@@ -139,7 +139,6 @@ x({async foo(){}});
 ### Printed
 
 ```javascript
-
 x({ async foo() {} });
 ```
 

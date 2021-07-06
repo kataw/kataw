@@ -309,7 +309,6 @@ Trailing block comment of this script file.
 ### Printed
 
 ```javascript
-
 function f() {}
 function g(a) {
   return a;

@@ -153,7 +153,6 @@ var {arguments: x, ...z} = {};
 ### Printed
 
 ```javascript
-
 var { arguments: x, ...z } = {};
 ```
 

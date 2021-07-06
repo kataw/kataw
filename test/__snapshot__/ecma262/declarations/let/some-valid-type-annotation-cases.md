@@ -2403,7 +2403,6 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
 ### Printed
 
 ```javascript
-
 let one: { x: "'a'", y: false, z: null };
 let two: { foo(): void };
 

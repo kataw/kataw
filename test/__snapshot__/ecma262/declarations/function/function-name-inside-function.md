@@ -138,7 +138,6 @@ function fn() {
 ### Printed
 
 ```javascript
-
 function fn() {
   function yield() {}
 }

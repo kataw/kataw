@@ -2666,7 +2666,6 @@ c */? foo : bar : bar;
 ### Printed
 
 ```javascript
-
 var inspect = 4 === util.inspect.length ? (function (v, colors) {
             return util.inspect(v, void 0, void 0, colors);
           }) : (function (v, colors) {

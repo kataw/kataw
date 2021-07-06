@@ -67,7 +67,6 @@ new eval
 ### Printed
 
 ```javascript
-
 new eval;
 ```
 

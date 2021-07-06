@@ -206,9 +206,8 @@ function *P(){
 ### Printed
 
 ```javascript
-
 function * P() {
-  class D  extends function f() {} {}
+  class D extends function f() {} {}
 }
 ```
 

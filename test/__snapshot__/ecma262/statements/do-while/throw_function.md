@@ -152,7 +152,6 @@ for(;;)x
 ### Printed
 
 ```javascript
-
 do  throw function () {};
 while (y);
 for (;;)

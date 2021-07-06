@@ -106,7 +106,6 @@ y`${y,0}`
 ### Printed
 
 ```javascript
-
 y`${y, 0}`;
 ```
 

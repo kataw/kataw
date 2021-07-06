@@ -154,7 +154,6 @@ var O = { *async method() {} };
 ### Printed
 
 ```javascript
-
 var O = { async method() {} };
 ```
 

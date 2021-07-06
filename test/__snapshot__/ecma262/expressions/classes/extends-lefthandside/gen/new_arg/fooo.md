@@ -67,7 +67,6 @@ new fooo
 ### Printed
 
 ```javascript
-
 new fooo;
 ```
 

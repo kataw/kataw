@@ -753,7 +753,6 @@ class Test {
 ### Printed
 
 ```javascript
-
 class Test {
   #x = 2;;
   #y = [];;

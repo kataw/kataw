@@ -516,7 +516,6 @@ var gen = async function *g() {
 ### Printed
 
 ```javascript
-
 var gen = async function * g() {
     callCount += 1;
     yield { ...yield yield , ...(function (arg) {

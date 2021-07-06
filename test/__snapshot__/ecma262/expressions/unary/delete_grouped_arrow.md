@@ -102,7 +102,6 @@ delete ((x) => x)
 ### Printed
 
 ```javascript
-
 delete ((x) => x);
 ```
 

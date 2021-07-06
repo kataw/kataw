@@ -506,7 +506,6 @@ var fnNumber = /* comments0 */
 ### Printed
 
 ```javascript
-
 fnNumber = 3;
 fnNumber = 3;
 

@@ -115,7 +115,6 @@ var a = {
 ### Printed
 
 ```javascript
-
 var a = { br\u{65}ak: 2 };
 ```
 

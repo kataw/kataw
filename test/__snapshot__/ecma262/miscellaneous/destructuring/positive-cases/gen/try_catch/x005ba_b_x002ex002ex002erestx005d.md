@@ -157,7 +157,6 @@ try {} catch([a,b,...rest]) {}
 ### Printed
 
 ```javascript
-
 try {} catch ([a, b, ...rest]) {}
 ```
 

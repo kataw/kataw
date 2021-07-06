@@ -1398,7 +1398,6 @@ function targetKey() {
 ### Printed
 
 ```javascript
-
 var log = [];
 function source() {
   log.push("\"source\"");

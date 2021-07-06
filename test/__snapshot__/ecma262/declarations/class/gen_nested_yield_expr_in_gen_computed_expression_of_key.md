@@ -228,7 +228,6 @@ function *f(){  class x{*[yield](a){}}  }
 ### Printed
 
 ```javascript
-
 function * f() {
   class x {
     * [yield ](a) {}

@@ -149,7 +149,6 @@ async (...args: any[]) : any => {}
 ### Printed
 
 ```javascript
-
 async (...args: any[]) => {}
 ```
 

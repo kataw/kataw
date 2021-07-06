@@ -516,7 +516,6 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
 ### Printed
 
 ```javascript
-
 opaque type StringAlias = string;
 opaque type ObjectAlias = { property: string, method(): number };
 

@@ -148,7 +148,6 @@ class x {static get protected(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get protected() {}
 }

@@ -119,7 +119,6 @@ foo: bar: while (true) continue foo;
 ### Printed
 
 ```javascript
-
 foo:  bar:  while (true) continue  foo;
 ```
 

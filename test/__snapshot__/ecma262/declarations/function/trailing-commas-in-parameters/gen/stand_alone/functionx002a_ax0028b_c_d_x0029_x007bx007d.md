@@ -123,7 +123,6 @@ function* a(b,c,d,) {}
 ### Printed
 
 ```javascript
-
 function * a(b, c, d) {}
 ```
 

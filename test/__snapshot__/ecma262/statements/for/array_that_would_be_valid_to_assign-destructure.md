@@ -113,7 +113,6 @@ for ([x.y];;);
 ### Printed
 
 ```javascript
-
 for ([x.y]; ; );
 ```
 

@@ -134,7 +134,6 @@ import { a as arguments } from 'm.js';
 ### Printed
 
 ```javascript
-
 import { a as arguments } from "'m.js'";
 ```
 

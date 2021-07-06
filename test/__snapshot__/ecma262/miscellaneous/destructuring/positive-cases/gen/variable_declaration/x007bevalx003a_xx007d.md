@@ -127,7 +127,6 @@ var {eval: x} = {};
 ### Printed
 
 ```javascript
-
 var { eval: x } = {};
 ```
 

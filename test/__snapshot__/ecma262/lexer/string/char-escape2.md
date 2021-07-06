@@ -189,7 +189,6 @@
 ### Printed
 
 ```javascript
-
 "\"prefix '\"";
 "\"prefix\"\"";
 

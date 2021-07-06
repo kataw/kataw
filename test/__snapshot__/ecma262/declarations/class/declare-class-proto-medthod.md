@@ -147,7 +147,6 @@ declare class C { proto m(): void }
 ### Printed
 
 ```javascript
-
 declare class C { proto m(): void }
 ```
 

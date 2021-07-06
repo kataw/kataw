@@ -195,7 +195,6 @@ for (var a: number in expr) {
 ### Printed
 
 ```javascript
-
 var expr: any;
 for (var a: number in expr) {}
 

@@ -180,7 +180,6 @@
 ### Printed
 
 ```javascript
-
 async ([x: string, y: number]) => {}
 ```
 

@@ -94,7 +94,6 @@ if (a) let
 ### Printed
 
 ```javascript
-
 if (a) let;
 {}
 

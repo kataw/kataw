@@ -169,9 +169,8 @@ var B = class extends A {}
 ### Printed
 
 ```javascript
-
 class A {}
-var B = class   extends A {};
+var B = class extends A {};
 
 ```
 

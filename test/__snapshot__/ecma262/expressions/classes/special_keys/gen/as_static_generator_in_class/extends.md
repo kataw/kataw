@@ -148,7 +148,6 @@ class x {static * extends(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static * extends() {}
 }

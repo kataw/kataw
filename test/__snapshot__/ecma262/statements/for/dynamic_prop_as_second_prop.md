@@ -151,7 +151,6 @@ for (let {a, [x]: y} = a;;);
 ### Printed
 
 ```javascript
-
 for (let { a, [x]: y } = a; ; );
 ```
 

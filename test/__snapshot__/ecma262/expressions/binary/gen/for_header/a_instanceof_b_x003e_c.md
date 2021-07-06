@@ -114,7 +114,6 @@ for ( a instanceof b > c ;;);
 ### Printed
 
 ```javascript
-
 for (a instanceof b > c; ; );
 ```
 

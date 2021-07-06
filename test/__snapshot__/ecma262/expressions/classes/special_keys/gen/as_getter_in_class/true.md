@@ -142,7 +142,6 @@ class x {get true(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get true() {}
 }

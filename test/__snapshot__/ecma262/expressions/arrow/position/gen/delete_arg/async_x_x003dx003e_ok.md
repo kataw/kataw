@@ -98,7 +98,6 @@ delete async x => ok
 ### Printed
 
 ```javascript
-
 delete async x => ok;
 ```
 

@@ -74,7 +74,6 @@ x = 0o101_0n
 ### Printed
 
 ```javascript
-
 x = 0o101_0n;
 ```
 

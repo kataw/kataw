@@ -107,7 +107,6 @@ async x => let = 1
 ### Printed
 
 ```javascript
-
 async x => let = 1;
 ```
 

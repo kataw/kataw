@@ -141,7 +141,6 @@ function f(x=(yield)=y){}
 ### Printed
 
 ```javascript
-
 function f(x = (yield) = y) {}
 ```
 

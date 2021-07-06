@@ -170,7 +170,6 @@
 ### Printed
 
 ```javascript
-
 ({ * g1() {
       [yield 1];
     } });

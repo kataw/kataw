@@ -142,7 +142,6 @@ class x {static switch(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static switch() {}
 }

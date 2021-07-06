@@ -102,7 +102,6 @@ x = {0b001001: y}
 ### Printed
 
 ```javascript
-
 x = { 0b001001: y };
 ```
 

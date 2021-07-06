@@ -113,7 +113,6 @@ export var x, y
 ### Printed
 
 ```javascript
-
 export var x, y;
 ```
 

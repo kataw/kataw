@@ -163,7 +163,6 @@
 ### Printed
 
 ```javascript
-
 (x = delete ((null) = f)) => {};
 ```
 

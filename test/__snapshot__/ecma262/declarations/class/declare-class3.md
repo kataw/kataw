@@ -214,7 +214,6 @@ declare class B { () : number }
 ### Printed
 
 ```javascript
-
 declare class A { static (): number }
 declare class B { (): number }
 

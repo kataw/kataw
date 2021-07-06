@@ -324,7 +324,6 @@ module.exports = [
 ### Printed
 
 ```javascript
-
 import {  foo1b } from "'./lib1'";
 import {  foo2 } from "'./lib2'";
 

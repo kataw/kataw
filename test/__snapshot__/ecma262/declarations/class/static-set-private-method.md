@@ -151,7 +151,6 @@ class C { static set #aaa(x){} }
 ### Printed
 
 ```javascript
-
 class C {
   static set #aaa(x) {}
 }

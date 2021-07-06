@@ -141,7 +141,6 @@ var foo = arr, [bar] = arr2;
 ### Printed
 
 ```javascript
-
 var foo = arr, [bar] = arr2;
 ```
 

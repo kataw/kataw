@@ -144,7 +144,6 @@ function *f(){
 ### Printed
 
 ```javascript
-
 function * f() {
   (package) = 1;
 }

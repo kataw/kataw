@@ -236,9 +236,8 @@
 ### Printed
 
 ```javascript
-
 ({ async * gen() {
-      x = class   extends (yield ) {};
+      x = class extends (yield ) {};
     } });
 ```
 

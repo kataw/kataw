@@ -101,8 +101,7 @@ class x extends get {}
 ### Printed
 
 ```javascript
-
-class x  extends get {}
+class x extends get {}
 ```
 
 ### Diagnostics

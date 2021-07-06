@@ -152,8 +152,7 @@ class x extends y { constructor() { } }
 ### Printed
 
 ```javascript
-
-class x  extends y {
+class x extends y {
   constructor() {}
 }
 ```

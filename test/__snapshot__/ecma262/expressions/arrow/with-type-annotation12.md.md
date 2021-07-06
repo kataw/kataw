@@ -195,7 +195,6 @@
 ### Printed
 
 ```javascript
-
 ({}: string, [0]? : number) => 0;
 ```
 

@@ -147,7 +147,6 @@ var a = async (options = {}) => options;
 ### Printed
 
 ```javascript
-
 var a = async (options = {}) => options;
 ```
 

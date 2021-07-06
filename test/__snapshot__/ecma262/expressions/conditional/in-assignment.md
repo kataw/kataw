@@ -84,7 +84,6 @@ x = z();
 ### Printed
 
 ```javascript
-
 x = z();
 ```
 

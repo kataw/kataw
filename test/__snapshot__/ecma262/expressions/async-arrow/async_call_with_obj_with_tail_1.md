@@ -101,7 +101,6 @@ async ({} + 1);
 ### Printed
 
 ```javascript
-
 async({} + 1)
 ```
 

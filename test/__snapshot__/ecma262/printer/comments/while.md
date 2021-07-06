@@ -394,7 +394,6 @@ while(1) // Comment
 ### Printed
 
 ```javascript
-
 while (true) {}
 while (true) {}
 

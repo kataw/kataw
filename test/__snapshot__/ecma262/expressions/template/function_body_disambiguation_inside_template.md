@@ -107,7 +107,6 @@
 ### Printed
 
 ```javascript
-
 `a ${function () {}} b`;
 ```
 

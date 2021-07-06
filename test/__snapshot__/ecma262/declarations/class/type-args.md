@@ -467,8 +467,7 @@ class C<T> {
 ### Printed
 
 ```javascript
-
-class C<T> {
+class C <T>{
   foo() {
     TypeAssertIs  < T > (9);
     TypeAssertIs  < T | number > (9);

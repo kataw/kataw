@@ -154,7 +154,6 @@ import {x, z as b} from "y"
 ### Printed
 
 ```javascript
-
 import {  x, z as b } from "\"y\"";
 ```
 

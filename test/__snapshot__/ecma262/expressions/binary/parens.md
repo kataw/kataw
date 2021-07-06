@@ -2316,7 +2316,6 @@ a % 10 == 0;
 ### Printed
 
 ```javascript
-
 const result = (a + b) >>> 1;
 var sizeIndex = ((index - 1) >>> level) & MASK;
 

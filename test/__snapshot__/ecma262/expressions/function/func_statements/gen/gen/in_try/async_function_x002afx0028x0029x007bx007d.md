@@ -174,7 +174,6 @@ try {
 ### Printed
 
 ```javascript
-
 try {
   async function * f() {}
 } catch (e) {}

@@ -86,7 +86,6 @@ var foob\u{c481}r = 0;
 ### Printed
 
 ```javascript
-
 var foob\u{c481}r = 0;
 ```
 

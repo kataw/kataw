@@ -294,7 +294,6 @@ class A {
 ### Printed
 
 ```javascript
-
 class A {
   constructor() {
     super.toString();

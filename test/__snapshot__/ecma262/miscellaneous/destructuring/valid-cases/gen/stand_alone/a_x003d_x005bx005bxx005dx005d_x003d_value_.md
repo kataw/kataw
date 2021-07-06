@@ -132,7 +132,6 @@ a = [[x]] = value;
 ### Printed
 
 ```javascript
-
 a = [[x]] = value;
 ```
 

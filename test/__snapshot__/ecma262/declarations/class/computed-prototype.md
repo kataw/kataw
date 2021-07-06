@@ -1377,7 +1377,6 @@ class Twelve { static async ['prototype']() {} }
 ### Printed
 
 ```javascript
-
 class One {
   ["'prototype'"] = 0;
 }

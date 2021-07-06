@@ -71,7 +71,6 @@ class async {}
 ### Printed
 
 ```javascript
-
 class async {}
 ```
 

@@ -142,7 +142,6 @@ let {[a.b]: c} = v
 ### Printed
 
 ```javascript
-
 let { [a.b]: c } = v;
 ```
 

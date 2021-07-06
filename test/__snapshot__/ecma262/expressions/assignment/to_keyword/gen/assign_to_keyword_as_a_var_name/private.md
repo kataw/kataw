@@ -75,7 +75,6 @@ private = x
 ### Printed
 
 ```javascript
-
 private = x;
 ```
 

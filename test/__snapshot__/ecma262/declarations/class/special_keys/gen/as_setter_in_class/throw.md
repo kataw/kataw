@@ -152,7 +152,6 @@ class x {set throw(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set throw(x) {}
 }

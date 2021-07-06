@@ -142,7 +142,6 @@ class x {get throw(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get throw() {}
 }

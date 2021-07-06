@@ -130,7 +130,6 @@ finally { // Comment 8
 ### Printed
 
 ```javascript
-
 try {} catch (e) {} finally {}
 ```
 

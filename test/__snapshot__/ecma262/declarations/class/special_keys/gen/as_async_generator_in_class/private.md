@@ -148,7 +148,6 @@ class x {async * private(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async * private() {}
 }

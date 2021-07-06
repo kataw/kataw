@@ -131,7 +131,6 @@ async ({ident: {x}}) => x
 ### Printed
 
 ```javascript
-
 async ({ ident: { x } }) => x
 ```
 

@@ -151,7 +151,6 @@
 ### Printed
 
 ```javascript
-
 ({ async a() {
       await 0;
     } });

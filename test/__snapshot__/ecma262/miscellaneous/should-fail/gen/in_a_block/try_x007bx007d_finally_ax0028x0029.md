@@ -136,7 +136,6 @@
 ### Printed
 
 ```javascript
-
 {
   try {} finally {}
   a();

@@ -120,7 +120,6 @@ var [yield] = [42];
 ### Printed
 
 ```javascript
-
 var [yield] = [42];
 ```
 

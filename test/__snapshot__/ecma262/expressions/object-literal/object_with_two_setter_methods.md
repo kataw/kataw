@@ -233,7 +233,6 @@ x({set [foo](b){}, set [bar](d){}});
 ### Printed
 
 ```javascript
-
 x({ set [foo](b) {}, set [bar](d) {} });
 ```
 

@@ -4190,7 +4190,6 @@
 ### Printed
 
 ```javascript
-
 ({ x = y } = {});
 ({ x: [x] } = { x: null });
 

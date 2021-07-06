@@ -152,7 +152,6 @@ class x {set debugger(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set debugger(x) {}
 }

@@ -165,7 +165,6 @@ class x{[yield](a){}}
 ### Printed
 
 ```javascript
-
 class x {
   [yield](a) {}
 }

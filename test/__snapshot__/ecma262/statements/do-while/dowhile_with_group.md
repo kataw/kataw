@@ -119,7 +119,6 @@ while(y)
 ### Printed
 
 ```javascript
-
 do  (function () {});
 while (y);
 ```

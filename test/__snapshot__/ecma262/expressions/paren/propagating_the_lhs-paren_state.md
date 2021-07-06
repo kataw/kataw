@@ -128,7 +128,6 @@
 ### Printed
 
 ```javascript
-
 (foo + (bar + boo) + ding);
 ```
 

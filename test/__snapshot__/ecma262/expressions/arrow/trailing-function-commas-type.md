@@ -157,7 +157,6 @@
 ### Printed
 
 ```javascript
-
 (props: SomeType) => (3);
 ```
 

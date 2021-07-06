@@ -280,10 +280,9 @@ function * gen() { function not_gen() { x = class extends (a ? null : yield) { }
 ### Printed
 
 ```javascript
-
 function * gen() {
   function not_gen() {
-    x = class   extends (a ? null : yield) {};
+    x = class extends (a ? null : yield) {};
   }
 }
 ```

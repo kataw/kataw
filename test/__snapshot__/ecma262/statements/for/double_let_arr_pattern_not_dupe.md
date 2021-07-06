@@ -227,7 +227,6 @@ for (let [a]=x;;);
 ### Printed
 
 ```javascript
-
 for (let [a] = x; ; );
 for (let [a] = x; ; );
 

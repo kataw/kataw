@@ -119,7 +119,6 @@ const [,,] = x;
 ### Printed
 
 ```javascript
-
 const [, ,] = x;
 ```
 

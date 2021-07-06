@@ -110,7 +110,6 @@ new function f(){}
 ### Printed
 
 ```javascript
-
 new function f() {};
 ```
 

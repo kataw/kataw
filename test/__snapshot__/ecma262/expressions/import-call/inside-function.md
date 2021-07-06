@@ -159,7 +159,6 @@ function loadImport(file) {
 ### Printed
 
 ```javascript
-
 function loadImport(file) {
   return import(`test/${file}.js`);
 }

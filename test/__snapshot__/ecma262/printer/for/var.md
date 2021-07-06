@@ -149,7 +149,6 @@ for (a in b) var c = {}; [];
 ### Printed
 
 ```javascript
-
 for (a in b) var c = {};
 [];
 

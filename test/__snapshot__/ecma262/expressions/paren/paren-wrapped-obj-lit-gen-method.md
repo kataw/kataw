@@ -1211,7 +1211,6 @@ x({*foo(){}});
 ### Printed
 
 ```javascript
-
 x({ * [foo]() {} });
 x({ * get() {} });
 

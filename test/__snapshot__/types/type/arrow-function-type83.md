@@ -224,7 +224,6 @@ type a = (([-1]) => T) => T
 ### Printed
 
 ```javascript
-
 type a = (([-1]) =>  T) =>  T
 ```
 

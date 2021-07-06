@@ -84,7 +84,6 @@ a ? /*1*/ b : c
 ### Printed
 
 ```javascript
-
 a ? b : c;
 ```
 

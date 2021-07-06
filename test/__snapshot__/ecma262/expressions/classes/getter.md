@@ -142,7 +142,6 @@ class x { get prototype(){} }
 ### Printed
 
 ```javascript
-
 class x {
   get prototype() {}
 }

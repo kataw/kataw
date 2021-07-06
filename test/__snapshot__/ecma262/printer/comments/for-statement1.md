@@ -53,7 +53,6 @@ for(;/*1*/;);
 ### Printed
 
 ```javascript
-
 for (;;);
 ```
 

@@ -97,7 +97,6 @@ var []
 ### Printed
 
 ```javascript
-
 var [];
 ```
 

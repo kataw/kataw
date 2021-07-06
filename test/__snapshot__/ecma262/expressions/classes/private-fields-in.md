@@ -451,7 +451,6 @@ class C {
 ### Printed
 
 ```javascript
-
 class C {
   #brand;;
   #method() {}

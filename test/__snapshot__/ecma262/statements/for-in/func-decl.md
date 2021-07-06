@@ -137,7 +137,6 @@ function x(a, [x]) {}
 ### Printed
 
 ```javascript
-
 function x(a, [x]) {}
 ```
 

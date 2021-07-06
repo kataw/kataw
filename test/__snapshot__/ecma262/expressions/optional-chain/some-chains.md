@@ -1733,7 +1733,6 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
 ### Printed
 
 ```javascript
-
 a?.b.x.x.x.x.x;
 a?.b?.x?.x?.x.x.x;
 

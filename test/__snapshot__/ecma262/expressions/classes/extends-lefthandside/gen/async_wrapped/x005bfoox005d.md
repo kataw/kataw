@@ -180,9 +180,8 @@ async function p(){
 ### Printed
 
 ```javascript
-
 async function p() {
-  class C  extends [foo] {}
+  class C extends [foo] {}
 }
 ```
 

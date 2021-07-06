@@ -144,7 +144,6 @@ for ({x: a.b} in obj);
 ### Printed
 
 ```javascript
-
 for ({ x: a.b } in obj);
 ```
 

@@ -72,7 +72,6 @@ await []
 ### Printed
 
 ```javascript
-
 await [];
 ```
 

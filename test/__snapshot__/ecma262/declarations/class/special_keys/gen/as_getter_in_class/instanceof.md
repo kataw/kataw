@@ -142,7 +142,6 @@ class x {get instanceof(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get instanceof() {}
 }

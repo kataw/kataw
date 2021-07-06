@@ -445,7 +445,6 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
 ### Printed
 
 ```javascript
-
 var await;
 var f = (async function () {
       async function a() {

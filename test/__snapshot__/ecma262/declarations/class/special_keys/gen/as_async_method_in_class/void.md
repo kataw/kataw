@@ -142,7 +142,6 @@ class x {async void(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async void() {}
 }

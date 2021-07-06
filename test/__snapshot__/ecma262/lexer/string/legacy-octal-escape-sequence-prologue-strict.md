@@ -117,8 +117,9 @@
 ### Printed
 
 ```javascript
-
 (function () {
+
+    "\"use strict\"";
     "\"asterisk: \052\"";
   });
 ```

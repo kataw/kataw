@@ -74,7 +74,6 @@ delete /foo/.bar;
 ### Printed
 
 ```javascript
-
 delete /foo/.bar;
 ```
 

@@ -192,7 +192,6 @@ class x{ constructor(){} 9(){} }
 ### Printed
 
 ```javascript
-
 class x {
   constructor() {}
   9() {}

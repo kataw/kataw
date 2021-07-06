@@ -145,7 +145,6 @@ var x = ({ foo }) => {}
 ### Printed
 
 ```javascript
-
 var x = ({ foo }) => {};
 ```
 

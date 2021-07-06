@@ -45,7 +45,6 @@ xxx\u0065xxx
 ### Printed
 
 ```javascript
-
 xxx\u0065xxx;
 ```
 

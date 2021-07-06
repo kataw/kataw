@@ -201,7 +201,6 @@ function* foo() { var x = 10; yield 1; return x; }
 ### Printed
 
 ```javascript
-
 function * foo() {
   var x = 10;
   yield 1;

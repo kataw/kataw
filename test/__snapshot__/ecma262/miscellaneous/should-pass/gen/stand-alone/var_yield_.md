@@ -78,7 +78,6 @@ var yield;
 ### Printed
 
 ```javascript
-
 var yield;
 ```
 

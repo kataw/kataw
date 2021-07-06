@@ -1555,7 +1555,6 @@
 ### Printed
 
 ```javascript
-
 (
   {
     0: a ** b ** c,

@@ -94,7 +94,6 @@ e => yield* 10
 ### Printed
 
 ```javascript
-
 e => yield * 10;
 ```
 

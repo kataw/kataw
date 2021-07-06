@@ -147,7 +147,6 @@ x = /a/y;
 ### Printed
 
 ```javascript
-
 x = /a/i;
 x = /a/u;
 

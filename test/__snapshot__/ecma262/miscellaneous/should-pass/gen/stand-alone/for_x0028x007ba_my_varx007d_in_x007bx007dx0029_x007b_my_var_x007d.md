@@ -140,7 +140,6 @@ for ({a, my_var} in {}) { my_var; }
 ### Printed
 
 ```javascript
-
 for ({ a, my_var } in {}) {
     my_var;
   }

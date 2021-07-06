@@ -99,7 +99,6 @@ function f(enum) {}
 ### Printed
 
 ```javascript
-
 function f(enum) {}
 ```
 

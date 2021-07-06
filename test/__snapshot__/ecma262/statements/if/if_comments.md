@@ -2196,7 +2196,6 @@ async function f5() {
 ### Printed
 
 ```javascript
-
 async function f1() {
   if (untrackedChoice === 0) {
       return null;

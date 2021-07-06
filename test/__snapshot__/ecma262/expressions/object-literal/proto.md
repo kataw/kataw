@@ -588,7 +588,6 @@
 ### Printed
 
 ```javascript
-
 ({ "\"__proto___\"": "\"__proto___\"", "\"__proto___\"": "\"__proto___\"" });
 ({ get prototype() {} });
 

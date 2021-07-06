@@ -145,7 +145,6 @@ try {
 ### Printed
 
 ```javascript
-
 try {} finally {
   function f() {}
 }

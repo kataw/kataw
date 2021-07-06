@@ -67,7 +67,6 @@ while (x) break
 ### Printed
 
 ```javascript
-
 while (x) break ;
 ```
 

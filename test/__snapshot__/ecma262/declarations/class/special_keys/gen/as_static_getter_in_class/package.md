@@ -148,7 +148,6 @@ class x {static get package(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get package() {}
 }

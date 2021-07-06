@@ -60,7 +60,6 @@
 ### Printed
 
 ```javascript
-
 [true];
 ```
 

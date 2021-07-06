@@ -152,7 +152,6 @@ class x {set while(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set while(x) {}
 }

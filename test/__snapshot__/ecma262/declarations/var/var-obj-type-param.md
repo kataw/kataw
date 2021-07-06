@@ -241,7 +241,6 @@ var a: { id<T>(x: T): T; }
 ### Printed
 
 ```javascript
-
 var a: { id<T> (x: T): T };
 ```
 

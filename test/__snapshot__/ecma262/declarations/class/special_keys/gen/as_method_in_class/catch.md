@@ -136,7 +136,6 @@ class x {catch(){}}
 ### Printed
 
 ```javascript
-
 class x {
   catch() {}
 }

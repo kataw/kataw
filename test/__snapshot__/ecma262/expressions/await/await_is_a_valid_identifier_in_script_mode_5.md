@@ -68,7 +68,6 @@ await - 25
 ### Printed
 
 ```javascript
-
 await - 25;
 ```
 

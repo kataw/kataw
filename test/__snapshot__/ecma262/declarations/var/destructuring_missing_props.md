@@ -160,7 +160,6 @@ var {nonExistent, defaults = "hi", foo = 3} = x;
 ### Printed
 
 ```javascript
-
 var { nonExistent, defaults = "\"hi\"", foo = 3 } = x;
 ```
 

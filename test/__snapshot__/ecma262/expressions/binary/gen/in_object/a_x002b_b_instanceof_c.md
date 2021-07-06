@@ -155,7 +155,6 @@ x = { a: a + b instanceof c }
 ### Printed
 
 ```javascript
-
 x = { a: a + b instanceof c };
 ```
 

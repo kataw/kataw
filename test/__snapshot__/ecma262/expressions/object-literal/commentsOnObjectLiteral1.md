@@ -119,7 +119,6 @@ var Person = makeClass(
 ### Printed
 
 ```javascript
-
 var Person = makeClass({});
 ```
 

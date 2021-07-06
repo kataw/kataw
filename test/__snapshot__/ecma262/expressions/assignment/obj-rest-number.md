@@ -122,7 +122,6 @@ result = {...rest} = 69;
 ### Printed
 
 ```javascript
-
 result = { ...rest } = 69;
 ```
 

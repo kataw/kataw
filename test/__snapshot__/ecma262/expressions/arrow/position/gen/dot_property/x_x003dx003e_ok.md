@@ -94,7 +94,6 @@ x => ok.x
 ### Printed
 
 ```javascript
-
 x => ok.x;
 ```
 

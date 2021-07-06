@@ -148,7 +148,6 @@ class x {static get import(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get import() {}
 }

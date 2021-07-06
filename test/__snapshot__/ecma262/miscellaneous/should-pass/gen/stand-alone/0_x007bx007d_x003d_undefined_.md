@@ -100,7 +100,6 @@
 ### Printed
 
 ```javascript
-
 0, {} = undefined;
 ```
 

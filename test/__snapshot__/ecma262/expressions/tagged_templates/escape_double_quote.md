@@ -61,7 +61,6 @@ tag`some \" quote`;
 ### Printed
 
 ```javascript
-
 tag`some \" quote`;
 ```
 

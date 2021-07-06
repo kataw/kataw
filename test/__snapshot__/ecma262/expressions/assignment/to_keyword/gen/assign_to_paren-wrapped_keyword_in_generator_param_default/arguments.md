@@ -154,7 +154,6 @@ function *f(x = (arguments) = f) {}
 ### Printed
 
 ```javascript
-
 function * f(x = (arguments) = f) {}
 ```
 

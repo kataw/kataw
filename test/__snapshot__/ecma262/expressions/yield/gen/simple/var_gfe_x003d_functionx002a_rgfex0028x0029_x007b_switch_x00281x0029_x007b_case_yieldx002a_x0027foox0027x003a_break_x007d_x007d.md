@@ -237,7 +237,6 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
 ### Printed
 
 ```javascript
-
 var gfe = function * rgfe() {
     switch (1) {
       case yield * "'foo'":

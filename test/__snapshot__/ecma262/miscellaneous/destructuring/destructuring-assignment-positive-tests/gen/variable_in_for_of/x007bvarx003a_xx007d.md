@@ -225,7 +225,6 @@ var x, y, z; for (x of {var: x} = {});
 ### Printed
 
 ```javascript
-
 var x, y, z;
 for (x of { var: x } = {});
 

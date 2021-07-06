@@ -124,7 +124,6 @@ for(function(){};;)x
 ### Printed
 
 ```javascript
-
 for (function () {}; ; ) x;
 ```
 

@@ -81,7 +81,6 @@ do {} while ((""));
 ### Printed
 
 ```javascript
-
 do  {}
 while (("\"\""));
 ```

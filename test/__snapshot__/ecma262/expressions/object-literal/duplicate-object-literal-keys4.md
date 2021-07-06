@@ -260,7 +260,6 @@
 ### Printed
 
 ```javascript
-
 ({ get x() {}, set x(y) {}, set x(y) {} });
 ```
 

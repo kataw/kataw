@@ -136,7 +136,6 @@ let arr: (number|string)[] = [];
 ### Printed
 
 ```javascript
-
 let arr: (number | string)[] = [];
 ```
 

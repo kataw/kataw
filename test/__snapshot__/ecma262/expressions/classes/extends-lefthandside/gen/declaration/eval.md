@@ -101,8 +101,7 @@ class A extends eval {}
 ### Printed
 
 ```javascript
-
-class A  extends eval {}
+class A extends eval {}
 ```
 
 ### Diagnostics

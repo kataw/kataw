@@ -136,7 +136,6 @@ if (somethingGoesWrong) { // Why this comment goes to the next line...
 ### Printed
 
 ```javascript
-
 if (somethingGoesWrong) {
     console.error("'Something went wrong'");
   }

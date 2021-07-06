@@ -100,7 +100,6 @@ await function() {}
 ### Printed
 
 ```javascript
-
 await function () {};
 ```
 

@@ -161,7 +161,6 @@
 ### Printed
 
 ```javascript
-
 [a = (initialized = true, initializer)] = value;
 ```
 

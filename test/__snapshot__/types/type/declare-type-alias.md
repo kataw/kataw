@@ -91,7 +91,6 @@ declare type T = number;
 ### Printed
 
 ```javascript
-
 declare type T = number
 ```
 

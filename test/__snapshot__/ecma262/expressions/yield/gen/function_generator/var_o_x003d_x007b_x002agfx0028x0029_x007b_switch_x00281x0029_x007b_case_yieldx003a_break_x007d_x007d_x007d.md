@@ -356,7 +356,6 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
 ### Printed
 
 ```javascript
-
 function * gen() {
   function not_gen() {
     var o = { * gf() {

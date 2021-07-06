@@ -253,7 +253,6 @@ let b = {
 ### Printed
 
 ```javascript
-
 let a = { a: () => 1 };
 let b = { "\"a\"": () => 1 };
 

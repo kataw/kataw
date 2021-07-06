@@ -158,7 +158,6 @@ class x {static set new(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   static set new(x) {}
 }

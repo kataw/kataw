@@ -75,7 +75,6 @@ foo: break foo;
 ### Printed
 
 ```javascript
-
 foo:  break  foo;
 ```
 

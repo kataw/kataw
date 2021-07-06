@@ -207,8 +207,7 @@ class D extends B {
 ### Printed
 
 ```javascript
-
-class D  extends B {
+class D extends B {
   constructor(foo) {
     super(foo);
   }

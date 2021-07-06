@@ -134,7 +134,6 @@ function* gf() { +yield; }
 ### Printed
 
 ```javascript
-
 function * gf() {
   +yield ;
 }

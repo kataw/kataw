@@ -51,7 +51,6 @@
 ### Printed
 
 ```javascript
-
 "\"\u180E\"";
 ```
 

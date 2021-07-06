@@ -148,7 +148,6 @@ class x {static * await(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static * await() {}
 }

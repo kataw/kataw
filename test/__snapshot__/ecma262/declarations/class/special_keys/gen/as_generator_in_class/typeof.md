@@ -142,7 +142,6 @@ class x {* typeof(){}}
 ### Printed
 
 ```javascript
-
 class x {
   * typeof() {}
 }

@@ -132,7 +132,6 @@ x
 ### Printed
 
 ```javascript
-
 ({ async * x() {} });
 ```
 

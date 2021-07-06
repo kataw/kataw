@@ -193,7 +193,6 @@
 ### Printed
 
 ```javascript
-
 (function (obj) {}.apply(null, [{ ...null }]));
 ```
 

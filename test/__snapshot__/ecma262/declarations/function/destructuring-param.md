@@ -168,7 +168,6 @@ function a([a, b, ...[ok]]) {};
 ### Printed
 
 ```javascript
-
 function a([a, b, ...[ok]]) {}
 ```
 

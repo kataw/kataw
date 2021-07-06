@@ -72,7 +72,6 @@ async
 ### Printed
 
 ```javascript
-
 async(2)
 ```
 

@@ -136,7 +136,6 @@ class x {private(){}}
 ### Printed
 
 ```javascript
-
 class x {
   private() {}
 }

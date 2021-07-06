@@ -249,7 +249,6 @@ var f = async function f(x = function() { let await = 0; }) {}
 ### Printed
 
 ```javascript
-
 var f = async function f(x = function () {
     let await = 0;
   }) {};

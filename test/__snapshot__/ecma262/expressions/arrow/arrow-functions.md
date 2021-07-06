@@ -1117,7 +1117,6 @@ const bar9 = <T>(x) => {};
 ### Printed
 
 ```javascript
-
 const bar1 = (x: number) => {};
 const bar2 = (x? ) => {};
 

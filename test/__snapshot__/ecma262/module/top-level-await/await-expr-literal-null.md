@@ -63,7 +63,6 @@ await null;
 ### Printed
 
 ```javascript
-
 await null;
 ```
 

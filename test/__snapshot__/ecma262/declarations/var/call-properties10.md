@@ -256,7 +256,6 @@ var g: { (x: string): void } = function(x: mixed) { }
 ### Printed
 
 ```javascript
-
 var g: { (x: string): void } = function (x: mixed) {};
 ```
 

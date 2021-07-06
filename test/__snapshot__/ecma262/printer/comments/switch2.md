@@ -66,7 +66,6 @@ switch (x) {
 ### Printed
 
 ```javascript
-
 switch (x) {}
 ```
 

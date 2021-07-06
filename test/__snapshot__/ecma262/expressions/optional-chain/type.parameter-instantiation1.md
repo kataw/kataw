@@ -132,7 +132,6 @@ a?.<number>(y)
 ### Printed
 
 ```javascript
-
 a?.<number>(y);
 ```
 

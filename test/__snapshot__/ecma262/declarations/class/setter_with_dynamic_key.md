@@ -177,7 +177,6 @@ class x { static set [y](z){}}
 ### Printed
 
 ```javascript
-
 class x {
   static set [y](z) {}
 }

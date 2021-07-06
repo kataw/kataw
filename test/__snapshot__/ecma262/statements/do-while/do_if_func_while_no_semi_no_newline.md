@@ -137,7 +137,6 @@ do if(8)function s(){}while(y)
 ### Printed
 
 ```javascript
-
 do  if (8) function s() {}
 while (y);
 ```

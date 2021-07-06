@@ -222,7 +222,6 @@ var z : Object = function (x: number): string { return "hi"; };
 ### Printed
 
 ```javascript
-
 var z: Object = function (x: number): string {
     return "\"hi\"";
   };

@@ -326,7 +326,6 @@ class X {
 ### Printed
 
 ```javascript
-
 async function * a() {
   yield * b();
 }

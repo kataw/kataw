@@ -78,7 +78,6 @@ class arguments {}
 ### Printed
 
 ```javascript
-
 class arguments {}
 ```
 

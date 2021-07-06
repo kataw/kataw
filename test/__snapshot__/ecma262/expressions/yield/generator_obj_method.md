@@ -156,7 +156,6 @@ let o = {*f(await){}}
 ### Printed
 
 ```javascript
-
 let o = { * f(await) {} };
 ```
 

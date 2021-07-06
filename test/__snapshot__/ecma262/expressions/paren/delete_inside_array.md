@@ -99,7 +99,6 @@
 ### Printed
 
 ```javascript
-
 ([delete foo.bar]);
 ```
 

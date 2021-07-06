@@ -143,7 +143,6 @@ async (x = (foo) = f) => {}
 ### Printed
 
 ```javascript
-
 async (x = (foo) = f) => {}
 ```
 

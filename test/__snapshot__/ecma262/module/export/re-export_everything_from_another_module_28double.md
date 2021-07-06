@@ -92,8 +92,7 @@ export * from "foo"
 ### Printed
 
 ```javascript
-
-export *  from "\"foo\"";
+export *  from "\"foo\"";;
 ```
 
 ### Diagnostics

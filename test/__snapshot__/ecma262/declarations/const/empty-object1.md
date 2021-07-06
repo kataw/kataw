@@ -146,7 +146,6 @@ const someObj: { id: number } = {};
 ### Printed
 
 ```javascript
-
 const someObj: { id: number } = {};
 ```
 

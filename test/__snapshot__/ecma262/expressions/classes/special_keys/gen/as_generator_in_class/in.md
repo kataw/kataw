@@ -142,7 +142,6 @@ class x {* in(){}}
 ### Printed
 
 ```javascript
-
 class x {
   * in() {}
 }

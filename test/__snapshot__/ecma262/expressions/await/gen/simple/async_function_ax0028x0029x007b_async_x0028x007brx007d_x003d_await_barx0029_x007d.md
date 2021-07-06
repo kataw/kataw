@@ -192,7 +192,6 @@ async function a(){     async ({r} = await bar);     }
 ### Printed
 
 ```javascript
-
 async function a() {
   async({ r } = await bar);
 }

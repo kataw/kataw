@@ -109,7 +109,6 @@
 ### Printed
 
 ```javascript
-
 {
   let x;
   strubg;

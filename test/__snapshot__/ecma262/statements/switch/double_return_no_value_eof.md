@@ -114,7 +114,6 @@ return   }
 ### Printed
 
 ```javascript
-
 function f() {
   return;
   return;

@@ -68,7 +68,6 @@ with (foo) bar;
 ### Printed
 
 ```javascript
-
 with (foo) bar;
 ```
 

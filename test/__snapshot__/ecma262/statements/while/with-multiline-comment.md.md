@@ -169,7 +169,6 @@ there; }
 ### Printed
 
 ```javascript
-
 while (true) {
     break ;
     there;

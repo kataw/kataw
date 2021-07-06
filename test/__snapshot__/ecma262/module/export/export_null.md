@@ -63,7 +63,6 @@ export default null;
 ### Printed
 
 ```javascript
-
 export default null;
 ```
 

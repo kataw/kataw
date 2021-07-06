@@ -4,9 +4,9 @@ import {
   NodeFlags,
   tokenToString,
   TransformFlags,
-} from '../ast/syntax-node'
-import { RootNode } from '../ast/root-node'
-import { skipWhitespace } from '../parser/scanner/common'
+} from '../ast/syntax-node';
+import { RootNode } from '../ast/root-node';
+import { skipWhitespace } from '../parser/scanner/common';
 import {
   Printer,
   createPrinter,
@@ -18,7 +18,7 @@ import {
   PrinterFlags,
   makeString,
   toggleSemicolon,
-} from './core'
+} from './core';
 import {
   toString,
   DocumentKind,
@@ -31,20 +31,20 @@ import {
   line,
   indent,
   hardline,
-} from '../formatter/index'
+} from '../formatter/index';
 
 export interface PrinterOptions {
-  printWidth?: number
-  tabWidth?: number
-  noSemicolon?: boolean
-  singleQuote?: boolean
-  noWhitespace?: boolean
-  noObjectCurlySpacing?: boolean
-  arrayBracketSpacing?: boolean
-  trailingCommas?: boolean
-  disallowStringEscape?: boolean
-  arrowParens?: boolean
-  endOfLine?: string
+  printWidth?: number;
+  tabWidth?: number;
+  noSemicolon?: boolean;
+  singleQuote?: boolean;
+  noWhitespace?: boolean;
+  noObjectCurlySpacing?: boolean;
+  arrayBracketSpacing?: boolean;
+  trailingCommas?: boolean;
+  disallowStringEscape?: boolean;
+  arrowParens?: boolean;
+  endOfLine?: string;
 }
 
 export const nodeLookupMap: any = {
@@ -211,43 +211,44 @@ export const nodeLookupMap: any = {
   [SyntaxKind.OptionalChain]: printOptionalChain,
   [SyntaxKind.IndexExpressionChain]: printIndexExpressionChain,
   [SyntaxKind.MemberAccessChain]: printMemberAccessChain,
-}
+};
 
 export function printSource(root: RootNode, options?: PrinterOptions) {
-  let flags = PrinterFlags.ObjectCurlySpacing | PrinterFlags.UseSemicolon
-  let printWidth = 80
-  let tabWidth = 2
-  let space = ' '
-  let lineEnd = '\n'
+  let flags = PrinterFlags.ObjectCurlySpacing | PrinterFlags.UseSemicolon;
+  let printWidth = 80;
+  let tabWidth = 2;
+  let space = ' ';
+  let lineEnd = '\n';
   if (options != null) {
-    if (options.printWidth) printWidth = options.printWidth
-    if (options.tabWidth) tabWidth = options.tabWidth
-    if (options.noWhitespace) space = ''
-    if (options.noSemicolon) flags & ~PrinterFlags.UseSemicolon
-    if (options.singleQuote) flags |= PrinterFlags.SingleQuote
-    if (options.arrayBracketSpacing) flags |= PrinterFlags.ArrayBracketSpacing
-    if (options.noObjectCurlySpacing) flags & ~PrinterFlags.ObjectCurlySpacing
-    if (options.trailingCommas) flags |= PrinterFlags.TrailinComma
-    if (options.disallowStringEscape) flags |= PrinterFlags.DisallowStringEscape
-    if (options.arrowParens) flags |= PrinterFlags.ArrowParens
+    if (options.printWidth) printWidth = options.printWidth;
+    if (options.tabWidth) tabWidth = options.tabWidth;
+    if (options.noWhitespace) space = '';
+    if (options.noSemicolon) flags & ~PrinterFlags.UseSemicolon;
+    if (options.singleQuote) flags |= PrinterFlags.SingleQuote;
+    if (options.arrayBracketSpacing) flags |= PrinterFlags.ArrayBracketSpacing;
+    if (options.noObjectCurlySpacing) flags & ~PrinterFlags.ObjectCurlySpacing;
+    if (options.trailingCommas) flags |= PrinterFlags.TrailinComma;
+    if (options.disallowStringEscape)
+      flags |= PrinterFlags.DisallowStringEscape;
+    if (options.arrowParens) flags |= PrinterFlags.ArrowParens;
     if (options.endOfLine) {
-      const eof = options.endOfLine
+      const eof = options.endOfLine;
       // Common on Linux and macOS as well as inside git repos
-      if (eof === 'lf') lineEnd = '\n'
+      if (eof === 'lf') lineEnd = '\n';
       // Line Feed characters (\r\n), common on Windows
-      if (eof === 'crlf') lineEnd = '\n\r'
+      if (eof === 'crlf') lineEnd = '\n\r';
       // Carriage Return character only (\r)
-      if (eof === 'cr') lineEnd = '\r'
+      if (eof === 'cr') lineEnd = '\r';
       // Removes all line endings
-      if (eof === 'none') lineEnd = ''
+      if (eof === 'none') lineEnd = '';
     }
   }
 
-  const printer = createPrinter(root.source, flags, space)
+  const printer = createPrinter(root.source, flags, space);
   return toString(
     printWidth,
     printStatement(printer, root, /* lineMap */ [], root),
-  )
+  );
 }
 
 export function printStatement(
@@ -256,16 +257,16 @@ export function printStatement(
   lineMap: number[],
   parentNode: SyntaxNode,
 ) {
-  const map = nodeLookupMap[node.kind]
-  return map ? map(printer, node, lineMap, parentNode) : ''
+  const map = nodeLookupMap[node.kind];
+  return map ? map(printer, node, lineMap, parentNode) : '';
 }
 
 export function printIdentifier(printer: Printer, node: any): any {
-  return node.rawText
+  return node.rawText;
 }
 
 export function printPrivateIdentifier(printer: Printer, node: any): any {
-  return node.rawText
+  return node.rawText;
 }
 
 export function printAssignmentExpression(
@@ -273,7 +274,7 @@ export function printAssignmentExpression(
   node: any,
   lineMap: number[],
 ): any {
-  const { operatorToken, left, right } = node
+  const { operatorToken, left, right } = node;
   return node.flags & NodeFlags.IgnoreNextNode
     ? printer.source.slice(node.start, node.end)
     : group(
@@ -293,7 +294,7 @@ export function printAssignmentExpression(
             : concat([' ', printStatement(printer, right, lineMap, node)]),
         ]),
         {},
-      )
+      );
 }
 
 export function printConditionalExpression(
@@ -306,7 +307,7 @@ export function printConditionalExpression(
   // ignore the entire 'ConditionalExpression' if the bitwise mask exists.
 
   if (node.flags & NodeFlags.IgnoreNextNode) {
-    return printer.source.slice(node.start, node.end)
+    return printer.source.slice(node.start, node.end);
   }
 
   // Then, check for the 'IgnoreNextNode' bit on the 'consequent' property. This allows
@@ -321,7 +322,7 @@ export function printConditionalExpression(
       ' ',
       '?',
       printer.source.slice(node.questionToken.end, node.end),
-    ])
+    ]);
   }
 
   const printed = concat([
@@ -342,11 +343,11 @@ export function printConditionalExpression(
           : indent(printStatement(printer, node.alternate, lineMap, node)),
       ]),
     ),
-  ])
+  ]);
 
   return parentNode.kind === SyntaxKind.ConditionalExpression
     ? printed
-    : group(printed, {})
+    : group(printed, {});
 }
 
 function printBinaryExpression(
@@ -355,14 +356,14 @@ function printBinaryExpression(
   lineMap: number[],
   parentNode: any,
 ): any {
-  const parentKind = parentNode.kind
+  const parentKind = parentNode.kind;
   const parts: any = printBinaryExpressionRest(
     printer,
     node,
     lineMap,
     parentNode,
     parentKind === SyntaxKind.ParenthesizedExpression,
-  )
+  );
   return parentKind === SyntaxKind.ParenthesizedExpression
     ? concat(parts)
     : parentKind === SyntaxKind.UnaryExpression ||
@@ -390,7 +391,7 @@ function printBinaryExpression(
           indent(concat(parts.slice(1))),
         ]),
         {},
-      )
+      );
 }
 
 function printBinaryExpressionRest(
@@ -409,13 +410,13 @@ function printBinaryExpressionRest(
           node,
           isInsideParenthesis,
         )
-      : [printStatement(printer, node.left, lineMap, node)]
+      : [printStatement(printer, node.left, lineMap, node)];
 
     const right = concat([
       printKeyword(printer, node.operatorToken, node, /* addSpace */ false),
       node.transformFlags & TransformFlags.ArrayOrObjectLiteral ? '' : line,
       printStatement(printer, node.right, lineMap, node),
-    ])
+    ]);
 
     parts.push(
       ' ',
@@ -425,16 +426,16 @@ function printBinaryExpressionRest(
         node.right.kind !== node.kind
         ? group(right, {})
         : right,
-    )
+    );
 
-    return parts
+    return parts;
   }
   return concat([
     printStatement(printer, node.left, lineMap, node),
     ' ',
     printKeyword(printer, node.operatorToken, node, /* addSpace */ true),
     printStatement(printer, node.right, lineMap, node),
-  ])
+  ]);
 }
 
 function printPrefixUpdateExpression(
@@ -445,7 +446,7 @@ function printPrefixUpdateExpression(
   return concat([
     printKeyword(printer, node.operandToken, node, /* addSpace */ true),
     printStatement(printer, node.operand, lineMap, node),
-  ])
+  ]);
 }
 
 function printPostfixUpdateExpression(
@@ -456,7 +457,7 @@ function printPostfixUpdateExpression(
   return concat([
     printStatement(printer, node.operand, lineMap, node),
     printKeyword(printer, node.operandToken, node, /* addSpace */ false),
-  ])
+  ]);
 }
 
 function printUnaryExpression(
@@ -468,7 +469,7 @@ function printUnaryExpression(
     printKeyword(printer, node.operandToken, node, /* addSpace */ false),
     shouldprintWhitespaceBeforeOperand(node) ? ' ' : '',
     printStatement(printer, node.operand, lineMap, node),
-  ])
+  ]);
 }
 
 function printAwaitExpression(
@@ -479,7 +480,7 @@ function printAwaitExpression(
   return concat([
     printKeyword(printer, node.awaitKeyword, node, /* addSpace */ true),
     printStatement(printer, node.expression, lineMap, node),
-  ])
+  ]);
 }
 
 export function printIndexExpression(
@@ -501,7 +502,7 @@ export function printIndexExpression(
           printStatement(printer, node.expression, lineMap, node),
         ]),
         {},
-      )
+      );
 }
 
 function printMemberAccessExpression(
@@ -523,11 +524,11 @@ function printMemberAccessExpression(
       ']',
     ]),
     {},
-  )
+  );
 }
 
 export function printEmptyStatement(): any {
-  return ';'
+  return ';';
 }
 
 export function printExpressionStatement(
@@ -539,7 +540,7 @@ export function printExpressionStatement(
   return concat([
     printStatement(printer, node.expression, lineMap, parentNode),
     ';',
-  ])
+  ]);
 }
 
 export function printRootNode(
@@ -548,30 +549,30 @@ export function printRootNode(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): { kind: DocumentKind; parts: any; flags: DocumentFlags } {
-  const { directives, statements } = node
-  const tokens = []
-  let previousSibling: SyntaxNode | undefined
-  let child: SyntaxNode | undefined
-  let lastIdx = -1
+  const { directives, statements } = node;
+  const tokens = [];
+  let previousSibling: SyntaxNode | undefined;
+  let child: SyntaxNode | undefined;
+  let lastIdx = -1;
 
-  if (directives) {
-    lastIdx = directives.length - 1
+  if (directives && directives.length > 0) {
+    lastIdx = directives.length - 1;
     for (let i = 0; i < directives.length; i++) {
-      if (i === lastIdx) printer.flags |= PrinterFlags.DisallowSemicolon
+      if (i === lastIdx) printer.flags |= PrinterFlags.DisallowSemicolon;
       tokens.push(
         concat([
           hardline,
           printStatement(printer, directives[i], lineMap, parentNode),
           ';',
         ]),
-      )
+      );
     }
-    tokens.push(hardline)
+    tokens.push(hardline);
   }
-  lastIdx = tokens.length - 1
+  lastIdx = tokens.length - 1;
   for (let i = 0; i < statements.length; i++) {
-    if (i === lastIdx) printer.flags |= PrinterFlags.DisallowSemicolon
-    child = statements![i]
+    if (i === lastIdx) printer.flags |= PrinterFlags.DisallowSemicolon;
+    child = statements![i];
     if (child.kind !== SyntaxKind.EmptyStatement) {
       tokens.push(
         previousSibling &&
@@ -582,11 +583,11 @@ export function printRootNode(
               hardline,
             ])
           : printStatement(printer, child, lineMap, node),
-      )
-      previousSibling = child
+      );
+      previousSibling = child;
     }
   }
-  return concat(tokens)
+  return concat(tokens);
 }
 
 export function printArrayLiteral(
@@ -596,7 +597,7 @@ export function printArrayLiteral(
 ): any {
   return node.flags & NodeFlags.IgnoreNextNode
     ? printer.source.slice(node.start, node.end)
-    : printElementList(printer, node.elementList, lineMap, node)
+    : printElementList(printer, node.elementList, lineMap, node);
 }
 
 export function printElementList(
@@ -606,26 +607,26 @@ export function printElementList(
   parentNode: SyntaxNode,
 ): any {
   if (node.elements.length === 0) {
-    return '[]'
+    return '[]';
   }
 
-  const children = node.elements
+  const children = node.elements;
 
-  const elements: any = []
+  const elements: any = [];
 
-  let previousSibling!: SyntaxNode
-  let child!: SyntaxNode
+  let previousSibling!: SyntaxNode;
+  let child!: SyntaxNode;
 
-  const trailingComma = node.trailingComma ? ifBreak(',') : ''
+  const trailingComma = node.trailingComma ? ifBreak(',') : '';
 
   for (let i = 0; i < children.length; i++) {
-    child = children[i]
+    child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', ' ', softline]))
+      elements.push(concat([',', ' ', softline]));
     }
 
-    elements.push(printStatement(printer, child, lineMap, parentNode))
-    previousSibling = child
+    elements.push(printStatement(printer, child, lineMap, parentNode));
+    previousSibling = child;
   }
 
   return group(
@@ -643,7 +644,7 @@ export function printElementList(
       ']',
     ]),
     {},
-  )
+  );
 }
 
 function printArrayBindingPattern(
@@ -653,7 +654,7 @@ function printArrayBindingPattern(
 ): any {
   return node.flags & NodeFlags.IgnoreNextNode
     ? printer.source.slice(node.start, node.end)
-    : printerBindingElementList(printer, node.elementList, lineMap, node)
+    : printerBindingElementList(printer, node.elementList, lineMap, node);
 }
 
 export function printerBindingElementList(
@@ -663,24 +664,24 @@ export function printerBindingElementList(
   parentNode: SyntaxNode,
 ): any {
   if (node.elements.length === 0) {
-    return '[]'
+    return '[]';
   }
 
-  const children = node.elements
+  const children = node.elements;
 
-  const elements: any = []
+  const elements: any = [];
 
-  let previousSibling!: SyntaxNode
-  let child!: SyntaxNode
+  let previousSibling!: SyntaxNode;
+  let child!: SyntaxNode;
 
   for (let i = 0; i < children.length; i++) {
-    child = children[i]
+    child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', ' ', softline]))
+      elements.push(concat([',', ' ', softline]));
     }
 
-    elements.push(printStatement(printer, child, lineMap, parentNode))
-    previousSibling = child
+    elements.push(printStatement(printer, child, lineMap, parentNode));
+    previousSibling = child;
   }
 
   return group(
@@ -703,7 +704,7 @@ export function printerBindingElementList(
       ']',
     ]),
     {},
-  )
+  );
 }
 
 function printBlockStatement(
@@ -713,10 +714,10 @@ function printBlockStatement(
 ): any {
   printer.flags =
     (printer.flags | PrinterFlags.DisallowSemicolon) ^
-    PrinterFlags.DisallowSemicolon
+    PrinterFlags.DisallowSemicolon;
   return node.flags & NodeFlags.IgnoreNextNode
     ? printer.source.slice(node.start, node.end)
-    : printBlock(printer, node.block, lineMap, node)
+    : printBlock(printer, node.block, lineMap, node);
 }
 
 function printBlock(
@@ -726,17 +727,17 @@ function printBlock(
   parentNode: SyntaxNode,
 ): any {
   if (node.statements.length === 0) {
-    return '{}'
+    return '{}';
   }
 
-  const { statements } = node
+  const { statements } = node;
 
-  const tokens = []
-  let previousSibling: SyntaxNode | undefined
-  let child: any
+  const tokens = [];
+  let previousSibling: SyntaxNode | undefined;
+  let child: any;
 
   for (let i = 0; i < statements.length; i++) {
-    child = statements![i]
+    child = statements![i];
     tokens.push(
       previousSibling &&
         previousSibling.end !== skipWhitespace(printer.source, child.start)
@@ -745,8 +746,8 @@ function printBlock(
             printStatement(printer, child, lineMap, parentNode),
           ])
         : printStatement(printer, child, lineMap, node),
-    )
-    previousSibling = child
+    );
+    previousSibling = child;
   }
 
   return concat([
@@ -754,7 +755,7 @@ function printBlock(
     indent(concat([hardline, concat(tokens)])),
     hardline,
     '}',
-  ])
+  ]);
 }
 
 function printTypeAnnotation(
@@ -766,11 +767,11 @@ function printTypeAnnotation(
     printKeyword(printer, node.bitwiseAndToken, node, true),
     printKeyword(printer, node.bitwiseOrToken, node, true),
     printStatement(printer, node.type, lineMap, node),
-  ])
+  ]);
 }
 
 function printArrayType(printer: Printer, node: any, lineMap: number[]): any {
-  return concat([printStatement(printer, node.type, lineMap, node), '[', ']'])
+  return concat([printStatement(printer, node.type, lineMap, node), '[', ']']);
 }
 
 function printObjectTypeProperty(
@@ -787,7 +788,7 @@ function printObjectTypeProperty(
     node.type.kind === SyntaxKind.FunctionType
       ? printStatement(printer, node.type, lineMap, node)
       : concat([':', ' ', printStatement(printer, node.type, lineMap, node)]),
-  ])
+  ]);
 }
 
 function printObjectTypeInternalSlot(
@@ -807,7 +808,7 @@ function printObjectTypeInternalSlot(
     node.type.kind === SyntaxKind.FunctionType
       ? printStatement(printer, node.type, lineMap, node)
       : concat([':', ' ', printStatement(printer, node.type, lineMap, node)]),
-  ])
+  ]);
 }
 
 function printObjectTypeIndexer(
@@ -825,7 +826,7 @@ function printObjectTypeIndexer(
     node.type.kind === SyntaxKind.FunctionType
       ? printStatement(printer, node.type, lineMap, node)
       : concat([':', ' ', printStatement(printer, node.type, lineMap, node)]),
-  ])
+  ]);
 }
 
 function printObjectTypeCallProperty(
@@ -849,7 +850,7 @@ function printObjectTypeCallProperty(
           printStatement(printer, node.returnType, lineMap, node),
         ])
       : '',
-  ])
+  ]);
 }
 
 function printNullableType(
@@ -860,7 +861,7 @@ function printNullableType(
   return concat([
     printKeyword(printer, node.nullableToken, node, /* addSpace */ true),
     printStatement(printer, node.type, lineMap, node),
-  ])
+  ]);
 }
 
 function printIntersectionType(
@@ -877,14 +878,14 @@ function printIntersectionType(
         indent(printStatement(printer, type, lineMap, parentNode)),
       ),
     ),
-  ])
+  ]);
 
   return group(
     parentNode.transformFlags & TransformFlags.TypeParameter
       ? indent(printed)
       : printed,
     {},
-  )
+  );
 }
 
 function printIndexedAccessType(
@@ -898,7 +899,7 @@ function printIndexedAccessType(
     '[',
     printStatement(printer, node.indexType, lineMap, node),
     ']',
-  ])
+  ]);
 }
 
 function printFunctionType(
@@ -926,7 +927,7 @@ function printFunctionType(
               printStatement(printer, node.returnType, lineMap, node),
             ])
           : '',
-      ])
+      ]);
 }
 
 function printFunctionTypeParameter(
@@ -947,7 +948,7 @@ function printFunctionTypeParameter(
               printStatement(printer, node.types, lineMap, node),
             ])
           : '',
-      ])
+      ]);
 }
 
 function printFunctionTypeParameterList(
@@ -956,26 +957,26 @@ function printFunctionTypeParameterList(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
-  const children = node.parameters
+  const children = node.parameters;
 
-  const elements: any = []
+  const elements: any = [];
 
-  let previousSibling!: SyntaxNode
-  let child!: SyntaxNode
+  let previousSibling!: SyntaxNode;
+  let child!: SyntaxNode;
 
-  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline
+  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline;
 
   for (let i = 0; i < children.length; i++) {
-    child = children[i]
+    child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', ' ', lineBreak]))
+      elements.push(concat([',', ' ', lineBreak]));
     }
 
-    elements.push(printStatement(printer, child, lineMap, parentNode))
-    previousSibling = child
+    elements.push(printStatement(printer, child, lineMap, parentNode));
+    previousSibling = child;
   }
 
-  return concat(elements)
+  return concat(elements);
 }
 
 function printBigIntType(
@@ -984,7 +985,7 @@ function printBigIntType(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
-  return printNumericLiteral(printer, <any>node)
+  return printNumericLiteral(printer, <any>node);
 }
 
 function printArrowTypeParameter(
@@ -1005,7 +1006,7 @@ function printArrowTypeParameter(
               printStatement(printer, node.types, lineMap, node),
             ])
           : '',
-      ])
+      ]);
 }
 
 function printArrowFunctionType(
@@ -1027,7 +1028,7 @@ function printArrowFunctionType(
         printKeyword(printer, node.arrowToken, node, /* addSpace */ true),
         ' ',
         printStatement(printer, node.returnType, lineMap, node),
-      ])
+      ]);
 }
 
 function printObjectTypeSpreadProperty(
@@ -1041,7 +1042,7 @@ function printObjectTypeSpreadProperty(
     printKeyword(printer, node.static, node, /* addSpace */ true),
     printKeyword(printer, node.ellipsisToken, node, /* addSpace */ false),
     printStatement(printer, node.type, lineMap, node),
-  ])
+  ]);
 }
 
 function printOpaqueType(
@@ -1076,7 +1077,7 @@ function printOpaqueType(
         ' ',
         printStatement(printer, node.impltype, lineMap, node),
         toggleSemicolon(printer),
-      ])
+      ]);
 }
 
 function printOptionalIndexedAccess(
@@ -1091,7 +1092,7 @@ function printOptionalIndexedAccess(
     '[',
     printStatement(printer, node.indexType, lineMap, node),
     ']',
-  ])
+  ]);
 }
 
 function printOptionalType(
@@ -1103,7 +1104,7 @@ function printOptionalType(
   return concat([
     printStatement(printer, node.type, lineMap, node),
     printKeyword(printer, node.optionalToken, node, /* addSpace */ true),
-  ])
+  ]);
 }
 
 function printParenthesizedType(
@@ -1114,7 +1115,7 @@ function printParenthesizedType(
 ): any {
   return node.flags & NodeFlags.IgnoreNextNode
     ? printer.source.slice(node.start, node.end)
-    : concat(['(', printStatement(printer, node.type, lineMap, node), ')'])
+    : concat(['(', printStatement(printer, node.type, lineMap, node), ')']);
 }
 
 function printQualifiedType(
@@ -1127,7 +1128,7 @@ function printQualifiedType(
     printStatement(printer, node.qualification, lineMap, node),
     '.',
     printStatement(printer, node.name, lineMap, node),
-  ])
+  ]);
 }
 
 function printRestType(
@@ -1141,7 +1142,7 @@ function printRestType(
     : concat([
         printKeyword(printer, node.ellipsisToken, node, /* addSpace */ false),
         printStatement(printer, node.type, lineMap, node),
-      ])
+      ]);
 }
 
 function printSubtractionType(
@@ -1153,7 +1154,7 @@ function printSubtractionType(
   return concat([
     printKeyword(printer, node.subtractionToken, node, /* addSpace */ false),
     printNumericLiteral(printer, <any>node),
-  ])
+  ]);
 }
 
 function printTupleType(
@@ -1163,26 +1164,26 @@ function printTupleType(
   parentNode: SyntaxNode,
 ): any {
   if (node.elementTypes.length === 0) {
-    return '[]'
+    return '[]';
   }
 
-  const children = node.elementTypes
+  const children = node.elementTypes;
 
-  const elements: any = []
+  const elements: any = [];
 
-  let previousSibling!: SyntaxNode
-  let child!: SyntaxNode
+  let previousSibling!: SyntaxNode;
+  let child!: SyntaxNode;
 
-  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline
+  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline;
 
   for (let i = 0; i < children.length; i++) {
-    child = children[i]
+    child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', ' ', lineBreak]))
+      elements.push(concat([',', ' ', lineBreak]));
     }
 
-    elements.push(printStatement(printer, child, lineMap, parentNode))
-    previousSibling = child
+    elements.push(printStatement(printer, child, lineMap, parentNode));
+    previousSibling = child;
   }
 
   return group(
@@ -1194,7 +1195,7 @@ function printTupleType(
       ']',
     ]),
     {},
-  )
+  );
 }
 
 function printTypeInstantiations(
@@ -1204,24 +1205,24 @@ function printTypeInstantiations(
   parentNode: SyntaxNode,
 ): any {
   if (node.types.length === 0) {
-    return '<>'
+    return '<>';
   }
 
-  const elements: any = []
-  const children = node.types
-  let previousSibling!: SyntaxNode
-  let child!: SyntaxNode
+  const elements: any = [];
+  const children = node.types;
+  let previousSibling!: SyntaxNode;
+  let child!: SyntaxNode;
 
-  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline
+  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline;
 
   for (let i = 0; i < children.length; i++) {
-    child = children[i]
+    child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', ' ', lineBreak]))
+      elements.push(concat([',', ' ', lineBreak]));
     }
 
-    elements.push(printStatement(printer, child, lineMap, parentNode))
-    previousSibling = child
+    elements.push(printStatement(printer, child, lineMap, parentNode));
+    previousSibling = child;
   }
 
   return group(
@@ -1232,7 +1233,7 @@ function printTypeInstantiations(
       '>',
     ]),
     {},
-  )
+  );
 }
 
 function printTypeParameterDeclaration(
@@ -1241,7 +1242,7 @@ function printTypeParameterDeclaration(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
-  return printStatement(printer, node.declarations, lineMap, parentNode)
+  return printStatement(printer, node.declarations, lineMap, parentNode);
 }
 
 function printTypeParameterInstantiation(
@@ -1250,7 +1251,7 @@ function printTypeParameterInstantiation(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
-  return printStatement(printer, node.typeInstantiations, lineMap, parentNode)
+  return printStatement(printer, node.typeInstantiations, lineMap, parentNode);
 }
 
 function printTypeParameterList(
@@ -1260,26 +1261,26 @@ function printTypeParameterList(
   parentNode: SyntaxNode,
 ): any {
   if (node.parameters.length === 0) {
-    return '<>'
+    return '<>';
   }
 
-  const children = node.parameters
+  const children = node.parameters;
 
-  const elements: any = []
+  const elements: any = [];
 
-  let previousSibling!: SyntaxNode
-  let child!: SyntaxNode
+  let previousSibling!: SyntaxNode;
+  let child!: SyntaxNode;
 
-  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline
+  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline;
 
   for (let i = 0; i < children.length; i++) {
-    child = children[i]
+    child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', ' ', lineBreak]))
+      elements.push(concat([',', ' ', lineBreak]));
     }
 
-    elements.push(printStatement(printer, child, lineMap, parentNode))
-    previousSibling = child
+    elements.push(printStatement(printer, child, lineMap, parentNode));
+    previousSibling = child;
   }
   return group(
     concat([
@@ -1289,7 +1290,7 @@ function printTypeParameterList(
       '>',
     ]),
     {},
-  )
+  );
 }
 
 function printTypeParameter(
@@ -1319,7 +1320,7 @@ function printTypeParameter(
             ])
           : '',
       ])
-    : ''
+    : '';
 }
 
 function printTypeReference(
@@ -1332,7 +1333,7 @@ function printTypeReference(
     node.typeParameters
       ? printStatement(printer, node.typeParameters, lineMap, node)
       : '',
-  ])
+  ]);
 }
 
 function printTypeofType(printer: Printer, node: any, lineMap: number[]): any {
@@ -1341,7 +1342,7 @@ function printTypeofType(printer: Printer, node: any, lineMap: number[]): any {
     : concat([
         printKeyword(printer, node.typeOfKeyword, node, /* addSpace */ true),
         printStatement(printer, node.type, lineMap, node),
-      ])
+      ]);
 }
 
 function printUnionType(
@@ -1358,14 +1359,14 @@ function printUnionType(
         indent(printStatement(printer, type, lineMap, parentNode)),
       ),
     ),
-  ])
+  ]);
 
   return group(
     parentNode.transformFlags & TransformFlags.TypeParameter
       ? indent(printed)
       : printed,
     {},
-  )
+  );
 }
 
 function printArrowTypeParameterList(
@@ -1374,25 +1375,25 @@ function printArrowTypeParameterList(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
-  const children = node.parameters
+  const children = node.parameters;
 
-  const elements: any = []
+  const elements: any = [];
 
-  let previousSibling!: SyntaxNode
-  let child!: SyntaxNode
+  let previousSibling!: SyntaxNode;
+  let child!: SyntaxNode;
 
-  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline
+  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline;
 
   for (let i = 0; i < children.length; i++) {
-    child = children[i]
+    child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', ' ', lineBreak]))
+      elements.push(concat([',', ' ', lineBreak]));
     }
 
-    elements.push(printStatement(printer, child, lineMap, parentNode))
-    previousSibling = child
+    elements.push(printStatement(printer, child, lineMap, parentNode));
+    previousSibling = child;
   }
-  return concat(elements)
+  return concat(elements);
 }
 
 function printDecoratorList(
@@ -1401,25 +1402,25 @@ function printDecoratorList(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
-  const children = node.elements
+  const children = node.elements;
 
-  const elements: any = []
+  const elements: any = [];
 
-  let previousSibling!: SyntaxNode
-  let child!: SyntaxNode
+  let previousSibling!: SyntaxNode;
+  let child!: SyntaxNode;
 
-  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline
+  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline;
 
   for (let i = 0; i < children.length; i++) {
-    child = children[i]
+    child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', ' ', lineBreak]))
+      elements.push(concat([',', ' ', lineBreak]));
     }
 
-    elements.push(printStatement(printer, child, lineMap, parentNode))
-    previousSibling = child
+    elements.push(printStatement(printer, child, lineMap, parentNode));
+    previousSibling = child;
   }
-  return concat(elements)
+  return concat(elements);
 }
 
 function printDecorator(
@@ -1433,7 +1434,7 @@ function printDecorator(
     : concat([
         printKeyword(printer, node.decoratorToken, node, /* addSpace */ true),
         printStatement(printer, node.expression, lineMap, node),
-      ])
+      ]);
 }
 
 function printBindingProperty(
@@ -1456,7 +1457,7 @@ function printBindingProperty(
           printStatement(printer, node.initializer, lineMap, node),
         ])
       : '',
-  ])
+  ]);
 }
 
 function printFunctionDeclarationOrExpression(
@@ -1505,7 +1506,7 @@ function printFunctionDeclarationOrExpression(
             ? ''
             : ';'
           : '',
-      ])
+      ]);
 }
 
 function printFunctionBody(
@@ -1516,7 +1517,7 @@ function printFunctionBody(
 ): any {
   return node.flags & NodeFlags.IgnoreNextNode
     ? printer.source.slice(node.start, node.end)
-    : printStatement(printer, node.functionStatementList, lineMap, parentNode)
+    : printStatement(printer, node.functionStatementList, lineMap, parentNode);
 }
 
 function printFunctionStatementList(
@@ -1526,17 +1527,35 @@ function printFunctionStatementList(
   parentNode: SyntaxNode,
 ): any {
   if (node.statements.length === 0) {
-    return '{}'
+    return '{}';
   }
-  const { statements } = node
+  const { directives, statements } = node;
 
-  const tokens = []
-  let previousSibling: SyntaxNode | undefined
-  let child: any
-  let lastIdx = statements.length - 1
+  const tokens = [];
+  let previousSibling: SyntaxNode | undefined;
+  let child: any;
+  let lastIdx = statements.length - 1;
+
+  if (directives && directives.length > 0) {
+    lastIdx = directives.length - 1;
+    for (let i = 0; i < directives.length; i++) {
+      if (i === lastIdx) printer.flags |= PrinterFlags.DisallowSemicolon;
+      tokens.push(
+        concat([
+          hardline,
+          printStatement(printer, directives[i], lineMap, parentNode),
+          toggleSemicolon(printer),
+        ]),
+      );
+    }
+    tokens.push(hardline);
+  }
+
+  lastIdx = tokens.length - 1;
+
   for (let i = 0; i < statements.length; i++) {
-    if (i === lastIdx) printer.flags |= PrinterFlags.DisallowSemicolon
-    child = statements![i]
+    if (i === lastIdx) printer.flags |= PrinterFlags.DisallowSemicolon;
+    child = statements![i];
     tokens.push(
       previousSibling &&
         previousSibling.end !== skipWhitespace(printer.source, child.start)
@@ -1545,14 +1564,14 @@ function printFunctionStatementList(
             printStatement(printer, child, lineMap, parentNode),
           ])
         : printStatement(printer, child, lineMap, node),
-    )
-    previousSibling = child
+    );
+    previousSibling = child;
   }
 
   if (tokens.length > 0) {
     printer.flags =
       (printer.flags | PrinterFlags.DisallowSemicolon) ^
-      PrinterFlags.DisallowSemicolon
+      PrinterFlags.DisallowSemicolon;
   }
 
   return concat([
@@ -1560,7 +1579,7 @@ function printFunctionStatementList(
     indent(concat([hardline, concat(tokens)])),
     hardline,
     '}',
-  ])
+  ]);
 }
 
 function printBindingElement(
@@ -1579,7 +1598,7 @@ function printBindingElement(
     node.right
       ? printInitializer(printer, node.right, lineMap, parentNode)
       : '',
-  ])
+  ]);
 }
 
 function printInitializer(
@@ -1593,7 +1612,7 @@ function printInitializer(
     '=',
     ' ',
     printStatement(printer, node, lineMap, parentNode),
-  ])
+  ]);
 }
 
 function printNewExpression(
@@ -1610,7 +1629,7 @@ function printNewExpression(
         node.argumentList
           ? printArgumentsList(printer, node.argumentList, lineMap, parentNode)
           : '',
-      ])
+      ]);
 }
 
 function printArgumentsList(
@@ -1620,52 +1639,52 @@ function printArgumentsList(
   parentNode: SyntaxNode,
 ): any {
   if (node.elements.length === 0) {
-    return '()'
+    return '()';
   }
 
   if (node.elements.length === 1) {
-    const argument = node.elements[0]
+    const argument = node.elements[0];
     if (
       argument.transformFlags & TransformFlags.ArrayOrObjectLiteral ||
       argument.kind === SyntaxKind.FunctionDeclaration ||
       argument.kind === SyntaxKind.FunctionExpression ||
-      argument.kind === SyntaxKind.ArrowFunction
+      argument.kind === SyntaxKind.ArrowFunction ||
+      argument.kind === SyntaxKind.Identifier
     ) {
       return concat([
         '(',
         printStatement(printer, argument, lineMap, parentNode),
         ')',
-      ])
+      ]);
     }
   }
 
-  const children = node.elements
+  const children = node.elements;
 
-  const elements: any = []
+  const elements: any = [];
 
-  let previousSibling!: SyntaxNode
-  let child!: SyntaxNode
+  let previousSibling!: SyntaxNode;
+  let child!: SyntaxNode;
 
   for (let i = 0; i < children.length; i++) {
-    child = children[i]
+    child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', ' ', softline]))
+      elements.push(concat([',', ' ', softline]));
     }
 
-    elements.push(printStatement(printer, child, lineMap, parentNode))
-    previousSibling = child
+    elements.push(printStatement(printer, child, lineMap, parentNode));
+    previousSibling = child;
   }
 
   return group(
     concat([
       '(',
-      indent(
-        concat([softline, concat(elements)])
-      ),
+      indent(concat([softline, concat(elements)])),
       ifBreak(node.trailingComma ? ',' : ''),
       softline,
-      ')'
-    ]), {}
+      ')',
+    ]),
+    {},
   );
 }
 
@@ -1681,7 +1700,7 @@ function printCallExpression(
       printArgumentsList(printer, node.argumentList, lineMap, node),
     ]),
     {},
-  )
+  );
 }
 
 function printYieldExpression(
@@ -1698,7 +1717,7 @@ function printYieldExpression(
         node.expression
           ? printStatement(printer, node.expression, lineMap, node)
           : '',
-      ])
+      ]);
 }
 
 function printSpreadElement(
@@ -1710,7 +1729,7 @@ function printSpreadElement(
   return concat([
     printKeyword(printer, node.ellipsisToken, node, /* addSpace */ false),
     printStatement(printer, node.argument, lineMap, node),
-  ])
+  ]);
 }
 
 function printRegularExpressionLiteral(
@@ -1719,7 +1738,7 @@ function printRegularExpressionLiteral(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
-  return node.text
+  return node.text;
 }
 
 function printImportCall(
@@ -1736,7 +1755,7 @@ function printImportCall(
       ')',
     ]),
     {},
-  )
+  );
 }
 
 function printImportMeta(
@@ -1749,7 +1768,7 @@ function printImportMeta(
     printKeyword(printer, node.importKeyword, node, /* addSpace */ false),
     '.',
     printKeyword(printer, node.metaIdentifier, node, /* addSpace */ false),
-  ])
+  ]);
 }
 
 function printTaggedTemplate(
@@ -1761,7 +1780,7 @@ function printTaggedTemplate(
   return concat([
     printStatement(printer, node.member, lineMap, node),
     printStatement(printer, node.template, lineMap, node),
-  ])
+  ]);
 }
 
 function printTemplateExpression(
@@ -1771,32 +1790,32 @@ function printTemplateExpression(
   parentNode: SyntaxNode,
 ): any {
   if (node.spans.length === 0) {
-    return '``'
+    return '``';
   }
-  const children = node.spans
+  const children = node.spans;
 
-  const elements: any = []
+  const elements: any = [];
 
-  let previousSibling!: SyntaxNode
-  let child!: SyntaxNode
+  let previousSibling!: SyntaxNode;
+  let child!: SyntaxNode;
 
-  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline
+  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline;
 
   for (let i = 0; i < children.length; i++) {
-    child = children[i]
+    child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', ' ', lineBreak]))
+      elements.push(concat([',', ' ', lineBreak]));
     }
 
-    elements.push(printStatement(printer, child, lineMap, parentNode))
-    previousSibling = child
+    elements.push(printStatement(printer, child, lineMap, parentNode));
+    previousSibling = child;
   }
   return concat([
     '`',
     concat(elements),
     printStatement(printer, node.tail, lineMap, node),
     '`',
-  ])
+  ]);
 }
 
 function printTemplateSpan(
@@ -1814,7 +1833,7 @@ function printTemplateSpan(
       '}',
     ]),
     {},
-  )
+  );
 }
 
 function printTemplateTail(
@@ -1825,7 +1844,7 @@ function printTemplateTail(
 ): any {
   return node.flags & NodeFlags.TemplateLiteral
     ? '`' + node.rawText + '`'
-    : node.rawText
+    : node.rawText;
 }
 
 function printComputedPropertyName(
@@ -1838,7 +1857,7 @@ function printComputedPropertyName(
     '[',
     printStatement(printer, node.expression, lineMap, parentNode),
     ']',
-  ])
+  ]);
 }
 
 function printClassDeclarationOrExpression(
@@ -1858,13 +1877,14 @@ function printClassDeclarationOrExpression(
           : '',
         printKeyword(printer, node.declareKeyword, node, /* addSpace */ true),
         printKeyword(printer, node.classKeyword, node, /* addSpace */ true),
-        node.name ? printStatement(printer, node.name, lineMap, node) : '',
+        node.name
+          ? concat([printStatement(printer, node.name, lineMap, node), ' '])
+          : '',
         node.typeParameters
           ? printStatement(printer, node.typeParameters, lineMap, node)
           : '',
-        ' ',
         printStatement(printer, node.tail, lineMap, node),
-      ])
+      ]);
 }
 
 function printClassTail(
@@ -1875,15 +1895,12 @@ function printClassTail(
 ): any {
   return concat([
     node.classHeritage
-      ? concat([
-          ' ',
-          printStatement(printer, node.classHeritage, lineMap, node),
-        ])
+      ? printStatement(printer, node.classHeritage, lineMap, parentNode)
       : '',
     node.flags & NodeFlags.Declared
-      ? printObjectType(printer, node.body, lineMap, node)
-      : printClassBody(printer, node.body, lineMap, node),
-  ])
+      ? printObjectType(printer, node.body, lineMap, parentNode)
+      : printClassBody(printer, node.body, lineMap, parentNode),
+  ]);
 }
 
 function printClassBody(
@@ -1893,17 +1910,17 @@ function printClassBody(
   parentNode: SyntaxNode,
 ): any {
   if (node.elements.length === 0) {
-    return '{}'
+    return '{}';
   }
   printer.flags =
     (printer.flags | PrinterFlags.DisallowSemicolon) ^
-    PrinterFlags.DisallowSemicolon
-  const elements = []
-  let previousSibling: SyntaxNode | undefined
-  let child: SyntaxNode | any
-  const statements = node.elements
+    PrinterFlags.DisallowSemicolon;
+  const elements = [];
+  let previousSibling: SyntaxNode | undefined;
+  let child: SyntaxNode | any;
+  const statements = node.elements;
   for (let i = 0; i < statements.length; i++) {
-    child = statements![i]
+    child = statements![i];
     elements.push(
       previousSibling &&
         previousSibling.end !== skipWhitespace(printer.source, child.start)
@@ -1912,15 +1929,15 @@ function printClassBody(
             printStatement(printer, child, lineMap, parentNode),
           ])
         : printStatement(printer, child, lineMap, node),
-    )
-    previousSibling = child
+    );
+    previousSibling = child;
   }
   return concat([
     '{',
     indent(concat([hardline, concat(elements)])),
     hardline,
     '}',
-  ])
+  ]);
 }
 
 function printClassElement(
@@ -1943,7 +1960,7 @@ function printClassElement(
     printKeyword(printer, node.getKeyword, node, /* addSpace */ true),
     printKeyword(printer, node.asteriskToken, node, /* addSpace */ true),
     printStatement(printer, node.method, lineMap, node),
-  ])
+  ]);
 }
 
 function printFieldDefinition(
@@ -1976,7 +1993,7 @@ function printFieldDefinition(
       ? printInitializer(printer, node.initializer, lineMap, node)
       : '',
     toggleSemicolon(printer),
-  ])
+  ]);
 }
 
 function printObjectType(
@@ -1986,32 +2003,43 @@ function printObjectType(
   parentNode: SyntaxNode,
 ): any {
   if (node.properties.length === 0) {
-    return '{}'
+    return '{}';
   }
 
-  const children = node.properties
+  const children = node.properties;
 
-  const elements: any = []
+  const elements: any = [];
 
-  let previousSibling!: SyntaxNode
-  let child!: SyntaxNode
+  let previousSibling!: SyntaxNode;
+  let child!: SyntaxNode;
 
-  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline
+  const lineBreak = node.flags & NodeFlags.NewLine ? hardline : softline;
 
   for (let i = 0; i < children.length; i++) {
-    child = children[i]
+    child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', ' ', lineBreak]))
+      elements.push(concat([',', ' ', lineBreak]));
     }
 
-    elements.push(printStatement(printer, child, lineMap, parentNode))
-    previousSibling = child
+    elements.push(printStatement(printer, child, lineMap, parentNode));
+    previousSibling = child;
   }
 
   return group(
-    concat(['{', indent(concat([line, concat(elements)])), line, '}']),
+    concat([
+      '{',
+      indent(
+        concat([
+          printer.flags & PrinterFlags.ObjectCurlySpacing ? line : softline,
+          concat(elements),
+        ]),
+      ),
+      ifBreak(node.trailingComma ? ',' : ''),
+      printer.flags & PrinterFlags.ObjectCurlySpacing ? line : softline,
+      '}',
+    ]),
     {},
-  )
+  );
 }
 
 function printArrowFunction(
@@ -2038,29 +2066,29 @@ function printArrowFunction(
     ),
     ' ',
     printKeyword(printer, node.arrowToken, node, /* addSpace */ false),
-  ]
+  ];
 
-  const { contents } = node
+  const { contents } = node;
 
   if (contents.kind === SyntaxKind.FunctionBody) {
-    parts.push(' ', printFunctionBody(printer, contents, lineMap, node))
-    return concat(parts)
+    parts.push(' ', printFunctionBody(printer, contents, lineMap, node));
+    return concat(parts);
   }
 
-  const body: any = printStatement(printer, contents, lineMap, node)
+  const body: any = printStatement(printer, contents, lineMap, node);
 
   if (
     contents.kind === SyntaxKind.BlockStatement ||
     contents.transformFlags & TransformFlags.ArrayOrObjectLiteral ||
     contents.kind === SyntaxKind.ArrowFunction
   ) {
-    return group(concat([concat(parts), ' ', body]), {})
+    return group(concat([concat(parts), ' ', body]), {});
   }
 
   return group(
     concat([concat(parts), group(concat([indent(concat([line, body]))]), {})]),
     {},
-  )
+  );
 }
 
 function printArrowParameterList(
@@ -2070,25 +2098,25 @@ function printArrowParameterList(
   parentNode: SyntaxNode,
 ): any {
   if (node.parameters.length === 0) {
-    return '()'
+    return '()';
   }
-  const children = node.parameters
+  const children = node.parameters;
 
-  const elements: any = []
+  const elements: any = [];
 
-  let previousSibling!: SyntaxNode
-  let child!: SyntaxNode
+  let previousSibling!: SyntaxNode;
+  let child!: SyntaxNode;
 
   for (let i = 0; i < children.length; i++) {
-    child = children[i]
+    child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', ' ', softline]))
+      elements.push(concat([',', ' ', softline]));
     }
 
-    elements.push(printStatement(printer, child, lineMap, parentNode))
-    previousSibling = child
+    elements.push(printStatement(printer, child, lineMap, parentNode));
+    previousSibling = child;
   }
-  return concat(['(', concat(elements), ')'])
+  return concat(['(', concat(elements), ')']);
 }
 
 function printCoverInitializedName(
@@ -2106,7 +2134,7 @@ function printCoverInitializedName(
       printStatement(printer, node.right, lineMap, node),
     ]),
     {},
-  )
+  );
 }
 
 function printPropertyMethod(
@@ -2124,7 +2152,7 @@ function printPropertyMethod(
       printStatement(printer, node.method, lineMap, node),
     ]),
     {},
-  )
+  );
 }
 
 function printObjectLiteral(
@@ -2140,7 +2168,7 @@ function printObjectLiteral(
         node.propertyList,
         lineMap,
         parentNode,
-      )
+      );
 }
 
 function printBindingPropertyListOrPropertyDefinitionList(
@@ -2149,25 +2177,25 @@ function printBindingPropertyListOrPropertyDefinitionList(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
-  const properties = node.properties
+  const properties = node.properties;
 
   if (properties.length === 0) {
-    return '{}'
+    return '{}';
   }
 
-  const elements: any = []
+  const elements: any = [];
 
-  let previousSibling!: SyntaxNode
-  let child!: SyntaxNode
+  let previousSibling!: SyntaxNode;
+  let child!: SyntaxNode;
 
   for (let i = 0; i < properties.length; i++) {
-    child = properties[i]
+    child = properties[i];
     if (previousSibling) {
-      elements.push(concat([',', ' ', softline]))
+      elements.push(concat([',', ' ', softline]));
     }
 
-    elements.push(printStatement(printer, child, lineMap, parentNode))
-    previousSibling = child
+    elements.push(printStatement(printer, child, lineMap, parentNode));
+    previousSibling = child;
   }
 
   return group(
@@ -2184,7 +2212,7 @@ function printBindingPropertyListOrPropertyDefinitionList(
       '}',
     ]),
     {},
-  )
+  );
 }
 
 function printObjectBindingPattern(
@@ -2200,7 +2228,7 @@ function printObjectBindingPattern(
         node.propertyList,
         lineMap,
         parentNode,
-      )
+      );
 }
 
 function printBindingList(
@@ -2209,26 +2237,26 @@ function printBindingList(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
-  const children = node.bindingList
+  const children = node.bindingList;
   printer.flags =
     (printer.flags | PrinterFlags.DisallowSemicolon) ^
-    PrinterFlags.DisallowSemicolon
-  const elements: any = []
+    PrinterFlags.DisallowSemicolon;
+  const elements: any = [];
 
-  let previousSibling!: SyntaxNode
-  let child!: SyntaxNode
+  let previousSibling!: SyntaxNode;
+  let child!: SyntaxNode;
 
   for (let i = 0; i < children.length; i++) {
-    child = children[i]
+    child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', ' ', softline]))
+      elements.push(concat([',', ' ', softline]));
     }
 
-    elements.push(printStatement(printer, child, lineMap, parentNode))
-    previousSibling = child
+    elements.push(printStatement(printer, child, lineMap, parentNode));
+    previousSibling = child;
   }
 
-  return concat(elements)
+  return concat(elements);
 }
 
 function printVariableDeclarationList(
@@ -2237,26 +2265,26 @@ function printVariableDeclarationList(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
-  const children = node.declarations
+  const children = node.declarations;
   printer.flags =
     (printer.flags | PrinterFlags.DisallowSemicolon) ^
-    PrinterFlags.DisallowSemicolon
-  const elements: any = []
+    PrinterFlags.DisallowSemicolon;
+  const elements: any = [];
 
-  let previousSibling!: SyntaxNode
-  let child!: SyntaxNode
+  let previousSibling!: SyntaxNode;
+  let child!: SyntaxNode;
 
   for (let i = 0; i < children.length; i++) {
-    child = children[i]
+    child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', ' ', softline]))
+      elements.push(concat([',', ' ', softline]));
     }
 
-    elements.push(printStatement(printer, child, lineMap, parentNode))
-    previousSibling = child
+    elements.push(printStatement(printer, child, lineMap, parentNode));
+    previousSibling = child;
   }
 
-  return concat(elements)
+  return concat(elements);
 }
 
 function printVariableStatement(
@@ -2284,7 +2312,7 @@ function printVariableStatement(
           inForStatement ? '' : toggleSemicolon(printer),
         ]),
         {},
-      )
+      );
 }
 
 function printLexicalDeclaration(
@@ -2294,7 +2322,7 @@ function printLexicalDeclaration(
   parentNode: SyntaxNode,
   inForStatement: boolean,
 ): any {
-  const printed = printBindingList(printer, node.binding, lineMap, node)
+  const printed = printBindingList(printer, node.binding, lineMap, node);
   return node.flags & NodeFlags.IgnoreNextNode
     ? printer.source.slice(node.start, node.end)
     : group(
@@ -2305,7 +2333,7 @@ function printLexicalDeclaration(
           inForStatement ? '' : toggleSemicolon(printer),
         ]),
         {},
-      )
+      );
 }
 
 function printVariableDeclarationOrLexicalBinding(
@@ -2315,7 +2343,7 @@ function printVariableDeclarationOrLexicalBinding(
   parentNode: SyntaxNode,
 ): any {
   if (node.initializer) {
-    const { initializer } = node
+    const { initializer } = node;
 
     return group(
       concat([
@@ -2349,7 +2377,7 @@ function printVariableDeclarationOrLexicalBinding(
           : concat([' ', printStatement(printer, initializer, lineMap, node)]),
       ]),
       {},
-    )
+    );
   }
 
   return concat([
@@ -2357,7 +2385,7 @@ function printVariableDeclarationOrLexicalBinding(
     node.type
       ? concat([':', ' ', printStatement(printer, node.type, lineMap, node)])
       : '',
-  ])
+  ]);
 }
 
 function printPropertyDefinition(
@@ -2382,7 +2410,7 @@ function printPropertyDefinition(
         : concat([' ', printStatement(printer, node.right, lineMap, node)]),
     ]),
     {},
-  )
+  );
 }
 
 function printMethodDefinition(
@@ -2405,7 +2433,7 @@ function printMethodDefinition(
       : '',
     ' ',
     printFunctionBody(printer, node.contents, lineMap, node),
-  ])
+  ]);
 }
 
 function printFormalParameterList(
@@ -2415,22 +2443,22 @@ function printFormalParameterList(
   parentNode: SyntaxNode,
 ): any {
   if (node.formalParameters.length === 0) {
-    return '()'
+    return '()';
   }
-  const children = node.formalParameters
+  const children = node.formalParameters;
 
-  const elements: any = []
+  const elements: any = [];
 
-  let previousSibling!: SyntaxNode
-  let child!: SyntaxNode
+  let previousSibling!: SyntaxNode;
+  let child!: SyntaxNode;
 
   for (let i = 0; i < children.length; i++) {
-    child = children[i]
+    child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', ' ', softline]))
+      elements.push(concat([',', ' ', softline]));
     }
-    elements.push(printStatement(printer, child, lineMap, parentNode))
-    previousSibling = child
+    elements.push(printStatement(printer, child, lineMap, parentNode));
+    previousSibling = child;
   }
 
   return node.formalParameters.length === 1
@@ -2447,7 +2475,7 @@ function printFormalParameterList(
         ),
         softline,
         ')',
-      ])
+      ]);
 }
 
 function printOptionalExpression(
@@ -2460,7 +2488,7 @@ function printOptionalExpression(
     printStatement(printer, node.member, lineMap, node),
     printKeyword(printer, node.chainToken, node, /* addSpace */ false),
     printStatement(printer, node.chain, lineMap, node),
-  ])
+  ]);
 }
 
 function printOptionalChain(
@@ -2469,7 +2497,7 @@ function printOptionalChain(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
-  return printStatement(printer, node.chain, lineMap, node)
+  return printStatement(printer, node.chain, lineMap, node);
 }
 
 function printCallChain(
@@ -2487,7 +2515,7 @@ function printCallChain(
       printArgumentsList(printer, node.argumentList, lineMap, node),
     ]),
     {},
-  )
+  );
 }
 
 function printIndexExpressionChain(
@@ -2500,7 +2528,7 @@ function printIndexExpressionChain(
     node.chain ? printStatement(printer, node.chain, lineMap, node) : '',
     parentNode.kind === SyntaxKind.OptionalChain ? '' : '.',
     printStatement(printer, node.expression, lineMap, node),
-  ])
+  ]);
 }
 
 function printMemberAccessChain(
@@ -2514,7 +2542,7 @@ function printMemberAccessChain(
     '[',
     printStatement(printer, node.expression, lineMap, node),
     ']',
-  ])
+  ]);
 }
 
 function printExportSpecifier(
@@ -2533,7 +2561,7 @@ function printExportSpecifier(
     node.binding
       ? concat([' ', printStatement(printer, node.binding, lineMap, node)])
       : '',
-  ])
+  ]);
 }
 
 function printExportDefault(
@@ -2549,7 +2577,7 @@ function printExportDefault(
         printKeyword(printer, node.defaultKeyword, node, /* addSpace */ true),
         printStatement(printer, node.declaration, lineMap, node),
         toggleSemicolon(printer),
-      ])
+      ]);
 }
 
 function printFromClause(
@@ -2565,7 +2593,7 @@ function printFromClause(
         printStatement(printer, node.from, lineMap, node),
         toggleSemicolon(printer),
       ])
-    : ''
+    : '';
 }
 
 function printNamedExports(
@@ -2574,7 +2602,12 @@ function printNamedExports(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
-  return printExportsImportsList(printer, node.exportsList, lineMap, parentNode)
+  return printExportsImportsList(
+    printer,
+    node.exportsList,
+    lineMap,
+    parentNode,
+  );
 }
 
 function printExportFromClause(
@@ -2591,9 +2624,9 @@ function printExportFromClause(
           printKeyword(printer, node.asKeyword, node, /* addSpace */ true),
           printStatement(printer, node.moduleExportName, lineMap, node),
           printStatement(printer, node.namedBinding, lineMap, node),
-        ])
+        ]);
   }
-  return printKeyword(printer, node.asteriskToken, node, /* addSpace */ true)
+  return printKeyword(printer, node.asteriskToken, node, /* addSpace */ true);
 }
 
 function printExportDeclaration(
@@ -2623,7 +2656,7 @@ function printExportDeclaration(
             ? ''
             : ';'
           : '',
-      ])
+      ]);
 }
 
 function printNameSpaceImport(
@@ -2634,7 +2667,7 @@ function printNameSpaceImport(
   return concat([
     printKeyword(node.asteriskToken, printer, node, /* addSpace */ true),
     printStatement(printer, node.binding, lineMap, node),
-  ])
+  ]);
 }
 
 function printImportClause(
@@ -2655,7 +2688,7 @@ function printImportClause(
         node.namedImports
           ? printStatement(printer, node.namedImports, lineMap, node)
           : '',
-      ])
+      ]);
 }
 
 // ImportDeclaration :
@@ -2682,7 +2715,7 @@ function printImportDeclaration(
         node.moduleSpecifier
           ? printStatement(printer, node.moduleSpecifier, lineMap, node)
           : '',
-      ])
+      ]);
 }
 
 function printNamedImports(
@@ -2691,7 +2724,7 @@ function printNamedImports(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
-  return printExportsImportsList(printer, node.importsList, lineMap, node)
+  return printExportsImportsList(printer, node.importsList, lineMap, node);
 }
 
 function printExportsImportsList(
@@ -2701,24 +2734,24 @@ function printExportsImportsList(
   parentNode: SyntaxNode,
 ): any {
   if (node.specifiers.length === 0) {
-    return '{}'
+    return '{}';
   }
 
-  const children = node.specifiers
+  const children = node.specifiers;
 
-  const elements: any = []
+  const elements: any = [];
 
-  let previousSibling!: SyntaxNode
-  let child!: SyntaxNode
+  let previousSibling!: SyntaxNode;
+  let child!: SyntaxNode;
 
   for (let i = 0; i < children.length; i++) {
-    child = children[i]
+    child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', ' ', softline]))
+      elements.push(concat([',', ' ', softline]));
     }
 
-    elements.push(printStatement(printer, child, lineMap, parentNode))
-    previousSibling = child
+    elements.push(printStatement(printer, child, lineMap, parentNode));
+    previousSibling = child;
   }
 
   return group(
@@ -2730,7 +2763,7 @@ function printExportsImportsList(
       '}',
     ]),
     {},
-  )
+  );
 }
 
 function printImportSpecifier(
@@ -2752,7 +2785,7 @@ function printImportSpecifier(
         printKeyword(printer, node.typeKeyword, node, /* addSpace */ true),
         printKeyword(printer, node.asKeyword, node, /* addSpace */ true),
         printStatement(printer, node.binding, lineMap, parentNode),
-      ])
+      ]);
 }
 
 function printDoWhileStatement(
@@ -2791,7 +2824,7 @@ function printDoWhileStatement(
         ),
         ')',
         toggleSemicolon(printer),
-      ])
+      ]);
 }
 
 function printWhileStatement(
@@ -2826,7 +2859,7 @@ function printWhileStatement(
           ),
         ]),
         {},
-      )
+      );
 }
 
 function printDebuggerStatement(
@@ -2838,7 +2871,7 @@ function printDebuggerStatement(
   return concat([
     printKeyword(printer, node.debuggerKeyword, node, /* addSpace */ false),
     toggleSemicolon(printer),
-  ])
+  ]);
 }
 
 function printLabelledStatement(
@@ -2858,7 +2891,7 @@ function printLabelledStatement(
               ' ',
               printStatement(printer, node.statement, lineMap, node),
             ]),
-      ])
+      ]);
 }
 
 function printContinueStatement(
@@ -2875,7 +2908,7 @@ function printContinueStatement(
           ? concat([' ', printStatement(printer, node.label, lineMap, node)])
           : '',
         toggleSemicolon(printer),
-      ])
+      ]);
 }
 
 function printBreakStatement(
@@ -2892,7 +2925,7 @@ function printBreakStatement(
           ? concat([' ', printStatement(printer, node.label, lineMap, node)])
           : '',
         toggleSemicolon(printer),
-      ])
+      ]);
 }
 
 function printWithStatement(
@@ -2927,7 +2960,7 @@ function printWithStatement(
           ),
         ]),
         {},
-      )
+      );
 }
 
 function printNewTarget(printer: Printer, node: any): any {
@@ -2942,7 +2975,7 @@ function printNewTarget(printer: Printer, node: any): any {
           node,
           /* addSpace */ false,
         ),
-      ])
+      ]);
 }
 
 function printCatchClause(
@@ -2953,7 +2986,7 @@ function printCatchClause(
 ): any {
   printer.flags =
     (printer.flags | PrinterFlags.DisallowSemicolon) ^
-    PrinterFlags.DisallowSemicolon
+    PrinterFlags.DisallowSemicolon;
   return node.catchParameter
     ? concat([
         printKeyword(printer, node.catchKeyword, node, /* addSpace */ true),
@@ -2966,7 +2999,7 @@ function printCatchClause(
     : concat([
         printKeyword(printer, node.catchKeyword, node, /* addSpace */ true),
         printStatement(printer, node.block, lineMap, parentNode),
-      ])
+      ]);
 }
 
 function printSwitchStatement(
@@ -2997,7 +3030,7 @@ function printSwitchStatement(
       {},
     ),
     printCaseBlock(printer, node.caseBlock, lineMap, node),
-  ])
+  ]);
 }
 
 function printCaseBlock(
@@ -3007,16 +3040,16 @@ function printCaseBlock(
   parentNode: SyntaxNode,
 ): any {
   if (node.clauses.length === 0) {
-    return '{}'
+    return '{}';
   }
-  const children = node.clauses
+  const children = node.clauses;
 
-  const tokens = []
-  let previousSibling: SyntaxNode | undefined
-  let child: SyntaxNode | any
+  const tokens = [];
+  let previousSibling: SyntaxNode | undefined;
+  let child: SyntaxNode | any;
 
   for (let i = 0; i < children.length; i++) {
-    child = children![i]
+    child = children![i];
     tokens.push(
       previousSibling &&
         previousSibling.end !== skipWhitespace(printer.source, child.start)
@@ -3025,8 +3058,8 @@ function printCaseBlock(
             printStatement(printer, child, lineMap, parentNode),
           ])
         : printStatement(printer, child, lineMap, parentNode),
-    )
-    previousSibling = child
+    );
+    previousSibling = child;
   }
 
   return concat([
@@ -3034,7 +3067,7 @@ function printCaseBlock(
     indent(concat([hardline, concat(tokens)])),
     hardline,
     '}',
-  ])
+  ]);
 }
 
 function printDefaultClause(
@@ -3043,7 +3076,7 @@ function printDefaultClause(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
-  const { statements } = node
+  const { statements } = node;
   return concat([
     printKeyword(printer, node.defaultKeyword, node, /* addSpace */ true),
     statements.length === 1 && statements[0].kind === SyntaxKind.Block
@@ -3059,7 +3092,7 @@ function printDefaultClause(
             ),
           ]),
         ),
-  ])
+  ]);
 }
 
 function printCaseClause(
@@ -3068,7 +3101,7 @@ function printCaseClause(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
-  const { statements } = node
+  const { statements } = node;
   return concat([
     printKeyword(printer, node.caseKeyword, node, /* addSpace */ true),
     printStatement(printer, node.expression, lineMap, node),
@@ -3087,7 +3120,7 @@ function printCaseClause(
             ),
           ]),
         ),
-  ])
+  ]);
 }
 
 function printCaseOrDefaultClauseStatements(
@@ -3096,11 +3129,11 @@ function printCaseOrDefaultClauseStatements(
   lineMap: number[],
   parentNode: any,
 ): any {
-  const tokens = []
-  let previousSibling: SyntaxNode | undefined
-  let child: SyntaxNode | any
+  const tokens = [];
+  let previousSibling: SyntaxNode | undefined;
+  let child: SyntaxNode | any;
   for (let i = 0; i < children.length; i++) {
-    child = children![i]
+    child = children![i];
     tokens.push(
       previousSibling &&
         previousSibling.end !== skipWhitespace(printer.source, child.start)
@@ -3109,10 +3142,10 @@ function printCaseOrDefaultClauseStatements(
             printStatement(printer, child, lineMap, parentNode),
           ])
         : printStatement(printer, child, lineMap, parentNode),
-    )
-    previousSibling = child
+    );
+    previousSibling = child;
   }
-  return concat(tokens)
+  return concat(tokens);
 }
 
 function printTryStatement(
@@ -3123,7 +3156,7 @@ function printTryStatement(
 ): any {
   printer.flags =
     (printer.flags | PrinterFlags.DisallowSemicolon) ^
-    PrinterFlags.DisallowSemicolon
+    PrinterFlags.DisallowSemicolon;
   return concat([
     printKeyword(printer, node.tryKeyword, node, /* addSpace */ true),
     printStatement(printer, node.block, lineMap, node),
@@ -3140,7 +3173,7 @@ function printTryStatement(
           printStatement(printer, node.finallyBlock, lineMap, node),
         ])
       : '',
-  ])
+  ]);
 }
 
 function printReturnStatement(
@@ -3160,7 +3193,7 @@ function printReturnStatement(
       ? printStatement(printer, node.expression, lineMap, node)
       : '',
     toggleSemicolon(printer),
-  ])
+  ]);
 }
 
 function printThrowStatement(
@@ -3175,7 +3208,7 @@ function printThrowStatement(
       ? printStatement(printer, node.expression, lineMap, node)
       : '',
     ';',
-  ])
+  ]);
 }
 
 function printForInStatement(
@@ -3200,7 +3233,7 @@ function printForInStatement(
       ),
     ]),
     {},
-  )
+  );
 }
 
 function printForOfStatement(
@@ -3226,7 +3259,7 @@ function printForOfStatement(
       ),
     ]),
     {},
-  )
+  );
 }
 
 function printForStatement(
@@ -3280,7 +3313,7 @@ function printForStatement(
           ),
         ]),
         {},
-      )
+      );
 }
 
 function adjustClause(
@@ -3291,14 +3324,14 @@ function adjustClause(
 ) {
   printer.flags =
     (printer.flags | PrinterFlags.DisallowSemicolon) ^
-    PrinterFlags.DisallowSemicolon
+    PrinterFlags.DisallowSemicolon;
   return node.kind === SyntaxKind.EmptyStatement
     ? printer.flags & PrinterFlags.DisallowSemicolon
       ? ''
       : ';'
     : node.kind === SyntaxKind.Block || forceSpace
     ? concat([' ', clause])
-    : indent(concat([line, clause]))
+    : indent(concat([line, clause]));
 }
 
 function printForBinding(
@@ -3317,7 +3350,7 @@ function printForBinding(
           lineMap,
           node,
         ),
-      ])
+      ]);
     }
 
     if (node.kind === SyntaxKind.LexicalDeclaration) {
@@ -3327,9 +3360,9 @@ function printForBinding(
         lineMap,
         node,
         /* fromForStatement */ true,
-      )
+      );
     }
-    return printStatement(printer, node, lineMap, parentNode)
+    return printStatement(printer, node, lineMap, parentNode);
   }
 }
 
@@ -3365,7 +3398,7 @@ function printIfStatement(
       ]),
       {},
     ),
-  ]
+  ];
 
   if (node.alternate) {
     parts.push(
@@ -3380,10 +3413,10 @@ function printIfStatement(
         ),
         {},
       ),
-    )
+    );
   }
 
-  return concat(parts)
+  return concat(parts);
 }
 
 function printClassHeritage(
@@ -3399,7 +3432,7 @@ function printClassHeritage(
       ? printStatement(printer, node.typeParameter, lineMap, node)
       : '',
     ' ',
-  ])
+  ]);
 }
 
 function printTypeAlias(printer: Printer, node: any, lineMap: number[]): any {
@@ -3413,7 +3446,7 @@ function printTypeAlias(printer: Printer, node: any, lineMap: number[]): any {
     ' ',
     printKeyword(printer, node.assignToken, node, /* addSpace */ true),
     printStatement(printer, node.type, lineMap, node),
-  ])
+  ]);
 }
 
 function printParenthesizedExpression(
@@ -3435,7 +3468,7 @@ function printParenthesizedExpression(
       ')',
     ]),
     {},
-  )
+  );
 }
 
 function printNumericLiteral(printer: Printer, node: any): any {
@@ -3452,21 +3485,21 @@ function printNumericLiteral(printer: Printer, node: any): any {
         // Remove extraneous trailing decimal zeroes.
         .replace(/(\.\d+?)0+(?=e|$)/, '$1')
         // Remove trailing dot.
-        .replace(/\.(?=e|$)/, '')
+        .replace(/\.(?=e|$)/, '');
 }
 
 function printStringType(printer: Printer, node: any, lineMap: number[]): any {
   return makeString(
     node.rawText,
     printer.flags & PrinterFlags.SingleQuote ? "'" : '"',
-  )
+  );
 }
 
 export function printStringLiteral(printer: Printer, node: any): any {
   return makeString(
     node.rawText,
     printer.flags & PrinterFlags.SingleQuote ? "'" : '"',
-  )
+  );
 }
 
 function printCommaOperator(
@@ -3495,24 +3528,24 @@ function printCommaOperator(
         ),
       ),
       {},
-    )
+    );
   }
 
-  const children = node.expressions
+  const children = node.expressions;
 
-  const elements: any = []
+  const elements: any = [];
 
-  let previousSibling!: SyntaxNode
-  let child!: SyntaxNode
+  let previousSibling!: SyntaxNode;
+  let child!: SyntaxNode;
 
   for (let i = 0; i < children.length; i++) {
-    child = children[i]
+    child = children[i];
     if (previousSibling) {
-      elements.push(concat([',', ' ', softline]))
+      elements.push(concat([',', ' ', softline]));
     }
 
-    elements.push(printStatement(printer, child, lineMap, node))
-    previousSibling = child
+    elements.push(printStatement(printer, child, lineMap, node));
+    previousSibling = child;
   }
-  return group(concat(elements), {})
+  return group(concat(elements), {});
 }

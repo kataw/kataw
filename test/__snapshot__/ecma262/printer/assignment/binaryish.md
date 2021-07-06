@@ -358,7 +358,6 @@ computedDescriptionLines = (focused &&
 ### Printed
 
 ```javascript
-
 const computedDescriptionLines =
 
       (showConfirm && descriptionLinesConfirming) ||

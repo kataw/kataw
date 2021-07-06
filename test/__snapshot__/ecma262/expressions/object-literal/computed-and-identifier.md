@@ -119,7 +119,6 @@
 ### Printed
 
 ```javascript
-
 ({ [x]: 10, y: 20 });
 ```
 

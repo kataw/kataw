@@ -321,7 +321,6 @@ var c: { (): string; (x: number): string } =
 ### Printed
 
 ```javascript
-
 var c: { (): string, (x: number): string } = function (x: number): string {
     return "\"hi\"";
   };

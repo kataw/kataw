@@ -199,7 +199,6 @@ class Foo {
 ### Printed
 
 ```javascript
-
 class Foo {
   @ deco([foo, bar]) prop = value;;
 }

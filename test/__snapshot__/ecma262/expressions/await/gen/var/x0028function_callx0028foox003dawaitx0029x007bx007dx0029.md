@@ -272,7 +272,6 @@ var await; var f = (async function() { (function call(foo=await){}) });
 ### Printed
 
 ```javascript
-
 var await;
 var f = (async function () {
       (function call(foo = await) {});

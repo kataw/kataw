@@ -154,7 +154,6 @@ class x {static async * interface(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async * interface() {}
 }

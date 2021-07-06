@@ -106,7 +106,6 @@ if (true) {
 ### Printed
 
 ```javascript
-
 if (true) {
     await 0;
   }

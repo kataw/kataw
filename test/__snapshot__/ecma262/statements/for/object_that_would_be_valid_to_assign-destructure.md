@@ -111,7 +111,6 @@ for ({x: a.b};;);
 ### Printed
 
 ```javascript
-
 for ({ x: a.b }; ; );
 ```
 

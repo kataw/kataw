@@ -120,7 +120,6 @@ type foo<number> = string;
 ### Printed
 
 ```javascript
-
 type foo<number> = string
 ```
 

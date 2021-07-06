@@ -104,7 +104,6 @@ let {} = obj;
 ### Printed
 
 ```javascript
-
 let {} = obj;
 ```
 

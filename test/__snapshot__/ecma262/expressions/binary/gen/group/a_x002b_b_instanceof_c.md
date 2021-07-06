@@ -105,7 +105,6 @@
 ### Printed
 
 ```javascript
-
 (a + b instanceof c);
 ```
 

@@ -117,8 +117,7 @@ class A extends fooo`bar` {}
 ### Printed
 
 ```javascript
-
-class A  extends fooo`bar` {}
+class A extends fooo`bar` {}
 ```
 
 ### Diagnostics

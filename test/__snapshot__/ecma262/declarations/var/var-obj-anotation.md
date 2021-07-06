@@ -193,7 +193,6 @@ var {x}: {x: string; } = { x: "hello" };
 ### Printed
 
 ```javascript
-
 var { x }: { x: string } = { x: "\"hello\"" };
 ```
 

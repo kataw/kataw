@@ -265,7 +265,6 @@ class C {
 ### Printed
 
 ```javascript
-
 class C {
   get bar(): number {
     return 1;

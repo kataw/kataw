@@ -115,7 +115,6 @@ var a: ?string[]
 ### Printed
 
 ```javascript
-
 var a: ? string[];
 ```
 

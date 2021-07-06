@@ -82,7 +82,6 @@
 ### Printed
 
 ```javascript
-
 (p\u0061ckage = x);
 ```
 

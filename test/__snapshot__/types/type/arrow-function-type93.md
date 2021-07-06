@@ -188,7 +188,6 @@ type a = (((x | x))) => T;
 ### Printed
 
 ```javascript
-
 type a = ((x | x)) =>  T
 ```
 

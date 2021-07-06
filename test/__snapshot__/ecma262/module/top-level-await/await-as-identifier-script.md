@@ -136,7 +136,6 @@ await(x);
 ### Printed
 
 ```javascript
-
 await;
 await = yield;
 

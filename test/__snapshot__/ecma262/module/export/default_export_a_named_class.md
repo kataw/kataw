@@ -98,7 +98,6 @@ export default class x {}
 ### Printed
 
 ```javascript
-
 export default class x {};
 ```
 

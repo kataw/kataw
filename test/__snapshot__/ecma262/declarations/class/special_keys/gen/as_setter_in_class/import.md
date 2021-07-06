@@ -152,7 +152,6 @@ class x {set import(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set import(x) {}
 }

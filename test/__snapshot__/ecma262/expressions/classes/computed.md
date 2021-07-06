@@ -169,7 +169,6 @@ class A { [x=y](foo) {} }
 ### Printed
 
 ```javascript
-
 class A {
   [x = y](foo) {}
 }

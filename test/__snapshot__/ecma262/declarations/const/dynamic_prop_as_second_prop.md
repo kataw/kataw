@@ -147,7 +147,6 @@ const {a, [x]: y} = a;
 ### Printed
 
 ```javascript
-
 const { a, [x]: y } = a;
 ```
 

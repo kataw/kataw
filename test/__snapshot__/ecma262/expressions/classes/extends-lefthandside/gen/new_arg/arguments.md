@@ -67,7 +67,6 @@ new arguments
 ### Printed
 
 ```javascript
-
 new arguments;
 ```
 

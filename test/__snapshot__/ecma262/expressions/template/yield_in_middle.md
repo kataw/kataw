@@ -95,7 +95,6 @@ x = `1 ${ yield } 2`
 ### Printed
 
 ```javascript
-
 x = `1 ${yield} 2`;
 ```
 

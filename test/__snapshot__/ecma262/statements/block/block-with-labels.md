@@ -91,7 +91,6 @@
 ### Printed
 
 ```javascript
-
 {
   x:  42;
 }

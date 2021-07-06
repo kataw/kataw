@@ -1250,7 +1250,6 @@
 ### Printed
 
 ```javascript
-
 (
   aaaaaaaaaaaaaaaaaaaaaaaaa &&
   bbbbbbbbbbbbbbbbbbbbbbbbb &&

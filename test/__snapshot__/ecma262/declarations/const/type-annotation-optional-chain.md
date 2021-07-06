@@ -434,7 +434,6 @@ const d: string | null = c?.c;
 ### Printed
 
 ```javascript
-
 const a: any | null = 1337;
 const b: string | null = a?.a;
 

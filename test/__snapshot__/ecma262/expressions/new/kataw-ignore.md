@@ -149,7 +149,6 @@
 ### Printed
 
 ```javascript
-
 // kataw-ignore
       new async function() { await 0 }.x;
 ```

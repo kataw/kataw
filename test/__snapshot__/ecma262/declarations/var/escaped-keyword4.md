@@ -170,7 +170,6 @@ var y = { \u0064ebugger: x } = { debugger: 42 };
 ### Printed
 
 ```javascript
-
 var y = { \u0064ebugger: x } = { debugger: 42 };
 ```
 

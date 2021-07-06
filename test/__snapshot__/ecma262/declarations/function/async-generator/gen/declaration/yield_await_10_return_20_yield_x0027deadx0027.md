@@ -205,7 +205,6 @@ async function * gen() {yield await 10; return 20; yield 'dead'}
 ### Printed
 
 ```javascript
-
 async function * gen() {
   yield await 10;
   return 20;

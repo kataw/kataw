@@ -146,7 +146,6 @@
 ### Printed
 
 ```javascript
-
 ({ * async(x, y) {} });
 ```
 

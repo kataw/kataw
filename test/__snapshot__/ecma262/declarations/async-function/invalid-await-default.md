@@ -183,7 +183,6 @@ async function wrap() {
 ### Printed
 
 ```javascript
-
 async function wrap() {
   (a = await b) => a;
 }

@@ -100,7 +100,6 @@ for (x of 3) continue
 ### Printed
 
 ```javascript
-
 for (x of 3) continue ;
 /x/g;
 

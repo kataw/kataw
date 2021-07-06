@@ -146,7 +146,6 @@
 ### Printed
 
 ```javascript
-
 ({ * yield(x, y) {} });
 ```
 

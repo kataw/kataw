@@ -133,7 +133,6 @@ let {x:y=z} = {}
 ### Printed
 
 ```javascript
-
 let { x: y = z } = {};
 ```
 

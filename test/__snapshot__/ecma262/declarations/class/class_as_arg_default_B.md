@@ -198,7 +198,6 @@ f = ([xCls = class X {}]) => {}
 ### Printed
 
 ```javascript
-
 f = ([xCls = class X {}]) => {};
 ```
 

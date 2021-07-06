@@ -163,9 +163,8 @@ async function p(){
 ### Printed
 
 ```javascript
-
 async function p() {
-  class C  extends `temp {waitforit} late` {}
+  class C extends `temp {waitforit} late` {}
 }
 ```
 

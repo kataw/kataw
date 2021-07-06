@@ -145,7 +145,6 @@
 ### Printed
 
 ```javascript
-
 x(/^(<[^>]+>)/)[1];
 x(y, /a/);
 

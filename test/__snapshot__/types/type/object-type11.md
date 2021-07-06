@@ -204,7 +204,6 @@ type a = (1 | 1[symbol & string]) => T;
 ### Printed
 
 ```javascript
-
 type a = (1 | 1[symbol & string]) =>  T
 ```
 

@@ -155,7 +155,6 @@ bar ? (x => { return x; }) : baz;
 ### Printed
 
 ```javascript
-
 bar ? (x => {
         return x;
       }) : baz;

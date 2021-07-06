@@ -139,8 +139,9 @@
 ### Printed
 
 ```javascript
-
 (function () {
+
+    "'use strict'";
     "'\0'";
   }());
 ```

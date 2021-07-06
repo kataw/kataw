@@ -142,7 +142,6 @@ for ([a.b][foo] of c) d
 ### Printed
 
 ```javascript
-
 for ([a.b][foo] of c) d;
 ```
 

@@ -140,8 +140,7 @@ class C extends Base { await = 0; }
 ### Printed
 
 ```javascript
-
-class C  extends Base {
+class C extends Base {
   await = 0;;
 }
 ```

@@ -114,7 +114,6 @@ const [foo] = arr;
 ### Printed
 
 ```javascript
-
 const [foo] = arr;
 ```
 

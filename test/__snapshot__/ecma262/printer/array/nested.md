@@ -3541,7 +3541,6 @@
 ### Printed
 
 ```javascript
-
 [[]];
 [[], []];
 

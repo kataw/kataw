@@ -129,7 +129,6 @@ async (x = z = yield) => {}
 ### Printed
 
 ```javascript
-
 async (x = z = yield) => {}
 ```
 

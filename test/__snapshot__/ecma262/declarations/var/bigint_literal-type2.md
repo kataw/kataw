@@ -94,7 +94,6 @@ var a: 0x7Bn
 ### Printed
 
 ```javascript
-
 var a: 0x7bn;
 ```
 

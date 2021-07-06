@@ -151,7 +151,6 @@ var af = ({x = 1}) => x;
 ### Printed
 
 ```javascript
-
 var af = ({ x = 1 }) => x;
 ```
 

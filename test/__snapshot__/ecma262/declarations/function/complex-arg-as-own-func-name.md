@@ -109,7 +109,6 @@ function f([f]) { }
 ### Printed
 
 ```javascript
-
 function f([f]) {}
 ```
 

@@ -218,7 +218,6 @@ const identity = <T>(t: T): T => t;
 ### Printed
 
 ```javascript
-
 const identity = <T>(t: T) => t;
 ```
 

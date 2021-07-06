@@ -78,7 +78,6 @@ var str = "\n";
 ### Printed
 
 ```javascript
-
 var str = "\"\n\"";
 ```
 

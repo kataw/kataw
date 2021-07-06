@@ -134,7 +134,6 @@ const {a: b = my_var} = {}
 ### Printed
 
 ```javascript
-
 const { a: b = my_var } = {};
 ```
 

@@ -124,8 +124,7 @@ export {foo as bar} from "foo";
 ### Printed
 
 ```javascript
-
-export { foo as  bar } from "\"foo\"";
+export { foo as  bar } from "\"foo\"";;
 ```
 
 ### Diagnostics

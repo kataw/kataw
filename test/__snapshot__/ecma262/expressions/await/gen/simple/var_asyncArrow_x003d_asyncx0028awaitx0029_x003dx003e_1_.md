@@ -128,7 +128,6 @@ var asyncArrow = async(await) => 1;
 ### Printed
 
 ```javascript
-
 var asyncArrow = async (await) => 1;
 ```
 

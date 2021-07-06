@@ -148,7 +148,6 @@ class x {static * try(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static * try() {}
 }

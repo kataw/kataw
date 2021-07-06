@@ -148,7 +148,6 @@ class x {async * with(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async * with() {}
 }

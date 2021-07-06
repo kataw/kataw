@@ -114,7 +114,6 @@ async x => (protected) = 1
 ### Printed
 
 ```javascript
-
 async x => (protected) = 1;
 ```
 

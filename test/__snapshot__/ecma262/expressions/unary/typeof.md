@@ -59,7 +59,6 @@ typeof x
 ### Printed
 
 ```javascript
-
 typeof x;
 ```
 

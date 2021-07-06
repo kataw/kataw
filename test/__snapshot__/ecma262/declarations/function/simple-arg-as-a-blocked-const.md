@@ -158,7 +158,6 @@ function f(x) { { const x = y } }
 ### Printed
 
 ```javascript
-
 function f(x) {
   {
     const x = y;

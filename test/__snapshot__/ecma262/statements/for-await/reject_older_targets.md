@@ -144,7 +144,6 @@ async function f() {
 ### Printed
 
 ```javascript
-
 async function f() {
   for await (a of b);
 }

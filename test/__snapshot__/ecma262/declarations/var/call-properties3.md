@@ -2081,7 +2081,6 @@ var z : Object = (x) => "hi"
 ### Printed
 
 ```javascript
-
 var a: { someProp: number } = function () {};
 var b: { apply: Function } = function () {};
 

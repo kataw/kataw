@@ -118,7 +118,6 @@ for (/foo/.x in c) d;
 ### Printed
 
 ```javascript
-
 for (/foo/.x in c) d;
 ```
 

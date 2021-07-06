@@ -135,7 +135,6 @@ for (var a=1, b=2;;);
 ### Printed
 
 ```javascript
-
 for (var a = 1, b = 2; ; );
 ```
 

@@ -152,7 +152,6 @@ class x {set interface(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set interface(x) {}
 }

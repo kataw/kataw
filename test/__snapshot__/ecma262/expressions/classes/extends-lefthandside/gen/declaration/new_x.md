@@ -116,8 +116,7 @@ class A extends new x {}
 ### Printed
 
 ```javascript
-
-class A  extends new x {}
+class A extends new x {}
 ```
 
 ### Diagnostics

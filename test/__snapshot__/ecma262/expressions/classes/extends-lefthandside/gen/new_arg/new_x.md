@@ -82,7 +82,6 @@ new new x
 ### Printed
 
 ```javascript
-
 new new x;
 ```
 

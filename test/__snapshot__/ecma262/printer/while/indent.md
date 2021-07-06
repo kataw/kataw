@@ -740,7 +740,6 @@ while (0);
 ### Printed
 
 ```javascript
-
 if (
   someVeryLongStringA &&
     someVeryLongStringB &&

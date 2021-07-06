@@ -2009,7 +2009,6 @@ Object.entries({
 ### Printed
 
 ```javascript
-
 const a = { a: "\"a\"" };
 const b = { "'b'": "\"b\"" };
 

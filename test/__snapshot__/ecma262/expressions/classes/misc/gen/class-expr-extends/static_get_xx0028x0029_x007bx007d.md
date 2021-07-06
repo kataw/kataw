@@ -176,8 +176,7 @@
 ### Printed
 
 ```javascript
-
-(class   extends Base {
+(class extends Base {
     static get x() {}
   });
 ```

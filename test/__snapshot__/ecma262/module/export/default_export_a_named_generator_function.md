@@ -115,7 +115,6 @@ export default function* f(){}
 ### Printed
 
 ```javascript
-
 export default function * f() {};
 ```
 

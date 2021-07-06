@@ -82,7 +82,6 @@
 ### Printed
 
 ```javascript
-
 (publ\u0069c = x);
 ```
 

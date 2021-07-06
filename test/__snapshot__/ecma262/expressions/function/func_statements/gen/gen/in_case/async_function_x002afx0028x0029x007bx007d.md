@@ -168,7 +168,6 @@ switch (x) {
 ### Printed
 
 ```javascript
-
 switch (x) {
   case foo:
     async function * f() {}

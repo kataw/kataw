@@ -162,7 +162,6 @@
 ### Printed
 
 ```javascript
-
 0, { x: x = y } = {};
 ```
 

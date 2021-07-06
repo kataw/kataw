@@ -128,7 +128,6 @@ for (let a,b,c;;);
 ### Printed
 
 ```javascript
-
 for (let a, b, c; ; );
 ```
 

@@ -152,7 +152,6 @@ const map = {
 ### Printed
 
 ```javascript
-
 const map = { [age <= 17]: "'Too young'" };
 ```
 

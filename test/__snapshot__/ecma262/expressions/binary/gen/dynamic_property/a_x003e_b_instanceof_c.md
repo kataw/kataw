@@ -114,7 +114,6 @@ foo[ a > b instanceof c ]
 ### Printed
 
 ```javascript
-
 foo[a > b instanceof c];
 ```
 

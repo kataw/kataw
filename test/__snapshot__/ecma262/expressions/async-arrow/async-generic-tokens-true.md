@@ -191,7 +191,6 @@ async <T>(a: T): T => a;
 ### Printed
 
 ```javascript
-
 async <T>(a: T) => a;
 ```
 

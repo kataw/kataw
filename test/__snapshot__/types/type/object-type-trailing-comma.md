@@ -125,7 +125,6 @@ type a = {x: number, };
 ### Printed
 
 ```javascript
-
 type a = { x: number }
 ```
 

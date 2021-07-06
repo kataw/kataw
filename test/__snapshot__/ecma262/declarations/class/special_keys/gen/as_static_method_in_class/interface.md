@@ -142,7 +142,6 @@ class x {static interface(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static interface() {}
 }

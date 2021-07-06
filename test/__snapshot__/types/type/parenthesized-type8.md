@@ -133,7 +133,6 @@ type X = (x.y<>);
 ### Printed
 
 ```javascript
-
 type X = (x.y<>)
 ```
 

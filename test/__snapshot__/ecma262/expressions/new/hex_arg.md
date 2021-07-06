@@ -92,7 +92,6 @@ new 0x2.__proto__.constructor
 ### Printed
 
 ```javascript
-
 new 0x2.__proto__.constructor;
 ```
 

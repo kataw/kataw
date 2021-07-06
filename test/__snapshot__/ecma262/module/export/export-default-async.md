@@ -114,7 +114,6 @@ export default async function() { };
 ### Printed
 
 ```javascript
-
 export default async function () {};
 ```
 

@@ -89,7 +89,6 @@ typeof new x()
 ### Printed
 
 ```javascript
-
 typeof new x();
 ```
 

@@ -115,7 +115,6 @@ let =>  x, let =>  x;
 ### Printed
 
 ```javascript
-
 let => x, let => x;
 ```
 

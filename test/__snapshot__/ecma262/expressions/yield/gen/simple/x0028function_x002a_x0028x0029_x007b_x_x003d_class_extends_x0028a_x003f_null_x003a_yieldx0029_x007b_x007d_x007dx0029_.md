@@ -239,9 +239,8 @@
 ### Printed
 
 ```javascript
-
 (function * () {
-    x = class   extends (a ? null : yield ) {};
+    x = class extends (a ? null : yield ) {};
   });
 ```
 

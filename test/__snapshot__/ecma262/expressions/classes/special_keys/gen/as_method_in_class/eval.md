@@ -136,7 +136,6 @@ class x {eval(){}}
 ### Printed
 
 ```javascript
-
 class x {
   eval() {}
 }

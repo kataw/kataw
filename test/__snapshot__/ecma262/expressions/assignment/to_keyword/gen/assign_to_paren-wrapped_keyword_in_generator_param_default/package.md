@@ -154,7 +154,6 @@ function *f(x = (package) = f) {}
 ### Printed
 
 ```javascript
-
 function * f(x = (package) = f) {}
 ```
 

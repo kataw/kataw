@@ -60,7 +60,6 @@ switch /* comment 1 */ (x) {}
 ### Printed
 
 ```javascript
-
 switch (x) {}
 ```
 

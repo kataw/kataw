@@ -139,7 +139,6 @@ x={..."foo".foo=x}
 ### Printed
 
 ```javascript
-
 x = { ..."\"foo\"".foo = x };
 ```
 

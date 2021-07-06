@@ -159,7 +159,6 @@ var a = b ? (c): d => e;
 ### Printed
 
 ```javascript
-
 var a = b ? (c) : d => e;
 ```
 

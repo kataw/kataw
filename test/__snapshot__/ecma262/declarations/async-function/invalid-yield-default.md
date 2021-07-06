@@ -184,7 +184,6 @@ function* wrap() {
 ### Printed
 
 ```javascript
-
 function * wrap() {
   async (a = yield b) => a
 }

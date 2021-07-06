@@ -192,7 +192,6 @@ function bar(a = false) {
 ### Printed
 
 ```javascript
-
 function foo(a = false) {}
 function bar(a = false) {}
 

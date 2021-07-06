@@ -106,7 +106,6 @@ a?.b * d
 ### Printed
 
 ```javascript
-
 a?.b * d;
 ```
 

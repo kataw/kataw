@@ -94,7 +94,6 @@ var foo: true
 ### Printed
 
 ```javascript
-
 var foo: true;
 ```
 

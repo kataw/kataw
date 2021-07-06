@@ -101,7 +101,6 @@ export default function () {}
 ### Printed
 
 ```javascript
-
 export default function () {};
 ```
 

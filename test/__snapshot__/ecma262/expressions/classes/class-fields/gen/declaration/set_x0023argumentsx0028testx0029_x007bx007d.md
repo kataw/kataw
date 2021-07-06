@@ -152,7 +152,6 @@ class C { set #arguments(test) {} }
 ### Printed
 
 ```javascript
-
 class C {
   set #arguments(test) {}
 }

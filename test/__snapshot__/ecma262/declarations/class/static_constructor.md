@@ -154,7 +154,6 @@ class A {static constructor(){}}
 ### Printed
 
 ```javascript
-
 class A {
   static constructor() {}
 }

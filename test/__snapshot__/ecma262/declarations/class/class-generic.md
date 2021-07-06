@@ -598,8 +598,7 @@ class A<TYPE> {
 ### Printed
 
 ```javascript
-
-class A<TYPE> {
+class A <TYPE>{
   aaf = () => {
     return new Promise  < TYPE > (console.log);
   };;

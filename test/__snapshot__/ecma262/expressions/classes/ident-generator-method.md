@@ -141,7 +141,6 @@ class A {*foo(){}}
 ### Printed
 
 ```javascript
-
 class A {
   * foo() {}
 }

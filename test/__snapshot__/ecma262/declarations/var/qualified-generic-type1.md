@@ -120,7 +120,6 @@ var a : A.B
 ### Printed
 
 ```javascript
-
 var a: A.B;
 ```
 

@@ -84,7 +84,6 @@
 ### Printed
 
 ```javascript
-
 [new x];
 ```
 

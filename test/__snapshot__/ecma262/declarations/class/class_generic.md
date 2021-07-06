@@ -567,8 +567,7 @@ class C<T> {
 ### Printed
 
 ```javascript
-
-class C<T> {
+class C <T>{
   arr: Array<{ value: T }>;;
   foo(value: T) {
     var entry: { value: T } = { value };

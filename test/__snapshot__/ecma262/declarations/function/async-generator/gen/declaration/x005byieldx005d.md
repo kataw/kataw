@@ -145,7 +145,6 @@ async function * gen() {[yield]}
 ### Printed
 
 ```javascript
-
 async function * gen() {
   [yield ];
 }

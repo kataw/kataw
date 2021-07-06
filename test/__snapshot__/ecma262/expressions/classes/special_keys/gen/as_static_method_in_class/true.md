@@ -142,7 +142,6 @@ class x {static true(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static true() {}
 }

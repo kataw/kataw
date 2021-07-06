@@ -204,7 +204,6 @@
 ### Printed
 
 ```javascript
-
 ({ get [x]() {}, set [x](v) {} });
 ```
 

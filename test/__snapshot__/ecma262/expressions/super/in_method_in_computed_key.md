@@ -209,7 +209,6 @@ x = { foo(){ return {[super[foo]]: x}; }}
 ### Printed
 
 ```javascript
-
 x = { foo() {
     return { [super[foo]]: x };
   } };

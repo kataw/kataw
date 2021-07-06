@@ -84,7 +84,6 @@ new {bar}
 ### Printed
 
 ```javascript
-
 new { bar };
 ```
 

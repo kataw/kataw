@@ -138,7 +138,6 @@ declare class C { static [[foo]]: T }
 ### Printed
 
 ```javascript
-
 declare class C { static [[foo]]: T }
 ```
 

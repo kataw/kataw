@@ -141,7 +141,6 @@ var a: Array<(number)>
 ### Printed
 
 ```javascript
-
 var a: Array<(number)>;
 ```
 

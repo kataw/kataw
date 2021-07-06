@@ -92,7 +92,6 @@ await
 ### Printed
 
 ```javascript
-
 await / x / g;
 ```
 

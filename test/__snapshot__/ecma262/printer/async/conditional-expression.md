@@ -790,7 +790,6 @@ async function f2() {
 ### Printed
 
 ```javascript
-
 async function f() {
   const result = typeof fn === "'function'" ? await fn() : null;
 }

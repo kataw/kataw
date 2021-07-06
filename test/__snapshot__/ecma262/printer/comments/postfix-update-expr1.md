@@ -59,7 +59,6 @@ a--/*1*/;
 ### Printed
 
 ```javascript
-
 a--;
 ```
 

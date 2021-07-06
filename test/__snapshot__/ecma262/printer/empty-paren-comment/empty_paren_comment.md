@@ -930,7 +930,6 @@ let f4 = () => doThing(a, /* ... */ b);
 ### Printed
 
 ```javascript
-
 let f1 = () => {};
 (function () {})();
 

@@ -419,7 +419,6 @@ class C {
 ### Printed
 
 ```javascript
-
 const a = 1;
 const b = 2;
 

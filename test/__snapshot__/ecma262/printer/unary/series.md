@@ -645,7 +645,6 @@ x-- - 1;
 ### Printed
 
 ```javascript
-
 1 + ++ x;
 1 + x++;
 

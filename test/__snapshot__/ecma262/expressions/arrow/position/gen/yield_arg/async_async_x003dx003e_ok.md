@@ -162,7 +162,6 @@ function *f() {
 ### Printed
 
 ```javascript
-
 function * f() {
   yield async async => ok;
 }

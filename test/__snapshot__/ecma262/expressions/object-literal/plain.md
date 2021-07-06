@@ -130,7 +130,6 @@ x= { prototype(){} }
 ### Printed
 
 ```javascript
-
 x = { prototype() {} };
 ```
 

@@ -128,7 +128,6 @@ export let x = 10, y = 20
 ### Printed
 
 ```javascript
-
 export let x = 10, y = 20;
 ```
 

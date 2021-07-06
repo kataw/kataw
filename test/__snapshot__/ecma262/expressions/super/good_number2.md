@@ -597,7 +597,6 @@ a?.9:b
 ### Printed
 
 ```javascript
-
 a ? 0 : b;
 a ? 1 : b;
 

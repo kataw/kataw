@@ -82,7 +82,6 @@ for (fooo in x) ;
 ### Printed
 
 ```javascript
-
 for (fooo in x);
 ```
 

@@ -102,7 +102,6 @@ type X = (x);
 ### Printed
 
 ```javascript
-
 type X = (x)
 ```
 

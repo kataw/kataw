@@ -68,7 +68,6 @@ async + 10;
 ### Printed
 
 ```javascript
-
 async + 10;
 ```
 

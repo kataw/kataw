@@ -131,7 +131,6 @@ export default async function f(){} foo
 ### Printed
 
 ```javascript
-
 export default async function f() {};
 foo;
 

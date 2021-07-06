@@ -91,7 +91,6 @@
 ### Printed
 
 ```javascript
-
 (class enum {});
 ```
 

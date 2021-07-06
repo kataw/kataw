@@ -142,7 +142,6 @@ class x {static finally(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static finally() {}
 }

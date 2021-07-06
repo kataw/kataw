@@ -126,7 +126,6 @@ var x; "use strict"; with (x) y;
 ### Printed
 
 ```javascript
-
 var x;
 "\"use strict\"";
 

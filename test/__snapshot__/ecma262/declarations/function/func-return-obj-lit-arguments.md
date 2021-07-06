@@ -123,7 +123,6 @@ function foo() { return {arguments} }
 ### Printed
 
 ```javascript
-
 function foo() {
   return { arguments };
 }

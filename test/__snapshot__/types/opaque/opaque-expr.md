@@ -126,7 +126,6 @@ opaque += 4;
 ### Printed
 
 ```javascript
-
 var opaque = 0;
 opaque += 4;
 

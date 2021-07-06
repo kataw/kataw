@@ -249,7 +249,6 @@
 ### Printed
 
 ```javascript
-
 07;
 08;
 

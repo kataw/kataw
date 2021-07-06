@@ -136,7 +136,6 @@ for /*2*/(x /*3*/in /*4*/ y) /*5*/ {}
 ### Printed
 
 ```javascript
-
 for (a in b);
 for (x in y) {}
 

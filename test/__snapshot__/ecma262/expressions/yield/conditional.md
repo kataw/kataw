@@ -1345,7 +1345,6 @@ async function f3() {
 ### Printed
 
 ```javascript
-
 function * f1() {
   a = (yield ) ? 1 : 1;
   a = yield 1 ? 1 : 1;

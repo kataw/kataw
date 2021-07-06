@@ -283,7 +283,6 @@ type a = (([-1]| q & (x)) => T) => T
 ### Printed
 
 ```javascript
-
 type a = (([-1] | q & (x)) =>  T) =>  T
 ```
 

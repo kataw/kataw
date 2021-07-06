@@ -177,7 +177,6 @@ var y = { prot\u0065cted: x } = { protected: 42 };
 ### Printed
 
 ```javascript
-
 var y = { prot\u0065cted: x } = { protected: 42 };
 ```
 

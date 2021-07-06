@@ -184,7 +184,6 @@ a ? (b = (c) => d) : e => f;
 ### Printed
 
 ```javascript
-
 a ? (b = (c) => d) : e => f;
 ```
 

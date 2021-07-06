@@ -65,7 +65,6 @@ await foo;
 ### Printed
 
 ```javascript
-
 await foo;
 ```
 

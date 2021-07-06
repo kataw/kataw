@@ -114,8 +114,7 @@
 ### Printed
 
 ```javascript
-
-(class B  extends `temp {waitforit} late` {});
+(class B extends `temp {waitforit} late` {});
 ```
 
 ### Diagnostics

@@ -57,7 +57,6 @@ delete true
 ### Printed
 
 ```javascript
-
 delete true;
 ```
 

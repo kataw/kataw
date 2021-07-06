@@ -120,7 +120,6 @@ type a = (["string"]);
 ### Printed
 
 ```javascript
-
 type a = (["\"string\""])
 ```
 

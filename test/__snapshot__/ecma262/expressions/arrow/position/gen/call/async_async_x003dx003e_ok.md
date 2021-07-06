@@ -100,7 +100,6 @@ async async => ok()
 ### Printed
 
 ```javascript
-
 async async => ok();
 ```
 

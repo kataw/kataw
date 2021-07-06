@@ -333,7 +333,6 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
 ### Printed
 
 ```javascript
-
 var await;
 var f = (async function () {
       async function a() {

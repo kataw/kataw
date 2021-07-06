@@ -158,7 +158,6 @@ class x {static set package(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   static set package(x) {}
 }

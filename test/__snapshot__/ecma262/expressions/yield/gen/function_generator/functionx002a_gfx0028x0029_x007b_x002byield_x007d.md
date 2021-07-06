@@ -248,7 +248,6 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
 ### Printed
 
 ```javascript
-
 function * gen() {
   function not_gen() {
     function * gf() {

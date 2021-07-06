@@ -110,7 +110,6 @@ class C { async = 0 }
 ### Printed
 
 ```javascript
-
 class C {
   async = 0;
 }

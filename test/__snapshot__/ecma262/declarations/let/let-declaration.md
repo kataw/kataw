@@ -130,7 +130,6 @@ let a, b = 42, c;b;
 ### Printed
 
 ```javascript
-
 let a, b = 42, c;b;
 ```
 

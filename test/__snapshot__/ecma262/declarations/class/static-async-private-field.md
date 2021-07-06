@@ -147,7 +147,6 @@ class C { static async*#aaa(){} }
 ### Printed
 
 ```javascript
-
 class C {
   static async * #aaa() {}
 }

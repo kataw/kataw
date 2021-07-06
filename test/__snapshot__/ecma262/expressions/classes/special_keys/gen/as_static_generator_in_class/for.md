@@ -148,7 +148,6 @@ class x {static * for(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static * for() {}
 }

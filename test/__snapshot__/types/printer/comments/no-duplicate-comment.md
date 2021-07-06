@@ -337,7 +337,6 @@ type c = /*e*/{ x: string } /* inner */ | string// trailing/*f*/
 ### Printed
 
 ```javascript
-
 type a = { x: string } | string
 type b = { x: string }
 

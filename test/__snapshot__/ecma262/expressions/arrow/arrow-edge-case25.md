@@ -159,7 +159,6 @@ a ? async (b) : c => d : e;
 ### Printed
 
 ```javascript
-
 a ? async (b) => d : e;
 ```
 

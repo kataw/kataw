@@ -213,7 +213,6 @@ var f = async function f(x = function *await() {}) {}
 ### Printed
 
 ```javascript
-
 var f = async function f(x = function * await() {}) {};
 ```
 

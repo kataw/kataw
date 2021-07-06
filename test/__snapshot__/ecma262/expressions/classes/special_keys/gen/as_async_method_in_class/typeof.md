@@ -142,7 +142,6 @@ class x {async typeof(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async typeof() {}
 }

@@ -164,7 +164,6 @@ async (x = delete ((protected) = f)) => {}
 ### Printed
 
 ```javascript
-
 async (x = delete ((protected) = f)) => {}
 ```
 

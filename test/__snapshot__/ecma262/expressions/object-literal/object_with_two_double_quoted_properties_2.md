@@ -131,7 +131,6 @@ wrap({'a':b, 'c':d});
 ### Printed
 
 ```javascript
-
 wrap({ "'a'": b, "'c'": d });
 ```
 

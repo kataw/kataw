@@ -75,7 +75,6 @@ inte\u0072face = x;
 ### Printed
 
 ```javascript
-
 inte\u0072face = x;
 ```
 

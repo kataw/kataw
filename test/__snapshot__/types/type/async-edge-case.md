@@ -446,7 +446,6 @@ x
 ### Printed
 
 ```javascript
-
 (async  < T > [(x)]);
 (async  < {} > (x));
 

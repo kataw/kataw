@@ -88,7 +88,6 @@ x`foo ${a b} bar`
 ### Printed
 
 ```javascript
-
 x`foo ${a}} bar`;
 ```
 

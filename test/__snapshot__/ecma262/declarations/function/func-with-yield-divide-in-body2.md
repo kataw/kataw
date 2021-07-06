@@ -153,7 +153,6 @@ function f2() { yield /=2 /d }
 ### Printed
 
 ```javascript
-
 function f2() {
   yield /= 2 / d;
 }

@@ -169,7 +169,6 @@ for (var let = 1; let < 1; let++) {}
 ### Printed
 
 ```javascript
-
 for (var let = 1; let++; let  < 1) {}
 ```
 

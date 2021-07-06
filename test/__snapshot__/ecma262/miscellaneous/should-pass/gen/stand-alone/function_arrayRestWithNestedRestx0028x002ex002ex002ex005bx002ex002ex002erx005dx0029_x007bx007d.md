@@ -150,7 +150,6 @@ function arrayRestWithNestedRest(...[...r]) {}
 ### Printed
 
 ```javascript
-
 function arrayRestWithNestedRest(...[...r]) {}
 ```
 

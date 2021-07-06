@@ -133,7 +133,6 @@
 ### Printed
 
 ```javascript
-
 -- { _: () => null }._;
 ```
 

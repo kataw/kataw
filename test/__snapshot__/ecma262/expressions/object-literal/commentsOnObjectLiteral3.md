@@ -466,7 +466,6 @@ var v = {
 ### Printed
 
 ```javascript
-
 var v = { prop: 1, func: function () {}, func1() {}, get a() {
       return this.prop;
     }, set a(value) {

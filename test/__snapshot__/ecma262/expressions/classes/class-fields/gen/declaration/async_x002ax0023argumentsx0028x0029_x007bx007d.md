@@ -148,7 +148,6 @@ class C { async *#arguments() {} }
 ### Printed
 
 ```javascript
-
 class C {
   async * #arguments() {}
 }

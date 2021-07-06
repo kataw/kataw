@@ -138,7 +138,6 @@ function f(){ `use strict`; with (x) y; }
 ### Printed
 
 ```javascript
-
 function f() {
   `use strict`;
   with (x) y;

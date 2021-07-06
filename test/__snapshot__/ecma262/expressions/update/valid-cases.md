@@ -509,7 +509,6 @@ new foo().bar++;
 ### Printed
 
 ```javascript
-
 foo++;
 foo.bar++;
 

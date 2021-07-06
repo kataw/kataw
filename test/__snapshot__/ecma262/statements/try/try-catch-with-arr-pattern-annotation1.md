@@ -147,7 +147,6 @@ try {} catch([a:string]) {}
 ### Printed
 
 ```javascript
-
 try {} catch ([a: string]) {}
 ```
 

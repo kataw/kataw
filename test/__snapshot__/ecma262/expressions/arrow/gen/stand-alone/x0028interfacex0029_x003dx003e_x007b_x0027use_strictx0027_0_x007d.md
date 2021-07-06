@@ -122,8 +122,9 @@
 ### Printed
 
 ```javascript
-
 (interface) => {
+
+  "'use strict'";
   0;
 };
 ```

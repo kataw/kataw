@@ -150,7 +150,6 @@ function f(x) { { let x } }
 ### Printed
 
 ```javascript
-
 function f(x) {
   {
     let x;

@@ -116,7 +116,6 @@
 ### Printed
 
 ```javascript
-
 ({ a: (1) = x });
 ```
 

@@ -162,7 +162,6 @@ var obj: { [user_id: number]: string } = {};
 ### Printed
 
 ```javascript
-
 var obj: { [number]: string } = {};
 ```
 

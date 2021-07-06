@@ -82,7 +82,6 @@
 ### Printed
 
 ```javascript
-
 (st\u0061tic = x);
 ```
 

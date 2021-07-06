@@ -144,7 +144,6 @@ function *f(){
 ### Printed
 
 ```javascript
-
 function * f() {
   (let) = 1;
 }

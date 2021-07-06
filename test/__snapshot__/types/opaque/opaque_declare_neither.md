@@ -77,7 +77,6 @@ declare opaque type Foo
 ### Printed
 
 ```javascript
-
 declare opaque 
 ```
 

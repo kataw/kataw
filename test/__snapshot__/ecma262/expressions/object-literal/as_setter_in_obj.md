@@ -130,7 +130,6 @@
 ### Printed
 
 ```javascript
-
 ({ set async(x) {} });
 ```
 

@@ -129,7 +129,6 @@ let g = /* before */GeneratorFunction("a", " /* a */ b, c /* b */ //", "/* c */ 
 ### Printed
 
 ```javascript
-
 let g = GeneratorFunction(
     "\"a\"",
     "\" /* a */ b, c /* b */ //\"",

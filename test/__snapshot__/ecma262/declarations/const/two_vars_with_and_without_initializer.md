@@ -142,7 +142,6 @@ const [foo=a, bar] = arr;
 ### Printed
 
 ```javascript
-
 const [foo = a, bar] = arr;
 ```
 

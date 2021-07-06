@@ -172,7 +172,6 @@ get(){} }
 ### Printed
 
 ```javascript
-
 class C {
   async;
   get() {}

@@ -152,7 +152,6 @@ class x {set implements(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set implements(x) {}
 }

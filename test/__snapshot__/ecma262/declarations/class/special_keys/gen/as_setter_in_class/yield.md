@@ -152,7 +152,6 @@ class x {set yield(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set yield(x) {}
 }

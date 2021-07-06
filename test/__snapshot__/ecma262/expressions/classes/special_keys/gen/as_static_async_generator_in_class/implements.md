@@ -154,7 +154,6 @@ class x {static async * implements(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async * implements() {}
 }

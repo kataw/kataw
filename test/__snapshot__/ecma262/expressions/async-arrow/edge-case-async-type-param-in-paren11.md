@@ -166,7 +166,6 @@
 ### Printed
 
 ```javascript
-
 (async  < {} > (x) >> y + z);
 ```
 

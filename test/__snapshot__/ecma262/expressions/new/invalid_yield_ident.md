@@ -60,7 +60,6 @@ new yield
 ### Printed
 
 ```javascript
-
 new yield;
 ```
 

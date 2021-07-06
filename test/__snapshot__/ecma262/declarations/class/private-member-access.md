@@ -190,7 +190,6 @@
 ### Printed
 
 ```javascript
-
 class C {
   #aaa;;
   f() {

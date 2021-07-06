@@ -192,7 +192,6 @@ function * g() {
 ### Printed
 
 ```javascript
-
 function * g() {
   class C {
     

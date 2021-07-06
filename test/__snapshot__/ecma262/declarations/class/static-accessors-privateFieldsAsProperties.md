@@ -436,7 +436,6 @@ new C;
 ### Printed
 
 ```javascript
-
 class C {
   static set #p(v) {
     C.#q = v;

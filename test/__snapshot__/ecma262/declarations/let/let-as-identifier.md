@@ -1323,7 +1323,6 @@ L: let
 ### Printed
 
 ```javascript
-
 var let;
 var foo, let;
 

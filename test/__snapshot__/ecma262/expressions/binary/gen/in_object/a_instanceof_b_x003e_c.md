@@ -155,7 +155,6 @@ x = { a: a instanceof b > c }
 ### Printed
 
 ```javascript
-
 x = { a: a instanceof b > c };
 ```
 

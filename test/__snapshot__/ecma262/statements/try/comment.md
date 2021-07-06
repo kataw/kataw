@@ -422,7 +422,6 @@ fn(function f() {
 ### Printed
 
 ```javascript
-
 function x() {
   throw func2.bar();
 }

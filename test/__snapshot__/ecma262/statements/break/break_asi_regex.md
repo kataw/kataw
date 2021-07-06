@@ -100,7 +100,6 @@ for (x of 3) break
 ### Printed
 
 ```javascript
-
 for (x of 3) break ;
 /x/;
 

@@ -1016,7 +1016,6 @@ foo && (baz ?? baz);
 ### Printed
 
 ```javascript
-
 obj.foo ?? "\"default\"";
 const x = (foo, bar = foo ?? bar) => {};
 

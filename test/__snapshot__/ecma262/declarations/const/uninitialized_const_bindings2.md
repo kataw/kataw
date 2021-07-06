@@ -122,7 +122,6 @@ for (const x of xs) {}
 ### Printed
 
 ```javascript
-
 for (const x of xs) {}
 ```
 

@@ -177,7 +177,6 @@ function* fn() {
 ### Printed
 
 ```javascript
-
 function * fn() {
   (x = yield ) => {};
 }

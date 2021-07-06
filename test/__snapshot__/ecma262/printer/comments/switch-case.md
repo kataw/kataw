@@ -214,7 +214,6 @@
 ### Printed
 
 ```javascript
-
 foo:  switch (false) {
   case false:
     break  foo;

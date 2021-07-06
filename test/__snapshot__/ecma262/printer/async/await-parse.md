@@ -815,7 +815,6 @@ async () => {
 ### Printed
 
 ```javascript
-
 async function f1() {
   (await f()).length;
 }

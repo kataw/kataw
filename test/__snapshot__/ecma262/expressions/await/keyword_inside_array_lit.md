@@ -138,7 +138,6 @@ async g => (x = [await y])
 ### Printed
 
 ```javascript
-
 async g => (x = [await y]);
 ```
 

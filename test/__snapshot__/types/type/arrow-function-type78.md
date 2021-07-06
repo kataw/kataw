@@ -209,7 +209,6 @@ type a = ({} | {[x]:string}) => T;
 ### Printed
 
 ```javascript
-
 type a = ({} | { [x]: string }) =>  T
 ```
 

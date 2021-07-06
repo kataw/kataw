@@ -226,7 +226,6 @@ type Foo = {
 ### Printed
 
 ```javascript
-
 type Foo = { alpha: "'hello'", [string]: void, beta: 10 }
 ```
 

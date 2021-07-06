@@ -92,7 +92,6 @@ new 'foo'.__proto__.constructor
 ### Printed
 
 ```javascript
-
 new "'foo'".__proto__.constructor;
 ```
 

@@ -158,7 +158,6 @@ switch (a) { case b: let
 ### Printed
 
 ```javascript
-
 switch (a) {
   case b:
     let [] = y;

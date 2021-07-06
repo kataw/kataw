@@ -170,7 +170,6 @@ for ({a: b.c}[x] of d) e
 ### Printed
 
 ```javascript
-
 for ({ a: b.c }[x] of d) e;
 ```
 

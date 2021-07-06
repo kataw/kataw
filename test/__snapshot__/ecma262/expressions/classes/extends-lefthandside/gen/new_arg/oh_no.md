@@ -85,7 +85,6 @@ new oh,no
 ### Printed
 
 ```javascript
-
 new oh, no;
 ```
 

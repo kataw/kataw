@@ -142,7 +142,6 @@ class x {async enum(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async enum() {}
 }

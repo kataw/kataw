@@ -189,7 +189,6 @@ var f = ({arguments: x, ...z}) => {};
 ### Printed
 
 ```javascript
-
 var f = ({ arguments: x, ...z }) => {};
 ```
 

@@ -136,7 +136,6 @@ class x {var(){}}
 ### Printed
 
 ```javascript
-
 class x {
   var() {}
 }

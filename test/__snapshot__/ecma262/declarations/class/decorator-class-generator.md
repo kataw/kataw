@@ -176,7 +176,6 @@ class A {
 ### Printed
 
 ```javascript
-
 class A {
   @ dec * m() {}
 }

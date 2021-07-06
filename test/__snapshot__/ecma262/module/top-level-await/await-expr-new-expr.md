@@ -195,7 +195,6 @@ await new Promise(function(res, rej) { res(1); });
 ### Printed
 
 ```javascript
-
 await new Promise(function (res, rej) {
   res(1);
 });

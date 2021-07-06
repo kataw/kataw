@@ -159,7 +159,6 @@
 ### Printed
 
 ```javascript
-
 ([new x]);
 (x, [new y]);
 

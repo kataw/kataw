@@ -152,7 +152,6 @@ class x {set null(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set null(x) {}
 }

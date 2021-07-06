@@ -157,7 +157,6 @@ switch (A) {case B: C; case D: E;}
 ### Printed
 
 ```javascript
-
 switch (A) {
   case B:
     C;

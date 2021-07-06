@@ -204,7 +204,6 @@ class MyComponent {
 ### Printed
 
 ```javascript
-
 @ foo class MyComponent {
   @ task * foo() {}
 }

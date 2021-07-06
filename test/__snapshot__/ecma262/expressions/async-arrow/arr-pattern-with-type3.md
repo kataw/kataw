@@ -154,7 +154,6 @@
 ### Printed
 
 ```javascript
-
 async ([x, y: number]) => {}
 ```
 

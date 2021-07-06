@@ -196,7 +196,6 @@
 ### Printed
 
 ```javascript
-
 (x ? b : c, [a]? : b) => 0;
 ```
 

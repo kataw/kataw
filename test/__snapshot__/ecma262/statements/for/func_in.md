@@ -155,7 +155,6 @@ for (function(){ a in b; };;);
 ### Printed
 
 ```javascript
-
 for (function () {
     a in b;
   }; ; );

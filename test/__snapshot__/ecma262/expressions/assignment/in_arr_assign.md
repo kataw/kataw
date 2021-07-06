@@ -105,7 +105,6 @@ x in[]=x
 ### Printed
 
 ```javascript
-
 x in [] = x;
 ```
 

@@ -91,7 +91,6 @@ async = 5 + 5;
 ### Printed
 
 ```javascript
-
 async = 5 + 5;
 ```
 

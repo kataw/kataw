@@ -144,7 +144,6 @@ const f = (...x?) => {}
 ### Printed
 
 ```javascript
-
 const f = (...x? ) => {};
 ```
 

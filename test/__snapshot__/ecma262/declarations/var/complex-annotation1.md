@@ -300,7 +300,6 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
 ### Printed
 
 ```javascript
-
 var obj: { str: string, i: number, j: boolean } = {
     str: "\"...\"",
     i: "\"...\"",

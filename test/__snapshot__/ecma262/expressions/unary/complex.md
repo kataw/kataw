@@ -1330,7 +1330,6 @@ function x8(a: false & false): false {
 ### Printed
 
 ```javascript
-
 function x0(y: string): number {
   return +y;
 }

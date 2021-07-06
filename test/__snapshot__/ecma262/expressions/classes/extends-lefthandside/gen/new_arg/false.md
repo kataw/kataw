@@ -65,7 +65,6 @@ new false
 ### Printed
 
 ```javascript
-
 new false;
 ```
 

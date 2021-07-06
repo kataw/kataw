@@ -304,7 +304,6 @@ result = [[x]] = vals;
 ### Printed
 
 ```javascript
-
 var x;
 var result;
 

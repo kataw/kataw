@@ -82,7 +82,6 @@ for (yield in x) ;
 ### Printed
 
 ```javascript
-
 for (yield in x);
 ```
 

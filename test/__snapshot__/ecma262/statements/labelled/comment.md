@@ -179,7 +179,6 @@
 ### Printed
 
 ```javascript
-
 {
   inf_leave:  for (;;)
     {}

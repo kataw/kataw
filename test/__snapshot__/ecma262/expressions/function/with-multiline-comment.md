@@ -204,7 +204,6 @@ x; })
 ### Printed
 
 ```javascript
-
 (function () {
     return x;
   });

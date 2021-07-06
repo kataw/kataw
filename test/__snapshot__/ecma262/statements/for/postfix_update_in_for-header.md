@@ -94,7 +94,6 @@ for (x--;;);
 ### Printed
 
 ```javascript
-
 for (x--; ; );
 ```
 

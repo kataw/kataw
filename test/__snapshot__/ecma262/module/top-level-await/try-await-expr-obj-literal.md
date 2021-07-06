@@ -409,7 +409,6 @@ try {
 ### Printed
 
 ```javascript
-
 try {
   await { function() {} };
 } catch (e) {

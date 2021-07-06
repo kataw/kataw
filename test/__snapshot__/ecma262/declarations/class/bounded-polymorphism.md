@@ -139,8 +139,7 @@ class A<T: Foo> {}
 ### Printed
 
 ```javascript
-
-class A<T: Foo> {}
+class A <T: Foo>{}
 ```
 
 ### Diagnostics

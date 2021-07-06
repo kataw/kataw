@@ -75,7 +75,6 @@ p\u0072ivate = x;
 ### Printed
 
 ```javascript
-
 p\u0072ivate = x;
 ```
 

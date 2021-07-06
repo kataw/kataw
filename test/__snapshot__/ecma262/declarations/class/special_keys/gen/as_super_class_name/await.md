@@ -101,8 +101,7 @@ class x extends await {}
 ### Printed
 
 ```javascript
-
-class x  extends await {}
+class x extends await {}
 ```
 
 ### Diagnostics

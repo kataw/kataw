@@ -74,7 +74,6 @@ x = 123;
 ### Printed
 
 ```javascript
-
 x = 123;
 ```
 

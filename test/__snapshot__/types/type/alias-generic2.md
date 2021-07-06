@@ -306,7 +306,6 @@ type MyObject<A, B, C> = {
 ### Printed
 
 ```javascript
-
 type MyObject<A, B, C> = { foo: A, bar: B, baz: C }
 ```
 

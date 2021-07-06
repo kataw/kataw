@@ -3350,7 +3350,6 @@
 ### Printed
 
 ```javascript
-
 class One {
   foo() {}
 }

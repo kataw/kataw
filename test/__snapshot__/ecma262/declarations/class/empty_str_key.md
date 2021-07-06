@@ -150,7 +150,6 @@ class X {
 ### Printed
 
 ```javascript
-
 class X {
   "''"() {}
 }

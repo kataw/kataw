@@ -190,7 +190,6 @@ type x = { [y]: z[q] | null };
 ### Printed
 
 ```javascript
-
 type x = { [y]: z[q] | null }
 ```
 

@@ -148,7 +148,6 @@ class x {static * super(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static * super() {}
 }

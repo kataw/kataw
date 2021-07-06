@@ -101,7 +101,6 @@ x({}=obj);
 ### Printed
 
 ```javascript
-
 x({} = obj);
 ```
 

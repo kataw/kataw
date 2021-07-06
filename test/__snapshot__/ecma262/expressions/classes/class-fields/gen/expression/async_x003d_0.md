@@ -133,8 +133,7 @@ class C extends Base { async = 0 }
 ### Printed
 
 ```javascript
-
-class C  extends Base {
+class C extends Base {
   async = 0;
 }
 ```

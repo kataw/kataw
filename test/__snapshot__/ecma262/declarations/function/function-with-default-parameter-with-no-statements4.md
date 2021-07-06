@@ -196,7 +196,6 @@ function bar(a = ``) {
 ### Printed
 
 ```javascript
-
 function foo(a = ``) {}
 function bar(a = ``) {}
 

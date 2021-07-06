@@ -148,7 +148,6 @@ class x {static get catch(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get catch() {}
 }

@@ -160,7 +160,6 @@ default /* comment 6 */ : /* comment 7 */ foo;
 ### Printed
 
 ```javascript
-
 switch (x) {
   case y:
     foo;

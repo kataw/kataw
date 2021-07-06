@@ -158,7 +158,6 @@ class Foo {get fooProp():number{}}
 ### Printed
 
 ```javascript
-
 class Foo {
   get fooProp(): number {}
 }

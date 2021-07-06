@@ -561,7 +561,6 @@ for await (let binding of [await null]) {
 ### Printed
 
 ```javascript
-
 var binding;
 for await (binding of [await null]) {
     await null;

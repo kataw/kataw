@@ -82,7 +82,6 @@ x = import(y);
 ### Printed
 
 ```javascript
-
 x = import(y);
 ```
 

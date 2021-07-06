@@ -95,7 +95,6 @@ let [a,] = 0;
 ### Printed
 
 ```javascript
-
 let [a,] = 0;
 ```
 

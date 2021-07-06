@@ -141,7 +141,6 @@ class C { static get #aaa(){} }
 ### Printed
 
 ```javascript
-
 class C {
   static get #aaa() {}
 }

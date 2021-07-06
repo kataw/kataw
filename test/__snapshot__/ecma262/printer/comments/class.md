@@ -352,7 +352,6 @@ class D {
 ### Printed
 
 ```javascript
-
 class C {
   ma() {}
   mb() {}

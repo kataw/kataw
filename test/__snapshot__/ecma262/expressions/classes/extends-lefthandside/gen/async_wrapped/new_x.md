@@ -178,9 +178,8 @@ async function p(){
 ### Printed
 
 ```javascript
-
 async function p() {
-  class C  extends new x {}
+  class C extends new x {}
 }
 ```
 

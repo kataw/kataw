@@ -148,7 +148,6 @@ class x {static * typeof(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static * typeof() {}
 }

@@ -169,7 +169,6 @@ function inner2({a} = {a: my_var}) { }
 ### Printed
 
 ```javascript
-
 function inner2({ a } = { a: my_var }) {}
 ```
 

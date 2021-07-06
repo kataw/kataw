@@ -164,7 +164,6 @@ async (x = delete ((interface) = f)) => {}
 ### Printed
 
 ```javascript
-
 async (x = delete ((interface) = f)) => {}
 ```
 

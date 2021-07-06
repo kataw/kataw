@@ -137,7 +137,6 @@ function *f(){
 ### Printed
 
 ```javascript
-
 function * f() {
   implem\u0065nts = x;
 }

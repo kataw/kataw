@@ -164,7 +164,6 @@
 ### Printed
 
 ```javascript
-
 ({ f: function <T>() {} });
 ```
 

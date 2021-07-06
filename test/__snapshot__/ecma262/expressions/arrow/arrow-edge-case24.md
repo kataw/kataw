@@ -196,7 +196,6 @@
 ### Printed
 
 ```javascript
-
 (a) => {};
 (x, a) => {};
 

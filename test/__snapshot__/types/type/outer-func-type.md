@@ -229,7 +229,6 @@ type x = (Record<string, any> | null)[] & { length: 2; }
 ### Printed
 
 ```javascript
-
 type x = (Record<string, any> | null)[] & { length: 2 }
 ```
 

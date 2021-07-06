@@ -151,7 +151,6 @@ for ({ eval = 0 } in [{}]) ;
 ### Printed
 
 ```javascript
-
 for ({ eval = 0 } in [{}]);
 ```
 

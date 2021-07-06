@@ -129,7 +129,6 @@ class x { "construct\u{6f}r"(){} }
 ### Printed
 
 ```javascript
-
 class x {
   "\"construct\u{6f}r\""() {}
 }

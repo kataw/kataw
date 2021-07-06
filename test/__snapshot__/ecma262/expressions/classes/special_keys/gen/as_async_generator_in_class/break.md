@@ -148,7 +148,6 @@ class x {async * break(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async * break() {}
 }

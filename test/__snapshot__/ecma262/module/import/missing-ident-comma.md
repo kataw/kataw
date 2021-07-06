@@ -148,7 +148,6 @@ import a { b, c } from 'm.js'
 ### Printed
 
 ```javascript
-
 import a{  b,  c } from "'m.js'";
 ```
 

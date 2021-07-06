@@ -124,7 +124,6 @@
 ### Printed
 
 ```javascript
-
 function f() {}
 var f;
 

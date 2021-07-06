@@ -96,7 +96,6 @@ var a: 123.0
 ### Printed
 
 ```javascript
-
 var a: 123.0;
 ```
 

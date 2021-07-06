@@ -154,7 +154,6 @@ function *f(x = (let) = f) {}
 ### Printed
 
 ```javascript
-
 function * f(x = (let) = f) {}
 ```
 

@@ -136,7 +136,6 @@ class x {false(){}}
 ### Printed
 
 ```javascript
-
 class x {
   false() {}
 }

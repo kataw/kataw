@@ -142,7 +142,6 @@ class x {* import(){}}
 ### Printed
 
 ```javascript
-
 class x {
   * import() {}
 }

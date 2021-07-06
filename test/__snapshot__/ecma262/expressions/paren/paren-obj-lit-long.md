@@ -464,7 +464,6 @@
 ### Printed
 
 ```javascript
-
 ({ ...(obj) } = foo),
 ({ ...obj } = foo),
 ({ ...obj.x } = foo),

@@ -137,7 +137,6 @@ function *f(){
 ### Printed
 
 ```javascript
-
 function * f() {
   interface = 1;
 }

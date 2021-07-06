@@ -86,7 +86,6 @@
 ### Printed
 
 ```javascript
-
 ({ x: y });
 ```
 

@@ -117,7 +117,6 @@ x = [a, b] = y
 ### Printed
 
 ```javascript
-
 x = [a, b] = y;
 ```
 

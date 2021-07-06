@@ -351,7 +351,6 @@
 ### Printed
 
 ```javascript
-
 ({ ident: { x: y } }) => x;
 ({ ident: { x } }) => x;
 

@@ -62,7 +62,6 @@ a
 ### Printed
 
 ```javascript
-
 (a);
 ```
 

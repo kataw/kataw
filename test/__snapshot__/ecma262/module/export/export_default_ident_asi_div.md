@@ -89,7 +89,6 @@ export default x
 ### Printed
 
 ```javascript
-
 export default x / y;
 ```
 

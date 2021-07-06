@@ -99,8 +99,7 @@ class x extends this {}
 ### Printed
 
 ```javascript
-
-class x  extends this {}
+class x extends this {}
 ```
 
 ### Diagnostics

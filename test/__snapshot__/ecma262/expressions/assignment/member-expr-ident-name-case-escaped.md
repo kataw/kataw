@@ -150,7 +150,6 @@ obj.c\u0061se = 42;
 ### Printed
 
 ```javascript
-
 var obj = {};
 obj.c\u0061se = 42;
 

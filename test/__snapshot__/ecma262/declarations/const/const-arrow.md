@@ -171,7 +171,6 @@ const foo = (foo?: bar) => {};
 ### Printed
 
 ```javascript
-
 const foo = (foo? : bar) => {};
 ```
 

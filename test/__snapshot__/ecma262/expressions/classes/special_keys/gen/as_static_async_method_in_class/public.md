@@ -148,7 +148,6 @@ class x {static async public(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async public() {}
 }

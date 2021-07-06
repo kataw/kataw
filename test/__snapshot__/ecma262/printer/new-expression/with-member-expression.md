@@ -292,7 +292,6 @@ function functionName() {
 ### Printed
 
 ```javascript
-
 function functionName() {
   if (true) {
       this._aVeryLongVariableNameToForceLineBreak = new this.Promise((resolve,

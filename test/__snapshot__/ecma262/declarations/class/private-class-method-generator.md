@@ -135,7 +135,6 @@ class C { *#aaa(){} }
 ### Printed
 
 ```javascript
-
 class C {
   * #aaa() {}
 }

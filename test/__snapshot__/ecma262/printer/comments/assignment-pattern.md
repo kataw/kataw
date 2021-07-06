@@ -289,7 +289,6 @@ let {d //comment
 ### Printed
 
 ```javascript
-
 const { a = 1 } = b;
 const { c = 1 } = d;
 

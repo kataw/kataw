@@ -118,7 +118,6 @@ do;while(j)try{}finally{}
 ### Printed
 
 ```javascript
-
 do ;
 while (j);try {} finally {}
 ```

@@ -90,7 +90,6 @@
 ### Printed
 
 ```javascript
-
 (new x ** 2);
 ```
 

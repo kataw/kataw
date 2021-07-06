@@ -112,7 +112,6 @@ async x => (null) = 1
 ### Printed
 
 ```javascript
-
 async x => (null) = 1;
 ```
 

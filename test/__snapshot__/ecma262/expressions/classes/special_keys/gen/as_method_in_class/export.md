@@ -136,7 +136,6 @@ class x {export(){}}
 ### Printed
 
 ```javascript
-
 class x {
   export() {}
 }

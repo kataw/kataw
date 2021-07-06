@@ -120,7 +120,6 @@ a.b<T>(e)
 ### Printed
 
 ```javascript
-
 a.b  < T > (e);
 ```
 

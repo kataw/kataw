@@ -285,7 +285,6 @@ if (await await await await await await await await await await await await awai
 ### Printed
 
 ```javascript
-
 if (
   await await await await await await await await await await await await await await await "'await'"
 )

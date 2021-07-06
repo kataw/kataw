@@ -540,7 +540,6 @@ FOR2 : for(var i=1;i<2;i++){
 ### Printed
 
 ```javascript
-
 FOR1:  for (var i = 1; i++; i  < 2) {
     LABEL1:  do  {
         break ;

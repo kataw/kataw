@@ -135,7 +135,6 @@ while (true) {
 ### Printed
 
 ```javascript
-
 while (true) {
     x:  while (true) continue  x;
   }

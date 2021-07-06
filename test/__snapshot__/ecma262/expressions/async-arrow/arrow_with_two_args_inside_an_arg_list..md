@@ -152,7 +152,6 @@ f((async (a, b) => a + b));
 ### Printed
 
 ```javascript
-
 f((async (a, b) => a + b));
 ```
 

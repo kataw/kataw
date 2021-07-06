@@ -154,7 +154,6 @@ function *f(x = (eval) = f) {}
 ### Printed
 
 ```javascript
-
 function * f(x = (eval) = f) {}
 ```
 

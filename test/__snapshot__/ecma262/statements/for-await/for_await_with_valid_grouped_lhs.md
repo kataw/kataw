@@ -157,7 +157,6 @@ async function f() { for await ((x) of y) {} }
 ### Printed
 
 ```javascript
-
 async function f() {
   for await ((x) of y) {}
 }

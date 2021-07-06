@@ -116,7 +116,6 @@ type Fn0 = () => number;
 ### Printed
 
 ```javascript
-
 type Fn0 = () =>  number
 ```
 

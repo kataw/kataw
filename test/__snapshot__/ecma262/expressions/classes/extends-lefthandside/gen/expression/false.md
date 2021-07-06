@@ -112,8 +112,7 @@
 ### Printed
 
 ```javascript
-
-(class B  extends false {});
+(class B extends false {});
 ```
 
 ### Diagnostics

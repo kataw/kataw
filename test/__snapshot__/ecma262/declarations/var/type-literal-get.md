@@ -159,7 +159,6 @@ var obj: {
 ### Printed
 
 ```javascript
-
 var obj: { foo(): string };
 ```
 

@@ -640,7 +640,6 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
 ### Printed
 
 ```javascript
-
 if (this.hasPlugin("\"dynamicImports\"") && this.lookahead().type) {}
 if (
   this.hasPlugin("\"dynamicImports\"") && this.lookahead().type === tt.parenLeft

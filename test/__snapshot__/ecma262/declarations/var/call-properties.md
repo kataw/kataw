@@ -879,7 +879,6 @@ var a: { <T>(x: T): number; };
 ### Printed
 
 ```javascript
-
 var a: { (): number };
 var a: { <T>(x: T): number };
 

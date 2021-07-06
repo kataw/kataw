@@ -172,7 +172,6 @@ for (let {x = y, z = a} of obj);
 ### Printed
 
 ```javascript
-
 for (let { x = y, z = a } of obj);
 ```
 

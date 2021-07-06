@@ -172,7 +172,6 @@ type a = {await:y.z[][][]};
 ### Printed
 
 ```javascript
-
 type a = { await: y.z[][][] }
 ```
 

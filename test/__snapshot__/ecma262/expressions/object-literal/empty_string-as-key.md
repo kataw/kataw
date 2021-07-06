@@ -138,7 +138,6 @@ x = {
 ### Printed
 
 ```javascript
-
 x = { * "\"\""() {} };
 ```
 

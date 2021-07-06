@@ -135,7 +135,6 @@
 ### Printed
 
 ```javascript
-
 {
   let x;
 }

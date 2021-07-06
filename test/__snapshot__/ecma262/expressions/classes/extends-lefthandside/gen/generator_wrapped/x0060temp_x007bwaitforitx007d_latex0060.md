@@ -163,9 +163,8 @@ function *P(){
 ### Printed
 
 ```javascript
-
 function * P() {
-  class D  extends `temp {waitforit} late` {}
+  class D extends `temp {waitforit} late` {}
 }
 ```
 

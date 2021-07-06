@@ -222,7 +222,6 @@ type a = (b[()=> c]) => c;
 ### Printed
 
 ```javascript
-
 type a = (b[() =>  c]) =>  c
 ```
 

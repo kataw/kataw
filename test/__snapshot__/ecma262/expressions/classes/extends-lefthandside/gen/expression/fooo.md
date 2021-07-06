@@ -114,8 +114,7 @@
 ### Printed
 
 ```javascript
-
-(class B  extends fooo {});
+(class B extends fooo {});
 ```
 
 ### Diagnostics

@@ -127,7 +127,6 @@ function x(){""[new.target]}
 ### Printed
 
 ```javascript
-
 function x() {
   "\"\""[new.target];
 }

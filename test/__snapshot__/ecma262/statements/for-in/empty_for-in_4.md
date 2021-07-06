@@ -115,7 +115,6 @@ for (const a in b);
 ### Printed
 
 ```javascript
-
 for (const a in b);
 ```
 

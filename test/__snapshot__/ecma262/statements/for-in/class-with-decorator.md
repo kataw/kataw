@@ -103,7 +103,6 @@ class x {}
 ### Printed
 
 ```javascript
-
 @ A class x {}
 ```
 

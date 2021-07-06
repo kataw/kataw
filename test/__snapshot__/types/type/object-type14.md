@@ -175,7 +175,6 @@ type a = {x: {x:y}};
 ### Printed
 
 ```javascript
-
 type a = { x: { x: y } }
 ```
 

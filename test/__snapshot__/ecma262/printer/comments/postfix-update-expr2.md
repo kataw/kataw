@@ -63,7 +63,6 @@ a--
 ### Printed
 
 ```javascript
-
 a--;
 ```
 

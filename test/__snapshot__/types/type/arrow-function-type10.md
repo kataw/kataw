@@ -288,7 +288,6 @@ type X = (x | y & z, q[t]) => T;
 ### Printed
 
 ```javascript
-
 type X = (x | y & z,
 q[t]) =>  T
 ```

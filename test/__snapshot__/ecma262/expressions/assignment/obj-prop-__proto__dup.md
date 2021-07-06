@@ -282,7 +282,6 @@ result = ({ __proto__: x, __proto__: y } = value);
 ### Printed
 
 ```javascript
-
 result = { __proto__: x, __proto__: y } = value;
 result = ({ __proto__: x, __proto__: y } = value);
 

@@ -166,8 +166,7 @@ x = class extends (a ? null : yield) { }
 ### Printed
 
 ```javascript
-
-x = class   extends (a ? null : yield) {};
+x = class extends (a ? null : yield) {};
 ```
 
 ### Diagnostics

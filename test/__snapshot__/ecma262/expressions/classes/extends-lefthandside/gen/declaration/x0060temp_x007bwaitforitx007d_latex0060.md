@@ -101,8 +101,7 @@ class A extends `temp {waitforit} late` {}
 ### Printed
 
 ```javascript
-
-class A  extends `temp {waitforit} late` {}
+class A extends `temp {waitforit} late` {}
 ```
 
 ### Diagnostics

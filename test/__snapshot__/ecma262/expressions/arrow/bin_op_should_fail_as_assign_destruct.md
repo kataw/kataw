@@ -158,7 +158,6 @@
 ### Printed
 
 ```javascript
-
 ({ ident: [foo, bar] + x } = y);
 ```
 

@@ -65,7 +65,6 @@ new null
 ### Printed
 
 ```javascript
-
 new null;
 ```
 

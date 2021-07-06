@@ -125,7 +125,6 @@
 ### Printed
 
 ```javascript
-
 ({ x: y }.length) = z;
 ```
 

@@ -95,7 +95,6 @@ export default (1 + 2);
 ### Printed
 
 ```javascript
-
 export default (1 + 2);
 ```
 

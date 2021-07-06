@@ -130,7 +130,6 @@ x = {0xabc(){}}
 ### Printed
 
 ```javascript
-
 x = { 0xabc() {} };
 ```
 

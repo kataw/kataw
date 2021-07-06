@@ -121,7 +121,6 @@ y = async x => await x
 ### Printed
 
 ```javascript
-
 y = async x => await x;
 ```
 

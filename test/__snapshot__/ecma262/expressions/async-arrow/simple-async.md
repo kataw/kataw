@@ -113,7 +113,6 @@ async (x, ...a)=>0;
 ### Printed
 
 ```javascript
-
 async (x, ...a) => 0
 ```
 

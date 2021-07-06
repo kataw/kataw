@@ -138,7 +138,6 @@ switch (true) { case true: const x = 1; }
 ### Printed
 
 ```javascript
-
 switch (true) {
   case true:
     const x = 1;

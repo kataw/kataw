@@ -114,7 +114,6 @@
 ### Printed
 
 ```javascript
-
 {
   "\"use strict\"";
   (arguments = a);

@@ -144,7 +144,6 @@ function* f(){ yield x + y; }
 ### Printed
 
 ```javascript
-
 function * f() {
   yield x + y;
 }

@@ -140,7 +140,6 @@ o = {f(f) { }}
 ### Printed
 
 ```javascript
-
 o = { f(f) {} };
 ```
 

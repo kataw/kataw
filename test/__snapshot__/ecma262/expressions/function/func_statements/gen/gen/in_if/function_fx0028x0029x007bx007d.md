@@ -114,7 +114,6 @@ if (x) function f(){}
 ### Printed
 
 ```javascript
-
 if (x) function f() {}
 ```
 

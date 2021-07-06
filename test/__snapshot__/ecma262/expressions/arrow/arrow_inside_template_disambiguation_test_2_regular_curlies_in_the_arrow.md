@@ -128,7 +128,6 @@
 ### Printed
 
 ```javascript
-
 `X${a => b + {}}Y`;
 ```
 

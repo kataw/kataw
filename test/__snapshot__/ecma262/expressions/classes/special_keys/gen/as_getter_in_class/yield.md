@@ -142,7 +142,6 @@ class x {get yield(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get yield() {}
 }

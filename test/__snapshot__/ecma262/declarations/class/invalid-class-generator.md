@@ -100,8 +100,7 @@
 ### Printed
 
 ```javascript
-
-(class  {
+(class {
     foo;
   });
 ```

@@ -142,7 +142,6 @@ class x {get implements(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get implements() {}
 }

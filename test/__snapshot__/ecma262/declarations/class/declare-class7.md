@@ -138,8 +138,7 @@ declare function foo<T>(): void;
 ### Printed
 
 ```javascript
-
-declare function foo<T>(): void
+declare function foo<T>(): void;
 ```
 
 ### Diagnostics

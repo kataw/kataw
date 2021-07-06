@@ -143,7 +143,6 @@ var {x, y = z} = obj;
 ### Printed
 
 ```javascript
-
 var { x, y = z } = obj;
 ```
 

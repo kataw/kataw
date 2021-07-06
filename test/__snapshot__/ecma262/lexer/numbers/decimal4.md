@@ -477,7 +477,6 @@
 ### Printed
 
 ```javascript
-
 0.0;
 0.1;
 

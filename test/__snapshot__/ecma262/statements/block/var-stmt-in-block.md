@@ -138,7 +138,6 @@ z; }
 ### Printed
 
 ```javascript
-
 {
   var x = 14, y = 3;
   z;

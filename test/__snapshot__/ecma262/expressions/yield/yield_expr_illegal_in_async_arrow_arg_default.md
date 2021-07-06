@@ -115,7 +115,6 @@ async (x = yield y) => {}
 ### Printed
 
 ```javascript
-
 async (x = yield, y) => {}
 ```
 

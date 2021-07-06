@@ -445,7 +445,6 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
 ### Printed
 
 ```javascript
-
 type Expr<T> = FieldExpr<T> | LiteralExpr<T>
 type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>
 

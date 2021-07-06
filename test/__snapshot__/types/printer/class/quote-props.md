@@ -437,7 +437,6 @@ class D {
 ### Printed
 
 ```javascript
-
 class A {
   a = "\"a\"";
 }

@@ -178,7 +178,6 @@ const resolver = options.resolver
 ### Printed
 
 ```javascript
-
 const resolver = options.resolver ? require(options.resolver) : defaultResolver;
 ```
 

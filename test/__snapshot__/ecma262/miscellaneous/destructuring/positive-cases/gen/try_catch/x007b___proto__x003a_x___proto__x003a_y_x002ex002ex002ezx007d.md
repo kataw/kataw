@@ -191,7 +191,6 @@ try {} catch({ __proto__: x, __proto__: y, ...z}) {}
 ### Printed
 
 ```javascript
-
 try {} catch ({ __proto__: x, __proto__: y, ...z }) {}
 ```
 

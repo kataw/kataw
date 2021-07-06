@@ -104,7 +104,6 @@ a && (b ?? c)
 ### Printed
 
 ```javascript
-
 a && (b ?? c);
 ```
 

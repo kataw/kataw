@@ -130,8 +130,7 @@
 ### Printed
 
 ```javascript
-
-(class B  extends fooo`bar` {});
+(class B extends fooo`bar` {});
 ```
 
 ### Diagnostics

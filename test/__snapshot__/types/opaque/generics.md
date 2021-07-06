@@ -426,7 +426,6 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
 ### Printed
 
 ```javascript
-
 opaque type MyObject<A, B, C>: { foo: A, bar: B } = { foo: A, bar: B, baz: C };
 ```
 

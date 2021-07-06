@@ -99,8 +99,7 @@ class A extends null {}
 ### Printed
 
 ```javascript
-
-class A  extends null {}
+class A extends null {}
 ```
 
 ### Diagnostics

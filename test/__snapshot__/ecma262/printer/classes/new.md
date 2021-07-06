@@ -159,9 +159,8 @@ new Ctor(class {});
 ### Printed
 
 ```javascript
-
-new class  {};
-new Ctor(class  {});
+new class {};
+new Ctor(class {});
 
 ```
 

@@ -75,7 +75,6 @@ static = x
 ### Printed
 
 ```javascript
-
 static = x;
 ```
 

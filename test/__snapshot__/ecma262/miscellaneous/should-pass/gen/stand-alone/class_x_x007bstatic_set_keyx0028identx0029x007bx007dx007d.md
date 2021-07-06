@@ -158,7 +158,6 @@ class x {static set key(ident){}}
 ### Printed
 
 ```javascript
-
 class x {
   static set key(ident) {}
 }

@@ -164,7 +164,6 @@ async (x = delete ((static) = f)) => {}
 ### Printed
 
 ```javascript
-
 async (x = delete ((static) = f)) => {}
 ```
 

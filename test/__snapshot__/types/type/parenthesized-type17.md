@@ -168,7 +168,6 @@ type a = (bj[c])[d];
 ### Printed
 
 ```javascript
-
 type a = (bj[c])[d]
 ```
 

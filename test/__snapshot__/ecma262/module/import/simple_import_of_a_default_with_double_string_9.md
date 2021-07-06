@@ -140,7 +140,6 @@ import {x, z,} from "y"
 ### Printed
 
 ```javascript
-
 import {  x,  z } from "\"y\"";
 ```
 

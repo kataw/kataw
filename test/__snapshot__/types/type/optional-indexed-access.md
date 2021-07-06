@@ -135,7 +135,6 @@ type x = a?.[b]
 ### Printed
 
 ```javascript
-
 type x = a?. [b]
 ```
 

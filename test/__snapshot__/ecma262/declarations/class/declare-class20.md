@@ -151,7 +151,6 @@ declare class B {
 ### Printed
 
 ```javascript
-
 declare class B { 1(): {} }
 ```
 

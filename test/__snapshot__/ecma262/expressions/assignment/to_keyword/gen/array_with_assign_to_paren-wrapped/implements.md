@@ -114,7 +114,6 @@ async x => (implements) = 1
 ### Printed
 
 ```javascript
-
 async x => (implements) = 1;
 ```
 

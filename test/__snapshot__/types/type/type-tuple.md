@@ -121,7 +121,6 @@ type A = { [string]: number };
 ### Printed
 
 ```javascript
-
 type A = { [string]: number }
 ```
 

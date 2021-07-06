@@ -75,7 +75,6 @@ interface = x
 ### Printed
 
 ```javascript
-
 interface = x;
 ```
 

@@ -83,7 +83,6 @@
 ### Printed
 
 ```javascript
-
 while (x) {
     break ;
   }

@@ -132,7 +132,6 @@ function f() { var await; }
 ### Printed
 
 ```javascript
-
 function f() {
   var await;
 }

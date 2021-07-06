@@ -145,8 +145,7 @@
 ### Printed
 
 ```javascript
-
-(class   extends Base {
+(class extends Base {
     await = 0;;
   });
 ```

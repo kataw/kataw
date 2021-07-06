@@ -855,7 +855,6 @@
 ### Printed
 
 ```javascript
-
 0x1234567890abcdefabcef;
 0x1234567890abcdefabcef;
 

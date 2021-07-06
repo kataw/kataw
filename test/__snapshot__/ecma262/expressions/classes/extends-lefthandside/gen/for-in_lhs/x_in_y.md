@@ -105,7 +105,6 @@ for (x in y in x) ;
 ### Printed
 
 ```javascript
-
 for (x in y in x);
 ```
 

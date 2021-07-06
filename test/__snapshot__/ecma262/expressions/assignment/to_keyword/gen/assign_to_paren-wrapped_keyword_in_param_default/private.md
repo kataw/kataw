@@ -143,7 +143,6 @@ async (x = (private) = f) => {}
 ### Printed
 
 ```javascript
-
 async (x = (private) = f) => {}
 ```
 

@@ -142,7 +142,6 @@ class x {get break(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get break() {}
 }

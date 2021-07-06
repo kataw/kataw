@@ -130,7 +130,6 @@
 ### Printed
 
 ```javascript
-
 (x = interface = 10) => {};
 ```
 

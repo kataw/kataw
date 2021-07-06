@@ -352,7 +352,6 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
 ### Printed
 
 ```javascript
-
 function * gen() {
   function not_gen() {
     function * foo() {

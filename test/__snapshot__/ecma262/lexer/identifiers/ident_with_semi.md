@@ -51,7 +51,6 @@ foo;
 ### Printed
 
 ```javascript
-
 foo;
 ```
 

@@ -154,7 +154,6 @@ class x {static async * throw(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async * throw() {}
 }

@@ -78,7 +78,6 @@
 ### Printed
 
 ```javascript
-
 ({ __proto__, __proto__ });
 ```
 

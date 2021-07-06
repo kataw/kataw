@@ -596,7 +596,6 @@
 ### Printed
 
 ```javascript
-
 ({ set ["\"a\""](x) {} });
 ({ set [0](x) {} });
 

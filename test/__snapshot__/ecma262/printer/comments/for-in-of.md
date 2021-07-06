@@ -79,7 +79,6 @@ y) //c
 ### Printed
 
 ```javascript
-
 for (x in y);
 ```
 

@@ -121,7 +121,6 @@ function x(): | a {}
 ### Printed
 
 ```javascript
-
 function x(): | a {}
 ```
 

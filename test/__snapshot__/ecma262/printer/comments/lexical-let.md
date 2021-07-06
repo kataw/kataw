@@ -585,7 +585,6 @@ let /* 1*/ {
 ### Printed
 
 ```javascript
-
 let { a1: b1 } = y;
 let { a = addd } = y1;
 

@@ -85,7 +85,6 @@ f(new /z/)
 ### Printed
 
 ```javascript
-
 f(new /z/);
 ```
 

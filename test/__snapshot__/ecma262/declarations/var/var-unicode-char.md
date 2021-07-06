@@ -131,7 +131,6 @@ var _𐒦 = 10;
 ### Printed
 
 ```javascript
-
 var  𫠝_ = 10;
 var _𐒦 = 10;
 

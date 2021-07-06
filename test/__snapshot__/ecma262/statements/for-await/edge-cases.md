@@ -152,7 +152,6 @@ async function f() {
 ### Printed
 
 ```javascript
-
 async function f() {
   for await (async of []);
 }

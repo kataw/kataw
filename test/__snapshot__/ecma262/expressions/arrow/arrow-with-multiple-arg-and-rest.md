@@ -116,7 +116,6 @@
 ### Printed
 
 ```javascript
-
 (a, b, ...c) => 0;
 ```
 

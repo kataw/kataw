@@ -149,7 +149,6 @@ for (const {...x} in y){}
 ### Printed
 
 ```javascript
-
 for (const { ...x } in y) {}
 ```
 

@@ -688,7 +688,6 @@ class Foo {
 ### Printed
 
 ```javascript
-
 class Foo {
   a(lol) {}
   b(lol) {}

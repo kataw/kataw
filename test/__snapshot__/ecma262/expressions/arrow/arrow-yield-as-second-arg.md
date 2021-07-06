@@ -97,7 +97,6 @@
 ### Printed
 
 ```javascript
-
 (bar, yield) => {};
 ```
 

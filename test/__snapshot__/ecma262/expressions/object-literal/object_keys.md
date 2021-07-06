@@ -629,7 +629,6 @@ Object.keys(y).map(k => { return {[k]: k} });
 ### Printed
 
 ```javascript
-
 const x = { foo: 3 };
 Object.keys(x).map(k => {
   return { [k]: k };

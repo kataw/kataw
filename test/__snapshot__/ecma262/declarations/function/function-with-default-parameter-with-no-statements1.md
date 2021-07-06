@@ -210,7 +210,6 @@ function bar(a = (v)) {
 ### Printed
 
 ```javascript
-
 function foo(a = (v)) {}
 function bar(a = (v)) {}
 

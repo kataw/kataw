@@ -110,7 +110,6 @@ while (i-- > 0) {}
 ### Printed
 
 ```javascript
-
 while (i-- > 0) {}
 ```
 

@@ -243,7 +243,6 @@ var a: { (x: number): string } = (x) => x.toString()
 ### Printed
 
 ```javascript
-
 var a: { (x: number): string } = (x) => x.toString();
 ```
 

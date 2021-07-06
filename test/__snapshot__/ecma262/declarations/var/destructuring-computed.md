@@ -382,7 +382,6 @@ var { ["key"]: val3, ...spread } = { key: "val" };
 ### Printed
 
 ```javascript
-
 var key: string = "\"key\"";
 var { [key]: val2 } = { key: "\"val\"" };
 

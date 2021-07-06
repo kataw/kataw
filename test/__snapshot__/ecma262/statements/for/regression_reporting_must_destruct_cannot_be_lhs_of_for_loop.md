@@ -125,7 +125,6 @@ for ({x = y} = z;;) {}
 ### Printed
 
 ```javascript
-
 for ({ x = y } = z; ; ) {}
 ```
 

@@ -206,7 +206,6 @@ async function f() {
 ### Printed
 
 ```javascript
-
 async function f() {
   class C {
     

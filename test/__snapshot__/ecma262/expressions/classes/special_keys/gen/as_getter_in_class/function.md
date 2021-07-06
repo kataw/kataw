@@ -142,7 +142,6 @@ class x {get function(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get function() {}
 }

@@ -142,7 +142,6 @@ class x {async extends(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async extends() {}
 }

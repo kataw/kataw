@@ -152,7 +152,6 @@ class x {set private(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set private(x) {}
 }

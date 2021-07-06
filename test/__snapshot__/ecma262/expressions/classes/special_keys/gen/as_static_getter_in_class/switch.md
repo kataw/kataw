@@ -148,7 +148,6 @@ class x {static get switch(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get switch() {}
 }

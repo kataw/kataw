@@ -129,7 +129,6 @@ class A {a(){}}
 ### Printed
 
 ```javascript
-
 class A {
   a() {}
 }

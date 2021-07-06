@@ -79,7 +79,6 @@
 ### Printed
 
 ```javascript
-
 [this];
 ```
 

@@ -110,7 +110,6 @@ for ([] instanceof obj;;);
 ### Printed
 
 ```javascript
-
 for ([] instanceof obj; ; );
 ```
 

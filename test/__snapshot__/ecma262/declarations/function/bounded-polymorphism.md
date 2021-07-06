@@ -154,7 +154,6 @@ function bar<T: ?number>() {}
 ### Printed
 
 ```javascript
-
 function bar<T: ? number>() {}
 ```
 

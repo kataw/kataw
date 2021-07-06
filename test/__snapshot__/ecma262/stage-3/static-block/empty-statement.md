@@ -175,7 +175,6 @@ class C {
 ### Printed
 
 ```javascript
-
 class C {
   static foo() {}
   

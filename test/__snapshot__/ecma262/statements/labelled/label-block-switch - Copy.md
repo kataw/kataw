@@ -122,7 +122,6 @@ a: { b: switch(x) {} }
 ### Printed
 
 ```javascript
-
 a:  {
   b:  switch (x) {}
 }

@@ -192,7 +192,6 @@ try {} catch (e) { for (let e of y) {} }
 ### Printed
 
 ```javascript
-
 try {} catch (e) {
   for (let e of y) {}
 }

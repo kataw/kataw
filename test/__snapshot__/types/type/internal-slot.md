@@ -448,7 +448,6 @@ type q = { [[foo]]: X }
 ### Printed
 
 ```javascript
-
 type x = { [[foo]]: X }
 type y = { [[foo]](): X }
 

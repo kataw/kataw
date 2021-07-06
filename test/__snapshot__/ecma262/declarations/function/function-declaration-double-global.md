@@ -144,7 +144,6 @@ function bar() { }
 ### Printed
 
 ```javascript
-
 function foo() {}
 function bar() {}
 

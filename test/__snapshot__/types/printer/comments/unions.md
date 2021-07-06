@@ -150,7 +150,6 @@ type Foo = /*1*/
 ### Printed
 
 ```javascript
-
 type Foo = | Type1 | Type2 | TypeN
 ```
 

@@ -172,7 +172,6 @@ var f = (argument1,{eval: x}) => {};
 ### Printed
 
 ```javascript
-
 var f = (argument1, { eval: x }) => {};
 ```
 

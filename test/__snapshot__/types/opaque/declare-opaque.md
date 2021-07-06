@@ -206,7 +206,6 @@ declare var a: A;
 ### Printed
 
 ```javascript
-
 declare opaque
 declare opaque
 

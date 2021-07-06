@@ -151,7 +151,6 @@ function f(){ do        if (x) continue   ; while(true);}
 ### Printed
 
 ```javascript
-
 function f() {
   do  if (x) continue ;
   while (true);

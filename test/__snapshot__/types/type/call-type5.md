@@ -169,7 +169,6 @@ type F = $Call<Fn1, number, string>;
 ### Printed
 
 ```javascript
-
 type F = $Call<Fn1, number, string>
 ```
 

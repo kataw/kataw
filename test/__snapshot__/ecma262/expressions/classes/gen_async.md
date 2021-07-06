@@ -147,7 +147,6 @@ class x { async *prototype(){} }
 ### Printed
 
 ```javascript
-
 class x {
   async * prototype() {}
 }

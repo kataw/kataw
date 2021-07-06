@@ -142,7 +142,6 @@ class x {get if(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get if() {}
 }

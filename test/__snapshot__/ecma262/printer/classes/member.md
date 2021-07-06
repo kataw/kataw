@@ -157,9 +157,8 @@
 ### Printed
 
 ```javascript
-
-(class  {})[1];
-(class  {}).a;
+(class {})[1];
+(class {}).a;
 
 ```
 

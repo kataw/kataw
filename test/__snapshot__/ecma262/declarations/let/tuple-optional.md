@@ -131,7 +131,6 @@ let x: [string[]?]
 ### Printed
 
 ```javascript
-
 let x: [string[]? ];
 ```
 

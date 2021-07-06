@@ -153,7 +153,6 @@ for (true ? a in b : {}; false; ) ;
 ### Printed
 
 ```javascript
-
 for (true ? a in b : {}; ; false);
 ```
 

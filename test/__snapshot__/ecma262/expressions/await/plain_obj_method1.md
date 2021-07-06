@@ -140,7 +140,6 @@ let o = {await(){}}
 ### Printed
 
 ```javascript
-
 let o = { await() {} };
 ```
 

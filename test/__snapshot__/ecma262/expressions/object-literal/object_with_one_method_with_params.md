@@ -161,7 +161,6 @@ wrap({foo(a,b,c){}});
 ### Printed
 
 ```javascript
-
 wrap({ foo(a, b, c) {} });
 ```
 

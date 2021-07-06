@@ -169,7 +169,6 @@ class Foo {
 ### Printed
 
 ```javascript
-
 class Foo {
   @ dec static bar() {}
 }

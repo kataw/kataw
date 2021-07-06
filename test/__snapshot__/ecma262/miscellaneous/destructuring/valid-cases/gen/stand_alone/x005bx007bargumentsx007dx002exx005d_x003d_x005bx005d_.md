@@ -132,7 +132,6 @@
 ### Printed
 
 ```javascript
-
 [{ arguments }.x] = [];
 ```
 

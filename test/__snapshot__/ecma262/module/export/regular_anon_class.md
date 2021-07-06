@@ -106,8 +106,7 @@ export default class {} foo
 ### Printed
 
 ```javascript
-
-export default class  {};
+export default class {};
 foo;
 
 ```

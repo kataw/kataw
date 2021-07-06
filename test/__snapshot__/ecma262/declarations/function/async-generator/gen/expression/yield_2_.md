@@ -167,7 +167,6 @@
 ### Printed
 
 ```javascript
-
 ({ async * gen() {
       yield 2;
     } });

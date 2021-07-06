@@ -93,8 +93,7 @@ class extends A{}
 ### Printed
 
 ```javascript
-
-class   extends A {}
+class extends A {}
 ```
 
 ### Diagnostics

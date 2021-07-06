@@ -148,7 +148,6 @@
 ### Printed
 
 ```javascript
-
 try {
   throw "\"no\"";
 } catch (e) {} finally {}

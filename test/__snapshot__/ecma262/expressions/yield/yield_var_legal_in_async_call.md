@@ -64,7 +64,6 @@ async (yield)
 ### Printed
 
 ```javascript
-
 async(yield)
 ```
 

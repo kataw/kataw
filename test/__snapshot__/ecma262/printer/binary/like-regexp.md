@@ -142,7 +142,6 @@
 ### Printed
 
 ```javascript
-
 0 ? a : { b: 1 } / 2;
 ```
 

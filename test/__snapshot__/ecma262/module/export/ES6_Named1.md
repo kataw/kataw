@@ -1136,7 +1136,6 @@ export const [destructuredArrNumber] = [1]
 ### Printed
 
 ```javascript
-
 const specifierNumber1 = 1;
 const specifierNumber2 = 2;
 

@@ -135,7 +135,6 @@
 ### Printed
 
 ```javascript
-
 0, [{ x }] = [null];
 ```
 

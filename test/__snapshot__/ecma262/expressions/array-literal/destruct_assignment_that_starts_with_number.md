@@ -109,7 +109,6 @@
 ### Printed
 
 ```javascript
-
 [50..foo] = x;
 ```
 

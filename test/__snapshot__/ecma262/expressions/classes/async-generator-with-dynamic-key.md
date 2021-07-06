@@ -148,7 +148,6 @@ class x { async *[y](){}}
 ### Printed
 
 ```javascript
-
 class x {
   async * [y]() {}
 }

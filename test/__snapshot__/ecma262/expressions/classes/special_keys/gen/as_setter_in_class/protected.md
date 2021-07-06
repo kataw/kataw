@@ -152,7 +152,6 @@ class x {set protected(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set protected(x) {}
 }

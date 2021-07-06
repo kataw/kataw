@@ -120,7 +120,6 @@ type X = (([1]))
 ### Printed
 
 ```javascript
-
 type X = ([1])
 ```
 

@@ -93,7 +93,6 @@ delete foo.bar, z;
 ### Printed
 
 ```javascript
-
 delete foo.bar, z;
 ```
 

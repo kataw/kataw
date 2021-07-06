@@ -148,7 +148,6 @@ class x {async * else(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async * else() {}
 }

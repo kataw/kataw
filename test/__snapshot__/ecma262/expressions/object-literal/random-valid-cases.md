@@ -5140,7 +5140,6 @@ a = { y: x = 1 } = b;
 ### Printed
 
 ```javascript
-
 ({ key: {} });
 ({ key: { a } = x });
 

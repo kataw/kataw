@@ -81,7 +81,6 @@ new void x
 ### Printed
 
 ```javascript
-
 new void x;
 ```
 

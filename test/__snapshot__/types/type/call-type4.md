@@ -137,7 +137,6 @@ type D = $Call<Fn1>;
 ### Printed
 
 ```javascript
-
 type D = $Call<Fn1>
 ```
 

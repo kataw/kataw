@@ -144,7 +144,6 @@ test !== false ? success() : error()
 ### Printed
 
 ```javascript
-
 test !== false ? success() : error();
 ```
 

@@ -115,7 +115,6 @@ for (let a in b);
 ### Printed
 
 ```javascript
-
 for (let a in b);
 ```
 

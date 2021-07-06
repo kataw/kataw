@@ -178,7 +178,6 @@ async function f(){
 ### Printed
 
 ```javascript
-
 async function f() {
   for (a ? b : c; x; of);
 }

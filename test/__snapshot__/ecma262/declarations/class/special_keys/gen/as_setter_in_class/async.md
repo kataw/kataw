@@ -152,7 +152,6 @@ class x {set async(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set async(x) {}
 }

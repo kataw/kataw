@@ -98,7 +98,6 @@ for (fooo.bar in x) ;
 ### Printed
 
 ```javascript
-
 for (fooo.bar in x);
 ```
 

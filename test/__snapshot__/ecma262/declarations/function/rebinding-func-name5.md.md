@@ -172,7 +172,6 @@ x={f(){ let f }}
 ### Printed
 
 ```javascript
-
 x = { f() {
     let f;
   } };

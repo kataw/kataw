@@ -152,7 +152,6 @@ class x {set arguments(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set arguments(x) {}
 }

@@ -124,7 +124,6 @@ function f(){ let f }
 ### Printed
 
 ```javascript
-
 function f() {
   let f;
 }

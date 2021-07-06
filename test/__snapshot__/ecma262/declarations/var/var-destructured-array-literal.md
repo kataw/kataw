@@ -148,7 +148,6 @@ var [a, ...[b, c]] = d;
 ### Printed
 
 ```javascript
-
 var [a, ...[b, c]] = d;
 ```
 

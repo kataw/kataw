@@ -117,7 +117,6 @@ for (a in b=c);
 ### Printed
 
 ```javascript
-
 for (a in b = c);
 ```
 

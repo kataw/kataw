@@ -110,7 +110,6 @@ for (yield[g]--;;);
 ### Printed
 
 ```javascript
-
 for (yield[g]--; ; );
 ```
 

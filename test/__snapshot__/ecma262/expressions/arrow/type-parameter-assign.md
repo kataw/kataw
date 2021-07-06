@@ -162,7 +162,6 @@
 ### Printed
 
 ```javascript
-
 <A= B>(x) => {};
 ```
 

@@ -148,7 +148,6 @@ class x {static get var(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get var() {}
 }

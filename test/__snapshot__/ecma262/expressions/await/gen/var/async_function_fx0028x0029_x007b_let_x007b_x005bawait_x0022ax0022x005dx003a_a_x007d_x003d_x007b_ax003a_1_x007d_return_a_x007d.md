@@ -404,7 +404,6 @@ var await; var f = (async function() { async function f() {
 ### Printed
 
 ```javascript
-
 var await;
 var f = (async function () {
       async function f() {

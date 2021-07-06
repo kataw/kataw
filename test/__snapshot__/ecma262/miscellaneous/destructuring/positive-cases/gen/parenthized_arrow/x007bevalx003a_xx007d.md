@@ -163,7 +163,6 @@ var f = ({eval: x}) => {};
 ### Printed
 
 ```javascript
-
 var f = ({ eval: x }) => {};
 ```
 

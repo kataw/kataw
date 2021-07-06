@@ -95,7 +95,6 @@ async x=>x, y
 ### Printed
 
 ```javascript
-
 async x => x, y;
 ```
 

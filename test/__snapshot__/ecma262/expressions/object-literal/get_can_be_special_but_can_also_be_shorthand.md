@@ -88,7 +88,6 @@ wrap({get});
 ### Printed
 
 ```javascript
-
 wrap({ get });
 ```
 

@@ -142,7 +142,6 @@ class x {async if(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async if() {}
 }

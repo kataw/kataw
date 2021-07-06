@@ -110,7 +110,6 @@ for ("foo".bar in obj);
 ### Printed
 
 ```javascript
-
 for ("\"foo\"".bar in obj);
 ```
 

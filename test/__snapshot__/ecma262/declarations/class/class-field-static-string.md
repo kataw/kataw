@@ -109,7 +109,6 @@ class C { static '0' }
 ### Printed
 
 ```javascript
-
 class C {
   static "'0'";
 }

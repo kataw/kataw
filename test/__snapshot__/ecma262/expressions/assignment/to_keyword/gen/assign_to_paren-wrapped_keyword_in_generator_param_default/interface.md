@@ -154,7 +154,6 @@ function *f(x = (interface) = f) {}
 ### Printed
 
 ```javascript
-
 function * f(x = (interface) = f) {}
 ```
 

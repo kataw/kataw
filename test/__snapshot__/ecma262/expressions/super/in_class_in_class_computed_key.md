@@ -303,10 +303,9 @@ class A extends B {
 ### Printed
 
 ```javascript
-
-class A  extends B {
+class A extends B {
   x() {
-    class C  extends D {
+    class C extends D {
       [super[foo]]() {}
     }
   }

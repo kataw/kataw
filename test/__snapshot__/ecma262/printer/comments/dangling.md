@@ -334,7 +334,6 @@ Thing(/* dangling */);
 ### Printed
 
 ```javascript
-
 var a = {};
 var b = {};
 

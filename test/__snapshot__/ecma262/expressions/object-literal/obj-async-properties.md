@@ -852,7 +852,6 @@
 ### Printed
 
 ```javascript
-
 ({ async });
 ({ async: await });
 

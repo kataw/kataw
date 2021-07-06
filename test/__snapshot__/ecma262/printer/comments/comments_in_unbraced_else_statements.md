@@ -225,7 +225,6 @@ else
 ### Printed
 
 ```javascript
-
 if (firstTrue()) doFirstThing();
 else  if (secondTrue()) doSecondThing();
 else  doThirdThing();

@@ -1239,7 +1239,6 @@
 ### Printed
 
 ```javascript
-
 ([b]? ) => {};
 ([b]? : string) => {};
 

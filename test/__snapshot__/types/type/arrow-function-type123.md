@@ -117,7 +117,6 @@
 ### Printed
 
 ```javascript
-
 type a = (| x)
 ```
 

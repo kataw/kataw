@@ -496,7 +496,6 @@
 ### Printed
 
 ```javascript
-
 (x? : number) => x;
 ((k? ) => k + 1)();
 

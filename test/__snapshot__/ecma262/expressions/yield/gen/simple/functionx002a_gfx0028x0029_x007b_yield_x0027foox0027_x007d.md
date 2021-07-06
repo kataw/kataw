@@ -128,7 +128,6 @@ function* gf() { yield 'foo' }
 ### Printed
 
 ```javascript
-
 function * gf() {
   yield "'foo'";
 }

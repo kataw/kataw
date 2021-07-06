@@ -110,7 +110,6 @@ function log(n, op, val,) { }
 ### Printed
 
 ```javascript
-
 function log(n, op, val) {}
 ```
 

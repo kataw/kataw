@@ -190,8 +190,7 @@ class x extends y { constructor() { new super() }}
 ### Printed
 
 ```javascript
-
-class x  extends y {
+class x extends y {
   constructor() {
     new super();
   }

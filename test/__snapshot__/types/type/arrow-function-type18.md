@@ -189,7 +189,6 @@ type a = (bj[c]) => T;
 ### Printed
 
 ```javascript
-
 type a = (bj[c]) =>  T
 ```
 

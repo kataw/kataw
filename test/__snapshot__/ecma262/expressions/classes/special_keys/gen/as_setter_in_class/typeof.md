@@ -152,7 +152,6 @@ class x {set typeof(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set typeof(x) {}
 }

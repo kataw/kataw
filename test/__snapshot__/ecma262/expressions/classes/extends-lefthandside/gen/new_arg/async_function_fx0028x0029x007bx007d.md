@@ -116,7 +116,6 @@ new async function f(){}
 ### Printed
 
 ```javascript
-
 new async function f() {};
 ```
 

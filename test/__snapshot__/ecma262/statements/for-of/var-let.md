@@ -108,7 +108,6 @@ for (var let of x) ;
 ### Printed
 
 ```javascript
-
 for (var let of x);
 ```
 

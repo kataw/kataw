@@ -194,7 +194,6 @@ function f() { function x() {} { var x } }
 ### Printed
 
 ```javascript
-
 function f() {
   function x() {}
   {

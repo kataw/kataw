@@ -88,7 +88,6 @@ x => { "use strict"; }
 ### Printed
 
 ```javascript
-
 x => {};
 ```
 

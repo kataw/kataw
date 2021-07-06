@@ -89,7 +89,6 @@ do {} while (x)/* comment 1 */ {} /* comment 2 */
 ### Printed
 
 ```javascript
-
 do  {}
 while (x);
 {}

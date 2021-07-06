@@ -58,7 +58,6 @@
 ### Printed
 
 ```javascript
-
 [];
 ```
 

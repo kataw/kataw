@@ -108,7 +108,6 @@ x ** async => {}
 ### Printed
 
 ```javascript
-
 x ** async => {};
 ```
 

@@ -142,7 +142,6 @@ class x {async continue(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async continue() {}
 }

@@ -142,7 +142,6 @@ function *f(){
 ### Printed
 
 ```javascript
-
 function * f() {
   (false) = 1;
 }

@@ -148,7 +148,6 @@ class x {static * if(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static * if() {}
 }

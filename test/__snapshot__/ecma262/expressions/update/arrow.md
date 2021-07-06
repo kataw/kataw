@@ -119,7 +119,6 @@ a;
 ### Printed
 
 ```javascript
-
 let x = () => -- a;
 ```
 

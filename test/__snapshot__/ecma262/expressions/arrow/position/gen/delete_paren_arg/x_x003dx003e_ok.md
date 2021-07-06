@@ -99,7 +99,6 @@ delete (x => ok)
 ### Printed
 
 ```javascript
-
 delete (x => ok);
 ```
 

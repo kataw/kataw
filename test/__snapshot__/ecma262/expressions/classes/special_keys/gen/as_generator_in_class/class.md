@@ -142,7 +142,6 @@ class x {* class(){}}
 ### Printed
 
 ```javascript
-
 class x {
   * class() {}
 }

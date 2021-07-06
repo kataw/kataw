@@ -207,7 +207,6 @@ for (class x { [a](){} }.x in c);
 ### Printed
 
 ```javascript
-
 for (class x {
   [a]() {}
 }.x in c);

@@ -278,8 +278,7 @@ class B extends A {
 ### Printed
 
 ```javascript
-
-class B  extends A {
+class B extends A {
   constructor() {
     super();
     this.initializer = this.initializer + 1;

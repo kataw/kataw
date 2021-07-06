@@ -127,7 +127,6 @@ for ([x.y] in obj);
 ### Printed
 
 ```javascript
-
 for ([x.y] in obj);
 ```
 

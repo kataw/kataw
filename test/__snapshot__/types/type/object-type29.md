@@ -162,7 +162,6 @@ type a = {x: number,y: string};
 ### Printed
 
 ```javascript
-
 type a = { x: number, y: string }
 ```
 

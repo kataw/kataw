@@ -207,7 +207,6 @@ var await; var f = (async function() { await 5; });
 ### Printed
 
 ```javascript
-
 var await;
 var f = (async function () {
       await 5;

@@ -130,7 +130,6 @@ export default
 ### Printed
 
 ```javascript
-
 export default @ bar class Foo {};
 ```
 

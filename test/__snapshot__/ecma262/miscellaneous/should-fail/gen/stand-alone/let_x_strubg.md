@@ -93,7 +93,6 @@ let x; strubg
 ### Printed
 
 ```javascript
-
 let x;
 strubg;
 

@@ -84,7 +84,6 @@ import((dummy, source))
 ### Printed
 
 ```javascript
-
 import((dummy, source));
 ```
 

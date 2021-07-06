@@ -152,7 +152,6 @@ class x {set await(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set await(x) {}
 }

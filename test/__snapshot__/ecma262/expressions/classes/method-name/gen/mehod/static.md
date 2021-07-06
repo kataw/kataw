@@ -140,7 +140,6 @@
 ### Printed
 
 ```javascript
-
 ({ static(x, y) {} });
 ```
 

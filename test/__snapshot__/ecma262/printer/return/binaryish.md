@@ -938,7 +938,6 @@ function f() {
 ### Printed
 
 ```javascript
-
 function f() {
   return (
     property.isIdentifier() &&

@@ -147,7 +147,6 @@ class x {
 ### Printed
 
 ```javascript
-
 class x {
   static get defaultSettings() {}
 }

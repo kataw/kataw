@@ -92,7 +92,6 @@ type Foo = (string)
 ### Printed
 
 ```javascript
-
 type Foo = (string)
 ```
 

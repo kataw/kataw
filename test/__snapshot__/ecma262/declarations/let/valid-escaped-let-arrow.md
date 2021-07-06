@@ -121,7 +121,6 @@ async l\u0065t => 42;
 ### Printed
 
 ```javascript
-
 let => 42;
 async l\u0065t => 42;
 

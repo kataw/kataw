@@ -151,7 +151,6 @@ x = {
 ### Printed
 
 ```javascript
-
 x = { method(test) {} };
 ```
 

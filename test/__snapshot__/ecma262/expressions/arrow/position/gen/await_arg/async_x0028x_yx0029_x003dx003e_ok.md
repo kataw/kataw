@@ -179,7 +179,6 @@ async function f() {
 ### Printed
 
 ```javascript
-
 async function f() {
   await async (x, y) => ok;
 }

@@ -148,7 +148,6 @@ a = [[x[await]]] = value;
 ### Printed
 
 ```javascript
-
 a = [[x[await]]] = value;
 ```
 

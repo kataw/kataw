@@ -246,7 +246,6 @@ async function fn() {
 ### Printed
 
 ```javascript
-
 async function fn() {
   async (x = async(y = await 2)) => {};
 }

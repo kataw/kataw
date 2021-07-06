@@ -77,7 +77,6 @@ x /* comment 3 */ : /* comment 4 */  y; /* comment 5 */
 ### Printed
 
 ```javascript
-
 x:  y;
 ```
 

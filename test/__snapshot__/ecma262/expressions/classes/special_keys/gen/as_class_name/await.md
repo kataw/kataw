@@ -78,7 +78,6 @@ class await {}
 ### Printed
 
 ```javascript
-
 class await {}
 ```
 

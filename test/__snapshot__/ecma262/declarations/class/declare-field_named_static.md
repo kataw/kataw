@@ -122,7 +122,6 @@ declare class A { static : number }
 ### Printed
 
 ```javascript
-
 declare class A { static: number }
 ```
 

@@ -487,7 +487,6 @@ function* g() {
 ### Printed
 
 ```javascript
-
 var yieldSet, C, iter;
 function * g() {
   class C_ {

@@ -1857,7 +1857,6 @@ class c9 {
 ### Printed
 
 ```javascript
-
 class c2 {}
 var i2 = new c2();
 

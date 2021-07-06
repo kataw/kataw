@@ -111,7 +111,6 @@ function f(x, y){"use strict";}
 ### Printed
 
 ```javascript
-
 function f(x, y) {}
 ```
 

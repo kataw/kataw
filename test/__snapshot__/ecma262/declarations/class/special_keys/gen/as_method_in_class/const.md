@@ -136,7 +136,6 @@ class x {const(){}}
 ### Printed
 
 ```javascript
-
 class x {
   const() {}
 }

@@ -134,7 +134,6 @@ var a: (typeof A)
 ### Printed
 
 ```javascript
-
 var a: (typeof A);
 ```
 

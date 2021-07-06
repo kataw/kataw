@@ -155,7 +155,6 @@ assignmentResult = { x: x = yield } = value
 ### Printed
 
 ```javascript
-
 assignmentResult = { x: x = yield } = value;
 ```
 

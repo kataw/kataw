@@ -121,7 +121,6 @@ async (f)
 ### Printed
 
 ```javascript
-
 async (f) => {}
 ```
 

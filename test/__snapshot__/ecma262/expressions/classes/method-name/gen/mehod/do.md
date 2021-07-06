@@ -140,7 +140,6 @@
 ### Printed
 
 ```javascript
-
 ({ do(x, y) {} });
 ```
 

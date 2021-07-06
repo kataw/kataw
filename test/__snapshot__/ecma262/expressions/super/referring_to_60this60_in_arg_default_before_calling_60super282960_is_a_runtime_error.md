@@ -210,8 +210,7 @@ class x extends y { constructor(x = this) { super[dad]; } }
 ### Printed
 
 ```javascript
-
-class x  extends y {
+class x extends y {
   constructor(x = this) {
     super[dad];
   }

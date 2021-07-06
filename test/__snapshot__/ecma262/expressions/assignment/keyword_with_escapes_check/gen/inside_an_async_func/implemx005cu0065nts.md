@@ -124,7 +124,6 @@ async () => {  implem\u0065nts = x  }
 ### Printed
 
 ```javascript
-
 async () => {
   implem\u0065nts = x;
 }

@@ -116,7 +116,6 @@
 ### Printed
 
 ```javascript
-
 ({ responseText: text } = res);
 ```
 

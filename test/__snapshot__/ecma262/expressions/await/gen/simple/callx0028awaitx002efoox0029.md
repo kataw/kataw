@@ -94,7 +94,6 @@ call(await.foo)
 ### Printed
 
 ```javascript
-
 call(await.foo);
 ```
 

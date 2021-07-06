@@ -558,7 +558,6 @@
 ### Printed
 
 ```javascript
-
 ({ set(...a) {} });
 ({ set(a, ...b) {} });
 

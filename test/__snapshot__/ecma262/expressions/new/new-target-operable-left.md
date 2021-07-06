@@ -134,7 +134,6 @@ function f(){ new.target + foo }
 ### Printed
 
 ```javascript
-
 function f() {
   new.target + foo;
 }

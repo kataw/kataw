@@ -1485,56 +1485,55 @@
 ### Printed
 
 ```javascript
-
-(class  {
-    a = class  {
+(class {
+    a = class {
       #a = 1;
     };
   });
-(class  {
-    a = class  {
+(class {
+    a = class {
       #a = () => {};
     };
   });
 
-(class  {
-    a = class  {
+(class {
+    a = class {
       #a;
     };
   });
 
-(class  {
-    a = class  {
+(class {
+    a = class {
       #a() {}
     };
   });
 
-(class  {
-    a = class  {
+(class {
+    a = class {
       get #a() {}
     };
   });
 
-(class  {
-    a = class  {
+(class {
+    a = class {
       set #a(foo) {}
     };
   });
 
-(class  {
-    a = class  {
+(class {
+    a = class {
       * #a() {}
     };
   });
 
-(class  {
-    a = class  {
+(class {
+    a = class {
       async #a() {}
     };
   });
 
-(class  {
-    a = class  {
+(class {
+    a = class {
       async * #a() {}
     };
   });

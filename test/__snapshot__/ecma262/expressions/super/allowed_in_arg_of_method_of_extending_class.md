@@ -245,8 +245,7 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
 ### Printed
 
 ```javascript
-
-class x  extends y {
+class x extends y {
   dsda() {
     return (a = super[bar]) => a;
   }

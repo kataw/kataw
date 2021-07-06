@@ -190,7 +190,6 @@ function f() { class C { await() { } } }
 ### Printed
 
 ```javascript
-
 function f() {
   class C {
     await() {}

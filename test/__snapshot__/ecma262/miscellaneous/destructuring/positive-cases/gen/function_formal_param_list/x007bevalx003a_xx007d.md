@@ -133,7 +133,6 @@ function f({eval: x}) {}
 ### Printed
 
 ```javascript
-
 function f({ eval: x }) {}
 ```
 

@@ -334,7 +334,6 @@ function bar(x: X): B { return x; }
 ### Printed
 
 ```javascript
-
 function foo(x: X): A {
   return x;
 }

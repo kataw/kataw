@@ -190,7 +190,6 @@
 ### Printed
 
 ```javascript
-
 ({ async * x() {} });
 ({ x: 0 });
 

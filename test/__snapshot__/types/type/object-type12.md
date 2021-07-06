@@ -131,7 +131,6 @@ type a = {[x]:string};
 ### Printed
 
 ```javascript
-
 type a = { [x]: string }
 ```
 

@@ -173,7 +173,6 @@ type a = ((1 | y)) => T;
 ### Printed
 
 ```javascript
-
 type a = (1 | y) =>  T
 ```
 

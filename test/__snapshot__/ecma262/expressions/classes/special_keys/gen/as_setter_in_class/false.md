@@ -152,7 +152,6 @@ class x {set false(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set false(x) {}
 }

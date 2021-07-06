@@ -148,7 +148,6 @@ class x {static get void(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get void() {}
 }

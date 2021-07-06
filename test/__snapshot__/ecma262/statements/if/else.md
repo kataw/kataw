@@ -726,7 +726,6 @@ function f() {
 ### Printed
 
 ```javascript
-
 function f() {
   if (position) return { name: pair };
   else

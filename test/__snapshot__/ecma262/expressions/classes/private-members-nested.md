@@ -1057,15 +1057,14 @@
 ### Printed
 
 ```javascript
-
-(class  {
+(class {
     get #a() {
       class C {
         #a() {}
       }
     }
   });
-(class  {
+(class {
     get #a() {
       class C {
         get #a() {}
@@ -1073,7 +1072,7 @@
     }
   });
 
-(class  {
+(class {
     set #a(val) {}
     get #a() {
       class C {
@@ -1083,7 +1082,7 @@
     }
   });
 
-(class  {
+(class {
     #a() {
       class C {
         set #a(val) {}

@@ -183,7 +183,6 @@
 ### Printed
 
 ```javascript
-
 ({ async get() {}, async set() {} });
 ```
 

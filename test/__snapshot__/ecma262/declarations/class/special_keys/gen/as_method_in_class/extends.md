@@ -136,7 +136,6 @@ class x {extends(){}}
 ### Printed
 
 ```javascript
-
 class x {
   extends() {}
 }

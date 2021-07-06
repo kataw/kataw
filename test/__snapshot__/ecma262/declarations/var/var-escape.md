@@ -79,7 +79,6 @@ var _\u{104A6} = 10;
 ### Printed
 
 ```javascript
-
 var _\u{104A6} = 10;
 ```
 

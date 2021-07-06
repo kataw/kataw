@@ -143,7 +143,6 @@ async (x = (public) = f) => {}
 ### Printed
 
 ```javascript
-
 async (x = (public) = f) => {}
 ```
 

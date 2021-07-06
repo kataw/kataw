@@ -211,7 +211,6 @@ type o = { m(|int|bool): void }
 ### Printed
 
 ```javascript
-
 type o = { m(| int | bool): void }
 ```
 

@@ -190,7 +190,6 @@
 ### Printed
 
 ```javascript
-
 ({ set x(y) {}, get x() {} });
 ```
 

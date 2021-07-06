@@ -187,7 +187,6 @@ wrap({foo(){}, bar(){}});
 ### Printed
 
 ```javascript
-
 wrap({ foo() {}, bar() {} });
 ```
 

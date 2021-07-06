@@ -71,7 +71,6 @@ x =>  y
 ### Printed
 
 ```javascript
-
 x => y;
 ```
 

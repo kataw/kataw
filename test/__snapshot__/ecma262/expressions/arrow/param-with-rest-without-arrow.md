@@ -110,7 +110,6 @@
 ### Printed
 
 ```javascript
-
 (b, ...a) + 1;
 ```
 

@@ -102,7 +102,6 @@ async function foo() {};
 ### Printed
 
 ```javascript
-
 async function foo() {}
 ```
 

@@ -197,7 +197,6 @@ a= 0b0101n;
 ### Printed
 
 ```javascript
-
 a = 1n;
 a = 0x80n;
 

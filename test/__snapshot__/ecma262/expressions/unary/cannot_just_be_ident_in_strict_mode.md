@@ -59,7 +59,6 @@ delete foo
 ### Printed
 
 ```javascript
-
 delete foo;
 ```
 

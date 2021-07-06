@@ -124,7 +124,6 @@ async () => {  st\u0061tic = x  }
 ### Printed
 
 ```javascript
-
 async () => {
   st\u0061tic = x;
 }

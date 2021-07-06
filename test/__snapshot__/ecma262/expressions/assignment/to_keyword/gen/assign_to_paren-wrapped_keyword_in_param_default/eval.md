@@ -143,7 +143,6 @@ async (x = (eval) = f) => {}
 ### Printed
 
 ```javascript
-
 async (x = (eval) = f) => {}
 ```
 

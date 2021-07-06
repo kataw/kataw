@@ -223,7 +223,6 @@ const absurd = <T>(x: empty): T => {};
 ### Printed
 
 ```javascript
-
 const absurd = <T>(x: empty) => {};
 ```
 

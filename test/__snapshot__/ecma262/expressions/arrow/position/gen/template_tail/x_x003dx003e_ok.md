@@ -121,7 +121,6 @@
 ### Printed
 
 ```javascript
-
 `a ${x => ok} b`.length;
 ```
 

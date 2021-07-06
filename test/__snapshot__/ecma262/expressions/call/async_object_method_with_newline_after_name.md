@@ -121,7 +121,6 @@
 ### Printed
 
 ```javascript
-
 ({ async foo() {} });
 ```
 

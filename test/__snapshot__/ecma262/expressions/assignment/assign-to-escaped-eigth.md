@@ -68,7 +68,6 @@ x = "\8";
 ### Printed
 
 ```javascript
-
 x = "\"8\"";
 ```
 

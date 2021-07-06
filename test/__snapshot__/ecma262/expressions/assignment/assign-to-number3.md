@@ -74,7 +74,6 @@ x = 0b110001
 ### Printed
 
 ```javascript
-
 x = 0b110001;
 ```
 

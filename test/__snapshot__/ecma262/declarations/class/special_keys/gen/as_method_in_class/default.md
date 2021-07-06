@@ -136,7 +136,6 @@ class x {default(){}}
 ### Printed
 
 ```javascript
-
 class x {
   default() {}
 }

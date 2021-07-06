@@ -124,7 +124,6 @@ for (a?.b of c);
 ### Printed
 
 ```javascript
-
 for (a?.b.of; ; c);
 ```
 

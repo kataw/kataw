@@ -135,7 +135,6 @@ x({[new A()]:y})
 ### Printed
 
 ```javascript
-
 x({ [new A()]: y });
 ```
 

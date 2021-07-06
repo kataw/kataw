@@ -189,7 +189,6 @@ function g() {  function f(){} function f(){} }
 ### Printed
 
 ```javascript
-
 function g() {
   function f() {}
   function f() {}

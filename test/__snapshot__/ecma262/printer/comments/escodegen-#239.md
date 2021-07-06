@@ -212,7 +212,6 @@ function test() {
 ### Printed
 
 ```javascript
-
 function test() {
   var x = "\"a\"";
   var y = "'a'" + "'b'";

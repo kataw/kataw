@@ -693,7 +693,6 @@ a;/*
 ### Printed
 
 ```javascript
-
 a;
 b;
 

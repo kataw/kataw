@@ -75,7 +75,6 @@ async in {}
 ### Printed
 
 ```javascript
-
 async in {};
 ```
 

@@ -99,7 +99,6 @@ import {} from "y"
 ### Printed
 
 ```javascript
-
 import {} from "\"y\"";
 ```
 

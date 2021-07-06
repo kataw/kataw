@@ -409,7 +409,6 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
 ### Printed
 
 ```javascript
-
 function method(value: A & B & C) {
   var a: A = value;
   var b: B = value;

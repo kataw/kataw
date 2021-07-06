@@ -108,7 +108,6 @@ type Foo = (string | number)
 ### Printed
 
 ```javascript
-
 type Foo = (string | number)
 ```
 

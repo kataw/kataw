@@ -215,7 +215,6 @@ type a = (&1,|2&3, ) => T;
 ### Printed
 
 ```javascript
-
 type a = (& 1,
 | 2 & 3) =>  T
 ```

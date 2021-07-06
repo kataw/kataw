@@ -132,7 +132,6 @@ var [...foo] = obj;
 ### Printed
 
 ```javascript
-
 var [...foo] = obj;
 ```
 

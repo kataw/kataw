@@ -142,7 +142,6 @@ class x {* switch(){}}
 ### Printed
 
 ```javascript
-
 class x {
   * switch() {}
 }

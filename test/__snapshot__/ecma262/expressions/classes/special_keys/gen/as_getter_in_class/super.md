@@ -142,7 +142,6 @@ class x {get super(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get super() {}
 }

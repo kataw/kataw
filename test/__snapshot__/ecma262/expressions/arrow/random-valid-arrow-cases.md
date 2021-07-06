@@ -3229,7 +3229,6 @@ foo((x, y) => {});
 ### Printed
 
 ```javascript
-
 (z = [...x.y]) => z;
 (...{ x }) => x;
 

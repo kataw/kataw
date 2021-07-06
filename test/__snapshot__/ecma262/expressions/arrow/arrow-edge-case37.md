@@ -213,7 +213,6 @@ let x = (y: any): (a | b) => {};
 ### Printed
 
 ```javascript
-
 let x = (y: any) => {};
 ```
 

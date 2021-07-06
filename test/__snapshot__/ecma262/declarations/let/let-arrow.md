@@ -296,7 +296,6 @@ hello();
 ### Printed
 
 ```javascript
-
 let hello = (greeting: string = "' world'") => {
     console.log("'hello'" + greeting);
   };

@@ -440,7 +440,6 @@
 ### Printed
 
 ```javascript
-
 ({ set x(foo) {} });
 ({ get x() {
       return 1;

@@ -59,7 +59,6 @@
 ### Printed
 
 ```javascript
-
 {
   debugger;
 }

@@ -117,7 +117,6 @@ class C { await = 0; }
 ### Printed
 
 ```javascript
-
 class C {
   await = 0;;
 }

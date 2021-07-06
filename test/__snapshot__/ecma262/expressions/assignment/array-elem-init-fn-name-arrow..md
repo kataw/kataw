@@ -171,7 +171,6 @@ result = [ arrow = () => {} ] = vals;
 ### Printed
 
 ```javascript
-
 result = [arrow = () => {}] = vals;
 ```
 

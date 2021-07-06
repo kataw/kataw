@@ -161,9 +161,8 @@ function *P(){
 ### Printed
 
 ```javascript
-
 function * P() {
-  class D  extends null {}
+  class D extends null {}
 }
 ```
 

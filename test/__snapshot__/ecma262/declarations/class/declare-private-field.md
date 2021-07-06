@@ -111,7 +111,6 @@ class A {
 ### Printed
 
 ```javascript
-
 class A {
   declare #foo;
 }

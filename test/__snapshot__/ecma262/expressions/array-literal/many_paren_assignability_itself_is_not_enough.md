@@ -156,7 +156,6 @@
 ### Printed
 
 ```javascript
-
 [((((((x = y))))))] = obj;
 ```
 

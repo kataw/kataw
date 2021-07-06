@@ -202,7 +202,6 @@ class C { #aaa; f(obj) { obj.#aaa } }
 ### Printed
 
 ```javascript
-
 class C {
   #aaa;;
   f(obj) {

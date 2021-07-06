@@ -180,7 +180,6 @@
 ### Printed
 
 ```javascript
-
 [foo, [x, y, z], bar = B] = arr;
 ```
 

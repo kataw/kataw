@@ -127,7 +127,6 @@ for (var a of b);
 ### Printed
 
 ```javascript
-
 for (var a of b);
 ```
 

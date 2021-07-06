@@ -74,7 +74,6 @@ left|right
 ### Printed
 
 ```javascript
-
 left | right;
 ```
 

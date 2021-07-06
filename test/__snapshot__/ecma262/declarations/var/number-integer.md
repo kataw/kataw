@@ -97,7 +97,6 @@ var a: 123
 ### Printed
 
 ```javascript
-
 var a: 123;
 ```
 

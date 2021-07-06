@@ -252,7 +252,6 @@ Math.min(
 ### Printed
 
 ```javascript
-
 Math.min(
 
     (document.body.scrollHeight - (window.scrollY + window.innerHeight)) -

@@ -227,7 +227,6 @@ let x = (): Array<(string) => number> => []
 ### Printed
 
 ```javascript
-
 let x = () => [];
 ```
 

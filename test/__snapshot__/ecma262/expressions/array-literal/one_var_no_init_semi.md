@@ -104,7 +104,6 @@
 ### Printed
 
 ```javascript
-
 [foo] = arr;
 ```
 

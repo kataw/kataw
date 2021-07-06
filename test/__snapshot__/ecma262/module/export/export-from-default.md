@@ -110,8 +110,7 @@ export {default} from "foo";
 ### Printed
 
 ```javascript
-
-export { default  } from "\"foo\"";
+export { default  } from "\"foo\"";;
 ```
 
 ### Diagnostics

@@ -170,8 +170,7 @@
 ### Printed
 
 ```javascript
-
-(class   extends Base {
+(class extends Base {
     async async() {}
   });
 ```

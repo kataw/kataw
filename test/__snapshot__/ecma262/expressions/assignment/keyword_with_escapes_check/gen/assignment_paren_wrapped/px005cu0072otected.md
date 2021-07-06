@@ -82,7 +82,6 @@
 ### Printed
 
 ```javascript
-
 (p\u0072otected = x);
 ```
 

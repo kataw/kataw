@@ -129,7 +129,6 @@ for (var let in {}) {}
 ### Printed
 
 ```javascript
-
 for (var let in {}) {}
 ```
 

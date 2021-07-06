@@ -109,7 +109,6 @@ var foo = yield = 1;
 ### Printed
 
 ```javascript
-
 var foo = yield = 1;
 ```
 

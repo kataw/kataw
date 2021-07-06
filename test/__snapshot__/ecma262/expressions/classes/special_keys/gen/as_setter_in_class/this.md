@@ -152,7 +152,6 @@ class x {set this(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set this(x) {}
 }

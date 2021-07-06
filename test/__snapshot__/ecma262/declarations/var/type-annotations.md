@@ -1345,7 +1345,6 @@ var {x5}: {x5: string; } = { x5: "hello" };
 ### Printed
 
 ```javascript
-
 var a21: ? Array<? string>;
 var identity1: <T>(x: T) =>  T;
 

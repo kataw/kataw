@@ -6405,7 +6405,6 @@ switch (answer) { case 0: let a; };
 ### Printed
 
 ```javascript
-
 switch (x) {
   case 194:
     switch (y) {
@@ -6638,7 +6637,7 @@ switch (x) {
   case 1:
 
   default
-    class C  extends Q {}
+    class C extends Q {}
 }
 
 "\"use strict\"";

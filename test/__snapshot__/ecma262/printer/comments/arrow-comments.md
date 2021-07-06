@@ -474,7 +474,6 @@ const bem = block =>
 ### Printed
 
 ```javascript
-
 const bem = block => element => modifier =>
     [
       "\".\"",

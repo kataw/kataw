@@ -92,7 +92,6 @@ with (a) let
 ### Printed
 
 ```javascript
-
 with (a) let;
 {}
 

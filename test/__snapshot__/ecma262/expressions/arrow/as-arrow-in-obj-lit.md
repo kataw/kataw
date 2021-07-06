@@ -258,7 +258,6 @@ x = {arrow: (x, y) => ok};
 ### Printed
 
 ```javascript
-
 x = { arrow: (x) => ok };
 x = { arrow: (x, y) => ok };
 

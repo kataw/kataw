@@ -136,7 +136,6 @@ export default function <T>() {}
 ### Printed
 
 ```javascript
-
 export default function <T>() {};
 ```
 

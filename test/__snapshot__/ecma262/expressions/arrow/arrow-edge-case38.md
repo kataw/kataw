@@ -100,7 +100,6 @@ async (): void => {}
 ### Printed
 
 ```javascript
-
 async () => {}
 ```
 

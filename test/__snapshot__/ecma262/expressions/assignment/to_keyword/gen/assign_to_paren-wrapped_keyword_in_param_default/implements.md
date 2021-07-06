@@ -143,7 +143,6 @@ async (x = (implements) = f) => {}
 ### Printed
 
 ```javascript
-
 async (x = (implements) = f) => {}
 ```
 

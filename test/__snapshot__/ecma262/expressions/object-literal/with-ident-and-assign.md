@@ -109,7 +109,6 @@ let z = {...x}
 ### Printed
 
 ```javascript
-
 let z = { ...x };
 ```
 

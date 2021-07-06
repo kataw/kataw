@@ -492,7 +492,6 @@ let tests = [
 ### Printed
 
 ```javascript
-
 let tests = [
     { ...a, ...b },
     { a, b, ...c },

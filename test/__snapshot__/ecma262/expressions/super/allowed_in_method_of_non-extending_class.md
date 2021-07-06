@@ -160,7 +160,6 @@ class x { foo(){ super.foo; }}
 ### Printed
 
 ```javascript
-
 class x {
   foo() {
     super.foo;

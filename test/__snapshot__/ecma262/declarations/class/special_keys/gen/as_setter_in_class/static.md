@@ -152,7 +152,6 @@ class x {set static(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set static(x) {}
 }

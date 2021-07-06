@@ -215,7 +215,6 @@ let num3: /*1*/ typeof /*2*/ num1 = 3.14;     // Works!
 ### Printed
 
 ```javascript
-
 let num2: typeof num1 = 3.14;
 let num3: typeof num1 = 3.14;
 

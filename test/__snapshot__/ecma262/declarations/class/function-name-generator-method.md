@@ -137,7 +137,6 @@ class A {
 ### Printed
 
 ```javascript
-
 class A {
   * yield() {}
 }

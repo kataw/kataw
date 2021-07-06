@@ -147,7 +147,6 @@ for await (const item of arr) {
 ### Printed
 
 ```javascript
-
 for await (const item of arr) {
     item;
   }

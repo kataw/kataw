@@ -158,7 +158,6 @@ class WebControls {
 ### Printed
 
 ```javascript
-
 class WebControls {
   createControl(): any {}
 }

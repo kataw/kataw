@@ -223,7 +223,6 @@ x={ dsda(){ return (a=super[bar]) => a; }}
 ### Printed
 
 ```javascript
-
 x = { dsda() {
     return (a = super[bar]) => a;
   } };

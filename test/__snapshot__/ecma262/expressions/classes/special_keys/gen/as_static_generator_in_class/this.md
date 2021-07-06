@@ -148,7 +148,6 @@ class x {static * this(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static * this() {}
 }

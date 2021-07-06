@@ -79,7 +79,6 @@ void await ``;
 ### Printed
 
 ```javascript
-
 void await ``;
 ```
 

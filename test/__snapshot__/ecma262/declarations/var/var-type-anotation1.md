@@ -141,7 +141,6 @@ var foo = (async (): number => bar);
 ### Printed
 
 ```javascript
-
 var foo = (async () => bar);
 ```
 

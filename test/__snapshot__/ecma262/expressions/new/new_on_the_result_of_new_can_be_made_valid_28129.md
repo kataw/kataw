@@ -99,7 +99,6 @@ new new A().foo
 ### Printed
 
 ```javascript
-
 new new A().foo;
 ```
 

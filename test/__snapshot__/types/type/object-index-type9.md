@@ -236,7 +236,6 @@ type X = {[(x) =>x]: string, (): string};
 ### Printed
 
 ```javascript
-
 type X = { [(x) =>  x]: string, (): string }
 ```
 

@@ -687,7 +687,6 @@ async function foo() {
 ### Printed
 
 ```javascript
-
 async function foo() {
   for await (num of asyncIterable) {
       console.log(num);

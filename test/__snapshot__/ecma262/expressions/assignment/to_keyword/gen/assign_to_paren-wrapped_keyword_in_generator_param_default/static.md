@@ -154,7 +154,6 @@ function *f(x = (static) = f) {}
 ### Printed
 
 ```javascript
-
 function * f(x = (static) = f) {}
 ```
 

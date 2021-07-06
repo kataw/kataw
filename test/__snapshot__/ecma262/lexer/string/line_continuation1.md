@@ -175,7 +175,6 @@ post"
 ### Printed
 
 ```javascript
-
 "\"\
 \"";
 "\"pre\

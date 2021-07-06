@@ -103,7 +103,6 @@ for ((let).foo;;);
 ### Printed
 
 ```javascript
-
 for ((let).foo; ; );
 ```
 

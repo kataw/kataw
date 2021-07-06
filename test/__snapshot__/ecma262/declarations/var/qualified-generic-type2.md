@@ -136,7 +136,6 @@ var a : A.B.C
 ### Printed
 
 ```javascript
-
 var a: A.B.C;
 ```
 

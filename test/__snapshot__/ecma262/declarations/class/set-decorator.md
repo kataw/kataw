@@ -186,7 +186,6 @@ class A {
 ### Printed
 
 ```javascript
-
 class A {
   @ foo set setter(_val) {}
 }

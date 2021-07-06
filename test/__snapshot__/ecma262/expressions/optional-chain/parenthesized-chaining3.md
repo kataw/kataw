@@ -128,7 +128,6 @@
 ### Printed
 
 ```javascript
-
 (obj?.aaa)?.bbb;
 ```
 

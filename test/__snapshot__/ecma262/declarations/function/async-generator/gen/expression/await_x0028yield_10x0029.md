@@ -188,7 +188,6 @@
 ### Printed
 
 ```javascript
-
 ({ async * gen() {
       await (yield 10);
     } });

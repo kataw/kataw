@@ -143,8 +143,7 @@ let[{}=class{}]=null
 ### Printed
 
 ```javascript
-
-let [{} = class  {}] = null;
+let [{} = class {}] = null;
 ```
 
 ### Diagnostics

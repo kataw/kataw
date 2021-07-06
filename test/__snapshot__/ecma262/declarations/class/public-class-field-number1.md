@@ -103,7 +103,6 @@ class C { 1e2 }
 ### Printed
 
 ```javascript
-
 class C {
   1e2;
 }

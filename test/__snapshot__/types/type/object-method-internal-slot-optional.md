@@ -139,7 +139,6 @@ type T = { [[foo]]?: X }
 ### Printed
 
 ```javascript
-
 type T = { [[foo]]? : X }
 ```
 

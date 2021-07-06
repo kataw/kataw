@@ -106,7 +106,6 @@ arr?.[i + 1]
 ### Printed
 
 ```javascript
-
 arr?.[i + 1];
 ```
 

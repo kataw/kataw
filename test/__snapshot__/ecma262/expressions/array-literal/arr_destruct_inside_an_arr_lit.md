@@ -119,7 +119,6 @@
 ### Printed
 
 ```javascript
-
 (foo, [bar, baz] = doo);
 ```
 

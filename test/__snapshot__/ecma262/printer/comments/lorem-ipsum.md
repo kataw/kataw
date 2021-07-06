@@ -318,7 +318,6 @@ function foo(a, b, c) {
 ### Printed
 
 ```javascript
-
 function foo(a, b, c) {
   return ((a >= b && a <= c) || a === 42 || a === 666);
 }

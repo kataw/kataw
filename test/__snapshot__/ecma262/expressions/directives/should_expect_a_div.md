@@ -92,7 +92,6 @@
 ### Printed
 
 ```javascript
-
 "\"ignore me\"" / x / g;
 ```
 

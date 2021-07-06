@@ -9189,7 +9189,6 @@ function foo8_c(x) {
 ### Printed
 
 ```javascript
-
 function foo0(x) {
   for (let x of []) {
       let a = arguments.length;

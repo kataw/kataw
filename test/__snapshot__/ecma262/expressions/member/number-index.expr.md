@@ -87,7 +87,6 @@
 ### Printed
 
 ```javascript
-
 123..toString(10);
 ```
 

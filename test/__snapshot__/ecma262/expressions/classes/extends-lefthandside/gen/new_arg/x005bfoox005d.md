@@ -84,7 +84,6 @@ new [foo]
 ### Printed
 
 ```javascript
-
 new [foo];
 ```
 

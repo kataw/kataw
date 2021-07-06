@@ -150,7 +150,6 @@ for (function(){ }[x in y] of x);
 ### Printed
 
 ```javascript
-
 for (function () {}[x in y] of x);
 ```
 

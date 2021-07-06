@@ -88,7 +88,6 @@
 ### Printed
 
 ```javascript
-
 (yield) => {};
 ```
 

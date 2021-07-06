@@ -487,7 +487,6 @@ let c = (x => /*1*/ x * /*2*/ x)(2);
 ### Printed
 
 ```javascript
-
 let a = (x => (x, x * 2), 3);
 let b = ((x, y) => (x, x * y), 1);
 

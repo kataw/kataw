@@ -243,7 +243,6 @@ var c: { (x: string): string } = (x) => x.toFixed()
 ### Printed
 
 ```javascript
-
 var c: { (x: string): string } = (x) => x.toFixed();
 ```
 

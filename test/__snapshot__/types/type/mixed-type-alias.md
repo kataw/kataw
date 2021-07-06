@@ -203,7 +203,6 @@ type MyObject = {
 ### Printed
 
 ```javascript
-
 type MyObject = { foo: number, bar: boolean, baz: string }
 ```
 

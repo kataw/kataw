@@ -252,9 +252,8 @@
 ### Printed
 
 ```javascript
-
 ({ async * gen() {
-      x = class   extends (null, yield ) {};
+      x = class extends (null, yield ) {};
     } });
 ```
 

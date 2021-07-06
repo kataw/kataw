@@ -162,7 +162,6 @@ var a : A.B<T>
 ### Printed
 
 ```javascript
-
 var a: A.B<T>;
 ```
 

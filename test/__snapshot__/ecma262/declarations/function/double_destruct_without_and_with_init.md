@@ -142,7 +142,6 @@ let {x, y = z} = obj;
 ### Printed
 
 ```javascript
-
 let { x, y = z } = obj;
 ```
 

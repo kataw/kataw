@@ -308,7 +308,6 @@ function d(x: { (): string; (x: number): string }): () => string {
 ### Printed
 
 ```javascript
-
 function d(x: { (): string, (x: number): string }): () =>  string {
   return x;
 }

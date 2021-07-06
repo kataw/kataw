@@ -1213,7 +1213,6 @@ class two {
 ### Printed
 
 ```javascript
-
 declare class one {
   m1(this: string): void,
   m2(this: string,

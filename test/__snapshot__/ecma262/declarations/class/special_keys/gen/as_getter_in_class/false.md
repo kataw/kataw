@@ -142,7 +142,6 @@ class x {get false(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get false() {}
 }

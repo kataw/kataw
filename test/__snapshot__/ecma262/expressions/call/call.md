@@ -1016,7 +1016,6 @@ new (A, B)();
 ### Printed
 
 ```javascript
-
 f();
 g(a);
 

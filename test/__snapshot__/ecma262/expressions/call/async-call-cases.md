@@ -2997,7 +2997,6 @@ async(a, [q].z = y);
 ### Printed
 
 ```javascript
-
 async((x), y)
 async((x))
 

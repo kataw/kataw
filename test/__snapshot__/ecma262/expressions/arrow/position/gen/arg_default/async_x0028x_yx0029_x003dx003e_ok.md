@@ -169,7 +169,6 @@ function f(a = async (x, y) => ok) {}
 ### Printed
 
 ```javascript
-
 function f(a = async (x, y) => ok) {}
 ```
 

@@ -783,7 +783,6 @@ for await (let binding of [await function() {}]) {
 ### Printed
 
 ```javascript
-
 var binding;
 for await (binding of [await function () {}]) {
     await function () {};

@@ -122,7 +122,6 @@
 ### Printed
 
 ```javascript
-
 {
   [...await] = obj;
 }

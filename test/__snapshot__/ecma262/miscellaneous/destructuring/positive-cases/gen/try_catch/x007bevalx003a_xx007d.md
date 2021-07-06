@@ -139,7 +139,6 @@ try {} catch({eval: x}) {}
 ### Printed
 
 ```javascript
-
 try {} catch ({ eval: x }) {}
 ```
 

@@ -175,7 +175,6 @@ function *f(x = delete ((foo) = f)) {}
 ### Printed
 
 ```javascript
-
 function * f(x = delete ((foo) = f)) {}
 ```
 

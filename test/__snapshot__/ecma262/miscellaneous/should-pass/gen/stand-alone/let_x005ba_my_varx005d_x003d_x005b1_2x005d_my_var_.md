@@ -153,7 +153,6 @@ let [a, my_var] = [1, 2]; my_var;
 ### Printed
 
 ```javascript
-
 let [a, my_var] = [1, 2];
 my_var;
 

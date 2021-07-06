@@ -105,7 +105,6 @@ try {} catch (enum) {}
 ### Printed
 
 ```javascript
-
 try {} catch (enum) {}
 ```
 

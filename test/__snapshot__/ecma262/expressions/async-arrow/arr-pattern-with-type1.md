@@ -552,7 +552,6 @@ async ([{x}: string]) =>  {};
 ### Printed
 
 ```javascript
-
 async ([x: string]) => {}
 async ([[x]: string]) => {}
 

@@ -109,7 +109,6 @@
 ### Printed
 
 ```javascript
-
 ({ obj: x, ...a });
 ```
 

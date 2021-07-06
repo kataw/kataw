@@ -204,7 +204,6 @@
 ### Printed
 
 ```javascript
-
 (x, y) => (u, v) => x * u + y * v;
 ```
 

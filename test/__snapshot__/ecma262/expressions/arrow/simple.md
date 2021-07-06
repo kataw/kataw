@@ -78,7 +78,6 @@
 ### Printed
 
 ```javascript
-
 () => x;
 ```
 

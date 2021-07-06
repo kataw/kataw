@@ -452,7 +452,6 @@ function g(x: () => any) {
 ### Printed
 
 ```javascript
-
 function f(x: any) {
   x();
   const y = x();

@@ -103,7 +103,6 @@ foo: do continue foo; while(true)
 ### Printed
 
 ```javascript
-
 foo:  do  continue  foo;
 while (true);
 ```

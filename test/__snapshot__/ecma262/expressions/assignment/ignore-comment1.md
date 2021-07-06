@@ -146,7 +146,6 @@ a
 ### Printed
 
 ```javascript
-
 a
 // kataw-ignore
  = a ///a

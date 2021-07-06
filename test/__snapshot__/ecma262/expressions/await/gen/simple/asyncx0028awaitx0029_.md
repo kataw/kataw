@@ -78,7 +78,6 @@ async(await);
 ### Printed
 
 ```javascript
-
 async(await)
 ```
 

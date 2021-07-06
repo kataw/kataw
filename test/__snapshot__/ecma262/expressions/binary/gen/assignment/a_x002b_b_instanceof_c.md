@@ -121,7 +121,6 @@ x = a + b instanceof c
 ### Printed
 
 ```javascript
-
 x = a + b instanceof c;
 ```
 

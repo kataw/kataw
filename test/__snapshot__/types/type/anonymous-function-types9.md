@@ -208,7 +208,6 @@ var f = (x): (x: number) => 123 => 123;
 ### Printed
 
 ```javascript
-
 var f = (x) => 123;
 ```
 

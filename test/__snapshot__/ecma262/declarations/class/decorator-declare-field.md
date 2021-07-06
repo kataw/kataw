@@ -134,7 +134,6 @@ class x { @declare a }
 ### Printed
 
 ```javascript
-
 class x {
   @ declare a;
 }

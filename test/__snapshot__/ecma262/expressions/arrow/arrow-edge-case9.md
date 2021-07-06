@@ -221,7 +221,6 @@ a ? (b) : c => <T>(d) : e => f;
 ### Printed
 
 ```javascript
-
 a ? (b) : c => <T>(d) => f;
 ```
 

@@ -161,7 +161,6 @@ class Foo {
 ### Printed
 
 ```javascript
-
 class Foo {
   * [Symbol.iterator]() {}
 }

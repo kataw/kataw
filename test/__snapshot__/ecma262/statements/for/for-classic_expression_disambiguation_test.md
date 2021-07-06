@@ -172,7 +172,6 @@ for ((a * b + c) * d;b;c);
 ### Printed
 
 ```javascript
-
 for ((a * b + c) * d; c; b);
 ```
 

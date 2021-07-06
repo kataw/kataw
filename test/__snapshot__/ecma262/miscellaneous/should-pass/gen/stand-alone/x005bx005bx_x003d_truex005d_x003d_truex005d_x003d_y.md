@@ -151,7 +151,6 @@
 ### Printed
 
 ```javascript
-
 [[x = true] = true] = y;
 ```
 

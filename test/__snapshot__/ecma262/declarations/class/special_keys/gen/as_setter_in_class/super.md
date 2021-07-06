@@ -152,7 +152,6 @@ class x {set super(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set super(x) {}
 }

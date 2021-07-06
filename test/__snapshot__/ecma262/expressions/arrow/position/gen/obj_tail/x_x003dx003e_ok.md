@@ -151,7 +151,6 @@ x = {arrow: x => ok}.y
 ### Printed
 
 ```javascript
-
 x = { arrow: x => ok }.y;
 ```
 

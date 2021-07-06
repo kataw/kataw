@@ -103,7 +103,6 @@ type X = ("string");
 ### Printed
 
 ```javascript
-
 type X = ("\"string\"")
 ```
 

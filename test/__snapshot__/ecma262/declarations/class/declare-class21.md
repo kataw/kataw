@@ -179,7 +179,6 @@ declare class B {
 ### Printed
 
 ```javascript
-
 declare class B { "\"string\""(x): {} }
 ```
 

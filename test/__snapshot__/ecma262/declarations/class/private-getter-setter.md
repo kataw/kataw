@@ -2389,7 +2389,6 @@ class Foo {
 ### Printed
 
 ```javascript
-
 class Foo {
   get #foo() {
     return this.foo;

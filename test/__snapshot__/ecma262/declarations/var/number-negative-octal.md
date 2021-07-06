@@ -103,7 +103,6 @@ var a: -0x7B
 ### Printed
 
 ```javascript
-
 var a: -0x7b;
 ```
 

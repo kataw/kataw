@@ -132,7 +132,6 @@
 ### Printed
 
 ```javascript
-
 ({ ident: { x } }) => x;
 ```
 

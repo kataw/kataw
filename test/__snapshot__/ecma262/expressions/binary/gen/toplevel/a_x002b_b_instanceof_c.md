@@ -98,7 +98,6 @@ a + b instanceof c
 ### Printed
 
 ```javascript
-
 a + b instanceof c;
 ```
 

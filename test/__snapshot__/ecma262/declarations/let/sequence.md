@@ -569,7 +569,6 @@ let d = (1, 2, 3);
 ### Printed
 
 ```javascript
-
 let a = (x => (x, x * 2), 3);
 let b = ((x, y) => (x, x * y), 1);
 

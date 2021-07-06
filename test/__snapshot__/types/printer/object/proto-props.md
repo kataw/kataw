@@ -237,7 +237,6 @@ declare class B { proto x: T; }
 ### Printed
 
 ```javascript
-
 declare class A { proto: T }
 declare class B { proto x: T }
 

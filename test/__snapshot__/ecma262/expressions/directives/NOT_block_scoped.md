@@ -125,7 +125,6 @@ if (x) { "use strict"; with (x) y; }
 ### Printed
 
 ```javascript
-
 if (x) {
     "\"use strict\"";
     with (x) y;

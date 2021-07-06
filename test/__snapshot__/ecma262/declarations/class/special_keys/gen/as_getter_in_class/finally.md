@@ -142,7 +142,6 @@ class x {get finally(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get finally() {}
 }

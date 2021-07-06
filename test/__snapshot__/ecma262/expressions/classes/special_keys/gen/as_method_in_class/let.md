@@ -136,7 +136,6 @@ class x {let(){}}
 ### Printed
 
 ```javascript
-
 class x {
   let() {}
 }

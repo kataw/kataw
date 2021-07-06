@@ -192,7 +192,6 @@ type T2 = number;
 ### Printed
 
 ```javascript
-
 declare class C1 {}
 declare type T1 = number
 

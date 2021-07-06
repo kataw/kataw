@@ -143,7 +143,6 @@ declare class Foo {
 ### Printed
 
 ```javascript
-
 declare class Foo { m(): this }
 ```
 

@@ -271,7 +271,6 @@ var x, y, z; for (x of x = {var: x} = z = {});
 ### Printed
 
 ```javascript
-
 var x, y, z;
 for (x of x = { var: x } = z = {});
 

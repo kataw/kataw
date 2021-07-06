@@ -161,7 +161,6 @@ result = [ x = 'x' in {} ] = vals;
 ### Printed
 
 ```javascript
-
 result = [x = "'x'" in {}] = vals;
 ```
 

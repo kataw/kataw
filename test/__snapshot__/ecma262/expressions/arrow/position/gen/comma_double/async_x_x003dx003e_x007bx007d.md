@@ -148,7 +148,6 @@ async x => {}, async x => {}
 ### Printed
 
 ```javascript
-
 async x => {}, async x => {};
 ```
 

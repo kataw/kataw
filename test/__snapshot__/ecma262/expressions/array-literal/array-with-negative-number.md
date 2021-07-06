@@ -115,7 +115,6 @@ const a = [ -1 ];
 ### Printed
 
 ```javascript
-
 const a = [-1];
 ```
 

@@ -154,7 +154,6 @@ class x {static async * extends(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async * extends() {}
 }

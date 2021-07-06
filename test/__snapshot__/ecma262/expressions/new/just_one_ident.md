@@ -68,7 +68,6 @@ new Foo()
 ### Printed
 
 ```javascript
-
 new Foo();
 ```
 

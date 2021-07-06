@@ -96,7 +96,6 @@ async (a, async, await);
 ### Printed
 
 ```javascript
-
 async(a, async, await)
 ```
 

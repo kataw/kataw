@@ -145,7 +145,6 @@
 ### Printed
 
 ```javascript
-
 [, , , ,];
 [, , a, b,];
 

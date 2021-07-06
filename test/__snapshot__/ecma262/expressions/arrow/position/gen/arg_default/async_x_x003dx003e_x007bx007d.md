@@ -157,7 +157,6 @@ function f(a = async x => {}) {}
 ### Printed
 
 ```javascript
-
 function f(a = async x => {}) {}
 ```
 

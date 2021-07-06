@@ -154,7 +154,6 @@ class x {static async * instanceof(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async * instanceof() {}
 }

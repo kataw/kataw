@@ -107,7 +107,6 @@ async x => static = 1
 ### Printed
 
 ```javascript
-
 async x => static = 1;
 ```
 

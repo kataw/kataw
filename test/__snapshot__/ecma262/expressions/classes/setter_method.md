@@ -151,7 +151,6 @@ class A {set 9(x){}}
 ### Printed
 
 ```javascript
-
 class A {
   set 9(x) {}
 }

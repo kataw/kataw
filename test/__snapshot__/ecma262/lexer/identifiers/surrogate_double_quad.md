@@ -51,7 +51,6 @@ abc\uD835\uDFD0def
 ### Printed
 
 ```javascript
-
 abc\uD835\uDFD0def;
 ```
 

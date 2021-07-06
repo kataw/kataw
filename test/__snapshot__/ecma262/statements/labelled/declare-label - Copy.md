@@ -234,7 +234,6 @@ yield: label;
 ### Printed
 
 ```javascript
-
 opaque:  label;
 declare:  label;
 

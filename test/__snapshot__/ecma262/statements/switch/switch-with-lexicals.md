@@ -101,7 +101,6 @@ function x(){}
 ### Printed
 
 ```javascript
-
 function x() {}
 ```
 

@@ -67,7 +67,6 @@ while (x) continue
 ### Printed
 
 ```javascript
-
 while (x) continue ;
 ```
 

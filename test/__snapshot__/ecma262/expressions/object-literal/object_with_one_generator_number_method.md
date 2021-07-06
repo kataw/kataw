@@ -139,7 +139,6 @@ wrap({*123(){}});
 ### Printed
 
 ```javascript
-
 wrap({ * 123() {} });
 ```
 

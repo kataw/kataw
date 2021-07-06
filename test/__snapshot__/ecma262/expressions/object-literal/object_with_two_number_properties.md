@@ -131,7 +131,6 @@ wrap({1:b, 0:d});
 ### Printed
 
 ```javascript
-
 wrap({ 1: b, 0: d });
 ```
 

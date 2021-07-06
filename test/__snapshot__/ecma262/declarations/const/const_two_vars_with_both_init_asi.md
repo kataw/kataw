@@ -123,7 +123,6 @@ const foo = bar, zoo = boo
 ### Printed
 
 ```javascript
-
 const foo = bar, zoo = boo;
 ```
 

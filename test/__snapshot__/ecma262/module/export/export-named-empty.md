@@ -68,8 +68,7 @@ export {};
 ### Printed
 
 ```javascript
-
-export {}
+export {};
 ```
 
 ### Diagnostics

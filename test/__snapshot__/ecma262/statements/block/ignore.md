@@ -203,7 +203,6 @@ function x() { { var f; var f } }
 ### Printed
 
 ```javascript
-
 // kataw-ignore
 {
 function x() { { var f; var f } }

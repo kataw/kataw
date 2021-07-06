@@ -178,7 +178,6 @@ type T = Array<(string) => number>
 ### Printed
 
 ```javascript
-
 type T = Array<(string) =>  number>
 ```
 

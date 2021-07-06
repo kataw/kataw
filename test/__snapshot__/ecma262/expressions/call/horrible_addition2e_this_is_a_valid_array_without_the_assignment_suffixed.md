@@ -122,7 +122,6 @@ log({foo: [bar]});
 ### Printed
 
 ```javascript
-
 log({ foo: [bar] });
 ```
 

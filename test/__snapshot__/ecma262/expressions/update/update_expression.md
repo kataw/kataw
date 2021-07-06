@@ -323,7 +323,6 @@ const uuid = String(this._uuidCounter++);
 ### Printed
 
 ```javascript
-
 (this.x++).toString();
 new (r++);
 

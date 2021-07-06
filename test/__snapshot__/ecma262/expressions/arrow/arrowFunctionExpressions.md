@@ -2096,7 +2096,6 @@ var p10 = ([{ value, done }]) => { };
 ### Printed
 
 ```javascript
-
 var a = (p: string) => p.length;
 var a = (p: string) => {
     return p.length;

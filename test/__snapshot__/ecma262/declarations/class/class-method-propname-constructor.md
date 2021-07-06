@@ -131,7 +131,6 @@ class A {
 ### Printed
 
 ```javascript
-
 class A {
   constructor() {}
 }

@@ -80,7 +80,6 @@ fn(a, /* comment 1 */ b /* comment 1 */) /* comment 2*/;
 ### Printed
 
 ```javascript
-
 fn(a, b);
 ```
 

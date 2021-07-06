@@ -430,7 +430,6 @@ type a = (bj[[c]] & d) => T;
 ### Printed
 
 ```javascript
-
 type a = ((bj[[c]] & d) =>  T)
 type a = (bj[[c]] & d) =>  T
 

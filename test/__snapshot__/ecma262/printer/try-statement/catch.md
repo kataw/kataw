@@ -398,7 +398,6 @@ catch(
 ### Printed
 
 ```javascript
-
 try {} catch (foo) {}
 try {} catch (foo) {}
 

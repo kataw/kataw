@@ -148,7 +148,6 @@ class x {static async package(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async package() {}
 }

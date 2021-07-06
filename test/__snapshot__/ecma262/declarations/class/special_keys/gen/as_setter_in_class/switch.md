@@ -152,7 +152,6 @@ class x {set switch(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set switch(x) {}
 }

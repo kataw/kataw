@@ -748,7 +748,6 @@
 ### Printed
 
 ```javascript
-
 (function f() {
     (yield => {});
   });

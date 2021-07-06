@@ -175,8 +175,7 @@ class C extends Base { set #arguments(test) {} }
 ### Printed
 
 ```javascript
-
-class C  extends Base {
+class C extends Base {
   set #arguments(test) {}
 }
 ```

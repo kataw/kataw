@@ -93,7 +93,6 @@
 ### Printed
 
 ```javascript
-
 ({ await: async });
 ```
 

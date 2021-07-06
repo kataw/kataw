@@ -148,7 +148,6 @@ type x = {get x (): string }
 ### Printed
 
 ```javascript
-
 type x = { x(): string }
 ```
 

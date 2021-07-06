@@ -78,7 +78,6 @@ class eval {}
 ### Printed
 
 ```javascript
-
 class eval {}
 ```
 

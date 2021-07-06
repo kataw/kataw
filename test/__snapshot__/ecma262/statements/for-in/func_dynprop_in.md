@@ -168,7 +168,6 @@ for (function(){ }[x in y] in x);
 ### Printed
 
 ```javascript
-
 for (function () {}[x in y] in x);
 ```
 

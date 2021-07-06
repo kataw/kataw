@@ -152,7 +152,6 @@ let arr: number[] = [0, 1, 2, 3];
 ### Printed
 
 ```javascript
-
 let arr: number[] = [0, 1, 2, 3];
 ```
 

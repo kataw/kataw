@@ -142,7 +142,6 @@ class x {* void(){}}
 ### Printed
 
 ```javascript
-
 class x {
   * void() {}
 }

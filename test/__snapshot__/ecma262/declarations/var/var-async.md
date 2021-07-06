@@ -79,7 +79,6 @@ var async = 0
 ### Printed
 
 ```javascript
-
 var async = 0;
 ```
 

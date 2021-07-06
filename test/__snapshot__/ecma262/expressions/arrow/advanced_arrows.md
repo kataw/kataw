@@ -536,7 +536,6 @@ var ident = <T>(x: T): T => x;
 ### Printed
 
 ```javascript
-
 var add = (x: number, y: number) => x + y;
 var bad = (x: number) => x;
 

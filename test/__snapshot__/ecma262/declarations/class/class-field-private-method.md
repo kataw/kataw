@@ -190,7 +190,6 @@ class C { #aaa; f() { this.#aaa } }
 ### Printed
 
 ```javascript
-
 class C {
   #aaa;;
   f() {

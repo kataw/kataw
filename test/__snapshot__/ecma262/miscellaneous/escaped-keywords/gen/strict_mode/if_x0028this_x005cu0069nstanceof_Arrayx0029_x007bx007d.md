@@ -97,7 +97,6 @@ if (this \u0069nstanceof Array) {}
 ### Printed
 
 ```javascript
-
 if (this instanceof Array) {}
 ```
 

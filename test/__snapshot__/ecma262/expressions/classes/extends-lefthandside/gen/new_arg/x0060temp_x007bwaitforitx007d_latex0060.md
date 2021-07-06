@@ -67,7 +67,6 @@ new `temp {waitforit} late`
 ### Printed
 
 ```javascript
-
 new `temp {waitforit} late`;
 ```
 

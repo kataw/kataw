@@ -1115,7 +1115,6 @@ class A {
 ### Printed
 
 ```javascript
-
 class A {
   get() {}
   set() {}

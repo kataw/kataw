@@ -66,7 +66,6 @@ new /crap/
 ### Printed
 
 ```javascript
-
 new /crap/;
 ```
 

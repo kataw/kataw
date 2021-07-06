@@ -245,8 +245,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
 ### Printed
 
 ```javascript
-
-class x  extends y {
+class x extends y {
   constructor() {
     return (a = super.foo) => a;
   }

@@ -112,7 +112,6 @@ foo(function(){})
 ### Printed
 
 ```javascript
-
 foo(function () {});
 ```
 

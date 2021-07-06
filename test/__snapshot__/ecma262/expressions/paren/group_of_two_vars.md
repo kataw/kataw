@@ -70,7 +70,6 @@
 ### Printed
 
 ```javascript
-
 (a, b);
 ```
 

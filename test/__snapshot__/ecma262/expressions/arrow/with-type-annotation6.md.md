@@ -132,7 +132,6 @@
 ### Printed
 
 ```javascript
-
 ([0]: string) => 0;
 ```
 

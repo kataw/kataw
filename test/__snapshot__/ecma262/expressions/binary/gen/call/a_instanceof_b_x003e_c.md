@@ -124,7 +124,6 @@ foo( a instanceof b > c )
 ### Printed
 
 ```javascript
-
 foo(a instanceof b > c);
 ```
 

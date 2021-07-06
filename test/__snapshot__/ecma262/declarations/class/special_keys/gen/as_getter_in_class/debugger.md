@@ -142,7 +142,6 @@ class x {get debugger(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get debugger() {}
 }

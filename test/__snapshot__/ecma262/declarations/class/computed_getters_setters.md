@@ -283,7 +283,6 @@ class Bar {
 ### Printed
 
 ```javascript
-
 class Bar {
   get ["'d'"]() {
     return "'foo'";

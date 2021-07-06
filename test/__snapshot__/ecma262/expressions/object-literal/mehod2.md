@@ -762,7 +762,6 @@ x = { method(test) { } }
 ### Printed
 
 ```javascript
-
 x = { method() {} };
 x = { get() {} };
 

@@ -148,7 +148,6 @@ class x {static get await(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get await() {}
 }

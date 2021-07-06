@@ -122,7 +122,6 @@ class C { aaa = bbb }
 ### Printed
 
 ```javascript
-
 class C {
   aaa = bbb;
 }

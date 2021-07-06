@@ -263,7 +263,6 @@ a?.b?.c?.(d)?.[e].f?.g
 ### Printed
 
 ```javascript
-
 a?.b?.c?.(d)?.[e].f?.g;
 ```
 

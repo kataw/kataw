@@ -133,7 +133,6 @@ for (x[a in b] in y);
 ### Printed
 
 ```javascript
-
 for (x[a in b] in y);
 ```
 

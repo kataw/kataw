@@ -155,7 +155,6 @@ class A { foo(a, b,) {} };
 ### Printed
 
 ```javascript
-
 class A {
   foo(
     a,

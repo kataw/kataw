@@ -188,7 +188,6 @@ async ([x: string = y, z: number]) =>  {};
 ### Printed
 
 ```javascript
-
 async ([x: string = y, z: number]) => {}
 ```
 

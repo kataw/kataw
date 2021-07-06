@@ -713,7 +713,6 @@ const f = async function * (source, block, opts) {
 ### Printed
 
 ```javascript
-
 const f = async function * (source, block, opts) {
     for await (const entry of source) {
         yield async function () {

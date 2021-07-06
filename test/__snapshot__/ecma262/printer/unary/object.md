@@ -119,7 +119,6 @@ state = {
 ### Printed
 
 ```javascript
-
 state = { hoverColumn: -1 };
 ```
 

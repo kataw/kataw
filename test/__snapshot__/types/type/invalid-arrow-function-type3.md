@@ -396,7 +396,6 @@ type a = (a[a & b[]][c | d][(x) => T][][][]) => T;
 ### Printed
 
 ```javascript
-
 type a = (a[a & b[]][c | d][(x) =>  T][][][]) =>  T
 ```
 

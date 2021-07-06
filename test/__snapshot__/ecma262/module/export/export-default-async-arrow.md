@@ -235,7 +235,6 @@ export default async (x) => (y, z);
 ### Printed
 
 ```javascript
-
 export default async x => (y, z);;
 export default async (x) => (y, z);
 

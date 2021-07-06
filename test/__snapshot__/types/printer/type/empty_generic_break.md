@@ -158,7 +158,6 @@ class X {
 ### Printed
 
 ```javascript
-
 class X {
   a: B<> = SuperSuperSuperSuperSuperSuperSuperSuperSuperSuperSuperSuperSuperLong;;
 }

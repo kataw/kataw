@@ -2233,7 +2233,6 @@ function foo4() {
 ### Printed
 
 ```javascript
-
 function x() {}
 function x() {}
 

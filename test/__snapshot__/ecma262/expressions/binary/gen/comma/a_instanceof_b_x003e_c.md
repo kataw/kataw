@@ -116,7 +116,6 @@ x, a instanceof b > c
 ### Printed
 
 ```javascript
-
 x, a instanceof b > c;
 ```
 

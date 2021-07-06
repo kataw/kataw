@@ -136,7 +136,6 @@ class x {interface(){}}
 ### Printed
 
 ```javascript
-
 class x {
   interface() {}
 }

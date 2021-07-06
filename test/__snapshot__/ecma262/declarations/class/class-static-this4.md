@@ -171,9 +171,8 @@ class Foo { static x = class { y = this } }
 ### Printed
 
 ```javascript
-
 class Foo {
-  static x = class  {
+  static x = class {
     y = this;
   };
 }

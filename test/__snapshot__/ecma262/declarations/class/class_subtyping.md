@@ -371,11 +371,10 @@ class D extends C<O> {
 ### Printed
 
 ```javascript
-
-class C<X> {
+class C <X>{
   x: X;;
 }
-class D  extends C<O> {
+class D extends C<O> {
   bar() {
     this.x;
   }

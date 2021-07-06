@@ -218,7 +218,6 @@ function* foo(a = {*bar() { yield b }}) {}
 ### Printed
 
 ```javascript
-
 function * foo(a = { * bar() {
     yield b;
   } }) {}

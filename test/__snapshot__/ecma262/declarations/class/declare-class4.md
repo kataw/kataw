@@ -85,7 +85,6 @@ declare var foo;
 ### Printed
 
 ```javascript
-
 declare var foo;
 ```
 

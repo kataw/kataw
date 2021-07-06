@@ -307,7 +307,6 @@ function name() {
 ### Printed
 
 ```javascript
-
 function f() {
   a;
 }

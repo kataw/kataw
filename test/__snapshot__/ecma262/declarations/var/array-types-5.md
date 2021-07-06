@@ -115,7 +115,6 @@ var a: number[][][]
 ### Printed
 
 ```javascript
-
 var a: number[][][];
 ```
 

@@ -250,7 +250,6 @@ loop: for (;;) {
 ### Printed
 
 ```javascript
-
 for (;;)
   {
     break ;

@@ -103,7 +103,6 @@ const array = [1, /* comment */];
 ### Printed
 
 ```javascript
-
 const array = [1,];
 ```
 

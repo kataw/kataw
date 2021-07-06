@@ -91,7 +91,6 @@ declare type bool = any;
 ### Printed
 
 ```javascript
-
 declare type bool = any
 ```
 

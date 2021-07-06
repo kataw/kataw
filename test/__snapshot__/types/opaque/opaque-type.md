@@ -92,7 +92,6 @@ opaque type ID = string;
 ### Printed
 
 ```javascript
-
 opaque type ID = string;
 ```
 

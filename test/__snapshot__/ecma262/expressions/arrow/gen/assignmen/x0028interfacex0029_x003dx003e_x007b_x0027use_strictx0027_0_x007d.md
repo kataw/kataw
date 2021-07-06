@@ -145,8 +145,9 @@ x = (interface) => { 'use strict'; 0 } ;
 ### Printed
 
 ```javascript
-
 x = (interface) => {
+
+  "'use strict'";
   0;
 };
 ```

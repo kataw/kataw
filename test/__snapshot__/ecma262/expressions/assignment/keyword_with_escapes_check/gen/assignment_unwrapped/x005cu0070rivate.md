@@ -75,7 +75,6 @@
 ### Printed
 
 ```javascript
-
 \u0070rivate = x;
 ```
 

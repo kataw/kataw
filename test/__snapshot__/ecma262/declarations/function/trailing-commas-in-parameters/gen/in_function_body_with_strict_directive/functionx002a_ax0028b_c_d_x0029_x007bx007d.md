@@ -187,8 +187,9 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
 ### Printed
 
 ```javascript
-
 function foo() {
+
+  "'use strict'";
   function * a(b, c, d) {}
 }
 ```

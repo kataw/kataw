@@ -123,7 +123,6 @@ else let
 ### Printed
 
 ```javascript
-
 if (a) b;
 else  let;
 {}

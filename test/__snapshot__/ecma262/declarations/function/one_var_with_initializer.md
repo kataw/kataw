@@ -133,7 +133,6 @@ let [foo=a] = arr;
 ### Printed
 
 ```javascript
-
 let [foo = a] = arr;
 ```
 

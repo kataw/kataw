@@ -133,7 +133,6 @@ await x;
 ### Printed
 
 ```javascript
-
 export const x = 1;
 await x;
 

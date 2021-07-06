@@ -286,7 +286,6 @@ x(function (other) { return other });
 ### Printed
 
 ```javascript
-
 var x = function (foo) {
     return "'foo'" + "'bar'";
   };

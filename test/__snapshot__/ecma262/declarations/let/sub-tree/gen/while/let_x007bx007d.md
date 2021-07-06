@@ -99,7 +99,6 @@ while (a) let
 ### Printed
 
 ```javascript
-
 while (a) let;
 {}
 

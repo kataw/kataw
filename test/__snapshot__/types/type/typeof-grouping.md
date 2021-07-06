@@ -114,7 +114,6 @@ type A /* comment 1 */ = /* comment 2 */  typeof /* comment 3 */  (B)
 ### Printed
 
 ```javascript
-
 type A = typeof (B)
 ```
 

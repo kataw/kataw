@@ -231,7 +231,6 @@ var obj: {
 ### Printed
 
 ```javascript
-
 var obj: { size: number, [number]: string } = { size: 0 };
 ```
 

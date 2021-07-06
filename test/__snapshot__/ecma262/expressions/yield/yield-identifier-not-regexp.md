@@ -394,7 +394,6 @@ function f2() {
 ### Printed
 
 ```javascript
-
 function f1() {
   yield / 1 / g;
   yield / 1 / g;

@@ -614,7 +614,6 @@ function five<T>(this: T) {}
 ### Printed
 
 ```javascript
-
 function one(this: number) {}
 function two(this: number, a) {}
 

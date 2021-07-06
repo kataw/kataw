@@ -102,8 +102,7 @@ export {foo as bar};
 ### Printed
 
 ```javascript
-
-export { foo as  bar }
+export { foo as  bar };
 ```
 
 ### Diagnostics

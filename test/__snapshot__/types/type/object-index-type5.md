@@ -146,7 +146,6 @@ type x = { [|a]:string }
 ### Printed
 
 ```javascript
-
 type x = { [| a]: string }
 ```
 

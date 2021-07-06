@@ -128,7 +128,6 @@ async <T>() => {}
 ### Printed
 
 ```javascript
-
 async <T>() => {};
 ```
 

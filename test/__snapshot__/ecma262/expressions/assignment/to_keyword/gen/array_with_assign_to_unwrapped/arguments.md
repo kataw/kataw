@@ -107,7 +107,6 @@ async x => arguments = 1
 ### Printed
 
 ```javascript
-
 async x => arguments = 1;
 ```
 

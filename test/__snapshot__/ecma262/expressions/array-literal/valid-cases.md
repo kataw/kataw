@@ -8335,7 +8335,6 @@
 ### Printed
 
 ```javascript
-
 [...a, ...b];
 [...a, , ...b];
 

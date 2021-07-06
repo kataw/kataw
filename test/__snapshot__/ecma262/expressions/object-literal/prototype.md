@@ -562,7 +562,6 @@
 ### Printed
 
 ```javascript
-
 ({ prototype: 1 });
 ({ get prototype() {} });
 

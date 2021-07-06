@@ -142,7 +142,6 @@ class x {get protected(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get protected() {}
 }

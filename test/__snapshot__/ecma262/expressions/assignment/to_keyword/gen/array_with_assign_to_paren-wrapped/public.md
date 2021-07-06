@@ -114,7 +114,6 @@ async x => (public) = 1
 ### Printed
 
 ```javascript
-
 async x => (public) = 1;
 ```
 

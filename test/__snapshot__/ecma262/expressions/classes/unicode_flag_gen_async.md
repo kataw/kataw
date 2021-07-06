@@ -141,7 +141,6 @@ class x { async *prot\u006ftype(){} }
 ### Printed
 
 ```javascript
-
 class x {
   async * prot\u006ftype() {}
 }

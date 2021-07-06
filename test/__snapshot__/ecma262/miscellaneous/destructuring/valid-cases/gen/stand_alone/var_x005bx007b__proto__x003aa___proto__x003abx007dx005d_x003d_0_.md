@@ -163,7 +163,6 @@ var [{__proto__:a, __proto__:b}] = 0;
 ### Printed
 
 ```javascript
-
 var [{ __proto__: a, __proto__: b }] = 0;
 ```
 

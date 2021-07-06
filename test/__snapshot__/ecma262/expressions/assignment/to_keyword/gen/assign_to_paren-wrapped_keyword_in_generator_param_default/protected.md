@@ -154,7 +154,6 @@ function *f(x = (protected) = f) {}
 ### Printed
 
 ```javascript
-
 function * f(x = (protected) = f) {}
 ```
 

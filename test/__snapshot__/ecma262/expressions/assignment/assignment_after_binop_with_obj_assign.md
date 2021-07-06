@@ -150,7 +150,6 @@ for(x in(t&{}=y))x
 ### Printed
 
 ```javascript
-
 for (x in (t & {} = y)) x;
 ```
 

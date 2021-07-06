@@ -166,7 +166,6 @@ const [x, ...[foo, bar]] = obj;
 ### Printed
 
 ```javascript
-
 const [x, ...[foo, bar]] = obj;
 ```
 

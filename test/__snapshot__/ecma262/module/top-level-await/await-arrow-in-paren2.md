@@ -129,7 +129,6 @@ await (async () => {})(); // equivalent to: await((async () => {})())
 ### Printed
 
 ```javascript
-
 await (async () => {})();
 ```
 

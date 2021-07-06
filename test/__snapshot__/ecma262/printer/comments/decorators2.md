@@ -168,7 +168,6 @@ foo /* 2*/ bar() {}
 ### Printed
 
 ```javascript
-
 class x {
   @ foo bar() {}
 }

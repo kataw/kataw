@@ -200,7 +200,6 @@ var {x:y=z}, {a:b=c} = obj;
 ### Printed
 
 ```javascript
-
 var { x: y = z }, { a: b = c } = obj;
 ```
 

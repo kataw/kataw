@@ -127,7 +127,6 @@ function* test () { yield *v }
 ### Printed
 
 ```javascript
-
 function * test() {
   yield * v;
 }

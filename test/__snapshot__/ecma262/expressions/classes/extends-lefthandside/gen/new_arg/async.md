@@ -67,7 +67,6 @@ new async
 ### Printed
 
 ```javascript
-
 new async;
 ```
 

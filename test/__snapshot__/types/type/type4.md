@@ -2018,7 +2018,6 @@ type T27 = ArgumentType<never>;  // any
 ### Printed
 
 ```javascript
-
 type T10 = ReturnType<() =>  string>
 type T11 = ReturnType<(s: string) =>  void>
 

@@ -148,7 +148,6 @@ a = [[x[async]]] = value;
 ### Printed
 
 ```javascript
-
 a = [[x[async]]] = value;
 ```
 

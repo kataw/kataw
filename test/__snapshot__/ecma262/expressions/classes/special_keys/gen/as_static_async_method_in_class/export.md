@@ -148,7 +148,6 @@ class x {static async export(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async export() {}
 }

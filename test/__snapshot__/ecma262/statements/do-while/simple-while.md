@@ -68,7 +68,6 @@ while (foo) bar;
 ### Printed
 
 ```javascript
-
 while (foo) bar;
 ```
 

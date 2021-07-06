@@ -93,7 +93,6 @@ async () => {return}
 ### Printed
 
 ```javascript
-
 async () => {
   return;
 }

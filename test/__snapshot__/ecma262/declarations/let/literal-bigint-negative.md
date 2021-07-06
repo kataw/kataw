@@ -102,7 +102,6 @@ let x: -1n;
 ### Printed
 
 ```javascript
-
 let x: -1n;
 ```
 

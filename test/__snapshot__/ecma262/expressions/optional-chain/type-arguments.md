@@ -140,7 +140,6 @@ example.inner?.<string>()
 ### Printed
 
 ```javascript
-
 example.inner?.<string>();
 ```
 

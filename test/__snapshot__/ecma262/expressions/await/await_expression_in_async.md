@@ -145,7 +145,6 @@ async function f(){ async(await x); }
 ### Printed
 
 ```javascript
-
 async function f() {
   async(await x);
 }

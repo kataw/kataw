@@ -109,7 +109,6 @@ let [enum] = [];
 ### Printed
 
 ```javascript
-
 let [enum] = [];
 ```
 

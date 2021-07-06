@@ -148,7 +148,6 @@
 ### Printed
 
 ```javascript
-
 ({ a: b, ...obj }) => {};
 ```
 

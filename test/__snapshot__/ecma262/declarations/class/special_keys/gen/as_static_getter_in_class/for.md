@@ -148,7 +148,6 @@ class x {static get for(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get for() {}
 }

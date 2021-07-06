@@ -79,7 +79,6 @@ b
 ### Printed
 
 ```javascript
-
 a`foo\r\nbar`;
 b;
 

@@ -94,7 +94,6 @@ var a: 0173n
 ### Printed
 
 ```javascript
-
 var a: 0173n;
 ```
 

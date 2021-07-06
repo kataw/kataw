@@ -5217,7 +5217,6 @@ a});
 ### Printed
 
 ```javascript
-
 class x {
   static #foo = bar;
 }
@@ -5317,19 +5316,19 @@ class x {
     ["'b'"]() {}
   });
 
-(class   extends x {
+(class extends x {
     static 0 = 0;;
   });
 
-(class   extends x {
+(class extends x {
     static 0;;
   });
 
-(class   extends x {
+(class extends x {
     static "'a'" = 0;;
   });
 
-(class   extends x {
+(class extends x {
     static "'a'";;
   });
 
@@ -5385,25 +5384,25 @@ class x {
     static c = [c] = c;
   });
 
-(class  {
+(class {
     static a = 0;
   });
 
-(class  {
+(class {
     static a = 0;
     b;
   });
 
-(class  {
+(class {
     static a = 0;
     b() {}
   });
 
-(class  {
+(class {
     static a;
   });
 
-(class  {
+(class {
     static a;
     b;
   });

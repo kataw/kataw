@@ -158,7 +158,6 @@ class x {static set catch(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   static set catch(x) {}
 }

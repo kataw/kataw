@@ -925,7 +925,6 @@ true
 ### Printed
 
 ```javascript
-
 if (1) {
     false;
   }

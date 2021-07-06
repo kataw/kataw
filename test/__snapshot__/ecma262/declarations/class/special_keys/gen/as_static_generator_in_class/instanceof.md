@@ -148,7 +148,6 @@ class x {static * instanceof(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static * instanceof() {}
 }

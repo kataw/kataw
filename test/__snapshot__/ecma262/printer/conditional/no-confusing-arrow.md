@@ -259,7 +259,6 @@ var x = a <= 1 ? 2 : 3;
 ### Printed
 
 ```javascript
-
 var x = a => 1 ? 2 : 3;
 var x = a <= 1 ? 2 : 3;
 

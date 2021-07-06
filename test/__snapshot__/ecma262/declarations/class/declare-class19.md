@@ -151,7 +151,6 @@ declare class x {
 ### Printed
 
 ```javascript
-
 declare class x { static "\"string\""(): {} }
 ```
 

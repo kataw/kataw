@@ -100,7 +100,6 @@
 ### Printed
 
 ```javascript
-
 3 + async () => 2;
 ```
 

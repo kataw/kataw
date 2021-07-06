@@ -119,7 +119,6 @@ export async function foo() { };
 ### Printed
 
 ```javascript
-
 export async function foo() {}
 ```
 

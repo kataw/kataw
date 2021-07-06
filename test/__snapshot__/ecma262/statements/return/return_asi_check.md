@@ -115,7 +115,6 @@ function f(){   return
 ### Printed
 
 ```javascript
-
 function f() {
   return;
   foo;

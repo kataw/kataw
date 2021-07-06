@@ -757,7 +757,6 @@ type A5<S = number, T: ?string = string> = T;
 ### Printed
 
 ```javascript
-
 type A1<T= string> = T
 type A2<T= *> = T
 

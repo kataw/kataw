@@ -76,7 +76,6 @@ a);
 ### Printed
 
 ```javascript
-
 if (-- a);
 ```
 

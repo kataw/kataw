@@ -154,7 +154,6 @@ class x {static async * typeof(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async * typeof() {}
 }

@@ -152,7 +152,6 @@ class x {set else(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set else(x) {}
 }

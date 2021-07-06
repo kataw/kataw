@@ -193,7 +193,6 @@ async (x = async([(f) = []])) => {};
 ### Printed
 
 ```javascript
-
 async (x = async([(f) = []])) => {}
 ```
 

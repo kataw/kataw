@@ -171,8 +171,7 @@ class C extends Base { static get x() {} }
 ### Printed
 
 ```javascript
-
-class C  extends Base {
+class C extends Base {
   static get x() {}
 }
 ```

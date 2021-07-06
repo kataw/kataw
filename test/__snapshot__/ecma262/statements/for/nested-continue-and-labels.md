@@ -720,7 +720,6 @@ function relativeComplement() {
 ### Printed
 
 ```javascript
-
 function relativeComplement() {
   outer:  for (; offsetB++; offsetB  < arrayB.length) {
       inner:  for (; offsetA++; offsetA  < arrayA.length) {

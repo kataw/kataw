@@ -152,7 +152,6 @@ type D = (Obj['bar'])['baz'];
 ### Printed
 
 ```javascript
-
 type D = (Obj["'bar'"])["'baz'"]
 ```
 

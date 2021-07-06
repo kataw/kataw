@@ -142,7 +142,6 @@ class x {static enum(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static enum() {}
 }

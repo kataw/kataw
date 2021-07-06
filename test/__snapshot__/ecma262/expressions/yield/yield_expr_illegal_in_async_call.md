@@ -73,7 +73,6 @@ async (yield x)
 ### Printed
 
 ```javascript
-
 async(yield, x)
 ```
 

@@ -263,7 +263,6 @@ type A = (Array<string>, ...Array<string>) => void
 ### Printed
 
 ```javascript
-
 type A = (Array<string>,
 ...Array<string>) =>  void
 ```

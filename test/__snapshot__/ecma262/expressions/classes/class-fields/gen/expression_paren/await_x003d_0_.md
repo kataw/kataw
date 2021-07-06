@@ -122,8 +122,7 @@
 ### Printed
 
 ```javascript
-
-(class  {
+(class {
     await = 0;;
   });
 ```

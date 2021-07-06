@@ -155,7 +155,6 @@
 ### Printed
 
 ```javascript
-
 [function () {}.length] = x;
 ```
 

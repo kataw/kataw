@@ -152,7 +152,6 @@ class C { set #await(test) {} }
 ### Printed
 
 ```javascript
-
 class C {
   set #await(test) {}
 }

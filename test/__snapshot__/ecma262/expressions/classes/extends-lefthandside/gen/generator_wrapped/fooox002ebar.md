@@ -179,9 +179,8 @@ function *P(){
 ### Printed
 
 ```javascript
-
 function * P() {
-  class D  extends fooo.bar {}
+  class D extends fooo.bar {}
 }
 ```
 

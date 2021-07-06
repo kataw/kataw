@@ -68,7 +68,6 @@ yield ** x;
 ### Printed
 
 ```javascript
-
 yield ** x;
 ```
 

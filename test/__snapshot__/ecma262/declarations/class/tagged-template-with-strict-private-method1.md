@@ -424,7 +424,6 @@ new Foo();
 ### Printed
 
 ```javascript
-
 class Foo {
   #tag() {
     return this;

@@ -206,9 +206,8 @@ async function p(){
 ### Printed
 
 ```javascript
-
 async function p() {
-  class C  extends function f() {} {}
+  class C extends function f() {} {}
 }
 ```
 

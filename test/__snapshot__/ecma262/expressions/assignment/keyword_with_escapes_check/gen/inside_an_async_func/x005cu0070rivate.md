@@ -124,7 +124,6 @@ async () => {  \u0070rivate = x  }
 ### Printed
 
 ```javascript
-
 async () => {
   \u0070rivate = x;
 }

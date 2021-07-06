@@ -183,7 +183,6 @@
 ### Printed
 
 ```javascript
-
 function x() {
   {
     var f;

@@ -118,7 +118,6 @@
 ### Printed
 
 ```javascript
-
 {
   let { x } = y;
 }

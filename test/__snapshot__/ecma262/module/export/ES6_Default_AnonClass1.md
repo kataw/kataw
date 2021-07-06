@@ -196,8 +196,7 @@ export default class { givesANum(): number { return 42; }};
 ### Printed
 
 ```javascript
-
-export default class  {
+export default class {
   givesANum(): number {
     return 42;
   }

@@ -161,7 +161,6 @@ switch (l) { case a = b ? c : d : }
 ### Printed
 
 ```javascript
-
 switch (l) {
   case a = b ? c : d:
 

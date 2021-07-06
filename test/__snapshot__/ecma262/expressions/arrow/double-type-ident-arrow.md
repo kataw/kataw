@@ -115,7 +115,6 @@ type =>  x, type =>  x;
 ### Printed
 
 ```javascript
-
 type => x, type => x;
 ```
 

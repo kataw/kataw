@@ -104,7 +104,6 @@ foo(x => ok)
 ### Printed
 
 ```javascript
-
 foo(x => ok);
 ```
 

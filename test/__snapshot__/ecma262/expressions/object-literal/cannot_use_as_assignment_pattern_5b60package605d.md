@@ -92,7 +92,6 @@
 ### Printed
 
 ```javascript
-
 ({ package } = x);
 ```
 

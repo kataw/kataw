@@ -145,7 +145,6 @@ for (function(){ }[foo] in x);
 ### Printed
 
 ```javascript
-
 for (function () {}[foo] in x);
 ```
 

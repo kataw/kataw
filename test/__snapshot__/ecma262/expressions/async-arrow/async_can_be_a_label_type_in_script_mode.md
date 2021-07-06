@@ -68,7 +68,6 @@ async: foo
 ### Printed
 
 ```javascript
-
 async:  foo;
 ```
 

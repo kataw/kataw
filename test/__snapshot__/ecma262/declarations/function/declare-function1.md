@@ -263,8 +263,7 @@ declare function aw<T>(p: Pr<T> | T): T;
 ### Printed
 
 ```javascript
-
-declare function aw<T>(p: Pr<T> | T): T
+declare function aw<T>(p: Pr<T> | T): T;
 ```
 
 ### Diagnostics

@@ -92,7 +92,6 @@ function fn(yield) {}
 ### Printed
 
 ```javascript
-
 function fn(yield) {}
 ```
 

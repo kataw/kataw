@@ -75,7 +75,6 @@ let = 1
 ### Printed
 
 ```javascript
-
 let = 1;
 ```
 

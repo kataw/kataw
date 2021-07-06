@@ -152,7 +152,6 @@ class x {set default(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set default(x) {}
 }

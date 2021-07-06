@@ -227,7 +227,6 @@ switch (0) {
 ### Printed
 
 ```javascript
-
 switch (0) {
   case 1:
     function f() {}

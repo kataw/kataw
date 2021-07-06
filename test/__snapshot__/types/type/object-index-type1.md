@@ -157,7 +157,6 @@ type X = {[x | y]: string};
 ### Printed
 
 ```javascript
-
 type X = { [x | y]: string }
 ```
 

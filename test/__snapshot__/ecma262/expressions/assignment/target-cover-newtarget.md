@@ -143,7 +143,6 @@ function f() {
 ### Printed
 
 ```javascript
-
 function f() {
   (new.target) = 1;
 }

@@ -157,7 +157,6 @@ function *f(){ delete ("x"[(yield)]) }
 ### Printed
 
 ```javascript
-
 function * f() {
   delete ("\"x\""[(yield )]);
 }

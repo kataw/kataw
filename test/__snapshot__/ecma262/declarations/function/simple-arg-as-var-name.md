@@ -135,7 +135,6 @@ function f(x) { var x; }
 ### Printed
 
 ```javascript
-
 function f(x) {
   var x;
 }

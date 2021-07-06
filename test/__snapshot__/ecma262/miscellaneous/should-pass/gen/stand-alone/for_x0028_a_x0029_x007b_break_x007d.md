@@ -92,7 +92,6 @@ for ( a ; ; ) { break }
 ### Printed
 
 ```javascript
-
 for (a; ; ) {
     break ;
   }

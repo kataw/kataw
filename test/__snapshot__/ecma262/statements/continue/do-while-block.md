@@ -142,7 +142,6 @@ function f(){ do        { continue }     while(true);}
 ### Printed
 
 ```javascript
-
 function f() {
   do  {
       continue ;

@@ -128,7 +128,6 @@ export default class Foo {}++x
 ### Printed
 
 ```javascript
-
 export default class Foo {};++ x;
 ```
 

@@ -312,7 +312,6 @@ foo.bar["bar"]["lorem_ispsum"].foo["lorem-ipsum"] = true;
 ### Printed
 
 ```javascript
-
 const foo = {};
 foo["\"bar\""] = true;
 

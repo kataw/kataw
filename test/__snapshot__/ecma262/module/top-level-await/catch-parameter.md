@@ -400,7 +400,6 @@ try {} catch ([ x = await 42 ]) {}
 ### Printed
 
 ```javascript
-
 try {} catch ({ x = await 42 }) {}
 try {} catch ({ x: y = await 42 }) {}
 

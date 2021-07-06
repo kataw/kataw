@@ -126,7 +126,6 @@ async (a => a + 1);
 ### Printed
 
 ```javascript
-
 async(a => a + 1)
 ```
 

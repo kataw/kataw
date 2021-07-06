@@ -487,7 +487,6 @@ class Foo {
 ### Printed
 
 ```javascript
-
 class Foo {
   * #g() {}
   async #a() {}

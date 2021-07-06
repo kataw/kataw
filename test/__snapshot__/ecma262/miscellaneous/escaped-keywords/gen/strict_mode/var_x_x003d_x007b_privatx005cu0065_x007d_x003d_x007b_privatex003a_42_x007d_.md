@@ -160,7 +160,6 @@ var x = { privat\u0065 } = { private: 42 };
 ### Printed
 
 ```javascript
-
 var x = { privat\u0065 } = { private: 42 };
 ```
 

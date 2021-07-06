@@ -164,7 +164,6 @@ async (x = delete ((yield) = f)) => {}
 ### Printed
 
 ```javascript
-
 async (x = delete ((yield) = f)) => {}
 ```
 

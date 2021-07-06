@@ -290,7 +290,6 @@ import(x).then();
 ### Printed
 
 ```javascript
-
 import(x);
 import(foo);
 

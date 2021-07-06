@@ -133,7 +133,6 @@ wrap({set(){}});
 ### Printed
 
 ```javascript
-
 wrap({ set() {} });
 ```
 

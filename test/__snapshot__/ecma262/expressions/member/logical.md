@@ -184,7 +184,6 @@
 ### Printed
 
 ```javascript
-
 (veryLongVeryLongVeryLong || e).prop;
 (
   veryLongVeryLongVeryLong ||

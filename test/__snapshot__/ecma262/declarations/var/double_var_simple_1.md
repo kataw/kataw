@@ -124,7 +124,6 @@ var {x, y} = obj;
 ### Printed
 
 ```javascript
-
 var { x, y } = obj;
 ```
 

@@ -92,7 +92,6 @@ foo: for (;;) continue foo
 ### Printed
 
 ```javascript
-
 foo:  for (;;)
   continue  foo;
 ```

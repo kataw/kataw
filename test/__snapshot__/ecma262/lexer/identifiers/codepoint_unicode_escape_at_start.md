@@ -45,7 +45,6 @@
 ### Printed
 
 ```javascript
-
 \u{65}xxx;
 ```
 

@@ -226,7 +226,6 @@ var {x: x, y: y, z: { a: a = 10} } = b;
 ### Printed
 
 ```javascript
-
 var { x: x, y: y, z: { a: a = 10 } } = b;
 ```
 

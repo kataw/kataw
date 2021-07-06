@@ -389,10 +389,9 @@ class Base {
 ### Printed
 
 ```javascript
-
 class Base {
   constructor() {
-    this.Foo = class  {
+    this.Foo = class {
       static #_ = (() => {
           this.foo = new.target;
         })();;

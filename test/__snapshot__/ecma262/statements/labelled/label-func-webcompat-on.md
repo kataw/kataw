@@ -111,7 +111,6 @@ foo: function x() {}
 ### Printed
 
 ```javascript
-
 foo:  function x() {}
 ```
 

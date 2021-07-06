@@ -185,7 +185,6 @@ let tuple3: [number, boolean, string] = [1, true, "three"];
 ### Printed
 
 ```javascript
-
 let tuple3: [number, boolean, string] = [1, true, "\"three\""];
 ```
 

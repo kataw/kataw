@@ -163,7 +163,6 @@ export function d(): Promise<boolean> {}
 ### Printed
 
 ```javascript
-
 export function d(): Promise<boolean> {}
 ```
 

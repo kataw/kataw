@@ -127,7 +127,6 @@ for (let a of b);
 ### Printed
 
 ```javascript
-
 for (let a of b);
 ```
 

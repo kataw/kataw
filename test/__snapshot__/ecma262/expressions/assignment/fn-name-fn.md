@@ -248,7 +248,6 @@ fn = function() {};
 ### Printed
 
 ```javascript
-
 var xFn, fn;
 xFn = function x() {};
 

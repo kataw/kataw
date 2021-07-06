@@ -180,7 +180,6 @@
 ### Printed
 
 ```javascript
-
 ({ async * gen() {
       +yield 3;
     } });

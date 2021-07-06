@@ -1243,7 +1243,6 @@ const foo3 = 123
 ### Printed
 
 ```javascript
-
 let obj1 = { key: "'val'" };
 let obj2 = { key: "'val'" };
 

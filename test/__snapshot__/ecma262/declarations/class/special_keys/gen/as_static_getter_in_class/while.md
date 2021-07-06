@@ -148,7 +148,6 @@ class x {static get while(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get while() {}
 }

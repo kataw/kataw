@@ -662,7 +662,6 @@
 ### Printed
 
 ```javascript
-
 (class C {
     constructor() {}
   });

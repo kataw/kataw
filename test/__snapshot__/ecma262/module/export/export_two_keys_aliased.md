@@ -195,7 +195,6 @@ var x,y; export {x as a, y as b}
 ### Printed
 
 ```javascript
-
 var x, y;
 export { x as  a, y as  b };
 

@@ -142,7 +142,6 @@ class x {async in(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async in() {}
 }

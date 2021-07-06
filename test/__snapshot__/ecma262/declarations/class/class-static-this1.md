@@ -115,7 +115,6 @@ class Foo { static x = this }
 ### Printed
 
 ```javascript
-
 class Foo {
   static x = this;
 }

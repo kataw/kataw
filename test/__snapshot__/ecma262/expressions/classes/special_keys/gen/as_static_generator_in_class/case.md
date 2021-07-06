@@ -148,7 +148,6 @@ class x {static * case(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static * case() {}
 }

@@ -75,7 +75,6 @@ implem\u0065nts = x;
 ### Printed
 
 ```javascript
-
 implem\u0065nts = x;
 ```
 

@@ -931,7 +931,6 @@ type B = Foo<
 ### Printed
 
 ```javascript
-
 type A3<T: ? string= string> = T
 type A4<S, T: ? string= string> = T
 

@@ -172,7 +172,6 @@ a = [...{ 0: x, length }] = value;
 ### Printed
 
 ```javascript
-
 a = [...{ 0: x, length }] = value;
 ```
 

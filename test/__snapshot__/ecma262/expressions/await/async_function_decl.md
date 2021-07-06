@@ -88,7 +88,6 @@ async function await(){}
 ### Printed
 
 ```javascript
-
 async function await() {}
 ```
 

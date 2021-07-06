@@ -256,7 +256,6 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
 ### Printed
 
 ```javascript
-
 function * gen() {
   function not_gen() {
     function * g() {

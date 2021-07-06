@@ -164,7 +164,6 @@ try {} catch (e) { { let e = x; } }
 ### Printed
 
 ```javascript
-
 try {} catch (e) {
   {
     let e = x;

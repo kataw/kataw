@@ -136,7 +136,6 @@ class x {function(){}}
 ### Printed
 
 ```javascript
-
 class x {
   function() {}
 }

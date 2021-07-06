@@ -190,7 +190,6 @@ function g(x: any): string {
 ### Printed
 
 ```javascript
-
 function g(x: any): string {
   return x ?? 1;
 }

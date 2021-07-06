@@ -61,7 +61,6 @@ pa\u0073s();
 ### Printed
 
 ```javascript
-
 pa\u0073s();
 ```
 

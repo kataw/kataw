@@ -109,9 +109,8 @@
 ### Printed
 
 ```javascript
-
 {
-  class   extends A {}
+  class extends A {}
 }
 ```
 

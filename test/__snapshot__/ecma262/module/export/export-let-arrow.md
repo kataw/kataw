@@ -132,7 +132,6 @@ export let foo = async () => this
 ### Printed
 
 ```javascript
-
 export let foo = async () => this;
 ```
 

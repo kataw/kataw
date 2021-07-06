@@ -99,7 +99,6 @@
 ### Printed
 
 ```javascript
-
 `foo${`foo${bar}baz`}baz`;
 ```
 

@@ -108,7 +108,6 @@
 ### Printed
 
 ```javascript
-
 [(a.x)] = t;
 ```
 

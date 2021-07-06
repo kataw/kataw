@@ -213,7 +213,6 @@
 ### Printed
 
 ```javascript
-
 ({ async * gen() {
       yield 3 + (yield 4);
     } });

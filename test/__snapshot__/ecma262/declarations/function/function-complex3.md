@@ -935,7 +935,6 @@ function b1<A: 'a', B: A>(b: B): void {
 ### Printed
 
 ```javascript
-
 function c<X: T>(x: $Keys<X>) {
   switch (x) {
     case "'p'":

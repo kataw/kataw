@@ -125,7 +125,6 @@
 ### Printed
 
 ```javascript
-
 [[x[yield]]] = value;
 ```
 

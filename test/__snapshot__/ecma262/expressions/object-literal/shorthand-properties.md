@@ -201,7 +201,6 @@ var x = {
 ### Printed
 
 ```javascript
-
 var foo, get, set;
 var x = { foo, get, set };
 

@@ -146,7 +146,6 @@ do if (a) with (b) continue; else debugger; while (false)
 ### Printed
 
 ```javascript
-
 do  if (a) with (b) continue ;
   else  debugger;
 while (false);

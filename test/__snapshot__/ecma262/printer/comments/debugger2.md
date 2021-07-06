@@ -43,7 +43,6 @@
 ### Printed
 
 ```javascript
-
 debugger;
 ```
 

@@ -170,7 +170,6 @@ var x = {
 ### Printed
 
 ```javascript
-
 var x = { "\"foo\""() {
       return bar;
     } };

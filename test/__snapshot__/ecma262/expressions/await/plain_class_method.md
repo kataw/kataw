@@ -139,7 +139,6 @@ class x {f(await){}}
 ### Printed
 
 ```javascript
-
 class x {
   f(await) {}
 }

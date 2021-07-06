@@ -152,7 +152,6 @@ class x {set instanceof(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set instanceof(x) {}
 }

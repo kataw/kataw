@@ -119,7 +119,6 @@ new C<T>(e)
 ### Printed
 
 ```javascript
-
 new C  < T > (e);
 ```
 

@@ -177,7 +177,6 @@ get
 ### Printed
 
 ```javascript
-
 class C {
   static;
   get;

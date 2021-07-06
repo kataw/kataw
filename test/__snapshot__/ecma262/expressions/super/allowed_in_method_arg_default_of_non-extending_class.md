@@ -172,7 +172,6 @@ class x { foo(x=super.foo){ }}
 ### Printed
 
 ```javascript
-
 class x {
   foo(x = super.foo) {}
 }

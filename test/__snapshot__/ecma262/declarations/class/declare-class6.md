@@ -103,8 +103,7 @@ declare function foo(): void;
 ### Printed
 
 ```javascript
-
-declare function foo(): void
+declare function foo(): void;
 ```
 
 ### Diagnostics

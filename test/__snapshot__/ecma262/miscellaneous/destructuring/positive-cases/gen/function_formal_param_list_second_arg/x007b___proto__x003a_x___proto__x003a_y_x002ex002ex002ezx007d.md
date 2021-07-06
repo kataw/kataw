@@ -194,7 +194,6 @@ function f(argument1, { __proto__: x, __proto__: y, ...z}) {}
 ### Printed
 
 ```javascript
-
 function f(argument1, { __proto__: x, __proto__: y, ...z }) {}
 ```
 

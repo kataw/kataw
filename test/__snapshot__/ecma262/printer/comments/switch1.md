@@ -60,7 +60,6 @@ switch (x) { /*1*/}
 ### Printed
 
 ```javascript
-
 switch (x) {}
 ```
 

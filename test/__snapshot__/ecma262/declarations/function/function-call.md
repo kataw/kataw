@@ -134,7 +134,6 @@ function foo():any{return ""};
 ### Printed
 
 ```javascript
-
 function foo(): any {
   return "\"\"";
 }

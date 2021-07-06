@@ -192,7 +192,6 @@ await => async.await[async / ((async) => foo.bar)]
 ### Printed
 
 ```javascript
-
 await => async.await[async / ((async) => foo.bar)];
 ```
 

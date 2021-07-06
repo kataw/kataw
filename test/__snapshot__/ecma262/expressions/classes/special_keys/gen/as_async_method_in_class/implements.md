@@ -142,7 +142,6 @@ class x {async implements(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async implements() {}
 }

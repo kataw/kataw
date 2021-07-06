@@ -1413,7 +1413,6 @@ for (aLongIdentifierName = 0, aLongIdentifierName = 0, aLongIdentifierName = 0, 
 ### Printed
 
 ```javascript
-
 const f = (argument1, argument2, argument3) =>
     (
       doSomethingWithArgument(argument1),

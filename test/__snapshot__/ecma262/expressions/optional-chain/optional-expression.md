@@ -121,7 +121,6 @@ obj?.a?.b
 ### Printed
 
 ```javascript
-
 obj?.a?.b;
 ```
 

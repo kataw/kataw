@@ -1549,7 +1549,6 @@ this.#f,
 ### Printed
 
 ```javascript
-
 class Foo {
   #a;
   #b;

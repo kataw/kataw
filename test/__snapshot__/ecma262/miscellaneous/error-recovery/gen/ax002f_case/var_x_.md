@@ -59,7 +59,6 @@ var x;
 ### Printed
 
 ```javascript
-
 var ;
 ```
 

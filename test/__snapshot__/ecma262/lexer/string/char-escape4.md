@@ -99,7 +99,6 @@
 ### Printed
 
 ```javascript
-
 "\"\r\n\"";
 "\"prefix\r\n\"";
 

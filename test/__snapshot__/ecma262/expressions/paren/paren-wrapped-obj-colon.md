@@ -1375,7 +1375,6 @@
 ### Printed
 
 ```javascript
-
 ([{ x: foo().y }]);
 ([{ x: foo()[y] }]);
 

@@ -120,7 +120,6 @@
 ### Printed
 
 ```javascript
-
 [a, b] = [b, a];
 ```
 

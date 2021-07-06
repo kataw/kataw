@@ -235,8 +235,7 @@ class x extends y {
 ### Printed
 
 ```javascript
-
-class x  extends y {
+class x extends y {
   constructor() {
     ({ 123: super.cool });
   }

@@ -112,7 +112,6 @@ typeof a + b instanceof c
 ### Printed
 
 ```javascript
-
 typeof a + b instanceof c;
 ```
 

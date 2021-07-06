@@ -138,7 +138,6 @@
 ### Printed
 
 ```javascript
-
 (...{ a }: symbol) => x;
 ```
 

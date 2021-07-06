@@ -123,7 +123,6 @@
 ### Printed
 
 ```javascript
-
 6[(x => y)] in 3;
 ```
 

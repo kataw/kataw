@@ -150,7 +150,6 @@
 ### Printed
 
 ```javascript
-
 ({ x: function (x, y) {} });
 ```
 

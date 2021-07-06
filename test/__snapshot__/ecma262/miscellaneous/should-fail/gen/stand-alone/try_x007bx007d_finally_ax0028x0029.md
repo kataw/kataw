@@ -120,7 +120,6 @@ try {} finally a()
 ### Printed
 
 ```javascript
-
 try {} finally {}
 a();
 

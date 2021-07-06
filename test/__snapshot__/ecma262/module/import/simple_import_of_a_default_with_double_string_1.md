@@ -93,7 +93,6 @@ import x from "y"
 ### Printed
 
 ```javascript
-
 import x from "\"y\"";
 ```
 

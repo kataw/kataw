@@ -224,7 +224,6 @@ const fn = async (a?: any): Promise<void> => {};
 ### Printed
 
 ```javascript
-
 const fn = async (a? : any) => {};
 ```
 

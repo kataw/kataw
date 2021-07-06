@@ -1741,7 +1741,6 @@ var stringArr:Array<string> = ['a','b'];
 ### Printed
 
 ```javascript
-
 class Tag {
   constructor() {
     var a1: Array<Tag | string> = [];

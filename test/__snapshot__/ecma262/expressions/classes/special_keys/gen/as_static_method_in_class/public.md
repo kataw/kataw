@@ -142,7 +142,6 @@ class x {static public(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static public() {}
 }

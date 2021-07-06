@@ -238,7 +238,6 @@
 ### Printed
 
 ```javascript
-
 [a, b, ...rest] = {};
 [a, , ...rest] = {};
 

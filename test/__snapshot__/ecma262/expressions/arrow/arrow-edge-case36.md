@@ -194,7 +194,6 @@ let x = (y: any): (y[]) => {};
 ### Printed
 
 ```javascript
-
 let x = (y: any) => {};
 ```
 

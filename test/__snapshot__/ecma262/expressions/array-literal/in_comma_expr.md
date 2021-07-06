@@ -131,7 +131,6 @@ x, [foo, bar] = doo
 ### Printed
 
 ```javascript
-
 x, [foo, bar] = doo;
 ```
 

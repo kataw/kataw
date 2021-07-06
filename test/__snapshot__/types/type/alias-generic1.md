@@ -320,7 +320,6 @@ type MyObject<A, B, C> = {
 ### Printed
 
 ```javascript
-
 type MyObject<A, B, C> = { property: A, method(val: B): C }
 ```
 

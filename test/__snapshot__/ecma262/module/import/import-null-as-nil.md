@@ -134,7 +134,6 @@ import { null as nil } from "bar"
 ### Printed
 
 ```javascript
-
 import { null as nil } from "\"bar\"";
 ```
 

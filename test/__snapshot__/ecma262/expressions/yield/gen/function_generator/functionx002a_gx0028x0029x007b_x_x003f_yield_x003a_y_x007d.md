@@ -273,7 +273,6 @@ function * gen() { function not_gen() { function* g(){ x ? yield : y } }}
 ### Printed
 
 ```javascript
-
 function * gen() {
   function not_gen() {
     function * g() {

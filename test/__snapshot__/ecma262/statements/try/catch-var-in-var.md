@@ -149,7 +149,6 @@ try {} catch (e) { var e = x; }
 ### Printed
 
 ```javascript
-
 try {} catch (e) {
   var e = x;
 }

@@ -94,7 +94,6 @@ while (x) {}
 ### Printed
 
 ```javascript
-
 do  {}
 while (x);
 {}

@@ -150,7 +150,6 @@ for (const [x,y,z] of foo);
 ### Printed
 
 ```javascript
-
 for (const [x, y, z] of foo);
 ```
 

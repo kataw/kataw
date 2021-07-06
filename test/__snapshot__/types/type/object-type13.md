@@ -180,7 +180,6 @@ type a = {[{x:y}]:string};
 ### Printed
 
 ```javascript
-
 type a = { [{ x: y }]: string }
 ```
 

@@ -82,7 +82,6 @@ while (false) let // ASI
 ### Printed
 
 ```javascript
-
 while (false) let;
 {}
 

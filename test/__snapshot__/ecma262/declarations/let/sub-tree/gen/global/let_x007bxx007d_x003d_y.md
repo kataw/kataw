@@ -102,7 +102,6 @@ let {x} = y
 ### Printed
 
 ```javascript
-
 let { x } = y;
 ```
 

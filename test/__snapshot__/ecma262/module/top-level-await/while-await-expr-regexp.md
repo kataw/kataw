@@ -102,7 +102,6 @@ while (await /1/) { break; }
 ### Printed
 
 ```javascript
-
 while (await /1/) {
     break ;
   }

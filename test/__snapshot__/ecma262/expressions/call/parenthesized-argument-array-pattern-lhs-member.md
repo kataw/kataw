@@ -171,7 +171,6 @@ async ([(a.b) = [] ] = []);
 ### Printed
 
 ```javascript
-
 async([(a.b) = []] = [])
 ```
 

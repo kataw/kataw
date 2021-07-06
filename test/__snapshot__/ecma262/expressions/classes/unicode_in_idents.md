@@ -136,7 +136,6 @@ class x { \u0063onstructor(){} }
 ### Printed
 
 ```javascript
-
 class x {
   \u0063onstructor() {}
 }

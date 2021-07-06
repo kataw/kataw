@@ -142,7 +142,6 @@ for (true ? 0 : 0 in {}; false; ) ;
 ### Printed
 
 ```javascript
-
 for (true ? 0 : 0 in {}; ; false);
 ```
 

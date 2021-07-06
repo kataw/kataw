@@ -269,7 +269,6 @@ function aPrettyLongFunctionE(aRatherLongParameterName: Array<{
 ### Printed
 
 ```javascript
-
 function aPrettyLongFunctionE(aRatherLongParameterName: Array<
     { __id: string } | null>
 | null

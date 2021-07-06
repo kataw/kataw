@@ -137,7 +137,6 @@ for (const a,b,c;;);
 ### Printed
 
 ```javascript
-
 for (const a, b, c; ; );
 ```
 

@@ -88,7 +88,6 @@ var foo = /* comment */ (
 ### Printed
 
 ```javascript
-
 var foo = (42);
 ```
 

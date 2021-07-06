@@ -266,7 +266,6 @@ gen = function*() {};
 ### Printed
 
 ```javascript
-
 var xGen, gen;
 xGen = function * x() {};
 

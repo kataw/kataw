@@ -178,7 +178,6 @@ function *f(){ return [...yield x]; }
 ### Printed
 
 ```javascript
-
 function * f() {
   return [...yield x];
 }

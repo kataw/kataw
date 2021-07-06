@@ -136,7 +136,6 @@ class x {this(){}}
 ### Printed
 
 ```javascript
-
 class x {
   this() {}
 }

@@ -160,7 +160,6 @@ class x {static get async(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get async() {}
 }

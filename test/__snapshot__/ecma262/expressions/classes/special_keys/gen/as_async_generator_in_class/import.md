@@ -148,7 +148,6 @@ class x {async * import(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async * import() {}
 }

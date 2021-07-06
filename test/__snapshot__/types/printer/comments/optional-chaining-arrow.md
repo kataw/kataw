@@ -248,7 +248,6 @@ const test = (names: string[]) =>
 ### Printed
 
 ```javascript
-
 const test = (names: string[]) => names?.filter(x => x);
 ```
 

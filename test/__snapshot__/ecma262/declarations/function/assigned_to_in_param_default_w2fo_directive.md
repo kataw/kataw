@@ -134,7 +134,6 @@ function e(x=eval=10){ }
 ### Printed
 
 ```javascript
-
 function e(x = eval = 10) {}
 ```
 

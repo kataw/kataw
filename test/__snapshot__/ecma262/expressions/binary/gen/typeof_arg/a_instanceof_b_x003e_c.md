@@ -112,7 +112,6 @@ typeof a instanceof b > c
 ### Printed
 
 ```javascript
-
 typeof a instanceof b > c;
 ```
 

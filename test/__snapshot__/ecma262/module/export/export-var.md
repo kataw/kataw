@@ -95,7 +95,6 @@ export var bar;
 ### Printed
 
 ```javascript
-
 export var bar;
 ```
 

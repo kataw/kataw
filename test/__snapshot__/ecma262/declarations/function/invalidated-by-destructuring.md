@@ -145,7 +145,6 @@ function f(b, a, b, a, [fine]) {}
 ### Printed
 
 ```javascript
-
 function f(b, a, b, a, [fine]) {}
 ```
 

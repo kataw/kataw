@@ -191,9 +191,8 @@ x = class Foo { static x = class extends this {} }
 ### Printed
 
 ```javascript
-
 x = class Foo {
-  static x = class   extends this {};
+  static x = class extends this {};
 };
 ```
 

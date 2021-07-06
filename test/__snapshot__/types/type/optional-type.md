@@ -126,7 +126,6 @@ type x = [y?];
 ### Printed
 
 ```javascript
-
 type x = [y? ]
 ```
 

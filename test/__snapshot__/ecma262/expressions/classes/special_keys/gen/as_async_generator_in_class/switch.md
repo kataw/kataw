@@ -148,7 +148,6 @@ class x {async * switch(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async * switch() {}
 }

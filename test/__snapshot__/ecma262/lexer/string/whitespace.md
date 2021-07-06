@@ -45,7 +45,6 @@
 ### Printed
 
 ```javascript
-
 "\"\u0009str\u0009ing\u0009\"";
 ```
 

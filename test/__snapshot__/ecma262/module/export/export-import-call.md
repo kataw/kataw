@@ -111,7 +111,6 @@ import(y);
 ### Printed
 
 ```javascript
-
 export default import(y);
 import(y);
 

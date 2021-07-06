@@ -579,7 +579,6 @@ class Foo {
 ### Printed
 
 ```javascript
-
 class Foo {
   static #bar = 21;;
   static #_ = (() => {

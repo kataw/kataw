@@ -176,7 +176,6 @@ function *f() { yield
 ### Printed
 
 ```javascript
-
 function * f() {
   yield {} / 1 / g;
 }

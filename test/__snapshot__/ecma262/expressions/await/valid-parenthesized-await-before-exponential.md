@@ -121,7 +121,6 @@ async () => (await 5) ** 6;
 ### Printed
 
 ```javascript
-
 async () => (await 5) ** 6
 ```
 

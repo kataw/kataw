@@ -156,7 +156,6 @@ type X = (x) => T;
 ### Printed
 
 ```javascript
-
 type X = (x) =>  T
 ```
 

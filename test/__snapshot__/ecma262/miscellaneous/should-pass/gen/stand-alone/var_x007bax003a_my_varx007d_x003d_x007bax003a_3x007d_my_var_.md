@@ -170,7 +170,6 @@ var {a: my_var} = {a: 3}; my_var;
 ### Printed
 
 ```javascript
-
 var { a: my_var } = { a: 3 };
 my_var;
 

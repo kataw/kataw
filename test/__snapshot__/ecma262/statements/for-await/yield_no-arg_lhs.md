@@ -273,11 +273,12 @@ async function f(){
 ### Printed
 
 ```javascript
-
 async function f() {
   for await (yield of x);
 }
 async function f() {
+
+  "\"use strict\"";
   for await (yield of x);
 }
 

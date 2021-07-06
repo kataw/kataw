@@ -262,7 +262,6 @@ class A {"set"(){} "get"(){} "async"(){}}
 ### Printed
 
 ```javascript
-
 class A {
   "\"set\""() {}
   "\"get\""() {}

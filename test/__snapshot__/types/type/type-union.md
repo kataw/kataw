@@ -846,7 +846,6 @@ type overloads2 = {
 ### Printed
 
 ```javascript
-
 type union = | { type: "\"A\"" } | { type: "\"B\"" }
 type overloads = & ((x: string) =>  number) & ((x: number) =>  string)
 

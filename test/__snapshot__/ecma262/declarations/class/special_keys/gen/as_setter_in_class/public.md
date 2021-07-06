@@ -152,7 +152,6 @@ class x {set public(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set public(x) {}
 }

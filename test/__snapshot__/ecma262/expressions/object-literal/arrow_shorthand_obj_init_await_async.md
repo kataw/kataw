@@ -116,7 +116,6 @@ async ({await = x}) => x
 ### Printed
 
 ```javascript
-
 async ({ await = x }) => x
 ```
 

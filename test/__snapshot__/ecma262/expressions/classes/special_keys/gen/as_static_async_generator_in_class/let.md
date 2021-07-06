@@ -154,7 +154,6 @@ class x {static async * let(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async * let() {}
 }

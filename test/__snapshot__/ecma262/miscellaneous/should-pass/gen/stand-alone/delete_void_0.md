@@ -80,7 +80,6 @@ delete void 0
 ### Printed
 
 ```javascript
-
 delete void 0;
 ```
 

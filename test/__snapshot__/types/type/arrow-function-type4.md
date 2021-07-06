@@ -172,7 +172,6 @@ type X = (x.y) => T;
 ### Printed
 
 ```javascript
-
 type X = (x.y) =>  T
 ```
 

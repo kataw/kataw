@@ -105,7 +105,6 @@ function *f(await){}
 ### Printed
 
 ```javascript
-
 function * f(await) {}
 ```
 

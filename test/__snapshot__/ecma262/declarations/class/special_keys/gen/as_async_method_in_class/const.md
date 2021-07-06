@@ -142,7 +142,6 @@ class x {async const(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async const() {}
 }

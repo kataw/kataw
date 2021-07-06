@@ -154,7 +154,6 @@
 ### Printed
 
 ```javascript
-
 ({ ident: [foo, bar].join("\"\"") });
 ```
 

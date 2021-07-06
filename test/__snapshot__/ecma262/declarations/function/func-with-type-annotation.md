@@ -202,7 +202,6 @@ function a<string>(x: string): string {
 ### Printed
 
 ```javascript
-
 function a<string>(x: string): string {
   return x;
 }

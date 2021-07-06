@@ -99,7 +99,6 @@
 ### Printed
 
 ```javascript
-
 (let)[x] in x;
 ```
 

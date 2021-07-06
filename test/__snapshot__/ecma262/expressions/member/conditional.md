@@ -228,7 +228,6 @@
 ### Printed
 
 ```javascript
-
 (
   valid
     ? helper.responseBody(this.currentUser)

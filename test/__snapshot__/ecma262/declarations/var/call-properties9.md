@@ -224,7 +224,6 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
 ### Printed
 
 ```javascript
-
 var f: { (): mixed } = function (): string {
     return "\"hi\"";
   };

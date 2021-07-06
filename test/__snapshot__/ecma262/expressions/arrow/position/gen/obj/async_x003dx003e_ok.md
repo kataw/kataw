@@ -135,7 +135,6 @@ x = {arrow: async => ok}
 ### Printed
 
 ```javascript
-
 x = { arrow: async => ok };
 ```
 

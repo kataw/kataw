@@ -1102,7 +1102,6 @@
 ### Printed
 
 ```javascript
-
 ({ 1: 1, set 1(v) {} });
 ({ 1: 1, get 1() {} });
 

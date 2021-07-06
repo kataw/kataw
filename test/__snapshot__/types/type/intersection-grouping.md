@@ -128,7 +128,6 @@ type A = B & (C)
 ### Printed
 
 ```javascript
-
 type A = B & (C)
 ```
 

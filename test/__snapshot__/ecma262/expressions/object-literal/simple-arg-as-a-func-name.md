@@ -194,7 +194,6 @@ o = {f(x) { function x() {} }}
 ### Printed
 
 ```javascript
-
 o = { f(x) {
     function x() {}
   } };

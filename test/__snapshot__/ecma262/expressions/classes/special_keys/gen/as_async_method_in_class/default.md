@@ -142,7 +142,6 @@ class x {async default(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async default() {}
 }

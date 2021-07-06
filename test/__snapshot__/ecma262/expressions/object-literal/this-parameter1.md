@@ -679,7 +679,6 @@ let one = {
 ### Printed
 
 ```javascript
-
 let one = {
     m1(this: number) {},
     m2(this: number, a) {},

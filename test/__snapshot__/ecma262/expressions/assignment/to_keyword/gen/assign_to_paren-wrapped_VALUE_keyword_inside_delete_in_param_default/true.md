@@ -173,7 +173,6 @@ function *f(x = delete ((true) = f)) {}
 ### Printed
 
 ```javascript
-
 function * f(x = delete ((true) = f)) {}
 ```
 

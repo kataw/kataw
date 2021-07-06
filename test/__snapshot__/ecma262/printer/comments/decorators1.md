@@ -164,7 +164,6 @@ class x {
 ### Printed
 
 ```javascript
-
 class x {
   @ foo bar() {}
 }

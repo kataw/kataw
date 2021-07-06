@@ -143,7 +143,6 @@ for (let a;;) { let a; }
 ### Printed
 
 ```javascript
-
 for (let a; ; ) {
     let a;
   }

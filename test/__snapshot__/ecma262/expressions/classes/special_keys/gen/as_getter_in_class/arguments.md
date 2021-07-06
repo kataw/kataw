@@ -142,7 +142,6 @@ class x {get arguments(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get arguments() {}
 }

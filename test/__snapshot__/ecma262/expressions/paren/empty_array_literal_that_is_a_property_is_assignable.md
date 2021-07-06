@@ -98,7 +98,6 @@
 ### Printed
 
 ```javascript
-
 ([].length) = y;
 ```
 

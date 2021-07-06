@@ -148,8 +148,7 @@ declare function foo(x: number, string): void;
 ### Printed
 
 ```javascript
-
-declare function foo(x: number, string): void
+declare function foo(x: number, string): void;
 ```
 
 ### Diagnostics

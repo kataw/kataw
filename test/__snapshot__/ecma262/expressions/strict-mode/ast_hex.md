@@ -45,7 +45,6 @@
 ### Printed
 
 ```javascript
-
 "\"use\u0020strict\"";
 ```
 

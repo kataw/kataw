@@ -142,7 +142,6 @@ class x {* break(){}}
 ### Printed
 
 ```javascript
-
 class x {
   * break() {}
 }

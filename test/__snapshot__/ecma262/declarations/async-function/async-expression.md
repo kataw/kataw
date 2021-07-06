@@ -101,7 +101,6 @@
 ### Printed
 
 ```javascript
-
 (async function foo() {});
 ```
 

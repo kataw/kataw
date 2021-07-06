@@ -75,7 +75,6 @@
 ### Printed
 
 ```javascript
-
 with (x) y;
 ```
 

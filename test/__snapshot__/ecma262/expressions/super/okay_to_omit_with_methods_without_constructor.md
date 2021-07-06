@@ -152,8 +152,7 @@ class x extends y { f(){} }
 ### Printed
 
 ```javascript
-
-class x  extends y {
+class x extends y {
   f() {}
 }
 ```

@@ -141,7 +141,6 @@
 ### Printed
 
 ```javascript
-
 [y  < t]({} = y);
 ```
 

@@ -193,7 +193,6 @@ class C { get; set; static; async }
 ### Printed
 
 ```javascript
-
 class C {
   get;;
   set;;

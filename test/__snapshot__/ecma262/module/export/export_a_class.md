@@ -95,7 +95,6 @@ export class x {}
 ### Printed
 
 ```javascript
-
 export class x {}
 ```
 

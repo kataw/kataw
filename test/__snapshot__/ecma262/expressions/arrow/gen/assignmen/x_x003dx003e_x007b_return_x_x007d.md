@@ -132,7 +132,6 @@ x = x => { return x; } ;
 ### Printed
 
 ```javascript
-
 x = x => {
   return x;
 };

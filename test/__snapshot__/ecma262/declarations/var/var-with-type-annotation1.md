@@ -182,7 +182,6 @@ var x = ({ a } : any = 'foo') => {}
 ### Printed
 
 ```javascript
-
 var x = ({ a }: any = "'foo'") => {};
 ```
 

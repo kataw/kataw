@@ -92,7 +92,6 @@ function c(public){ }
 ### Printed
 
 ```javascript
-
 function c(public) {}
 ```
 

@@ -91,7 +91,6 @@ for (of of of){}
 ### Printed
 
 ```javascript
-
 for (of of of) {}
 ```
 

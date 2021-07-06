@@ -135,7 +135,6 @@ class C { static delete() {} }
 ### Printed
 
 ```javascript
-
 class C {
   static delete() {}
 }

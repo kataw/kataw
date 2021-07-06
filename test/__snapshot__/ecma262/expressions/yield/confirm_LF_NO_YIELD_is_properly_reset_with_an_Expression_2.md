@@ -158,7 +158,6 @@ function *g(){ return x + (yield f); }
 ### Printed
 
 ```javascript
-
 function * g() {
   return x + (yield f);
 }

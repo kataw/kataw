@@ -134,7 +134,6 @@ type a = (a[-1]);
 ### Printed
 
 ```javascript
-
 type a = (a[-1])
 ```
 

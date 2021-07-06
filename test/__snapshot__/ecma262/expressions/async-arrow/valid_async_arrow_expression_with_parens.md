@@ -103,7 +103,6 @@ f(async ()=>c)
 ### Printed
 
 ```javascript
-
 f(async () => c);
 ```
 

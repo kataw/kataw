@@ -83,7 +83,6 @@ new fooo.bar
 ### Printed
 
 ```javascript
-
 new fooo.bar;
 ```
 

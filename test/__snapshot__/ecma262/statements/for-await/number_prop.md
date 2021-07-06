@@ -120,7 +120,6 @@ for (456..x of c) d;
 ### Printed
 
 ```javascript
-
 for (456..x of c) d;
 ```
 

@@ -108,7 +108,6 @@ x * (x => ok)
 ### Printed
 
 ```javascript
-
 x * (x => ok);
 ```
 

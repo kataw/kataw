@@ -84,8 +84,7 @@ new class{}
 ### Printed
 
 ```javascript
-
-new class  {};
+new class {};
 ```
 
 ### Diagnostics

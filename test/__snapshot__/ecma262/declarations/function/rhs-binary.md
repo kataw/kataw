@@ -788,7 +788,6 @@ function z() {
 ### Printed
 
 ```javascript
-
 function x() {
   ("'foo'" in {});
   ("'foo'" in { foo: null });

@@ -112,7 +112,6 @@ function foo(x = 0) {
 ### Printed
 
 ```javascript
-
 function foo(x = 0) {}
 ```
 

@@ -148,7 +148,6 @@ class x {async * yield(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async * yield() {}
 }

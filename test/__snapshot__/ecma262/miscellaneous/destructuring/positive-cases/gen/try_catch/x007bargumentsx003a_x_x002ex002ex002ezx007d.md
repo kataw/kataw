@@ -165,7 +165,6 @@ try {} catch({arguments: x, ...z}) {}
 ### Printed
 
 ```javascript
-
 try {} catch ({ arguments: x, ...z }) {}
 ```
 

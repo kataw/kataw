@@ -175,7 +175,6 @@ function *g() {x={     ...yield x,    };}
 ### Printed
 
 ```javascript
-
 function * g() {
   x = { ...yield x };
 }

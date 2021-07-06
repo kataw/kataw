@@ -216,7 +216,6 @@ type X = {[bj[c] & a | b]: string};
 ### Printed
 
 ```javascript
-
 type X = { [bj[c] & a | b]: string }
 ```
 

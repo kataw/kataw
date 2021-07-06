@@ -165,7 +165,6 @@ class C {
 ### Printed
 
 ```javascript
-
 class C {
   [await 0] = () => {};
 }

@@ -83,7 +83,6 @@
 ### Printed
 
 ```javascript
-
 [void x];
 ```
 

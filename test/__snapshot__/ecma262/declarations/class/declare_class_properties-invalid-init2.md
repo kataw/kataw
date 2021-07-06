@@ -118,7 +118,6 @@ class C {
 ### Printed
 
 ```javascript
-
 class C {
   declare x;;
 }

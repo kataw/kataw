@@ -210,7 +210,6 @@ var e: { (x: any): void } = function() { } // arity
 ### Printed
 
 ```javascript
-
 var e: { (x: any): void } = function () {};
 ```
 

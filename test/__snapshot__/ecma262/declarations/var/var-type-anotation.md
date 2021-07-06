@@ -135,7 +135,6 @@ var foo = ((): number => bar);
 ### Printed
 
 ```javascript
-
 var foo = (() => bar);
 ```
 

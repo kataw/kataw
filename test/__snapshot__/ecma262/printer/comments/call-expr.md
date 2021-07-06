@@ -483,7 +483,6 @@ let ({/*1*/}/*2*/=/*3*/c) ;
 ### Printed
 
 ```javascript
-
 let();
 x(a);
 

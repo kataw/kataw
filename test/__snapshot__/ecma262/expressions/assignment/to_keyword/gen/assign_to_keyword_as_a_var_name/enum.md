@@ -75,7 +75,6 @@ enum = x
 ### Printed
 
 ```javascript
-
 enum = x;
 ```
 

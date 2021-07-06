@@ -98,7 +98,6 @@
 ### Printed
 
 ```javascript
-
 ({ ...rest, x });
 ```
 

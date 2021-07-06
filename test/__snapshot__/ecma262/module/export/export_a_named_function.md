@@ -106,7 +106,6 @@ export function f(){}
 ### Printed
 
 ```javascript
-
 export function f() {}
 ```
 

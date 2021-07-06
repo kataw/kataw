@@ -112,7 +112,6 @@ export async function f(){}
 ### Printed
 
 ```javascript
-
 export async function f() {}
 ```
 

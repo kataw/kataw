@@ -217,7 +217,6 @@ for (var {name: n, family: {father: f}} of people) {}
 ### Printed
 
 ```javascript
-
 for (var { name: n, family: { father: f } } of people) {}
 ```
 

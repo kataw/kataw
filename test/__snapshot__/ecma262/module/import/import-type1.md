@@ -155,7 +155,6 @@ import type { foo25, bar1 } from "baz";
 ### Printed
 
 ```javascript
-
 import type type{  foo25,  bar1 } from "\"baz\"";
 ```
 

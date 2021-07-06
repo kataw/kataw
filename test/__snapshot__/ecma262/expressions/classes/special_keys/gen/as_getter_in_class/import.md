@@ -142,7 +142,6 @@ class x {get import(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get import() {}
 }

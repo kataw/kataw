@@ -141,8 +141,7 @@ if (1) (class {}) ? 1 : 2;
 ### Printed
 
 ```javascript
-
-if (1) (class  {}) ? 1 : 2;
+if (1) (class {}) ? 1 : 2;
 ```
 
 ### Diagnostics

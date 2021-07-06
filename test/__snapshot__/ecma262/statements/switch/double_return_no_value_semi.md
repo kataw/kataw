@@ -120,7 +120,6 @@ function f(){   return;return    };
 ### Printed
 
 ```javascript
-
 function f() {
   return;return;
 }

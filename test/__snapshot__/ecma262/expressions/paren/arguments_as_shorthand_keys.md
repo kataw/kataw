@@ -85,7 +85,6 @@ x = {arguments}
 ### Printed
 
 ```javascript
-
 x = { arguments };
 ```
 

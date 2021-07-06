@@ -91,7 +91,6 @@ delete async () => 3;
 ### Printed
 
 ```javascript
-
 delete async () => 3;
 ```
 

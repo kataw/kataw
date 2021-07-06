@@ -180,8 +180,7 @@
 ### Printed
 
 ```javascript
-
-(class   extends Base {
+(class extends Base {
     set #arguments(test) {}
   });
 ```

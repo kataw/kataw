@@ -254,7 +254,6 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
 ### Printed
 
 ```javascript
-
 function * gen() {
   function not_gen() {
     async function f() {

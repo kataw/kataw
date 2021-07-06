@@ -1391,11 +1391,10 @@ class Array { concat(items:number | string) {}; }
 ### Printed
 
 ```javascript
+class Foo4 <T>{}
+class Foo5 <T>extends Bar<T> {}
 
-class Foo4<T> {}
-class Foo5<T>  extends Bar<T> {}
-
-class Foo6<T>  extends mixin(Bar) {}
+class Foo6 <T>extends mixin(Bar) {}
 
 class Foo1 {
   set fooProp(value: number) {}

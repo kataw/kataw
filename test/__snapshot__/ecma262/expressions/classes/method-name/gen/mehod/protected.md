@@ -140,7 +140,6 @@
 ### Printed
 
 ```javascript
-
 ({ protected(x, y) {} });
 ```
 

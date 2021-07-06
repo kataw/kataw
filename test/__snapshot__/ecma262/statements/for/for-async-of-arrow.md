@@ -100,7 +100,6 @@ for (async of => {};;);
 ### Printed
 
 ```javascript
-
 for (async of => {}; ; );
 ```
 

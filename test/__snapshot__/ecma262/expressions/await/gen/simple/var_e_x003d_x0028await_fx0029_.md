@@ -111,7 +111,6 @@ var e = (await, f);
 ### Printed
 
 ```javascript
-
 var e = (await, f);
 ```
 

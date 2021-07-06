@@ -189,7 +189,6 @@ class Foo {
 ### Printed
 
 ```javascript
-
 class Foo {
   @ bar[bizz] abc() {}
 }

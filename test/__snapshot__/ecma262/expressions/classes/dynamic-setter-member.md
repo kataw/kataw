@@ -159,7 +159,6 @@ class A {* get [x](){}}
 ### Printed
 
 ```javascript
-
 class A {
   get;
   [x]() {}

@@ -230,9 +230,8 @@ class B extends A {
 ### Printed
 
 ```javascript
-
 class A {}
-class B  extends A {
+class B extends A {
   constructor() {
     super();
   }

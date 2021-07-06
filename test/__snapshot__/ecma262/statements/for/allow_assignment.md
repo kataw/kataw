@@ -92,7 +92,6 @@ for (foo=10;;);
 ### Printed
 
 ```javascript
-
 for (foo = 10; ; );
 ```
 

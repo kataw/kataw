@@ -75,7 +75,6 @@ publ\u0069c = x;
 ### Printed
 
 ```javascript
-
 publ\u0069c = x;
 ```
 

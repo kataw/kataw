@@ -103,7 +103,6 @@ var {x} = v
 ### Printed
 
 ```javascript
-
 var { x } = v;
 ```
 

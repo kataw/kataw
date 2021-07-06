@@ -155,7 +155,6 @@
 ### Printed
 
 ```javascript
-
 [new x()[y] = a] = z;
 ```
 

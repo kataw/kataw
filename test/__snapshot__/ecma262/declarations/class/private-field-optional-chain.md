@@ -364,7 +364,6 @@ class Foo {
 ### Printed
 
 ```javascript
-
 class Foo {
   #x;
   foo() {

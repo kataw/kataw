@@ -151,7 +151,6 @@ type a = {"string":y.z};
 ### Printed
 
 ```javascript
-
 type a = { "\"string\"": y.z }
 ```
 

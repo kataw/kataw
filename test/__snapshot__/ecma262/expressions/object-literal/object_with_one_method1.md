@@ -558,7 +558,6 @@ wrap({0o4432(){}});
 ### Printed
 
 ```javascript
-
 wrap({ 0() {} });
 wrap({ 1() {} });
 

@@ -202,7 +202,6 @@
 ### Printed
 
 ```javascript
-
 (() => {}) || true;
 (() => {}) ? a : b;
 

@@ -176,7 +176,6 @@ var a : typeof A.B<T>
 ### Printed
 
 ```javascript
-
 var a: typeof A.B<T>;
 ```
 

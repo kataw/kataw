@@ -130,7 +130,6 @@
 ### Printed
 
 ```javascript
-
 ({ * bar(x) {} });
 ```
 

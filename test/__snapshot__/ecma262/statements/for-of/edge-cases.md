@@ -223,7 +223,6 @@ for ((async) of x);
 ### Printed
 
 ```javascript
-
 for (async.x of y);
 for (async of => {}; ; );
 

@@ -247,7 +247,6 @@ new it(/* comment */)
 ### Printed
 
 ```javascript
-
 require();
 new require();
 

@@ -248,7 +248,6 @@
 ### Printed
 
 ```javascript
-
 (a? : number, b) => {};
 (x, a? : number, b) => {};
 

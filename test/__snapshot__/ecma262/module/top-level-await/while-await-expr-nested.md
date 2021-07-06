@@ -299,7 +299,6 @@ while (await await await await await await await await await await await await a
 ### Printed
 
 ```javascript
-
 while (
   await await await await await await await await await await await await await await await "'await'"
 )

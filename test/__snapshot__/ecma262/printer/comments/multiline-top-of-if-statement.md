@@ -138,7 +138,6 @@
 ### Printed
 
 ```javascript
-
 const x = 0;
 if (true) {
     x;

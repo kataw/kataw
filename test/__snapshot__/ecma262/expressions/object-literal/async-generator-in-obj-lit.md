@@ -159,7 +159,6 @@ const obj = {
 ### Printed
 
 ```javascript
-
 const obj = { async, * generator() {} };
 ```
 

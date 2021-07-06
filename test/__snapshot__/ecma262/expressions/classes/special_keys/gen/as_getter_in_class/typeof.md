@@ -142,7 +142,6 @@ class x {get typeof(){}}
 ### Printed
 
 ```javascript
-
 class x {
   get typeof() {}
 }

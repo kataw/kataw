@@ -164,7 +164,6 @@ var f = (x): | 1 | 2 => 1;
 ### Printed
 
 ```javascript
-
 var f = (x) => 1;
 ```
 

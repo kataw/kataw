@@ -264,7 +264,6 @@ var a: { [a: number]: string; [b: number]: string; };
 ### Printed
 
 ```javascript
-
 var numVal: number = otherNumVal;
 var a: { [number]: string, [number]: string };
 

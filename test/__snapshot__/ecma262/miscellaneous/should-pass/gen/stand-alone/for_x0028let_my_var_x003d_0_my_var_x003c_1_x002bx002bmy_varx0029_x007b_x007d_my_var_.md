@@ -185,7 +185,6 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
 ### Printed
 
 ```javascript
-
 for (let my_var = 0; ++ my_var; my_var  < 1) {}
 my_var;
 

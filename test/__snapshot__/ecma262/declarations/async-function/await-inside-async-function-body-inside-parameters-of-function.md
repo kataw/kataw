@@ -183,7 +183,6 @@ function fn(x = async function () { await 1 }) {}
 ### Printed
 
 ```javascript
-
 function fn(x = async function () {
   await 1;
 }) {}

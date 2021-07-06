@@ -89,7 +89,6 @@
 ### Printed
 
 ```javascript
-
 (false);
 (false, true);
 

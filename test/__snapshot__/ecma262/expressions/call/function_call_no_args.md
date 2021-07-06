@@ -61,7 +61,6 @@ foo()
 ### Printed
 
 ```javascript
-
 foo();
 ```
 

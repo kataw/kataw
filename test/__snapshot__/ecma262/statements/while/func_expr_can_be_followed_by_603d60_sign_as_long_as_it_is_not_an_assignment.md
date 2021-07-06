@@ -123,7 +123,6 @@ while (function* () {} === x);
 ### Printed
 
 ```javascript
-
 while (function * () {} === x);
 ```
 

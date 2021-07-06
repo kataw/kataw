@@ -118,7 +118,6 @@
 ### Printed
 
 ```javascript
-
 [...z = 1];
 ```
 

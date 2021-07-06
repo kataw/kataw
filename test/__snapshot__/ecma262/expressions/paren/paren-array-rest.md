@@ -2859,7 +2859,6 @@
 ### Printed
 
 ```javascript
-
 ({ a: obj.a } = {});
 ({ a: this.a } = {});
 

@@ -99,7 +99,6 @@ import type foo24 from "bar";
 ### Printed
 
 ```javascript
-
 import type foo24 from "\"bar\"";
 ```
 

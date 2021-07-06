@@ -140,8 +140,7 @@
 ### Printed
 
 ```javascript
-
-(class   extends async function () {} {});
+(class extends async function () {} {});
 ```
 
 ### Diagnostics

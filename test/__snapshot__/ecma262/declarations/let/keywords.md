@@ -797,7 +797,6 @@ let nx: mixed;
 ### Printed
 
 ```javascript
-
 let a: any;
 let un: unknown;
 

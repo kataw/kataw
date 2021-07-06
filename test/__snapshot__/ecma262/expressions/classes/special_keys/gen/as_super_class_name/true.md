@@ -99,8 +99,7 @@ class x extends true {}
 ### Printed
 
 ```javascript
-
-class x  extends true {}
+class x extends true {}
 ```
 
 ### Diagnostics

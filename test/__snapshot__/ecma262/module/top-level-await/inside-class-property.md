@@ -150,7 +150,6 @@ export class C {
 ### Printed
 
 ```javascript
-
 export class C {
   p = await 0;;
 }

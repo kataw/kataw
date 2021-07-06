@@ -83,7 +83,6 @@
 ### Printed
 
 ```javascript
-
 [typeof x];
 ```
 

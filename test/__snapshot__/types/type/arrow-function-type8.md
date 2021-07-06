@@ -236,7 +236,6 @@ type X = (x | y, z: string) => T;
 ### Printed
 
 ```javascript
-
 type X = (x | y,
 z: string) =>  T
 ```

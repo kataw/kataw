@@ -112,7 +112,6 @@
 ### Printed
 
 ```javascript
-
 ({ ...yield } = obj);
 ```
 

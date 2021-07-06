@@ -101,7 +101,6 @@ x in x) ;
 ### Printed
 
 ```javascript
-
 for (async; ; x in x);
 ```
 

@@ -1121,7 +1121,6 @@ new async function() { await 0 }.x
 ### Printed
 
 ```javascript
-
 -async function foo() {
   await 0;
 } - async function () {

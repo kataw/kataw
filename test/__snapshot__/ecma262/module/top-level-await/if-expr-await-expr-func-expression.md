@@ -124,7 +124,6 @@ if (await function() {}) {}
 ### Printed
 
 ```javascript
-
 if (await function () {}) {}
 ```
 

@@ -152,7 +152,6 @@ class x {set void(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set void(x) {}
 }

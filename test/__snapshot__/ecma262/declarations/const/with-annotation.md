@@ -312,7 +312,6 @@ const {q}: string = y;
 ### Printed
 
 ```javascript
-
 const [y]: string = y;
 const [z: symbol]: string = y;
 

@@ -123,8 +123,7 @@ class C extends (
 ### Printed
 
 ```javascript
-
-class C  extends (a, c) {}
+class C extends (a, c) {}
 ```
 
 ### Diagnostics

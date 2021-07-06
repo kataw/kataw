@@ -108,8 +108,7 @@ class x extends a-- {}
 ### Printed
 
 ```javascript
-
-class x  extends a-- {}
+class x extends a-- {}
 ```
 
 ### Diagnostics

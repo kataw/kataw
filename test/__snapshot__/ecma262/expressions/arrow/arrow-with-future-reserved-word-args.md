@@ -97,7 +97,6 @@
 ### Printed
 
 ```javascript
-
 (interface, eval) => {};
 ```
 

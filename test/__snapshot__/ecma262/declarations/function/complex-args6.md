@@ -144,7 +144,6 @@ function f([b, a], {b}) {}
 ### Printed
 
 ```javascript
-
 function f([b, a], { b }) {}
 ```
 

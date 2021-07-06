@@ -152,7 +152,6 @@ function *f(x = (null) = f) {}
 ### Printed
 
 ```javascript
-
 function * f(x = (null) = f) {}
 ```
 

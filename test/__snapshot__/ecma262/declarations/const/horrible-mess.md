@@ -1093,7 +1093,6 @@ const processArgs =
 ### Printed
 
 ```javascript
-
 const processArgs = <A1: {}, A2: {}>(process: (args: A1) =>  A2) => <
     S,
     C,

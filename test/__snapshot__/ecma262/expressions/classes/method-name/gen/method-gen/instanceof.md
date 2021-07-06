@@ -146,7 +146,6 @@
 ### Printed
 
 ```javascript
-
 ({ * instanceof(x, y) {} });
 ```
 

@@ -189,7 +189,6 @@ class Foo {
 ### Printed
 
 ```javascript
-
 @ decorator class Foo {
   method() {
     return method;

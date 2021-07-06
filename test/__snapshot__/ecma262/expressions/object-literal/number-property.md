@@ -102,7 +102,6 @@ x = {15:b}
 ### Printed
 
 ```javascript
-
 x = { 15: b };
 ```
 

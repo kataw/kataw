@@ -270,7 +270,6 @@ async <T, U,>(x) => y;
 ### Printed
 
 ```javascript
-
 async <T, U>(x) => y
 (async <T, U>(x) => y);
 

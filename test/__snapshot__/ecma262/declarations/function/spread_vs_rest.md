@@ -190,7 +190,6 @@ let [a=[...b], ...c] = obj;
 ### Printed
 
 ```javascript
-
 let [a = [...b], ...c] = obj;
 ```
 

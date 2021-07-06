@@ -145,7 +145,6 @@ var o: { [string]: number } = {};
 ### Printed
 
 ```javascript
-
 var o: { [string]: number } = {};
 ```
 

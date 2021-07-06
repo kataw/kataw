@@ -198,7 +198,6 @@ declare var x3: ?(() => (() => number));
 ### Printed
 
 ```javascript
-
 declare var x3: ? (() =>  (() =>  number));
 ```
 

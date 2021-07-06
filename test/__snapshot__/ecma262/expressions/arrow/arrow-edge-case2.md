@@ -153,7 +153,6 @@ a ? (b) : c => d : e;
 ### Printed
 
 ```javascript
-
 a ? (b) => d : e;
 ```
 

@@ -154,7 +154,6 @@ class A {async foo(){}}
 ### Printed
 
 ```javascript
-
 class A {
   async foo() {}
 }

@@ -594,7 +594,6 @@ type C = [
 ### Printed
 
 ```javascript
-
 type A = [
   AAAAAAAAAAAAAAAAAAAAAA
   | BBBBBBBBBBBBBBBBBBBBBB

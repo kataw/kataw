@@ -123,7 +123,6 @@ for (var of of of){}
 ### Printed
 
 ```javascript
-
 for (var of of of) {}
 ```
 

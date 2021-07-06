@@ -2735,7 +2735,6 @@ class Annotations {
 ### Printed
 
 ```javascript
-
 class C {
   #p: number;
   #q: number;

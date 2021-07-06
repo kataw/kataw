@@ -165,7 +165,6 @@
 ### Printed
 
 ```javascript
-
 (x = delete ((foo) = f)) => {};
 ```
 

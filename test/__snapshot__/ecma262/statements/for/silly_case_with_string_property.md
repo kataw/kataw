@@ -96,7 +96,6 @@ for ("foo".bar;;);
 ### Printed
 
 ```javascript
-
 for ("\"foo\"".bar; ; );
 ```
 

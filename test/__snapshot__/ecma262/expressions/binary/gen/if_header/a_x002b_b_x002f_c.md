@@ -114,7 +114,6 @@ if ( a + b / c ) ;
 ### Printed
 
 ```javascript
-
 if (a + b / c);
 ```
 

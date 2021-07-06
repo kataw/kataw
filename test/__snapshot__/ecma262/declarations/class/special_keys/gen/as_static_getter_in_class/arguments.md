@@ -148,7 +148,6 @@ class x {static get arguments(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static get arguments() {}
 }

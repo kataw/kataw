@@ -124,7 +124,6 @@ async () => {  \u0062rguments = x  }
 ### Printed
 
 ```javascript
-
 async () => {
   \u0062rguments = x;
 }

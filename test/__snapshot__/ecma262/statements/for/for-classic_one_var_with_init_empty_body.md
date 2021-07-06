@@ -120,7 +120,6 @@ for (var a=1;;);
 ### Printed
 
 ```javascript
-
 for (var a = 1; ; );
 ```
 

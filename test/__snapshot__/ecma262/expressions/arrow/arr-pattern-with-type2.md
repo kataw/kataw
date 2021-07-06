@@ -174,7 +174,6 @@
 ### Printed
 
 ```javascript
-
 ([x: string, y: number]) => {};
 ```
 

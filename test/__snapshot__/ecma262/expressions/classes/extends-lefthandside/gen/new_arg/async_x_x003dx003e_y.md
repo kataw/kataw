@@ -111,7 +111,6 @@ x => y
 ### Printed
 
 ```javascript
-
 new async;
 x => y;
 

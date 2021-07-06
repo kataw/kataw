@@ -583,7 +583,6 @@ function e(x: { (): string; (x: number): string }): () => number {
 ### Printed
 
 ```javascript
-
 function d(x: { (): string, (x: number): string }): () =>  string {
   return x;
 }

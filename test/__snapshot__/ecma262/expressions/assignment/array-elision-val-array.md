@@ -112,7 +112,6 @@ result = [,] = vals;
 ### Printed
 
 ```javascript
-
 result = [,] = vals;
 ```
 

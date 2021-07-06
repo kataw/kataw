@@ -114,7 +114,6 @@ if ( a + b instanceof c ) ;
 ### Printed
 
 ```javascript
-
 if (a + b instanceof c);
 ```
 

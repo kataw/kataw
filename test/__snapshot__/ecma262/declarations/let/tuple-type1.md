@@ -137,7 +137,6 @@ let tuple1: [number] = [1];
 ### Printed
 
 ```javascript
-
 let tuple1: [number] = [1];
 ```
 

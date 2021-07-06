@@ -177,7 +177,6 @@ function g(a:number=1, e:number=1) {}
 ### Printed
 
 ```javascript
-
 function g(a: number = 1, e: number = 1) {}
 ```
 

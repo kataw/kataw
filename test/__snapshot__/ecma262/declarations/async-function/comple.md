@@ -298,7 +298,6 @@ await 0 }
 ### Printed
 
 ```javascript
-
 function * foo() {
   if (0) let;
   yield 0;

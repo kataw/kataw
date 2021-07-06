@@ -136,7 +136,6 @@ class x {debugger(){}}
 ### Printed
 
 ```javascript
-
 class x {
   debugger() {}
 }

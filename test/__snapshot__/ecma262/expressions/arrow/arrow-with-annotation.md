@@ -400,7 +400,6 @@
 ### Printed
 
 ```javascript
-
 (a: string) => x;
 (x, y: string) => z;
 

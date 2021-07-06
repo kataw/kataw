@@ -147,7 +147,6 @@ import typeof { foo25, bar1 } from "baz";
 ### Printed
 
 ```javascript
-
 import typeof {  foo25,  bar1 } from "\"baz\"";
 ```
 

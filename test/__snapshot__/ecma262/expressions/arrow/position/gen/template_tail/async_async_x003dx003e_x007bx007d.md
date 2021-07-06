@@ -134,7 +134,6 @@
 ### Printed
 
 ```javascript
-
 `a ${async async => {}} b`.length;
 ```
 

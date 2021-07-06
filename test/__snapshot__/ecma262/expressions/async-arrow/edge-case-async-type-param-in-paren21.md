@@ -394,7 +394,6 @@ async <A = B, C = D>(x) => y;
 ### Printed
 
 ```javascript
-
 async <A= B, C= D>(x) => y;
 (async <A= B, C= D>(x) => y);
 

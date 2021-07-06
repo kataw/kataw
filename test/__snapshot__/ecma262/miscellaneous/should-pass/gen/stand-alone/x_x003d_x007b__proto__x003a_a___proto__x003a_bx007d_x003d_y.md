@@ -158,7 +158,6 @@ x = {__proto__: a, __proto__: b} = y
 ### Printed
 
 ```javascript
-
 x = { __proto__: a, __proto__: b } = y;
 ```
 

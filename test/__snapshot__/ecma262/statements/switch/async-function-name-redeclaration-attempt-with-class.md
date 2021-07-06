@@ -217,7 +217,6 @@ switch (0) { case 1: async function f() {} default: class f {} }
 ### Printed
 
 ```javascript
-
 switch (0) {
   case 1:
     async function f() {}

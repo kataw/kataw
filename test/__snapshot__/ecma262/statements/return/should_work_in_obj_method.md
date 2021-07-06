@@ -130,7 +130,6 @@
 ### Printed
 
 ```javascript
-
 ({ foo() {
       return;
     } });

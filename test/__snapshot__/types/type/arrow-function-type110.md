@@ -160,7 +160,6 @@ type X = (|a) => T;
 ### Printed
 
 ```javascript
-
 type X = (| a) =>  T
 ```
 

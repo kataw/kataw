@@ -142,7 +142,6 @@ class x {static import(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static import() {}
 }

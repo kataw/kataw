@@ -144,7 +144,6 @@
 ### Printed
 
 ```javascript
-
 [please, { [make]: it }, stop] = bwahahahaha;
 ```
 

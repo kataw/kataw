@@ -160,7 +160,6 @@ class C { static
 ### Printed
 
 ```javascript
-
 class C {
   static;
   * #aaa() {}

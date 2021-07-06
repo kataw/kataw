@@ -352,7 +352,6 @@
 ### Printed
 
 ```javascript
-
 0o12345670;
 0o12345670;
 

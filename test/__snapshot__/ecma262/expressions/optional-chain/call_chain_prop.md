@@ -132,7 +132,6 @@ c?.(d)?.[e]
 ### Printed
 
 ```javascript
-
 c?.(d)?.[e];
 ```
 

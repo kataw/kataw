@@ -140,7 +140,6 @@
 ### Printed
 
 ```javascript
-
 ({ await(x, y) {} });
 ```
 

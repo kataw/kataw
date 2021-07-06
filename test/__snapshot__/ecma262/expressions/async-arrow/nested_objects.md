@@ -132,7 +132,6 @@ async ({ident: {x: y}})
 ### Printed
 
 ```javascript
-
 async({ ident: { x: y } })
 ```
 

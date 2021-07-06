@@ -141,7 +141,6 @@ class A {async * 34(){}}
 ### Printed
 
 ```javascript
-
 class A {
   async * 34() {}
 }

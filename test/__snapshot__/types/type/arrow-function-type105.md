@@ -208,7 +208,6 @@ type a = ((...b?:string | d) => c);
 ### Printed
 
 ```javascript
-
 type a = ((...b? : string | d) =>  c)
 ```
 

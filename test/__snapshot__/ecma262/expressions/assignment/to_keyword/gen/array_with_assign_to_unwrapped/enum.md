@@ -107,7 +107,6 @@ async x => enum = 1
 ### Printed
 
 ```javascript
-
 async x => enum = 1;
 ```
 

@@ -259,7 +259,6 @@ class C { #aaa; f(f) { f()?.#aaa } }
 ### Printed
 
 ```javascript
-
 class C {
   #aaa;;
   f(f) {

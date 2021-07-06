@@ -129,7 +129,6 @@ var foo = async ([(foo)]);
 ### Printed
 
 ```javascript
-
 var foo = async([(foo)]);
 ```
 

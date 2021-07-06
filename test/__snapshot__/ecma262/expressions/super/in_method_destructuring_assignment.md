@@ -224,7 +224,6 @@ x = { foo(){ [a = super.foo] = c; }}
 ### Printed
 
 ```javascript
-
 x = { foo() {
     [a = super.foo] = c;
   } };

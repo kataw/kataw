@@ -150,7 +150,6 @@ class A {static [a](){}}
 ### Printed
 
 ```javascript
-
 class A {
   static [a]() {}
 }

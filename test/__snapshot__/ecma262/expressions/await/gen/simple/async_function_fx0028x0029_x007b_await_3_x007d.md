@@ -126,7 +126,6 @@ async function f() { await 3; }
 ### Printed
 
 ```javascript
-
 async function f() {
   await 3;
 }

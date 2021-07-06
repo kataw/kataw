@@ -59,7 +59,6 @@ debugger
 ### Printed
 
 ```javascript
-
 debugger;
 /bar/g;
 

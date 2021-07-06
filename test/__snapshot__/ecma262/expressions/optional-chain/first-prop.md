@@ -99,7 +99,6 @@ a?.b.b
 ### Printed
 
 ```javascript
-
 a?.b.b;
 ```
 

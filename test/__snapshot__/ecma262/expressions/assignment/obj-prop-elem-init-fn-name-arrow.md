@@ -188,7 +188,6 @@ result = { x: arrow = () => {} } = {};
 ### Printed
 
 ```javascript
-
 result = { x: arrow = () => {} } = {};
 ```
 

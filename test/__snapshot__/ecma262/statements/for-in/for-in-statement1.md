@@ -206,7 +206,6 @@ for (a in expr) {
 ### Printed
 
 ```javascript
-
 var a: any;
 var expr: any;
 

@@ -228,7 +228,6 @@ function x({ y }: z<[string |Q]>) {}
 ### Printed
 
 ```javascript
-
 function x({ y }: z<[string | Q]>) {}
 ```
 

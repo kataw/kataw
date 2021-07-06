@@ -82,7 +82,6 @@
 ### Printed
 
 ```javascript
-
 (implements = x);
 ```
 

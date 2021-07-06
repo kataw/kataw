@@ -142,7 +142,6 @@ function *g() { yield void x }
 ### Printed
 
 ```javascript
-
 function * g() {
   yield void x;
 }

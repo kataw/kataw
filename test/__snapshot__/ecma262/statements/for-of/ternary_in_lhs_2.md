@@ -124,7 +124,6 @@ for (a ? b : c of x);
 ### Printed
 
 ```javascript
-
 for (a ? b : c; x; of);
 ```
 

@@ -148,7 +148,6 @@ type a = {get foo():string};
 ### Printed
 
 ```javascript
-
 type a = { foo(): string }
 ```
 

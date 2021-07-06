@@ -195,7 +195,6 @@ let x: (this) => void = () => {}
 ### Printed
 
 ```javascript
-
 let x: (this) =>  void = () => {};
 ```
 

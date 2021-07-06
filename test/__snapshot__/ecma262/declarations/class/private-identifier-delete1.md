@@ -226,7 +226,6 @@ class Foo { #foo; foo() { delete this?.#foo } }
 ### Printed
 
 ```javascript
-
 class Foo {
   #foo;;
   foo() {

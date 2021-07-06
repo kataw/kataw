@@ -110,7 +110,6 @@ var [let] = []
 ### Printed
 
 ```javascript
-
 var [let] = [];
 ```
 

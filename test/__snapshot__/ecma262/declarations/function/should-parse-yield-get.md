@@ -200,7 +200,6 @@ function get() {}
 ### Printed
 
 ```javascript
-
 function get() {}
 function * getData() {
   return yield get();

@@ -154,7 +154,6 @@ async (a = (...await) => {});
 ### Printed
 
 ```javascript
-
 async(a = (...await) => {})
 ```
 

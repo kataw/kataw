@@ -126,7 +126,6 @@ function one() {
 ### Printed
 
 ```javascript
-
 function one() {
   return two, three;
 }

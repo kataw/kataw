@@ -107,7 +107,6 @@
 ### Printed
 
 ```javascript
-
 [5..length] = x;
 ```
 

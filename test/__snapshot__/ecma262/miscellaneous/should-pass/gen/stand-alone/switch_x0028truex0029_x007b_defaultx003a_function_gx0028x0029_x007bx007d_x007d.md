@@ -142,7 +142,6 @@ switch (true) { default: function g() {} }
 ### Printed
 
 ```javascript
-
 switch (true) {
   default
     function g() {}

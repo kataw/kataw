@@ -160,7 +160,6 @@ class x { constructor(){ super.foo; }}
 ### Printed
 
 ```javascript
-
 class x {
   constructor() {
     super.foo;

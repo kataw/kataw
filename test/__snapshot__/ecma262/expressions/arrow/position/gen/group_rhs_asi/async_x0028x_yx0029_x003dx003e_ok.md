@@ -134,7 +134,6 @@ x *
 ### Printed
 
 ```javascript
-
 x * (async (x, y) => ok);
 ```
 

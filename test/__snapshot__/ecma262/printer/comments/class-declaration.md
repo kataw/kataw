@@ -333,7 +333,6 @@ class /*1*/ y /*2*/ {
 ### Printed
 
 ```javascript
-
 class x {
   ;
   ;

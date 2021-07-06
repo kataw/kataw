@@ -2776,7 +2776,6 @@ function foo28(numVal?: number = 2) {}
 ### Printed
 
 ```javascript
-
 function foo1(numVal: any) {}
 function foo2(numVal: number) {}
 

@@ -214,7 +214,6 @@ let x = (y: any): (() => {}) => { };
 ### Printed
 
 ```javascript
-
 let x = (y: any) => {};
 ```
 

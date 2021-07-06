@@ -98,7 +98,6 @@
 ### Printed
 
 ```javascript
-
 (yield) ? yield : yield;
 ```
 

@@ -121,7 +121,6 @@ var { x: x = 10 } = x;
 ### Printed
 
 ```javascript
-
 var { x: x = 10 } = x;
 ```
 

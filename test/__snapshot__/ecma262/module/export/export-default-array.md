@@ -72,7 +72,6 @@ export default [];
 ### Printed
 
 ```javascript
-
 export default [];
 ```
 

@@ -180,7 +180,6 @@
 ### Printed
 
 ```javascript
-
 ({ async * gen() {
       await 10;
       return;

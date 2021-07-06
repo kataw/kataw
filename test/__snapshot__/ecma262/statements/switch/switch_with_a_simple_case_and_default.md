@@ -148,7 +148,6 @@ switch (A) {case B: C; default: D;}
 ### Printed
 
 ```javascript
-
 switch (A) {
   case B:
     C;

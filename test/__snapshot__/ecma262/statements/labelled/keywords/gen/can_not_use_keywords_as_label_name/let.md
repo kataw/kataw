@@ -75,7 +75,6 @@ let: x
 ### Printed
 
 ```javascript
-
 let:  x;
 ```
 

@@ -148,7 +148,6 @@
 ### Printed
 
 ```javascript
-
 ([x, y: number]) => {};
 ```
 

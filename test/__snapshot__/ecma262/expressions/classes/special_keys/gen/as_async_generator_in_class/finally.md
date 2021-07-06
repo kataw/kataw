@@ -148,7 +148,6 @@ class x {async * finally(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async * finally() {}
 }

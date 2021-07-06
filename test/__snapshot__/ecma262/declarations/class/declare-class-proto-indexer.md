@@ -146,7 +146,6 @@ declare class C { proto [K]: V }
 ### Printed
 
 ```javascript
-
 declare class C { proto [K]: V }
 ```
 

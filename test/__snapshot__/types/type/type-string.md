@@ -134,7 +134,6 @@ type T1 = number;
 ### Printed
 
 ```javascript
-
 type T1 = string
 type T1 = number
 

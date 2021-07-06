@@ -157,7 +157,6 @@ type Age = typeof MyArray[number]["age"];
 ### Printed
 
 ```javascript
-
 type Age = typeof MyArray[number]["\"age\""]
 ```
 

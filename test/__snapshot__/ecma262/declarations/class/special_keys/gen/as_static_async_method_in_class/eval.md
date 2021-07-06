@@ -148,7 +148,6 @@ class x {static async eval(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async eval() {}
 }

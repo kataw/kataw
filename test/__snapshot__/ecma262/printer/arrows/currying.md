@@ -874,7 +874,6 @@ const middleware = options => (req, res, next) => {
 ### Printed
 
 ```javascript
-
 const fn = b => c => d => {
     return 3;
   };

@@ -127,7 +127,6 @@ bar, x => { return x; }
 ### Printed
 
 ```javascript
-
 bar, x => {
   return x;
 };

@@ -3322,7 +3322,6 @@
 ### Printed
 
 ```javascript
-
 ([...x]);
 ({ ...x + y });
 

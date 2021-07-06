@@ -111,7 +111,6 @@ wrap({set} = x);
 ### Printed
 
 ```javascript
-
 wrap({ set } = x);
 ```
 

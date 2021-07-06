@@ -120,7 +120,6 @@ for ("foo"[x] of c) d;
 ### Printed
 
 ```javascript
-
 for ("\"foo\""[x] of c) d;
 ```
 

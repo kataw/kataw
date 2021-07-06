@@ -98,7 +98,6 @@ try {} catch(e) {}
 ### Printed
 
 ```javascript
-
 try {} catch (e) {}
 ```
 

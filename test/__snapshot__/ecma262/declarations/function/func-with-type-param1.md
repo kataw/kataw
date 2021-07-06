@@ -144,7 +144,6 @@ function foo<T,S>() {}
 ### Printed
 
 ```javascript
-
 function foo<T, S>() {}
 ```
 

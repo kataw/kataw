@@ -151,8 +151,7 @@
 ### Printed
 
 ```javascript
-
-(class  {
+(class {
     constructor(enum) {}
   });
 ```

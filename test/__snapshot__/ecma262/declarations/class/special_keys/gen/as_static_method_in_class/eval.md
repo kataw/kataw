@@ -142,7 +142,6 @@ class x {static eval(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static eval() {}
 }

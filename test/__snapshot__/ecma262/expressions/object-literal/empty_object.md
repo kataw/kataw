@@ -78,7 +78,6 @@ x({});
 ### Printed
 
 ```javascript
-
 x({});
 ```
 

@@ -3479,7 +3479,6 @@ oobj["obj"][incr()] ??= incr();
 ### Printed
 
 ```javascript
-
 a ||= b;
 a &&= "\"foo\"";
 

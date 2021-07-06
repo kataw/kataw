@@ -134,7 +134,6 @@
 ### Printed
 
 ```javascript
-
 [..."\"foo\"".bar] = x;
 ```
 

@@ -114,8 +114,7 @@
 ### Printed
 
 ```javascript
-
-(class B  extends eval {});
+(class B extends eval {});
 ```
 
 ### Diagnostics

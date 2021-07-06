@@ -129,7 +129,6 @@ class Foo {}
 ### Printed
 
 ```javascript
-
 @ foo("'bar'") class Foo {}
 ```
 

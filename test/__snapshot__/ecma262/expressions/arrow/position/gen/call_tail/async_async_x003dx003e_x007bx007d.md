@@ -133,7 +133,6 @@ foo(async async => {}).bar
 ### Printed
 
 ```javascript
-
 foo(async async => {}).bar;
 ```
 

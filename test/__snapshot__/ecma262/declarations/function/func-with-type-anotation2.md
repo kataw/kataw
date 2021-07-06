@@ -171,7 +171,6 @@ function foo(numVal: any, otherVal: mixed){}
 ### Printed
 
 ```javascript
-
 function foo(numVal: any, otherVal: mixed) {}
 ```
 

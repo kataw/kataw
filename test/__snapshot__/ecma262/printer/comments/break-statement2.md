@@ -120,7 +120,6 @@ foo: while (
 ### Printed
 
 ```javascript
-
 foo:  while (x) {
     break  foo;
   }

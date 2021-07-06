@@ -142,7 +142,6 @@
 ### Printed
 
 ```javascript
-
 (x = (false) = f) => {};
 ```
 

@@ -172,7 +172,6 @@ type a = {1:y.z[][][]};
 ### Printed
 
 ```javascript
-
 type a = { 1: y.z[][][] }
 ```
 

@@ -307,7 +307,6 @@ class AnotherRomote {
 ### Printed
 
 ```javascript
-
 @ decorator("\"hello\"") class Remote {}
 @ decorator("\"hi\"") class AnotherRomote {
   constructor() {}

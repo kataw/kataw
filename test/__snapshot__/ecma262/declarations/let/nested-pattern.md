@@ -121,7 +121,6 @@ let [[]]=0
 ### Printed
 
 ```javascript
-
 let [[]] = 0;
 ```
 

@@ -114,8 +114,7 @@
 ### Printed
 
 ```javascript
-
-(class B  extends await {});
+(class B extends await {});
 ```
 
 ### Diagnostics

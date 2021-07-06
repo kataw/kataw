@@ -85,7 +85,6 @@ async yield => 1;
 ### Printed
 
 ```javascript
-
 async yield => 1;
 ```
 

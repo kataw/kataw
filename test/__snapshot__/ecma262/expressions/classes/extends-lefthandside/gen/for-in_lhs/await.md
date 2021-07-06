@@ -82,7 +82,6 @@ for (await in x) ;
 ### Printed
 
 ```javascript
-
 for (await in x);
 ```
 

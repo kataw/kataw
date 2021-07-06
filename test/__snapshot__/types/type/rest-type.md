@@ -126,7 +126,6 @@ type x = [...aladdin];
 ### Printed
 
 ```javascript
-
 type x = [...aladdin]
 ```
 

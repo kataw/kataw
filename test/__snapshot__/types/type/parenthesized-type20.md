@@ -129,7 +129,6 @@ type a = ([-1])
 ### Printed
 
 ```javascript
-
 type a = ([-1])
 ```
 

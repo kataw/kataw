@@ -152,7 +152,6 @@ class x {set continue(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   set continue(x) {}
 }

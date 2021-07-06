@@ -221,7 +221,6 @@ type a = (?c & a | b) => T;
 ### Printed
 
 ```javascript
-
 type a = (? c & a | b) =>  T
 ```
 

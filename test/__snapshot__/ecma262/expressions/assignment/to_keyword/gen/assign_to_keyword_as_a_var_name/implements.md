@@ -75,7 +75,6 @@ implements = x
 ### Printed
 
 ```javascript
-
 implements = x;
 ```
 

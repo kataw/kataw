@@ -52,7 +52,6 @@ throw foo
 ### Printed
 
 ```javascript
-
 throw foo;
 ```
 

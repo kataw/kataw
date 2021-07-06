@@ -268,7 +268,6 @@ request
 ### Printed
 
 ```javascript
-
 request.post("'/version'").set(
   "'Prefer'",
   "'plurality=singular'"

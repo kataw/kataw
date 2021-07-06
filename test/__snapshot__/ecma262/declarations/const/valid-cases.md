@@ -1056,7 +1056,6 @@ const { async = true } = x;
 ### Printed
 
 ```javascript
-
 const a = function ({ async = true }) {};
 const b = function ({ async: bar }) {};
 

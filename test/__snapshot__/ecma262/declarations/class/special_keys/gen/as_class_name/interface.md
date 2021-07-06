@@ -78,7 +78,6 @@ class interface {}
 ### Printed
 
 ```javascript
-
 class interface {}
 ```
 

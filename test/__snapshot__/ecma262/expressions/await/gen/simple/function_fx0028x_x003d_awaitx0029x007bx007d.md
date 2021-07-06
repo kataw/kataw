@@ -118,7 +118,6 @@ function f(x = await){}
 ### Printed
 
 ```javascript
-
 function f(x = await) {}
 ```
 

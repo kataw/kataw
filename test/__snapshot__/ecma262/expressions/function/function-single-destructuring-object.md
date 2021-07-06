@@ -1128,7 +1128,6 @@ function StatelessFunctionalComponent3(
 ### Printed
 
 ```javascript
-
 function StatelessFunctionalComponent({
   isActive,
   onFiltersUpdated,

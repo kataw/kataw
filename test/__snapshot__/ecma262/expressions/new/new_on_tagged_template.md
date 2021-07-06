@@ -76,7 +76,6 @@ new Foo`bar`
 ### Printed
 
 ```javascript
-
 new Foo`bar`;
 ```
 

@@ -134,7 +134,6 @@
 ### Printed
 
 ```javascript
-
 [`a${5}b`.length] = x;
 ```
 

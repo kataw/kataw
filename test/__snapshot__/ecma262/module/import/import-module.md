@@ -62,7 +62,6 @@ import "foo";
 ### Printed
 
 ```javascript
-
 import "\"foo\""
 ```
 

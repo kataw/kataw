@@ -230,7 +230,6 @@
 ### Printed
 
 ```javascript
-
 {
   let AAAAAAAAAAAAAAAAAAAA;
   try {

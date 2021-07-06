@@ -105,7 +105,6 @@ wrap({set:b});
 ### Printed
 
 ```javascript
-
 wrap({ set: b });
 ```
 

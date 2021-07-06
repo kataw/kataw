@@ -161,7 +161,6 @@ type A = {
 ### Printed
 
 ```javascript
-
 type A = { b(): (B) }
 ```
 

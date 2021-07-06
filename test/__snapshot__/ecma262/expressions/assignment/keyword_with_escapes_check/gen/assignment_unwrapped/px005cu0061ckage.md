@@ -75,7 +75,6 @@ p\u0061ckage = x;
 ### Printed
 
 ```javascript
-
 p\u0061ckage = x;
 ```
 

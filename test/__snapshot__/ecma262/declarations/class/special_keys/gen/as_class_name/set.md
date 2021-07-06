@@ -78,7 +78,6 @@ class set {}
 ### Printed
 
 ```javascript
-
 class set {}
 ```
 

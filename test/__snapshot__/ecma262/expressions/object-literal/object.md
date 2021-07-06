@@ -84,7 +84,6 @@
 ### Printed
 
 ```javascript
-
 ({ 790: this });
 ```
 

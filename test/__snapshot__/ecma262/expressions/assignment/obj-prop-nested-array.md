@@ -199,7 +199,6 @@ result = { x: [y] } = { x: [321] };
 ### Printed
 
 ```javascript
-
 result = { x: [y] } = { x: [321] };
 ```
 

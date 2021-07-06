@@ -200,7 +200,6 @@ async <T>(fn: () => T) => fn;
 ### Printed
 
 ```javascript
-
 async <T>(fn: () =>  T) => fn;
 ```
 

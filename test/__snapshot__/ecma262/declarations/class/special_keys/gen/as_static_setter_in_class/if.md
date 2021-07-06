@@ -158,7 +158,6 @@ class x {static set if(x){}}
 ### Printed
 
 ```javascript
-
 class x {
   static set if(x) {}
 }

@@ -121,7 +121,6 @@ function* f(){ yield
 ### Printed
 
 ```javascript
-
 function * f() {
   yield /foo/;
 }

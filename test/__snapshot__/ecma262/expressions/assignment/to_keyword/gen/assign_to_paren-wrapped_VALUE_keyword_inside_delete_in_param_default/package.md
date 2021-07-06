@@ -175,7 +175,6 @@ function *f(x = delete ((package) = f)) {}
 ### Printed
 
 ```javascript
-
 function * f(x = delete ((package) = f)) {}
 ```
 

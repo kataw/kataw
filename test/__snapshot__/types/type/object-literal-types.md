@@ -1241,7 +1241,6 @@ type T9 = { [param: string]: U };
 ### Printed
 
 ```javascript
-
 type U = {}
 type V = {}
 

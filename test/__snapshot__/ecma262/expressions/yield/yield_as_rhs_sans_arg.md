@@ -201,7 +201,6 @@ function *g() { function f(x = x + yield) {}; }
 ### Printed
 
 ```javascript
-
 function * g() {
   function f(x = x + yield) {};
 }

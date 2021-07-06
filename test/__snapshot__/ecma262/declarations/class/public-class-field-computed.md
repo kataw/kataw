@@ -110,7 +110,6 @@ class C { [0] }
 ### Printed
 
 ```javascript
-
 class C {
   [0];
 }

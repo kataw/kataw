@@ -489,7 +489,6 @@ var f = {
 ### Printed
 
 ```javascript
-
 var f = { get ["'d'"]() {
       return "'foo'";
     }, set ["'d'"](x: number) {}, set "\"stringLiteral\""(x: number) {}, get "\"stringLiteral\""(): number {

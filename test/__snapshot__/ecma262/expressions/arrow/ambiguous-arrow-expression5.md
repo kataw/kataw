@@ -205,7 +205,6 @@ var a = b ? (c + e) : d => c+e;
 ### Printed
 
 ```javascript
-
 var a = b ? (c + e) : d => c + e;
 ```
 

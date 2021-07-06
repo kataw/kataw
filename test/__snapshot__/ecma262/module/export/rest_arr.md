@@ -136,7 +136,6 @@ export let [...x] = y
 ### Printed
 
 ```javascript
-
 export let [...x] = y;
 ```
 

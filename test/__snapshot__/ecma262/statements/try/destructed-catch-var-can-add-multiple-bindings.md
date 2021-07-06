@@ -133,7 +133,6 @@ try {} catch ([a,b,c]) { }
 ### Printed
 
 ```javascript
-
 try {} catch ([a, b, c]) {}
 ```
 

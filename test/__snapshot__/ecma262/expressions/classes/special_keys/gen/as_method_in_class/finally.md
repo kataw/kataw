@@ -136,7 +136,6 @@ class x {finally(){}}
 ### Printed
 
 ```javascript
-
 class x {
   finally() {}
 }

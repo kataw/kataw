@@ -159,7 +159,6 @@ x = (x, {}:string) => {} ;
 ### Printed
 
 ```javascript
-
 x = (x, {}: string) => {};
 ```
 

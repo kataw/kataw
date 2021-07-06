@@ -268,7 +268,6 @@
 ### Printed
 
 ```javascript
-
 (fail = class A {
   [await]() {};
   "\"x\""() {}

@@ -148,7 +148,6 @@ class x {async * case(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async * case() {}
 }

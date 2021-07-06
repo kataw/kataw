@@ -139,7 +139,6 @@ export { abc }
 ### Printed
 
 ```javascript
-
 var \u0061bc = 5;
 export { abc  };
 

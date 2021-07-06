@@ -77,7 +77,6 @@ typeof await this;
 ### Printed
 
 ```javascript
-
 typeof await this;
 ```
 

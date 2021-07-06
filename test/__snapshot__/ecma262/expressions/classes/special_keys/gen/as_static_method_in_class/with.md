@@ -142,7 +142,6 @@ class x {static with(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static with() {}
 }

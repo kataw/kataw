@@ -145,7 +145,6 @@ function x(){
 ### Printed
 
 ```javascript
-
 function x() {
   if (x) return / /;
   else ;

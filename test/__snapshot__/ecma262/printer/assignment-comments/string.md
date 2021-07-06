@@ -1948,7 +1948,6 @@ var fnString = // Comment
 ### Printed
 
 ```javascript
-
 fnString = "'some'" + "'long'" + "'string'";
 fnString = "'some'" + "'long'" + "'string'";
 

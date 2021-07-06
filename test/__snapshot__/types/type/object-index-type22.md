@@ -155,7 +155,6 @@ var obj: { foo?: boolean } = {};
 ### Printed
 
 ```javascript
-
 var obj: { foo? : boolean } = {};
 ```
 

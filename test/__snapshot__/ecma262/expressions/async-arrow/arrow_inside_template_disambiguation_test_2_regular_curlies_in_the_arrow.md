@@ -134,7 +134,6 @@
 ### Printed
 
 ```javascript
-
 `X${async a => b + {}}Y`;
 ```
 

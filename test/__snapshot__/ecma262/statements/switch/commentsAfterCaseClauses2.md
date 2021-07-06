@@ -421,7 +421,6 @@ function getSecurity(level) {
 ### Printed
 
 ```javascript
-
 function getSecurity(level) {
   switch (level) {
     case 0:

@@ -128,7 +128,6 @@ export const x = 10, y = 20
 ### Printed
 
 ```javascript
-
 export const x = 10, y = 20;
 ```
 

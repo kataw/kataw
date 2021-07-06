@@ -672,7 +672,6 @@ a ?? b ?? c ? d : e;
 ### Printed
 
 ```javascript
-
 a ?? b;
 a | b ?? c | d;
 

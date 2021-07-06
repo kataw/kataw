@@ -75,7 +75,6 @@ protected: x
 ### Printed
 
 ```javascript
-
 protected:  x;
 ```
 

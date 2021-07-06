@@ -6033,7 +6033,6 @@ foo(
 ### Printed
 
 ```javascript
-
 Seq(typeDef.interface.groups).forEach(group =>
   Seq(group.members).forEach((member, memberName) =>
     markdownDoc(

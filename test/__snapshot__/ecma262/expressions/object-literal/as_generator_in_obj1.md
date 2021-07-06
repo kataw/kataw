@@ -679,7 +679,6 @@
 ### Printed
 
 ```javascript
-
 ({ * set() {} });
 ({ * get() {} });
 

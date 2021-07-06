@@ -65,7 +65,6 @@ export default 15;
 ### Printed
 
 ```javascript
-
 export default 15;
 ```
 

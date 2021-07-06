@@ -105,7 +105,6 @@
 ### Printed
 
 ```javascript
-
 for (a in b);
 ```
 

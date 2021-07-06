@@ -91,7 +91,6 @@
 ### Printed
 
 ```javascript
-
 {
   do  x;
   while (y);

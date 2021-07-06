@@ -145,7 +145,6 @@ class x {foo(){ return }}
 ### Printed
 
 ```javascript
-
 class x {
   foo() {
     return;

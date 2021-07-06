@@ -139,7 +139,6 @@ x({async get(){}});
 ### Printed
 
 ```javascript
-
 x({ async get() {} });
 ```
 

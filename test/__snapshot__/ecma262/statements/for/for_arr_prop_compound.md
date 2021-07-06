@@ -135,7 +135,6 @@ for ([].w ^= s;;) x;
 ### Printed
 
 ```javascript
-
 for ([].w ^= s; ; ) x;
 ```
 

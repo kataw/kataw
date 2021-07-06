@@ -165,7 +165,6 @@ class x{[x](a=await){}}
 ### Printed
 
 ```javascript
-
 class x {
   [x](a = await) {}
 }

@@ -61,7 +61,6 @@ foo`H\x45Y`
 ### Printed
 
 ```javascript
-
 foo`H\x45Y`;
 ```
 

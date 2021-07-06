@@ -131,7 +131,6 @@ switch (true) { default: const x = 1; }
 ### Printed
 
 ```javascript
-
 switch (true) {
   default
     const x = 1;

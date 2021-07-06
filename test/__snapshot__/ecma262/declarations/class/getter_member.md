@@ -161,7 +161,6 @@ class A {get [foo](){}}
 ### Printed
 
 ```javascript
-
 class A {
   get [foo]() {}
 }

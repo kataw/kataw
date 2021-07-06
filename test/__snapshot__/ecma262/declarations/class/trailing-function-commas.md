@@ -139,7 +139,6 @@ class Foo { bar(a,) { } }
 ### Printed
 
 ```javascript
-
 class Foo {
   bar(a) {}
 }

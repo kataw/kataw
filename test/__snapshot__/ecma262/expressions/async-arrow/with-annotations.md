@@ -224,7 +224,6 @@ async ([a]:string)=>c;
 ### Printed
 
 ```javascript
-
 async (a: string) => c
 async ([a]: string) => c
 

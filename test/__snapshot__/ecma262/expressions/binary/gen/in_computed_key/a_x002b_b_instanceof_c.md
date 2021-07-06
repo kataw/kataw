@@ -162,7 +162,6 @@ x = {[ a + b instanceof c ]: y}
 ### Printed
 
 ```javascript
-
 x = { [a + b instanceof c]: y };
 ```
 

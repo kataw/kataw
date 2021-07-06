@@ -132,7 +132,6 @@ var [...x] = y
 ### Printed
 
 ```javascript
-
 var [...x] = y;
 ```
 

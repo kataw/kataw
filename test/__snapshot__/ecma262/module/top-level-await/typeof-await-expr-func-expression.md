@@ -114,7 +114,6 @@ typeof await function() {};
 ### Printed
 
 ```javascript
-
 typeof await function () {};
 ```
 

@@ -153,7 +153,6 @@ for ({a: b.c} in d) e
 ### Printed
 
 ```javascript
-
 for ({ a: b.c } in d) e;
 ```
 

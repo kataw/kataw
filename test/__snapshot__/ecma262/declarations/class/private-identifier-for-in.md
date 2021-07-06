@@ -181,7 +181,6 @@ class Foo { #foo = () => { for (#foo in this) ; } }
 ### Printed
 
 ```javascript
-
 class Foo {
   #foo = () => {
     for (#foo in this);

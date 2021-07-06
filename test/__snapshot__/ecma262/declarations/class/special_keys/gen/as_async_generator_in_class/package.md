@@ -148,7 +148,6 @@ class x {async * package(){}}
 ### Printed
 
 ```javascript
-
 class x {
   async * package() {}
 }

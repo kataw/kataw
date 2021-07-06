@@ -178,7 +178,6 @@ type C = Obj['bar'][foo]['boz'];
 ### Printed
 
 ```javascript
-
 type C = Obj["'bar'"][foo]["'boz'"]
 ```
 

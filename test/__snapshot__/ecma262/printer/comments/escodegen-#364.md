@@ -114,7 +114,6 @@ var bar; // another comment
 ### Printed
 
 ```javascript
-
 var foo;
 var bar;
 

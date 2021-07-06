@@ -162,7 +162,6 @@ async (x = delete ((false) = f)) => {}
 ### Printed
 
 ```javascript
-
 async (x = delete ((false) = f)) => {}
 ```
 

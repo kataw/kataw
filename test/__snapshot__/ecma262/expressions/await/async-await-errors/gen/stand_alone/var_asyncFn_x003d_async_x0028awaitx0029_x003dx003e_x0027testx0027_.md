@@ -128,7 +128,6 @@ var asyncFn = async (await) => 'test';
 ### Printed
 
 ```javascript
-
 var asyncFn = async (await) => "'test'";
 ```
 

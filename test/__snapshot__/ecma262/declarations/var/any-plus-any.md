@@ -224,7 +224,6 @@ var z = x + x;
 ### Printed
 
 ```javascript
-
 var x: any;
 x.name = "\"hello\"";
 

@@ -228,7 +228,6 @@ function bar(a = console.log) {
 ### Printed
 
 ```javascript
-
 function foo(a = console.log) {}
 function bar(a = console.log) {}
 

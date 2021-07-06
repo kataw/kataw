@@ -82,7 +82,6 @@
 ### Printed
 
 ```javascript
-
 (\u0069nterface = x);
 ```
 

@@ -214,7 +214,6 @@ var af = (x, ...y) => { return [x, y.length]; };
 ### Printed
 
 ```javascript
-
 var af = (x, ...y) => {
     return [x, y.length];
   };

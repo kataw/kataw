@@ -232,8 +232,9 @@ await ({[Symbol.iterator]: a} of []) { } }
 ### Printed
 
 ```javascript
-
 async function f() {
+
+  "'use strict'";
   for await ({ [Symbol.iterator]: a } of []) {}
 }
 ```

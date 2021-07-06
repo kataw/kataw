@@ -396,7 +396,6 @@ FooBar.bar = 1;
 ### Printed
 
 ```javascript
-
 {
   class Foo {}
   Foo.bar = 1;

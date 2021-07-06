@@ -135,7 +135,6 @@ x({[a]:b}=obj);
 ### Printed
 
 ```javascript
-
 x({ [a]: b } = obj);
 ```
 

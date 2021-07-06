@@ -106,7 +106,6 @@ function f(){   return 15;    }
 ### Printed
 
 ```javascript
-
 function f() {
   return 15;
 }

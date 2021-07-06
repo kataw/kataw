@@ -112,7 +112,6 @@ for ((2935) instanceof ((2e308));;) debugger
 ### Printed
 
 ```javascript
-
 for ((2935) instanceof ((2e308)); ; ) debugger;
 ```
 

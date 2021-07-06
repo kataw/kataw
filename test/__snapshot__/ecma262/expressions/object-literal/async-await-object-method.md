@@ -161,7 +161,6 @@
 ### Printed
 
 ```javascript
-
 ({ async foo(a) {
       await a;
     } });

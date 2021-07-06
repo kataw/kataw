@@ -203,7 +203,6 @@ function e(x: {}): () => string {
 ### Printed
 
 ```javascript
-
 function e(x: {}): () =>  string {
   return x;
 }

@@ -142,7 +142,6 @@ for (let [...foo] of obj);
 ### Printed
 
 ```javascript
-
 for (let [...foo] of obj);
 ```
 

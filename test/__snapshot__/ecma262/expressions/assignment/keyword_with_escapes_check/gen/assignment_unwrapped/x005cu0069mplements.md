@@ -75,7 +75,6 @@
 ### Printed
 
 ```javascript
-
 \u0069mplements = x;
 ```
 

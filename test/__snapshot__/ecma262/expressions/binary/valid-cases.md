@@ -900,7 +900,6 @@ typeof a == 'b';
 ### Printed
 
 ```javascript
-
 a + b;
 a - b;
 

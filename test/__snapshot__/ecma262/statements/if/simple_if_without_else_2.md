@@ -91,7 +91,6 @@ if (foo) bar; else doo;
 ### Printed
 
 ```javascript
-
 if (foo) bar;
 else  doo;
 ```

@@ -124,7 +124,6 @@ for (var { foo };;) {}
 ### Printed
 
 ```javascript
-
 for (var { foo }; ; ) {}
 ```
 

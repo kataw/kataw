@@ -88,7 +88,6 @@ var v = 1;
 ### Printed
 
 ```javascript
-
 var v = 1;
 ```
 

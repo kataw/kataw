@@ -117,7 +117,6 @@ z(x)?x:y;
 ### Printed
 
 ```javascript
-
 z(x) ? x : y;
 ```
 

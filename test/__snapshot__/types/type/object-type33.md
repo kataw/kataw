@@ -163,7 +163,6 @@ type X = (await:string) => T;
 ### Printed
 
 ```javascript
-
 type X = (await: string) =>  T
 ```
 

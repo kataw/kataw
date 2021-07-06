@@ -101,7 +101,6 @@
 ### Printed
 
 ```javascript
-
 let x: | string;
 ```
 

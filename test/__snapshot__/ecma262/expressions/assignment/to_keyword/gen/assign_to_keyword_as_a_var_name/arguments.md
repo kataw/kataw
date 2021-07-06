@@ -75,7 +75,6 @@ arguments = x
 ### Printed
 
 ```javascript
-
 arguments = x;
 ```
 

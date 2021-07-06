@@ -113,7 +113,6 @@ z(z(z()));
 ### Printed
 
 ```javascript
-
 z(z(z()));
 ```
 

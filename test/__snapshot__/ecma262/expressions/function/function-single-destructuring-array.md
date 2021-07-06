@@ -1254,7 +1254,6 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
 ### Printed
 
 ```javascript
-
 function excludeFirstFiveResults([
   first,
   second,

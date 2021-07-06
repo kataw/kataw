@@ -247,7 +247,6 @@ let z = '\\009';
 ### Printed
 
 ```javascript
-
 let x = "'\00'";
 let y = "'\\09'";
 

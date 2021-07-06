@@ -90,7 +90,6 @@ new a + b
 ### Printed
 
 ```javascript
-
 new a + b;
 ```
 

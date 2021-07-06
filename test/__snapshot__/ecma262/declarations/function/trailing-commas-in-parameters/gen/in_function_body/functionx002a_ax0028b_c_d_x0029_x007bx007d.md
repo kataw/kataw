@@ -177,7 +177,6 @@ function foo() {function* a(b,c,d,) {}}
 ### Printed
 
 ```javascript
-
 function foo() {
   function * a(b, c, d) {}
 }

@@ -170,7 +170,6 @@ a = [arguments = 4, eval = 5] = value;
 ### Printed
 
 ```javascript
-
 a = [arguments = 4, eval = 5] = value;
 ```
 

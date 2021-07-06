@@ -107,7 +107,6 @@ async x => package = 1
 ### Printed
 
 ```javascript
-
 async x => package = 1;
 ```
 

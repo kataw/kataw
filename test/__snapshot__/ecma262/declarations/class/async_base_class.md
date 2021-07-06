@@ -553,14 +553,13 @@ async function foo() {
 ### Printed
 
 ```javascript
-
 class C {}
 var P: Promise<Class<C>> = new Promise(function (resolve, reject) {
     resolve(C);
   });
 
 async function foo() {
-  class Bar  extends (await P) {}
+  class Bar extends (await P) {}
   return Bar;
 }
 

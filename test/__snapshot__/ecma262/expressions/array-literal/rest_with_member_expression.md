@@ -122,7 +122,6 @@
 ### Printed
 
 ```javascript
-
 [...x.list] = a;
 ```
 

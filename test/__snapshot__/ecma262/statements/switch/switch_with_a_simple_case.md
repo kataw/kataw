@@ -109,7 +109,6 @@ switch (A) {case B: C;}
 ### Printed
 
 ```javascript
-
 switch (A) {
   case B:
     C;

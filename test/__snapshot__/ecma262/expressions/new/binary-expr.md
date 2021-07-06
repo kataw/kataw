@@ -119,7 +119,6 @@ new x<number>(y)
 ### Printed
 
 ```javascript
-
 new x  < number > (y);
 ```
 

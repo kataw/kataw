@@ -144,7 +144,6 @@
 ### Printed
 
 ```javascript
-
 () => {
   let [] = y;
 };

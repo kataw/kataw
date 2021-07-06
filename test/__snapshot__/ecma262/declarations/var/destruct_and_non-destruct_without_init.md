@@ -133,7 +133,6 @@ var [foo] = arr, bar;
 ### Printed
 
 ```javascript
-
 var [foo] = arr, bar;
 ```
 

@@ -168,7 +168,6 @@ g => {
 ### Printed
 
 ```javascript
-
 g => {
   try {} catch ([g]) {}
 };

@@ -177,7 +177,6 @@
 ### Printed
 
 ```javascript
-
 ({ a: (foo.qux) } = {}) => {};
 ```
 

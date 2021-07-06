@@ -207,7 +207,6 @@
 ### Printed
 
 ```javascript
-
 0b10;
 0b10;
 

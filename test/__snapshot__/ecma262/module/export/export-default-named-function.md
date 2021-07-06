@@ -109,7 +109,6 @@ export default function foo() {}
 ### Printed
 
 ```javascript
-
 export default function foo() {};
 ```
 

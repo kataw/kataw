@@ -136,7 +136,6 @@ class x {continue(){}}
 ### Printed
 
 ```javascript
-
 class x {
   continue() {}
 }

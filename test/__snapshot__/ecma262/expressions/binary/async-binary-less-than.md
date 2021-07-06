@@ -176,7 +176,6 @@ async <a > (x);
 ### Printed
 
 ```javascript
-
 async  < a > (x);
 (async  < a > (x));
 

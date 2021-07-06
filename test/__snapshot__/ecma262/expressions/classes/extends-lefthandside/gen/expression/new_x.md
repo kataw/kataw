@@ -129,8 +129,7 @@
 ### Printed
 
 ```javascript
-
-(class B  extends new x {});
+(class B extends new x {});
 ```
 
 ### Diagnostics

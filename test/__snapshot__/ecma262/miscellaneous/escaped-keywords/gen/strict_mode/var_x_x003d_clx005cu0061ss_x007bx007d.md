@@ -110,8 +110,7 @@ var x = cl\u0061ss {}
 ### Printed
 
 ```javascript
-
-var x = class  {};
+var x = class {};
 ```
 
 ### Diagnostics

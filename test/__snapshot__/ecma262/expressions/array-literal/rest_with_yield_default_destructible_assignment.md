@@ -163,7 +163,6 @@ result = [...{ x = yield }] = y;
 ### Printed
 
 ```javascript
-
 result = [...{ x = yield }] = y;
 ```
 

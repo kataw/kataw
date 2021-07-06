@@ -126,7 +126,6 @@ for ([].b in c) d;
 ### Printed
 
 ```javascript
-
 for ([].b in c) d;
 ```
 

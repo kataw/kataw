@@ -169,7 +169,6 @@ a => {
 ### Printed
 
 ```javascript
-
 a => {
   for (let a of b) c;
 };

@@ -148,7 +148,6 @@ class x {static async arguments(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async arguments() {}
 }

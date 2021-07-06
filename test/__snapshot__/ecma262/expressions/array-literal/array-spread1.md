@@ -827,7 +827,6 @@ var y: Array<string> = ['3', ...x];
 ### Printed
 
 ```javascript
-
 var A = [1, 2, 3];
 var B = [...A];
 

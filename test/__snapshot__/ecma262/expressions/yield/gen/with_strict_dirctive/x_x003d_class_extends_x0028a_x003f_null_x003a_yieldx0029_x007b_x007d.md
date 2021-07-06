@@ -178,7 +178,7 @@
 ```javascript
 
 "'use strict'";
-x = class   extends (a ? null : yield) {};
+x = class extends (a ? null : yield) {};
 ```
 
 ### Diagnostics

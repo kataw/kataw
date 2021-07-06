@@ -173,7 +173,6 @@ function *f(x = delete ((null) = f)) {}
 ### Printed
 
 ```javascript
-
 function * f(x = delete ((null) = f)) {}
 ```
 

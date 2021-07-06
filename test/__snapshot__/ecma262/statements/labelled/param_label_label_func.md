@@ -192,7 +192,6 @@ function w(casecase){y:j:function casecase(){}}
 ### Printed
 
 ```javascript
-
 function w(casecase) {
   y:  j:  function casecase() {}
 }

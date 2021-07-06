@@ -1499,7 +1499,6 @@
 ### Printed
 
 ```javascript
-
 (
   (
     (

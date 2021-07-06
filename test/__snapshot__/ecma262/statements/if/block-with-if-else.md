@@ -95,7 +95,6 @@
 ### Printed
 
 ```javascript
-
 {
   if (false) {}
   else ;

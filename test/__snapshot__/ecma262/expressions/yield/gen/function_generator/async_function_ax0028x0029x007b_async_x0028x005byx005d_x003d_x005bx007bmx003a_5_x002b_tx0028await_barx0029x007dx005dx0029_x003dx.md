@@ -418,7 +418,6 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
 ### Printed
 
 ```javascript
-
 function * gen() {
   function not_gen() {
     async function a() {

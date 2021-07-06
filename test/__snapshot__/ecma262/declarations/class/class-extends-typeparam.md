@@ -179,8 +179,7 @@ class Foo<T> extends Bar<T> { }
 ### Printed
 
 ```javascript
-
-class Foo<T>  extends Bar<T> {}
+class Foo <T>extends Bar<T> {}
 ```
 
 ### Diagnostics

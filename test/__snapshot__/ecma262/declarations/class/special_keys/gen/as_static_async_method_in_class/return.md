@@ -148,7 +148,6 @@ class x {static async return(){}}
 ### Printed
 
 ```javascript
-
 class x {
   static async return() {}
 }

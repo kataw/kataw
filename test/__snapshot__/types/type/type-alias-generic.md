@@ -130,7 +130,6 @@ type T<U> = U;
 ### Printed
 
 ```javascript
-
 type T<U> = U
 ```
 

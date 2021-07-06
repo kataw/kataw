@@ -107,7 +107,6 @@ for (const x;;) {}
 ### Printed
 
 ```javascript
-
 for (const x; ; ) {}
 ```
 

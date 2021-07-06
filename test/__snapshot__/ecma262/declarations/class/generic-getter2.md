@@ -463,9 +463,8 @@ class C<T> {
 ### Printed
 
 ```javascript
-
-class A<T> {}
-class C<T> {
+class A <T>{}
+class C <T>{
   data: A<T>;;
   get x(): A<T> {
     return this.data;

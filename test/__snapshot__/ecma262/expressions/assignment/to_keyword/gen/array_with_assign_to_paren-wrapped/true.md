@@ -112,7 +112,6 @@ async x => (true) = 1
 ### Printed
 
 ```javascript
-
 async x => (true) = 1;
 ```
 

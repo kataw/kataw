@@ -169,7 +169,6 @@ import("module.js").then((a) => a);
 ### Printed
 
 ```javascript
-
 import("\"module.js\"");
 import("\"module.js\"").then((a) => a);
 

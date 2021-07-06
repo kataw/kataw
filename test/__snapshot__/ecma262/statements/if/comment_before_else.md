@@ -259,7 +259,6 @@ else stuff;
 ### Printed
 
 ```javascript
-
 if (cond) {
     stuff;
   }

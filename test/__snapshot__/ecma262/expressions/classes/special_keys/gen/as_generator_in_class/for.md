@@ -142,7 +142,6 @@ class x {* for(){}}
 ### Printed
 
 ```javascript
-
 class x {
   * for() {}
 }

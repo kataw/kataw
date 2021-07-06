@@ -311,7 +311,6 @@ class C {
 ### Printed
 
 ```javascript
-
 class C {
   static #_;;
   constructor() {

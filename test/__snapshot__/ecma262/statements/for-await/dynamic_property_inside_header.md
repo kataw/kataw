@@ -202,7 +202,6 @@ async function f() {
 ### Printed
 
 ```javascript
-
 async function f() {
   for await (x[a in b] of y);
 }

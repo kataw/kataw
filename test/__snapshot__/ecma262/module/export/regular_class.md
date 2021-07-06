@@ -111,7 +111,6 @@ export class x {} foo
 ### Printed
 
 ```javascript
-
 export class x {}
 foo;
 

@@ -141,7 +141,6 @@ var a: number & (string | bool)
 ### Printed
 
 ```javascript
-
 var a: number & (string | bool);
 ```
 

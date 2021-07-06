@@ -144,7 +144,6 @@ function x(): |  () => number {}
 ### Printed
 
 ```javascript
-
 function x(): | () =>  number {}
 ```
 

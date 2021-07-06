@@ -144,7 +144,6 @@
 ### Printed
 
 ```javascript
-
 {
   foo:  bar:  function f() {}
 }

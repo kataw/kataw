@@ -226,7 +226,6 @@
 ### Printed
 
 ```javascript
-
 ({ * method(public) {} });
 ({ method(protected) {} });
 

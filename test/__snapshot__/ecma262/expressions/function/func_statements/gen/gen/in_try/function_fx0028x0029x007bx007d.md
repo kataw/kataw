@@ -162,7 +162,6 @@ try {
 ### Printed
 
 ```javascript
-
 try {
   function f() {}
 } catch (e) {}

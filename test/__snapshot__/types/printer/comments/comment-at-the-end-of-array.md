@@ -1201,7 +1201,6 @@ const hj = [
 ### Printed
 
 ```javascript
-
 [1, 2];
 const ix = [, ,];
 

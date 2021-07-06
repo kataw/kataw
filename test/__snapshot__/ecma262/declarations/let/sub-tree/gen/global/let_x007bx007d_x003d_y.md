@@ -94,7 +94,6 @@ let
 ### Printed
 
 ```javascript
-
 let {} = y;
 ```
 

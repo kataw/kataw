@@ -191,7 +191,6 @@ type Fn1 = <T>(T) => T;
 ### Printed
 
 ```javascript
-
 type Fn1 = <T>(T) =>  T
 ```
 
