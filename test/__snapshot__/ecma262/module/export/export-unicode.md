@@ -125,7 +125,7 @@ export {𐀀 as x} from 'path'
 
 ```javascript
 
-export { 𐀀 as  x } from "'path'";;
+export { 𐀀 as  x } from "'path'";
 ```
 
 ### Diagnostics

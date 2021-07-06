@@ -131,7 +131,7 @@ export {x}; var x;
 
 ```javascript
 
-export { x  };
+export { x  }
 var x;
 
 ```

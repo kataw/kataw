@@ -156,8 +156,8 @@ let g = /* before */function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /
 ```javascript
 
 let g = function (x, y) {
-    
-    
+    ;
+    ;
   };
 ```
 

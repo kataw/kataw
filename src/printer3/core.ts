@@ -6,18 +6,24 @@ export const enum PrinterFlags {
   SingleQuote = 1 << 0,
   ObjectCurlySpacing = 1 << 1,
   ArrayBracketSpacing = 1 << 2,
-  NoSemi = 1 << 2,
+  UseSemicolon = 1 << 3,
+  ArrowParens = 1 << 4,
+  TrailinComma = 1 << 5,
+  DisallowStringEscape = 1 << 6,
+  DisallowSemicolon = 1 << 7,
 }
 
 export interface Printer {
   source: string;
+  space: string;
   flags: PrinterFlags
 }
 
-export function createPrinter(source: string, flags: PrinterFlags): Printer {
+export function createPrinter(source: string, flags: PrinterFlags, space: string): Printer {
   return {
     source,
-    flags
+    flags,
+    space
   };
 }
 export function canBreakAssignment(left: any, right: any): boolean {
@@ -122,5 +128,9 @@ export function shouldFlatten(node: any): boolean {
     : true
 }
 
-
+export function toggleSemicolon(printer: Printer): string {
+  return (printer.flags & PrinterFlags.UseSemicolon) !== PrinterFlags.UseSemicolon && printer.flags & PrinterFlags.DisallowSemicolon
+    ? ''
+    : ';';
+}
 

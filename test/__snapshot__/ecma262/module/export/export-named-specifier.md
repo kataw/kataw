@@ -89,7 +89,7 @@ export {foo};
 
 ```javascript
 
-export { foo  };
+export { foo  }
 ```
 
 ### Diagnostics

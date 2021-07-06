@@ -17,6 +17,7 @@ import {
   shouldprintWhitespaceBeforeOperand,
   PrinterFlags,
   makeString,
+  toggleSemicolon,
 } from './core'
 import {
   toString,
@@ -33,13 +34,17 @@ import {
 } from '../formatter/index'
 
 export interface PrinterOptions {
-  printWidth?: number;
-  tabWidth?: number;
-  noSemi?: boolean;
-  singleQuote?: boolean;
-  noObjectCurlySpacing?: boolean;
-  arrayBracketSpacing?: boolean;
-  endOfLine?: string;
+  printWidth?: number
+  tabWidth?: number
+  noSemicolon?: boolean
+  singleQuote?: boolean
+  noWhitespace?: boolean
+  noObjectCurlySpacing?: boolean
+  arrayBracketSpacing?: boolean
+  trailingCommas?: boolean
+  disallowStringEscape?: boolean
+  arrowParens?: boolean
+  endOfLine?: string
 }
 
 export const nodeLookupMap: any = {
@@ -209,19 +214,36 @@ export const nodeLookupMap: any = {
 }
 
 export function printSource(root: RootNode, options?: PrinterOptions) {
-  let flags = PrinterFlags.ObjectCurlySpacing;
+  let flags = PrinterFlags.ObjectCurlySpacing | PrinterFlags.UseSemicolon
   let printWidth = 80
   let tabWidth = 2
+  let space = ' '
+  let lineEnd = '\n'
   if (options != null) {
     if (options.printWidth) printWidth = options.printWidth
     if (options.tabWidth) tabWidth = options.tabWidth
-    if (options.noSemi) flags |= PrinterFlags.NoSemi;
-    if (options.singleQuote) flags |= PrinterFlags.SingleQuote;
-    if (options.arrayBracketSpacing) flags |= PrinterFlags.ArrayBracketSpacing;
-    if (options.noObjectCurlySpacing) flags & ~PrinterFlags.ObjectCurlySpacing;
+    if (options.noWhitespace) space = ''
+    if (options.noSemicolon) flags & ~PrinterFlags.UseSemicolon
+    if (options.singleQuote) flags |= PrinterFlags.SingleQuote
+    if (options.arrayBracketSpacing) flags |= PrinterFlags.ArrayBracketSpacing
+    if (options.noObjectCurlySpacing) flags & ~PrinterFlags.ObjectCurlySpacing
+    if (options.trailingCommas) flags |= PrinterFlags.TrailinComma
+    if (options.disallowStringEscape) flags |= PrinterFlags.DisallowStringEscape
+    if (options.arrowParens) flags |= PrinterFlags.ArrowParens
+    if (options.endOfLine) {
+      const eof = options.endOfLine
+      // Common on Linux and macOS as well as inside git repos
+      if (eof === 'lf') lineEnd = '\n'
+      // Line Feed characters (\r\n), common on Windows
+      if (eof === 'crlf') lineEnd = '\n\r'
+      // Carriage Return character only (\r)
+      if (eof === 'cr') lineEnd = '\r'
+      // Removes all line endings
+      if (eof === 'none') lineEnd = ''
+    }
   }
 
-  const printer = createPrinter(root.source, flags)
+  const printer = createPrinter(root.source, flags, space)
   return toString(
     printWidth,
     printStatement(printer, root, /* lineMap */ [], root),
@@ -505,7 +527,7 @@ function printMemberAccessExpression(
 }
 
 export function printEmptyStatement(): any {
-  return ''
+  return ';'
 }
 
 export function printExpressionStatement(
@@ -530,8 +552,12 @@ export function printRootNode(
   const tokens = []
   let previousSibling: SyntaxNode | undefined
   let child: SyntaxNode | undefined
+  let lastIdx = -1
+
   if (directives) {
+    lastIdx = directives.length - 1
     for (let i = 0; i < directives.length; i++) {
+      if (i === lastIdx) printer.flags |= PrinterFlags.DisallowSemicolon
       tokens.push(
         concat([
           hardline,
@@ -542,7 +568,9 @@ export function printRootNode(
     }
     tokens.push(hardline)
   }
+  lastIdx = tokens.length - 1
   for (let i = 0; i < statements.length; i++) {
+    if (i === lastIdx) printer.flags |= PrinterFlags.DisallowSemicolon
     child = statements![i]
     if (child.kind !== SyntaxKind.EmptyStatement) {
       tokens.push(
@@ -603,20 +631,19 @@ export function printElementList(
   return group(
     concat([
       '[',
-      indent(concat([printer.flags & PrinterFlags.ArrayBracketSpacing ? line : softline, concat([concat(elements)])])),
-      node.trailingComma
-        ? ','
-        : '',
-      ifBreak(
-        node.trailingComma
-          ? ','
-          : '',
+      indent(
+        concat([
+          printer.flags & PrinterFlags.ArrayBracketSpacing ? line : softline,
+          concat([concat(elements)]),
+        ]),
       ),
+      node.trailingComma ? ',' : '',
+      ifBreak(node.trailingComma ? ',' : ''),
       printer.flags & PrinterFlags.ArrayBracketSpacing ? line : softline,
       ']',
     ]),
     {},
-  );
+  )
 }
 
 function printArrayBindingPattern(
@@ -684,6 +711,9 @@ function printBlockStatement(
   node: any,
   lineMap: number[],
 ): any {
+  printer.flags =
+    (printer.flags | PrinterFlags.DisallowSemicolon) ^
+    PrinterFlags.DisallowSemicolon
   return node.flags & NodeFlags.IgnoreNextNode
     ? printer.source.slice(node.start, node.end)
     : printBlock(printer, node.block, lineMap, node)
@@ -882,7 +912,7 @@ function printFunctionType(
     : concat([
         node.typeParameters
           ? concat([
-            printStatement(printer, node.typeParameters, lineMap, node),
+              printStatement(printer, node.typeParameters, lineMap, node),
               ' ',
             ])
           : '',
@@ -1045,7 +1075,7 @@ function printOpaqueType(
         '=',
         ' ',
         printStatement(printer, node.impltype, lineMap, node),
-        ';',
+        toggleSemicolon(printer),
       ])
 }
 
@@ -1156,9 +1186,13 @@ function printTupleType(
   }
 
   return group(
-    concat(['[', indent(concat([softline, concat(elements)])), softline,
-    ifBreak(node.trailingComma ? ',' : ''),
-    ']']),
+    concat([
+      '[',
+      indent(concat([softline, concat(elements)])),
+      softline,
+      ifBreak(node.trailingComma ? ',' : ''),
+      ']',
+    ]),
     {},
   )
 }
@@ -1461,9 +1495,16 @@ function printFunctionDeclarationOrExpression(
           {},
         ),
         node.contents
-          ? concat([' ', printFunctionBody(printer, node.contents, lineMap, node)])
+          ? concat([
+              ' ',
+              printFunctionBody(printer, node.contents, lineMap, node),
+            ])
           : '',
-        node.declareKeyword ? ';' : ''
+        node.declareKeyword
+          ? printer.flags & PrinterFlags.DisallowSemicolon
+            ? ''
+            : ';'
+          : '',
       ])
 }
 
@@ -1492,8 +1533,9 @@ function printFunctionStatementList(
   const tokens = []
   let previousSibling: SyntaxNode | undefined
   let child: any
-
+  let lastIdx = statements.length - 1
   for (let i = 0; i < statements.length; i++) {
+    if (i === lastIdx) printer.flags |= PrinterFlags.DisallowSemicolon
     child = statements![i]
     tokens.push(
       previousSibling &&
@@ -1505,6 +1547,12 @@ function printFunctionStatementList(
         : printStatement(printer, child, lineMap, node),
     )
     previousSibling = child
+  }
+
+  if (tokens.length > 0) {
+    printer.flags =
+      (printer.flags | PrinterFlags.DisallowSemicolon) ^
+      PrinterFlags.DisallowSemicolon
   }
 
   return concat([
@@ -1842,7 +1890,9 @@ function printClassBody(
   if (node.elements.length === 0) {
     return '{}'
   }
-
+  printer.flags =
+    (printer.flags | PrinterFlags.DisallowSemicolon) ^
+    PrinterFlags.DisallowSemicolon
   const elements = []
   let previousSibling: SyntaxNode | undefined
   let child: SyntaxNode | any
@@ -1920,7 +1970,7 @@ function printFieldDefinition(
     node.initializer
       ? printInitializer(printer, node.initializer, lineMap, node)
       : '',
-    ';',
+    toggleSemicolon(printer),
   ])
 }
 
@@ -2118,7 +2168,12 @@ function printBindingPropertyListOrPropertyDefinitionList(
   return group(
     concat([
       '{',
-      indent(concat([printer.flags & PrinterFlags.ObjectCurlySpacing ? line : softline, concat(elements)])),
+      indent(
+        concat([
+          printer.flags & PrinterFlags.ObjectCurlySpacing ? line : softline,
+          concat(elements),
+        ]),
+      ),
       ifBreak(node.trailingComma ? ',' : ''),
       printer.flags & PrinterFlags.ObjectCurlySpacing ? line : softline,
       '}',
@@ -2150,7 +2205,9 @@ function printBindingList(
   parentNode: SyntaxNode,
 ): any {
   const children = node.bindingList
-
+  printer.flags =
+    (printer.flags | PrinterFlags.DisallowSemicolon) ^
+    PrinterFlags.DisallowSemicolon
   const elements: any = []
 
   let previousSibling!: SyntaxNode
@@ -2176,7 +2233,9 @@ function printVariableDeclarationList(
   parentNode: SyntaxNode,
 ): any {
   const children = node.declarations
-
+  printer.flags =
+    (printer.flags | PrinterFlags.DisallowSemicolon) ^
+    PrinterFlags.DisallowSemicolon
   const elements: any = []
 
   let previousSibling!: SyntaxNode
@@ -2217,7 +2276,7 @@ function printVariableStatement(
               node,
             ),
           ),
-          inForStatement ? '' : ';',
+          inForStatement ? '' : toggleSemicolon(printer),
         ]),
         {},
       )
@@ -2238,7 +2297,7 @@ function printLexicalDeclaration(
           tokenToString(node.lexicalKeyword),
           ' ',
           indent(printed),
-          inForStatement ? '' : ';',
+          inForStatement ? '' : toggleSemicolon(printer),
         ]),
         {},
       )
@@ -2306,13 +2365,16 @@ function printPropertyDefinition(
       printStatement(printer, node.left, lineMap, node),
       ':',
       canBreakAssignment(node.left, node.right)
-      ? group(
-        indent(
-          concat([line, printStatement(printer, node.right, lineMap, node)]),
-        ),
-        {},
-      )
-    : concat([' ', printStatement(printer, node.right, lineMap, node)]),
+        ? group(
+            indent(
+              concat([
+                line,
+                printStatement(printer, node.right, lineMap, node),
+              ]),
+            ),
+            {},
+          )
+        : concat([' ', printStatement(printer, node.right, lineMap, node)]),
     ]),
     {},
   )
@@ -2481,7 +2543,7 @@ function printExportDefault(
         printKeyword(printer, node.exportKeyword, node, /* addSpace */ true),
         printKeyword(printer, node.defaultKeyword, node, /* addSpace */ true),
         printStatement(printer, node.declaration, lineMap, node),
-        ';',
+        toggleSemicolon(printer),
       ])
 }
 
@@ -2496,7 +2558,7 @@ function printFromClause(
         ' ',
         printKeyword(printer, node.fromKeyword, node, /* addSpace */ true),
         printStatement(printer, node.from, lineMap, node),
-        ';',
+        toggleSemicolon(printer),
       ])
     : ''
 }
@@ -2551,7 +2613,11 @@ function printExportDeclaration(
         node.fromClause
           ? printStatement(printer, node.fromClause, lineMap, node)
           : '',
-        !node.declaration ? ';' : '',
+        !node.declaration
+          ? printer.flags & PrinterFlags.DisallowSemicolon
+            ? ''
+            : ';'
+          : '',
       ])
 }
 
@@ -2719,7 +2785,7 @@ function printDoWhileStatement(
           {},
         ),
         ')',
-        ';',
+        toggleSemicolon(printer),
       ])
 }
 
@@ -2766,7 +2832,7 @@ function printDebuggerStatement(
 ): any {
   return concat([
     printKeyword(printer, node.debuggerKeyword, node, /* addSpace */ false),
-    ';',
+    toggleSemicolon(printer),
   ])
 }
 
@@ -2803,7 +2869,7 @@ function printContinueStatement(
         node.label
           ? concat([' ', printStatement(printer, node.label, lineMap, node)])
           : '',
-        ';',
+        toggleSemicolon(printer),
       ])
 }
 
@@ -2820,7 +2886,7 @@ function printBreakStatement(
         node.label
           ? concat([' ', printStatement(printer, node.label, lineMap, node)])
           : '',
-        ';',
+        toggleSemicolon(printer),
       ])
 }
 
@@ -2880,6 +2946,9 @@ function printCatchClause(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
+  printer.flags =
+    (printer.flags | PrinterFlags.DisallowSemicolon) ^
+    PrinterFlags.DisallowSemicolon
   return node.catchParameter
     ? concat([
         printKeyword(printer, node.catchKeyword, node, /* addSpace */ true),
@@ -3047,6 +3116,9 @@ function printTryStatement(
   lineMap: number[],
   parentNode: SyntaxNode,
 ): any {
+  printer.flags =
+    (printer.flags | PrinterFlags.DisallowSemicolon) ^
+    PrinterFlags.DisallowSemicolon
   return concat([
     printKeyword(printer, node.tryKeyword, node, /* addSpace */ true),
     printStatement(printer, node.block, lineMap, node),
@@ -3082,7 +3154,7 @@ function printReturnStatement(
     node.expression
       ? printStatement(printer, node.expression, lineMap, node)
       : '',
-    ';',
+    toggleSemicolon(printer),
   ])
 }
 
@@ -3212,8 +3284,13 @@ function adjustClause(
   clause: any,
   forceSpace?: any,
 ) {
+  printer.flags =
+    (printer.flags | PrinterFlags.DisallowSemicolon) ^
+    PrinterFlags.DisallowSemicolon
   return node.kind === SyntaxKind.EmptyStatement
-    ? ';'
+    ? printer.flags & PrinterFlags.DisallowSemicolon
+      ? ''
+      : ';'
     : node.kind === SyntaxKind.Block || forceSpace
     ? concat([' ', clause])
     : indent(concat([line, clause]))

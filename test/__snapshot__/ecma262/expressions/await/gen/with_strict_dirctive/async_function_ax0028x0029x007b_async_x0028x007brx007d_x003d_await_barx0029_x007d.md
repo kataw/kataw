@@ -205,7 +205,7 @@
 
 "'use strict'";
 async function a() {
-  async({ r } = await bar)
+  async({ r } = await bar);
 }
 ```
 

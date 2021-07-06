@@ -93,7 +93,7 @@ export * from "foo"
 
 ```javascript
 
-export *  from "\"foo\"";;
+export *  from "\"foo\"";
 ```
 
 ### Diagnostics

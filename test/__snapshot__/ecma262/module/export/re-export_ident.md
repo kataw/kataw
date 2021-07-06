@@ -93,7 +93,7 @@ export * from x
 
 ```javascript
 
-export *  from x;;
+export *  from x;
 ```
 
 ### Diagnostics

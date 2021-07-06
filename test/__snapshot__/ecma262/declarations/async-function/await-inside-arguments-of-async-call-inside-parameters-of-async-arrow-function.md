@@ -248,7 +248,7 @@ async function fn() {
 ```javascript
 
 async function fn() {
-  async (x = async(y = await 2)) => {}
+  async (x = async(y = await 2)) => {};
 }
 ```
 
