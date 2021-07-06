@@ -14340,16 +14340,14 @@ function logical10c(x: number, y: string): Array<any> {
 
 function logical11a(): number {
   var y = 1;
-  for (var x = 0; x++; x  < 5)
-    {
+  for (var x = 0; x++; x  < 5) {
       y = y || true;
     }
   return y;
 }
 
 function logical11b(y: number): number {
-  for (var x = 0; x++; x  < 5)
-    {
+  for (var x = 0; x++; x  < 5) {
       y = y || true;
     }
   return y;
@@ -14358,8 +14356,7 @@ function logical11b(y: number): number {
 function logical12a(): number {
   var y = 1;
   var z = true;
-  for (var x = 0; x++; x  < 5)
-    {
+  for (var x = 0; x++; x  < 5) {
       y = z && y;
       z = false;
     }
@@ -14367,8 +14364,7 @@ function logical12a(): number {
 }
 
 function logical12b(y: number): number {
-  for (var x = 0; x++; x  < 5)
-    {
+  for (var x = 0; x++; x  < 5) {
       y = y && true;
     }
   return y;

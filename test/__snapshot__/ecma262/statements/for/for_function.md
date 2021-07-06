@@ -125,8 +125,7 @@ for(function(){};;)x
 
 ```javascript
 
-for (function () {}; ; )
-  x;
+for (function () {}; ; ) x;
 ```
 
 ### Diagnostics

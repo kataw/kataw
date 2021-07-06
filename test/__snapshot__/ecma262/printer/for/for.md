@@ -369,14 +369,12 @@ for (var i = 0; i < 10; ++i) 0;
 
 for (;;)
   {}
-for (var i = 0; ++ i; i  < 10)
-  {}
+for (var i = 0; ++ i; i  < 10) {}
 
 for (;;)
   0;
 
-for (var i = 0; ++ i; i  < 10)
-  0;
+for (var i = 0; ++ i; i  < 10) 0;
 
 ```
 

@@ -170,8 +170,7 @@ for ({a: b.c}.foo in d) e
 
 ```javascript
 
-for ({a: b.c}.foo in d)
-  e;
+for ({a: b.c}.foo in d) e;
 ```
 
 ### Diagnostics

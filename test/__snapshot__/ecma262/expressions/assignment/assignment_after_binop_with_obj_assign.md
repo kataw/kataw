@@ -151,8 +151,7 @@ for(x in(t&{}=y))x
 
 ```javascript
 
-for (x in (t & {} = y))
-  x;
+for (x in (t & {} = y)) x;
 ```
 
 ### Diagnostics

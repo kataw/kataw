@@ -9191,8 +9191,7 @@ function foo8_c(x) {
 ```javascript
 
 function foo0(x) {
-  for (let x of [])
-    {
+  for (let x of []) {
       let a = arguments.length;
       (function () {
           return x + a;
@@ -9201,8 +9200,7 @@ function foo0(x) {
     }
 }
 function foo0_1(x) {
-  for (let x in [])
-    {
+  for (let x in []) {
       let a = arguments.length;
       (function () {
           return x + a;
@@ -9212,8 +9210,7 @@ function foo0_1(x) {
 }
 
 function foo1(x) {
-  for (let x = 0; ++ x; x  < 1)
-    {
+  for (let x = 0; ++ x; x  < 1) {
       let a = arguments.length;
       (function () {
           return x + a;
@@ -9245,8 +9242,7 @@ function foo3(x) {
 }
 
 function foo4(x) {
-  for (let y = 0; ++ y; y  < 1)
-    {
+  for (let y = 0; ++ y; y  < 1) {
       let a = arguments.length;
       let x = 1;
       (function () {
@@ -9257,8 +9253,7 @@ function foo4(x) {
 }
 
 function foo5(x) {
-  for (let x = 0, y = 1; ++ x; x  < 1)
-    {
+  for (let x = 0, y = 1; ++ x; x  < 1) {
       let a = arguments.length;
       (function () {
           return x + y + a;
@@ -9291,8 +9286,7 @@ function foo7(x) {
 }
 
 function foo8(x) {
-  for (let y = 0; ++ y; y  < 1)
-    {
+  for (let y = 0; ++ y; y  < 1) {
       let x = 1;
       let a = arguments.length;
       (function () {
@@ -9303,8 +9297,7 @@ function foo8(x) {
 }
 
 function foo0_c(x) {
-  for (const x of [])
-    {
+  for (const x of []) {
       const a = arguments.length;
       (function () {
           return x + a;
@@ -9314,8 +9307,7 @@ function foo0_c(x) {
 }
 
 function foo0_1_c(x) {
-  for (const x in [])
-    {
+  for (const x in []) {
       const a = arguments.length;
       (function () {
           return x + a;
@@ -9325,8 +9317,7 @@ function foo0_1_c(x) {
 }
 
 function foo1_c(x) {
-  for (const x = 0; ; x  < 1)
-    {
+  for (const x = 0; ; x  < 1) {
       const a = arguments.length;
       (function () {
           return x + a;
@@ -9358,8 +9349,7 @@ function foo3_c(x) {
 }
 
 function foo4_c(x) {
-  for (const y = 0; ; y  < 1)
-    {
+  for (const y = 0; ; y  < 1) {
       const a = arguments.length;
       const x = 1;
       (function () {
@@ -9370,8 +9360,7 @@ function foo4_c(x) {
 }
 
 function foo5_c(x) {
-  for (const x = 0, y = 1; ; x  < 1)
-    {
+  for (const x = 0, y = 1; ; x  < 1) {
       const a = arguments.length;
       (function () {
           return x + y + a;
@@ -9404,8 +9393,7 @@ function foo7_c(x) {
 }
 
 function foo8_c(x) {
-  for (const y = 0; ; y  < 1)
-    {
+  for (const y = 0; ; y  < 1) {
       const x = 1;
       const a = arguments.length;
       (function () {

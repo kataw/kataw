@@ -10,7 +10,9 @@ export function createPrinter(source: string): Printer {
     source
   };
 }
+
 export function canBreakAssignment(left: any, right: any): boolean {
+
   switch (right.kind) {
     case SyntaxKind.StringType:
     case SyntaxKind.CommaOperator:
@@ -29,24 +31,9 @@ export function canBreakAssignment(left: any, right: any): boolean {
     case SyntaxKind.ClassExpression:
       return right.decorators && right.decorators.node.elements.length;
   }
-
-  if (
-    left.kind & SyntaxKind.IsIdentifier ||
-    left.flags & NodeFlags.IsMemberExpression ||
-    left.kind === SyntaxKind.PrivateIdentifier ||
-    left.kind === SyntaxKind.StringLiteral
-  ) {
-    let node = right;
-    while (node && node.kind === SyntaxKind.UnaryExpression) {
-      node = node.operand;
-    }
-    if ((node && node.kind === SyntaxKind.StringKeyword) || node.flags & NodeFlags.IsMemberExpression) {
-      return true;
-    }
-  }
-
   return false;
 }
+
 export function printKeywordNoSpace(printer: any, keyword: any): any {
   if (keyword) {
     return tokenToString(keyword);

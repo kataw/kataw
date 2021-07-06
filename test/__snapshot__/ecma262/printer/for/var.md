@@ -150,8 +150,7 @@ for (a in b) var c = {}; [];
 
 ```javascript
 
-for (a in b)
-  var c = {};
+for (a in b) var c = {};
 [];
 
 ```

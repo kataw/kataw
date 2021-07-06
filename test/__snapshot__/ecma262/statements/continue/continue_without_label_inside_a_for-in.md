@@ -84,8 +84,7 @@ for (x in y) continue
 
 ```javascript
 
-for (x in y)
-  continue ;
+for (x in y) continue ;
 ```
 
 ### Diagnostics

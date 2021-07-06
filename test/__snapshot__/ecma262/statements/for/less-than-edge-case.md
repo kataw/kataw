@@ -258,11 +258,8 @@ for (let i = 0; i < require('foo').bar; i++) {
 
 ```javascript
 
-for (let i = 0; i++; i  < require('\'foo\'').bar)
-  {
-    x(
-      i
-    );
+for (let i = 0; i++; i  < require('\'foo\'').bar) {
+    x(i);
   }
 ```
 

@@ -117,8 +117,7 @@ for (a+b of c) d;
 
 ```javascript
 
-for (a + b; c; of)
-  d;
+for (a + b; c; of) d;
 ```
 
 ### Diagnostics

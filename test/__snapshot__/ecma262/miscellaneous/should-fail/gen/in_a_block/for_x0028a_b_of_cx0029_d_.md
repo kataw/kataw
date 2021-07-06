@@ -129,8 +129,7 @@
 ```javascript
 
 {
-  for (a, b; c; of)
-    d;
+  for (a, b; c; of) d;
 }
 ```
 

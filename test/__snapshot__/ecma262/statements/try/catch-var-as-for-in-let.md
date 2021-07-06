@@ -193,8 +193,7 @@ try {} catch (e) { for (let e in y) {} }
 ```javascript
 
 try {} catch (e) {
-  for (let e in y)
-    {}
+  for (let e in y) {}
 }
 ```
 

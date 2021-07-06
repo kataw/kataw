@@ -122,8 +122,7 @@ for (const x in xs) {}
 
 ```javascript
 
-for (const x in xs)
-  {}
+for (const x in xs) {}
 ```
 
 ### Diagnostics

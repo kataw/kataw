@@ -392,16 +392,12 @@ for ({}[y] ^= x;;) x;
 
 ```javascript
 
-for ([].w ^= s; ; )
-  x;
-for ([][y] <<= p; ; )
-  x;
+for ([].w ^= s; ; ) x;
+for ([][y] <<= p; ; ) x;
 
-for ([].u |= c; ; )
-  x;
+for ([].u |= c; ; ) x;
 
-for ({}[y] ^= x; ; )
-  x;
+for ({}[y] ^= x; ; ) x;
 
 ```
 

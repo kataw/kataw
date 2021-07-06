@@ -2114,7 +2114,7 @@ function printThrowStatement(printer: Printer, node: any, lineMap: number[], par
 }
 
 function printForInStatement(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
-  return concat([
+  return group(concat([
     printKeyword(printer, node.forKeyword, node, /* addSpace */ true),
     '(',
     printForBinding(printer, node.initializer, lineMap, node),
@@ -2123,11 +2123,11 @@ function printForInStatement(printer: Printer, node: any, lineMap: number[], par
     printStatement(printer, node.expression, lineMap, node),
     ')',
     adjustClause(node.statement, printer, printStatement(printer, node.statement, lineMap, node))
-  ]);
+  ]), {});
 }
 
 function printForOfStatement(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
-  return concat([
+  return group(concat([
     printKeyword(printer, node.forKeyword, node, /* addSpace */ true),
     printKeyword(printer, node.awaitKeyword, node, /* addSpace */ true),
     '(',
@@ -2137,7 +2137,7 @@ function printForOfStatement(printer: Printer, node: any, lineMap: number[], par
     printStatement(printer, node.expression, lineMap, node),
     ')',
     adjustClause(node.statement, printer, printStatement(printer, node.statement, lineMap, node))
-  ]);
+  ]), {});
 }
 
 function printForStatement(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
@@ -2146,7 +2146,7 @@ function printForStatement(printer: Printer, node: any, lineMap: number[], paren
         'for (;;)',
         adjustClause(node.statement, printer, printStatement(printer, node.statement, lineMap, node))
       ])
-    : concat([
+    : group(concat([
         printKeyword(printer, node.forKeyword, node, /* addSpace */ true),
         '(',
         group(
@@ -2169,7 +2169,7 @@ function printForStatement(printer: Printer, node: any, lineMap: number[], paren
         ),
         ')',
         adjustClause(node.statement, printer, printStatement(printer, node.statement, lineMap, node))
-      ]);
+      ]), {});
 }
 
 function adjustClause(node: any, printer: Printer, clause: any, forceSpace?: any) {

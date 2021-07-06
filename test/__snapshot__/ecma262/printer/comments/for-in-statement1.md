@@ -138,8 +138,7 @@ for /*2*/(x /*3*/in /*4*/ y) /*5*/ {}
 ```javascript
 
 for (a in b);
-for (x in y)
-  {}
+for (x in y) {}
 
 ```
 

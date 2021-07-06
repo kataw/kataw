@@ -128,8 +128,7 @@
 ```javascript
 
 "\"use strict\"";
-for (a + b; c; of)
-  d;
+for (a + b; c; of) d;
 ```
 
 ### Diagnostics

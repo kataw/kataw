@@ -93,8 +93,7 @@ for ( a ; ; ) { break }
 
 ```javascript
 
-for (a; ; )
-  {
+for (a; ; ) {
     break ;
   }
 ```

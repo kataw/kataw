@@ -169,8 +169,7 @@ async function f() { for await ([x] of y) {} }
 ```javascript
 
 async function f() {
-  for await ([x] of y)
-    {}
+  for await ([x] of y) {}
 }
 ```
 

@@ -689,17 +689,11 @@ async function foo() {
 ```javascript
 
 async function foo() {
-  for await (num of asyncIterable)
-    {
-      console.log(
-        num
-      );
+  for await (num of asyncIterable) {
+      console.log(num);
     }
-  for await (num of asyncGeneratorFunc())
-    {
-      console.log(
-        num
-      );
+  for await (num of asyncGeneratorFunc()) {
+      console.log(num);
     }
 }
 (async () => {

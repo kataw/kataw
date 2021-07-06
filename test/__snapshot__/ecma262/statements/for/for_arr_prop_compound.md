@@ -136,8 +136,7 @@ for ([].w ^= s;;) x;
 
 ```javascript
 
-for ([].w ^= s; ; )
-  x;
+for ([].w ^= s; ; ) x;
 ```
 
 ### Diagnostics

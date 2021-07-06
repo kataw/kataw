@@ -141,8 +141,7 @@ for ({a, my_var} in {}) { my_var; }
 
 ```javascript
 
-for ({a, my_var} in {})
-  {
+for ({a, my_var} in {}) {
     my_var;
   }
 ```

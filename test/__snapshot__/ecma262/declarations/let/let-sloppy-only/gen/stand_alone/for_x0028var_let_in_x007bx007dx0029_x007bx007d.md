@@ -130,8 +130,7 @@ for (var let in {}) {}
 
 ```javascript
 
-for (var let in {})
-  {}
+for (var let in {}) {}
 ```
 
 ### Diagnostics

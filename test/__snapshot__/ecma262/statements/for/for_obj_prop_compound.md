@@ -136,8 +136,7 @@ for ({}[y] ^= x;;) x;
 
 ```javascript
 
-for ({}[y] ^= x; ; )
-  x;
+for ({}[y] ^= x; ; ) x;
 ```
 
 ### Diagnostics

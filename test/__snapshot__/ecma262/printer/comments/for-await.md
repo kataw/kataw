@@ -283,12 +283,10 @@ for /*2*/ await /*3*/(x /*4*/of /*5*/ y/*6*/) /*7*/ {}
 ```javascript
 
 async function x() {
-  for await (x of y)
-    {}
+  for await (x of y) {}
 }
 async function x() {
-  for await (x of y)
-    {}
+  for await (x of y) {}
 }
 
 ```

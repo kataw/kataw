@@ -197,8 +197,7 @@ for (var a: number in expr) {
 ```javascript
 
 var expr: any;
-for (var a: number in expr)
-  {}
+for (var a: number in expr) {}
 
 ```
 

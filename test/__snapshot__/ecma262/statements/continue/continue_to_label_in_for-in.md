@@ -115,8 +115,7 @@ foo: for (x in y) continue foo;
 
 ```javascript
 
-foo:  for (x in y)
-  continue  foo;
+foo:  for (x in y) continue  foo;
 ```
 
 ### Diagnostics

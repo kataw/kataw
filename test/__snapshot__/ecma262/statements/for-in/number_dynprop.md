@@ -109,8 +109,7 @@ for (456[x] in c) d;
 
 ```javascript
 
-for (456[x] in c)
-  d;
+for (456[x] in c) d;
 ```
 
 ### Diagnostics

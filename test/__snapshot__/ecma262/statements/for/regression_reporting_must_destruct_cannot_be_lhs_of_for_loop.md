@@ -126,8 +126,7 @@ for ({x = y} = z;;) {}
 
 ```javascript
 
-for ({x = y} = z; ; )
-  {}
+for ({x = y} = z; ; ) {}
 ```
 
 ### Diagnostics

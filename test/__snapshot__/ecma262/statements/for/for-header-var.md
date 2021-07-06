@@ -144,8 +144,7 @@ for (var a;;) { let a; }
 
 ```javascript
 
-for (var a; ; )
-  {
+for (var a; ; ) {
     let a;
   }
 ```

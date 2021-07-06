@@ -288,8 +288,7 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
 
 ```javascript
 
-for (const x of [1, 2, 3])
-  {
+for (const x of [1, 2, 3]) {
     a[i++] = function () {
       return x;
     };

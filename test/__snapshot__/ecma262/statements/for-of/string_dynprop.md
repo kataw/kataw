@@ -121,8 +121,7 @@ for ("foo"[x] of c) d;
 
 ```javascript
 
-for ("\"foo\""[x] of c)
-  d;
+for ("\"foo\""[x] of c) d;
 ```
 
 ### Diagnostics

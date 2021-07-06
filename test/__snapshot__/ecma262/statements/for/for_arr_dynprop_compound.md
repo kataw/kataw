@@ -125,8 +125,7 @@ for ([][y] <<= p;;) x;
 
 ```javascript
 
-for ([][y] <<= p; ; )
-  x;
+for ([][y] <<= p; ; ) x;
 ```
 
 ### Diagnostics

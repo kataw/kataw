@@ -124,8 +124,7 @@ for (var of of of){}
 
 ```javascript
 
-for (var of of of)
-  {}
+for (var of of of) {}
 ```
 
 ### Diagnostics

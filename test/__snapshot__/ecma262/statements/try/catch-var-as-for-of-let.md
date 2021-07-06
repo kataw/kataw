@@ -194,8 +194,7 @@ try {} catch (e) { for (let e of y) {} }
 ```javascript
 
 try {} catch (e) {
-  for (let e of y)
-    {}
+  for (let e of y) {}
 }
 ```
 

@@ -1506,14 +1506,12 @@ function default_param_2() {
 
 function for_scope_let() {
   let a: number = 0;
-  for (let a = "\"\""; ; )
-    {}
+  for (let a = "\"\""; ; ) {}
 }
 
 function for_scope_var() {
   var a: number = 0;
-  for (var a = "\"\""; ; )
-    {}
+  for (var a = "\"\""; ; ) {}
 }
 
 ```

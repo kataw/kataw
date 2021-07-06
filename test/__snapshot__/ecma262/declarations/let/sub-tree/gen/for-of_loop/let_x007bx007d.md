@@ -110,8 +110,7 @@ for (a of b) let
 
 ```javascript
 
-for (a of b)
-  let;
+for (a of b) let;
 {}
 
 ```
