@@ -27,6 +27,7 @@ let {a: b.c} = v
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,6 +48,7 @@ let {a: b.c} = v
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 6
                                         },
@@ -55,36 +57,43 @@ let {a: b.c} = v
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 9
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 9
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 9
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 9
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 9
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -95,10 +104,12 @@ let {a: b.c} = v
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 11
         },
@@ -109,10 +120,12 @@ let {a: b.c} = v
                 "text": "v",
                 "rawText": "v",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 14,
             "end": 16
         }
@@ -121,6 +134,7 @@ let {a: b.c} = v
     "source": "let {a: b.c} = v",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

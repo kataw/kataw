@@ -27,6 +27,7 @@ do try { !xxx
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -35,6 +36,7 @@ do try { !xxx
                 "tryKeyword": {
                     "kind": 37757027,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 6
                 },
@@ -50,6 +52,7 @@ do try { !xxx
                                     "operandToken": {
                                         "kind": 65584,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 10
                                     },
@@ -58,23 +61,28 @@ do try { !xxx
                                         "text": "xxx",
                                         "rawText": "xxx",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 13
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 13
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 13
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 13
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 13
                 },
@@ -86,14 +94,17 @@ do try { !xxx
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 13
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 13
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 13
             },
@@ -103,10 +114,12 @@ do try { !xxx
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -115,6 +128,7 @@ do try { !xxx
     "source": "do try { !xxx",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

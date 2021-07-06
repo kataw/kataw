@@ -20,6 +20,7 @@ for (let {x=y};;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -28,6 +29,7 @@ for (let {x=y};;);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
@@ -49,6 +51,7 @@ for (let {x=y};;);
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 11
                                             },
@@ -59,35 +62,42 @@ for (let {x=y};;);
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 13
                                             },
                                             "flags": 0,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 13
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 13
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 14
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 8,
                             "end": 14
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 14
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -96,10 +106,12 @@ for (let {x=y};;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 18
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -108,6 +120,7 @@ for (let {x=y};;);
     "source": "for (let {x=y};;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

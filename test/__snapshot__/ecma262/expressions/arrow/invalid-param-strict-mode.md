@@ -26,6 +26,7 @@ eval => {"use strict"};
                     "text": "eval",
                     "rawText": "eval",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
@@ -33,6 +34,7 @@ eval => {"use strict"};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 7
                 },
@@ -46,24 +48,29 @@ eval => {"use strict"};
                                 "text": "use strict",
                                 "rawText": "\"use strict\"",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 21
                             }
                         ],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 21
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 22
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -72,6 +79,7 @@ eval => {"use strict"};
     "source": "eval => {\"use strict\"};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

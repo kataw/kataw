@@ -27,6 +27,7 @@ type A /* comment 1 */ = /* comment 2 */  typeof /* comment 3 */  (B)
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -35,6 +36,7 @@ type A /* comment 1 */ = /* comment 2 */  typeof /* comment 3 */  (B)
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -42,6 +44,7 @@ type A /* comment 1 */ = /* comment 2 */  typeof /* comment 3 */  (B)
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 24
             },
@@ -54,6 +57,7 @@ type A /* comment 1 */ = /* comment 2 */  typeof /* comment 3 */  (B)
                     "typeOfKeyword": {
                         "kind": 138477613,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 48
                     },
@@ -66,27 +70,33 @@ type A /* comment 1 */ = /* comment 2 */  typeof /* comment 3 */  (B)
                                 "text": "B",
                                 "rawText": "B",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 67,
                                 "end": 68
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 48,
                             "end": 68
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 48,
                         "end": 69
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 69
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 69
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 69
         }
@@ -95,6 +105,7 @@ type A /* comment 1 */ = /* comment 2 */  typeof /* comment 3 */  (B)
     "source": "type A /* comment 1 */ = /* comment 2 */  typeof /* comment 3 */  (B)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 69
 }

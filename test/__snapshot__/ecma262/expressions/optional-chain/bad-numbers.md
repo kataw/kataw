@@ -24,12 +24,14 @@ a?.200
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -38,6 +40,7 @@ a?.200
                     "text": 200,
                     "rawText": "200",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 6
                 },
@@ -47,14 +50,17 @@ a?.200
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 6
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         }
@@ -63,6 +69,7 @@ a?.200
     "source": "a?.200",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 6
 }

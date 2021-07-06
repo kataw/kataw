@@ -21,6 +21,7 @@ var {...[]} = {}
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -39,6 +40,7 @@ var {...[]} = {}
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -49,10 +51,12 @@ var {...[]} = {}
                                                 "text": "",
                                                 "rawText": "",
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 9,
                                                 "end": 9
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 10
                                         },
@@ -60,16 +64,19 @@ var {...[]} = {}
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 10
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 10
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 11
                         },
@@ -81,23 +88,28 @@ var {...[]} = {}
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 15
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 13,
                             "end": 16
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 16
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -106,6 +118,7 @@ var {...[]} = {}
     "source": "var {...[]} = {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

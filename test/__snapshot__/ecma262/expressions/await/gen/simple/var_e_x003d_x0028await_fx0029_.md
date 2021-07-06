@@ -28,6 +28,7 @@ var e = (await, f);
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ var e = (await, f);
                             "text": "e",
                             "rawText": "e",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -55,6 +57,7 @@ var e = (await, f);
                                         "text": "await",
                                         "rawText": "await",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 14
                                     },
@@ -63,28 +66,34 @@ var e = (await, f);
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 17
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 18
                             },
                             "flags": 7,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 18
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 18
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -93,6 +102,7 @@ var e = (await, f);
     "source": "var e = (await, f);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

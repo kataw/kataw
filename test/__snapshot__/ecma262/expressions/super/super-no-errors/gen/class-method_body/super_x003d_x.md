@@ -29,6 +29,7 @@ class C { m() { super = x; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class C { m() { super = x; }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -63,6 +65,7 @@ class C { m() { super = x; }
                                     "text": "m",
                                     "rawText": "m",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 11
                                 },
@@ -72,6 +75,7 @@ class C { m() { super = x; }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 13
                                 },
@@ -91,6 +95,7 @@ class C { m() { super = x; }
                                                         "member": {
                                                             "kind": 4259935,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 15,
                                                             "end": 21
                                                         },
@@ -99,16 +104,19 @@ class C { m() { super = x; }
                                                             "text": "",
                                                             "rawText": "",
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 21,
                                                             "end": 21
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 2,
                                                         "start": 15,
                                                         "end": 21
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 21,
                                                         "end": 23
                                                     },
@@ -117,44 +125,54 @@ class C { m() { super = x; }
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 23,
                                                         "end": 25
                                                     },
                                                     "flags": 0,
+                                                    "transformFlags": 128,
                                                     "start": 15,
                                                     "end": 25
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 26
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 26
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 28
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 28
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 28
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 28
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -163,6 +181,7 @@ class C { m() { super = x; }
     "source": "class C { m() { super = x; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

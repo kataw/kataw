@@ -24,6 +24,7 @@ new x() ** 2;
                     "newKeyword": {
                         "kind": 138477661,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -32,6 +33,7 @@ new x() ** 2;
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 5
                     },
@@ -40,16 +42,19 @@ new x() ** 2;
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 6
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 35897,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 10
                 },
@@ -58,14 +63,17 @@ new x() ** 2;
                     "text": 2,
                     "rawText": "2",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -74,6 +82,7 @@ new x() ** 2;
     "source": "new x() ** 2;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }
@@ -83,7 +92,7 @@ new x() ** 2;
 
 ```javascript
 
-new x() **  2;
+new x() ** 2;
 ```
 
 ### Diagnostics

@@ -22,6 +22,7 @@ function f(){ do        break y   ; while(true);}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function f(){ do        break y   ; while(true);}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -40,6 +42,7 @@ function f(){ do        break y   ; while(true);}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -54,6 +57,7 @@ function f(){ do        break y   ; while(true);}
                             "doKeyword": {
                                 "kind": 4202580,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 16
                             },
@@ -62,6 +66,7 @@ function f(){ do        break y   ; while(true);}
                                 "breakKeyword": {
                                     "kind": 37757005,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 29
                                 },
@@ -70,40 +75,48 @@ function f(){ do        break y   ; while(true);}
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 31
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 35
                             },
                             "whileKeyword": {
                                 "kind": 37757028,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 41
                             },
                             "expression": {
                                 "kind": 24752947,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 46
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 48
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 48
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 49
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 49
         }
@@ -112,6 +125,7 @@ function f(){ do        break y   ; while(true);}
     "source": "function f(){ do        break y   ; while(true);}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 49
 }

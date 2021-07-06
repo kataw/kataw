@@ -40,6 +40,7 @@ var {,} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -55,25 +56,30 @@ var {,} = obj;
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 5
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 5
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -84,10 +90,12 @@ var {,} = obj;
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 9,
             "end": 14
         }
@@ -96,6 +104,7 @@ var {,} = obj;
     "source": "var {,} = obj;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

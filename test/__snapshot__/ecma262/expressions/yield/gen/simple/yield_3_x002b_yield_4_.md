@@ -29,10 +29,12 @@ yield 3 + yield 4;
                 "text": "yield",
                 "rawText": "yield",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -45,12 +47,14 @@ yield 3 + yield 4;
                     "text": 3,
                     "rawText": "3",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },
@@ -59,14 +63,17 @@ yield 3 + yield 4;
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 15
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 5,
             "end": 15
         },
@@ -77,10 +84,12 @@ yield 3 + yield 4;
                 "text": 4,
                 "rawText": "4",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 15,
             "end": 18
         }
@@ -89,6 +98,7 @@ yield 3 + yield 4;
     "source": "yield 3 + yield 4;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

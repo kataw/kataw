@@ -28,6 +28,7 @@ var [...await f] = [];
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -46,6 +47,7 @@ var [...await f] = [];
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -54,6 +56,7 @@ var [...await f] = [];
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 13
                                         },
@@ -61,6 +64,7 @@ var [...await f] = [];
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 13
                                     },
@@ -69,16 +73,19 @@ var [...await f] = [];
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 15
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 15
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 16
                         },
@@ -90,23 +97,28 @@ var [...await f] = [];
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 20
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 18,
                             "end": 21
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 21
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -115,6 +127,7 @@ var [...await f] = [];
     "source": "var [...await f] = [];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

@@ -27,6 +27,7 @@ async ({ident: [foo, bar]/x}) => x
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -46,6 +47,7 @@ async ({ident: [foo, bar]/x}) => x
                                         "text": "ident",
                                         "rawText": "ident",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 13
                                     },
@@ -61,6 +63,7 @@ async ({ident: [foo, bar]/x}) => x
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 16,
                                                         "end": 19
                                                     },
@@ -69,22 +72,26 @@ async ({ident: [foo, bar]/x}) => x
                                                         "text": "bar",
                                                         "rawText": "bar",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 20,
                                                         "end": 24
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 16,
                                                 "end": 24
                                             },
                                             "flags": 32,
+                                            "transformFlags": 8,
                                             "start": 14,
                                             "end": 25
                                         },
                                         "operatorToken": {
                                             "kind": 35640,
                                             "flags": 96,
+                                            "transformFlags": 32,
                                             "start": 25,
                                             "end": 26
                                         },
@@ -93,31 +100,37 @@ async ({ident: [foo, bar]/x}) => x
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 26,
                                             "end": 27
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 27
                                     },
                                     "initializer": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 27
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 27
                         },
                         "flags": 48,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 28
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 29
             },
@@ -125,6 +138,7 @@ async ({ident: [foo, bar]/x}) => x
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 32
             },
@@ -133,10 +147,12 @@ async ({ident: [foo, bar]/x}) => x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 34
             },
             "flags": 290,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -145,6 +161,7 @@ async ({ident: [foo, bar]/x}) => x
     "source": "async ({ident: [foo, bar]/x}) => x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

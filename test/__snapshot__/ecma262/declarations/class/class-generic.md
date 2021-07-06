@@ -35,6 +35,7 @@ class A<TYPE> {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -43,6 +44,7 @@ class A<TYPE> {
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -58,6 +60,7 @@ class A<TYPE> {
                                 "text": "TYPE",
                                 "rawText": "TYPE",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 12
                             },
@@ -65,16 +68,19 @@ class A<TYPE> {
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 12
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 12
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 13
             },
@@ -95,6 +101,7 @@ class A<TYPE> {
                                 "text": "aaf",
                                 "rawText": "aaf",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 21
                             },
@@ -109,6 +116,7 @@ class A<TYPE> {
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 25
                                 },
@@ -123,6 +131,7 @@ class A<TYPE> {
                                             "text": "Promise",
                                             "rawText": "Promise",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 35
                                         },
@@ -142,39 +151,47 @@ class A<TYPE> {
                                                                 "text": "TYPE",
                                                                 "rawText": "TYPE",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 36,
                                                                 "end": 40
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 36,
                                                             "end": 40
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 36,
                                                         "end": 40
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 36,
                                                 "end": 40
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 35,
                                             "end": 41
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 41
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 41
                                 },
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 41,
                                     "end": 44
                                 },
@@ -189,6 +206,7 @@ class A<TYPE> {
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 46,
                                                     "end": 57
                                                 },
@@ -201,6 +219,7 @@ class A<TYPE> {
                                                             "newKeyword": {
                                                                 "kind": 138477661,
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 57,
                                                                 "end": 61
                                                             },
@@ -209,17 +228,20 @@ class A<TYPE> {
                                                                 "text": "Promise",
                                                                 "rawText": "Promise",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 61,
                                                                 "end": 69
                                                             },
                                                             "argumentList": null,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 57,
                                                             "end": 69
                                                         },
                                                         "operatorToken": {
                                                             "kind": 536971330,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 69,
                                                             "end": 70
                                                         },
@@ -228,16 +250,19 @@ class A<TYPE> {
                                                             "text": "TYPE",
                                                             "rawText": "TYPE",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 70,
                                                             "end": 74
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 57,
                                                         "end": 74
                                                     },
                                                     "operatorToken": {
                                                         "kind": 34883,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 74,
                                                         "end": 75
                                                     },
@@ -250,6 +275,7 @@ class A<TYPE> {
                                                                 "text": "console",
                                                                 "rawText": "console",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 76,
                                                                 "end": 83
                                                             },
@@ -258,45 +284,55 @@ class A<TYPE> {
                                                                 "text": "log",
                                                                 "rawText": "log",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 84,
                                                                 "end": 87
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 75,
                                                             "end": 87
                                                         },
                                                         "flags": 75,
+                                                        "transformFlags": 0,
                                                         "start": 32,
                                                         "end": 88
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 57,
                                                     "end": 88
                                                 },
                                                 "flags": 81,
+                                                "transformFlags": 256,
                                                 "start": 46,
                                                 "end": 89
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 46,
                                         "end": 89
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 93
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 93
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 15,
                             "end": 93
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 93,
                             "end": 94
                         },
@@ -316,6 +352,7 @@ class A<TYPE> {
                                     "text": "anf",
                                     "rawText": "anf",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 94,
                                     "end": 100
                                 },
@@ -325,6 +362,7 @@ class A<TYPE> {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 101,
                                     "end": 102
                                 },
@@ -339,6 +377,7 @@ class A<TYPE> {
                                             "text": "Promise",
                                             "rawText": "Promise",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 103,
                                             "end": 111
                                         },
@@ -358,33 +397,40 @@ class A<TYPE> {
                                                                 "text": "TYPE",
                                                                 "rawText": "TYPE",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 112,
                                                                 "end": 116
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 112,
                                                             "end": 116
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 112,
                                                         "end": 116
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 112,
                                                 "end": 116
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 111,
                                             "end": 117
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 103,
                                         "end": 117
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 103,
                                     "end": 117
                                 },
@@ -399,6 +445,7 @@ class A<TYPE> {
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 119,
                                                     "end": 130
                                                 },
@@ -411,6 +458,7 @@ class A<TYPE> {
                                                             "newKeyword": {
                                                                 "kind": 138477661,
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 130,
                                                                 "end": 134
                                                             },
@@ -419,17 +467,20 @@ class A<TYPE> {
                                                                 "text": "Promise",
                                                                 "rawText": "Promise",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 134,
                                                                 "end": 142
                                                             },
                                                             "argumentList": null,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 130,
                                                             "end": 142
                                                         },
                                                         "operatorToken": {
                                                             "kind": 536971330,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 142,
                                                             "end": 143
                                                         },
@@ -438,16 +489,19 @@ class A<TYPE> {
                                                             "text": "TYPE",
                                                             "rawText": "TYPE",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 143,
                                                             "end": 147
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 130,
                                                         "end": 147
                                                     },
                                                     "operatorToken": {
                                                         "kind": 34883,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 147,
                                                         "end": 148
                                                     },
@@ -460,6 +514,7 @@ class A<TYPE> {
                                                                 "text": "console",
                                                                 "rawText": "console",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 149,
                                                                 "end": 156
                                                             },
@@ -468,52 +523,64 @@ class A<TYPE> {
                                                                 "text": "log",
                                                                 "rawText": "log",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 157,
                                                                 "end": 160
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 148,
                                                             "end": 160
                                                         },
                                                         "flags": 148,
+                                                        "transformFlags": 0,
                                                         "start": 32,
                                                         "end": 161
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 130,
                                                     "end": 161
                                                 },
                                                 "flags": 81,
+                                                "transformFlags": 256,
                                                 "start": 119,
                                                 "end": 162
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 119,
                                         "end": 162
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 117,
                                     "end": 166
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 100,
                                 "end": 166
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 94,
                             "end": 166
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 166
                 },
                 "flags": 13,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 168
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 168
         }
@@ -522,6 +589,7 @@ class A<TYPE> {
     "source": "class A<TYPE> {\n  aaf = (): Promise<TYPE> => {\n    return new Promise<TYPE>(console.log);\n  };\n  anf(): Promise<TYPE> {\n    return new Promise<TYPE>(console.log);\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 168
 }
@@ -533,10 +601,10 @@ class A<TYPE> {
 
 class A<TYPE> {
   aaf = () => {
-    return new Promise  <  TYPE >  (console.log);
+    return new Promise  < TYPE > (console.log);
   };;
   anf(): Promise<TYPE> {
-    return new Promise  <  TYPE >  (console.log);
+    return new Promise  < TYPE > (console.log);
   }
 }
 ```

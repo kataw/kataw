@@ -31,12 +31,14 @@
                     "text": "static",
                     "rawText": "\\u0073tatic",
                     "flags": 16480,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 11
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
@@ -45,14 +47,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -61,6 +66,7 @@
     "source": "\\u0073tatic = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

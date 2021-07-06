@@ -25,14 +25,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 2
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 2
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 2
         },
@@ -43,10 +46,12 @@
                 "text": "x61ckage",
                 "rawText": "x61ckage",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 3,
             "end": 11
         },
@@ -62,19 +67,23 @@
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 30
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 31
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 15,
             "end": 33
         },
@@ -86,14 +95,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 37
                 },
                 "flags": 33,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 33,
             "end": 37
         },
@@ -104,10 +116,12 @@
                 "text": "x61ckage",
                 "rawText": "x61ckage",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 46
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 38,
             "end": 46
         },
@@ -117,10 +131,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 52,
                 "end": 52
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 50,
             "end": 54
         }
@@ -129,6 +145,7 @@
     "source": "(p\\x61ckage) => { \"use strict\"; }\n\n(p\\x61ckage) => { }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 54
 }

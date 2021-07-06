@@ -20,6 +20,7 @@ for(t`${x in y}`;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -30,6 +31,7 @@ for(t`${x in y}`;;);
                     "text": "t",
                     "rawText": "t",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 5
                 },
@@ -47,12 +49,14 @@ for(t`${x in y}`;;);
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 9
                                 },
                                 "operatorToken": {
                                     "kind": 21006388,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 12
                                 },
@@ -61,14 +65,17 @@ for(t`${x in y}`;;);
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 14
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 14
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 14
                         }
@@ -78,14 +85,17 @@ for(t`${x in y}`;;);
                         "text": "",
                         "rawText": "",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 16
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 16
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 16
             },
@@ -94,10 +104,12 @@ for(t`${x in y}`;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 20
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -106,6 +118,7 @@ for(t`${x in y}`;;);
     "source": "for(t`${x in y}`;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -115,7 +128,7 @@ for(t`${x in y}`;;);
 
 ```javascript
 
-for (t`${x in  y}`; ; );
+for (t`${x in y}`; ; );
 ```
 
 ### Diagnostics

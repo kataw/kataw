@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -36,6 +37,7 @@
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
@@ -56,6 +58,7 @@
                                             "text": "__proto__",
                                             "rawText": "__proto__",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 29
                                         },
@@ -64,11 +67,13 @@
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 32
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 32
                                     },
@@ -79,6 +84,7 @@
                                             "text": "__proto__",
                                             "rawText": "__proto__",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 33,
                                             "end": 43
                                         },
@@ -87,21 +93,25 @@
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 44,
                                             "end": 46
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 46
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 46
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 47
                         },
@@ -113,23 +123,28 @@
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 51,
                                 "end": 51
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 49,
                             "end": 52
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 17,
                         "end": 52
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 52
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 13,
             "end": 53
         }
@@ -138,6 +153,7 @@
     "source": "'use strict'; let { __proto__: x, __proto__: y} = {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 53
 }

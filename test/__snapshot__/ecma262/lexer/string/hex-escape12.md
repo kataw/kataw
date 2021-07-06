@@ -26,10 +26,12 @@
                 "text": "q",
                 "rawText": "\"\\x9q\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         },
@@ -40,10 +42,12 @@
                 "text": "",
                 "rawText": "\"\\x5\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 8,
             "end": 16
         }
@@ -52,6 +56,7 @@
     "source": "\"\\x9q\"\n;\n\"\\x5\"\n;\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

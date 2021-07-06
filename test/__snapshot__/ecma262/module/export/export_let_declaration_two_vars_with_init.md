@@ -26,6 +26,7 @@ export let x = 10, y = 20
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -34,6 +35,7 @@ export let x = 10, y = 20
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 10
                 },
@@ -47,6 +49,7 @@ export let x = 10, y = 20
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             },
@@ -56,10 +59,12 @@ export let x = 10, y = 20
                                 "text": 10,
                                 "rawText": "10",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 17
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 10,
                             "end": 17
                         },
@@ -70,6 +75,7 @@ export let x = 10, y = 20
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 20
                             },
@@ -79,19 +85,23 @@ export let x = 10, y = 20
                                 "text": 20,
                                 "rawText": "20",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 25
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 18,
                             "end": 25
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 25
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 25
             },
@@ -100,6 +110,7 @@ export let x = 10, y = 20
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -108,6 +119,7 @@ export let x = 10, y = 20
     "source": "export let x = 10, y = 20",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

@@ -1,4 +1,4 @@
-import { SyntaxKind, SyntaxNode, NodeFlags } from './syntax-node';
+import { SyntaxKind, SyntaxNode, NodeFlags , TransformFlags} from './syntax-node';
 
 /**
  * A token. This can include single characters, operators and keywords.
@@ -119,18 +119,57 @@ export type TokenSyntaxKind =
   | SyntaxKind.RegularExpression
   | SyntaxKind.Multiply
   | SyntaxKind.AsyncKeyword
+  | SyntaxKind.Modulo
+  | SyntaxKind.Divide
+  | SyntaxKind.StrictEqual
+  | SyntaxKind.LooseNotEqual
+  | SyntaxKind.StrictNotEqual
+  | SyntaxKind.ShiftRight
+  | SyntaxKind.LogicalShiftRight
+  | SyntaxKind.ShiftLeft
   | SyntaxKind.Identifier;
 
 export function createToken<T extends TokenSyntaxKind>(
   tokenKind: T,
   flags: NodeFlags,
   start: number,
-  end: number
+  end: number,
 ): SyntaxToken<T> {
+  let transformFlags = TransformFlags.None
+
+  // `>>>`, `>>`, `<<`
+  if (
+    tokenKind === SyntaxKind.ShiftRight ||
+    tokenKind === SyntaxKind.LogicalShiftRight ||
+    tokenKind === SyntaxKind.ShiftLeft
+  ) {
+    transformFlags |= TransformFlags.BitshiftOperators
+  }
+
+  // `!==`, `!=`, `===`, `==`
+  if (
+    tokenKind === SyntaxKind.StrictEqual ||
+    tokenKind === SyntaxKind.LooseNotEqual ||
+    tokenKind === SyntaxKind.LooseEqual ||
+    tokenKind === SyntaxKind.StrictNotEqual
+  ) {
+    transformFlags |= TransformFlags.EqualityOperators
+  }
+
+  // `*`, `%`, `/`
+  if (
+    tokenKind === SyntaxKind.Multiply ||
+    tokenKind === SyntaxKind.Modulo ||
+    tokenKind === SyntaxKind.Divide
+  ) {
+    transformFlags |= TransformFlags.MultiplicativeOperators
+  }
+
   return {
     kind: tokenKind,
     flags,
+    transformFlags,
     start,
-    end
-  };
+    end,
+  }
 }

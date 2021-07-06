@@ -22,6 +22,7 @@ function f(){ var x; const x = y; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function f(){ var x; const x = y; }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -40,6 +42,7 @@ function f(){ var x; const x = y; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -55,6 +58,7 @@ function f(){ var x; const x = y; }
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 17
                             },
@@ -68,21 +72,25 @@ function f(){ var x; const x = y; }
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 19
                                         },
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
+                                        "transformFlags": 128,
                                         "start": 17,
                                         "end": 19
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 19
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 20
                         },
@@ -91,6 +99,7 @@ function f(){ var x; const x = y; }
                             "lexicalKeyword": {
                                 "kind": 37757004,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 26
                             },
@@ -104,6 +113,7 @@ function f(){ var x; const x = y; }
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 26,
                                             "end": 28
                                         },
@@ -113,33 +123,40 @@ function f(){ var x; const x = y; }
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 32
                                         },
                                         "flags": 16,
+                                        "transformFlags": 128,
                                         "start": 26,
                                         "end": 32
                                     }
                                 ],
                                 "flags": 16777232,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 32
                             },
                             "flags": 33554448,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 33
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 33
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 35
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -148,6 +165,7 @@ function f(){ var x; const x = y; }
     "source": "function f(){ var x; const x = y; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

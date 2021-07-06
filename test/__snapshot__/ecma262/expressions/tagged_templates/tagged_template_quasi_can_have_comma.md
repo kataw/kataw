@@ -24,6 +24,7 @@ y`${y,0}`
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -42,6 +43,7 @@ y`${y,0}`
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 4,
                                         "end": 5
                                     },
@@ -50,15 +52,18 @@ y`${y,0}`
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 7
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 7
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 7
                         }
@@ -68,18 +73,22 @@ y`${y,0}`
                         "text": "",
                         "rawText": "",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 9
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 9
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         }
@@ -88,6 +97,7 @@ y`${y,0}`
     "source": "y`${y,0}`",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

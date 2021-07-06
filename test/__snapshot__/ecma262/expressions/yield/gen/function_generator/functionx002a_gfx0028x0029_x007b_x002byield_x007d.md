@@ -29,12 +29,14 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -43,6 +45,7 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 14
             },
@@ -52,6 +55,7 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
@@ -68,6 +72,7 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 27
                             },
@@ -77,6 +82,7 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 35
                             },
@@ -86,6 +92,7 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 36
                             },
@@ -102,12 +109,14 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
                                             "functionKeyword": {
                                                 "kind": 37822554,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 39,
                                                 "end": 48
                                             },
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
+                                                "transformFlags": 32,
                                                 "start": 48,
                                                 "end": 49
                                             },
@@ -116,6 +125,7 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
                                                 "text": "gf",
                                                 "rawText": "gf",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 49,
                                                 "end": 52
                                             },
@@ -125,6 +135,7 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 53,
                                                 "end": 53
                                             },
@@ -141,6 +152,7 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
                                                                 "operandToken": {
                                                                     "kind": 99634,
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 56,
                                                                     "end": 58
                                                                 },
@@ -149,6 +161,7 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
                                                                     "yieldKeyword": {
                                                                         "kind": 8454253,
                                                                         "flags": 64,
+                                                                        "transformFlags": 0,
                                                                         "start": 58,
                                                                         "end": 63
                                                                     },
@@ -156,56 +169,68 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
                                                                     "asteriskToken": null,
                                                                     "expression": null,
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 58,
                                                                     "end": 63
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 56,
                                                                 "end": 63
                                                             },
                                                             "flags": 16,
+                                                            "transformFlags": 0,
                                                             "start": 56,
                                                             "end": 64
                                                         }
                                                     ],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 56,
                                                     "end": 64
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 54,
                                                 "end": 66
                                             },
                                             "returnType": null,
                                             "flags": 272,
+                                            "transformFlags": 0,
                                             "start": 39,
                                             "end": 66
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 66
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 68
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 68
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 68
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 69
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 69
         }
@@ -214,6 +239,7 @@ function * gen() { function not_gen() { function* gf() { +yield; } }}
     "source": "function * gen() { function not_gen() { function* gf() { +yield; } }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 69
 }

@@ -21,6 +21,7 @@ var af = (x, ...y) => { return [x, y.length]; };
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -34,6 +35,7 @@ var af = (x, ...y) => { return [x, y.length]; };
                             "text": "af",
                             "rawText": "af",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 6
                         },
@@ -50,6 +52,7 @@ var af = (x, ...y) => { return [x, y.length]; };
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 11
                                     },
@@ -58,6 +61,7 @@ var af = (x, ...y) => { return [x, y.length]; };
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 16
                                         },
@@ -66,6 +70,7 @@ var af = (x, ...y) => { return [x, y.length]; };
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 17
                                         },
@@ -73,12 +78,14 @@ var af = (x, ...y) => { return [x, y.length]; };
                                         "type": null,
                                         "right": null,
                                         "flags": 34,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 17
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 18
                             },
@@ -86,6 +93,7 @@ var af = (x, ...y) => { return [x, y.length]; };
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 21
                             },
@@ -100,6 +108,7 @@ var af = (x, ...y) => { return [x, y.length]; };
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 30
                                             },
@@ -113,6 +122,7 @@ var af = (x, ...y) => { return [x, y.length]; };
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 32,
                                                             "end": 33
                                                         },
@@ -123,6 +133,7 @@ var af = (x, ...y) => { return [x, y.length]; };
                                                                 "text": "y",
                                                                 "rawText": "y",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 34,
                                                                 "end": 36
                                                             },
@@ -131,50 +142,61 @@ var af = (x, ...y) => { return [x, y.length]; };
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 37,
                                                                 "end": 43
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 34,
                                                             "end": 43
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 32,
                                                     "end": 43
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 8,
                                                 "start": 30,
                                                 "end": 44
                                             },
                                             "flags": 80,
+                                            "transformFlags": 256,
                                             "start": 23,
                                             "end": 45
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 45
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 47
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 47
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 47
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 47
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 48
         }
@@ -183,6 +205,7 @@ var af = (x, ...y) => { return [x, y.length]; };
     "source": "var af = (x, ...y) => { return [x, y.length]; };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 48
 }

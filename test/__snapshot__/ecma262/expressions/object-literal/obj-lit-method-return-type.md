@@ -24,12 +24,14 @@ x = { method(test: string): number { } };
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -51,6 +53,7 @@ x = { method(test: string): number { } };
                                         "text": "method",
                                         "rawText": "method",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 12
                                     },
@@ -66,6 +69,7 @@ x = { method(test: string): number { } };
                                                     "text": "test",
                                                     "rawText": "test",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 13,
                                                     "end": 17
                                                 },
@@ -73,12 +77,14 @@ x = { method(test: string): number { } };
                                                 "type": null,
                                                 "right": null,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 17
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 18
                                     },
@@ -90,36 +96,44 @@ x = { method(test: string): number { } };
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 17
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 17
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 17
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 17
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 17
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 17
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         },
@@ -130,10 +144,12 @@ x = { method(test: string): number { } };
                 "text": "string",
                 "rawText": "string",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 18,
             "end": 25
         },
@@ -144,10 +160,12 @@ x = { method(test: string): number { } };
                 "text": "number",
                 "rawText": "number",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 27,
             "end": 34
         },
@@ -157,16 +175,19 @@ x = { method(test: string): number { } };
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 36,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 34,
             "end": 38
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 40,
             "end": 41
         }
@@ -175,6 +196,7 @@ x = { method(test: string): number { } };
     "source": "x = { method(test: string): number { } };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }

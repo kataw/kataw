@@ -27,6 +27,7 @@ var a: 123n
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,6 +41,7 @@ var a: 123n
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -52,24 +54,29 @@ var a: 123n
                                 "text": "123",
                                 "rawText": "123n",
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 11
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 11
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         }
@@ -78,6 +85,7 @@ var a: 123n
     "source": "var a: 123n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

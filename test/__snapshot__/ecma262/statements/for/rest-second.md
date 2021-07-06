@@ -20,6 +20,7 @@ for (let a, ...b = 1;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -28,6 +29,7 @@ for (let a, ...b = 1;;);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
@@ -41,21 +43,25 @@ for (let a, ...b = 1;;);
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 8,
                             "end": 10
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
@@ -64,6 +70,7 @@ for (let a, ...b = 1;;);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -72,6 +79,7 @@ for (let a, ...b = 1;;);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -82,14 +90,17 @@ for (let a, ...b = 1;;);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 11
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -102,12 +113,14 @@ for (let a, ...b = 1;;);
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 16
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 18
                 },
@@ -116,26 +129,31 @@ for (let a, ...b = 1;;);
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 15,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 15,
             "end": 21
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 21,
             "end": 22
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 23,
             "end": 24
         }
@@ -144,6 +162,7 @@ for (let a, ...b = 1;;);
     "source": "for (let a, ...b = 1;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

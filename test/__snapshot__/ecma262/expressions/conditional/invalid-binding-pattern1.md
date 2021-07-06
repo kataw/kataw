@@ -30,12 +30,14 @@ a ? (({b})) => {} : c
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -53,24 +55,29 @@ a ? (({b})) => {} : c
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 8
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 6,
                             "end": 9
                         },
                         "flags": 5,
+                        "transformFlags": 0,
                         "start": 34,
                         "end": 10
                     },
                     "flags": 3,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 11
                 },
@@ -80,14 +87,17 @@ a ? (({b})) => {} : c
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 11
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -97,10 +107,12 @@ a ? (({b})) => {} : c
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 14,
             "end": 17
         },
@@ -111,10 +123,12 @@ a ? (({b})) => {} : c
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 19,
             "end": 21
         }
@@ -123,6 +137,7 @@ a ? (({b})) => {} : c
     "source": "a ? (({b})) => {} : c",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

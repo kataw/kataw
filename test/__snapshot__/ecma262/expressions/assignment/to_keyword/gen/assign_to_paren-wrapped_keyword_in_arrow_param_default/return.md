@@ -30,14 +30,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -46,6 +49,7 @@
             "returnKeyword": {
                 "kind": 37757022,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 12
             },
@@ -54,10 +58,12 @@
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
             "flags": 80,
+            "transformFlags": 256,
             "start": 6,
             "end": 12
         },
@@ -68,10 +74,12 @@
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 15,
             "end": 17
         },
@@ -81,10 +89,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 21,
             "end": 24
         }
@@ -93,6 +103,7 @@
     "source": "(x = (return) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

@@ -33,6 +33,7 @@ await => async
                     "text": "await",
                     "rawText": "await",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -40,6 +41,7 @@ await => async
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -48,14 +50,17 @@ await => async
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 14
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -64,6 +69,7 @@ await => async
     "source": "await => async",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

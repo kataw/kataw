@@ -37,6 +37,7 @@ import * as x, {y} from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -50,10 +51,12 @@ import * as x, {y} from 'm.js';
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 12
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -78,27 +81,33 @@ import * as x, {y} from 'm.js';
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 10
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 10
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -109,10 +118,12 @@ import * as x, {y} from 'm.js';
                 "text": "def",
                 "rawText": "def",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 17
         },
@@ -123,10 +134,12 @@ import * as x, {y} from 'm.js';
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 17,
             "end": 22
         },
@@ -137,10 +150,12 @@ import * as x, {y} from 'm.js';
                 "text": "m.js",
                 "rawText": "'m.js'",
                 "flags": 4194400,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 22,
             "end": 30
         },
@@ -149,6 +164,7 @@ import * as x, {y} from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 38
             },
@@ -162,10 +178,12 @@ import * as x, {y} from 'm.js';
                     "text": "def2",
                     "rawText": "def2",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 43,
                     "end": 48
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 43,
                 "end": 48
             },
@@ -177,16 +195,19 @@ import * as x, {y} from 'm.js';
                     "text": "def",
                     "rawText": "def",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 42
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 43
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 30,
             "end": 48
         },
@@ -197,10 +218,12 @@ import * as x, {y} from 'm.js';
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 48,
                 "end": 53
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 48,
             "end": 53
         },
@@ -211,10 +234,12 @@ import * as x, {y} from 'm.js';
                 "text": "m.js",
                 "rawText": "'m.js'",
                 "flags": 4194400,
+                "transformFlags": 0,
                 "start": 53,
                 "end": 60
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 53,
             "end": 61
         },
@@ -223,6 +248,7 @@ import * as x, {y} from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 61,
                 "end": 69
             },
@@ -238,12 +264,14 @@ import * as x, {y} from 'm.js';
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 69,
                         "end": 69
                     },
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 69,
                         "end": 71
                     },
@@ -252,14 +280,17 @@ import * as x, {y} from 'm.js';
                         "text": "as",
                         "rawText": "as",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 71,
                         "end": 74
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 69,
                     "end": 74
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 69,
                 "end": 74
             },
@@ -270,10 +301,12 @@ import * as x, {y} from 'm.js';
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 61,
                 "end": 69
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 61,
             "end": 74
         },
@@ -287,6 +320,7 @@ import * as x, {y} from 'm.js';
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 74,
                         "end": 76
                     },
@@ -295,15 +329,18 @@ import * as x, {y} from 'm.js';
                         "text": "def",
                         "rawText": "def",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 77,
                         "end": 81
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 74,
                 "end": 81
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 74,
             "end": 81
         },
@@ -314,10 +351,12 @@ import * as x, {y} from 'm.js';
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 81,
                 "end": 86
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 81,
             "end": 86
         },
@@ -328,10 +367,12 @@ import * as x, {y} from 'm.js';
                 "text": "m.js",
                 "rawText": "'m.js'",
                 "flags": 4194400,
+                "transformFlags": 0,
                 "start": 86,
                 "end": 93
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 86,
             "end": 94
         },
@@ -340,6 +381,7 @@ import * as x, {y} from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 94,
                 "end": 102
             },
@@ -355,12 +397,14 @@ import * as x, {y} from 'm.js';
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 102,
                         "end": 102
                     },
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 102,
                         "end": 104
                     },
@@ -369,14 +413,17 @@ import * as x, {y} from 'm.js';
                         "text": "as",
                         "rawText": "as",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 104,
                         "end": 107
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 102,
                     "end": 107
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 102,
                 "end": 107
             },
@@ -387,10 +434,12 @@ import * as x, {y} from 'm.js';
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 94,
                 "end": 102
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 94,
             "end": 107
         },
@@ -404,6 +453,7 @@ import * as x, {y} from 'm.js';
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 107,
                         "end": 109
                     },
@@ -414,12 +464,14 @@ import * as x, {y} from 'm.js';
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 110,
                             "end": 110
                         },
                         "operatorToken": {
                             "kind": 67143222,
                             "flags": 96,
+                            "transformFlags": 32,
                             "start": 110,
                             "end": 112
                         },
@@ -428,19 +480,23 @@ import * as x, {y} from 'm.js';
                             "text": "as",
                             "rawText": "as",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 112,
                             "end": 115
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 110,
                         "end": 115
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 107,
                 "end": 115
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 107,
             "end": 115
         },
@@ -451,10 +507,12 @@ import * as x, {y} from 'm.js';
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 115,
                 "end": 117
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 115,
             "end": 117
         },
@@ -465,10 +523,12 @@ import * as x, {y} from 'm.js';
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 117,
                 "end": 122
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 117,
             "end": 122
         },
@@ -479,10 +539,12 @@ import * as x, {y} from 'm.js';
                 "text": "m.js",
                 "rawText": "'m.js'",
                 "flags": 4194400,
+                "transformFlags": 0,
                 "start": 122,
                 "end": 129
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 122,
             "end": 130
         },
@@ -491,6 +553,7 @@ import * as x, {y} from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 130,
                 "end": 138
             },
@@ -504,10 +567,12 @@ import * as x, {y} from 'm.js';
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 142,
                     "end": 142
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 142,
                 "end": 142
             },
@@ -532,27 +597,33 @@ import * as x, {y} from 'm.js';
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 140,
                                     "end": 141
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 140,
                                 "end": 141
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 140,
                         "end": 141
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 138,
                     "end": 142
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 130,
                 "end": 142
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 130,
             "end": 142
         },
@@ -568,19 +639,23 @@ import * as x, {y} from 'm.js';
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 145,
                             "end": 146
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 145,
                         "end": 146
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 145,
                 "end": 146
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 143,
             "end": 147
         },
@@ -591,10 +666,12 @@ import * as x, {y} from 'm.js';
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 147,
                 "end": 152
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 147,
             "end": 152
         },
@@ -605,10 +682,12 @@ import * as x, {y} from 'm.js';
                 "text": "m.js",
                 "rawText": "'m.js'",
                 "flags": 4194400,
+                "transformFlags": 0,
                 "start": 152,
                 "end": 159
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 152,
             "end": 160
         },
@@ -617,6 +696,7 @@ import * as x, {y} from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 160,
                 "end": 168
             },
@@ -632,12 +712,14 @@ import * as x, {y} from 'm.js';
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 168,
                         "end": 168
                     },
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 168,
                         "end": 170
                     },
@@ -646,14 +728,17 @@ import * as x, {y} from 'm.js';
                         "text": "as",
                         "rawText": "as",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 170,
                         "end": 173
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 168,
                     "end": 173
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 168,
                 "end": 173
             },
@@ -664,10 +749,12 @@ import * as x, {y} from 'm.js';
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 160,
                 "end": 168
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 160,
             "end": 173
         },
@@ -681,6 +768,7 @@ import * as x, {y} from 'm.js';
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 173,
                         "end": 175
                     },
@@ -694,25 +782,30 @@ import * as x, {y} from 'm.js';
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 178,
                                     "end": 179
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 178,
                             "end": 179
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 176,
                         "end": 180
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 173,
                 "end": 180
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 173,
             "end": 180
         },
@@ -723,10 +816,12 @@ import * as x, {y} from 'm.js';
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 180,
                 "end": 185
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 180,
             "end": 185
         },
@@ -737,10 +832,12 @@ import * as x, {y} from 'm.js';
                 "text": "m.js",
                 "rawText": "'m.js'",
                 "flags": 4194400,
+                "transformFlags": 0,
                 "start": 185,
                 "end": 192
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 185,
             "end": 193
         }
@@ -749,6 +846,7 @@ import * as x, {y} from 'm.js';
     "source": "import { x }, def from 'm.js';\n\nimport def, def2 from 'm.js';\n\nimport * as x, def from 'm.js';\n\nimport * as x, * as y from 'm.js';\n\nimport {x}, {y} from 'm.js';\n\nimport * as x, {y} from 'm.js';\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 194
 }

@@ -30,6 +30,7 @@ class Foo<T> extends Bar<T> { }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class Foo<T> extends Bar<T> { }
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -53,6 +55,7 @@ class Foo<T> extends Bar<T> { }
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 11
                             },
@@ -60,16 +63,19 @@ class Foo<T> extends Bar<T> { }
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 11
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 11
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 12
             },
@@ -80,6 +86,7 @@ class Foo<T> extends Bar<T> { }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 20
                     },
@@ -88,6 +95,7 @@ class Foo<T> extends Bar<T> { }
                         "text": "Bar",
                         "rawText": "Bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 24
                     },
@@ -107,29 +115,35 @@ class Foo<T> extends Bar<T> { }
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 26
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 26
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 26
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 26
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 27
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 27
                 },
@@ -137,14 +151,17 @@ class Foo<T> extends Bar<T> { }
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 29
                 },
                 "flags": 12,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -153,6 +170,7 @@ class Foo<T> extends Bar<T> { }
     "source": "class Foo<T> extends Bar<T> { }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

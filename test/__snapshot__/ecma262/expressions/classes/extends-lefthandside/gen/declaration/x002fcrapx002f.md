@@ -29,6 +29,7 @@ class A extends /crap/ {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class A extends /crap/ {}
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -48,6 +50,7 @@ class A extends /crap/ {}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -55,11 +58,13 @@ class A extends /crap/ {}
                         "kind": 371,
                         "text": "/crap/",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 22
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 22
                 },
@@ -67,14 +72,17 @@ class A extends /crap/ {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 24
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -83,6 +91,7 @@ class A extends /crap/ {}
     "source": "class A extends /crap/ {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

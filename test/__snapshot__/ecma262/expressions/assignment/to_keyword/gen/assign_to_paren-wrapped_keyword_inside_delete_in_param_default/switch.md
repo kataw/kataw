@@ -29,6 +29,7 @@ async (x = delete ((switch) = f)) => {}
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,12 +43,14 @@ async (x = delete ((switch) = f)) => {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 10
                         },
@@ -56,6 +59,7 @@ async (x = delete ((switch) = f)) => {}
                             "operandToken": {
                                 "kind": 4259886,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 17
                             },
@@ -68,32 +72,39 @@ async (x = delete ((switch) = f)) => {}
                                         "text": "",
                                         "rawText": "",
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 20
                                     },
                                     "flags": 19,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 20
                                 },
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 20
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 20
                         },
                         "flags": 32,
+                        "transformFlags": 128,
                         "start": 7,
                         "end": 20
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 0
             },
             "flags": 268435490,
+            "transformFlags": 1,
             "start": 0,
             "end": 20
         },
@@ -102,6 +113,7 @@ async (x = delete ((switch) = f)) => {}
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 26
             },
@@ -110,6 +122,7 @@ async (x = delete ((switch) = f)) => {}
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 26
             },
@@ -117,10 +130,12 @@ async (x = delete ((switch) = f)) => {}
                 "kind": 152,
                 "clauses": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 27
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 20,
             "end": 27
         },
@@ -131,10 +146,12 @@ async (x = delete ((switch) = f)) => {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 29,
             "end": 31
         },
@@ -144,10 +161,12 @@ async (x = delete ((switch) = f)) => {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 38
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 36,
             "end": 39
         }
@@ -156,6 +175,7 @@ async (x = delete ((switch) = f)) => {}
     "source": "async (x = delete ((switch) = f)) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }

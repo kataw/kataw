@@ -32,12 +32,14 @@ x *
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 1,
                     "end": 3
                 },
@@ -52,6 +54,7 @@ x *
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 10
                         },
@@ -59,6 +62,7 @@ x *
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 13
                         },
@@ -69,26 +73,32 @@ x *
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 15
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 16
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 16
                     },
                     "flags": 3,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 17
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -97,6 +107,7 @@ x *
     "source": "x *\n(async => {})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }
@@ -106,7 +117,7 @@ x *
 
 ```javascript
 
-x *  (async => {});
+x * (async => {});
 ```
 
 ### Diagnostics

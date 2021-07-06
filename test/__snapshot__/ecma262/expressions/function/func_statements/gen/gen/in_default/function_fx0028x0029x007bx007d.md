@@ -30,6 +30,7 @@ switch (x) {
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -38,6 +39,7 @@ switch (x) {
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -49,12 +51,14 @@ switch (x) {
                         "defaultKeyword": {
                             "kind": 4194387,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 22
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 23
                         },
@@ -66,6 +70,7 @@ switch (x) {
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 65,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 36
                                 },
@@ -75,6 +80,7 @@ switch (x) {
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 38
                                 },
@@ -84,6 +90,7 @@ switch (x) {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 39
                                 },
@@ -94,29 +101,35 @@ switch (x) {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 41,
                                         "end": 41
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 40,
                                     "end": 42
                                 },
                                 "returnType": null,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 42
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 42
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 42
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 44
         }
@@ -125,6 +138,7 @@ switch (x) {
     "source": "switch (x) {\n  default:\n    function f(){}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 44
 }

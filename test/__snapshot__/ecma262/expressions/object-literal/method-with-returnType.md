@@ -32,12 +32,14 @@ a={get fooProp():number{}}
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 2
                 },
@@ -53,6 +55,7 @@ a={get fooProp():number{}}
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 6
                                 },
@@ -64,6 +67,7 @@ a={get fooProp():number{}}
                                         "text": "fooProp",
                                         "rawText": "fooProp",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 14
                                     },
@@ -73,6 +77,7 @@ a={get fooProp():number{}}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1056,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 16
                                     },
@@ -83,10 +88,12 @@ a={get fooProp():number{}}
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 23
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 23
                                     },
@@ -97,36 +104,44 @@ a={get fooProp():number{}}
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 24,
                                             "end": 24
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 25
                                     },
                                     "flags": 1056,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 25
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 25
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 25
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 2,
                     "end": 26
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -135,6 +150,7 @@ a={get fooProp():number{}}
     "source": "a={get fooProp():number{}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

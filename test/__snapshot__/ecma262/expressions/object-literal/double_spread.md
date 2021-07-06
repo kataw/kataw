@@ -29,6 +29,7 @@
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 5
                                 },
@@ -37,10 +38,12 @@
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 6
                                 },
                                 "flags": 1073741856,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 6
                             },
@@ -49,6 +52,7 @@
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 11
                                 },
@@ -57,28 +61,34 @@
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 12
                                 },
                                 "flags": 1073741856,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 12
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 12
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 13
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -87,6 +97,7 @@
     "source": "({...a, ...b})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

@@ -24,6 +24,7 @@ switch (/a/i {}
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -31,6 +32,7 @@ switch (/a/i {}
                 "kind": 371,
                 "text": "/a/i",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 11
             },
@@ -38,10 +40,12 @@ switch (/a/i {}
                 "kind": 152,
                 "clauses": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 14
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         },
@@ -50,6 +54,7 @@ switch (/a/i {}
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 23
             },
@@ -57,6 +62,7 @@ switch (/a/i {}
                 "kind": 371,
                 "text": "/a/i",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 28
             },
@@ -64,10 +70,12 @@ switch (/a/i {}
                 "kind": 152,
                 "clauses": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 30
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 15,
             "end": 31
         },
@@ -76,6 +84,7 @@ switch (/a/i {}
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 39
             },
@@ -83,6 +92,7 @@ switch (/a/i {}
                 "kind": 371,
                 "text": "/a/i",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 41,
                 "end": 45
             },
@@ -90,10 +100,12 @@ switch (/a/i {}
                 "kind": 152,
                 "clauses": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 47,
                 "end": 47
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 31,
             "end": 48
         }
@@ -102,6 +114,7 @@ switch (/a/i {}
     "source": "switch /a/i) {}\n\nswitch /a/i {}\n\nswitch (/a/i {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 48
 }

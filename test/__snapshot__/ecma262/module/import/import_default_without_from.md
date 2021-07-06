@@ -26,6 +26,7 @@ import foo;
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -39,10 +40,12 @@ import foo;
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 10
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 10
             },
@@ -54,16 +57,19 @@ import foo;
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 10
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         }
@@ -72,6 +78,7 @@ import foo;
     "source": "import foo;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

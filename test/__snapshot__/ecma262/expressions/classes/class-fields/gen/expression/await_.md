@@ -29,6 +29,7 @@ class C extends Base { await; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class C extends Base { await; }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -48,6 +50,7 @@ class C extends Base { await; }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -56,11 +59,13 @@ class C extends Base { await; }
                         "text": "Base",
                         "rawText": "Base",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 20
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 20
                 },
@@ -78,6 +83,7 @@ class C extends Base { await; }
                                 "text": "await",
                                 "rawText": "await",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 28
                             },
@@ -85,25 +91,30 @@ class C extends Base { await; }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 22,
                             "end": 28
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 29
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 29
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -112,6 +123,7 @@ class C extends Base { await; }
     "source": "class C extends Base { await; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

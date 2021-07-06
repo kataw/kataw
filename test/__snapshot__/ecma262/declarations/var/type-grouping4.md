@@ -29,6 +29,7 @@ var a: (typeof A)
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var a: (typeof A)
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -60,6 +62,7 @@ var a: (typeof A)
                                         "typeOfKeyword": {
                                             "kind": 138477613,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 14
                                         },
@@ -70,41 +73,50 @@ var a: (typeof A)
                                                 "text": "A",
                                                 "rawText": "A",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 16
                                             },
                                             "typeParameters": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 16
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 16
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 16
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 17
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 17
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 17
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -113,6 +125,7 @@ var a: (typeof A)
     "source": "var a: (typeof A)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

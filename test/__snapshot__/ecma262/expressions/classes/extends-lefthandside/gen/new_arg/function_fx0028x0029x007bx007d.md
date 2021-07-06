@@ -29,6 +29,7 @@ new function f(){}
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -38,6 +39,7 @@ new function f(){}
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 12
                     },
@@ -47,6 +49,7 @@ new function f(){}
                         "text": "f",
                         "rawText": "f",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     },
@@ -56,6 +59,7 @@ new function f(){}
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 15
                     },
@@ -66,24 +70,29 @@ new function f(){}
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 17
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 18
                     },
                     "returnType": null,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 18
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -92,6 +101,7 @@ new function f(){}
     "source": "new function f(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

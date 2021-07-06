@@ -30,6 +30,7 @@ let protecte\u0064;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -43,6 +44,7 @@ let protecte\u0064;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -52,19 +54,23 @@ let protecte\u0064;
                             "text": "protected",
                             "rawText": "protecte\\u0064",
                             "flags": 16480,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 22
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 22
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 22
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         },
@@ -73,6 +79,7 @@ let protecte\u0064;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 28
             },
@@ -86,21 +93,25 @@ let protecte\u0064;
                             "text": "protected",
                             "rawText": "protected",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 38
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 28,
                         "end": 38
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 38
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 23,
             "end": 39
         },
@@ -109,6 +120,7 @@ let protecte\u0064;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 44
             },
@@ -122,21 +134,25 @@ let protecte\u0064;
                             "text": "protected",
                             "rawText": "protecte\\u0064",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 44,
                             "end": 59
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 44,
                         "end": 59
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 44,
                 "end": 59
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 39,
             "end": 60
         }
@@ -145,6 +161,7 @@ let protecte\u0064;
     "source": "let x = protecte\\u0064;\n\nlet protected;\n\nlet protecte\\u0064;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 60
 }

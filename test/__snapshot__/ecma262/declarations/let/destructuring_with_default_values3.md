@@ -26,6 +26,7 @@ let {p:{q=0,...o}={r:0}} = {p:{r:""}}
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -46,6 +47,7 @@ let {p:{q=0,...o}={r:0}} = {p:{r:""}}
                                             "text": "p",
                                             "rawText": "p",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 6
                                         },
@@ -62,6 +64,7 @@ let {p:{q=0,...o}={r:0}} = {p:{r:""}}
                                                             "text": "q",
                                                             "rawText": "q",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 8,
                                                             "end": 9
                                                         },
@@ -72,10 +75,12 @@ let {p:{q=0,...o}={r:0}} = {p:{r:""}}
                                                             "text": 0,
                                                             "rawText": "0",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 10,
                                                             "end": 11
                                                         },
                                                         "flags": 0,
+                                                        "transformFlags": 0,
                                                         "start": 8,
                                                         "end": 11
                                                     },
@@ -84,6 +89,7 @@ let {p:{q=0,...o}={r:0}} = {p:{r:""}}
                                                         "ellipsisToken": {
                                                             "kind": 524302,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 12,
                                                             "end": 15
                                                         },
@@ -92,6 +98,7 @@ let {p:{q=0,...o}={r:0}} = {p:{r:""}}
                                                             "text": "o",
                                                             "rawText": "o",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 15,
                                                             "end": 16
                                                         },
@@ -99,16 +106,19 @@ let {p:{q=0,...o}={r:0}} = {p:{r:""}}
                                                         "type": null,
                                                         "right": null,
                                                         "flags": 0,
+                                                        "transformFlags": 0,
                                                         "start": 12,
                                                         "end": 16
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 8,
                                                 "end": 16
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 17
                                         },
@@ -125,6 +135,7 @@ let {p:{q=0,...o}={r:0}} = {p:{r:""}}
                                                             "text": "r",
                                                             "rawText": "r",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 19,
                                                             "end": 20
                                                         },
@@ -133,34 +144,41 @@ let {p:{q=0,...o}={r:0}} = {p:{r:""}}
                                                             "text": 0,
                                                             "rawText": "0",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 21,
                                                             "end": 22
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 128,
                                                         "start": 19,
                                                         "end": 22
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 22
                                             },
                                             "flags": 48,
+                                            "transformFlags": 8,
                                             "start": 18,
                                             "end": 23
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 23
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 23
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 24
                         },
@@ -178,6 +196,7 @@ let {p:{q=0,...o}={r:0}} = {p:{r:""}}
                                             "text": "p",
                                             "rawText": "p",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 28,
                                             "end": 29
                                         },
@@ -194,6 +213,7 @@ let {p:{q=0,...o}={r:0}} = {p:{r:""}}
                                                             "text": "r",
                                                             "rawText": "r",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 31,
                                                             "end": 32
                                                         },
@@ -202,47 +222,57 @@ let {p:{q=0,...o}={r:0}} = {p:{r:""}}
                                                             "text": "",
                                                             "rawText": "\"\"",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 33,
                                                             "end": 35
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 128,
                                                         "start": 31,
                                                         "end": 35
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 35
                                             },
                                             "flags": 48,
+                                            "transformFlags": 8,
                                             "start": 30,
                                             "end": 36
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 28,
                                         "end": 36
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 36
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 26,
                             "end": 37
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 37
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 37
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 37
         }
@@ -251,6 +281,7 @@ let {p:{q=0,...o}={r:0}} = {p:{r:""}}
     "source": "let {p:{q=0,...o}={r:0}} = {p:{r:\"\"}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }

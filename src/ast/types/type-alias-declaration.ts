@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { Identifier } from '../expressions/identifier-expr';
 import { TypeNode } from '.';
@@ -33,6 +33,7 @@ export function createTypeAlias(
     assignToken,
     type,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

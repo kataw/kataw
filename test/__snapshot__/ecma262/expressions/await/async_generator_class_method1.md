@@ -21,12 +21,14 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -36,6 +38,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -45,6 +48,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -61,6 +65,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 24
                             },
@@ -69,6 +74,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
                             },
@@ -87,6 +93,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                             "asyncKeyword": {
                                                 "kind": 82031,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 33
                                             },
@@ -95,6 +102,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
+                                                "transformFlags": 32,
                                                 "start": 33,
                                                 "end": 35
                                             },
@@ -105,6 +113,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                     "text": "f",
                                                     "rawText": "f",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 35,
                                                     "end": 36
                                                 },
@@ -120,6 +129,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                                 "text": "foo",
                                                                 "rawText": "foo",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 37,
                                                                 "end": 40
                                                             },
@@ -135,6 +145,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                                             "text": "h",
                                                                             "rawText": "h",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 44,
                                                                             "end": 45
                                                                         },
@@ -151,6 +162,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                             "text": "m",
                                                                                             "rawText": "m",
                                                                                             "flags": 96,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 48,
                                                                                             "end": 49
                                                                                         },
@@ -161,6 +173,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                                 "text": "t",
                                                                                                 "rawText": "t",
                                                                                                 "flags": 96,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 50,
                                                                                                 "end": 52
                                                                                             },
@@ -172,6 +185,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                                         "awaitKeyword": {
                                                                                                             "kind": 82196,
                                                                                                             "flags": 64,
+                                                                                                            "transformFlags": 0,
                                                                                                             "start": 53,
                                                                                                             "end": 58
                                                                                                         },
@@ -180,54 +194,65 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                                                                             "text": "bar",
                                                                                                             "rawText": "bar",
                                                                                                             "flags": 96,
+                                                                                                            "transformFlags": 0,
                                                                                                             "start": 58,
                                                                                                             "end": 62
                                                                                                         },
                                                                                                         "flags": 32,
+                                                                                                        "transformFlags": 0,
                                                                                                         "start": 53,
                                                                                                         "end": 62
                                                                                                     }
                                                                                                 ],
                                                                                                 "trailingComma": false,
                                                                                                 "flags": 32,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 53,
                                                                                                 "end": 62
                                                                                             },
                                                                                             "flags": 268435488,
+                                                                                            "transformFlags": 1,
                                                                                             "start": 48,
                                                                                             "end": 63
                                                                                         },
                                                                                         "flags": 32,
+                                                                                        "transformFlags": 128,
                                                                                         "start": 48,
                                                                                         "end": 63
                                                                                     }
                                                                                 ],
                                                                                 "trailingComma": false,
                                                                                 "flags": 16,
+                                                                                "transformFlags": 0,
                                                                                 "start": 48,
                                                                                 "end": 63
                                                                             },
                                                                             "flags": 48,
+                                                                            "transformFlags": 8,
                                                                             "start": 46,
                                                                             "end": 64
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 44,
                                                                     "end": 64
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 8,
                                                                 "start": 42,
                                                                 "end": 65
                                                             },
                                                             "flags": 34,
+                                                            "transformFlags": 0,
                                                             "start": 37,
                                                             "end": 65
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 418,
+                                                    "transformFlags": 0,
                                                     "start": 37,
                                                     "end": 66
                                                 },
@@ -239,45 +264,55 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                         "directives": [],
                                                         "statements": [],
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 67,
                                                         "end": 67
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 66,
                                                     "end": 68
                                                 },
                                                 "flags": 384,
+                                                "transformFlags": 0,
                                                 "start": 36,
                                                 "end": 68
                                             },
                                             "flags": 384,
+                                            "transformFlags": 0,
                                             "start": 28,
                                             "end": 68
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 68
                                 },
                                 "flags": 26,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 69
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 69
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 69
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 74
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 74
         }
@@ -286,6 +321,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
     "source": "async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 74
 }

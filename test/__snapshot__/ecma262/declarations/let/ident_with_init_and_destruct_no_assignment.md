@@ -28,6 +28,7 @@ let x = y, {z};
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let x = y, {z};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -50,10 +52,12 @@ let x = y, {z};
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 9
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 9
                     },
@@ -69,31 +73,37 @@ let x = y, {z};
                                         "text": "z",
                                         "rawText": "z",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 13
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 13
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 14
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 10,
                         "end": 14
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 14
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -102,6 +112,7 @@ let x = y, {z};
     "source": "let x = y, {z};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

@@ -28,6 +28,7 @@ let x = (y: any): (y[]) => {};
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let x = (y: any): (y[]) => {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -60,6 +62,7 @@ let x = (y: any): (y[]) => {};
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 10
                                         },
@@ -71,21 +74,25 @@ let x = (y: any): (y[]) => {};
                                             "type": {
                                                 "kind": 134234252,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 11,
                                                 "end": 15
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 15
                                         },
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 15
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 23
                             },
@@ -104,29 +111,35 @@ let x = (y: any): (y[]) => {};
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 20
                                             },
                                             "typeParameters": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 20
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 22
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 23
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 23
                             },
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 26
                             },
@@ -137,27 +150,33 @@ let x = (y: any): (y[]) => {};
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 28
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 29
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 29
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 29
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 29
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -166,6 +185,7 @@ let x = (y: any): (y[]) => {};
     "source": "let x = (y: any): (y[]) => {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

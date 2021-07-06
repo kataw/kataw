@@ -28,6 +28,7 @@ let x: (this) => void = () => {}
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let x: (this) => void = () => {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -64,29 +66,34 @@ let x: (this) => void = () => {}
                                                     "text": "this",
                                                     "rawText": "this",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 8,
                                                     "end": 12
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 12
                                             },
                                             "optionalToken": null,
                                             "types": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 13
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 13
                                 },
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 16
                                 },
@@ -97,18 +104,22 @@ let x: (this) => void = () => {}
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 21
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 21
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 21
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 21
                         },
@@ -121,6 +132,7 @@ let x: (this) => void = () => {}
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 25
                             },
@@ -128,6 +140,7 @@ let x: (this) => void = () => {}
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 29
                             },
@@ -138,27 +151,33 @@ let x: (this) => void = () => {}
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 31
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 32
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 32
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 32
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 32
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -167,6 +186,7 @@ let x: (this) => void = () => {}
     "source": "let x: (this) => void = () => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

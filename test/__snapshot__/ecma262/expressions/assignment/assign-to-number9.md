@@ -30,12 +30,14 @@
                     "text": 44,
                     "rawText": "0O00054",
                     "flags": 262240,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },
@@ -44,14 +46,17 @@
                     "text": 0,
                     "rawText": "0b",
                     "flags": 524384,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 12
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -60,6 +65,7 @@
     "source": "0O00054 = 0b",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

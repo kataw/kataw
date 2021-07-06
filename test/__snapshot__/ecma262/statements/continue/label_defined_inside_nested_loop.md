@@ -23,12 +23,14 @@ while (true)
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "expression": {
                 "kind": 24752947,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 11
             },
@@ -37,12 +39,14 @@ while (true)
                 "whileKeyword": {
                     "kind": 37757028,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 20
                 },
                 "expression": {
                     "kind": 24752947,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 26
                 },
@@ -58,12 +62,14 @@ while (true)
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 35
                                 },
                                 "colonToken": {
                                     "kind": 21,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 36
                                 },
@@ -72,6 +78,7 @@ while (true)
                                     "continueKeyword": {
                                         "kind": 37757009,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 36,
                                         "end": 45
                                     },
@@ -80,31 +87,38 @@ while (true)
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 45,
                                         "end": 47
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 48
                                 },
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 48
                             }
                         ],
                         "flags": 17,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 48
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 52
                 },
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 52
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 52
         }
@@ -113,6 +127,7 @@ while (true)
     "source": "while (true)\n  while (true) {\n    x: continue x;\n  }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 52
 }

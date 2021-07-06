@@ -26,6 +26,7 @@ let x = () => import {x} from "y"
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -39,6 +40,7 @@ let x = () => import {x} from "y"
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -52,6 +54,7 @@ let x = () => import {x} from "y"
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 9
                             },
@@ -59,6 +62,7 @@ let x = () => import {x} from "y"
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 13
                             },
@@ -67,6 +71,7 @@ let x = () => import {x} from "y"
                                 "importKeyword": {
                                     "kind": 37814364,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 20
                                 },
@@ -75,27 +80,33 @@ let x = () => import {x} from "y"
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 23
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 23
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 23
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 23
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 23
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         },
@@ -106,10 +117,12 @@ let x = () => import {x} from "y"
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 24,
             "end": 29
         },
@@ -120,10 +133,12 @@ let x = () => import {x} from "y"
                 "text": "y",
                 "rawText": "\"y\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 29,
             "end": 33
         }
@@ -132,6 +147,7 @@ let x = () => import {x} from "y"
     "source": "let x = () => import {x} from \"y\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

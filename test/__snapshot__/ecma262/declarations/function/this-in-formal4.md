@@ -30,6 +30,7 @@ function one(this: number) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function one(this: number) {}
                 "text": "one",
                 "rawText": "one",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -54,6 +56,7 @@ function one(this: number) {}
                             "text": "this",
                             "rawText": "this",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 17
                         },
@@ -61,12 +64,14 @@ function one(this: number) {}
                         "type": null,
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 17
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
@@ -77,10 +82,12 @@ function one(this: number) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 25
             },
@@ -91,14 +98,17 @@ function one(this: number) {}
                 "type": {
                     "kind": 134234345,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 25
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         },
@@ -108,10 +118,12 @@ function one(this: number) {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 26,
             "end": 29
         }
@@ -120,6 +132,7 @@ function one(this: number) {}
     "source": "function one(this: number) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

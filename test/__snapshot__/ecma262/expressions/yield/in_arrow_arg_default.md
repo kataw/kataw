@@ -22,12 +22,14 @@ function *g() { async (x = yield) => {}; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -36,6 +38,7 @@ function *g() { async (x = yield) => {}; }
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -45,6 +48,7 @@ function *g() { async (x = yield) => {}; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -59,6 +63,7 @@ function *g() { async (x = yield) => {}; }
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 21
                             },
@@ -74,6 +79,7 @@ function *g() { async (x = yield) => {}; }
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 24
                                         },
@@ -84,6 +90,7 @@ function *g() { async (x = yield) => {}; }
                                             "yieldKeyword": {
                                                 "kind": 8454253,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 32
                                             },
@@ -91,16 +98,19 @@ function *g() { async (x = yield) => {}; }
                                             "asteriskToken": null,
                                             "expression": null,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 26,
                                             "end": 32
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 32
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 33
                             },
@@ -108,6 +118,7 @@ function *g() { async (x = yield) => {}; }
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 36
                             },
@@ -118,34 +129,41 @@ function *g() { async (x = yield) => {}; }
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 38
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 39
                             },
                             "flags": 290,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 39
                         },
                         {
                             "kind": 168,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 40
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 40
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 42
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 42
         }
@@ -154,6 +172,7 @@ function *g() { async (x = yield) => {}; }
     "source": "function *g() { async (x = yield) => {}; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }

@@ -39,6 +39,7 @@ for (let.foo of x);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -50,6 +51,7 @@ for (let.foo of x);
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -58,16 +60,19 @@ for (let.foo of x);
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 12
                 },
                 "flags": 96,
+                "transformFlags": 2,
                 "start": 5,
                 "end": 12
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 15
             },
@@ -76,16 +81,19 @@ for (let.foo of x);
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 17
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -94,6 +102,7 @@ for (let.foo of x);
     "source": "for (let.foo of x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

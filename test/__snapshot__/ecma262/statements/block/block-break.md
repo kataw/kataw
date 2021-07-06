@@ -25,20 +25,24 @@
                         "breakKeyword": {
                             "kind": 37757005,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 7
                         },
                         "label": null,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 8
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         }
@@ -47,6 +51,7 @@
     "source": "{ break; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

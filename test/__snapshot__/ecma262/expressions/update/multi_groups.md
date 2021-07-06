@@ -28,22 +28,27 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 4
                         },
                         "flags": 2,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 5
                     },
                     "flags": 1,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 6
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         }
@@ -52,6 +57,7 @@
     "source": "(((x)));",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

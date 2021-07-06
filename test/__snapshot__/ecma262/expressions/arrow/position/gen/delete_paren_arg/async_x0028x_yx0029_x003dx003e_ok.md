@@ -29,6 +29,7 @@ delete (async (x, y) => ok)
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -39,6 +40,7 @@ delete (async (x, y) => ok)
                         "asyncKeyword": {
                             "kind": 82031,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 13
                         },
@@ -51,6 +53,7 @@ delete (async (x, y) => ok)
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 16
                                 },
@@ -59,12 +62,14 @@ delete (async (x, y) => ok)
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 19
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 20
                         },
@@ -72,6 +77,7 @@ delete (async (x, y) => ok)
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 23
                         },
@@ -80,22 +86,27 @@ delete (async (x, y) => ok)
                             "text": "ok",
                             "rawText": "ok",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 26
                         },
                         "flags": 288,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 26
                     },
                     "flags": 6,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 27
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -104,6 +115,7 @@ delete (async (x, y) => ok)
     "source": "delete (async (x, y) => ok)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

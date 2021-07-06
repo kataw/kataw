@@ -28,6 +28,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -35,6 +36,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 16
             },
@@ -44,6 +46,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 20
             },
@@ -59,6 +62,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                             "text": "config",
                             "rawText": "config",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 27
                         },
@@ -74,6 +78,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                     "text": "Config",
                                     "rawText": "Config",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 35
                                 },
@@ -100,6 +105,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                                                 "text": "foo",
                                                                 "rawText": "foo",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 37,
                                                                 "end": 40
                                                             },
@@ -113,53 +119,64 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                                                     "text": "a",
                                                                     "rawText": "'a'",
                                                                     "flags": 6291520,
+                                                                    "transformFlags": 0,
                                                                     "start": 41,
                                                                     "end": 45
                                                                 },
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 41,
                                                                 "end": 45
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 37,
                                                             "end": 45
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 36,
                                                     "end": 46
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 36,
                                                 "end": 46
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 36,
                                         "end": 46
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 47
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 47
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 47
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 47
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 47
             },
@@ -171,14 +188,17 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                 "type": {
                     "kind": 138477615,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 50,
                     "end": 55
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 50,
                 "end": 55
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 7,
             "end": 55
         }
@@ -187,6 +207,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
     "source": "declare function bar(config: Config<{foo: 'a'}>) : void",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 55
 }

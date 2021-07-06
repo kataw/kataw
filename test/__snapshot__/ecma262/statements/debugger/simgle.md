@@ -20,10 +20,12 @@ debugger
             "debuggerKeyword": {
                 "kind": 37757010,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         }
@@ -32,6 +34,7 @@ debugger
     "source": "debugger",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

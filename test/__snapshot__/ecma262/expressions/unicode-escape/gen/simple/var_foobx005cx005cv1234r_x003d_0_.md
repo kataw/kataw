@@ -28,6 +28,7 @@ var foob\\v1234r = 0;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,21 +42,25 @@ var foob\\v1234r = 0;
                             "text": "foob",
                             "rawText": "foob",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 8
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 8
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         },
@@ -68,12 +73,14 @@ var foob\\v1234r = 0;
                     "text": "v1234r",
                     "rawText": "v1234r",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 16
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 18
                 },
@@ -82,14 +89,17 @@ var foob\\v1234r = 0;
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 10,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 21
         }
@@ -98,6 +108,7 @@ var foob\\v1234r = 0;
     "source": "var foob\\\\v1234r = 0;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

@@ -29,6 +29,7 @@ class A extends oh,no {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class A extends oh,no {}
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -48,6 +50,7 @@ class A extends oh,no {}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -56,11 +59,13 @@ class A extends oh,no {}
                         "text": "oh",
                         "rawText": "oh",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 18
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 18
                 },
@@ -68,14 +73,17 @@ class A extends oh,no {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         },
@@ -86,10 +94,12 @@ class A extends oh,no {}
                 "text": "no",
                 "rawText": "no",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 19,
             "end": 21
         },
@@ -99,10 +109,12 @@ class A extends oh,no {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 21,
             "end": 24
         }
@@ -111,6 +123,7 @@ class A extends oh,no {}
     "source": "class A extends oh,no {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

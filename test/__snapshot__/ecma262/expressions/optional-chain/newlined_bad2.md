@@ -25,12 +25,14 @@ a?
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 2
                 },
@@ -41,6 +43,7 @@ a?
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 2
                     },
@@ -49,10 +52,12 @@ a?
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 5
                     },
                     "flags": 96,
+                    "transformFlags": 2,
                     "start": 2,
                     "end": 5
                 },
@@ -62,14 +67,17 @@ a?
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         }
@@ -78,6 +86,7 @@ a?
     "source": "a?\n.b",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 5
 }

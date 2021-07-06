@@ -32,6 +32,7 @@ async async => ok, async async => ok
                         "asyncKeyword": {
                             "kind": 82031,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 5
                         },
@@ -41,6 +42,7 @@ async async => ok, async async => ok
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 11
                         },
@@ -48,6 +50,7 @@ async async => ok, async async => ok
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 14
                         },
@@ -56,10 +59,12 @@ async async => ok, async async => ok
                             "text": "ok",
                             "rawText": "ok",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 17
                         },
                         "flags": 288,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 17
                     },
@@ -68,6 +73,7 @@ async async => ok, async async => ok
                         "asyncKeyword": {
                             "kind": 82031,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 24
                         },
@@ -77,6 +83,7 @@ async async => ok, async async => ok
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 30
                         },
@@ -84,6 +91,7 @@ async async => ok, async async => ok
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 33
                         },
@@ -92,19 +100,23 @@ async async => ok, async async => ok
                             "text": "ok",
                             "rawText": "ok",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 33,
                             "end": 36
                         },
                         "flags": 288,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 36
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -113,6 +125,7 @@ async async => ok, async async => ok
     "source": "async async => ok, async async => ok",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

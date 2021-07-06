@@ -31,6 +31,7 @@ var v = (a, b) => {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -44,6 +45,7 @@ var v = (a, b) => {
                             "text": "v",
                             "rawText": "v",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -60,6 +62,7 @@ var v = (a, b) => {
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 10
                                     },
@@ -68,12 +71,14 @@ var v = (a, b) => {
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 13
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 14
                             },
@@ -81,6 +86,7 @@ var v = (a, b) => {
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 17
                             },
@@ -91,27 +97,33 @@ var v = (a, b) => {
                                     "directives": [],
                                     "statements": [],
                                     "flags": 33,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 19
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 22
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 22
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 22
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -120,6 +132,7 @@ var v = (a, b) => {
     "source": "var v = (a, b) => {\n\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

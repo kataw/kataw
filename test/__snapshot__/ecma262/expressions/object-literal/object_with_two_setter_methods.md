@@ -24,6 +24,7 @@ x({set [foo](b){}, set [bar](d){}});
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -43,6 +44,7 @@ x({set [foo](b){}, set [bar](d){}});
                                         "setKeyword": {
                                             "kind": 16499,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 3,
                                             "end": 6
                                         },
@@ -55,10 +57,12 @@ x({set [foo](b){}, set [bar](d){}});
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 8,
                                                     "end": 11
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 12
                                             },
@@ -71,12 +75,14 @@ x({set [foo](b){}, set [bar](d){}});
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 13,
                                                         "end": 14
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 608,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 15
                                             },
@@ -88,18 +94,22 @@ x({set [foo](b){}, set [bar](d){}});
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 16,
                                                     "end": 16
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 17
                                             },
                                             "flags": 544,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 17
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 17
                                     },
@@ -111,6 +121,7 @@ x({set [foo](b){}, set [bar](d){}});
                                         "setKeyword": {
                                             "kind": 16499,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 22
                                         },
@@ -123,10 +134,12 @@ x({set [foo](b){}, set [bar](d){}});
                                                     "text": "bar",
                                                     "rawText": "bar",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 24,
                                                     "end": 27
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 28
                                             },
@@ -139,12 +152,14 @@ x({set [foo](b){}, set [bar](d){}});
                                                         "text": "d",
                                                         "rawText": "d",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 29,
                                                         "end": 30
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 608,
+                                                "transformFlags": 0,
                                                 "start": 29,
                                                 "end": 31
                                             },
@@ -156,42 +171,51 @@ x({set [foo](b){}, set [bar](d){}});
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 32,
                                                     "end": 32
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 33
                                             },
                                             "flags": 544,
+                                            "transformFlags": 0,
                                             "start": 28,
                                             "end": 33
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 33
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 33
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 2,
                             "end": 34
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 34
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -200,6 +224,7 @@ x({set [foo](b){}, set [bar](d){}});
     "source": "x({set [foo](b){}, set [bar](d){}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

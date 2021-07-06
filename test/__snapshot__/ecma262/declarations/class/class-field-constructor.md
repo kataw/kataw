@@ -22,6 +22,7 @@ class Foo { constructor }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class Foo { constructor }
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -51,6 +53,7 @@ class Foo { constructor }
                                 "text": "constructor",
                                 "rawText": "constructor",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 23
                             },
@@ -58,19 +61,23 @@ class Foo { constructor }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 11,
                             "end": 23
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 23
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -79,6 +86,7 @@ class Foo { constructor }
     "source": "class Foo { constructor }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

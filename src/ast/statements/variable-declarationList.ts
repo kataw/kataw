@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { VariableDeclaration } from './variable-declaration';
 
 /**
@@ -18,6 +18,7 @@ export function createVariableDeclarationList(
     kind: SyntaxKind.VariableDeclarationList,
     declarations,
     flags: NodeFlags.IsStatement,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

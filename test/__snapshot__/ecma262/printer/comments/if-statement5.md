@@ -20,6 +20,7 @@ if /* comment 1 */ (x)  /* comment 2 */  {}  /* comment 3 */  else /* comment 4 
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -28,6 +29,7 @@ if /* comment 1 */ (x)  /* comment 2 */  {}  /* comment 3 */  else /* comment 4 
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 21
             },
@@ -37,16 +39,19 @@ if /* comment 1 */ (x)  /* comment 2 */  {}  /* comment 3 */  else /* comment 4 
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 42,
                     "end": 42
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 43
             },
             "elseKeyword": {
                 "kind": 4194389,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 43,
                 "end": 66
             },
@@ -56,14 +61,17 @@ if /* comment 1 */ (x)  /* comment 2 */  {}  /* comment 3 */  else /* comment 4 
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 84,
                     "end": 84
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 66,
                 "end": 85
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 85
         }
@@ -72,6 +80,7 @@ if /* comment 1 */ (x)  /* comment 2 */  {}  /* comment 3 */  else /* comment 4 
     "source": "if /* comment 1 */ (x)  /* comment 2 */  {}  /* comment 3 */  else /* comment 4 */ {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 85
 }

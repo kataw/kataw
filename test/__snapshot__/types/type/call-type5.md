@@ -29,6 +29,7 @@ type F = $Call<Fn1, number, string>;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type F = $Call<Fn1, number, string>;
                 "text": "F",
                 "rawText": "F",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type F = $Call<Fn1, number, string>;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -58,6 +61,7 @@ type F = $Call<Fn1, number, string>;
                         "text": "$Call",
                         "rawText": "$Call",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 14
                     },
@@ -77,15 +81,18 @@ type F = $Call<Fn1, number, string>;
                                             "text": "Fn1",
                                             "rawText": "Fn1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 18
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 18
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 18
                                 },
@@ -96,10 +103,12 @@ type F = $Call<Fn1, number, string>;
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 26
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 26
                                 },
@@ -110,32 +119,39 @@ type F = $Call<Fn1, number, string>;
                                     "type": {
                                         "kind": 134234347,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 34
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 34
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 34
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 35
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 35
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 35
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -144,6 +160,7 @@ type F = $Call<Fn1, number, string>;
     "source": "type F = $Call<Fn1, number, string>;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

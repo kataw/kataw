@@ -29,12 +29,14 @@ function *f(x = (delete) = f) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -43,6 +45,7 @@ function *f(x = (delete) = f) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -58,6 +61,7 @@ function *f(x = (delete) = f) {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
@@ -72,6 +76,7 @@ function *f(x = (delete) = f) {}
                                     "operandToken": {
                                         "kind": 4259886,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 23
                                     },
@@ -80,20 +85,24 @@ function *f(x = (delete) = f) {}
                                         "text": "",
                                         "rawText": "",
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 23
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 23
                                 },
                                 "flags": 15,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 24
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
                             },
@@ -102,20 +111,24 @@ function *f(x = (delete) = f) {}
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 28
                             },
                             "flags": 0,
+                            "transformFlags": 128,
                             "start": 15,
                             "end": 28
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 28
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 28
             },
@@ -126,15 +139,18 @@ function *f(x = (delete) = f) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 31
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 32
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -143,6 +159,7 @@ function *f(x = (delete) = f) {}
     "source": "function *f(x = (delete) = f) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

@@ -24,14 +24,17 @@
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 2
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 3
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 3
         },
@@ -42,10 +45,12 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 6,
             "end": 8
         }
@@ -54,6 +59,7 @@
     "source": "(1) => x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

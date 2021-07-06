@@ -24,12 +24,14 @@ x = let []
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -40,6 +42,7 @@ x = let []
                         "text": "let",
                         "rawText": "let",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 7
                     },
@@ -48,18 +51,22 @@ x = let []
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 9
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 3,
                     "end": 10
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         }
@@ -68,6 +75,7 @@ x = let []
     "source": "x = let []",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

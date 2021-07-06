@@ -38,10 +38,12 @@
                 "text": "}",
                 "rawText": "\"\\u{1}\"",
                 "flags": 8288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -52,10 +54,12 @@
                 "text": "\u0012",
                 "rawText": "\"\\u{12}\"",
                 "flags": 8289,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 9,
             "end": 20
         },
@@ -66,10 +70,12 @@
                 "text": "ģ",
                 "rawText": "\"\\u{123}\"",
                 "flags": 8289,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 20,
             "end": 32
         },
@@ -80,10 +86,12 @@
                 "text": "ሴ",
                 "rawText": "\"\\u{1234}\"",
                 "flags": 8289,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 43
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 32,
             "end": 45
         },
@@ -94,10 +102,12 @@
                 "text": "Hͅ",
                 "rawText": "\"\\u{12345}\"",
                 "flags": 8289,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 57
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 45,
             "end": 59
         },
@@ -108,10 +118,12 @@
                 "text": "ЍV",
                 "rawText": "\"\\u{103456}\"",
                 "flags": 8289,
+                "transformFlags": 0,
                 "start": 59,
                 "end": 72
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 59,
             "end": 72
         }
@@ -120,6 +132,7 @@
     "source": "\"\\u{1}\"\n;\n\"\\u{12}\"\n;\n\"\\u{123}\"\n;\n\"\\u{1234}\"\n;\n\"\\u{12345}\"\n;\n\"\\u{103456}\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 72
 }

@@ -22,10 +22,12 @@
                 "text": "",
                 "rawText": "\"\\u{1234",
                 "flags": 8288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         }
@@ -34,6 +36,7 @@
     "source": "\"\\u{1234",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

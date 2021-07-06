@@ -33,10 +33,12 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -45,6 +47,7 @@
     "source": "// detached comment 1\n\n\n\n\n  x;\n\n\n\n\n/* detached comment 2 */\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 60
 }

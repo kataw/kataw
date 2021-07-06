@@ -21,10 +21,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 2
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 3
         }
@@ -33,6 +35,7 @@
     "source": " {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 3
 }

@@ -27,6 +27,7 @@ async (foo = yield x) => foo
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,6 +43,7 @@ async (foo = yield x) => foo
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 10
                         },
@@ -52,10 +54,12 @@ async (foo = yield x) => foo
                             "text": "yield",
                             "rawText": "yield",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 18
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 18
                     },
@@ -64,12 +68,14 @@ async (foo = yield x) => foo
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 20
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 21
             },
@@ -77,6 +83,7 @@ async (foo = yield x) => foo
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 24
             },
@@ -85,10 +92,12 @@ async (foo = yield x) => foo
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 28
             },
             "flags": 290,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -97,6 +106,7 @@ async (foo = yield x) => foo
     "source": "async (foo = yield x) => foo",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

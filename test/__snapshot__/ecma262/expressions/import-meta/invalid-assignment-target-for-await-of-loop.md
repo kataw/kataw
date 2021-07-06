@@ -29,18 +29,21 @@ async function* f() {
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 14,
                 "end": 15
             },
@@ -49,6 +52,7 @@ async function* f() {
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 17
             },
@@ -58,6 +62,7 @@ async function* f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 18
             },
@@ -72,12 +77,14 @@ async function* f() {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 29
                             },
                             "awaitKeyword": {
                                 "kind": 82196,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 35
                             },
@@ -86,52 +93,62 @@ async function* f() {
                                 "importKeyword": {
                                     "kind": 37814364,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 43
                                 },
                                 "metaIdentifier": {
                                     "kind": 16595,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 48
                                 },
                                 "flags": 43,
+                                "transformFlags": 0,
                                 "start": 96,
                                 "end": 48
                             },
                             "ofKeyword": {
                                 "kind": 16793717,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 48,
                                 "end": 51
                             },
                             "expression": {
                                 "kind": 138477575,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 51,
                                 "end": 56
                             },
                             "statement": {
                                 "kind": 168,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 57,
                                 "end": 59
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 59
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 59
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 61
             },
             "returnType": null,
             "flags": 400,
+            "transformFlags": 0,
             "start": 0,
             "end": 61
         }
@@ -140,6 +157,7 @@ async function* f() {
     "source": "async function* f() {\n    for await (import.meta of null) ;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 61
 }

@@ -22,10 +22,12 @@
                 "text": "il}",
                 "rawText": "\"\\u{0fail}\"",
                 "flags": 8288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         }
@@ -34,6 +36,7 @@
     "source": "\"\\u{0fail}\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

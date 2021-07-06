@@ -36,12 +36,14 @@
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 8
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 17
                                 },
@@ -51,6 +53,7 @@
                                     "text": "await",
                                     "rawText": "await",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 23
                                 },
@@ -60,6 +63,7 @@
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 24
                                 },
@@ -70,32 +74,39 @@
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 27
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 29
                                 },
                                 "returnType": null,
                                 "flags": 160,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 29
                             },
                             "flags": 1,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 30
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 30
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -104,6 +115,7 @@
     "source": "{ (async function await() { }) }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

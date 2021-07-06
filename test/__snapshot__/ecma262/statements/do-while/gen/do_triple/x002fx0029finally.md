@@ -27,6 +27,7 @@ do do do /)finally while while while
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -35,6 +36,7 @@ do do do /)finally while while while
                 "doKeyword": {
                     "kind": 4202580,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 5
                 },
@@ -43,6 +45,7 @@ do do do /)finally while while while
                     "doKeyword": {
                         "kind": 4202580,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 8
                     },
@@ -52,10 +55,12 @@ do do do /)finally while while while
                             "kind": 371,
                             "text": "/)finally while while while",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 36
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 36
                     },
@@ -65,10 +70,12 @@ do do do /)finally while while while
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 36,
                         "end": 36
                     },
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 36
                 },
@@ -78,10 +85,12 @@ do do do /)finally while while while
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 36,
                     "end": 36
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 36
             },
@@ -91,10 +100,12 @@ do do do /)finally while while while
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 36,
                 "end": 36
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -103,6 +114,7 @@ do do do /)finally while while while
     "source": "do do do /)finally while while while",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

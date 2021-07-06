@@ -29,6 +29,7 @@ async _ => _
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -38,6 +39,7 @@ async _ => _
                     "text": "_",
                     "rawText": "_",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -45,6 +47,7 @@ async _ => _
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 10
                 },
@@ -57,12 +60,14 @@ async _ => _
                             "text": "_",
                             "rawText": "_",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 12
                         },
                         "operatorToken": {
                             "kind": 35640,
                             "flags": 97,
+                            "transformFlags": 32,
                             "start": 12,
                             "end": 14
                         },
@@ -71,16 +76,19 @@ async _ => _
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 17
                         },
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 17
                     },
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 17,
                         "end": 18
                     },
@@ -89,18 +97,22 @@ async _ => _
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 18
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 18
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -109,6 +121,7 @@ async _ => _
     "source": "async _ => _\n/foo/",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

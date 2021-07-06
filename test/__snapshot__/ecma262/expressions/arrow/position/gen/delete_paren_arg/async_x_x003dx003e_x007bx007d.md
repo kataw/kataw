@@ -29,6 +29,7 @@ delete (async x => {})
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -39,6 +40,7 @@ delete (async x => {})
                         "asyncKeyword": {
                             "kind": 82031,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 13
                         },
@@ -48,6 +50,7 @@ delete (async x => {})
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 15
                         },
@@ -55,6 +58,7 @@ delete (async x => {})
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 18
                         },
@@ -65,26 +69,32 @@ delete (async x => {})
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 20
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 21
                         },
                         "flags": 288,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 21
                     },
                     "flags": 6,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 22
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -93,6 +103,7 @@ delete (async x => {})
     "source": "delete (async x => {})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

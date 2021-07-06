@@ -32,6 +32,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -59,6 +60,7 @@
                                             "text": "constructor",
                                             "rawText": "constructor",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 20
                                         },
@@ -71,12 +73,14 @@
                                                     "text": "enum",
                                                     "rawText": "enum",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 21,
                                                     "end": 25
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2144,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 26
                                         },
@@ -88,39 +92,48 @@
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 28
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 26,
                                             "end": 29
                                         },
                                         "flags": 2048,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 29
                                     },
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 29
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 29
                         },
                         "flags": 6,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 31
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 31
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -129,6 +142,7 @@
     "source": "(class { constructor(enum) {} });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

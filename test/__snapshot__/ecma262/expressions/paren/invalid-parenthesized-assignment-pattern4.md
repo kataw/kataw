@@ -31,26 +31,31 @@
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 3
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 3
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 1,
                         "end": 4
                     },
                     "flags": 0,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -61,18 +66,22 @@
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 9
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 7,
                     "end": 10
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         }
@@ -81,6 +90,7 @@
     "source": "([a]) = []",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

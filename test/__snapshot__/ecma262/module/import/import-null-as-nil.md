@@ -26,6 +26,7 @@ import { null as nil } from "bar"
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ import { null as nil } from "bar"
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 27
                 },
@@ -44,10 +46,12 @@ import { null as nil } from "bar"
                     "text": "bar",
                     "rawText": "\"bar\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 33
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 33
             },
@@ -70,12 +74,14 @@ import { null as nil } from "bar"
                                     "text": "null",
                                     "rawText": "null",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 13
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 16
                                 },
@@ -84,27 +90,33 @@ import { null as nil } from "bar"
                                     "text": "nil",
                                     "rawText": "nil",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 20
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 20
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 20
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 22
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 22
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -113,6 +125,7 @@ import { null as nil } from "bar"
     "source": "import { null as nil } from \"bar\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

@@ -42,50 +42,62 @@
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 10,
                                                         "end": 11
                                                     },
                                                     "flags": 9,
+                                                    "transformFlags": 0,
                                                     "start": 32,
                                                     "end": 12
                                                 },
                                                 "flags": 8,
+                                                "transformFlags": 0,
                                                 "start": 32,
                                                 "end": 13
                                             },
                                             "flags": 7,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 14
                                         },
                                         "flags": 6,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 15
                                     },
                                     "flags": 5,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 16
                                 },
                                 "flags": 4,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 17
                             },
                             "flags": 3,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 18
                         },
                         "flags": 2,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 19
                     },
                     "flags": 1,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 20
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -94,6 +106,7 @@
     "source": "((((((((((x))))))))));",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

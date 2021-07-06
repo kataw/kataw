@@ -29,6 +29,7 @@
                             "parameters": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 1
                         },
@@ -36,6 +37,7 @@
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 5
                         },
@@ -44,10 +46,12 @@
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 7
                     },
@@ -56,15 +60,18 @@
                         "text": 42,
                         "rawText": "42",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 11
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -73,6 +80,7 @@
     "source": "() => 1, 42;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

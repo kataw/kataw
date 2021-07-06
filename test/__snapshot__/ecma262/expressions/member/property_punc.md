@@ -30,6 +30,7 @@ y.)
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -38,14 +39,17 @@ y.)
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 2
                 },
                 "flags": 96,
+                "transformFlags": 2,
                 "start": 0,
                 "end": 2
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 2
         }
@@ -54,6 +58,7 @@ y.)
     "source": "y.)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 3
 }

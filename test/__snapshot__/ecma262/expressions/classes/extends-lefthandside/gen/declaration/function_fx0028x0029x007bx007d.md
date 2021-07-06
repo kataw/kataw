@@ -29,6 +29,7 @@ class A extends function f(){} {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class A extends function f(){} {}
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -48,6 +50,7 @@ class A extends function f(){} {}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -57,6 +60,7 @@ class A extends function f(){} {}
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 24
                         },
@@ -66,6 +70,7 @@ class A extends function f(){} {}
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 26
                         },
@@ -75,6 +80,7 @@ class A extends function f(){} {}
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 27
                         },
@@ -85,20 +91,24 @@ class A extends function f(){} {}
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 29
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 30
                         },
                         "returnType": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 30
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 30
                 },
@@ -106,14 +116,17 @@ class A extends function f(){} {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 32
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -122,6 +135,7 @@ class A extends function f(){} {}
     "source": "class A extends function f(){} {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

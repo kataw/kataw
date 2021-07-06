@@ -28,6 +28,7 @@ var [localVar = defaultValue] = obj
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -49,6 +50,7 @@ var [localVar = defaultValue] = obj
                                             "text": "localVar",
                                             "rawText": "localVar",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 13
                                         },
@@ -59,20 +61,24 @@ var [localVar = defaultValue] = obj
                                             "text": "defaultValue",
                                             "rawText": "defaultValue",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 28
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 28
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 28
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 29
                         },
@@ -82,19 +88,23 @@ var [localVar = defaultValue] = obj
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 35
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 35
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -103,6 +113,7 @@ var [localVar = defaultValue] = obj
     "source": "var [localVar = defaultValue] = obj",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

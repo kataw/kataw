@@ -31,6 +31,7 @@ var z = x + x;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -44,6 +45,7 @@ var z = x + x;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -54,24 +56,29 @@ var z = x + x;
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 10
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 10
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 10
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -86,6 +93,7 @@ var z = x + x;
                         "text": "x",
                         "rawText": "x",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 13
                     },
@@ -94,16 +102,19 @@ var z = x + x;
                         "text": "name",
                         "rawText": "name",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 18
                     },
                     "flags": 97,
+                    "transformFlags": 2,
                     "start": 11,
                     "end": 18
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
@@ -112,14 +123,17 @@ var z = x + x;
                     "text": "hello",
                     "rawText": "\"hello\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 28
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 11,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 29
         },
@@ -129,6 +143,7 @@ var z = x + x;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 33
             },
@@ -142,6 +157,7 @@ var z = x + x;
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 33,
                             "end": 35
                         },
@@ -153,12 +169,14 @@ var z = x + x;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 39
                             },
                             "operatorToken": {
                                 "kind": 99634,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 41
                             },
@@ -167,23 +185,28 @@ var z = x + x;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 43
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 37,
                             "end": 43
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 33,
                         "end": 43
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 43
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 29,
             "end": 44
         }
@@ -192,6 +215,7 @@ var z = x + x;
     "source": "var x: any;\nx.name = \"hello\";\nvar z = x + x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 44
 }
@@ -204,7 +228,7 @@ var z = x + x;
 var x: any ;
 x.name = "\"hello\"";
 
-var z = x +  x;
+var z = x + x;
 
 ```
 

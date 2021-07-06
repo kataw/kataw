@@ -29,6 +29,7 @@ new async => {}
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -37,15 +38,18 @@ new async => {}
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 9
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -55,10 +59,12 @@ new async => {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 12,
             "end": 15
         }
@@ -67,6 +73,7 @@ new async => {}
     "source": "new async => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

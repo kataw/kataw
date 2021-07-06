@@ -40,6 +40,7 @@ let nx: mixed;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -53,6 +54,7 @@ let nx: mixed;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -63,24 +65,29 @@ let nx: mixed;
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 10
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 10
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 10
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 10
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -89,6 +96,7 @@ let nx: mixed;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 15
             },
@@ -102,6 +110,7 @@ let nx: mixed;
                             "text": "un",
                             "rawText": "un",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 18
                         },
@@ -112,24 +121,29 @@ let nx: mixed;
                             "type": {
                                 "kind": 134234255,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 27
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 27
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 15,
                         "end": 27
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 27
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 11,
             "end": 28
         },
@@ -138,6 +152,7 @@ let nx: mixed;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 32
             },
@@ -151,6 +166,7 @@ let nx: mixed;
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 34
                         },
@@ -161,24 +177,29 @@ let nx: mixed;
                             "type": {
                                 "kind": 134234254,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 43
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 35,
                             "end": 43
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 32,
                         "end": 43
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 43
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 28,
             "end": 44
         },
@@ -187,6 +208,7 @@ let nx: mixed;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 44,
                 "end": 48
             },
@@ -200,6 +222,7 @@ let nx: mixed;
                             "text": "ne",
                             "rawText": "ne",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 48,
                             "end": 51
                         },
@@ -210,24 +233,29 @@ let nx: mixed;
                             "type": {
                                 "kind": 134234349,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 52,
                                 "end": 58
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 52,
                             "end": 58
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 48,
                         "end": 58
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 48,
                 "end": 58
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 44,
             "end": 59
         },
@@ -236,6 +264,7 @@ let nx: mixed;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 59,
                 "end": 63
             },
@@ -249,6 +278,7 @@ let nx: mixed;
                             "text": "nul",
                             "rawText": "nul",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 63,
                             "end": 67
                         },
@@ -259,24 +289,29 @@ let nx: mixed;
                             "type": {
                                 "kind": 138477575,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 68,
                                 "end": 73
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 68,
                             "end": 73
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 63,
                         "end": 73
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 63,
                 "end": 73
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 59,
             "end": 74
         },
@@ -285,6 +320,7 @@ let nx: mixed;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 74,
                 "end": 78
             },
@@ -298,6 +334,7 @@ let nx: mixed;
                             "text": "num",
                             "rawText": "num",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 78,
                             "end": 82
                         },
@@ -308,24 +345,29 @@ let nx: mixed;
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 83,
                                 "end": 90
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 83,
                             "end": 90
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 78,
                         "end": 90
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 78,
                 "end": 90
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 74,
             "end": 91
         },
@@ -334,6 +376,7 @@ let nx: mixed;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 91,
                 "end": 95
             },
@@ -347,6 +390,7 @@ let nx: mixed;
                             "text": "o",
                             "rawText": "o",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 95,
                             "end": 97
                         },
@@ -357,24 +401,29 @@ let nx: mixed;
                             "type": {
                                 "kind": 134234474,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 98,
                                 "end": 105
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 98,
                             "end": 105
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 95,
                         "end": 105
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 95,
                 "end": 105
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 91,
             "end": 106
         },
@@ -383,6 +432,7 @@ let nx: mixed;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 106,
                 "end": 110
             },
@@ -396,6 +446,7 @@ let nx: mixed;
                             "text": "st",
                             "rawText": "st",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 110,
                             "end": 113
                         },
@@ -406,24 +457,29 @@ let nx: mixed;
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 114,
                                 "end": 121
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 114,
                             "end": 121
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 110,
                         "end": 121
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 110,
                 "end": 121
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 106,
             "end": 122
         },
@@ -432,6 +488,7 @@ let nx: mixed;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 122,
                 "end": 126
             },
@@ -445,6 +502,7 @@ let nx: mixed;
                             "text": "sy",
                             "rawText": "sy",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 126,
                             "end": 129
                         },
@@ -455,24 +513,29 @@ let nx: mixed;
                             "type": {
                                 "kind": 134234343,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 130,
                                 "end": 137
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 130,
                             "end": 137
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 126,
                         "end": 137
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 126,
                 "end": 137
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 122,
             "end": 138
         },
@@ -481,6 +544,7 @@ let nx: mixed;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 138,
                 "end": 142
             },
@@ -494,6 +558,7 @@ let nx: mixed;
                             "text": "u",
                             "rawText": "u",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 142,
                             "end": 144
                         },
@@ -504,24 +569,29 @@ let nx: mixed;
                             "type": {
                                 "kind": 134234253,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 145,
                                 "end": 155
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 145,
                             "end": 155
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 142,
                         "end": 155
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 142,
                 "end": 155
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 138,
             "end": 156
         },
@@ -530,6 +600,7 @@ let nx: mixed;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 156,
                 "end": 160
             },
@@ -543,6 +614,7 @@ let nx: mixed;
                             "text": "v",
                             "rawText": "v",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 160,
                             "end": 162
                         },
@@ -553,24 +625,29 @@ let nx: mixed;
                             "type": {
                                 "kind": 138477615,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 163,
                                 "end": 168
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 163,
                             "end": 168
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 160,
                         "end": 168
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 160,
                 "end": 168
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 156,
             "end": 169
         },
@@ -579,6 +656,7 @@ let nx: mixed;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 169,
                 "end": 173
             },
@@ -592,6 +670,7 @@ let nx: mixed;
                             "text": "n",
                             "rawText": "n",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 173,
                             "end": 175
                         },
@@ -606,29 +685,35 @@ let nx: mixed;
                                     "text": "bigint",
                                     "rawText": "bigint",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 176,
                                     "end": 183
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 176,
                                 "end": 183
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 176,
                             "end": 183
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 173,
                         "end": 183
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 173,
                 "end": 183
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 169,
             "end": 184
         },
@@ -637,6 +722,7 @@ let nx: mixed;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 184,
                 "end": 188
             },
@@ -650,6 +736,7 @@ let nx: mixed;
                             "text": "nx",
                             "rawText": "nx",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 188,
                             "end": 191
                         },
@@ -664,29 +751,35 @@ let nx: mixed;
                                     "text": "mixed",
                                     "rawText": "mixed",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 192,
                                     "end": 198
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 192,
                                 "end": 198
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 192,
                             "end": 198
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 188,
                         "end": 198
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 188,
                 "end": 198
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 184,
             "end": 199
         }
@@ -695,6 +788,7 @@ let nx: mixed;
     "source": "let a: any;\nlet un: unknown;\nlet b: boolean;\nlet ne: never;\nlet nul: null;\nlet num: number;\nlet o: object;\nlet st: string;\nlet sy: symbol;\nlet u: undefined;\nlet v: void;\nlet n: bigint;\nlet nx: mixed;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 199
 }

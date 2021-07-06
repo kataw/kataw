@@ -29,10 +29,12 @@
                 "text": 42,
                 "rawText": "42",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 2
         }
@@ -41,6 +43,7 @@
     "source": "42 /* block comment 1 */ /* block comment 2 */",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 46
 }

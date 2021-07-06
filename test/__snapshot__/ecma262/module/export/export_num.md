@@ -26,12 +26,14 @@ export default 15;
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -40,10 +42,12 @@ export default 15;
                 "text": 15,
                 "rawText": "15",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -52,6 +56,7 @@ export default 15;
     "source": "export default 15;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

@@ -20,6 +20,7 @@ while (foo) bar;
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -28,6 +29,7 @@ while (foo) bar;
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 10
             },
@@ -38,14 +40,17 @@ while (foo) bar;
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 15
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 16
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -54,6 +59,7 @@ while (foo) bar;
     "source": "while (foo) bar;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

@@ -22,12 +22,14 @@ function *f(){  foo(await)  }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -36,6 +38,7 @@ function *f(){  foo(await)  }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -45,6 +48,7 @@ function *f(){  foo(await)  }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -63,6 +67,7 @@ function *f(){  foo(await)  }
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 19
                                 },
@@ -74,34 +79,41 @@ function *f(){  foo(await)  }
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 25
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 25
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 14,
                                 "end": 26
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 26
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 26
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 29
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -110,6 +122,7 @@ function *f(){  foo(await)  }
     "source": "function *f(){  foo(await)  }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

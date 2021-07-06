@@ -53,6 +53,7 @@ class Array { concat(items:number | string) {}; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -61,6 +62,7 @@ class Array { concat(items:number | string) {}; }
                 "text": "Foo4",
                 "rawText": "Foo4",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 10
             },
@@ -76,6 +78,7 @@ class Array { concat(items:number | string) {}; }
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 12
                             },
@@ -83,16 +86,19 @@ class Array { concat(items:number | string) {}; }
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 12
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 13
             },
@@ -103,14 +109,17 @@ class Array { concat(items:number | string) {}; }
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
                 "flags": 13,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         },
@@ -121,6 +130,7 @@ class Array { concat(items:number | string) {}; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 22
             },
@@ -129,6 +139,7 @@ class Array { concat(items:number | string) {}; }
                 "text": "Foo5",
                 "rawText": "Foo5",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 27
             },
@@ -144,6 +155,7 @@ class Array { concat(items:number | string) {}; }
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 29
                             },
@@ -151,16 +163,19 @@ class Array { concat(items:number | string) {}; }
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 29
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 29
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 30
             },
@@ -171,6 +186,7 @@ class Array { concat(items:number | string) {}; }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 30,
                         "end": 38
                     },
@@ -179,6 +195,7 @@ class Array { concat(items:number | string) {}; }
                         "text": "Bar",
                         "rawText": "Bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 38,
                         "end": 42
                     },
@@ -198,29 +215,35 @@ class Array { concat(items:number | string) {}; }
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 43,
                                             "end": 44
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 43,
                                         "end": 44
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 44
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 43,
                             "end": 44
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 42,
                         "end": 45
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 45
                 },
@@ -228,14 +251,17 @@ class Array { concat(items:number | string) {}; }
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 47,
                     "end": 47
                 },
                 "flags": 30,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 48
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 16,
             "end": 48
         },
@@ -246,6 +272,7 @@ class Array { concat(items:number | string) {}; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 48,
                 "end": 54
             },
@@ -254,6 +281,7 @@ class Array { concat(items:number | string) {}; }
                 "text": "Foo6",
                 "rawText": "Foo6",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 54,
                 "end": 59
             },
@@ -269,6 +297,7 @@ class Array { concat(items:number | string) {}; }
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 60,
                                 "end": 61
                             },
@@ -276,16 +305,19 @@ class Array { concat(items:number | string) {}; }
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 60,
                             "end": 61
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 60,
                     "end": 61
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 59,
                 "end": 62
             },
@@ -296,6 +328,7 @@ class Array { concat(items:number | string) {}; }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 62,
                         "end": 70
                     },
@@ -306,6 +339,7 @@ class Array { concat(items:number | string) {}; }
                             "text": "mixin",
                             "rawText": "mixin",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 70,
                             "end": 76
                         },
@@ -317,21 +351,25 @@ class Array { concat(items:number | string) {}; }
                                     "text": "Bar",
                                     "rawText": "Bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 77,
                                     "end": 80
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 77,
                             "end": 80
                         },
                         "flags": 268435488,
+                        "transformFlags": 1,
                         "start": 70,
                         "end": 81
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 70,
                     "end": 81
                 },
@@ -339,14 +377,17 @@ class Array { concat(items:number | string) {}; }
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 83,
                     "end": 83
                 },
                 "flags": 62,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 84
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 48,
             "end": 84
         },
@@ -357,6 +398,7 @@ class Array { concat(items:number | string) {}; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 84,
                 "end": 90
             },
@@ -365,6 +407,7 @@ class Array { concat(items:number | string) {}; }
                 "text": "Foo1",
                 "rawText": "Foo1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 90,
                 "end": 95
             },
@@ -385,6 +428,7 @@ class Array { concat(items:number | string) {}; }
                             "getKeyword": {
                                 "kind": 16499,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 97,
                                 "end": 103
                             },
@@ -396,6 +440,7 @@ class Array { concat(items:number | string) {}; }
                                     "text": "fooProp",
                                     "rawText": "fooProp",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 103,
                                     "end": 111
                                 },
@@ -411,6 +456,7 @@ class Array { concat(items:number | string) {}; }
                                                 "text": "value",
                                                 "rawText": "value",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 112,
                                                 "end": 117
                                             },
@@ -422,21 +468,25 @@ class Array { concat(items:number | string) {}; }
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 118,
                                                     "end": 125
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 118,
                                                 "end": 125
                                             },
                                             "right": null,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 112,
                                             "end": 125
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 544,
+                                    "transformFlags": 0,
                                     "start": 112,
                                     "end": 126
                                 },
@@ -448,31 +498,38 @@ class Array { concat(items:number | string) {}; }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 128,
                                         "end": 128
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 126,
                                     "end": 129
                                 },
                                 "flags": 512,
+                                "transformFlags": 0,
                                 "start": 111,
                                 "end": 129
                             },
                             "flags": 512,
+                            "transformFlags": 0,
                             "start": 97,
                             "end": 129
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 97,
                     "end": 129
                 },
                 "flags": 95,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 131
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 84,
             "end": 131
         },
@@ -483,6 +540,7 @@ class Array { concat(items:number | string) {}; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 131,
                 "end": 137
             },
@@ -491,6 +549,7 @@ class Array { concat(items:number | string) {}; }
                 "text": "Foo2",
                 "rawText": "Foo2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 137,
                 "end": 142
             },
@@ -511,6 +570,7 @@ class Array { concat(items:number | string) {}; }
                             "getKeyword": {
                                 "kind": 16499,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 144,
                                 "end": 150
                             },
@@ -522,6 +582,7 @@ class Array { concat(items:number | string) {}; }
                                     "text": "fooProp",
                                     "rawText": "fooProp",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 150,
                                     "end": 158
                                 },
@@ -537,6 +598,7 @@ class Array { concat(items:number | string) {}; }
                                                 "text": "value",
                                                 "rawText": "value",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 159,
                                                 "end": 164
                                             },
@@ -548,21 +610,25 @@ class Array { concat(items:number | string) {}; }
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 165,
                                                     "end": 172
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 165,
                                                 "end": 172
                                             },
                                             "right": null,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 159,
                                             "end": 172
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 544,
+                                    "transformFlags": 0,
                                     "start": 159,
                                     "end": 173
                                 },
@@ -573,10 +639,12 @@ class Array { concat(items:number | string) {}; }
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 174,
                                         "end": 179
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 174,
                                     "end": 179
                                 },
@@ -587,31 +655,38 @@ class Array { concat(items:number | string) {}; }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 181,
                                         "end": 181
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 179,
                                     "end": 182
                                 },
                                 "flags": 512,
+                                "transformFlags": 0,
                                 "start": 158,
                                 "end": 182
                             },
                             "flags": 512,
+                            "transformFlags": 0,
                             "start": 144,
                             "end": 182
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 144,
                     "end": 182
                 },
                 "flags": 142,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 184
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 131,
             "end": 184
         },
@@ -622,6 +697,7 @@ class Array { concat(items:number | string) {}; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 184,
                 "end": 190
             },
@@ -630,6 +706,7 @@ class Array { concat(items:number | string) {}; }
                 "text": "Foo3",
                 "rawText": "Foo3",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 190,
                 "end": 195
             },
@@ -649,6 +726,7 @@ class Array { concat(items:number | string) {}; }
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 197,
                                 "end": 203
                             },
@@ -661,6 +739,7 @@ class Array { concat(items:number | string) {}; }
                                     "text": "fooProp",
                                     "rawText": "fooProp",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 203,
                                     "end": 211
                                 },
@@ -670,6 +749,7 @@ class Array { concat(items:number | string) {}; }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 212,
                                     "end": 213
                                 },
@@ -680,10 +760,12 @@ class Array { concat(items:number | string) {}; }
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 214,
                                         "end": 221
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 214,
                                     "end": 221
                                 },
@@ -694,31 +776,38 @@ class Array { concat(items:number | string) {}; }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 223,
                                         "end": 223
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 221,
                                     "end": 224
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 211,
                                 "end": 224
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 197,
                             "end": 224
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 197,
                     "end": 224
                 },
                 "flags": 195,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 226
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 184,
             "end": 226
         },
@@ -729,6 +818,7 @@ class Array { concat(items:number | string) {}; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 226,
                 "end": 232
             },
@@ -737,6 +827,7 @@ class Array { concat(items:number | string) {}; }
                 "text": "Foo8",
                 "rawText": "Foo8",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 232,
                 "end": 237
             },
@@ -763,6 +854,7 @@ class Array { concat(items:number | string) {}; }
                                     "text": "bar",
                                     "rawText": "\"bar\"",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 239,
                                     "end": 247
                                 },
@@ -778,6 +870,7 @@ class Array { concat(items:number | string) {}; }
                                                     "text": "T",
                                                     "rawText": "T",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 248,
                                                     "end": 249
                                                 },
@@ -785,16 +878,19 @@ class Array { concat(items:number | string) {}; }
                                                 "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 248,
                                                 "end": 249
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 248,
                                         "end": 249
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 247,
                                     "end": 250
                                 },
@@ -803,6 +899,7 @@ class Array { concat(items:number | string) {}; }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 251,
                                     "end": 252
                                 },
@@ -814,31 +911,38 @@ class Array { concat(items:number | string) {}; }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 254,
                                         "end": 254
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 252,
                                     "end": 255
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 247,
                                 "end": 255
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 239,
                             "end": 255
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 239,
                     "end": 255
                 },
                 "flags": 237,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 257
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 226,
             "end": 257
         },
@@ -849,6 +953,7 @@ class Array { concat(items:number | string) {}; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 257,
                 "end": 263
             },
@@ -857,6 +962,7 @@ class Array { concat(items:number | string) {}; }
                 "text": "Foo10",
                 "rawText": "Foo10",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 263,
                 "end": 269
             },
@@ -874,6 +980,7 @@ class Array { concat(items:number | string) {}; }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 271,
                                 "end": 280
                             },
@@ -883,6 +990,7 @@ class Array { concat(items:number | string) {}; }
                                 "text": "prop1",
                                 "rawText": "prop1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 280,
                                 "end": 286
                             },
@@ -894,21 +1002,25 @@ class Array { concat(items:number | string) {}; }
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 287,
                                     "end": 294
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 287,
                                 "end": 294
                             },
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 280,
                             "end": 294
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 294,
                             "end": 295
                         },
@@ -923,6 +1035,7 @@ class Array { concat(items:number | string) {}; }
                                 "text": "prop2",
                                 "rawText": "prop2",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 295,
                                 "end": 303
                             },
@@ -934,34 +1047,41 @@ class Array { concat(items:number | string) {}; }
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 304,
                                     "end": 311
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 304,
                                 "end": 311
                             },
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 295,
                             "end": 311
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 311,
                             "end": 312
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 271,
                     "end": 312
                 },
                 "flags": 269,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 314
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 257,
             "end": 314
         },
@@ -972,6 +1092,7 @@ class Array { concat(items:number | string) {}; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 314,
                 "end": 320
             },
@@ -980,6 +1101,7 @@ class Array { concat(items:number | string) {}; }
                 "text": "Foo11",
                 "rawText": "Foo11",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 320,
                 "end": 326
             },
@@ -1001,6 +1123,7 @@ class Array { concat(items:number | string) {}; }
                                 "text": "#prop1",
                                 "rawText": "#prop1",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 328,
                                 "end": 337
                             },
@@ -1012,21 +1135,25 @@ class Array { concat(items:number | string) {}; }
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 338,
                                     "end": 345
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 338,
                                 "end": 345
                             },
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 328,
                             "end": 345
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 345,
                             "end": 346
                         },
@@ -1041,6 +1168,7 @@ class Array { concat(items:number | string) {}; }
                                 "text": "prop2",
                                 "rawText": "prop2",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 346,
                                 "end": 354
                             },
@@ -1052,34 +1180,41 @@ class Array { concat(items:number | string) {}; }
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 355,
                                     "end": 362
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 355,
                                 "end": 362
                             },
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 346,
                             "end": 362
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 362,
                             "end": 363
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 328,
                     "end": 363
                 },
                 "flags": 326,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 365
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 314,
             "end": 365
         },
@@ -1090,6 +1225,7 @@ class Array { concat(items:number | string) {}; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 365,
                 "end": 371
             },
@@ -1098,6 +1234,7 @@ class Array { concat(items:number | string) {}; }
                 "text": "Array",
                 "rawText": "Array",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 371,
                 "end": 377
             },
@@ -1124,6 +1261,7 @@ class Array { concat(items:number | string) {}; }
                                     "text": "concat",
                                     "rawText": "concat",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 379,
                                     "end": 386
                                 },
@@ -1139,6 +1277,7 @@ class Array { concat(items:number | string) {}; }
                                                 "text": "items",
                                                 "rawText": "items",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 387,
                                                 "end": 392
                                             },
@@ -1153,32 +1292,38 @@ class Array { concat(items:number | string) {}; }
                                                         {
                                                             "kind": 134234345,
                                                             "flags": 2097216,
+                                                            "transformFlags": 0,
                                                             "start": 393,
                                                             "end": 399
                                                         },
                                                         {
                                                             "kind": 134234347,
                                                             "flags": 2097216,
+                                                            "transformFlags": 0,
                                                             "start": 401,
                                                             "end": 408
                                                         }
                                                     ],
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 399,
                                                     "end": 408
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 393,
                                                 "end": 408
                                             },
                                             "right": null,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 387,
                                             "end": 408
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 387,
                                     "end": 409
                                 },
@@ -1190,37 +1335,45 @@ class Array { concat(items:number | string) {}; }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 411,
                                         "end": 411
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 409,
                                     "end": 412
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 386,
                                 "end": 412
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 379,
                             "end": 412
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 412,
                             "end": 413
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 379,
                     "end": 413
                 },
                 "flags": 377,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 415
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 365,
             "end": 415
         }
@@ -1229,6 +1382,7 @@ class Array { concat(items:number | string) {}; }
     "source": "class Foo4<T> {}\nclass Foo5<T> extends Bar<T> {}\nclass Foo6<T> extends mixin(Bar) {}\nclass Foo1 {\n  set fooProp(value: number) {}\n}\nclass Foo2 {\n  set fooProp(value: number): void {}\n}\nclass Foo3 {\n  get fooProp(): number {}\n}\nclass Foo8 {\n  \"bar\"<T>() {}\n}\nclass Foo10 {\n  static prop1: string;\n  prop2: number;\n}\nclass Foo11 {\n  #prop1: string;\n  prop2: number;\n}\nclass Array { concat(items:number | string) {}; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 415
 }

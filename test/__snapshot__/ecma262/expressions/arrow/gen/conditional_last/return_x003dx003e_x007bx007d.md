@@ -32,6 +32,7 @@ bar, return => {};
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -40,15 +41,18 @@ bar, return => {};
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 4
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 4
         },
@@ -57,6 +61,7 @@ bar, return => {};
             "returnKeyword": {
                 "kind": 37757022,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 11
             },
@@ -65,10 +70,12 @@ bar, return => {};
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
             "flags": 80,
+            "transformFlags": 256,
             "start": 4,
             "end": 11
         },
@@ -78,16 +85,19 @@ bar, return => {};
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 14,
             "end": 17
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 17,
             "end": 18
         }
@@ -96,6 +106,7 @@ bar, return => {};
     "source": "bar, return => {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

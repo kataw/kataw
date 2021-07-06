@@ -1,5 +1,5 @@
 import { StringLiteral } from './string-literal';
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { StatementNode } from '../statements';
 
 export interface FunctionStatementList extends SyntaxNode {
@@ -19,6 +19,7 @@ export function createFunctionStatementList(
     directives,
     statements,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

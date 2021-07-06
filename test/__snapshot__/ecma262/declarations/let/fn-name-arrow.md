@@ -20,6 +20,7 @@ let arrow = () => {};
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -33,6 +34,7 @@ let arrow = () => {};
                             "text": "arrow",
                             "rawText": "arrow",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 9
                         },
@@ -46,6 +48,7 @@ let arrow = () => {};
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 13
                             },
@@ -53,6 +56,7 @@ let arrow = () => {};
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 17
                             },
@@ -63,27 +67,33 @@ let arrow = () => {};
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 19
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 20
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 20
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 20
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 20
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -92,6 +102,7 @@ let arrow = () => {};
     "source": "let arrow = () => {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

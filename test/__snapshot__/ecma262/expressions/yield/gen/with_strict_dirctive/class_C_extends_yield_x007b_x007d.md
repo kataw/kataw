@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -38,6 +39,7 @@
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
@@ -46,6 +48,7 @@
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 21
             },
@@ -57,6 +60,7 @@
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 29
                     },
@@ -65,11 +69,13 @@
                         "text": "yield",
                         "rawText": "yield",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 35
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 35
                 },
@@ -77,14 +83,17 @@
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 37
                 },
                 "flags": 21,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 39
         }
@@ -93,6 +102,7 @@
     "source": "'use strict'; class C extends yield { }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }

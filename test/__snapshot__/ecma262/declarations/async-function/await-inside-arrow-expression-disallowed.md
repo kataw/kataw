@@ -26,6 +26,7 @@
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
@@ -33,6 +34,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 5
                 },
@@ -49,10 +51,12 @@
                                     "text": "await",
                                     "rawText": "await",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 13
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 13
                             },
@@ -63,27 +67,33 @@
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 15
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 17
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -92,6 +102,7 @@
     "source": "() => { await x }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

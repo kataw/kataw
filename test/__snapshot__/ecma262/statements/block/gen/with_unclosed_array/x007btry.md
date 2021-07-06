@@ -44,39 +44,47 @@
                                                     "text": "try",
                                                     "rawText": "try",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 4,
                                                     "end": 7
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 4,
                                             "end": 7
                                         },
                                         "flags": 48,
+                                        "transformFlags": 8,
                                         "start": 2,
                                         "end": 7
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 7
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 1,
                             "end": 7
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 7
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         }
@@ -85,6 +93,7 @@
     "source": "{[ {try",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }

@@ -31,12 +31,14 @@ static = x
                     "text": "static",
                     "rawText": "static",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
@@ -45,14 +47,17 @@ static = x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         }
@@ -61,6 +66,7 @@ static = x
     "source": "static = x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

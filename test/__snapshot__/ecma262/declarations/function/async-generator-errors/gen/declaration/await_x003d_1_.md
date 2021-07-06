@@ -29,18 +29,21 @@ async function * gen() {await = 1;}
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 14,
                 "end": 16
             },
@@ -49,6 +52,7 @@ async function * gen() {await = 1;}
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 20
             },
@@ -58,6 +62,7 @@ async function * gen() {await = 1;}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 21
             },
@@ -76,6 +81,7 @@ async function * gen() {await = 1;}
                                     "awaitKeyword": {
                                         "kind": 82196,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 29
                                     },
@@ -84,16 +90,19 @@ async function * gen() {await = 1;}
                                         "text": "",
                                         "rawText": "",
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 29
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 29
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 31
                                 },
@@ -102,28 +111,34 @@ async function * gen() {await = 1;}
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 33
                                 },
                                 "flags": 0,
+                                "transformFlags": 128,
                                 "start": 24,
                                 "end": 33
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 34
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 34
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 35
             },
             "returnType": null,
             "flags": 400,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -132,6 +147,7 @@ async function * gen() {await = 1;}
     "source": "async function * gen() {await = 1;}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

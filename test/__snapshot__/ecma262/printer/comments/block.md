@@ -60,6 +60,7 @@ Trailing block comment of this script file.
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 86
             },
@@ -69,6 +70,7 @@ Trailing block comment of this script file.
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 86,
                 "end": 88
             },
@@ -78,6 +80,7 @@ Trailing block comment of this script file.
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 89,
                 "end": 89
             },
@@ -88,15 +91,18 @@ Trailing block comment of this script file.
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 92,
                     "end": 92
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 90,
                 "end": 93
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 93
         },
@@ -107,6 +113,7 @@ Trailing block comment of this script file.
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 93,
                 "end": 174
             },
@@ -116,6 +123,7 @@ Trailing block comment of this script file.
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 174,
                 "end": 176
             },
@@ -128,12 +136,14 @@ Trailing block comment of this script file.
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 177,
                         "end": 178
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 177,
                 "end": 178
             },
@@ -148,6 +158,7 @@ Trailing block comment of this script file.
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 181,
                                 "end": 190
                             },
@@ -156,24 +167,29 @@ Trailing block comment of this script file.
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 190,
                                 "end": 192
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 181,
                             "end": 193
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 181,
                     "end": 193
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 179,
                 "end": 195
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 93,
             "end": 195
         },
@@ -184,6 +200,7 @@ Trailing block comment of this script file.
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 195,
                 "end": 240
             },
@@ -193,6 +210,7 @@ Trailing block comment of this script file.
                 "text": "h",
                 "rawText": "h",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 240,
                 "end": 242
             },
@@ -202,6 +220,7 @@ Trailing block comment of this script file.
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 243,
                 "end": 243
             },
@@ -218,10 +237,12 @@ Trailing block comment of this script file.
                                 "text": "instruction1",
                                 "rawText": "instruction1",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 246,
                                 "end": 309
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 246,
                             "end": 310
                         },
@@ -232,10 +253,12 @@ Trailing block comment of this script file.
                                 "text": "instruction2",
                                 "rawText": "instruction2",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 310,
                                 "end": 402
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 310,
                             "end": 403
                         },
@@ -246,24 +269,29 @@ Trailing block comment of this script file.
                                 "text": "instruction3",
                                 "rawText": "instruction3",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 403,
                                 "end": 495
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 403,
                             "end": 496
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 246,
                     "end": 496
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 244,
                 "end": 555
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 195,
             "end": 555
         }
@@ -272,6 +300,7 @@ Trailing block comment of this script file.
     "source": "/*\nBlock comment for this script file.\n*/\n/*\nBlock comment for function f.\n*/\nfunction f() {}\n/**\n* JSDoc block comment.\n* @param {string} a - Some string to test\n*/\nfunction g(a) {\n  return a;\n}\n/*\nBlock comment for function h.\n*/\nfunction h() {\n  /*\n  Block comment inside of function h.\n  */\n  instruction1;\n  /*\n  Block comment for instruction 2 with a quote:\n  > What was that?\n  */\n  instruction2;\n  /*\n  Block comment for instruction 3…\n  …with several indented lines.\n  */\n  instruction3;\n  /*\n  Trailing block comment inside of function h.\n  */\n}\n/*\nTrailing block comment of this script file.\n*/",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 605
 }

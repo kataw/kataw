@@ -24,12 +24,14 @@ x = {[super[foo]]: x};
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -48,6 +50,7 @@ x = {[super[foo]]: x};
                                         "member": {
                                             "kind": 4259935,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 11
                                         },
@@ -56,14 +59,17 @@ x = {[super[foo]]: x};
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 15
                                         },
                                         "flags": 536870944,
+                                        "transformFlags": 4,
                                         "start": 6,
                                         "end": 16
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 17
                                 },
@@ -72,28 +78,34 @@ x = {[super[foo]]: x};
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 20
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 5,
                                 "end": 20
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 20
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 21
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -102,6 +114,7 @@ x = {[super[foo]]: x};
     "source": "x = {[super[foo]]: x};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

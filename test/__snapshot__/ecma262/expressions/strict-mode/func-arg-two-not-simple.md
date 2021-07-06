@@ -22,6 +22,7 @@ function f(x, y){"use strict";}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function f(x, y){"use strict";}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -43,6 +45,7 @@ function f(x, y){"use strict";}
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 12
                     },
@@ -51,12 +54,14 @@ function f(x, y){"use strict";}
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 15
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 15
             },
@@ -70,21 +75,25 @@ function f(x, y){"use strict";}
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 29
                         }
                     ],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 30
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 31
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -93,6 +102,7 @@ function f(x, y){"use strict";}
     "source": "function f(x, y){\"use strict\";}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

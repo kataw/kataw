@@ -35,12 +35,14 @@ function * bar1() {
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -50,6 +52,7 @@ function * bar1() {
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 18
             },
@@ -59,6 +62,7 @@ function * bar1() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 20
             },
@@ -74,6 +78,7 @@ function * bar1() {
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 29
                             },
@@ -87,6 +92,7 @@ function * bar1() {
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 35
                                         },
@@ -96,33 +102,40 @@ function * bar1() {
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 37,
                                             "end": 39
                                         },
                                         "flags": 16,
+                                        "transformFlags": 128,
                                         "start": 29,
                                         "end": 39
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 39
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 40
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 40
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 42
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 42
         },
@@ -132,12 +145,14 @@ function * bar1() {
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 42,
                 "end": 49
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 49,
                 "end": 58
             },
@@ -147,6 +162,7 @@ function * bar1() {
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 58,
                 "end": 62
             },
@@ -156,6 +172,7 @@ function * bar1() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 64,
                 "end": 64
             },
@@ -170,6 +187,7 @@ function * bar1() {
                             "lexicalKeyword": {
                                 "kind": 41951307,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 67,
                                 "end": 73
                             },
@@ -183,6 +201,7 @@ function * bar1() {
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 73,
                                             "end": 79
                                         },
@@ -192,33 +211,40 @@ function * bar1() {
                                             "text": 2,
                                             "rawText": "2",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 81,
                                             "end": 83
                                         },
                                         "flags": 16,
+                                        "transformFlags": 128,
                                         "start": 73,
                                         "end": 83
                                     }
                                 ],
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 73,
                                 "end": 83
                             },
                             "flags": 33554448,
+                            "transformFlags": 0,
                             "start": 67,
                             "end": 84
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 67,
                     "end": 84
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 65,
                 "end": 86
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 42,
             "end": 86
         },
@@ -229,12 +255,14 @@ function * bar1() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 86,
                 "end": 96
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 96,
                 "end": 98
             },
@@ -243,6 +271,7 @@ function * bar1() {
                 "text": "foo1",
                 "rawText": "foo1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 98,
                 "end": 103
             },
@@ -252,6 +281,7 @@ function * bar1() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 104,
                 "end": 104
             },
@@ -267,6 +297,7 @@ function * bar1() {
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 107,
                                 "end": 113
                             },
@@ -280,6 +311,7 @@ function * bar1() {
                                             "text": "yield",
                                             "rawText": "yield",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 113,
                                             "end": 119
                                         },
@@ -289,33 +321,40 @@ function * bar1() {
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 121,
                                             "end": 123
                                         },
                                         "flags": 16,
+                                        "transformFlags": 128,
                                         "start": 113,
                                         "end": 123
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 113,
                                 "end": 123
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 107,
                             "end": 124
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 107,
                     "end": 124
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 105,
                 "end": 126
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 86,
             "end": 126
         },
@@ -326,12 +365,14 @@ function * bar1() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 126,
                 "end": 136
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 136,
                 "end": 138
             },
@@ -340,6 +381,7 @@ function * bar1() {
                 "text": "bar1",
                 "rawText": "bar1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 138,
                 "end": 143
             },
@@ -349,6 +391,7 @@ function * bar1() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 144,
                 "end": 144
             },
@@ -363,6 +406,7 @@ function * bar1() {
                             "lexicalKeyword": {
                                 "kind": 41951307,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 147,
                                 "end": 153
                             },
@@ -376,6 +420,7 @@ function * bar1() {
                                             "text": "yield",
                                             "rawText": "yield",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 153,
                                             "end": 159
                                         },
@@ -385,33 +430,40 @@ function * bar1() {
                                             "text": 2,
                                             "rawText": "2",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 161,
                                             "end": 163
                                         },
                                         "flags": 16,
+                                        "transformFlags": 128,
                                         "start": 153,
                                         "end": 163
                                     }
                                 ],
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 153,
                                 "end": 163
                             },
                             "flags": 33554448,
+                            "transformFlags": 0,
                             "start": 147,
                             "end": 164
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 147,
                     "end": 164
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 145,
                 "end": 166
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 126,
             "end": 166
         }
@@ -420,6 +472,7 @@ function * bar1() {
     "source": "async function foo () {\n  var await = 1;\n}\n\nasync function bar () {\n  let await = 2;\n}\n\nfunction * foo1() {\n  var yield = 1;\n}\n\nfunction * bar1() {\n  let yield = 2;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 166
 }

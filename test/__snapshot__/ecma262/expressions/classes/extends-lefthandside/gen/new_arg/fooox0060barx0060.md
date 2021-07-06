@@ -29,6 +29,7 @@ new fooo`bar`
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -39,6 +40,7 @@ new fooo`bar`
                         "text": "fooo",
                         "rawText": "fooo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 8
                     },
@@ -47,19 +49,23 @@ new fooo`bar`
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 134217824,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 13
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 13
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -68,6 +74,7 @@ new fooo`bar`
     "source": "new fooo`bar`",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

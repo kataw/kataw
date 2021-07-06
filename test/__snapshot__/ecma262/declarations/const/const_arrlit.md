@@ -39,6 +39,7 @@ const []
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -54,25 +55,30 @@ const []
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 7
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 8
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 5,
                         "end": 8
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 8
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         }
@@ -81,6 +87,7 @@ const []
     "source": "const []",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

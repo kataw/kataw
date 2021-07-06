@@ -29,12 +29,14 @@ function* gf() { var fe = function yield() { } }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -43,6 +45,7 @@ function* gf() { var fe = function yield() { } }
                 "text": "gf",
                 "rawText": "gf",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 12
             },
@@ -52,6 +55,7 @@ function* gf() { var fe = function yield() { } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
@@ -67,6 +71,7 @@ function* gf() { var fe = function yield() { } }
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 20
                             },
@@ -80,6 +85,7 @@ function* gf() { var fe = function yield() { } }
                                             "text": "fe",
                                             "rawText": "fe",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 23
                                         },
@@ -90,6 +96,7 @@ function* gf() { var fe = function yield() { } }
                                             "functionKeyword": {
                                                 "kind": 37822554,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 34
                                             },
@@ -99,6 +106,7 @@ function* gf() { var fe = function yield() { } }
                                                 "text": "yield",
                                                 "rawText": "yield",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 34,
                                                 "end": 40
                                             },
@@ -108,6 +116,7 @@ function* gf() { var fe = function yield() { } }
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 41,
                                                 "end": 41
                                             },
@@ -118,42 +127,51 @@ function* gf() { var fe = function yield() { } }
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 44,
                                                     "end": 44
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 42,
                                                 "end": 46
                                             },
                                             "returnType": null,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 46
                                         },
                                         "flags": 16,
+                                        "transformFlags": 128,
                                         "start": 20,
                                         "end": 46
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 46
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 46
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 46
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 48
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 48
         }
@@ -162,6 +180,7 @@ function* gf() { var fe = function yield() { } }
     "source": "function* gf() { var fe = function yield() { } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 48
 }

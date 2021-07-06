@@ -28,6 +28,7 @@ while (a);
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -42,6 +43,7 @@ while (a);
                             "text": "let",
                             "rawText": "let",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 6
                         },
@@ -50,16 +52,19 @@ while (a);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 9
                         },
                         "flags": 536870944,
+                        "transformFlags": 4,
                         "start": 2,
                         "end": 10
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 12
                     },
@@ -68,20 +73,24 @@ while (a);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     },
                     "flags": 0,
+                    "transformFlags": 128,
                     "start": 2,
                     "end": 14
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 14
             },
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 20
             },
@@ -90,10 +99,12 @@ while (a);
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 23
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -102,6 +113,7 @@ while (a);
     "source": "do let [x] = y\nwhile (a);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

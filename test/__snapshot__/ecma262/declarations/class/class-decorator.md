@@ -29,6 +29,7 @@ class Foo {
                         "decoratorToken": {
                             "kind": 34611453,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 1
                         },
@@ -37,21 +38,25 @@ class Foo {
                             "text": "abc",
                             "rawText": "abc",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 4
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 4
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
@@ -60,6 +65,7 @@ class Foo {
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 14
             },
@@ -71,14 +77,17 @@ class Foo {
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 16
                 },
                 "flags": 14,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 19
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -87,6 +96,7 @@ class Foo {
     "source": "@abc\nclass Foo {\n\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

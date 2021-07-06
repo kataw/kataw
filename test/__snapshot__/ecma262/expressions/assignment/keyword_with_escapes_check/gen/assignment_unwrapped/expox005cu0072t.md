@@ -27,6 +27,7 @@ expo\u0072t = x;
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 16464,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
@@ -36,6 +37,7 @@ expo\u0072t = x;
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -46,10 +48,12 @@ expo\u0072t = x;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 16
         }
@@ -58,6 +62,7 @@ expo\u0072t = x;
     "source": "expo\\u0072t = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

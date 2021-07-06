@@ -32,6 +32,7 @@ bar, x => { return x; }
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -44,6 +45,7 @@ bar, x => { return x; }
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 6
                         },
@@ -51,6 +53,7 @@ bar, x => { return x; }
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 9
                         },
@@ -65,6 +68,7 @@ bar, x => { return x; }
                                         "returnKeyword": {
                                             "kind": 37757022,
                                             "flags": 80,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 18
                                         },
@@ -73,32 +77,39 @@ bar, x => { return x; }
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 20
                                         },
                                         "flags": 80,
+                                        "transformFlags": 256,
                                         "start": 11,
                                         "end": 21
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 21
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 23
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 23
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -107,6 +118,7 @@ bar, x => { return x; }
     "source": "bar, x => { return x; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

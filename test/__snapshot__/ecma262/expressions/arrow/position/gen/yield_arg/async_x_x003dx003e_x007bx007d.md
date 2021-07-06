@@ -31,12 +31,14 @@ function *f() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -45,6 +47,7 @@ function *f() {
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -54,6 +57,7 @@ function *f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -70,6 +74,7 @@ function *f() {
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 65,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 23
                                 },
@@ -80,6 +85,7 @@ function *f() {
                                     "asyncKeyword": {
                                         "kind": 82031,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 29
                                     },
@@ -89,6 +95,7 @@ function *f() {
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 31
                                     },
@@ -96,6 +103,7 @@ function *f() {
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 34
                                     },
@@ -106,36 +114,44 @@ function *f() {
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 36,
                                             "end": 36
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 37
                                     },
                                     "flags": 288,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 37
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 37
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 37
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 37
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 39
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 39
         }
@@ -144,6 +160,7 @@ function *f() {
     "source": "function *f() {\n  yield async x => {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }

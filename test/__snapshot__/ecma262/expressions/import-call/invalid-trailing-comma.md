@@ -31,6 +31,7 @@ import("foo",);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 6
                         },
@@ -39,10 +40,12 @@ import("foo",);
                             "text": "foo",
                             "rawText": "\"foo\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 12
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 12
                     },
@@ -51,21 +54,25 @@ import("foo",);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 13
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 14,
             "end": 15
         }
@@ -74,6 +81,7 @@ import("foo",);
     "source": "import(\"foo\",);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

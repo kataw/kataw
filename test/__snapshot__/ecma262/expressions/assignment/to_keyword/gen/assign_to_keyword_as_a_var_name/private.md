@@ -31,12 +31,14 @@ private = x
                     "text": "private",
                     "rawText": "private",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },
@@ -45,14 +47,17 @@ private = x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         }
@@ -61,6 +66,7 @@ private = x
     "source": "private = x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

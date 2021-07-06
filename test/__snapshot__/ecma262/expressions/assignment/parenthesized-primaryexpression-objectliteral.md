@@ -24,6 +24,7 @@ function _() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -33,6 +34,7 @@ function _() {
                 "text": "_",
                 "rawText": "_",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -42,6 +44,7 @@ function _() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -64,20 +67,24 @@ function _() {
                                             "properties": [],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 19
                                         },
                                         "flags": 48,
+                                        "transformFlags": 8,
                                         "start": 18,
                                         "end": 20
                                     },
                                     "flags": 14,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 21
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 23
                                 },
@@ -86,28 +93,34 @@ function _() {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 25
                                 },
                                 "flags": 0,
+                                "transformFlags": 128,
                                 "start": 14,
                                 "end": 25
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 26
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 26
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 28
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -116,6 +129,7 @@ function _() {
     "source": "function _() {\n  ({}) = 1;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

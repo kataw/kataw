@@ -22,6 +22,7 @@ function f(b, a, b, ...a) {"use strict"}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function f(b, a, b, ...a) {"use strict"}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -43,6 +45,7 @@ function f(b, a, b, ...a) {"use strict"}
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 12
                     },
@@ -51,6 +54,7 @@ function f(b, a, b, ...a) {"use strict"}
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 15
                     },
@@ -59,6 +63,7 @@ function f(b, a, b, ...a) {"use strict"}
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 18
                     },
@@ -67,6 +72,7 @@ function f(b, a, b, ...a) {"use strict"}
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 23
                         },
@@ -75,6 +81,7 @@ function f(b, a, b, ...a) {"use strict"}
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 24
                         },
@@ -82,12 +89,14 @@ function f(b, a, b, ...a) {"use strict"}
                         "type": null,
                         "right": null,
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 24
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 24
             },
@@ -101,21 +110,25 @@ function f(b, a, b, ...a) {"use strict"}
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 39
                         }
                     ],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 39
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 40
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -124,6 +137,7 @@ function f(b, a, b, ...a) {"use strict"}
     "source": "function f(b, a, b, ...a) {\"use strict\"}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }

@@ -31,12 +31,14 @@ function *P(){
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -45,6 +47,7 @@ function *P(){
                 "text": "P",
                 "rawText": "P",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -54,6 +57,7 @@ function *P(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -70,6 +74,7 @@ function *P(){
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 22
                             },
@@ -78,6 +83,7 @@ function *P(){
                                 "text": "D",
                                 "rawText": "D",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 24
                             },
@@ -89,6 +95,7 @@ function *P(){
                                     "extendsKeyword": {
                                         "kind": 4194391,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 32
                                     },
@@ -97,6 +104,7 @@ function *P(){
                                         "asyncKeyword": {
                                             "kind": 82031,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 38
                                         },
@@ -106,6 +114,7 @@ function *P(){
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 38,
                                             "end": 40
                                         },
@@ -113,6 +122,7 @@ function *P(){
                                         "arrowToken": {
                                             "kind": 10,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 40,
                                             "end": 43
                                         },
@@ -121,15 +131,18 @@ function *P(){
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 43,
                                             "end": 45
                                         },
                                         "flags": 288,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 45
                                     },
                                     "typeParameter": null,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 45
                                 },
@@ -137,28 +150,34 @@ function *P(){
                                     "kind": 303,
                                     "elements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 47,
                                     "end": 47
                                 },
                                 "flags": 24,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 48
                             },
                             "flags": 17,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 48
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 48
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 50
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 50
         }
@@ -167,6 +186,7 @@ function *P(){
     "source": "function *P(){\n  class D extends async a => b {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 50
 }

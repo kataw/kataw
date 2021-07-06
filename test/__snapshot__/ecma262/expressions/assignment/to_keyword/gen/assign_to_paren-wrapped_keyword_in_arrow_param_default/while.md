@@ -30,14 +30,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -46,6 +49,7 @@
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 11
             },
@@ -54,6 +58,7 @@
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -66,12 +71,14 @@
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 12
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     },
@@ -80,18 +87,22 @@
                         "text": "f",
                         "rawText": "f",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 16
                     },
                     "flags": 0,
+                    "transformFlags": 128,
                     "start": 12,
                     "end": 16
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 16
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 6,
             "end": 16
         },
@@ -101,10 +112,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 20,
             "end": 23
         }
@@ -113,6 +126,7 @@
     "source": "(x = (while) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

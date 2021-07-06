@@ -29,6 +29,7 @@ var {,x} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -44,16 +45,19 @@ var {,x} = obj;
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 5
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 5
                     },
@@ -64,21 +68,25 @@ var {,x} = obj;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 7
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 6,
                         "end": 7
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         },
@@ -89,10 +97,12 @@ var {,x} = obj;
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 15
         }
@@ -101,6 +111,7 @@ var {,x} = obj;
     "source": "var {,x} = obj;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

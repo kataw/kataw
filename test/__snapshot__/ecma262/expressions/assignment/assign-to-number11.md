@@ -30,12 +30,14 @@ x = 0b1_01_2
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -44,14 +46,17 @@ x = 0b1_01_2
                     "text": 5,
                     "rawText": "0b1_01_2",
                     "flags": 589920,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 12
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -60,6 +65,7 @@ x = 0b1_01_2
     "source": "x = 0b1_01_2",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

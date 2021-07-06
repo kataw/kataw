@@ -28,12 +28,14 @@ opaque type Good: {x: string} = {x: string, y: number};
             "opaqueToken": {
                 "kind": 24822,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 11
             },
@@ -42,6 +44,7 @@ opaque type Good: {x: string} = {x: string, y: number};
                 "text": "Good",
                 "rawText": "Good",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 16
             },
@@ -64,6 +67,7 @@ opaque type Good: {x: string} = {x: string, y: number};
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 20
                             },
@@ -75,24 +79,29 @@ opaque type Good: {x: string} = {x: string, y: number};
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 28
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 28
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 28
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 29
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 29
             },
@@ -114,6 +123,7 @@ opaque type Good: {x: string} = {x: string, y: number};
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 34
                             },
@@ -125,14 +135,17 @@ opaque type Good: {x: string} = {x: string, y: number};
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 42
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 42
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 33,
                             "end": 43
                         },
@@ -147,6 +160,7 @@ opaque type Good: {x: string} = {x: string, y: number};
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 43,
                                 "end": 45
                             },
@@ -158,34 +172,41 @@ opaque type Good: {x: string} = {x: string, y: number};
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 46,
                                     "end": 53
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 46,
                                 "end": 53
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 43,
                             "end": 53
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 54
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 54
             },
             "flags": 2097152,
+            "transformFlags": 0,
             "start": 0,
             "end": 54
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 54,
             "end": 55
         }
@@ -194,6 +215,7 @@ opaque type Good: {x: string} = {x: string, y: number};
     "source": "opaque type Good: {x: string} = {x: string, y: number};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 55
 }

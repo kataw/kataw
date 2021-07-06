@@ -29,6 +29,7 @@ type a = (a[b][]) => T;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = (a[b][]) => T;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = (a[b][]) => T;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -71,11 +74,13 @@ type a = (a[b][]) => T;
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 11
                                             },
                                             "typeParameters": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 11
                                         },
@@ -90,41 +95,49 @@ type a = (a[b][]) => T;
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 12,
                                                     "end": 13
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 13
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 13
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 15
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 16
                                 },
                                 "optionalToken": null,
                                 "types": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 17
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 17
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 20
                     },
@@ -139,27 +152,33 @@ type a = (a[b][]) => T;
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 22
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 22
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 22
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 22
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 22
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -168,6 +187,7 @@ type a = (a[b][]) => T;
     "source": "type a = (a[b][]) => T;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

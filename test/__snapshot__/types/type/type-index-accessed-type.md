@@ -29,6 +29,7 @@ type Age = typeof MyArray[number]["age"];
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type Age = typeof MyArray[number]["age"];
                 "text": "Age",
                 "rawText": "Age",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 8
             },
@@ -44,6 +46,7 @@ type Age = typeof MyArray[number]["age"];
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -60,6 +63,7 @@ type Age = typeof MyArray[number]["age"];
                             "typeOfKeyword": {
                                 "kind": 138477613,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 17
                             },
@@ -70,15 +74,18 @@ type Age = typeof MyArray[number]["age"];
                                     "text": "MyArray",
                                     "rawText": "MyArray",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 25
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 25
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 25
                         },
@@ -89,14 +96,17 @@ type Age = typeof MyArray[number]["age"];
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 32
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 32
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 34
                     },
@@ -109,22 +119,27 @@ type Age = typeof MyArray[number]["age"];
                             "text": "age",
                             "rawText": "\"age\"",
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 39
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 34,
                         "end": 39
                     },
                     "flags": 0,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 41
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 40
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 41
         }
@@ -133,6 +148,7 @@ type Age = typeof MyArray[number]["age"];
     "source": "type Age = typeof MyArray[number][\"age\"];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }

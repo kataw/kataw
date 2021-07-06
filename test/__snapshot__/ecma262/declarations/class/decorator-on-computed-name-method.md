@@ -25,6 +25,7 @@ class A {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -33,6 +34,7 @@ class A {
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -53,6 +55,7 @@ class A {
                                         "decoratorToken": {
                                             "kind": 34611453,
                                             "flags": 65,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 13
                                         },
@@ -65,6 +68,7 @@ class A {
                                                     "text": "dec",
                                                     "rawText": "dec",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 13,
                                                     "end": 16
                                                 },
@@ -73,10 +77,12 @@ class A {
                                                     "text": "name",
                                                     "rawText": "'name'",
                                                     "flags": 4194400,
+                                                    "transformFlags": 0,
                                                     "start": 20,
                                                     "end": 26
                                                 },
                                                 "flags": 536870944,
+                                                "transformFlags": 4,
                                                 "start": 13,
                                                 "end": 27
                                             },
@@ -85,19 +91,23 @@ class A {
                                                 "elements": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 28
                                             },
                                             "flags": 268435488,
+                                            "transformFlags": 1,
                                             "start": 13,
                                             "end": 29
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 29
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 29
                             },
@@ -109,6 +119,7 @@ class A {
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 29
                             },
@@ -116,19 +127,23 @@ class A {
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 29
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 29
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         },
@@ -138,10 +153,12 @@ class A {
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 29,
             "end": 31
         }
@@ -150,6 +167,7 @@ class A {
     "source": "class A {\n  @dec\n  ['name'](){}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

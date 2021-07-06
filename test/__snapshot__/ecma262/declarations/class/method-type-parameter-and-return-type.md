@@ -33,6 +33,7 @@ class Foo7<T> {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -41,6 +42,7 @@ class Foo7<T> {
                 "text": "Foo7",
                 "rawText": "Foo7",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 10
             },
@@ -56,6 +58,7 @@ class Foo7<T> {
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 12
                             },
@@ -63,16 +66,19 @@ class Foo7<T> {
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 12
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 13
             },
@@ -98,6 +104,7 @@ class Foo7<T> {
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 21
                                 },
@@ -113,6 +120,7 @@ class Foo7<T> {
                                                     "text": "U",
                                                     "rawText": "U",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 22,
                                                     "end": 23
                                                 },
@@ -120,16 +128,19 @@ class Foo7<T> {
                                                 "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 23
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 23
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 24
                                 },
@@ -138,6 +149,7 @@ class Foo7<T> {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 26
                                 },
@@ -148,10 +160,12 @@ class Foo7<T> {
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 33
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 33
                                 },
@@ -166,6 +180,7 @@ class Foo7<T> {
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 35,
                                                     "end": 42
                                                 },
@@ -174,40 +189,49 @@ class Foo7<T> {
                                                     "text": 42,
                                                     "rawText": "42",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 42,
                                                     "end": 45
                                                 },
                                                 "flags": 80,
+                                                "transformFlags": 256,
                                                 "start": 35,
                                                 "end": 46
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 35,
                                         "end": 46
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 48
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 48
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 48
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 48
                 },
                 "flags": 13,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 50
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 50
         }
@@ -216,6 +240,7 @@ class Foo7<T> {
     "source": "class Foo7<T> {\n  bar<U>():number { return 42; }\n}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 51
 }

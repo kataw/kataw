@@ -24,12 +24,14 @@ x = {0b001001: y}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -46,6 +48,7 @@ x = {0b001001: y}
                                     "text": 9,
                                     "rawText": "0b001001",
                                     "flags": 524384,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 13
                                 },
@@ -54,28 +57,34 @@ x = {0b001001: y}
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 16
                                 },
                                 "flags": 524320,
+                                "transformFlags": 128,
                                 "start": 5,
                                 "end": 16
                             }
                         ],
                         "trailingComma": false,
                         "flags": 524304,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 16
                     },
                     "flags": 524336,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 17
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -84,6 +93,7 @@ x = {0b001001: y}
     "source": "x = {0b001001: y}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

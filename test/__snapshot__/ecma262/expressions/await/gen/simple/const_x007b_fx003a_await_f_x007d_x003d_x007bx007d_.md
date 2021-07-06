@@ -27,6 +27,7 @@ const { f: await f } = {};
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -47,6 +48,7 @@ const { f: await f } = {};
                                             "text": "f",
                                             "rawText": "f",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 9
                                         },
@@ -55,11 +57,13 @@ const { f: await f } = {};
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 16
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 16
                                     },
@@ -68,16 +72,19 @@ const { f: await f } = {};
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 18
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 18
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 20
                         },
@@ -89,23 +96,28 @@ const { f: await f } = {};
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 24
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 22,
                             "end": 25
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 5,
                         "end": 25
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 25
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -114,6 +126,7 @@ const { f: await f } = {};
     "source": "const { f: await f } = {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

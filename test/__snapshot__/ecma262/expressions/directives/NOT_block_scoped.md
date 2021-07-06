@@ -20,6 +20,7 @@ if (x) { "use strict"; with (x) y; }
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -28,6 +29,7 @@ if (x) { "use strict"; with (x) y; }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 5
             },
@@ -43,10 +45,12 @@ if (x) { "use strict"; with (x) y; }
                                 "text": "use strict",
                                 "rawText": "\"use strict\"",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 21
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 22
                         },
@@ -55,6 +59,7 @@ if (x) { "use strict"; with (x) y; }
                             "withKeyword": {
                                 "kind": 37757029,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 27
                             },
@@ -63,6 +68,7 @@ if (x) { "use strict"; with (x) y; }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 30
                             },
@@ -73,29 +79,35 @@ if (x) { "use strict"; with (x) y; }
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 33
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 34
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 34
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 34
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 36
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -104,6 +116,7 @@ if (x) { "use strict"; with (x) y; }
     "source": "if (x) { \"use strict\"; with (x) y; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

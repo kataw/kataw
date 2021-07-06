@@ -24,12 +24,14 @@ x = {5};
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -43,24 +45,29 @@ x = {5};
                                 "text": 5,
                                 "rawText": "5",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 6
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 6
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 7
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         }
@@ -69,6 +76,7 @@ x = {5};
     "source": "x = {5};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

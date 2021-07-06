@@ -29,6 +29,7 @@ type T = ({});
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type T = ({});
                 "text": "T",
                 "rawText": "T",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type T = ({});
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -62,22 +65,27 @@ type T = ({});
                             "properties": [],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 12
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 12
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 13
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 13
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -86,6 +94,7 @@ type T = ({});
     "source": "type T = ({});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

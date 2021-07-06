@@ -26,6 +26,7 @@ class Foo extends Base {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -34,6 +35,7 @@ class Foo extends Base {
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -45,6 +47,7 @@ class Foo extends Base {
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 17
                     },
@@ -53,11 +56,13 @@ class Foo extends Base {
                         "text": "Base",
                         "rawText": "Base",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 22
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 22
                 },
@@ -80,6 +85,7 @@ class Foo extends Base {
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 35
                                 },
@@ -89,6 +95,7 @@ class Foo extends Base {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 37
                                 },
@@ -106,6 +113,7 @@ class Foo extends Base {
                                                     "chainToken": {
                                                         "kind": 393240,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 58,
                                                         "end": 60
                                                     },
@@ -114,6 +122,7 @@ class Foo extends Base {
                                                         "member": {
                                                             "kind": 4259935,
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 39,
                                                             "end": 51
                                                         },
@@ -122,10 +131,12 @@ class Foo extends Base {
                                                             "text": "method",
                                                             "rawText": "method",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 52,
                                                             "end": 58
                                                         },
                                                         "flags": 97,
+                                                        "transformFlags": 2,
                                                         "start": 39,
                                                         "end": 58
                                                     },
@@ -140,52 +151,64 @@ class Foo extends Base {
                                                                 "elements": [],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 61,
                                                                 "end": 61
                                                             },
                                                             "flags": 268435488,
+                                                            "transformFlags": 1,
                                                             "start": 60,
                                                             "end": 62
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 60,
                                                         "end": 62
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 39,
                                                     "end": 62
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 39,
                                                 "end": 63
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 39,
                                         "end": 63
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 69
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 69
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 69
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 69
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 71
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 71
         }
@@ -194,6 +217,7 @@ class Foo extends Base {
     "source": "class Foo extends Base {\n    method() {\n      super.method?.();\n    }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 71
 }

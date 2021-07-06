@@ -25,12 +25,14 @@
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 5
             },
@@ -39,6 +41,7 @@
                 "whileKeyword": {
                     "kind": 37757028,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 11
                 },
@@ -47,6 +50,7 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 14
                 },
@@ -60,6 +64,7 @@
                                 "breakKeyword": {
                                     "kind": 37757005,
                                     "flags": 81,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 25
                                 },
@@ -68,27 +73,33 @@
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 45
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 46
                             }
                         ],
                         "flags": 17,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 46
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 48
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 48
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 48
         }
@@ -97,6 +108,7 @@
     "source": " foo: while (x) {\n  break /* comment 1 */ foo;\n}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 49
 }

@@ -27,6 +27,7 @@ do /)finally while
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -36,10 +37,12 @@ do /)finally while
                     "kind": 371,
                     "text": "/)finally while",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 18
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 18
             },
@@ -49,10 +52,12 @@ do /)finally while
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 18
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -61,6 +66,7 @@ do /)finally while
     "source": "do /)finally while",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

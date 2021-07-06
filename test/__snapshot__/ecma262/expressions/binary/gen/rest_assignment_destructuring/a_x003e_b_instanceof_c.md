@@ -36,6 +36,7 @@
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 1,
                                     "end": 5
                                 },
@@ -48,12 +49,14 @@
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 7
                                         },
                                         "operatorToken": {
                                             "kind": 34883,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 9
                                         },
@@ -62,16 +65,19 @@
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 11
                                         },
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 11
                                     },
                                     "operatorToken": {
                                         "kind": 4229173,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 22
                                     },
@@ -80,30 +86,36 @@
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 24
                                     },
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 24
                                 },
                                 "flags": 1073741856,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 24
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 24
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 26
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 28
                 },
@@ -112,14 +124,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 30
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -128,6 +143,7 @@
     "source": "[ ... a > b instanceof c ] = x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

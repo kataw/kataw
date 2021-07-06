@@ -31,12 +31,14 @@ x * async => ok
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 1,
                     "end": 3
                 },
@@ -49,6 +51,7 @@ x * async => ok
                         "text": "async",
                         "rawText": "async",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 9
                     },
@@ -56,6 +59,7 @@ x * async => ok
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 12
                     },
@@ -64,18 +68,22 @@ x * async => ok
                         "text": "ok",
                         "rawText": "ok",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 15
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 15
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -84,6 +92,7 @@ x * async => ok
     "source": "x * async => ok",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -93,7 +102,7 @@ x * async => ok
 
 ```javascript
 
-x *  async => ok;
+x * async => ok;
 ```
 
 ### Diagnostics

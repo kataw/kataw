@@ -32,12 +32,14 @@ export default class {
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -48,6 +50,7 @@ export default class {
                 "classKeyword": {
                     "kind": 37822544,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 20
                 },
@@ -70,6 +73,7 @@ export default class {
                                     "text": "p",
                                     "rawText": "p",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 26
                                 },
@@ -77,23 +81,28 @@ export default class {
                                 "type": null,
                                 "initializer": null,
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 22,
                                 "end": 26
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 26
                     },
                     "flags": 20,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 26
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         },
@@ -104,10 +113,12 @@ export default class {
                 "text": "T",
                 "rawText": "T",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 27,
             "end": 30
         },
@@ -120,6 +131,7 @@ export default class {
                     "text": "constructor",
                     "rawText": "constructor",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 45
                 },
@@ -128,14 +140,17 @@ export default class {
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 46,
                     "end": 46
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 30,
                 "end": 47
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 30,
             "end": 47
         },
@@ -153,6 +168,7 @@ export default class {
                                 "member": {
                                     "kind": 4276321,
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 49,
                                     "end": 58
                                 },
@@ -161,16 +177,19 @@ export default class {
                                     "text": "p",
                                     "rawText": "p",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 59,
                                     "end": 60
                                 },
                                 "flags": 97,
+                                "transformFlags": 2,
                                 "start": 49,
                                 "end": 60
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 60,
                                 "end": 62
                             },
@@ -179,23 +198,28 @@ export default class {
                                 "text": 0,
                                 "rawText": "0",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 62,
                                 "end": 64
                             },
                             "flags": 0,
+                            "transformFlags": 128,
                             "start": 49,
                             "end": 64
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 49,
                         "end": 65
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 49,
                 "end": 65
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 47,
             "end": 69
         }
@@ -204,6 +228,7 @@ export default class {
     "source": "export default class {\n  p: T;\n\n  constructor() {\n    this.p = 0;\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 71
 }

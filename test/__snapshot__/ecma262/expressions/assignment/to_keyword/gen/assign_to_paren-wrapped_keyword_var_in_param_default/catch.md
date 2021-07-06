@@ -30,14 +30,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -50,10 +53,12 @@
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 6
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 6
             },
@@ -62,6 +67,7 @@
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 11
                 },
@@ -72,20 +78,24 @@
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 11
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 11
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 11
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 6,
             "end": 11
         },
@@ -96,10 +106,12 @@
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 14,
             "end": 16
         },
@@ -109,10 +121,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 20,
             "end": 23
         }
@@ -121,6 +135,7 @@
     "source": "(x = (catch) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

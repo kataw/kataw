@@ -20,6 +20,7 @@ async (a, ...b) => a;
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -32,6 +33,7 @@ async (a, ...b) => a;
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 8
                     },
@@ -40,6 +42,7 @@ async (a, ...b) => a;
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 13
                         },
@@ -48,6 +51,7 @@ async (a, ...b) => a;
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 14
                         },
@@ -55,12 +59,14 @@ async (a, ...b) => a;
                         "type": null,
                         "right": null,
                         "flags": 1073741856,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 14
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 15
             },
@@ -68,6 +74,7 @@ async (a, ...b) => a;
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 18
             },
@@ -76,16 +83,19 @@ async (a, ...b) => a;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 20
             },
             "flags": 290,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 20,
             "end": 21
         }
@@ -94,6 +104,7 @@ async (a, ...b) => a;
     "source": "async (a, ...b) => a;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

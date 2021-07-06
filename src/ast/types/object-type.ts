@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 
 export interface ObjectType extends SyntaxNode {
   readonly properties: any[];
@@ -17,6 +17,7 @@ export function createObjectType(
     properties,
     trailingComma,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

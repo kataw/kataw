@@ -43,6 +43,7 @@ foo([a, b] = arr);
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -61,6 +62,7 @@ foo([a, b] = arr);
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 6
                                         },
@@ -69,22 +71,26 @@ foo([a, b] = arr);
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 9
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 9
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 4,
                                 "end": 10
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             },
@@ -93,24 +99,29 @@ foo([a, b] = arr);
                                 "text": "arr",
                                 "rawText": "arr",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 16
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 4,
                             "end": 16
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 16
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -119,6 +130,7 @@ foo([a, b] = arr);
     "source": "foo([a, b] = arr);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

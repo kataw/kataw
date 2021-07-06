@@ -29,6 +29,7 @@ new `temp {waitforit} late`
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -37,15 +38,18 @@ new `temp {waitforit} late`
                     "text": "temp {waitforit} late",
                     "rawText": "temp {waitforit} late",
                     "flags": 134217824,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 27
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -54,6 +58,7 @@ new `temp {waitforit} late`
     "source": "new `temp {waitforit} late`",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

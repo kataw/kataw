@@ -27,6 +27,7 @@ async () => {  \u0069mplements = x  }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -36,6 +37,7 @@ async () => {  \u0069mplements = x  }
                 "parameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 7
             },
@@ -43,6 +45,7 @@ async () => {  \u0069mplements = x  }
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
@@ -61,12 +64,14 @@ async () => {  \u0069mplements = x  }
                                     "text": "implements",
                                     "rawText": "\\u0069mplements",
                                     "flags": 16480,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 30
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 32
                                 },
@@ -75,27 +80,33 @@ async () => {  \u0069mplements = x  }
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 34
                                 },
                                 "flags": 0,
+                                "transformFlags": 128,
                                 "start": 13,
                                 "end": 34
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 34
                         }
                     ],
                     "flags": 16416,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 34
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 37
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 0,
             "end": 37
         }
@@ -104,6 +115,7 @@ async () => {  \u0069mplements = x  }
     "source": "async () => {  \\u0069mplements = x  }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }

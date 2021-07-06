@@ -28,6 +28,7 @@ let x: T[K];
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let x: T[K];
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -57,11 +59,13 @@ let x: T[K];
                                         "text": "T",
                                         "rawText": "T",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 8
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 8
                                 },
@@ -76,37 +80,45 @@ let x: T[K];
                                             "text": "K",
                                             "rawText": "K",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 10
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 10
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 10
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 12
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 11
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -115,6 +127,7 @@ let x: T[K];
     "source": "let x: T[K];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

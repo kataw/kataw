@@ -27,6 +27,7 @@
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 7
                         },
@@ -35,6 +36,7 @@
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 19
                         },
@@ -43,19 +45,23 @@
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 31
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 37
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 37
         }
@@ -64,6 +70,7 @@
     "source": "(/*1*/a/*2*/,/*3*/b/*4*/,/*5*/c/*6*/)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }

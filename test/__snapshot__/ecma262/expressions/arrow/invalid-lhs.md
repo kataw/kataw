@@ -36,6 +36,7 @@ x = (a,b)+c=>{};
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 4
                         },
@@ -44,6 +45,7 @@ x = (a,b)+c=>{};
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 5
                         },
@@ -51,10 +53,12 @@ x = (a,b)+c=>{};
                         "type": null,
                         "right": null,
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 5
                     },
                     "flags": 0,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 6
                 },
@@ -70,10 +74,12 @@ x = (a,b)+c=>{};
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 23
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 23
                         }
@@ -83,18 +89,22 @@ x = (a,b)+c=>{};
                         "text": "",
                         "rawText": "",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 25
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         },
@@ -104,10 +114,12 @@ x = (a,b)+c=>{};
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 27,
             "end": 29
         },
@@ -122,6 +134,7 @@ x = (a,b)+c=>{};
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 34
                         },
@@ -130,6 +143,7 @@ x = (a,b)+c=>{};
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 35
                         },
@@ -137,16 +151,19 @@ x = (a,b)+c=>{};
                         "type": null,
                         "right": null,
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 31,
                         "end": 35
                     },
                     "flags": 29,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 36
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 36,
                     "end": 37
                 },
@@ -155,12 +172,14 @@ x = (a,b)+c=>{};
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 38
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 39
                 },
@@ -173,6 +192,7 @@ x = (a,b)+c=>{};
                         "text": "d",
                         "rawText": "d",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 39,
                         "end": 40
                     },
@@ -180,6 +200,7 @@ x = (a,b)+c=>{};
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 40,
                         "end": 42
                     },
@@ -190,22 +211,27 @@ x = (a,b)+c=>{};
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 43,
                             "end": 43
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 42,
                         "end": 44
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 44
                 },
                 "flags": 61,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 44
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 29,
             "end": 44
         },
@@ -215,16 +241,19 @@ x = (a,b)+c=>{};
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 47,
                 "end": 47
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 46,
             "end": 48
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 48,
             "end": 49
         },
@@ -237,12 +266,14 @@ x = (a,b)+c=>{};
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 49,
                     "end": 51
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 51,
                     "end": 53
                 },
@@ -255,6 +286,7 @@ x = (a,b)+c=>{};
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 55,
                                 "end": 58
                             },
@@ -263,6 +295,7 @@ x = (a,b)+c=>{};
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 58,
                                 "end": 59
                             },
@@ -270,10 +303,12 @@ x = (a,b)+c=>{};
                             "type": null,
                             "right": null,
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 55,
                             "end": 59
                         },
                         "flags": 53,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 60
                     },
@@ -282,18 +317,22 @@ x = (a,b)+c=>{};
                         "text": 1,
                         "rawText": "1",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 61,
                         "end": 62
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 53,
                     "end": 63
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 49,
                 "end": 63
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 49,
             "end": 63
         },
@@ -303,16 +342,19 @@ x = (a,b)+c=>{};
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 66,
                 "end": 66
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 65,
             "end": 67
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 67,
             "end": 68
         },
@@ -330,6 +372,7 @@ x = (a,b)+c=>{};
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 70,
                                 "end": 71
                             },
@@ -338,6 +381,7 @@ x = (a,b)+c=>{};
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 72,
                                     "end": 75
                                 },
@@ -346,6 +390,7 @@ x = (a,b)+c=>{};
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 75,
                                     "end": 76
                                 },
@@ -353,15 +398,18 @@ x = (a,b)+c=>{};
                                 "type": null,
                                 "right": null,
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 72,
                                 "end": 76
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 68,
                         "end": 77
                     },
                     "flags": 68,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 77
                 },
@@ -377,10 +425,12 @@ x = (a,b)+c=>{};
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 93,
                                 "end": 94
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 77,
                             "end": 94
                         }
@@ -390,18 +440,22 @@ x = (a,b)+c=>{};
                         "text": "",
                         "rawText": "",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 94,
                         "end": 96
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 77,
                     "end": 96
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 68,
                 "end": 96
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 68,
             "end": 96
         },
@@ -411,10 +465,12 @@ x = (a,b)+c=>{};
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 99,
                 "end": 99
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 98,
             "end": 100
         },
@@ -432,6 +488,7 @@ x = (a,b)+c=>{};
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 102,
                                 "end": 103
                             },
@@ -440,6 +497,7 @@ x = (a,b)+c=>{};
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 104,
                                     "end": 107
                                 },
@@ -448,6 +506,7 @@ x = (a,b)+c=>{};
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 107,
                                     "end": 108
                                 },
@@ -455,15 +514,18 @@ x = (a,b)+c=>{};
                                 "type": null,
                                 "right": null,
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 104,
                                 "end": 108
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 100,
                         "end": 109
                     },
                     "flags": 100,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 109
                 },
@@ -479,10 +541,12 @@ x = (a,b)+c=>{};
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 112,
                                 "end": 113
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 109,
                             "end": 113
                         }
@@ -492,18 +556,22 @@ x = (a,b)+c=>{};
                         "text": "template-tail",
                         "rawText": "template-tail",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 113,
                         "end": 128
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 109,
                     "end": 128
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 100,
                 "end": 128
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 100,
             "end": 128
         },
@@ -513,16 +581,19 @@ x = (a,b)+c=>{};
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 131,
                 "end": 131
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 130,
             "end": 132
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 132,
             "end": 133
         },
@@ -535,12 +606,14 @@ x = (a,b)+c=>{};
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 133,
                     "end": 135
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 135,
                     "end": 137
                 },
@@ -556,6 +629,7 @@ x = (a,b)+c=>{};
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 139,
                                     "end": 140
                                 },
@@ -564,6 +638,7 @@ x = (a,b)+c=>{};
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 141,
                                         "end": 144
                                     },
@@ -572,6 +647,7 @@ x = (a,b)+c=>{};
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 144,
                                         "end": 145
                                     },
@@ -579,15 +655,18 @@ x = (a,b)+c=>{};
                                     "type": null,
                                     "right": null,
                                     "flags": 34,
+                                    "transformFlags": 0,
                                     "start": 141,
                                     "end": 145
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 137,
                             "end": 146
                         },
                         "flags": 137,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 146
                     },
@@ -603,10 +682,12 @@ x = (a,b)+c=>{};
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 149,
                                     "end": 150
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 146,
                                 "end": 150
                             }
@@ -616,22 +697,27 @@ x = (a,b)+c=>{};
                             "text": "template-tail",
                             "rawText": "template-tail",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 150,
                             "end": 165
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 146,
                         "end": 165
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 137,
                     "end": 165
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 133,
                 "end": 165
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 133,
             "end": 165
         },
@@ -641,10 +727,12 @@ x = (a,b)+c=>{};
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 168,
                 "end": 168
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 167,
             "end": 169
         },
@@ -657,6 +745,7 @@ x = (a,b)+c=>{};
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 169,
                     "end": 169
                 },
@@ -672,10 +761,12 @@ x = (a,b)+c=>{};
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 188,
                                 "end": 189
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 172,
                             "end": 189
                         }
@@ -685,18 +776,22 @@ x = (a,b)+c=>{};
                         "text": "template-tail",
                         "rawText": "template-tail",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 189,
                         "end": 204
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 172,
                     "end": 204
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 169,
                 "end": 204
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 169,
             "end": 204
         },
@@ -706,10 +801,12 @@ x = (a,b)+c=>{};
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 207,
                 "end": 207
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 206,
             "end": 208
         },
@@ -722,12 +819,14 @@ x = (a,b)+c=>{};
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 208,
                     "end": 208
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 211,
                     "end": 212
                 },
@@ -736,12 +835,14 @@ x = (a,b)+c=>{};
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 212,
                     "end": 213
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 213,
                     "end": 214
                 },
@@ -754,6 +855,7 @@ x = (a,b)+c=>{};
                         "text": "d",
                         "rawText": "d",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 214,
                         "end": 215
                     },
@@ -761,6 +863,7 @@ x = (a,b)+c=>{};
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 215,
                         "end": 217
                     },
@@ -771,22 +874,27 @@ x = (a,b)+c=>{};
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 218,
                             "end": 218
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 217,
                         "end": 219
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 214,
                     "end": 219
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 208,
                 "end": 219
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 208,
             "end": 219
         },
@@ -796,16 +904,19 @@ x = (a,b)+c=>{};
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 222,
                 "end": 222
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 221,
             "end": 223
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 223,
             "end": 224
         },
@@ -818,12 +929,14 @@ x = (a,b)+c=>{};
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 224,
                     "end": 226
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 226,
                     "end": 228
                 },
@@ -834,6 +947,7 @@ x = (a,b)+c=>{};
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 228,
                         "end": 228
                     },
@@ -842,18 +956,22 @@ x = (a,b)+c=>{};
                         "text": 1,
                         "rawText": "1",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 232,
                         "end": 233
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 228,
                     "end": 234
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 224,
                 "end": 234
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 224,
             "end": 234
         },
@@ -863,10 +981,12 @@ x = (a,b)+c=>{};
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 237,
                 "end": 237
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 236,
             "end": 238
         },
@@ -879,12 +999,14 @@ x = (a,b)+c=>{};
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 238,
                     "end": 240
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 240,
                     "end": 242
                 },
@@ -895,6 +1017,7 @@ x = (a,b)+c=>{};
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 242,
                         "end": 242
                     },
@@ -903,18 +1026,22 @@ x = (a,b)+c=>{};
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 246,
                         "end": 247
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 242,
                     "end": 248
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 238,
                 "end": 248
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 238,
             "end": 248
         },
@@ -924,16 +1051,19 @@ x = (a,b)+c=>{};
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 251,
                 "end": 251
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 250,
             "end": 252
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 252,
             "end": 253
         },
@@ -946,12 +1076,14 @@ x = (a,b)+c=>{};
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 253,
                     "end": 255
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 255,
                     "end": 257
                 },
@@ -967,6 +1099,7 @@ x = (a,b)+c=>{};
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 259,
                                     "end": 260
                                 },
@@ -975,21 +1108,25 @@ x = (a,b)+c=>{};
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 261,
                                     "end": 262
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 257,
                             "end": 263
                         },
                         "flags": 257,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 263
                     },
                     "operatorToken": {
                         "kind": 99634,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 263,
                         "end": 264
                     },
@@ -1002,6 +1139,7 @@ x = (a,b)+c=>{};
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 264,
                             "end": 265
                         },
@@ -1009,6 +1147,7 @@ x = (a,b)+c=>{};
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 265,
                             "end": 267
                         },
@@ -1019,26 +1158,32 @@ x = (a,b)+c=>{};
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 268,
                                 "end": 268
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 267,
                             "end": 269
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 264,
                         "end": 269
                     },
                     "flags": 289,
+                    "transformFlags": 0,
                     "start": 257,
                     "end": 269
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 253,
                 "end": 269
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 253,
             "end": 270
         }
@@ -1047,6 +1192,7 @@ x = (a,b)+c=>{};
     "source": "(...a)`template-head${c}`=>{}\n(...a)?c:d=>{}=>{};\nx = (...a)[1]=>{};\n(a,...b)`template-head${c}`=>{}\n(a,...b)`${c}template-tail`=>{};\nx = (a,...b)`${c}template-tail`=>{}\n()`template-head${c}template-tail`=>{}\n()?c:d=>{}=>{};\nx = ()[1]=>{}\nx = ()[c]=>{};\nx = (a,b)+c=>{};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 270
 }

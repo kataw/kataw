@@ -21,6 +21,7 @@ var a : [] = [];
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -34,21 +35,25 @@ var a : [] = [];
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 5
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -63,16 +68,19 @@ var a : [] = [];
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 9
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 7,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
@@ -83,18 +91,22 @@ var a : [] = [];
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 14
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 12,
                     "end": 15
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 7,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 7,
             "end": 16
         }
@@ -103,6 +115,7 @@ var a : [] = [];
     "source": "var a : [] = [];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

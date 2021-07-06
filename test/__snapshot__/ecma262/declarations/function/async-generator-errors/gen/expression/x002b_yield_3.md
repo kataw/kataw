@@ -36,12 +36,14 @@
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 8
                                 },
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
+                                    "transformFlags": 32,
                                     "start": 8,
                                     "end": 10
                                 },
@@ -54,6 +56,7 @@
                                         "text": "gen",
                                         "rawText": "gen",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 14
                                     },
@@ -63,6 +66,7 @@
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 416,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 17
                                     },
@@ -80,6 +84,7 @@
                                                         "operandToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 19,
                                                             "end": 20
                                                         },
@@ -88,6 +93,7 @@
                                                             "yieldKeyword": {
                                                                 "kind": 8454253,
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 20,
                                                                 "end": 26
                                                             },
@@ -98,53 +104,65 @@
                                                                 "text": 3,
                                                                 "rawText": "3",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 26,
                                                                 "end": 28
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 20,
                                                             "end": 28
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 19,
                                                         "end": 28
                                                     },
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 19,
                                                     "end": 28
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 28
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 29
                                     },
                                     "flags": 416,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 29
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 29
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 29
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 31
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -153,6 +171,7 @@
     "source": "({ async * gen () {+ yield 3} })",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

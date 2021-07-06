@@ -26,6 +26,7 @@ import a, ** from 'f';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -41,12 +42,14 @@ import a, ** from 'f';
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 9
                     },
                     "operatorToken": {
                         "kind": 35897,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 12
                     },
@@ -55,14 +58,17 @@ import a, ** from 'f';
                         "text": "from",
                         "rawText": "from",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 17
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 17
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 17
             },
@@ -74,16 +80,19 @@ import a, ** from 'f';
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         },
@@ -94,10 +103,12 @@ import a, ** from 'f';
                 "text": "f",
                 "rawText": "'f'",
                 "flags": 4194400,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 17,
             "end": 22
         }
@@ -106,6 +117,7 @@ import a, ** from 'f';
     "source": "import a, ** from 'f';",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

@@ -27,6 +27,7 @@ a?.b
                         "chainToken": {
                             "kind": 393240,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 3
                         },
@@ -35,6 +36,7 @@ a?.b
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 1
                         },
@@ -48,24 +50,29 @@ a?.b
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 4
                                 },
                                 "flags": 536870944,
+                                "transformFlags": 2,
                                 "start": 3,
                                 "end": 4
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 4
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 4
                     },
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 97,
+                        "transformFlags": 32,
                         "start": 4,
                         "end": 6
                     },
@@ -74,16 +81,19 @@ a?.b
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 7
                     },
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 7,
                     "end": 8
                 },
@@ -92,14 +102,17 @@ a?.b
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 8
                 },
                 "flags": 33,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         }
@@ -108,6 +121,7 @@ a?.b
     "source": "a?.b\n/c/",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

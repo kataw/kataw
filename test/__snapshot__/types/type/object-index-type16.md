@@ -29,6 +29,7 @@ var o: { [string]: number } = {};
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var o: { [string]: number } = {};
                             "text": "o",
                             "rawText": "o",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -60,6 +62,7 @@ var o: { [string]: number } = {};
                                         "key": {
                                             "kind": 134234347,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 16
                                         },
@@ -70,24 +73,29 @@ var o: { [string]: number } = {};
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 25
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 25
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 25
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 27
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 27
                         },
@@ -98,23 +106,28 @@ var o: { [string]: number } = {};
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 31
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 29,
                             "end": 32
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 32
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -123,6 +136,7 @@ var o: { [string]: number } = {};
     "source": "var o: { [string]: number } = {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

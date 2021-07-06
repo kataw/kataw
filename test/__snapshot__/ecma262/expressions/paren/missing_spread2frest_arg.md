@@ -24,6 +24,7 @@
                     "ellipsisToken": {
                         "kind": 524302,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 4
                     },
@@ -32,6 +33,7 @@
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 4
                     },
@@ -39,14 +41,17 @@
                     "type": null,
                     "right": null,
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 4
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         }
@@ -55,6 +60,7 @@
     "source": "(...);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 6
 }

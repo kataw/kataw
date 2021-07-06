@@ -25,6 +25,7 @@ let {q=3} = {};
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -38,21 +39,25 @@ let {q=3} = {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 5
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 5
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -61,6 +66,7 @@ let {q=3} = {};
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 10
             },
@@ -74,6 +80,7 @@ let {q=3} = {};
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 12
                         },
@@ -83,19 +90,23 @@ let {q=3} = {};
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 16
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 10,
                         "end": 16
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 16
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 6,
             "end": 17
         },
@@ -104,6 +115,7 @@ let {q=3} = {};
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 21
             },
@@ -122,16 +134,19 @@ let {q=3} = {};
                                         "text": "z",
                                         "rawText": "z",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 24
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 24
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 25
                         },
@@ -146,29 +161,35 @@ let {q=3} = {};
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 30
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 30
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 27,
                             "end": 31
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 21,
                         "end": 31
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 31
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 17,
             "end": 32
         },
@@ -177,6 +198,7 @@ let {q=3} = {};
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 36
             },
@@ -195,16 +217,19 @@ let {q=3} = {};
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 38,
                                         "end": 41
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 41
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 36,
                             "end": 42
                         },
@@ -222,6 +247,7 @@ let {q=3} = {};
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 46,
                                             "end": 49
                                         },
@@ -230,33 +256,40 @@ let {q=3} = {};
                                             "text": 2,
                                             "rawText": "2",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 50,
                                             "end": 52
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 46,
                                         "end": 52
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 46,
                                 "end": 52
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 44,
                             "end": 53
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 36,
                         "end": 53
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 36,
                 "end": 53
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 32,
             "end": 54
         },
@@ -265,6 +298,7 @@ let {q=3} = {};
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 54,
                 "end": 58
             },
@@ -286,6 +320,7 @@ let {q=3} = {};
                                             "text": "q",
                                             "rawText": "q",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 60,
                                             "end": 61
                                         },
@@ -296,20 +331,24 @@ let {q=3} = {};
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 62,
                                             "end": 63
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 60,
                                         "end": 63
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 60,
                                 "end": 63
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 58,
                             "end": 64
                         },
@@ -321,23 +360,28 @@ let {q=3} = {};
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 68,
                                 "end": 68
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 66,
                             "end": 69
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 58,
                         "end": 69
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 58,
                 "end": 69
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 54,
             "end": 70
         }
@@ -346,6 +390,7 @@ let {q=3} = {};
     "source": "let x;\nlet y = 0;\nlet [z] = [1];\nlet {foo} = {foo: 2};\nlet {q=3} = {};\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 71
 }

@@ -33,6 +33,7 @@ type q = { [[foo]]: X }
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -41,6 +42,7 @@ type q = { [[foo]]: X }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -48,6 +50,7 @@ type q = { [[foo]]: X }
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -67,6 +70,7 @@ type q = { [[foo]]: X }
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 16
                             },
@@ -82,33 +86,40 @@ type q = { [[foo]]: X }
                                         "text": "X",
                                         "rawText": "X",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 21
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 21
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 21
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 21
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 23
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 23
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         },
@@ -118,6 +129,7 @@ type q = { [[foo]]: X }
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 29
             },
@@ -126,6 +138,7 @@ type q = { [[foo]]: X }
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 31
             },
@@ -133,6 +146,7 @@ type q = { [[foo]]: X }
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 33
             },
@@ -152,6 +166,7 @@ type q = { [[foo]]: X }
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 41
                             },
@@ -163,6 +178,7 @@ type q = { [[foo]]: X }
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 44
                                 },
@@ -177,38 +193,46 @@ type q = { [[foo]]: X }
                                             "text": "X",
                                             "rawText": "X",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 46,
                                             "end": 48
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 46,
                                         "end": 48
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 46,
                                     "end": 48
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 48
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 35,
                             "end": 48
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 50
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 50
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 23,
             "end": 50
         },
@@ -218,6 +242,7 @@ type q = { [[foo]]: X }
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 50,
                 "end": 56
             },
@@ -226,6 +251,7 @@ type q = { [[foo]]: X }
                 "text": "z",
                 "rawText": "z",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 56,
                 "end": 58
             },
@@ -233,6 +259,7 @@ type q = { [[foo]]: X }
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 58,
                 "end": 60
             },
@@ -252,12 +279,14 @@ type q = { [[foo]]: X }
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 65,
                                 "end": 68
                             },
                             "optionalToken": {
                                 "kind": 134217750,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 70,
                                 "end": 71
                             },
@@ -272,33 +301,40 @@ type q = { [[foo]]: X }
                                         "text": "X",
                                         "rawText": "X",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 72,
                                         "end": 74
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 72,
                                     "end": 74
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 72,
                                 "end": 74
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 62,
                             "end": 74
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 60,
                     "end": 76
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 60,
                 "end": 76
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 50,
             "end": 76
         },
@@ -308,6 +344,7 @@ type q = { [[foo]]: X }
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 76,
                 "end": 82
             },
@@ -316,6 +353,7 @@ type q = { [[foo]]: X }
                 "text": "q",
                 "rawText": "q",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 82,
                 "end": 84
             },
@@ -323,6 +361,7 @@ type q = { [[foo]]: X }
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 84,
                 "end": 86
             },
@@ -342,6 +381,7 @@ type q = { [[foo]]: X }
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 91,
                                 "end": 94
                             },
@@ -357,33 +397,40 @@ type q = { [[foo]]: X }
                                         "text": "X",
                                         "rawText": "X",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 97,
                                         "end": 99
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 97,
                                     "end": 99
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 97,
                                 "end": 99
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 88,
                             "end": 99
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 86,
                     "end": 101
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 86,
                 "end": 101
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 76,
             "end": 101
         }
@@ -392,6 +439,7 @@ type q = { [[foo]]: X }
     "source": "type x = { [[foo]]: X }\n\ntype y = { [[foo]](): X }\n\ntype z = { [[foo]]?: X }\n\ntype q = { [[foo]]: X }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 101
 }

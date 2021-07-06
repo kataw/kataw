@@ -31,12 +31,14 @@ x = import(x)
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -45,6 +47,7 @@ x = import(x)
                     "importKeyword": {
                         "kind": 37814364,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 10
                     },
@@ -53,18 +56,22 @@ x = import(x)
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 12
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 13
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -73,6 +80,7 @@ x = import(x)
     "source": "x = import(x)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

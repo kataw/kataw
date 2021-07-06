@@ -25,6 +25,7 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 11
                     },
@@ -33,15 +34,18 @@
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 33
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -50,6 +54,7 @@
     "source": " /* 1 */  x /* 2 */ , /* 3 */   y /* 4 */",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }

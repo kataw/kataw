@@ -26,6 +26,7 @@ import **= from 'f';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -35,6 +36,7 @@ import **= from 'f';
             "moduleSpecifier": null,
             "importClause": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -45,10 +47,12 @@ import **= from 'f';
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 15
         },
@@ -59,10 +63,12 @@ import **= from 'f';
                 "text": "f",
                 "rawText": "'f'",
                 "flags": 4194400,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 15,
             "end": 20
         }
@@ -71,6 +77,7 @@ import **= from 'f';
     "source": "import **= from 'f';",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

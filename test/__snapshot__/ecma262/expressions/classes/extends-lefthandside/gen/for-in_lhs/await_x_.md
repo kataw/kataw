@@ -29,6 +29,7 @@ x; in x) ;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -37,6 +38,7 @@ x; in x) ;
                 "text": "await",
                 "rawText": "await",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 10
             },
@@ -47,12 +49,14 @@ x; in x) ;
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 13
                 },
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 16
                 },
@@ -61,10 +65,12 @@ x; in x) ;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 18
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 18
             },
@@ -73,16 +79,19 @@ x; in x) ;
                 "text": "x",
                 "rawText": "x",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 12
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 21
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -91,6 +100,7 @@ x; in x) ;
     "source": "for (await\nx; in x) ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

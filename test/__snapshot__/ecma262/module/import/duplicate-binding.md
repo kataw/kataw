@@ -26,6 +26,7 @@ import 'x' assert {x: 'y', x: 'y'}
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -37,11 +38,13 @@ import 'x' assert {x: 'y', x: 'y'}
                 "text": "x",
                 "rawText": "'x'",
                 "flags": 4194400,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 10
             },
             "importClause": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -52,10 +55,12 @@ import 'x' assert {x: 'y', x: 'y'}
                 "text": "assert",
                 "rawText": "assert",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 17
         },
@@ -71,12 +76,14 @@ import 'x' assert {x: 'y', x: 'y'}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 20
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 21
                         },
@@ -90,6 +97,7 @@ import 'x' assert {x: 'y', x: 'y'}
                                         "text": "y",
                                         "rawText": "'y'",
                                         "flags": 4194400,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 25
                                     },
@@ -98,28 +106,34 @@ import 'x' assert {x: 'y', x: 'y'}
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 28
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 28
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 28
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 28
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 17,
             "end": 28
         },
@@ -130,10 +144,12 @@ import 'x' assert {x: 'y', x: 'y'}
                 "text": "y",
                 "rawText": "'y'",
                 "flags": 4194400,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 29,
             "end": 33
         }
@@ -142,6 +158,7 @@ import 'x' assert {x: 'y', x: 'y'}
     "source": "import 'x' assert {x: 'y', x: 'y'}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

@@ -20,6 +20,7 @@ for (let [foo], bar);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -28,6 +29,7 @@ for (let [foo], bar);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
@@ -46,22 +48,26 @@ for (let [foo], bar);
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 13
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 13
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 14
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 8,
                             "end": 14
                         },
@@ -72,21 +78,25 @@ for (let [foo], bar);
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 19
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 15,
                             "end": 19
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 19
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 19
             },
@@ -96,16 +106,19 @@ for (let [foo], bar);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 19
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 21
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -114,6 +127,7 @@ for (let [foo], bar);
     "source": "for (let [foo], bar);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

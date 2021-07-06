@@ -34,6 +34,7 @@
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 7
                         },
@@ -45,6 +46,7 @@
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 10
                                 },
@@ -55,12 +57,14 @@
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 15
                                     },
                                     "questionToken": {
                                         "kind": 134217750,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 17
                                     },
@@ -69,12 +73,14 @@
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 21
                                     },
                                     "colonToken": {
                                         "kind": 21,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 23
                                     },
@@ -83,29 +89,35 @@
                                         "text": "baz",
                                         "rawText": "baz",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 27
                                     },
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 27
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 1
                         },
                         "flags": 268435488,
+                        "transformFlags": 1,
                         "start": 1,
                         "end": 28
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         },
@@ -115,10 +127,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 31,
             "end": 34
         }
@@ -127,6 +141,7 @@
     "source": "{ async (a, foo ? bar : baz) => {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

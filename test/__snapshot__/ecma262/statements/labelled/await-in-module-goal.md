@@ -25,6 +25,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -37,12 +38,14 @@
                 "text": "protected",
                 "rawText": "protecte\\u0064",
                 "flags": 16480,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 28
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 29
             },
@@ -53,14 +56,17 @@
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 31
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 31
             },
             "flags": 16400,
+            "transformFlags": 0,
             "start": 13,
             "end": 31
         }
@@ -69,6 +75,7 @@
     "source": "'use strict'; protecte\\u0064: 0",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

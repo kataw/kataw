@@ -32,6 +32,7 @@ import(x,y=z)
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 6
                         },
@@ -40,10 +41,12 @@ import(x,y=z)
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 8
                     },
@@ -54,12 +57,14 @@ import(x,y=z)
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 10
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 11
                         },
@@ -68,19 +73,23 @@ import(x,y=z)
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
                         "flags": 0,
+                        "transformFlags": 128,
                         "start": 9,
                         "end": 12
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -89,6 +98,7 @@ import(x,y=z)
     "source": "import(x,y=z)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

@@ -22,12 +22,14 @@ foo: break foo;
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 4
             },
@@ -36,6 +38,7 @@ foo: break foo;
                 "breakKeyword": {
                     "kind": 37757005,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 10
                 },
@@ -44,14 +47,17 @@ foo: break foo;
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 14
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -60,6 +66,7 @@ foo: break foo;
     "source": "foo: break foo;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

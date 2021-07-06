@@ -29,6 +29,7 @@ class x {static get protected(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class x {static get protected(){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -54,6 +56,7 @@ class x {static get protected(){}}
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
@@ -61,6 +64,7 @@ class x {static get protected(){}}
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 19
                             },
@@ -73,6 +77,7 @@ class x {static get protected(){}}
                                     "text": "protected",
                                     "rawText": "protected",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 29
                                 },
@@ -82,6 +87,7 @@ class x {static get protected(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 31
                                 },
@@ -93,31 +99,38 @@ class x {static get protected(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 32
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 33
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 33
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 33
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 33
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -126,6 +139,7 @@ class x {static get protected(){}}
     "source": "class x {static get protected(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

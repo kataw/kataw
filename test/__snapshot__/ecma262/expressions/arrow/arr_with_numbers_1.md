@@ -34,22 +34,26 @@
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 3
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 3
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 4
                         }
                     ],
                     "trailingComma": false,
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 5
                 },
@@ -57,6 +61,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -65,14 +70,17 @@
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 8
                 },
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         }
@@ -81,6 +89,7 @@
     "source": "([0])=>0;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

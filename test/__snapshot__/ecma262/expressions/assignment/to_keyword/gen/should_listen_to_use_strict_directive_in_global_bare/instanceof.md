@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -40,12 +41,14 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 13
                 },
                 "operatorToken": {
                     "kind": 4229173,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 24
                 },
@@ -54,14 +57,17 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 24
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 24
         },
@@ -72,10 +78,12 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 26,
             "end": 29
         }
@@ -84,6 +92,7 @@
     "source": "\"use strict\"; instanceof = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

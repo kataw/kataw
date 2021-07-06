@@ -29,6 +29,7 @@ for (a in b) let
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -37,12 +38,14 @@ for (a in b) let
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 6
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 9
             },
@@ -51,6 +54,7 @@ for (a in b) let
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 11
             },
@@ -61,14 +65,17 @@ for (a in b) let
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 16
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 16
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         },
@@ -78,10 +85,12 @@ for (a in b) let
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 18
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 16,
             "end": 19
         }
@@ -90,6 +99,7 @@ for (a in b) let
     "source": "for (a in b) let\n{}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

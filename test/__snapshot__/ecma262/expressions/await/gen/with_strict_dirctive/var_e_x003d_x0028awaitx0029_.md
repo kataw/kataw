@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -37,6 +38,7 @@
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
@@ -50,6 +52,7 @@
                             "text": "e",
                             "rawText": "e",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 19
                         },
@@ -61,23 +64,28 @@
                                 "text": "await",
                                 "rawText": "await",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 28
                             },
                             "flags": 21,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 29
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 17,
                         "end": 29
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 30
         }
@@ -86,6 +94,7 @@
     "source": "'use strict'; var e = (await);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

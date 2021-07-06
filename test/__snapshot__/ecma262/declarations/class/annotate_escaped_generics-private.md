@@ -40,6 +40,7 @@ class I<X> {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -48,6 +49,7 @@ class I<X> {
                 "text": "I",
                 "rawText": "I",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -63,6 +65,7 @@ class I<X> {
                                 "text": "X",
                                 "rawText": "X",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             },
@@ -70,16 +73,19 @@ class I<X> {
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 9
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 9
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 10
             },
@@ -100,6 +106,7 @@ class I<X> {
                                 "text": "#i",
                                 "rawText": "#i",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 17
                             },
@@ -107,12 +114,14 @@ class I<X> {
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 12,
                             "end": 17
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 18
                         },
@@ -127,6 +136,7 @@ class I<X> {
                                 "text": "_f",
                                 "rawText": "_f",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 23
                             },
@@ -134,12 +144,14 @@ class I<X> {
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 18,
                             "end": 23
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 24
                         },
@@ -159,6 +171,7 @@ class I<X> {
                                     "text": "_h",
                                     "rawText": "_h",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 29
                                 },
@@ -174,6 +187,7 @@ class I<X> {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 30,
                                                 "end": 31
                                             },
@@ -189,26 +203,31 @@ class I<X> {
                                                         "text": "X",
                                                         "rawText": "X",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 32,
                                                         "end": 34
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 32,
                                                     "end": 34
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 32,
                                                 "end": 34
                                             },
                                             "right": null,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 34
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 35
                                 },
@@ -224,6 +243,7 @@ class I<X> {
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 37,
                                                     "end": 48
                                                 },
@@ -232,27 +252,33 @@ class I<X> {
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 48,
                                                     "end": 50
                                                 },
                                                 "flags": 81,
+                                                "transformFlags": 256,
                                                 "start": 37,
                                                 "end": 51
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 37,
                                         "end": 51
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 55
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 55
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 55
                         },
@@ -272,6 +298,7 @@ class I<X> {
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 55,
                                     "end": 59
                                 },
@@ -287,6 +314,7 @@ class I<X> {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 60,
                                                 "end": 61
                                             },
@@ -302,26 +330,31 @@ class I<X> {
                                                         "text": "X",
                                                         "rawText": "X",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 62,
                                                         "end": 64
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 62,
                                                     "end": 64
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 62,
                                                 "end": 64
                                             },
                                             "right": null,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 60,
                                             "end": 64
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 60,
                                     "end": 65
                                 },
@@ -341,6 +374,7 @@ class I<X> {
                                                         "member": {
                                                             "kind": 4276321,
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 67,
                                                             "end": 76
                                                         },
@@ -349,16 +383,19 @@ class I<X> {
                                                             "text": "#i",
                                                             "rawText": "#i",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 77,
                                                             "end": 79
                                                         },
                                                         "flags": 97,
+                                                        "transformFlags": 2,
                                                         "start": 67,
                                                         "end": 79
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 79,
                                                         "end": 81
                                                     },
@@ -367,14 +404,17 @@ class I<X> {
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 81,
                                                         "end": 83
                                                     },
                                                     "flags": 0,
+                                                    "transformFlags": 128,
                                                     "start": 67,
                                                     "end": 83
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 67,
                                                 "end": 84
                                             },
@@ -387,6 +427,7 @@ class I<X> {
                                                         "member": {
                                                             "kind": 4276321,
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 84,
                                                             "end": 93
                                                         },
@@ -395,16 +436,19 @@ class I<X> {
                                                             "text": "_f",
                                                             "rawText": "_f",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 94,
                                                             "end": 96
                                                         },
                                                         "flags": 97,
+                                                        "transformFlags": 2,
                                                         "start": 84,
                                                         "end": 96
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 96,
                                                         "end": 98
                                                     },
@@ -413,44 +457,54 @@ class I<X> {
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 98,
                                                         "end": 100
                                                     },
                                                     "flags": 0,
+                                                    "transformFlags": 128,
                                                     "start": 84,
                                                     "end": 100
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 84,
                                                 "end": 101
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 67,
                                         "end": 101
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 65,
                                     "end": 105
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 59,
                                 "end": 105
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 55,
                             "end": 105
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 105
                 },
                 "flags": 10,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 107
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 107
         }
@@ -459,6 +513,7 @@ class I<X> {
     "source": "class I<X> {\n  #i;\n  _f;\n  _h(x: X) {\n    return x;\n  }\n  g(x: X) {\n    this.#i = x;\n    this._f = x;\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 107
 }

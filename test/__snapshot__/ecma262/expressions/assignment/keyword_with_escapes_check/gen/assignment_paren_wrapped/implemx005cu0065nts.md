@@ -33,12 +33,14 @@
                         "text": "implements",
                         "rawText": "implem\\u0065nts",
                         "flags": 16480,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 16
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 18
                     },
@@ -47,18 +49,22 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 20
                     },
                     "flags": 16416,
+                    "transformFlags": 128,
                     "start": 0,
                     "end": 20
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -67,6 +73,7 @@
     "source": "(implem\\u0065nts = x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

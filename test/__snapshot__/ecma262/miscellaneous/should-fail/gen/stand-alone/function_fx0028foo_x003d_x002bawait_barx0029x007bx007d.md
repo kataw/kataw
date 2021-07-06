@@ -29,6 +29,7 @@ function f(foo = +await bar){}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function f(foo = +await bar){}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -53,6 +55,7 @@ function f(foo = +await bar){}
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 14
                         },
@@ -63,6 +66,7 @@ function f(foo = +await bar){}
                             "operandToken": {
                                 "kind": 99634,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
                             },
@@ -71,14 +75,17 @@ function f(foo = +await bar){}
                                 "text": "await",
                                 "rawText": "await",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 23
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 23
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 23
                     },
@@ -87,12 +94,14 @@ function f(foo = +await bar){}
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 27
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 27
             },
@@ -103,15 +112,18 @@ function f(foo = +await bar){}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 29
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 30
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -120,6 +132,7 @@ function f(foo = +await bar){}
     "source": "function f(foo = +await bar){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

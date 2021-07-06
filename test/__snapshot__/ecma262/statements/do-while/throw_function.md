@@ -22,6 +22,7 @@ for(;;)x
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -30,6 +31,7 @@ for(;;)x
                 "throwKeyword": {
                     "kind": 37757026,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 8
                 },
@@ -39,6 +41,7 @@ for(;;)x
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 17
                     },
@@ -50,6 +53,7 @@ for(;;)x
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 18
                     },
@@ -60,25 +64,30 @@ for(;;)x
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 20
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 21
                     },
                     "returnType": null,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 21
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 21
             },
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 27
             },
@@ -87,10 +96,12 @@ for(;;)x
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 29
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         },
@@ -99,6 +110,7 @@ for(;;)x
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 34
             },
@@ -112,14 +124,17 @@ for(;;)x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 39
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 39
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 30,
             "end": 39
         }
@@ -128,6 +143,7 @@ for(;;)x
     "source": "do throw function(){}\nwhile(y)\nfor(;;)x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }

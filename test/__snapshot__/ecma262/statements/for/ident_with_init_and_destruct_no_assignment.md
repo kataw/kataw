@@ -20,6 +20,7 @@ for (let x = y, {z});
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -28,6 +29,7 @@ for (let x = y, {z});
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
@@ -41,6 +43,7 @@ for (let x = y, {z});
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             },
@@ -50,10 +53,12 @@ for (let x = y, {z});
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 14
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 8,
                             "end": 14
                         },
@@ -69,31 +74,37 @@ for (let x = y, {z});
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 18
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 18
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 19
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 15,
                             "end": 19
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 19
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 19
             },
@@ -103,16 +114,19 @@ for (let x = y, {z});
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 19
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 21
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -121,6 +135,7 @@ for (let x = y, {z});
     "source": "for (let x = y, {z});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

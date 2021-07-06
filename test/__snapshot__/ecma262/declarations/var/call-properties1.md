@@ -29,6 +29,7 @@ var a : { (): number }
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var a : { (): number }
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -62,6 +64,7 @@ var a : { (): number }
                                             "parameters": [],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 11
                                         },
@@ -72,38 +75,46 @@ var a : { (): number }
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 20
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 20
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 20
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 22
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 22
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 22
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -112,6 +123,7 @@ var a : { (): number }
     "source": "var a : { (): number }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

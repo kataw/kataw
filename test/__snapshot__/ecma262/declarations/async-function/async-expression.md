@@ -24,12 +24,14 @@
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 15
                     },
@@ -39,6 +41,7 @@
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 19
                     },
@@ -48,6 +51,7 @@
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 20
                     },
@@ -58,23 +62,28 @@
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 23
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 25
                     },
                     "returnType": null,
                     "flags": 160,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 25
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -83,6 +92,7 @@
     "source": "(async function foo() { });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

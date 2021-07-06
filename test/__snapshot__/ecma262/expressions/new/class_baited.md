@@ -22,6 +22,7 @@ new class extends{}
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -31,6 +32,7 @@ new class extends{}
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 9
                     },
@@ -43,6 +45,7 @@ new class extends{}
                             "extendsKeyword": {
                                 "kind": 4194391,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 17
                             },
@@ -53,15 +56,18 @@ new class extends{}
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 18
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 17,
                                 "end": 19
                             },
                             "typeParameter": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 19
                         },
@@ -69,23 +75,28 @@ new class extends{}
                             "kind": 303,
                             "elements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 9
                         },
                         "flags": 9,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 9
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 19
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -94,6 +105,7 @@ new class extends{}
     "source": "new class extends{}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

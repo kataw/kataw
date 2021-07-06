@@ -28,20 +28,24 @@
                             "properties": [],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 2
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 1,
                         "end": 3
                     },
                     "flags": 0,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 4
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 6
                 },
@@ -50,14 +54,17 @@
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         }
@@ -66,6 +73,7 @@
     "source": "({}) = 1",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

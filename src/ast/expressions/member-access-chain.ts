@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { ExpressionNode } from '.';
 import { OptionalChain } from './optional-chain';
 
@@ -21,6 +21,7 @@ export function createMemberAccessChain(
     chain,
     expression,
     flags: NodeFlags.ExpressionNode | NodeFlags.IsMemberExpression,
+    transformFlags: TransformFlags.MemberAccessExpression,
     start,
     end
   };

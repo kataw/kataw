@@ -36,14 +36,17 @@
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 3
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 1,
                             "end": 3
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 3
                     },
@@ -56,10 +59,12 @@
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 3
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 3
                         },
@@ -68,6 +73,7 @@
                             "catchKeyword": {
                                 "kind": 4202575,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 8
                             },
@@ -78,29 +84,35 @@
                                     "kind": 249,
                                     "statements": [],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 8
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 8
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 8
                         },
                         "finallyKeyword": null,
                         "finallyBlock": null,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 8
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         },
@@ -111,10 +123,12 @@
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 9,
             "end": 15
         },
@@ -125,6 +139,7 @@
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 21
             },
@@ -133,6 +148,7 @@
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 21
             },
@@ -144,14 +160,17 @@
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 21
                 },
                 "flags": 21,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 15,
             "end": 21
         }
@@ -160,6 +179,7 @@
     "source": "{ [catch] async class",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

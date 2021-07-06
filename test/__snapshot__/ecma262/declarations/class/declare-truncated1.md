@@ -30,6 +30,7 @@ declare class B {
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -37,6 +38,7 @@ declare class B {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -45,6 +47,7 @@ declare class B {
                 "text": "B",
                 "rawText": "B",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
@@ -61,6 +64,7 @@ declare class B {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 26
                             },
@@ -71,6 +75,7 @@ declare class B {
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 26
                             },
@@ -86,33 +91,40 @@ declare class B {
                                         "text": "",
                                         "rawText": "",
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 26
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 26
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 26
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 26
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 26
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         },
@@ -123,6 +135,7 @@ declare class B {
                 "operandToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 28
                 },
@@ -131,14 +144,17 @@ declare class B {
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 28
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 26,
             "end": 28
         }
@@ -147,6 +163,7 @@ declare class B {
     "source": "declare class B {\n  static +\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -38,6 +39,7 @@
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 22
             },
@@ -47,6 +49,7 @@
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 26
             },
@@ -59,12 +62,14 @@
                         "text": "yield",
                         "rawText": "yield",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 27,
                         "end": 32
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 32
             },
@@ -75,15 +80,18 @@
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 35
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 35
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 35
         }
@@ -92,6 +100,7 @@
     "source": "'use strict'; function foo(yield) {",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

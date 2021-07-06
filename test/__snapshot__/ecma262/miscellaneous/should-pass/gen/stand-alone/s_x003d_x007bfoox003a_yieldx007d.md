@@ -31,12 +31,14 @@ s = {foo: yield}
                     "text": "s",
                     "rawText": "s",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -53,6 +55,7 @@ s = {foo: yield}
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 8
                                 },
@@ -61,28 +64,34 @@ s = {foo: yield}
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 15
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 5,
                                 "end": 15
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 15
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 16
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -91,6 +100,7 @@ s = {foo: yield}
     "source": "s = {foo: yield}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

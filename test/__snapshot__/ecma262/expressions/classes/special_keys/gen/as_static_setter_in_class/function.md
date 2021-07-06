@@ -29,6 +29,7 @@ class x {static set function(x){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class x {static set function(x){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -54,6 +56,7 @@ class x {static set function(x){}}
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
@@ -62,6 +65,7 @@ class x {static set function(x){}}
                             "getKeyword": {
                                 "kind": 16499,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 19
                             },
@@ -73,6 +77,7 @@ class x {static set function(x){}}
                                     "text": "function",
                                     "rawText": "function",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 28
                                 },
@@ -85,12 +90,14 @@ class x {static set function(x){}}
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 30
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 608,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 31
                                 },
@@ -102,31 +109,38 @@ class x {static set function(x){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 32
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 33
                                 },
                                 "flags": 512,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 33
                             },
                             "flags": 512,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 33
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 33
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -135,6 +149,7 @@ class x {static set function(x){}}
     "source": "class x {static set function(x){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

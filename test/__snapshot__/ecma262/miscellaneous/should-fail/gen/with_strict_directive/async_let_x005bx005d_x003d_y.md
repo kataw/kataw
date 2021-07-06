@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -38,6 +39,7 @@
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 19
                 },
@@ -47,6 +49,7 @@
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 23
                 },
@@ -61,16 +64,19 @@
                             "elements": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 25
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 23,
                         "end": 26
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 28
                     },
@@ -79,18 +85,22 @@
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 28,
                         "end": 30
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 23,
                     "end": 30
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 30
         }
@@ -99,6 +109,7 @@
     "source": "\"use strict\"; async let [] = y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

@@ -29,6 +29,7 @@ type X = (x) => T;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type X = (x) => T;
                 "text": "X",
                 "rawText": "X",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type X = (x) => T;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -67,29 +70,34 @@ type X = (x) => T;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 11
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 11
                                 },
                                 "optionalToken": null,
                                 "types": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 12
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 12
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 15
                     },
@@ -104,27 +112,33 @@ type X = (x) => T;
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 17
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 17
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 17
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 17
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -133,6 +147,7 @@ type X = (x) => T;
     "source": "type X = (x) => T;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

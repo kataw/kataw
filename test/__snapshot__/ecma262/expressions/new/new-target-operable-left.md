@@ -22,6 +22,7 @@ function f(){ new.target + foo }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function f(){ new.target + foo }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -40,6 +42,7 @@ function f(){ new.target + foo }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -58,22 +61,26 @@ function f(){ new.target + foo }
                                     "newKeyword": {
                                         "kind": 138477661,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 17
                                     },
                                     "targetIdentifier": {
                                         "kind": 16594,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 24
                                     },
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 24
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 26
                                 },
@@ -82,28 +89,34 @@ function f(){ new.target + foo }
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 30
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 30
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 30
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 30
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 32
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -112,6 +125,7 @@ function f(){ new.target + foo }
     "source": "function f(){ new.target + foo }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }
@@ -122,7 +136,7 @@ function f(){ new.target + foo }
 ```javascript
 
 function f() {
-  new.target +  foo;
+  new.target + foo;
 }
 ```
 

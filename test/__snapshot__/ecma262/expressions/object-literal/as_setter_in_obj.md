@@ -32,6 +32,7 @@
                                 "setKeyword": {
                                     "kind": 16499,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 5
                                 },
@@ -42,6 +43,7 @@
                                         "text": "async",
                                         "rawText": "async",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 11
                                     },
@@ -54,12 +56,14 @@
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 13
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 608,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 14
                                     },
@@ -71,36 +75,44 @@
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 15
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 16
                                     },
                                     "flags": 544,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 16
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 16
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 16
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 17
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -109,6 +121,7 @@
     "source": "({set async(x){}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

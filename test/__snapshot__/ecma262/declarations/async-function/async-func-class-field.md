@@ -40,12 +40,14 @@ async function f() { class C { aaa = await } }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -55,6 +57,7 @@ async function f() { class C { aaa = await } }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -64,6 +67,7 @@ async function f() { class C { aaa = await } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -80,6 +84,7 @@ async function f() { class C { aaa = await } }
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 26
                             },
@@ -88,6 +93,7 @@ async function f() { class C { aaa = await } }
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 28
                             },
@@ -109,6 +115,7 @@ async function f() { class C { aaa = await } }
                                                 "text": "aaa",
                                                 "rawText": "aaa",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 30,
                                                 "end": 34
                                             },
@@ -119,6 +126,7 @@ async function f() { class C { aaa = await } }
                                                 "awaitKeyword": {
                                                     "kind": 82196,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 36,
                                                     "end": 42
                                                 },
@@ -127,41 +135,50 @@ async function f() { class C { aaa = await } }
                                                     "text": "",
                                                     "rawText": "",
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 42,
                                                     "end": 42
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 36,
                                                 "end": 42
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 30,
                                             "end": 42
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 42
                                 },
                                 "flags": 28,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 44
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 44
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 44
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 46
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 46
         }
@@ -170,6 +187,7 @@ async function f() { class C { aaa = await } }
     "source": "async function f() { class C { aaa = await } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 46
 }

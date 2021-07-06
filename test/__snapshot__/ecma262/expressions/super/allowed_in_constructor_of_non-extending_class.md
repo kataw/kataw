@@ -22,6 +22,7 @@ class x { constructor(){ super.foo; }}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class x { constructor(){ super.foo; }}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -56,6 +58,7 @@ class x { constructor(){ super.foo; }}
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 21
                                 },
@@ -65,6 +68,7 @@ class x { constructor(){ super.foo; }}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 23
                                 },
@@ -82,6 +86,7 @@ class x { constructor(){ super.foo; }}
                                                     "member": {
                                                         "kind": 4259935,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 24,
                                                         "end": 30
                                                     },
@@ -90,44 +95,54 @@ class x { constructor(){ super.foo; }}
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 31,
                                                         "end": 34
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 2,
                                                     "start": 24,
                                                     "end": 34
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 24,
                                                 "end": 35
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 35
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 37
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 37
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 37
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 37
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 38
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         }
@@ -136,6 +151,7 @@ class x { constructor(){ super.foo; }}
     "source": "class x { constructor(){ super.foo; }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }

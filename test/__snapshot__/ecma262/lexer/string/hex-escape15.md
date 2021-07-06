@@ -28,10 +28,12 @@
                 "text": "qB",
                 "rawText": "\"\\xqB\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         }
@@ -40,6 +42,7 @@
     "source": "\"\\xqB\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 6
 }

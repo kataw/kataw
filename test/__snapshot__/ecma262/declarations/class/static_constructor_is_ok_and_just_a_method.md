@@ -41,6 +41,7 @@ class x { static "constructor"(){} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -49,6 +50,7 @@ class x { static "constructor"(){} }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -66,6 +68,7 @@ class x { static "constructor"(){} }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 16
                             },
@@ -80,6 +83,7 @@ class x { static "constructor"(){} }
                                     "text": "constructor",
                                     "rawText": "\"constructor\"",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 30
                                 },
@@ -89,6 +93,7 @@ class x { static "constructor"(){} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 32
                                 },
@@ -100,31 +105,38 @@ class x { static "constructor"(){} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 33
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 34
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 34
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 34
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 34
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -133,6 +145,7 @@ class x { static "constructor"(){} }
     "source": "class x { static \"constructor\"(){} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

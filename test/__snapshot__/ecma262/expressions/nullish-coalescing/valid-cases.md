@@ -38,12 +38,14 @@ a ?? b ?? c ? d : e;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 4
                 },
@@ -52,14 +54,17 @@ a ?? b ?? c ? d : e;
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 6
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         },
@@ -74,12 +79,14 @@ a ?? b ?? c ? d : e;
                         "text": "a",
                         "rawText": "a",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 10
                     },
                     "operatorToken": {
                         "kind": 134251592,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 12
                     },
@@ -88,16 +95,19 @@ a ?? b ?? c ? d : e;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 14
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 17
                 },
@@ -108,12 +118,14 @@ a ?? b ?? c ? d : e;
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 19
                     },
                     "operatorToken": {
                         "kind": 134251592,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 21
                     },
@@ -122,18 +134,22 @@ a ?? b ?? c ? d : e;
                         "text": "d",
                         "rawText": "d",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 23
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 23
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 7,
             "end": 24
         },
@@ -148,12 +164,14 @@ a ?? b ?? c ? d : e;
                         "text": "a",
                         "rawText": "a",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 27
                     },
                     "operatorToken": {
                         "kind": 33047,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 27,
                         "end": 30
                     },
@@ -162,16 +180,19 @@ a ?? b ?? c ? d : e;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 30,
                         "end": 32
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 32
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 34
                 },
@@ -180,12 +201,14 @@ a ?? b ?? c ? d : e;
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 36
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 36,
                     "end": 38
                 },
@@ -194,14 +217,17 @@ a ?? b ?? c ? d : e;
                     "text": "d",
                     "rawText": "d",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 40
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 24,
             "end": 41
         },
@@ -218,12 +244,14 @@ a ?? b ?? c ? d : e;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 44,
                             "end": 45
                         },
                         "operatorToken": {
                             "kind": 33339,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 45,
                             "end": 48
                         },
@@ -232,20 +260,24 @@ a ?? b ?? c ? d : e;
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 48,
                             "end": 50
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 41,
                         "end": 50
                     },
                     "flags": 41,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 51
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 51,
                     "end": 54
                 },
@@ -254,14 +286,17 @@ a ?? b ?? c ? d : e;
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 54,
                     "end": 56
                 },
                 "flags": 41,
+                "transformFlags": 0,
                 "start": 41,
                 "end": 56
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 41,
             "end": 57
         },
@@ -276,12 +311,14 @@ a ?? b ?? c ? d : e;
                         "text": "a",
                         "rawText": "a",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 57,
                         "end": 60
                     },
                     "operatorToken": {
                         "kind": 33047,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 60,
                         "end": 63
                     },
@@ -290,16 +327,19 @@ a ?? b ?? c ? d : e;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 63,
                         "end": 65
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 57,
                     "end": 65
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 65,
                     "end": 68
                 },
@@ -308,14 +348,17 @@ a ?? b ?? c ? d : e;
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 68,
                     "end": 70
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 57,
                 "end": 70
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 57,
             "end": 71
         },
@@ -330,12 +373,14 @@ a ?? b ?? c ? d : e;
                         "text": "a",
                         "rawText": "a",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 71,
                         "end": 74
                     },
                     "operatorToken": {
                         "kind": 33047,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 74,
                         "end": 77
                     },
@@ -344,16 +389,19 @@ a ?? b ?? c ? d : e;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 77,
                         "end": 79
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 71,
                     "end": 79
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 79,
                     "end": 81
                 },
@@ -362,12 +410,14 @@ a ?? b ?? c ? d : e;
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 81,
                     "end": 83
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 83,
                     "end": 85
                 },
@@ -376,14 +426,17 @@ a ?? b ?? c ? d : e;
                     "text": "d",
                     "rawText": "d",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 85,
                     "end": 87
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 71,
                 "end": 87
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 71,
             "end": 88
         },
@@ -400,12 +453,14 @@ a ?? b ?? c ? d : e;
                             "text": "a",
                             "rawText": "a",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 88,
                             "end": 91
                         },
                         "operatorToken": {
                             "kind": 33047,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 91,
                             "end": 94
                         },
@@ -414,16 +469,19 @@ a ?? b ?? c ? d : e;
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 94,
                             "end": 96
                         },
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 88,
                         "end": 96
                     },
                     "operatorToken": {
                         "kind": 33047,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 96,
                         "end": 99
                     },
@@ -432,16 +490,19 @@ a ?? b ?? c ? d : e;
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 99,
                         "end": 101
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 88,
                     "end": 101
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 101,
                     "end": 103
                 },
@@ -450,12 +511,14 @@ a ?? b ?? c ? d : e;
                     "text": "d",
                     "rawText": "d",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 103,
                     "end": 105
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 105,
                     "end": 107
                 },
@@ -464,14 +527,17 @@ a ?? b ?? c ? d : e;
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 107,
                     "end": 109
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 88,
                 "end": 109
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 88,
             "end": 110
         },
@@ -482,10 +548,12 @@ a ?? b ?? c ? d : e;
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 110,
                 "end": 124
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 110,
             "end": 125
         },
@@ -502,12 +570,14 @@ a ?? b ?? c ? d : e;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 125,
                             "end": 127
                         },
                         "operatorToken": {
                             "kind": 33047,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 127,
                             "end": 130
                         },
@@ -516,16 +586,19 @@ a ?? b ?? c ? d : e;
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 130,
                             "end": 132
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 125,
                         "end": 132
                     },
                     "operatorToken": {
                         "kind": 33047,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 132,
                         "end": 135
                     },
@@ -534,16 +607,19 @@ a ?? b ?? c ? d : e;
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 135,
                         "end": 137
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 125,
                     "end": 137
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 137,
                     "end": 139
                 },
@@ -552,12 +628,14 @@ a ?? b ?? c ? d : e;
                     "text": "d",
                     "rawText": "d",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 139,
                     "end": 141
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 141,
                     "end": 143
                 },
@@ -566,14 +644,17 @@ a ?? b ?? c ? d : e;
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 143,
                     "end": 145
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 125,
                 "end": 145
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 125,
             "end": 146
         }
@@ -582,6 +663,7 @@ a ?? b ?? c ? d : e;
     "source": "a ?? b;\n\na | b ?? c | d;\n\na ?? b ? c : d;\n\n(a || b) ?? c;\n\na ?? b ?? c;\n\na ?? b ? c : d;\n\na ?? b ?? c ? d : e;\n\n\"use strict\"; a ?? b ?? c ? d : e;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 146
 }
@@ -591,22 +673,22 @@ a ?? b ?? c ? d : e;
 
 ```javascript
 
-a ??  b;
-a |  b ??  c |  d;
+a ?? b;
+a | b ?? c | d;
 
-a ??  b ? c : d;
+a ?? b ? c : d;
 
-(a ||  b) ??  c;
+(a || b) ?? c;
 
-a ??  b ??  c;
+a ?? b ?? c;
 
-a ??  b ? c : d;
+a ?? b ? c : d;
 
-a ??  b ??  c ? d : e;
+a ?? b ?? c ? d : e;
 
 "\"use strict\"";
 
-a ??  b ??  c ? d : e;
+a ?? b ?? c ? d : e;
 
 ```
 

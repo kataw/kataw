@@ -24,12 +24,14 @@ async in {}
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -40,18 +42,22 @@ async in {}
                         "properties": [],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 10
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 8,
                     "end": 11
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         }
@@ -60,6 +66,7 @@ async in {}
     "source": "async in {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }
@@ -69,7 +76,7 @@ async in {}
 
 ```javascript
 
-async in  {};
+async in {};
 ```
 
 ### Diagnostics

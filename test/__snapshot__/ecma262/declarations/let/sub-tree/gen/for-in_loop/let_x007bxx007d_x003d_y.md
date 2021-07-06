@@ -27,6 +27,7 @@ for (a in b) let {x} = y
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -35,12 +36,14 @@ for (a in b) let {x} = y
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 6
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 9
             },
@@ -49,6 +52,7 @@ for (a in b) let {x} = y
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 11
             },
@@ -59,14 +63,17 @@ for (a in b) let {x} = y
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 16
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 16
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         },
@@ -82,19 +89,23 @@ for (a in b) let {x} = y
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 19
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 19
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 16,
             "end": 22
         },
@@ -105,10 +116,12 @@ for (a in b) let {x} = y
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 22,
             "end": 24
         }
@@ -117,6 +130,7 @@ for (a in b) let {x} = y
     "source": "for (a in b) let {x} = y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

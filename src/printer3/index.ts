@@ -1,4 +1,4 @@
-import { SyntaxKind, SyntaxNode, NodeFlags, tokenToString } from '../ast/syntax-node';
+import { SyntaxKind, SyntaxNode, NodeFlags, tokenToString, TransformFlags } from '../ast/syntax-node';
 import { RootNode } from '../ast/root-node';
 import { skipWhitespace } from '../parser/scanner/common';
 import {
@@ -6,6 +6,7 @@ import {
   createPrinter,
   printKeyword,
   canBreakAssignment,
+  shouldFlatten,
   shouldprintWhitespaceBeforeOperand,
   makeString
 } from './core';
@@ -307,52 +308,99 @@ export function printConditionalExpression(
   return parentNode.kind === SyntaxKind.ConditionalExpression ? printed : group(printed, {});
 }
 
-export function printBinaryExpression(printer: Printer, node: any, lineMap: number[], parentNode: SyntaxNode): any {
-  const shouldNotGroup =
-    parentNode.kind === SyntaxKind.IfStatement ||
-    parentNode.kind === SyntaxKind.DoWhileStatement ||
-    parentNode.kind === SyntaxKind.WhileKeyword ||
-    parentNode.kind === SyntaxKind.SwitchStatement;
-
-  const token = printBinaryExpressionRest(printer, node, lineMap, parentNode, shouldNotGroup);
-
-  return shouldNotGroup ? concat(token) : group(concat(token), {});
-}
-
-export function printBinaryExpressionRest(
+function printBinaryExpression(
   printer: Printer,
   node: any,
   lineMap: number[],
-  parentNode: SyntaxNode,
-  shouldNotGroup: any
+  parentNode: any,
 ): any {
-  const token: any = [];
-  if (
-    node.left.kind === SyntaxKind.BinaryExpression &&
-    !((node.operatorToken.kind & SyntaxKind.Precedence) ^ (node.left.operatorToken.kind & SyntaxKind.Precedence))
-  ) {
-    token.push(concat(printBinaryExpressionRest(printer, node.left, lineMap, node, shouldNotGroup)));
-  } else {
-    token.push(printStatement(printer, node.left, lineMap, node));
-  }
-
-  const right = concat([
-    printKeyword(printer, node.operatorToken, node, /* addSpace */ true),
-    ' ',
-    printStatement(printer, node.right, lineMap, parentNode)
-  ]);
-
-  token.push(
-    concat([
-      ' ',
-      !shouldNotGroup && node.kind !== parentNode.kind && node.kind !== node.left.kind && node.kind !== node.right.kind
-        ? group(right, {})
-        : right
-    ])
-  );
-
-  return token;
+  const parentKind = parentNode.kind
+  const parts: any = printBinaryExpressionRest(
+    printer,
+    node,
+    lineMap,
+    parentNode,
+    parentKind === SyntaxKind.ParenthesizedExpression,
+  )
+  return parentKind === SyntaxKind.ParenthesizedExpression
+    ? concat(parts)
+    : parentKind === SyntaxKind.UnaryExpression ||
+      parentNode.transformFlags &
+        (SyntaxKind.IndexExpression | SyntaxKind.CallExpression) ||
+      parentNode.flags &
+        (NodeFlags.IsCallExpression | NodeFlags.IsMemberExpression) ||
+      parentKind === SyntaxKind.OptionalExpression
+    ? group(concat([indent(concat([softline, concat(parts)])), softline]), {})
+    : (node.kind === SyntaxKind.BinaryExpression &&
+        node.right.transformFlags &
+          (TransformFlags.ShouldNotIndent |
+            TransformFlags.ArrayOrObjectLiteral)) ||
+      (parentKind === SyntaxKind.ForStatement &&
+        node !== parentNode.statement) ||
+      (parentKind === SyntaxKind.ArrowFunction &&
+        node === parentNode.contents) ||
+      (node.transformFlags & TransformFlags.ArrayOrObjectLiteral &&
+        node.left.kind !== SyntaxKind.BinaryExpression &&
+        !shouldFlatten(node)) ||
+      ((node.transformFlags & TransformFlags.ArrayOrObjectLiteral) === 0 &&
+        parentNode.transformFlags & TransformFlags.ShouldIndentIfInlining)
+    ? group(concat(parts), {})
+    : group(
+        concat([
+          parts.length > 0 ? parts[0] : "''",
+          indent(concat(parts.slice(1))),
+        ]),
+        {},
+      )
 }
+
+function printBinaryExpressionRest(
+  printer: Printer,
+  node: any,
+  lineMap: number[],
+  parentNode: any,
+  isInsideParenthesis: boolean,
+) {
+  if (node.kind === SyntaxKind.BinaryExpression) {
+    let parts: any = shouldFlatten(node)
+      ? printBinaryExpressionRest(
+          printer,
+          node.left,
+          lineMap,
+          node,
+          isInsideParenthesis,
+        )
+      : [printStatement(printer, node.left, lineMap, node)]
+
+    const right = concat([
+      printKeyword(printer, node.operatorToken, node, /* addSpace */ false),
+      node.transformFlags & TransformFlags.ArrayOrObjectLiteral
+        ? ''
+        : line,
+      printStatement(printer, node.right, lineMap, node),
+    ])
+
+    parts.push(
+      ' ',
+      !(isInsideParenthesis && node.kind === SyntaxKind.BinaryExpression) &&
+        parentNode.kind !== node.kind &&
+        node.left.kind !== node.kind &&
+        node.right.kind !== node.kind
+        ? group(right, {})
+        : right,
+    )
+
+    return parts
+  }
+  return concat([
+    printStatement(printer, node.left, lineMap, node),
+    ' ',
+    printKeyword(printer, node.operatorToken, node, /* addSpace */ true),
+    printStatement(printer, node.right, lineMap, node),
+  ])
+}
+
+
 
 function printPrefixUpdateExpression(printer: Printer, node: any, lineMap: number[]): any {
   return concat([
@@ -1106,9 +1154,8 @@ function printArgumentsList(printer: Printer, node: any, lineMap: number[], pare
   if (node.elements.length === 1) {
     const argument = node.elements[0];
 		if (
-			argument.kind === SyntaxKind.ObjectLiteral ||
-			argument.kind === SyntaxKind.ArrayLiteral ||
-      argument.kind === SyntaxKind.FunctionExpression ||
+			argument.transformFlags & TransformFlags.ArrayOrObjectLiteral ||
+      argument.kind === SyntaxKind.FunctionDeclaration ||
       argument.kind === SyntaxKind.FunctionExpression ||
       argument.kind === SyntaxKind.ArrowFunction
 		) {
@@ -1365,8 +1412,7 @@ function printArrowFunction(printer: Printer, node: any, lineMap: number[], pare
 
   if (
     contents.kind === SyntaxKind.BlockStatement ||
-    contents.kind === SyntaxKind.ObjectLiteral ||
-    contents.kind === SyntaxKind.ArrayLiteral ||
+    contents.transformFlags & TransformFlags.ArrayOrObjectLiteral ||
     contents.kind === SyntaxKind.ArrowFunction
   ) {
     return group(concat([concat(parts), ' ', body]), {});
@@ -1374,7 +1420,6 @@ function printArrowFunction(printer: Printer, node: any, lineMap: number[], pare
 
   return group(
     concat([concat(parts), group(concat([indent(concat([line, body]))]), {})]),
-
     {}
   );
 }
@@ -1575,8 +1620,7 @@ function printVariableDeclarationOrLexicalBinding(
       initializer.kind === SyntaxKind.UnaryExpression ||
       (initializer.kind === SyntaxKind.ConditionalExpression &&
         initializer.shortCircuit.kind === SyntaxKind.BinaryExpression &&
-        initializer.shortCircuit.right.kind !== SyntaxKind.ArrayLiteral &&
-        initializer.shortCircuit.right.kind !== SyntaxKind.ObjectLiteral);
+        (initializer.shortCircuit.right.transformFlags & TransformFlags.ArrayOrObjectLiteral) === 0 );
 
     return group(
       concat([

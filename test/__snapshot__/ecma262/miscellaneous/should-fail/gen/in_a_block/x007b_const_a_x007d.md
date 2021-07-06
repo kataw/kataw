@@ -37,6 +37,7 @@
                                     "lexicalKeyword": {
                                         "kind": 37757004,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 9
                                     },
@@ -50,39 +51,47 @@
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 9,
                                                     "end": 11
                                                 },
                                                 "type": null,
                                                 "initializer": null,
                                                 "flags": 16,
+                                                "transformFlags": 128,
                                                 "start": 9,
                                                 "end": 11
                                             }
                                         ],
                                         "flags": 16777232,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 11
                                     },
                                     "flags": 33554448,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 12
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 12
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 14
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -91,6 +100,7 @@
     "source": "{ { const a; } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

@@ -29,6 +29,7 @@ type a = {x: number,y: string};
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = {x: number,y: string};
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = {x: number,y: string};
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -65,6 +68,7 @@ type a = {x: number,y: string};
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 11
                             },
@@ -76,14 +80,17 @@ type a = {x: number,y: string};
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 19
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 19
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 20
                         },
@@ -98,6 +105,7 @@ type a = {x: number,y: string};
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 21
                             },
@@ -109,28 +117,34 @@ type a = {x: number,y: string};
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 29
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 29
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 29
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 30
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 30
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -139,6 +153,7 @@ type a = {x: number,y: string};
     "source": "type a = {x: number,y: string};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

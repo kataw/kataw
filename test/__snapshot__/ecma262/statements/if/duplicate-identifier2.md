@@ -21,6 +21,7 @@ if (x) x;
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -29,6 +30,7 @@ if (x) x;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 5
             },
@@ -39,16 +41,19 @@ if (x) x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 9
             },
             "elseKeyword": {
                 "kind": 4194389,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 18
             },
@@ -58,18 +63,21 @@ if (x) x;
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 24
                 },
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 33
                 },
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
+                    "transformFlags": 32,
                     "start": 33,
                     "end": 35
                 },
@@ -78,6 +86,7 @@ if (x) x;
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 36
                 },
@@ -87,6 +96,7 @@ if (x) x;
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 37
                 },
@@ -97,19 +107,23 @@ if (x) x;
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 39,
                         "end": 39
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 40
                 },
                 "returnType": null,
                 "flags": 400,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 40
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -118,6 +132,7 @@ if (x) x;
     "source": "if (x) x;\n    else async function *f(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }

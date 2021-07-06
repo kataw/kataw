@@ -26,6 +26,7 @@ import typeof from "iteration"
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -33,6 +34,7 @@ import typeof from "iteration"
             "typeofKeyword": {
                 "kind": 138477613,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 13
             },
@@ -44,10 +46,12 @@ import typeof from "iteration"
                     "text": "iteration",
                     "rawText": "\"iteration\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 30
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 30
             },
@@ -59,16 +63,19 @@ import typeof from "iteration"
                     "text": "from",
                     "rawText": "from",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 18
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -77,6 +84,7 @@ import typeof from "iteration"
     "source": "import typeof from \"iteration\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

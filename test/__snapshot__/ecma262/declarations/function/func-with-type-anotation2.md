@@ -30,6 +30,7 @@ function foo(numVal: any, otherVal: mixed){}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function foo(numVal: any, otherVal: mixed){}
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -54,6 +56,7 @@ function foo(numVal: any, otherVal: mixed){}
                             "text": "numVal",
                             "rawText": "numVal",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 19
                         },
@@ -65,15 +68,18 @@ function foo(numVal: any, otherVal: mixed){}
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 24
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 24
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 24
                     },
@@ -85,6 +91,7 @@ function foo(numVal: any, otherVal: mixed){}
                             "text": "otherVal",
                             "rawText": "otherVal",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 34
                         },
@@ -100,26 +107,31 @@ function foo(numVal: any, otherVal: mixed){}
                                     "text": "mixed",
                                     "rawText": "mixed",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 41
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 41
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 35,
                             "end": 41
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 41
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 41
             },
@@ -130,15 +142,18 @@ function foo(numVal: any, otherVal: mixed){}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 43,
                     "end": 43
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 42,
                 "end": 44
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 44
         }
@@ -147,6 +162,7 @@ function foo(numVal: any, otherVal: mixed){}
     "source": "function foo(numVal: any, otherVal: mixed){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 44
 }

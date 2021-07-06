@@ -25,6 +25,7 @@ const test = () => {
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ const test = () => {
                             "text": "test",
                             "rawText": "test",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 10
                         },
@@ -51,6 +53,7 @@ const test = () => {
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 14
                             },
@@ -58,6 +61,7 @@ const test = () => {
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 18
                             },
@@ -72,6 +76,7 @@ const test = () => {
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 20,
                                                 "end": 74
                                             },
@@ -82,6 +87,7 @@ const test = () => {
                                                     "text": "bar",
                                                     "rawText": "bar",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 74,
                                                     "end": 78
                                                 },
@@ -90,40 +96,49 @@ const test = () => {
                                                     "elements": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 79,
                                                     "end": 79
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 74,
                                                 "end": 80
                                             },
                                             "flags": 81,
+                                            "transformFlags": 256,
                                             "start": 20,
                                             "end": 81
                                         }
                                     ],
                                     "flags": 33,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 81
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 83
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 83
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 5,
                         "end": 83
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 83
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 83
         }
@@ -132,6 +147,7 @@ const test = () => {
     "source": "const test = () => {\n    /**\n     * Multiline comment\n     **/\n     return bar();\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 83
 }

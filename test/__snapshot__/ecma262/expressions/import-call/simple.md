@@ -22,15 +22,18 @@ import.call
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
                 "metaIdentifier": null,
                 "flags": 6,
+                "transformFlags": 0,
                 "start": 96,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         },
@@ -41,10 +44,12 @@ import.call
                 "text": "call",
                 "rawText": "call",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 7,
             "end": 11
         }
@@ -53,6 +58,7 @@ import.call
     "source": "import.call",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

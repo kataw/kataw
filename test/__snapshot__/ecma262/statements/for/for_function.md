@@ -39,6 +39,7 @@ for(function(){};;)x
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -48,6 +49,7 @@ for(function(){};;)x
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 12
                 },
@@ -59,6 +61,7 @@ for(function(){};;)x
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 13
                 },
@@ -69,15 +72,18 @@ for(function(){};;)x
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 15
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 16
                 },
                 "returnType": null,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 16
             },
@@ -90,14 +96,17 @@ for(function(){};;)x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 20
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 20
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -106,6 +115,7 @@ for(function(){};;)x
     "source": "for(function(){};;)x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

@@ -29,6 +29,7 @@ class x {get function(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class x {get function(){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -56,6 +58,7 @@ class x {get function(){}}
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 12
                             },
@@ -68,6 +71,7 @@ class x {get function(){}}
                                     "text": "function",
                                     "rawText": "function",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 21
                                 },
@@ -77,6 +81,7 @@ class x {get function(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 23
                                 },
@@ -88,31 +93,38 @@ class x {get function(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 24
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 25
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 25
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 25
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 25
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -121,6 +133,7 @@ class x {get function(){}}
     "source": "class x {get function(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

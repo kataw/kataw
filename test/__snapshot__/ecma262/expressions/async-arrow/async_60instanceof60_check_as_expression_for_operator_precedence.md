@@ -24,6 +24,7 @@ f(a + async instanceof b)
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -37,12 +38,14 @@ f(a + async instanceof b)
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 3
                             },
                             "operatorToken": {
                                 "kind": 99634,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 5
                             },
@@ -53,12 +56,14 @@ f(a + async instanceof b)
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 11
                                 },
                                 "operatorToken": {
                                     "kind": 4229173,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 22
                                 },
@@ -67,28 +72,34 @@ f(a + async instanceof b)
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 24
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 24
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 24
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 24
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -97,6 +108,7 @@ f(a + async instanceof b)
     "source": "f(a + async instanceof b)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -107,7 +119,7 @@ f(a + async instanceof b)
 ```javascript
 
 f(
-  a +  async instanceof  b
+  a + async instanceof b
 );
 ```
 

@@ -28,6 +28,7 @@ label: for (let x = 0; x < 10;) {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ label: for (let x = 0; x < 10;) {
                             "text": "count",
                             "rawText": "count",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 9
                         },
@@ -50,19 +52,23 @@ label: for (let x = 0; x < 10;) {
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 13
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 13
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         },
@@ -73,12 +79,14 @@ label: for (let x = 0; x < 10;) {
                 "text": "label",
                 "rawText": "label",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 20
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 21
             },
@@ -87,6 +95,7 @@ label: for (let x = 0; x < 10;) {
                 "forKeyword": {
                     "kind": 37757017,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 25
                 },
@@ -95,6 +104,7 @@ label: for (let x = 0; x < 10;) {
                     "lexicalKeyword": {
                         "kind": 41951307,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 30
                     },
@@ -108,6 +118,7 @@ label: for (let x = 0; x < 10;) {
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 32
                                 },
@@ -117,19 +128,23 @@ label: for (let x = 0; x < 10;) {
                                     "text": 0,
                                     "rawText": "0",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 36
                                 },
                                 "flags": 16,
+                                "transformFlags": 128,
                                 "start": 30,
                                 "end": 36
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 30,
                         "end": 36
                     },
                     "flags": 33554448,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 36
                 },
@@ -141,12 +156,14 @@ label: for (let x = 0; x < 10;) {
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 37,
                         "end": 39
                     },
                     "operatorToken": {
                         "kind": 536971330,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 39,
                         "end": 41
                     },
@@ -155,10 +172,12 @@ label: for (let x = 0; x < 10;) {
                         "text": 10,
                         "rawText": "10",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 41,
                         "end": 44
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 44
                 },
@@ -172,12 +191,14 @@ label: for (let x = 0; x < 10;) {
                                 "whileKeyword": {
                                     "kind": 37757028,
                                     "flags": 81,
+                                    "transformFlags": 0,
                                     "start": 48,
                                     "end": 56
                                 },
                                 "expression": {
                                     "kind": 24752947,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 58,
                                     "end": 62
                                 },
@@ -193,6 +214,7 @@ label: for (let x = 0; x < 10;) {
                                                     "operandToken": {
                                                         "kind": 196635,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 71,
                                                         "end": 73
                                                     },
@@ -201,14 +223,17 @@ label: for (let x = 0; x < 10;) {
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 97,
+                                                        "transformFlags": 0,
                                                         "start": 65,
                                                         "end": 71
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 65,
                                                     "end": 73
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 65,
                                                 "end": 74
                                             },
@@ -219,6 +244,7 @@ label: for (let x = 0; x < 10;) {
                                                     "operandToken": {
                                                         "kind": 196635,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 84,
                                                         "end": 86
                                                     },
@@ -227,14 +253,17 @@ label: for (let x = 0; x < 10;) {
                                                         "text": "count",
                                                         "rawText": "count",
                                                         "flags": 97,
+                                                        "transformFlags": 0,
                                                         "start": 74,
                                                         "end": 84
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 74,
                                                     "end": 86
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 74,
                                                 "end": 87
                                             },
@@ -243,6 +272,7 @@ label: for (let x = 0; x < 10;) {
                                                 "continueKeyword": {
                                                     "kind": 37757009,
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 87,
                                                     "end": 100
                                                 },
@@ -251,40 +281,49 @@ label: for (let x = 0; x < 10;) {
                                                     "text": "label",
                                                     "rawText": "label",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 100,
                                                     "end": 106
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 87,
                                                 "end": 107
                                             }
                                         ],
                                         "flags": 17,
+                                        "transformFlags": 0,
                                         "start": 65,
                                         "end": 107
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 63,
                                     "end": 111
                                 },
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 48,
                                 "end": 111
                             }
                         ],
                         "flags": 17,
+                        "transformFlags": 0,
                         "start": 48,
                         "end": 111
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 46,
                     "end": 113
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 113
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 14,
             "end": 113
         }
@@ -293,6 +332,7 @@ label: for (let x = 0; x < 10;) {
     "source": "var count = 0;\nlabel: for (let x = 0; x < 10;) {\n  while (true) {\n    x++;\n    count++;\n    continue label;\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 113
 }
@@ -303,7 +343,7 @@ label: for (let x = 0; x < 10;) {
 ```javascript
 
 var count = 0;
-label:  for (let x = 0; ; x  <  10)
+label:  for (let x = 0; ; x  < 10)
   {
     while (true ) {
         x++ ;

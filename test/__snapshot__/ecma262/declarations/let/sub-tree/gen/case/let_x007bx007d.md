@@ -29,6 +29,7 @@ switch (a) { case b: let
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -37,6 +38,7 @@ switch (a) { case b: let
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -48,6 +50,7 @@ switch (a) { case b: let
                         "caseKeyword": {
                             "kind": 4194382,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 17
                         },
@@ -56,12 +59,14 @@ switch (a) { case b: let
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 19
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 20
                         },
@@ -71,6 +76,7 @@ switch (a) { case b: let
                                 "lexicalKeyword": {
                                     "kind": 41951307,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 24
                                 },
@@ -86,39 +92,47 @@ switch (a) { case b: let
                                                     "properties": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 26,
                                                     "end": 26
                                                 },
                                                 "flags": 33,
+                                                "transformFlags": 0,
                                                 "start": 24,
                                                 "end": 27
                                             },
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 24,
                                             "end": 27
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 27
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 27
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 27
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 27
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -127,6 +141,7 @@ switch (a) { case b: let
     "source": "switch (a) { case b: let\n{} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

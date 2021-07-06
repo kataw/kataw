@@ -24,6 +24,7 @@ foo?.bar *= x
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 5
                     },
@@ -32,6 +33,7 @@ foo?.bar *= x
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -45,24 +47,29 @@ foo?.bar *= x
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 8
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 5,
                             "end": 8
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 8
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
                 "operatorToken": {
                     "kind": 4132,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
@@ -71,14 +78,17 @@ foo?.bar *= x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -87,6 +97,7 @@ foo?.bar *= x
     "source": "foo?.bar *= x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

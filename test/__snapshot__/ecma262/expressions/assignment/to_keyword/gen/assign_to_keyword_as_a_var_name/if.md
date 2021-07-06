@@ -27,6 +27,7 @@ if = x
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -37,12 +38,14 @@ if = x
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 2
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 4
                 },
@@ -51,10 +54,12 @@ if = x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 6
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 2,
                 "end": 6
             },
@@ -65,16 +70,19 @@ if = x
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 6
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 6
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         }
@@ -83,6 +91,7 @@ if = x
     "source": "if = x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 6
 }

@@ -26,6 +26,7 @@ import , from 'm.js';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -35,6 +36,7 @@ import , from 'm.js';
             "moduleSpecifier": null,
             "importClause": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -45,10 +47,12 @@ import , from 'm.js';
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 8,
             "end": 13
         },
@@ -59,10 +63,12 @@ import , from 'm.js';
                 "text": "m.js",
                 "rawText": "'m.js'",
                 "flags": 4194400,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 21
         }
@@ -71,6 +77,7 @@ import , from 'm.js';
     "source": "import , from 'm.js';",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

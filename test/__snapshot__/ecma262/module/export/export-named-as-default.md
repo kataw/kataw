@@ -26,6 +26,7 @@ export {foo as default};
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -43,12 +44,14 @@ export {foo as default};
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 11
                             },
                             "asKeyword": {
                                 "kind": 16494,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 14
                             },
@@ -57,10 +60,12 @@ export {foo as default};
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 14
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 14
                         },
@@ -72,21 +77,25 @@ export {foo as default};
                                 "text": "default",
                                 "rawText": "default",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 22
                             },
                             "asKeyword": null,
                             "binding": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 22
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 22
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 23
             },
@@ -94,6 +103,7 @@ export {foo as default};
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -102,6 +112,7 @@ export {foo as default};
     "source": "export {foo as default};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

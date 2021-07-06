@@ -40,6 +40,7 @@ var {x : y, z} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -60,6 +61,7 @@ var {x : y, z} = obj;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 6
                                         },
@@ -68,11 +70,13 @@ var {x : y, z} = obj;
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 10
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 10
                                     },
@@ -81,16 +85,19 @@ var {x : y, z} = obj;
                                         "text": "z",
                                         "rawText": "z",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 13
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 13
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 14
                         },
@@ -100,19 +107,23 @@ var {x : y, z} = obj;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 20
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 20
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -121,6 +132,7 @@ var {x : y, z} = obj;
     "source": "var {x : y, z} = obj;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

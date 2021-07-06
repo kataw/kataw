@@ -31,6 +31,7 @@ type C = (<T>(T) => $Foo<T>)[];
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -39,6 +40,7 @@ type C = (<T>(T) => $Foo<T>)[];
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -46,6 +48,7 @@ type C = (<T>(T) => $Foo<T>)[];
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -76,6 +79,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 11,
                                                         "end": 12
                                                     },
@@ -83,16 +87,19 @@ type C = (<T>(T) => $Foo<T>)[];
                                                     "assignToken": null,
                                                     "defaultType": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 11,
                                                     "end": 12
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 12
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 13
                                     },
@@ -111,27 +118,32 @@ type C = (<T>(T) => $Foo<T>)[];
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 14,
                                                         "end": 15
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 14,
                                                     "end": 15
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 15
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 15
                                     },
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 19
                                     },
@@ -146,6 +158,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                 "text": "$Foo",
                                                 "rawText": "$Foo",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 24
                                             },
@@ -165,45 +178,55 @@ type C = (<T>(T) => $Foo<T>)[];
                                                                     "text": "T",
                                                                     "rawText": "T",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 25,
                                                                     "end": 26
                                                                 },
                                                                 "typeParameters": null,
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 25,
                                                                 "end": 26
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 25,
                                                             "end": 26
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 25,
                                                     "end": 26
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 24,
                                                 "end": 27
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 27
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 27
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 27
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 27
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 28
                         },
@@ -227,6 +250,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 33,
                                                         "end": 34
                                                     },
@@ -234,16 +258,19 @@ type C = (<T>(T) => $Foo<T>)[];
                                                     "assignToken": null,
                                                     "defaultType": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 33,
                                                     "end": 34
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 33,
                                             "end": 34
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 35
                                     },
@@ -262,27 +289,32 @@ type C = (<T>(T) => $Foo<T>)[];
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 36,
                                                         "end": 37
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 36,
                                                     "end": 37
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 36,
                                                 "end": 37
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 36,
                                         "end": 37
                                     },
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 38,
                                         "end": 41
                                     },
@@ -297,6 +329,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                 "text": "$Foo",
                                                 "rawText": "$Foo",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 41,
                                                 "end": 46
                                             },
@@ -316,58 +349,71 @@ type C = (<T>(T) => $Foo<T>)[];
                                                                     "text": "T",
                                                                     "rawText": "T",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 47,
                                                                     "end": 48
                                                                 },
                                                                 "typeParameters": null,
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 47,
                                                                 "end": 48
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 47,
                                                             "end": 48
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 47,
                                                     "end": 48
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 46,
                                                 "end": 49
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 41,
                                             "end": 49
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 41,
                                         "end": 49
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 49
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 49
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 50
                         }
                     ],
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 50
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 50
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 51
         },
@@ -377,6 +423,7 @@ type C = (<T>(T) => $Foo<T>)[];
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 51,
                 "end": 56
             },
@@ -385,6 +432,7 @@ type C = (<T>(T) => $Foo<T>)[];
                 "text": "B",
                 "rawText": "B",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 56,
                 "end": 58
             },
@@ -392,6 +440,7 @@ type C = (<T>(T) => $Foo<T>)[];
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 58,
                 "end": 60
             },
@@ -422,6 +471,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 63,
                                                         "end": 64
                                                     },
@@ -429,16 +479,19 @@ type C = (<T>(T) => $Foo<T>)[];
                                                     "assignToken": null,
                                                     "defaultType": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 63,
                                                     "end": 64
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 63,
                                             "end": 64
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 62,
                                         "end": 65
                                     },
@@ -457,27 +510,32 @@ type C = (<T>(T) => $Foo<T>)[];
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 66,
                                                         "end": 67
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 66,
                                                     "end": 67
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 66,
                                                 "end": 67
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 66,
                                         "end": 67
                                     },
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 68,
                                         "end": 71
                                     },
@@ -492,6 +550,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                 "text": "$Foo",
                                                 "rawText": "$Foo",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 71,
                                                 "end": 76
                                             },
@@ -511,45 +570,55 @@ type C = (<T>(T) => $Foo<T>)[];
                                                                     "text": "T",
                                                                     "rawText": "T",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 77,
                                                                     "end": 78
                                                                 },
                                                                 "typeParameters": null,
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 77,
                                                                 "end": 78
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 77,
                                                             "end": 78
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 77,
                                                     "end": 78
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 76,
                                                 "end": 79
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 71,
                                             "end": 79
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 71,
                                         "end": 79
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 62,
                                     "end": 79
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 62,
                                 "end": 79
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 60,
                             "end": 80
                         },
@@ -573,6 +642,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 85,
                                                         "end": 86
                                                     },
@@ -580,16 +650,19 @@ type C = (<T>(T) => $Foo<T>)[];
                                                     "assignToken": null,
                                                     "defaultType": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 85,
                                                     "end": 86
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 85,
                                             "end": 86
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 84,
                                         "end": 87
                                     },
@@ -608,27 +681,32 @@ type C = (<T>(T) => $Foo<T>)[];
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 88,
                                                         "end": 89
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 88,
                                                     "end": 89
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 88,
                                                 "end": 89
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 88,
                                         "end": 89
                                     },
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 90,
                                         "end": 93
                                     },
@@ -643,6 +721,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                 "text": "$Foo",
                                                 "rawText": "$Foo",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 93,
                                                 "end": 98
                                             },
@@ -662,58 +741,71 @@ type C = (<T>(T) => $Foo<T>)[];
                                                                     "text": "T",
                                                                     "rawText": "T",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 99,
                                                                     "end": 100
                                                                 },
                                                                 "typeParameters": null,
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 99,
                                                                 "end": 100
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 99,
                                                             "end": 100
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 99,
                                                     "end": 100
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 98,
                                                 "end": 101
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 93,
                                             "end": 101
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 93,
                                         "end": 101
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 84,
                                     "end": 101
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 84,
                                 "end": 101
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 82,
                             "end": 102
                         }
                     ],
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 80,
                     "end": 102
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 60,
                 "end": 102
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 51,
             "end": 103
         },
@@ -723,6 +815,7 @@ type C = (<T>(T) => $Foo<T>)[];
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 103,
                 "end": 108
             },
@@ -731,6 +824,7 @@ type C = (<T>(T) => $Foo<T>)[];
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 108,
                 "end": 110
             },
@@ -738,6 +832,7 @@ type C = (<T>(T) => $Foo<T>)[];
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 110,
                 "end": 112
             },
@@ -767,6 +862,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                     "text": "T",
                                                     "rawText": "T",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 115,
                                                     "end": 116
                                                 },
@@ -774,16 +870,19 @@ type C = (<T>(T) => $Foo<T>)[];
                                                 "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 115,
                                                 "end": 116
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 115,
                                         "end": 116
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 114,
                                     "end": 117
                                 },
@@ -802,27 +901,32 @@ type C = (<T>(T) => $Foo<T>)[];
                                                     "text": "T",
                                                     "rawText": "T",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 118,
                                                     "end": 119
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 118,
                                                 "end": 119
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 118,
                                             "end": 119
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 118,
                                     "end": 119
                                 },
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 120,
                                     "end": 123
                                 },
@@ -837,6 +941,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                             "text": "$Foo",
                                             "rawText": "$Foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 123,
                                             "end": 128
                                         },
@@ -856,57 +961,70 @@ type C = (<T>(T) => $Foo<T>)[];
                                                                 "text": "T",
                                                                 "rawText": "T",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 129,
                                                                 "end": 130
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 129,
                                                             "end": 130
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 129,
                                                         "end": 130
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 129,
                                                 "end": 130
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 128,
                                             "end": 131
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 123,
                                         "end": 131
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 123,
                                     "end": 131
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 114,
                                 "end": 131
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 114,
                             "end": 131
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 112,
                         "end": 132
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 112,
                     "end": 134
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 112,
                 "end": 134
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 103,
             "end": 135
         }
@@ -915,6 +1033,7 @@ type C = (<T>(T) => $Foo<T>)[];
     "source": "type A = (<T>(T) => $Foo<T>) & (<T>(T) => $Foo<T>);\ntype B = (<T>(T) => $Foo<T>) | (<T>(T) => $Foo<T>);\ntype C = (<T>(T) => $Foo<T>)[];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 135
 }

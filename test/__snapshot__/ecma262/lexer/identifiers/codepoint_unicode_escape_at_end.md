@@ -28,10 +28,12 @@ xxx\u{65}
                 "text": "xxxe",
                 "rawText": "xxx\\u{65}",
                 "flags": 8288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         }
@@ -40,6 +42,7 @@ xxx\u{65}
     "source": "xxx\\u{65}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

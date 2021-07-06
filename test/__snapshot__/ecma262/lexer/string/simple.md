@@ -30,10 +30,12 @@
                 "text": "",
                 "rawText": "\"\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 4
         },
@@ -44,10 +46,12 @@
                 "text": "some content",
                 "rawText": "\"some content\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 4,
             "end": 21
         },
@@ -58,10 +62,12 @@
                 "text": "var",
                 "rawText": "\"var\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 21,
             "end": 29
         },
@@ -72,10 +78,12 @@
                 "text": "x / y",
                 "rawText": "\"x / y\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 29,
             "end": 39
         },
@@ -86,10 +94,12 @@
                 "text": "raw lower unicode @{x200}",
                 "rawText": "\"raw lower unicode @{x200}\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 67
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 39,
             "end": 67
         }
@@ -98,6 +108,7 @@
     "source": "\"\"\n;\n\"some content\"\n;\n\"var\"\n;\n\"x / y\"\n;\n\"raw lower unicode @{x200}\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 67
 }

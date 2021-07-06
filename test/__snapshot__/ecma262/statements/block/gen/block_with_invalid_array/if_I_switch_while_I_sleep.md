@@ -36,14 +36,17 @@
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 3
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 1,
                             "end": 3
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 3
                     },
@@ -56,10 +59,12 @@
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 3
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 3
                         },
@@ -68,6 +73,7 @@
                             "catchKeyword": {
                                 "kind": 4202575,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 8
                             },
@@ -78,29 +84,35 @@
                                     "kind": 249,
                                     "statements": [],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 8
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 8
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 8
                         },
                         "finallyKeyword": null,
                         "finallyBlock": null,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 8
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         },
@@ -109,6 +121,7 @@
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 12
             },
@@ -117,6 +130,7 @@
                 "text": "I",
                 "rawText": "I",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 14
             },
@@ -125,6 +139,7 @@
                 "switchKeyword": {
                     "kind": 37757024,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 21
                 },
@@ -133,6 +148,7 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 21
                 },
@@ -140,16 +156,19 @@
                     "kind": 152,
                     "clauses": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 21
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 21
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 9,
             "end": 21
         },
@@ -158,6 +177,7 @@
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 27
             },
@@ -166,6 +186,7 @@
                 "text": "I",
                 "rawText": "I",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 29
             },
@@ -176,14 +197,17 @@
                     "text": "sleep",
                     "rawText": "sleep",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 35
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 35
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 21,
             "end": 35
         }
@@ -192,6 +216,7 @@
     "source": "{ [catch] if I switch while I sleep",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

@@ -22,6 +22,7 @@ new Foo`a${b}c${c}e`
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -32,6 +33,7 @@ new Foo`a${b}c${c}e`
                         "text": "Foo",
                         "rawText": "Foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 7
                     },
@@ -47,10 +49,12 @@ new Foo`a${b}c${c}e`
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 12
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 12
                             },
@@ -63,10 +67,12 @@ new Foo`a${b}c${c}e`
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 17
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 17
                             }
@@ -76,23 +82,28 @@ new Foo`a${b}c${c}e`
                             "text": "e",
                             "rawText": "e",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 20
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 20
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 20
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -101,6 +112,7 @@ new Foo`a${b}c${c}e`
     "source": "new Foo`a${b}c${c}e`",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

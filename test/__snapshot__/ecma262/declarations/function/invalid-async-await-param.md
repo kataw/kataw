@@ -21,12 +21,14 @@ async function foo(await) { };
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -36,6 +38,7 @@ async function foo(await) { };
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 18
             },
@@ -48,12 +51,14 @@ async function foo(await) { };
                         "text": "await",
                         "rawText": "await",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 24
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 24
             },
@@ -64,21 +69,25 @@ async function foo(await) { };
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 27
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 29
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 29,
             "end": 30
         }
@@ -87,6 +96,7 @@ async function foo(await) { };
     "source": "async function foo(await) { };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

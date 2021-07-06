@@ -27,6 +27,7 @@ with (a) let {x}
             "withKeyword": {
                 "kind": 37757029,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -35,6 +36,7 @@ with (a) let {x}
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 7
             },
@@ -45,14 +47,17 @@ with (a) let {x}
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 12
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -68,19 +73,23 @@ with (a) let {x}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 15
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 15
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 12,
             "end": 16
         }
@@ -89,6 +98,7 @@ with (a) let {x}
     "source": "with (a) let {x}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

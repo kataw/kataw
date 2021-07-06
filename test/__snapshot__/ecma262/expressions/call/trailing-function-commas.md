@@ -24,6 +24,7 @@ log(,);
                     "text": "log",
                     "rawText": "log",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -35,20 +36,24 @@ log(,);
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 4
                         }
                     ],
                     "trailingComma": true,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 5
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         }
@@ -57,6 +62,7 @@ log(,);
     "source": "log(,);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }

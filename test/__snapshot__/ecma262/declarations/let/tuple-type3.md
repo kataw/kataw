@@ -28,6 +28,7 @@ let tuple2: [number, boolean] = [1, true];
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let tuple2: [number, boolean] = [1, true];
                             "text": "tuple2",
                             "rawText": "tuple2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 10
                         },
@@ -58,10 +60,12 @@ let tuple2: [number, boolean] = [1, true];
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 19
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 19
                                     },
@@ -72,20 +76,24 @@ let tuple2: [number, boolean] = [1, true];
                                         "type": {
                                             "kind": 134234254,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 28
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 28
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 29
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 29
                         },
@@ -99,35 +107,42 @@ let tuple2: [number, boolean] = [1, true];
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 34
                                     },
                                     {
                                         "kind": 24752947,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 35,
                                         "end": 40
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 40
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 31,
                             "end": 41
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 41
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 41
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 42
         }
@@ -136,6 +151,7 @@ let tuple2: [number, boolean] = [1, true];
     "source": "let tuple2: [number, boolean] = [1, true];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }

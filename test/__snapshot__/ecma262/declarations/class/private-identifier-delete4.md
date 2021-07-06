@@ -25,6 +25,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -33,6 +34,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 10
             },
@@ -54,6 +56,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                 "text": "#foo",
                                 "rawText": "#foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 17
                             },
@@ -61,12 +64,14 @@ class Foo { #foo; foo() { delete this?.#foo } }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 12,
                             "end": 17
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 18
                         },
@@ -86,6 +91,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 22
                                 },
@@ -95,6 +101,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 24
                                 },
@@ -112,6 +119,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                     "operandToken": {
                                                         "kind": 4259886,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 26,
                                                         "end": 33
                                                     },
@@ -120,6 +128,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                         "member": {
                                                             "kind": 4276321,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 33,
                                                             "end": 38
                                                         },
@@ -128,48 +137,59 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                             "text": "#foo",
                                                             "rawText": "#foo",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 39,
                                                             "end": 43
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 2,
                                                         "start": 33,
                                                         "end": 43
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 26,
                                                     "end": 43
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 43
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 43
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 45
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 45
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 45
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 45
                 },
                 "flags": 10,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 47
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 0,
             "end": 47
         },
@@ -180,6 +200,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 47,
                 "end": 54
             },
@@ -188,6 +209,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 54,
                 "end": 58
             },
@@ -209,6 +231,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                 "text": "#foo",
                                 "rawText": "#foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 60,
                                 "end": 65
                             },
@@ -216,12 +239,14 @@ class Foo { #foo; foo() { delete this?.#foo } }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 60,
                             "end": 65
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 65,
                             "end": 66
                         },
@@ -241,6 +266,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 66,
                                     "end": 70
                                 },
@@ -250,6 +276,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 71,
                                     "end": 72
                                 },
@@ -267,6 +294,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                     "operandToken": {
                                                         "kind": 4259886,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 74,
                                                         "end": 81
                                                     },
@@ -275,12 +303,14 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                         "chainToken": {
                                                             "kind": 393240,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 86,
                                                             "end": 88
                                                         },
                                                         "member": {
                                                             "kind": 4276321,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 81,
                                                             "end": 86
                                                         },
@@ -294,56 +324,69 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                                     "text": "#foo",
                                                                     "rawText": "#foo",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 88,
                                                                     "end": 92
                                                                 },
                                                                 "flags": 536870944,
+                                                                "transformFlags": 2,
                                                                 "start": 88,
                                                                 "end": 92
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 88,
                                                             "end": 92
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 81,
                                                         "end": 92
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 74,
                                                     "end": 92
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 74,
                                                 "end": 92
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 74,
                                         "end": 92
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 72,
                                     "end": 94
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 70,
                                 "end": 94
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 66,
                             "end": 94
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 60,
                     "end": 94
                 },
                 "flags": 58,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 96
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 47,
             "end": 96
         }
@@ -352,6 +395,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
     "source": "\nclass Foo { #foo; foo() { delete this.#foo } }\n\nclass Foo { #foo; foo() { delete this?.#foo } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 96
 }

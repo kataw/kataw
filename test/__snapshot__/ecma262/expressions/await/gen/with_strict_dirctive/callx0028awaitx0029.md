@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -40,6 +41,7 @@
                     "text": "call",
                     "rawText": "call",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 18
                 },
@@ -51,20 +53,24 @@
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 24
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 24
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 13,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 25
         }
@@ -73,6 +79,7 @@
     "source": "'use strict'; call(await)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

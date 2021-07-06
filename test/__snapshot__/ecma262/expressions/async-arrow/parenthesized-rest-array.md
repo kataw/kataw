@@ -21,6 +21,7 @@ var foo = async ([...(foo)]) => {};
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -34,6 +35,7 @@ var foo = async ([...(foo)]) => {};
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -43,6 +45,7 @@ var foo = async ([...(foo)]) => {};
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
@@ -60,6 +63,7 @@ var foo = async ([...(foo)]) => {};
                                                     "ellipsisToken": {
                                                         "kind": 524302,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 18,
                                                         "end": 21
                                                     },
@@ -70,10 +74,12 @@ var foo = async ([...(foo)]) => {};
                                                             "text": "foo",
                                                             "rawText": "foo",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 22,
                                                             "end": 25
                                                         },
                                                         "flags": 21,
+                                                        "transformFlags": 0,
                                                         "start": 32,
                                                         "end": 26
                                                     },
@@ -81,22 +87,26 @@ var foo = async ([...(foo)]) => {};
                                                     "type": null,
                                                     "right": null,
                                                     "flags": 1073741856,
+                                                    "transformFlags": 0,
                                                     "start": 18,
                                                     "end": 26
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 26
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 27
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 28
                             },
@@ -104,6 +114,7 @@ var foo = async ([...(foo)]) => {};
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 31
                             },
@@ -114,27 +125,33 @@ var foo = async ([...(foo)]) => {};
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 33
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 34
                             },
                             "flags": 290,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 34
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 34
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -143,6 +160,7 @@ var foo = async ([...(foo)]) => {};
     "source": "var foo = async ([...(foo)]) => {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

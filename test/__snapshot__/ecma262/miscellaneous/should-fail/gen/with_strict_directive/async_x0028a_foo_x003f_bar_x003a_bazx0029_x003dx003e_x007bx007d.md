@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -38,6 +39,7 @@
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
@@ -49,6 +51,7 @@
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 22
                     },
@@ -59,12 +62,14 @@
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 27
                         },
                         "questionToken": {
                             "kind": 134217750,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 29
                         },
@@ -73,12 +78,14 @@
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 33
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 33,
                             "end": 35
                         },
@@ -87,20 +94,24 @@
                             "text": "baz",
                             "rawText": "baz",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 35,
                             "end": 39
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 39
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
             "flags": 268435488,
+            "transformFlags": 1,
             "start": 13,
             "end": 40
         },
@@ -110,10 +121,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 45
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 43,
             "end": 46
         }
@@ -122,6 +135,7 @@
     "source": "\"use strict\"; async (a, foo ? bar : baz) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 46
 }

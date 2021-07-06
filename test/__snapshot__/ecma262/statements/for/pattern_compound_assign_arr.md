@@ -39,6 +39,7 @@ for([]/=y;;)x
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -51,16 +52,19 @@ for([]/=y;;)x
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 5
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 4,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4133,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
@@ -69,10 +73,12 @@ for([]/=y;;)x
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 9
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 4,
                 "end": 9
             },
@@ -85,14 +91,17 @@ for([]/=y;;)x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 13
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 13
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -101,6 +110,7 @@ for([]/=y;;)x
     "source": "for([]/=y;;)x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

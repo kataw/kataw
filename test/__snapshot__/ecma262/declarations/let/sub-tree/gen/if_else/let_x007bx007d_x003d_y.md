@@ -30,6 +30,7 @@ else let
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -38,6 +39,7 @@ else let
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 5
             },
@@ -48,16 +50,19 @@ else let
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 9
             },
             "elseKeyword": {
                 "kind": 4194389,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 14
             },
@@ -68,14 +73,17 @@ else let
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 18
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 18
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         },
@@ -85,10 +93,12 @@ else let
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 20
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 18,
             "end": 23
         },
@@ -99,10 +109,12 @@ else let
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 23,
             "end": 26
         }
@@ -111,6 +123,7 @@ else let
     "source": "if (a) b;\nelse let\n{} = y;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

@@ -27,6 +27,7 @@ try function foo() {} catch (e) {}
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,10 +37,12 @@ try function foo() {} catch (e) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 3
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 3
             },
@@ -51,14 +54,17 @@ try function foo() {} catch (e) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 3
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 3
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 3
         },
@@ -69,6 +75,7 @@ try function foo() {} catch (e) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 12
             },
@@ -78,6 +85,7 @@ try function foo() {} catch (e) {}
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 16
             },
@@ -87,6 +95,7 @@ try function foo() {} catch (e) {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -97,15 +106,18 @@ try function foo() {} catch (e) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 20
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 21
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 3,
             "end": 21
         },
@@ -118,10 +130,12 @@ try function foo() {} catch (e) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 21
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 21
             },
@@ -130,6 +144,7 @@ try function foo() {} catch (e) {}
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 27
                 },
@@ -138,6 +153,7 @@ try function foo() {} catch (e) {}
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 30
                 },
@@ -147,20 +163,24 @@ try function foo() {} catch (e) {}
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 33,
                         "end": 33
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 34
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 34
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 21,
             "end": 34
         }
@@ -169,6 +189,7 @@ try function foo() {} catch (e) {}
     "source": "try function foo() {} catch (e) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

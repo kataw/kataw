@@ -27,12 +27,14 @@ await
                         "text": "await",
                         "rawText": "await",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 5
                     },
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 97,
+                        "transformFlags": 32,
                         "start": 5,
                         "end": 8
                     },
@@ -41,16 +43,19 @@ await
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 10
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 10,
                     "end": 12
                 },
@@ -59,14 +64,17 @@ await
                     "text": "g",
                     "rawText": "g",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -75,6 +83,7 @@ await
     "source": "await\n / x / g",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -84,7 +93,7 @@ await
 
 ```javascript
 
-await /  x /  g;
+await / x / g;
 ```
 
 ### Diagnostics

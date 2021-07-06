@@ -25,6 +25,7 @@ x(function (other) { return other });
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -38,6 +39,7 @@ x(function (other) { return other });
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -48,6 +50,7 @@ x(function (other) { return other });
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 16
                             },
@@ -62,12 +65,14 @@ x(function (other) { return other });
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 30
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 30
                             },
@@ -82,6 +87,7 @@ x(function (other) { return other });
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 43,
                                                 "end": 54
                                             },
@@ -92,12 +98,14 @@ x(function (other) { return other });
                                                     "text": "foo",
                                                     "rawText": "'foo'",
                                                     "flags": 4194400,
+                                                    "transformFlags": 0,
                                                     "start": 54,
                                                     "end": 60
                                                 },
                                                 "operatorToken": {
                                                     "kind": 99634,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 60,
                                                     "end": 62
                                                 },
@@ -106,41 +114,50 @@ x(function (other) { return other });
                                                     "text": "bar",
                                                     "rawText": "'bar'",
                                                     "flags": 4194400,
+                                                    "transformFlags": 0,
                                                     "start": 62,
                                                     "end": 68
                                                 },
                                                 "flags": 4194400,
+                                                "transformFlags": 0,
                                                 "start": 54,
                                                 "end": 68
                                             },
                                             "flags": 81,
+                                            "transformFlags": 256,
                                             "start": 43,
                                             "end": 69
                                         }
                                     ],
                                     "flags": 33,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 69
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 71
                             },
                             "returnType": null,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 71
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 71
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 71
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 72
         },
@@ -153,6 +170,7 @@ x(function (other) { return other });
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 72,
                     "end": 84
                 },
@@ -165,6 +183,7 @@ x(function (other) { return other });
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 85,
                                 "end": 93
                             },
@@ -179,12 +198,14 @@ x(function (other) { return other });
                                         "text": "other",
                                         "rawText": "other",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 95,
                                         "end": 100
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 95,
                                 "end": 100
                             },
@@ -199,6 +220,7 @@ x(function (other) { return other });
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 103,
                                                 "end": 110
                                             },
@@ -207,38 +229,46 @@ x(function (other) { return other });
                                                 "text": "other",
                                                 "rawText": "other",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 110,
                                                 "end": 116
                                             },
                                             "flags": 80,
+                                            "transformFlags": 256,
                                             "start": 103,
                                             "end": 116
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 103,
                                     "end": 116
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 101,
                                 "end": 118
                             },
                             "returnType": null,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 85,
                             "end": 118
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 85,
                     "end": 118
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 72,
                 "end": 119
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 72,
             "end": 120
         }
@@ -247,6 +277,7 @@ x(function (other) { return other });
     "source": "var x = function (/* pre */foo/* post */) {\n    return 'foo' + 'bar';\n};\n/* raz */\nx(function (other) { return other });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 120
 }
@@ -257,7 +288,7 @@ x(function (other) { return other });
 ```javascript
 
 var x = function (foo) {
-    return '\'foo\'' +  '\'bar\'';
+    return '\'foo\'' + '\'bar\'';
   };
 x(function (other) {
   return other;

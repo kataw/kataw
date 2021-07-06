@@ -26,6 +26,7 @@ let x: () => {} | ({y: z});
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -39,6 +40,7 @@ let x: () => {} | ({y: z});
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -54,12 +56,14 @@ let x: () => {} | ({y: z});
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 8
                                 },
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 12
                                 },
@@ -75,6 +79,7 @@ let x: () => {} | ({y: z});
                                                 "properties": [],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 15
                                             },
@@ -98,6 +103,7 @@ let x: () => {} | ({y: z});
                                                                     "text": "y",
                                                                     "rawText": "y",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 20,
                                                                     "end": 21
                                                                 },
@@ -113,64 +119,78 @@ let x: () => {} | ({y: z});
                                                                             "text": "z",
                                                                             "rawText": "z",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 22,
                                                                             "end": 24
                                                                         },
                                                                         "typeParameters": null,
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 0,
                                                                         "start": 22,
                                                                         "end": 24
                                                                     },
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 22,
                                                                     "end": 24
                                                                 },
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 20,
                                                                 "end": 24
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 19,
                                                         "end": 25
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 19,
                                                     "end": 25
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 17,
                                                 "end": 26
                                             }
                                         ],
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 26
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 26
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 26
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 26
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 26
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 26
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -179,6 +199,7 @@ let x: () => {} | ({y: z});
     "source": "let x: () => {} | ({y: z});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

@@ -39,6 +39,7 @@ const ...a = 1;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -46,10 +47,12 @@ const ...a = 1;
                 "kind": 151,
                 "bindingList": [],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 5
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -62,12 +65,14 @@ const ...a = 1;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
@@ -76,14 +81,17 @@ const ...a = 1;
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 9,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 9,
             "end": 15
         }
@@ -92,6 +100,7 @@ const ...a = 1;
     "source": "const ...a = 1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

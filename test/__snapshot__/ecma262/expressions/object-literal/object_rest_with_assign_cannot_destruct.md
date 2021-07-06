@@ -24,12 +24,14 @@ x={...x=y}=z
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 2
                 },
@@ -45,6 +47,7 @@ x={...x=y}=z
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 6
                                     },
@@ -55,12 +58,14 @@ x={...x=y}=z
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 7
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 8
                                         },
@@ -69,30 +74,36 @@ x={...x=y}=z
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 9
                                         },
                                         "flags": 0,
+                                        "transformFlags": 128,
                                         "start": 6,
                                         "end": 9
                                     },
                                     "flags": 1073741856,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 9
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 9
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 2,
                         "end": 10
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 11
                     },
@@ -101,18 +112,22 @@ x={...x=y}=z
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 12
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 2,
                     "end": 12
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -121,6 +136,7 @@ x={...x=y}=z
     "source": "x={...x=y}=z",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

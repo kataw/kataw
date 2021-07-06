@@ -27,12 +27,14 @@
                         "text": "ignore me",
                         "rawText": "\"ignore me\"",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 11
                     },
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 97,
+                        "transformFlags": 32,
                         "start": 11,
                         "end": 13
                     },
@@ -41,16 +43,19 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 14
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 14
                 },
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 14,
                     "end": 15
                 },
@@ -59,14 +64,17 @@
                     "text": "g",
                     "rawText": "g",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 16
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -75,6 +83,7 @@
     "source": "\"ignore me\"\n/x/g",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }
@@ -84,7 +93,7 @@
 
 ```javascript
 
-"\"ignore me\"" /  x /  g;
+"\"ignore me\"" / x / g;
 ```
 
 ### Diagnostics

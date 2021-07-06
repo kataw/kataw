@@ -30,6 +30,7 @@ class C { \\u0041 }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class C { \\u0041 }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -49,14 +51,17 @@ class C { \\u0041 }
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 9
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -67,10 +72,12 @@ class C { \\u0041 }
                 "text": "A",
                 "rawText": "\\u0041",
                 "flags": 16480,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 17
         }
@@ -79,6 +86,7 @@ class C { \\u0041 }
     "source": "class C { \\\\u0041 }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

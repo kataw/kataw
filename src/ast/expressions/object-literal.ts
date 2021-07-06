@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { CoverInitializedName } from './cover-initialized-name';
 import { Identifier } from './identifier-expr';
 import { MethodDefinition } from './method-definition';
@@ -27,6 +27,7 @@ export function createObjectLiteral(
     kind: SyntaxKind.ObjectLiteral,
     propertyList,
     flags,
+    transformFlags: TransformFlags.ArrayOrObjectLiteral,
     start,
     end
   };

@@ -132,6 +132,7 @@ c */? foo : bar : bar;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -145,6 +146,7 @@ c */? foo : bar : bar;
                             "text": "inspect",
                             "rawText": "inspect",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 11
                         },
@@ -158,12 +160,14 @@ c */? foo : bar : bar;
                                     "text": 4,
                                     "rawText": "4",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 15
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
+                                    "transformFlags": 16,
                                     "start": 15,
                                     "end": 19
                                 },
@@ -176,6 +180,7 @@ c */? foo : bar : bar;
                                             "text": "util",
                                             "rawText": "util",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 24
                                         },
@@ -184,10 +189,12 @@ c */? foo : bar : bar;
                                             "text": "inspect",
                                             "rawText": "inspect",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 32
                                         },
                                         "flags": 96,
+                                        "transformFlags": 2,
                                         "start": 19,
                                         "end": 32
                                     },
@@ -196,20 +203,24 @@ c */? foo : bar : bar;
                                         "text": "length",
                                         "rawText": "length",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 39
                                     },
                                     "flags": 96,
+                                    "transformFlags": 2,
                                     "start": 19,
                                     "end": 39
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 39
                             },
                             "questionToken": {
                                 "kind": 134217750,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 43
                             },
@@ -221,6 +232,7 @@ c */? foo : bar : bar;
                                     "functionKeyword": {
                                         "kind": 37822554,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 66,
                                         "end": 74
                                     },
@@ -235,6 +247,7 @@ c */? foo : bar : bar;
                                                 "text": "v",
                                                 "rawText": "v",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 75,
                                                 "end": 76
                                             },
@@ -243,12 +256,14 @@ c */? foo : bar : bar;
                                                 "text": "colors",
                                                 "rawText": "colors",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 77,
                                                 "end": 84
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 75,
                                         "end": 84
                                     },
@@ -263,6 +278,7 @@ c */? foo : bar : bar;
                                                     "returnKeyword": {
                                                         "kind": 37757022,
                                                         "flags": 81,
+                                                        "transformFlags": 0,
                                                         "start": 87,
                                                         "end": 100
                                                     },
@@ -275,6 +291,7 @@ c */? foo : bar : bar;
                                                                 "text": "util",
                                                                 "rawText": "util",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 100,
                                                                 "end": 105
                                                             },
@@ -283,10 +300,12 @@ c */? foo : bar : bar;
                                                                 "text": "inspect",
                                                                 "rawText": "inspect",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 106,
                                                                 "end": 113
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 100,
                                                             "end": 113
                                                         },
@@ -298,6 +317,7 @@ c */? foo : bar : bar;
                                                                     "text": "v",
                                                                     "rawText": "v",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 114,
                                                                     "end": 115
                                                                 },
@@ -306,6 +326,7 @@ c */? foo : bar : bar;
                                                                     "operandToken": {
                                                                         "kind": 138477615,
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 116,
                                                                         "end": 121
                                                                     },
@@ -314,10 +335,12 @@ c */? foo : bar : bar;
                                                                         "text": 0,
                                                                         "rawText": "0",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 121,
                                                                         "end": 123
                                                                     },
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 116,
                                                                     "end": 123
                                                                 },
@@ -326,6 +349,7 @@ c */? foo : bar : bar;
                                                                     "operandToken": {
                                                                         "kind": 138477615,
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 124,
                                                                         "end": 129
                                                                     },
@@ -334,10 +358,12 @@ c */? foo : bar : bar;
                                                                         "text": 0,
                                                                         "rawText": "0",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 129,
                                                                         "end": 131
                                                                     },
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 124,
                                                                     "end": 131
                                                                 },
@@ -346,44 +372,53 @@ c */? foo : bar : bar;
                                                                     "text": "colors",
                                                                     "rawText": "colors",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 132,
                                                                     "end": 139
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 114,
                                                             "end": 139
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 1,
                                                         "start": 100,
                                                         "end": 140
                                                     },
                                                     "flags": 81,
+                                                    "transformFlags": 256,
                                                     "start": 87,
                                                     "end": 141
                                                 }
                                             ],
                                             "flags": 33,
+                                            "transformFlags": 0,
                                             "start": 87,
                                             "end": 141
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 85,
                                         "end": 147
                                     },
                                     "returnType": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 66,
                                     "end": 147
                                 },
                                 "flags": 43,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 148
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 148,
                                 "end": 152
                             },
@@ -395,6 +430,7 @@ c */? foo : bar : bar;
                                     "functionKeyword": {
                                         "kind": 37822554,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 174,
                                         "end": 182
                                     },
@@ -409,6 +445,7 @@ c */? foo : bar : bar;
                                                 "text": "v",
                                                 "rawText": "v",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 183,
                                                 "end": 184
                                             },
@@ -417,12 +454,14 @@ c */? foo : bar : bar;
                                                 "text": "colors",
                                                 "rawText": "colors",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 185,
                                                 "end": 192
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 183,
                                         "end": 192
                                     },
@@ -437,6 +476,7 @@ c */? foo : bar : bar;
                                                     "returnKeyword": {
                                                         "kind": 37757022,
                                                         "flags": 81,
+                                                        "transformFlags": 0,
                                                         "start": 195,
                                                         "end": 208
                                                     },
@@ -449,6 +489,7 @@ c */? foo : bar : bar;
                                                                 "text": "util",
                                                                 "rawText": "util",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 208,
                                                                 "end": 213
                                                             },
@@ -457,10 +498,12 @@ c */? foo : bar : bar;
                                                                 "text": "inspect",
                                                                 "rawText": "inspect",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 214,
                                                                 "end": 221
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 208,
                                                             "end": 221
                                                         },
@@ -472,6 +515,7 @@ c */? foo : bar : bar;
                                                                     "text": "v",
                                                                     "rawText": "v",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 222,
                                                                     "end": 223
                                                                 },
@@ -488,6 +532,7 @@ c */? foo : bar : bar;
                                                                                     "text": "colors",
                                                                                     "rawText": "colors",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 226,
                                                                                     "end": 233
                                                                                 },
@@ -496,69 +541,84 @@ c */? foo : bar : bar;
                                                                                     "text": "colors",
                                                                                     "rawText": "colors",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 234,
                                                                                     "end": 241
                                                                                 },
                                                                                 "flags": 32,
+                                                                                "transformFlags": 128,
                                                                                 "start": 226,
                                                                                 "end": 241
                                                                             }
                                                                         ],
                                                                         "trailingComma": false,
                                                                         "flags": 16,
+                                                                        "transformFlags": 0,
                                                                         "start": 226,
                                                                         "end": 241
                                                                     },
                                                                     "flags": 48,
+                                                                    "transformFlags": 8,
                                                                     "start": 224,
                                                                     "end": 243
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 222,
                                                             "end": 243
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 1,
                                                         "start": 208,
                                                         "end": 244
                                                     },
                                                     "flags": 81,
+                                                    "transformFlags": 256,
                                                     "start": 195,
                                                     "end": 245
                                                 }
                                             ],
                                             "flags": 33,
+                                            "transformFlags": 0,
                                             "start": 195,
                                             "end": 245
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 193,
                                         "end": 251
                                     },
                                     "returnType": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 174,
                                     "end": 251
                                 },
                                 "flags": 152,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 252
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 252
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 252
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 252
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 253
         },
@@ -568,6 +628,7 @@ c */? foo : bar : bar;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 253,
                 "end": 258
             },
@@ -581,6 +642,7 @@ c */? foo : bar : bar;
                             "text": "inspect",
                             "rawText": "inspect",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 258,
                             "end": 266
                         },
@@ -594,12 +656,14 @@ c */? foo : bar : bar;
                                     "text": 4,
                                     "rawText": "4",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 268,
                                     "end": 270
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
+                                    "transformFlags": 16,
                                     "start": 270,
                                     "end": 274
                                 },
@@ -612,6 +676,7 @@ c */? foo : bar : bar;
                                             "text": "util",
                                             "rawText": "util",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 274,
                                             "end": 279
                                         },
@@ -620,10 +685,12 @@ c */? foo : bar : bar;
                                             "text": "inspect",
                                             "rawText": "inspect",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 280,
                                             "end": 287
                                         },
                                         "flags": 96,
+                                        "transformFlags": 2,
                                         "start": 274,
                                         "end": 287
                                     },
@@ -632,20 +699,24 @@ c */? foo : bar : bar;
                                         "text": "length",
                                         "rawText": "length",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 288,
                                         "end": 294
                                     },
                                     "flags": 96,
+                                    "transformFlags": 2,
                                     "start": 274,
                                     "end": 294
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 268,
                                 "end": 294
                             },
                             "questionToken": {
                                 "kind": 134217750,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 294,
                                 "end": 298
                             },
@@ -657,6 +728,7 @@ c */? foo : bar : bar;
                                     "functionKeyword": {
                                         "kind": 37822554,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 321,
                                         "end": 329
                                     },
@@ -671,6 +743,7 @@ c */? foo : bar : bar;
                                                 "text": "v",
                                                 "rawText": "v",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 330,
                                                 "end": 331
                                             },
@@ -679,12 +752,14 @@ c */? foo : bar : bar;
                                                 "text": "colors",
                                                 "rawText": "colors",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 332,
                                                 "end": 339
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 330,
                                         "end": 339
                                     },
@@ -699,6 +774,7 @@ c */? foo : bar : bar;
                                                     "returnKeyword": {
                                                         "kind": 37757022,
                                                         "flags": 81,
+                                                        "transformFlags": 0,
                                                         "start": 342,
                                                         "end": 355
                                                     },
@@ -711,6 +787,7 @@ c */? foo : bar : bar;
                                                                 "text": "util",
                                                                 "rawText": "util",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 355,
                                                                 "end": 360
                                                             },
@@ -719,10 +796,12 @@ c */? foo : bar : bar;
                                                                 "text": "inspect",
                                                                 "rawText": "inspect",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 361,
                                                                 "end": 368
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 355,
                                                             "end": 368
                                                         },
@@ -734,6 +813,7 @@ c */? foo : bar : bar;
                                                                     "text": "v",
                                                                     "rawText": "v",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 369,
                                                                     "end": 370
                                                                 },
@@ -742,6 +822,7 @@ c */? foo : bar : bar;
                                                                     "operandToken": {
                                                                         "kind": 138477615,
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 371,
                                                                         "end": 376
                                                                     },
@@ -750,10 +831,12 @@ c */? foo : bar : bar;
                                                                         "text": 0,
                                                                         "rawText": "0",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 376,
                                                                         "end": 378
                                                                     },
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 371,
                                                                     "end": 378
                                                                 },
@@ -762,6 +845,7 @@ c */? foo : bar : bar;
                                                                     "operandToken": {
                                                                         "kind": 138477615,
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 379,
                                                                         "end": 384
                                                                     },
@@ -770,10 +854,12 @@ c */? foo : bar : bar;
                                                                         "text": 0,
                                                                         "rawText": "0",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 384,
                                                                         "end": 386
                                                                     },
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 379,
                                                                     "end": 386
                                                                 },
@@ -782,44 +868,53 @@ c */? foo : bar : bar;
                                                                     "text": "colors",
                                                                     "rawText": "colors",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 387,
                                                                     "end": 394
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 369,
                                                             "end": 394
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 1,
                                                         "start": 355,
                                                         "end": 395
                                                     },
                                                     "flags": 81,
+                                                    "transformFlags": 256,
                                                     "start": 342,
                                                     "end": 396
                                                 }
                                             ],
                                             "flags": 33,
+                                            "transformFlags": 0,
                                             "start": 342,
                                             "end": 396
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 340,
                                         "end": 402
                                     },
                                     "returnType": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 321,
                                     "end": 402
                                 },
                                 "flags": 298,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 403
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 403,
                                 "end": 407
                             },
@@ -831,6 +926,7 @@ c */? foo : bar : bar;
                                     "functionKeyword": {
                                         "kind": 37822554,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 429,
                                         "end": 437
                                     },
@@ -845,6 +941,7 @@ c */? foo : bar : bar;
                                                 "text": "v",
                                                 "rawText": "v",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 438,
                                                 "end": 439
                                             },
@@ -853,12 +950,14 @@ c */? foo : bar : bar;
                                                 "text": "colors",
                                                 "rawText": "colors",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 440,
                                                 "end": 447
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 438,
                                         "end": 447
                                     },
@@ -873,6 +972,7 @@ c */? foo : bar : bar;
                                                     "returnKeyword": {
                                                         "kind": 37757022,
                                                         "flags": 81,
+                                                        "transformFlags": 0,
                                                         "start": 450,
                                                         "end": 463
                                                     },
@@ -885,6 +985,7 @@ c */? foo : bar : bar;
                                                                 "text": "util",
                                                                 "rawText": "util",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 463,
                                                                 "end": 468
                                                             },
@@ -893,10 +994,12 @@ c */? foo : bar : bar;
                                                                 "text": "inspect",
                                                                 "rawText": "inspect",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 469,
                                                                 "end": 476
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 463,
                                                             "end": 476
                                                         },
@@ -908,6 +1011,7 @@ c */? foo : bar : bar;
                                                                     "text": "v",
                                                                     "rawText": "v",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 477,
                                                                     "end": 478
                                                                 },
@@ -924,6 +1028,7 @@ c */? foo : bar : bar;
                                                                                     "text": "colors",
                                                                                     "rawText": "colors",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 481,
                                                                                     "end": 488
                                                                                 },
@@ -932,69 +1037,84 @@ c */? foo : bar : bar;
                                                                                     "text": "colors",
                                                                                     "rawText": "colors",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 489,
                                                                                     "end": 496
                                                                                 },
                                                                                 "flags": 32,
+                                                                                "transformFlags": 128,
                                                                                 "start": 481,
                                                                                 "end": 496
                                                                             }
                                                                         ],
                                                                         "trailingComma": false,
                                                                         "flags": 16,
+                                                                        "transformFlags": 0,
                                                                         "start": 481,
                                                                         "end": 496
                                                                     },
                                                                     "flags": 48,
+                                                                    "transformFlags": 8,
                                                                     "start": 479,
                                                                     "end": 498
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 477,
                                                             "end": 498
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 1,
                                                         "start": 463,
                                                         "end": 499
                                                     },
                                                     "flags": 81,
+                                                    "transformFlags": 256,
                                                     "start": 450,
                                                     "end": 500
                                                 }
                                             ],
                                             "flags": 33,
+                                            "transformFlags": 0,
                                             "start": 450,
                                             "end": 500
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 448,
                                         "end": 506
                                     },
                                     "returnType": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 429,
                                     "end": 506
                                 },
                                 "flags": 407,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 507
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 268,
                             "end": 507
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 258,
                         "end": 507
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 258,
                 "end": 507
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 253,
             "end": 508
         },
@@ -1003,6 +1123,7 @@ c */? foo : bar : bar;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 508,
                 "end": 515
             },
@@ -1016,6 +1137,7 @@ c */? foo : bar : bar;
                             "text": "extractTextPluginOptions",
                             "rawText": "extractTextPluginOptions",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 515,
                             "end": 540
                         },
@@ -1027,12 +1149,14 @@ c */? foo : bar : bar;
                                 "text": "shouldUseRelativeAssetPaths",
                                 "rawText": "shouldUseRelativeAssetPaths",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 542,
                                 "end": 570
                             },
                             "questionToken": {
                                 "kind": 134217750,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 570,
                                 "end": 641
                             },
@@ -1049,6 +1173,7 @@ c */? foo : bar : bar;
                                                 "text": "publicPath",
                                                 "rawText": "publicPath",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 643,
                                                 "end": 654
                                             },
@@ -1063,6 +1188,7 @@ c */? foo : bar : bar;
                                                             "text": "Array",
                                                             "rawText": "Array",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 655,
                                                             "end": 661
                                                         },
@@ -1080,6 +1206,7 @@ c */? foo : bar : bar;
                                                                                 "text": "cssFilename",
                                                                                 "rawText": "cssFilename",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 662,
                                                                                 "end": 673
                                                                             },
@@ -1088,10 +1215,12 @@ c */? foo : bar : bar;
                                                                                 "text": "split",
                                                                                 "rawText": "split",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 674,
                                                                                 "end": 679
                                                                             },
                                                                             "flags": 96,
+                                                                            "transformFlags": 2,
                                                                             "start": 662,
                                                                             "end": 679
                                                                         },
@@ -1103,16 +1232,19 @@ c */? foo : bar : bar;
                                                                                     "text": "/",
                                                                                     "rawText": "'/'",
                                                                                     "flags": 4194400,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 680,
                                                                                     "end": 683
                                                                                 }
                                                                             ],
                                                                             "trailingComma": false,
                                                                             "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 680,
                                                                             "end": 683
                                                                         },
                                                                         "flags": 268435488,
+                                                                        "transformFlags": 1,
                                                                         "start": 662,
                                                                         "end": 684
                                                                     },
@@ -1121,20 +1253,24 @@ c */? foo : bar : bar;
                                                                         "text": "length",
                                                                         "rawText": "length",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 685,
                                                                         "end": 691
                                                                     },
                                                                     "flags": 268435488,
+                                                                    "transformFlags": 2,
                                                                     "start": 662,
                                                                     "end": 691
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 662,
                                                             "end": 691
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 1,
                                                         "start": 643,
                                                         "end": 692
                                                     },
@@ -1143,10 +1279,12 @@ c */? foo : bar : bar;
                                                         "text": "join",
                                                         "rawText": "join",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 693,
                                                         "end": 697
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 2,
                                                     "start": 643,
                                                     "end": 697
                                                 },
@@ -1158,36 +1296,43 @@ c */? foo : bar : bar;
                                                             "text": "../",
                                                             "rawText": "'../'",
                                                             "flags": 4194400,
+                                                            "transformFlags": 0,
                                                             "start": 698,
                                                             "end": 703
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 698,
                                                     "end": 703
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 643,
                                                 "end": 704
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 643,
                                             "end": 704
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 643,
                                     "end": 704
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 641,
                                 "end": 706
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 706,
                                 "end": 708
                             },
@@ -1198,27 +1343,33 @@ c */? foo : bar : bar;
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 712,
                                     "end": 712
                                 },
                                 "flags": 49,
+                                "transformFlags": 8,
                                 "start": 708,
                                 "end": 713
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 542,
                             "end": 713
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 515,
                         "end": 713
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 515,
                 "end": 713
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 508,
             "end": 714
         },
@@ -1227,6 +1378,7 @@ c */? foo : bar : bar;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 714,
                 "end": 721
             },
@@ -1240,6 +1392,7 @@ c */? foo : bar : bar;
                             "text": "extractTextPluginOptions2",
                             "rawText": "extractTextPluginOptions2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 721,
                             "end": 747
                         },
@@ -1251,12 +1404,14 @@ c */? foo : bar : bar;
                                 "text": "shouldUseRelativeAssetPaths",
                                 "rawText": "shouldUseRelativeAssetPaths",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 749,
                                 "end": 777
                             },
                             "questionToken": {
                                 "kind": 134217750,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 777,
                                 "end": 781
                             },
@@ -1273,6 +1428,7 @@ c */? foo : bar : bar;
                                                 "text": "publicPath",
                                                 "rawText": "publicPath",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 852,
                                                 "end": 863
                                             },
@@ -1287,6 +1443,7 @@ c */? foo : bar : bar;
                                                             "text": "Array",
                                                             "rawText": "Array",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 864,
                                                             "end": 870
                                                         },
@@ -1304,6 +1461,7 @@ c */? foo : bar : bar;
                                                                                 "text": "cssFilename",
                                                                                 "rawText": "cssFilename",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 871,
                                                                                 "end": 882
                                                                             },
@@ -1312,10 +1470,12 @@ c */? foo : bar : bar;
                                                                                 "text": "split",
                                                                                 "rawText": "split",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 883,
                                                                                 "end": 888
                                                                             },
                                                                             "flags": 96,
+                                                                            "transformFlags": 2,
                                                                             "start": 871,
                                                                             "end": 888
                                                                         },
@@ -1327,16 +1487,19 @@ c */? foo : bar : bar;
                                                                                     "text": "/",
                                                                                     "rawText": "\"/\"",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 889,
                                                                                     "end": 892
                                                                                 }
                                                                             ],
                                                                             "trailingComma": false,
                                                                             "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 889,
                                                                             "end": 892
                                                                         },
                                                                         "flags": 268435488,
+                                                                        "transformFlags": 1,
                                                                         "start": 871,
                                                                         "end": 893
                                                                     },
@@ -1345,20 +1508,24 @@ c */? foo : bar : bar;
                                                                         "text": "length",
                                                                         "rawText": "length",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 894,
                                                                         "end": 900
                                                                     },
                                                                     "flags": 268435488,
+                                                                    "transformFlags": 2,
                                                                     "start": 871,
                                                                     "end": 900
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 871,
                                                             "end": 900
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 1,
                                                         "start": 852,
                                                         "end": 901
                                                     },
@@ -1367,10 +1534,12 @@ c */? foo : bar : bar;
                                                         "text": "join",
                                                         "rawText": "join",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 902,
                                                         "end": 906
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 2,
                                                     "start": 852,
                                                     "end": 906
                                                 },
@@ -1382,36 +1551,43 @@ c */? foo : bar : bar;
                                                             "text": "../",
                                                             "rawText": "\"../\"",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 907,
                                                             "end": 912
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 907,
                                                     "end": 912
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 852,
                                                 "end": 913
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 852,
                                             "end": 913
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 852,
                                     "end": 913
                                 },
                                 "flags": 49,
+                                "transformFlags": 8,
                                 "start": 781,
                                 "end": 915
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 915,
                                 "end": 919
                             },
@@ -1422,27 +1598,33 @@ c */? foo : bar : bar;
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 921,
                                     "end": 921
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 919,
                                 "end": 922
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 749,
                             "end": 922
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 721,
                         "end": 922
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 721,
                 "end": 922
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 714,
             "end": 923
         },
@@ -1451,6 +1633,7 @@ c */? foo : bar : bar;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 923,
                 "end": 930
             },
@@ -1464,6 +1647,7 @@ c */? foo : bar : bar;
                             "text": "extractTextPluginOptions3",
                             "rawText": "extractTextPluginOptions3",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 930,
                             "end": 956
                         },
@@ -1475,12 +1659,14 @@ c */? foo : bar : bar;
                                 "text": "shouldUseRelativeAssetPaths",
                                 "rawText": "shouldUseRelativeAssetPaths",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 958,
                                 "end": 986
                             },
                             "questionToken": {
                                 "kind": 134217750,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 986,
                                 "end": 1055
                             },
@@ -1497,6 +1683,7 @@ c */? foo : bar : bar;
                                                 "text": "publicPath",
                                                 "rawText": "publicPath",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 1057,
                                                 "end": 1068
                                             },
@@ -1511,6 +1698,7 @@ c */? foo : bar : bar;
                                                             "text": "Array",
                                                             "rawText": "Array",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1069,
                                                             "end": 1075
                                                         },
@@ -1528,6 +1716,7 @@ c */? foo : bar : bar;
                                                                                 "text": "cssFilename",
                                                                                 "rawText": "cssFilename",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 1076,
                                                                                 "end": 1087
                                                                             },
@@ -1536,10 +1725,12 @@ c */? foo : bar : bar;
                                                                                 "text": "split",
                                                                                 "rawText": "split",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 1088,
                                                                                 "end": 1093
                                                                             },
                                                                             "flags": 96,
+                                                                            "transformFlags": 2,
                                                                             "start": 1076,
                                                                             "end": 1093
                                                                         },
@@ -1551,16 +1742,19 @@ c */? foo : bar : bar;
                                                                                     "text": "/",
                                                                                     "rawText": "\"/\"",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 1094,
                                                                                     "end": 1097
                                                                                 }
                                                                             ],
                                                                             "trailingComma": false,
                                                                             "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 1094,
                                                                             "end": 1097
                                                                         },
                                                                         "flags": 268435488,
+                                                                        "transformFlags": 1,
                                                                         "start": 1076,
                                                                         "end": 1098
                                                                     },
@@ -1569,20 +1763,24 @@ c */? foo : bar : bar;
                                                                         "text": "length",
                                                                         "rawText": "length",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 1099,
                                                                         "end": 1105
                                                                     },
                                                                     "flags": 268435488,
+                                                                    "transformFlags": 2,
                                                                     "start": 1076,
                                                                     "end": 1105
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 1076,
                                                             "end": 1105
                                                         },
                                                         "flags": 268435488,
+                                                        "transformFlags": 1,
                                                         "start": 1057,
                                                         "end": 1106
                                                     },
@@ -1591,10 +1789,12 @@ c */? foo : bar : bar;
                                                         "text": "join",
                                                         "rawText": "join",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 1107,
                                                         "end": 1111
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 2,
                                                     "start": 1057,
                                                     "end": 1111
                                                 },
@@ -1606,36 +1806,43 @@ c */? foo : bar : bar;
                                                             "text": "../",
                                                             "rawText": "\"../\"",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1112,
                                                             "end": 1117
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 1112,
                                                     "end": 1117
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 1057,
                                                 "end": 1118
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 1057,
                                             "end": 1118
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 1057,
                                     "end": 1118
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 1055,
                                 "end": 1120
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 1120,
                                 "end": 1124
                             },
@@ -1646,27 +1853,33 @@ c */? foo : bar : bar;
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 1126,
                                     "end": 1126
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 1124,
                                 "end": 1127
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 958,
                             "end": 1127
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 930,
                         "end": 1127
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 930,
                 "end": 1127
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 923,
             "end": 1128
         },
@@ -1675,6 +1888,7 @@ c */? foo : bar : bar;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1128,
                 "end": 1135
             },
@@ -1693,16 +1907,19 @@ c */? foo : bar : bar;
                                         "text": "configureStore",
                                         "rawText": "configureStore",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 1137,
                                         "end": 1152
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 1137,
                                 "end": 1152
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1135,
                             "end": 1154
                         },
@@ -1720,6 +1937,7 @@ c */? foo : bar : bar;
                                             "text": "process",
                                             "rawText": "process",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 1156,
                                             "end": 1164
                                         },
@@ -1728,10 +1946,12 @@ c */? foo : bar : bar;
                                             "text": "env",
                                             "rawText": "env",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 1165,
                                             "end": 1168
                                         },
                                         "flags": 96,
+                                        "transformFlags": 2,
                                         "start": 1156,
                                         "end": 1168
                                     },
@@ -1740,16 +1960,19 @@ c */? foo : bar : bar;
                                         "text": "NODE_ENV",
                                         "rawText": "NODE_ENV",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 1169,
                                         "end": 1177
                                     },
                                     "flags": 96,
+                                    "transformFlags": 2,
                                     "start": 1156,
                                     "end": 1177
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
+                                    "transformFlags": 16,
                                     "start": 1177,
                                     "end": 1181
                                 },
@@ -1758,16 +1981,19 @@ c */? foo : bar : bar;
                                     "text": "production",
                                     "rawText": "\"production\"",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1181,
                                     "end": 1194
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1156,
                                 "end": 1194
                             },
                             "questionToken": {
                                 "kind": 134217750,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 1194,
                                 "end": 1198
                             },
@@ -1778,6 +2004,7 @@ c */? foo : bar : bar;
                                     "text": "require",
                                     "rawText": "require",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1198,
                                     "end": 1206
                                 },
@@ -1789,22 +2016,26 @@ c */? foo : bar : bar;
                                             "text": "./configureProdStore",
                                             "rawText": "\"./configureProdStore\"",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 1207,
                                             "end": 1229
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 1207,
                                     "end": 1229
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 1198,
                                 "end": 1230
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 1230,
                                 "end": 1239
                             },
@@ -1815,6 +2046,7 @@ c */? foo : bar : bar;
                                     "text": "require",
                                     "rawText": "require",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1239,
                                     "end": 1247
                                 },
@@ -1826,33 +2058,40 @@ c */? foo : bar : bar;
                                             "text": "./configureDevStore",
                                             "rawText": "\"./configureDevStore\"",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 1248,
                                             "end": 1269
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 1248,
                                     "end": 1269
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 1239,
                                 "end": 1270
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1156,
                             "end": 1270
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 1135,
                         "end": 1270
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 1135,
                 "end": 1270
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 1128,
             "end": 1271
         },
@@ -1865,12 +2104,14 @@ c */? foo : bar : bar;
                     "text": "test",
                     "rawText": "test",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 1271,
                     "end": 1282
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 1282,
                     "end": 1324
                 },
@@ -1879,12 +2120,14 @@ c */? foo : bar : bar;
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1324,
                     "end": 1328
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 1328,
                     "end": 1332
                 },
@@ -1893,14 +2136,17 @@ c */? foo : bar : bar;
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1332,
                     "end": 1336
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 1271,
                 "end": 1336
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1271,
             "end": 1337
         },
@@ -1913,12 +2159,14 @@ c */? foo : bar : bar;
                     "text": "test",
                     "rawText": "test",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 1337,
                     "end": 1343
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 1343,
                     "end": 1347
                 },
@@ -1927,12 +2175,14 @@ c */? foo : bar : bar;
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 1347,
                     "end": 1419
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 1419,
                     "end": 1423
                 },
@@ -1941,14 +2191,17 @@ c */? foo : bar : bar;
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1423,
                     "end": 1427
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 1337,
                 "end": 1427
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1337,
             "end": 1428
         },
@@ -1961,12 +2214,14 @@ c */? foo : bar : bar;
                     "text": "test",
                     "rawText": "test",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 1428,
                     "end": 1434
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 1434,
                     "end": 1438
                 },
@@ -1975,12 +2230,14 @@ c */? foo : bar : bar;
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 1438,
                     "end": 1509
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 1509,
                     "end": 1513
                 },
@@ -1991,12 +2248,14 @@ c */? foo : bar : bar;
                         "text": "test",
                         "rawText": "test",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1513,
                         "end": 1518
                     },
                     "questionToken": {
                         "kind": 134217750,
                         "flags": 65,
+                        "transformFlags": 0,
                         "start": 1518,
                         "end": 1522
                     },
@@ -2005,12 +2264,14 @@ c */? foo : bar : bar;
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 1522,
                         "end": 1566
                     },
                     "colonToken": {
                         "kind": 21,
                         "flags": 65,
+                        "transformFlags": 0,
                         "start": 1566,
                         "end": 1570
                     },
@@ -2019,18 +2280,22 @@ c */? foo : bar : bar;
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1570,
                         "end": 1574
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1513,
                     "end": 1574
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 1428,
                 "end": 1574
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1428,
             "end": 1575
         },
@@ -2043,12 +2308,14 @@ c */? foo : bar : bar;
                     "text": "test",
                     "rawText": "test",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 1575,
                     "end": 1581
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 1581,
                     "end": 1585
                 },
@@ -2057,12 +2324,14 @@ c */? foo : bar : bar;
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 1585,
                     "end": 1607
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 1607,
                     "end": 1611
                 },
@@ -2071,14 +2340,17 @@ c */? foo : bar : bar;
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1611,
                     "end": 1615
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 1575,
                 "end": 1615
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1575,
             "end": 1616
         },
@@ -2091,12 +2363,14 @@ c */? foo : bar : bar;
                     "text": "test",
                     "rawText": "test",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 1616,
                     "end": 1622
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 1622,
                     "end": 1626
                 },
@@ -2105,12 +2379,14 @@ c */? foo : bar : bar;
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1626,
                     "end": 1630
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 1630,
                     "end": 1634
                 },
@@ -2119,14 +2395,17 @@ c */? foo : bar : bar;
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 1634,
                     "end": 1707
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 1616,
                 "end": 1707
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1616,
             "end": 1708
         },
@@ -2139,12 +2418,14 @@ c */? foo : bar : bar;
                     "text": "test",
                     "rawText": "test",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 1708,
                     "end": 1714
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 1714,
                     "end": 1718
                 },
@@ -2153,12 +2434,14 @@ c */? foo : bar : bar;
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1718,
                     "end": 1722
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 1722,
                     "end": 1726
                 },
@@ -2169,12 +2452,14 @@ c */? foo : bar : bar;
                         "text": "test",
                         "rawText": "test",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 1726,
                         "end": 1800
                     },
                     "questionToken": {
                         "kind": 134217750,
                         "flags": 65,
+                        "transformFlags": 0,
                         "start": 1800,
                         "end": 1804
                     },
@@ -2183,12 +2468,14 @@ c */? foo : bar : bar;
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1804,
                         "end": 1808
                     },
                     "colonToken": {
                         "kind": 21,
                         "flags": 65,
+                        "transformFlags": 0,
                         "start": 1808,
                         "end": 1812
                     },
@@ -2197,18 +2484,22 @@ c */? foo : bar : bar;
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 1812,
                         "end": 1859
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 1726,
                     "end": 1859
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 1708,
                 "end": 1859
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1708,
             "end": 1860
         },
@@ -2221,12 +2512,14 @@ c */? foo : bar : bar;
                     "text": "test",
                     "rawText": "test",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 1860,
                     "end": 1866
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 1866,
                     "end": 1870
                 },
@@ -2235,12 +2528,14 @@ c */? foo : bar : bar;
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1870,
                     "end": 1874
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 1874,
                     "end": 1878
                 },
@@ -2249,14 +2544,17 @@ c */? foo : bar : bar;
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 1878,
                     "end": 1898
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 1860,
                 "end": 1898
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1860,
             "end": 1899
         },
@@ -2269,12 +2567,14 @@ c */? foo : bar : bar;
                     "text": "test",
                     "rawText": "test",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 1899,
                     "end": 1905
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1905,
                     "end": 1907
                 },
@@ -2285,12 +2585,14 @@ c */? foo : bar : bar;
                         "text": "test",
                         "rawText": "test",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1907,
                         "end": 1912
                     },
                     "questionToken": {
                         "kind": 134217750,
                         "flags": 65,
+                        "transformFlags": 0,
                         "start": 1912,
                         "end": 1923
                     },
@@ -2299,12 +2601,14 @@ c */? foo : bar : bar;
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1923,
                         "end": 1927
                     },
                     "colonToken": {
                         "kind": 21,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1927,
                         "end": 1929
                     },
@@ -2313,16 +2617,19 @@ c */? foo : bar : bar;
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1929,
                         "end": 1933
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1907,
                     "end": 1933
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1933,
                     "end": 1935
                 },
@@ -2331,14 +2638,17 @@ c */? foo : bar : bar;
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1935,
                     "end": 1939
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 1899,
                 "end": 1939
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1899,
             "end": 1940
         }
@@ -2347,6 +2657,7 @@ c */? foo : bar : bar;
     "source": "var inspect = 4 === util.inspect.length\n  ? // node <= 0.8.x\n    (function(v, colors) {\n      return util.inspect(v, void 0, void 0, colors);\n    })\n  : // node > 0.8.x\n    (function(v, colors) {\n      return util.inspect(v, { colors: colors });\n    });\n\nvar inspect = 4 === util.inspect.length\n  ? // node <= 0.8.x\n    (function(v, colors) {\n      return util.inspect(v, void 0, void 0, colors);\n    })\n  : // node > 0.8.x\n    (function(v, colors) {\n      return util.inspect(v, { colors: colors });\n    });\n\nconst extractTextPluginOptions = shouldUseRelativeAssetPaths\n  // Making sure that the publicPath goes back to to build folder.\n  ? { publicPath: Array(cssFilename.split('/').length).join('../') } :\n  {};\n\nconst extractTextPluginOptions2 = shouldUseRelativeAssetPaths\n  ? // Making sure that the publicPath goes back to to build folder.\n    { publicPath: Array(cssFilename.split(\"/\").length).join(\"../\") }\n  : {};\n\nconst extractTextPluginOptions3 = shouldUseRelativeAssetPaths // Making sure that the publicPath goes back to to build folder.\n  ? { publicPath: Array(cssFilename.split(\"/\").length).join(\"../\") }\n  : {};\n\nconst { configureStore } = process.env.NODE_ENV === \"production\"\n  ? require(\"./configureProdStore\") // a\n  : require(\"./configureDevStore\"); // b\n\ntest /* comment\n  comment\n      comment\n*/\n  ? foo\n  : bar;\n\ntest\n  ? /* comment\n          comment\n    comment\n          comment\n  */\n    foo\n  : bar;\n\ntest\n  ? /* comment\n       comment\n       comment\n       comment\n    */\n    foo\n  : test\n  ? /* comment\n  comment\n    comment */\n    foo\n  : bar;\n\ntest\n  ? /* comment */\n    foo\n  : bar;\n\ntest\n  ? foo\n  : /* comment\n         comment\n     comment\n           comment\n    */\n  bar;\n\ntest\n  ? foo\n  : /* comment\n         comment\n     comment\n           comment\n    */\n  test\n  ? foo\n  : /* comment\n  comment\n    comment\n   */\n    bar;\n\ntest\n  ? foo\n  : /* comment */\n  bar;\n\ntest ? test /* c\nc */? foo : bar : bar;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 1940
 }
@@ -2356,12 +2667,12 @@ c */? foo : bar : bar;
 
 ```javascript
 
-var inspect = 4 ===  util.inspect.length ? (function (v, colors) {
+var inspect = 4 === util.inspect.length ? (function (v, colors) {
             return util.inspect(v, void 0, void 0, colors);
           }) : (function (v, colors) {
             return util.inspect(v, {colors: colors});
           });
-var inspect = 4 ===  util.inspect.length ? (function (v, colors) {
+var inspect = 4 === util.inspect.length ? (function (v, colors) {
             return util.inspect(v, void 0, void 0, colors);
           }) : (function (v, colors) {
             return util.inspect(v, {colors: colors});
@@ -2380,7 +2691,7 @@ const extractTextPluginOptions3 = shouldUseRelativeAssetPaths
     : {};
 
 const {configureStore} =
-    process.env.NODE_ENV ===  "\"production\""
+    process.env.NODE_ENV === "\"production\""
       ? require(
           "\"./configureProdStore\""
         )

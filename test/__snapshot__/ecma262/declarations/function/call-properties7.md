@@ -33,6 +33,7 @@ function e(x: {}): () => string {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -42,6 +43,7 @@ function e(x: {}): () => string {
                 "text": "e",
                 "rawText": "e",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -57,6 +59,7 @@ function e(x: {}): () => string {
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
@@ -70,21 +73,25 @@ function e(x: {}): () => string {
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 16
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 16
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 16
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 16
             },
@@ -99,6 +106,7 @@ function e(x: {}): () => string {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 42
                             },
@@ -107,19 +115,23 @@ function e(x: {}): () => string {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 44
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 33,
                             "end": 45
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 45
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 47
             },
@@ -135,12 +147,14 @@ function e(x: {}): () => string {
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 20
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 24
                     },
@@ -151,22 +165,27 @@ function e(x: {}): () => string {
                         "type": {
                             "kind": 134234347,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 31
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 31
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 31
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 47
         }
@@ -175,6 +194,7 @@ function e(x: {}): () => string {
     "source": "function e(x: {}): () => string {\n  return x;\n}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 48
 }

@@ -26,6 +26,7 @@ try {} catch (e) { const e = x; }
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -35,10 +36,12 @@ try {} catch (e) { const e = x; }
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 6
             },
@@ -47,6 +50,7 @@ try {} catch (e) { const e = x; }
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
@@ -55,6 +59,7 @@ try {} catch (e) { const e = x; }
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 15
                 },
@@ -68,6 +73,7 @@ try {} catch (e) { const e = x; }
                                 "lexicalKeyword": {
                                     "kind": 37757004,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 24
                                 },
@@ -81,6 +87,7 @@ try {} catch (e) { const e = x; }
                                                 "text": "e",
                                                 "rawText": "e",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 24,
                                                 "end": 26
                                             },
@@ -90,38 +97,46 @@ try {} catch (e) { const e = x; }
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 30
                                             },
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 24,
                                             "end": 30
                                         }
                                     ],
                                     "flags": 16777232,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 30
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 31
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 31
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 33
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 33
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -130,6 +145,7 @@ try {} catch (e) { const e = x; }
     "source": "try {} catch (e) { const e = x; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

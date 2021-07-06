@@ -28,6 +28,7 @@ var foo = yield = 1;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ var foo = yield = 1;
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -52,12 +54,14 @@ var foo = yield = 1;
                                 "text": "yield",
                                 "rawText": "yield",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 17
                             },
@@ -66,23 +70,28 @@ var foo = yield = 1;
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 19
                             },
                             "flags": 0,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 19
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 19
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -91,6 +100,7 @@ var foo = yield = 1;
     "source": "var foo = yield = 1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

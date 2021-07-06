@@ -27,6 +27,7 @@
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 2
                         },
@@ -35,6 +36,7 @@
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -43,6 +45,7 @@
                             "text": "c",
                             "rawText": "\"c\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 10
                         },
@@ -51,6 +54,7 @@
                             "text": "d",
                             "rawText": "d",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 13
                         },
@@ -59,6 +63,7 @@
                             "text": "e",
                             "rawText": "e",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 16
                         },
@@ -67,19 +72,23 @@
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 19
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 19
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         },
@@ -90,10 +99,12 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 23,
             "end": 26
         }
@@ -102,6 +113,7 @@
     "source": "(a, 1, \"c\", d, e, f) => x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

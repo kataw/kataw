@@ -29,6 +29,7 @@ type o = { m(|int|bool): void }
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type o = { m(|int|bool): void }
                 "text": "o",
                 "rawText": "o",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type o = { m(|int|bool): void }
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -65,6 +68,7 @@ type o = { m(|int|bool): void }
                                 "text": "m",
                                 "rawText": "m",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             },
@@ -84,6 +88,7 @@ type o = { m(|int|bool): void }
                                                 "bitwiseOrToken": {
                                                     "kind": 134251592,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 13,
                                                     "end": 14
                                                 },
@@ -98,11 +103,13 @@ type o = { m(|int|bool): void }
                                                                 "text": "int",
                                                                 "rawText": "int",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 14,
                                                                 "end": 17
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 14,
                                                             "end": 17
                                                         },
@@ -113,30 +120,36 @@ type o = { m(|int|bool): void }
                                                                 "text": "bool",
                                                                 "rawText": "bool",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 18,
                                                                 "end": 22
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 18,
                                                             "end": 22
                                                         }
                                                     ],
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 17,
                                                     "end": 22
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 22
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 22
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 22
                                 },
@@ -147,33 +160,40 @@ type o = { m(|int|bool): void }
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 29
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 29
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 29
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 29
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 31
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 31
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -182,6 +202,7 @@ type o = { m(|int|bool): void }
     "source": "type o = { m(|int|bool): void }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

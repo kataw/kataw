@@ -28,12 +28,14 @@
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 2
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 4
                         },
@@ -42,20 +44,24 @@
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 6
                         },
                         "flags": 32,
+                        "transformFlags": 128,
                         "start": 0,
                         "end": 6
                     },
                     "flags": 0,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },
@@ -64,14 +70,17 @@
                     "text": "t",
                     "rawText": "t",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         }
@@ -80,6 +89,7 @@
     "source": "(a = 1) = t",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

@@ -31,12 +31,14 @@ foo = x
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 5
                 },
@@ -45,14 +47,17 @@ foo = x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         }
@@ -61,6 +66,7 @@ foo = x
     "source": "foo = x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }

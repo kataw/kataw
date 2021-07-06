@@ -30,14 +30,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -48,10 +51,12 @@
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 16,
             "end": 18
         },
@@ -61,10 +66,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 22,
             "end": 25
         }
@@ -73,6 +80,7 @@
     "source": "(x = (extends) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

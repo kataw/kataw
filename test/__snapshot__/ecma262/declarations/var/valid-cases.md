@@ -65,6 +65,7 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -78,21 +79,25 @@ var {get} = obj;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 5
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -102,6 +107,7 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 11
             },
@@ -115,6 +121,7 @@ var {get} = obj;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 13
                         },
@@ -124,19 +131,23 @@ var {get} = obj;
                             "text": 5,
                             "rawText": "5",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 17
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 11,
                         "end": 17
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 6,
             "end": 18
         },
@@ -146,6 +157,7 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 23
             },
@@ -159,6 +171,7 @@ var {get} = obj;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 25
                         },
@@ -168,19 +181,23 @@ var {get} = obj;
                             "text": 4,
                             "rawText": "4",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 29
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 23,
                         "end": 29
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 18,
             "end": 30
         },
@@ -190,6 +207,7 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 35
             },
@@ -203,6 +221,7 @@ var {get} = obj;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 35,
                             "end": 37
                         },
@@ -212,19 +231,23 @@ var {get} = obj;
                             "text": 5,
                             "rawText": "5",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 41
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 35,
                         "end": 41
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 41
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 30,
             "end": 42
         },
@@ -234,6 +257,7 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 42,
                 "end": 47
             },
@@ -252,16 +276,19 @@ var {get} = obj;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 49,
                                         "end": 50
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 49,
                                 "end": 50
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 47,
                             "end": 51
                         },
@@ -279,6 +306,7 @@ var {get} = obj;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 55,
                                             "end": 56
                                         },
@@ -287,10 +315,12 @@ var {get} = obj;
                                             "text": 4,
                                             "rawText": "4",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 57,
                                             "end": 59
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 55,
                                         "end": 59
                                     },
@@ -302,6 +332,7 @@ var {get} = obj;
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 60,
                                             "end": 62
                                         },
@@ -314,12 +345,14 @@ var {get} = obj;
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 65,
                                                     "end": 66
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 66,
                                                     "end": 68
                                                 },
@@ -328,41 +361,50 @@ var {get} = obj;
                                                     "text": 5,
                                                     "rawText": "5",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 68,
                                                     "end": 70
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 128,
                                                 "start": 63,
                                                 "end": 70
                                             },
                                             "flags": 63,
+                                            "transformFlags": 0,
                                             "start": 34,
                                             "end": 71
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 60,
                                         "end": 71
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 55,
                                 "end": 71
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 53,
                             "end": 72
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 47,
                         "end": 72
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 47,
                 "end": 72
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 42,
             "end": 73
         },
@@ -372,6 +414,7 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 73,
                 "end": 78
             },
@@ -385,6 +428,7 @@ var {get} = obj;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 78,
                             "end": 80
                         },
@@ -402,6 +446,7 @@ var {get} = obj;
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 84,
                                             "end": 85
                                         },
@@ -410,10 +455,12 @@ var {get} = obj;
                                             "text": 4,
                                             "rawText": "4",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 86,
                                             "end": 88
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 84,
                                         "end": 88
                                     },
@@ -425,6 +472,7 @@ var {get} = obj;
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 89,
                                             "end": 91
                                         },
@@ -437,12 +485,14 @@ var {get} = obj;
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 94,
                                                     "end": 95
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 95,
                                                     "end": 97
                                                 },
@@ -451,41 +501,50 @@ var {get} = obj;
                                                     "text": 5,
                                                     "rawText": "5",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 97,
                                                     "end": 99
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 128,
                                                 "start": 92,
                                                 "end": 99
                                             },
                                             "flags": 92,
+                                            "transformFlags": 0,
                                             "start": 34,
                                             "end": 100
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 89,
                                         "end": 100
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 84,
                                 "end": 100
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 82,
                             "end": 101
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 78,
                         "end": 101
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 78,
                 "end": 101
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 73,
             "end": 102
         },
@@ -496,10 +555,12 @@ var {get} = obj;
                 "text": "use strict",
                 "rawText": "'use strict'",
                 "flags": 4194401,
+                "transformFlags": 0,
                 "start": 102,
                 "end": 116
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 102,
             "end": 117
         },
@@ -509,6 +570,7 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 117,
                 "end": 121
             },
@@ -522,6 +584,7 @@ var {get} = obj;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 121,
                             "end": 123
                         },
@@ -531,19 +594,23 @@ var {get} = obj;
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 125,
                             "end": 127
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 121,
                         "end": 127
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 121,
                 "end": 127
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 117,
             "end": 128
         },
@@ -557,6 +624,7 @@ var {get} = obj;
                         "lexicalKeyword": {
                             "kind": 41951307,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 130,
                             "end": 134
                         },
@@ -570,6 +638,7 @@ var {get} = obj;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 134,
                                         "end": 136
                                     },
@@ -579,28 +648,34 @@ var {get} = obj;
                                         "text": 6,
                                         "rawText": "6",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 138,
                                         "end": 140
                                     },
                                     "flags": 16,
+                                    "transformFlags": 128,
                                     "start": 134,
                                     "end": 140
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 134,
                             "end": 140
                         },
                         "flags": 33554448,
+                        "transformFlags": 0,
                         "start": 130,
                         "end": 141
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 130,
                 "end": 141
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 128,
             "end": 143
         },
@@ -610,6 +685,7 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 143,
                 "end": 148
             },
@@ -623,21 +699,25 @@ var {get} = obj;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 148,
                             "end": 150
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 148,
                         "end": 150
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 148,
                 "end": 150
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 143,
             "end": 151
         },
@@ -646,6 +726,7 @@ var {get} = obj;
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 151,
                 "end": 155
             },
@@ -655,10 +736,12 @@ var {get} = obj;
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 157,
                     "end": 157
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 155,
                 "end": 158
             },
@@ -667,6 +750,7 @@ var {get} = obj;
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 158,
                     "end": 164
                 },
@@ -675,6 +759,7 @@ var {get} = obj;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 166,
                     "end": 167
                 },
@@ -692,12 +777,14 @@ var {get} = obj;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 170,
                                         "end": 172
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 172,
                                         "end": 174
                                     },
@@ -706,33 +793,40 @@ var {get} = obj;
                                         "text": 5,
                                         "rawText": "5",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 174,
                                         "end": 176
                                     },
                                     "flags": 0,
+                                    "transformFlags": 128,
                                     "start": 170,
                                     "end": 176
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 170,
                                 "end": 177
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 170,
                         "end": 177
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 168,
                     "end": 179
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 158,
                 "end": 179
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 151,
             "end": 179
         },
@@ -742,6 +836,7 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 179,
                 "end": 184
             },
@@ -755,6 +850,7 @@ var {get} = obj;
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 184,
                             "end": 186
                         },
@@ -778,6 +874,7 @@ var {get} = obj;
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 191,
                                                         "end": 192
                                                     },
@@ -788,12 +885,14 @@ var {get} = obj;
                                                             "text": "arg",
                                                             "rawText": "arg",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 193,
                                                             "end": 196
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 196,
                                                             "end": 198
                                                         },
@@ -802,25 +901,30 @@ var {get} = obj;
                                                             "text": 1,
                                                             "rawText": "1",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 198,
                                                             "end": 200
                                                         },
                                                         "flags": 0,
+                                                        "transformFlags": 128,
                                                         "start": 191,
                                                         "end": 200
                                                     },
                                                     "initializer": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 191,
                                                     "end": 200
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 191,
                                             "end": 200
                                         },
                                         "flags": 48,
+                                        "transformFlags": 0,
                                         "start": 190,
                                         "end": 201
                                     },
@@ -836,6 +940,7 @@ var {get} = obj;
                                                         "text": "y",
                                                         "rawText": "y",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 204,
                                                         "end": 205
                                                     },
@@ -846,12 +951,14 @@ var {get} = obj;
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 206,
                                                             "end": 207
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 207,
                                                             "end": 208
                                                         },
@@ -864,12 +971,14 @@ var {get} = obj;
                                                                     "text": "arg",
                                                                     "rawText": "arg",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 209,
                                                                     "end": 212
                                                                 },
                                                                 "operatorToken": {
                                                                     "kind": 4125,
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 212,
                                                                     "end": 213
                                                                 },
@@ -878,39 +987,47 @@ var {get} = obj;
                                                                     "text": 2,
                                                                     "rawText": "2",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 213,
                                                                     "end": 214
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 128,
                                                                 "start": 208,
                                                                 "end": 214
                                                             },
                                                             "flags": 208,
+                                                            "transformFlags": 0,
                                                             "start": 34,
                                                             "end": 215
                                                         },
                                                         "flags": 0,
+                                                        "transformFlags": 128,
                                                         "start": 204,
                                                         "end": 215
                                                     },
                                                     "initializer": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 204,
                                                     "end": 215
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 204,
                                             "end": 215
                                         },
                                         "flags": 48,
+                                        "transformFlags": 0,
                                         "start": 202,
                                         "end": 216
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 190,
                                 "end": 217
                             },
@@ -918,6 +1035,7 @@ var {get} = obj;
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 217,
                                 "end": 220
                             },
@@ -928,27 +1046,33 @@ var {get} = obj;
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 222,
                                     "end": 222
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 220,
                                 "end": 223
                             },
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 188,
                             "end": 223
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 184,
                         "end": 223
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 184,
                 "end": 223
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 179,
             "end": 223
         },
@@ -958,6 +1082,7 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 223,
                 "end": 228
             },
@@ -971,6 +1096,7 @@ var {get} = obj;
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 228,
                             "end": 230
                         },
@@ -994,6 +1120,7 @@ var {get} = obj;
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 235,
                                                         "end": 236
                                                     },
@@ -1004,12 +1131,14 @@ var {get} = obj;
                                                             "text": "arg",
                                                             "rawText": "arg",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 237,
                                                             "end": 240
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 240,
                                                             "end": 242
                                                         },
@@ -1022,12 +1151,14 @@ var {get} = obj;
                                                                     "text": "arg",
                                                                     "rawText": "arg",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 244,
                                                                     "end": 247
                                                                 },
                                                                 "operatorToken": {
                                                                     "kind": 4125,
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 247,
                                                                     "end": 249
                                                                 },
@@ -1036,39 +1167,47 @@ var {get} = obj;
                                                                     "text": 2,
                                                                     "rawText": "2",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 249,
                                                                     "end": 251
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 128,
                                                                 "start": 242,
                                                                 "end": 251
                                                             },
                                                             "flags": 242,
+                                                            "transformFlags": 0,
                                                             "start": 34,
                                                             "end": 252
                                                         },
                                                         "flags": 0,
+                                                        "transformFlags": 128,
                                                         "start": 235,
                                                         "end": 252
                                                     },
                                                     "initializer": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 235,
                                                     "end": 252
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 235,
                                             "end": 252
                                         },
                                         "flags": 48,
+                                        "transformFlags": 0,
                                         "start": 234,
                                         "end": 253
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 234,
                                 "end": 254
                             },
@@ -1076,6 +1215,7 @@ var {get} = obj;
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 254,
                                 "end": 257
                             },
@@ -1086,27 +1226,33 @@ var {get} = obj;
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 259,
                                     "end": 259
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 257,
                                 "end": 260
                             },
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 232,
                             "end": 260
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 228,
                         "end": 260
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 228,
                 "end": 260
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 223,
             "end": 260
         },
@@ -1116,6 +1262,7 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 260,
                 "end": 265
             },
@@ -1129,21 +1276,25 @@ var {get} = obj;
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 265,
                             "end": 269
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 265,
                         "end": 269
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 265,
                 "end": 269
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 260,
             "end": 270
         },
@@ -1153,6 +1304,7 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 270,
                 "end": 275
             },
@@ -1166,6 +1318,7 @@ var {get} = obj;
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 275,
                             "end": 279
                         },
@@ -1175,19 +1328,23 @@ var {get} = obj;
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 281,
                             "end": 283
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 275,
                         "end": 283
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 275,
                 "end": 283
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 270,
             "end": 284
         },
@@ -1197,6 +1354,7 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 284,
                 "end": 289
             },
@@ -1215,16 +1373,19 @@ var {get} = obj;
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 291,
                                         "end": 294
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 291,
                                 "end": 294
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 289,
                             "end": 295
                         },
@@ -1239,29 +1400,35 @@ var {get} = obj;
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 299,
                                         "end": 300
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 299,
                                 "end": 300
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 297,
                             "end": 301
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 289,
                         "end": 301
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 289,
                 "end": 301
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 284,
             "end": 302
         },
@@ -1271,6 +1438,7 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 302,
                 "end": 307
             },
@@ -1289,16 +1457,19 @@ var {get} = obj;
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 309,
                                         "end": 312
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 309,
                                 "end": 312
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 307,
                             "end": 313
                         },
@@ -1316,6 +1487,7 @@ var {get} = obj;
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 317,
                                             "end": 320
                                         },
@@ -1324,33 +1496,40 @@ var {get} = obj;
                                             "text": 2,
                                             "rawText": "2",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 321,
                                             "end": 323
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 317,
                                         "end": 323
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 317,
                                 "end": 323
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 315,
                             "end": 324
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 307,
                         "end": 324
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 307,
                 "end": 324
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 302,
             "end": 325
         },
@@ -1360,6 +1539,7 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 325,
                 "end": 330
             },
@@ -1381,6 +1561,7 @@ var {get} = obj;
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 332,
                                             "end": 335
                                         },
@@ -1391,20 +1572,24 @@ var {get} = obj;
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 336,
                                             "end": 337
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 332,
                                         "end": 337
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 332,
                                 "end": 337
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 330,
                             "end": 338
                         },
@@ -1416,23 +1601,28 @@ var {get} = obj;
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 342,
                                 "end": 342
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 340,
                             "end": 343
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 330,
                         "end": 343
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 330,
                 "end": 343
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 325,
             "end": 344
         },
@@ -1442,6 +1632,7 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 344,
                 "end": 349
             },
@@ -1463,6 +1654,7 @@ var {get} = obj;
                                             "text": "get",
                                             "rawText": "get",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 351,
                                             "end": 354
                                         },
@@ -1473,20 +1665,24 @@ var {get} = obj;
                                             "text": "defaultValue",
                                             "rawText": "defaultValue",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 356,
                                             "end": 369
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 351,
                                         "end": 369
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 351,
                                 "end": 369
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 349,
                             "end": 370
                         },
@@ -1496,19 +1692,23 @@ var {get} = obj;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 372,
                             "end": 376
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 349,
                         "end": 376
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 349,
                 "end": 376
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 344,
             "end": 377
         },
@@ -1518,6 +1718,7 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 377,
                 "end": 382
             },
@@ -1539,6 +1740,7 @@ var {get} = obj;
                                             "text": "propName",
                                             "rawText": "propName",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 384,
                                             "end": 392
                                         },
@@ -1549,20 +1751,24 @@ var {get} = obj;
                                             "text": "defaultValue",
                                             "rawText": "defaultValue",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 394,
                                             "end": 407
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 384,
                                         "end": 407
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 384,
                                 "end": 407
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 382,
                             "end": 408
                         },
@@ -1572,19 +1778,23 @@ var {get} = obj;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 410,
                             "end": 414
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 382,
                         "end": 414
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 382,
                 "end": 414
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 377,
             "end": 415
         },
@@ -1594,6 +1804,7 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 415,
                 "end": 420
             },
@@ -1614,6 +1825,7 @@ var {get} = obj;
                                             "text": "propName",
                                             "rawText": "propName",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 422,
                                             "end": 430
                                         },
@@ -1622,6 +1834,7 @@ var {get} = obj;
                                             "text": "localVar",
                                             "rawText": "localVar",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 431,
                                             "end": 440
                                         },
@@ -1630,20 +1843,24 @@ var {get} = obj;
                                             "text": "defaultValue",
                                             "rawText": "defaultValue",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 442,
                                             "end": 455
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 422,
                                         "end": 455
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 422,
                                 "end": 455
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 420,
                             "end": 456
                         },
@@ -1653,19 +1870,23 @@ var {get} = obj;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 458,
                             "end": 462
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 420,
                         "end": 462
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 420,
                 "end": 462
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 415,
             "end": 463
         },
@@ -1675,6 +1896,7 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 463,
                 "end": 468
             },
@@ -1693,16 +1915,19 @@ var {get} = obj;
                                         "text": "get",
                                         "rawText": "get",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 470,
                                         "end": 473
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 470,
                                 "end": 473
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 468,
                             "end": 474
                         },
@@ -1712,19 +1937,23 @@ var {get} = obj;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 476,
                             "end": 480
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 468,
                         "end": 480
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 468,
                 "end": 480
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 463,
             "end": 481
         }
@@ -1733,6 +1962,7 @@ var {get} = obj;
     "source": "var x;\n\nvar x = 5;\n\nvar x = 4;\n\nvar x = 5;\n\nvar {x} = {x: 4, b: (x = 5)};\n\nvar x = {a: 4, b: (x = 5)};\n\n'use strict'; var x = 0; { let x = 6; }\n\nvar x; try {} catch (x) { x = 5; }\n\nvar f = ({x:arg = 1}, {y:b=(arg=2)}) => {}\n\nvar f = ({x:arg = (arg = 2)}) => {}\n\nvar foo;\n\nvar foo = 0;\n\nvar [foo] = [1];\n\nvar {foo} = {foo: 2};\n\nvar {foo=3} = {};\n\nvar {get = defaultValue} = obj;\n\nvar {propName = defaultValue} = obj;\n\nvar {propName: localVar = defaultValue} = obj;\n\nvar {get} = obj;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 481
 }

@@ -19,6 +19,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -30,6 +31,7 @@
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
@@ -43,6 +45,7 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 19
                         },
@@ -56,6 +59,7 @@
                                 "text": "yield",
                                 "rawText": "yield",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 27
                             },
@@ -63,6 +67,7 @@
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 30
                             },
@@ -71,23 +76,28 @@
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 32
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 32
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 17,
                         "end": 32
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 33
         }
@@ -96,6 +106,7 @@
     "source": "\"use strict\"; var x = yield => 1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

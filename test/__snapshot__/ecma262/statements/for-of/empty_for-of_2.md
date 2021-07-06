@@ -39,6 +39,7 @@ for (var a of b);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -48,6 +49,7 @@ for (var a of b);
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -61,27 +63,32 @@ for (var a of b);
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 8,
                             "end": 10
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 13
             },
@@ -90,16 +97,19 @@ for (var a of b);
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 17
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -108,6 +118,7 @@ for (var a of b);
     "source": "for (var a of b);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

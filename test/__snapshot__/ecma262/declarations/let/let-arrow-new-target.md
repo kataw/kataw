@@ -20,6 +20,7 @@ let y = () => new.target
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -33,6 +34,7 @@ let y = () => new.target
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -46,6 +48,7 @@ let y = () => new.target
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 9
                             },
@@ -53,6 +56,7 @@ let y = () => new.target
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 13
                             },
@@ -61,33 +65,40 @@ let y = () => new.target
                                 "newKeyword": {
                                     "kind": 138477661,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 17
                                 },
                                 "targetIdentifier": {
                                     "kind": 16594,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 24
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 24
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 24
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 24
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 24
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -96,6 +107,7 @@ let y = () => new.target
     "source": "let y = () => new.target",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

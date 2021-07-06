@@ -26,6 +26,7 @@ import typeof foo24 from "bar";
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -33,6 +34,7 @@ import typeof foo24 from "bar";
             "typeofKeyword": {
                 "kind": 138477613,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 13
             },
@@ -41,6 +43,7 @@ import typeof foo24 from "bar";
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 24
                 },
@@ -49,10 +52,12 @@ import typeof foo24 from "bar";
                     "text": "bar",
                     "rawText": "\"bar\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 30
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 30
             },
@@ -64,16 +69,19 @@ import typeof foo24 from "bar";
                     "text": "foo24",
                     "rawText": "foo24",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 19
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 19
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -82,6 +90,7 @@ import typeof foo24 from "bar";
     "source": "import typeof foo24 from \"bar\";",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

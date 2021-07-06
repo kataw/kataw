@@ -34,12 +34,14 @@
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 1
                     },
                     "questionToken": {
                         "kind": 134217750,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 2
                     },
@@ -48,6 +50,7 @@
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 2
                     },
@@ -57,18 +60,22 @@
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 2
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 2
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 3
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 3
         },
@@ -79,10 +86,12 @@
                 "text": 0,
                 "rawText": "0",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 5,
             "end": 7
         }
@@ -91,6 +100,7 @@
     "source": "(?)=>0;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }

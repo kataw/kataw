@@ -20,12 +20,14 @@ if (true) {} else let x;
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
             "expression": {
                 "kind": 24752947,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 8
             },
@@ -35,16 +37,19 @@ if (true) {} else let x;
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 11
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 12
             },
             "elseKeyword": {
                 "kind": 4194389,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 17
             },
@@ -55,14 +60,17 @@ if (true) {} else let x;
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 21
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 21
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         },
@@ -73,10 +81,12 @@ if (true) {} else let x;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 21,
             "end": 24
         }
@@ -85,6 +95,7 @@ if (true) {} else let x;
     "source": "if (true) {} else let x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

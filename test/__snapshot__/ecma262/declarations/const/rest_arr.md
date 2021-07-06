@@ -39,6 +39,7 @@ const [...x] = y
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -57,6 +58,7 @@ const [...x] = y
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 10
                                         },
@@ -65,6 +67,7 @@ const [...x] = y
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 11
                                         },
@@ -72,16 +75,19 @@ const [...x] = y
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 11
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 11
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 12
                         },
@@ -91,19 +97,23 @@ const [...x] = y
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 16
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 5,
                         "end": 16
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 16
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -112,6 +122,7 @@ const [...x] = y
     "source": "const [...x] = y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

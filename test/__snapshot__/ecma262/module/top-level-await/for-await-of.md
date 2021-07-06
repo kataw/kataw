@@ -28,12 +28,14 @@ for await (const item of arr) {
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "awaitKeyword": {
                 "kind": 82196,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
@@ -42,6 +44,7 @@ for await (const item of arr) {
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 16
                 },
@@ -55,27 +58,32 @@ for await (const item of arr) {
                                 "text": "item",
                                 "rawText": "item",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 21
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 16,
                             "end": 21
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 21
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 21
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 24
             },
@@ -84,6 +92,7 @@ for await (const item of arr) {
                 "text": "arr",
                 "rawText": "arr",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 28
             },
@@ -99,23 +108,28 @@ for await (const item of arr) {
                                 "text": "item",
                                 "rawText": "item",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 38
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 39
                         }
                     ],
                     "flags": 17,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 39
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 41
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 41
         }
@@ -124,6 +138,7 @@ for await (const item of arr) {
     "source": "for await (const item of arr) {\n  item;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }

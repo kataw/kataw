@@ -27,6 +27,7 @@ var x; export {x: a}
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,21 +41,25 @@ var x; export {x: a}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 5
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -63,6 +68,7 @@ var x; export {x: a}
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 13
             },
@@ -80,21 +86,25 @@ var x; export {x: a}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 16
                             },
                             "asKeyword": null,
                             "binding": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 16
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 16
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 16
             },
@@ -102,6 +112,7 @@ var x; export {x: a}
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 6,
             "end": 16
         },
@@ -112,10 +123,12 @@ var x; export {x: a}
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 17,
             "end": 19
         }
@@ -124,6 +137,7 @@ var x; export {x: a}
     "source": "var x; export {x: a}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

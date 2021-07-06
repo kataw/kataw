@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { ExpressionNode } from '.';
 
 export interface IndexExpression extends SyntaxNode {
@@ -18,6 +18,7 @@ export function createIndexExpression(
     member,
     expression,
     flags,
+    transformFlags: TransformFlags.IndexExpression,
     start,
     end
   };

@@ -24,6 +24,7 @@ x({async foo(){}});
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -40,6 +41,7 @@ x({async foo(){}});
                                         "asyncKeyword": {
                                             "kind": 82031,
                                             "flags": 352,
+                                            "transformFlags": 0,
                                             "start": 3,
                                             "end": 8
                                         },
@@ -53,6 +55,7 @@ x({async foo(){}});
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 8,
                                                 "end": 12
                                             },
@@ -62,6 +65,7 @@ x({async foo(){}});
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 288,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 14
                                             },
@@ -73,42 +77,51 @@ x({async foo(){}});
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 15,
                                                     "end": 15
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 16
                                             },
                                             "flags": 288,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 16
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 16
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 16
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 2,
                             "end": 17
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 17
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -117,6 +130,7 @@ x({async foo(){}});
     "source": "x({async foo(){}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

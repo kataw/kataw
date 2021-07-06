@@ -24,6 +24,7 @@ const test = '💖'
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
@@ -37,6 +38,7 @@ const test = '💖'
                             "text": "test",
                             "rawText": "test",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 23
                         },
@@ -46,19 +48,23 @@ const test = '💖'
                             "text": "💖",
                             "rawText": "'💖'",
                             "flags": 4194400,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 30
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 18,
                         "end": 30
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 30
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -67,6 +73,7 @@ const test = '💖'
     "source": "/* #2091 */\n\nconst test = '💖'\n// This comment\n// should not get collapsed",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 74
 }

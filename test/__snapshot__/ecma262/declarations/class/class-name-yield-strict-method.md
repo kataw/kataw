@@ -31,6 +31,7 @@ function *f() {
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -43,6 +44,7 @@ function *f() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 22
             },
@@ -52,6 +54,7 @@ function *f() {
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 24
             },
@@ -61,6 +64,7 @@ function *f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 25
             },
@@ -77,6 +81,7 @@ function *f() {
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 36
                             },
@@ -85,6 +90,7 @@ function *f() {
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 38
                             },
@@ -111,6 +117,7 @@ function *f() {
                                                     "text": "yield",
                                                     "rawText": "yield",
                                                     "flags": 97,
+                                                    "transformFlags": 0,
                                                     "start": 40,
                                                     "end": 50
                                                 },
@@ -120,6 +127,7 @@ function *f() {
                                                     "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 0,
+                                                    "transformFlags": 0,
                                                     "start": 51,
                                                     "end": 52
                                                 },
@@ -131,45 +139,55 @@ function *f() {
                                                         "directives": [],
                                                         "statements": [],
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 54,
                                                         "end": 54
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 52,
                                                     "end": 55
                                                 },
                                                 "flags": 0,
+                                                "transformFlags": 0,
                                                 "start": 50,
                                                 "end": 55
                                             },
                                             "flags": 0,
+                                            "transformFlags": 0,
                                             "start": 40,
                                             "end": 55
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 40,
                                     "end": 55
                                 },
                                 "flags": 38,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 59
                             },
                             "flags": 17,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 59
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 59
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 61
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 61
         },
@@ -180,10 +198,12 @@ function *f() {
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 61,
                 "end": 75
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 61,
             "end": 76
         },
@@ -194,12 +214,14 @@ function *f() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 76,
                 "end": 85
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 85,
                 "end": 87
             },
@@ -208,6 +230,7 @@ function *f() {
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 87,
                 "end": 88
             },
@@ -217,6 +240,7 @@ function *f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 89,
                 "end": 89
             },
@@ -233,6 +257,7 @@ function *f() {
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 92,
                                 "end": 100
                             },
@@ -241,6 +266,7 @@ function *f() {
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 100,
                                 "end": 102
                             },
@@ -267,6 +293,7 @@ function *f() {
                                                     "text": "yield",
                                                     "rawText": "yield",
                                                     "flags": 97,
+                                                    "transformFlags": 0,
                                                     "start": 104,
                                                     "end": 114
                                                 },
@@ -276,6 +303,7 @@ function *f() {
                                                     "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 0,
+                                                    "transformFlags": 0,
                                                     "start": 115,
                                                     "end": 116
                                                 },
@@ -287,45 +315,55 @@ function *f() {
                                                         "directives": [],
                                                         "statements": [],
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 118,
                                                         "end": 118
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 116,
                                                     "end": 119
                                                 },
                                                 "flags": 0,
+                                                "transformFlags": 0,
                                                 "start": 114,
                                                 "end": 119
                                             },
                                             "flags": 0,
+                                            "transformFlags": 0,
                                             "start": 104,
                                             "end": 119
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 104,
                                     "end": 119
                                 },
                                 "flags": 102,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 123
                             },
                             "flags": 17,
+                            "transformFlags": 0,
                             "start": 92,
                             "end": 123
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 92,
                     "end": 123
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 90,
                 "end": 125
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 76,
             "end": 125
         }
@@ -334,6 +372,7 @@ function *f() {
     "source": "\"use strict\";\nfunction f() {\n  class C {\n    yield() {}\n  }\n}\n\n\"use strict\";\nfunction *f() {\n  class C {\n    yield() {}\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 125
 }

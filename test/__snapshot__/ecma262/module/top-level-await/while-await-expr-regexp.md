@@ -26,6 +26,7 @@ while (await /1/) { break; }
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -34,6 +35,7 @@ while (await /1/) { break; }
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 12
                 },
@@ -41,10 +43,12 @@ while (await /1/) { break; }
                     "kind": 371,
                     "text": "/1/",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 16
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 16
             },
@@ -58,24 +62,29 @@ while (await /1/) { break; }
                             "breakKeyword": {
                                 "kind": 37757005,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 25
                             },
                             "label": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 26
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 26
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 28
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -84,6 +93,7 @@ while (await /1/) { break; }
     "source": "while (await /1/) { break; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

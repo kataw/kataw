@@ -26,6 +26,7 @@ import * as foo from "foo";
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -41,12 +42,14 @@ import * as foo from "foo";
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 6
                     },
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 6,
                         "end": 8
                     },
@@ -55,14 +58,17 @@ import * as foo from "foo";
                         "text": "as",
                         "rawText": "as",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 11
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 11
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 11
             },
@@ -73,10 +79,12 @@ import * as foo from "foo";
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -87,10 +95,12 @@ import * as foo from "foo";
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 15
         },
@@ -101,10 +111,12 @@ import * as foo from "foo";
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 15,
             "end": 20
         },
@@ -115,10 +127,12 @@ import * as foo from "foo";
                 "text": "foo",
                 "rawText": "\"foo\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 20,
             "end": 27
         }
@@ -127,6 +141,7 @@ import * as foo from "foo";
     "source": "import * as foo from \"foo\";",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

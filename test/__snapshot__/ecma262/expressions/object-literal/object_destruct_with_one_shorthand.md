@@ -24,6 +24,7 @@ x({a}=obj);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -42,22 +43,26 @@ x({a}=obj);
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 3,
                                             "end": 4
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 4
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 2,
                                 "end": 5
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 6
                             },
@@ -66,24 +71,29 @@ x({a}=obj);
                                 "text": "obj",
                                 "rawText": "obj",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 9
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 2,
                             "end": 9
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 9
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         }
@@ -92,6 +102,7 @@ x({a}=obj);
     "source": "x({a}=obj);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

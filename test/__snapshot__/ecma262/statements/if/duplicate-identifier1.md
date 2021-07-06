@@ -20,6 +20,7 @@ if (x) var foo = 1; let foo = 1;
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -28,6 +29,7 @@ if (x) var foo = 1; let foo = 1;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 5
             },
@@ -37,6 +39,7 @@ if (x) var foo = 1; let foo = 1;
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 10
                 },
@@ -50,6 +53,7 @@ if (x) var foo = 1; let foo = 1;
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 14
                             },
@@ -59,25 +63,30 @@ if (x) var foo = 1; let foo = 1;
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 10,
                             "end": 18
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 18
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 19
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         },
@@ -86,6 +95,7 @@ if (x) var foo = 1; let foo = 1;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 23
             },
@@ -99,6 +109,7 @@ if (x) var foo = 1; let foo = 1;
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 27
                         },
@@ -108,19 +119,23 @@ if (x) var foo = 1; let foo = 1;
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 31
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 23,
                         "end": 31
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 31
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 19,
             "end": 32
         }
@@ -129,6 +144,7 @@ if (x) var foo = 1; let foo = 1;
     "source": "if (x) var foo = 1; let foo = 1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

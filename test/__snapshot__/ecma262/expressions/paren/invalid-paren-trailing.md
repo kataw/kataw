@@ -27,19 +27,23 @@
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 2
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         }
@@ -48,6 +52,7 @@
     "source": "(a,);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 5
 }

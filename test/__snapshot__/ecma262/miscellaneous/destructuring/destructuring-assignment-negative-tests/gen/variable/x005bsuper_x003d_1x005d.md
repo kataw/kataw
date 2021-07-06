@@ -28,6 +28,7 @@ var x, y, z; ([super = 1] = {});
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,12 +42,14 @@ var x, y, z; ([super = 1] = {});
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 5
                     },
@@ -57,12 +60,14 @@ var x, y, z; ([super = 1] = {});
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 6,
                         "end": 8
                     },
@@ -73,21 +78,25 @@ var x, y, z; ([super = 1] = {});
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 9,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -109,6 +118,7 @@ var x, y, z; ([super = 1] = {});
                                         "member": {
                                             "kind": 4259935,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 20
                                         },
@@ -117,16 +127,19 @@ var x, y, z; ([super = 1] = {});
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 20
                                         },
                                         "flags": 32,
+                                        "transformFlags": 2,
                                         "start": 15,
                                         "end": 20
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 22
                                     },
@@ -135,26 +148,31 @@ var x, y, z; ([super = 1] = {});
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 24
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 15,
                                     "end": 24
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 24
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 14,
                         "end": 25
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 27
                     },
@@ -165,22 +183,27 @@ var x, y, z; ([super = 1] = {});
                             "properties": [],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 29
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 27,
                         "end": 30
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 14,
                     "end": 30
                 },
                 "flags": 12,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 12,
             "end": 32
         }
@@ -189,6 +212,7 @@ var x, y, z; ([super = 1] = {});
     "source": "var x, y, z; ([super = 1] = {});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

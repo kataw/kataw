@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -36,6 +37,7 @@
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
@@ -44,6 +46,7 @@
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 24
                 },
@@ -57,6 +60,7 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
                             },
@@ -66,25 +70,30 @@
                                 "text": 0,
                                 "rawText": "0",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 30
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 24,
                             "end": 30
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 30
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 30
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 33
             },
@@ -93,6 +102,7 @@
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 35
             },
@@ -102,14 +112,17 @@
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 37
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 36,
                 "end": 38
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 13,
             "end": 38
         }
@@ -118,6 +131,7 @@
     "source": "\"use strict\"; for (const x = 0 in y){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }

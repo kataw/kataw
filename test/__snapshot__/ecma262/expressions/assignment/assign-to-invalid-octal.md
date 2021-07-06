@@ -30,12 +30,14 @@ x = 0o89Z;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -44,14 +46,17 @@ x = 0o89Z;
                     "text": 0,
                     "rawText": "0o89Z",
                     "flags": 262240,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 9
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         }
@@ -60,6 +65,7 @@ x = 0o89Z;
     "source": "x = 0o89Z;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

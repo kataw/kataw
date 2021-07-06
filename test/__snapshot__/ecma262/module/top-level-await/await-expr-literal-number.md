@@ -28,6 +28,7 @@ await 1;
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -36,14 +37,17 @@ await 1;
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         }
@@ -52,6 +56,7 @@ await 1;
     "source": "await 1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

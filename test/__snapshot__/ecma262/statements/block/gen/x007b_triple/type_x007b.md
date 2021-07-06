@@ -44,10 +44,12 @@
                                                     "text": "type",
                                                     "rawText": "type",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 5,
                                                     "end": 10
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 5,
                                                 "end": 10
                                             },
@@ -57,37 +59,45 @@
                                                     "kind": 249,
                                                     "statements": [],
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 12,
                                                     "end": 12
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 12
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 12
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 12
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 12
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 12
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -96,6 +106,7 @@
     "source": "{ { { type {",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

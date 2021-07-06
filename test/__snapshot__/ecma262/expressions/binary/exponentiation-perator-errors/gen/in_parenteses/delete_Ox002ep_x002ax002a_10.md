@@ -28,6 +28,7 @@ var O = { p: 1 }, x = 10; ; (delete O.p ** 10)
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ var O = { p: 1 }, x = 10; ; (delete O.p ** 10)
                             "text": "O",
                             "rawText": "O",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -58,6 +60,7 @@ var O = { p: 1 }, x = 10; ; (delete O.p ** 10)
                                             "text": "p",
                                             "rawText": "p",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 11
                                         },
@@ -66,24 +69,29 @@ var O = { p: 1 }, x = 10; ; (delete O.p ** 10)
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 14
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 9,
                                         "end": 14
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 14
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 7,
                             "end": 16
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 16
                     },
@@ -94,6 +102,7 @@ var O = { p: 1 }, x = 10; ; (delete O.p ** 10)
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 19
                         },
@@ -103,25 +112,30 @@ var O = { p: 1 }, x = 10; ; (delete O.p ** 10)
                             "text": 10,
                             "rawText": "10",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 24
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 17,
                         "end": 24
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 25,
             "end": 27
         },
@@ -136,6 +150,7 @@ var O = { p: 1 }, x = 10; ; (delete O.p ** 10)
                         "operandToken": {
                             "kind": 4259886,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 35
                         },
@@ -146,6 +161,7 @@ var O = { p: 1 }, x = 10; ; (delete O.p ** 10)
                                 "text": "O",
                                 "rawText": "O",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 37
                             },
@@ -154,20 +170,24 @@ var O = { p: 1 }, x = 10; ; (delete O.p ** 10)
                                 "text": "p",
                                 "rawText": "p",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 39
                             },
                             "flags": 96,
+                            "transformFlags": 2,
                             "start": 35,
                             "end": 39
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 39
                     },
                     "operatorToken": {
                         "kind": 35897,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 39,
                         "end": 42
                     },
@@ -176,18 +196,22 @@ var O = { p: 1 }, x = 10; ; (delete O.p ** 10)
                         "text": 10,
                         "rawText": "10",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 42,
                         "end": 45
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 45
                 },
                 "flags": 27,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 46
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 27,
             "end": 46
         }
@@ -196,6 +220,7 @@ var O = { p: 1 }, x = 10; ; (delete O.p ** 10)
     "source": "var O = { p: 1 }, x = 10; ; (delete O.p ** 10)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 46
 }

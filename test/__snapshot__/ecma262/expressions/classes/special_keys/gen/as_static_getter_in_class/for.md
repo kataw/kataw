@@ -29,6 +29,7 @@ class x {static get for(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class x {static get for(){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -54,6 +56,7 @@ class x {static get for(){}}
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
@@ -61,6 +64,7 @@ class x {static get for(){}}
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 19
                             },
@@ -73,6 +77,7 @@ class x {static get for(){}}
                                     "text": "for",
                                     "rawText": "for",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 23
                                 },
@@ -82,6 +87,7 @@ class x {static get for(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 25
                                 },
@@ -93,31 +99,38 @@ class x {static get for(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 26
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 27
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 27
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 27
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 27
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -126,6 +139,7 @@ class x {static get for(){}}
     "source": "class x {static get for(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

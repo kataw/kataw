@@ -22,6 +22,7 @@ function eval(b){ "use strict"; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function eval(b){ "use strict"; }
                 "text": "eval",
                 "rawText": "eval",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 13
             },
@@ -43,12 +45,14 @@ function eval(b){ "use strict"; }
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 15
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 15
             },
@@ -62,21 +66,25 @@ function eval(b){ "use strict"; }
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 30
                         }
                     ],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 31
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 33
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -85,6 +93,7 @@ function eval(b){ "use strict"; }
     "source": "function eval(b){ \"use strict\"; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

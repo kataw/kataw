@@ -29,6 +29,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                 "text": "LinkedList",
                 "rawText": "LinkedList",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 15
             },
@@ -52,6 +54,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                                 "text": "Type",
                                 "rawText": "Type",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 20
                             },
@@ -59,22 +62,26 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 20
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 20
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 21
             },
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 23
             },
@@ -92,11 +99,13 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                                 "text": "Type",
                                 "rawText": "Type",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 28
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 28
                         },
@@ -114,6 +123,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                                         "text": "next",
                                         "rawText": "next",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 37
                                     },
@@ -129,6 +139,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                                                 "text": "LinkedList",
                                                 "rawText": "LinkedList",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 38,
                                                 "end": 49
                                             },
@@ -148,56 +159,68 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                                                                     "text": "Type",
                                                                     "rawText": "Type",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 50,
                                                                     "end": 54
                                                                 },
                                                                 "typeParameters": null,
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 50,
                                                                 "end": 54
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 50,
                                                             "end": 54
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 50,
                                                     "end": 54
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 49,
                                                 "end": 55
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 38,
                                             "end": 55
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 38,
                                         "end": 55
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 55
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 57
                         }
                     ],
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 57
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 57
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 58
         }
@@ -206,6 +229,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
     "source": "type LinkedList<Type> = Type & { next: LinkedList<Type> };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 58
 }

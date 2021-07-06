@@ -39,6 +39,7 @@ let {[x]} = z;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -61,10 +62,12 @@ let {[x]} = z;
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 7
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -73,21 +76,25 @@ let {[x]} = z;
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 8
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 8
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 8
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 9
                         },
@@ -97,19 +104,23 @@ let {[x]} = z;
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 13
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 13
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 13
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -118,6 +129,7 @@ let {[x]} = z;
     "source": "let {[x]} = z;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

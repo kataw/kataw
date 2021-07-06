@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { MethodDefinition } from './method-definition';
 
@@ -30,6 +30,7 @@ export function createPropertyMethod(
     setKeyword,
     method,
     flags: NodeFlags.ExpressionNode,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

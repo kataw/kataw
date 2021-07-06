@@ -29,6 +29,7 @@
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 2
                         },
@@ -37,6 +38,7 @@
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -45,6 +47,7 @@
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
@@ -53,12 +56,14 @@
                             "text": "d",
                             "rawText": "d",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 12
                 },
@@ -66,6 +71,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 15
                 },
@@ -74,14 +80,17 @@
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -90,6 +99,7 @@
     "source": "(b, a, a, d) => a",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

@@ -33,6 +33,7 @@ class C {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -41,6 +42,7 @@ class C {
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -61,6 +63,7 @@ class C {
                             "getKeyword": {
                                 "kind": 16499,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 17
                             },
@@ -72,6 +75,7 @@ class C {
                                     "text": "X",
                                     "rawText": "X",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 19
                                 },
@@ -84,6 +88,7 @@ class C {
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 20,
                                                 "end": 23
                                             },
@@ -92,6 +97,7 @@ class C {
                                                 "text": "v",
                                                 "rawText": "v",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 24
                                             },
@@ -99,12 +105,14 @@ class C {
                                             "type": null,
                                             "right": null,
                                             "flags": 34,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 24
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 546,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 25
                                 },
@@ -116,18 +124,22 @@ class C {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 27
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 29
                                 },
                                 "flags": 512,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 29
                             },
                             "flags": 512,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 29
                         },
@@ -138,6 +150,7 @@ class C {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 40
                             },
@@ -146,6 +159,7 @@ class C {
                             "getKeyword": {
                                 "kind": 16499,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 44
                             },
@@ -157,6 +171,7 @@ class C {
                                     "text": "X",
                                     "rawText": "X",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 46
                                 },
@@ -169,6 +184,7 @@ class C {
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 47,
                                                 "end": 50
                                             },
@@ -177,6 +193,7 @@ class C {
                                                 "text": "v2",
                                                 "rawText": "v2",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 50,
                                                 "end": 52
                                             },
@@ -184,12 +201,14 @@ class C {
                                             "type": null,
                                             "right": null,
                                             "flags": 34,
+                                            "transformFlags": 0,
                                             "start": 47,
                                             "end": 52
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 546,
+                                    "transformFlags": 0,
                                     "start": 47,
                                     "end": 53
                                 },
@@ -201,31 +220,38 @@ class C {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 55,
                                         "end": 55
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 53,
                                     "end": 57
                                 },
                                 "flags": 512,
+                                "transformFlags": 0,
                                 "start": 46,
                                 "end": 57
                             },
                             "flags": 512,
+                            "transformFlags": 0,
                             "start": 40,
                             "end": 57
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 57
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 59
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 59
         }
@@ -234,6 +260,7 @@ class C {
     "source": "class C {\n    set X(...v) { }\n    static set X(...v2) { }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 59
 }

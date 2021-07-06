@@ -23,6 +23,7 @@ function f(){ "use strict"
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -32,6 +33,7 @@ function f(){ "use strict"
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -41,6 +43,7 @@ function f(){ "use strict"
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -59,6 +62,7 @@ function f(){ "use strict"
                                     "text": "use strict",
                                     "rawText": "\"use strict\"",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 26
                                 },
@@ -67,14 +71,17 @@ function f(){ "use strict"
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 47
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 13,
                                 "end": 47
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 48
                         },
@@ -87,12 +94,14 @@ function f(){ "use strict"
                                     "text": "eval",
                                     "rawText": "eval",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 48,
                                     "end": 53
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 53,
                                     "end": 55
                                 },
@@ -101,28 +110,34 @@ function f(){ "use strict"
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 55,
                                     "end": 57
                                 },
                                 "flags": 0,
+                                "transformFlags": 128,
                                 "start": 48,
                                 "end": 57
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 48,
                             "end": 58
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 58
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 60
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 60
         }
@@ -131,6 +146,7 @@ function f(){ "use strict"
     "source": "function f(){ \"use strict\"\n /* suffix = */ .foo; eval = 1; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 60
 }

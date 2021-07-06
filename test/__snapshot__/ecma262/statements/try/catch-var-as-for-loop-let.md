@@ -26,6 +26,7 @@ try {} catch (e) { for (let e;;) {} }
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -35,10 +36,12 @@ try {} catch (e) { for (let e;;) {} }
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 6
             },
@@ -47,6 +50,7 @@ try {} catch (e) { for (let e;;) {} }
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
@@ -55,6 +59,7 @@ try {} catch (e) { for (let e;;) {} }
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 15
                 },
@@ -68,6 +73,7 @@ try {} catch (e) { for (let e;;) {} }
                                 "forKeyword": {
                                     "kind": 37757017,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 22
                                 },
@@ -76,6 +82,7 @@ try {} catch (e) { for (let e;;) {} }
                                     "lexicalKeyword": {
                                         "kind": 41951307,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 27
                                     },
@@ -89,21 +96,25 @@ try {} catch (e) { for (let e;;) {} }
                                                     "text": "e",
                                                     "rawText": "e",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 27,
                                                     "end": 29
                                                 },
                                                 "type": null,
                                                 "initializer": null,
                                                 "flags": 16,
+                                                "transformFlags": 128,
                                                 "start": 27,
                                                 "end": 29
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 29
                                     },
                                     "flags": 33554448,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 29
                                 },
@@ -115,33 +126,40 @@ try {} catch (e) { for (let e;;) {} }
                                         "kind": 249,
                                         "statements": [],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 34
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 35
                                 },
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 35
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 35
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 37
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 37
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 37
         }
@@ -150,6 +168,7 @@ try {} catch (e) { for (let e;;) {} }
     "source": "try {} catch (e) { for (let e;;) {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }

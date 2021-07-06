@@ -25,14 +25,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 23
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         },
@@ -43,10 +46,12 @@
                 "text": "number",
                 "rawText": "number",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 24,
             "end": 31
         },
@@ -56,10 +61,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 32,
             "end": 34
         }
@@ -68,6 +75,7 @@
     "source": "({\n    constructor(this: number){}\n})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }

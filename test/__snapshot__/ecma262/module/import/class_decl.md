@@ -28,6 +28,7 @@ class x { import {x} from "y"; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -36,6 +37,7 @@ class x { import {x} from "y"; }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -57,6 +59,7 @@ class x { import {x} from "y"; }
                                 "text": "import",
                                 "rawText": "import",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 16
                             },
@@ -64,19 +67,23 @@ class x { import {x} from "y"; }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 16
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 16
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         },
@@ -92,19 +99,23 @@ class x { import {x} from "y"; }
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 19
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 19
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 16,
             "end": 20
         },
@@ -115,10 +126,12 @@ class x { import {x} from "y"; }
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 20,
             "end": 25
         },
@@ -129,10 +142,12 @@ class x { import {x} from "y"; }
                 "text": "y",
                 "rawText": "\"y\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 25,
             "end": 30
         }
@@ -141,6 +156,7 @@ class x { import {x} from "y"; }
     "source": "class x { import {x} from \"y\"; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

@@ -28,10 +28,12 @@
                 "text": "пϿ",
                 "rawText": "\"\\u{10ffff}\"",
                 "flags": 8288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -40,6 +42,7 @@
     "source": "\"\\u{10ffff}\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

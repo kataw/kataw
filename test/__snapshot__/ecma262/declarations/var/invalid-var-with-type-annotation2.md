@@ -30,6 +30,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -43,6 +44,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -64,6 +66,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 11
                                         },
@@ -75,14 +78,17 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 19
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 19
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 19
                                     },
@@ -97,6 +103,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 19
                                         },
@@ -119,6 +126,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                                             "text": "y",
                                                             "rawText": "y",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 20,
                                                             "end": 22
                                                         },
@@ -130,38 +138,46 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                                             "type": {
                                                                 "kind": 134234347,
                                                                 "flags": 2097216,
+                                                                "transformFlags": 0,
                                                                 "start": 23,
                                                                 "end": 30
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 23,
                                                             "end": 30
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 20,
                                                         "end": 30
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 32
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 32
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 32
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 34
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 34
                         },
@@ -178,6 +194,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 38,
                                             "end": 40
                                         },
@@ -186,10 +203,12 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 41,
                                             "end": 43
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 38,
                                         "end": 43
                                     },
@@ -201,6 +220,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 44,
                                             "end": 46
                                         },
@@ -209,33 +229,40 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "text": "foo",
                                             "rawText": "'foo'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 47,
                                             "end": 53
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 44,
                                         "end": 53
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 53
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 36,
                             "end": 55
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 55
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 55
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 56
         }
@@ -244,6 +271,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
     "source": "var a : { x: number{ y: string } } = { x: 0, y: 'foo' };\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 57
 }

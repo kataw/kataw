@@ -22,6 +22,7 @@ new delete
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -30,6 +31,7 @@ new delete
                     "operandToken": {
                         "kind": 4259886,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 10
                     },
@@ -38,19 +40,23 @@ new delete
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 10
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 10
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         }
@@ -59,6 +65,7 @@ new delete
     "source": "new delete",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

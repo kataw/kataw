@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { ExpressionNode } from '../expressions/index';
 import { ObjectBindingPattern } from '../expressions/object-binding-pattern';
 import { ArrayBindingPattern } from '../expressions/array-binding-pattern';
@@ -29,6 +29,7 @@ export function createVariableDeclaration(
     type,
     initializer,
     flags: NodeFlags.IsStatement,
+    transformFlags: TransformFlags.ShouldIndentIfInlining,
     start,
     end
   };

@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 
 /**
  * Regular expression
@@ -12,6 +12,7 @@ export function createRegularExpressionLiteral(text: string, start: number, end:
     kind: SyntaxKind.RegularExpressionLiteral,
     text,
     flags: NodeFlags.ExpressionNode | NodeFlags.NoChildren,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

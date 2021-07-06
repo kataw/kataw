@@ -41,6 +41,7 @@
                                         "newKeyword": {
                                             "kind": 138477661,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 2,
                                             "end": 6
                                         },
@@ -49,27 +50,32 @@
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 8
                                         },
                                         "argumentList": null,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 8
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 8
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 10
                         }
                     ],
                     "trailingComma": false,
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 11
                 },
@@ -77,6 +83,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 14
                 },
@@ -87,18 +94,22 @@
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 16
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 17
                 },
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -107,6 +118,7 @@
     "source": "([ new x ]) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

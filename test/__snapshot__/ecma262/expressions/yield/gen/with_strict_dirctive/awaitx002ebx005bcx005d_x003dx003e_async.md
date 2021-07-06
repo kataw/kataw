@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -42,6 +43,7 @@
                         "text": "await",
                         "rawText": "await",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 19
                     },
@@ -50,10 +52,12 @@
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 21
                     },
                     "flags": 96,
+                    "transformFlags": 2,
                     "start": 13,
                     "end": 21
                 },
@@ -62,14 +66,17 @@
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 23
                 },
                 "flags": 536870944,
+                "transformFlags": 4,
                 "start": 13,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 24
         },
@@ -80,10 +87,12 @@
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 27,
             "end": 33
         }
@@ -92,6 +101,7 @@
     "source": "'use strict'; await.b[c] => async",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

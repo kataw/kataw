@@ -22,12 +22,14 @@ function* fn(x = yield* yield) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -36,6 +38,7 @@ function* fn(x = yield* yield) {}
                 "text": "fn",
                 "rawText": "fn",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 12
             },
@@ -51,6 +54,7 @@ function* fn(x = yield* yield) {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 14
                         },
@@ -61,6 +65,7 @@ function* fn(x = yield* yield) {}
                             "yieldKeyword": {
                                 "kind": 8454253,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 22
                             },
@@ -68,6 +73,7 @@ function* fn(x = yield* yield) {}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 22,
                                 "end": 23
                             },
@@ -76,6 +82,7 @@ function* fn(x = yield* yield) {}
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 29
                                 },
@@ -83,20 +90,24 @@ function* fn(x = yield* yield) {}
                                 "asteriskToken": null,
                                 "expression": null,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 29
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 29
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 29
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 29
             },
@@ -107,15 +118,18 @@ function* fn(x = yield* yield) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 32
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 33
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -124,6 +138,7 @@ function* fn(x = yield* yield) {}
     "source": "function* fn(x = yield* yield) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

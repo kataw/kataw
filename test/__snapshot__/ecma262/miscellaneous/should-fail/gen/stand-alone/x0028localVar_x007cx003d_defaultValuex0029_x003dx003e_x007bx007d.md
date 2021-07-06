@@ -33,12 +33,14 @@
                         "text": "localVar",
                         "rawText": "localVar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 9
                     },
                     "operatorToken": {
                         "kind": 4136,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 12
                     },
@@ -47,18 +49,22 @@
                         "text": "defaultValue",
                         "rawText": "defaultValue",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 25
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 0,
                     "end": 25
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         },
@@ -68,10 +74,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 29,
             "end": 32
         }
@@ -80,6 +88,7 @@
     "source": "(localVar |= defaultValue) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

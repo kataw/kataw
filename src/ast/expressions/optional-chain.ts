@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { CallChain } from './call-chain';
 import { MemberAccessChain } from './member-access-chain';
 import { IndexExpressionChain } from './index-expr-chain';
@@ -25,6 +25,7 @@ export function createOptionalChain(chain: ChainMembers | null, start: number, e
     kind: SyntaxKind.OptionalChain,
     chain,
     flags: NodeFlags.ExpressionNode,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

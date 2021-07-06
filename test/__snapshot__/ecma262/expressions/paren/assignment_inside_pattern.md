@@ -35,6 +35,7 @@
                                             "text": "target",
                                             "rawText": "target",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 2,
                                             "end": 8
                                         },
@@ -43,10 +44,12 @@
                                             "elements": [],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 9
                                         },
                                         "flags": 268435488,
+                                        "transformFlags": 1,
                                         "start": 2,
                                         "end": 10
                                     },
@@ -57,6 +60,7 @@
                                             "text": "targetKey",
                                             "rawText": "targetKey",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 20
                                         },
@@ -70,12 +74,14 @@
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 21,
                                                         "end": 22
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 22,
                                                         "end": 23
                                                     },
@@ -84,40 +90,48 @@
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 23,
                                                         "end": 24
                                                     },
                                                     "flags": 0,
+                                                    "transformFlags": 128,
                                                     "start": 21,
                                                     "end": 24
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 24
                                         },
                                         "flags": 268435488,
+                                        "transformFlags": 1,
                                         "start": 11,
                                         "end": 25
                                     },
                                     "flags": 536870944,
+                                    "transformFlags": 4,
                                     "start": 2,
                                     "end": 26
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 26
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 1,
                         "end": 27
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 27,
                         "end": 29
                     },
@@ -126,18 +140,22 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 31
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 1,
                     "end": 31
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -146,6 +164,7 @@
     "source": "([target()[targetKey(a=b)]] = x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

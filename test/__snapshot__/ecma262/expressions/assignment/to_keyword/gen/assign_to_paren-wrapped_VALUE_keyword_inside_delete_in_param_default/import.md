@@ -29,12 +29,14 @@ function *f(x = delete ((import) = f)) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -43,6 +45,7 @@ function *f(x = delete ((import) = f)) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -58,6 +61,7 @@ function *f(x = delete ((import) = f)) {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
@@ -68,6 +72,7 @@ function *f(x = delete ((import) = f)) {}
                             "operandToken": {
                                 "kind": 4259886,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 22
                             },
@@ -80,6 +85,7 @@ function *f(x = delete ((import) = f)) {}
                                         "importKeyword": {
                                             "kind": 37814364,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 31
                                         },
@@ -90,12 +96,14 @@ function *f(x = delete ((import) = f)) {}
                                                 "text": "",
                                                 "rawText": "",
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 32,
                                                 "end": 32
                                             },
                                             "operatorToken": {
                                                 "kind": 4125,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 32,
                                                 "end": 34
                                             },
@@ -104,30 +112,37 @@ function *f(x = delete ((import) = f)) {}
                                                 "text": "f",
                                                 "rawText": "f",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 34,
                                                 "end": 36
                                             },
                                             "flags": 0,
+                                            "transformFlags": 128,
                                             "start": 32,
                                             "end": 36
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 37
                                     },
                                     "flags": 24,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 38
                                 },
                                 "flags": 22,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 38
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 38
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 38
                     },
@@ -138,16 +153,19 @@ function *f(x = delete ((import) = f)) {}
                             "properties": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 40,
                             "end": 40
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 38,
                         "end": 41
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 41
             },
@@ -158,15 +176,18 @@ function *f(x = delete ((import) = f)) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 41,
                     "end": 41
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 41,
                 "end": 41
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 41
         }
@@ -175,6 +196,7 @@ function *f(x = delete ((import) = f)) {}
     "source": "function *f(x = delete ((import) = f)) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }

@@ -22,6 +22,7 @@ class x { constructor(){ return () => () => super[bar]; }}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class x { constructor(){ return () => () => super[bar]; }}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -56,6 +58,7 @@ class x { constructor(){ return () => () => super[bar]; }}
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 21
                                 },
@@ -65,6 +68,7 @@ class x { constructor(){ return () => () => super[bar]; }}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 23
                                 },
@@ -80,6 +84,7 @@ class x { constructor(){ return () => () => super[bar]; }}
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 24,
                                                     "end": 31
                                                 },
@@ -92,6 +97,7 @@ class x { constructor(){ return () => () => super[bar]; }}
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 33,
                                                         "end": 33
                                                     },
@@ -99,6 +105,7 @@ class x { constructor(){ return () => () => super[bar]; }}
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 34,
                                                         "end": 37
                                                     },
@@ -111,6 +118,7 @@ class x { constructor(){ return () => () => super[bar]; }}
                                                             "parameters": [],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 39,
                                                             "end": 39
                                                         },
@@ -118,6 +126,7 @@ class x { constructor(){ return () => () => super[bar]; }}
                                                         "arrowToken": {
                                                             "kind": 10,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 40,
                                                             "end": 43
                                                         },
@@ -126,6 +135,7 @@ class x { constructor(){ return () => () => super[bar]; }}
                                                             "member": {
                                                                 "kind": 4259935,
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 43,
                                                                 "end": 49
                                                             },
@@ -134,52 +144,64 @@ class x { constructor(){ return () => () => super[bar]; }}
                                                                 "text": "bar",
                                                                 "rawText": "bar",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 50,
                                                                 "end": 53
                                                             },
                                                             "flags": 536870944,
+                                                            "transformFlags": 4,
                                                             "start": 43,
                                                             "end": 54
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 37,
                                                         "end": 54
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 31,
                                                     "end": 54
                                                 },
                                                 "flags": 80,
+                                                "transformFlags": 256,
                                                 "start": 24,
                                                 "end": 55
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 55
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 57
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 57
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 57
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 57
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 58
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 58
         }
@@ -188,6 +210,7 @@ class x { constructor(){ return () => () => super[bar]; }}
     "source": "class x { constructor(){ return () => () => super[bar]; }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 58
 }

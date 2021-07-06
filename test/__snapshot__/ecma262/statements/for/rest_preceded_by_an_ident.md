@@ -20,6 +20,7 @@ for (let [foo, ...bar] = obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -28,6 +29,7 @@ for (let [foo, ...bar] = obj);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
@@ -46,6 +48,7 @@ for (let [foo, ...bar] = obj);
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 13
                                         },
@@ -54,6 +57,7 @@ for (let [foo, ...bar] = obj);
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 18
                                             },
@@ -62,6 +66,7 @@ for (let [foo, ...bar] = obj);
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 21
                                             },
@@ -69,16 +74,19 @@ for (let [foo, ...bar] = obj);
                                             "type": null,
                                             "right": null,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 21
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 21
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 22
                             },
@@ -88,19 +96,23 @@ for (let [foo, ...bar] = obj);
                                 "text": "obj",
                                 "rawText": "obj",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 28
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 8,
                             "end": 28
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 28
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 28
             },
@@ -110,16 +122,19 @@ for (let [foo, ...bar] = obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 28
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 30
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -128,6 +143,7 @@ for (let [foo, ...bar] = obj);
     "source": "for (let [foo, ...bar] = obj);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { ExpressionNode } from '.';
 import { ArgumentList } from './argument-list';
 
@@ -19,6 +19,7 @@ export function createCallExpression(
     expression,
     argumentList,
     flags,
+    transformFlags: TransformFlags.CallExpression,
     start,
     end
   };

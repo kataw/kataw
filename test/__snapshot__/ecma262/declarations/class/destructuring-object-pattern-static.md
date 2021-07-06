@@ -28,6 +28,7 @@ class Foo {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -36,6 +37,7 @@ class Foo {
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -53,6 +55,7 @@ class Foo {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 20
                             },
@@ -62,6 +65,7 @@ class Foo {
                                 "text": "#client",
                                 "rawText": "#client",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 28
                             },
@@ -69,6 +73,7 @@ class Foo {
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 20,
                             "end": 28
                         },
@@ -88,6 +93,7 @@ class Foo {
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 43
                                 },
@@ -100,12 +106,14 @@ class Foo {
                                             "text": "props",
                                             "rawText": "props",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 44,
                                             "end": 49
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2144,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 50
                                 },
@@ -135,6 +143,7 @@ class Foo {
                                                                             "text": "client",
                                                                             "rawText": "client",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 59,
                                                                             "end": 66
                                                                         },
@@ -145,6 +154,7 @@ class Foo {
                                                                                 "text": "Foo",
                                                                                 "rawText": "Foo",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 67,
                                                                                 "end": 71
                                                                             },
@@ -153,30 +163,36 @@ class Foo {
                                                                                 "text": "#client",
                                                                                 "rawText": "#client",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 72,
                                                                                 "end": 79
                                                                             },
                                                                             "flags": 96,
+                                                                            "transformFlags": 2,
                                                                             "start": 59,
                                                                             "end": 79
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 128,
                                                                         "start": 59,
                                                                         "end": 79
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "flags": 16,
+                                                                "transformFlags": 0,
                                                                 "start": 59,
                                                                 "end": 79
                                                             },
                                                             "flags": 48,
+                                                            "transformFlags": 8,
                                                             "start": 58,
                                                             "end": 81
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 81,
                                                             "end": 83
                                                         },
@@ -185,48 +201,59 @@ class Foo {
                                                             "text": "props",
                                                             "rawText": "props",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 83,
                                                             "end": 89
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 128,
                                                         "start": 58,
                                                         "end": 89
                                                     },
                                                     "flags": 52,
+                                                    "transformFlags": 0,
                                                     "start": 35,
                                                     "end": 90
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 52,
                                                 "end": 90
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 52,
                                         "end": 90
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 50,
                                     "end": 94
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 43,
                                 "end": 94
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 94
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 94
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 96
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 96
         }
@@ -235,6 +262,7 @@ class Foo {
     "source": "class Foo {\n  static #client\n\n  constructor(props) {\n    ({ client: Foo.#client } = props)\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 96
 }

@@ -21,6 +21,7 @@ var [a, ...[b, c]] = d;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -39,6 +40,7 @@ var [a, ...[b, c]] = d;
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 6
                                     },
@@ -47,6 +49,7 @@ var [a, ...[b, c]] = d;
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 11
                                         },
@@ -60,6 +63,7 @@ var [a, ...[b, c]] = d;
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 12,
                                                         "end": 13
                                                     },
@@ -68,16 +72,19 @@ var [a, ...[b, c]] = d;
                                                         "text": "c",
                                                         "rawText": "c",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 14,
                                                         "end": 16
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 0,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 16
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 17
                                         },
@@ -85,16 +92,19 @@ var [a, ...[b, c]] = d;
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 17
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 17
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 18
                         },
@@ -104,19 +114,23 @@ var [a, ...[b, c]] = d;
                             "text": "d",
                             "rawText": "d",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 22
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 22
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -125,6 +139,7 @@ var [a, ...[b, c]] = d;
     "source": "var [a, ...[b, c]] = d;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

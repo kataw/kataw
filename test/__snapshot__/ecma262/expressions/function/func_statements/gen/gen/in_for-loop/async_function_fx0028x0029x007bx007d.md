@@ -27,6 +27,7 @@ for (;;) async function f(){}
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -39,12 +40,14 @@ for (;;) async function f(){}
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 14
                 },
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 23
                 },
@@ -54,6 +57,7 @@ for (;;) async function f(){}
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 25
                 },
@@ -63,6 +67,7 @@ for (;;) async function f(){}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 26
                 },
@@ -73,19 +78,23 @@ for (;;) async function f(){}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 28,
                         "end": 28
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 29
                 },
                 "returnType": null,
                 "flags": 144,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 29
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -94,6 +103,7 @@ for (;;) async function f(){}
     "source": "for (;;) async function f(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

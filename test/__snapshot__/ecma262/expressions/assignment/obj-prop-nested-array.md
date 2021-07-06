@@ -30,12 +30,14 @@ result = { x: [y] } = { x: [321] };
                     "text": "result",
                     "rawText": "result",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
@@ -54,6 +56,7 @@ result = { x: [y] } = { x: [321] };
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 12
                                     },
@@ -67,36 +70,43 @@ result = { x: [y] } = { x: [321] };
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 15,
                                                     "end": 16
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 16
                                         },
                                         "flags": 32,
+                                        "transformFlags": 8,
                                         "start": 13,
                                         "end": 17
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 10,
                                     "end": 17
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 17
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 8,
                         "end": 19
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 21
                     },
@@ -113,6 +123,7 @@ result = { x: [y] } = { x: [321] };
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 25
                                     },
@@ -126,42 +137,51 @@ result = { x: [y] } = { x: [321] };
                                                     "text": 321,
                                                     "rawText": "321",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 28,
                                                     "end": 31
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 28,
                                             "end": 31
                                         },
                                         "flags": 32,
+                                        "transformFlags": 8,
                                         "start": 26,
                                         "end": 32
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 23,
                                     "end": 32
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 32
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 21,
                         "end": 34
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 8,
                     "end": 34
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -170,6 +190,7 @@ result = { x: [y] } = { x: [321] };
     "source": "result = { x: [y] } = { x: [321] };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

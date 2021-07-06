@@ -32,6 +32,7 @@ async x => ok, async x => ok
                         "asyncKeyword": {
                             "kind": 82031,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 5
                         },
@@ -41,6 +42,7 @@ async x => ok, async x => ok
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
@@ -48,6 +50,7 @@ async x => ok, async x => ok
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 10
                         },
@@ -56,10 +59,12 @@ async x => ok, async x => ok
                             "text": "ok",
                             "rawText": "ok",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 13
                         },
                         "flags": 288,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 13
                     },
@@ -68,6 +73,7 @@ async x => ok, async x => ok
                         "asyncKeyword": {
                             "kind": 82031,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 20
                         },
@@ -77,6 +83,7 @@ async x => ok, async x => ok
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 22
                         },
@@ -84,6 +91,7 @@ async x => ok, async x => ok
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 25
                         },
@@ -92,19 +100,23 @@ async x => ok, async x => ok
                             "text": "ok",
                             "rawText": "ok",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 28
                         },
                         "flags": 288,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 28
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -113,6 +125,7 @@ async x => ok, async x => ok
     "source": "async x => ok, async x => ok",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

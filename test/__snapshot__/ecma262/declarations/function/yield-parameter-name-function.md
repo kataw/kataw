@@ -22,6 +22,7 @@ function fn(yield) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function fn(yield) {}
                 "text": "fn",
                 "rawText": "fn",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
@@ -43,12 +45,14 @@ function fn(yield) {}
                         "text": "yield",
                         "rawText": "yield",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 17
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 17
             },
@@ -59,15 +63,18 @@ function fn(yield) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 20
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 21
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -76,6 +83,7 @@ function fn(yield) {}
     "source": "function fn(yield) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

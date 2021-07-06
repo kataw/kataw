@@ -26,6 +26,7 @@ let [x=y, z] = []
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,6 +48,7 @@ let [x=y, z] = []
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 6
                                         },
@@ -57,10 +59,12 @@ let [x=y, z] = []
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 8
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 8
                                     },
@@ -69,16 +73,19 @@ let [x=y, z] = []
                                         "text": "z",
                                         "rawText": "z",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 11
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 11
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 12
                         },
@@ -90,23 +97,28 @@ let [x=y, z] = []
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 16
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 14,
                             "end": 17
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 17
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 17
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -115,6 +127,7 @@ let [x=y, z] = []
     "source": "let [x=y, z] = []",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

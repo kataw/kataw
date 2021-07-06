@@ -30,14 +30,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 14
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         },
@@ -46,10 +49,12 @@
             "debuggerKeyword": {
                 "kind": 37757010,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 14,
             "end": 22
         },
@@ -60,10 +65,12 @@
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 25,
             "end": 27
         },
@@ -73,10 +80,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 32,
             "end": 35
         }
@@ -85,6 +94,7 @@
     "source": "(x = delete ((debugger) = f)) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

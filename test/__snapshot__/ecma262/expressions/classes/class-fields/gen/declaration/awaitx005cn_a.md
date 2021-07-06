@@ -29,6 +29,7 @@ class C { await\n a }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class C { await\n a }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -58,6 +60,7 @@ class C { await\n a }
                                 "text": "await",
                                 "rawText": "await",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
@@ -65,19 +68,23 @@ class C { await\n a }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 15
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 15
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         },
@@ -88,10 +95,12 @@ class C { await\n a }
                 "text": "n",
                 "rawText": "n",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 16,
             "end": 17
         },
@@ -102,10 +111,12 @@ class C { await\n a }
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 17,
             "end": 19
         }
@@ -114,6 +125,7 @@ class C { await\n a }
     "source": "class C { await\\n a }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

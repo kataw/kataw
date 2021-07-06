@@ -24,12 +24,14 @@ x = {eval}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -43,24 +45,29 @@ x = {eval}
                                 "text": "eval",
                                 "rawText": "eval",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 9
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 9
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 10
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         }
@@ -69,6 +76,7 @@ x = {eval}
     "source": "x = {eval}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

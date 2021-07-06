@@ -30,6 +30,7 @@ function fn(x = await 1) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function fn(x = await 1) {
                 "text": "fn",
                 "rawText": "fn",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
@@ -54,6 +56,7 @@ function fn(x = await 1) {
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
@@ -64,6 +67,7 @@ function fn(x = await 1) {
                             "awaitKeyword": {
                                 "kind": 82196,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 21
                             },
@@ -72,20 +76,24 @@ function fn(x = await 1) {
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 23
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 23
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 23
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 23
             },
@@ -100,6 +108,7 @@ function fn(x = await 1) {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 35
                             },
@@ -108,24 +117,29 @@ function fn(x = await 1) {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 37
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 26,
                             "end": 38
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 38
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 40
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -134,6 +148,7 @@ function fn(x = await 1) {
     "source": "function fn(x = await 1) {\n  return x;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }

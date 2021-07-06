@@ -32,6 +32,7 @@ import(x,)
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 6
                         },
@@ -40,10 +41,12 @@ import(x,)
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 8
                     },
@@ -52,15 +55,18 @@ import(x,)
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 9
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         }
@@ -69,6 +75,7 @@ import(x,)
     "source": "import(x,)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

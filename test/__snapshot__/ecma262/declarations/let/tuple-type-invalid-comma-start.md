@@ -28,6 +28,7 @@ let x: [,] = y;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let x: [,] = y;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -53,24 +55,29 @@ let x: [,] = y;
                                 "elementTypes": [],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 8
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 8
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -81,10 +88,12 @@ let x: [,] = y;
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 12,
             "end": 15
         }
@@ -93,6 +102,7 @@ let x: [,] = y;
     "source": "let x: [,] = y;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

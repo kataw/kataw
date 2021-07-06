@@ -22,6 +22,7 @@ new foo?.bar
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -30,6 +31,7 @@ new foo?.bar
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 9
                     },
@@ -38,6 +40,7 @@ new foo?.bar
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 7
                     },
@@ -51,27 +54,33 @@ new foo?.bar
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 12
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 9,
                             "end": 12
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 12
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 12
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -80,6 +89,7 @@ new foo?.bar
     "source": "new foo?.bar",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

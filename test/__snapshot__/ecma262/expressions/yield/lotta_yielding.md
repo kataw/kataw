@@ -31,6 +31,7 @@ var gen = async function *g() {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -44,6 +45,7 @@ var gen = async function *g() {
                             "text": "gen",
                             "rawText": "gen",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -53,18 +55,21 @@ var gen = async function *g() {
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 24
                             },
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 24,
                                 "end": 26
                             },
@@ -73,6 +78,7 @@ var gen = async function *g() {
                                 "text": "g",
                                 "rawText": "g",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 27
                             },
@@ -82,6 +88,7 @@ var gen = async function *g() {
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 28
                             },
@@ -100,12 +107,14 @@ var gen = async function *g() {
                                                     "text": "callCount",
                                                     "rawText": "callCount",
                                                     "flags": 97,
+                                                    "transformFlags": 0,
                                                     "start": 31,
                                                     "end": 43
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4130,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 43,
                                                     "end": 46
                                                 },
@@ -114,14 +123,17 @@ var gen = async function *g() {
                                                     "text": 1,
                                                     "rawText": "1",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 46,
                                                     "end": 48
                                                 },
                                                 "flags": 0,
+                                                "transformFlags": 128,
                                                 "start": 31,
                                                 "end": 48
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 31,
                                             "end": 49
                                         },
@@ -132,6 +144,7 @@ var gen = async function *g() {
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
                                                     "flags": 65,
+                                                    "transformFlags": 0,
                                                     "start": 49,
                                                     "end": 57
                                                 },
@@ -147,6 +160,7 @@ var gen = async function *g() {
                                                                 "ellipsisToken": {
                                                                     "kind": 524302,
                                                                     "flags": 65,
+                                                                    "transformFlags": 0,
                                                                     "start": 59,
                                                                     "end": 70
                                                                 },
@@ -155,6 +169,7 @@ var gen = async function *g() {
                                                                     "yieldKeyword": {
                                                                         "kind": 8454253,
                                                                         "flags": 64,
+                                                                        "transformFlags": 0,
                                                                         "start": 70,
                                                                         "end": 75
                                                                     },
@@ -165,6 +180,7 @@ var gen = async function *g() {
                                                                         "yieldKeyword": {
                                                                             "kind": 8454253,
                                                                             "flags": 64,
+                                                                            "transformFlags": 0,
                                                                             "start": 75,
                                                                             "end": 81
                                                                         },
@@ -172,14 +188,17 @@ var gen = async function *g() {
                                                                         "asteriskToken": null,
                                                                         "expression": null,
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 75,
                                                                         "end": 81
                                                                     },
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 70,
                                                                     "end": 81
                                                                 },
                                                                 "flags": 1073741856,
+                                                                "transformFlags": 0,
                                                                 "start": 59,
                                                                 "end": 81
                                                             },
@@ -188,6 +207,7 @@ var gen = async function *g() {
                                                                 "ellipsisToken": {
                                                                     "kind": 524302,
                                                                     "flags": 65,
+                                                                    "transformFlags": 0,
                                                                     "start": 82,
                                                                     "end": 93
                                                                 },
@@ -201,6 +221,7 @@ var gen = async function *g() {
                                                                             "functionKeyword": {
                                                                                 "kind": 37822554,
                                                                                 "flags": 64,
+                                                                                "transformFlags": 0,
                                                                                 "start": 94,
                                                                                 "end": 102
                                                                             },
@@ -215,12 +236,14 @@ var gen = async function *g() {
                                                                                         "text": "arg",
                                                                                         "rawText": "arg",
                                                                                         "flags": 96,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 103,
                                                                                         "end": 106
                                                                                     }
                                                                                 ],
                                                                                 "trailingComma": false,
                                                                                 "flags": 32,
+                                                                                "transformFlags": 0,
                                                                                 "start": 103,
                                                                                 "end": 106
                                                                             },
@@ -236,6 +259,7 @@ var gen = async function *g() {
                                                                                             "varKeyword": {
                                                                                                 "kind": 37757002,
                                                                                                 "flags": 81,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 109,
                                                                                                 "end": 123
                                                                                             },
@@ -249,6 +273,7 @@ var gen = async function *g() {
                                                                                                             "text": "yield",
                                                                                                             "rawText": "yield",
                                                                                                             "flags": 96,
+                                                                                                            "transformFlags": 0,
                                                                                                             "start": 123,
                                                                                                             "end": 129
                                                                                                         },
@@ -258,19 +283,23 @@ var gen = async function *g() {
                                                                                                             "text": "arg",
                                                                                                             "rawText": "arg",
                                                                                                             "flags": 96,
+                                                                                                            "transformFlags": 0,
                                                                                                             "start": 131,
                                                                                                             "end": 135
                                                                                                         },
                                                                                                         "flags": 16,
+                                                                                                        "transformFlags": 128,
                                                                                                         "start": 123,
                                                                                                         "end": 135
                                                                                                     }
                                                                                                 ],
                                                                                                 "flags": 16,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 123,
                                                                                                 "end": 135
                                                                                             },
                                                                                             "flags": 16,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 109,
                                                                                             "end": 136
                                                                                         },
@@ -279,6 +308,7 @@ var gen = async function *g() {
                                                                                             "returnKeyword": {
                                                                                                 "kind": 37757022,
                                                                                                 "flags": 81,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 136,
                                                                                                 "end": 153
                                                                                             },
@@ -292,6 +322,7 @@ var gen = async function *g() {
                                                                                                             "ellipsisToken": {
                                                                                                                 "kind": 524302,
                                                                                                                 "flags": 64,
+                                                                                                                "transformFlags": 0,
                                                                                                                 "start": 155,
                                                                                                                 "end": 158
                                                                                                             },
@@ -300,38 +331,46 @@ var gen = async function *g() {
                                                                                                                 "text": "yield",
                                                                                                                 "rawText": "yield",
                                                                                                                 "flags": 96,
+                                                                                                                "transformFlags": 0,
                                                                                                                 "start": 158,
                                                                                                                 "end": 163
                                                                                                             },
                                                                                                             "flags": 1073741856,
+                                                                                                            "transformFlags": 0,
                                                                                                             "start": 155,
                                                                                                             "end": 163
                                                                                                         }
                                                                                                     ],
                                                                                                     "trailingComma": false,
                                                                                                     "flags": 16,
+                                                                                                    "transformFlags": 0,
                                                                                                     "start": 155,
                                                                                                     "end": 163
                                                                                                 },
                                                                                                 "flags": 48,
+                                                                                                "transformFlags": 8,
                                                                                                 "start": 153,
                                                                                                 "end": 164
                                                                                             },
                                                                                             "flags": 81,
+                                                                                            "transformFlags": 256,
                                                                                             "start": 136,
                                                                                             "end": 165
                                                                                         }
                                                                                     ],
                                                                                     "flags": 33,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 109,
                                                                                     "end": 165
                                                                                 },
                                                                                 "flags": 32,
+                                                                                "transformFlags": 0,
                                                                                 "start": 107,
                                                                                 "end": 174
                                                                             },
                                                                             "returnType": null,
                                                                             "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 94,
                                                                             "end": 174
                                                                         },
@@ -343,6 +382,7 @@ var gen = async function *g() {
                                                                                     "yieldKeyword": {
                                                                                         "kind": 8454253,
                                                                                         "flags": 64,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 175,
                                                                                         "end": 180
                                                                                     },
@@ -350,24 +390,29 @@ var gen = async function *g() {
                                                                                     "asteriskToken": null,
                                                                                     "expression": null,
                                                                                     "flags": 32,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 175,
                                                                                     "end": 180
                                                                                 }
                                                                             ],
                                                                             "trailingComma": false,
                                                                             "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 175,
                                                                             "end": 180
                                                                         },
                                                                         "flags": 268435488,
+                                                                        "transformFlags": 1,
                                                                         "start": 94,
                                                                         "end": 181
                                                                     },
                                                                     "flags": 93,
+                                                                    "transformFlags": 0,
                                                                     "start": 32,
                                                                     "end": 182
                                                                 },
                                                                 "flags": 1073741856,
+                                                                "transformFlags": 0,
                                                                 "start": 82,
                                                                 "end": 182
                                                             },
@@ -376,6 +421,7 @@ var gen = async function *g() {
                                                                 "ellipsisToken": {
                                                                     "kind": 524302,
                                                                     "flags": 65,
+                                                                    "transformFlags": 0,
                                                                     "start": 183,
                                                                     "end": 194
                                                                 },
@@ -384,6 +430,7 @@ var gen = async function *g() {
                                                                     "yieldKeyword": {
                                                                         "kind": 8454253,
                                                                         "flags": 64,
+                                                                        "transformFlags": 0,
                                                                         "start": 194,
                                                                         "end": 199
                                                                     },
@@ -391,55 +438,67 @@ var gen = async function *g() {
                                                                     "asteriskToken": null,
                                                                     "expression": null,
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 194,
                                                                     "end": 199
                                                                 },
                                                                 "flags": 1073741856,
+                                                                "transformFlags": 0,
                                                                 "start": 183,
                                                                 "end": 199
                                                             }
                                                         ],
                                                         "trailingComma": true,
                                                         "flags": 17,
+                                                        "transformFlags": 0,
                                                         "start": 59,
                                                         "end": 200
                                                     },
                                                     "flags": 49,
+                                                    "transformFlags": 8,
                                                     "start": 57,
                                                     "end": 206
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 49,
                                                 "end": 206
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 49,
                                             "end": 206
                                         }
                                     ],
                                     "flags": 33,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 206
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 208
                             },
                             "returnType": null,
                             "flags": 416,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 208
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 208
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 208
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 209
         }
@@ -448,6 +507,7 @@ var gen = async function *g() {
     "source": "var gen = async function *g() {\n  callCount += 1;\n  yield {\n       ...yield yield,\n       ...(function(arg) {\n          var yield = arg;\n          return {...yield};\n       }(yield)),\n       ...yield,\n    }\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 209
 }

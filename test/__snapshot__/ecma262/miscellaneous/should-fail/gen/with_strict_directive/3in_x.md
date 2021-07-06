@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -40,12 +41,14 @@
                     "text": 3,
                     "rawText": "3",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -54,14 +57,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 19
         }
@@ -70,6 +76,7 @@
     "source": "\"use strict\"; 3in x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

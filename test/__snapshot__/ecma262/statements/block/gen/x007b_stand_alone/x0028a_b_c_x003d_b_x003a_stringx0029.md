@@ -35,14 +35,17 @@
                                 "kind": 132,
                                 "expressions": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 4
                             },
                             "flags": 1,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 4
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 4
                     },
@@ -56,6 +59,7 @@
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 4,
                                     "end": 6
                                 },
@@ -66,12 +70,14 @@
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 9
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 11
                                     },
@@ -80,28 +86,34 @@
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 13
                                     },
                                     "flags": 0,
+                                    "transformFlags": 128,
                                     "start": 7,
                                     "end": 13
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 13
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 13
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         },
@@ -112,10 +124,12 @@
                 "text": "string",
                 "rawText": "string",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 15,
             "end": 22
         }
@@ -124,6 +138,7 @@
     "source": "{ (a b, c = b : string)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

@@ -28,6 +28,7 @@ var {[a]: c} = v
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -50,10 +51,12 @@ var {[a]: c} = v
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 7
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -62,21 +65,25 @@ var {[a]: c} = v
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 11
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 11
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 11
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 12
                         },
@@ -86,19 +93,23 @@ var {[a]: c} = v
                             "text": "v",
                             "rawText": "v",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 16
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 16
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -107,6 +118,7 @@ var {[a]: c} = v
     "source": "var {[a]: c} = v",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

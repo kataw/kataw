@@ -26,12 +26,14 @@ export default (1 + 2);
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -44,12 +46,14 @@ export default (1 + 2);
                         "text": 1,
                         "rawText": "1",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 17
                     },
                     "operatorToken": {
                         "kind": 99634,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 19
                     },
@@ -58,18 +62,22 @@ export default (1 + 2);
                         "text": 2,
                         "rawText": "2",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 21
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 21
                 },
                 "flags": 14,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -78,6 +86,7 @@ export default (1 + 2);
     "source": "export default (1 + 2);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -87,7 +96,7 @@ export default (1 + 2);
 
 ```javascript
 
-export default (1 +  2);
+export default (1 + 2);
 ```
 
 ### Diagnostics

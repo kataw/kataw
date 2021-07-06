@@ -27,6 +27,7 @@ do while [catch] async funcion switch!!
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -35,6 +36,7 @@ do while [catch] async funcion switch!!
                 "whileKeyword": {
                     "kind": 37757028,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 8
                 },
@@ -45,10 +47,12 @@ do while [catch] async funcion switch!!
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 10
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 8,
                     "end": 10
                 },
@@ -61,10 +65,12 @@ do while [catch] async funcion switch!!
                             "kind": 249,
                             "statements": [],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 10
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 10
                     },
@@ -73,6 +79,7 @@ do while [catch] async funcion switch!!
                         "catchKeyword": {
                             "kind": 4202575,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 15
                         },
@@ -83,24 +90,29 @@ do while [catch] async funcion switch!!
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 15
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 15
                         },
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 15
                     },
                     "finallyKeyword": null,
                     "finallyBlock": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 15
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 15
             },
@@ -110,10 +122,12 @@ do while [catch] async funcion switch!!
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         },
@@ -124,6 +138,7 @@ do while [catch] async funcion switch!!
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 22
                 },
@@ -133,6 +148,7 @@ do while [catch] async funcion switch!!
                     "text": "funcion",
                     "rawText": "funcion",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 30
                 },
@@ -143,14 +159,17 @@ do while [catch] async funcion switch!!
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 30
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 16,
             "end": 30
         },
@@ -159,6 +178,7 @@ do while [catch] async funcion switch!!
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 37
             },
@@ -167,6 +187,7 @@ do while [catch] async funcion switch!!
                 "operandToken": {
                     "kind": 65584,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 38
                 },
@@ -175,6 +196,7 @@ do while [catch] async funcion switch!!
                     "operandToken": {
                         "kind": 65584,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 38,
                         "end": 39
                     },
@@ -183,14 +205,17 @@ do while [catch] async funcion switch!!
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 39,
                         "end": 39
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 39
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 37,
                 "end": 39
             },
@@ -198,10 +223,12 @@ do while [catch] async funcion switch!!
                 "kind": 152,
                 "clauses": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 39
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 30,
             "end": 39
         }
@@ -210,6 +237,7 @@ do while [catch] async funcion switch!!
     "source": "do while [catch] async funcion switch!!",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }

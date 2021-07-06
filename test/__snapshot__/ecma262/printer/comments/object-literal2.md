@@ -33,6 +33,7 @@
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 8
                                     },
@@ -41,26 +42,31 @@
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 20
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 20
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 20
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 1,
                         "end": 26
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 32
                     },
@@ -69,18 +75,22 @@
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 38
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 1,
                     "end": 38
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 39
         }
@@ -89,6 +99,7 @@
     "source": "({/*1*/x/*2*/=/*3*/y/*4*/}/*5*/=/*6*/z)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }

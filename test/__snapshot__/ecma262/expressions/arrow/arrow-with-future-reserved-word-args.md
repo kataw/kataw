@@ -29,6 +29,7 @@
                             "text": "interface",
                             "rawText": "interface",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 10
                         },
@@ -37,12 +38,14 @@
                             "text": "eval",
                             "rawText": "eval",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 16
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 17
                 },
@@ -50,6 +53,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 20
                 },
@@ -60,18 +64,22 @@
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 22
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 23
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -80,6 +88,7 @@
     "source": "(interface, eval) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

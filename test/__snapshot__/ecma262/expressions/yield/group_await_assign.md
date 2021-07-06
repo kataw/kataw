@@ -23,14 +23,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 9
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -41,10 +44,12 @@
                 "text": "z",
                 "rawText": "z",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 9,
             "end": 11
         },
@@ -55,10 +60,12 @@
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 14
         }
@@ -67,6 +74,7 @@
     "source": "(x=(await z)=y)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

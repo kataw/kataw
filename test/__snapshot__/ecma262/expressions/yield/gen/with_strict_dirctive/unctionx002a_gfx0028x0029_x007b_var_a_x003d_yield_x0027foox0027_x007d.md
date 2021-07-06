@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -40,12 +41,14 @@
                     "text": "unction",
                     "rawText": "unction",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 21
                 },
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 21,
                     "end": 22
                 },
@@ -56,6 +59,7 @@
                         "text": "gf",
                         "rawText": "gf",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 25
                     },
@@ -64,18 +68,22 @@
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 26
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 22,
                     "end": 27
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 27
         },
@@ -90,6 +98,7 @@
                         "varKeyword": {
                             "kind": 37757002,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 33
                         },
@@ -103,6 +112,7 @@
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 35
                                     },
@@ -112,19 +122,23 @@
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 37,
                                         "end": 43
                                     },
                                     "flags": 16,
+                                    "transformFlags": 128,
                                     "start": 33,
                                     "end": 43
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 33,
                             "end": 43
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 43
                     },
@@ -135,19 +149,23 @@
                             "text": "foo",
                             "rawText": "'foo'",
                             "flags": 4194400,
+                            "transformFlags": 0,
                             "start": 43,
                             "end": 49
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 43,
                         "end": 50
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 50
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 27,
             "end": 52
         }
@@ -156,6 +174,7 @@
     "source": "'use strict'; unction* gf() { var a = yield 'foo'; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 52
 }

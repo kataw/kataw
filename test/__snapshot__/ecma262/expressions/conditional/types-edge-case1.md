@@ -30,12 +30,14 @@ a ? ({b}) => {} : c
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -56,22 +58,26 @@ a ? ({b}) => {} : c
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 7
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 7
                                 },
                                 "flags": 48,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 8
                             }
                         ],
                         "trailingComma": false,
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 9
                     },
@@ -79,6 +85,7 @@ a ? ({b}) => {} : c
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 12
                     },
@@ -89,20 +96,24 @@ a ? ({b}) => {} : c
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 14
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 15
                     },
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 15
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -111,14 +122,17 @@ a ? ({b}) => {} : c
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -127,6 +141,7 @@ a ? ({b}) => {} : c
     "source": "a ? ({b}) => {} : c",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

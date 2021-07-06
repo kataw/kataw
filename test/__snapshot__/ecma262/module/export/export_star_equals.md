@@ -26,6 +26,7 @@ export *= from 'f';
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -35,6 +36,7 @@ export *= from 'f';
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -45,10 +47,12 @@ export *= from 'f';
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 9,
             "end": 14
         },
@@ -59,10 +63,12 @@ export *= from 'f';
                 "text": "f",
                 "rawText": "'f'",
                 "flags": 4194400,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 14,
             "end": 19
         }
@@ -71,6 +77,7 @@ export *= from 'f';
     "source": "export *= from 'f';",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

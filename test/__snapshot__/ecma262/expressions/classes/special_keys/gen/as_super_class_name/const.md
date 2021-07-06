@@ -29,6 +29,7 @@ class x extends const {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class x extends const {}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -48,6 +50,7 @@ class x extends const {}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -56,11 +59,13 @@ class x extends const {}
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 15
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
@@ -68,14 +73,17 @@ class x extends const {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         },
@@ -84,6 +92,7 @@ class x extends const {}
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 21
             },
@@ -99,25 +108,30 @@ class x extends const {}
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 23
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 24
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 21,
                         "end": 24
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 24
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 15,
             "end": 24
         }
@@ -126,6 +140,7 @@ class x extends const {}
     "source": "class x extends const {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

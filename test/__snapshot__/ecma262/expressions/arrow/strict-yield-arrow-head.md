@@ -19,6 +19,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -35,6 +36,7 @@
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 19
                 },
@@ -42,6 +44,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 22
                 },
@@ -56,6 +59,7 @@
                                 "lexicalKeyword": {
                                     "kind": 41951307,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 28
                                 },
@@ -69,38 +73,46 @@
                                                 "text": "yield",
                                                 "rawText": "yield",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 34
                                             },
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 28,
                                             "end": 34
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 34
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 35
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 35
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 37
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 37
         }
@@ -109,6 +121,7 @@
     "source": "\"use strict\"; yield => { let yield; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }

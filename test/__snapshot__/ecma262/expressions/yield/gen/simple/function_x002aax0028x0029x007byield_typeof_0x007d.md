@@ -29,12 +29,14 @@ function *a(){yield typeof 0}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -43,6 +45,7 @@ function *a(){yield typeof 0}
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -52,6 +55,7 @@ function *a(){yield typeof 0}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -68,6 +72,7 @@ function *a(){yield typeof 0}
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 19
                                 },
@@ -78,6 +83,7 @@ function *a(){yield typeof 0}
                                     "operandToken": {
                                         "kind": 138477613,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 26
                                     },
@@ -86,32 +92,39 @@ function *a(){yield typeof 0}
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 28
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 28
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 28
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 28
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 28
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 29
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -120,6 +133,7 @@ function *a(){yield typeof 0}
     "source": "function *a(){yield typeof 0}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

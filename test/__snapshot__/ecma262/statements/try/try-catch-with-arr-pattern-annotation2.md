@@ -26,6 +26,7 @@ try {} catch([a:string]: number) {}
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -35,10 +36,12 @@ try {} catch([a:string]: number) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 6
             },
@@ -47,6 +50,7 @@ try {} catch([a:string]: number) {}
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
@@ -63,6 +67,7 @@ try {} catch([a:string]: number) {}
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 15
                                 },
@@ -74,25 +79,30 @@ try {} catch([a:string]: number) {}
                                     "type": {
                                         "kind": 134234347,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 22
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 22
                                 },
                                 "right": null,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 22
                             }
                         ],
                         "trailingComma": false,
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 22
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 23
                 },
@@ -102,20 +112,24 @@ try {} catch([a:string]: number) {}
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 23
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 23
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 23
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         },
@@ -126,10 +140,12 @@ try {} catch([a:string]: number) {}
                 "text": "number",
                 "rawText": "number",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 24,
             "end": 31
         },
@@ -139,10 +155,12 @@ try {} catch([a:string]: number) {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 32,
             "end": 35
         }
@@ -151,6 +169,7 @@ try {} catch([a:string]: number) {}
     "source": "try {} catch([a:string]: number) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

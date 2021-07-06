@@ -160,6 +160,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -170,12 +171,14 @@ for ({}.bar = x in obj);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
@@ -186,12 +189,14 @@ for ({}.bar = x in obj);
                         "text": "yield",
                         "rawText": "yield",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 14
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 17
                     },
@@ -200,14 +205,17 @@ for ({}.bar = x in obj);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 19
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 19
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 19
             },
@@ -217,16 +225,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 19
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 22
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         },
@@ -235,6 +246,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 27
             },
@@ -245,12 +257,14 @@ for ({}.bar = x in obj);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 30
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 31
                 },
@@ -261,12 +275,14 @@ for ({}.bar = x in obj);
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 31,
                         "end": 32
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 35
                     },
@@ -275,14 +291,17 @@ for ({}.bar = x in obj);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 35,
                         "end": 37
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 37
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 37
             },
@@ -292,16 +311,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 37,
                 "end": 37
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 39
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 22,
             "end": 39
         },
@@ -310,6 +332,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 44
             },
@@ -318,6 +341,7 @@ for ({}.bar = x in obj);
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 47,
                     "end": 49
                 },
@@ -326,16 +350,19 @@ for ({}.bar = x in obj);
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 46,
                     "end": 47
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 46,
                 "end": 49
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 49,
                 "end": 52
             },
@@ -344,16 +371,19 @@ for ({}.bar = x in obj);
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 52,
                 "end": 54
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 55,
                 "end": 56
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 39,
             "end": 56
         },
@@ -362,6 +392,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 56,
                 "end": 61
             },
@@ -383,6 +414,7 @@ for ({}.bar = x in obj);
                                             "text": "__proto__",
                                             "rawText": "__proto__",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 65,
                                             "end": 74
                                         },
@@ -391,10 +423,12 @@ for ({}.bar = x in obj);
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 75,
                                             "end": 77
                                         },
                                         "flags": 36,
+                                        "transformFlags": 128,
                                         "start": 65,
                                         "end": 77
                                     },
@@ -406,6 +440,7 @@ for ({}.bar = x in obj);
                                             "text": "__proto__",
                                             "rawText": "__proto__",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 78,
                                             "end": 88
                                         },
@@ -414,30 +449,36 @@ for ({}.bar = x in obj);
                                             "text": 2,
                                             "rawText": "2",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 89,
                                             "end": 91
                                         },
                                         "flags": 36,
+                                        "transformFlags": 128,
                                         "start": 78,
                                         "end": 91
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 20,
+                                "transformFlags": 0,
                                 "start": 65,
                                 "end": 91
                             },
                             "flags": 52,
+                            "transformFlags": 8,
                             "start": 64,
                             "end": 92
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 64,
                     "end": 92
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 63,
                 "end": 93
             },
@@ -446,10 +487,12 @@ for ({}.bar = x in obj);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 96,
                 "end": 97
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 56,
             "end": 97
         },
@@ -458,6 +501,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 97,
                 "end": 102
             },
@@ -474,6 +518,7 @@ for ({}.bar = x in obj);
                                 "text": "__proto__",
                                 "rawText": "__proto__",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 105,
                                 "end": 114
                             },
@@ -482,10 +527,12 @@ for ({}.bar = x in obj);
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 115,
                                 "end": 117
                             },
                             "flags": 36,
+                            "transformFlags": 128,
                             "start": 105,
                             "end": 117
                         },
@@ -497,6 +544,7 @@ for ({}.bar = x in obj);
                                 "text": "__proto__",
                                 "rawText": "__proto__",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 118,
                                 "end": 128
                             },
@@ -505,20 +553,24 @@ for ({}.bar = x in obj);
                                 "text": 2,
                                 "rawText": "2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 129,
                                 "end": 131
                             },
                             "flags": 36,
+                            "transformFlags": 128,
                             "start": 118,
                             "end": 131
                         }
                     ],
                     "trailingComma": false,
                     "flags": 20,
+                    "transformFlags": 0,
                     "start": 105,
                     "end": 131
                 },
                 "flags": 52,
+                "transformFlags": 8,
                 "start": 104,
                 "end": 132
             },
@@ -527,10 +579,12 @@ for ({}.bar = x in obj);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 135,
                 "end": 136
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 97,
             "end": 136
         },
@@ -539,6 +593,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 136,
                 "end": 141
             },
@@ -554,12 +609,14 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 144,
                                 "end": 145
                             },
                             "operatorToken": {
                                 "kind": 99634,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 145,
                                 "end": 147
                             },
@@ -568,26 +625,31 @@ for ({}.bar = x in obj);
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 147,
                                 "end": 149
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 144,
                             "end": 149
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 144,
                     "end": 149
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 143,
                 "end": 150
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 150,
                 "end": 153
             },
@@ -596,16 +658,19 @@ for ({}.bar = x in obj);
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 153,
                 "end": 157
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 158,
                 "end": 159
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 136,
             "end": 159
         },
@@ -614,6 +679,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 159,
                 "end": 164
             },
@@ -631,6 +697,7 @@ for ({}.bar = x in obj);
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 167,
                                     "end": 168
                                 },
@@ -639,26 +706,31 @@ for ({}.bar = x in obj);
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 169,
                                     "end": 170
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 167,
                                 "end": 170
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 167,
                         "end": 170
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 166,
                     "end": 171
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 171,
                     "end": 173
                 },
@@ -669,12 +741,14 @@ for ({}.bar = x in obj);
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 173,
                         "end": 175
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 175,
                         "end": 178
                     },
@@ -683,14 +757,17 @@ for ({}.bar = x in obj);
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 178,
                         "end": 182
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 173,
                     "end": 182
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 166,
                 "end": 182
             },
@@ -700,16 +777,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 182,
                 "end": 182
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 183,
                 "end": 184
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 159,
             "end": 184
         },
@@ -718,6 +798,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 184,
                 "end": 189
             },
@@ -731,6 +812,7 @@ for ({}.bar = x in obj);
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 192,
                                 "end": 195
                             },
@@ -739,26 +821,31 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 195,
                                 "end": 196
                             },
                             "flags": 1073741856,
+                            "transformFlags": 0,
                             "start": 192,
                             "end": 196
                         }
                     ],
                     "trailingComma": true,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 192,
                     "end": 197
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 191,
                 "end": 198
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 198,
                 "end": 201
             },
@@ -774,30 +861,36 @@ for ({}.bar = x in obj);
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 204,
                                 "end": 204
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 203,
                             "end": 205
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 203,
                     "end": 205
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 201,
                 "end": 206
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 207,
                 "end": 208
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 184,
             "end": 208
         },
@@ -806,6 +899,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 208,
                 "end": 213
             },
@@ -818,10 +912,12 @@ for ({}.bar = x in obj);
                         "properties": [],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 216,
                         "end": 216
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 215,
                     "end": 217
                 },
@@ -830,10 +926,12 @@ for ({}.bar = x in obj);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 218,
                     "end": 219
                 },
                 "flags": 48,
+                "transformFlags": 2,
                 "start": 208,
                 "end": 219
             },
@@ -843,16 +941,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 219,
                 "end": 219
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 220,
                 "end": 221
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 208,
             "end": 221
         },
@@ -861,6 +962,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 221,
                 "end": 226
             },
@@ -884,6 +986,7 @@ for ({}.bar = x in obj);
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 231,
                                                     "end": 232
                                                 },
@@ -892,41 +995,49 @@ for ({}.bar = x in obj);
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 233,
                                                     "end": 235
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 230,
                                             "end": 236
                                         },
                                         "flags": 230,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 236
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 230,
                                 "end": 236
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 229,
                             "end": 237
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 229,
                     "end": 237
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 228,
                 "end": 238
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 238,
                 "end": 241
             },
@@ -947,40 +1058,48 @@ for ({}.bar = x in obj);
                                             "elements": [],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 245,
                                             "end": 245
                                         },
                                         "flags": 32,
+                                        "transformFlags": 8,
                                         "start": 244,
                                         "end": 246
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 244,
                                 "end": 246
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 243,
                             "end": 247
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 243,
                     "end": 247
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 241,
                 "end": 248
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 249,
                 "end": 251
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 221,
             "end": 251
         },
@@ -989,6 +1108,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 251,
                 "end": 256
             },
@@ -1009,6 +1129,7 @@ for ({}.bar = x in obj);
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 260,
                                             "end": 264
                                         },
@@ -1020,6 +1141,7 @@ for ({}.bar = x in obj);
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 264,
                                                 "end": 266
                                             },
@@ -1029,6 +1151,7 @@ for ({}.bar = x in obj);
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1056,
+                                                "transformFlags": 0,
                                                 "start": 267,
                                                 "end": 268
                                             },
@@ -1040,44 +1163,53 @@ for ({}.bar = x in obj);
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 270,
                                                     "end": 270
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 268,
                                                 "end": 271
                                             },
                                             "flags": 1056,
+                                            "transformFlags": 0,
                                             "start": 266,
                                             "end": 271
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 260,
                                         "end": 271
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 260,
                                 "end": 271
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 259,
                             "end": 273
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 259,
                     "end": 273
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 258,
                 "end": 274
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 274,
                 "end": 277
             },
@@ -1098,40 +1230,48 @@ for ({}.bar = x in obj);
                                             "properties": [],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 281,
                                             "end": 281
                                         },
                                         "flags": 48,
+                                        "transformFlags": 8,
                                         "start": 280,
                                         "end": 282
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 280,
                                 "end": 282
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 279,
                             "end": 283
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 279,
                     "end": 283
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 277,
                 "end": 284
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 285,
                 "end": 287
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 251,
             "end": 287
         },
@@ -1140,6 +1280,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 287,
                 "end": 292
             },
@@ -1153,6 +1294,7 @@ for ({}.bar = x in obj);
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 295,
                                 "end": 298
                             },
@@ -1163,12 +1305,14 @@ for ({}.bar = x in obj);
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 298,
                                     "end": 299
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 299,
                                     "end": 301
                                 },
@@ -1177,30 +1321,36 @@ for ({}.bar = x in obj);
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 301,
                                     "end": 303
                                 },
                                 "flags": 0,
+                                "transformFlags": 128,
                                 "start": 298,
                                 "end": 303
                             },
                             "flags": 1073741856,
+                            "transformFlags": 0,
                             "start": 295,
                             "end": 303
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 295,
                     "end": 303
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 294,
                 "end": 304
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 304,
                 "end": 307
             },
@@ -1216,30 +1366,36 @@ for ({}.bar = x in obj);
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 310,
                                 "end": 310
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 309,
                             "end": 311
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 309,
                     "end": 311
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 307,
                 "end": 312
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 313,
                 "end": 315
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 287,
             "end": 315
         },
@@ -1248,6 +1404,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 315,
                 "end": 320
             },
@@ -1259,6 +1416,7 @@ for ({}.bar = x in obj);
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 322,
                         "end": 323
                     },
@@ -1269,12 +1427,14 @@ for ({}.bar = x in obj);
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 324,
                             "end": 326
                         },
                         "operatorToken": {
                             "kind": 21006388,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 326,
                             "end": 329
                         },
@@ -1283,15 +1443,18 @@ for ({}.bar = x in obj);
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 329,
                             "end": 331
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 324,
                         "end": 331
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 315,
                 "end": 331
             },
@@ -1301,16 +1464,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 331,
                 "end": 331
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 332,
                 "end": 333
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 315,
             "end": 333
         },
@@ -1319,6 +1485,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 333,
                 "end": 338
             },
@@ -1331,16 +1498,19 @@ for ({}.bar = x in obj);
                         "properties": [],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 341,
                         "end": 341
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 340,
                     "end": 342
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 342,
                     "end": 344
                 },
@@ -1351,12 +1521,14 @@ for ({}.bar = x in obj);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 344,
                         "end": 346
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 346,
                         "end": 349
                     },
@@ -1365,14 +1537,17 @@ for ({}.bar = x in obj);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 349,
                         "end": 351
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 344,
                     "end": 351
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 340,
                 "end": 351
             },
@@ -1382,16 +1557,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 351,
                 "end": 351
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 352,
                 "end": 353
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 333,
             "end": 353
         },
@@ -1400,6 +1578,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 353,
                 "end": 358
             },
@@ -1408,6 +1587,7 @@ for ({}.bar = x in obj);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 353,
                     "end": 362
                 },
@@ -1421,6 +1601,7 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 362,
                                 "end": 364
                             },
@@ -1430,25 +1611,30 @@ for ({}.bar = x in obj);
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 365,
                                 "end": 366
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 362,
                             "end": 366
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 362,
                     "end": 366
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 353,
                 "end": 366
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 366,
                 "end": 369
             },
@@ -1462,6 +1648,7 @@ for ({}.bar = x in obj);
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 371,
                             "end": 372
                         },
@@ -1470,6 +1657,7 @@ for ({}.bar = x in obj);
                             "text": 2,
                             "rawText": "2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 373,
                             "end": 374
                         },
@@ -1478,16 +1666,19 @@ for ({}.bar = x in obj);
                             "text": 3,
                             "rawText": "3",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 375,
                             "end": 376
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 371,
                     "end": 376
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 369,
                 "end": 377
             },
@@ -1498,14 +1689,17 @@ for ({}.bar = x in obj);
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 378,
                     "end": 380
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 378,
                 "end": 380
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 353,
             "end": 380
         },
@@ -1516,10 +1710,12 @@ for ({}.bar = x in obj);
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 380,
                 "end": 394
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 380,
             "end": 395
         },
@@ -1528,6 +1724,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 395,
                 "end": 399
             },
@@ -1536,12 +1733,14 @@ for ({}.bar = x in obj);
                 "text": "let",
                 "rawText": "let",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 401,
                 "end": 404
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 404,
                 "end": 407
             },
@@ -1550,6 +1749,7 @@ for ({}.bar = x in obj);
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 407,
                 "end": 409
             },
@@ -1559,14 +1759,17 @@ for ({}.bar = x in obj);
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 412,
                     "end": 412
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 410,
                 "end": 413
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 395,
             "end": 413
         },
@@ -1575,6 +1778,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 413,
                 "end": 418
             },
@@ -1585,6 +1789,7 @@ for ({}.bar = x in obj);
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 420,
                     "end": 423
                 },
@@ -1593,16 +1798,19 @@ for ({}.bar = x in obj);
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 424,
                     "end": 424
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 420,
                 "end": 425
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 425,
                 "end": 428
             },
@@ -1613,10 +1821,12 @@ for ({}.bar = x in obj);
                     "properties": [],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 430,
                     "end": 430
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 428,
                 "end": 431
             },
@@ -1626,14 +1836,17 @@ for ({}.bar = x in obj);
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 434,
                     "end": 434
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 432,
                 "end": 435
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 413,
             "end": 435
         },
@@ -1642,6 +1855,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 435,
                 "end": 440
             },
@@ -1650,12 +1864,14 @@ for ({}.bar = x in obj);
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 442,
                 "end": 443
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 443,
                 "end": 446
             },
@@ -1666,12 +1882,14 @@ for ({}.bar = x in obj);
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 446,
                     "end": 448
                 },
                 "operatorToken": {
                     "kind": 34883,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 448,
                     "end": 449
                 },
@@ -1680,26 +1898,31 @@ for ({}.bar = x in obj);
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 449,
                     "end": 450
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 446,
                 "end": 450
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 450,
                 "end": 451
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 435,
             "end": 451
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 451,
             "end": 452
         },
@@ -1710,10 +1933,12 @@ for ({}.bar = x in obj);
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 453,
                 "end": 455
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 453,
             "end": 455
         },
@@ -1722,6 +1947,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 455,
                 "end": 460
             },
@@ -1730,6 +1956,7 @@ for ({}.bar = x in obj);
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 461,
                     "end": 466
                 },
@@ -1743,27 +1970,32 @@ for ({}.bar = x in obj);
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 466,
                                 "end": 468
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 466,
                             "end": 468
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 466,
                     "end": 468
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 455,
                 "end": 468
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 468,
                 "end": 471
             },
@@ -1772,6 +2004,7 @@ for ({}.bar = x in obj);
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 471,
                 "end": 473
             },
@@ -1782,12 +2015,14 @@ for ({}.bar = x in obj);
                     "text": "label",
                     "rawText": "label",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 474,
                     "end": 480
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 480,
                     "end": 481
                 },
@@ -1798,6 +2033,7 @@ for ({}.bar = x in obj);
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 481,
                         "end": 490
                     },
@@ -1807,6 +2043,7 @@ for ({}.bar = x in obj);
                         "text": "f",
                         "rawText": "f",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 490,
                         "end": 492
                     },
@@ -1816,6 +2053,7 @@ for ({}.bar = x in obj);
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 493,
                         "end": 493
                     },
@@ -1826,23 +2064,28 @@ for ({}.bar = x in obj);
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 495,
                             "end": 495
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 494,
                         "end": 496
                     },
                     "returnType": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 481,
                     "end": 496
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 474,
                 "end": 496
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 455,
             "end": 496
         },
@@ -1851,6 +2094,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 496,
                 "end": 501
             },
@@ -1859,6 +2103,7 @@ for ({}.bar = x in obj);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 496,
                     "end": 505
                 },
@@ -1872,27 +2117,32 @@ for ({}.bar = x in obj);
                                 "text": "let",
                                 "rawText": "let",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 505,
                                 "end": 509
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 505,
                             "end": 509
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 505,
                     "end": 509
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 496,
                 "end": 509
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 509,
                 "end": 512
             },
@@ -1901,16 +2151,19 @@ for ({}.bar = x in obj);
                 "text": 0,
                 "rawText": "0",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 512,
                 "end": 514
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 515,
                 "end": 516
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 496,
             "end": 516
         },
@@ -1919,6 +2172,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 516,
                 "end": 521
             },
@@ -1928,6 +2182,7 @@ for ({}.bar = x in obj);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 516,
                     "end": 525
                 },
@@ -1941,27 +2196,32 @@ for ({}.bar = x in obj);
                                 "text": "let",
                                 "rawText": "let",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 525,
                                 "end": 529
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 525,
                             "end": 529
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 525,
                     "end": 529
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 516,
                 "end": 529
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 529,
                 "end": 532
             },
@@ -1970,16 +2230,19 @@ for ({}.bar = x in obj);
                 "text": 0,
                 "rawText": "0",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 532,
                 "end": 534
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 535,
                 "end": 536
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 516,
             "end": 536
         },
@@ -1988,6 +2251,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 536,
                 "end": 541
             },
@@ -1996,6 +2260,7 @@ for ({}.bar = x in obj);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 536,
                     "end": 545
                 },
@@ -2009,27 +2274,32 @@ for ({}.bar = x in obj);
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 545,
                                 "end": 547
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 545,
                             "end": 547
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 545,
                     "end": 547
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 536,
                 "end": 547
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 547,
                 "end": 550
             },
@@ -2038,6 +2308,7 @@ for ({}.bar = x in obj);
                 "text": 0,
                 "rawText": "0",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 550,
                 "end": 552
             },
@@ -2052,6 +2323,7 @@ for ({}.bar = x in obj);
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 555,
                                 "end": 559
                             },
@@ -2065,34 +2337,41 @@ for ({}.bar = x in obj);
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 559,
                                             "end": 561
                                         },
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
+                                        "transformFlags": 128,
                                         "start": 559,
                                         "end": 561
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 559,
                                 "end": 561
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 555,
                             "end": 562
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 555,
                     "end": 562
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 553,
                 "end": 564
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 536,
             "end": 564
         },
@@ -2101,6 +2380,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 564,
                 "end": 569
             },
@@ -2109,6 +2389,7 @@ for ({}.bar = x in obj);
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 570,
                     "end": 575
                 },
@@ -2122,27 +2403,32 @@ for ({}.bar = x in obj);
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 575,
                                 "end": 577
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 575,
                             "end": 577
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 575,
                     "end": 577
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 564,
                 "end": 577
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 577,
                 "end": 580
             },
@@ -2151,6 +2437,7 @@ for ({}.bar = x in obj);
                 "text": 0,
                 "rawText": "0",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 580,
                 "end": 582
             },
@@ -2165,6 +2452,7 @@ for ({}.bar = x in obj);
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 585,
                                 "end": 589
                             },
@@ -2178,34 +2466,41 @@ for ({}.bar = x in obj);
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 589,
                                             "end": 591
                                         },
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
+                                        "transformFlags": 128,
                                         "start": 589,
                                         "end": 591
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 589,
                                 "end": 591
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 585,
                             "end": 592
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 585,
                     "end": 592
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 583,
                 "end": 594
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 564,
             "end": 594
         },
@@ -2214,6 +2509,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 594,
                 "end": 599
             },
@@ -2222,6 +2518,7 @@ for ({}.bar = x in obj);
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 600,
                     "end": 605
                 },
@@ -2240,6 +2537,7 @@ for ({}.bar = x in obj);
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 607,
                                             "end": 608
                                         },
@@ -2248,37 +2546,44 @@ for ({}.bar = x in obj);
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 609,
                                             "end": 611
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 607,
                                     "end": 611
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 605,
                                 "end": 612
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 605,
                             "end": 612
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 605,
                     "end": 612
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 594,
                 "end": 612
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 612,
                 "end": 615
             },
@@ -2287,16 +2592,19 @@ for ({}.bar = x in obj);
                 "text": 0,
                 "rawText": "0",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 615,
                 "end": 617
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 618,
                 "end": 619
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 594,
             "end": 619
         },
@@ -2305,6 +2613,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 619,
                 "end": 624
             },
@@ -2313,12 +2622,14 @@ for ({}.bar = x in obj);
                 "shortCircuit": {
                     "kind": 24752947,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 626,
                     "end": 630
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 630,
                     "end": 632
                 },
@@ -2327,12 +2638,14 @@ for ({}.bar = x in obj);
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 632,
                     "end": 634
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 634,
                     "end": 636
                 },
@@ -2343,12 +2656,14 @@ for ({}.bar = x in obj);
                         "text": 0,
                         "rawText": "0",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 636,
                         "end": 638
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 638,
                         "end": 641
                     },
@@ -2359,18 +2674,22 @@ for ({}.bar = x in obj);
                             "properties": [],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 643,
                             "end": 643
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 641,
                         "end": 644
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 636,
                     "end": 644
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 619,
                 "end": 644
             },
@@ -2378,6 +2697,7 @@ for ({}.bar = x in obj);
             "incrementor": {
                 "kind": 205586437,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 645,
                 "end": 651
             },
@@ -2386,6 +2706,7 @@ for ({}.bar = x in obj);
                 "forKeyword": {
                     "kind": 37757017,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 654,
                     "end": 659
                 },
@@ -2394,6 +2715,7 @@ for ({}.bar = x in obj);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 661,
                     "end": 661
                 },
@@ -2402,6 +2724,7 @@ for ({}.bar = x in obj);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 661,
                     "end": 661
                 },
@@ -2410,6 +2733,7 @@ for ({}.bar = x in obj);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 661,
                     "end": 661
                 },
@@ -2420,18 +2744,22 @@ for ({}.bar = x in obj);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 661,
                         "end": 661
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 661,
                     "end": 661
                 },
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 654,
                 "end": 661
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 619,
             "end": 661
         },
@@ -2444,12 +2772,14 @@ for ({}.bar = x in obj);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 664,
                     "end": 665
                 },
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 665,
                     "end": 668
                 },
@@ -2458,14 +2788,17 @@ for ({}.bar = x in obj);
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 668,
                     "end": 670
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 664,
                 "end": 670
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 664,
             "end": 670
         },
@@ -2475,10 +2808,12 @@ for ({}.bar = x in obj);
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 672,
                 "end": 672
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 671,
             "end": 673
         },
@@ -2487,6 +2822,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 673,
                 "end": 678
             },
@@ -2495,6 +2831,7 @@ for ({}.bar = x in obj);
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 680,
                     "end": 685
                 },
@@ -2502,10 +2839,12 @@ for ({}.bar = x in obj);
                     "kind": 151,
                     "bindingList": [],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 685,
                     "end": 685
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 673,
                 "end": 685
             },
@@ -2514,6 +2853,7 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 685,
                 "end": 685
             },
@@ -2522,6 +2862,7 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 685,
                 "end": 685
             },
@@ -2532,14 +2873,17 @@ for ({}.bar = x in obj);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 685,
                     "end": 685
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 685,
                 "end": 685
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 673,
             "end": 685
         },
@@ -2552,12 +2896,14 @@ for ({}.bar = x in obj);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 689,
                     "end": 690
                 },
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 690,
                     "end": 693
                 },
@@ -2566,14 +2912,17 @@ for ({}.bar = x in obj);
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 693,
                     "end": 695
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 689,
                 "end": 695
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 689,
             "end": 695
         },
@@ -2583,10 +2932,12 @@ for ({}.bar = x in obj);
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 697,
                 "end": 697
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 696,
             "end": 698
         },
@@ -2595,6 +2946,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 698,
                 "end": 703
             },
@@ -2612,6 +2964,7 @@ for ({}.bar = x in obj);
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 706,
                                     "end": 707
                                 },
@@ -2620,26 +2973,31 @@ for ({}.bar = x in obj);
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 708,
                                     "end": 709
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 706,
                                 "end": 709
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 706,
                         "end": 709
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 705,
                     "end": 710
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 710,
                     "end": 711
                 },
@@ -2650,12 +3008,14 @@ for ({}.bar = x in obj);
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 711,
                         "end": 712
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 712,
                         "end": 715
                     },
@@ -2664,14 +3024,17 @@ for ({}.bar = x in obj);
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 715,
                         "end": 717
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 711,
                     "end": 717
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 705,
                 "end": 717
             },
@@ -2681,16 +3044,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 717,
                 "end": 717
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 718,
                 "end": 720
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 698,
             "end": 720
         },
@@ -2699,6 +3065,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 720,
                 "end": 725
             },
@@ -2714,22 +3081,26 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 728,
                                 "end": 729
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 728,
                         "end": 729
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 727,
                     "end": 730
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 730,
                     "end": 732
                 },
@@ -2738,10 +3109,12 @@ for ({}.bar = x in obj);
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 732,
                     "end": 734
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 727,
                 "end": 734
             },
@@ -2751,16 +3124,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 734,
                 "end": 734
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 735,
                 "end": 736
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 720,
             "end": 736
         },
@@ -2769,6 +3145,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 736,
                 "end": 741
             },
@@ -2787,6 +3164,7 @@ for ({}.bar = x in obj);
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 745,
                                         "end": 746
                                     },
@@ -2795,31 +3173,37 @@ for ({}.bar = x in obj);
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 747,
                                         "end": 749
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 744,
                                 "end": 750
                             },
                             "flags": 744,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 750
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 744,
                     "end": 750
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 743,
                 "end": 751
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 751,
                 "end": 754
             },
@@ -2830,10 +3214,12 @@ for ({}.bar = x in obj);
                     "properties": [],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 756,
                     "end": 756
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 754,
                 "end": 757
             },
@@ -2843,14 +3229,17 @@ for ({}.bar = x in obj);
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 760,
                     "end": 760
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 758,
                 "end": 761
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 736,
             "end": 761
         },
@@ -2859,6 +3248,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 761,
                 "end": 766
             },
@@ -2867,6 +3257,7 @@ for ({}.bar = x in obj);
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 768,
                     "end": 773
                 },
@@ -2880,27 +3271,32 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 773,
                                 "end": 775
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 773,
                             "end": 775
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 773,
                     "end": 775
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 761,
                 "end": 775
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 775,
                 "end": 778
             },
@@ -2911,10 +3307,12 @@ for ({}.bar = x in obj);
                     "properties": [],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 780,
                     "end": 780
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 778,
                 "end": 781
             },
@@ -2925,12 +3323,14 @@ for ({}.bar = x in obj);
                     "text": "label1",
                     "rawText": "label1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 782,
                     "end": 789
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 789,
                     "end": 790
                 },
@@ -2941,12 +3341,14 @@ for ({}.bar = x in obj);
                         "text": "label2",
                         "rawText": "label2",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 790,
                         "end": 797
                     },
                     "colonToken": {
                         "kind": 21,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 797,
                         "end": 798
                     },
@@ -2957,6 +3359,7 @@ for ({}.bar = x in obj);
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 798,
                             "end": 807
                         },
@@ -2966,6 +3369,7 @@ for ({}.bar = x in obj);
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 807,
                             "end": 809
                         },
@@ -2975,6 +3379,7 @@ for ({}.bar = x in obj);
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 810,
                             "end": 810
                         },
@@ -2985,27 +3390,33 @@ for ({}.bar = x in obj);
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 813,
                                 "end": 813
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 811,
                             "end": 814
                         },
                         "returnType": null,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 798,
                         "end": 814
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 790,
                     "end": 814
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 782,
                 "end": 814
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 761,
             "end": 814
         },
@@ -3014,6 +3425,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 814,
                 "end": 819
             },
@@ -3036,6 +3448,7 @@ for ({}.bar = x in obj);
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 823,
                                                 "end": 824
                                             },
@@ -3044,36 +3457,43 @@ for ({}.bar = x in obj);
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 825,
                                                 "end": 826
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 823,
                                             "end": 826
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 823,
                                     "end": 826
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 822,
                                 "end": 827
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 822,
                         "end": 827
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 821,
                     "end": 828
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 828,
                     "end": 829
                 },
@@ -3084,12 +3504,14 @@ for ({}.bar = x in obj);
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 829,
                         "end": 830
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 830,
                         "end": 833
                     },
@@ -3098,14 +3520,17 @@ for ({}.bar = x in obj);
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 833,
                         "end": 835
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 829,
                     "end": 835
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 821,
                 "end": 835
             },
@@ -3115,16 +3540,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 835,
                 "end": 835
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 836,
                 "end": 838
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 814,
             "end": 838
         },
@@ -3133,6 +3561,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 838,
                 "end": 843
             },
@@ -3145,12 +3574,14 @@ for ({}.bar = x in obj);
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 846,
                         "end": 847
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 847,
                         "end": 849
                     },
@@ -3159,20 +3590,24 @@ for ({}.bar = x in obj);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 849,
                         "end": 851
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 845,
                     "end": 851
                 },
                 "flags": 845,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 852
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 852,
                 "end": 855
             },
@@ -3181,16 +3616,19 @@ for ({}.bar = x in obj);
                 "text": "z",
                 "rawText": "z",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 855,
                 "end": 857
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 858,
                 "end": 860
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 838,
             "end": 860
         },
@@ -3199,6 +3637,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 860,
                 "end": 865
             },
@@ -3209,12 +3648,14 @@ for ({}.bar = x in obj);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 867,
                     "end": 868
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 868,
                     "end": 870
                 },
@@ -3225,12 +3666,14 @@ for ({}.bar = x in obj);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 870,
                         "end": 872
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 872,
                         "end": 875
                     },
@@ -3239,14 +3682,17 @@ for ({}.bar = x in obj);
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 875,
                         "end": 877
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 870,
                     "end": 877
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 860,
                 "end": 877
             },
@@ -3256,16 +3702,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 877,
                 "end": 877
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 878,
                 "end": 880
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 860,
             "end": 880
         },
@@ -3274,6 +3723,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 880,
                 "end": 885
             },
@@ -3291,6 +3741,7 @@ for ({}.bar = x in obj);
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 888,
                                     "end": 889
                                 },
@@ -3299,26 +3750,31 @@ for ({}.bar = x in obj);
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 890,
                                     "end": 891
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 888,
                                 "end": 891
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 888,
                         "end": 891
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 887,
                     "end": 892
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 892,
                     "end": 894
                 },
@@ -3329,12 +3785,14 @@ for ({}.bar = x in obj);
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 894,
                         "end": 896
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 896,
                         "end": 899
                     },
@@ -3343,14 +3801,17 @@ for ({}.bar = x in obj);
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 899,
                         "end": 901
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 894,
                     "end": 901
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 887,
                 "end": 901
             },
@@ -3360,16 +3821,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 901,
                 "end": 901
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 902,
                 "end": 904
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 880,
             "end": 904
         },
@@ -3378,6 +3842,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 904,
                 "end": 909
             },
@@ -3395,6 +3860,7 @@ for ({}.bar = x in obj);
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 912,
                                     "end": 913
                                 },
@@ -3403,26 +3869,31 @@ for ({}.bar = x in obj);
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 914,
                                     "end": 915
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 912,
                                 "end": 915
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 912,
                         "end": 915
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 911,
                     "end": 916
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 916,
                     "end": 917
                 },
@@ -3433,12 +3904,14 @@ for ({}.bar = x in obj);
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 917,
                         "end": 918
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 918,
                         "end": 921
                     },
@@ -3447,14 +3920,17 @@ for ({}.bar = x in obj);
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 921,
                         "end": 923
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 917,
                     "end": 923
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 911,
                 "end": 923
             },
@@ -3464,16 +3940,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 923,
                 "end": 923
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 924,
                 "end": 926
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 904,
             "end": 926
         },
@@ -3482,6 +3961,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 926,
                 "end": 931
             },
@@ -3497,22 +3977,26 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 934,
                                 "end": 935
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 934,
                         "end": 935
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 933,
                     "end": 936
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 936,
                     "end": 938
                 },
@@ -3523,12 +4007,14 @@ for ({}.bar = x in obj);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 938,
                         "end": 940
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 940,
                         "end": 943
                     },
@@ -3537,14 +4023,17 @@ for ({}.bar = x in obj);
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 943,
                         "end": 945
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 938,
                     "end": 945
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 933,
                 "end": 945
             },
@@ -3554,16 +4043,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 945,
                 "end": 945
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 946,
                 "end": 947
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 926,
             "end": 947
         },
@@ -3572,6 +4064,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 947,
                 "end": 952
             },
@@ -3584,16 +4077,19 @@ for ({}.bar = x in obj);
                         "properties": [],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 955,
                         "end": 955
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 954,
                     "end": 956
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 956,
                     "end": 958
                 },
@@ -3604,12 +4100,14 @@ for ({}.bar = x in obj);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 958,
                         "end": 960
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 960,
                         "end": 963
                     },
@@ -3618,14 +4116,17 @@ for ({}.bar = x in obj);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 963,
                         "end": 965
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 958,
                     "end": 965
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 954,
                 "end": 965
             },
@@ -3635,16 +4136,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 965,
                 "end": 965
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 966,
                 "end": 967
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 947,
             "end": 967
         },
@@ -3653,6 +4157,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 967,
                 "end": 972
             },
@@ -3673,6 +4178,7 @@ for ({}.bar = x in obj);
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 976,
                                             "end": 977
                                         },
@@ -3681,30 +4187,36 @@ for ({}.bar = x in obj);
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 979,
                                             "end": 981
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 976,
                                         "end": 981
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 976,
                                 "end": 981
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 975,
                             "end": 982
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 975,
                     "end": 982
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 974,
                 "end": 983
             },
@@ -3713,10 +4225,12 @@ for ({}.bar = x in obj);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 987,
                 "end": 988
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 967,
             "end": 988
         },
@@ -3725,6 +4239,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 988,
                 "end": 993
             },
@@ -3740,6 +4255,7 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 996,
                                 "end": 997
                             },
@@ -3748,20 +4264,24 @@ for ({}.bar = x in obj);
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 998,
                                 "end": 999
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 996,
                             "end": 999
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 996,
                     "end": 999
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 995,
                 "end": 1000
             },
@@ -3770,10 +4290,12 @@ for ({}.bar = x in obj);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1003,
                 "end": 1004
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 988,
             "end": 1004
         },
@@ -3782,6 +4304,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1004,
                 "end": 1009
             },
@@ -3797,6 +4320,7 @@ for ({}.bar = x in obj);
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 1012,
                                     "end": 1015
                                 },
@@ -3810,36 +4334,43 @@ for ({}.bar = x in obj);
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 1016,
                                                 "end": 1017
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 1016,
                                         "end": 1017
                                     },
                                     "flags": 32,
+                                    "transformFlags": 8,
                                     "start": 1015,
                                     "end": 1018
                                 },
                                 "flags": 1073741856,
+                                "transformFlags": 0,
                                 "start": 1012,
                                 "end": 1018
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1012,
                         "end": 1018
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 1011,
                     "end": 1019
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1019,
                     "end": 1021
                 },
@@ -3850,12 +4381,14 @@ for ({}.bar = x in obj);
                         "text": 0,
                         "rawText": "0",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1021,
                         "end": 1023
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1023,
                         "end": 1026
                     },
@@ -3866,18 +4399,22 @@ for ({}.bar = x in obj);
                             "properties": [],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 1028,
                             "end": 1028
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 1026,
                         "end": 1029
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1021,
                     "end": 1029
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 1011,
                 "end": 1029
             },
@@ -3887,16 +4424,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1029,
                 "end": 1029
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1030,
                 "end": 1031
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1004,
             "end": 1031
         },
@@ -3905,6 +4445,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1031,
                 "end": 1036
             },
@@ -3921,6 +4462,7 @@ for ({}.bar = x in obj);
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1039,
                                 "end": 1040
                             },
@@ -3929,20 +4471,24 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1041,
                                 "end": 1043
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 1039,
                             "end": 1043
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 1039,
                     "end": 1044
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 1038,
                 "end": 1044
             },
@@ -3951,6 +4497,7 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1051,
                 "end": 1051
             },
@@ -3967,6 +4514,7 @@ for ({}.bar = x in obj);
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1046,
                                 "end": 1047
                             },
@@ -3975,20 +4523,24 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1048,
                                 "end": 1050
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 1046,
                             "end": 1050
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 1046,
                     "end": 1050
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 1044,
                 "end": 1051
             },
@@ -3999,14 +4551,17 @@ for ({}.bar = x in obj);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1051,
                     "end": 1051
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1051,
                 "end": 1051
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1031,
             "end": 1051
         },
@@ -4019,12 +4574,14 @@ for ({}.bar = x in obj);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1052,
                     "end": 1052
                 },
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1052,
                     "end": 1055
                 },
@@ -4033,20 +4590,24 @@ for ({}.bar = x in obj);
                     "text": "obj",
                     "rawText": "obj",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1055,
                     "end": 1059
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1052,
                 "end": 1059
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1052,
             "end": 1059
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 1060,
             "end": 1061
         },
@@ -4057,12 +4618,14 @@ for ({}.bar = x in obj);
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 1061,
                 "end": 1071
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 1071,
                 "end": 1073
             },
@@ -4071,6 +4634,7 @@ for ({}.bar = x in obj);
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1073,
                 "end": 1074
             },
@@ -4080,6 +4644,7 @@ for ({}.bar = x in obj);
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1075,
                 "end": 1075
             },
@@ -4094,6 +4659,7 @@ for ({}.bar = x in obj);
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 1077,
                                 "end": 1083
                             },
@@ -4102,6 +4668,7 @@ for ({}.bar = x in obj);
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 1085,
                                     "end": 1090
                                 },
@@ -4112,16 +4679,19 @@ for ({}.bar = x in obj);
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1090,
                                     "end": 1092
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 1085,
                                 "end": 1092
                             },
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 1092,
                                 "end": 1095
                             },
@@ -4132,12 +4702,14 @@ for ({}.bar = x in obj);
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1095,
                                     "end": 1097
                                 },
                                 "operatorToken": {
                                     "kind": 21006388,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1097,
                                     "end": 1100
                                 },
@@ -4146,34 +4718,41 @@ for ({}.bar = x in obj);
                                     "text": "z",
                                     "rawText": "z",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1100,
                                     "end": 1102
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1095,
                                 "end": 1102
                             },
                             "statement": {
                                 "kind": 168,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 1103,
                                 "end": 1104
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 1077,
                             "end": 1104
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1077,
                     "end": 1104
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1076,
                 "end": 1108
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 1061,
             "end": 1108
         },
@@ -4182,6 +4761,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1108,
                 "end": 1113
             },
@@ -4198,6 +4778,7 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1116,
                                 "end": 1118
                             },
@@ -4208,6 +4789,7 @@ for ({}.bar = x in obj);
                                     "chainToken": {
                                         "kind": 393240,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 1137,
                                         "end": 1139
                                     },
@@ -4224,6 +4806,7 @@ for ({}.bar = x in obj);
                                                     "setKeyword": {
                                                         "kind": 16499,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 1121,
                                                         "end": 1125
                                                     },
@@ -4234,6 +4817,7 @@ for ({}.bar = x in obj);
                                                             "text": "y",
                                                             "rawText": "y",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1125,
                                                             "end": 1127
                                                         },
@@ -4246,12 +4830,14 @@ for ({}.bar = x in obj);
                                                                     "text": "val",
                                                                     "rawText": "val",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 1128,
                                                                     "end": 1131
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 608,
+                                                            "transformFlags": 0,
                                                             "start": 1128,
                                                             "end": 1132
                                                         },
@@ -4263,28 +4849,34 @@ for ({}.bar = x in obj);
                                                                 "directives": [],
                                                                 "statements": [],
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 1134,
                                                                 "end": 1134
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 1132,
                                                             "end": 1136
                                                         },
                                                         "flags": 544,
+                                                        "transformFlags": 0,
                                                         "start": 1127,
                                                         "end": 1136
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 1121,
                                                     "end": 1136
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 1121,
                                             "end": 1136
                                         },
                                         "flags": 48,
+                                        "transformFlags": 8,
                                         "start": 1119,
                                         "end": 1137
                                     },
@@ -4298,24 +4890,29 @@ for ({}.bar = x in obj);
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 1139,
                                                 "end": 1140
                                             },
                                             "flags": 536870944,
+                                            "transformFlags": 2,
                                             "start": 1139,
                                             "end": 1140
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 1139,
                                         "end": 1140
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 1116,
                                     "end": 1140
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1140,
                                     "end": 1142
                                 },
@@ -4324,30 +4921,36 @@ for ({}.bar = x in obj);
                                     "text": 42,
                                     "rawText": "42",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1142,
                                     "end": 1145
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 1116,
                                 "end": 1145
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 1116,
                             "end": 1145
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 1116,
                     "end": 1145
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 1115,
                 "end": 1146
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1146,
                 "end": 1149
             },
@@ -4369,6 +4972,7 @@ for ({}.bar = x in obj);
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 1152,
                                             "end": 1153
                                         },
@@ -4377,40 +4981,48 @@ for ({}.bar = x in obj);
                                             "text": 42,
                                             "rawText": "42",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 1154,
                                             "end": 1157
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 1152,
                                         "end": 1157
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 1152,
                                 "end": 1157
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 1151,
                             "end": 1158
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1151,
                     "end": 1158
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 1149,
                 "end": 1159
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1160,
                 "end": 1162
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1108,
             "end": 1162
         },
@@ -4419,6 +5031,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1162,
                 "end": 1167
             },
@@ -4435,6 +5048,7 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1170,
                                 "end": 1172
                             },
@@ -4443,6 +5057,7 @@ for ({}.bar = x in obj);
                                 "chainToken": {
                                     "kind": 393240,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 1191,
                                     "end": 1193
                                 },
@@ -4459,6 +5074,7 @@ for ({}.bar = x in obj);
                                                 "setKeyword": {
                                                     "kind": 16499,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 1175,
                                                     "end": 1179
                                                 },
@@ -4469,6 +5085,7 @@ for ({}.bar = x in obj);
                                                         "text": "y",
                                                         "rawText": "y",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 1179,
                                                         "end": 1181
                                                     },
@@ -4481,12 +5098,14 @@ for ({}.bar = x in obj);
                                                                 "text": "val",
                                                                 "rawText": "val",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1182,
                                                                 "end": 1185
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 608,
+                                                        "transformFlags": 0,
                                                         "start": 1182,
                                                         "end": 1186
                                                     },
@@ -4498,28 +5117,34 @@ for ({}.bar = x in obj);
                                                             "directives": [],
                                                             "statements": [],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 1188,
                                                             "end": 1188
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 1186,
                                                         "end": 1189
                                                     },
                                                     "flags": 544,
+                                                    "transformFlags": 0,
                                                     "start": 1181,
                                                     "end": 1189
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 1175,
                                                 "end": 1189
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 1175,
                                         "end": 1189
                                     },
                                     "flags": 48,
+                                    "transformFlags": 8,
                                     "start": 1173,
                                     "end": 1191
                                 },
@@ -4533,38 +5158,46 @@ for ({}.bar = x in obj);
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 1193,
                                             "end": 1194
                                         },
                                         "flags": 536870944,
+                                        "transformFlags": 2,
                                         "start": 1193,
                                         "end": 1194
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 1193,
                                     "end": 1194
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 1170,
                                 "end": 1194
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 1170,
                             "end": 1194
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 1170,
                     "end": 1194
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 1169,
                 "end": 1195
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1195,
                 "end": 1198
             },
@@ -4586,6 +5219,7 @@ for ({}.bar = x in obj);
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 1201,
                                             "end": 1202
                                         },
@@ -4594,40 +5228,48 @@ for ({}.bar = x in obj);
                                             "text": 42,
                                             "rawText": "42",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 1203,
                                             "end": 1206
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 1201,
                                         "end": 1206
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 1201,
                                 "end": 1206
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 1200,
                             "end": 1207
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1200,
                     "end": 1207
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 1198,
                 "end": 1208
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1209,
                 "end": 1211
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1162,
             "end": 1211
         },
@@ -4636,6 +5278,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1211,
                 "end": 1216
             },
@@ -4644,6 +5287,7 @@ for ({}.bar = x in obj);
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1217,
                     "end": 1223
                 },
@@ -4656,12 +5300,14 @@ for ({}.bar = x in obj);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1224,
                             "end": 1225
                         },
                         "operatorToken": {
                             "kind": 21006388,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1225,
                             "end": 1228
                         },
@@ -4670,24 +5316,29 @@ for ({}.bar = x in obj);
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1228,
                             "end": 1230
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1223,
                         "end": 1230
                     },
                     "flags": 1223,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 1231
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1217,
                 "end": 1231
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1231,
                 "end": 1234
             },
@@ -4696,6 +5347,7 @@ for ({}.bar = x in obj);
                 "text": "z",
                 "rawText": "z",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1234,
                 "end": 1236
             },
@@ -4706,14 +5358,17 @@ for ({}.bar = x in obj);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1237,
                     "end": 1238
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1237,
                 "end": 1238
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1211,
             "end": 1238
         },
@@ -4722,6 +5377,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1238,
                 "end": 1243
             },
@@ -4737,6 +5393,7 @@ for ({}.bar = x in obj);
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1247,
                                 "end": 1248
                             },
@@ -4745,25 +5402,30 @@ for ({}.bar = x in obj);
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1249,
                                 "end": 1250
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1246,
                         "end": 1251
                     },
                     "flags": 1246,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 1251
                 },
                 "flags": 1245,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 1252
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1252,
                 "end": 1255
             },
@@ -4772,16 +5434,19 @@ for ({}.bar = x in obj);
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1255,
                 "end": 1257
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1258,
                 "end": 1259
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1238,
             "end": 1259
         },
@@ -4790,6 +5455,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1259,
                 "end": 1264
             },
@@ -4803,6 +5469,7 @@ for ({}.bar = x in obj);
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1267,
                             "end": 1268
                         },
@@ -4811,21 +5478,25 @@ for ({}.bar = x in obj);
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1269,
                             "end": 1270
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1266,
                     "end": 1271
                 },
                 "flags": 1266,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 1271
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1271,
                 "end": 1274
             },
@@ -4834,16 +5505,19 @@ for ({}.bar = x in obj);
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1274,
                 "end": 1276
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1277,
                 "end": 1278
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1259,
             "end": 1278
         },
@@ -4854,10 +5528,12 @@ for ({}.bar = x in obj);
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 1278,
                 "end": 1292
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1278,
             "end": 1293
         },
@@ -4866,6 +5542,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 1293,
                 "end": 1297
             },
@@ -4875,6 +5552,7 @@ for ({}.bar = x in obj);
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1298,
                     "end": 1303
                 },
@@ -4888,6 +5566,7 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1303,
                                 "end": 1305
                             },
@@ -4897,10 +5576,12 @@ for ({}.bar = x in obj);
                                 "text": 4,
                                 "rawText": "4",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1307,
                                 "end": 1309
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 1303,
                             "end": 1309
                         },
@@ -4911,27 +5592,32 @@ for ({}.bar = x in obj);
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1310,
                                 "end": 1312
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 1310,
                             "end": 1312
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 1303,
                     "end": 1312
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 1293,
                 "end": 1312
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1312,
                 "end": 1315
             },
@@ -4945,6 +5631,7 @@ for ({}.bar = x in obj);
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1317,
                             "end": 1318
                         },
@@ -4953,6 +5640,7 @@ for ({}.bar = x in obj);
                             "text": 2,
                             "rawText": "2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1319,
                             "end": 1320
                         },
@@ -4961,16 +5649,19 @@ for ({}.bar = x in obj);
                             "text": 3,
                             "rawText": "3",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1321,
                             "end": 1322
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1317,
                     "end": 1322
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 1315,
                 "end": 1323
             },
@@ -4980,14 +5671,17 @@ for ({}.bar = x in obj);
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 1326,
                     "end": 1326
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1324,
                 "end": 1327
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 1293,
             "end": 1327
         },
@@ -4996,6 +5690,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1327,
                 "end": 1332
             },
@@ -5004,6 +5699,7 @@ for ({}.bar = x in obj);
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1333,
                     "end": 1338
                 },
@@ -5017,12 +5713,14 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1338,
                                 "end": 1340
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 1338,
                             "end": 1340
                         },
@@ -5033,6 +5731,7 @@ for ({}.bar = x in obj);
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1341,
                                 "end": 1342
                             },
@@ -5042,19 +5741,23 @@ for ({}.bar = x in obj);
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1344,
                                 "end": 1346
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 1341,
                             "end": 1346
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 1338,
                     "end": 1346
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 1327,
                 "end": 1346
             },
@@ -5066,14 +5769,17 @@ for ({}.bar = x in obj);
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 1353,
                     "end": 1353
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1351,
                 "end": 1354
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1327,
             "end": 1354
         },
@@ -5082,6 +5788,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1354,
                 "end": 1359
             },
@@ -5090,6 +5797,7 @@ for ({}.bar = x in obj);
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1360,
                     "end": 1365
                 },
@@ -5103,6 +5811,7 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1365,
                                 "end": 1367
                             },
@@ -5112,25 +5821,30 @@ for ({}.bar = x in obj);
                                 "text": 4,
                                 "rawText": "4",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1369,
                                 "end": 1371
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 1365,
                             "end": 1371
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 1365,
                     "end": 1371
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 1354,
                 "end": 1371
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1371,
                 "end": 1374
             },
@@ -5144,6 +5858,7 @@ for ({}.bar = x in obj);
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1376,
                             "end": 1377
                         },
@@ -5152,6 +5867,7 @@ for ({}.bar = x in obj);
                             "text": 2,
                             "rawText": "2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1378,
                             "end": 1379
                         },
@@ -5160,16 +5876,19 @@ for ({}.bar = x in obj);
                             "text": 3,
                             "rawText": "3",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1380,
                             "end": 1381
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1376,
                     "end": 1381
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 1374,
                 "end": 1382
             },
@@ -5179,14 +5898,17 @@ for ({}.bar = x in obj);
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 1385,
                     "end": 1385
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1383,
                 "end": 1386
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1354,
             "end": 1386
         },
@@ -5195,6 +5917,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1386,
                 "end": 1391
             },
@@ -5203,6 +5926,7 @@ for ({}.bar = x in obj);
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1392,
                     "end": 1397
                 },
@@ -5216,6 +5940,7 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1397,
                                 "end": 1399
                             },
@@ -5225,10 +5950,12 @@ for ({}.bar = x in obj);
                                 "text": 4,
                                 "rawText": "4",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1401,
                                 "end": 1403
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 1397,
                             "end": 1403
                         },
@@ -5239,27 +5966,32 @@ for ({}.bar = x in obj);
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1404,
                                 "end": 1406
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 1404,
                             "end": 1406
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 1397,
                     "end": 1406
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 1386,
                 "end": 1406
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1406,
                 "end": 1409
             },
@@ -5273,6 +6005,7 @@ for ({}.bar = x in obj);
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1411,
                             "end": 1412
                         },
@@ -5281,6 +6014,7 @@ for ({}.bar = x in obj);
                             "text": 2,
                             "rawText": "2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1413,
                             "end": 1414
                         },
@@ -5289,16 +6023,19 @@ for ({}.bar = x in obj);
                             "text": 3,
                             "rawText": "3",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1415,
                             "end": 1416
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1411,
                     "end": 1416
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 1409,
                 "end": 1417
             },
@@ -5308,14 +6045,17 @@ for ({}.bar = x in obj);
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 1420,
                     "end": 1420
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1418,
                 "end": 1421
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1386,
             "end": 1421
         },
@@ -5324,6 +6064,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1421,
                 "end": 1426
             },
@@ -5333,6 +6074,7 @@ for ({}.bar = x in obj);
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1427,
                     "end": 1432
                 },
@@ -5346,6 +6088,7 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1432,
                                 "end": 1434
                             },
@@ -5355,25 +6098,30 @@ for ({}.bar = x in obj);
                                 "text": 4,
                                 "rawText": "4",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1436,
                                 "end": 1438
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 1432,
                             "end": 1438
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 1432,
                     "end": 1438
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 1421,
                 "end": 1438
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1438,
                 "end": 1441
             },
@@ -5387,6 +6135,7 @@ for ({}.bar = x in obj);
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1443,
                             "end": 1444
                         },
@@ -5395,6 +6144,7 @@ for ({}.bar = x in obj);
                             "text": 2,
                             "rawText": "2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1445,
                             "end": 1446
                         },
@@ -5403,16 +6153,19 @@ for ({}.bar = x in obj);
                             "text": 3,
                             "rawText": "3",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1447,
                             "end": 1448
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1443,
                     "end": 1448
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 1441,
                 "end": 1449
             },
@@ -5422,14 +6175,17 @@ for ({}.bar = x in obj);
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 1452,
                     "end": 1452
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1450,
                 "end": 1453
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1421,
             "end": 1453
         },
@@ -5438,6 +6194,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1453,
                 "end": 1458
             },
@@ -5447,6 +6204,7 @@ for ({}.bar = x in obj);
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1459,
                     "end": 1464
                 },
@@ -5460,6 +6218,7 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1464,
                                 "end": 1466
                             },
@@ -5469,10 +6228,12 @@ for ({}.bar = x in obj);
                                 "text": 4,
                                 "rawText": "4",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1468,
                                 "end": 1470
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 1464,
                             "end": 1470
                         },
@@ -5483,27 +6244,32 @@ for ({}.bar = x in obj);
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1471,
                                 "end": 1473
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 1471,
                             "end": 1473
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 1464,
                     "end": 1473
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 1453,
                 "end": 1473
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1473,
                 "end": 1476
             },
@@ -5517,6 +6283,7 @@ for ({}.bar = x in obj);
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1478,
                             "end": 1479
                         },
@@ -5525,6 +6292,7 @@ for ({}.bar = x in obj);
                             "text": 2,
                             "rawText": "2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1480,
                             "end": 1481
                         },
@@ -5533,16 +6301,19 @@ for ({}.bar = x in obj);
                             "text": 3,
                             "rawText": "3",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1482,
                             "end": 1483
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1478,
                     "end": 1483
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 1476,
                 "end": 1484
             },
@@ -5552,14 +6323,17 @@ for ({}.bar = x in obj);
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 1487,
                     "end": 1487
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1485,
                 "end": 1488
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1453,
             "end": 1488
         },
@@ -5568,6 +6342,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1488,
                 "end": 1493
             },
@@ -5576,6 +6351,7 @@ for ({}.bar = x in obj);
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1494,
                     "end": 1499
                 },
@@ -5589,6 +6365,7 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1499,
                                 "end": 1501
                             },
@@ -5598,10 +6375,12 @@ for ({}.bar = x in obj);
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1503,
                                 "end": 1505
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 1499,
                             "end": 1505
                         },
@@ -5612,6 +6391,7 @@ for ({}.bar = x in obj);
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1506,
                                 "end": 1508
                             },
@@ -5621,25 +6401,30 @@ for ({}.bar = x in obj);
                                 "text": 2,
                                 "rawText": "2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1510,
                                 "end": 1512
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 1506,
                             "end": 1512
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 1499,
                     "end": 1512
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 1488,
                 "end": 1512
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1512,
                 "end": 1515
             },
@@ -5650,10 +6435,12 @@ for ({}.bar = x in obj);
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1517,
                     "end": 1517
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 1515,
                 "end": 1518
             },
@@ -5663,14 +6450,17 @@ for ({}.bar = x in obj);
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 1521,
                     "end": 1521
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1519,
                 "end": 1522
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1488,
             "end": 1522
         },
@@ -5679,6 +6469,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1522,
                 "end": 1527
             },
@@ -5687,6 +6478,7 @@ for ({}.bar = x in obj);
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1528,
                     "end": 1533
                 },
@@ -5700,12 +6492,14 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1533,
                                 "end": 1535
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 1533,
                             "end": 1535
                         },
@@ -5716,27 +6510,32 @@ for ({}.bar = x in obj);
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1536,
                                 "end": 1537
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 1536,
                             "end": 1537
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 1533,
                     "end": 1537
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 1522,
                 "end": 1537
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1537,
                 "end": 1540
             },
@@ -5747,10 +6546,12 @@ for ({}.bar = x in obj);
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1542,
                     "end": 1542
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 1540,
                 "end": 1543
             },
@@ -5760,14 +6561,17 @@ for ({}.bar = x in obj);
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 1546,
                     "end": 1546
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1544,
                 "end": 1547
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1522,
             "end": 1547
         },
@@ -5776,6 +6580,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1547,
                 "end": 1552
             },
@@ -5785,6 +6590,7 @@ for ({}.bar = x in obj);
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1553,
                     "end": 1558
                 },
@@ -5798,6 +6604,7 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1558,
                                 "end": 1560
                             },
@@ -5807,10 +6614,12 @@ for ({}.bar = x in obj);
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1562,
                                 "end": 1564
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 1558,
                             "end": 1564
                         },
@@ -5821,6 +6630,7 @@ for ({}.bar = x in obj);
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1565,
                                 "end": 1567
                             },
@@ -5830,25 +6640,30 @@ for ({}.bar = x in obj);
                                 "text": 2,
                                 "rawText": "2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1569,
                                 "end": 1571
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 1565,
                             "end": 1571
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 1558,
                     "end": 1571
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 1547,
                 "end": 1571
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1571,
                 "end": 1574
             },
@@ -5859,10 +6674,12 @@ for ({}.bar = x in obj);
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1576,
                     "end": 1576
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 1574,
                 "end": 1577
             },
@@ -5872,14 +6689,17 @@ for ({}.bar = x in obj);
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 1580,
                     "end": 1580
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1578,
                 "end": 1581
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1547,
             "end": 1581
         },
@@ -5888,6 +6708,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1581,
                 "end": 1586
             },
@@ -5897,6 +6718,7 @@ for ({}.bar = x in obj);
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1587,
                     "end": 1592
                 },
@@ -5910,12 +6732,14 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1592,
                                 "end": 1594
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 1592,
                             "end": 1594
                         },
@@ -5926,27 +6750,32 @@ for ({}.bar = x in obj);
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1595,
                                 "end": 1596
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 1595,
                             "end": 1596
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 1592,
                     "end": 1596
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 1581,
                 "end": 1596
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1596,
                 "end": 1599
             },
@@ -5957,10 +6786,12 @@ for ({}.bar = x in obj);
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1601,
                     "end": 1601
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 1599,
                 "end": 1602
             },
@@ -5970,14 +6801,17 @@ for ({}.bar = x in obj);
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 1605,
                     "end": 1605
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1603,
                 "end": 1606
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1581,
             "end": 1606
         },
@@ -5986,6 +6820,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1606,
                 "end": 1611
             },
@@ -5998,12 +6833,14 @@ for ({}.bar = x in obj);
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1614,
                         "end": 1615
                     },
                     "questionToken": {
                         "kind": 134217750,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1615,
                         "end": 1616
                     },
@@ -6012,12 +6849,14 @@ for ({}.bar = x in obj);
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1616,
                         "end": 1617
                     },
                     "colonToken": {
                         "kind": 21,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1617,
                         "end": 1618
                     },
@@ -6026,20 +6865,24 @@ for ({}.bar = x in obj);
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1618,
                         "end": 1619
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1613,
                     "end": 1619
                 },
                 "flags": 1613,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 1620
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1620,
                 "end": 1623
             },
@@ -6048,6 +6891,7 @@ for ({}.bar = x in obj);
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1623,
                 "end": 1625
             },
@@ -6058,14 +6902,17 @@ for ({}.bar = x in obj);
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1626,
                     "end": 1627
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1626,
                 "end": 1628
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1606,
             "end": 1628
         },
@@ -6074,6 +6921,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1628,
                 "end": 1633
             },
@@ -6082,6 +6930,7 @@ for ({}.bar = x in obj);
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1634,
                     "end": 1640
                 },
@@ -6096,16 +6945,19 @@ for ({}.bar = x in obj);
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1642,
                                 "end": 1643
                             },
                             "flags": 1641,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 1644
                         },
                         "questionToken": {
                             "kind": 134217750,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 1644,
                             "end": 1645
                         },
@@ -6114,12 +6966,14 @@ for ({}.bar = x in obj);
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1645,
                             "end": 1646
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 1646,
                             "end": 1647
                         },
@@ -6130,12 +6984,14 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1647,
                                 "end": 1648
                             },
                             "operatorToken": {
                                 "kind": 21006388,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1648,
                                 "end": 1651
                             },
@@ -6144,28 +7000,34 @@ for ({}.bar = x in obj);
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1651,
                                 "end": 1653
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1647,
                             "end": 1653
                         },
                         "flags": 1641,
+                        "transformFlags": 0,
                         "start": 1641,
                         "end": 1653
                     },
                     "flags": 1640,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 1654
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1634,
                 "end": 1654
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1654,
                 "end": 1657
             },
@@ -6174,6 +7036,7 @@ for ({}.bar = x in obj);
                 "text": "z",
                 "rawText": "z",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1657,
                 "end": 1659
             },
@@ -6184,14 +7047,17 @@ for ({}.bar = x in obj);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1660,
                     "end": 1661
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1660,
                 "end": 1661
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1628,
             "end": 1661
         },
@@ -6200,6 +7066,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1661,
                 "end": 1666
             },
@@ -6212,16 +7079,19 @@ for ({}.bar = x in obj);
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1669,
                         "end": 1669
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 1668,
                     "end": 1670
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1670,
                     "end": 1672
                 },
@@ -6232,12 +7102,14 @@ for ({}.bar = x in obj);
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1672,
                         "end": 1674
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1674,
                         "end": 1677
                     },
@@ -6246,14 +7118,17 @@ for ({}.bar = x in obj);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1677,
                         "end": 1679
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1672,
                     "end": 1679
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 1668,
                 "end": 1679
             },
@@ -6263,16 +7138,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1679,
                 "end": 1679
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1680,
                 "end": 1681
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1661,
             "end": 1681
         },
@@ -6281,6 +7159,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1681,
                 "end": 1686
             },
@@ -6291,12 +7170,14 @@ for ({}.bar = x in obj);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1688,
                     "end": 1689
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1689,
                     "end": 1691
                 },
@@ -6307,12 +7188,14 @@ for ({}.bar = x in obj);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1691,
                         "end": 1693
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1693,
                         "end": 1696
                     },
@@ -6321,14 +7204,17 @@ for ({}.bar = x in obj);
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1696,
                         "end": 1698
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1691,
                     "end": 1698
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 1681,
                 "end": 1698
             },
@@ -6338,16 +7224,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1698,
                 "end": 1698
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1699,
                 "end": 1701
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1681,
             "end": 1701
         },
@@ -6356,6 +7245,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1701,
                 "end": 1706
             },
@@ -6364,6 +7254,7 @@ for ({}.bar = x in obj);
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1708,
                     "end": 1710
                 },
@@ -6376,6 +7267,7 @@ for ({}.bar = x in obj);
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1710,
                             "end": 1711
                         },
@@ -6384,10 +7276,12 @@ for ({}.bar = x in obj);
                             "elements": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1712,
                             "end": 1712
                         },
                         "flags": 268435488,
+                        "transformFlags": 1,
                         "start": 1710,
                         "end": 1713
                     },
@@ -6396,20 +7290,24 @@ for ({}.bar = x in obj);
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1714,
                         "end": 1715
                     },
                     "flags": 268435488,
+                    "transformFlags": 2,
                     "start": 1710,
                     "end": 1715
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1708,
                 "end": 1715
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1715,
                 "end": 1718
             },
@@ -6418,16 +7316,19 @@ for ({}.bar = x in obj);
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1718,
                 "end": 1720
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1721,
                 "end": 1722
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1701,
             "end": 1722
         },
@@ -6436,6 +7337,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1722,
                 "end": 1727
             },
@@ -6451,22 +7353,26 @@ for ({}.bar = x in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1730,
                                 "end": 1731
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1730,
                         "end": 1731
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1729,
                     "end": 1732
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1732,
                     "end": 1734
                 },
@@ -6477,12 +7383,14 @@ for ({}.bar = x in obj);
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1734,
                         "end": 1736
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1736,
                         "end": 1739
                     },
@@ -6491,14 +7399,17 @@ for ({}.bar = x in obj);
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1739,
                         "end": 1743
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1734,
                     "end": 1743
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 1729,
                 "end": 1743
             },
@@ -6508,16 +7419,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1743,
                 "end": 1743
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1744,
                 "end": 1745
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1722,
             "end": 1745
         },
@@ -6526,6 +7440,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1745,
                 "end": 1750
             },
@@ -6544,6 +7459,7 @@ for ({}.bar = x in obj);
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1753,
                                     "end": 1754
                                 },
@@ -6554,6 +7470,7 @@ for ({}.bar = x in obj);
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 1755,
                                         "end": 1757
                                     },
@@ -6562,30 +7479,36 @@ for ({}.bar = x in obj);
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 1758,
                                         "end": 1759
                                     },
                                     "flags": 96,
+                                    "transformFlags": 2,
                                     "start": 1753,
                                     "end": 1759
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 1753,
                                 "end": 1759
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1753,
                         "end": 1759
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1752,
                     "end": 1760
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1760,
                     "end": 1762
                 },
@@ -6596,12 +7519,14 @@ for ({}.bar = x in obj);
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1762,
                         "end": 1764
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1764,
                         "end": 1767
                     },
@@ -6610,14 +7535,17 @@ for ({}.bar = x in obj);
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1767,
                         "end": 1771
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1762,
                     "end": 1771
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 1752,
                 "end": 1771
             },
@@ -6627,16 +7555,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1771,
                 "end": 1771
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1772,
                 "end": 1773
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1745,
             "end": 1773
         },
@@ -6645,6 +7576,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1773,
                 "end": 1778
             },
@@ -6663,6 +7595,7 @@ for ({}.bar = x in obj);
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1781,
                                     "end": 1782
                                 },
@@ -6673,12 +7606,14 @@ for ({}.bar = x in obj);
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 1783,
                                         "end": 1785
                                     },
                                     "operatorToken": {
                                         "kind": 99634,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 1785,
                                         "end": 1787
                                     },
@@ -6687,30 +7622,36 @@ for ({}.bar = x in obj);
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 1787,
                                         "end": 1789
                                     },
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1781,
                                     "end": 1789
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 1781,
                                 "end": 1789
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1781,
                         "end": 1789
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1780,
                     "end": 1790
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1790,
                     "end": 1792
                 },
@@ -6721,12 +7662,14 @@ for ({}.bar = x in obj);
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1792,
                         "end": 1794
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1794,
                         "end": 1797
                     },
@@ -6735,14 +7678,17 @@ for ({}.bar = x in obj);
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1797,
                         "end": 1801
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1792,
                     "end": 1801
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 1780,
                 "end": 1801
             },
@@ -6752,16 +7698,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1801,
                 "end": 1801
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1802,
                 "end": 1803
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1773,
             "end": 1803
         },
@@ -6770,6 +7719,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1803,
                 "end": 1808
             },
@@ -6778,6 +7728,7 @@ for ({}.bar = x in obj);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1803,
                     "end": 1813
                 },
@@ -6796,37 +7747,44 @@ for ({}.bar = x in obj);
                                             "text": "let",
                                             "rawText": "let",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 1815,
                                             "end": 1818
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 1815,
                                     "end": 1818
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 1813,
                                 "end": 1819
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 1813,
                             "end": 1819
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 1813,
                     "end": 1819
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 1803,
                 "end": 1819
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1819,
                 "end": 1822
             },
@@ -6835,16 +7793,19 @@ for ({}.bar = x in obj);
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1822,
                 "end": 1826
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1827,
                 "end": 1828
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1803,
             "end": 1828
         },
@@ -6853,6 +7814,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1828,
                 "end": 1833
             },
@@ -6861,6 +7823,7 @@ for ({}.bar = x in obj);
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1835,
                     "end": 1840
                 },
@@ -6879,37 +7842,44 @@ for ({}.bar = x in obj);
                                             "text": "let",
                                             "rawText": "let",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 1842,
                                             "end": 1845
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 1842,
                                     "end": 1845
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 1840,
                                 "end": 1846
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 1840,
                             "end": 1846
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 1840,
                     "end": 1846
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 1828,
                 "end": 1846
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1846,
                 "end": 1849
             },
@@ -6918,16 +7888,19 @@ for ({}.bar = x in obj);
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1849,
                 "end": 1853
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1854,
                 "end": 1855
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1828,
             "end": 1855
         },
@@ -6936,6 +7909,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1855,
                 "end": 1860
             },
@@ -6952,6 +7926,7 @@ for ({}.bar = x in obj);
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1863,
                                 "end": 1864
                             },
@@ -6962,12 +7937,14 @@ for ({}.bar = x in obj);
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1865,
                                     "end": 1867
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1867,
                                     "end": 1869
                                 },
@@ -6976,30 +7953,36 @@ for ({}.bar = x in obj);
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1869,
                                     "end": 1871
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1863,
                                 "end": 1871
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 1863,
                             "end": 1871
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 1863,
                     "end": 1871
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 1862,
                 "end": 1872
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1872,
                 "end": 1875
             },
@@ -7008,16 +7991,19 @@ for ({}.bar = x in obj);
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1875,
                 "end": 1879
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1880,
                 "end": 1881
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1855,
             "end": 1881
         },
@@ -7026,6 +8012,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1881,
                 "end": 1886
             },
@@ -7040,10 +8027,12 @@ for ({}.bar = x in obj);
                             "elements": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1889,
                             "end": 1889
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 1888,
                         "end": 1890
                     },
@@ -7052,16 +8041,19 @@ for ({}.bar = x in obj);
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1891,
                         "end": 1894
                     },
                     "flags": 32,
+                    "transformFlags": 2,
                     "start": 1881,
                     "end": 1894
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1894,
                     "end": 1896
                 },
@@ -7072,12 +8064,14 @@ for ({}.bar = x in obj);
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1896,
                         "end": 1898
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1898,
                         "end": 1901
                     },
@@ -7086,14 +8080,17 @@ for ({}.bar = x in obj);
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1901,
                         "end": 1905
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1896,
                     "end": 1905
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 1881,
                 "end": 1905
             },
@@ -7103,16 +8100,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1905,
                 "end": 1905
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1906,
                 "end": 1907
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1881,
             "end": 1907
         },
@@ -7121,6 +8121,7 @@ for ({}.bar = x in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 1907,
                 "end": 1912
             },
@@ -7135,10 +8136,12 @@ for ({}.bar = x in obj);
                             "properties": [],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 1915,
                             "end": 1915
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 1914,
                         "end": 1916
                     },
@@ -7147,16 +8150,19 @@ for ({}.bar = x in obj);
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1917,
                         "end": 1920
                     },
                     "flags": 48,
+                    "transformFlags": 2,
                     "start": 1907,
                     "end": 1920
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1920,
                     "end": 1922
                 },
@@ -7167,12 +8173,14 @@ for ({}.bar = x in obj);
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1922,
                         "end": 1924
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1924,
                         "end": 1927
                     },
@@ -7181,14 +8189,17 @@ for ({}.bar = x in obj);
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1927,
                         "end": 1931
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1922,
                     "end": 1931
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 1907,
                 "end": 1931
             },
@@ -7198,16 +8209,19 @@ for ({}.bar = x in obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1931,
                 "end": 1931
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1932,
                 "end": 1933
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 1907,
             "end": 1933
         }
@@ -7216,6 +8230,7 @@ for ({}.bar = x in obj);
     "source": "for (x = yield in y) ;\n\nfor (x+b in y);\n\nfor (b++ in y);\n\nfor ([{__proto__: 1, __proto__: 2}];;);\n\nfor ({__proto__: 1, __proto__: 2};;);\n\nfor ([x + y] in obj);\n\nfor ([x.y] = z in obj);\n\nfor ([...x,] in [[]]);\n\nfor ({}.x);\n\nfor ([[(x, y)]] in [[[]]]) ;\n\nfor ([{ get x() {} }] in [[{}]]) ;\n\nfor ([...x = 1] in [[]]) ;\n\nfor (a, b in c);\n\nfor ({} = y in y);\n\nfor(let x=1 in [1,2,3]) 0\n\n\"use strict\"; for (let in x) {}\n\nfor (foo() in {}) {}\n\nfor (x in a>c;;) x\n\nfor(const a in b) label: function f(){}\n\nfor(let let in 0);\n\nfor(let let of 0);\n\nfor(let a in 0) { var a; }\n\nfor(const a in 0) { var a; }\n\nfor(const {a, a} in 0);\n\nfor (true ? 0 : 0 in {}; false; )\n\nfor (...x in y){}\n\nfor (const ...x in y){}\n\nfor ({x=y}=x in x) ;\n\nfor ([x] = y);\n\nfor ([(x, y)] in {}) {}\n\nfor (const x in {}) label1: label2: function f() {}\n\nfor ([{x=y}]=x in x) ;\n\nfor ((x = y) in z) ;\n\nfor (x = y in z) ;\n\nfor ({x=y} = b in x) ;\n\nfor ({x=y}=x in x) ;\n\nfor ({x} = y in z);\n\nfor ({} = y in y);\n\nfor ([{x = y}] ;;);\n\nfor ({x=y};;);\n\nfor ([...[a]] = 0 in {});\n\nfor ({a: x, {b: x}} in obj);\n\nfunction *f(){   for (yield x in y in z);   }\n\nfor ({ x: { set y(val) { }}?.y = 42} in [{x: 42}]) ;\n\nfor ({ x: { set y(val) {} }?.y} in [{x: 42}]) ;\n\nfor(delete(x in y) in z)x\n\nfor (((a,b)) in c);\n\nfor ((a,b) in c);\n\n\"use strict\"; for(const x = 4, y of [1,2,3]) {}\n\nfor(const x,y = 1; ; ) {}\n\nfor(const x = 4 in [1,2,3]) {}\n\nfor(const x = 4, y in [1,2,3]) {}\n\nfor(const x = 4 of [1,2,3]) {}\n\nfor(const x = 4, y of [1,2,3]) {}\n\nfor(const x = 1, y = 2 in []) {}\n\nfor(const x,y in []) {}\n\nfor(const x = 1, y = 2 of []) {}\n\nfor(const x,y of []) {}\n\nfor ((a?b:c) in y)z;\n\nfor(delete((1)?y:x in y) in z)x\n\nfor ([] = x in y);\n\nfor (x = y in z) ;\n\nfor (++a().b in c);\n\nfor ({x} = z in obj);\n\nfor ({a: x.y} = z in obj);\n\nfor ({a: x + y} = z in obj);\n\nfor (let [let] in obj);\n\nfor (const [let] in obj);\n\nfor ({a: x + y} in obj);\n\nfor ([].bar = x in obj);\n\nfor ({}.bar = x in obj);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 1933
 }

@@ -29,6 +29,7 @@ function not_gen() { yield 3 + yield 4; }}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function not_gen() { yield 3 + yield 4; }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 16
             },
@@ -47,6 +49,7 @@ function not_gen() { yield 3 + yield 4; }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -63,10 +66,12 @@ function not_gen() { yield 3 + yield 4; }}
                                 "text": "yield",
                                 "rawText": "yield",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 26
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 26
                         },
@@ -79,12 +84,14 @@ function not_gen() { yield 3 + yield 4; }}
                                     "text": 3,
                                     "rawText": "3",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 28
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 30
                                 },
@@ -93,14 +100,17 @@ function not_gen() { yield 3 + yield 4; }}
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 36
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 36
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 36
                         },
@@ -111,24 +121,29 @@ function not_gen() { yield 3 + yield 4; }}
                                 "text": 4,
                                 "rawText": "4",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 38
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 36,
                             "end": 39
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 39
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 41
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 41
         }
@@ -137,6 +152,7 @@ function not_gen() { yield 3 + yield 4; }}
     "source": "function not_gen() { yield 3 + yield 4; }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }

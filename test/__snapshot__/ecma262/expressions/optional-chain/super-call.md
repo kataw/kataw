@@ -26,6 +26,7 @@ class x extends y {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -34,6 +35,7 @@ class x extends y {
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -45,6 +47,7 @@ class x extends y {
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -53,11 +56,13 @@ class x extends y {
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -80,6 +85,7 @@ class x extends y {
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 33
                                 },
@@ -89,6 +95,7 @@ class x extends y {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 35
                                 },
@@ -106,6 +113,7 @@ class x extends y {
                                                     "chainToken": {
                                                         "kind": 393240,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 47,
                                                         "end": 49
                                                     },
@@ -114,6 +122,7 @@ class x extends y {
                                                         "member": {
                                                             "kind": 4259935,
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 37,
                                                             "end": 47
                                                         },
@@ -122,10 +131,12 @@ class x extends y {
                                                             "text": "",
                                                             "rawText": "",
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 47,
                                                             "end": 47
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 2,
                                                         "start": 37,
                                                         "end": 47
                                                     },
@@ -143,58 +154,71 @@ class x extends y {
                                                                         "text": "foo",
                                                                         "rawText": "foo",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 50,
                                                                         "end": 53
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 50,
                                                                 "end": 53
                                                             },
                                                             "flags": 268435488,
+                                                            "transformFlags": 1,
                                                             "start": 49,
                                                             "end": 54
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 49,
                                                         "end": 54
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 37,
                                                     "end": 54
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 37,
                                                 "end": 54
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 37,
                                         "end": 54
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 58
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 58
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 58
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 58
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 60
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 60
         }
@@ -203,6 +227,7 @@ class x extends y {
     "source": "class x extends y {\n  constructor() {\n    super?.(foo)\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 60
 }

@@ -26,6 +26,7 @@
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
@@ -33,6 +34,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 5
                 },
@@ -43,12 +45,14 @@
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 7
                     },
                     "operatorToken": {
                         "kind": 99634,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 9
                     },
@@ -59,12 +63,14 @@
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "operatorToken": {
                             "kind": 134318643,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 13
                         },
@@ -75,12 +81,14 @@
                                 "text": "yield",
                                 "rawText": "yield",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 19
                             },
                             "operatorToken": {
                                 "kind": 35640,
                                 "flags": 96,
+                                "transformFlags": 32,
                                 "start": 19,
                                 "end": 21
                             },
@@ -89,26 +97,32 @@
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 23
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 23
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 23
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 23
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -117,6 +131,7 @@
     "source": "() => a + b - yield / 1",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }
@@ -126,7 +141,7 @@
 
 ```javascript
 
-() => a +  b -  yield /  1;
+() => a + b - yield / 1;
 ```
 
 ### Diagnostics

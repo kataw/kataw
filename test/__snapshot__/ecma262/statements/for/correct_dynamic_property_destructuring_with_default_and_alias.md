@@ -20,6 +20,7 @@ for (let {[x]: y = z} = a);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -28,6 +29,7 @@ for (let {[x]: y = z} = a);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
@@ -50,10 +52,12 @@ for (let {[x]: y = z} = a);
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 11,
                                                     "end": 12
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 13
                                             },
@@ -62,6 +66,7 @@ for (let {[x]: y = z} = a);
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 16
                                             },
@@ -70,20 +75,24 @@ for (let {[x]: y = z} = a);
                                                 "text": "z",
                                                 "rawText": "z",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 20
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 20
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 20
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 21
                             },
@@ -93,19 +102,23 @@ for (let {[x]: y = z} = a);
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 25
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 8,
                             "end": 25
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 25
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 25
             },
@@ -115,16 +128,19 @@ for (let {[x]: y = z} = a);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 25
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 27
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -133,6 +149,7 @@ for (let {[x]: y = z} = a);
     "source": "for (let {[x]: y = z} = a);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

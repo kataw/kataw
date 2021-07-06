@@ -36,16 +36,19 @@
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 2,
                                                 "end": 3
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 3
                                     },
                                     "flags": 32,
+                                    "transformFlags": 8,
                                     "start": 1,
                                     "end": 4
                                 },
@@ -54,10 +57,12 @@
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 8
                                 },
                                 "flags": 32,
+                                "transformFlags": 2,
                                 "start": 0,
                                 "end": 8
                             },
@@ -73,16 +78,19 @@
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 11,
                                                 "end": 12
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 12
                                     },
                                     "flags": 32,
+                                    "transformFlags": 8,
                                     "start": 9,
                                     "end": 13
                                 },
@@ -91,25 +99,30 @@
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 17
                                 },
                                 "flags": 32,
+                                "transformFlags": 2,
                                 "start": 0,
                                 "end": 17
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 18
                     },
                     "flags": 0,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 18
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
@@ -118,14 +131,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 22
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -134,6 +150,7 @@
     "source": "([x].foo, [x].foo) = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

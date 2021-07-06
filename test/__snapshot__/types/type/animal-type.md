@@ -34,6 +34,7 @@ type Animal =
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -42,6 +43,7 @@ type Animal =
                 "text": "Animal",
                 "rawText": "Animal",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 11
             },
@@ -49,6 +51,7 @@ type Animal =
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 13
             },
@@ -57,6 +60,7 @@ type Animal =
                 "bitwiseOrToken": {
                     "kind": 134251592,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 17
                 },
@@ -78,6 +82,7 @@ type Animal =
                                         "text": "type",
                                         "rawText": "type",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 23
                                     },
@@ -91,20 +96,24 @@ type Animal =
                                             "text": "insect",
                                             "rawText": "'insect'",
                                             "flags": 6291520,
+                                            "transformFlags": 0,
                                             "start": 24,
                                             "end": 33
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 33
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 33
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 34
                         },
@@ -122,6 +131,7 @@ type Animal =
                                         "text": "type",
                                         "rawText": "type",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 40,
                                         "end": 44
                                     },
@@ -135,20 +145,24 @@ type Animal =
                                             "text": "fish",
                                             "rawText": "'fish'",
                                             "flags": 6291520,
+                                            "transformFlags": 0,
                                             "start": 45,
                                             "end": 52
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 45,
                                         "end": 52
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 40,
                                     "end": 52
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 38,
                             "end": 53
                         },
@@ -166,6 +180,7 @@ type Animal =
                                         "text": "type",
                                         "rawText": "type",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 59,
                                         "end": 63
                                     },
@@ -179,20 +194,24 @@ type Animal =
                                             "text": "chinese",
                                             "rawText": "'chinese'",
                                             "flags": 6291520,
+                                            "transformFlags": 0,
                                             "start": 64,
                                             "end": 74
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 64,
                                         "end": 74
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 59,
                                     "end": 74
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 57,
                             "end": 75
                         },
@@ -210,6 +229,7 @@ type Animal =
                                         "text": "type",
                                         "rawText": "type",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 81,
                                         "end": 85
                                     },
@@ -223,33 +243,40 @@ type Animal =
                                             "text": "bird",
                                             "rawText": "'bird'",
                                             "flags": 6291520,
+                                            "transformFlags": 0,
                                             "start": 86,
                                             "end": 93
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 86,
                                         "end": 93
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 81,
                                     "end": 93
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 79,
                             "end": 94
                         }
                     ],
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 94
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 94
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 95
         }
@@ -258,6 +285,7 @@ type Animal =
     "source": "type Animal =\n  | {type: 'insect'}\n  | {type: 'fish'}\n  | {type: 'chinese'}\n  | {type: 'bird'};\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 96
 }

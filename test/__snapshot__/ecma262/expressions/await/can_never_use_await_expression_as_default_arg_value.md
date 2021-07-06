@@ -22,6 +22,7 @@ function call(foo=await bar){}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function call(foo=await bar){}
                 "text": "call",
                 "rawText": "call",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 13
             },
@@ -46,6 +48,7 @@ function call(foo=await bar){}
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 17
                         },
@@ -56,10 +59,12 @@ function call(foo=await bar){}
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 23
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 23
                     },
@@ -68,12 +73,14 @@ function call(foo=await bar){}
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 27
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 27
             },
@@ -84,15 +91,18 @@ function call(foo=await bar){}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 29
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 30
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -101,6 +111,7 @@ function call(foo=await bar){}
     "source": "function call(foo=await bar){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

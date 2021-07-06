@@ -22,12 +22,14 @@ function *f() {  return void yield;  }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -36,6 +38,7 @@ function *f() {  return void yield;  }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -45,6 +48,7 @@ function *f() {  return void yield;  }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -59,6 +63,7 @@ function *f() {  return void yield;  }
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 23
                             },
@@ -67,6 +72,7 @@ function *f() {  return void yield;  }
                                 "operandToken": {
                                     "kind": 138477615,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 28
                                 },
@@ -75,6 +81,7 @@ function *f() {  return void yield;  }
                                     "yieldKeyword": {
                                         "kind": 8454253,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 34
                                     },
@@ -82,28 +89,34 @@ function *f() {  return void yield;  }
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 34
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 34
                             },
                             "flags": 80,
+                            "transformFlags": 256,
                             "start": 15,
                             "end": 35
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 35
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 38
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         }
@@ -112,6 +125,7 @@ function *f() {  return void yield;  }
     "source": "function *f() {  return void yield;  }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }

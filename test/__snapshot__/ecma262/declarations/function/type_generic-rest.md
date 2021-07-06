@@ -34,6 +34,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -43,6 +44,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                 "text": "remove",
                 "rawText": "remove",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 15
             },
@@ -58,6 +60,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                 "text": "A",
                                 "rawText": "A",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 17
                             },
@@ -65,6 +68,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 17
                         },
@@ -75,6 +79,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                 "text": "B",
                                 "rawText": "B",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 20
                             },
@@ -82,16 +87,19 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 20
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 20
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 21
             },
@@ -106,6 +114,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 23
                         },
@@ -121,26 +130,31 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                     "text": "A",
                                     "rawText": "A",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 26
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 26
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 26
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 26
             },
@@ -155,6 +169,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                             "lexicalKeyword": {
                                 "kind": 37757004,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 52,
                                 "end": 60
                             },
@@ -173,6 +188,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                         "text": "p",
                                                         "rawText": "p",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 62,
                                                         "end": 63
                                                     },
@@ -181,6 +197,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                         "ellipsisToken": {
                                                             "kind": 524302,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 64,
                                                             "end": 68
                                                         },
@@ -189,6 +206,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                             "text": "o",
                                                             "rawText": "o",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 68,
                                                             "end": 69
                                                         },
@@ -196,16 +214,19 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                         "type": null,
                                                         "right": null,
                                                         "flags": 0,
+                                                        "transformFlags": 0,
                                                         "start": 64,
                                                         "end": 69
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 62,
                                                 "end": 69
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 60,
                                             "end": 70
                                         },
@@ -215,19 +236,23 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 72,
                                             "end": 74
                                         },
                                         "flags": 16,
+                                        "transformFlags": 128,
                                         "start": 60,
                                         "end": 74
                                     }
                                 ],
                                 "flags": 16777232,
+                                "transformFlags": 0,
                                 "start": 60,
                                 "end": 74
                             },
                             "flags": 33554448,
+                            "transformFlags": 0,
                             "start": 52,
                             "end": 75
                         },
@@ -236,6 +261,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 75,
                                 "end": 84
                             },
@@ -249,6 +275,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                             "text": "o",
                                             "rawText": "o",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 86,
                                             "end": 87
                                         },
@@ -257,29 +284,35 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                             "text": "p",
                                             "rawText": "p",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 88,
                                             "end": 90
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 86,
                                     "end": 90
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 84,
                                 "end": 91
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 75,
                             "end": 92
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 52,
                     "end": 92
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 50,
                 "end": 94
             },
@@ -301,6 +334,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                     "text": "$Rest",
                                     "rawText": "$Rest",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 35
                                 },
@@ -320,15 +354,18 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                         "text": "A",
                                                         "rawText": "A",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 36,
                                                         "end": 37
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 36,
                                                     "end": 37
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 36,
                                                 "end": 37
                                             },
@@ -350,6 +387,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                                 "text": "p",
                                                                 "rawText": "p",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 40,
                                                                 "end": 41
                                                             },
@@ -365,47 +403,57 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                                         "text": "B",
                                                                         "rawText": "B",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 42,
                                                                         "end": 44
                                                                     },
                                                                     "typeParameters": null,
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 42,
                                                                     "end": 44
                                                                 },
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 42,
                                                                 "end": 44
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 40,
                                                             "end": 44
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 38,
                                                     "end": 45
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 38,
                                                 "end": 45
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 36,
                                         "end": 45
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 46
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 46
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 46
                         },
@@ -420,29 +468,35 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                     "text": "B",
                                     "rawText": "B",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 47,
                                     "end": 49
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 47,
                                 "end": 49
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 47,
                             "end": 49
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 50
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 50
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 94
         }
@@ -451,6 +505,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
     "source": "function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {\n  const {p, ...o} = a;\n  return [o, p];\n}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 95
 }

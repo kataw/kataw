@@ -30,12 +30,14 @@ x = 0bxxxxxxxxx19;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -44,14 +46,17 @@ x = 0bxxxxxxxxx19;
                     "text": 1,
                     "rawText": "0bxxxxxxxxx19",
                     "flags": 524384,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 17
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -60,6 +65,7 @@ x = 0bxxxxxxxxx19;
     "source": "x = 0bxxxxxxxxx19;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

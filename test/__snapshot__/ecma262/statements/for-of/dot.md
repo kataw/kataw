@@ -20,6 +20,7 @@ for (async.x of y);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -31,6 +32,7 @@ for (async.x of y);
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 10
                 },
@@ -39,16 +41,19 @@ for (async.x of y);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 12
                 },
                 "flags": 96,
+                "transformFlags": 2,
                 "start": 5,
                 "end": 12
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 15
             },
@@ -57,16 +62,19 @@ for (async.x of y);
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 17
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -75,6 +83,7 @@ for (async.x of y);
     "source": "for (async.x of y);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

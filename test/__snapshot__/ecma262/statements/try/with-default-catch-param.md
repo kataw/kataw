@@ -28,6 +28,7 @@ try { } catch ([a = 0]) { }
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -37,10 +38,12 @@ try { } catch ([a = 0]) { }
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 7
             },
@@ -49,6 +52,7 @@ try { } catch ([a = 0]) { }
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 13
                 },
@@ -65,6 +69,7 @@ try { } catch ([a = 0]) { }
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 17
                                 },
@@ -75,20 +80,24 @@ try { } catch ([a = 0]) { }
                                     "text": 0,
                                     "rawText": "0",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 21
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 21
                             }
                         ],
                         "trailingComma": false,
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 21
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 22
                 },
@@ -98,20 +107,24 @@ try { } catch ([a = 0]) { }
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 25
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 27
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 27
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -120,6 +133,7 @@ try { } catch ([a = 0]) { }
     "source": "try { } catch ([a = 0]) { }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

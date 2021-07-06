@@ -37,6 +37,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
+                                    "transformFlags": 32,
                                     "start": 2,
                                     "end": 3
                                 },
@@ -49,6 +50,7 @@
                                         "text": "protected",
                                         "rawText": "protected",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 12
                                     },
@@ -61,6 +63,7 @@
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 14
                                             },
@@ -69,12 +72,14 @@
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 17
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 224,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 18
                                     },
@@ -86,36 +91,44 @@
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 20
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 21
                                     },
                                     "flags": 160,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 21
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 21
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 21
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 22
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -124,6 +137,7 @@
     "source": "({*protected(x, y) {}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

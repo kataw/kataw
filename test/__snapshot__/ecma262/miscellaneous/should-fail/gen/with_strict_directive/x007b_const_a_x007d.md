@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -41,6 +42,7 @@
                         "lexicalKeyword": {
                             "kind": 37757004,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 21
                         },
@@ -54,30 +56,36 @@
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 23
                                     },
                                     "type": null,
                                     "initializer": null,
                                     "flags": 16,
+                                    "transformFlags": 128,
                                     "start": 21,
                                     "end": 23
                                 }
                             ],
                             "flags": 16777232,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 23
                         },
                         "flags": 33554448,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 24
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 26
         }
@@ -86,6 +94,7 @@
     "source": "\"use strict\"; { const a; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

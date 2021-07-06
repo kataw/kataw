@@ -29,6 +29,7 @@ var y : {} = function (x: number): string { return "hi"; };
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var y : {} = function (x: number): string { return "hi"; };
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -54,10 +56,12 @@ var y : {} = function (x: number): string { return "hi"; };
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 10
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 10
                         },
@@ -67,6 +71,7 @@ var y : {} = function (x: number): string { return "hi"; };
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 21
                             },
@@ -84,6 +89,7 @@ var y : {} = function (x: number): string { return "hi"; };
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 24
                                         },
@@ -95,21 +101,25 @@ var y : {} = function (x: number): string { return "hi"; };
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 32
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 32
                                         },
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 32
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 32
                             },
@@ -124,6 +134,7 @@ var y : {} = function (x: number): string { return "hi"; };
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 43,
                                                 "end": 50
                                             },
@@ -132,19 +143,23 @@ var y : {} = function (x: number): string { return "hi"; };
                                                 "text": "hi",
                                                 "rawText": "\"hi\"",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 50,
                                                 "end": 55
                                             },
                                             "flags": 80,
+                                            "transformFlags": 256,
                                             "start": 43,
                                             "end": 56
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 56
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 58
                             },
@@ -155,27 +170,33 @@ var y : {} = function (x: number): string { return "hi"; };
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 41
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 41
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 58
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 58
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 58
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 59
         }
@@ -184,6 +205,7 @@ var y : {} = function (x: number): string { return "hi"; };
     "source": "var y : {} = function (x: number): string { return \"hi\"; };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 59
 }

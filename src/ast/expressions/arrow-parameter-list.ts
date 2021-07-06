@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { BindingElement } from './binding-element';
 import { Identifier } from './identifier-expr';
 
@@ -23,6 +23,7 @@ export function createArrowPatameterList(
     parameters,
     trailingComma,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

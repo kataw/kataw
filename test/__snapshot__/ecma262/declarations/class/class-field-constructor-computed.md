@@ -28,6 +28,7 @@ class Foo { static ['constructor'] = 1 }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -36,6 +37,7 @@ class Foo { static ['constructor'] = 1 }
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -59,10 +61,12 @@ class Foo { static ['constructor'] = 1 }
                                     "text": "constructor",
                                     "rawText": "'constructor'",
                                     "flags": 4194400,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 26
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 27
                             },
@@ -70,19 +74,23 @@ class Foo { static ['constructor'] = 1 }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 11,
                             "end": 27
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 27
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         },
@@ -93,6 +101,7 @@ class Foo { static ['constructor'] = 1 }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 36
             },
@@ -101,6 +110,7 @@ class Foo { static ['constructor'] = 1 }
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 36,
                 "end": 40
             },
@@ -124,10 +134,12 @@ class Foo { static ['constructor'] = 1 }
                                     "text": "constructor",
                                     "rawText": "'constructor'",
                                     "flags": 4194400,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 57
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 58
                             },
@@ -138,23 +150,28 @@ class Foo { static ['constructor'] = 1 }
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 60,
                                 "end": 62
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 42,
                             "end": 62
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 42,
                     "end": 62
                 },
                 "flags": 40,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 64
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 29,
             "end": 64
         },
@@ -165,6 +182,7 @@ class Foo { static ['constructor'] = 1 }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 64,
                 "end": 71
             },
@@ -173,6 +191,7 @@ class Foo { static ['constructor'] = 1 }
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 71,
                 "end": 75
             },
@@ -190,6 +209,7 @@ class Foo { static ['constructor'] = 1 }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 77,
                                 "end": 84
                             },
@@ -201,10 +221,12 @@ class Foo { static ['constructor'] = 1 }
                                     "text": "constructor",
                                     "rawText": "'constructor'",
                                     "flags": 4194400,
+                                    "transformFlags": 0,
                                     "start": 86,
                                     "end": 99
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 84,
                                 "end": 100
                             },
@@ -212,19 +234,23 @@ class Foo { static ['constructor'] = 1 }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 84,
                             "end": 100
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 77,
                     "end": 100
                 },
                 "flags": 75,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 102
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 64,
             "end": 102
         },
@@ -235,6 +261,7 @@ class Foo { static ['constructor'] = 1 }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 102,
                 "end": 109
             },
@@ -243,6 +270,7 @@ class Foo { static ['constructor'] = 1 }
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 109,
                 "end": 113
             },
@@ -260,6 +288,7 @@ class Foo { static ['constructor'] = 1 }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 115,
                                 "end": 122
                             },
@@ -271,10 +300,12 @@ class Foo { static ['constructor'] = 1 }
                                     "text": "constructor",
                                     "rawText": "'constructor'",
                                     "flags": 4194400,
+                                    "transformFlags": 0,
                                     "start": 124,
                                     "end": 137
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 122,
                                 "end": 138
                             },
@@ -285,23 +316,28 @@ class Foo { static ['constructor'] = 1 }
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 140,
                                 "end": 142
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 122,
                             "end": 142
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 115,
                     "end": 142
                 },
                 "flags": 113,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 144
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 102,
             "end": 144
         }
@@ -310,6 +346,7 @@ class Foo { static ['constructor'] = 1 }
     "source": "class Foo { ['constructor'] }\n\nclass Foo { ['constructor'] = 1 }\n\nclass Foo { static ['constructor'] }\n\nclass Foo { static ['constructor'] = 1 }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 144
 }

@@ -22,6 +22,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -41,6 +43,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -49,11 +52,13 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -76,6 +81,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 31
                                 },
@@ -85,6 +91,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 33
                                 },
@@ -100,6 +107,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                                 "lexicalKeyword": {
                                                     "kind": 41951307,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 35,
                                                     "end": 39
                                                 },
@@ -113,6 +121,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                                                 "text": "xx",
                                                                 "rawText": "xx",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 39,
                                                                 "end": 42
                                                             },
@@ -124,12 +133,14 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 44,
                                                                     "end": 46
                                                                 },
                                                                 "operatorToken": {
                                                                     "kind": 99634,
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 46,
                                                                     "end": 48
                                                                 },
@@ -138,23 +149,28 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 48,
                                                                     "end": 50
                                                                 },
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 44,
                                                                 "end": 50
                                                             },
                                                             "flags": 16,
+                                                            "transformFlags": 128,
                                                             "start": 39,
                                                             "end": 50
                                                         }
                                                     ],
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 39,
                                                     "end": 50
                                                 },
                                                 "flags": 33554448,
+                                                "transformFlags": 0,
                                                 "start": 35,
                                                 "end": 51
                                             },
@@ -165,6 +181,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                                     "member": {
                                                         "kind": 4259935,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 51,
                                                         "end": 57
                                                     },
@@ -173,44 +190,54 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                                         "text": "mom",
                                                         "rawText": "mom",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 58,
                                                         "end": 61
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 2,
                                                     "start": 51,
                                                     "end": 61
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 51,
                                                 "end": 62
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 35,
                                         "end": 62
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 64
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 64
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 64
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 64
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 66
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 66
         }
@@ -219,6 +246,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
     "source": "class x extends y { constructor() { let xx = x + x; super.mom; } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 66
 }
@@ -230,7 +258,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
 
 class x  extends y {
   constructor() {
-    let xx = x +  x;
+    let xx = x + x;
     super .mom;
   }
 }

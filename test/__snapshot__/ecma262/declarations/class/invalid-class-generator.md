@@ -25,6 +25,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -47,6 +48,7 @@
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 14
                                     },
@@ -54,27 +56,33 @@
                                     "type": null,
                                     "initializer": null,
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 8,
                                     "end": 14
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 14
                         },
                         "flags": 6,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 16
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 16
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -83,6 +91,7 @@
     "source": "(class { * foo })",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

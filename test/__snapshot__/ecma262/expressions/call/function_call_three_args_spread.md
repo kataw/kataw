@@ -24,6 +24,7 @@ foo(a, b, ...c)
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -35,6 +36,7 @@ foo(a, b, ...c)
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 5
                         },
@@ -43,6 +45,7 @@ foo(a, b, ...c)
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
@@ -51,6 +54,7 @@ foo(a, b, ...c)
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 13
                             },
@@ -59,24 +63,29 @@ foo(a, b, ...c)
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 14
                             },
                             "flags": 1073741856,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 14
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 14
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -85,6 +94,7 @@ foo(a, b, ...c)
     "source": "foo(a, b, ...c)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

@@ -40,18 +40,21 @@
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 2
                             },
                             "optionalToken": {
                                 "kind": 134217750,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 3
                             },
                             "type": null,
                             "right": null,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 3
                         },
@@ -63,24 +66,28 @@
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 6
                             },
                             "optionalToken": {
                                 "kind": 134217750,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 7
                             },
                             "type": null,
                             "right": null,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 7
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 8
                 },
@@ -88,6 +95,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
@@ -96,14 +104,17 @@
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 11
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -112,6 +123,7 @@
     "source": "(a?, b?)=>0;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

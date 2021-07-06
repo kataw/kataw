@@ -27,10 +27,12 @@ true: x
             "expression": {
                 "kind": 24752947,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 4
         },
@@ -41,10 +43,12 @@ true: x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 5,
             "end": 7
         }
@@ -53,6 +57,7 @@ true: x
     "source": "true: x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }

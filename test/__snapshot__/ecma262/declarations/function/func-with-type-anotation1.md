@@ -30,6 +30,7 @@ function g(a:number=1, e:number=1) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function g(a:number=1, e:number=1) {}
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -54,6 +56,7 @@ function g(a:number=1, e:number=1) {}
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
@@ -65,10 +68,12 @@ function g(a:number=1, e:number=1) {}
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 19
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 19
                         },
@@ -77,10 +82,12 @@ function g(a:number=1, e:number=1) {}
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 21
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 21
                     },
@@ -92,6 +99,7 @@ function g(a:number=1, e:number=1) {}
                             "text": "e",
                             "rawText": "e",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 24
                         },
@@ -103,10 +111,12 @@ function g(a:number=1, e:number=1) {}
                             "type": {
                                 "kind": 134234345,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 31
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 31
                         },
@@ -115,16 +125,19 @@ function g(a:number=1, e:number=1) {}
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 33
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 33
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 33
             },
@@ -135,15 +148,18 @@ function g(a:number=1, e:number=1) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 36,
                     "end": 36
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 37
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 37
         }
@@ -152,6 +168,7 @@ function g(a:number=1, e:number=1) {}
     "source": "function g(a:number=1, e:number=1) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }

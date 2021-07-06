@@ -26,6 +26,7 @@ export ...x = y
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -35,6 +36,7 @@ export ...x = y
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -47,12 +49,14 @@ export ...x = y
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 11
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
@@ -61,14 +65,17 @@ export ...x = y
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 10,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 15
         }
@@ -77,6 +84,7 @@ export ...x = y
     "source": "export ...x = y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

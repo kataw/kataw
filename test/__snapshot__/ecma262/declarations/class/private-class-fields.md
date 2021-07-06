@@ -25,6 +25,7 @@ class C { #aaa
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -33,6 +34,7 @@ class C { #aaa
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -54,6 +56,7 @@ class C { #aaa
                                 "text": "#aaa",
                                 "rawText": "#aaa",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 14
                             },
@@ -61,12 +64,14 @@ class C { #aaa
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 14
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 15
                         },
@@ -81,6 +86,7 @@ class C { #aaa
                                 "text": "#bbb",
                                 "rawText": "#bbb",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 20
                             },
@@ -88,19 +94,23 @@ class C { #aaa
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 15,
                             "end": 20
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 20
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         },
@@ -111,6 +121,7 @@ class C { #aaa
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 29
             },
@@ -119,6 +130,7 @@ class C { #aaa
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 31
             },
@@ -140,6 +152,7 @@ class C { #aaa
                                 "text": "#aaa",
                                 "rawText": "#aaa",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 38
                             },
@@ -147,6 +160,7 @@ class C { #aaa
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 33,
                             "end": 38
                         },
@@ -161,6 +175,7 @@ class C { #aaa
                                 "text": "#bbb",
                                 "rawText": "#bbb",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 44
                             },
@@ -168,19 +183,23 @@ class C { #aaa
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 38,
                             "end": 44
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 44
                 },
                 "flags": 31,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 46
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 22,
             "end": 46
         }
@@ -189,6 +208,7 @@ class C { #aaa
     "source": "class C { #aaa; #bbb }\n\nclass C { #aaa\n #bbb }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 46
 }

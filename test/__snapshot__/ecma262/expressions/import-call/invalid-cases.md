@@ -117,6 +117,7 @@ new import(x);
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -126,12 +127,14 @@ new import(x);
             "moduleSpecifier": null,
             "importClause": null,
             "flags": 81,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 8,
             "end": 9
         },
@@ -142,6 +145,7 @@ new import(x);
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 17
                 },
@@ -150,14 +154,17 @@ new import(x);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 18
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 9,
             "end": 20
         },
@@ -168,6 +175,7 @@ new import(x);
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 28
                 },
@@ -176,14 +184,17 @@ new import(x);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 29
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 20,
             "end": 30
         },
@@ -192,6 +203,7 @@ new import(x);
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 38
             },
@@ -201,12 +213,14 @@ new import(x);
             "moduleSpecifier": null,
             "importClause": null,
             "flags": 81,
+            "transformFlags": 0,
             "start": 30,
             "end": 38
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 39,
             "end": 40
         },
@@ -217,6 +231,7 @@ new import(x);
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 40,
                     "end": 48
                 },
@@ -225,14 +240,17 @@ new import(x);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 49,
                     "end": 49
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 48,
                 "end": 50
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 40,
             "end": 51
         },
@@ -243,6 +261,7 @@ new import(x);
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 51,
                     "end": 59
                 },
@@ -251,14 +270,17 @@ new import(x);
                     "text": "x;",
                     "rawText": "'x;",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 60,
                     "end": 63
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 59,
                 "end": 63
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 51,
             "end": 63
         },
@@ -269,6 +291,7 @@ new import(x);
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 63,
                     "end": 71
                 },
@@ -277,20 +300,24 @@ new import(x);
                     "text": "x",
                     "rawText": "'x'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 72,
                     "end": 75
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 71,
                 "end": 75
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 63,
             "end": 75
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 76,
             "end": 77
         },
@@ -299,6 +326,7 @@ new import(x);
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 77,
                 "end": 85
             },
@@ -308,6 +336,7 @@ new import(x);
             "moduleSpecifier": null,
             "importClause": null,
             "flags": 81,
+            "transformFlags": 0,
             "start": 77,
             "end": 85
         },
@@ -323,26 +352,31 @@ new import(x);
                             "text": "x",
                             "rawText": "'x'",
                             "flags": 4194400,
+                            "transformFlags": 0,
                             "start": 86,
                             "end": 89
                         }
                     ],
                     "trailingComma": false,
                     "flags": 4194336,
+                    "transformFlags": 0,
                     "start": 86,
                     "end": 89
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 85,
                 "end": 89
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 85,
             "end": 89
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 90,
             "end": 91
         },
@@ -351,6 +385,7 @@ new import(x);
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 91,
                 "end": 99
             },
@@ -360,6 +395,7 @@ new import(x);
             "moduleSpecifier": null,
             "importClause": null,
             "flags": 81,
+            "transformFlags": 0,
             "start": 91,
             "end": 99
         },
@@ -370,10 +406,12 @@ new import(x);
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 101,
                 "end": 103
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 101,
             "end": 104
         },
@@ -387,6 +425,7 @@ new import(x);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 104,
                             "end": 112
                         },
@@ -395,10 +434,12 @@ new import(x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 113,
                             "end": 114
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 112,
                         "end": 114
                     },
@@ -407,6 +448,7 @@ new import(x);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 115,
                         "end": 115
                     },
@@ -415,21 +457,25 @@ new import(x);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 116,
                         "end": 116
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 104,
                 "end": 116
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 104,
             "end": 116
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 117,
             "end": 118
         },
@@ -440,6 +486,7 @@ new import(x);
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 118,
                     "end": 126
                 },
@@ -448,20 +495,24 @@ new import(x);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 127,
                     "end": 128
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 126,
                 "end": 129
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 118,
             "end": 129
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 130,
             "end": 131
         },
@@ -475,6 +526,7 @@ new import(x);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 131,
                             "end": 139
                         },
@@ -483,10 +535,12 @@ new import(x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 140,
                             "end": 141
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 139,
                         "end": 141
                     },
@@ -495,21 +549,25 @@ new import(x);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 142,
                         "end": 142
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 131,
                 "end": 142
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 131,
             "end": 142
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 144,
             "end": 145
         },
@@ -523,6 +581,7 @@ new import(x);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 145,
                             "end": 153
                         },
@@ -531,10 +590,12 @@ new import(x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 154,
                             "end": 155
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 153,
                         "end": 155
                     },
@@ -543,21 +604,25 @@ new import(x);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 156,
                         "end": 156
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 145,
                 "end": 158
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 145,
             "end": 158
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 159,
             "end": 160
         },
@@ -571,6 +636,7 @@ new import(x);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 160,
                             "end": 168
                         },
@@ -579,10 +645,12 @@ new import(x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 169,
                             "end": 170
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 168,
                         "end": 170
                     },
@@ -591,6 +659,7 @@ new import(x);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 171,
                         "end": 172
                     },
@@ -599,6 +668,7 @@ new import(x);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 173,
                         "end": 173
                     },
@@ -607,21 +677,25 @@ new import(x);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 174,
                         "end": 174
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 160,
                 "end": 174
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 160,
             "end": 174
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 175,
             "end": 176
         },
@@ -635,6 +709,7 @@ new import(x);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 176,
                             "end": 184
                         },
@@ -643,10 +718,12 @@ new import(x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 185,
                             "end": 186
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 184,
                         "end": 186
                     },
@@ -655,6 +732,7 @@ new import(x);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 187,
                         "end": 188
                     },
@@ -663,21 +741,25 @@ new import(x);
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 189,
                         "end": 190
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 176,
                 "end": 190
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 176,
             "end": 190
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 191,
             "end": 192
         },
@@ -691,6 +773,7 @@ new import(x);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 192,
                             "end": 200
                         },
@@ -699,10 +782,12 @@ new import(x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 201,
                             "end": 202
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 200,
                         "end": 202
                     },
@@ -711,15 +796,18 @@ new import(x);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 203,
                         "end": 204
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 192,
                 "end": 204
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 192,
             "end": 205
         },
@@ -733,6 +821,7 @@ new import(x);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 205,
                             "end": 213
                         },
@@ -741,10 +830,12 @@ new import(x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 214,
                             "end": 215
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 213,
                         "end": 215
                     },
@@ -753,6 +844,7 @@ new import(x);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 216,
                         "end": 217
                     },
@@ -761,15 +853,18 @@ new import(x);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 218,
                         "end": 218
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 205,
                 "end": 218
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 205,
             "end": 219
         },
@@ -783,6 +878,7 @@ new import(x);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 219,
                             "end": 227
                         },
@@ -791,10 +887,12 @@ new import(x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 228,
                             "end": 229
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 227,
                         "end": 229
                     },
@@ -805,6 +903,7 @@ new import(x);
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 230,
                             "end": 231
                         },
@@ -813,19 +912,23 @@ new import(x);
                             "elements": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 232,
                             "end": 232
                         },
                         "flags": 268435488,
+                        "transformFlags": 1,
                         "start": 230,
                         "end": 232
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 219,
                 "end": 232
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 219,
             "end": 233
         },
@@ -834,6 +937,7 @@ new import(x);
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 233,
                 "end": 241
             },
@@ -843,6 +947,7 @@ new import(x);
             "moduleSpecifier": null,
             "importClause": null,
             "flags": 81,
+            "transformFlags": 0,
             "start": 233,
             "end": 241
         },
@@ -855,14 +960,17 @@ new import(x);
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 242,
                     "end": 242
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 241,
                 "end": 242
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 241,
             "end": 243
         },
@@ -871,6 +979,7 @@ new import(x);
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 243,
                 "end": 251
             },
@@ -880,6 +989,7 @@ new import(x);
             "moduleSpecifier": null,
             "importClause": null,
             "flags": 81,
+            "transformFlags": 0,
             "start": 243,
             "end": 251
         },
@@ -892,14 +1002,17 @@ new import(x);
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 252,
                     "end": 252
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 251,
                 "end": 253
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 251,
             "end": 254
         },
@@ -908,6 +1021,7 @@ new import(x);
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 254,
                 "end": 262
             },
@@ -917,12 +1031,14 @@ new import(x);
             "moduleSpecifier": null,
             "importClause": null,
             "flags": 81,
+            "transformFlags": 0,
             "start": 254,
             "end": 262
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 263,
             "end": 264
         },
@@ -931,6 +1047,7 @@ new import(x);
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 264,
                 "end": 272
             },
@@ -940,6 +1057,7 @@ new import(x);
             "moduleSpecifier": null,
             "importClause": null,
             "flags": 81,
+            "transformFlags": 0,
             "start": 264,
             "end": 272
         },
@@ -955,20 +1073,24 @@ new import(x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 273,
                             "end": 274
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 273,
                     "end": 274
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 272,
                 "end": 275
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 272,
             "end": 276
         },
@@ -977,6 +1099,7 @@ new import(x);
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 276,
                 "end": 284
             },
@@ -990,10 +1113,12 @@ new import(x);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 285,
                     "end": 285
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 285,
                 "end": 285
             },
@@ -1008,18 +1133,22 @@ new import(x);
                         "kind": 265,
                         "specifiers": [],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 285,
                         "end": 285
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 284,
                     "end": 285
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 276,
                 "end": 285
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 276,
             "end": 286
         },
@@ -1028,6 +1157,7 @@ new import(x);
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 286,
                 "end": 294
             },
@@ -1041,10 +1171,12 @@ new import(x);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 296,
                     "end": 296
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 296,
                 "end": 296
             },
@@ -1069,27 +1201,33 @@ new import(x);
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 295,
                                     "end": 296
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 295,
                                 "end": 296
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 295,
                         "end": 296
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 294,
                     "end": 296
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 286,
                 "end": 296
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 286,
             "end": 297
         },
@@ -1098,6 +1236,7 @@ new import(x);
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 297,
                 "end": 305
             },
@@ -1111,10 +1250,12 @@ new import(x);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 308,
                     "end": 308
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 308,
                 "end": 308
             },
@@ -1139,27 +1280,33 @@ new import(x);
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 306,
                                     "end": 307
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 306,
                                 "end": 307
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 306,
                         "end": 307
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 305,
                     "end": 308
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 297,
                 "end": 308
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 297,
             "end": 309
         },
@@ -1173,6 +1320,7 @@ new import(x);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 309,
                             "end": 317
                         },
@@ -1181,10 +1329,12 @@ new import(x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 318,
                             "end": 319
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 317,
                         "end": 319
                     },
@@ -1193,21 +1343,25 @@ new import(x);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 320,
                         "end": 322
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 309,
                 "end": 322
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 309,
             "end": 322
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 323,
             "end": 324
         },
@@ -1218,6 +1372,7 @@ new import(x);
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 324,
                     "end": 332
                 },
@@ -1226,14 +1381,17 @@ new import(x);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 333,
                     "end": 333
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 332,
                 "end": 333
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 324,
             "end": 333
         },
@@ -1244,16 +1402,19 @@ new import(x);
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 336,
                 "end": 337
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 336,
             "end": 337
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 338,
             "end": 339
         },
@@ -1267,6 +1428,7 @@ new import(x);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 339,
                             "end": 347
                         },
@@ -1275,10 +1437,12 @@ new import(x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 348,
                             "end": 349
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 347,
                         "end": 349
                     },
@@ -1287,21 +1451,25 @@ new import(x);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 350,
                         "end": 350
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 339,
                 "end": 350
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 339,
             "end": 350
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 351,
             "end": 352
         },
@@ -1315,6 +1483,7 @@ new import(x);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 352,
                             "end": 360
                         },
@@ -1323,10 +1492,12 @@ new import(x);
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 361,
                             "end": 361
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 360,
                         "end": 361
                     },
@@ -1335,21 +1506,25 @@ new import(x);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 362,
                         "end": 362
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 352,
                 "end": 362
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 352,
             "end": 362
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 363,
             "end": 364
         },
@@ -1363,6 +1538,7 @@ new import(x);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 364,
                             "end": 372
                         },
@@ -1371,10 +1547,12 @@ new import(x);
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 373,
                             "end": 373
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 372,
                         "end": 373
                     },
@@ -1383,21 +1561,25 @@ new import(x);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 374,
                         "end": 375
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 364,
                 "end": 375
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 364,
             "end": 375
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 376,
             "end": 377
         },
@@ -1408,6 +1590,7 @@ new import(x);
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 377,
                     "end": 385
                 },
@@ -1416,20 +1599,24 @@ new import(x);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 386,
                     "end": 386
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 385,
                 "end": 386
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 377,
             "end": 387
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 388,
             "end": 389
         },
@@ -1445,6 +1632,7 @@ new import(x);
                             "importKeyword": {
                                 "kind": 37814364,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 392,
                                 "end": 398
                             },
@@ -1453,24 +1641,29 @@ new import(x);
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 399,
                                 "end": 399
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 398,
                             "end": 399
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 392,
                     "end": 399
                 },
                 "flags": 33,
+                "transformFlags": 8,
                 "start": 389,
                 "end": 399
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 389,
             "end": 400
         },
@@ -1484,6 +1677,7 @@ new import(x);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 403,
                             "end": 409
                         },
@@ -1493,21 +1687,25 @@ new import(x);
                         "moduleSpecifier": null,
                         "importClause": null,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 403,
                         "end": 409
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 403,
                 "end": 409
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 400,
             "end": 410
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 410,
             "end": 411
         },
@@ -1516,6 +1714,7 @@ new import(x);
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 411,
                 "end": 419
             },
@@ -1525,6 +1724,7 @@ new import(x);
             "moduleSpecifier": null,
             "importClause": null,
             "flags": 81,
+            "transformFlags": 0,
             "start": 411,
             "end": 419
         },
@@ -1535,6 +1735,7 @@ new import(x);
                 "operandToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 419,
                     "end": 420
                 },
@@ -1543,14 +1744,17 @@ new import(x);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 420,
                     "end": 420
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 419,
                 "end": 420
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 419,
             "end": 421
         },
@@ -1559,6 +1763,7 @@ new import(x);
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 421,
                 "end": 429
             },
@@ -1568,6 +1773,7 @@ new import(x);
             "moduleSpecifier": null,
             "importClause": null,
             "flags": 81,
+            "transformFlags": 0,
             "start": 421,
             "end": 429
         },
@@ -1578,10 +1784,12 @@ new import(x);
                 "text": 1,
                 "rawText": "1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 431,
                 "end": 433
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 431,
             "end": 434
         },
@@ -1592,15 +1800,18 @@ new import(x);
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 434,
                     "end": 442
                 },
                 "metaIdentifier": null,
                 "flags": 442,
+                "transformFlags": 0,
                 "start": 96,
                 "end": 443
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 434,
             "end": 443
         },
@@ -1611,10 +1822,12 @@ new import(x);
                 "text": "wat",
                 "rawText": "wat",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 443,
                 "end": 446
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 443,
             "end": 447
         },
@@ -1628,6 +1841,7 @@ new import(x);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 447,
                             "end": 455
                         },
@@ -1636,10 +1850,12 @@ new import(x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 456,
                             "end": 457
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 455,
                         "end": 457
                     },
@@ -1648,6 +1864,7 @@ new import(x);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 458,
                         "end": 458
                     },
@@ -1656,21 +1873,25 @@ new import(x);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 459,
                         "end": 459
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 447,
                 "end": 459
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 447,
             "end": 459
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 460,
             "end": 461
         },
@@ -1681,6 +1902,7 @@ new import(x);
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 461,
                     "end": 469
                 },
@@ -1689,20 +1911,24 @@ new import(x);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 470,
                     "end": 471
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 469,
                 "end": 472
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 461,
             "end": 472
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 473,
             "end": 474
         },
@@ -1716,6 +1942,7 @@ new import(x);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 474,
                             "end": 482
                         },
@@ -1724,10 +1951,12 @@ new import(x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 483,
                             "end": 484
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 482,
                         "end": 484
                     },
@@ -1736,21 +1965,25 @@ new import(x);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 485,
                         "end": 485
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 474,
                 "end": 485
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 474,
             "end": 485
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 487,
             "end": 488
         },
@@ -1764,6 +1997,7 @@ new import(x);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 488,
                             "end": 496
                         },
@@ -1772,10 +2006,12 @@ new import(x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 497,
                             "end": 498
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 496,
                         "end": 498
                     },
@@ -1784,21 +2020,25 @@ new import(x);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 499,
                         "end": 499
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 488,
                 "end": 501
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 488,
             "end": 501
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 502,
             "end": 503
         },
@@ -1812,6 +2052,7 @@ new import(x);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 503,
                             "end": 511
                         },
@@ -1820,10 +2061,12 @@ new import(x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 512,
                             "end": 513
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 511,
                         "end": 513
                     },
@@ -1832,6 +2075,7 @@ new import(x);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 514,
                         "end": 515
                     },
@@ -1840,6 +2084,7 @@ new import(x);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 516,
                         "end": 516
                     },
@@ -1848,21 +2093,25 @@ new import(x);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 517,
                         "end": 517
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 503,
                 "end": 517
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 503,
             "end": 517
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 518,
             "end": 519
         },
@@ -1876,6 +2125,7 @@ new import(x);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 519,
                             "end": 527
                         },
@@ -1884,10 +2134,12 @@ new import(x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 528,
                             "end": 529
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 527,
                         "end": 529
                     },
@@ -1896,6 +2148,7 @@ new import(x);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 530,
                         "end": 531
                     },
@@ -1904,21 +2157,25 @@ new import(x);
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 532,
                         "end": 533
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 519,
                 "end": 533
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 519,
             "end": 533
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 534,
             "end": 535
         },
@@ -1932,6 +2189,7 @@ new import(x);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 535,
                             "end": 543
                         },
@@ -1940,10 +2198,12 @@ new import(x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 544,
                             "end": 545
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 543,
                         "end": 545
                     },
@@ -1952,15 +2212,18 @@ new import(x);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 546,
                         "end": 547
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 535,
                 "end": 547
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 535,
             "end": 548
         },
@@ -1974,6 +2237,7 @@ new import(x);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 548,
                             "end": 556
                         },
@@ -1982,10 +2246,12 @@ new import(x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 557,
                             "end": 558
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 556,
                         "end": 558
                     },
@@ -1994,6 +2260,7 @@ new import(x);
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 559,
                         "end": 560
                     },
@@ -2002,15 +2269,18 @@ new import(x);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 561,
                         "end": 561
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 548,
                 "end": 561
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 548,
             "end": 562
         },
@@ -2024,6 +2294,7 @@ new import(x);
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 562,
                             "end": 570
                         },
@@ -2032,10 +2303,12 @@ new import(x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 571,
                             "end": 572
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 570,
                         "end": 572
                     },
@@ -2046,6 +2319,7 @@ new import(x);
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 573,
                             "end": 574
                         },
@@ -2054,19 +2328,23 @@ new import(x);
                             "elements": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 575,
                             "end": 575
                         },
                         "flags": 268435488,
+                        "transformFlags": 1,
                         "start": 573,
                         "end": 575
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 562,
                 "end": 575
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 562,
             "end": 576
         },
@@ -2077,6 +2355,7 @@ new import(x);
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 576,
                     "end": 581
                 },
@@ -2085,6 +2364,7 @@ new import(x);
                     "importKeyword": {
                         "kind": 37814364,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 581,
                         "end": 588
                     },
@@ -2093,19 +2373,23 @@ new import(x);
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 589,
                         "end": 590
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 588,
                     "end": 591
                 },
                 "argumentList": null,
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 576,
                 "end": 591
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 576,
             "end": 592
         }
@@ -2114,6 +2398,7 @@ new import(x);
     "source": "\nimport);\n\nimport();\n\nimport(;\n\nimport);\n\nimport();\n\nimport('x;\n\nimport('x'];\n\nimport['x');\n\nimport = x;\n\nimport(x,,);\n\nimport(x));\n\nimport(x,));\n\nimport(x,());\n\nimport(x,y,,);\n\nimport(x,y,z);\n\nimport(x,y;\n\nimport(x,y,;\n\nimport(x,y(;\n\nimport[;\n\nimport[];\n\nimport];\n\nimport[x];\n\nimport{;\n\nimport{x;\n\nimport{x};\n\nimport(x, y);\n\nimport(...y);\n\nimport(x,);\n\nimport(,);\n\nimport(,y);\n\nimport(;);\n\n[import];\n\n{import};\n\nimport+;\n\nimport = 1;\n\nimport.wat;\n\nimport(x,,);\n\nimport(x));\n\nimport(x,));\n\nimport(x,());\n\nimport(x,y,,);\n\nimport(x,y,z);\n\nimport(x,y;\n\nimport(x,y,;\n\nimport(x,y(;\n\nnew import(x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 592
 }

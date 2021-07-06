@@ -33,12 +33,14 @@ async <T, U>(x)
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 5
                         },
                         "operatorToken": {
                             "kind": 536971330,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
@@ -47,10 +49,12 @@ async <T, U>(x)
                             "text": "T",
                             "rawText": "T",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 8
                     },
@@ -61,12 +65,14 @@ async <T, U>(x)
                             "text": "U",
                             "rawText": "U",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "operatorToken": {
                             "kind": 34883,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
@@ -77,23 +83,28 @@ async <T, U>(x)
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 14
                             },
                             "flags": 12,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 15
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 15
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -102,6 +113,7 @@ async <T, U>(x)
     "source": "async <T, U>(x)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -111,7 +123,7 @@ async <T, U>(x)
 
 ```javascript
 
-async  <  T, U >  (x);
+async  < T, U > (x);
 ```
 
 ### Diagnostics

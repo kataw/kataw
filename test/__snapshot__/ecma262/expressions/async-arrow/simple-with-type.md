@@ -28,6 +28,7 @@ async (s: any) => x
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -43,6 +44,7 @@ async (s: any) => x
                             "text": "s",
                             "rawText": "s",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         },
@@ -54,21 +56,25 @@ async (s: any) => x
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 13
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 13
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 13
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 14
             },
@@ -76,6 +82,7 @@ async (s: any) => x
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 17
             },
@@ -84,10 +91,12 @@ async (s: any) => x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -96,6 +105,7 @@ async (s: any) => x
     "source": "async (s: any) => x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

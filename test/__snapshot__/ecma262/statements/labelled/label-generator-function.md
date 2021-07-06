@@ -22,12 +22,14 @@ label: function * x (){}
                 "text": "label",
                 "rawText": "label",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 6
             },
@@ -38,12 +40,14 @@ label: function * x (){}
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 15
                 },
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
+                    "transformFlags": 32,
                     "start": 15,
                     "end": 17
                 },
@@ -52,6 +56,7 @@ label: function * x (){}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
@@ -61,6 +66,7 @@ label: function * x (){}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 21
                 },
@@ -71,19 +77,23 @@ label: function * x (){}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 23
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 24
                 },
                 "returnType": null,
                 "flags": 272,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -92,6 +102,7 @@ label: function * x (){}
     "source": "label: function * x (){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

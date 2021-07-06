@@ -34,6 +34,7 @@
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 2
                     },
@@ -42,18 +43,22 @@
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 4
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 0,
                     "end": 5
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         },
@@ -68,6 +73,7 @@
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 10
                     },
@@ -78,22 +84,27 @@
                             "properties": [],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 12
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 11,
                         "end": 13
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 7,
                     "end": 14
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 7,
             "end": 16
         },
@@ -108,6 +119,7 @@
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 19
                     },
@@ -118,22 +130,27 @@
                             "elements": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 21
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 20,
                         "end": 22
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 16,
                     "end": 23
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 16,
             "end": 25
         },
@@ -148,6 +165,7 @@
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 27,
                         "end": 28
                     },
@@ -156,18 +174,22 @@
                         "text": 1,
                         "rawText": "1",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 30
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 25,
                     "end": 31
                 },
                 "flags": 25,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 25,
             "end": 33
         },
@@ -183,6 +205,7 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 36,
                             "end": 37
                         },
@@ -193,6 +216,7 @@
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 40
                             },
@@ -201,23 +225,28 @@
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 42
                             },
                             "flags": 536870944,
+                            "transformFlags": 4,
                             "start": 33,
                             "end": 43
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 44
                 },
                 "flags": 33,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 44
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 33,
             "end": 45
         },
@@ -233,6 +262,7 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 47,
                             "end": 48
                         },
@@ -243,6 +273,7 @@
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 49,
                                 "end": 51
                             },
@@ -253,27 +284,33 @@
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 53,
                                     "end": 53
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 52,
                                 "end": 54
                             },
                             "flags": 536870944,
+                            "transformFlags": 4,
                             "start": 45,
                             "end": 55
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 45,
                     "end": 56
                 },
                 "flags": 45,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 56
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 45,
             "end": 57
         },
@@ -289,6 +326,7 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 59,
                             "end": 60
                         },
@@ -299,6 +337,7 @@
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 61,
                                 "end": 63
                             },
@@ -309,27 +348,33 @@
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 65,
                                     "end": 65
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 64,
                                 "end": 66
                             },
                             "flags": 536870944,
+                            "transformFlags": 4,
                             "start": 57,
                             "end": 67
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 57,
                     "end": 68
                 },
                 "flags": 57,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 68
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 57,
             "end": 69
         },
@@ -345,6 +390,7 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 71,
                             "end": 72
                         },
@@ -355,6 +401,7 @@
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 73,
                                 "end": 75
                             },
@@ -363,23 +410,28 @@
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 76,
                                 "end": 77
                             },
                             "flags": 536870944,
+                            "transformFlags": 4,
                             "start": 69,
                             "end": 78
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 69,
                     "end": 79
                 },
                 "flags": 69,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 79
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 69,
             "end": 80
         }
@@ -388,6 +440,7 @@
     "source": "(a[b]);\n(a[{}]);\n(a[[]]);\n(a[1]);\n\n(x, a[b]);\n(x, a[{}]);\n(x, a[[]]);\n(x, a[1]);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 80
 }

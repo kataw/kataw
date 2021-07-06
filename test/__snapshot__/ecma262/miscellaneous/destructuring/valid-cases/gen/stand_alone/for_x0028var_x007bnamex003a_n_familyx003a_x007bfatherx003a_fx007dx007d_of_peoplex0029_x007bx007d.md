@@ -27,6 +27,7 @@ for (var {name: n, family: {father: f}} of people) {}
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,6 +37,7 @@ for (var {name: n, family: {father: f}} of people) {}
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -56,6 +58,7 @@ for (var {name: n, family: {father: f}} of people) {}
                                                 "text": "name",
                                                 "rawText": "name",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 14
                                             },
@@ -64,11 +67,13 @@ for (var {name: n, family: {father: f}} of people) {}
                                                 "text": "n",
                                                 "rawText": "n",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 17
                                             },
                                             "initializer": null,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 17
                                         },
@@ -79,6 +84,7 @@ for (var {name: n, family: {father: f}} of people) {}
                                                 "text": "family",
                                                 "rawText": "family",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 25
                                             },
@@ -94,6 +100,7 @@ for (var {name: n, family: {father: f}} of people) {}
                                                                 "text": "father",
                                                                 "rawText": "father",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 28,
                                                                 "end": 34
                                                             },
@@ -102,57 +109,68 @@ for (var {name: n, family: {father: f}} of people) {}
                                                                 "text": "f",
                                                                 "rawText": "f",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 35,
                                                                 "end": 37
                                                             },
                                                             "initializer": null,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 28,
                                                             "end": 37
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 28,
                                                     "end": 37
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 38
                                             },
                                             "initializer": null,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 38
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 38
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 39
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 8,
                             "end": 39
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 39
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 42
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 42
             },
@@ -161,6 +179,7 @@ for (var {name: n, family: {father: f}} of people) {}
                 "text": "people",
                 "rawText": "people",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 42,
                 "end": 49
             },
@@ -170,14 +189,17 @@ for (var {name: n, family: {father: f}} of people) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 52,
                     "end": 52
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 50,
                 "end": 53
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 53
         }
@@ -186,6 +208,7 @@ for (var {name: n, family: {father: f}} of people) {}
     "source": "for (var {name: n, family: {father: f}} of people) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 53
 }

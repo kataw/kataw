@@ -27,6 +27,7 @@
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 16464,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
@@ -37,6 +38,7 @@
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 21
                 },
@@ -45,10 +47,12 @@
                     "text": "./foo.js",
                     "rawText": "'./foo.js'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 32
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 32
             },
@@ -60,16 +64,19 @@
                     "text": "blah",
                     "rawText": "blah",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 16
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 16
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -78,6 +85,7 @@
     "source": "\\u0069mport blah from './foo.js';",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

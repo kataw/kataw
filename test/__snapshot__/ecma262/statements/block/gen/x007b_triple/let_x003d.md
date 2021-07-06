@@ -46,12 +46,14 @@
                                                         "text": "let",
                                                         "rawText": "let",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 5,
                                                         "end": 9
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 9,
                                                         "end": 12
                                                     },
@@ -60,41 +62,50 @@
                                                         "text": "",
                                                         "rawText": "",
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 12,
                                                         "end": 12
                                                     },
                                                     "flags": 0,
+                                                    "transformFlags": 128,
                                                     "start": 5,
                                                     "end": 12
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 5,
                                                 "end": 12
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 12
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 12
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 12
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 12
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -103,6 +114,7 @@
     "source": "{ { { let  =",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

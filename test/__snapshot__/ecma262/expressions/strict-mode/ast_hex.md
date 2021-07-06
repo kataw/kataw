@@ -22,10 +22,12 @@
                 "text": "use strict",
                 "rawText": "\"use\\u0020strict\"",
                 "flags": 16480,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -34,6 +36,7 @@
     "source": "\"use\\u0020strict\";",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

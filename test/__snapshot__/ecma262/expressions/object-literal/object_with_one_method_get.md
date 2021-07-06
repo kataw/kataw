@@ -24,6 +24,7 @@ wrap({get(){}});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
@@ -48,6 +49,7 @@ wrap({get(){}});
                                                 "text": "get",
                                                 "rawText": "get",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 9
                                             },
@@ -57,6 +59,7 @@ wrap({get(){}});
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 11
                                             },
@@ -68,42 +71,51 @@ wrap({get(){}});
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 12,
                                                     "end": 12
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 11,
                                                 "end": 13
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 13
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 13
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 13
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 5,
                             "end": 14
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 14
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -112,6 +124,7 @@ wrap({get(){}});
     "source": "wrap({get(){}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

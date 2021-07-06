@@ -29,6 +29,7 @@ type x = { get (): string }
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type x = { get (): string }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type x = { get (): string }
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -65,6 +68,7 @@ type x = { get (): string }
                                 "text": "get",
                                 "rawText": "get",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 14
                             },
@@ -76,6 +80,7 @@ type x = { get (): string }
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 16
                                 },
@@ -86,33 +91,40 @@ type x = { get (): string }
                                     "type": {
                                         "kind": 134234347,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 25
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 25
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 25
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 25
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 27
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 27
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -121,6 +133,7 @@ type x = { get (): string }
     "source": "type x = { get (): string }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

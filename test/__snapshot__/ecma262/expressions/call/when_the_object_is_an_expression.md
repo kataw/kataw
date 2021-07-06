@@ -22,6 +22,7 @@ async({a})
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,26 +39,31 @@ async({a})
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 8
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 6,
                         "end": 9
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 0
             },
             "flags": 268435490,
+            "transformFlags": 1,
             "start": 0,
             "end": 10
         }
@@ -66,6 +72,7 @@ async({a})
     "source": "async({a})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

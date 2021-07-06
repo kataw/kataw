@@ -42,6 +42,7 @@ const bem = block =>
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 156
             },
@@ -55,6 +56,7 @@ const bem = block =>
                             "text": "bem",
                             "rawText": "bem",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 156,
                             "end": 160
                         },
@@ -68,6 +70,7 @@ const bem = block =>
                                 "text": "block",
                                 "rawText": "block",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 162,
                                 "end": 168
                             },
@@ -75,6 +78,7 @@ const bem = block =>
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 168,
                                 "end": 171
                             },
@@ -87,6 +91,7 @@ const bem = block =>
                                     "text": "element",
                                     "rawText": "element",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 171,
                                     "end": 326
                                 },
@@ -94,6 +99,7 @@ const bem = block =>
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 326,
                                     "end": 329
                                 },
@@ -106,6 +112,7 @@ const bem = block =>
                                         "text": "modifier",
                                         "rawText": "modifier",
                                         "flags": 97,
+                                        "transformFlags": 0,
                                         "start": 329,
                                         "end": 518
                                     },
@@ -113,6 +120,7 @@ const bem = block =>
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 518,
                                         "end": 521
                                     },
@@ -130,6 +138,7 @@ const bem = block =>
                                                             "text": ".",
                                                             "rawText": "\".\"",
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 529,
                                                             "end": 541
                                                         },
@@ -140,6 +149,7 @@ const bem = block =>
                                                                 "text": "css",
                                                                 "rawText": "css",
                                                                 "flags": 97,
+                                                                "transformFlags": 0,
                                                                 "start": 542,
                                                                 "end": 554
                                                             },
@@ -151,16 +161,19 @@ const bem = block =>
                                                                         "text": "block",
                                                                         "rawText": "block",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 555,
                                                                         "end": 560
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 555,
                                                                 "end": 560
                                                             },
                                                             "flags": 268435488,
+                                                            "transformFlags": 1,
                                                             "start": 542,
                                                             "end": 561
                                                         },
@@ -171,12 +184,14 @@ const bem = block =>
                                                                 "text": "element",
                                                                 "rawText": "element",
                                                                 "flags": 97,
+                                                                "transformFlags": 0,
                                                                 "start": 562,
                                                                 "end": 578
                                                             },
                                                             "questionToken": {
                                                                 "kind": 134217750,
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 578,
                                                                 "end": 580
                                                             },
@@ -194,6 +209,7 @@ const bem = block =>
                                                                                 "text": "css",
                                                                                 "rawText": "css",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 586,
                                                                                 "end": 589
                                                                             },
@@ -205,20 +221,24 @@ const bem = block =>
                                                                                         "text": "element",
                                                                                         "rawText": "element",
                                                                                         "flags": 96,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 590,
                                                                                         "end": 597
                                                                                     }
                                                                                 ],
                                                                                 "trailingComma": false,
                                                                                 "flags": 32,
+                                                                                "transformFlags": 0,
                                                                                 "start": 590,
                                                                                 "end": 597
                                                                             },
                                                                             "flags": 268435488,
+                                                                            "transformFlags": 1,
                                                                             "start": 586,
                                                                             "end": 598
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 580,
                                                                         "end": 598
                                                                     }
@@ -228,16 +248,19 @@ const bem = block =>
                                                                     "text": "",
                                                                     "rawText": "",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 598,
                                                                     "end": 600
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 580,
                                                                 "end": 600
                                                             },
                                                             "colonToken": {
                                                                 "kind": 21,
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 600,
                                                                 "end": 602
                                                             },
@@ -246,10 +269,12 @@ const bem = block =>
                                                                 "text": "",
                                                                 "rawText": "\"\"",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 602,
                                                                 "end": 605
                                                             },
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 562,
                                                             "end": 605
                                                         },
@@ -260,12 +285,14 @@ const bem = block =>
                                                                 "text": "modifier",
                                                                 "rawText": "modifier",
                                                                 "flags": 97,
+                                                                "transformFlags": 0,
                                                                 "start": 606,
                                                                 "end": 623
                                                             },
                                                             "questionToken": {
                                                                 "kind": 134217750,
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 623,
                                                                 "end": 625
                                                             },
@@ -283,6 +310,7 @@ const bem = block =>
                                                                                 "text": "css",
                                                                                 "rawText": "css",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 631,
                                                                                 "end": 634
                                                                             },
@@ -294,20 +322,24 @@ const bem = block =>
                                                                                         "text": "modifier",
                                                                                         "rawText": "modifier",
                                                                                         "flags": 96,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 635,
                                                                                         "end": 643
                                                                                     }
                                                                                 ],
                                                                                 "trailingComma": false,
                                                                                 "flags": 32,
+                                                                                "transformFlags": 0,
                                                                                 "start": 635,
                                                                                 "end": 643
                                                                             },
                                                                             "flags": 268435488,
+                                                                            "transformFlags": 1,
                                                                             "start": 631,
                                                                             "end": 644
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 625,
                                                                         "end": 644
                                                                     }
@@ -317,16 +349,19 @@ const bem = block =>
                                                                     "text": "",
                                                                     "rawText": "",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 644,
                                                                     "end": 646
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 625,
                                                                 "end": 646
                                                             },
                                                             "colonToken": {
                                                                 "kind": 21,
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 646,
                                                                 "end": 648
                                                             },
@@ -335,20 +370,24 @@ const bem = block =>
                                                                 "text": "",
                                                                 "rawText": "\"\"",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 648,
                                                                 "end": 651
                                                             },
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 606,
                                                             "end": 651
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 33,
+                                                    "transformFlags": 0,
                                                     "start": 529,
                                                     "end": 651
                                                 },
                                                 "flags": 33,
+                                                "transformFlags": 8,
                                                 "start": 521,
                                                 "end": 659
                                             },
@@ -357,10 +396,12 @@ const bem = block =>
                                                 "text": "join",
                                                 "rawText": "join",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 660,
                                                 "end": 664
                                             },
                                             "flags": 33,
+                                            "transformFlags": 2,
                                             "start": 521,
                                             "end": 664
                                         },
@@ -372,41 +413,50 @@ const bem = block =>
                                                     "text": "",
                                                     "rawText": "\"\"",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 665,
                                                     "end": 667
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 665,
                                             "end": 667
                                         },
                                         "flags": 268435488,
+                                        "transformFlags": 1,
                                         "start": 521,
                                         "end": 668
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 329,
                                     "end": 668
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 171,
                                 "end": 668
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 162,
                             "end": 668
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 156,
                         "end": 668
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 156,
                 "end": 668
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 669
         }
@@ -415,6 +465,7 @@ const bem = block =>
     "source": "/**\n * Curried function that ends with a BEM CSS Selector\n *\n * @param {String} block - the BEM Block you'd like to select.\n * @returns {Function}\n */\nconst bem = block =>\n  /**\n   * @param {String} [element] - the BEM Element within that block; if undefined, selects the block itself.\n   * @returns {Function}\n   */\n  element =>\n    /**\n     * @param {?String} [modifier] - the BEM Modifier for the Block or Element; if undefined, selects the Block or Element unmodified.\n     * @returns {String}\n     */\n    modifier =>\n      [\n        \".\",\n        css(block),\n        element ? `__${css(element)}` : \"\",\n        modifier ? `--${css(modifier)}` : \"\"\n      ].join(\"\");",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 669
 }

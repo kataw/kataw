@@ -22,6 +22,7 @@ const t = () => ({
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -35,6 +36,7 @@ const t = () => ({
                             "text": "t",
                             "rawText": "t",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
@@ -48,6 +50,7 @@ const t = () => ({
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 11
                             },
@@ -55,6 +58,7 @@ const t = () => ({
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 15
                             },
@@ -73,6 +77,7 @@ const t = () => ({
                                                     "text": "v",
                                                     "rawText": "v",
                                                     "flags": 97,
+                                                    "transformFlags": 0,
                                                     "start": 18,
                                                     "end": 22
                                                 },
@@ -88,12 +93,14 @@ const t = () => ({
                                                                 "text": "v",
                                                                 "rawText": "v",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 25,
                                                                 "end": 26
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 25,
                                                         "end": 27
                                                     },
@@ -101,6 +108,7 @@ const t = () => ({
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 27,
                                                         "end": 30
                                                     },
@@ -111,12 +119,14 @@ const t = () => ({
                                                             "text": "v",
                                                             "rawText": "v",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 30,
                                                             "end": 32
                                                         },
                                                         "operatorToken": {
                                                             "kind": 21006388,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 32,
                                                             "end": 35
                                                         },
@@ -125,49 +135,60 @@ const t = () => ({
                                                             "text": "z",
                                                             "rawText": "z",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 35,
                                                             "end": 37
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 30,
                                                         "end": 37
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 23,
                                                     "end": 37
                                                 },
                                                 "flags": 33,
+                                                "transformFlags": 128,
                                                 "start": 18,
                                                 "end": 37
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 17,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 37
                                     },
                                     "flags": 49,
+                                    "transformFlags": 8,
                                     "start": 17,
                                     "end": 39
                                 },
                                 "flags": 15,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 40
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 40
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 5,
                         "end": 40
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 40
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -176,6 +197,7 @@ const t = () => ({
     "source": "const t = () => ({\n  v: (v) => v in z\n})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }
@@ -186,7 +208,7 @@ const t = () => ({
 ```javascript
 
 const t = () => ({
-        v: (v) => v in  z
+        v: (v) => v in z
       });
 ```
 

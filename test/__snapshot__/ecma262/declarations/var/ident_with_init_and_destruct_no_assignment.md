@@ -29,6 +29,7 @@ var x = y, {z};
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var x = y, {z};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -51,10 +53,12 @@ var x = y, {z};
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 9
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 9
                     },
@@ -70,31 +74,37 @@ var x = y, {z};
                                         "text": "z",
                                         "rawText": "z",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 13
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 13
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 14
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 10,
                         "end": 14
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -103,6 +113,7 @@ var x = y, {z};
     "source": "var x = y, {z};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

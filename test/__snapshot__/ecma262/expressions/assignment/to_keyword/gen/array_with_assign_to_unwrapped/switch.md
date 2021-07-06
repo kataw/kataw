@@ -29,6 +29,7 @@ async x => switch = 1
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -38,6 +39,7 @@ async x => switch = 1
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -45,6 +47,7 @@ async x => switch = 1
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 10
                 },
@@ -53,14 +56,17 @@ async x => switch = 1
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 10
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -69,6 +75,7 @@ async x => switch = 1
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 17
             },
@@ -79,12 +86,14 @@ async x => switch = 1
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
@@ -93,10 +102,12 @@ async x => switch = 1
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 21
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 17,
                 "end": 21
             },
@@ -104,10 +115,12 @@ async x => switch = 1
                 "kind": 152,
                 "clauses": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 21
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 10,
             "end": 21
         }
@@ -116,6 +129,7 @@ async x => switch = 1
     "source": "async x => switch = 1",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

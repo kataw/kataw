@@ -27,6 +27,7 @@ export let x
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -35,6 +36,7 @@ export let x
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 10
                 },
@@ -48,21 +50,25 @@ export let x
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 10,
                             "end": 12
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 12
             },
@@ -71,6 +77,7 @@ export let x
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -79,6 +86,7 @@ export let x
     "source": "export let x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

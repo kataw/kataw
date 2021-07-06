@@ -30,6 +30,7 @@ async <T>(a: T): T => a;
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -45,6 +46,7 @@ async <T>(a: T): T => a;
                                     "text": "T",
                                     "rawText": "T",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 8
                                 },
@@ -52,16 +54,19 @@ async <T>(a: T): T => a;
                                 "assignToken": null,
                                 "defaultType": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 9
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 9
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 9
                 },
@@ -76,6 +81,7 @@ async <T>(a: T): T => a;
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 11
                             },
@@ -91,26 +97,31 @@ async <T>(a: T): T => a;
                                         "text": "T",
                                         "rawText": "T",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 14
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 14
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 14
                             },
                             "right": null,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 14
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 18
                 },
@@ -125,21 +136,25 @@ async <T>(a: T): T => a;
                             "text": "T",
                             "rawText": "T",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 18
                         },
                         "typeParameters": null,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 18
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 18
                 },
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 21
                 },
@@ -148,14 +163,17 @@ async <T>(a: T): T => a;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 23
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -164,6 +182,7 @@ async <T>(a: T): T => a;
     "source": "async <T>(a: T): T => a;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

@@ -28,6 +28,7 @@
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 1
                     },
@@ -35,6 +36,7 @@
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 5
                     },
@@ -45,20 +47,24 @@
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 7
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 8
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
@@ -67,12 +73,14 @@
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
@@ -81,14 +89,17 @@
                     "text": 2,
                     "rawText": "2",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 16
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -97,6 +108,7 @@
     "source": "() => {} ? 1 : 2;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

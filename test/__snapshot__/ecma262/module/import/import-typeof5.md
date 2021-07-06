@@ -26,6 +26,7 @@ import typeof a * from "b";
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -33,6 +34,7 @@ import typeof a * from "b";
             "typeofKeyword": {
                 "kind": 138477613,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 13
             },
@@ -46,12 +48,14 @@ import typeof a * from "b";
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 15
                     },
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 15,
                         "end": 17
                     },
@@ -60,14 +64,17 @@ import typeof a * from "b";
                         "text": "from",
                         "rawText": "from",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 22
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 22
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 22
             },
@@ -79,16 +86,19 @@ import typeof a * from "b";
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 15
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         },
@@ -99,10 +109,12 @@ import typeof a * from "b";
                 "text": "b",
                 "rawText": "\"b\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 22,
             "end": 27
         }
@@ -111,6 +123,7 @@ import typeof a * from "b";
     "source": "import typeof a * from \"b\";",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

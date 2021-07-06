@@ -24,6 +24,7 @@ tag`some \" quote`;
                     "text": "tag",
                     "rawText": "tag",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -32,14 +33,17 @@ tag`some \" quote`;
                     "text": "some \" quote",
                     "rawText": "some \\\" quote",
                     "flags": 134217824,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 18
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -48,6 +52,7 @@ tag`some \" quote`;
     "source": "tag`some \\\" quote`;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

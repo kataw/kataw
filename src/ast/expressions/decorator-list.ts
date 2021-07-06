@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { Decorator } from './decorators';
 
 /**
@@ -14,6 +14,7 @@ export function createDecoratorList(elements: Decorator[], start: number, end: n
     kind: SyntaxKind.DecoratorList,
     elements,
     flags: NodeFlags.ExpressionNode,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

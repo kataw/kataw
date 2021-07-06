@@ -31,6 +31,7 @@ let d = (1, 2, 3);
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -44,6 +45,7 @@ let d = (1, 2, 3);
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -62,6 +64,7 @@ let d = (1, 2, 3);
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 10
                                         },
@@ -69,6 +72,7 @@ let d = (1, 2, 3);
                                         "arrowToken": {
                                             "kind": 10,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 13
                                         },
@@ -82,6 +86,7 @@ let d = (1, 2, 3);
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 15,
                                                         "end": 16
                                                     },
@@ -92,12 +97,14 @@ let d = (1, 2, 3);
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 17,
                                                             "end": 19
                                                         },
                                                         "operatorToken": {
                                                             "kind": 67143222,
                                                             "flags": 96,
+                                                            "transformFlags": 32,
                                                             "start": 19,
                                                             "end": 21
                                                         },
@@ -106,23 +113,28 @@ let d = (1, 2, 3);
                                                             "text": 2,
                                                             "rawText": "2",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 21,
                                                             "end": 23
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 13,
                                                         "end": 23
                                                     }
                                                 ],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 24
                                             },
                                             "flags": 13,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 24
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 24
                                     },
@@ -131,28 +143,34 @@ let d = (1, 2, 3);
                                         "text": 3,
                                         "rawText": "3",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 27
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 27
                             },
                             "flags": 7,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 28
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 28
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 28
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         },
@@ -161,6 +179,7 @@ let d = (1, 2, 3);
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 33
             },
@@ -174,6 +193,7 @@ let d = (1, 2, 3);
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 33,
                             "end": 35
                         },
@@ -195,6 +215,7 @@ let d = (1, 2, 3);
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 40,
                                                     "end": 41
                                                 },
@@ -203,12 +224,14 @@ let d = (1, 2, 3);
                                                     "text": "y",
                                                     "rawText": "y",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 42,
                                                     "end": 44
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 40,
                                             "end": 45
                                         },
@@ -216,6 +239,7 @@ let d = (1, 2, 3);
                                         "arrowToken": {
                                             "kind": 10,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 45,
                                             "end": 48
                                         },
@@ -229,6 +253,7 @@ let d = (1, 2, 3);
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 50,
                                                         "end": 51
                                                     },
@@ -239,12 +264,14 @@ let d = (1, 2, 3);
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 52,
                                                             "end": 54
                                                         },
                                                         "operatorToken": {
                                                             "kind": 67143222,
                                                             "flags": 96,
+                                                            "transformFlags": 32,
                                                             "start": 54,
                                                             "end": 56
                                                         },
@@ -253,23 +280,28 @@ let d = (1, 2, 3);
                                                             "text": "y",
                                                             "rawText": "y",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 56,
                                                             "end": 58
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 48,
                                                         "end": 58
                                                     }
                                                 ],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 48,
                                                 "end": 59
                                             },
                                             "flags": 48,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 59
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 39,
                                         "end": 59
                                     },
@@ -278,28 +310,34 @@ let d = (1, 2, 3);
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 60,
                                         "end": 62
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 62
                             },
                             "flags": 37,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 63
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 33,
                         "end": 63
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 63
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 29,
             "end": 64
         },
@@ -308,6 +346,7 @@ let d = (1, 2, 3);
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 64,
                 "end": 68
             },
@@ -321,6 +360,7 @@ let d = (1, 2, 3);
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 68,
                             "end": 70
                         },
@@ -338,6 +378,7 @@ let d = (1, 2, 3);
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 74,
                                         "end": 75
                                     },
@@ -345,6 +386,7 @@ let d = (1, 2, 3);
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 75,
                                         "end": 78
                                     },
@@ -355,12 +397,14 @@ let d = (1, 2, 3);
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 78,
                                             "end": 80
                                         },
                                         "operatorToken": {
                                             "kind": 67143222,
                                             "flags": 96,
+                                            "transformFlags": 32,
                                             "start": 80,
                                             "end": 82
                                         },
@@ -369,18 +413,22 @@ let d = (1, 2, 3);
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 82,
                                             "end": 84
                                         },
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 78,
                                         "end": 84
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 74,
                                     "end": 84
                                 },
                                 "flags": 72,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 85
                             },
@@ -392,29 +440,35 @@ let d = (1, 2, 3);
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 86,
                                         "end": 87
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 86,
                                 "end": 87
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 72,
                             "end": 88
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 68,
                         "end": 88
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 68,
                 "end": 88
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 64,
             "end": 89
         },
@@ -423,6 +477,7 @@ let d = (1, 2, 3);
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 89,
                 "end": 93
             },
@@ -436,6 +491,7 @@ let d = (1, 2, 3);
                             "text": "d",
                             "rawText": "d",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 93,
                             "end": 95
                         },
@@ -450,6 +506,7 @@ let d = (1, 2, 3);
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 99,
                                         "end": 100
                                     },
@@ -458,6 +515,7 @@ let d = (1, 2, 3);
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 101,
                                         "end": 103
                                     },
@@ -466,28 +524,34 @@ let d = (1, 2, 3);
                                         "text": 3,
                                         "rawText": "3",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 104,
                                         "end": 106
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 97,
                                 "end": 106
                             },
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 107
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 93,
                         "end": 107
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 93,
                 "end": 107
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 89,
             "end": 108
         }
@@ -496,6 +560,7 @@ let d = (1, 2, 3);
     "source": "let a = (x => (x, x * 2), 3);\nlet b = ((x, y) => (x, x * y), 1);\nlet c = (x => x * x)(2);\nlet d = (1, 2, 3);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 108
 }
@@ -505,10 +570,10 @@ let d = (1, 2, 3);
 
 ```javascript
 
-let a = (x => (x, x *  2), 3);
-let b = ((x, y) => (x, x *  y), 1);
+let a = (x => (x, x * 2), 3);
+let b = ((x, y) => (x, x * y), 1);
 
-let c = (x => x *  x)(2);
+let c = (x => x * x)(2);
 
 let d = (1, 2, 3);
 

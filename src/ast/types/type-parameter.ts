@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { TypeNode } from './';
 import { Identifier } from '../expressions/identifier-expr';
@@ -26,6 +26,7 @@ export function createTypeParameter(
     assignToken,
     defaultType,
     flags: NodeFlags.IsTypeNode,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

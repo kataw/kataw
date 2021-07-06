@@ -28,6 +28,7 @@ declare class A { static () : number }
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -35,6 +36,7 @@ declare class A { static () : number }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -43,6 +45,7 @@ declare class A { static () : number }
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
@@ -59,6 +62,7 @@ declare class A { static () : number }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 24
                             },
@@ -68,6 +72,7 @@ declare class A { static () : number }
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 26
                             },
@@ -78,28 +83,34 @@ declare class A { static () : number }
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 36
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 36
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 36
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 38
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 38
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         }
@@ -108,6 +119,7 @@ declare class A { static () : number }
     "source": "declare class A { static () : number }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }

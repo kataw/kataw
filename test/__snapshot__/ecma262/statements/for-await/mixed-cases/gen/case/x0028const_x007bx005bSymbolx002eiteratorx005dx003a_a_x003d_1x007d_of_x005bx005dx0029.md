@@ -28,12 +28,14 @@ async function f() { let a; for await (const {[Symbol.iterator]: a = 1} of []) ;
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -43,6 +45,7 @@ async function f() { let a; for await (const {[Symbol.iterator]: a = 1} of []) ;
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -52,6 +55,7 @@ async function f() { let a; for await (const {[Symbol.iterator]: a = 1} of []) ;
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -66,6 +70,7 @@ async function f() { let a; for await (const {[Symbol.iterator]: a = 1} of []) ;
                             "lexicalKeyword": {
                                 "kind": 41951307,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 24
                             },
@@ -79,21 +84,25 @@ async function f() { let a; for await (const {[Symbol.iterator]: a = 1} of []) ;
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 24,
                                             "end": 26
                                         },
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
+                                        "transformFlags": 128,
                                         "start": 24,
                                         "end": 26
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
                             },
                             "flags": 33554448,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 27
                         },
@@ -102,12 +111,14 @@ async function f() { let a; for await (const {[Symbol.iterator]: a = 1} of []) ;
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 31
                             },
                             "awaitKeyword": {
                                 "kind": 82196,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 37
                             },
@@ -116,6 +127,7 @@ async function f() { let a; for await (const {[Symbol.iterator]: a = 1} of []) ;
                                 "lexicalKeyword": {
                                     "kind": 37757004,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 44
                                 },
@@ -140,6 +152,7 @@ async function f() { let a; for await (const {[Symbol.iterator]: a = 1} of []) ;
                                                                         "text": "Symbol",
                                                                         "rawText": "Symbol",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 47,
                                                                         "end": 53
                                                                     },
@@ -148,14 +161,17 @@ async function f() { let a; for await (const {[Symbol.iterator]: a = 1} of []) ;
                                                                         "text": "iterator",
                                                                         "rawText": "iterator",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 54,
                                                                         "end": 62
                                                                     },
                                                                     "flags": 96,
+                                                                    "transformFlags": 2,
                                                                     "start": 47,
                                                                     "end": 62
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 46,
                                                                 "end": 63
                                                             },
@@ -164,6 +180,7 @@ async function f() { let a; for await (const {[Symbol.iterator]: a = 1} of []) ;
                                                                 "text": "a",
                                                                 "rawText": "a",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 64,
                                                                 "end": 66
                                                             },
@@ -172,41 +189,49 @@ async function f() { let a; for await (const {[Symbol.iterator]: a = 1} of []) ;
                                                                 "text": 1,
                                                                 "rawText": "1",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 68,
                                                                 "end": 70
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 46,
                                                             "end": 70
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 46,
                                                     "end": 70
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 44,
                                                 "end": 71
                                             },
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 44,
                                             "end": 71
                                         }
                                     ],
                                     "flags": 16777232,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 71
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 71
                             },
                             "ofKeyword": {
                                 "kind": 16793717,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 71,
                                 "end": 74
                             },
@@ -217,34 +242,41 @@ async function f() { let a; for await (const {[Symbol.iterator]: a = 1} of []) ;
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 76,
                                     "end": 76
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 74,
                                 "end": 77
                             },
                             "statement": {
                                 "kind": 168,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 78,
                                 "end": 80
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 80
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 80
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 82
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 82
         }
@@ -253,6 +285,7 @@ async function f() { let a; for await (const {[Symbol.iterator]: a = 1} of []) ;
     "source": "async function f() { let a; for await (const {[Symbol.iterator]: a = 1} of []) ; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 82
 }

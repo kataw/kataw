@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -38,10 +39,12 @@
                 "text": 309,
                 "rawText": "0o465i",
                 "flags": 262240,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 20
         },
@@ -52,10 +55,12 @@
                 "text": "nstanceof",
                 "rawText": "nstanceof",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 20,
             "end": 29
         },
@@ -66,10 +71,12 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 29,
             "end": 31
         }
@@ -78,6 +85,7 @@
     "source": "\"use strict\"; 0o465instanceof x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

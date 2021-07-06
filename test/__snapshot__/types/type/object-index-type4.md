@@ -29,6 +29,7 @@ type x = { [x:string]:string }
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type x = { [x:string]:string }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type x = { [x:string]:string }
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -63,6 +66,7 @@ type x = { [x:string]:string }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 13
                             },
@@ -73,10 +77,12 @@ type x = { [x:string]:string }
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 20
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 20
                             },
@@ -87,28 +93,34 @@ type x = { [x:string]:string }
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 28
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 28
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 28
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 30
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 30
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -117,6 +129,7 @@ type x = { [x:string]:string }
     "source": "type x = { [x:string]:string }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

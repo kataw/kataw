@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -41,6 +42,7 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 15
                     },
@@ -58,12 +60,14 @@
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 21
                                         },
                                         "operatorToken": {
                                             "kind": 99634,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 23
                                         },
@@ -72,10 +76,12 @@
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 25
                                         },
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 25
                                     },
@@ -84,22 +90,26 @@
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 30
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 30
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 16,
                             "end": 31
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 33
                         },
@@ -108,19 +118,23 @@
                             "text": "zoo",
                             "rawText": "zoo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 33,
                             "end": 37
                         },
                         "flags": 32,
+                        "transformFlags": 128,
                         "start": 16,
                         "end": 37
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 38
         }
@@ -129,6 +143,7 @@
     "source": "\"use strict\"; x, [foo + y, bar] = zoo;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }

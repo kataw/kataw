@@ -37,6 +37,7 @@ const o = {
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -50,6 +51,7 @@ const o = {
                             "text": "blablah",
                             "rawText": "blablah",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 13
                         },
@@ -63,12 +65,14 @@ const o = {
                                     "text": "aldkfkladfskladklsfkladklfkaldfadfkdaf",
                                     "rawText": "\"aldkfkladfskladklsfkladklfkaldfadfkdaf\"",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 58
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 58,
                                     "end": 60
                                 },
@@ -77,16 +81,19 @@ const o = {
                                     "text": "adlfasdklfkldsklfakldsfkladsfkadsfladsfa",
                                     "rawText": "\"adlfasdklfkldsklfakldsfkladsfkadsfladsfa\"",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 60,
                                     "end": 105
                                 },
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 105
                             },
                             "operatorToken": {
                                 "kind": 99634,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 105,
                                 "end": 107
                             },
@@ -95,23 +102,28 @@ const o = {
                                 "text": "dflkadfkladsfklkadlfkladlfkadklfjadlfdfdaf",
                                 "rawText": "\"dflkadfkladsfklkadlfkladlfkadklfjadlfdfdaf\"",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 107,
                                 "end": 154
                             },
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 154
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 5,
                         "end": 154
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 154
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 155
         },
@@ -120,6 +132,7 @@ const o = {
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 155,
                 "end": 162
             },
@@ -133,6 +146,7 @@ const o = {
                             "text": "k",
                             "rawText": "k",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 162,
                             "end": 164
                         },
@@ -150,6 +164,7 @@ const o = {
                                             "text": "blablah",
                                             "rawText": "blablah",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 168,
                                             "end": 178
                                         },
@@ -162,12 +177,14 @@ const o = {
                                                     "text": "aldkfkladfskladklsfkladklfkaldfadfkdaf",
                                                     "rawText": "\"aldkfkladfskladklsfkladklfkaldfadfkdaf\"",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 179,
                                                     "end": 220
                                                 },
                                                 "operatorToken": {
                                                     "kind": 99634,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 220,
                                                     "end": 222
                                                 },
@@ -176,16 +193,19 @@ const o = {
                                                     "text": "adlfasdklfkldsklfakldsfkladsfkadsfladsfa",
                                                     "rawText": "\"adlfasdklfkldsklfakldsfkladsfkadsfladsfa\"",
                                                     "flags": 97,
+                                                    "transformFlags": 0,
                                                     "start": 222,
                                                     "end": 269
                                                 },
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 168,
                                                 "end": 269
                                             },
                                             "operatorToken": {
                                                 "kind": 99634,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 269,
                                                 "end": 271
                                             },
@@ -194,37 +214,45 @@ const o = {
                                                 "text": "dflkadfkladsfklkadlfkladlfkadklfjadlfdfdaf",
                                                 "rawText": "\"dflkadfkladsfklkadlfkladlfkadklfjadlfdfdaf\"",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 271,
                                                 "end": 320
                                             },
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 168,
                                             "end": 320
                                         },
                                         "flags": 33,
+                                        "transformFlags": 128,
                                         "start": 168,
                                         "end": 320
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 168,
                                 "end": 320
                             },
                             "flags": 49,
+                            "transformFlags": 8,
                             "start": 166,
                             "end": 322
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 162,
                         "end": 322
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 162,
                 "end": 322
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 155,
             "end": 323
         },
@@ -237,12 +265,14 @@ const o = {
                     "text": "somethingThatsAReallyLongPropName",
                     "rawText": "somethingThatsAReallyLongPropName",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 323,
                     "end": 358
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 358,
                     "end": 360
                 },
@@ -255,6 +285,7 @@ const o = {
                             "member": {
                                 "kind": 4276321,
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 360,
                                 "end": 367
                             },
@@ -263,10 +294,12 @@ const o = {
                                 "text": "props",
                                 "rawText": "props",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 368,
                                 "end": 373
                             },
                             "flags": 97,
+                            "transformFlags": 2,
                             "start": 360,
                             "end": 373
                         },
@@ -275,16 +308,19 @@ const o = {
                             "text": "cardType",
                             "rawText": "cardType",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 374,
                             "end": 382
                         },
                         "flags": 97,
+                        "transformFlags": 2,
                         "start": 360,
                         "end": 382
                     },
                     "operatorToken": {
                         "kind": 34620,
                         "flags": 96,
+                        "transformFlags": 16,
                         "start": 382,
                         "end": 386
                     },
@@ -295,6 +331,7 @@ const o = {
                             "text": "AwesomizerCardEnum",
                             "rawText": "AwesomizerCardEnum",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 386,
                             "end": 405
                         },
@@ -303,22 +340,27 @@ const o = {
                             "text": "SEEFIRST",
                             "rawText": "SEEFIRST",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 406,
                             "end": 414
                         },
                         "flags": 96,
+                        "transformFlags": 2,
                         "start": 386,
                         "end": 414
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 360,
                     "end": 414
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 323,
                 "end": 414
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 323,
             "end": 415
         },
@@ -327,6 +369,7 @@ const o = {
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 415,
                 "end": 422
             },
@@ -340,6 +383,7 @@ const o = {
                             "text": "o",
                             "rawText": "o",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 422,
                             "end": 424
                         },
@@ -357,6 +401,7 @@ const o = {
                                             "text": "somethingThatsAReallyLongPropName",
                                             "rawText": "somethingThatsAReallyLongPropName",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 428,
                                             "end": 464
                                         },
@@ -369,6 +414,7 @@ const o = {
                                                     "member": {
                                                         "kind": 4276321,
                                                         "flags": 97,
+                                                        "transformFlags": 0,
                                                         "start": 465,
                                                         "end": 474
                                                     },
@@ -377,10 +423,12 @@ const o = {
                                                         "text": "props",
                                                         "rawText": "props",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 475,
                                                         "end": 480
                                                     },
                                                     "flags": 97,
+                                                    "transformFlags": 2,
                                                     "start": 428,
                                                     "end": 480
                                                 },
@@ -389,16 +437,19 @@ const o = {
                                                     "text": "cardType",
                                                     "rawText": "cardType",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 481,
                                                     "end": 489
                                                 },
                                                 "flags": 97,
+                                                "transformFlags": 2,
                                                 "start": 428,
                                                 "end": 489
                                             },
                                             "operatorToken": {
                                                 "kind": 34620,
                                                 "flags": 96,
+                                                "transformFlags": 16,
                                                 "start": 489,
                                                 "end": 493
                                             },
@@ -409,6 +460,7 @@ const o = {
                                                     "text": "AwesomizerCardEnum",
                                                     "rawText": "AwesomizerCardEnum",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 493,
                                                     "end": 512
                                                 },
@@ -417,41 +469,50 @@ const o = {
                                                     "text": "SEEFIRST",
                                                     "rawText": "SEEFIRST",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 513,
                                                     "end": 521
                                                 },
                                                 "flags": 96,
+                                                "transformFlags": 2,
                                                 "start": 493,
                                                 "end": 521
                                             },
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 428,
                                             "end": 521
                                         },
                                         "flags": 33,
+                                        "transformFlags": 128,
                                         "start": 428,
                                         "end": 521
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 428,
                                 "end": 522
                             },
                             "flags": 49,
+                            "transformFlags": 8,
                             "start": 426,
                             "end": 524
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 422,
                         "end": 524
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 422,
                 "end": 524
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 415,
             "end": 525
         }
@@ -460,6 +521,7 @@ const o = {
     "source": "const blablah =\n  \"aldkfkladfskladklsfkladklfkaldfadfkdaf\" +\n  \"adlfasdklfkldsklfakldsfkladsfkadsfladsfa\" +\n  \"dflkadfkladsfklkadlfkladlfkadklfjadlfdfdaf\";\n\nconst k = {\n  blablah: \"aldkfkladfskladklsfkladklfkaldfadfkdaf\" +\n    \"adlfasdklfkldsklfakldsfkladsfkadsfladsfa\" +\n    \"dflkadfkladsfklkadlfkladlfkadklfjadlfdfdaf\"\n};\n\nsomethingThatsAReallyLongPropName =\n  this.props.cardType === AwesomizerCardEnum.SEEFIRST;\n\nconst o = {\n  somethingThatsAReallyLongPropName:\n    this.props.cardType === AwesomizerCardEnum.SEEFIRST,\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 525
 }
@@ -470,16 +532,26 @@ const o = {
 ```javascript
 
 const blablah =
-    "\"aldkfkladfskladklsfkladklfkaldfadfkdaf\"" +  "\"adlfasdklfkldsklfakldsfkladsfkadsfladsfa\"" +  "\"dflkadfkladsfklkadlfkladlfkadklfjadlfdfdaf\"";
+
+      "\"aldkfkladfskladklsfkladklfkaldfadfkdaf\"" +
+      "\"adlfasdklfkldsklfakldsfkladsfkadsfladsfa\"" +
+      "\"dflkadfkladsfklkadlfkladlfkadklfjadlfdfdaf\""
+    ;
 const k = {
-    blablah: "\"aldkfkladfskladklsfkladklfkaldfadfkdaf\"" +  "\"adlfasdklfkldsklfakldsfkladsfkadsfladsfa\"" +  "\"dflkadfkladsfklkadlfkladlfkadklfjadlfdfdaf\""
+    blablah:
+      "\"aldkfkladfskladklsfkladklfkaldfadfkdaf\"" +
+      "\"adlfasdklfkldsklfakldsfkladsfkadsfladsfa\"" +
+      "\"dflkadfkladsfklkadlfkladlfkadklfjadlfdfdaf\""
+
   };
 
 somethingThatsAReallyLongPropName =
-  this .props.cardType ===  AwesomizerCardEnum.SEEFIRST;
+  this .props.cardType === AwesomizerCardEnum.SEEFIRST;
 
 const o = {
-    somethingThatsAReallyLongPropName: this .props.cardType ===  AwesomizerCardEnum.SEEFIRST
+    somethingThatsAReallyLongPropName:
+      this .props.cardType === AwesomizerCardEnum.SEEFIRST
+
   };
 
 ```

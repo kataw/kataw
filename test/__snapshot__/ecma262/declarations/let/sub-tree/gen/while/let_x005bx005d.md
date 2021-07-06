@@ -29,6 +29,7 @@ while (a) let
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ while (a) let
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 8
             },
@@ -49,6 +51,7 @@ while (a) let
                         "text": "let",
                         "rawText": "let",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 13
                     },
@@ -57,18 +60,22 @@ while (a) let
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 15
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 9,
                     "end": 16
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 17
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -77,6 +84,7 @@ while (a) let
     "source": "while (a) let\n[];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

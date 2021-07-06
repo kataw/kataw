@@ -28,6 +28,7 @@ var x, y, z; for (x of x = { x: new.target = 1 } = z = {});
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,12 +42,14 @@ var x, y, z; for (x of x = { x: new.target = 1 } = z = {});
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 5
                     },
@@ -57,12 +60,14 @@ var x, y, z; for (x of x = { x: new.target = 1 } = z = {});
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 6,
                         "end": 8
                     },
@@ -73,21 +78,25 @@ var x, y, z; for (x of x = { x: new.target = 1 } = z = {});
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 9,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -96,6 +105,7 @@ var x, y, z; for (x of x = { x: new.target = 1 } = z = {});
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 16
             },
@@ -105,12 +115,14 @@ var x, y, z; for (x of x = { x: new.target = 1 } = z = {});
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 22
             },
@@ -121,12 +133,14 @@ var x, y, z; for (x of x = { x: new.target = 1 } = z = {});
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 24
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 26
                 },
@@ -145,6 +159,7 @@ var x, y, z; for (x of x = { x: new.target = 1 } = z = {});
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 30
                                     },
@@ -155,22 +170,26 @@ var x, y, z; for (x of x = { x: new.target = 1 } = z = {});
                                             "newKeyword": {
                                                 "kind": 138477661,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 35
                                             },
                                             "targetIdentifier": {
                                                 "kind": 16594,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 36,
                                                 "end": 42
                                             },
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 31,
                                             "end": 42
                                         },
                                         "operatorToken": {
                                             "kind": 4125,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 42,
                                             "end": 44
                                         },
@@ -179,30 +198,36 @@ var x, y, z; for (x of x = { x: new.target = 1 } = z = {});
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 44,
                                             "end": 46
                                         },
                                         "flags": 0,
+                                        "transformFlags": 128,
                                         "start": 28,
                                         "end": 46
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 28,
                                     "end": 46
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 46
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 26,
                         "end": 48
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 48,
                         "end": 50
                     },
@@ -213,12 +238,14 @@ var x, y, z; for (x of x = { x: new.target = 1 } = z = {});
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 50,
                             "end": 52
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 52,
                             "end": 54
                         },
@@ -229,32 +256,39 @@ var x, y, z; for (x of x = { x: new.target = 1 } = z = {});
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 56,
                                 "end": 56
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 54,
                             "end": 57
                         },
                         "flags": 0,
+                        "transformFlags": 128,
                         "start": 50,
                         "end": 57
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 26,
                     "end": 57
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 22,
                 "end": 57
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 58,
                 "end": 59
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 12,
             "end": 59
         }
@@ -263,6 +297,7 @@ var x, y, z; for (x of x = { x: new.target = 1 } = z = {});
     "source": "var x, y, z; for (x of x = { x: new.target = 1 } = z = {});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 59
 }

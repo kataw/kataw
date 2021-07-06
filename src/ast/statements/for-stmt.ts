@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { StatementNode } from '.';
 import { ExpressionNode } from '../expressions/index';
@@ -34,6 +34,7 @@ export function createForStatement(
     incrementor,
     statement,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

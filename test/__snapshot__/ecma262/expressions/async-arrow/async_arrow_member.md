@@ -22,6 +22,7 @@ async("foo".bar) => x
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -35,6 +36,7 @@ async("foo".bar) => x
                             "text": "foo",
                             "rawText": "\"foo\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 11
                         },
@@ -43,20 +45,24 @@ async("foo".bar) => x
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 15
                         },
                         "flags": 96,
+                        "transformFlags": 2,
                         "start": 6,
                         "end": 15
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 15
             },
             "flags": 268435488,
+            "transformFlags": 1,
             "start": 0,
             "end": 16
         },
@@ -67,10 +73,12 @@ async("foo".bar) => x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 19,
             "end": 21
         }
@@ -79,6 +87,7 @@ async("foo".bar) => x
     "source": "async(\"foo\".bar) => x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

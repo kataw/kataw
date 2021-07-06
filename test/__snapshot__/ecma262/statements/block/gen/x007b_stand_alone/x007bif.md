@@ -37,6 +37,7 @@
                                     "ifKeyword": {
                                         "kind": 37757019,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 5
                                     },
@@ -45,6 +46,7 @@
                                         "text": "",
                                         "rawText": "",
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 5
                                     },
@@ -55,34 +57,41 @@
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 5
                                         },
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 5
                                     },
                                     "elseKeyword": null,
                                     "alternate": null,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 5
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 5
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         }
@@ -91,6 +100,7 @@
     "source": "{ {if",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 5
 }

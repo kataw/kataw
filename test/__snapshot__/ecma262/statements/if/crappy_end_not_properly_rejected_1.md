@@ -20,6 +20,7 @@ if (x) {}}dsadsa
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -28,6 +29,7 @@ if (x) {}}dsadsa
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 5
             },
@@ -37,16 +39,19 @@ if (x) {}}dsadsa
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 8
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 9
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -57,10 +62,12 @@ if (x) {}}dsadsa
                 "text": "dsadsa",
                 "rawText": "dsadsa",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 16
         }
@@ -69,6 +76,7 @@ if (x) {}}dsadsa
     "source": "if (x) {}}dsadsa",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

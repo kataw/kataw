@@ -28,6 +28,7 @@ var await; var f = (async function() { await => async.await[foo] });
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,21 +42,25 @@ var await; var f = (async function() { await => async.await[foo] });
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 9
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 9
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -65,6 +70,7 @@ var await; var f = (async function() { await => async.await[foo] });
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 14
             },
@@ -78,6 +84,7 @@ var await; var f = (async function() { await => async.await[foo] });
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 16
                         },
@@ -88,23 +95,28 @@ var await; var f = (async function() { await => async.await[foo] });
                                 "kind": 132,
                                 "expressions": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 44
                             },
                             "flags": 18,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 44
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 14,
                         "end": 44
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 44
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 44
         },
@@ -119,6 +131,7 @@ var await; var f = (async function() { await => async.await[foo] });
                         "text": "async",
                         "rawText": "async",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 47,
                         "end": 53
                     },
@@ -127,10 +140,12 @@ var await; var f = (async function() { await => async.await[foo] });
                         "text": "await",
                         "rawText": "await",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 54,
                         "end": 59
                     },
                     "flags": 96,
+                    "transformFlags": 2,
                     "start": 47,
                     "end": 59
                 },
@@ -139,20 +154,24 @@ var await; var f = (async function() { await => async.await[foo] });
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 60,
                     "end": 63
                 },
                 "flags": 536870944,
+                "transformFlags": 4,
                 "start": 47,
                 "end": 64
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 47,
             "end": 64
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 67,
             "end": 68
         }
@@ -161,6 +180,7 @@ var await; var f = (async function() { await => async.await[foo] });
     "source": "var await; var f = (async function() { await => async.await[foo] });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 68
 }

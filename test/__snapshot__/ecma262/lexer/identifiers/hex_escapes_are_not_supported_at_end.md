@@ -28,10 +28,12 @@ xxx\x61
                 "text": "xxx",
                 "rawText": "xxx",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 3
         },
@@ -42,10 +44,12 @@ xxx\x61
                 "text": "x61",
                 "rawText": "x61",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 4,
             "end": 7
         }
@@ -54,6 +58,7 @@ xxx\x61
     "source": "xxx\\x61",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }

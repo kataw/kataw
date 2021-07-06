@@ -32,6 +32,7 @@ expect(() => {}).toTriggerReadyStateChanges([
                             "text": "expect",
                             "rawText": "expect",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 6
                         },
@@ -47,6 +48,7 @@ expect(() => {}).toTriggerReadyStateChanges([
                                         "parameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 8
                                     },
@@ -54,6 +56,7 @@ expect(() => {}).toTriggerReadyStateChanges([
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 12
                                     },
@@ -64,24 +67,29 @@ expect(() => {}).toTriggerReadyStateChanges([
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 14
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 15
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 15
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 15
                         },
                         "flags": 268435488,
+                        "transformFlags": 1,
                         "start": 0,
                         "end": 16
                     },
@@ -90,10 +98,12 @@ expect(() => {}).toTriggerReadyStateChanges([
                         "text": "toTriggerReadyStateChanges",
                         "rawText": "toTriggerReadyStateChanges",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 43
                     },
                     "flags": 268435488,
+                    "transformFlags": 2,
                     "start": 0,
                     "end": 43
                 },
@@ -107,24 +117,29 @@ expect(() => {}).toTriggerReadyStateChanges([
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 33,
+                                "transformFlags": 0,
                                 "start": 45,
                                 "end": 45
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 44,
                             "end": 61
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 44,
                     "end": 61
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 62
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 63
         },
@@ -140,6 +155,7 @@ expect(() => {}).toTriggerReadyStateChanges([
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 66,
                             "end": 67
                         },
@@ -148,6 +164,7 @@ expect(() => {}).toTriggerReadyStateChanges([
                             "text": 2,
                             "rawText": "2",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 88,
                             "end": 90
                         },
@@ -156,20 +173,24 @@ expect(() => {}).toTriggerReadyStateChanges([
                             "text": 3,
                             "rawText": "3",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 112,
                             "end": 114
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 66,
                     "end": 114
                 },
                 "flags": 33,
+                "transformFlags": 8,
                 "start": 63,
                 "end": 115
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 63,
             "end": 116
         }
@@ -178,6 +199,7 @@ expect(() => {}).toTriggerReadyStateChanges([
     "source": "expect(() => {}).toTriggerReadyStateChanges([\n  // Nothing.\n]);\n\n[1 /* first comment */, 2 /* second comment */, 3];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 116
 }

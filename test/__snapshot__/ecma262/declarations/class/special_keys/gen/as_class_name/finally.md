@@ -29,6 +29,7 @@ class finally {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class finally {}
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 5
             },
@@ -48,14 +50,17 @@ class finally {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 5,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -68,10 +73,12 @@ class finally {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 5
             },
@@ -79,6 +86,7 @@ class finally {}
             "finallyKeyword": {
                 "kind": 37757016,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 13
             },
@@ -88,14 +96,17 @@ class finally {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 5,
             "end": 16
         }
@@ -104,6 +115,7 @@ class finally {}
     "source": "class finally {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

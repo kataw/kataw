@@ -28,6 +28,7 @@ var x = { privat\u0065 } = { private: 42 };
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ var x = { privat\u0065 } = { private: 42 };
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -57,22 +59,26 @@ var x = { privat\u0065 } = { private: 42 };
                                             "text": "private",
                                             "rawText": "privat\\u0065",
                                             "flags": 16480,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 22
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16400,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 22
                                 },
                                 "flags": 16432,
+                                "transformFlags": 8,
                                 "start": 7,
                                 "end": 24
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
                             },
@@ -89,6 +95,7 @@ var x = { privat\u0065 } = { private: 42 };
                                                 "text": "private",
                                                 "rawText": "private",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 36
                                             },
@@ -97,37 +104,45 @@ var x = { privat\u0065 } = { private: 42 };
                                                 "text": 42,
                                                 "rawText": "42",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 37,
                                                 "end": 40
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 28,
                                             "end": 40
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 40
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 26,
                                 "end": 42
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 7,
                             "end": 42
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 42
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 43
         }
@@ -136,6 +151,7 @@ var x = { privat\u0065 } = { private: 42 };
     "source": "var x = { privat\\u0065 } = { private: 42 };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }

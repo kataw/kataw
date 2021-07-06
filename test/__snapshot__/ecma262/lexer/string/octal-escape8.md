@@ -28,10 +28,12 @@
                 "text": "6",
                 "rawText": "\"\\6",
                 "flags": 262240,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 3
         }
@@ -40,6 +42,7 @@
     "source": "\"\\6",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 3
 }

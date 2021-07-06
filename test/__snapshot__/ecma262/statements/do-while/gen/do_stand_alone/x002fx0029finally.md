@@ -27,6 +27,7 @@ do /)finally
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -36,10 +37,12 @@ do /)finally
                     "kind": 371,
                     "text": "/)finally",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 12
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 12
             },
@@ -49,10 +52,12 @@ do /)finally
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -61,6 +66,7 @@ do /)finally
     "source": "do /)finally",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

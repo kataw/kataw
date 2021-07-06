@@ -35,6 +35,7 @@ class C2 {
                         "decoratorToken": {
                             "kind": 34611453,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 1
                         },
@@ -43,21 +44,25 @@ class C2 {
                             "text": "package",
                             "rawText": "package",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 8
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 8
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -66,6 +71,7 @@ class C2 {
                 "text": "C2",
                 "rawText": "C2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 17
             },
@@ -92,6 +98,7 @@ class C2 {
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 34
                                 },
@@ -101,6 +108,7 @@ class C2 {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 36
                                 },
@@ -112,31 +120,38 @@ class C2 {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 38,
                                         "end": 38
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 39
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 39
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 39
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 39
                 },
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 41
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 0,
             "end": 41
         }
@@ -145,6 +160,7 @@ class C2 {
     "source": "@package\nclass C2 {\n        method() {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }

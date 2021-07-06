@@ -28,6 +28,7 @@ let tuple3: [number, boolean, string] = [1, true, "three"];
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let tuple3: [number, boolean, string] = [1, true, "three"];
                             "text": "tuple3",
                             "rawText": "tuple3",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 10
                         },
@@ -58,10 +60,12 @@ let tuple3: [number, boolean, string] = [1, true, "three"];
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 19
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 19
                                     },
@@ -72,10 +76,12 @@ let tuple3: [number, boolean, string] = [1, true, "three"];
                                         "type": {
                                             "kind": 134234254,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 28
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 28
                                     },
@@ -86,20 +92,24 @@ let tuple3: [number, boolean, string] = [1, true, "three"];
                                         "type": {
                                             "kind": 134234347,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 36
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 36
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 37
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 37
                         },
@@ -113,12 +123,14 @@ let tuple3: [number, boolean, string] = [1, true, "three"];
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 41,
                                         "end": 42
                                     },
                                     {
                                         "kind": 24752947,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 43,
                                         "end": 48
                                     },
@@ -127,29 +139,35 @@ let tuple3: [number, boolean, string] = [1, true, "three"];
                                         "text": "three",
                                         "rawText": "\"three\"",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 49,
                                         "end": 57
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 57
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 39,
                             "end": 58
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 58
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 58
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 59
         }
@@ -158,6 +176,7 @@ let tuple3: [number, boolean, string] = [1, true, "three"];
     "source": "let tuple3: [number, boolean, string] = [1, true, \"three\"];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 59
 }

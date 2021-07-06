@@ -29,6 +29,7 @@ function not_gen() { async function f(){ await await foo; } }}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function not_gen() { async function f(){ await await foo; } }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 16
             },
@@ -47,6 +49,7 @@ function not_gen() { async function f(){ await await foo; } }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -62,12 +65,14 @@ function not_gen() { async function f(){ await await foo; } }}
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 26
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 35
                             },
@@ -77,6 +82,7 @@ function not_gen() { async function f(){ await await foo; } }}
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 37
                             },
@@ -86,6 +92,7 @@ function not_gen() { async function f(){ await await foo; } }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 38
                             },
@@ -102,6 +109,7 @@ function not_gen() { async function f(){ await await foo; } }}
                                                 "awaitKeyword": {
                                                     "kind": 82196,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 40,
                                                     "end": 46
                                                 },
@@ -110,6 +118,7 @@ function not_gen() { async function f(){ await await foo; } }}
                                                     "awaitKeyword": {
                                                         "kind": 82196,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 46,
                                                         "end": 52
                                                     },
@@ -118,46 +127,56 @@ function not_gen() { async function f(){ await await foo; } }}
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 52,
                                                         "end": 56
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 46,
                                                     "end": 56
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 40,
                                                 "end": 56
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 40,
                                             "end": 57
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 40,
                                     "end": 57
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 59
                             },
                             "returnType": null,
                             "flags": 144,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 59
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 59
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 61
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 61
         }
@@ -166,6 +185,7 @@ function not_gen() { async function f(){ await await foo; } }}
     "source": "function not_gen() { async function f(){ await await foo; } }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 62
 }

@@ -35,6 +35,7 @@ class C extends B {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -43,6 +44,7 @@ class C extends B {
                 "text": "B",
                 "rawText": "B",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -60,6 +62,7 @@ class C extends B {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 18
                             },
@@ -74,6 +77,7 @@ class C extends B {
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 22
                                 },
@@ -83,6 +87,7 @@ class C extends B {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 24
                                 },
@@ -94,31 +99,38 @@ class C extends B {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 26
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 27
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 27
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 27
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 27
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         },
@@ -129,6 +141,7 @@ class C extends B {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 35
             },
@@ -137,6 +150,7 @@ class C extends B {
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 37
             },
@@ -148,6 +162,7 @@ class C extends B {
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 37,
                         "end": 45
                     },
@@ -156,11 +171,13 @@ class C extends B {
                         "text": "B",
                         "rawText": "B",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 45,
                         "end": 47
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 45,
                     "end": 47
                 },
@@ -174,6 +191,7 @@ class C extends B {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 49,
                                 "end": 58
                             },
@@ -191,6 +209,7 @@ class C extends B {
                                                     "member": {
                                                         "kind": 4276321,
                                                         "flags": 97,
+                                                        "transformFlags": 0,
                                                         "start": 60,
                                                         "end": 69
                                                     },
@@ -199,16 +218,19 @@ class C extends B {
                                                         "text": "bar",
                                                         "rawText": "bar",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 70,
                                                         "end": 73
                                                     },
                                                     "flags": 97,
+                                                    "transformFlags": 2,
                                                     "start": 60,
                                                     "end": 73
                                                 },
                                                 "operatorToken": {
                                                     "kind": 4125,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 73,
                                                     "end": 75
                                                 },
@@ -217,6 +239,7 @@ class C extends B {
                                                     "member": {
                                                         "kind": 4259935,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 75,
                                                         "end": 81
                                                     },
@@ -225,44 +248,54 @@ class C extends B {
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 82,
                                                         "end": 85
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 2,
                                                     "start": 75,
                                                     "end": 85
                                                 },
                                                 "flags": 0,
+                                                "transformFlags": 128,
                                                 "start": 60,
                                                 "end": 85
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 60,
                                             "end": 86
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 60,
                                     "end": 86
                                 },
                                 "flags": 49,
+                                "transformFlags": 0,
                                 "start": 0,
                                 "end": 90
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 49,
                             "end": 90
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 49,
                     "end": 90
                 },
                 "flags": 37,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 92
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 29,
             "end": 92
         }
@@ -271,6 +304,7 @@ class C extends B {
     "source": "class B {\n  static foo() {}\n}\nclass C extends B {\n  static {\n    this.bar = super.foo;\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 92
 }

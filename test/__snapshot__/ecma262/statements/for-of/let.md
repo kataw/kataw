@@ -39,6 +39,7 @@ let x: string;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -52,21 +53,25 @@ let x: string;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 5
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 5
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -77,10 +82,12 @@ let x: string;
                 "text": "string",
                 "rawText": "string",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 6,
             "end": 14
         }
@@ -89,6 +96,7 @@ let x: string;
     "source": "let x: string;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

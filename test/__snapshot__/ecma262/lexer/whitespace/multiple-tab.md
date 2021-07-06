@@ -22,10 +22,12 @@
                 "text": "t",
                 "rawText": "t",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 2
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1,
             "end": 2
         },
@@ -36,10 +38,12 @@
                 "text": "t",
                 "rawText": "t",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 3,
             "end": 4
         },
@@ -50,10 +54,12 @@
                 "text": "t",
                 "rawText": "t",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 5,
             "end": 6
         },
@@ -64,10 +70,12 @@
                 "text": "t",
                 "rawText": "t",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 7,
             "end": 8
         },
@@ -78,10 +86,12 @@
                 "text": "t",
                 "rawText": "t",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 9,
             "end": 10
         },
@@ -92,10 +102,12 @@
                 "text": "t",
                 "rawText": "t",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 12
         },
@@ -106,10 +118,12 @@
                 "text": "t",
                 "rawText": "t",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 14
         },
@@ -120,10 +134,12 @@
                 "text": "t",
                 "rawText": "t",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 15,
             "end": 16
         }
@@ -132,6 +148,7 @@
     "source": "\\t\\t\\t\\t\\t\\t\\t\\t",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

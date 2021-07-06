@@ -29,6 +29,7 @@ class x { function () { for (const x in { a: x }) { } } }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class x { function () { for (const x in { a: x }) { } } }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -63,6 +65,7 @@ class x { function () { for (const x in { a: x }) { } } }
                                     "text": "function",
                                     "rawText": "function",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 18
                                 },
@@ -72,6 +75,7 @@ class x { function () { for (const x in { a: x }) { } } }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 21
                                 },
@@ -87,6 +91,7 @@ class x { function () { for (const x in { a: x }) { } } }
                                                 "forKeyword": {
                                                     "kind": 37757017,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 23,
                                                     "end": 27
                                                 },
@@ -95,6 +100,7 @@ class x { function () { for (const x in { a: x }) { } } }
                                                     "lexicalKeyword": {
                                                         "kind": 37757004,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 29,
                                                         "end": 34
                                                     },
@@ -108,27 +114,32 @@ class x { function () { for (const x in { a: x }) { } } }
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 34,
                                                                     "end": 36
                                                                 },
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
+                                                                "transformFlags": 128,
                                                                 "start": 34,
                                                                 "end": 36
                                                             }
                                                         ],
                                                         "flags": 16777232,
+                                                        "transformFlags": 0,
                                                         "start": 34,
                                                         "end": 36
                                                     },
                                                     "flags": 33554448,
+                                                    "transformFlags": 0,
                                                     "start": 23,
                                                     "end": 36
                                                 },
                                                 "inKeyword": {
                                                     "kind": 21006388,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 36,
                                                     "end": 39
                                                 },
@@ -145,6 +156,7 @@ class x { function () { for (const x in { a: x }) { } } }
                                                                     "text": "a",
                                                                     "rawText": "a",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 41,
                                                                     "end": 43
                                                                 },
@@ -153,20 +165,24 @@ class x { function () { for (const x in { a: x }) { } } }
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 44,
                                                                     "end": 46
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 128,
                                                                 "start": 41,
                                                                 "end": 46
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 16,
+                                                        "transformFlags": 0,
                                                         "start": 41,
                                                         "end": 46
                                                     },
                                                     "flags": 48,
+                                                    "transformFlags": 8,
                                                     "start": 39,
                                                     "end": 48
                                                 },
@@ -176,44 +192,54 @@ class x { function () { for (const x in { a: x }) { } } }
                                                         "kind": 249,
                                                         "statements": [],
                                                         "flags": 16,
+                                                        "transformFlags": 0,
                                                         "start": 51,
                                                         "end": 51
                                                     },
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 49,
                                                     "end": 53
                                                 },
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 53
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 53
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 55
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 55
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 55
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 55
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 57
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 57
         }
@@ -222,6 +248,7 @@ class x { function () { for (const x in { a: x }) { } } }
     "source": "class x { function () { for (const x in { a: x }) { } } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 57
 }

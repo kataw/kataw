@@ -34,6 +34,7 @@ async ([{x}: string]) =>  {};
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -54,6 +55,7 @@ async ([{x}: string]) =>  {};
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 9
                                     },
@@ -65,31 +67,37 @@ async ([{x}: string]) =>  {};
                                         "type": {
                                             "kind": 134234347,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 17
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 17
                                     },
                                     "right": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 17
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 17
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 18
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 19
             },
@@ -97,6 +105,7 @@ async ([{x}: string]) =>  {};
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 22
             },
@@ -107,20 +116,24 @@ async ([{x}: string]) =>  {};
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 26
             },
             "flags": 290,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 26,
             "end": 27
         },
@@ -129,6 +142,7 @@ async ([{x}: string]) =>  {};
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 34
             },
@@ -154,16 +168,19 @@ async ([{x}: string]) =>  {};
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 38,
                                                     "end": 39
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 38,
                                             "end": 39
                                         },
                                         "flags": 32,
+                                        "transformFlags": 8,
                                         "start": 37,
                                         "end": 40
                                     },
@@ -175,31 +192,37 @@ async ([{x}: string]) =>  {};
                                         "type": {
                                             "kind": 134234347,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 41,
                                             "end": 48
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 41,
                                         "end": 48
                                     },
                                     "right": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 48
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 37,
                             "end": 48
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 36,
                         "end": 49
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 36,
                 "end": 50
             },
@@ -207,6 +230,7 @@ async ([{x}: string]) =>  {};
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 50,
                 "end": 53
             },
@@ -217,20 +241,24 @@ async ([{x}: string]) =>  {};
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 56,
                     "end": 56
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 53,
                 "end": 57
             },
             "flags": 290,
+            "transformFlags": 0,
             "start": 27,
             "end": 57
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 57,
             "end": 58
         },
@@ -239,6 +267,7 @@ async ([{x}: string]) =>  {};
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 58,
                 "end": 65
             },
@@ -267,6 +296,7 @@ async ([{x}: string]) =>  {};
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 69,
                                                         "end": 70
                                                     },
@@ -278,25 +308,30 @@ async ([{x}: string]) =>  {};
                                                         "type": {
                                                             "kind": 134234347,
                                                             "flags": 2097216,
+                                                            "transformFlags": 0,
                                                             "start": 71,
                                                             "end": 78
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 71,
                                                         "end": 78
                                                     },
                                                     "right": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 69,
                                                     "end": 78
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 69,
                                             "end": 78
                                         },
                                         "flags": 32,
+                                        "transformFlags": 8,
                                         "start": 68,
                                         "end": 79
                                     },
@@ -308,31 +343,37 @@ async ([{x}: string]) =>  {};
                                         "type": {
                                             "kind": 134234347,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 80,
                                             "end": 87
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 80,
                                         "end": 87
                                     },
                                     "right": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 68,
                                     "end": 87
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 68,
                             "end": 87
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 67,
                         "end": 88
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 67,
                 "end": 89
             },
@@ -340,6 +381,7 @@ async ([{x}: string]) =>  {};
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 89,
                 "end": 92
             },
@@ -350,20 +392,24 @@ async ([{x}: string]) =>  {};
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 95,
                     "end": 95
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 92,
                 "end": 96
             },
             "flags": 290,
+            "transformFlags": 0,
             "start": 58,
             "end": 96
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 96,
             "end": 97
         },
@@ -372,6 +418,7 @@ async ([{x}: string]) =>  {};
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 97,
                 "end": 104
             },
@@ -397,16 +444,19 @@ async ([{x}: string]) =>  {};
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 108,
                                                     "end": 109
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 108,
                                             "end": 109
                                         },
                                         "flags": 48,
+                                        "transformFlags": 8,
                                         "start": 107,
                                         "end": 110
                                     },
@@ -418,31 +468,37 @@ async ([{x}: string]) =>  {};
                                         "type": {
                                             "kind": 134234347,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 111,
                                             "end": 118
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 111,
                                         "end": 118
                                     },
                                     "right": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 107,
                                     "end": 118
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 107,
                             "end": 118
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 106,
                         "end": 119
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 106,
                 "end": 120
             },
@@ -450,6 +506,7 @@ async ([{x}: string]) =>  {};
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 120,
                 "end": 123
             },
@@ -460,20 +517,24 @@ async ([{x}: string]) =>  {};
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 126,
                     "end": 126
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 123,
                 "end": 127
             },
             "flags": 290,
+            "transformFlags": 0,
             "start": 97,
             "end": 127
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 127,
             "end": 128
         }
@@ -482,6 +543,7 @@ async ([{x}: string]) =>  {};
     "source": "async ([x: string]) =>  {};\n\nasync ([[x]: string]) =>  {};\n\nasync ([[x: string]: string]) =>  {};\n\nasync ([{x}: string]) =>  {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 128
 }

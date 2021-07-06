@@ -24,12 +24,14 @@ function* wrap() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -38,6 +40,7 @@ function* wrap() {
                 "text": "wrap",
                 "rawText": "wrap",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 14
             },
@@ -47,6 +50,7 @@ function* wrap() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
@@ -63,6 +67,7 @@ function* wrap() {
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 28
                             },
@@ -71,6 +76,7 @@ function* wrap() {
                                 "text": "A",
                                 "rawText": "A",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 30
                             },
@@ -92,6 +98,7 @@ function* wrap() {
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
+                                                "transformFlags": 32,
                                                 "start": 32,
                                                 "end": 33
                                             },
@@ -102,6 +109,7 @@ function* wrap() {
                                                     "text": "yield",
                                                     "rawText": "yield",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 33,
                                                     "end": 38
                                                 },
@@ -111,6 +119,7 @@ function* wrap() {
                                                     "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 0,
+                                                    "transformFlags": 0,
                                                     "start": 39,
                                                     "end": 40
                                                 },
@@ -122,45 +131,55 @@ function* wrap() {
                                                         "directives": [],
                                                         "statements": [],
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 42,
                                                         "end": 42
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 40,
                                                     "end": 43
                                                 },
                                                 "flags": 0,
+                                                "transformFlags": 0,
                                                 "start": 38,
                                                 "end": 43
                                             },
                                             "flags": 0,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 43
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 43
                                 },
                                 "flags": 30,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 44
                             },
                             "flags": 17,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 44
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 44
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 46
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 46
         }
@@ -169,6 +188,7 @@ function* wrap() {
     "source": "function* wrap() {\n    class A {*yield() {}}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 46
 }

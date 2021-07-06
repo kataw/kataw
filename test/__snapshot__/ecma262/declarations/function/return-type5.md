@@ -31,6 +31,7 @@ function x(y: | /* comment 1 */ z):
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -40,6 +41,7 @@ function x(y: | /* comment 1 */ z):
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -55,6 +57,7 @@ function x(y: | /* comment 1 */ z):
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
@@ -64,6 +67,7 @@ function x(y: | /* comment 1 */ z):
                             "bitwiseOrToken": {
                                 "kind": 134251592,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
                             },
@@ -75,26 +79,31 @@ function x(y: | /* comment 1 */ z):
                                     "text": "z",
                                     "rawText": "z",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 33
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 33
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 33
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 33
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 33
             },
@@ -105,10 +114,12 @@ function x(y: | /* comment 1 */ z):
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 74,
                     "end": 74
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 72,
                 "end": 75
             },
@@ -117,6 +128,7 @@ function x(y: | /* comment 1 */ z):
                 "bitwiseOrToken": {
                     "kind": 134251592,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 39
                 },
@@ -129,12 +141,14 @@ function x(y: | /* comment 1 */ z):
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 61,
                         "end": 61
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 62,
                         "end": 65
                     },
@@ -145,22 +159,27 @@ function x(y: | /* comment 1 */ z):
                         "type": {
                             "kind": 134234345,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 65,
                             "end": 72
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 65,
                         "end": 72
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 72
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 72
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 75
         }
@@ -169,6 +188,7 @@ function x(y: | /* comment 1 */ z):
     "source": "function x(y: | /* comment 1 */ z):\n  |\n  /* comment 2 */\n  () => number {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 75
 }

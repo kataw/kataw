@@ -29,6 +29,7 @@
                                 "text": "static",
                                 "rawText": "static",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 8
                             },
@@ -37,6 +38,7 @@
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 14
                                 },
@@ -50,6 +52,7 @@
                                         "text": "async",
                                         "rawText": "async",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 20
                                     },
@@ -59,6 +62,7 @@
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 288,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 22
                                     },
@@ -70,36 +74,44 @@
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 23
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 24
                                     },
                                     "flags": 288,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 24
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 24
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 24
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 25
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -108,6 +120,7 @@
     "source": "({static async async(){}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

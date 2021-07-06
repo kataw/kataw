@@ -24,6 +24,7 @@
                     "operandToken": {
                         "kind": 99634,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
@@ -34,6 +35,7 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 3
                         },
@@ -42,20 +44,24 @@
                             "text": "def",
                             "rawText": "def",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 7
                         },
                         "flags": 96,
+                        "transformFlags": 2,
                         "start": 1,
                         "end": 7
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },
@@ -64,6 +70,7 @@
                     "operandToken": {
                         "kind": 99634,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 11
                     },
@@ -74,6 +81,7 @@
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 13
                         },
@@ -82,22 +90,27 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 15
                         },
                         "flags": 96,
+                        "transformFlags": 2,
                         "start": 11,
                         "end": 15
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 15
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -106,6 +119,7 @@
     "source": "+ x.def + + y.x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -115,7 +129,7 @@
 
 ```javascript
 
-+x.def +  +y.x;
++x.def + +y.x;
 ```
 
 ### Diagnostics

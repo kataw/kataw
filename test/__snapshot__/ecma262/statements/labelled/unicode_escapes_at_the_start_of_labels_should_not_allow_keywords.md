@@ -20,6 +20,7 @@ async () => { \u{61}wait: x }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -29,6 +30,7 @@ async () => { \u{61}wait: x }
                 "parameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 7
             },
@@ -36,6 +38,7 @@ async () => { \u{61}wait: x }
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
@@ -52,6 +55,7 @@ async () => { \u{61}wait: x }
                                 "awaitKeyword": {
                                     "kind": 82196,
                                     "flags": 8256,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 24
                                 },
@@ -60,16 +64,19 @@ async () => { \u{61}wait: x }
                                     "text": "",
                                     "rawText": "",
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 24
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 24
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 25
                             },
@@ -80,27 +87,33 @@ async () => { \u{61}wait: x }
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 27
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 27
                             },
                             "flags": 8208,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 27
                         }
                     ],
                     "flags": 8224,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 27
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 29
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -109,6 +122,7 @@ async () => { \u{61}wait: x }
     "source": "async () => { \\u{61}wait: x }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

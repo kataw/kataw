@@ -33,6 +33,7 @@ await => async.await[foo]
                     "text": "await",
                     "rawText": "await",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -40,6 +41,7 @@ await => async.await[foo]
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -52,6 +54,7 @@ await => async.await[foo]
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 14
                         },
@@ -60,10 +63,12 @@ await => async.await[foo]
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 20
                         },
                         "flags": 96,
+                        "transformFlags": 2,
                         "start": 8,
                         "end": 20
                     },
@@ -72,18 +77,22 @@ await => async.await[foo]
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 24
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 8,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -92,6 +101,7 @@ await => async.await[foo]
     "source": "await => async.await[foo]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

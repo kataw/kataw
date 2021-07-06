@@ -22,12 +22,14 @@ foo: foo: x
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 4
             },
@@ -38,12 +40,14 @@ foo: foo: x
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 8
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 9
                 },
@@ -54,18 +58,22 @@ foo: foo: x
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 11
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         }
@@ -74,6 +82,7 @@ foo: foo: x
     "source": "foo: foo: x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

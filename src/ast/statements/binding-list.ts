@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { LexicalBinding } from './lexical-binding';
 
 /**
@@ -19,6 +19,7 @@ export function createBindingList(
     kind: SyntaxKind.BindingList,
     bindingList,
     flags: flags | NodeFlags.IsStatement,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

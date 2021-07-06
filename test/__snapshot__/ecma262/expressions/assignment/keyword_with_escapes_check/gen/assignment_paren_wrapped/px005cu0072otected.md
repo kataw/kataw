@@ -33,12 +33,14 @@
                         "text": "protected",
                         "rawText": "p\\u0072otected",
                         "flags": 16480,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 15
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
@@ -47,18 +49,22 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 19
                     },
                     "flags": 16416,
+                    "transformFlags": 128,
                     "start": 0,
                     "end": 19
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -67,6 +73,7 @@
     "source": "(p\\u0072otected = x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

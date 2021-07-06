@@ -22,12 +22,14 @@ a: "b", c
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 1
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 2
             },
@@ -41,6 +43,7 @@ a: "b", c
                             "text": "b",
                             "rawText": "\"b\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 6
                         },
@@ -49,19 +52,23 @@ a: "b", c
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 9
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 9
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         }
@@ -70,6 +77,7 @@ a: "b", c
     "source": "a: \"b\", c",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

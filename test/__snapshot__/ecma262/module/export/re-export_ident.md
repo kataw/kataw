@@ -26,6 +26,7 @@ export * from x
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ export * from x
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
+                    "transformFlags": 32,
                     "start": 6,
                     "end": 8
                 },
@@ -43,6 +45,7 @@ export * from x
                 "moduleExportName": null,
                 "namedBinding": null,
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -51,6 +54,7 @@ export * from x
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 13
                 },
@@ -59,15 +63,18 @@ export * from x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 15
             },
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -76,6 +83,7 @@ export * from x
     "source": "export * from x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

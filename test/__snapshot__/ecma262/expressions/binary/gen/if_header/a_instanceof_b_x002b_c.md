@@ -27,6 +27,7 @@ if ( a instanceof b + c ) ;
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -39,12 +40,14 @@ if ( a instanceof b + c ) ;
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 6
                     },
                     "operatorToken": {
                         "kind": 4229173,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 17
                     },
@@ -53,16 +56,19 @@ if ( a instanceof b + c ) ;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 19
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 19
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 21
                 },
@@ -71,22 +77,26 @@ if ( a instanceof b + c ) ;
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 23
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 23
             },
             "consequent": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 27
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -95,6 +105,7 @@ if ( a instanceof b + c ) ;
     "source": "if ( a instanceof b + c ) ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -104,7 +115,7 @@ if ( a instanceof b + c ) ;
 
 ```javascript
 
-if (a instanceof  b +  c);
+if (a instanceof b + c);
 ```
 
 ### Diagnostics

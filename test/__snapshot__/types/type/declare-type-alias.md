@@ -28,12 +28,14 @@ declare type T = number;
             "declareToken": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 12
             },
@@ -42,6 +44,7 @@ declare type T = number;
                 "text": "T",
                 "rawText": "T",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 14
             },
@@ -49,6 +52,7 @@ declare type T = number;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -59,14 +63,17 @@ declare type T = number;
                 "type": {
                     "kind": 134234345,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 23
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 23
             },
             "flags": 4160,
+            "transformFlags": 0,
             "start": 7,
             "end": 24
         }
@@ -75,6 +82,7 @@ declare type T = number;
     "source": "declare type T = number;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

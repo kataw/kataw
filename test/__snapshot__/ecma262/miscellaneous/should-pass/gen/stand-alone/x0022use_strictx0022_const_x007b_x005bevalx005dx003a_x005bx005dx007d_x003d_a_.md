@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -36,6 +37,7 @@
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
@@ -58,10 +60,12 @@
                                                 "text": "eval",
                                                 "rawText": "eval",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 27
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 28
                                         },
@@ -72,25 +76,30 @@
                                                 "elements": [],
                                                 "trailingComma": false,
                                                 "flags": 0,
+                                                "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 31
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 32
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 32
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 32
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 33
                         },
@@ -100,19 +109,23 @@
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 35,
                             "end": 37
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 19,
                         "end": 37
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 37
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 13,
             "end": 38
         }
@@ -121,6 +134,7 @@
     "source": "\"use strict\"; const { [eval]: []} = a;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }

@@ -43,12 +43,14 @@ x = class{} / x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -58,6 +60,7 @@ x = class{} / x
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 9
                     },
@@ -70,22 +73,27 @@ x = class{} / x
                             "kind": 303,
                             "elements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 10
                         },
                         "flags": 9,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 11
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 11
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -95,10 +103,12 @@ x = class{} / x
                 "kind": 371,
                 "text": "/ x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 15
         }
@@ -107,6 +117,7 @@ x = class{} / x
     "source": "x = class{} / x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

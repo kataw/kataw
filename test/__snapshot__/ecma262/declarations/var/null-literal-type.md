@@ -29,6 +29,7 @@ var foo: null;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var foo: null;
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -52,24 +54,29 @@ var foo: null;
                             "type": {
                                 "kind": 138477575,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 13
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 13
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 13
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -78,6 +85,7 @@ var foo: null;
     "source": "var foo: null;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

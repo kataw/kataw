@@ -30,14 +30,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 14
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         },
@@ -46,6 +49,7 @@
             "withKeyword": {
                 "kind": 37757029,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 18
             },
@@ -54,6 +58,7 @@
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 18
             },
@@ -66,12 +71,14 @@
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 19
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 21
                     },
@@ -80,18 +87,22 @@
                         "text": "f",
                         "rawText": "f",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 23
                     },
                     "flags": 0,
+                    "transformFlags": 128,
                     "start": 19,
                     "end": 23
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 23
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 14,
             "end": 23
         },
@@ -101,10 +112,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 28,
             "end": 31
         }
@@ -113,6 +126,7 @@
     "source": "(x = delete ((with) = f)) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

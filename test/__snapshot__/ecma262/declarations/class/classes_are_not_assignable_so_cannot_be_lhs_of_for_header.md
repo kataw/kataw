@@ -28,6 +28,7 @@ for (class x { [a](){} } in c);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -37,6 +38,7 @@ for (class x { [a](){} } in c);
                 "classKeyword": {
                     "kind": 37822544,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 10
                 },
@@ -45,6 +47,7 @@ for (class x { [a](){} } in c);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
@@ -73,10 +76,12 @@ for (class x { [a](){} } in c);
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 17
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 18
                                     },
@@ -86,6 +91,7 @@ for (class x { [a](){} } in c);
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 20
                                     },
@@ -97,37 +103,45 @@ for (class x { [a](){} } in c);
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 21
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 22
                                     },
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 22
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 22
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 22
                     },
                     "flags": 12,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 24
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 24
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 27
             },
@@ -136,16 +150,19 @@ for (class x { [a](){} } in c);
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 29
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 31
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -154,6 +171,7 @@ for (class x { [a](){} } in c);
     "source": "for (class x { [a](){} } in c);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

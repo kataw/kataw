@@ -22,6 +22,7 @@ class A {async [foo](){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class A {async [foo](){}}
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -48,6 +50,7 @@ class A {async [foo](){}}
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 14
                             },
@@ -63,10 +66,12 @@ class A {async [foo](){}}
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 19
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 20
                                 },
@@ -76,6 +81,7 @@ class A {async [foo](){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 22
                                 },
@@ -87,31 +93,38 @@ class A {async [foo](){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 23
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 24
                                 },
                                 "flags": 256,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 24
                             },
                             "flags": 256,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 24
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 24
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -120,6 +133,7 @@ class A {async [foo](){}}
     "source": "class A {async [foo](){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

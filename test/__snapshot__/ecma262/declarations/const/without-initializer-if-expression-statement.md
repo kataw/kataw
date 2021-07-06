@@ -20,12 +20,14 @@ if (true) const x;
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
             "expression": {
                 "kind": 24752947,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 8
             },
@@ -36,16 +38,19 @@ if (true) const x;
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 9
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 9
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -54,6 +59,7 @@ if (true) const x;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 15
             },
@@ -67,21 +73,25 @@ if (true) const x;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 17
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 15,
                         "end": 17
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 17
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 9,
             "end": 18
         }
@@ -90,6 +100,7 @@ if (true) const x;
     "source": "if (true) const x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

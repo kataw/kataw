@@ -33,6 +33,7 @@ foo(async async => {}).bar
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -44,6 +45,7 @@ foo(async async => {}).bar
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 4,
                                     "end": 9
                                 },
@@ -53,6 +55,7 @@ foo(async async => {}).bar
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 15
                                 },
@@ -60,6 +63,7 @@ foo(async async => {}).bar
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 18
                                 },
@@ -70,24 +74,29 @@ foo(async async => {}).bar
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 20
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 21
                                 },
                                 "flags": 288,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 21
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 21
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 0,
                     "end": 22
                 },
@@ -96,14 +105,17 @@ foo(async async => {}).bar
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 26
                 },
                 "flags": 268435488,
+                "transformFlags": 2,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -112,6 +124,7 @@ foo(async async => {}).bar
     "source": "foo(async async => {}).bar",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

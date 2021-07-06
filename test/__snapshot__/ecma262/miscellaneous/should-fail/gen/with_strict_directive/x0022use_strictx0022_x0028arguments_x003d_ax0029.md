@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -34,6 +35,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 13,
             "end": 26
         }
@@ -50,12 +52,14 @@
                         "text": "arguments",
                         "rawText": "arguments",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 38
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 38,
                         "end": 40
                     },
@@ -64,18 +68,22 @@
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 40,
                         "end": 42
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 27,
                     "end": 42
                 },
                 "flags": 27,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 43
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 27,
             "end": 43
         }
@@ -84,6 +92,7 @@
     "source": "\"use strict\"; \"use strict\"; (arguments = a)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }

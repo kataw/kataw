@@ -22,6 +22,7 @@ async (a = (...await) => {});
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -35,12 +36,14 @@ async (a = (...await) => {});
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 10
                         },
@@ -56,6 +59,7 @@ async (a = (...await) => {});
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 15
                                         },
@@ -64,6 +68,7 @@ async (a = (...await) => {});
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 20
                                         },
@@ -71,12 +76,14 @@ async (a = (...await) => {});
                                         "type": null,
                                         "right": null,
                                         "flags": 34,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 20
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 21
                             },
@@ -84,6 +91,7 @@ async (a = (...await) => {});
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 24
                             },
@@ -94,34 +102,41 @@ async (a = (...await) => {});
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 26
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 27
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 27
                         },
                         "flags": 32,
+                        "transformFlags": 128,
                         "start": 7,
                         "end": 27
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 0
             },
             "flags": 268435490,
+            "transformFlags": 1,
             "start": 0,
             "end": 28
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 28,
             "end": 29
         }
@@ -130,6 +145,7 @@ async (a = (...await) => {});
     "source": "async (a = (...await) => {});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

@@ -29,6 +29,7 @@
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 4
                         },
@@ -37,14 +38,17 @@
                             "text": "aaa",
                             "rawText": "aaa",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 8
                         },
                         "flags": 96,
+                        "transformFlags": 2,
                         "start": 0,
                         "end": 8
                     },
                     "flags": 0,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 9
                 },
@@ -53,14 +57,17 @@
                     "text": "bbb",
                     "rawText": "bbb",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 13
                 },
                 "flags": 32,
+                "transformFlags": 2,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         },
@@ -77,6 +84,7 @@
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 19
                         },
@@ -85,14 +93,17 @@
                             "text": "aaa",
                             "rawText": "aaa",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 23
                         },
                         "flags": 96,
+                        "transformFlags": 2,
                         "start": 14,
                         "end": 23
                     },
                     "flags": 14,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 24
                 },
@@ -101,14 +112,17 @@
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 25
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 14,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 14,
             "end": 26
         }
@@ -117,6 +131,7 @@
     "source": "(obj.aaa).bbb;\n(obj.aaa)()",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

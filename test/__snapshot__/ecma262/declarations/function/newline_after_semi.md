@@ -23,6 +23,7 @@ with (x) y; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -32,6 +33,7 @@ with (x) y; }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -41,6 +43,7 @@ with (x) y; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -54,6 +57,7 @@ with (x) y; }
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 26
                         }
@@ -64,6 +68,7 @@ with (x) y; }
                             "withKeyword": {
                                 "kind": 37757029,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 32
                             },
@@ -72,6 +77,7 @@ with (x) y; }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 35
                             },
@@ -82,28 +88,34 @@ with (x) y; }
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 38
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 39
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 39
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 39
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 41
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 41
         }
@@ -112,6 +124,7 @@ with (x) y; }
     "source": "function f(){ \"use strict\";\nwith (x) y; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }

@@ -26,12 +26,14 @@ export default function <,>() {}
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -42,6 +44,7 @@ export default function <,>() {}
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 23
                 },
@@ -54,10 +57,12 @@ export default function <,>() {}
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 25
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 25
                 },
@@ -66,6 +71,7 @@ export default function <,>() {}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 25
                 },
@@ -76,19 +82,23 @@ export default function <,>() {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 25
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 25
                 },
                 "returnType": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         },
@@ -101,12 +111,14 @@ export default function <,>() {}
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 26
                 },
                 "operatorToken": {
                     "kind": 34883,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 27
                 },
@@ -119,6 +131,7 @@ export default function <,>() {}
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 28,
                         "end": 28
                     },
@@ -131,22 +144,27 @@ export default function <,>() {}
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 31
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 32
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 32
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 26,
             "end": 32
         }
@@ -155,6 +173,7 @@ export default function <,>() {}
     "source": "export default function <,>() {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

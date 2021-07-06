@@ -28,12 +28,14 @@ declare var C: Class<string>;
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 11
             },
@@ -47,6 +49,7 @@ declare var C: Class<string>;
                             "text": "C",
                             "rawText": "C",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 13
                         },
@@ -61,6 +64,7 @@ declare var C: Class<string>;
                                     "text": "Class",
                                     "rawText": "Class",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 20
                                 },
@@ -76,42 +80,51 @@ declare var C: Class<string>;
                                                 "type": {
                                                     "kind": 134234347,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 21,
                                                     "end": 27
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 27
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 27
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 28
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 28
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 28
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 11,
                         "end": 28
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 28
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 7,
             "end": 29
         }
@@ -120,6 +133,7 @@ declare var C: Class<string>;
     "source": "declare var C: Class<string>;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

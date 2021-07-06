@@ -22,6 +22,7 @@ delete (foo.bar);
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -34,6 +35,7 @@ delete (foo.bar);
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 11
                         },
@@ -42,22 +44,27 @@ delete (foo.bar);
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 15
                         },
                         "flags": 96,
+                        "transformFlags": 2,
                         "start": 6,
                         "end": 15
                     },
                     "flags": 6,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 16
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -66,6 +73,7 @@ delete (foo.bar);
     "source": "delete (foo.bar);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

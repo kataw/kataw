@@ -28,16 +28,19 @@
                             "properties": [],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 2
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 1,
                         "end": 3
                     },
                     "operatorToken": {
                         "kind": 99634,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 5
                     },
@@ -46,18 +49,22 @@
                         "text": 1,
                         "rawText": "1",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 7
                     },
                     "flags": 48,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 7
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         }
@@ -66,6 +73,7 @@
     "source": "({} + 1);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }
@@ -75,7 +83,7 @@
 
 ```javascript
 
-({} +  1);
+({} + 1);
 ```
 
 ### Diagnostics

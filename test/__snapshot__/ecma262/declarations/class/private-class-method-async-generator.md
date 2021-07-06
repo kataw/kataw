@@ -22,6 +22,7 @@ class C { async*#aaa(){} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class C { async*#aaa(){} }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -48,6 +50,7 @@ class C { async*#aaa(){} }
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
@@ -56,6 +59,7 @@ class C { async*#aaa(){} }
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 15,
                                 "end": 16
                             },
@@ -66,6 +70,7 @@ class C { async*#aaa(){} }
                                     "text": "#aaa",
                                     "rawText": "#aaa",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 20
                                 },
@@ -75,6 +80,7 @@ class C { async*#aaa(){} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 384,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 22
                                 },
@@ -86,31 +92,38 @@ class C { async*#aaa(){} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 23
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 24
                                 },
                                 "flags": 384,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 24
                             },
                             "flags": 384,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 24
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 24
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -119,6 +132,7 @@ class C { async*#aaa(){} }
     "source": "class C { async*#aaa(){} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

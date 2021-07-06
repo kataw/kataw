@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { ExpressionNode } from '.';
 
 export interface MemberAccessExpression extends SyntaxNode {
@@ -17,6 +17,7 @@ export function createMemberAccessExpression(
     member,
     expression,
     flags: NodeFlags.ExpressionNode | NodeFlags.IsMemberExpression,
+    transformFlags: TransformFlags.MemberAccessExpression,
     start,
     end
   };

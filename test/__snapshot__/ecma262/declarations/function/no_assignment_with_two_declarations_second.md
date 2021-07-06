@@ -39,6 +39,7 @@ let foo, [bar];
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -52,12 +53,14 @@ let foo, [bar];
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 7
                     },
@@ -73,31 +76,37 @@ let foo, [bar];
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 13
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 13
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 14
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 8,
                         "end": 14
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 14
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -106,6 +115,7 @@ let foo, [bar];
     "source": "let foo, [bar];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

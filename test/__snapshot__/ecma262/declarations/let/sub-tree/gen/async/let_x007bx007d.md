@@ -31,6 +31,7 @@ async let
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -40,6 +41,7 @@ async let
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 9
                 },
@@ -52,18 +54,22 @@ async let
                         "directives": [],
                         "statements": [],
                         "flags": 33,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 11
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 12
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -72,6 +78,7 @@ async let
     "source": "async let\n{}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

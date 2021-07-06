@@ -32,6 +32,7 @@ function d(x: { (): string; (x: number): string }): () => string {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -41,6 +42,7 @@ function d(x: { (): string; (x: number): string }): () => string {
                 "text": "d",
                 "rawText": "d",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -56,6 +58,7 @@ function d(x: { (): string; (x: number): string }): () => string {
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
@@ -77,6 +80,7 @@ function d(x: { (): string; (x: number): string }): () => string {
                                             "parameters": [],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 17
                                         },
@@ -87,14 +91,17 @@ function d(x: { (): string; (x: number): string }): () => string {
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 26
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 26
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 27
                                     },
@@ -114,6 +121,7 @@ function d(x: { (): string; (x: number): string }): () => string {
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 29,
                                                         "end": 30
                                                     },
@@ -125,20 +133,24 @@ function d(x: { (): string; (x: number): string }): () => string {
                                                         "type": {
                                                             "kind": 134234345,
                                                             "flags": 2097216,
+                                                            "transformFlags": 0,
                                                             "start": 31,
                                                             "end": 38
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 31,
                                                         "end": 38
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 29,
                                                     "end": 38
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 38
                                         },
@@ -149,35 +161,42 @@ function d(x: { (): string; (x: number): string }): () => string {
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 40,
                                                 "end": 47
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 40,
                                             "end": 47
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 47
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 49
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 49
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 49
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 49
             },
@@ -192,6 +211,7 @@ function d(x: { (): string; (x: number): string }): () => string {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 66,
                                 "end": 75
                             },
@@ -200,19 +220,23 @@ function d(x: { (): string; (x: number): string }): () => string {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 75,
                                 "end": 77
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 66,
                             "end": 78
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 66,
                     "end": 78
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 64,
                 "end": 80
             },
@@ -228,12 +252,14 @@ function d(x: { (): string; (x: number): string }): () => string {
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 53,
                         "end": 53
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 54,
                         "end": 57
                     },
@@ -244,22 +270,27 @@ function d(x: { (): string; (x: number): string }): () => string {
                         "type": {
                             "kind": 134234347,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 57,
                             "end": 64
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 57,
                         "end": 64
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 51,
                     "end": 64
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 51,
                 "end": 64
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 80
         }
@@ -268,6 +299,7 @@ function d(x: { (): string; (x: number): string }): () => string {
     "source": "function d(x: { (): string; (x: number): string }): () => string {\n  return x;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 80
 }

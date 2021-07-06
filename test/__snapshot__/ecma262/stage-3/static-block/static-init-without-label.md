@@ -34,12 +34,14 @@ label: while(false) {
                 "text": "label",
                 "rawText": "label",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 6
             },
@@ -48,12 +50,14 @@ label: while(false) {
                 "whileKeyword": {
                     "kind": 37757028,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
                 "expression": {
                     "kind": 205586437,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 18
                 },
@@ -69,6 +73,7 @@ label: while(false) {
                                 "classKeyword": {
                                     "kind": 37822544,
                                     "flags": 81,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 29
                                 },
@@ -77,6 +82,7 @@ label: while(false) {
                                     "text": "C",
                                     "rawText": "C",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 31
                                 },
@@ -94,6 +100,7 @@ label: while(false) {
                                                 "staticKeyword": {
                                                     "kind": 8388716,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 33,
                                                     "end": 44
                                                 },
@@ -107,54 +114,66 @@ label: while(false) {
                                                                 "breakKeyword": {
                                                                     "kind": 37757005,
                                                                     "flags": 81,
+                                                                    "transformFlags": 0,
                                                                     "start": 46,
                                                                     "end": 58
                                                                 },
                                                                 "label": null,
                                                                 "flags": 16,
+                                                                "transformFlags": 0,
                                                                 "start": 46,
                                                                 "end": 59
                                                             }
                                                         ],
                                                         "flags": 17,
+                                                        "transformFlags": 0,
                                                         "start": 46,
                                                         "end": 59
                                                     },
                                                     "flags": 33,
+                                                    "transformFlags": 0,
                                                     "start": 0,
                                                     "end": 65
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 65
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 65
                                     },
                                     "flags": 31,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 69
                                 },
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 69
                             }
                         ],
                         "flags": 17,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 69
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 71
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 71
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 71
         }
@@ -163,6 +182,7 @@ label: while(false) {
     "source": "label: while(false) {\n  class C {\n    static {\n      break;\n    }\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 71
 }

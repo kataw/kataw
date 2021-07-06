@@ -20,6 +20,7 @@ continue: x;
             "continueKeyword": {
                 "kind": 37757009,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -28,10 +29,12 @@ continue: x;
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         },
@@ -42,10 +45,12 @@ continue: x;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 9,
             "end": 12
         }
@@ -54,6 +59,7 @@ continue: x;
     "source": "continue: x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

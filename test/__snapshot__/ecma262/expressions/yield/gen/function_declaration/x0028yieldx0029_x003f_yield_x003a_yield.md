@@ -29,6 +29,7 @@ function not_gen() { (yield) ? yield : yield }}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function not_gen() { (yield) ? yield : yield }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 16
             },
@@ -47,6 +49,7 @@ function not_gen() { (yield) ? yield : yield }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -67,16 +70,19 @@ function not_gen() { (yield) ? yield : yield }}
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 27
                                     },
                                     "flags": 20,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 28
                                 },
                                 "questionToken": {
                                     "kind": 134217750,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 30
                                 },
@@ -85,12 +91,14 @@ function not_gen() { (yield) ? yield : yield }}
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 36
                                 },
                                 "colonToken": {
                                     "kind": 21,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 38
                                 },
@@ -99,28 +107,34 @@ function not_gen() { (yield) ? yield : yield }}
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 44
                                 },
                                 "flags": 52,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 44
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 44
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 44
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 46
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 46
         }
@@ -129,6 +143,7 @@ function not_gen() { (yield) ? yield : yield }}
     "source": "function not_gen() { (yield) ? yield : yield }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 47
 }

@@ -24,6 +24,7 @@ function f() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -33,6 +34,7 @@ function f() {
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -42,6 +44,7 @@ function f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -56,6 +59,7 @@ function f() {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 25
                             },
@@ -64,6 +68,7 @@ function f() {
                                 "importKeyword": {
                                     "kind": 37814364,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 32
                                 },
@@ -78,10 +83,12 @@ function f() {
                                                 "text": "foo",
                                                 "rawText": "\"foo\"",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 35,
                                                 "end": 40
                                             },
                                             "flags": 34,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 41
                                         },
@@ -90,10 +97,12 @@ function f() {
                                             "text": "then",
                                             "rawText": "then",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 42,
                                             "end": 46
                                         },
                                         "flags": 34,
+                                        "transformFlags": 2,
                                         "start": 34,
                                         "end": 46
                                     },
@@ -105,38 +114,46 @@ function f() {
                                                 "text": "party",
                                                 "rawText": "party",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 47,
                                                 "end": 52
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 47,
                                         "end": 52
                                     },
                                     "flags": 268435488,
+                                    "transformFlags": 1,
                                     "start": 34,
                                     "end": 53
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 53
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 14,
                             "end": 54
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 54
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 56
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 56
         }
@@ -145,6 +162,7 @@ function f() {
     "source": "function f() {\n    return import?.(\"foo\").then(party);\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 56
 }

@@ -26,6 +26,7 @@ e => yield* 10
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -33,6 +34,7 @@ e => yield* 10
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 4
                 },
@@ -43,12 +45,14 @@ e => yield* 10
                         "text": "yield",
                         "rawText": "yield",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 10
                     },
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 10,
                         "end": 11
                     },
@@ -57,18 +61,22 @@ e => yield* 10
                         "text": 10,
                         "rawText": "10",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 14
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 14
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -77,6 +85,7 @@ e => yield* 10
     "source": "e => yield* 10",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -86,7 +95,7 @@ e => yield* 10
 
 ```javascript
 
-e => yield *  10;
+e => yield * 10;
 ```
 
 ### Diagnostics

@@ -30,12 +30,14 @@ x = 0b110_001
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -44,14 +46,17 @@ x = 0b110_001
                     "text": 49,
                     "rawText": "0b110_001",
                     "flags": 589920,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 13
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -60,6 +65,7 @@ x = 0b110_001
     "source": "x = 0b110_001",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

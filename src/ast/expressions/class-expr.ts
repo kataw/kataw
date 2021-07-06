@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { Identifier } from './identifier-expr';
 import { ClassTail } from './class-tail';
@@ -35,6 +35,7 @@ export function createClassExpression(
     typeParameters,
     tail,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

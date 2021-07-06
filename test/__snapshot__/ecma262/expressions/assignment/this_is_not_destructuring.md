@@ -33,10 +33,12 @@
                             "kind": 132,
                             "expressions": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 10
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 10
                     },
@@ -45,16 +47,19 @@
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 12
                     },
                     "flags": 32,
+                    "transformFlags": 2,
                     "start": 0,
                     "end": 12
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
@@ -65,18 +70,22 @@
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 16
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 14,
                     "end": 17
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -85,6 +94,7 @@
     "source": "(...{a: b}.c = [])",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

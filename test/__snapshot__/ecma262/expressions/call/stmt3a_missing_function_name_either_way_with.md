@@ -23,10 +23,12 @@ async
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -37,6 +39,7 @@ async
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 15
             },
@@ -48,6 +51,7 @@ async
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 16
             },
@@ -58,15 +62,18 @@ async
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 18
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 5,
             "end": 19
         }
@@ -75,6 +82,7 @@ async
     "source": "async\n function(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

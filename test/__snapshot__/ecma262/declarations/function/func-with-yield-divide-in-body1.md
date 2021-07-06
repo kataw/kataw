@@ -30,6 +30,7 @@ function f1() { yield / 1 /g }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function f1() { yield / 1 /g }
                 "text": "f1",
                 "rawText": "f1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
@@ -48,6 +50,7 @@ function f1() { yield / 1 /g }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -68,12 +71,14 @@ function f1() { yield / 1 /g }
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 21
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 96,
+                                        "transformFlags": 32,
                                         "start": 21,
                                         "end": 23
                                     },
@@ -82,16 +87,19 @@ function f1() { yield / 1 /g }
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 25
                                     },
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 25
                                 },
                                 "operatorToken": {
                                     "kind": 35640,
                                     "flags": 96,
+                                    "transformFlags": 32,
                                     "start": 25,
                                     "end": 27
                                 },
@@ -100,28 +108,34 @@ function f1() { yield / 1 /g }
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 28
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 28
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 28
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 28
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 30
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -130,6 +144,7 @@ function f1() { yield / 1 /g }
     "source": "function f1() { yield / 1 /g }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }
@@ -140,7 +155,7 @@ function f1() { yield / 1 /g }
 ```javascript
 
 function f1() {
-  yield /  1 /  g;
+  yield / 1 / g;
 }
 ```
 

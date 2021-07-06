@@ -31,6 +31,7 @@ z(x);
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -42,20 +43,24 @@ z(x);
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 3
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 3
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         }
@@ -64,6 +69,7 @@ z(x);
     "source": "z(x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 5
 }

@@ -39,6 +39,7 @@ for (456..x of c) d;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -50,6 +51,7 @@ for (456..x of c) d;
                     "text": 456,
                     "rawText": "456.",
                     "flags": 32864,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 9
                 },
@@ -58,16 +60,19 @@ for (456..x of c) d;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 11
                 },
                 "flags": 32864,
+                "transformFlags": 2,
                 "start": 5,
                 "end": 11
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 14
             },
@@ -76,6 +81,7 @@ for (456..x of c) d;
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -86,14 +92,17 @@ for (456..x of c) d;
                     "text": "d",
                     "rawText": "d",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 20
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -102,6 +111,7 @@ for (456..x of c) d;
     "source": "for (456..x of c) d;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

@@ -32,6 +32,7 @@
                         "forKeyword": {
                             "kind": 37757017,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 5
                         },
@@ -41,19 +42,23 @@
                         "statement": {
                             "kind": 168,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 16
                         },
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 16
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -62,6 +67,7 @@
     "source": "{ for await(;;); }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

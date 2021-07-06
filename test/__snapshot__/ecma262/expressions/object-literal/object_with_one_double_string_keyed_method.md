@@ -24,6 +24,7 @@ wrap({"foo"(){}});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
@@ -48,6 +49,7 @@ wrap({"foo"(){}});
                                                 "text": "foo",
                                                 "rawText": "\"foo\"",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 11
                                             },
@@ -57,6 +59,7 @@ wrap({"foo"(){}});
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 13
                                             },
@@ -68,42 +71,51 @@ wrap({"foo"(){}});
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 14,
                                                     "end": 14
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 15
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 15
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 15
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 15
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 5,
                             "end": 16
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 16
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -112,6 +124,7 @@ wrap({"foo"(){}});
     "source": "wrap({\"foo\"(){}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

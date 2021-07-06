@@ -29,6 +29,7 @@ class x extends public {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class x extends public {}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -48,6 +50,7 @@ class x extends public {}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -56,11 +59,13 @@ class x extends public {}
                         "text": "public",
                         "rawText": "public",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 22
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 22
                 },
@@ -68,14 +73,17 @@ class x extends public {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 24
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -84,6 +92,7 @@ class x extends public {}
     "source": "class x extends public {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

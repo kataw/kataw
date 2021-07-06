@@ -29,6 +29,7 @@ async let [x] = y
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -38,6 +39,7 @@ async let [x] = y
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 9
                 },
@@ -55,22 +57,26 @@ async let [x] = y
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 12
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 9,
                         "end": 13
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 15
                     },
@@ -79,18 +85,22 @@ async let [x] = y
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 9,
                     "end": 17
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -99,6 +109,7 @@ async let [x] = y
     "source": "async let [x] = y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

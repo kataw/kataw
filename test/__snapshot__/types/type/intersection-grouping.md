@@ -29,6 +29,7 @@ type A = B & (C)
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type A = B & (C)
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type A = B & (C)
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -61,11 +64,13 @@ type A = B & (C)
                                 "text": "B",
                                 "rawText": "B",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 10
                         },
@@ -78,28 +83,34 @@ type A = B & (C)
                                     "text": "C",
                                     "rawText": "C",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 15
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 15
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 16
                         }
                     ],
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 16
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 16
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -108,6 +119,7 @@ type A = B & (C)
     "source": "type A = B & (C)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

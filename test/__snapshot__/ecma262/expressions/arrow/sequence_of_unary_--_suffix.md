@@ -29,6 +29,7 @@
                             "operandToken": {
                                 "kind": 196636,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 4
                             },
@@ -37,10 +38,12 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 2
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 4
                         },
@@ -49,12 +52,14 @@
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 8
                 },
@@ -62,6 +67,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
@@ -70,14 +76,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -86,6 +95,7 @@
     "source": "(x--, y) => x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

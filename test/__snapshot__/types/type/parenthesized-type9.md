@@ -29,6 +29,7 @@ type X = (x.y<z>);
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type X = (x.y<z>);
                 "text": "X",
                 "rawText": "X",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type X = (x.y<z>);
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -62,6 +65,7 @@ type X = (x.y<z>);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 11
                             },
@@ -70,10 +74,12 @@ type X = (x.y<z>);
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 13
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 13
                         },
@@ -93,41 +99,50 @@ type X = (x.y<z>);
                                                 "text": "z",
                                                 "rawText": "z",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 15
                                             },
                                             "typeParameters": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 15
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 15
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 15
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 16
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 16
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 17
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 17
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -136,6 +151,7 @@ type X = (x.y<z>);
     "source": "type X = (x.y<z>);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

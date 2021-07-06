@@ -39,6 +39,7 @@ for(let;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,6 +48,7 @@ for(let;;);
                 "text": "let",
                 "rawText": "let",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 7
             },
@@ -55,10 +57,12 @@ for(let;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         }
@@ -67,6 +71,7 @@ for(let;;);
     "source": "for(let;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

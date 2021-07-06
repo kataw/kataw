@@ -26,6 +26,7 @@ const someObj: { id: number } = {};
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -39,6 +40,7 @@ const someObj: { id: number } = {};
                             "text": "someObj",
                             "rawText": "someObj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 13
                         },
@@ -60,6 +62,7 @@ const someObj: { id: number } = {};
                                             "text": "id",
                                             "rawText": "id",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 19
                                         },
@@ -71,24 +74,29 @@ const someObj: { id: number } = {};
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 20,
                                                 "end": 27
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 27
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 27
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 29
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 29
                         },
@@ -99,23 +107,28 @@ const someObj: { id: number } = {};
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 33
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 31,
                             "end": 34
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 5,
                         "end": 34
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 34
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -124,6 +137,7 @@ const someObj: { id: number } = {};
     "source": "const someObj: { id: number } = {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

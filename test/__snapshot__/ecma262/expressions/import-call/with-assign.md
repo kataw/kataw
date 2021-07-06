@@ -24,6 +24,7 @@ import(source = "foo.js")
                 "importKeyword": {
                     "kind": 37814364,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 7
                 },
@@ -34,12 +35,14 @@ import(source = "foo.js")
                         "text": "source",
                         "rawText": "source",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 14
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 16
                     },
@@ -48,18 +51,22 @@ import(source = "foo.js")
                         "text": "foo.js",
                         "rawText": "\"foo.js\"",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 25
                     },
                     "flags": 0,
+                    "transformFlags": 128,
                     "start": 8,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -68,6 +75,7 @@ import(source = "foo.js")
     "source": "\nimport(source = \"foo.js\")\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

@@ -34,6 +34,7 @@
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 16448,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 14
                         },
@@ -45,6 +46,7 @@
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 14
                         },
@@ -55,21 +57,25 @@
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 14
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 14
                         },
                         "returnType": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 14
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 16
                     },
@@ -78,18 +84,22 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 18
                     },
                     "flags": 16384,
+                    "transformFlags": 128,
                     "start": 1,
                     "end": 18
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -98,6 +108,7 @@
     "source": "(\\u0066unction = x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

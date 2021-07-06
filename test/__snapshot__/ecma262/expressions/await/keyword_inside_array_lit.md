@@ -22,6 +22,7 @@ async g => (x = [await y])
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -31,6 +32,7 @@ async g => (x = [await y])
                     "text": "g",
                     "rawText": "g",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -38,6 +40,7 @@ async g => (x = [await y])
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 10
                 },
@@ -50,12 +53,14 @@ async g => (x = [await y])
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 15
                         },
@@ -69,6 +74,7 @@ async g => (x = [await y])
                                         "awaitKeyword": {
                                             "kind": 82196,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 22
                                         },
@@ -77,36 +83,44 @@ async g => (x = [await y])
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 24
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 24
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 24
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 15,
                             "end": 25
                         },
                         "flags": 32,
+                        "transformFlags": 128,
                         "start": 10,
                         "end": 25
                     },
                     "flags": 10,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 26
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -115,6 +129,7 @@ async g => (x = [await y])
     "source": "async g => (x = [await y])",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

@@ -27,6 +27,7 @@ var x = ({ foo }) => {}
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,6 +41,7 @@ var x = ({ foo }) => {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -61,22 +63,26 @@ var x = ({ foo }) => {}
                                                     "text": "foo",
                                                     "rawText": "foo",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 10,
                                                     "end": 14
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 14
                                         },
                                         "flags": 48,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 16
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 17
                             },
@@ -84,6 +90,7 @@ var x = ({ foo }) => {}
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 20
                             },
@@ -94,27 +101,33 @@ var x = ({ foo }) => {}
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 22
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 23
                             },
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 23
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 23
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -123,6 +136,7 @@ var x = ({ foo }) => {}
     "source": "var x = ({ foo }) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

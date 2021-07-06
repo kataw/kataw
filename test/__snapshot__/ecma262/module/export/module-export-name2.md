@@ -27,6 +27,7 @@ export * as "string;
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
@@ -37,12 +38,14 @@ export * as "string;
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
+                    "transformFlags": 32,
                     "start": 18,
                     "end": 20
                 },
                 "asKeyword": {
                     "kind": 16494,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 23
                 },
@@ -51,11 +54,13 @@ export * as "string;
                     "text": "string;",
                     "rawText": "\"string;",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 32
                 },
                 "namedBinding": null,
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 32
             },
@@ -67,15 +72,18 @@ export * as "string;
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 32
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 32
             },
             "exportKind": 0,
             "flags": 81,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -84,6 +92,7 @@ export * as "string;
     "source": "// unclosed\nexport * as \"string;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

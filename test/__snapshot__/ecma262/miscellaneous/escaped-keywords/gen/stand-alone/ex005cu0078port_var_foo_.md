@@ -27,6 +27,7 @@ e\u0078port var foo;
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 16464,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
@@ -36,6 +37,7 @@ e\u0078port var foo;
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 15
                 },
@@ -49,21 +51,25 @@ e\u0078port var foo;
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 19
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 15,
                             "end": 19
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 19
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 20
             },
@@ -72,6 +78,7 @@ e\u0078port var foo;
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -80,6 +87,7 @@ e\u0078port var foo;
     "source": "e\\u0078port var foo;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

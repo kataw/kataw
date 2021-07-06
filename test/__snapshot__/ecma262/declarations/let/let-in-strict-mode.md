@@ -21,6 +21,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -33,12 +34,14 @@
                 "text": "let",
                 "rawText": "let",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 18
             },
@@ -49,14 +52,17 @@
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 19
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 20
         },
@@ -67,10 +73,12 @@
                 "text": "use strict",
                 "rawText": "'use strict'",
                 "flags": 4194401,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 20,
             "end": 35
         },
@@ -81,6 +89,7 @@
                 "operandToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 37
                 },
@@ -89,14 +98,17 @@
                     "text": "implements",
                     "rawText": "implements",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 47
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 47
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 35,
             "end": 48
         }
@@ -105,6 +117,7 @@
     "source": "'use strict'; let:0;\n\n'use strict'; +implements;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 48
 }

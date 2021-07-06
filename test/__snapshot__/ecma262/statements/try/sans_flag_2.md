@@ -21,6 +21,7 @@ try {} catch (e) {}
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -30,10 +31,12 @@ try {} catch (e) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 6
             },
@@ -42,6 +45,7 @@ try {} catch (e) {}
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
@@ -50,6 +54,7 @@ try {} catch (e) {}
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 15
                 },
@@ -59,20 +64,24 @@ try {} catch (e) {}
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 18
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 19
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 19
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         },
@@ -82,10 +91,12 @@ try {} catch (e) {}
                 "kind": 371,
                 "text": "/foo/g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 19,
             "end": 26
         }
@@ -94,6 +105,7 @@ try {} catch (e) {}
     "source": "try {} catch (e) {}\n/foo/g",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

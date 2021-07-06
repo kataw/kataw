@@ -28,10 +28,12 @@ abc\uD835\uDFD0def
                 "text": "abc𝟐def",
                 "rawText": "abc\\uD835\\uDFD0def",
                 "flags": 16480,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -40,6 +42,7 @@ abc\uD835\uDFD0def
     "source": "abc\\uD835\\uDFD0def",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

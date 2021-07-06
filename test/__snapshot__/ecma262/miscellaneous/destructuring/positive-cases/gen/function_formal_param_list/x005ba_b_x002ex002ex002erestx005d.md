@@ -29,6 +29,7 @@ function f([a,b,...rest]) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function f([a,b,...rest]) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -55,6 +57,7 @@ function f([a,b,...rest]) {}
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 13
                                 },
@@ -63,6 +66,7 @@ function f([a,b,...rest]) {}
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 15
                                 },
@@ -71,6 +75,7 @@ function f([a,b,...rest]) {}
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 19
                                     },
@@ -79,6 +84,7 @@ function f([a,b,...rest]) {}
                                         "text": "rest",
                                         "rawText": "rest",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 23
                                     },
@@ -86,22 +92,26 @@ function f([a,b,...rest]) {}
                                     "type": null,
                                     "right": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 23
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 23
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 24
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 24
             },
@@ -112,15 +122,18 @@ function f([a,b,...rest]) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 27
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 28
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -129,6 +142,7 @@ function f([a,b,...rest]) {}
     "source": "function f([a,b,...rest]) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

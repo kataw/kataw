@@ -24,6 +24,7 @@ class C { static #constructor }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -32,6 +33,7 @@ class C { static #constructor }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -53,6 +55,7 @@ class C { static #constructor }
                                 "text": "#constructor",
                                 "rawText": "#constructor",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 22
                             },
@@ -60,19 +63,23 @@ class C { static #constructor }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 22
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 22
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         },
@@ -83,6 +90,7 @@ class C { static #constructor }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 31
             },
@@ -91,6 +99,7 @@ class C { static #constructor }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 33
             },
@@ -108,6 +117,7 @@ class C { static #constructor }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 42
                             },
@@ -117,6 +127,7 @@ class C { static #constructor }
                                 "text": "#constructor",
                                 "rawText": "#constructor",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 55
                             },
@@ -124,19 +135,23 @@ class C { static #constructor }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 42,
                             "end": 55
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 55
                 },
                 "flags": 33,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 57
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 24,
             "end": 57
         }
@@ -145,6 +160,7 @@ class C { static #constructor }
     "source": "class C { #constructor }\n\nclass C { static #constructor }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 57
 }

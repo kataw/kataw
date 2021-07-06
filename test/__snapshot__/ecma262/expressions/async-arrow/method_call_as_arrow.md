@@ -22,6 +22,7 @@ async ({ident: [foo, bar].join("")}) => x
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -41,6 +42,7 @@ async ({ident: [foo, bar].join("")}) => x
                                         "text": "ident",
                                         "rawText": "ident",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 13
                                     },
@@ -58,6 +60,7 @@ async ({ident: [foo, bar].join("")}) => x
                                                             "text": "foo",
                                                             "rawText": "foo",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 16,
                                                             "end": 19
                                                         },
@@ -66,16 +69,19 @@ async ({ident: [foo, bar].join("")}) => x
                                                             "text": "bar",
                                                             "rawText": "bar",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 20,
                                                             "end": 24
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 16,
                                                     "end": 24
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 8,
                                                 "start": 14,
                                                 "end": 25
                                             },
@@ -84,10 +90,12 @@ async ({ident: [foo, bar].join("")}) => x
                                                 "text": "join",
                                                 "rawText": "join",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 30
                                             },
                                             "flags": 32,
+                                            "transformFlags": 2,
                                             "start": 8,
                                             "end": 30
                                         },
@@ -99,40 +107,48 @@ async ({ident: [foo, bar].join("")}) => x
                                                     "text": "",
                                                     "rawText": "\"\"",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 31,
                                                     "end": 33
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 31,
                                             "end": 33
                                         },
                                         "flags": 268435488,
+                                        "transformFlags": 1,
                                         "start": 8,
                                         "end": 34
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 8,
                                     "end": 34
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 34
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 7,
                         "end": 35
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 0
             },
             "flags": 268435490,
+            "transformFlags": 1,
             "start": 0,
             "end": 36
         },
@@ -143,10 +159,12 @@ async ({ident: [foo, bar].join("")}) => x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 41
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 39,
             "end": 41
         }
@@ -155,6 +173,7 @@ async ({ident: [foo, bar].join("")}) => x
     "source": "async ({ident: [foo, bar].join(\"\")}) => x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }

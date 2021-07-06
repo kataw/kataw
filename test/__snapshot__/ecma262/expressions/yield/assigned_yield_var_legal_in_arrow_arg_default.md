@@ -20,6 +20,7 @@ async (x = z = yield) => {}
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -35,6 +36,7 @@ async (x = z = yield) => {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         },
@@ -47,12 +49,14 @@ async (x = z = yield) => {}
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 14
                             },
@@ -61,20 +65,24 @@ async (x = z = yield) => {}
                                 "text": "yield",
                                 "rawText": "yield",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 20
                             },
                             "flags": 0,
+                            "transformFlags": 128,
                             "start": 10,
                             "end": 20
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 20
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 21
             },
@@ -82,6 +90,7 @@ async (x = z = yield) => {}
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 24
             },
@@ -92,14 +101,17 @@ async (x = z = yield) => {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 26
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 27
             },
             "flags": 290,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -108,6 +120,7 @@ async (x = z = yield) => {}
     "source": "async (x = z = yield) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

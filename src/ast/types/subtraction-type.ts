@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 
 export interface SubtractionType extends SyntaxNode {
@@ -20,6 +20,7 @@ export function createSubtractionType(
     text,
     rawText,
     flags: NodeFlags.NoChildren | NodeFlags.IsTypeNode,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

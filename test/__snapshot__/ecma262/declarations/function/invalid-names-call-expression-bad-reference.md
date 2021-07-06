@@ -22,6 +22,7 @@ function fn() { (() => {})().#x }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function fn() { (() => {})().#x }
                 "text": "fn",
                 "rawText": "fn",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
@@ -40,6 +42,7 @@ function fn() { (() => {})().#x }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -66,6 +69,7 @@ function fn() { (() => {})().#x }
                                                 "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 18
                                             },
@@ -73,6 +77,7 @@ function fn() { (() => {})().#x }
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 22
                                             },
@@ -83,18 +88,22 @@ function fn() { (() => {})().#x }
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 24,
                                                     "end": 24
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 25
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 25
                                         },
                                         "flags": 15,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 26
                                     },
@@ -103,10 +112,12 @@ function fn() { (() => {})().#x }
                                         "elements": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 27
                                     },
                                     "flags": 268435488,
+                                    "transformFlags": 1,
                                     "start": 15,
                                     "end": 28
                                 },
@@ -115,28 +126,34 @@ function fn() { (() => {})().#x }
                                     "text": "#x",
                                     "rawText": "#x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 31
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 2,
                                 "start": 15,
                                 "end": 31
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 31
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 31
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 33
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -145,6 +162,7 @@ function fn() { (() => {})().#x }
     "source": "function fn() { (() => {})().#x }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

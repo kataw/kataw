@@ -28,6 +28,7 @@ var \u{63}ontinue = 123;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -35,10 +36,12 @@ var \u{63}ontinue = 123;
                 "kind": 156,
                 "declarations": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 3
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 3
         },
@@ -47,6 +50,7 @@ var \u{63}ontinue = 123;
             "continueKeyword": {
                 "kind": 37757009,
                 "flags": 8272,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 17
             },
@@ -55,10 +59,12 @@ var \u{63}ontinue = 123;
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 3,
             "end": 17
         },
@@ -69,10 +75,12 @@ var \u{63}ontinue = 123;
                 "text": 123,
                 "rawText": "123",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 19,
             "end": 24
         }
@@ -81,6 +89,7 @@ var \u{63}ontinue = 123;
     "source": "var \\u{63}ontinue = 123;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

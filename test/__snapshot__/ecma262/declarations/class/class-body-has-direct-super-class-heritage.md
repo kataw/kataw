@@ -27,6 +27,7 @@ class B extends A {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -35,6 +36,7 @@ class B extends A {
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -46,14 +48,17 @@ class B extends A {
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 9
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -64,6 +69,7 @@ class B extends A {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 16
             },
@@ -72,6 +78,7 @@ class B extends A {
                 "text": "B",
                 "rawText": "B",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 18
             },
@@ -83,6 +90,7 @@ class B extends A {
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 26
                     },
@@ -91,11 +99,13 @@ class B extends A {
                         "text": "A",
                         "rawText": "A",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 28
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 28
                 },
@@ -118,6 +128,7 @@ class B extends A {
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 44
                                 },
@@ -127,6 +138,7 @@ class B extends A {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 46
                                 },
@@ -144,6 +156,7 @@ class B extends A {
                                                     "expression": {
                                                         "kind": 4259935,
                                                         "flags": 97,
+                                                        "transformFlags": 0,
                                                         "start": 48,
                                                         "end": 58
                                                     },
@@ -152,44 +165,54 @@ class B extends A {
                                                         "elements": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 59,
                                                         "end": 59
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 1,
                                                     "start": 48,
                                                     "end": 60
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 48,
                                                 "end": 61
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 48,
                                         "end": 61
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 46,
                                     "end": 65
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 44,
                                 "end": 65
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 65
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 65
                 },
                 "flags": 18,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 67
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 10,
             "end": 67
         }
@@ -198,6 +221,7 @@ class B extends A {
     "source": "class A {}\nclass B extends A {\n  constructor() {\n    super();\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 67
 }

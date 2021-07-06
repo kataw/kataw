@@ -26,6 +26,7 @@ var x = {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -39,6 +40,7 @@ var x = {
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -61,6 +63,7 @@ var x = {
                                                 "text": "foo",
                                                 "rawText": "\"foo\"",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 9,
                                                 "end": 19
                                             },
@@ -70,6 +73,7 @@ var x = {
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 33,
+                                                "transformFlags": 0,
                                                 "start": 20,
                                                 "end": 21
                                             },
@@ -85,6 +89,7 @@ var x = {
                                                             "returnKeyword": {
                                                                 "kind": 37757022,
                                                                 "flags": 81,
+                                                                "transformFlags": 0,
                                                                 "start": 23,
                                                                 "end": 38
                                                             },
@@ -93,50 +98,61 @@ var x = {
                                                                 "text": "bar",
                                                                 "rawText": "bar",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 38,
                                                                 "end": 42
                                                             },
                                                             "flags": 81,
+                                                            "transformFlags": 256,
                                                             "start": 23,
                                                             "end": 43
                                                         }
                                                     ],
                                                     "flags": 33,
+                                                    "transformFlags": 0,
                                                     "start": 23,
                                                     "end": 43
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 49
                                             },
                                             "flags": 33,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 49
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 49
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 49
                             },
                             "flags": 49,
+                            "transformFlags": 8,
                             "start": 7,
                             "end": 51
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 51
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 51
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 52
         }
@@ -145,6 +161,7 @@ var x = {
     "source": "var x = {\n    \"foo\"() {\n        return bar;\n    }\n};\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 53
 }

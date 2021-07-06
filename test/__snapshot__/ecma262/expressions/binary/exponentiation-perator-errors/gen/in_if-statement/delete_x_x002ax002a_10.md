@@ -28,6 +28,7 @@ var O = { p: 1 }, x = 10; ; if (delete x ** 10) { foo(); }
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ var O = { p: 1 }, x = 10; ; if (delete x ** 10) { foo(); }
                             "text": "O",
                             "rawText": "O",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -58,6 +60,7 @@ var O = { p: 1 }, x = 10; ; if (delete x ** 10) { foo(); }
                                             "text": "p",
                                             "rawText": "p",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 11
                                         },
@@ -66,24 +69,29 @@ var O = { p: 1 }, x = 10; ; if (delete x ** 10) { foo(); }
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 14
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 9,
                                         "end": 14
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 14
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 7,
                             "end": 16
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 16
                     },
@@ -94,6 +102,7 @@ var O = { p: 1 }, x = 10; ; if (delete x ** 10) { foo(); }
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 19
                         },
@@ -103,25 +112,30 @@ var O = { p: 1 }, x = 10; ; if (delete x ** 10) { foo(); }
                             "text": 10,
                             "rawText": "10",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 24
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 17,
                         "end": 24
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 25,
             "end": 27
         },
@@ -130,6 +144,7 @@ var O = { p: 1 }, x = 10; ; if (delete x ** 10) { foo(); }
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 30
             },
@@ -140,6 +155,7 @@ var O = { p: 1 }, x = 10; ; if (delete x ** 10) { foo(); }
                     "operandToken": {
                         "kind": 4259886,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 38
                     },
@@ -148,16 +164,19 @@ var O = { p: 1 }, x = 10; ; if (delete x ** 10) { foo(); }
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 38,
                         "end": 40
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 40
                 },
                 "operatorToken": {
                     "kind": 35897,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 40,
                     "end": 43
                 },
@@ -166,10 +185,12 @@ var O = { p: 1 }, x = 10; ; if (delete x ** 10) { foo(); }
                     "text": 10,
                     "rawText": "10",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 43,
                     "end": 46
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 46
             },
@@ -187,6 +208,7 @@ var O = { p: 1 }, x = 10; ; if (delete x ** 10) { foo(); }
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 49,
                                     "end": 53
                                 },
@@ -195,29 +217,35 @@ var O = { p: 1 }, x = 10; ; if (delete x ** 10) { foo(); }
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 54,
                                     "end": 54
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 49,
                                 "end": 55
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 49,
                             "end": 56
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 49,
                     "end": 56
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 47,
                 "end": 58
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 27,
             "end": 58
         }
@@ -226,6 +254,7 @@ var O = { p: 1 }, x = 10; ; if (delete x ** 10) { foo(); }
     "source": "var O = { p: 1 }, x = 10; ; if (delete x ** 10) { foo(); }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 58
 }

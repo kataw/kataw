@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { TemplateSpan } from './template-span';
 import { TemplateTail } from './template-tail';
 
@@ -22,6 +22,7 @@ export function createTemplateExpression(
     spans,
     tail,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

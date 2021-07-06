@@ -32,12 +32,14 @@ yield: label;
                 "text": "opaque",
                 "rawText": "opaque",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 8
             },
@@ -48,14 +50,17 @@ yield: label;
                     "text": "label",
                     "rawText": "label",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 14
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         },
@@ -66,12 +71,14 @@ yield: label;
                 "text": "declare",
                 "rawText": "declare",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 24
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 25
             },
@@ -82,14 +89,17 @@ yield: label;
                     "text": "label",
                     "rawText": "label",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 31
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 15,
             "end": 32
         },
@@ -100,12 +110,14 @@ yield: label;
                 "text": "type",
                 "rawText": "type",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 38
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 39
             },
@@ -116,14 +128,17 @@ yield: label;
                     "text": "label",
                     "rawText": "label",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 45
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 46
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 32,
             "end": 46
         },
@@ -134,12 +149,14 @@ yield: label;
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 46,
                 "end": 53
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 53,
                 "end": 54
             },
@@ -150,14 +167,17 @@ yield: label;
                     "text": "label",
                     "rawText": "label",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 54,
                     "end": 60
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 54,
                 "end": 61
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 46,
             "end": 61
         },
@@ -168,12 +188,14 @@ yield: label;
                 "text": "yield",
                 "rawText": "yield",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 61,
                 "end": 68
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 68,
                 "end": 69
             },
@@ -184,14 +206,17 @@ yield: label;
                     "text": "label",
                     "rawText": "label",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 69,
                     "end": 75
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 69,
                 "end": 76
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 61,
             "end": 76
         }
@@ -200,6 +225,7 @@ yield: label;
     "source": "\nopaque: label;\n\ndeclare: label;\n\ntype: label;\n\nasync: label;\n\nyield: label;\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 77
 }

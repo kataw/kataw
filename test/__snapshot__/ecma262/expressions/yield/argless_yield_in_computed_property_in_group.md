@@ -31,12 +31,14 @@
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 4
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 4,
                                     "end": 6
                                 },
@@ -55,10 +57,12 @@
                                                         "text": "yield",
                                                         "rawText": "yield",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 9,
                                                         "end": 14
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 8,
                                                     "end": 15
                                                 },
@@ -67,41 +71,50 @@
                                                     "text": 1,
                                                     "rawText": "1",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 16,
                                                     "end": 18
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 128,
                                                 "start": 8,
                                                 "end": 18
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 18
                                     },
                                     "flags": 48,
+                                    "transformFlags": 8,
                                     "start": 6,
                                     "end": 19
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 1,
                                 "end": 19
                             },
                             "flags": 1,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 20
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 20
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -110,6 +123,7 @@
     "source": "{ (x = {[yield]: 1}) }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

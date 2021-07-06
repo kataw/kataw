@@ -50,6 +50,7 @@
                                     "text": "foo",
                                     "rawText": "\"foo\"",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1,
                                     "end": 6
                                 },
@@ -58,26 +59,31 @@
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 10
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 1,
                                 "end": 10
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 10
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 11
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
@@ -86,14 +92,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -102,6 +111,7 @@
     "source": "[\"foo\".foo] = x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

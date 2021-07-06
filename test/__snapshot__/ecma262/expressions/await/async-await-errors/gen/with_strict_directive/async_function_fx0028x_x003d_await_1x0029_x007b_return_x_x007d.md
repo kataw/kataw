@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -37,12 +38,14 @@
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 28
             },
@@ -52,6 +55,7 @@
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 30
             },
@@ -67,6 +71,7 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 32
                         },
@@ -77,6 +82,7 @@
                             "awaitKeyword": {
                                 "kind": 82196,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 40
                             },
@@ -85,20 +91,24 @@
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 42
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 42
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 31,
                         "end": 42
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 42
             },
@@ -113,6 +123,7 @@
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 45,
                                 "end": 52
                             },
@@ -121,24 +132,29 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 52,
                                 "end": 54
                             },
                             "flags": 80,
+                            "transformFlags": 256,
                             "start": 45,
                             "end": 55
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 45,
                     "end": 55
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 43,
                 "end": 57
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 13,
             "end": 57
         }
@@ -147,6 +163,7 @@
     "source": "'use strict'; async function f(x = await 1) { return x; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 57
 }

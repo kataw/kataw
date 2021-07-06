@@ -52,6 +52,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 5
                 },
@@ -60,6 +61,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -73,22 +75,27 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "text": "#bar",
                             "rawText": "#bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 9
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 5,
                         "end": 9
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 9
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -99,6 +106,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
@@ -107,6 +115,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
@@ -115,6 +124,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 15
                     },
@@ -128,18 +138,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 18
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 17,
                             "end": 18
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 18
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 18
                 },
@@ -153,22 +167,27 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "text": "#bar",
                             "rawText": "#bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 24
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 20,
                         "end": 24
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 24
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 25
         },
@@ -179,6 +198,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 35
                 },
@@ -187,6 +207,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 30,
                         "end": 32
                     },
@@ -195,6 +216,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 30
                     },
@@ -208,18 +230,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 33
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 32,
                             "end": 33
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 33
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 33
                 },
@@ -233,22 +259,27 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "text": "#bar",
                             "rawText": "#bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 35,
                             "end": 39
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 35,
                         "end": 39
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 39
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 25,
             "end": 40
         },
@@ -259,6 +290,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 48,
                     "end": 50
                 },
@@ -267,6 +299,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 45,
                         "end": 47
                     },
@@ -275,6 +308,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 40,
                         "end": 45
                     },
@@ -288,18 +322,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 47,
                                 "end": 48
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 47,
                             "end": 48
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 47,
                         "end": 48
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 40,
                     "end": 48
                 },
@@ -313,22 +351,27 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "text": "#bar",
                             "rawText": "#bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 50,
                             "end": 54
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 50,
                         "end": 54
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 50,
                     "end": 54
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 40,
                 "end": 54
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 40,
             "end": 55
         },
@@ -339,6 +382,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 63,
                     "end": 65
                 },
@@ -347,6 +391,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 60,
                         "end": 62
                     },
@@ -355,6 +400,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 55,
                         "end": 60
                     },
@@ -368,18 +414,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 62,
                                 "end": 63
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 62,
                             "end": 63
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 62,
                         "end": 63
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 55,
                     "end": 63
                 },
@@ -393,22 +443,27 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "text": "#bar",
                             "rawText": "#bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 65,
                             "end": 69
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 65,
                         "end": 69
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 65,
                     "end": 69
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 55,
                 "end": 69
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 55,
             "end": 70
         },
@@ -419,6 +474,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 78,
                     "end": 80
                 },
@@ -427,6 +483,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 75,
                         "end": 77
                     },
@@ -435,6 +492,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 70,
                         "end": 75
                     },
@@ -448,18 +506,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 77,
                                 "end": 78
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 77,
                             "end": 78
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 77,
                         "end": 78
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 70,
                     "end": 78
                 },
@@ -473,22 +535,27 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "text": "#bar",
                             "rawText": "#bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 80,
                             "end": 84
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 80,
                         "end": 84
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 80,
                     "end": 84
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 70,
                 "end": 84
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 70,
             "end": 85
         },
@@ -499,6 +566,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 120,
                     "end": 122
                 },
@@ -507,6 +575,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 117,
                         "end": 119
                     },
@@ -515,6 +584,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "chainToken": {
                             "kind": 393240,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 114,
                             "end": 116
                         },
@@ -523,6 +593,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "chainToken": {
                                 "kind": 393240,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 111,
                                 "end": 113
                             },
@@ -531,6 +602,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "chainToken": {
                                     "kind": 393240,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 108,
                                     "end": 110
                                 },
@@ -539,6 +611,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "chainToken": {
                                         "kind": 393240,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 105,
                                         "end": 107
                                     },
@@ -547,6 +620,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "chainToken": {
                                             "kind": 393240,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 102,
                                             "end": 104
                                         },
@@ -555,6 +629,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "chainToken": {
                                                 "kind": 393240,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 99,
                                                 "end": 101
                                             },
@@ -563,6 +638,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                 "chainToken": {
                                                     "kind": 393240,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 96,
                                                     "end": 98
                                                 },
@@ -571,6 +647,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                     "chainToken": {
                                                         "kind": 393240,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 93,
                                                         "end": 95
                                                     },
@@ -579,6 +656,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                         "chainToken": {
                                                             "kind": 393240,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 90,
                                                             "end": 92
                                                         },
@@ -587,6 +665,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                             "text": "foo",
                                                             "rawText": "foo",
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 85,
                                                             "end": 90
                                                         },
@@ -600,18 +679,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 92,
                                                                     "end": 93
                                                                 },
                                                                 "flags": 536870944,
+                                                                "transformFlags": 2,
                                                                 "start": 92,
                                                                 "end": 93
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 92,
                                                             "end": 93
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 85,
                                                         "end": 93
                                                     },
@@ -625,18 +708,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 95,
                                                                 "end": 96
                                                             },
                                                             "flags": 536870944,
+                                                            "transformFlags": 2,
                                                             "start": 95,
                                                             "end": 96
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 95,
                                                         "end": 96
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 85,
                                                     "end": 96
                                                 },
@@ -650,18 +737,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 98,
                                                             "end": 99
                                                         },
                                                         "flags": 536870944,
+                                                        "transformFlags": 2,
                                                         "start": 98,
                                                         "end": 99
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 98,
                                                     "end": 99
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 85,
                                                 "end": 99
                                             },
@@ -675,18 +766,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 101,
                                                         "end": 102
                                                     },
                                                     "flags": 536870944,
+                                                    "transformFlags": 2,
                                                     "start": 101,
                                                     "end": 102
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 101,
                                                 "end": 102
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 85,
                                             "end": 102
                                         },
@@ -700,18 +795,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 104,
                                                     "end": 105
                                                 },
                                                 "flags": 536870944,
+                                                "transformFlags": 2,
                                                 "start": 104,
                                                 "end": 105
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 104,
                                             "end": 105
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 85,
                                         "end": 105
                                     },
@@ -725,18 +824,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 107,
                                                 "end": 108
                                             },
                                             "flags": 536870944,
+                                            "transformFlags": 2,
                                             "start": 107,
                                             "end": 108
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 107,
                                         "end": 108
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 85,
                                     "end": 108
                                 },
@@ -750,18 +853,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 110,
                                             "end": 111
                                         },
                                         "flags": 536870944,
+                                        "transformFlags": 2,
                                         "start": 110,
                                         "end": 111
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 110,
                                     "end": 111
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 85,
                                 "end": 111
                             },
@@ -775,18 +882,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 113,
                                         "end": 114
                                     },
                                     "flags": 536870944,
+                                    "transformFlags": 2,
                                     "start": 113,
                                     "end": 114
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 113,
                                 "end": 114
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 85,
                             "end": 114
                         },
@@ -800,18 +911,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 116,
                                     "end": 117
                                 },
                                 "flags": 536870944,
+                                "transformFlags": 2,
                                 "start": 116,
                                 "end": 117
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 116,
                             "end": 117
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 85,
                         "end": 117
                     },
@@ -825,18 +940,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 119,
                                 "end": 120
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 119,
                             "end": 120
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 119,
                         "end": 120
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 85,
                     "end": 120
                 },
@@ -850,22 +969,27 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "text": "#bar",
                             "rawText": "#bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 122,
                             "end": 126
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 122,
                         "end": 126
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 122,
                     "end": 126
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 85,
                 "end": 126
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 85,
             "end": 127
         },
@@ -876,6 +1000,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 156,
                     "end": 158
                 },
@@ -884,6 +1009,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 152,
                         "end": 154
                     },
@@ -892,6 +1018,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "chainToken": {
                             "kind": 393240,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 148,
                             "end": 150
                         },
@@ -900,6 +1027,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "chainToken": {
                                 "kind": 393240,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 144,
                                 "end": 146
                             },
@@ -908,6 +1036,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "chainToken": {
                                     "kind": 393240,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 140,
                                     "end": 142
                                 },
@@ -916,6 +1045,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "chainToken": {
                                         "kind": 393240,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 136,
                                         "end": 138
                                     },
@@ -924,6 +1054,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "chainToken": {
                                             "kind": 393240,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 132,
                                             "end": 134
                                         },
@@ -932,6 +1063,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 127,
                                             "end": 132
                                         },
@@ -945,18 +1077,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                     "text": "#x",
                                                     "rawText": "#x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 134,
                                                     "end": 136
                                                 },
                                                 "flags": 536870944,
+                                                "transformFlags": 2,
                                                 "start": 134,
                                                 "end": 136
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 134,
                                             "end": 136
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 127,
                                         "end": 136
                                     },
@@ -970,18 +1106,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                 "text": "#x",
                                                 "rawText": "#x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 138,
                                                 "end": 140
                                             },
                                             "flags": 536870944,
+                                            "transformFlags": 2,
                                             "start": 138,
                                             "end": 140
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 138,
                                         "end": 140
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 127,
                                     "end": 140
                                 },
@@ -995,18 +1135,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "text": "#x",
                                             "rawText": "#x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 142,
                                             "end": 144
                                         },
                                         "flags": 536870944,
+                                        "transformFlags": 2,
                                         "start": 142,
                                         "end": 144
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 142,
                                     "end": 144
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 127,
                                 "end": 144
                             },
@@ -1020,18 +1164,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "text": "#x",
                                         "rawText": "#x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 146,
                                         "end": 148
                                     },
                                     "flags": 536870944,
+                                    "transformFlags": 2,
                                     "start": 146,
                                     "end": 148
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 146,
                                 "end": 148
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 127,
                             "end": 148
                         },
@@ -1045,18 +1193,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "text": "#x",
                                     "rawText": "#x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 150,
                                     "end": 152
                                 },
                                 "flags": 536870944,
+                                "transformFlags": 2,
                                 "start": 150,
                                 "end": 152
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 150,
                             "end": 152
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 127,
                         "end": 152
                     },
@@ -1070,18 +1222,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "text": "#x",
                                 "rawText": "#x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 154,
                                 "end": 156
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 154,
                             "end": 156
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 154,
                         "end": 156
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 127,
                     "end": 156
                 },
@@ -1095,22 +1251,27 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "text": "#bar",
                             "rawText": "#bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 158,
                             "end": 162
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 158,
                         "end": 162
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 158,
                     "end": 162
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 127,
                 "end": 162
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 127,
             "end": 163
         },
@@ -1121,6 +1282,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 188,
                     "end": 190
                 },
@@ -1129,6 +1291,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 185,
                         "end": 187
                     },
@@ -1137,6 +1300,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "chainToken": {
                             "kind": 393240,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 182,
                             "end": 184
                         },
@@ -1145,6 +1309,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "chainToken": {
                                 "kind": 393240,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 177,
                                 "end": 179
                             },
@@ -1153,6 +1318,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "chainToken": {
                                     "kind": 393240,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 174,
                                     "end": 176
                                 },
@@ -1161,6 +1327,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "chainToken": {
                                         "kind": 393240,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 171,
                                         "end": 173
                                     },
@@ -1169,6 +1336,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "chainToken": {
                                             "kind": 393240,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 168,
                                             "end": 170
                                         },
@@ -1177,6 +1345,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 163,
                                             "end": 168
                                         },
@@ -1190,18 +1359,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 170,
                                                     "end": 171
                                                 },
                                                 "flags": 536870944,
+                                                "transformFlags": 2,
                                                 "start": 170,
                                                 "end": 171
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 170,
                                             "end": 171
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 163,
                                         "end": 171
                                     },
@@ -1215,18 +1388,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 173,
                                                 "end": 174
                                             },
                                             "flags": 536870944,
+                                            "transformFlags": 2,
                                             "start": 173,
                                             "end": 174
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 173,
                                         "end": 174
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 163,
                                     "end": 174
                                 },
@@ -1240,18 +1417,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 176,
                                             "end": 177
                                         },
                                         "flags": 536870944,
+                                        "transformFlags": 2,
                                         "start": 176,
                                         "end": 177
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 176,
                                     "end": 177
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 163,
                                 "end": 177
                             },
@@ -1265,18 +1446,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 180,
                                         "end": 181
                                     },
                                     "flags": 536870944,
+                                    "transformFlags": 4,
                                     "start": 179,
                                     "end": 181
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 179,
                                 "end": 182
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 163,
                             "end": 182
                         },
@@ -1290,18 +1475,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 184,
                                     "end": 185
                                 },
                                 "flags": 536870944,
+                                "transformFlags": 2,
                                 "start": 184,
                                 "end": 185
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 184,
                             "end": 185
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 163,
                         "end": 185
                     },
@@ -1315,18 +1504,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 187,
                                 "end": 188
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 187,
                             "end": 188
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 187,
                         "end": 188
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 163,
                     "end": 188
                 },
@@ -1340,22 +1533,27 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "text": "#bar",
                             "rawText": "#bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 190,
                             "end": 194
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 190,
                         "end": 194
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 190,
                     "end": 194
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 163,
                 "end": 194
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 163,
             "end": 195
         },
@@ -1366,6 +1564,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 235,
                     "end": 237
                 },
@@ -1374,6 +1573,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 232,
                         "end": 234
                     },
@@ -1382,6 +1582,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "chainToken": {
                             "kind": 393240,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 229,
                             "end": 231
                         },
@@ -1390,6 +1591,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "chainToken": {
                                 "kind": 393240,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 225,
                                 "end": 227
                             },
@@ -1398,6 +1600,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "chainToken": {
                                     "kind": 393240,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 220,
                                     "end": 222
                                 },
@@ -1406,6 +1609,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "chainToken": {
                                         "kind": 393240,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 217,
                                         "end": 219
                                     },
@@ -1414,6 +1618,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "chainToken": {
                                             "kind": 393240,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 213,
                                             "end": 215
                                         },
@@ -1422,6 +1627,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "chainToken": {
                                                 "kind": 393240,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 210,
                                                 "end": 212
                                             },
@@ -1430,6 +1636,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                 "chainToken": {
                                                     "kind": 393240,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 206,
                                                     "end": 208
                                                 },
@@ -1438,6 +1645,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                     "chainToken": {
                                                         "kind": 393240,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 203,
                                                         "end": 205
                                                     },
@@ -1446,6 +1654,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                         "chainToken": {
                                                             "kind": 393240,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 200,
                                                             "end": 202
                                                         },
@@ -1454,6 +1663,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                             "text": "foo",
                                                             "rawText": "foo",
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 195,
                                                             "end": 200
                                                         },
@@ -1467,18 +1677,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 202,
                                                                     "end": 203
                                                                 },
                                                                 "flags": 536870944,
+                                                                "transformFlags": 2,
                                                                 "start": 202,
                                                                 "end": 203
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 202,
                                                             "end": 203
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 195,
                                                         "end": 203
                                                     },
@@ -1492,18 +1706,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 205,
                                                                 "end": 206
                                                             },
                                                             "flags": 536870944,
+                                                            "transformFlags": 2,
                                                             "start": 205,
                                                             "end": 206
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 205,
                                                         "end": 206
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 195,
                                                     "end": 206
                                                 },
@@ -1517,18 +1735,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                             "text": "#x",
                                                             "rawText": "#x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 208,
                                                             "end": 210
                                                         },
                                                         "flags": 536870944,
+                                                        "transformFlags": 2,
                                                         "start": 208,
                                                         "end": 210
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 208,
                                                     "end": 210
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 195,
                                                 "end": 210
                                             },
@@ -1542,18 +1764,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 212,
                                                         "end": 213
                                                     },
                                                     "flags": 536870944,
+                                                    "transformFlags": 2,
                                                     "start": 212,
                                                     "end": 213
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 212,
                                                 "end": 213
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 195,
                                             "end": 213
                                         },
@@ -1567,18 +1793,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                     "text": "#x",
                                                     "rawText": "#x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 215,
                                                     "end": 217
                                                 },
                                                 "flags": 536870944,
+                                                "transformFlags": 2,
                                                 "start": 215,
                                                 "end": 217
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 215,
                                             "end": 217
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 195,
                                         "end": 217
                                     },
@@ -1592,18 +1822,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 219,
                                                 "end": 220
                                             },
                                             "flags": 536870944,
+                                            "transformFlags": 2,
                                             "start": 219,
                                             "end": 220
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 219,
                                         "end": 220
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 195,
                                     "end": 220
                                 },
@@ -1617,18 +1851,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 223,
                                             "end": 224
                                         },
                                         "flags": 536870944,
+                                        "transformFlags": 4,
                                         "start": 222,
                                         "end": 224
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 222,
                                     "end": 225
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 195,
                                 "end": 225
                             },
@@ -1642,18 +1880,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "text": "#x",
                                         "rawText": "#x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 227,
                                         "end": 229
                                     },
                                     "flags": 536870944,
+                                    "transformFlags": 2,
                                     "start": 227,
                                     "end": 229
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 227,
                                 "end": 229
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 195,
                             "end": 229
                         },
@@ -1667,18 +1909,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 231,
                                     "end": 232
                                 },
                                 "flags": 536870944,
+                                "transformFlags": 2,
                                 "start": 231,
                                 "end": 232
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 231,
                             "end": 232
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 195,
                         "end": 232
                     },
@@ -1692,18 +1938,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 234,
                                 "end": 235
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 234,
                             "end": 235
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 234,
                         "end": 235
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 195,
                     "end": 235
                 },
@@ -1717,22 +1967,27 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "text": "#bar",
                             "rawText": "#bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 237,
                             "end": 241
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 237,
                         "end": 241
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 237,
                     "end": 241
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 195,
                 "end": 241
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 195,
             "end": 242
         },
@@ -1743,6 +1998,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 270,
                     "end": 272
                 },
@@ -1751,6 +2007,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 267,
                         "end": 269
                     },
@@ -1759,6 +2016,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "chainToken": {
                             "kind": 393240,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 262,
                             "end": 264
                         },
@@ -1767,6 +2025,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "chainToken": {
                                 "kind": 393240,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 257,
                                 "end": 259
                             },
@@ -1775,6 +2034,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "chainToken": {
                                     "kind": 393240,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 253,
                                     "end": 255
                                 },
@@ -1783,6 +2043,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "chainToken": {
                                         "kind": 393240,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 250,
                                         "end": 252
                                     },
@@ -1791,6 +2052,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "chainToken": {
                                             "kind": 393240,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 247,
                                             "end": 249
                                         },
@@ -1799,6 +2061,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 242,
                                             "end": 247
                                         },
@@ -1812,18 +2075,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 249,
                                                     "end": 250
                                                 },
                                                 "flags": 536870944,
+                                                "transformFlags": 2,
                                                 "start": 249,
                                                 "end": 250
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 249,
                                             "end": 250
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 242,
                                         "end": 250
                                     },
@@ -1837,18 +2104,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 252,
                                                 "end": 253
                                             },
                                             "flags": 536870944,
+                                            "transformFlags": 2,
                                             "start": 252,
                                             "end": 253
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 252,
                                         "end": 253
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 242,
                                     "end": 253
                                 },
@@ -1862,18 +2133,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "text": "#x",
                                             "rawText": "#x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 255,
                                             "end": 257
                                         },
                                         "flags": 536870944,
+                                        "transformFlags": 2,
                                         "start": 255,
                                         "end": 257
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 255,
                                     "end": 257
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 242,
                                 "end": 257
                             },
@@ -1887,18 +2162,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 260,
                                         "end": 261
                                     },
                                     "flags": 536870944,
+                                    "transformFlags": 4,
                                     "start": 259,
                                     "end": 261
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 259,
                                 "end": 262
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 242,
                             "end": 262
                         },
@@ -1912,18 +2191,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 265,
                                     "end": 266
                                 },
                                 "flags": 536870944,
+                                "transformFlags": 4,
                                 "start": 264,
                                 "end": 266
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 264,
                             "end": 267
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 242,
                         "end": 267
                     },
@@ -1937,18 +2220,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 269,
                                 "end": 270
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 269,
                             "end": 270
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 269,
                         "end": 270
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 242,
                     "end": 270
                 },
@@ -1962,22 +2249,27 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "text": "#bar",
                             "rawText": "#bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 272,
                             "end": 276
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 272,
                         "end": 276
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 272,
                     "end": 276
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 242,
                 "end": 276
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 242,
             "end": 277
         },
@@ -1988,6 +2280,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 301,
                     "end": 303
                 },
@@ -1996,6 +2289,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 298,
                         "end": 300
                     },
@@ -2004,6 +2298,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "chainToken": {
                             "kind": 393240,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 295,
                             "end": 297
                         },
@@ -2012,6 +2307,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "chainToken": {
                                 "kind": 393240,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 292,
                                 "end": 294
                             },
@@ -2020,6 +2316,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "chainToken": {
                                     "kind": 393240,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 289,
                                     "end": 291
                                 },
@@ -2028,6 +2325,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "chainToken": {
                                         "kind": 393240,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 286,
                                         "end": 288
                                     },
@@ -2036,6 +2334,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "chainToken": {
                                             "kind": 393240,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 283,
                                             "end": 285
                                         },
@@ -2044,6 +2343,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "text": "#foo",
                                             "rawText": "#foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 277,
                                             "end": 283
                                         },
@@ -2057,18 +2357,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 285,
                                                     "end": 286
                                                 },
                                                 "flags": 536870944,
+                                                "transformFlags": 2,
                                                 "start": 285,
                                                 "end": 286
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 285,
                                             "end": 286
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 277,
                                         "end": 286
                                     },
@@ -2082,18 +2386,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 288,
                                                 "end": 289
                                             },
                                             "flags": 536870944,
+                                            "transformFlags": 2,
                                             "start": 288,
                                             "end": 289
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 288,
                                         "end": 289
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 277,
                                     "end": 289
                                 },
@@ -2107,18 +2415,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 291,
                                             "end": 292
                                         },
                                         "flags": 536870944,
+                                        "transformFlags": 2,
                                         "start": 291,
                                         "end": 292
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 291,
                                     "end": 292
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 277,
                                 "end": 292
                             },
@@ -2132,18 +2444,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 294,
                                         "end": 295
                                     },
                                     "flags": 536870944,
+                                    "transformFlags": 2,
                                     "start": 294,
                                     "end": 295
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 294,
                                 "end": 295
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 277,
                             "end": 295
                         },
@@ -2157,18 +2473,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 297,
                                     "end": 298
                                 },
                                 "flags": 536870944,
+                                "transformFlags": 2,
                                 "start": 297,
                                 "end": 298
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 297,
                             "end": 298
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 277,
                         "end": 298
                     },
@@ -2182,18 +2502,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 300,
                                 "end": 301
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 300,
                             "end": 301
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 300,
                         "end": 301
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 277,
                     "end": 301
                 },
@@ -2207,22 +2531,27 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "text": "#bar",
                             "rawText": "#bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 303,
                             "end": 307
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 303,
                         "end": 307
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 303,
                     "end": 307
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 277,
                 "end": 307
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 277,
             "end": 308
         },
@@ -2233,6 +2562,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 332,
                     "end": 334
                 },
@@ -2241,6 +2571,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 329,
                         "end": 331
                     },
@@ -2249,6 +2580,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "chainToken": {
                             "kind": 393240,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 326,
                             "end": 328
                         },
@@ -2257,6 +2589,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "chainToken": {
                                 "kind": 393240,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 323,
                                 "end": 325
                             },
@@ -2265,6 +2598,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "chainToken": {
                                     "kind": 393240,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 320,
                                     "end": 322
                                 },
@@ -2273,6 +2607,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "chainToken": {
                                         "kind": 393240,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 317,
                                         "end": 319
                                     },
@@ -2281,6 +2616,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "chainToken": {
                                             "kind": 393240,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 314,
                                             "end": 316
                                         },
@@ -2289,6 +2625,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "text": "#foo",
                                             "rawText": "#foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 308,
                                             "end": 314
                                         },
@@ -2302,18 +2639,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 316,
                                                     "end": 317
                                                 },
                                                 "flags": 536870944,
+                                                "transformFlags": 2,
                                                 "start": 316,
                                                 "end": 317
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 316,
                                             "end": 317
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 308,
                                         "end": 317
                                     },
@@ -2327,18 +2668,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 319,
                                                 "end": 320
                                             },
                                             "flags": 536870944,
+                                            "transformFlags": 2,
                                             "start": 319,
                                             "end": 320
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 319,
                                         "end": 320
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 308,
                                     "end": 320
                                 },
@@ -2352,18 +2697,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 322,
                                             "end": 323
                                         },
                                         "flags": 536870944,
+                                        "transformFlags": 2,
                                         "start": 322,
                                         "end": 323
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 322,
                                     "end": 323
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 308,
                                 "end": 323
                             },
@@ -2377,18 +2726,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 325,
                                         "end": 326
                                     },
                                     "flags": 536870944,
+                                    "transformFlags": 2,
                                     "start": 325,
                                     "end": 326
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 325,
                                 "end": 326
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 308,
                             "end": 326
                         },
@@ -2402,18 +2755,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 328,
                                     "end": 329
                                 },
                                 "flags": 536870944,
+                                "transformFlags": 2,
                                 "start": 328,
                                 "end": 329
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 328,
                             "end": 329
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 308,
                         "end": 329
                     },
@@ -2427,18 +2784,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 331,
                                 "end": 332
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 331,
                             "end": 332
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 331,
                         "end": 332
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 308,
                     "end": 332
                 },
@@ -2452,22 +2813,27 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "text": "#bar",
                             "rawText": "#bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 334,
                             "end": 338
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 334,
                         "end": 338
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 334,
                     "end": 338
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 308,
                 "end": 338
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 308,
             "end": 339
         },
@@ -2480,6 +2846,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 360,
                         "end": 362
                     },
@@ -2488,6 +2855,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "chainToken": {
                             "kind": 393240,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 357,
                             "end": 359
                         },
@@ -2496,6 +2864,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "chainToken": {
                                 "kind": 393240,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 354,
                                 "end": 356
                             },
@@ -2504,6 +2873,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "chainToken": {
                                     "kind": 393240,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 351,
                                     "end": 353
                                 },
@@ -2512,6 +2882,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "chainToken": {
                                         "kind": 393240,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 348,
                                         "end": 350
                                     },
@@ -2520,6 +2891,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "chainToken": {
                                             "kind": 393240,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 345,
                                             "end": 347
                                         },
@@ -2528,6 +2900,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "text": "#foo",
                                             "rawText": "#foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 339,
                                             "end": 345
                                         },
@@ -2541,18 +2914,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 347,
                                                     "end": 348
                                                 },
                                                 "flags": 536870944,
+                                                "transformFlags": 2,
                                                 "start": 347,
                                                 "end": 348
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 347,
                                             "end": 348
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 339,
                                         "end": 348
                                     },
@@ -2566,18 +2943,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 350,
                                                 "end": 351
                                             },
                                             "flags": 536870944,
+                                            "transformFlags": 2,
                                             "start": 350,
                                             "end": 351
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 350,
                                         "end": 351
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 339,
                                     "end": 351
                                 },
@@ -2591,18 +2972,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 353,
                                             "end": 354
                                         },
                                         "flags": 536870944,
+                                        "transformFlags": 2,
                                         "start": 353,
                                         "end": 354
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 353,
                                     "end": 354
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 339,
                                 "end": 354
                             },
@@ -2616,18 +3001,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 356,
                                         "end": 357
                                     },
                                     "flags": 536870944,
+                                    "transformFlags": 2,
                                     "start": 356,
                                     "end": 357
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 356,
                                 "end": 357
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 339,
                             "end": 357
                         },
@@ -2641,18 +3030,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 359,
                                     "end": 360
                                 },
                                 "flags": 536870944,
+                                "transformFlags": 2,
                                 "start": 359,
                                 "end": 360
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 359,
                             "end": 360
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 339,
                         "end": 360
                     },
@@ -2666,24 +3059,29 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "text": "package",
                                 "rawText": "package",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 362,
                                 "end": 369
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 362,
                             "end": 369
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 362,
                         "end": 369
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 339,
                     "end": 369
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 369,
                     "end": 370
                 },
@@ -2692,6 +3090,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 372,
                         "end": 374
                     },
@@ -2700,6 +3099,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "text": "gh",
                         "rawText": "gh",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 370,
                         "end": 372
                     },
@@ -2713,26 +3113,32 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "text": "#bar",
                                 "rawText": "#bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 374,
                                 "end": 378
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 374,
                             "end": 378
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 374,
                         "end": 378
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 370,
                     "end": 378
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 339,
                 "end": 378
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 339,
             "end": 379
         },
@@ -2745,6 +3151,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 394,
                         "end": 396
                     },
@@ -2753,6 +3160,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "chainToken": {
                             "kind": 393240,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 391,
                             "end": 393
                         },
@@ -2761,6 +3169,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "chainToken": {
                                 "kind": 393240,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 388,
                                 "end": 390
                             },
@@ -2769,6 +3178,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "chainToken": {
                                     "kind": 393240,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 385,
                                     "end": 387
                                 },
@@ -2777,6 +3187,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "text": "#foo",
                                     "rawText": "#foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 379,
                                     "end": 385
                                 },
@@ -2790,18 +3201,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 387,
                                             "end": 388
                                         },
                                         "flags": 536870944,
+                                        "transformFlags": 2,
                                         "start": 387,
                                         "end": 388
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 387,
                                     "end": 388
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 379,
                                 "end": 388
                             },
@@ -2815,18 +3230,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 390,
                                         "end": 391
                                     },
                                     "flags": 536870944,
+                                    "transformFlags": 2,
                                     "start": 390,
                                     "end": 391
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 390,
                                 "end": 391
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 379,
                             "end": 391
                         },
@@ -2840,18 +3259,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 393,
                                     "end": 394
                                 },
                                 "flags": 536870944,
+                                "transformFlags": 2,
                                 "start": 393,
                                 "end": 394
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 393,
                             "end": 394
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 379,
                         "end": 394
                     },
@@ -2865,24 +3288,29 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 396,
                                 "end": 397
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 396,
                             "end": 397
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 396,
                         "end": 397
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 379,
                     "end": 397
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 397,
                     "end": 398
                 },
@@ -2891,6 +3319,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 405,
                         "end": 407
                     },
@@ -2899,6 +3328,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "chainToken": {
                             "kind": 393240,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 402,
                             "end": 404
                         },
@@ -2907,6 +3337,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "chainToken": {
                                 "kind": 393240,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 399,
                                 "end": 401
                             },
@@ -2915,6 +3346,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 398,
                                 "end": 399
                             },
@@ -2928,18 +3360,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 401,
                                         "end": 402
                                     },
                                     "flags": 536870944,
+                                    "transformFlags": 2,
                                     "start": 401,
                                     "end": 402
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 401,
                                 "end": 402
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 398,
                             "end": 402
                         },
@@ -2953,18 +3389,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 404,
                                     "end": 405
                                 },
                                 "flags": 536870944,
+                                "transformFlags": 2,
                                 "start": 404,
                                 "end": 405
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 404,
                             "end": 405
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 398,
                         "end": 405
                     },
@@ -2978,26 +3418,32 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "text": "#bar",
                                 "rawText": "#bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 407,
                                 "end": 411
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 407,
                             "end": 411
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 407,
                         "end": 411
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 398,
                     "end": 411
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 379,
                 "end": 411
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 379,
             "end": 412
         },
@@ -3010,6 +3456,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 427,
                         "end": 429
                     },
@@ -3018,6 +3465,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "chainToken": {
                             "kind": 393240,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 424,
                             "end": 426
                         },
@@ -3026,6 +3474,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "chainToken": {
                                 "kind": 393240,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 421,
                                 "end": 423
                             },
@@ -3034,6 +3483,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "chainToken": {
                                     "kind": 393240,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 418,
                                     "end": 420
                                 },
@@ -3042,6 +3492,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "text": "#foo",
                                     "rawText": "#foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 412,
                                     "end": 418
                                 },
@@ -3055,18 +3506,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 420,
                                             "end": 421
                                         },
                                         "flags": 536870944,
+                                        "transformFlags": 2,
                                         "start": 420,
                                         "end": 421
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 420,
                                     "end": 421
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 412,
                                 "end": 421
                             },
@@ -3080,18 +3535,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 423,
                                         "end": 424
                                     },
                                     "flags": 536870944,
+                                    "transformFlags": 2,
                                     "start": 423,
                                     "end": 424
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 423,
                                 "end": 424
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 412,
                             "end": 424
                         },
@@ -3105,18 +3564,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 426,
                                     "end": 427
                                 },
                                 "flags": 536870944,
+                                "transformFlags": 2,
                                 "start": 426,
                                 "end": 427
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 426,
                             "end": 427
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 412,
                         "end": 427
                     },
@@ -3130,24 +3593,29 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 430,
                                 "end": 431
                             },
                             "flags": 536870944,
+                            "transformFlags": 4,
                             "start": 429,
                             "end": 431
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 429,
                         "end": 432
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 412,
                     "end": 432
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 432,
                     "end": 433
                 },
@@ -3156,14 +3624,17 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 433,
                     "end": 434
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 412,
                 "end": 434
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 412,
             "end": 434
         },
@@ -3174,6 +3645,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 441,
                     "end": 443
                 },
@@ -3182,6 +3654,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 438,
                         "end": 440
                     },
@@ -3190,6 +3663,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 437,
                         "end": 438
                     },
@@ -3203,18 +3677,22 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 440,
                                 "end": 441
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 440,
                             "end": 441
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 440,
                         "end": 441
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 437,
                     "end": 441
                 },
@@ -3228,22 +3706,27 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
                             "text": "#bar",
                             "rawText": "#bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 443,
                             "end": 447
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 443,
                         "end": 447
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 443,
                     "end": 447
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 437,
                 "end": 447
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 437,
             "end": 448
         }
@@ -3252,6 +3735,7 @@ foo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;
     "source": "foo?.#bar;\n\nfoo?.x?.#bar;\n\nfoo?.x?.#bar;\n\nfoo?.x?.#bar;\n\nfoo?.x?.#bar;\n\nfoo?.x?.#bar;\n\nfoo?.x?.x?.x?.x?.x?.x?.x?.x?.x?.x?.#bar;\n\nfoo?.#x?.#x?.#x?.#x?.#x?.#x?.#bar;\n\nfoo?.x?.x?.x?.[y]?.x?.x?.#bar;\n\nfoo?.x?.x?.#x?.x?.#x?.x?.[y]?.#x?.x?.x?.#bar;\n\nfoo?.x?.x?.#x?.[y]?.[y]?.x?.#bar;\n\n#foo?.x?.x?.x?.x?.x?.x?.#bar;\n\n#foo?.x?.x?.x?.x?.x?.x?.#bar;\n\n#foo?.x?.x?.x?.x?.x?.package=gh?.#bar;\n\n#foo?.x?.x?.x?.x=y?.x?.x?.#bar;\n\n#foo?.x?.x?.x?.[y]=z]?.x?.x?.#bar;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 448
 }

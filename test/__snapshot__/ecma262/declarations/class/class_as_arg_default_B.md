@@ -43,12 +43,14 @@ f = ([xCls = class X {}]) => {}
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -72,6 +74,7 @@ f = ([xCls = class X {}]) => {}
                                                 "text": "xCls",
                                                 "rawText": "xCls",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 10
                                             },
@@ -83,6 +86,7 @@ f = ([xCls = class X {}]) => {}
                                                 "classKeyword": {
                                                     "kind": 37822544,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 12,
                                                     "end": 18
                                                 },
@@ -91,6 +95,7 @@ f = ([xCls = class X {}]) => {}
                                                     "text": "X",
                                                     "rawText": "X",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 18,
                                                     "end": 20
                                                 },
@@ -102,34 +107,41 @@ f = ([xCls = class X {}]) => {}
                                                         "kind": 303,
                                                         "elements": [],
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 22,
                                                         "end": 22
                                                     },
                                                     "flags": 20,
+                                                    "transformFlags": 0,
                                                     "start": 32,
                                                     "end": 23
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 23
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 23
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 23
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 24
                             }
                         ],
                         "trailingComma": false,
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 25
                     },
@@ -137,6 +149,7 @@ f = ([xCls = class X {}]) => {}
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 28
                     },
@@ -147,22 +160,27 @@ f = ([xCls = class X {}]) => {}
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 30
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 28,
                         "end": 31
                     },
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 31
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -171,6 +189,7 @@ f = ([xCls = class X {}]) => {}
     "source": "f = ([xCls = class X {}]) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

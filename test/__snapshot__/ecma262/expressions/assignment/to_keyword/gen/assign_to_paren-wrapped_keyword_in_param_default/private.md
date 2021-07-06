@@ -27,6 +27,7 @@ async (x = (private) = f) => {}
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,6 +43,7 @@ async (x = (private) = f) => {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         },
@@ -56,16 +58,19 @@ async (x = (private) = f) => {}
                                     "text": "private",
                                     "rawText": "private",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 19
                                 },
                                 "flags": 10,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 20
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 22
                             },
@@ -74,20 +79,24 @@ async (x = (private) = f) => {}
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 24
                             },
                             "flags": 0,
+                            "transformFlags": 128,
                             "start": 10,
                             "end": 24
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 24
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 25
             },
@@ -95,6 +104,7 @@ async (x = (private) = f) => {}
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 28
             },
@@ -105,14 +115,17 @@ async (x = (private) = f) => {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 30
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 31
             },
             "flags": 290,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -121,6 +134,7 @@ async (x = (private) = f) => {}
     "source": "async (x = (private) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

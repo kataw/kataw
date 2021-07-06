@@ -26,12 +26,14 @@ f({x = 0});
                     "text": "obj",
                     "rawText": "obj",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 5
                 },
@@ -47,6 +49,7 @@ f({x = 0});
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 8
                                 },
@@ -55,28 +58,34 @@ f({x = 0});
                                     "text": 0,
                                     "rawText": "0",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 12
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 12
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 12
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 5,
                     "end": 13
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         },
@@ -89,6 +98,7 @@ f({x = 0});
                     "text": "f",
                     "rawText": "f",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 17
                 },
@@ -107,6 +117,7 @@ f({x = 0});
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 20
                                         },
@@ -115,34 +126,41 @@ f({x = 0});
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 24
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 24
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 24
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 18,
                             "end": 25
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 25
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 14,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 14,
             "end": 27
         }
@@ -151,6 +169,7 @@ f({x = 0});
     "source": "obj = {x = 0};\n\nf({x = 0});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

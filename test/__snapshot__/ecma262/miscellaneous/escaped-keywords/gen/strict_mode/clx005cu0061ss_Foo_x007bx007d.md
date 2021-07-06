@@ -29,6 +29,7 @@ cl\u0061ss Foo {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 16464,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
@@ -37,6 +38,7 @@ cl\u0061ss Foo {}
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 14
             },
@@ -48,14 +50,17 @@ cl\u0061ss Foo {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 16
                 },
                 "flags": 14,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -64,6 +69,7 @@ cl\u0061ss Foo {}
     "source": "cl\\u0061ss Foo {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

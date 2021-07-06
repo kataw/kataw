@@ -22,12 +22,14 @@ foo: if (x) while(z) continue foo
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 4
             },
@@ -36,6 +38,7 @@ foo: if (x) while(z) continue foo
                 "ifKeyword": {
                     "kind": 37757019,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 7
                 },
@@ -44,6 +47,7 @@ foo: if (x) while(z) continue foo
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 10
                 },
@@ -52,6 +56,7 @@ foo: if (x) while(z) continue foo
                     "whileKeyword": {
                         "kind": 37757028,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 17
                     },
@@ -60,6 +65,7 @@ foo: if (x) while(z) continue foo
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 19
                     },
@@ -68,6 +74,7 @@ foo: if (x) while(z) continue foo
                         "continueKeyword": {
                             "kind": 37757009,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 29
                         },
@@ -76,24 +83,29 @@ foo: if (x) while(z) continue foo
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 33
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 33
                     },
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 33
                 },
                 "elseKeyword": null,
                 "alternate": null,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -102,6 +114,7 @@ foo: if (x) while(z) continue foo
     "source": "foo: if (x) while(z) continue foo",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

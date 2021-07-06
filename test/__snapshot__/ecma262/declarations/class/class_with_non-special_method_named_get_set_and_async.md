@@ -41,6 +41,7 @@ class A {"set"(){} "get"(){} "async"(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -49,6 +50,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -75,6 +77,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                                     "text": "set",
                                     "rawText": "\"set\"",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 14
                                 },
@@ -84,6 +87,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 16
                                 },
@@ -95,18 +99,22 @@ class A {"set"(){} "get"(){} "async"(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 17
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 18
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 18
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 18
                         },
@@ -126,6 +134,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                                     "text": "get",
                                     "rawText": "\"get\"",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 24
                                 },
@@ -135,6 +144,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 26
                                 },
@@ -146,18 +156,22 @@ class A {"set"(){} "get"(){} "async"(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 27
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 28
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 28
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 28
                         },
@@ -177,6 +191,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                                     "text": "async",
                                     "rawText": "\"async\"",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 36
                                 },
@@ -186,6 +201,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 38
                                 },
@@ -197,31 +213,38 @@ class A {"set"(){} "get"(){} "async"(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 39,
                                         "end": 39
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 40
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 40
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 40
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 40
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 41
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 41
         }
@@ -230,6 +253,7 @@ class A {"set"(){} "get"(){} "async"(){}}
     "source": "class A {\"set\"(){} \"get\"(){} \"async\"(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }

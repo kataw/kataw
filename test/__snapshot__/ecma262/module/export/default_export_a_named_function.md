@@ -26,12 +26,14 @@ export default function f(){}
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -42,6 +44,7 @@ export default function f(){}
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 23
                 },
@@ -51,6 +54,7 @@ export default function f(){}
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 25
                 },
@@ -60,6 +64,7 @@ export default function f(){}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 26
                 },
@@ -70,19 +75,23 @@ export default function f(){}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 28,
                         "end": 28
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 29
                 },
                 "returnType": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -91,6 +100,7 @@ export default function f(){}
     "source": "export default function f(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

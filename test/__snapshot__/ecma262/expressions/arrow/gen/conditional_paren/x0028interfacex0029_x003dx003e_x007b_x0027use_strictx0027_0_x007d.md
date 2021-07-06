@@ -31,12 +31,14 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 5
                 },
@@ -45,12 +47,14 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                     "text": "baz",
                     "rawText": "baz",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 9
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
@@ -68,12 +72,14 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                                     "text": "interface",
                                     "rawText": "interface",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 24
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 25
                         },
@@ -81,6 +87,7 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 28
                         },
@@ -94,6 +101,7 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                                         "text": "use strict",
                                         "rawText": "'use strict'",
                                         "flags": 4194400,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 43
                                     }
@@ -106,35 +114,43 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 44,
                                             "end": 46
                                         },
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 44,
                                         "end": 46
                                     }
                                 ],
                                 "flags": 4194336,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 46
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 48
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 48
                     },
                     "flags": 11,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 50
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 50
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 51
         }
@@ -143,6 +159,7 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
     "source": "bar ? baz : ( (interface) => { 'use strict'; 0 } );",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 51
 }

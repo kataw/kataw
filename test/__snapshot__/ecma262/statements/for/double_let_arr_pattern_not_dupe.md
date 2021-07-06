@@ -40,6 +40,7 @@ for (let [a]=x;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -48,6 +49,7 @@ for (let [a]=x;;);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
@@ -66,16 +68,19 @@ for (let [a]=x;;);
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 11
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 11
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 12
                             },
@@ -85,19 +90,23 @@ for (let [a]=x;;);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 14
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 8,
                             "end": 14
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 14
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -106,10 +115,12 @@ for (let [a]=x;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 18
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         },
@@ -118,6 +129,7 @@ for (let [a]=x;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 22
             },
@@ -126,6 +138,7 @@ for (let [a]=x;;);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 27
                 },
@@ -144,16 +157,19 @@ for (let [a]=x;;);
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 30
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 30
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 31
                             },
@@ -163,19 +179,23 @@ for (let [a]=x;;);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 33
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 27,
                             "end": 33
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 33
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 33
             },
@@ -184,10 +204,12 @@ for (let [a]=x;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 36,
                 "end": 37
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 18,
             "end": 37
         }
@@ -196,6 +218,7 @@ for (let [a]=x;;);
     "source": "for (let [a]=x;;);\nfor (let [a]=x;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }

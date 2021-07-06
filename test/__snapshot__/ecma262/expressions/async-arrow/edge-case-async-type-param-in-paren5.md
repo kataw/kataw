@@ -34,6 +34,7 @@
                         "text": "async",
                         "rawText": "async",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -45,24 +46,29 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 16
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 1
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 1,
                     "end": 17
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -71,6 +77,7 @@
     "source": "(async <T = U>(x));",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

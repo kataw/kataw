@@ -20,6 +20,7 @@ while (1) async function foo(){}
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -28,6 +29,7 @@ while (1) async function foo(){}
                 "text": 1,
                 "rawText": "1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 8
             },
@@ -37,12 +39,14 @@ while (1) async function foo(){}
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 15
                 },
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 24
                 },
@@ -52,6 +56,7 @@ while (1) async function foo(){}
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 28
                 },
@@ -61,6 +66,7 @@ while (1) async function foo(){}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 29
                 },
@@ -71,19 +77,23 @@ while (1) async function foo(){}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 31,
                         "end": 31
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 32
                 },
                 "returnType": null,
                 "flags": 144,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 32
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -92,6 +102,7 @@ while (1) async function foo(){}
     "source": "while (1) async function foo(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

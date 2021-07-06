@@ -21,6 +21,7 @@ catch (v = b) {}
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -30,10 +31,12 @@ catch (v = b) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 6
             },
@@ -42,6 +45,7 @@ catch (v = b) {}
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
@@ -50,6 +54,7 @@ catch (v = b) {}
                     "text": "v",
                     "rawText": "v",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 15
                 },
@@ -59,20 +64,24 @@ catch (v = b) {}
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 15
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 15
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         },
@@ -83,10 +92,12 @@ catch (v = b) {}
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 17,
             "end": 19
         },
@@ -96,10 +107,12 @@ catch (v = b) {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 20,
             "end": 23
         }
@@ -108,6 +121,7 @@ catch (v = b) {}
     "source": "try {}\ncatch (v = b) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

@@ -26,6 +26,7 @@ const [selected] = ([true]: [boolean]);
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -44,16 +45,19 @@ const [selected] = ([true]: [boolean]);
                                         "text": "selected",
                                         "rawText": "selected",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 15
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 15
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 16
                         },
@@ -71,16 +75,19 @@ const [selected] = ([true]: [boolean]);
                                             {
                                                 "kind": 24752947,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 25
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 25
                                     },
                                     "flags": 32,
+                                    "transformFlags": 8,
                                     "start": 20,
                                     "end": 26
                                 },
@@ -99,42 +106,51 @@ const [selected] = ([true]: [boolean]);
                                                 "type": {
                                                     "kind": 134234254,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 29,
                                                     "end": 36
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 29,
                                                 "end": 36
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 37
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 37
                                 },
                                 "right": null,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 37
                             },
                             "flags": 18,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 38
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 5,
                         "end": 38
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 38
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 39
         }
@@ -143,6 +159,7 @@ const [selected] = ([true]: [boolean]);
     "source": "const [selected] = ([true]: [boolean]);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }

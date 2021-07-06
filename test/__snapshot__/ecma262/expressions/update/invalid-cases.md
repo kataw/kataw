@@ -36,6 +36,7 @@ new new foo().bar++;
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -46,6 +47,7 @@ new new foo().bar++;
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -54,18 +56,22 @@ new new foo().bar++;
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 4
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 0,
                     "end": 5
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         },
@@ -76,6 +82,7 @@ new new foo().bar++;
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
@@ -86,6 +93,7 @@ new new foo().bar++;
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 13
                     },
@@ -97,24 +105,29 @@ new new foo().bar++;
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 17
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 17
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 8,
                     "end": 18
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 8,
             "end": 21
         },
@@ -125,6 +138,7 @@ new new foo().bar++;
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 35
                 },
@@ -137,6 +151,7 @@ new new foo().bar++;
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 26
                         },
@@ -145,10 +160,12 @@ new new foo().bar++;
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 30
                         },
                         "flags": 536870944,
+                        "transformFlags": 4,
                         "start": 21,
                         "end": 31
                     },
@@ -157,18 +174,22 @@ new new foo().bar++;
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 32
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 21,
                     "end": 33
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 21,
             "end": 36
         },
@@ -179,6 +200,7 @@ new new foo().bar++;
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 47,
                     "end": 49
                 },
@@ -191,6 +213,7 @@ new new foo().bar++;
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 36,
                             "end": 41
                         },
@@ -199,10 +222,12 @@ new new foo().bar++;
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 42,
                             "end": 45
                         },
                         "flags": 97,
+                        "transformFlags": 2,
                         "start": 36,
                         "end": 45
                     },
@@ -211,18 +236,22 @@ new new foo().bar++;
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 46,
                         "end": 46
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 36,
                     "end": 47
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 36,
                 "end": 49
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 36,
             "end": 50
         },
@@ -233,6 +262,7 @@ new new foo().bar++;
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 87,
                     "end": 89
                 },
@@ -253,6 +283,7 @@ new new foo().bar++;
                                             "member": {
                                                 "kind": 4276321,
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 50,
                                                 "end": 56
                                             },
@@ -261,10 +292,12 @@ new new foo().bar++;
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 57,
                                                 "end": 60
                                             },
                                             "flags": 97,
+                                            "transformFlags": 2,
                                             "start": 50,
                                             "end": 60
                                         },
@@ -273,10 +306,12 @@ new new foo().bar++;
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 61,
                                             "end": 64
                                         },
                                         "flags": 536870944,
+                                        "transformFlags": 4,
                                         "start": 50,
                                         "end": 65
                                     },
@@ -285,10 +320,12 @@ new new foo().bar++;
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 66,
                                         "end": 69
                                     },
                                     "flags": 536870944,
+                                    "transformFlags": 2,
                                     "start": 50,
                                     "end": 69
                                 },
@@ -298,16 +335,19 @@ new new foo().bar++;
                                         {
                                             "kind": 4276321,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 70,
                                             "end": 74
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 70,
                                     "end": 74
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 50,
                                 "end": 75
                             },
@@ -319,16 +359,19 @@ new new foo().bar++;
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 76,
                                         "end": 79
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 76,
                                 "end": 79
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 50,
                             "end": 80
                         },
@@ -337,10 +380,12 @@ new new foo().bar++;
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 81,
                             "end": 84
                         },
                         "flags": 536870944,
+                        "transformFlags": 4,
                         "start": 50,
                         "end": 85
                     },
@@ -349,18 +394,22 @@ new new foo().bar++;
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 86,
                         "end": 86
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 50,
                     "end": 87
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 50,
                 "end": 89
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 50,
             "end": 90
         },
@@ -371,6 +420,7 @@ new new foo().bar++;
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 101,
                     "end": 103
                 },
@@ -379,6 +429,7 @@ new new foo().bar++;
                     "newKeyword": {
                         "kind": 138477661,
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 90,
                         "end": 95
                     },
@@ -387,6 +438,7 @@ new new foo().bar++;
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 95,
                         "end": 99
                     },
@@ -395,18 +447,22 @@ new new foo().bar++;
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 100,
                         "end": 100
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 90,
                     "end": 101
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 90,
                 "end": 103
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 90,
             "end": 104
         },
@@ -417,6 +473,7 @@ new new foo().bar++;
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 123,
                     "end": 125
                 },
@@ -427,6 +484,7 @@ new new foo().bar++;
                         "newKeyword": {
                             "kind": 138477661,
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 104,
                             "end": 109
                         },
@@ -435,6 +493,7 @@ new new foo().bar++;
                             "newKeyword": {
                                 "kind": 138477661,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 109,
                                 "end": 113
                             },
@@ -443,6 +502,7 @@ new new foo().bar++;
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 113,
                                 "end": 117
                             },
@@ -451,15 +511,18 @@ new new foo().bar++;
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 118,
                                 "end": 118
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 109,
                             "end": 119
                         },
                         "argumentList": null,
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 104,
                         "end": 119
                     },
@@ -468,18 +531,22 @@ new new foo().bar++;
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 120,
                         "end": 123
                     },
                     "flags": 97,
+                    "transformFlags": 2,
                     "start": 104,
                     "end": 123
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 104,
                 "end": 125
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 104,
             "end": 126
         },
@@ -495,12 +562,14 @@ new new foo().bar++;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 129,
                             "end": 130
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 130,
                             "end": 131
                         },
@@ -511,23 +580,28 @@ new new foo().bar++;
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 131,
                                 "end": 133
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 131,
                             "end": 133
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 129,
                         "end": 133
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 129,
                 "end": 133
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 126,
             "end": 134
         },
@@ -538,6 +612,7 @@ new new foo().bar++;
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 134,
                     "end": 136
                 },
@@ -546,14 +621,17 @@ new new foo().bar++;
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 136,
                     "end": 136
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 134,
                 "end": 136
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 134,
             "end": 137
         }
@@ -562,6 +640,7 @@ new new foo().bar++;
     "source": "foo()++;\n\nfoo(bar)++;\n\nfoo[bar]()++;\n\nfoo.bar()++;\n\nthis.foo[foo].bar(this)(bar)[foo]()++;\n\nnew foo()++;\n\nnew new foo().bar++;\n\n{x: 1}++;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 137
 }

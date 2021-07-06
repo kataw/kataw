@@ -40,6 +40,7 @@ var {[2]: y = 1} = {2:3}
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -62,10 +63,12 @@ var {[2]: y = 1} = {2:3}
                                                 "text": 2,
                                                 "rawText": "2",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 7
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -74,6 +77,7 @@ var {[2]: y = 1} = {2:3}
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 11
                                         },
@@ -82,20 +86,24 @@ var {[2]: y = 1} = {2:3}
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 15
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 15
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 15
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 16
                         },
@@ -113,6 +121,7 @@ var {[2]: y = 1} = {2:3}
                                             "text": 2,
                                             "rawText": "2",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 21
                                         },
@@ -121,33 +130,40 @@ var {[2]: y = 1} = {2:3}
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 23
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 20,
                                         "end": 23
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 23
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 18,
                             "end": 24
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 24
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -156,6 +172,7 @@ var {[2]: y = 1} = {2:3}
     "source": "var {[2]: y = 1} = {2:3}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

@@ -28,12 +28,14 @@
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 2
                         },
                         "operatorToken": {
                             "kind": 33339,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 5
                         },
@@ -42,20 +44,24 @@
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 7
                     },
                     "flags": 0,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 8
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
@@ -64,14 +70,17 @@
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -80,6 +89,7 @@
     "source": "(a || b) ?? c;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -89,7 +99,7 @@
 
 ```javascript
 
-(a ||  b) ??  c;
+(a || b) ?? c;
 ```
 
 ### Diagnostics

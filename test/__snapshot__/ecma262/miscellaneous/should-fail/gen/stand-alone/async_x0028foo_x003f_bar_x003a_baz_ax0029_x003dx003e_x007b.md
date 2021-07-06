@@ -29,6 +29,7 @@ async (foo ? bar : baz, a) => {
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,12 +43,14 @@ async (foo ? bar : baz, a) => {
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 10
                         },
                         "questionToken": {
                             "kind": 134217750,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 12
                         },
@@ -56,12 +59,14 @@ async (foo ? bar : baz, a) => {
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 16
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 18
                         },
@@ -70,10 +75,12 @@ async (foo ? bar : baz, a) => {
                             "text": "baz",
                             "rawText": "baz",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 22
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 22
                     },
@@ -82,16 +89,19 @@ async (foo ? bar : baz, a) => {
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 25
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 0
             },
             "flags": 268435488,
+            "transformFlags": 1,
             "start": 0,
             "end": 26
         },
@@ -101,10 +111,12 @@ async (foo ? bar : baz, a) => {
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 29,
             "end": 31
         }
@@ -113,6 +125,7 @@ async (foo ? bar : baz, a) => {
     "source": "async (foo ? bar : baz, a) => {",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

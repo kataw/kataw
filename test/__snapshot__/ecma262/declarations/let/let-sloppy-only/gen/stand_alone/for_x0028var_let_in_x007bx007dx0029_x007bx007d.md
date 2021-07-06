@@ -27,6 +27,7 @@ for (var let in {}) {}
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -35,6 +36,7 @@ for (var let in {}) {}
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -48,27 +50,32 @@ for (var let in {}) {}
                                 "text": "let",
                                 "rawText": "let",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 12
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 8,
                             "end": 12
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 12
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 15
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 15
             },
@@ -79,10 +86,12 @@ for (var let in {}) {}
                     "properties": [],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 15,
                 "end": 18
             },
@@ -92,14 +101,17 @@ for (var let in {}) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 21
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 22
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -108,6 +120,7 @@ for (var let in {}) {}
     "source": "for (var let in {}) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

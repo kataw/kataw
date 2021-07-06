@@ -22,12 +22,14 @@ function* foo(a = class {*bar() { yield b }}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -36,6 +38,7 @@ function* foo(a = class {*bar() { yield b }}) {}
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 13
             },
@@ -51,6 +54,7 @@ function* foo(a = class {*bar() { yield b }}) {}
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 15
                         },
@@ -62,6 +66,7 @@ function* foo(a = class {*bar() { yield b }}) {}
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 23
                             },
@@ -84,6 +89,7 @@ function* foo(a = class {*bar() { yield b }}) {}
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
+                                                "transformFlags": 32,
                                                 "start": 25,
                                                 "end": 26
                                             },
@@ -94,6 +100,7 @@ function* foo(a = class {*bar() { yield b }}) {}
                                                     "text": "bar",
                                                     "rawText": "bar",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 26,
                                                     "end": 29
                                                 },
@@ -103,6 +110,7 @@ function* foo(a = class {*bar() { yield b }}) {}
                                                     "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 0,
+                                                    "transformFlags": 0,
                                                     "start": 30,
                                                     "end": 31
                                                 },
@@ -120,10 +128,12 @@ function* foo(a = class {*bar() { yield b }}) {}
                                                                     "text": "yield",
                                                                     "rawText": "yield",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 33,
                                                                     "end": 39
                                                                 },
                                                                 "flags": 16,
+                                                                "transformFlags": 0,
                                                                 "start": 33,
                                                                 "end": 39
                                                             },
@@ -134,50 +144,61 @@ function* foo(a = class {*bar() { yield b }}) {}
                                                                     "text": "b",
                                                                     "rawText": "b",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 39,
                                                                     "end": 41
                                                                 },
                                                                 "flags": 16,
+                                                                "transformFlags": 0,
                                                                 "start": 39,
                                                                 "end": 41
                                                             }
                                                         ],
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 33,
                                                         "end": 41
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 31,
                                                     "end": 43
                                                 },
                                                 "flags": 0,
+                                                "transformFlags": 0,
                                                 "start": 29,
                                                 "end": 43
                                             },
                                             "flags": 0,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 43
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 43
                                 },
                                 "flags": 23,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 44
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 44
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 44
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 44
             },
@@ -188,15 +209,18 @@ function* foo(a = class {*bar() { yield b }}) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 47,
                     "end": 47
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 48
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 48
         }
@@ -205,6 +229,7 @@ function* foo(a = class {*bar() { yield b }}) {}
     "source": "function* foo(a = class {*bar() { yield b }}) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 48
 }

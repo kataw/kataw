@@ -29,6 +29,7 @@ var foo = ((): number => bar);
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var foo = ((): number => bar);
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -57,6 +59,7 @@ var foo = ((): number => bar);
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 12
                                 },
@@ -67,16 +70,19 @@ var foo = ((): number => bar);
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 21
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 21
                                 },
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 24
                                 },
@@ -85,27 +91,33 @@ var foo = ((): number => bar);
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 28
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 28
                             },
                             "flags": 9,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 29
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 29
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -114,6 +126,7 @@ var foo = ((): number => bar);
     "source": "var foo = ((): number => bar);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

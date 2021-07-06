@@ -26,6 +26,7 @@ import x, * as a from "y"
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -41,12 +42,14 @@ import x, * as a from "y"
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 9
                     },
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 9,
                         "end": 11
                     },
@@ -55,14 +58,17 @@ import x, * as a from "y"
                         "text": "as",
                         "rawText": "as",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 14
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 14
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 14
             },
@@ -74,16 +80,19 @@ import x, * as a from "y"
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         },
@@ -94,10 +103,12 @@ import x, * as a from "y"
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 14,
             "end": 16
         },
@@ -108,10 +119,12 @@ import x, * as a from "y"
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 16,
             "end": 21
         },
@@ -122,10 +135,12 @@ import x, * as a from "y"
                 "text": "y",
                 "rawText": "\"y\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 21,
             "end": 25
         }
@@ -134,6 +149,7 @@ import x, * as a from "y"
     "source": "import x, * as a from \"y\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

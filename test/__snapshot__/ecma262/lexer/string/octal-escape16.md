@@ -22,10 +22,12 @@
                 "text": "67",
                 "rawText": "\"\\67",
                 "flags": 262240,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 4
         }
@@ -34,6 +36,7 @@
     "source": "\"\\67",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 4
 }

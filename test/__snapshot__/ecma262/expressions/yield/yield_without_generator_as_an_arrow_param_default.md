@@ -37,16 +37,19 @@
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 2,
                                             "end": 3
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 3
                                 },
                                 "flags": 48,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 4
                             },
@@ -57,16 +60,19 @@
                                 "text": "yield",
                                 "rawText": "yield",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 12
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 12
                         }
                     ],
                     "trailingComma": false,
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 13
                 },
@@ -74,6 +80,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 16
                 },
@@ -84,18 +91,22 @@
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 18
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 19
                 },
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -104,6 +115,7 @@
     "source": "({x} = yield) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

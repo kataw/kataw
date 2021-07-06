@@ -26,6 +26,7 @@ import 'x' assert {x}
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -37,11 +38,13 @@ import 'x' assert {x}
                 "text": "x",
                 "rawText": "'x'",
                 "flags": 4194400,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 10
             },
             "importClause": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -52,10 +55,12 @@ import 'x' assert {x}
                 "text": "assert",
                 "rawText": "assert",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 17
         },
@@ -71,19 +76,23 @@ import 'x' assert {x}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 20
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 20
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 17,
             "end": 21
         }
@@ -92,6 +101,7 @@ import 'x' assert {x}
     "source": "import 'x' assert {x}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

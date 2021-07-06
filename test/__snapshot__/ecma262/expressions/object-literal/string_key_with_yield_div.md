@@ -22,12 +22,14 @@ function *f(){   s = {"foo": yield / x}   }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -36,6 +38,7 @@ function *f(){   s = {"foo": yield / x}   }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -45,6 +48,7 @@ function *f(){   s = {"foo": yield / x}   }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -63,12 +67,14 @@ function *f(){   s = {"foo": yield / x}   }
                                     "text": "s",
                                     "rawText": "s",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 18
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 20
                                 },
@@ -85,6 +91,7 @@ function *f(){   s = {"foo": yield / x}   }
                                                     "text": "foo",
                                                     "rawText": "\"foo\"",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 22,
                                                     "end": 27
                                                 },
@@ -93,6 +100,7 @@ function *f(){   s = {"foo": yield / x}   }
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 28,
                                                         "end": 34
                                                     },
@@ -102,46 +110,56 @@ function *f(){   s = {"foo": yield / x}   }
                                                         "kind": 371,
                                                         "text": "/ x}   }",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 34,
                                                         "end": 43
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 28,
                                                     "end": 43
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 128,
                                                 "start": 22,
                                                 "end": 43
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 43
                                     },
                                     "flags": 48,
+                                    "transformFlags": 8,
                                     "start": 20,
                                     "end": 43
                                 },
                                 "flags": 0,
+                                "transformFlags": 128,
                                 "start": 14,
                                 "end": 43
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 43
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 43
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 43
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 43
         }
@@ -150,6 +168,7 @@ function *f(){   s = {"foo": yield / x}   }
     "source": "function *f(){   s = {\"foo\": yield / x}   }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }

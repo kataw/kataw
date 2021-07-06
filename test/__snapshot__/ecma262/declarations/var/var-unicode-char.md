@@ -23,6 +23,7 @@ var _𐒦 = 10;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,6 +37,7 @@ var _𐒦 = 10;
                             "text": "𫠝_",
                             "rawText": " 𫠝_",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -45,19 +47,23 @@ var _𐒦 = 10;
                             "text": 10,
                             "rawText": "10",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 12
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 12
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         },
@@ -67,6 +73,7 @@ var _𐒦 = 10;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 18
             },
@@ -80,6 +87,7 @@ var _𐒦 = 10;
                             "text": "_𐒦",
                             "rawText": "_𐒦",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 22
                         },
@@ -89,19 +97,23 @@ var _𐒦 = 10;
                             "text": 10,
                             "rawText": "10",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 27
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 18,
                         "end": 27
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 28
         }
@@ -110,6 +122,7 @@ var _𐒦 = 10;
     "source": "var 𫠝_ = 10;\n\nvar _𐒦 = 10;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

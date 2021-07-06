@@ -20,6 +20,7 @@ let [a] = '';
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -38,16 +39,19 @@ let [a] = '';
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 6
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 6
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -57,19 +61,23 @@ let [a] = '';
                             "text": "",
                             "rawText": "''",
                             "flags": 4194400,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 12
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 12
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 12
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -78,6 +86,7 @@ let [a] = '';
     "source": "let [a] = '';",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

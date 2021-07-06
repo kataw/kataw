@@ -24,6 +24,7 @@ foo(async[])
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -37,6 +38,7 @@ foo(async[])
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 9
                             },
@@ -45,24 +47,29 @@ foo(async[])
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 10
                             },
                             "flags": 536870944,
+                            "transformFlags": 4,
                             "start": 4,
                             "end": 11
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 11
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -71,6 +78,7 @@ foo(async[])
     "source": "foo(async[])",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

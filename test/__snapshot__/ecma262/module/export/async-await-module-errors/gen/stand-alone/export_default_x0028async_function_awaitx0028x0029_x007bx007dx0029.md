@@ -27,12 +27,14 @@ export default (async function await() {})
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -43,12 +45,14 @@ export default (async function await() {})
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 21
                     },
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 30
                     },
@@ -58,6 +62,7 @@ export default (async function await() {})
                         "text": "await",
                         "rawText": "await",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 30,
                         "end": 36
                     },
@@ -67,6 +72,7 @@ export default (async function await() {})
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 37,
                         "end": 37
                     },
@@ -77,23 +83,28 @@ export default (async function await() {})
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 40,
                             "end": 40
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 38,
                         "end": 41
                     },
                     "returnType": null,
                     "flags": 160,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 41
                 },
                 "flags": 14,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 42
         }
@@ -102,6 +113,7 @@ export default (async function await() {})
     "source": "export default (async function await() {})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }

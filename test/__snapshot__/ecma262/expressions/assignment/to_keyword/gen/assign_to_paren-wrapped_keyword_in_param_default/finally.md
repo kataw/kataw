@@ -29,6 +29,7 @@ async (x = (finally) = f) => {}
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,12 +43,14 @@ async (x = (finally) = f) => {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 10
                         },
@@ -58,24 +61,29 @@ async (x = (finally) = f) => {}
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 12
                             },
                             "flags": 10,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 12
                         },
                         "flags": 32,
+                        "transformFlags": 128,
                         "start": 7,
                         "end": 12
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 0
             },
             "flags": 268435490,
+            "transformFlags": 1,
             "start": 0,
             "end": 12
         },
@@ -88,10 +96,12 @@ async (x = (finally) = f) => {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 12
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -99,6 +109,7 @@ async (x = (finally) = f) => {}
             "finallyKeyword": {
                 "kind": 37757016,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 19
             },
@@ -108,14 +119,17 @@ async (x = (finally) = f) => {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 19
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 12,
             "end": 19
         },
@@ -126,10 +140,12 @@ async (x = (finally) = f) => {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 22,
             "end": 24
         },
@@ -139,10 +155,12 @@ async (x = (finally) = f) => {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 28,
             "end": 31
         }
@@ -151,6 +169,7 @@ async (x = (finally) = f) => {}
     "source": "async (x = (finally) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

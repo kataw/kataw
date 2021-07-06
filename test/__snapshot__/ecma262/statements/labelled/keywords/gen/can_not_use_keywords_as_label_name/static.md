@@ -29,12 +29,14 @@ static: x
                 "text": "static",
                 "rawText": "static",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 7
             },
@@ -45,14 +47,17 @@ static: x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         }
@@ -61,6 +66,7 @@ static: x
     "source": "static: x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

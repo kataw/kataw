@@ -28,6 +28,7 @@ function foo<T><T>() {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -37,6 +38,7 @@ function foo<T><T>() {}
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -52,6 +54,7 @@ function foo<T><T>() {}
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 14
                             },
@@ -59,16 +62,19 @@ function foo<T><T>() {}
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 14
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 14
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 15
             },
@@ -77,6 +83,7 @@ function foo<T><T>() {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
@@ -87,15 +94,18 @@ function foo<T><T>() {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         },
@@ -116,6 +126,7 @@ function foo<T><T>() {}
                                     "text": "T",
                                     "rawText": "T",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 17
                                 },
@@ -123,16 +134,19 @@ function foo<T><T>() {}
                                 "assignToken": null,
                                 "defaultType": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 17
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 17
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 18
                 },
@@ -141,6 +155,7 @@ function foo<T><T>() {}
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 19
                 },
@@ -153,18 +168,22 @@ function foo<T><T>() {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 22
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 23
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 15,
             "end": 23
         }
@@ -173,6 +192,7 @@ function foo<T><T>() {}
     "source": "function foo<T><T>() {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

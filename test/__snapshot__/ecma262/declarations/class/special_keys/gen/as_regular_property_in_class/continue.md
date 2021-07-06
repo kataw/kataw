@@ -29,6 +29,7 @@ class x {continue: x}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class x {continue: x}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -58,6 +60,7 @@ class x {continue: x}
                                 "text": "continue",
                                 "rawText": "continue",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 17
                             },
@@ -65,19 +68,23 @@ class x {continue: x}
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 17
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 17
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         },
@@ -88,10 +95,12 @@ class x {continue: x}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 18,
             "end": 20
         }
@@ -100,6 +109,7 @@ class x {continue: x}
     "source": "class x {continue: x}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

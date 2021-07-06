@@ -30,6 +30,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
@@ -40,6 +41,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                         "operandToken": {
                             "kind": 196635,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 11
                         },
@@ -48,14 +50,17 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 4
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 11
                     },
                     "flags": 0,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 12
                 },
@@ -70,22 +75,27 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                             "elements": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 15
                         },
                         "flags": 268435488,
+                        "transformFlags": 1,
                         "start": 14,
                         "end": 16
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 16
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         },
@@ -94,6 +104,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 23
             },
@@ -103,6 +114,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                 "parameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 30
             },
@@ -110,6 +122,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 34
             },
@@ -126,6 +139,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                                 "chainToken": {
                                     "kind": 393240,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 50,
                                     "end": 52
                                 },
@@ -136,6 +150,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                                         "awaitKeyword": {
                                             "kind": 82196,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 40,
                                             "end": 45
                                         },
@@ -144,14 +159,17 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 45,
                                             "end": 49
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 40,
                                         "end": 49
                                     },
                                     "flags": 36,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 50
                                 },
@@ -166,35 +184,43 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                                             "elements": [],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 53,
                                             "end": 53
                                         },
                                         "flags": 268435488,
+                                        "transformFlags": 1,
                                         "start": 52,
                                         "end": 54
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 52,
                                     "end": 54
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 54
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 36,
                             "end": 55
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 36,
                     "end": 55
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 57
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 17,
             "end": 57
         },
@@ -205,6 +231,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 70,
                     "end": 77
                 },
@@ -215,6 +242,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                         "operandToken": {
                             "kind": 99634,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 65,
                             "end": 66
                         },
@@ -223,14 +251,17 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 66,
                             "end": 69
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 65,
                         "end": 69
                     },
                     "flags": 57,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 70
                 },
@@ -245,22 +276,27 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                             "elements": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 83,
                             "end": 83
                         },
                         "flags": 268435488,
+                        "transformFlags": 1,
                         "start": 77,
                         "end": 84
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 77,
                     "end": 84
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 57,
                 "end": 84
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 57,
             "end": 85
         },
@@ -271,6 +307,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                 "operandToken": {
                     "kind": 99634,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 85,
                     "end": 87
                 },
@@ -281,6 +318,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                         "operandToken": {
                             "kind": 99634,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 88,
                             "end": 89
                         },
@@ -289,22 +327,27 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 89,
                             "end": 92
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 88,
                         "end": 92
                     },
                     "flags": 87,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 93
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 85,
                 "end": 93
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 85,
             "end": 94
         },
@@ -315,6 +358,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 94,
                 "end": 105
             },
@@ -323,6 +367,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 105,
                 "end": 107
             },
@@ -334,6 +379,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 107,
                         "end": 115
                     },
@@ -344,6 +390,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                             "operandToken": {
                                 "kind": 99634,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 117,
                                 "end": 123
                             },
@@ -352,19 +399,23 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                                 "text": "Bar",
                                 "rawText": "Bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 123,
                                 "end": 126
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 117,
                             "end": 126
                         },
                         "flags": 115,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 132
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 115,
                     "end": 132
                 },
@@ -372,14 +423,17 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 139,
                     "end": 139
                 },
                 "flags": 107,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 140
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 94,
             "end": 140
         },
@@ -390,6 +444,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 140,
                 "end": 146
             },
@@ -398,6 +453,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 146,
                 "end": 148
             },
@@ -409,6 +465,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 148,
                         "end": 156
                     },
@@ -421,12 +478,14 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                                 "text": "Bar",
                                 "rawText": "Bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 158,
                                 "end": 161
                             },
                             "operatorToken": {
                                 "kind": 33047,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 161,
                                 "end": 170
                             },
@@ -435,19 +494,23 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                                 "text": "Baz",
                                 "rawText": "Baz",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 170,
                                 "end": 174
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 156,
                             "end": 174
                         },
                         "flags": 156,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 175
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 156,
                     "end": 175
                 },
@@ -455,14 +518,17 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 177,
                     "end": 177
                 },
                 "flags": 148,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 184
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 140,
             "end": 184
         },
@@ -471,6 +537,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 184,
                 "end": 190
             },
@@ -484,6 +551,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 190,
                             "end": 194
                         },
@@ -494,6 +562,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 196,
                                 "end": 208
                             },
@@ -506,6 +575,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                                     "extendsKeyword": {
                                         "kind": 4194391,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 208,
                                         "end": 216
                                     },
@@ -518,12 +588,14 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                                                 "text": "Bar",
                                                 "rawText": "Bar",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 218,
                                                 "end": 221
                                             },
                                             "operatorToken": {
                                                 "kind": 33047,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 221,
                                                 "end": 224
                                             },
@@ -532,19 +604,23 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                                                 "text": "Baz",
                                                 "rawText": "Baz",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 224,
                                                 "end": 228
                                             },
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 216,
                                             "end": 228
                                         },
                                         "flags": 216,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 229
                                     },
                                     "typeParameter": null,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 216,
                                     "end": 229
                                 },
@@ -552,27 +628,33 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                                     "kind": 303,
                                     "elements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 231,
                                     "end": 231
                                 },
                                 "flags": 208,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 232
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 196,
                             "end": 232
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 190,
                         "end": 232
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 190,
                 "end": 232
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 184,
             "end": 232
         }
@@ -581,6 +663,7 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
     "source": "(foo/*1*/++)?.();\nasync/*2*/ () => {\n  (await foo)?.();\n} /*3*/\n(+foo)/*4*/?./*5*/();\n+(+foo);/*6*/\nclass x extends (/*7*/+Bar/*8*/)/*9*/ {}\nclass y extends (Bar /*10*/?? Baz) {/*11*/}\nconst foo = /*12*/class extends (Bar ?? Baz) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 232
 }
@@ -601,9 +684,9 @@ async () => {
 
 class x  extends (+Bar) {}
 
-class y  extends (Bar ??  Baz) {}
+class y  extends (Bar ?? Baz) {}
 
-const foo = class   extends (Bar ??  Baz) {};
+const foo = class   extends (Bar ?? Baz) {};
 
 ```
 

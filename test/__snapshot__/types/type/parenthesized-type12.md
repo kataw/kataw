@@ -29,6 +29,7 @@ type X = (1<z>[]);
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type X = (1<z>[]);
                 "text": "X",
                 "rawText": "X",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type X = (1<z>[]);
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -62,22 +65,27 @@ type X = (1<z>[]);
                             "text": 1,
                             "rawText": "1",
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 11
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 11
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 11
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -92,12 +100,14 @@ type X = (1<z>[]);
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 11
                     },
                     "operatorToken": {
                         "kind": 536971330,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 12
                     },
@@ -106,16 +116,19 @@ type X = (1<z>[]);
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 13
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
                 "operatorToken": {
                     "kind": 34883,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 14
                 },
@@ -126,24 +139,29 @@ type X = (1<z>[]);
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 15
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 14,
                     "end": 16
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 16
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 17,
             "end": 18
         }
@@ -152,6 +170,7 @@ type X = (1<z>[]);
     "source": "type X = (1<z>[]);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

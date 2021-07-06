@@ -27,6 +27,7 @@ let {x} = v
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -45,16 +46,19 @@ let {x} = v
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 6
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 6
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -64,19 +68,23 @@ let {x} = v
                             "text": "v",
                             "rawText": "v",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         }
@@ -85,6 +93,7 @@ let {x} = v
     "source": "let {x} = v",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

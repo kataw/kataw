@@ -20,6 +20,7 @@ throw {x} catch (x = y) {}
             "throwKeyword": {
                 "kind": 37757026,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -33,20 +34,24 @@ throw {x} catch (x = y) {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 8
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 5,
                 "end": 9
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -59,10 +64,12 @@ throw {x} catch (x = y) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 9
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 9
             },
@@ -71,6 +78,7 @@ throw {x} catch (x = y) {}
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 15
                 },
@@ -79,6 +87,7 @@ throw {x} catch (x = y) {}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 18
                 },
@@ -88,20 +97,24 @@ throw {x} catch (x = y) {}
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 18
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 18
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 18
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 9,
             "end": 18
         },
@@ -112,10 +125,12 @@ throw {x} catch (x = y) {}
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 20,
             "end": 22
         },
@@ -125,10 +140,12 @@ throw {x} catch (x = y) {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 23,
             "end": 26
         }
@@ -137,6 +154,7 @@ throw {x} catch (x = y) {}
     "source": "throw {x} catch (x = y) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

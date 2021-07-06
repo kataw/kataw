@@ -22,10 +22,12 @@
                 "text": "\tstr\ting\t",
                 "rawText": "\"\\u0009str\\u0009ing\\u0009\"",
                 "flags": 16480,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -34,6 +36,7 @@
     "source": "\"\\u0009str\\u0009ing\\u0009\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

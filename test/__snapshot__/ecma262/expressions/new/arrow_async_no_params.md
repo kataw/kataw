@@ -22,6 +22,7 @@ new asc() => x
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -30,6 +31,7 @@ new asc() => x
                     "text": "asc",
                     "rawText": "asc",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 7
                 },
@@ -38,14 +40,17 @@ new asc() => x
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 8
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -56,10 +61,12 @@ new asc() => x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 12,
             "end": 14
         }
@@ -68,6 +75,7 @@ new asc() => x
     "source": "new asc() => x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

@@ -51,12 +51,14 @@ x
                         "text": "async",
                         "rawText": "async",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
                     "operatorToken": {
                         "kind": 536971330,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 14
                     },
@@ -67,12 +69,14 @@ x
                             "text": "T",
                             "rawText": "T",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 15
                         },
                         "operatorToken": {
                             "kind": 34883,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 16
                         },
@@ -88,36 +92,44 @@ x
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 19
                                         },
                                         "flags": 17,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 20
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 20
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 16,
                             "end": 21
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 21
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 21
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         },
@@ -132,12 +144,14 @@ x
                         "text": "async",
                         "rawText": "async",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 31
                     },
                     "operatorToken": {
                         "kind": 536971330,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 31,
                         "end": 32
                     },
@@ -150,16 +164,19 @@ x
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 33
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 32,
                             "end": 39
                         },
                         "operatorToken": {
                             "kind": 34883,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 40
                         },
@@ -170,26 +187,32 @@ x
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 42
                             },
                             "flags": 40,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 43
                         },
                         "flags": 48,
+                        "transformFlags": 0,
                         "start": 39,
                         "end": 43
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 43
                 },
                 "flags": 23,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 44
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 23,
             "end": 45
         },
@@ -205,12 +228,14 @@ x
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 45,
                             "end": 52
                         },
                         "operatorToken": {
                             "kind": 536971330,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 52,
                             "end": 54
                         },
@@ -219,10 +244,12 @@ x
                             "text": "T",
                             "rawText": "T",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 54,
                             "end": 55
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 45,
                         "end": 55
                     },
@@ -233,12 +260,14 @@ x
                             "text": "U",
                             "rawText": "U",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 56,
                             "end": 64
                         },
                         "operatorToken": {
                             "kind": 34883,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 64,
                             "end": 65
                         },
@@ -251,16 +280,19 @@ x
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 66,
                                     "end": 67
                                 },
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 68
                             },
                             "operatorToken": {
                                 "kind": 35141,
                                 "flags": 96,
+                                "transformFlags": 64,
                                 "start": 68,
                                 "end": 71
                             },
@@ -271,12 +303,14 @@ x
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 71,
                                     "end": 73
                                 },
                                 "operatorToken": {
                                     "kind": 134318643,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 73,
                                     "end": 81
                                 },
@@ -285,33 +319,40 @@ x
                                     "text": "z",
                                     "rawText": "z",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 81,
                                     "end": 89
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 73,
                                 "end": 89
                             },
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 68,
                             "end": 89
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 56,
                         "end": 89
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 89
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 45,
             "end": 90
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 90,
             "end": 91
         },
@@ -326,12 +367,14 @@ x
                         "text": "async",
                         "rawText": "async",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 95,
                         "end": 100
                     },
                     "operatorToken": {
                         "kind": 536971330,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 100,
                         "end": 102
                     },
@@ -342,12 +385,14 @@ x
                             "text": "T",
                             "rawText": "T",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 102,
                             "end": 103
                         },
                         "operatorToken": {
                             "kind": 34883,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 103,
                             "end": 104
                         },
@@ -358,26 +403,32 @@ x
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 105,
                                 "end": 115
                             },
                             "flags": 104,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 126
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 103,
                         "end": 126
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 95,
                     "end": 126
                 },
                 "flags": 91,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 127
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 91,
             "end": 128
         }
@@ -386,6 +437,7 @@ x
     "source": "(async /*1*/ <T>[(x)]);\n\n(async<{/*1*/}>(x));\n\nasync <T, /*1*/ U>(x) >> y /*2*/ - /*3*/ z;;\n\n\n(async <T>(\n\n/*1*/\n\nx\n\n\n/*2*/\n\n));\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 129
 }
@@ -395,12 +447,12 @@ x
 
 ```javascript
 
-(async  <  T >  [(x)]);
-(async  <  {} >  (x));
+(async  < T > [(x)]);
+(async  < {} > (x));
 
-async  <  T, U >  (x) >>  y -  z;
+async  < T, U > (x) >> y - z;
 
-(async  <  T >  (x));
+(async  < T > (x));
 
 ```
 

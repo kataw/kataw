@@ -28,6 +28,7 @@ fro\u006D
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,21 +42,25 @@ fro\u006D
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 5
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 5
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -64,6 +69,7 @@ fro\u006D
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 13
             },
@@ -81,21 +87,25 @@ fro\u006D
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 17
                             },
                             "asKeyword": null,
                             "binding": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 17
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
                 "flags": 16385,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
@@ -103,6 +113,7 @@ fro\u006D
             "fromClause": null,
             "exportKind": 0,
             "flags": 81,
+            "transformFlags": 0,
             "start": 6,
             "end": 19
         },
@@ -113,10 +124,12 @@ fro\u006D
                 "text": "from",
                 "rawText": "fro\\u006D",
                 "flags": 16481,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 19,
             "end": 29
         }
@@ -125,6 +138,7 @@ fro\u006D
     "source": "let x;\nexport { x }\nfro\\u006D",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

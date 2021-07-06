@@ -32,12 +32,14 @@ a ? async (b) => (c => d) : e => f;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -46,6 +48,7 @@ a ? async (b) => (c => d) : e => f;
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 9
                     },
@@ -58,12 +61,14 @@ a ? async (b) => (c => d) : e => f;
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 12
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 13
                     },
@@ -71,6 +76,7 @@ a ? async (b) => (c => d) : e => f;
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 16
                     },
@@ -90,6 +96,7 @@ a ? async (b) => (c => d) : e => f;
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 19
                                     },
@@ -97,6 +104,7 @@ a ? async (b) => (c => d) : e => f;
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 22
                                     },
@@ -105,16 +113,19 @@ a ? async (b) => (c => d) : e => f;
                                         "text": "d",
                                         "rawText": "d",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 24
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 24
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 29
                         },
@@ -129,21 +140,25 @@ a ? async (b) => (c => d) : e => f;
                                     "text": "e",
                                     "rawText": "e",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 29
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 29
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 29
                         },
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 32
                         },
@@ -152,14 +167,17 @@ a ? async (b) => (c => d) : e => f;
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 34
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 34
                     },
                     "flags": 288,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 34
                 },
@@ -169,14 +187,17 @@ a ? async (b) => (c => d) : e => f;
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 34
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -185,6 +206,7 @@ a ? async (b) => (c => d) : e => f;
     "source": "a ? async (b) => (c => d) : e => f;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

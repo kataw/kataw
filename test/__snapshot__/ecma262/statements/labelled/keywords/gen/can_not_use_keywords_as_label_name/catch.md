@@ -31,10 +31,12 @@ catch: x
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 0
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 0
             },
@@ -43,6 +45,7 @@ catch: x
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -53,20 +56,24 @@ catch: x
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 5
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -77,10 +84,12 @@ catch: x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 6,
             "end": 8
         }
@@ -89,6 +98,7 @@ catch: x
     "source": "catch: x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

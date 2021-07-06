@@ -29,6 +29,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -47,6 +49,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -65,12 +68,14 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 16
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 18
                                 },
@@ -86,6 +91,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                 "getKeyword": {
                                                     "kind": 16498,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 20,
                                                     "end": 23
                                                 },
@@ -97,6 +103,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                         "text": "get",
                                                         "rawText": "get",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 23,
                                                         "end": 27
                                                     },
@@ -106,6 +113,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 1056,
+                                                        "transformFlags": 0,
                                                         "start": 28,
                                                         "end": 29
                                                     },
@@ -117,18 +125,22 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                             "directives": [],
                                                             "statements": [],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 30,
                                                             "end": 30
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 29,
                                                         "end": 31
                                                     },
                                                     "flags": 1056,
+                                                    "transformFlags": 0,
                                                     "start": 27,
                                                     "end": 31
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 20,
                                                 "end": 31
                                             },
@@ -140,6 +152,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                 "setKeyword": {
                                                     "kind": 16499,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 32,
                                                     "end": 36
                                                 },
@@ -150,6 +163,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                         "text": "set",
                                                         "rawText": "set",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 36,
                                                         "end": 40
                                                     },
@@ -162,12 +176,14 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                                 "text": "a",
                                                                 "rawText": "a",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 41,
                                                                 "end": 42
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 608,
+                                                        "transformFlags": 0,
                                                         "start": 41,
                                                         "end": 43
                                                     },
@@ -179,18 +195,22 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                             "directives": [],
                                                             "statements": [],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 44,
                                                             "end": 44
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 43,
                                                         "end": 45
                                                     },
                                                     "flags": 544,
+                                                    "transformFlags": 0,
                                                     "start": 40,
                                                     "end": 45
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 32,
                                                 "end": 45
                                             },
@@ -202,6 +222,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                     "text": "get1",
                                                     "rawText": "get1",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 46,
                                                     "end": 51
                                                 },
@@ -210,10 +231,12 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                     "text": 4,
                                                     "rawText": "4",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 52,
                                                     "end": 53
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 128,
                                                 "start": 46,
                                                 "end": 53
                                             },
@@ -225,6 +248,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                     "text": "set1",
                                                     "rawText": "set1",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 54,
                                                     "end": 59
                                                 },
@@ -235,12 +259,14 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                         "text": "get",
                                                         "rawText": "get",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 60,
                                                         "end": 63
                                                     },
                                                     "operatorToken": {
                                                         "kind": 134318643,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 63,
                                                         "end": 64
                                                     },
@@ -249,46 +275,56 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                         "text": "set",
                                                         "rawText": "set",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 64,
                                                         "end": 67
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 54,
                                                     "end": 67
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 128,
                                                 "start": 54,
                                                 "end": 67
                                             }
                                         ],
                                         "trailingComma": true,
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 68
                                     },
                                     "flags": 48,
+                                    "transformFlags": 8,
                                     "start": 18,
                                     "end": 70
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 70
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 70
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 70
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 72
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 72
         }
@@ -297,6 +333,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
     "source": "function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 72
 }
@@ -307,7 +344,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
 ```javascript
 
 function f() {
-  1 +  {get get() {}, set set(a) {}, get1: 4, set1: get -  set};
+  1 + {get get() {}, set set(a) {}, get1: 4, set1: get - set};
 }
 ```
 

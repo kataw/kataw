@@ -29,6 +29,7 @@ function not_gen() { function *a(){yield 2e308} }}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function not_gen() { function *a(){yield 2e308} }}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 16
             },
@@ -47,6 +49,7 @@ function not_gen() { function *a(){yield 2e308} }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -63,12 +66,14 @@ function not_gen() { function *a(){yield 2e308} }}
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 29
                             },
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 29,
                                 "end": 31
                             },
@@ -77,6 +82,7 @@ function not_gen() { function *a(){yield 2e308} }}
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 32
                             },
@@ -86,6 +92,7 @@ function not_gen() { function *a(){yield 2e308} }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 33
                             },
@@ -102,6 +109,7 @@ function not_gen() { function *a(){yield 2e308} }}
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 35,
                                                     "end": 40
                                                 },
@@ -112,42 +120,51 @@ function not_gen() { function *a(){yield 2e308} }}
                                                     "text": null,
                                                     "rawText": "2e308",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 40,
                                                     "end": 46
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 35,
                                                 "end": 46
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 35,
                                             "end": 46
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 46
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 47
                             },
                             "returnType": null,
                             "flags": 272,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 47
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 47
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 49
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 49
         }
@@ -156,6 +173,7 @@ function not_gen() { function *a(){yield 2e308} }}
     "source": "function not_gen() { function *a(){yield 2e308} }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 50
 }

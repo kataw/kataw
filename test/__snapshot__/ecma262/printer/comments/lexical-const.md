@@ -43,6 +43,7 @@ y /*3*/ = /*4*/b
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -58,10 +59,12 @@ y /*3*/ = /*4*/b
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 7
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 13
                         },
@@ -71,19 +74,23 @@ y /*3*/ = /*4*/b
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 17
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 5,
                         "end": 17
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 17
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         },
@@ -92,6 +99,7 @@ y /*3*/ = /*4*/b
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 25
             },
@@ -107,10 +115,12 @@ y /*3*/ = /*4*/b
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 33
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 39
                         },
@@ -120,19 +130,23 @@ y /*3*/ = /*4*/b
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 46,
                             "end": 53
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 25,
                         "end": 53
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 53
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 18,
             "end": 54
         },
@@ -141,6 +155,7 @@ y /*3*/ = /*4*/b
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 54,
                 "end": 62
             },
@@ -162,6 +177,7 @@ y /*3*/ = /*4*/b
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 70,
                                             "end": 79
                                         },
@@ -172,20 +188,24 @@ y /*3*/ = /*4*/b
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 81,
                                             "end": 83
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 70,
                                         "end": 83
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 1,
+                                "transformFlags": 0,
                                 "start": 70,
                                 "end": 83
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 62,
                             "end": 93
                         },
@@ -195,19 +215,23 @@ y /*3*/ = /*4*/b
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 100,
                             "end": 107
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 62,
                         "end": 107
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 62,
                 "end": 107
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 54,
             "end": 108
         },
@@ -216,6 +240,7 @@ y /*3*/ = /*4*/b
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 108,
                 "end": 116
             },
@@ -237,6 +262,7 @@ y /*3*/ = /*4*/b
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 124,
                                             "end": 133
                                         },
@@ -247,20 +273,24 @@ y /*3*/ = /*4*/b
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 141,
                                             "end": 148
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 124,
                                         "end": 148
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 1,
+                                "transformFlags": 0,
                                 "start": 124,
                                 "end": 148
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 116,
                             "end": 158
                         },
@@ -270,19 +300,23 @@ y /*3*/ = /*4*/b
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 165,
                             "end": 172
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 116,
                         "end": 172
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 116,
                 "end": 172
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 108,
             "end": 173
         }
@@ -291,6 +325,7 @@ y /*3*/ = /*4*/b
     "source": "const [/*1*/] = y;\n\nconst /*1*/ [/*2*/]/*3*/ = /*4*/y;\n\n\nconst /*1*/ [\n\n/*2*/\ny = b\n\n/*3*/\n\n]/*4*/ = /*5*/y;\n\n\nconst /*1*/ [\n\n/*2*/\ny /*3*/ = /*4*/b\n\n/*5*/\n\n]/*6*/ = /*7*/y;\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 174
 }

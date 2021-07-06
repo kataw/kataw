@@ -20,6 +20,7 @@ for (const let of x) ;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -29,6 +30,7 @@ for (const let of x) ;
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 10
                 },
@@ -42,27 +44,32 @@ for (const let of x) ;
                                 "text": "let",
                                 "rawText": "let",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 14
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 10,
                             "end": 14
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 14
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 17
             },
@@ -71,16 +78,19 @@ for (const let of x) ;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 22
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -89,6 +99,7 @@ for (const let of x) ;
     "source": "for (const let of x) ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

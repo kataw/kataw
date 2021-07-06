@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { TypeNode } from './';
 
 /**
@@ -22,6 +22,7 @@ export function createIndexedAccessType(
     objectType,
     indexType,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

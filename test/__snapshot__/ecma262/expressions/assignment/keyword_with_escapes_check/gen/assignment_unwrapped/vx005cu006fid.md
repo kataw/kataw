@@ -31,6 +31,7 @@ v\u006fid = x;
                     "operandToken": {
                         "kind": 138477615,
                         "flags": 16480,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 9
                     },
@@ -39,16 +40,19 @@ v\u006fid = x;
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 9
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 9
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
@@ -57,14 +61,17 @@ v\u006fid = x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -73,6 +80,7 @@ v\u006fid = x;
     "source": "v\\u006fid = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

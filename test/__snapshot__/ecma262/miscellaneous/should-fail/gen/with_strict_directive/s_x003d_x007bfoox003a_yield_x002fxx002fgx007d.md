@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -40,12 +41,14 @@
                     "text": "s",
                     "rawText": "s",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -62,6 +65,7 @@
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 22
                                 },
@@ -74,12 +78,14 @@
                                             "text": "yield",
                                             "rawText": "yield",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 29
                                         },
                                         "operatorToken": {
                                             "kind": 35640,
                                             "flags": 96,
+                                            "transformFlags": 32,
                                             "start": 29,
                                             "end": 31
                                         },
@@ -88,16 +94,19 @@
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 31,
                                             "end": 32
                                         },
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 32
                                     },
                                     "operatorToken": {
                                         "kind": 35640,
                                         "flags": 96,
+                                        "transformFlags": 32,
                                         "start": 32,
                                         "end": 33
                                     },
@@ -106,32 +115,39 @@
                                         "text": "g",
                                         "rawText": "g",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 34
                                     },
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 34
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 19,
                                 "end": 34
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 34
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 17,
                     "end": 35
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 13,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 35
         }
@@ -140,6 +156,7 @@
     "source": "\"use strict\"; s = {foo: yield /x/g}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }
@@ -150,7 +167,7 @@
 ```javascript
 
 "\"use strict\"";
-s = {foo: yield /  x /  g};
+s = {foo: yield / x / g};
 ```
 
 ### Diagnostics

@@ -36,10 +36,12 @@
                 "text": "ģ",
                 "rawText": "\"\\u{0123}\"",
                 "flags": 8288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -50,10 +52,12 @@
                 "text": "䕧",
                 "rawText": "\"\\u{4567}\"",
                 "flags": 8289,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 12,
             "end": 25
         },
@@ -64,10 +68,12 @@
                 "text": "Ȧʼ",
                 "rawText": "\"\\u{89abc}\"",
                 "flags": 8289,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 25,
             "end": 39
         },
@@ -78,10 +84,12 @@
                 "text": "ͻΫ",
                 "rawText": "\"\\u{defAB}\"",
                 "flags": 8289,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 51
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 39,
             "end": 53
         },
@@ -92,10 +100,12 @@
                 "text": "췯",
                 "rawText": "\"\\u{CDEF}\"",
                 "flags": 8289,
+                "transformFlags": 0,
                 "start": 53,
                 "end": 64
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 53,
             "end": 66
         },
@@ -106,10 +116,12 @@
                 "text": "prefix Hͅ",
                 "rawText": "\"prefix \\u{012345}\"",
                 "flags": 8289,
+                "transformFlags": 0,
                 "start": 66,
                 "end": 86
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 66,
             "end": 88
         },
@@ -120,10 +132,12 @@
                 "text": "Hͅ postfix",
                 "rawText": "\"\\u{012345} postfix\"",
                 "flags": 8289,
+                "transformFlags": 0,
                 "start": 88,
                 "end": 109
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 88,
             "end": 111
         },
@@ -134,10 +148,12 @@
                 "text": "Hͅƞ",
                 "rawText": "\"\\u{012345}\\u{6789a}\"",
                 "flags": 8289,
+                "transformFlags": 0,
                 "start": 111,
                 "end": 133
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 111,
             "end": 133
         }
@@ -146,6 +162,7 @@
     "source": "\"\\u{0123}\"\n;\n\"\\u{4567}\"\n;\n\"\\u{89abc}\"\n;\n\"\\u{defAB}\"\n;\n\"\\u{CDEF}\"\n;\n\"prefix \\u{012345}\"\n;\n\"\\u{012345} postfix\"\n;\n\"\\u{012345}\\u{6789a}\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 133
 }

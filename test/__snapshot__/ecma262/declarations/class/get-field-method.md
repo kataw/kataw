@@ -22,6 +22,7 @@ class C { get; #aaa(){} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class C { get; #aaa(){} }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -51,6 +53,7 @@ class C { get; #aaa(){} }
                                 "text": "get",
                                 "rawText": "get",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 13
                             },
@@ -58,12 +61,14 @@ class C { get; #aaa(){} }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 13
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 14
                         },
@@ -83,6 +88,7 @@ class C { get; #aaa(){} }
                                     "text": "#aaa",
                                     "rawText": "#aaa",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 19
                                 },
@@ -92,6 +98,7 @@ class C { get; #aaa(){} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 21
                                 },
@@ -103,31 +110,38 @@ class C { get; #aaa(){} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 22
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 23
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 23
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 23
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 23
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -136,6 +150,7 @@ class C { get; #aaa(){} }
     "source": "class C { get; #aaa(){} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

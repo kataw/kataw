@@ -28,6 +28,7 @@ type X = (|a) => T;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -36,6 +37,7 @@ type X = (|a) => T;
                 "text": "X",
                 "rawText": "X",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -43,6 +45,7 @@ type X = (|a) => T;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -61,6 +64,7 @@ type X = (|a) => T;
                                 "bitwiseOrToken": {
                                     "kind": 134251592,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 11
                                 },
@@ -72,27 +76,32 @@ type X = (|a) => T;
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 12
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 12
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 13
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 16
                     },
@@ -107,27 +116,33 @@ type X = (|a) => T;
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 18
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 18
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 18
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 18
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -136,6 +151,7 @@ type X = (|a) => T;
     "source": "type X = (|a) => T;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

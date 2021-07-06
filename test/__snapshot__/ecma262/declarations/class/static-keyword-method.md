@@ -22,6 +22,7 @@ class C { static delete() {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class C { static delete() {} }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -47,6 +49,7 @@ class C { static delete() {} }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 16
                             },
@@ -61,6 +64,7 @@ class C { static delete() {} }
                                     "text": "delete",
                                     "rawText": "delete",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 23
                                 },
@@ -70,6 +74,7 @@ class C { static delete() {} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 25
                                 },
@@ -81,31 +86,38 @@ class C { static delete() {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 27
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 28
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 28
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 28
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 28
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -114,6 +126,7 @@ class C { static delete() {} }
     "source": "class C { static delete() {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

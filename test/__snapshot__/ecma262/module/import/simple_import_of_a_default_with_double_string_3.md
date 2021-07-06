@@ -26,6 +26,7 @@ import "y"
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -37,11 +38,13 @@ import "y"
                 "text": "y",
                 "rawText": "\"y\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 10
             },
             "importClause": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         }
@@ -50,6 +53,7 @@ import "y"
     "source": "import \"y\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

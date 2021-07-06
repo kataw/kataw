@@ -29,6 +29,7 @@ var g: { (x: string): void } = function(x: mixed) { }
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var g: { (x: string): void } = function(x: mixed) { }
                             "text": "g",
                             "rawText": "g",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -68,6 +70,7 @@ var g: { (x: string): void } = function(x: mixed) { }
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 10,
                                                         "end": 11
                                                     },
@@ -79,20 +82,24 @@ var g: { (x: string): void } = function(x: mixed) { }
                                                         "type": {
                                                             "kind": 134234347,
                                                             "flags": 2097216,
+                                                            "transformFlags": 0,
                                                             "start": 12,
                                                             "end": 19
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 12,
                                                         "end": 19
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 10,
                                                     "end": 19
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 19
                                         },
@@ -103,24 +110,29 @@ var g: { (x: string): void } = function(x: mixed) { }
                                             "type": {
                                                 "kind": 138477615,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 26
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 26
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 26
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 28
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 28
                         },
@@ -130,6 +142,7 @@ var g: { (x: string): void } = function(x: mixed) { }
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 39
                             },
@@ -147,6 +160,7 @@ var g: { (x: string): void } = function(x: mixed) { }
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 40,
                                             "end": 41
                                         },
@@ -162,26 +176,31 @@ var g: { (x: string): void } = function(x: mixed) { }
                                                     "text": "mixed",
                                                     "rawText": "mixed",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 42,
                                                     "end": 48
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 42,
                                                 "end": 48
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 42,
                                             "end": 48
                                         },
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 40,
                                         "end": 48
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 48
                             },
@@ -192,28 +211,34 @@ var g: { (x: string): void } = function(x: mixed) { }
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 51,
                                     "end": 51
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 49,
                                 "end": 53
                             },
                             "returnType": null,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 53
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 53
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 53
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 53
         }
@@ -222,6 +247,7 @@ var g: { (x: string): void } = function(x: mixed) { }
     "source": "var g: { (x: string): void } = function(x: mixed) { }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 53
 }

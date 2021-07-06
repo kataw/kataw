@@ -30,6 +30,7 @@ new a.b.c.d()
                                 "newKeyword": {
                                     "kind": 138477661,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 0,
                                     "end": 3
                                 },
@@ -38,11 +39,13 @@ new a.b.c.d()
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 5
                                 },
                                 "argumentList": null,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 0,
                                 "end": 5
                             },
@@ -51,10 +54,12 @@ new a.b.c.d()
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 7
                             },
                             "flags": 96,
+                            "transformFlags": 2,
                             "start": 0,
                             "end": 7
                         },
@@ -63,10 +68,12 @@ new a.b.c.d()
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 9
                         },
                         "flags": 96,
+                        "transformFlags": 2,
                         "start": 0,
                         "end": 9
                     },
@@ -75,10 +82,12 @@ new a.b.c.d()
                         "text": "d",
                         "rawText": "d",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 11
                     },
                     "flags": 96,
+                    "transformFlags": 2,
                     "start": 0,
                     "end": 11
                 },
@@ -87,14 +96,17 @@ new a.b.c.d()
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 12
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -103,6 +115,7 @@ new a.b.c.d()
     "source": "new a.b.c.d()",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

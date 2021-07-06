@@ -22,6 +22,7 @@ a?.b`foo`
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -30,6 +31,7 @@ a?.b`foo`
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -45,14 +47,17 @@ a?.b`foo`
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 4
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 3,
                             "end": 4
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 4
                     },
@@ -61,18 +66,22 @@ a?.b`foo`
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 134217824,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 9
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 9
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         }
@@ -81,6 +90,7 @@ a?.b`foo`
     "source": "a?.b`foo`",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

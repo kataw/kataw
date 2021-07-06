@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 
 export enum UniqueIdentifierFlags {
   None = 0,
@@ -29,6 +29,7 @@ export function createUniqueIdentifier(
     uniqueFlags: reservedInNestedScopes ? uniqueFlags | UniqueIdentifierFlags.ReservedInNestedScopes : uniqueFlags,
     uniqueId,
     flags: NodeFlags.NoChildren,
+    transformFlags: TransformFlags.None,
     start: -1,
     end: -1
   };

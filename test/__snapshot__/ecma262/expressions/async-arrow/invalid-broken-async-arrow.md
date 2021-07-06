@@ -31,6 +31,7 @@ async a
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -40,6 +41,7 @@ async a
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -47,6 +49,7 @@ async a
                 "arrowToken": {
                     "kind": 10,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 10
                 },
@@ -55,14 +58,17 @@ async a
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -71,6 +77,7 @@ async a
     "source": "async a\n=> a;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

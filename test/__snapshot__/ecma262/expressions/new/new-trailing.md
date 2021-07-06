@@ -24,6 +24,7 @@ new x().y;
                     "newKeyword": {
                         "kind": 138477661,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -32,6 +33,7 @@ new x().y;
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 5
                     },
@@ -40,10 +42,12 @@ new x().y;
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 6
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 7
                 },
@@ -52,14 +56,17 @@ new x().y;
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 9
                 },
                 "flags": 96,
+                "transformFlags": 2,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         }
@@ -68,6 +75,7 @@ new x().y;
     "source": "new x().y;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

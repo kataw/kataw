@@ -22,10 +22,12 @@ await
                 "text": "await",
                 "rawText": "await",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         }
@@ -34,6 +36,7 @@ await
     "source": "await",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 5
 }

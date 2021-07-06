@@ -29,6 +29,7 @@ async (x = (while) = f) => {}
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,12 +43,14 @@ async (x = (while) = f) => {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 10
                         },
@@ -58,24 +61,29 @@ async (x = (while) = f) => {}
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 12
                             },
                             "flags": 10,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 12
                         },
                         "flags": 32,
+                        "transformFlags": 128,
                         "start": 7,
                         "end": 12
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 0
             },
             "flags": 268435490,
+            "transformFlags": 1,
             "start": 0,
             "end": 12
         },
@@ -84,6 +92,7 @@ async (x = (while) = f) => {}
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 17
             },
@@ -92,6 +101,7 @@ async (x = (while) = f) => {}
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -104,12 +114,14 @@ async (x = (while) = f) => {}
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 18
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 20
                     },
@@ -118,18 +130,22 @@ async (x = (while) = f) => {}
                         "text": "f",
                         "rawText": "f",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 22
                     },
                     "flags": 0,
+                    "transformFlags": 128,
                     "start": 18,
                     "end": 22
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 22
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 12,
             "end": 22
         },
@@ -139,10 +155,12 @@ async (x = (while) = f) => {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 26,
             "end": 29
         }
@@ -151,6 +169,7 @@ async (x = (while) = f) => {}
     "source": "async (x = (while) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

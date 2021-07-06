@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -38,6 +39,7 @@
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
@@ -46,6 +48,7 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 21
             },
@@ -64,6 +67,7 @@
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 28
                             },
@@ -77,6 +81,7 @@
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 30
                                 },
@@ -92,6 +97,7 @@
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 34
                                             },
@@ -102,6 +108,7 @@
                                                 "awaitKeyword": {
                                                     "kind": 82196,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 36,
                                                     "end": 42
                                                 },
@@ -110,20 +117,24 @@
                                                     "text": "bar",
                                                     "rawText": "bar",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 42,
                                                     "end": 46
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 36,
                                                 "end": 46
                                             },
                                             "flags": 34,
+                                            "transformFlags": 0,
                                             "start": 31,
                                             "end": 46
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 290,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 47
                                 },
@@ -135,31 +146,38 @@
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 48,
                                         "end": 48
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 47,
                                     "end": 49
                                 },
                                 "flags": 256,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 49
                             },
                             "flags": 256,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 49
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 49
                 },
                 "flags": 21,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 50
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 50
         }
@@ -168,6 +186,7 @@
     "source": "'use strict'; class x {async f(foo = await bar){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 50
 }

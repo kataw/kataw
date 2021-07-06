@@ -28,10 +28,12 @@
                 "text": "207",
                 "rawText": "\"\\207",
                 "flags": 262240,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         }
@@ -40,6 +42,7 @@
     "source": "\"\\207",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 5
 }

@@ -34,6 +34,7 @@
                                         "text": "src",
                                         "rawText": "src",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 6
                                     },
@@ -49,40 +50,48 @@
                                                         "text": "dest",
                                                         "rawText": "dest",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 10,
                                                         "end": 14
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 14
                                             },
                                             "flags": 32,
+                                            "transformFlags": 8,
                                             "start": 9,
                                             "end": 15
                                         },
                                         "flags": 7,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 16
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 2,
                                     "end": 16
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 16
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 1,
                         "end": 18
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 20
                     },
@@ -91,18 +100,22 @@
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 24
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 1,
                     "end": 24
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -111,6 +124,7 @@
     "source": "({ src: ([dest]) } = obj)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

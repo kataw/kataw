@@ -31,12 +31,14 @@ a + typeof b += c in d
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -45,6 +47,7 @@ a + typeof b += c in d
                     "operandToken": {
                         "kind": 138477613,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 10
                     },
@@ -53,18 +56,22 @@ a + typeof b += c in d
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 12
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 12
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -77,12 +84,14 @@ a + typeof b += c in d
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 20
                 },
@@ -91,14 +100,17 @@ a + typeof b += c in d
                     "text": "d",
                     "rawText": "d",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 22
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 15,
             "end": 22
         }
@@ -107,6 +119,7 @@ a + typeof b += c in d
     "source": "a + typeof b += c in d",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

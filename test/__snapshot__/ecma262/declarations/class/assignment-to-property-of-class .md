@@ -31,6 +31,7 @@ c.m = n => n * 3;
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -39,6 +40,7 @@ c.m = n => n * 3;
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -60,6 +62,7 @@ c.m = n => n * 3;
                                 "text": "m",
                                 "rawText": "m",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 80
                             },
@@ -74,6 +77,7 @@ c.m = n => n * 3;
                                     "text": "n",
                                     "rawText": "n",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 82,
                                     "end": 84
                                 },
@@ -81,6 +85,7 @@ c.m = n => n * 3;
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 84,
                                     "end": 87
                                 },
@@ -91,12 +96,14 @@ c.m = n => n * 3;
                                         "text": "n",
                                         "rawText": "n",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 87,
                                         "end": 89
                                     },
                                     "operatorToken": {
                                         "kind": 67143222,
                                         "flags": 96,
+                                        "transformFlags": 32,
                                         "start": 89,
                                         "end": 91
                                     },
@@ -105,37 +112,45 @@ c.m = n => n * 3;
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 91,
                                         "end": 93
                                     },
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 87,
                                     "end": 93
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 82,
                                 "end": 93
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 93
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 93,
                             "end": 94
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 94
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 96
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 96
         },
@@ -144,6 +159,7 @@ c.m = n => n * 3;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 96,
                 "end": 103
             },
@@ -157,6 +173,7 @@ c.m = n => n * 3;
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 103,
                             "end": 105
                         },
@@ -166,6 +183,7 @@ c.m = n => n * 3;
                             "newKeyword": {
                                 "kind": 138477661,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 107,
                                 "end": 111
                             },
@@ -174,6 +192,7 @@ c.m = n => n * 3;
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 111,
                                 "end": 113
                             },
@@ -182,23 +201,28 @@ c.m = n => n * 3;
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 114,
                                 "end": 114
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 107,
                             "end": 115
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 103,
                         "end": 115
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 103,
                 "end": 115
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 96,
             "end": 116
         },
@@ -213,6 +237,7 @@ c.m = n => n * 3;
                         "text": "c",
                         "rawText": "c",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 116,
                         "end": 118
                     },
@@ -221,16 +246,19 @@ c.m = n => n * 3;
                         "text": "m",
                         "rawText": "m",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 119,
                         "end": 120
                     },
                     "flags": 97,
+                    "transformFlags": 2,
                     "start": 116,
                     "end": 120
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 120,
                     "end": 122
                 },
@@ -243,6 +271,7 @@ c.m = n => n * 3;
                         "text": "n",
                         "rawText": "n",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 122,
                         "end": 124
                     },
@@ -250,6 +279,7 @@ c.m = n => n * 3;
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 124,
                         "end": 127
                     },
@@ -260,12 +290,14 @@ c.m = n => n * 3;
                             "text": "n",
                             "rawText": "n",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 127,
                             "end": 129
                         },
                         "operatorToken": {
                             "kind": 67143222,
                             "flags": 96,
+                            "transformFlags": 32,
                             "start": 129,
                             "end": 131
                         },
@@ -274,22 +306,27 @@ c.m = n => n * 3;
                             "text": 3,
                             "rawText": "3",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 131,
                             "end": 133
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 127,
                         "end": 133
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 122,
                     "end": 133
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 116,
                 "end": 133
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 116,
             "end": 134
         }
@@ -298,6 +335,7 @@ c.m = n => n * 3;
     "source": "class C {\n    /**\n     * @param {number} n\n     * @return {number}\n     */\n    m = n => n * 2;\n}\n\nconst c = new C();\nc.m = n => n * 3;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 134
 }
@@ -308,11 +346,11 @@ c.m = n => n * 3;
 ```javascript
 
 class C {
-  m = n => n *  2;;
+  m = n => n * 2;;
 }
 const c = new C();
 
-c.m = n => n *  3;
+c.m = n => n * 3;
 
 ```
 

@@ -32,12 +32,14 @@ a={123<T>(x: T): T {}}
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 2
                 },
@@ -59,6 +61,7 @@ a={123<T>(x: T): T {}}
                                         "text": 123,
                                         "rawText": "123",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 6
                                     },
@@ -74,6 +77,7 @@ a={123<T>(x: T): T {}}
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 7,
                                                         "end": 8
                                                     },
@@ -81,16 +85,19 @@ a={123<T>(x: T): T {}}
                                                     "assignToken": null,
                                                     "defaultType": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 7,
                                                     "end": 8
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 8
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 9
                                     },
@@ -105,6 +112,7 @@ a={123<T>(x: T): T {}}
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 10,
                                                     "end": 11
                                                 },
@@ -120,26 +128,31 @@ a={123<T>(x: T): T {}}
                                                             "text": "T",
                                                             "rawText": "T",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 12,
                                                             "end": 14
                                                         },
                                                         "typeParameters": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 12,
                                                         "end": 14
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 12,
                                                     "end": 14
                                                 },
                                                 "right": null,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 14
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 15
                                     },
@@ -154,15 +167,18 @@ a={123<T>(x: T): T {}}
                                                 "text": "T",
                                                 "rawText": "T",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 16,
                                                 "end": 18
                                             },
                                             "typeParameters": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 18
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 18
                                     },
@@ -173,36 +189,44 @@ a={123<T>(x: T): T {}}
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 20
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 21
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 21
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 21
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 21
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 2,
                     "end": 22
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -211,6 +235,7 @@ a={123<T>(x: T): T {}}
     "source": "a={123<T>(x: T): T {}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

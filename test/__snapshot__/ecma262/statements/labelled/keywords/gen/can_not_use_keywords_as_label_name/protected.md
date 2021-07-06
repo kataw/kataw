@@ -29,12 +29,14 @@ protected: x
                 "text": "protected",
                 "rawText": "protected",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 10
             },
@@ -45,14 +47,17 @@ protected: x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -61,6 +66,7 @@ protected: x
     "source": "protected: x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

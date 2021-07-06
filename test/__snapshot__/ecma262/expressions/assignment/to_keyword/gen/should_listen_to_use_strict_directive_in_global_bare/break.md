@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -36,6 +37,7 @@
             "breakKeyword": {
                 "kind": 37757005,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
@@ -44,10 +46,12 @@
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 19
         },
@@ -58,10 +62,12 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 21,
             "end": 24
         }
@@ -70,6 +76,7 @@
     "source": "\"use strict\"; break = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

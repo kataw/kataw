@@ -37,6 +37,7 @@
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 5
                                     },
@@ -45,36 +46,43 @@
                                         "importKeyword": {
                                             "kind": 37814364,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 11
                                         },
                                         "metaIdentifier": {
                                             "kind": 16595,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 16
                                         },
                                         "flags": 11,
+                                        "transformFlags": 0,
                                         "start": 96,
                                         "end": 16
                                     },
                                     "flags": 1073741856,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 16
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 16
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 1,
                         "end": 17
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 19
                     },
@@ -85,22 +93,27 @@
                             "properties": [],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 21
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 19,
                         "end": 22
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 1,
                     "end": 22
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -109,6 +122,7 @@
     "source": "({...import.meta} = {});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

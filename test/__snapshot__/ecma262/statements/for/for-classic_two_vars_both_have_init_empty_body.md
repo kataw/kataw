@@ -28,6 +28,7 @@ for (var a=1, b=2;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,6 +37,7 @@ for (var a=1, b=2;;);
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -49,6 +51,7 @@ for (var a=1, b=2;;);
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             },
@@ -58,10 +61,12 @@ for (var a=1, b=2;;);
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 12
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 8,
                             "end": 12
                         },
@@ -72,6 +77,7 @@ for (var a=1, b=2;;);
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
                             },
@@ -81,19 +87,23 @@ for (var a=1, b=2;;);
                                 "text": 2,
                                 "rawText": "2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 17
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 13,
                             "end": 17
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 17
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
@@ -102,10 +112,12 @@ for (var a=1, b=2;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 21
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -114,6 +126,7 @@ for (var a=1, b=2;;);
     "source": "for (var a=1, b=2;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

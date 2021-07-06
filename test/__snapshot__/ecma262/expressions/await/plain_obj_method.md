@@ -20,6 +20,7 @@ let o = {f(await){}}
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -33,6 +34,7 @@ let o = {f(await){}}
                             "text": "o",
                             "rawText": "o",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -55,6 +57,7 @@ let o = {f(await){}}
                                                 "text": "f",
                                                 "rawText": "f",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 9,
                                                 "end": 10
                                             },
@@ -67,12 +70,14 @@ let o = {f(await){}}
                                                         "text": "await",
                                                         "rawText": "await",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 11,
                                                         "end": 16
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 11,
                                                 "end": 17
                                             },
@@ -84,41 +89,50 @@ let o = {f(await){}}
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 18,
                                                     "end": 18
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 17,
                                                 "end": 19
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 19
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 19
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 19
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 7,
                             "end": 20
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 20
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 20
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -127,6 +141,7 @@ let o = {f(await){}}
     "source": "let o = {f(await){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

@@ -26,12 +26,14 @@ export default yield x
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -40,10 +42,12 @@ export default yield x
                 "text": "yield",
                 "rawText": "yield",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         },
@@ -54,10 +58,12 @@ export default yield x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 20,
             "end": 22
         }
@@ -66,6 +72,7 @@ export default yield x
     "source": "export default yield x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

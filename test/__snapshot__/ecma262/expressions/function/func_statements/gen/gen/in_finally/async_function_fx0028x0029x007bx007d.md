@@ -30,6 +30,7 @@ try {
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -39,10 +40,12 @@ try {
                     "kind": 249,
                     "statements": [],
                     "flags": 17,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 7
             },
@@ -50,6 +53,7 @@ try {
             "finallyKeyword": {
                 "kind": 37757016,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 15
             },
@@ -64,12 +68,14 @@ try {
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 25
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 34
                             },
@@ -79,6 +85,7 @@ try {
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 36
                             },
@@ -88,6 +95,7 @@ try {
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 37
                             },
@@ -98,28 +106,34 @@ try {
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 39
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 40
                             },
                             "returnType": null,
                             "flags": 144,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 40
                         }
                     ],
                     "flags": 17,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 40
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 42
         }
@@ -128,6 +142,7 @@ try {
     "source": "try {\n} finally {\n  async function f(){}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }

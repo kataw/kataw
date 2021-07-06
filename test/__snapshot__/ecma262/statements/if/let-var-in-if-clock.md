@@ -20,6 +20,7 @@ if (x) { if (y) var foo = 1; } let foo = 1;
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -28,6 +29,7 @@ if (x) { if (y) var foo = 1; } let foo = 1;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 5
             },
@@ -41,6 +43,7 @@ if (x) { if (y) var foo = 1; } let foo = 1;
                             "ifKeyword": {
                                 "kind": 37757019,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 11
                             },
@@ -49,6 +52,7 @@ if (x) { if (y) var foo = 1; } let foo = 1;
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 14
                             },
@@ -58,6 +62,7 @@ if (x) { if (y) var foo = 1; } let foo = 1;
                                 "varKeyword": {
                                     "kind": 37757002,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 19
                                 },
@@ -71,6 +76,7 @@ if (x) { if (y) var foo = 1; } let foo = 1;
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 23
                                             },
@@ -80,40 +86,48 @@ if (x) { if (y) var foo = 1; } let foo = 1;
                                                 "text": 1,
                                                 "rawText": "1",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 27
                                             },
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 19,
                                             "end": 27
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 27
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 28
                             },
                             "elseKeyword": null,
                             "alternate": null,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 28
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 28
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 30
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         },
@@ -122,6 +136,7 @@ if (x) { if (y) var foo = 1; } let foo = 1;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 34
             },
@@ -135,6 +150,7 @@ if (x) { if (y) var foo = 1; } let foo = 1;
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 38
                         },
@@ -144,19 +160,23 @@ if (x) { if (y) var foo = 1; } let foo = 1;
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 40,
                             "end": 42
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 34,
                         "end": 42
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 42
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 30,
             "end": 43
         }
@@ -165,6 +185,7 @@ if (x) { if (y) var foo = 1; } let foo = 1;
     "source": "if (x) { if (y) var foo = 1; } let foo = 1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }

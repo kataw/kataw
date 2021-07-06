@@ -30,6 +30,7 @@ var b: { (): string; (x: number): string } =
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -43,6 +44,7 @@ var b: { (): string; (x: number): string } =
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -63,6 +65,7 @@ var b: { (): string; (x: number): string } =
                                             "parameters": [],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 10
                                         },
@@ -73,14 +76,17 @@ var b: { (): string; (x: number): string } =
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 19
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 19
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 20
                                     },
@@ -100,6 +106,7 @@ var b: { (): string; (x: number): string } =
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 22,
                                                         "end": 23
                                                     },
@@ -111,20 +118,24 @@ var b: { (): string; (x: number): string } =
                                                         "type": {
                                                             "kind": 134234345,
                                                             "flags": 2097216,
+                                                            "transformFlags": 0,
                                                             "start": 24,
                                                             "end": 31
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 24,
                                                         "end": 31
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 22,
                                                     "end": 31
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 31
                                         },
@@ -135,24 +146,29 @@ var b: { (): string; (x: number): string } =
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 40
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 33,
                                             "end": 40
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 40
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 42
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 42
                         },
@@ -162,6 +178,7 @@ var b: { (): string; (x: number): string } =
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 44,
                                 "end": 55
                             },
@@ -179,12 +196,14 @@ var b: { (): string; (x: number): string } =
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 57,
                                             "end": 58
                                         },
                                         "optionalToken": {
                                             "kind": 134217750,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 58,
                                             "end": 59
                                         },
@@ -195,21 +214,25 @@ var b: { (): string; (x: number): string } =
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 60,
                                                 "end": 67
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 60,
                                             "end": 67
                                         },
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 57,
                                         "end": 67
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 57,
                                 "end": 67
                             },
@@ -224,6 +247,7 @@ var b: { (): string; (x: number): string } =
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 78,
                                                 "end": 85
                                             },
@@ -232,19 +256,23 @@ var b: { (): string; (x: number): string } =
                                                 "text": "hi",
                                                 "rawText": "\"hi\"",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 85,
                                                 "end": 90
                                             },
                                             "flags": 80,
+                                            "transformFlags": 256,
                                             "start": 78,
                                             "end": 91
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 78,
                                     "end": 91
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 76,
                                 "end": 93
                             },
@@ -255,27 +283,33 @@ var b: { (): string; (x: number): string } =
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 69,
                                     "end": 76
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 69,
                                 "end": 76
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 44,
                             "end": 93
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 93
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 93
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 94
         }
@@ -284,6 +318,7 @@ var b: { (): string; (x: number): string } =
     "source": "var b: { (): string; (x: number): string } =\n  function (x?: number): string { return \"hi\"; };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 94
 }

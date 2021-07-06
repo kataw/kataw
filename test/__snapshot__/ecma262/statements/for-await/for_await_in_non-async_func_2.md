@@ -22,6 +22,7 @@ function f() { for await (x of y) {} }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function f() { for await (x of y) {} }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -40,6 +42,7 @@ function f() { for await (x of y) {} }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -54,12 +57,14 @@ function f() { for await (x of y) {} }
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 18
                             },
                             "awaitKeyword": {
                                 "kind": 82196,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 24
                             },
@@ -68,12 +73,14 @@ function f() { for await (x of y) {} }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 27
                             },
                             "ofKeyword": {
                                 "kind": 16793717,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 30
                             },
@@ -82,6 +89,7 @@ function f() { for await (x of y) {} }
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 32
                             },
@@ -91,28 +99,34 @@ function f() { for await (x of y) {} }
                                     "kind": 249,
                                     "statements": [],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 35
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 36
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 36
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 36
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 38
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         }
@@ -121,6 +135,7 @@ function f() { for await (x of y) {} }
     "source": "function f() { for await (x of y) {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }

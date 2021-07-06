@@ -29,6 +29,7 @@ function x() {{ x: import.meta }}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function x() {{ x: import.meta }}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -47,6 +49,7 @@ function x() {{ x: import.meta }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -68,12 +71,14 @@ function x() {{ x: import.meta }}
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 17
                                         },
                                         "colonToken": {
                                             "kind": 21,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 18
                                         },
@@ -84,47 +89,57 @@ function x() {{ x: import.meta }}
                                                 "importKeyword": {
                                                     "kind": 37814364,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 18,
                                                     "end": 25
                                                 },
                                                 "metaIdentifier": {
                                                     "kind": 16595,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 26,
                                                     "end": 30
                                                 },
                                                 "flags": 25,
+                                                "transformFlags": 0,
                                                 "start": 96,
                                                 "end": 30
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 30
                                         },
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 30
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 30
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 32
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 32
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 33
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -133,6 +148,7 @@ function x() {{ x: import.meta }}
     "source": "function x() {{ x: import.meta }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

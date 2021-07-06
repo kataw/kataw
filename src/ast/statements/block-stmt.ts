@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { Block } from './block';
 
 export interface BlockStatement extends SyntaxNode {
@@ -11,6 +11,7 @@ export function createBlockStatement(block: Block, flags: NodeFlags, start: numb
     kind: SyntaxKind.BlockStatement,
     block,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

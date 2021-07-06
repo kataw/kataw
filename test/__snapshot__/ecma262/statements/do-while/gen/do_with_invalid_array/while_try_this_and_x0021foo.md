@@ -27,6 +27,7 @@ do while [catch] while try this and !foo
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -35,6 +36,7 @@ do while [catch] while try this and !foo
                 "whileKeyword": {
                     "kind": 37757028,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 8
                 },
@@ -45,10 +47,12 @@ do while [catch] while try this and !foo
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 10
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 8,
                     "end": 10
                 },
@@ -61,10 +65,12 @@ do while [catch] while try this and !foo
                             "kind": 249,
                             "statements": [],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 10
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 10
                     },
@@ -73,6 +79,7 @@ do while [catch] while try this and !foo
                         "catchKeyword": {
                             "kind": 4202575,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 15
                         },
@@ -83,24 +90,29 @@ do while [catch] while try this and !foo
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 15
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 15
                         },
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 15
                     },
                     "finallyKeyword": null,
                     "finallyBlock": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 15
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 15
             },
@@ -110,10 +122,12 @@ do while [catch] while try this and !foo
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         },
@@ -122,6 +136,7 @@ do while [catch] while try this and !foo
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 22
             },
@@ -130,6 +145,7 @@ do while [catch] while try this and !foo
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 22
             },
@@ -138,6 +154,7 @@ do while [catch] while try this and !foo
                 "tryKeyword": {
                     "kind": 37757027,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 26
                 },
@@ -147,10 +164,12 @@ do while [catch] while try this and !foo
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 26
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 26
                 },
@@ -162,18 +181,22 @@ do while [catch] while try this and !foo
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 26
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 26
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 26
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 16,
             "end": 26
         },
@@ -182,10 +205,12 @@ do while [catch] while try this and !foo
             "expression": {
                 "kind": 4276321,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 26,
             "end": 31
         },
@@ -196,10 +221,12 @@ do while [catch] while try this and !foo
                 "text": "and",
                 "rawText": "and",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 31,
             "end": 35
         },
@@ -210,6 +237,7 @@ do while [catch] while try this and !foo
                 "operandToken": {
                     "kind": 65584,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 37
                 },
@@ -218,14 +246,17 @@ do while [catch] while try this and !foo
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 40
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 35,
             "end": 40
         }
@@ -234,6 +265,7 @@ do while [catch] while try this and !foo
     "source": "do while [catch] while try this and !foo",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }

@@ -27,12 +27,14 @@ for await (a of b) let {x}
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "awaitKeyword": {
                 "kind": 82196,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
@@ -41,12 +43,14 @@ for await (a of b) let {x}
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 12
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 15
             },
@@ -55,6 +59,7 @@ for await (a of b) let {x}
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 17
             },
@@ -65,14 +70,17 @@ for await (a of b) let {x}
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 22
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 22
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         },
@@ -88,19 +96,23 @@ for await (a of b) let {x}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 25
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 25
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 22,
             "end": 26
         }
@@ -109,6 +121,7 @@ for await (a of b) let {x}
     "source": "for await (a of b) let {x}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

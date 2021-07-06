@@ -32,6 +32,7 @@
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -47,6 +48,7 @@
                                         "text": "T",
                                         "rawText": "T",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 9
                                     },
@@ -54,6 +56,7 @@
                                     "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 1,
                                     "end": 9
                                 },
@@ -64,6 +67,7 @@
                                         "text": "U",
                                         "rawText": "U",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 12
                                     },
@@ -71,16 +75,19 @@
                                     "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 12
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 12
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 13
                     },
@@ -92,12 +99,14 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 15
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 16
                     },
@@ -105,6 +114,7 @@
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 19
                     },
@@ -113,18 +123,22 @@
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 21
                     },
                     "flags": 288,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 21
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -133,6 +147,7 @@
     "source": "(async <T, U>(x) => y);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

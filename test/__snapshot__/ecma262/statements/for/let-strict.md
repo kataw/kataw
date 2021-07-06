@@ -28,6 +28,7 @@ for(let a, let;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,6 +37,7 @@ for(let a, let;;);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 7
                 },
@@ -49,12 +51,14 @@ for(let a, let;;);
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 9
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 7,
                             "end": 9
                         },
@@ -65,21 +69,25 @@ for(let a, let;;);
                                 "text": "let",
                                 "rawText": "let",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 14
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 10,
                             "end": 14
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 14
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -88,10 +96,12 @@ for(let a, let;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 18
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -100,6 +110,7 @@ for(let a, let;;);
     "source": "for(let a, let;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

@@ -22,6 +22,7 @@ async ({ident: {x: y}})
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -41,6 +42,7 @@ async ({ident: {x: y}})
                                         "text": "ident",
                                         "rawText": "ident",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 13
                                     },
@@ -57,6 +59,7 @@ async ({ident: {x: y}})
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 16,
                                                         "end": 17
                                                     },
@@ -65,44 +68,53 @@ async ({ident: {x: y}})
                                                         "text": "y",
                                                         "rawText": "y",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 18,
                                                         "end": 20
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 128,
                                                     "start": 16,
                                                     "end": 20
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 20
                                         },
                                         "flags": 48,
+                                        "transformFlags": 8,
                                         "start": 14,
                                         "end": 21
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 8,
                                     "end": 21
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 21
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 7,
                         "end": 22
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 0
             },
             "flags": 268435490,
+            "transformFlags": 1,
             "start": 0,
             "end": 23
         }
@@ -111,6 +123,7 @@ async ({ident: {x: y}})
     "source": "async ({ident: {x: y}})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

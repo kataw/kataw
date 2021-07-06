@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -41,6 +42,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 20
                     },
@@ -60,6 +62,7 @@
                                     "asyncKeyword": {
                                         "kind": 82031,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 28
                                     },
@@ -73,6 +76,7 @@
                                             "text": "method",
                                             "rawText": "method",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 28,
                                             "end": 35
                                         },
@@ -85,12 +89,14 @@
                                                     "text": "await",
                                                     "rawText": "await",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 36,
                                                     "end": 41
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 352,
+                                            "transformFlags": 0,
                                             "start": 36,
                                             "end": 42
                                         },
@@ -102,39 +108,48 @@
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 44,
                                                 "end": 44
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 42,
                                             "end": 45
                                         },
                                         "flags": 256,
+                                        "transformFlags": 0,
                                         "start": 35,
                                         "end": 45
                                     },
                                     "flags": 256,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 45
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 45
                         },
                         "flags": 20,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 47
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 47
                 },
                 "flags": 13,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 48
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 48
         }
@@ -143,6 +158,7 @@
     "source": "'use strict'; (class { async method(await) {} })",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 48
 }

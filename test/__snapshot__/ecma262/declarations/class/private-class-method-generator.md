@@ -22,6 +22,7 @@ class C { *#aaa(){} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class C { *#aaa(){} }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -51,6 +53,7 @@ class C { *#aaa(){} }
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 9,
                                 "end": 11
                             },
@@ -61,6 +64,7 @@ class C { *#aaa(){} }
                                     "text": "#aaa",
                                     "rawText": "#aaa",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 15
                                 },
@@ -70,6 +74,7 @@ class C { *#aaa(){} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 17
                                 },
@@ -81,31 +86,38 @@ class C { *#aaa(){} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 18
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 19
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 19
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 19
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 19
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -114,6 +126,7 @@ class C { *#aaa(){} }
     "source": "class C { *#aaa(){} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

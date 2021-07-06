@@ -29,6 +29,7 @@ delete async x => ok
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -37,6 +38,7 @@ delete async x => ok
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 12
                     },
@@ -46,6 +48,7 @@ delete async x => ok
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     },
@@ -53,6 +56,7 @@ delete async x => ok
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 17
                     },
@@ -61,18 +65,22 @@ delete async x => ok
                         "text": "ok",
                         "rawText": "ok",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 20
                     },
                     "flags": 288,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 20
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -81,6 +89,7 @@ delete async x => ok
     "source": "delete async x => ok",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

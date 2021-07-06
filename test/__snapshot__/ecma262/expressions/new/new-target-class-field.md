@@ -22,6 +22,7 @@ class C { aaa = new.target }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class C { aaa = new.target }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -51,6 +53,7 @@ class C { aaa = new.target }
                                 "text": "aaa",
                                 "rawText": "aaa",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 13
                             },
@@ -61,33 +64,40 @@ class C { aaa = new.target }
                                 "newKeyword": {
                                     "kind": 138477661,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 19
                                 },
                                 "targetIdentifier": {
                                     "kind": 16594,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 26
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 26
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 26
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 26
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -96,6 +106,7 @@ class C { aaa = new.target }
     "source": "class C { aaa = new.target }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

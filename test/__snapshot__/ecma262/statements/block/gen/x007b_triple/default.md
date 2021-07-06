@@ -38,28 +38,34 @@
                                         "kind": 249,
                                         "statements": [],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 5
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 5
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 5
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         }
@@ -68,6 +74,7 @@
     "source": "{ { { default",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

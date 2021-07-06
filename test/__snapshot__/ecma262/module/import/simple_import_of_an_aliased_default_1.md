@@ -26,6 +26,7 @@ import * as a from "y"
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -41,12 +42,14 @@ import * as a from "y"
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 6
                     },
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 6,
                         "end": 8
                     },
@@ -55,14 +58,17 @@ import * as a from "y"
                         "text": "as",
                         "rawText": "as",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 11
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 11
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 11
             },
@@ -73,10 +79,12 @@ import * as a from "y"
                 "nameSpaceImport": null,
                 "namedImports": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -87,10 +95,12 @@ import * as a from "y"
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 13
         },
@@ -101,10 +111,12 @@ import * as a from "y"
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 18
         },
@@ -115,10 +127,12 @@ import * as a from "y"
                 "text": "y",
                 "rawText": "\"y\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 18,
             "end": 22
         }
@@ -127,6 +141,7 @@ import * as a from "y"
     "source": "import * as a from \"y\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

@@ -34,6 +34,7 @@ _ => _
                     "text": "_",
                     "rawText": "_",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -41,6 +42,7 @@ _ => _
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 4
                 },
@@ -53,12 +55,14 @@ _ => _
                             "text": "_",
                             "rawText": "_",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 6
                         },
                         "operatorToken": {
                             "kind": 35640,
                             "flags": 97,
+                            "transformFlags": 32,
                             "start": 6,
                             "end": 8
                         },
@@ -67,16 +71,19 @@ _ => _
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 11
                         },
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 11
                     },
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 11,
                         "end": 12
                     },
@@ -85,18 +92,22 @@ _ => _
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 12
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 12
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -105,6 +116,7 @@ _ => _
     "source": "_ => _\n/foo/",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

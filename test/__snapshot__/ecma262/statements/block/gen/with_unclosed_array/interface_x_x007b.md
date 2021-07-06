@@ -39,6 +39,7 @@
                                         "text": "interface",
                                         "rawText": "interface",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 12
                                     },
@@ -47,6 +48,7 @@
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 14
                                     },
@@ -57,33 +59,40 @@
                                             "properties": [],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 16
                                         },
                                         "flags": 48,
+                                        "transformFlags": 8,
                                         "start": 14,
                                         "end": 16
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 16
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 1,
                             "end": 16
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 16
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -92,6 +101,7 @@
     "source": "{[ interface x {",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

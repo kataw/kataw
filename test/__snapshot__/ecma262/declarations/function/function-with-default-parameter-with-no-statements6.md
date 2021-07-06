@@ -25,6 +25,7 @@ function bar(a = [1 + 1]) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -34,6 +35,7 @@ function bar(a = [1 + 1]) {
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -49,6 +51,7 @@ function bar(a = [1 + 1]) {
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 14
                         },
@@ -66,12 +69,14 @@ function bar(a = [1 + 1]) {
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 19
                                         },
                                         "operatorToken": {
                                             "kind": 99634,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 21
                                         },
@@ -80,30 +85,36 @@ function bar(a = [1 + 1]) {
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 23
                                         },
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 23
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 23
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 16,
                             "end": 24
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 24
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 24
             },
@@ -114,15 +125,18 @@ function bar(a = [1 + 1]) {
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 27
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 29
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         },
@@ -133,6 +147,7 @@ function bar(a = [1 + 1]) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 39
             },
@@ -142,6 +157,7 @@ function bar(a = [1 + 1]) {
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 43
             },
@@ -157,6 +173,7 @@ function bar(a = [1 + 1]) {
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 44,
                             "end": 45
                         },
@@ -174,12 +191,14 @@ function bar(a = [1 + 1]) {
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 49,
                                             "end": 50
                                         },
                                         "operatorToken": {
                                             "kind": 99634,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 50,
                                             "end": 52
                                         },
@@ -188,30 +207,36 @@ function bar(a = [1 + 1]) {
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 52,
                                             "end": 54
                                         },
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 49,
                                         "end": 54
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 49,
                                 "end": 54
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 47,
                             "end": 55
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 44,
                         "end": 55
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 44,
                 "end": 55
             },
@@ -222,15 +247,18 @@ function bar(a = [1 + 1]) {
                     "directives": [],
                     "statements": [],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 58,
                     "end": 58
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 56,
                 "end": 60
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 29,
             "end": 60
         }
@@ -239,6 +267,7 @@ function bar(a = [1 + 1]) {
     "source": "function foo(a = [1 + 1]) { }\n\nfunction bar(a = [1 + 1]) {\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 60
 }
@@ -248,8 +277,8 @@ function bar(a = [1 + 1]) {
 
 ```javascript
 
-function foo(a = [1 +  1]) {}
-function bar(a = [1 +  1]) {}
+function foo(a = [1 + 1]) {}
+function bar(a = [1 + 1]) {}
 
 ```
 

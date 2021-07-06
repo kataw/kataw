@@ -22,6 +22,7 @@ function f(){ var x = y; function x(){} }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function f(){ var x = y; function x(){} }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -40,6 +42,7 @@ function f(){ var x = y; function x(){} }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -55,6 +58,7 @@ function f(){ var x = y; function x(){} }
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 17
                             },
@@ -68,6 +72,7 @@ function f(){ var x = y; function x(){} }
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 19
                                         },
@@ -77,19 +82,23 @@ function f(){ var x = y; function x(){} }
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 23
                                         },
                                         "flags": 16,
+                                        "transformFlags": 128,
                                         "start": 17,
                                         "end": 23
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 23
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 24
                         },
@@ -100,6 +109,7 @@ function f(){ var x = y; function x(){} }
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 33
                             },
@@ -109,6 +119,7 @@ function f(){ var x = y; function x(){} }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 35
                             },
@@ -118,6 +129,7 @@ function f(){ var x = y; function x(){} }
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 36
                             },
@@ -128,29 +140,35 @@ function f(){ var x = y; function x(){} }
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 38
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 39
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 39
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 39
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 41
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 41
         }
@@ -159,6 +177,7 @@ function f(){ var x = y; function x(){} }
     "source": "function f(){ var x = y; function x(){} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }

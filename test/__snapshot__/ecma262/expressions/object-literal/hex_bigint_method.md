@@ -24,12 +24,14 @@ x = {0xeban(){}}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -51,6 +53,7 @@ x = {0xeban(){}}
                                         "text": 3770,
                                         "rawText": "0xeban",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 11
                                     },
@@ -60,6 +63,7 @@ x = {0xeban(){}}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 13
                                     },
@@ -71,36 +75,44 @@ x = {0xeban(){}}
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 14
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 15
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 15
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 15
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 15
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 16
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -109,6 +121,7 @@ x = {0xeban(){}}
     "source": "x = {0xeban(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

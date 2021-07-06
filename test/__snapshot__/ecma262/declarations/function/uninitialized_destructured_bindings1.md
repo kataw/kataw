@@ -28,6 +28,7 @@ function x({ foo }) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -37,6 +38,7 @@ function x({ foo }) {}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -54,22 +56,26 @@ function x({ foo }) {}
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 16
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 16
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 18
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 18
             },
@@ -80,15 +86,18 @@ function x({ foo }) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 21
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 22
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -97,6 +106,7 @@ function x({ foo }) {}
     "source": "function x({ foo }) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

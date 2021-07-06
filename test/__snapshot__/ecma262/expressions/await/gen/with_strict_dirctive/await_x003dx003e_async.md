@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -42,6 +43,7 @@
                     "text": "await",
                     "rawText": "await",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 19
                 },
@@ -49,6 +51,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 22
                 },
@@ -57,14 +60,17 @@
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 28
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 28
         }
@@ -73,6 +79,7 @@
     "source": "'use strict'; await => async",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

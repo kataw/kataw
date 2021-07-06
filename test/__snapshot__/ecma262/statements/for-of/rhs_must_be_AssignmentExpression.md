@@ -39,6 +39,7 @@ for (let x of a,b) c
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -48,6 +49,7 @@ for (let x of a,b) c
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
@@ -61,27 +63,32 @@ for (let x of a,b) c
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 8,
                             "end": 10
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 13
             },
@@ -90,6 +97,7 @@ for (let x of a,b) c
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
@@ -103,6 +111,7 @@ for (let x of a,b) c
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 15
                         },
@@ -111,19 +120,23 @@ for (let x of a,b) c
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 17
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 17
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         },
@@ -134,10 +147,12 @@ for (let x of a,b) c
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 18,
             "end": 20
         }
@@ -146,6 +161,7 @@ for (let x of a,b) c
     "source": "for (let x of a,b) c",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

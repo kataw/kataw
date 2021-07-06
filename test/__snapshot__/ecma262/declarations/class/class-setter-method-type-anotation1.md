@@ -30,6 +30,7 @@ class Foo {set fooProp(value:number):void{}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class Foo {set fooProp(value:number):void{}}
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -58,6 +60,7 @@ class Foo {set fooProp(value:number):void{}}
                             "getKeyword": {
                                 "kind": 16499,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 14
                             },
@@ -69,6 +72,7 @@ class Foo {set fooProp(value:number):void{}}
                                     "text": "fooProp",
                                     "rawText": "fooProp",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 22
                                 },
@@ -84,6 +88,7 @@ class Foo {set fooProp(value:number):void{}}
                                                 "text": "value",
                                                 "rawText": "value",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 28
                                             },
@@ -95,21 +100,25 @@ class Foo {set fooProp(value:number):void{}}
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 29,
                                                     "end": 35
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 29,
                                                 "end": 35
                                             },
                                             "right": null,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 35
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 544,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 36
                                 },
@@ -120,10 +129,12 @@ class Foo {set fooProp(value:number):void{}}
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 37,
                                         "end": 41
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 41
                                 },
@@ -134,31 +145,38 @@ class Foo {set fooProp(value:number):void{}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 42,
                                         "end": 42
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 41,
                                     "end": 43
                                 },
                                 "flags": 512,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 43
                             },
                             "flags": 512,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 43
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 43
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 44
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 44
         }
@@ -167,6 +185,7 @@ class Foo {set fooProp(value:number):void{}}
     "source": "class Foo {set fooProp(value:number):void{}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 44
 }

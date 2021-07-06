@@ -27,6 +27,7 @@ type A = ?(?B)
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -35,6 +36,7 @@ type A = ?(?B)
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -42,6 +44,7 @@ type A = ?(?B)
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -54,6 +57,7 @@ type A = ?(?B)
                     "nullableToken": {
                         "kind": 134217750,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 10
                     },
@@ -68,6 +72,7 @@ type A = ?(?B)
                                 "nullableToken": {
                                     "kind": 134217750,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 12
                                 },
@@ -78,35 +83,43 @@ type A = ?(?B)
                                         "text": "B",
                                         "rawText": "B",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 13
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 13
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 13
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 13
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 14
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 14
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 14
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -115,6 +128,7 @@ type A = ?(?B)
     "source": "type A = ?(?B)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

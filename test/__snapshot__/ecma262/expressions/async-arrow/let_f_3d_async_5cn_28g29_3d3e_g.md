@@ -21,6 +21,7 @@ let f = async
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -34,6 +35,7 @@ let f = async
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -43,6 +45,7 @@ let f = async
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 13
                             },
@@ -55,12 +58,14 @@ let f = async
                                         "text": "g",
                                         "rawText": "g",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 17
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 33,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
                             },
@@ -68,6 +73,7 @@ let f = async
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 21
                             },
@@ -76,23 +82,28 @@ let f = async
                                 "text": "g",
                                 "rawText": "g",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 23
                             },
                             "flags": 289,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 23
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 23
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 23
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -101,6 +112,7 @@ let f = async
     "source": "let f = async\n (g) => g",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

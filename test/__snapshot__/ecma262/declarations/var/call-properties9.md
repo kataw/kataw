@@ -29,6 +29,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -62,6 +64,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                             "parameters": [],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 10
                                         },
@@ -76,29 +79,35 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                                     "text": "mixed",
                                                     "rawText": "mixed",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 12,
                                                     "end": 18
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 18
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 18
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 18
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 20
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 20
                         },
@@ -108,6 +117,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 31
                             },
@@ -119,6 +129,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 32
                             },
@@ -133,6 +144,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 43,
                                                 "end": 50
                                             },
@@ -141,19 +153,23 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                                 "text": "hi",
                                                 "rawText": "\"hi\"",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 50,
                                                 "end": 55
                                             },
                                             "flags": 80,
+                                            "transformFlags": 256,
                                             "start": 43,
                                             "end": 55
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 55
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 57
                             },
@@ -164,27 +180,33 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 41
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 41
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 57
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 57
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 57
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 57
         }
@@ -193,6 +215,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
     "source": "var f: { (): mixed } = function(): string { return \"hi\" } // return types",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 73
 }

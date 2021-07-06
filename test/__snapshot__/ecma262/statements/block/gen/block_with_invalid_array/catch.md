@@ -36,14 +36,17 @@
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 3
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 1,
                             "end": 3
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 3
                     },
@@ -56,10 +59,12 @@
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 3
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 3
                         },
@@ -68,6 +73,7 @@
                             "catchKeyword": {
                                 "kind": 4202575,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 8
                             },
@@ -78,29 +84,35 @@
                                     "kind": 249,
                                     "statements": [],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 8
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 8
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 8
                         },
                         "finallyKeyword": null,
                         "finallyBlock": null,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 8
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         },
@@ -113,10 +125,12 @@
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 9
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 9
             },
@@ -125,6 +139,7 @@
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 15
                 },
@@ -135,20 +150,24 @@
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 15
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 15
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 9,
             "end": 15
         }
@@ -157,6 +176,7 @@
     "source": "{ [catch] catch",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

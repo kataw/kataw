@@ -27,6 +27,7 @@ for (oh,no in x) ;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -38,6 +39,7 @@ for (oh,no in x) ;
                         "text": "oh",
                         "rawText": "oh",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 7
                     },
@@ -48,12 +50,14 @@ for (oh,no in x) ;
                             "text": "no",
                             "rawText": "no",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 10
                         },
                         "operatorToken": {
                             "kind": 21006388,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 13
                         },
@@ -62,15 +66,18 @@ for (oh,no in x) ;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 15
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 15
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 15
             },
@@ -80,16 +87,19 @@ for (oh,no in x) ;
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 18
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -98,6 +108,7 @@ for (oh,no in x) ;
     "source": "for (oh,no in x) ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

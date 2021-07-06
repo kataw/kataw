@@ -30,12 +30,14 @@ declare var tup: [{foo: string}, {bar: number}];
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 11
             },
@@ -49,6 +51,7 @@ declare var tup: [{foo: string}, {bar: number}];
                             "text": "arrOfObjs",
                             "rawText": "arrOfObjs",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 21
                         },
@@ -63,6 +66,7 @@ declare var tup: [{foo: string}, {bar: number}];
                                     "text": "Array",
                                     "rawText": "Array",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 28
                                 },
@@ -89,6 +93,7 @@ declare var tup: [{foo: string}, {bar: number}];
                                                                 "text": "foo",
                                                                 "rawText": "foo",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 30,
                                                                 "end": 34
                                                             },
@@ -100,56 +105,68 @@ declare var tup: [{foo: string}, {bar: number}];
                                                                 "type": {
                                                                     "kind": 134234347,
                                                                     "flags": 2097216,
+                                                                    "transformFlags": 0,
                                                                     "start": 35,
                                                                     "end": 42
                                                                 },
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 35,
                                                                 "end": 42
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 30,
                                                             "end": 42
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 29,
                                                     "end": 44
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 29,
                                                 "end": 44
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 44
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 45
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 45
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 45
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 11,
                         "end": 45
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 45
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 7,
             "end": 46
         },
@@ -158,12 +175,14 @@ declare var tup: [{foo: string}, {bar: number}];
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 46,
                 "end": 54
             },
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 54,
                 "end": 58
             },
@@ -177,6 +196,7 @@ declare var tup: [{foo: string}, {bar: number}];
                             "text": "roArrOfObjs",
                             "rawText": "roArrOfObjs",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 58,
                             "end": 70
                         },
@@ -191,6 +211,7 @@ declare var tup: [{foo: string}, {bar: number}];
                                     "text": "$ReadOnlyArray",
                                     "rawText": "$ReadOnlyArray",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 71,
                                     "end": 86
                                 },
@@ -217,6 +238,7 @@ declare var tup: [{foo: string}, {bar: number}];
                                                                 "text": "foo",
                                                                 "rawText": "foo",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 88,
                                                                 "end": 91
                                                             },
@@ -228,56 +250,68 @@ declare var tup: [{foo: string}, {bar: number}];
                                                                 "type": {
                                                                     "kind": 134234347,
                                                                     "flags": 2097216,
+                                                                    "transformFlags": 0,
                                                                     "start": 92,
                                                                     "end": 99
                                                                 },
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 92,
                                                                 "end": 99
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 88,
                                                             "end": 99
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 87,
                                                     "end": 100
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 87,
                                                 "end": 100
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 87,
                                         "end": 100
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 86,
                                     "end": 101
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 71,
                                 "end": 101
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 71,
                             "end": 101
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 58,
                         "end": 101
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 58,
                 "end": 101
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 54,
             "end": 102
         },
@@ -286,12 +320,14 @@ declare var tup: [{foo: string}, {bar: number}];
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 102,
                 "end": 110
             },
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 110,
                 "end": 114
             },
@@ -305,6 +341,7 @@ declare var tup: [{foo: string}, {bar: number}];
                             "text": "tup",
                             "rawText": "tup",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 114,
                             "end": 118
                         },
@@ -333,6 +370,7 @@ declare var tup: [{foo: string}, {bar: number}];
                                                         "text": "foo",
                                                         "rawText": "foo",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 122,
                                                         "end": 125
                                                     },
@@ -344,24 +382,29 @@ declare var tup: [{foo: string}, {bar: number}];
                                                         "type": {
                                                             "kind": 134234347,
                                                             "flags": 2097216,
+                                                            "transformFlags": 0,
                                                             "start": 126,
                                                             "end": 133
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 126,
                                                         "end": 133
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 122,
                                                     "end": 133
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 121,
                                             "end": 134
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 121,
                                         "end": 134
                                     },
@@ -383,6 +426,7 @@ declare var tup: [{foo: string}, {bar: number}];
                                                         "text": "bar",
                                                         "rawText": "bar",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 137,
                                                         "end": 140
                                                     },
@@ -394,48 +438,58 @@ declare var tup: [{foo: string}, {bar: number}];
                                                         "type": {
                                                             "kind": 134234345,
                                                             "flags": 2097216,
+                                                            "transformFlags": 0,
                                                             "start": 141,
                                                             "end": 148
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 141,
                                                         "end": 148
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 137,
                                                     "end": 148
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 135,
                                             "end": 149
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 135,
                                         "end": 149
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 119,
                                 "end": 150
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 119,
                             "end": 150
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 114,
                         "end": 150
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 114,
                 "end": 150
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 110,
             "end": 151
         }
@@ -444,6 +498,7 @@ declare var tup: [{foo: string}, {bar: number}];
     "source": "declare var arrOfObjs: Array<{ foo: string }>;\ndeclare var roArrOfObjs: $ReadOnlyArray<{foo: string}>;\ndeclare var tup: [{foo: string}, {bar: number}];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 151
 }

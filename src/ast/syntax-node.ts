@@ -4,6 +4,7 @@
 export interface SyntaxNode {
   kind: SyntaxKind;
   flags: NodeFlags;
+  transformFlags: TransformFlags,
   start: number;
   end: number;
 }
@@ -65,6 +66,19 @@ export enum NodeFlags {
   IsCallExpression = 1 << 28,
   IsMemberExpression = 1 << 29,
   DisallowTrailingComma = 1 << 30
+}
+
+export enum TransformFlags {
+  None = 0,
+  CallExpression = 1 << 0,
+  IndexExpression = 1 << 1,
+  MemberAccessExpression = 1 << 2,
+  ArrayOrObjectLiteral = 1 << 3,
+  EqualityOperators = 1 << 4,
+  MultiplicativeOperators = 1 << 5,
+  BitshiftOperators = 1 << 6,
+  ShouldIndentIfInlining = 1 << 7,
+  ShouldNotIndent = 1 << 8
 }
 
 // DO NOT EDIT ANY OF THIS NUMBERS. IT WILL BREAK THE PARSER!!!!!

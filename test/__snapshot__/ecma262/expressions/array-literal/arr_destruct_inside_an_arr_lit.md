@@ -27,6 +27,7 @@
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 4
                         },
@@ -42,6 +43,7 @@
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 10
                                         },
@@ -50,22 +52,26 @@
                                             "text": "baz",
                                             "rawText": "baz",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 15
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 15
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 5,
                                 "end": 16
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
                             },
@@ -74,23 +80,28 @@
                                 "text": "doo",
                                 "rawText": "doo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 22
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 5,
                             "end": 22
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 23
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -99,6 +110,7 @@
     "source": "(foo, [bar, baz] = doo);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

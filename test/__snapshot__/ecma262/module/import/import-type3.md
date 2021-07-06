@@ -26,6 +26,7 @@ import { type Foo12 } from "bar";
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ import { type Foo12 } from "bar";
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 26
                 },
@@ -44,10 +46,12 @@ import { type Foo12 } from "bar";
                     "text": "bar",
                     "rawText": "\"bar\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 32
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 32
             },
@@ -66,6 +70,7 @@ import { type Foo12 } from "bar";
                                 "typeKeyword": {
                                     "kind": 24775,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 13
                                 },
@@ -77,27 +82,33 @@ import { type Foo12 } from "bar";
                                     "text": "Foo12",
                                     "rawText": "Foo12",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 19
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 19
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 19
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 21
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 21
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -106,6 +117,7 @@ import { type Foo12 } from "bar";
     "source": "import { type Foo12 } from \"bar\";",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

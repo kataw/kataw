@@ -28,6 +28,7 @@ var await; var f = (async function() { await.b[c] => async });
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,21 +42,25 @@ var await; var f = (async function() { await.b[c] => async });
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 9
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 9
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -65,6 +70,7 @@ var await; var f = (async function() { await.b[c] => async });
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 14
             },
@@ -78,6 +84,7 @@ var await; var f = (async function() { await.b[c] => async });
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 16
                         },
@@ -88,23 +95,28 @@ var await; var f = (async function() { await.b[c] => async });
                                 "kind": 132,
                                 "expressions": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 49
                             },
                             "flags": 18,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 49
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 14,
                         "end": 49
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 49
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 49
         },
@@ -115,16 +127,19 @@ var await; var f = (async function() { await.b[c] => async });
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 52,
                 "end": 58
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 52,
             "end": 58
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 61,
             "end": 62
         }
@@ -133,6 +148,7 @@ var await; var f = (async function() { await.b[c] => async });
     "source": "var await; var f = (async function() { await.b[c] => async });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 62
 }

@@ -20,6 +20,7 @@ if /* comment */ (x) {}
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -28,6 +29,7 @@ if /* comment */ (x) {}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
@@ -37,16 +39,19 @@ if /* comment */ (x) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 22
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 23
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -55,6 +60,7 @@ if /* comment */ (x) {}
     "source": "if /* comment */ (x) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

@@ -26,6 +26,7 @@ import {bar, baz,} from "foo";
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ import {bar, baz,} from "foo";
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 23
                 },
@@ -44,10 +46,12 @@ import {bar, baz,} from "foo";
                     "text": "foo",
                     "rawText": "\"foo\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 29
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 29
             },
@@ -72,10 +76,12 @@ import {bar, baz,} from "foo";
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 11
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 11
                             },
@@ -90,27 +96,33 @@ import {bar, baz,} from "foo";
                                     "text": "baz",
                                     "rawText": "baz",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 16
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 16
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 17
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 18
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -119,6 +131,7 @@ import {bar, baz,} from "foo";
     "source": "import {bar, baz,} from \"foo\";",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

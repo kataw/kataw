@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -43,12 +44,14 @@
                             "left": {
                                 "kind": 4276321,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 19
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 20
                             },
@@ -57,24 +60,29 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 21
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 15,
                             "end": 21
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 21
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 13,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 22
         }
@@ -83,6 +91,7 @@
     "source": "\"use strict\"; [this=x]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

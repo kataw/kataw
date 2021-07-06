@@ -22,6 +22,7 @@ function f(){ function x(){} const x = y; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function f(){ function x(){} const x = y; }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -40,6 +42,7 @@ function f(){ function x(){} const x = y; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -56,6 +59,7 @@ function f(){ function x(){} const x = y; }
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 22
                             },
@@ -65,6 +69,7 @@ function f(){ function x(){} const x = y; }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 24
                             },
@@ -74,6 +79,7 @@ function f(){ function x(){} const x = y; }
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 25
                             },
@@ -84,15 +90,18 @@ function f(){ function x(){} const x = y; }
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 27
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 28
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 28
                         },
@@ -101,6 +110,7 @@ function f(){ function x(){} const x = y; }
                             "lexicalKeyword": {
                                 "kind": 37757004,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 34
                             },
@@ -114,6 +124,7 @@ function f(){ function x(){} const x = y; }
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 34,
                                             "end": 36
                                         },
@@ -123,33 +134,40 @@ function f(){ function x(){} const x = y; }
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 38,
                                             "end": 40
                                         },
                                         "flags": 16,
+                                        "transformFlags": 128,
                                         "start": 34,
                                         "end": 40
                                     }
                                 ],
                                 "flags": 16777232,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 40
                             },
                             "flags": 33554448,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 41
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 41
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 43
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 43
         }
@@ -158,6 +176,7 @@ function f(){ function x(){} const x = y; }
     "source": "function f(){ function x(){} const x = y; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }

@@ -20,6 +20,7 @@ for (var {} = x in y) {}
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -28,6 +29,7 @@ for (var {} = x in y) {}
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -43,10 +45,12 @@ for (var {} = x in y) {}
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 10
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 11
                             },
@@ -56,25 +60,30 @@ for (var {} = x in y) {}
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 8,
                             "end": 15
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 15
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 18
             },
@@ -83,6 +92,7 @@ for (var {} = x in y) {}
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 20
             },
@@ -92,14 +102,17 @@ for (var {} = x in y) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 23
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 24
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -108,6 +121,7 @@ for (var {} = x in y) {}
     "source": "for (var {} = x in y) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

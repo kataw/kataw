@@ -28,6 +28,7 @@ export var foo, bar;
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -37,6 +38,7 @@ export var foo, bar;
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 10
                 },
@@ -50,12 +52,14 @@ export var foo, bar;
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 14
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 10,
                             "end": 14
                         },
@@ -66,21 +70,25 @@ export var foo, bar;
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 19
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 15,
                             "end": 19
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 19
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 20
             },
@@ -89,6 +97,7 @@ export var foo, bar;
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -97,6 +106,7 @@ export var foo, bar;
     "source": "export var foo, bar;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

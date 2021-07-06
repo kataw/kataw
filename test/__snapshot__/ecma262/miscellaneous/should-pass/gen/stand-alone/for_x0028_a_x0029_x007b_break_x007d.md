@@ -27,6 +27,7 @@ for ( a ; ; ) { break }
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -35,6 +36,7 @@ for ( a ; ; ) { break }
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -50,24 +52,29 @@ for ( a ; ; ) { break }
                             "breakKeyword": {
                                 "kind": 37757005,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 21
                             },
                             "label": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 21
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 21
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 23
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -76,6 +83,7 @@ for ( a ; ; ) { break }
     "source": "for ( a ; ; ) { break }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

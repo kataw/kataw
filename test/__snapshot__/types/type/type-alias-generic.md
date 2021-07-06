@@ -29,6 +29,7 @@ type T<U> = U;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type T<U> = U;
                 "text": "T",
                 "rawText": "T",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -52,6 +54,7 @@ type T<U> = U;
                                 "text": "U",
                                 "rawText": "U",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             },
@@ -59,22 +62,26 @@ type T<U> = U;
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 8
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 9
             },
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 11
             },
@@ -89,19 +96,23 @@ type T<U> = U;
                         "text": "U",
                         "rawText": "U",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 13
                     },
                     "typeParameters": null,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 13
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -110,6 +121,7 @@ type T<U> = U;
     "source": "type T<U> = U;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

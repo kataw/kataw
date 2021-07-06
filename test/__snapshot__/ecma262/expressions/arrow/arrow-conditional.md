@@ -33,12 +33,14 @@ a ? b : (): string => {}
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 2
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 4
                 },
@@ -51,6 +53,7 @@ a ? b : (): string => {}
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 6
                     },
@@ -61,16 +64,19 @@ a ? b : (): string => {}
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 7
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 7
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 8
                 },
@@ -83,6 +89,7 @@ a ? b : (): string => {}
                         "text": "string",
                         "rawText": "string",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 15
                     },
@@ -90,6 +97,7 @@ a ? b : (): string => {}
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 18
                     },
@@ -100,22 +108,27 @@ a ? b : (): string => {}
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 20
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 21
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 21
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         },
@@ -126,10 +139,12 @@ a ? b : (): string => {}
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 24,
             "end": 28
         },
@@ -142,12 +157,14 @@ a ? b : (): string => {}
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 31
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 33
                 },
@@ -158,6 +175,7 @@ a ? b : (): string => {}
                         "text": "async",
                         "rawText": "async",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 33,
                         "end": 39
                     },
@@ -166,16 +184,19 @@ a ? b : (): string => {}
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 33,
                         "end": 33
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 33,
                     "end": 42
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 42,
                     "end": 43
                 },
@@ -188,6 +209,7 @@ a ? b : (): string => {}
                         "text": "string",
                         "rawText": "string",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 43,
                         "end": 50
                     },
@@ -195,6 +217,7 @@ a ? b : (): string => {}
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 50,
                         "end": 53
                     },
@@ -205,22 +228,27 @@ a ? b : (): string => {}
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 55,
                             "end": 55
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 53,
                         "end": 56
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 43,
                     "end": 56
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 56
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 28,
             "end": 56
         },
@@ -231,10 +259,12 @@ a ? b : (): string => {}
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 59,
                 "end": 62
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 59,
             "end": 63
         },
@@ -247,12 +277,14 @@ a ? b : (): string => {}
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 63,
                     "end": 66
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 66,
                     "end": 68
                 },
@@ -265,6 +297,7 @@ a ? b : (): string => {}
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 70,
                         "end": 70
                     },
@@ -275,16 +308,19 @@ a ? b : (): string => {}
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 71,
                         "end": 71
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 68,
                     "end": 71
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 71,
                     "end": 72
                 },
@@ -297,6 +333,7 @@ a ? b : (): string => {}
                         "text": "string",
                         "rawText": "string",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 72,
                         "end": 79
                     },
@@ -304,6 +341,7 @@ a ? b : (): string => {}
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 79,
                         "end": 82
                     },
@@ -314,22 +352,27 @@ a ? b : (): string => {}
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 84,
                             "end": 84
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 82,
                         "end": 85
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 72,
                     "end": 85
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 63,
                 "end": 85
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 63,
             "end": 85
         },
@@ -344,6 +387,7 @@ a ? b : (): string => {}
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 91,
                     "end": 91
                 },
@@ -354,14 +398,17 @@ a ? b : (): string => {}
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 92,
                     "end": 92
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 88,
                 "end": 92
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 88,
             "end": 92
         },
@@ -376,6 +423,7 @@ a ? b : (): string => {}
                     "text": "string",
                     "rawText": "string",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 93,
                     "end": 100
                 },
@@ -383,6 +431,7 @@ a ? b : (): string => {}
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 100,
                     "end": 103
                 },
@@ -393,18 +442,22 @@ a ? b : (): string => {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 105,
                         "end": 105
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 103,
                     "end": 106
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 93,
                 "end": 106
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 93,
             "end": 107
         },
@@ -419,6 +472,7 @@ a ? b : (): string => {}
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 110,
                     "end": 110
                 },
@@ -429,14 +483,17 @@ a ? b : (): string => {}
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 111,
                     "end": 111
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 107,
                 "end": 111
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 107,
             "end": 111
         },
@@ -451,6 +508,7 @@ a ? b : (): string => {}
                     "text": "string",
                     "rawText": "string",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 112,
                     "end": 119
                 },
@@ -458,6 +516,7 @@ a ? b : (): string => {}
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 119,
                     "end": 122
                 },
@@ -468,18 +527,22 @@ a ? b : (): string => {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 124,
                         "end": 124
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 122,
                     "end": 125
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 112,
                 "end": 125
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 112,
             "end": 126
         },
@@ -492,12 +555,14 @@ a ? b : (): string => {}
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 126,
                     "end": 129
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 129,
                     "end": 131
                 },
@@ -506,12 +571,14 @@ a ? b : (): string => {}
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 131,
                     "end": 133
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 133,
                     "end": 135
                 },
@@ -524,6 +591,7 @@ a ? b : (): string => {}
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 137,
                         "end": 137
                     },
@@ -534,18 +602,22 @@ a ? b : (): string => {}
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 138,
                         "end": 138
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 135,
                     "end": 138
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 126,
                 "end": 138
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 126,
             "end": 138
         },
@@ -560,6 +632,7 @@ a ? b : (): string => {}
                     "text": "string",
                     "rawText": "string",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 139,
                     "end": 146
                 },
@@ -567,6 +640,7 @@ a ? b : (): string => {}
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 146,
                     "end": 149
                 },
@@ -577,18 +651,22 @@ a ? b : (): string => {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 151,
                         "end": 151
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 149,
                     "end": 152
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 139,
                 "end": 152
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 139,
             "end": 152
         }
@@ -597,6 +675,7 @@ a ? b : (): string => {}
     "source": "\na ? (): string => {}  :  b;\n\na ? async (): string => {}  :  b;\n\na ? (): string => {}  :  (): string => {};\n\n(): string => {};\n\na ? b : (): string => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 152
 }

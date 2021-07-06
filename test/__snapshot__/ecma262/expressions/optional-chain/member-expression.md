@@ -26,6 +26,7 @@ f2`hello world`?.a;
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },
@@ -34,6 +35,7 @@ f2`hello world`?.a;
                     "text": "hello",
                     "rawText": "\"hello\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 7
                 },
@@ -47,22 +49,27 @@ f2`hello world`?.a;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 10
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 9,
                         "end": 10
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 10
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -73,6 +80,7 @@ f2`hello world`?.a;
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
@@ -83,6 +91,7 @@ f2`hello world`?.a;
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 16
                     },
@@ -91,10 +100,12 @@ f2`hello world`?.a;
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 18
                     },
                     "flags": 97,
+                    "transformFlags": 2,
                     "start": 11,
                     "end": 18
                 },
@@ -108,22 +119,27 @@ f2`hello world`?.a;
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 21
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 20,
                         "end": 21
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 21
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 22
         },
@@ -134,6 +150,7 @@ f2`hello world`?.a;
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 41
                 },
@@ -144,6 +161,7 @@ f2`hello world`?.a;
                         "text": "f2",
                         "rawText": "f2",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 26
                     },
@@ -152,10 +170,12 @@ f2`hello world`?.a;
                         "text": "hello world",
                         "rawText": "hello world",
                         "flags": 134217824,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 39
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 39
                 },
@@ -169,22 +189,27 @@ f2`hello world`?.a;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 41,
                             "end": 42
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 41,
                         "end": 42
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 41,
                     "end": 42
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 22,
             "end": 43
         }
@@ -193,6 +218,7 @@ f2`hello world`?.a;
     "source": "\"hello\"?.a;\n\nobj.a?.b;\n\nf2`hello world`?.a;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }

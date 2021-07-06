@@ -41,6 +41,7 @@ function foo():number{}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -50,6 +51,7 @@ function foo():number{}
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -59,6 +61,7 @@ function foo():number{}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
@@ -69,10 +72,12 @@ function foo():number{}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 22
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 23
             },
@@ -83,14 +88,17 @@ function foo():number{}
                 "type": {
                     "kind": 134234345,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 21
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -99,6 +107,7 @@ function foo():number{}
     "source": "function foo():number{}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

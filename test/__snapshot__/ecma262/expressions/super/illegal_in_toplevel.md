@@ -22,6 +22,7 @@ super.foo;
                 "member": {
                     "kind": 4259935,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -30,14 +31,17 @@ super.foo;
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 9
                 },
                 "flags": 96,
+                "transformFlags": 2,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         }
@@ -46,6 +50,7 @@ super.foo;
     "source": "super.foo;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

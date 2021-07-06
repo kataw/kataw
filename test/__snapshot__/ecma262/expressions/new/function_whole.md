@@ -22,6 +22,7 @@ new function(){}
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -31,6 +32,7 @@ new function(){}
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 12
                     },
@@ -42,6 +44,7 @@ new function(){}
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 13
                     },
@@ -52,24 +55,29 @@ new function(){}
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 15
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 16
                     },
                     "returnType": null,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 16
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -78,6 +86,7 @@ new function(){}
     "source": "new function(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

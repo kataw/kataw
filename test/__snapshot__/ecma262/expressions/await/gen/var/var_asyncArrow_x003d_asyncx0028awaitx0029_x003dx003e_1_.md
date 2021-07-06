@@ -28,6 +28,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,21 +42,25 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 9
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 9
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -65,6 +70,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 14
             },
@@ -78,6 +84,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 16
                         },
@@ -88,23 +95,28 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                                 "kind": 132,
                                 "expressions": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 68
                             },
                             "flags": 18,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 68
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 14,
                         "end": 68
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 68
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 68
         },
@@ -115,16 +127,19 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
                 "text": 1,
                 "rawText": "1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 71,
                 "end": 73
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 71,
             "end": 74
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 77,
             "end": 78
         }
@@ -133,6 +148,7 @@ var await; var f = (async function() { var asyncArrow = async(await) => 1; });
     "source": "var await; var f = (async function() { var asyncArrow = async(await) => 1; });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 78
 }

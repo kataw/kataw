@@ -22,6 +22,7 @@ var bar; // another comment
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -35,21 +36,25 @@ var bar; // another comment
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 7
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         },
@@ -59,6 +64,7 @@ var bar; // another comment
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 26
             },
@@ -72,21 +78,25 @@ var bar; // another comment
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 30
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 26,
                         "end": 30
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 8,
             "end": 31
         }
@@ -95,6 +105,7 @@ var bar; // another comment
     "source": "var foo; /* comment */\nvar bar; // another comment",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 50
 }

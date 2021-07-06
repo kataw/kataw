@@ -39,6 +39,7 @@ const [foo] = arr;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -57,16 +58,19 @@ const [foo] = arr;
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 10
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 10
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 11
                         },
@@ -76,19 +80,23 @@ const [foo] = arr;
                             "text": "arr",
                             "rawText": "arr",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 17
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 5,
                         "end": 17
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 17
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -97,6 +105,7 @@ const [foo] = arr;
     "source": "const [foo] = arr;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

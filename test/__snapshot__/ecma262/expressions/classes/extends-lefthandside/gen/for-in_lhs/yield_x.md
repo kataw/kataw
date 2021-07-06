@@ -29,6 +29,7 @@ x in x) ;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -37,6 +38,7 @@ x in x) ;
                 "text": "yield",
                 "rawText": "yield",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 10
             },
@@ -48,12 +50,14 @@ x in x) ;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 15
                 },
@@ -62,20 +66,24 @@ x in x) ;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 17
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 20
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -84,6 +92,7 @@ x in x) ;
     "source": "for (yield\nx in x) ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }
@@ -93,7 +102,7 @@ x in x) ;
 
 ```javascript
 
-for (yield; ; x in  x);
+for (yield; ; x in x);
 ```
 
 ### Diagnostics

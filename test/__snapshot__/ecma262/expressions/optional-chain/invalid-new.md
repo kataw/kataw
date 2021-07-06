@@ -22,6 +22,7 @@ new obj?.()
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -30,6 +31,7 @@ new obj?.()
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 9
                     },
@@ -38,6 +40,7 @@ new obj?.()
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 7
                     },
@@ -52,27 +55,33 @@ new obj?.()
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 10
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 9,
                             "end": 11
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 11
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 11
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         }
@@ -81,6 +90,7 @@ new obj?.()
     "source": "new obj?.()",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

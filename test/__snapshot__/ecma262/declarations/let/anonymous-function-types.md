@@ -28,6 +28,7 @@ let x = (): Array<(string) => number> => []
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let x = (): Array<(string) => number> => []
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -54,6 +56,7 @@ let x = (): Array<(string) => number> => []
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 9
                             },
@@ -68,6 +71,7 @@ let x = (): Array<(string) => number> => []
                                         "text": "Array",
                                         "rawText": "Array",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 17
                                     },
@@ -92,24 +96,28 @@ let x = (): Array<(string) => number> => []
                                                                     "name": {
                                                                         "kind": 134234347,
                                                                         "flags": 64,
+                                                                        "transformFlags": 0,
                                                                         "start": 19,
                                                                         "end": 25
                                                                     },
                                                                     "optionalToken": null,
                                                                     "types": null,
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 18,
                                                                     "end": 26
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 18,
                                                             "end": 26
                                                         },
                                                         "arrowToken": {
                                                             "kind": 10,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 26,
                                                             "end": 29
                                                         },
@@ -120,42 +128,51 @@ let x = (): Array<(string) => number> => []
                                                             "type": {
                                                                 "kind": 134234345,
                                                                 "flags": 2097216,
+                                                                "transformFlags": 0,
                                                                 "start": 29,
                                                                 "end": 36
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 29,
                                                             "end": 36
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 18,
                                                         "end": 36
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 18,
                                                     "end": 36
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 36
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 37
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 37
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 37
                             },
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 40
                             },
@@ -166,27 +183,33 @@ let x = (): Array<(string) => number> => []
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 42,
                                     "end": 42
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 40,
                                 "end": 43
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 43
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 43
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 43
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 43
         }
@@ -195,6 +218,7 @@ let x = (): Array<(string) => number> => []
     "source": "let x = (): Array<(string) => number> => []",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }

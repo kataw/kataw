@@ -202,6 +202,7 @@ function foo8_c(x) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -211,6 +212,7 @@ function foo8_c(x) {
                 "text": "foo0",
                 "rawText": "foo0",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 13
             },
@@ -223,12 +225,14 @@ function foo8_c(x) {
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 15
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 15
             },
@@ -243,6 +247,7 @@ function foo8_c(x) {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 26
                             },
@@ -252,6 +257,7 @@ function foo8_c(x) {
                                 "lexicalKeyword": {
                                     "kind": 41951307,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 31
                                 },
@@ -265,27 +271,32 @@ function foo8_c(x) {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 33
                                             },
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 31,
                                             "end": 33
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 33
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 33
                             },
                             "ofKeyword": {
                                 "kind": 16793717,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 36
                             },
@@ -296,10 +307,12 @@ function foo8_c(x) {
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 38
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 36,
                                 "end": 39
                             },
@@ -313,6 +326,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 42,
                                                 "end": 54
                                             },
@@ -326,6 +340,7 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 54,
                                                             "end": 56
                                                         },
@@ -337,6 +352,7 @@ function foo8_c(x) {
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 58,
                                                                 "end": 68
                                                             },
@@ -345,23 +361,28 @@ function foo8_c(x) {
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 69,
                                                                 "end": 75
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 58,
                                                             "end": 75
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 54,
                                                         "end": 75
                                                     }
                                                 ],
                                                 "flags": 17,
+                                                "transformFlags": 0,
                                                 "start": 54,
                                                 "end": 75
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 42,
                                             "end": 76
                                         },
@@ -375,6 +396,7 @@ function foo8_c(x) {
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 86,
                                                         "end": 94
                                                     },
@@ -386,6 +408,7 @@ function foo8_c(x) {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 95,
                                                         "end": 95
                                                     },
@@ -400,6 +423,7 @@ function foo8_c(x) {
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
                                                                         "flags": 80,
+                                                                        "transformFlags": 0,
                                                                         "start": 98,
                                                                         "end": 105
                                                                     },
@@ -410,12 +434,14 @@ function foo8_c(x) {
                                                                             "text": "x",
                                                                             "rawText": "x",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 105,
                                                                             "end": 107
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 107,
                                                                             "end": 109
                                                                         },
@@ -424,36 +450,44 @@ function foo8_c(x) {
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 109,
                                                                             "end": 111
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 105,
                                                                         "end": 111
                                                                     },
                                                                     "flags": 80,
+                                                                    "transformFlags": 256,
                                                                     "start": 98,
                                                                     "end": 111
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 98,
                                                             "end": 111
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 96,
                                                         "end": 113
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 86,
                                                     "end": 113
                                                 },
                                                 "flags": 76,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 114
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 76,
                                             "end": 115
                                         },
@@ -470,6 +504,7 @@ function foo8_c(x) {
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 126,
                                                         "end": 126
                                                     },
@@ -477,6 +512,7 @@ function foo8_c(x) {
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 127,
                                                         "end": 130
                                                     },
@@ -487,12 +523,14 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 130,
                                                             "end": 132
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 132,
                                                             "end": 134
                                                         },
@@ -501,49 +539,60 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 134,
                                                             "end": 136
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 130,
                                                         "end": 136
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 125,
                                                     "end": 136
                                                 },
                                                 "flags": 115,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 137
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 115,
                                             "end": 138
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 42,
                                     "end": 138
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 144
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 144
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 144
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 146
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 146
         },
@@ -554,6 +603,7 @@ function foo8_c(x) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 146,
                 "end": 156
             },
@@ -563,6 +613,7 @@ function foo8_c(x) {
                 "text": "foo0_1",
                 "rawText": "foo0_1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 156,
                 "end": 163
             },
@@ -575,12 +626,14 @@ function foo8_c(x) {
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 164,
                         "end": 165
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 164,
                 "end": 165
             },
@@ -595,6 +648,7 @@ function foo8_c(x) {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 168,
                                 "end": 176
                             },
@@ -603,6 +657,7 @@ function foo8_c(x) {
                                 "lexicalKeyword": {
                                     "kind": 41951307,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 168,
                                     "end": 181
                                 },
@@ -616,27 +671,32 @@ function foo8_c(x) {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 181,
                                                 "end": 183
                                             },
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 181,
                                             "end": 183
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 181,
                                     "end": 183
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 168,
                                 "end": 183
                             },
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 183,
                                 "end": 186
                             },
@@ -647,10 +707,12 @@ function foo8_c(x) {
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 188,
                                     "end": 188
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 186,
                                 "end": 189
                             },
@@ -664,6 +726,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 192,
                                                 "end": 204
                                             },
@@ -677,6 +740,7 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 204,
                                                             "end": 206
                                                         },
@@ -688,6 +752,7 @@ function foo8_c(x) {
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 208,
                                                                 "end": 218
                                                             },
@@ -696,23 +761,28 @@ function foo8_c(x) {
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 219,
                                                                 "end": 225
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 208,
                                                             "end": 225
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 204,
                                                         "end": 225
                                                     }
                                                 ],
                                                 "flags": 17,
+                                                "transformFlags": 0,
                                                 "start": 204,
                                                 "end": 225
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 192,
                                             "end": 226
                                         },
@@ -726,6 +796,7 @@ function foo8_c(x) {
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 236,
                                                         "end": 244
                                                     },
@@ -737,6 +808,7 @@ function foo8_c(x) {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 245,
                                                         "end": 245
                                                     },
@@ -751,6 +823,7 @@ function foo8_c(x) {
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
                                                                         "flags": 80,
+                                                                        "transformFlags": 0,
                                                                         "start": 248,
                                                                         "end": 255
                                                                     },
@@ -761,12 +834,14 @@ function foo8_c(x) {
                                                                             "text": "x",
                                                                             "rawText": "x",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 255,
                                                                             "end": 257
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 257,
                                                                             "end": 259
                                                                         },
@@ -775,36 +850,44 @@ function foo8_c(x) {
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 259,
                                                                             "end": 261
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 255,
                                                                         "end": 261
                                                                     },
                                                                     "flags": 80,
+                                                                    "transformFlags": 256,
                                                                     "start": 248,
                                                                     "end": 261
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 248,
                                                             "end": 261
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 246,
                                                         "end": 263
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 236,
                                                     "end": 263
                                                 },
                                                 "flags": 226,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 264
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 226,
                                             "end": 265
                                         },
@@ -821,6 +904,7 @@ function foo8_c(x) {
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 276,
                                                         "end": 276
                                                     },
@@ -828,6 +912,7 @@ function foo8_c(x) {
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 277,
                                                         "end": 280
                                                     },
@@ -838,12 +923,14 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 280,
                                                             "end": 282
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 282,
                                                             "end": 284
                                                         },
@@ -852,49 +939,60 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 284,
                                                             "end": 286
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 280,
                                                         "end": 286
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 275,
                                                     "end": 286
                                                 },
                                                 "flags": 265,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 287
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 265,
                                             "end": 288
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 192,
                                     "end": 288
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 190,
                                 "end": 294
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 168,
                             "end": 294
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 168,
                     "end": 294
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 166,
                 "end": 296
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 146,
             "end": 296
         },
@@ -905,6 +1003,7 @@ function foo8_c(x) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 296,
                 "end": 306
             },
@@ -914,6 +1013,7 @@ function foo8_c(x) {
                 "text": "foo1",
                 "rawText": "foo1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 306,
                 "end": 311
             },
@@ -926,12 +1026,14 @@ function foo8_c(x) {
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 312,
                         "end": 313
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 312,
                 "end": 313
             },
@@ -946,6 +1048,7 @@ function foo8_c(x) {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 316,
                                 "end": 324
                             },
@@ -954,6 +1057,7 @@ function foo8_c(x) {
                                 "lexicalKeyword": {
                                     "kind": 41951307,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 316,
                                     "end": 329
                                 },
@@ -967,6 +1071,7 @@ function foo8_c(x) {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 329,
                                                 "end": 331
                                             },
@@ -976,19 +1081,23 @@ function foo8_c(x) {
                                                 "text": 0,
                                                 "rawText": "0",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 333,
                                                 "end": 335
                                             },
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 329,
                                             "end": 335
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 329,
                                     "end": 335
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 316,
                                 "end": 335
                             },
@@ -997,6 +1106,7 @@ function foo8_c(x) {
                                 "operandToken": {
                                     "kind": 196635,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 343,
                                     "end": 346
                                 },
@@ -1005,10 +1115,12 @@ function foo8_c(x) {
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 346,
                                     "end": 347
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 343,
                                 "end": 347
                             },
@@ -1019,12 +1131,14 @@ function foo8_c(x) {
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 336,
                                     "end": 338
                                 },
                                 "operatorToken": {
                                     "kind": 536971330,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 338,
                                     "end": 340
                                 },
@@ -1033,10 +1147,12 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 340,
                                     "end": 342
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 336,
                                 "end": 342
                             },
@@ -1050,6 +1166,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 350,
                                                 "end": 362
                                             },
@@ -1063,6 +1180,7 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 362,
                                                             "end": 364
                                                         },
@@ -1074,6 +1192,7 @@ function foo8_c(x) {
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 366,
                                                                 "end": 376
                                                             },
@@ -1082,23 +1201,28 @@ function foo8_c(x) {
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 377,
                                                                 "end": 383
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 366,
                                                             "end": 383
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 362,
                                                         "end": 383
                                                     }
                                                 ],
                                                 "flags": 17,
+                                                "transformFlags": 0,
                                                 "start": 362,
                                                 "end": 383
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 350,
                                             "end": 384
                                         },
@@ -1112,6 +1236,7 @@ function foo8_c(x) {
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 394,
                                                         "end": 402
                                                     },
@@ -1123,6 +1248,7 @@ function foo8_c(x) {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 403,
                                                         "end": 403
                                                     },
@@ -1137,6 +1263,7 @@ function foo8_c(x) {
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
                                                                         "flags": 80,
+                                                                        "transformFlags": 0,
                                                                         "start": 406,
                                                                         "end": 413
                                                                     },
@@ -1147,12 +1274,14 @@ function foo8_c(x) {
                                                                             "text": "x",
                                                                             "rawText": "x",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 413,
                                                                             "end": 415
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 415,
                                                                             "end": 417
                                                                         },
@@ -1161,36 +1290,44 @@ function foo8_c(x) {
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 417,
                                                                             "end": 419
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 413,
                                                                         "end": 419
                                                                     },
                                                                     "flags": 80,
+                                                                    "transformFlags": 256,
                                                                     "start": 406,
                                                                     "end": 419
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 406,
                                                             "end": 419
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 404,
                                                         "end": 421
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 394,
                                                     "end": 421
                                                 },
                                                 "flags": 384,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 422
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 384,
                                             "end": 423
                                         },
@@ -1207,6 +1344,7 @@ function foo8_c(x) {
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 434,
                                                         "end": 434
                                                     },
@@ -1214,6 +1352,7 @@ function foo8_c(x) {
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 435,
                                                         "end": 438
                                                     },
@@ -1224,12 +1363,14 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 438,
                                                             "end": 440
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 440,
                                                             "end": 442
                                                         },
@@ -1238,49 +1379,60 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 442,
                                                             "end": 444
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 438,
                                                         "end": 444
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 433,
                                                     "end": 444
                                                 },
                                                 "flags": 423,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 445
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 423,
                                             "end": 446
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 350,
                                     "end": 446
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 348,
                                 "end": 452
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 316,
                             "end": 452
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 316,
                     "end": 452
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 314,
                 "end": 454
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 296,
             "end": 454
         },
@@ -1291,6 +1443,7 @@ function foo8_c(x) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 454,
                 "end": 464
             },
@@ -1300,6 +1453,7 @@ function foo8_c(x) {
                 "text": "foo2",
                 "rawText": "foo2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 464,
                 "end": 469
             },
@@ -1312,12 +1466,14 @@ function foo8_c(x) {
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 470,
                         "end": 471
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 470,
                 "end": 471
             },
@@ -1332,6 +1488,7 @@ function foo8_c(x) {
                             "whileKeyword": {
                                 "kind": 37757028,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 474,
                                 "end": 484
                             },
@@ -1342,12 +1499,14 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 486,
                                     "end": 487
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
+                                    "transformFlags": 16,
                                     "start": 487,
                                     "end": 491
                                 },
@@ -1356,10 +1515,12 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 491,
                                     "end": 493
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 486,
                                 "end": 493
                             },
@@ -1373,6 +1534,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 496,
                                                 "end": 508
                                             },
@@ -1386,6 +1548,7 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 508,
                                                             "end": 510
                                                         },
@@ -1397,6 +1560,7 @@ function foo8_c(x) {
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 512,
                                                                 "end": 522
                                                             },
@@ -1405,23 +1569,28 @@ function foo8_c(x) {
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 523,
                                                                 "end": 529
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 512,
                                                             "end": 529
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 508,
                                                         "end": 529
                                                     }
                                                 ],
                                                 "flags": 17,
+                                                "transformFlags": 0,
                                                 "start": 508,
                                                 "end": 529
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 496,
                                             "end": 530
                                         },
@@ -1435,6 +1604,7 @@ function foo8_c(x) {
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 540,
                                                         "end": 548
                                                     },
@@ -1446,6 +1616,7 @@ function foo8_c(x) {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 549,
                                                         "end": 549
                                                     },
@@ -1460,6 +1631,7 @@ function foo8_c(x) {
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
                                                                         "flags": 80,
+                                                                        "transformFlags": 0,
                                                                         "start": 552,
                                                                         "end": 559
                                                                     },
@@ -1470,12 +1642,14 @@ function foo8_c(x) {
                                                                             "text": "x",
                                                                             "rawText": "x",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 559,
                                                                             "end": 561
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 561,
                                                                             "end": 563
                                                                         },
@@ -1484,36 +1658,44 @@ function foo8_c(x) {
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 563,
                                                                             "end": 565
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 559,
                                                                         "end": 565
                                                                     },
                                                                     "flags": 80,
+                                                                    "transformFlags": 256,
                                                                     "start": 552,
                                                                     "end": 565
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 552,
                                                             "end": 565
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 550,
                                                         "end": 567
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 540,
                                                     "end": 567
                                                 },
                                                 "flags": 530,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 568
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 530,
                                             "end": 569
                                         },
@@ -1530,6 +1712,7 @@ function foo8_c(x) {
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 580,
                                                         "end": 580
                                                     },
@@ -1537,6 +1720,7 @@ function foo8_c(x) {
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 581,
                                                         "end": 584
                                                     },
@@ -1547,12 +1731,14 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 584,
                                                             "end": 586
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 586,
                                                             "end": 588
                                                         },
@@ -1561,49 +1747,60 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 588,
                                                             "end": 590
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 584,
                                                         "end": 590
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 579,
                                                     "end": 590
                                                 },
                                                 "flags": 569,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 591
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 569,
                                             "end": 592
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 496,
                                     "end": 592
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 494,
                                 "end": 598
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 474,
                             "end": 598
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 474,
                     "end": 598
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 472,
                 "end": 600
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 454,
             "end": 600
         },
@@ -1614,6 +1811,7 @@ function foo8_c(x) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 600,
                 "end": 610
             },
@@ -1623,6 +1821,7 @@ function foo8_c(x) {
                 "text": "foo3",
                 "rawText": "foo3",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 610,
                 "end": 615
             },
@@ -1635,12 +1834,14 @@ function foo8_c(x) {
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 616,
                         "end": 617
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 616,
                 "end": 617
             },
@@ -1655,6 +1856,7 @@ function foo8_c(x) {
                             "doKeyword": {
                                 "kind": 4202580,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 620,
                                 "end": 627
                             },
@@ -1668,6 +1870,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 629,
                                                 "end": 641
                                             },
@@ -1681,21 +1884,25 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 641,
                                                             "end": 643
                                                         },
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 641,
                                                         "end": 643
                                                     }
                                                 ],
                                                 "flags": 17,
+                                                "transformFlags": 0,
                                                 "start": 641,
                                                 "end": 643
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 629,
                                             "end": 644
                                         },
@@ -1704,6 +1911,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 644,
                                                 "end": 656
                                             },
@@ -1717,6 +1925,7 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 656,
                                                             "end": 658
                                                         },
@@ -1728,6 +1937,7 @@ function foo8_c(x) {
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 660,
                                                                 "end": 670
                                                             },
@@ -1736,23 +1946,28 @@ function foo8_c(x) {
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 671,
                                                                 "end": 677
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 660,
                                                             "end": 677
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 656,
                                                         "end": 677
                                                     }
                                                 ],
                                                 "flags": 17,
+                                                "transformFlags": 0,
                                                 "start": 656,
                                                 "end": 677
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 644,
                                             "end": 678
                                         },
@@ -1766,6 +1981,7 @@ function foo8_c(x) {
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 688,
                                                         "end": 696
                                                     },
@@ -1777,6 +1993,7 @@ function foo8_c(x) {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 697,
                                                         "end": 697
                                                     },
@@ -1791,6 +2008,7 @@ function foo8_c(x) {
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
                                                                         "flags": 80,
+                                                                        "transformFlags": 0,
                                                                         "start": 700,
                                                                         "end": 707
                                                                     },
@@ -1801,12 +2019,14 @@ function foo8_c(x) {
                                                                             "text": "x",
                                                                             "rawText": "x",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 707,
                                                                             "end": 709
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 709,
                                                                             "end": 711
                                                                         },
@@ -1815,36 +2035,44 @@ function foo8_c(x) {
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 711,
                                                                             "end": 713
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 707,
                                                                         "end": 713
                                                                     },
                                                                     "flags": 80,
+                                                                    "transformFlags": 256,
                                                                     "start": 700,
                                                                     "end": 713
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 700,
                                                             "end": 713
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 698,
                                                         "end": 715
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 688,
                                                     "end": 715
                                                 },
                                                 "flags": 678,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 716
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 678,
                                             "end": 717
                                         },
@@ -1861,6 +2089,7 @@ function foo8_c(x) {
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 728,
                                                         "end": 728
                                                     },
@@ -1868,6 +2097,7 @@ function foo8_c(x) {
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 729,
                                                         "end": 732
                                                     },
@@ -1878,12 +2108,14 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 732,
                                                             "end": 734
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 734,
                                                             "end": 736
                                                         },
@@ -1892,37 +2124,45 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 736,
                                                             "end": 738
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 732,
                                                         "end": 738
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 727,
                                                     "end": 738
                                                 },
                                                 "flags": 717,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 739
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 717,
                                             "end": 740
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 629,
                                     "end": 740
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 627,
                                 "end": 746
                             },
                             "whileKeyword": {
                                 "kind": 37757028,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 746,
                                 "end": 752
                             },
@@ -1933,12 +2173,14 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 754,
                                     "end": 755
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
+                                    "transformFlags": 16,
                                     "start": 755,
                                     "end": 759
                                 },
@@ -1947,28 +2189,34 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 759,
                                     "end": 761
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 754,
                                 "end": 761
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 620,
                             "end": 762
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 620,
                     "end": 762
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 618,
                 "end": 764
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 600,
             "end": 764
         },
@@ -1979,6 +2227,7 @@ function foo8_c(x) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 764,
                 "end": 774
             },
@@ -1988,6 +2237,7 @@ function foo8_c(x) {
                 "text": "foo4",
                 "rawText": "foo4",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 774,
                 "end": 779
             },
@@ -2000,12 +2250,14 @@ function foo8_c(x) {
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 780,
                         "end": 781
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 780,
                 "end": 781
             },
@@ -2020,6 +2272,7 @@ function foo8_c(x) {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 784,
                                 "end": 792
                             },
@@ -2028,6 +2281,7 @@ function foo8_c(x) {
                                 "lexicalKeyword": {
                                     "kind": 41951307,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 784,
                                     "end": 797
                                 },
@@ -2041,6 +2295,7 @@ function foo8_c(x) {
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 797,
                                                 "end": 799
                                             },
@@ -2050,19 +2305,23 @@ function foo8_c(x) {
                                                 "text": 0,
                                                 "rawText": "0",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 801,
                                                 "end": 803
                                             },
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 797,
                                             "end": 803
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 797,
                                     "end": 803
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 784,
                                 "end": 803
                             },
@@ -2071,6 +2330,7 @@ function foo8_c(x) {
                                 "operandToken": {
                                     "kind": 196635,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 811,
                                     "end": 814
                                 },
@@ -2079,10 +2339,12 @@ function foo8_c(x) {
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 814,
                                     "end": 815
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 811,
                                 "end": 815
                             },
@@ -2093,12 +2355,14 @@ function foo8_c(x) {
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 804,
                                     "end": 806
                                 },
                                 "operatorToken": {
                                     "kind": 536971330,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 806,
                                     "end": 808
                                 },
@@ -2107,10 +2371,12 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 808,
                                     "end": 810
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 804,
                                 "end": 810
                             },
@@ -2124,6 +2390,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 818,
                                                 "end": 830
                                             },
@@ -2137,6 +2404,7 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 830,
                                                             "end": 832
                                                         },
@@ -2148,6 +2416,7 @@ function foo8_c(x) {
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 834,
                                                                 "end": 844
                                                             },
@@ -2156,23 +2425,28 @@ function foo8_c(x) {
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 845,
                                                                 "end": 851
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 834,
                                                             "end": 851
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 830,
                                                         "end": 851
                                                     }
                                                 ],
                                                 "flags": 17,
+                                                "transformFlags": 0,
                                                 "start": 830,
                                                 "end": 851
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 818,
                                             "end": 852
                                         },
@@ -2181,6 +2455,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 852,
                                                 "end": 864
                                             },
@@ -2194,6 +2469,7 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 864,
                                                             "end": 866
                                                         },
@@ -2203,19 +2479,23 @@ function foo8_c(x) {
                                                             "text": 1,
                                                             "rawText": "1",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 868,
                                                             "end": 870
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 864,
                                                         "end": 870
                                                     }
                                                 ],
                                                 "flags": 17,
+                                                "transformFlags": 0,
                                                 "start": 864,
                                                 "end": 870
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 852,
                                             "end": 871
                                         },
@@ -2229,6 +2509,7 @@ function foo8_c(x) {
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 881,
                                                         "end": 889
                                                     },
@@ -2240,6 +2521,7 @@ function foo8_c(x) {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 890,
                                                         "end": 890
                                                     },
@@ -2254,6 +2536,7 @@ function foo8_c(x) {
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
                                                                         "flags": 80,
+                                                                        "transformFlags": 0,
                                                                         "start": 893,
                                                                         "end": 900
                                                                     },
@@ -2264,12 +2547,14 @@ function foo8_c(x) {
                                                                             "text": "x",
                                                                             "rawText": "x",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 900,
                                                                             "end": 902
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 902,
                                                                             "end": 904
                                                                         },
@@ -2278,36 +2563,44 @@ function foo8_c(x) {
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 904,
                                                                             "end": 906
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 900,
                                                                         "end": 906
                                                                     },
                                                                     "flags": 80,
+                                                                    "transformFlags": 256,
                                                                     "start": 893,
                                                                     "end": 906
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 893,
                                                             "end": 906
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 891,
                                                         "end": 908
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 881,
                                                     "end": 908
                                                 },
                                                 "flags": 871,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 909
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 871,
                                             "end": 910
                                         },
@@ -2324,6 +2617,7 @@ function foo8_c(x) {
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 921,
                                                         "end": 921
                                                     },
@@ -2331,6 +2625,7 @@ function foo8_c(x) {
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 922,
                                                         "end": 925
                                                     },
@@ -2341,12 +2636,14 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 925,
                                                             "end": 927
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 927,
                                                             "end": 929
                                                         },
@@ -2355,49 +2652,60 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 929,
                                                             "end": 931
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 925,
                                                         "end": 931
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 920,
                                                     "end": 931
                                                 },
                                                 "flags": 910,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 932
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 910,
                                             "end": 933
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 818,
                                     "end": 933
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 816,
                                 "end": 939
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 784,
                             "end": 939
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 784,
                     "end": 939
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 782,
                 "end": 941
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 764,
             "end": 941
         },
@@ -2408,6 +2716,7 @@ function foo8_c(x) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 941,
                 "end": 951
             },
@@ -2417,6 +2726,7 @@ function foo8_c(x) {
                 "text": "foo5",
                 "rawText": "foo5",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 951,
                 "end": 956
             },
@@ -2429,12 +2739,14 @@ function foo8_c(x) {
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 957,
                         "end": 958
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 957,
                 "end": 958
             },
@@ -2449,6 +2761,7 @@ function foo8_c(x) {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 961,
                                 "end": 969
                             },
@@ -2457,6 +2770,7 @@ function foo8_c(x) {
                                 "lexicalKeyword": {
                                     "kind": 41951307,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 961,
                                     "end": 974
                                 },
@@ -2470,6 +2784,7 @@ function foo8_c(x) {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 974,
                                                 "end": 976
                                             },
@@ -2479,10 +2794,12 @@ function foo8_c(x) {
                                                 "text": 0,
                                                 "rawText": "0",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 978,
                                                 "end": 980
                                             },
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 974,
                                             "end": 980
                                         },
@@ -2493,6 +2810,7 @@ function foo8_c(x) {
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 981,
                                                 "end": 983
                                             },
@@ -2502,19 +2820,23 @@ function foo8_c(x) {
                                                 "text": 1,
                                                 "rawText": "1",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 985,
                                                 "end": 987
                                             },
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 981,
                                             "end": 987
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 974,
                                     "end": 987
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 961,
                                 "end": 987
                             },
@@ -2523,6 +2845,7 @@ function foo8_c(x) {
                                 "operandToken": {
                                     "kind": 196635,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 995,
                                     "end": 998
                                 },
@@ -2531,10 +2854,12 @@ function foo8_c(x) {
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 998,
                                     "end": 999
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 995,
                                 "end": 999
                             },
@@ -2545,12 +2870,14 @@ function foo8_c(x) {
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 988,
                                     "end": 990
                                 },
                                 "operatorToken": {
                                     "kind": 536971330,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 990,
                                     "end": 992
                                 },
@@ -2559,10 +2886,12 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 992,
                                     "end": 994
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 988,
                                 "end": 994
                             },
@@ -2576,6 +2905,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 1002,
                                                 "end": 1014
                                             },
@@ -2589,6 +2919,7 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1014,
                                                             "end": 1016
                                                         },
@@ -2600,6 +2931,7 @@ function foo8_c(x) {
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1018,
                                                                 "end": 1028
                                                             },
@@ -2608,23 +2940,28 @@ function foo8_c(x) {
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1029,
                                                                 "end": 1035
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 1018,
                                                             "end": 1035
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 1014,
                                                         "end": 1035
                                                     }
                                                 ],
                                                 "flags": 17,
+                                                "transformFlags": 0,
                                                 "start": 1014,
                                                 "end": 1035
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 1002,
                                             "end": 1036
                                         },
@@ -2638,6 +2975,7 @@ function foo8_c(x) {
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 1046,
                                                         "end": 1054
                                                     },
@@ -2649,6 +2987,7 @@ function foo8_c(x) {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 1055,
                                                         "end": 1055
                                                     },
@@ -2663,6 +3002,7 @@ function foo8_c(x) {
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
                                                                         "flags": 80,
+                                                                        "transformFlags": 0,
                                                                         "start": 1058,
                                                                         "end": 1065
                                                                     },
@@ -2675,12 +3015,14 @@ function foo8_c(x) {
                                                                                 "text": "x",
                                                                                 "rawText": "x",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 1065,
                                                                                 "end": 1067
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 99634,
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 1067,
                                                                                 "end": 1069
                                                                             },
@@ -2689,16 +3031,19 @@ function foo8_c(x) {
                                                                                 "text": "y",
                                                                                 "rawText": "y",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 1069,
                                                                                 "end": 1071
                                                                             },
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 1065,
                                                                             "end": 1071
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 1071,
                                                                             "end": 1073
                                                                         },
@@ -2707,36 +3052,44 @@ function foo8_c(x) {
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 1073,
                                                                             "end": 1075
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 1065,
                                                                         "end": 1075
                                                                     },
                                                                     "flags": 80,
+                                                                    "transformFlags": 256,
                                                                     "start": 1058,
                                                                     "end": 1075
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 1058,
                                                             "end": 1075
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 1056,
                                                         "end": 1077
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 1046,
                                                     "end": 1077
                                                 },
                                                 "flags": 1036,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 1078
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 1036,
                                             "end": 1079
                                         },
@@ -2753,6 +3106,7 @@ function foo8_c(x) {
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 1090,
                                                         "end": 1090
                                                     },
@@ -2760,6 +3114,7 @@ function foo8_c(x) {
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 1091,
                                                         "end": 1094
                                                     },
@@ -2772,12 +3127,14 @@ function foo8_c(x) {
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1094,
                                                                 "end": 1096
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 99634,
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1096,
                                                                 "end": 1098
                                                             },
@@ -2786,16 +3143,19 @@ function foo8_c(x) {
                                                                 "text": "y",
                                                                 "rawText": "y",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1098,
                                                                 "end": 1100
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1094,
                                                             "end": 1100
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1100,
                                                             "end": 1102
                                                         },
@@ -2804,49 +3164,60 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1102,
                                                             "end": 1104
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 1094,
                                                         "end": 1104
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 1089,
                                                     "end": 1104
                                                 },
                                                 "flags": 1079,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 1105
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 1079,
                                             "end": 1106
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 1002,
                                     "end": 1106
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 1000,
                                 "end": 1112
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 961,
                             "end": 1112
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 961,
                     "end": 1112
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 959,
                 "end": 1114
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 941,
             "end": 1114
         },
@@ -2857,6 +3228,7 @@ function foo8_c(x) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 1114,
                 "end": 1125
             },
@@ -2866,6 +3238,7 @@ function foo8_c(x) {
                 "text": "foo6",
                 "rawText": "foo6",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1125,
                 "end": 1130
             },
@@ -2878,12 +3251,14 @@ function foo8_c(x) {
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1131,
                         "end": 1132
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1131,
                 "end": 1132
             },
@@ -2898,6 +3273,7 @@ function foo8_c(x) {
                             "whileKeyword": {
                                 "kind": 37757028,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 1135,
                                 "end": 1145
                             },
@@ -2908,12 +3284,14 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1147,
                                     "end": 1148
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
+                                    "transformFlags": 16,
                                     "start": 1148,
                                     "end": 1152
                                 },
@@ -2922,10 +3300,12 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1152,
                                     "end": 1154
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1147,
                                 "end": 1154
                             },
@@ -2939,6 +3319,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 1157,
                                                 "end": 1169
                                             },
@@ -2952,12 +3333,14 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1169,
                                                             "end": 1171
                                                         },
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 1169,
                                                         "end": 1171
                                                     },
@@ -2968,21 +3351,25 @@ function foo8_c(x) {
                                                             "text": "y",
                                                             "rawText": "y",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1172,
                                                             "end": 1174
                                                         },
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 1172,
                                                         "end": 1174
                                                     }
                                                 ],
                                                 "flags": 17,
+                                                "transformFlags": 0,
                                                 "start": 1169,
                                                 "end": 1174
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 1157,
                                             "end": 1175
                                         },
@@ -2991,6 +3378,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 1175,
                                                 "end": 1187
                                             },
@@ -3004,6 +3392,7 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1187,
                                                             "end": 1189
                                                         },
@@ -3015,6 +3404,7 @@ function foo8_c(x) {
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1191,
                                                                 "end": 1201
                                                             },
@@ -3023,23 +3413,28 @@ function foo8_c(x) {
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1202,
                                                                 "end": 1208
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 1191,
                                                             "end": 1208
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 1187,
                                                         "end": 1208
                                                     }
                                                 ],
                                                 "flags": 17,
+                                                "transformFlags": 0,
                                                 "start": 1187,
                                                 "end": 1208
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 1175,
                                             "end": 1209
                                         },
@@ -3053,6 +3448,7 @@ function foo8_c(x) {
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 1219,
                                                         "end": 1227
                                                     },
@@ -3064,6 +3460,7 @@ function foo8_c(x) {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 1228,
                                                         "end": 1228
                                                     },
@@ -3078,6 +3475,7 @@ function foo8_c(x) {
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
                                                                         "flags": 80,
+                                                                        "transformFlags": 0,
                                                                         "start": 1231,
                                                                         "end": 1238
                                                                     },
@@ -3090,12 +3488,14 @@ function foo8_c(x) {
                                                                                 "text": "x",
                                                                                 "rawText": "x",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 1238,
                                                                                 "end": 1240
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 99634,
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 1240,
                                                                                 "end": 1242
                                                                             },
@@ -3104,16 +3504,19 @@ function foo8_c(x) {
                                                                                 "text": "y",
                                                                                 "rawText": "y",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 1242,
                                                                                 "end": 1244
                                                                             },
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 1238,
                                                                             "end": 1244
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 1244,
                                                                             "end": 1246
                                                                         },
@@ -3122,36 +3525,44 @@ function foo8_c(x) {
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 1246,
                                                                             "end": 1248
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 1238,
                                                                         "end": 1248
                                                                     },
                                                                     "flags": 80,
+                                                                    "transformFlags": 256,
                                                                     "start": 1231,
                                                                     "end": 1248
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 1231,
                                                             "end": 1248
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 1229,
                                                         "end": 1250
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 1219,
                                                     "end": 1250
                                                 },
                                                 "flags": 1209,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 1251
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 1209,
                                             "end": 1252
                                         },
@@ -3168,6 +3579,7 @@ function foo8_c(x) {
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 1263,
                                                         "end": 1263
                                                     },
@@ -3175,6 +3587,7 @@ function foo8_c(x) {
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 1264,
                                                         "end": 1267
                                                     },
@@ -3187,12 +3600,14 @@ function foo8_c(x) {
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1267,
                                                                 "end": 1269
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 99634,
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1269,
                                                                 "end": 1271
                                                             },
@@ -3201,16 +3616,19 @@ function foo8_c(x) {
                                                                 "text": "y",
                                                                 "rawText": "y",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1271,
                                                                 "end": 1273
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1267,
                                                             "end": 1273
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1273,
                                                             "end": 1275
                                                         },
@@ -3219,49 +3637,60 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1275,
                                                             "end": 1277
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 1267,
                                                         "end": 1277
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 1262,
                                                     "end": 1277
                                                 },
                                                 "flags": 1252,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 1278
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 1252,
                                             "end": 1279
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 1157,
                                     "end": 1279
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 1155,
                                 "end": 1285
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 1135,
                             "end": 1285
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 1135,
                     "end": 1285
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1133,
                 "end": 1287
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 1114,
             "end": 1287
         },
@@ -3272,6 +3701,7 @@ function foo8_c(x) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 1287,
                 "end": 1297
             },
@@ -3281,6 +3711,7 @@ function foo8_c(x) {
                 "text": "foo7",
                 "rawText": "foo7",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1297,
                 "end": 1302
             },
@@ -3293,12 +3724,14 @@ function foo8_c(x) {
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1303,
                         "end": 1304
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1303,
                 "end": 1304
             },
@@ -3313,6 +3746,7 @@ function foo8_c(x) {
                             "doKeyword": {
                                 "kind": 4202580,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 1307,
                                 "end": 1314
                             },
@@ -3326,6 +3760,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 1316,
                                                 "end": 1328
                                             },
@@ -3339,12 +3774,14 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1328,
                                                             "end": 1330
                                                         },
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 1328,
                                                         "end": 1330
                                                     },
@@ -3355,21 +3792,25 @@ function foo8_c(x) {
                                                             "text": "y",
                                                             "rawText": "y",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1331,
                                                             "end": 1333
                                                         },
                                                         "type": null,
                                                         "initializer": null,
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 1331,
                                                         "end": 1333
                                                     }
                                                 ],
                                                 "flags": 17,
+                                                "transformFlags": 0,
                                                 "start": 1328,
                                                 "end": 1333
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 1316,
                                             "end": 1334
                                         },
@@ -3378,6 +3819,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 1334,
                                                 "end": 1346
                                             },
@@ -3391,6 +3833,7 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1346,
                                                             "end": 1348
                                                         },
@@ -3402,6 +3845,7 @@ function foo8_c(x) {
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1350,
                                                                 "end": 1360
                                                             },
@@ -3410,23 +3854,28 @@ function foo8_c(x) {
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1361,
                                                                 "end": 1367
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 1350,
                                                             "end": 1367
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 1346,
                                                         "end": 1367
                                                     }
                                                 ],
                                                 "flags": 17,
+                                                "transformFlags": 0,
                                                 "start": 1346,
                                                 "end": 1367
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 1334,
                                             "end": 1368
                                         },
@@ -3440,6 +3889,7 @@ function foo8_c(x) {
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 1378,
                                                         "end": 1386
                                                     },
@@ -3451,6 +3901,7 @@ function foo8_c(x) {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 1387,
                                                         "end": 1387
                                                     },
@@ -3465,6 +3916,7 @@ function foo8_c(x) {
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
                                                                         "flags": 80,
+                                                                        "transformFlags": 0,
                                                                         "start": 1390,
                                                                         "end": 1397
                                                                     },
@@ -3477,12 +3929,14 @@ function foo8_c(x) {
                                                                                 "text": "x",
                                                                                 "rawText": "x",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 1397,
                                                                                 "end": 1399
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 99634,
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 1399,
                                                                                 "end": 1401
                                                                             },
@@ -3491,16 +3945,19 @@ function foo8_c(x) {
                                                                                 "text": "y",
                                                                                 "rawText": "y",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 1401,
                                                                                 "end": 1403
                                                                             },
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 1397,
                                                                             "end": 1403
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 1403,
                                                                             "end": 1405
                                                                         },
@@ -3509,36 +3966,44 @@ function foo8_c(x) {
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 1405,
                                                                             "end": 1407
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 1397,
                                                                         "end": 1407
                                                                     },
                                                                     "flags": 80,
+                                                                    "transformFlags": 256,
                                                                     "start": 1390,
                                                                     "end": 1407
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 1390,
                                                             "end": 1407
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 1388,
                                                         "end": 1409
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 1378,
                                                     "end": 1409
                                                 },
                                                 "flags": 1368,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 1410
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 1368,
                                             "end": 1411
                                         },
@@ -3555,6 +4020,7 @@ function foo8_c(x) {
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 1422,
                                                         "end": 1422
                                                     },
@@ -3562,6 +4028,7 @@ function foo8_c(x) {
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 1423,
                                                         "end": 1426
                                                     },
@@ -3574,12 +4041,14 @@ function foo8_c(x) {
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1426,
                                                                 "end": 1428
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 99634,
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1428,
                                                                 "end": 1430
                                                             },
@@ -3588,16 +4057,19 @@ function foo8_c(x) {
                                                                 "text": "y",
                                                                 "rawText": "y",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1430,
                                                                 "end": 1432
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1426,
                                                             "end": 1432
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1432,
                                                             "end": 1434
                                                         },
@@ -3606,37 +4078,45 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1434,
                                                             "end": 1436
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 1426,
                                                         "end": 1436
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 1421,
                                                     "end": 1436
                                                 },
                                                 "flags": 1411,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 1437
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 1411,
                                             "end": 1438
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 1316,
                                     "end": 1438
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 1314,
                                 "end": 1444
                             },
                             "whileKeyword": {
                                 "kind": 37757028,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 1444,
                                 "end": 1450
                             },
@@ -3647,12 +4127,14 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1452,
                                     "end": 1453
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
+                                    "transformFlags": 16,
                                     "start": 1453,
                                     "end": 1457
                                 },
@@ -3661,28 +4143,34 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1457,
                                     "end": 1459
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1452,
                                 "end": 1459
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 1307,
                             "end": 1460
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 1307,
                     "end": 1460
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1305,
                 "end": 1462
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 1287,
             "end": 1462
         },
@@ -3693,6 +4181,7 @@ function foo8_c(x) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 1462,
                 "end": 1473
             },
@@ -3702,6 +4191,7 @@ function foo8_c(x) {
                 "text": "foo8",
                 "rawText": "foo8",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1473,
                 "end": 1478
             },
@@ -3714,12 +4204,14 @@ function foo8_c(x) {
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1479,
                         "end": 1480
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1479,
                 "end": 1480
             },
@@ -3734,6 +4226,7 @@ function foo8_c(x) {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 1483,
                                 "end": 1491
                             },
@@ -3742,6 +4235,7 @@ function foo8_c(x) {
                                 "lexicalKeyword": {
                                     "kind": 41951307,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 1483,
                                     "end": 1496
                                 },
@@ -3755,6 +4249,7 @@ function foo8_c(x) {
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 1496,
                                                 "end": 1498
                                             },
@@ -3764,19 +4259,23 @@ function foo8_c(x) {
                                                 "text": 0,
                                                 "rawText": "0",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 1500,
                                                 "end": 1502
                                             },
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 1496,
                                             "end": 1502
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 1496,
                                     "end": 1502
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 1483,
                                 "end": 1502
                             },
@@ -3785,6 +4284,7 @@ function foo8_c(x) {
                                 "operandToken": {
                                     "kind": 196635,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1510,
                                     "end": 1513
                                 },
@@ -3793,10 +4293,12 @@ function foo8_c(x) {
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1513,
                                     "end": 1514
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 1510,
                                 "end": 1514
                             },
@@ -3807,12 +4309,14 @@ function foo8_c(x) {
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1503,
                                     "end": 1505
                                 },
                                 "operatorToken": {
                                     "kind": 536971330,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1505,
                                     "end": 1507
                                 },
@@ -3821,10 +4325,12 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1507,
                                     "end": 1509
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1503,
                                 "end": 1509
                             },
@@ -3838,6 +4344,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 1517,
                                                 "end": 1529
                                             },
@@ -3851,6 +4358,7 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1529,
                                                             "end": 1531
                                                         },
@@ -3860,19 +4368,23 @@ function foo8_c(x) {
                                                             "text": 1,
                                                             "rawText": "1",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1533,
                                                             "end": 1535
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 1529,
                                                         "end": 1535
                                                     }
                                                 ],
                                                 "flags": 17,
+                                                "transformFlags": 0,
                                                 "start": 1529,
                                                 "end": 1535
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 1517,
                                             "end": 1536
                                         },
@@ -3881,6 +4393,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 41951307,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 1536,
                                                 "end": 1548
                                             },
@@ -3894,6 +4407,7 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1548,
                                                             "end": 1550
                                                         },
@@ -3905,6 +4419,7 @@ function foo8_c(x) {
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1552,
                                                                 "end": 1562
                                                             },
@@ -3913,23 +4428,28 @@ function foo8_c(x) {
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1563,
                                                                 "end": 1569
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 1552,
                                                             "end": 1569
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 1548,
                                                         "end": 1569
                                                     }
                                                 ],
                                                 "flags": 17,
+                                                "transformFlags": 0,
                                                 "start": 1548,
                                                 "end": 1569
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 1536,
                                             "end": 1570
                                         },
@@ -3943,6 +4463,7 @@ function foo8_c(x) {
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 1580,
                                                         "end": 1588
                                                     },
@@ -3954,6 +4475,7 @@ function foo8_c(x) {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 1589,
                                                         "end": 1589
                                                     },
@@ -3968,6 +4490,7 @@ function foo8_c(x) {
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
                                                                         "flags": 80,
+                                                                        "transformFlags": 0,
                                                                         "start": 1592,
                                                                         "end": 1599
                                                                     },
@@ -3980,12 +4503,14 @@ function foo8_c(x) {
                                                                                 "text": "x",
                                                                                 "rawText": "x",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 1599,
                                                                                 "end": 1601
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 99634,
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 1601,
                                                                                 "end": 1603
                                                                             },
@@ -3994,16 +4519,19 @@ function foo8_c(x) {
                                                                                 "text": "y",
                                                                                 "rawText": "y",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 1603,
                                                                                 "end": 1605
                                                                             },
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 1599,
                                                                             "end": 1605
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 1605,
                                                                             "end": 1607
                                                                         },
@@ -4012,36 +4540,44 @@ function foo8_c(x) {
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 1607,
                                                                             "end": 1609
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 1599,
                                                                         "end": 1609
                                                                     },
                                                                     "flags": 80,
+                                                                    "transformFlags": 256,
                                                                     "start": 1592,
                                                                     "end": 1609
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 1592,
                                                             "end": 1609
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 1590,
                                                         "end": 1611
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 1580,
                                                     "end": 1611
                                                 },
                                                 "flags": 1570,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 1612
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 1570,
                                             "end": 1613
                                         },
@@ -4058,6 +4594,7 @@ function foo8_c(x) {
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 1624,
                                                         "end": 1624
                                                     },
@@ -4065,6 +4602,7 @@ function foo8_c(x) {
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 1625,
                                                         "end": 1628
                                                     },
@@ -4077,12 +4615,14 @@ function foo8_c(x) {
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1628,
                                                                 "end": 1630
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 99634,
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1630,
                                                                 "end": 1632
                                                             },
@@ -4091,16 +4631,19 @@ function foo8_c(x) {
                                                                 "text": "y",
                                                                 "rawText": "y",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1632,
                                                                 "end": 1634
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1628,
                                                             "end": 1634
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1634,
                                                             "end": 1636
                                                         },
@@ -4109,49 +4652,60 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1636,
                                                             "end": 1638
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 1628,
                                                         "end": 1638
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 1623,
                                                     "end": 1638
                                                 },
                                                 "flags": 1613,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 1639
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 1613,
                                             "end": 1640
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 1517,
                                     "end": 1640
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 1515,
                                 "end": 1646
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 1483,
                             "end": 1646
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 1483,
                     "end": 1646
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1481,
                 "end": 1648
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 1462,
             "end": 1648
         },
@@ -4162,6 +4716,7 @@ function foo8_c(x) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 1648,
                 "end": 1673
             },
@@ -4171,6 +4726,7 @@ function foo8_c(x) {
                 "text": "foo0_c",
                 "rawText": "foo0_c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1673,
                 "end": 1680
             },
@@ -4183,12 +4739,14 @@ function foo8_c(x) {
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1681,
                         "end": 1682
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1681,
                 "end": 1682
             },
@@ -4203,6 +4761,7 @@ function foo8_c(x) {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 1685,
                                 "end": 1693
                             },
@@ -4212,6 +4771,7 @@ function foo8_c(x) {
                                 "lexicalKeyword": {
                                     "kind": 37757004,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 1695,
                                     "end": 1700
                                 },
@@ -4225,27 +4785,32 @@ function foo8_c(x) {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 1700,
                                                 "end": 1702
                                             },
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 1700,
                                             "end": 1702
                                         }
                                     ],
                                     "flags": 16777232,
+                                    "transformFlags": 0,
                                     "start": 1700,
                                     "end": 1702
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 1685,
                                 "end": 1702
                             },
                             "ofKeyword": {
                                 "kind": 16793717,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 1702,
                                 "end": 1705
                             },
@@ -4256,10 +4821,12 @@ function foo8_c(x) {
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 1707,
                                     "end": 1707
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 1705,
                                 "end": 1708
                             },
@@ -4273,6 +4840,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 37757004,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 1711,
                                                 "end": 1725
                                             },
@@ -4286,6 +4854,7 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1725,
                                                             "end": 1727
                                                         },
@@ -4297,6 +4866,7 @@ function foo8_c(x) {
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1729,
                                                                 "end": 1739
                                                             },
@@ -4305,23 +4875,28 @@ function foo8_c(x) {
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1740,
                                                                 "end": 1746
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 1729,
                                                             "end": 1746
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 1725,
                                                         "end": 1746
                                                     }
                                                 ],
                                                 "flags": 16777232,
+                                                "transformFlags": 0,
                                                 "start": 1725,
                                                 "end": 1746
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 1711,
                                             "end": 1747
                                         },
@@ -4335,6 +4910,7 @@ function foo8_c(x) {
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 1757,
                                                         "end": 1765
                                                     },
@@ -4346,6 +4922,7 @@ function foo8_c(x) {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 1766,
                                                         "end": 1766
                                                     },
@@ -4360,6 +4937,7 @@ function foo8_c(x) {
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
                                                                         "flags": 80,
+                                                                        "transformFlags": 0,
                                                                         "start": 1769,
                                                                         "end": 1776
                                                                     },
@@ -4370,12 +4948,14 @@ function foo8_c(x) {
                                                                             "text": "x",
                                                                             "rawText": "x",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 1776,
                                                                             "end": 1778
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 1778,
                                                                             "end": 1780
                                                                         },
@@ -4384,36 +4964,44 @@ function foo8_c(x) {
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 1780,
                                                                             "end": 1782
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 1776,
                                                                         "end": 1782
                                                                     },
                                                                     "flags": 80,
+                                                                    "transformFlags": 256,
                                                                     "start": 1769,
                                                                     "end": 1782
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 1769,
                                                             "end": 1782
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 1767,
                                                         "end": 1784
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 1757,
                                                     "end": 1784
                                                 },
                                                 "flags": 1747,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 1785
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 1747,
                                             "end": 1786
                                         },
@@ -4430,6 +5018,7 @@ function foo8_c(x) {
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 1797,
                                                         "end": 1797
                                                     },
@@ -4437,6 +5026,7 @@ function foo8_c(x) {
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 1798,
                                                         "end": 1801
                                                     },
@@ -4447,12 +5037,14 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1801,
                                                             "end": 1803
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1803,
                                                             "end": 1805
                                                         },
@@ -4461,49 +5053,60 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1805,
                                                             "end": 1807
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 1801,
                                                         "end": 1807
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 1796,
                                                     "end": 1807
                                                 },
                                                 "flags": 1786,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 1808
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 1786,
                                             "end": 1809
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 1711,
                                     "end": 1809
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 1709,
                                 "end": 1815
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 1685,
                             "end": 1815
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 1685,
                     "end": 1815
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1683,
                 "end": 1817
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 1648,
             "end": 1817
         },
@@ -4514,6 +5117,7 @@ function foo8_c(x) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 1817,
                 "end": 1827
             },
@@ -4523,6 +5127,7 @@ function foo8_c(x) {
                 "text": "foo0_1_c",
                 "rawText": "foo0_1_c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1827,
                 "end": 1836
             },
@@ -4535,12 +5140,14 @@ function foo8_c(x) {
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1837,
                         "end": 1838
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1837,
                 "end": 1838
             },
@@ -4555,6 +5162,7 @@ function foo8_c(x) {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 1841,
                                 "end": 1849
                             },
@@ -4563,6 +5171,7 @@ function foo8_c(x) {
                                 "lexicalKeyword": {
                                     "kind": 37757004,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 1851,
                                     "end": 1856
                                 },
@@ -4576,27 +5185,32 @@ function foo8_c(x) {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 1856,
                                                 "end": 1858
                                             },
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 1856,
                                             "end": 1858
                                         }
                                     ],
                                     "flags": 16777232,
+                                    "transformFlags": 0,
                                     "start": 1856,
                                     "end": 1858
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 1841,
                                 "end": 1858
                             },
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 1858,
                                 "end": 1861
                             },
@@ -4607,10 +5221,12 @@ function foo8_c(x) {
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 1863,
                                     "end": 1863
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 1861,
                                 "end": 1864
                             },
@@ -4624,6 +5240,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 37757004,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 1867,
                                                 "end": 1881
                                             },
@@ -4637,6 +5254,7 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1881,
                                                             "end": 1883
                                                         },
@@ -4648,6 +5266,7 @@ function foo8_c(x) {
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1885,
                                                                 "end": 1895
                                                             },
@@ -4656,23 +5275,28 @@ function foo8_c(x) {
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 1896,
                                                                 "end": 1902
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 1885,
                                                             "end": 1902
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 1881,
                                                         "end": 1902
                                                     }
                                                 ],
                                                 "flags": 16777232,
+                                                "transformFlags": 0,
                                                 "start": 1881,
                                                 "end": 1902
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 1867,
                                             "end": 1903
                                         },
@@ -4686,6 +5310,7 @@ function foo8_c(x) {
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 1913,
                                                         "end": 1921
                                                     },
@@ -4697,6 +5322,7 @@ function foo8_c(x) {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 1922,
                                                         "end": 1922
                                                     },
@@ -4711,6 +5337,7 @@ function foo8_c(x) {
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
                                                                         "flags": 80,
+                                                                        "transformFlags": 0,
                                                                         "start": 1925,
                                                                         "end": 1932
                                                                     },
@@ -4721,12 +5348,14 @@ function foo8_c(x) {
                                                                             "text": "x",
                                                                             "rawText": "x",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 1932,
                                                                             "end": 1934
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 1934,
                                                                             "end": 1936
                                                                         },
@@ -4735,36 +5364,44 @@ function foo8_c(x) {
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 1936,
                                                                             "end": 1938
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 1932,
                                                                         "end": 1938
                                                                     },
                                                                     "flags": 80,
+                                                                    "transformFlags": 256,
                                                                     "start": 1925,
                                                                     "end": 1938
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 1925,
                                                             "end": 1938
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 1923,
                                                         "end": 1940
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 1913,
                                                     "end": 1940
                                                 },
                                                 "flags": 1903,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 1941
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 1903,
                                             "end": 1942
                                         },
@@ -4781,6 +5418,7 @@ function foo8_c(x) {
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 1953,
                                                         "end": 1953
                                                     },
@@ -4788,6 +5426,7 @@ function foo8_c(x) {
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 1954,
                                                         "end": 1957
                                                     },
@@ -4798,12 +5437,14 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1957,
                                                             "end": 1959
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1959,
                                                             "end": 1961
                                                         },
@@ -4812,49 +5453,60 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 1961,
                                                             "end": 1963
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 1957,
                                                         "end": 1963
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 1952,
                                                     "end": 1963
                                                 },
                                                 "flags": 1942,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 1964
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 1942,
                                             "end": 1965
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 1867,
                                     "end": 1965
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 1865,
                                 "end": 1971
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 1841,
                             "end": 1971
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 1841,
                     "end": 1971
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1839,
                 "end": 1973
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 1817,
             "end": 1973
         },
@@ -4865,6 +5517,7 @@ function foo8_c(x) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 1973,
                 "end": 1983
             },
@@ -4874,6 +5527,7 @@ function foo8_c(x) {
                 "text": "foo1_c",
                 "rawText": "foo1_c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 1983,
                 "end": 1990
             },
@@ -4886,12 +5540,14 @@ function foo8_c(x) {
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1991,
                         "end": 1992
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1991,
                 "end": 1992
             },
@@ -4906,6 +5562,7 @@ function foo8_c(x) {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 1995,
                                 "end": 2003
                             },
@@ -4914,6 +5571,7 @@ function foo8_c(x) {
                                 "lexicalKeyword": {
                                     "kind": 37757004,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 2005,
                                     "end": 2010
                                 },
@@ -4927,6 +5585,7 @@ function foo8_c(x) {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 2010,
                                                 "end": 2012
                                             },
@@ -4936,19 +5595,23 @@ function foo8_c(x) {
                                                 "text": 0,
                                                 "rawText": "0",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 2014,
                                                 "end": 2016
                                             },
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 2010,
                                             "end": 2016
                                         }
                                     ],
                                     "flags": 16777232,
+                                    "transformFlags": 0,
                                     "start": 2010,
                                     "end": 2016
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 1995,
                                 "end": 2016
                             },
@@ -4960,12 +5623,14 @@ function foo8_c(x) {
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2017,
                                     "end": 2019
                                 },
                                 "operatorToken": {
                                     "kind": 536971330,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2019,
                                     "end": 2021
                                 },
@@ -4974,10 +5639,12 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2021,
                                     "end": 2023
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 2017,
                                 "end": 2023
                             },
@@ -4991,6 +5658,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 37757004,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 2027,
                                                 "end": 2041
                                             },
@@ -5004,6 +5672,7 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2041,
                                                             "end": 2043
                                                         },
@@ -5015,6 +5684,7 @@ function foo8_c(x) {
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 2045,
                                                                 "end": 2055
                                                             },
@@ -5023,23 +5693,28 @@ function foo8_c(x) {
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 2056,
                                                                 "end": 2062
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 2045,
                                                             "end": 2062
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 2041,
                                                         "end": 2062
                                                     }
                                                 ],
                                                 "flags": 16777232,
+                                                "transformFlags": 0,
                                                 "start": 2041,
                                                 "end": 2062
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 2027,
                                             "end": 2063
                                         },
@@ -5053,6 +5728,7 @@ function foo8_c(x) {
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 2073,
                                                         "end": 2081
                                                     },
@@ -5064,6 +5740,7 @@ function foo8_c(x) {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 2082,
                                                         "end": 2082
                                                     },
@@ -5078,6 +5755,7 @@ function foo8_c(x) {
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
                                                                         "flags": 80,
+                                                                        "transformFlags": 0,
                                                                         "start": 2085,
                                                                         "end": 2092
                                                                     },
@@ -5088,12 +5766,14 @@ function foo8_c(x) {
                                                                             "text": "x",
                                                                             "rawText": "x",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 2092,
                                                                             "end": 2094
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 2094,
                                                                             "end": 2096
                                                                         },
@@ -5102,36 +5782,44 @@ function foo8_c(x) {
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 2096,
                                                                             "end": 2098
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 2092,
                                                                         "end": 2098
                                                                     },
                                                                     "flags": 80,
+                                                                    "transformFlags": 256,
                                                                     "start": 2085,
                                                                     "end": 2098
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 2085,
                                                             "end": 2098
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 2083,
                                                         "end": 2100
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 2073,
                                                     "end": 2100
                                                 },
                                                 "flags": 2063,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 2101
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 2063,
                                             "end": 2102
                                         },
@@ -5148,6 +5836,7 @@ function foo8_c(x) {
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 2113,
                                                         "end": 2113
                                                     },
@@ -5155,6 +5844,7 @@ function foo8_c(x) {
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 2114,
                                                         "end": 2117
                                                     },
@@ -5165,12 +5855,14 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2117,
                                                             "end": 2119
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2119,
                                                             "end": 2121
                                                         },
@@ -5179,49 +5871,60 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2121,
                                                             "end": 2123
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 2117,
                                                         "end": 2123
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 2112,
                                                     "end": 2123
                                                 },
                                                 "flags": 2102,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 2124
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 2102,
                                             "end": 2125
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 2027,
                                     "end": 2125
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 2025,
                                 "end": 2131
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 1995,
                             "end": 2131
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 1995,
                     "end": 2131
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 1993,
                 "end": 2133
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 1973,
             "end": 2133
         },
@@ -5232,6 +5935,7 @@ function foo8_c(x) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 2133,
                 "end": 2143
             },
@@ -5241,6 +5945,7 @@ function foo8_c(x) {
                 "text": "foo2_c",
                 "rawText": "foo2_c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 2143,
                 "end": 2150
             },
@@ -5253,12 +5958,14 @@ function foo8_c(x) {
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 2151,
                         "end": 2152
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 2151,
                 "end": 2152
             },
@@ -5273,6 +5980,7 @@ function foo8_c(x) {
                             "whileKeyword": {
                                 "kind": 37757028,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 2155,
                                 "end": 2165
                             },
@@ -5283,12 +5991,14 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2167,
                                     "end": 2168
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
+                                    "transformFlags": 16,
                                     "start": 2168,
                                     "end": 2172
                                 },
@@ -5297,10 +6007,12 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2172,
                                     "end": 2174
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 2167,
                                 "end": 2174
                             },
@@ -5314,6 +6026,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 37757004,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 2177,
                                                 "end": 2191
                                             },
@@ -5327,6 +6040,7 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2191,
                                                             "end": 2193
                                                         },
@@ -5338,6 +6052,7 @@ function foo8_c(x) {
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 2195,
                                                                 "end": 2205
                                                             },
@@ -5346,23 +6061,28 @@ function foo8_c(x) {
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 2206,
                                                                 "end": 2212
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 2195,
                                                             "end": 2212
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 2191,
                                                         "end": 2212
                                                     }
                                                 ],
                                                 "flags": 16777232,
+                                                "transformFlags": 0,
                                                 "start": 2191,
                                                 "end": 2212
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 2177,
                                             "end": 2213
                                         },
@@ -5376,6 +6096,7 @@ function foo8_c(x) {
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 2223,
                                                         "end": 2231
                                                     },
@@ -5387,6 +6108,7 @@ function foo8_c(x) {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 2232,
                                                         "end": 2232
                                                     },
@@ -5401,6 +6123,7 @@ function foo8_c(x) {
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
                                                                         "flags": 80,
+                                                                        "transformFlags": 0,
                                                                         "start": 2235,
                                                                         "end": 2242
                                                                     },
@@ -5411,12 +6134,14 @@ function foo8_c(x) {
                                                                             "text": "x",
                                                                             "rawText": "x",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 2242,
                                                                             "end": 2244
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 2244,
                                                                             "end": 2246
                                                                         },
@@ -5425,36 +6150,44 @@ function foo8_c(x) {
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 2246,
                                                                             "end": 2248
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 2242,
                                                                         "end": 2248
                                                                     },
                                                                     "flags": 80,
+                                                                    "transformFlags": 256,
                                                                     "start": 2235,
                                                                     "end": 2248
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 2235,
                                                             "end": 2248
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 2233,
                                                         "end": 2250
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 2223,
                                                     "end": 2250
                                                 },
                                                 "flags": 2213,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 2251
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 2213,
                                             "end": 2252
                                         },
@@ -5471,6 +6204,7 @@ function foo8_c(x) {
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 2263,
                                                         "end": 2263
                                                     },
@@ -5478,6 +6212,7 @@ function foo8_c(x) {
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 2264,
                                                         "end": 2267
                                                     },
@@ -5488,12 +6223,14 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2267,
                                                             "end": 2269
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2269,
                                                             "end": 2271
                                                         },
@@ -5502,49 +6239,60 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2271,
                                                             "end": 2273
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 2267,
                                                         "end": 2273
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 2262,
                                                     "end": 2273
                                                 },
                                                 "flags": 2252,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 2274
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 2252,
                                             "end": 2275
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 2177,
                                     "end": 2275
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 2175,
                                 "end": 2281
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 2155,
                             "end": 2281
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 2155,
                     "end": 2281
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 2153,
                 "end": 2283
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 2133,
             "end": 2283
         },
@@ -5555,6 +6303,7 @@ function foo8_c(x) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 2283,
                 "end": 2293
             },
@@ -5564,6 +6313,7 @@ function foo8_c(x) {
                 "text": "foo3_c",
                 "rawText": "foo3_c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 2293,
                 "end": 2300
             },
@@ -5576,12 +6326,14 @@ function foo8_c(x) {
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 2301,
                         "end": 2302
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 2301,
                 "end": 2302
             },
@@ -5596,6 +6348,7 @@ function foo8_c(x) {
                             "doKeyword": {
                                 "kind": 4202580,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 2305,
                                 "end": 2312
                             },
@@ -5609,6 +6362,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 37757004,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 2314,
                                                 "end": 2328
                                             },
@@ -5622,6 +6376,7 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2328,
                                                             "end": 2330
                                                         },
@@ -5631,19 +6386,23 @@ function foo8_c(x) {
                                                             "text": 1,
                                                             "rawText": "1",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2332,
                                                             "end": 2334
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 2328,
                                                         "end": 2334
                                                     }
                                                 ],
                                                 "flags": 16777232,
+                                                "transformFlags": 0,
                                                 "start": 2328,
                                                 "end": 2334
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 2314,
                                             "end": 2335
                                         },
@@ -5652,6 +6411,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 37757004,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 2335,
                                                 "end": 2349
                                             },
@@ -5665,6 +6425,7 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2349,
                                                             "end": 2351
                                                         },
@@ -5676,6 +6437,7 @@ function foo8_c(x) {
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 2353,
                                                                 "end": 2363
                                                             },
@@ -5684,23 +6446,28 @@ function foo8_c(x) {
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 2364,
                                                                 "end": 2370
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 2353,
                                                             "end": 2370
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 2349,
                                                         "end": 2370
                                                     }
                                                 ],
                                                 "flags": 16777232,
+                                                "transformFlags": 0,
                                                 "start": 2349,
                                                 "end": 2370
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 2335,
                                             "end": 2371
                                         },
@@ -5714,6 +6481,7 @@ function foo8_c(x) {
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 2381,
                                                         "end": 2389
                                                     },
@@ -5725,6 +6493,7 @@ function foo8_c(x) {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 2390,
                                                         "end": 2390
                                                     },
@@ -5739,6 +6508,7 @@ function foo8_c(x) {
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
                                                                         "flags": 80,
+                                                                        "transformFlags": 0,
                                                                         "start": 2393,
                                                                         "end": 2400
                                                                     },
@@ -5749,12 +6519,14 @@ function foo8_c(x) {
                                                                             "text": "x",
                                                                             "rawText": "x",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 2400,
                                                                             "end": 2402
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 2402,
                                                                             "end": 2404
                                                                         },
@@ -5763,36 +6535,44 @@ function foo8_c(x) {
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 2404,
                                                                             "end": 2406
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 2400,
                                                                         "end": 2406
                                                                     },
                                                                     "flags": 80,
+                                                                    "transformFlags": 256,
                                                                     "start": 2393,
                                                                     "end": 2406
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 2393,
                                                             "end": 2406
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 2391,
                                                         "end": 2408
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 2381,
                                                     "end": 2408
                                                 },
                                                 "flags": 2371,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 2409
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 2371,
                                             "end": 2410
                                         },
@@ -5809,6 +6589,7 @@ function foo8_c(x) {
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 2421,
                                                         "end": 2421
                                                     },
@@ -5816,6 +6597,7 @@ function foo8_c(x) {
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 2422,
                                                         "end": 2425
                                                     },
@@ -5826,12 +6608,14 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2425,
                                                             "end": 2427
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2427,
                                                             "end": 2429
                                                         },
@@ -5840,37 +6624,45 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2429,
                                                             "end": 2431
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 2425,
                                                         "end": 2431
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 2420,
                                                     "end": 2431
                                                 },
                                                 "flags": 2410,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 2432
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 2410,
                                             "end": 2433
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 2314,
                                     "end": 2433
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 2312,
                                 "end": 2439
                             },
                             "whileKeyword": {
                                 "kind": 37757028,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 2439,
                                 "end": 2445
                             },
@@ -5881,12 +6673,14 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2447,
                                     "end": 2448
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
+                                    "transformFlags": 16,
                                     "start": 2448,
                                     "end": 2452
                                 },
@@ -5895,28 +6689,34 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2452,
                                     "end": 2454
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 2447,
                                 "end": 2454
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 2305,
                             "end": 2455
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 2305,
                     "end": 2455
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 2303,
                 "end": 2457
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 2283,
             "end": 2457
         },
@@ -5927,6 +6727,7 @@ function foo8_c(x) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 2457,
                 "end": 2467
             },
@@ -5936,6 +6737,7 @@ function foo8_c(x) {
                 "text": "foo4_c",
                 "rawText": "foo4_c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 2467,
                 "end": 2474
             },
@@ -5948,12 +6750,14 @@ function foo8_c(x) {
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 2475,
                         "end": 2476
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 2475,
                 "end": 2476
             },
@@ -5968,6 +6772,7 @@ function foo8_c(x) {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 2479,
                                 "end": 2487
                             },
@@ -5976,6 +6781,7 @@ function foo8_c(x) {
                                 "lexicalKeyword": {
                                     "kind": 37757004,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 2489,
                                     "end": 2494
                                 },
@@ -5989,6 +6795,7 @@ function foo8_c(x) {
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 2494,
                                                 "end": 2496
                                             },
@@ -5998,19 +6805,23 @@ function foo8_c(x) {
                                                 "text": 0,
                                                 "rawText": "0",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 2498,
                                                 "end": 2500
                                             },
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 2494,
                                             "end": 2500
                                         }
                                     ],
                                     "flags": 16777232,
+                                    "transformFlags": 0,
                                     "start": 2494,
                                     "end": 2500
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 2479,
                                 "end": 2500
                             },
@@ -6022,12 +6833,14 @@ function foo8_c(x) {
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2501,
                                     "end": 2503
                                 },
                                 "operatorToken": {
                                     "kind": 536971330,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2503,
                                     "end": 2505
                                 },
@@ -6036,10 +6849,12 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2505,
                                     "end": 2507
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 2501,
                                 "end": 2507
                             },
@@ -6053,6 +6868,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 37757004,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 2511,
                                                 "end": 2525
                                             },
@@ -6066,6 +6882,7 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2525,
                                                             "end": 2527
                                                         },
@@ -6077,6 +6894,7 @@ function foo8_c(x) {
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 2529,
                                                                 "end": 2539
                                                             },
@@ -6085,23 +6903,28 @@ function foo8_c(x) {
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 2540,
                                                                 "end": 2546
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 2529,
                                                             "end": 2546
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 2525,
                                                         "end": 2546
                                                     }
                                                 ],
                                                 "flags": 16777232,
+                                                "transformFlags": 0,
                                                 "start": 2525,
                                                 "end": 2546
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 2511,
                                             "end": 2547
                                         },
@@ -6110,6 +6933,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 37757004,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 2547,
                                                 "end": 2561
                                             },
@@ -6123,6 +6947,7 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2561,
                                                             "end": 2563
                                                         },
@@ -6132,19 +6957,23 @@ function foo8_c(x) {
                                                             "text": 1,
                                                             "rawText": "1",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2565,
                                                             "end": 2567
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 2561,
                                                         "end": 2567
                                                     }
                                                 ],
                                                 "flags": 16777232,
+                                                "transformFlags": 0,
                                                 "start": 2561,
                                                 "end": 2567
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 2547,
                                             "end": 2568
                                         },
@@ -6158,6 +6987,7 @@ function foo8_c(x) {
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 2578,
                                                         "end": 2586
                                                     },
@@ -6169,6 +6999,7 @@ function foo8_c(x) {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 2587,
                                                         "end": 2587
                                                     },
@@ -6183,6 +7014,7 @@ function foo8_c(x) {
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
                                                                         "flags": 80,
+                                                                        "transformFlags": 0,
                                                                         "start": 2590,
                                                                         "end": 2597
                                                                     },
@@ -6193,12 +7025,14 @@ function foo8_c(x) {
                                                                             "text": "x",
                                                                             "rawText": "x",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 2597,
                                                                             "end": 2599
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 2599,
                                                                             "end": 2601
                                                                         },
@@ -6207,36 +7041,44 @@ function foo8_c(x) {
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 2601,
                                                                             "end": 2603
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 2597,
                                                                         "end": 2603
                                                                     },
                                                                     "flags": 80,
+                                                                    "transformFlags": 256,
                                                                     "start": 2590,
                                                                     "end": 2603
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 2590,
                                                             "end": 2603
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 2588,
                                                         "end": 2605
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 2578,
                                                     "end": 2605
                                                 },
                                                 "flags": 2568,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 2606
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 2568,
                                             "end": 2607
                                         },
@@ -6253,6 +7095,7 @@ function foo8_c(x) {
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 2618,
                                                         "end": 2618
                                                     },
@@ -6260,6 +7103,7 @@ function foo8_c(x) {
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 2619,
                                                         "end": 2622
                                                     },
@@ -6270,12 +7114,14 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2622,
                                                             "end": 2624
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2624,
                                                             "end": 2626
                                                         },
@@ -6284,49 +7130,60 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2626,
                                                             "end": 2628
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 2622,
                                                         "end": 2628
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 2617,
                                                     "end": 2628
                                                 },
                                                 "flags": 2607,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 2629
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 2607,
                                             "end": 2630
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 2511,
                                     "end": 2630
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 2509,
                                 "end": 2636
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 2479,
                             "end": 2636
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 2479,
                     "end": 2636
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 2477,
                 "end": 2638
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 2457,
             "end": 2638
         },
@@ -6337,6 +7194,7 @@ function foo8_c(x) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 2638,
                 "end": 2648
             },
@@ -6346,6 +7204,7 @@ function foo8_c(x) {
                 "text": "foo5_c",
                 "rawText": "foo5_c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 2648,
                 "end": 2655
             },
@@ -6358,12 +7217,14 @@ function foo8_c(x) {
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 2656,
                         "end": 2657
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 2656,
                 "end": 2657
             },
@@ -6378,6 +7239,7 @@ function foo8_c(x) {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 2660,
                                 "end": 2668
                             },
@@ -6386,6 +7248,7 @@ function foo8_c(x) {
                                 "lexicalKeyword": {
                                     "kind": 37757004,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 2670,
                                     "end": 2675
                                 },
@@ -6399,6 +7262,7 @@ function foo8_c(x) {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 2675,
                                                 "end": 2677
                                             },
@@ -6408,10 +7272,12 @@ function foo8_c(x) {
                                                 "text": 0,
                                                 "rawText": "0",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 2679,
                                                 "end": 2681
                                             },
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 2675,
                                             "end": 2681
                                         },
@@ -6422,6 +7288,7 @@ function foo8_c(x) {
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 2682,
                                                 "end": 2684
                                             },
@@ -6431,19 +7298,23 @@ function foo8_c(x) {
                                                 "text": 1,
                                                 "rawText": "1",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 2686,
                                                 "end": 2688
                                             },
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 2682,
                                             "end": 2688
                                         }
                                     ],
                                     "flags": 16777232,
+                                    "transformFlags": 0,
                                     "start": 2675,
                                     "end": 2688
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 2660,
                                 "end": 2688
                             },
@@ -6455,12 +7326,14 @@ function foo8_c(x) {
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2689,
                                     "end": 2691
                                 },
                                 "operatorToken": {
                                     "kind": 536971330,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2691,
                                     "end": 2693
                                 },
@@ -6469,10 +7342,12 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2693,
                                     "end": 2695
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 2689,
                                 "end": 2695
                             },
@@ -6486,6 +7361,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 37757004,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 2699,
                                                 "end": 2713
                                             },
@@ -6499,6 +7375,7 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2713,
                                                             "end": 2715
                                                         },
@@ -6510,6 +7387,7 @@ function foo8_c(x) {
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 2717,
                                                                 "end": 2727
                                                             },
@@ -6518,23 +7396,28 @@ function foo8_c(x) {
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 2728,
                                                                 "end": 2734
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 2717,
                                                             "end": 2734
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 2713,
                                                         "end": 2734
                                                     }
                                                 ],
                                                 "flags": 16777232,
+                                                "transformFlags": 0,
                                                 "start": 2713,
                                                 "end": 2734
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 2699,
                                             "end": 2735
                                         },
@@ -6548,6 +7431,7 @@ function foo8_c(x) {
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 2745,
                                                         "end": 2753
                                                     },
@@ -6559,6 +7443,7 @@ function foo8_c(x) {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 2754,
                                                         "end": 2754
                                                     },
@@ -6573,6 +7458,7 @@ function foo8_c(x) {
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
                                                                         "flags": 80,
+                                                                        "transformFlags": 0,
                                                                         "start": 2757,
                                                                         "end": 2764
                                                                     },
@@ -6585,12 +7471,14 @@ function foo8_c(x) {
                                                                                 "text": "x",
                                                                                 "rawText": "x",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 2764,
                                                                                 "end": 2766
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 99634,
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 2766,
                                                                                 "end": 2768
                                                                             },
@@ -6599,16 +7487,19 @@ function foo8_c(x) {
                                                                                 "text": "y",
                                                                                 "rawText": "y",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 2768,
                                                                                 "end": 2770
                                                                             },
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 2764,
                                                                             "end": 2770
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 2770,
                                                                             "end": 2772
                                                                         },
@@ -6617,36 +7508,44 @@ function foo8_c(x) {
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 2772,
                                                                             "end": 2774
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 2764,
                                                                         "end": 2774
                                                                     },
                                                                     "flags": 80,
+                                                                    "transformFlags": 256,
                                                                     "start": 2757,
                                                                     "end": 2774
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 2757,
                                                             "end": 2774
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 2755,
                                                         "end": 2776
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 2745,
                                                     "end": 2776
                                                 },
                                                 "flags": 2735,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 2777
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 2735,
                                             "end": 2778
                                         },
@@ -6663,6 +7562,7 @@ function foo8_c(x) {
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 2789,
                                                         "end": 2789
                                                     },
@@ -6670,6 +7570,7 @@ function foo8_c(x) {
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 2790,
                                                         "end": 2793
                                                     },
@@ -6682,12 +7583,14 @@ function foo8_c(x) {
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 2793,
                                                                 "end": 2795
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 99634,
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 2795,
                                                                 "end": 2797
                                                             },
@@ -6696,16 +7599,19 @@ function foo8_c(x) {
                                                                 "text": "y",
                                                                 "rawText": "y",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 2797,
                                                                 "end": 2799
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2793,
                                                             "end": 2799
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2799,
                                                             "end": 2801
                                                         },
@@ -6714,49 +7620,60 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2801,
                                                             "end": 2803
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 2793,
                                                         "end": 2803
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 2788,
                                                     "end": 2803
                                                 },
                                                 "flags": 2778,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 2804
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 2778,
                                             "end": 2805
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 2699,
                                     "end": 2805
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 2697,
                                 "end": 2811
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 2660,
                             "end": 2811
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 2660,
                     "end": 2811
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 2658,
                 "end": 2813
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 2638,
             "end": 2813
         },
@@ -6767,6 +7684,7 @@ function foo8_c(x) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 2813,
                 "end": 2824
             },
@@ -6776,6 +7694,7 @@ function foo8_c(x) {
                 "text": "foo6_c",
                 "rawText": "foo6_c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 2824,
                 "end": 2831
             },
@@ -6788,12 +7707,14 @@ function foo8_c(x) {
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 2832,
                         "end": 2833
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 2832,
                 "end": 2833
             },
@@ -6808,6 +7729,7 @@ function foo8_c(x) {
                             "whileKeyword": {
                                 "kind": 37757028,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 2836,
                                 "end": 2846
                             },
@@ -6818,12 +7740,14 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2848,
                                     "end": 2849
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
+                                    "transformFlags": 16,
                                     "start": 2849,
                                     "end": 2853
                                 },
@@ -6832,10 +7756,12 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2853,
                                     "end": 2855
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 2848,
                                 "end": 2855
                             },
@@ -6849,6 +7775,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 37757004,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 2858,
                                                 "end": 2872
                                             },
@@ -6862,6 +7789,7 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2872,
                                                             "end": 2874
                                                         },
@@ -6871,10 +7799,12 @@ function foo8_c(x) {
                                                             "text": 1,
                                                             "rawText": "1",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2876,
                                                             "end": 2878
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 2872,
                                                         "end": 2878
                                                     },
@@ -6885,6 +7815,7 @@ function foo8_c(x) {
                                                             "text": "y",
                                                             "rawText": "y",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2879,
                                                             "end": 2881
                                                         },
@@ -6894,19 +7825,23 @@ function foo8_c(x) {
                                                             "text": 1,
                                                             "rawText": "1",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2883,
                                                             "end": 2884
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 2879,
                                                         "end": 2884
                                                     }
                                                 ],
                                                 "flags": 16777232,
+                                                "transformFlags": 0,
                                                 "start": 2872,
                                                 "end": 2884
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 2858,
                                             "end": 2886
                                         },
@@ -6915,6 +7850,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 37757004,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 2886,
                                                 "end": 2900
                                             },
@@ -6928,6 +7864,7 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2900,
                                                             "end": 2902
                                                         },
@@ -6939,6 +7876,7 @@ function foo8_c(x) {
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 2904,
                                                                 "end": 2914
                                                             },
@@ -6947,23 +7885,28 @@ function foo8_c(x) {
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 2915,
                                                                 "end": 2921
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 2904,
                                                             "end": 2921
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 2900,
                                                         "end": 2921
                                                     }
                                                 ],
                                                 "flags": 16777232,
+                                                "transformFlags": 0,
                                                 "start": 2900,
                                                 "end": 2921
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 2886,
                                             "end": 2922
                                         },
@@ -6977,6 +7920,7 @@ function foo8_c(x) {
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 2932,
                                                         "end": 2940
                                                     },
@@ -6988,6 +7932,7 @@ function foo8_c(x) {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 2941,
                                                         "end": 2941
                                                     },
@@ -7002,6 +7947,7 @@ function foo8_c(x) {
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
                                                                         "flags": 80,
+                                                                        "transformFlags": 0,
                                                                         "start": 2944,
                                                                         "end": 2951
                                                                     },
@@ -7014,12 +7960,14 @@ function foo8_c(x) {
                                                                                 "text": "x",
                                                                                 "rawText": "x",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 2951,
                                                                                 "end": 2953
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 99634,
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 2953,
                                                                                 "end": 2955
                                                                             },
@@ -7028,16 +7976,19 @@ function foo8_c(x) {
                                                                                 "text": "y",
                                                                                 "rawText": "y",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 2955,
                                                                                 "end": 2957
                                                                             },
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 2951,
                                                                             "end": 2957
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 2957,
                                                                             "end": 2959
                                                                         },
@@ -7046,36 +7997,44 @@ function foo8_c(x) {
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 2959,
                                                                             "end": 2961
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 2951,
                                                                         "end": 2961
                                                                     },
                                                                     "flags": 80,
+                                                                    "transformFlags": 256,
                                                                     "start": 2944,
                                                                     "end": 2961
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 2944,
                                                             "end": 2961
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 2942,
                                                         "end": 2963
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 2932,
                                                     "end": 2963
                                                 },
                                                 "flags": 2922,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 2964
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 2922,
                                             "end": 2965
                                         },
@@ -7092,6 +8051,7 @@ function foo8_c(x) {
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 2976,
                                                         "end": 2976
                                                     },
@@ -7099,6 +8059,7 @@ function foo8_c(x) {
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 2977,
                                                         "end": 2980
                                                     },
@@ -7111,12 +8072,14 @@ function foo8_c(x) {
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 2980,
                                                                 "end": 2982
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 99634,
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 2982,
                                                                 "end": 2984
                                                             },
@@ -7125,16 +8088,19 @@ function foo8_c(x) {
                                                                 "text": "y",
                                                                 "rawText": "y",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 2984,
                                                                 "end": 2986
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2980,
                                                             "end": 2986
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2986,
                                                             "end": 2988
                                                         },
@@ -7143,49 +8109,60 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 2988,
                                                             "end": 2990
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 2980,
                                                         "end": 2990
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 2975,
                                                     "end": 2990
                                                 },
                                                 "flags": 2965,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 2991
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 2965,
                                             "end": 2992
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 2858,
                                     "end": 2992
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 2856,
                                 "end": 2998
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 2836,
                             "end": 2998
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 2836,
                     "end": 2998
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 2834,
                 "end": 3000
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 2813,
             "end": 3000
         },
@@ -7196,6 +8173,7 @@ function foo8_c(x) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 3000,
                 "end": 3010
             },
@@ -7205,6 +8183,7 @@ function foo8_c(x) {
                 "text": "foo7_c",
                 "rawText": "foo7_c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 3010,
                 "end": 3017
             },
@@ -7217,12 +8196,14 @@ function foo8_c(x) {
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3018,
                         "end": 3019
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 3018,
                 "end": 3019
             },
@@ -7237,6 +8218,7 @@ function foo8_c(x) {
                             "doKeyword": {
                                 "kind": 4202580,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 3022,
                                 "end": 3029
                             },
@@ -7250,6 +8232,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 37757004,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 3031,
                                                 "end": 3045
                                             },
@@ -7263,6 +8246,7 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 3045,
                                                             "end": 3047
                                                         },
@@ -7272,10 +8256,12 @@ function foo8_c(x) {
                                                             "text": 1,
                                                             "rawText": "1",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 3049,
                                                             "end": 3051
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 3045,
                                                         "end": 3051
                                                     },
@@ -7286,6 +8272,7 @@ function foo8_c(x) {
                                                             "text": "y",
                                                             "rawText": "y",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 3052,
                                                             "end": 3054
                                                         },
@@ -7295,19 +8282,23 @@ function foo8_c(x) {
                                                             "text": 1,
                                                             "rawText": "1",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 3056,
                                                             "end": 3058
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 3052,
                                                         "end": 3058
                                                     }
                                                 ],
                                                 "flags": 16777232,
+                                                "transformFlags": 0,
                                                 "start": 3045,
                                                 "end": 3058
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 3031,
                                             "end": 3059
                                         },
@@ -7316,6 +8307,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 37757004,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 3059,
                                                 "end": 3073
                                             },
@@ -7329,6 +8321,7 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 3073,
                                                             "end": 3075
                                                         },
@@ -7340,6 +8333,7 @@ function foo8_c(x) {
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 3077,
                                                                 "end": 3087
                                                             },
@@ -7348,23 +8342,28 @@ function foo8_c(x) {
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 3088,
                                                                 "end": 3094
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 3077,
                                                             "end": 3094
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 3073,
                                                         "end": 3094
                                                     }
                                                 ],
                                                 "flags": 16777232,
+                                                "transformFlags": 0,
                                                 "start": 3073,
                                                 "end": 3094
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 3059,
                                             "end": 3095
                                         },
@@ -7378,6 +8377,7 @@ function foo8_c(x) {
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 3105,
                                                         "end": 3113
                                                     },
@@ -7389,6 +8389,7 @@ function foo8_c(x) {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 3114,
                                                         "end": 3114
                                                     },
@@ -7403,6 +8404,7 @@ function foo8_c(x) {
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
                                                                         "flags": 80,
+                                                                        "transformFlags": 0,
                                                                         "start": 3117,
                                                                         "end": 3124
                                                                     },
@@ -7415,12 +8417,14 @@ function foo8_c(x) {
                                                                                 "text": "x",
                                                                                 "rawText": "x",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 3124,
                                                                                 "end": 3126
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 99634,
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 3126,
                                                                                 "end": 3128
                                                                             },
@@ -7429,16 +8433,19 @@ function foo8_c(x) {
                                                                                 "text": "y",
                                                                                 "rawText": "y",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 3128,
                                                                                 "end": 3130
                                                                             },
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 3124,
                                                                             "end": 3130
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 3130,
                                                                             "end": 3132
                                                                         },
@@ -7447,36 +8454,44 @@ function foo8_c(x) {
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 3132,
                                                                             "end": 3134
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 3124,
                                                                         "end": 3134
                                                                     },
                                                                     "flags": 80,
+                                                                    "transformFlags": 256,
                                                                     "start": 3117,
                                                                     "end": 3134
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 3117,
                                                             "end": 3134
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 3115,
                                                         "end": 3136
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 3105,
                                                     "end": 3136
                                                 },
                                                 "flags": 3095,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 3137
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 3095,
                                             "end": 3138
                                         },
@@ -7493,6 +8508,7 @@ function foo8_c(x) {
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 3149,
                                                         "end": 3149
                                                     },
@@ -7500,6 +8516,7 @@ function foo8_c(x) {
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 3150,
                                                         "end": 3153
                                                     },
@@ -7512,12 +8529,14 @@ function foo8_c(x) {
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 3153,
                                                                 "end": 3155
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 99634,
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 3155,
                                                                 "end": 3157
                                                             },
@@ -7526,16 +8545,19 @@ function foo8_c(x) {
                                                                 "text": "y",
                                                                 "rawText": "y",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 3157,
                                                                 "end": 3159
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 3153,
                                                             "end": 3159
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 3159,
                                                             "end": 3161
                                                         },
@@ -7544,37 +8566,45 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 3161,
                                                             "end": 3163
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 3153,
                                                         "end": 3163
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 3148,
                                                     "end": 3163
                                                 },
                                                 "flags": 3138,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 3164
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 3138,
                                             "end": 3165
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 3031,
                                     "end": 3165
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 3029,
                                 "end": 3171
                             },
                             "whileKeyword": {
                                 "kind": 37757028,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 3171,
                                 "end": 3177
                             },
@@ -7585,12 +8615,14 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 3179,
                                     "end": 3180
                                 },
                                 "operatorToken": {
                                     "kind": 34620,
                                     "flags": 96,
+                                    "transformFlags": 16,
                                     "start": 3180,
                                     "end": 3184
                                 },
@@ -7599,28 +8631,34 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 3184,
                                     "end": 3186
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 3179,
                                 "end": 3186
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 3022,
                             "end": 3187
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 3022,
                     "end": 3187
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 3020,
                 "end": 3189
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 3000,
             "end": 3189
         },
@@ -7631,6 +8669,7 @@ function foo8_c(x) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 3189,
                 "end": 3200
             },
@@ -7640,6 +8679,7 @@ function foo8_c(x) {
                 "text": "foo8_c",
                 "rawText": "foo8_c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 3200,
                 "end": 3207
             },
@@ -7652,12 +8692,14 @@ function foo8_c(x) {
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3208,
                         "end": 3209
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 3208,
                 "end": 3209
             },
@@ -7672,6 +8714,7 @@ function foo8_c(x) {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 3212,
                                 "end": 3220
                             },
@@ -7680,6 +8723,7 @@ function foo8_c(x) {
                                 "lexicalKeyword": {
                                     "kind": 37757004,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 3222,
                                     "end": 3227
                                 },
@@ -7693,6 +8737,7 @@ function foo8_c(x) {
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 3227,
                                                 "end": 3229
                                             },
@@ -7702,19 +8747,23 @@ function foo8_c(x) {
                                                 "text": 0,
                                                 "rawText": "0",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 3231,
                                                 "end": 3233
                                             },
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 3227,
                                             "end": 3233
                                         }
                                     ],
                                     "flags": 16777232,
+                                    "transformFlags": 0,
                                     "start": 3227,
                                     "end": 3233
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 3212,
                                 "end": 3233
                             },
@@ -7726,12 +8775,14 @@ function foo8_c(x) {
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 3234,
                                     "end": 3236
                                 },
                                 "operatorToken": {
                                     "kind": 536971330,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 3236,
                                     "end": 3238
                                 },
@@ -7740,10 +8791,12 @@ function foo8_c(x) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 3238,
                                     "end": 3240
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 3234,
                                 "end": 3240
                             },
@@ -7757,6 +8810,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 37757004,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 3244,
                                                 "end": 3258
                                             },
@@ -7770,6 +8824,7 @@ function foo8_c(x) {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 3258,
                                                             "end": 3260
                                                         },
@@ -7779,19 +8834,23 @@ function foo8_c(x) {
                                                             "text": 1,
                                                             "rawText": "1",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 3262,
                                                             "end": 3264
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 3258,
                                                         "end": 3264
                                                     }
                                                 ],
                                                 "flags": 16777232,
+                                                "transformFlags": 0,
                                                 "start": 3258,
                                                 "end": 3264
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 3244,
                                             "end": 3265
                                         },
@@ -7800,6 +8859,7 @@ function foo8_c(x) {
                                             "lexicalKeyword": {
                                                 "kind": 37757004,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 3265,
                                                 "end": 3279
                                             },
@@ -7813,6 +8873,7 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 3279,
                                                             "end": 3281
                                                         },
@@ -7824,6 +8885,7 @@ function foo8_c(x) {
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 3283,
                                                                 "end": 3293
                                                             },
@@ -7832,23 +8894,28 @@ function foo8_c(x) {
                                                                 "text": "length",
                                                                 "rawText": "length",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 3294,
                                                                 "end": 3300
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 2,
                                                             "start": 3283,
                                                             "end": 3300
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 3279,
                                                         "end": 3300
                                                     }
                                                 ],
                                                 "flags": 16777232,
+                                                "transformFlags": 0,
                                                 "start": 3279,
                                                 "end": 3300
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 3265,
                                             "end": 3301
                                         },
@@ -7862,6 +8929,7 @@ function foo8_c(x) {
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 3311,
                                                         "end": 3319
                                                     },
@@ -7873,6 +8941,7 @@ function foo8_c(x) {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 3320,
                                                         "end": 3320
                                                     },
@@ -7887,6 +8956,7 @@ function foo8_c(x) {
                                                                     "returnKeyword": {
                                                                         "kind": 37757022,
                                                                         "flags": 80,
+                                                                        "transformFlags": 0,
                                                                         "start": 3323,
                                                                         "end": 3330
                                                                     },
@@ -7899,12 +8969,14 @@ function foo8_c(x) {
                                                                                 "text": "x",
                                                                                 "rawText": "x",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 3330,
                                                                                 "end": 3332
                                                                             },
                                                                             "operatorToken": {
                                                                                 "kind": 99634,
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 3332,
                                                                                 "end": 3334
                                                                             },
@@ -7913,16 +8985,19 @@ function foo8_c(x) {
                                                                                 "text": "y",
                                                                                 "rawText": "y",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 3334,
                                                                                 "end": 3336
                                                                             },
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 3330,
                                                                             "end": 3336
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 99634,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 3336,
                                                                             "end": 3338
                                                                         },
@@ -7931,36 +9006,44 @@ function foo8_c(x) {
                                                                             "text": "a",
                                                                             "rawText": "a",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 3338,
                                                                             "end": 3340
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 3330,
                                                                         "end": 3340
                                                                     },
                                                                     "flags": 80,
+                                                                    "transformFlags": 256,
                                                                     "start": 3323,
                                                                     "end": 3340
                                                                 }
                                                             ],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 3323,
                                                             "end": 3340
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 3321,
                                                         "end": 3342
                                                     },
                                                     "returnType": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 3311,
                                                     "end": 3342
                                                 },
                                                 "flags": 3301,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 3343
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 3301,
                                             "end": 3344
                                         },
@@ -7977,6 +9060,7 @@ function foo8_c(x) {
                                                         "parameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 3355,
                                                         "end": 3355
                                                     },
@@ -7984,6 +9068,7 @@ function foo8_c(x) {
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 3356,
                                                         "end": 3359
                                                     },
@@ -7996,12 +9081,14 @@ function foo8_c(x) {
                                                                 "text": "x",
                                                                 "rawText": "x",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 3359,
                                                                 "end": 3361
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 99634,
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 3361,
                                                                 "end": 3363
                                                             },
@@ -8010,16 +9097,19 @@ function foo8_c(x) {
                                                                 "text": "y",
                                                                 "rawText": "y",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 3363,
                                                                 "end": 3365
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 3359,
                                                             "end": 3365
                                                         },
                                                         "operatorToken": {
                                                             "kind": 99634,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 3365,
                                                             "end": 3367
                                                         },
@@ -8028,49 +9118,60 @@ function foo8_c(x) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 3367,
                                                             "end": 3369
                                                         },
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 3359,
                                                         "end": 3369
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 3354,
                                                     "end": 3369
                                                 },
                                                 "flags": 3344,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 3370
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 3344,
                                             "end": 3371
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 3244,
                                     "end": 3371
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 3242,
                                 "end": 3377
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 3212,
                             "end": 3377
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 3212,
                     "end": 3377
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 3210,
                 "end": 3379
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 3189,
             "end": 3379
         }
@@ -8079,6 +9180,7 @@ function foo8_c(x) {
     "source": "function foo0(x) {\n    for (let x of []) {\n        let a = arguments.length;\n        (function() { return x + a });\n        (() => x + a);\n    }\n}\n\nfunction foo0_1(x) {\n    for (let x in []) {\n        let a = arguments.length;\n        (function() { return x + a });\n        (() => x + a);\n    }\n}\n\nfunction foo1(x) {\n    for (let x = 0; x < 1; ++x) {\n        let a = arguments.length;\n        (function() { return x + a });\n        (() => x + a);\n    }\n}\n\nfunction foo2(x) {\n    while (1 === 1) {\n        let a = arguments.length;\n        (function() { return x + a });\n        (() => x + a);\n    }\n}\n\nfunction foo3(x) {\n    do {\n        let x;\n        let a = arguments.length;\n        (function() { return x + a });\n        (() => x + a);\n    } while (1 === 1)\n}\n\nfunction foo4(x) {\n    for (let y = 0; y < 1; ++y) {\n        let a = arguments.length;\n        let x = 1;\n        (function() { return x + a });\n        (() => x + a);\n    }\n}\n\nfunction foo5(x) {\n    for (let x = 0, y = 1; x < 1; ++x) {\n        let a = arguments.length;\n        (function() { return x + y + a });\n        (() => x + y + a);\n    }\n}\n\n\nfunction foo6(x) {\n    while (1 === 1) {\n        let x, y;\n        let a = arguments.length;\n        (function() { return x + y + a });\n        (() => x + y + a);\n    }\n}\n\nfunction foo7(x) {\n    do {\n        let x, y;\n        let a = arguments.length;\n        (function() { return x + y + a });\n        (() => x + y + a);\n    } while (1 === 1)\n}\n\n\nfunction foo8(x) {\n    for (let y = 0; y < 1; ++y) {\n        let x = 1;\n        let a = arguments.length;\n        (function() { return x + y + a });\n        (() => x + y + a);\n    }\n}\n///=======const\nfunction foo0_c(x) {\n    for (const x of []) {\n        const a = arguments.length;\n        (function() { return x + a });\n        (() => x + a);\n    }\n}\n\nfunction foo0_1_c(x) {\n    for (const x in []) {\n        const a = arguments.length;\n        (function() { return x + a });\n        (() => x + a);\n    }\n}\n\nfunction foo1_c(x) {\n    for (const x = 0; x < 1;) {\n        const a = arguments.length;\n        (function() { return x + a });\n        (() => x + a);\n    }\n}\n\nfunction foo2_c(x) {\n    while (1 === 1) {\n        const a = arguments.length;\n        (function() { return x + a });\n        (() => x + a);\n    }\n}\n\nfunction foo3_c(x) {\n    do {\n        const x = 1;\n        const a = arguments.length;\n        (function() { return x + a });\n        (() => x + a);\n    } while (1 === 1)\n}\n\nfunction foo4_c(x) {\n    for (const y = 0; y < 1;) {\n        const a = arguments.length;\n        const x = 1;\n        (function() { return x + a });\n        (() => x + a);\n    }\n}\n\nfunction foo5_c(x) {\n    for (const x = 0, y = 1; x < 1;) {\n        const a = arguments.length;\n        (function() { return x + y + a });\n        (() => x + y + a);\n    }\n}\n\n\nfunction foo6_c(x) {\n    while (1 === 1) {\n        const x = 1, y =1 ;\n        const a = arguments.length;\n        (function() { return x + y + a });\n        (() => x + y + a);\n    }\n}\n\nfunction foo7_c(x) {\n    do {\n        const x = 1, y = 1;\n        const a = arguments.length;\n        (function() { return x + y + a });\n        (() => x + y + a);\n    } while (1 === 1)\n}\n\n\nfunction foo8_c(x) {\n    for (const y = 0; y < 1;) {\n        const x = 1;\n        const a = arguments.length;\n        (function() { return x + y + a });\n        (() => x + y + a);\n    }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 3379
 }
@@ -8093,9 +9195,9 @@ function foo0(x) {
     {
       let a = arguments.length;
       (function () {
-          return x +  a;
+          return x + a;
         });
-      (() => x +  a);
+      (() => x + a);
     }
 }
 function foo0_1(x) {
@@ -8103,30 +9205,30 @@ function foo0_1(x) {
     {
       let a = arguments.length;
       (function () {
-          return x +  a;
+          return x + a;
         });
-      (() => x +  a);
+      (() => x + a);
     }
 }
 
 function foo1(x) {
-  for (let x = 0; ++ x; x  <  1)
+  for (let x = 0; ++ x; x  < 1)
     {
       let a = arguments.length;
       (function () {
-          return x +  a;
+          return x + a;
         });
-      (() => x +  a);
+      (() => x + a);
     }
 }
 
 function foo2(x) {
-  while (1 ===  1) {
+  while (1 === 1) {
       let a = arguments.length;
       (function () {
-          return x +  a;
+          return x + a;
         });
-      (() => x +  a);
+      (() => x + a);
     }
 }
 
@@ -8135,44 +9237,44 @@ function foo3(x) {
       let x;
       let a = arguments.length;
       (function () {
-          return x +  a;
+          return x + a;
         });
-      (() => x +  a);
+      (() => x + a);
     }
-  while (1 ===  1);
+  while (1 === 1);
 }
 
 function foo4(x) {
-  for (let y = 0; ++ y; y  <  1)
+  for (let y = 0; ++ y; y  < 1)
     {
       let a = arguments.length;
       let x = 1;
       (function () {
-          return x +  a;
+          return x + a;
         });
-      (() => x +  a);
+      (() => x + a);
     }
 }
 
 function foo5(x) {
-  for (let x = 0, y = 1; ++ x; x  <  1)
+  for (let x = 0, y = 1; ++ x; x  < 1)
     {
       let a = arguments.length;
       (function () {
-          return x +  y +  a;
+          return x + y + a;
         });
-      (() => x +  y +  a);
+      (() => x + y + a);
     }
 }
 
 function foo6(x) {
-  while (1 ===  1) {
+  while (1 === 1) {
       let x, y;
       let a = arguments.length;
       (function () {
-          return x +  y +  a;
+          return x + y + a;
         });
-      (() => x +  y +  a);
+      (() => x + y + a);
     }
 }
 
@@ -8181,22 +9283,22 @@ function foo7(x) {
       let x, y;
       let a = arguments.length;
       (function () {
-          return x +  y +  a;
+          return x + y + a;
         });
-      (() => x +  y +  a);
+      (() => x + y + a);
     }
-  while (1 ===  1);
+  while (1 === 1);
 }
 
 function foo8(x) {
-  for (let y = 0; ++ y; y  <  1)
+  for (let y = 0; ++ y; y  < 1)
     {
       let x = 1;
       let a = arguments.length;
       (function () {
-          return x +  y +  a;
+          return x + y + a;
         });
-      (() => x +  y +  a);
+      (() => x + y + a);
     }
 }
 
@@ -8205,9 +9307,9 @@ function foo0_c(x) {
     {
       const a = arguments.length;
       (function () {
-          return x +  a;
+          return x + a;
         });
-      (() => x +  a);
+      (() => x + a);
     }
 }
 
@@ -8216,30 +9318,30 @@ function foo0_1_c(x) {
     {
       const a = arguments.length;
       (function () {
-          return x +  a;
+          return x + a;
         });
-      (() => x +  a);
+      (() => x + a);
     }
 }
 
 function foo1_c(x) {
-  for (const x = 0; ; x  <  1)
+  for (const x = 0; ; x  < 1)
     {
       const a = arguments.length;
       (function () {
-          return x +  a;
+          return x + a;
         });
-      (() => x +  a);
+      (() => x + a);
     }
 }
 
 function foo2_c(x) {
-  while (1 ===  1) {
+  while (1 === 1) {
       const a = arguments.length;
       (function () {
-          return x +  a;
+          return x + a;
         });
-      (() => x +  a);
+      (() => x + a);
     }
 }
 
@@ -8248,44 +9350,44 @@ function foo3_c(x) {
       const x = 1;
       const a = arguments.length;
       (function () {
-          return x +  a;
+          return x + a;
         });
-      (() => x +  a);
+      (() => x + a);
     }
-  while (1 ===  1);
+  while (1 === 1);
 }
 
 function foo4_c(x) {
-  for (const y = 0; ; y  <  1)
+  for (const y = 0; ; y  < 1)
     {
       const a = arguments.length;
       const x = 1;
       (function () {
-          return x +  a;
+          return x + a;
         });
-      (() => x +  a);
+      (() => x + a);
     }
 }
 
 function foo5_c(x) {
-  for (const x = 0, y = 1; ; x  <  1)
+  for (const x = 0, y = 1; ; x  < 1)
     {
       const a = arguments.length;
       (function () {
-          return x +  y +  a;
+          return x + y + a;
         });
-      (() => x +  y +  a);
+      (() => x + y + a);
     }
 }
 
 function foo6_c(x) {
-  while (1 ===  1) {
+  while (1 === 1) {
       const x = 1, y = 1;
       const a = arguments.length;
       (function () {
-          return x +  y +  a;
+          return x + y + a;
         });
-      (() => x +  y +  a);
+      (() => x + y + a);
     }
 }
 
@@ -8294,22 +9396,22 @@ function foo7_c(x) {
       const x = 1, y = 1;
       const a = arguments.length;
       (function () {
-          return x +  y +  a;
+          return x + y + a;
         });
-      (() => x +  y +  a);
+      (() => x + y + a);
     }
-  while (1 ===  1);
+  while (1 === 1);
 }
 
 function foo8_c(x) {
-  for (const y = 0; ; y  <  1)
+  for (const y = 0; ; y  < 1)
     {
       const x = 1;
       const a = arguments.length;
       (function () {
-          return x +  y +  a;
+          return x + y + a;
         });
-      (() => x +  y +  a);
+      (() => x + y + a);
     }
 }
 

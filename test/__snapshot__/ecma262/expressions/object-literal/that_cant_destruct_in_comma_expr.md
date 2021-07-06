@@ -25,6 +25,7 @@ x, {x: foo + y, bar} = doo
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
@@ -43,6 +44,7 @@ x, {x: foo + y, bar} = doo
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 4,
                                             "end": 5
                                         },
@@ -53,12 +55,14 @@ x, {x: foo + y, bar} = doo
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 10
                                             },
                                             "operatorToken": {
                                                 "kind": 99634,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 12
                                             },
@@ -67,14 +71,17 @@ x, {x: foo + y, bar} = doo
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 14
                                             },
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 4,
                                             "end": 14
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 4,
                                         "end": 14
                                     },
@@ -83,22 +90,26 @@ x, {x: foo + y, bar} = doo
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 19
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 19
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 2,
                             "end": 20
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 22
                         },
@@ -107,19 +118,23 @@ x, {x: foo + y, bar} = doo
                             "text": "doo",
                             "rawText": "doo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 26
                         },
                         "flags": 32,
+                        "transformFlags": 128,
                         "start": 2,
                         "end": 26
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -128,6 +143,7 @@ x, {x: foo + y, bar} = doo
     "source": "x, {x: foo + y, bar} = doo",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

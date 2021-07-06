@@ -39,6 +39,7 @@ const x = ...y;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -52,6 +53,7 @@ const x = ...y;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
@@ -61,19 +63,23 @@ const x = ...y;
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 9
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 5,
                         "end": 9
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -84,10 +90,12 @@ const x = ...y;
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 15
         }
@@ -96,6 +104,7 @@ const x = ...y;
     "source": "const x = ...y;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

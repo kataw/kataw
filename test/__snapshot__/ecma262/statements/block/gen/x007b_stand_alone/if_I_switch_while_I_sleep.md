@@ -32,6 +32,7 @@
                         "ifKeyword": {
                             "kind": 37757019,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 4
                         },
@@ -40,6 +41,7 @@
                             "text": "I",
                             "rawText": "I",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 6
                         },
@@ -48,6 +50,7 @@
                             "switchKeyword": {
                                 "kind": 37757024,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 13
                             },
@@ -56,6 +59,7 @@
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 13
                             },
@@ -63,16 +67,19 @@
                                 "kind": 152,
                                 "clauses": [],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 13
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 13
                         },
                         "elseKeyword": null,
                         "alternate": null,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 13
                     },
@@ -81,6 +88,7 @@
                         "whileKeyword": {
                             "kind": 37757028,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 19
                         },
@@ -89,6 +97,7 @@
                             "text": "I",
                             "rawText": "I",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 21
                         },
@@ -99,23 +108,28 @@
                                 "text": "sleep",
                                 "rawText": "sleep",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 27
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 27
                         },
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 27
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -124,6 +138,7 @@
     "source": "{ if I switch while I sleep",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

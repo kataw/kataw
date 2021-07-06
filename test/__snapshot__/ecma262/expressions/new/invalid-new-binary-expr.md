@@ -28,6 +28,7 @@ new <number>(y)
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -38,19 +39,23 @@ new <number>(y)
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 14
                     },
                     "flags": 3,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 15
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -59,6 +64,7 @@ new <number>(y)
     "source": "new <number>(y)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

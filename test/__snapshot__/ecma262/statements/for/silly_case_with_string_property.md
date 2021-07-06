@@ -39,6 +39,7 @@ for ("foo".bar;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -49,6 +50,7 @@ for ("foo".bar;;);
                     "text": "foo",
                     "rawText": "\"foo\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 10
                 },
@@ -57,10 +59,12 @@ for ("foo".bar;;);
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 14
                 },
                 "flags": 96,
+                "transformFlags": 2,
                 "start": 5,
                 "end": 14
             },
@@ -69,10 +73,12 @@ for ("foo".bar;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 18
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -81,6 +87,7 @@ for ("foo".bar;;);
     "source": "for (\"foo\".bar;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

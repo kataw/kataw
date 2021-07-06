@@ -24,12 +24,14 @@ x = function(){ super.foo; }
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -39,6 +41,7 @@ x = function(){ super.foo; }
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 12
                     },
@@ -50,6 +53,7 @@ x = function(){ super.foo; }
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 13
                     },
@@ -66,6 +70,7 @@ x = function(){ super.foo; }
                                         "member": {
                                             "kind": 4259935,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 21
                                         },
@@ -74,36 +79,44 @@ x = function(){ super.foo; }
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 25
                                         },
                                         "flags": 96,
+                                        "transformFlags": 2,
                                         "start": 15,
                                         "end": 25
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 26
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 26
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 28
                     },
                     "returnType": null,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 28
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -112,6 +125,7 @@ x = function(){ super.foo; }
     "source": "x = function(){ super.foo; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

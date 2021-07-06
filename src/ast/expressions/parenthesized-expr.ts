@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { ExpressionNode } from '.';
 
 export interface ParenthesizedExpression extends SyntaxNode {
@@ -15,6 +15,7 @@ export function createParenthesizedExpression(
     kind: SyntaxKind.ParenthesizedExpression,
     expression,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

@@ -20,6 +20,7 @@ for (let {[x]: y = z};;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -28,6 +29,7 @@ for (let {[x]: y = z};;);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
@@ -50,10 +52,12 @@ for (let {[x]: y = z};;);
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 11,
                                                     "end": 12
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 13
                                             },
@@ -62,6 +66,7 @@ for (let {[x]: y = z};;);
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 16
                                             },
@@ -70,35 +75,42 @@ for (let {[x]: y = z};;);
                                                 "text": "z",
                                                 "rawText": "z",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 20
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 20
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 20
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 21
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 8,
                             "end": 21
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 21
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 21
             },
@@ -107,10 +119,12 @@ for (let {[x]: y = z};;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 25
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -119,6 +133,7 @@ for (let {[x]: y = z};;);
     "source": "for (let {[x]: y = z};;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

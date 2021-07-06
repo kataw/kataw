@@ -30,6 +30,7 @@ try {
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -44,12 +45,14 @@ try {
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 13
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 22
                             },
@@ -59,6 +62,7 @@ try {
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 24
                             },
@@ -68,6 +72,7 @@ try {
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 25
                             },
@@ -78,24 +83,29 @@ try {
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 27
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 28
                             },
                             "returnType": null,
                             "flags": 144,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 28
                         }
                     ],
                     "flags": 17,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 28
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 30
             },
@@ -104,6 +114,7 @@ try {
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 36
                 },
@@ -112,6 +123,7 @@ try {
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 39
                 },
@@ -121,20 +133,24 @@ try {
                         "kind": 249,
                         "statements": [],
                         "flags": 17,
+                        "transformFlags": 0,
                         "start": 42,
                         "end": 42
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 40,
                     "end": 44
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 44
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 44
         }
@@ -143,6 +159,7 @@ try {
     "source": "try {\n  async function f(){}\n} catch (e) {\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 44
 }

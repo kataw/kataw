@@ -42,10 +42,12 @@
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 2
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 1,
                                 "end": 3
                             },
@@ -57,15 +59,18 @@
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 4,
                                     "end": 11
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 11
                             },
                             "right": null,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 11
                         },
@@ -82,22 +87,26 @@
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 15
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 15
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 12,
                                 "end": 16
                             },
                             "optionalToken": {
                                 "kind": 134217750,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 17
                             },
@@ -108,21 +117,25 @@
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 25
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 25
                             },
                             "right": null,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 25
                         }
                     ],
                     "trailingComma": false,
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 35
                 },
@@ -133,16 +146,19 @@
                     "type": {
                         "kind": 134234255,
                         "flags": 2097216,
+                        "transformFlags": 0,
                         "start": 27,
                         "end": 35
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 35
                 },
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 38
                 },
@@ -151,14 +167,17 @@
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 39
                 },
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -167,6 +186,7 @@
     "source": "({}: string, [0]?: number): unknown =>0;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }

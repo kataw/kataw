@@ -32,6 +32,7 @@ else stuff;
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -40,6 +41,7 @@ else stuff;
                 "text": "cond",
                 "rawText": "cond",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 8
             },
@@ -55,25 +57,30 @@ else stuff;
                                 "text": "stuff",
                                 "rawText": "stuff",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 19
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 20
                         }
                     ],
                     "flags": 17,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 20
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 22
             },
             "elseKeyword": {
                 "kind": 4194389,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 41
             },
@@ -82,6 +89,7 @@ else stuff;
                 "ifKeyword": {
                     "kind": 37757019,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 41,
                     "end": 44
                 },
@@ -90,6 +98,7 @@ else stuff;
                     "text": "cond",
                     "rawText": "cond",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 46,
                     "end": 50
                 },
@@ -105,25 +114,30 @@ else stuff;
                                     "text": "stuff",
                                     "rawText": "stuff",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 53,
                                     "end": 61
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 53,
                                 "end": 62
                             }
                         ],
                         "flags": 17,
+                        "transformFlags": 0,
                         "start": 53,
                         "end": 62
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 51,
                     "end": 64
                 },
                 "elseKeyword": {
                     "kind": 4194389,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 64,
                     "end": 80
                 },
@@ -139,27 +153,33 @@ else stuff;
                                     "text": "stuff",
                                     "rawText": "stuff",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 82,
                                     "end": 90
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 82,
                                 "end": 91
                             }
                         ],
                         "flags": 17,
+                        "transformFlags": 0,
                         "start": 82,
                         "end": 91
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 80,
                     "end": 93
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 41,
                 "end": 93
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 93
         },
@@ -168,6 +188,7 @@ else stuff;
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 93,
                 "end": 97
             },
@@ -176,6 +197,7 @@ else stuff;
                 "text": "cond",
                 "rawText": "cond",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 99,
                 "end": 103
             },
@@ -186,16 +208,19 @@ else stuff;
                     "text": "stuff",
                     "rawText": "stuff",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 104,
                     "end": 110
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 104,
                 "end": 111
             },
             "elseKeyword": {
                 "kind": 4194389,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 111,
                 "end": 127
             },
@@ -206,14 +231,17 @@ else stuff;
                     "text": "stuff",
                     "rawText": "stuff",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 127,
                     "end": 133
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 127,
                 "end": 134
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 93,
             "end": 134
         }
@@ -222,6 +250,7 @@ else stuff;
     "source": "if (cond) {\n  stuff;\n} /* comment */ else if (cond) {\n  stuff;\n}\n// comment\nelse {\n  stuff;\n}\n\nif (cond) stuff;\n// comment\nelse stuff;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 134
 }

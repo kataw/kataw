@@ -91,6 +91,7 @@ foo ? bar : baz => {};
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
@@ -98,6 +99,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 5
                 },
@@ -108,18 +110,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 7
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -134,6 +140,7 @@ foo ? bar : baz => {};
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 11
                 },
@@ -141,6 +148,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 15
                 },
@@ -155,6 +163,7 @@ foo ? bar : baz => {};
                                 "returnKeyword": {
                                     "kind": 37757022,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 24
                                 },
@@ -163,27 +172,33 @@ foo ? bar : baz => {};
                                     "text": 42,
                                     "rawText": "42",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 27
                                 },
                                 "flags": 80,
+                                "transformFlags": 256,
                                 "start": 17,
                                 "end": 27
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 27
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 29
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 9,
             "end": 30
         },
@@ -196,12 +211,14 @@ foo ? bar : baz => {};
                     "text": 1,
                     "rawText": "1",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 32
                 },
                 "operatorToken": {
                     "kind": 536971330,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 34
                 },
@@ -216,6 +233,7 @@ foo ? bar : baz => {};
                             "parameters": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 37,
                             "end": 37
                         },
@@ -223,6 +241,7 @@ foo ? bar : baz => {};
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 38,
                             "end": 41
                         },
@@ -233,26 +252,32 @@ foo ? bar : baz => {};
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 43,
                                 "end": 43
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 41,
                             "end": 44
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 36,
                         "end": 44
                     },
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 45
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 45
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 30,
             "end": 46
         },
@@ -267,6 +292,7 @@ foo ? bar : baz => {};
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 46,
                     "end": 48
                 },
@@ -274,6 +300,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 48,
                     "end": 51
                 },
@@ -288,6 +315,7 @@ foo ? bar : baz => {};
                                 "returnKeyword": {
                                     "kind": 37757022,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 53,
                                     "end": 60
                                 },
@@ -296,27 +324,33 @@ foo ? bar : baz => {};
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 60,
                                     "end": 62
                                 },
                                 "flags": 80,
+                                "transformFlags": 256,
                                 "start": 53,
                                 "end": 63
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 53,
                         "end": 63
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 51,
                     "end": 65
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 46,
                 "end": 65
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 46,
             "end": 66
         },
@@ -334,12 +368,14 @@ foo ? bar : baz => {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 68,
                             "end": 69
                         }
                     ],
                     "trailingComma": false,
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 68,
                     "end": 70
                 },
@@ -347,6 +383,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 70,
                     "end": 73
                 },
@@ -361,6 +398,7 @@ foo ? bar : baz => {};
                                 "returnKeyword": {
                                     "kind": 37757022,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 75,
                                     "end": 82
                                 },
@@ -369,27 +407,33 @@ foo ? bar : baz => {};
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 82,
                                     "end": 84
                                 },
                                 "flags": 80,
+                                "transformFlags": 256,
                                 "start": 75,
                                 "end": 85
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 75,
                         "end": 85
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 73,
                     "end": 87
                 },
                 "flags": 33,
+                "transformFlags": 0,
                 "start": 66,
                 "end": 87
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 66,
             "end": 88
         },
@@ -407,6 +451,7 @@ foo ? bar : baz => {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 90,
                             "end": 91
                         },
@@ -415,12 +460,14 @@ foo ? bar : baz => {};
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 92,
                             "end": 94
                         }
                     ],
                     "trailingComma": false,
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 90,
                     "end": 95
                 },
@@ -428,6 +475,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 95,
                     "end": 98
                 },
@@ -442,6 +490,7 @@ foo ? bar : baz => {};
                                 "returnKeyword": {
                                     "kind": 37757022,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 100,
                                     "end": 107
                                 },
@@ -452,12 +501,14 @@ foo ? bar : baz => {};
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 107,
                                         "end": 109
                                     },
                                     "operatorToken": {
                                         "kind": 99634,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 109,
                                         "end": 111
                                     },
@@ -466,31 +517,38 @@ foo ? bar : baz => {};
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 111,
                                         "end": 113
                                     },
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 107,
                                     "end": 113
                                 },
                                 "flags": 80,
+                                "transformFlags": 256,
                                 "start": 100,
                                 "end": 114
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 100,
                         "end": 114
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 98,
                     "end": 116
                 },
                 "flags": 33,
+                "transformFlags": 0,
                 "start": 88,
                 "end": 116
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 88,
             "end": 117
         },
@@ -508,6 +566,7 @@ foo ? bar : baz => {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 119,
                             "end": 120
                         },
@@ -516,6 +575,7 @@ foo ? bar : baz => {};
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 121,
                             "end": 123
                         },
@@ -524,12 +584,14 @@ foo ? bar : baz => {};
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 124,
                             "end": 126
                         }
                     ],
                     "trailingComma": false,
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 119,
                     "end": 127
                 },
@@ -537,6 +599,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 127,
                     "end": 130
                 },
@@ -551,6 +614,7 @@ foo ? bar : baz => {};
                                 "returnKeyword": {
                                     "kind": 37757022,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 132,
                                     "end": 139
                                 },
@@ -563,12 +627,14 @@ foo ? bar : baz => {};
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 139,
                                             "end": 141
                                         },
                                         "operatorToken": {
                                             "kind": 99634,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 141,
                                             "end": 143
                                         },
@@ -577,16 +643,19 @@ foo ? bar : baz => {};
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 143,
                                             "end": 145
                                         },
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 139,
                                         "end": 145
                                     },
                                     "operatorToken": {
                                         "kind": 99634,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 145,
                                         "end": 147
                                     },
@@ -595,31 +664,38 @@ foo ? bar : baz => {};
                                         "text": "z",
                                         "rawText": "z",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 147,
                                         "end": 149
                                     },
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 139,
                                     "end": 149
                                 },
                                 "flags": 80,
+                                "transformFlags": 256,
                                 "start": 132,
                                 "end": 150
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 132,
                         "end": 150
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 130,
                     "end": 152
                 },
                 "flags": 33,
+                "transformFlags": 0,
                 "start": 117,
                 "end": 152
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 117,
             "end": 153
         },
@@ -637,6 +713,7 @@ foo ? bar : baz => {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 155,
                             "end": 156
                         },
@@ -645,12 +722,14 @@ foo ? bar : baz => {};
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 157,
                             "end": 159
                         }
                     ],
                     "trailingComma": false,
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 155,
                     "end": 160
                 },
@@ -658,6 +737,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 160,
                     "end": 163
                 },
@@ -678,6 +758,7 @@ foo ? bar : baz => {};
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 165,
                                             "end": 167
                                         },
@@ -686,16 +767,19 @@ foo ? bar : baz => {};
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 168,
                                             "end": 169
                                         },
                                         "flags": 96,
+                                        "transformFlags": 2,
                                         "start": 165,
                                         "end": 169
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 169,
                                         "end": 171
                                     },
@@ -704,31 +788,38 @@ foo ? bar : baz => {};
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 171,
                                         "end": 173
                                     },
                                     "flags": 0,
+                                    "transformFlags": 128,
                                     "start": 165,
                                     "end": 173
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 165,
                                 "end": 174
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 165,
                         "end": 174
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 163,
                     "end": 176
                 },
                 "flags": 33,
+                "transformFlags": 0,
                 "start": 153,
                 "end": 176
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 153,
             "end": 177
         },
@@ -743,6 +834,7 @@ foo ? bar : baz => {};
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 179,
                     "end": 179
                 },
@@ -750,6 +842,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 180,
                     "end": 183
                 },
@@ -758,14 +851,17 @@ foo ? bar : baz => {};
                     "text": 42,
                     "rawText": "42",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 183,
                     "end": 186
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 177,
                 "end": 186
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 177,
             "end": 187
         },
@@ -780,6 +876,7 @@ foo ? bar : baz => {};
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 187,
                     "end": 189
                 },
@@ -787,6 +884,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 189,
                     "end": 192
                 },
@@ -795,14 +893,17 @@ foo ? bar : baz => {};
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 192,
                     "end": 194
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 187,
                 "end": 194
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 187,
             "end": 195
         },
@@ -817,6 +918,7 @@ foo ? bar : baz => {};
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 195,
                     "end": 197
                 },
@@ -824,6 +926,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 197,
                     "end": 200
                 },
@@ -834,12 +937,14 @@ foo ? bar : baz => {};
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 200,
                         "end": 202
                     },
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 202,
                         "end": 204
                     },
@@ -848,18 +953,22 @@ foo ? bar : baz => {};
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 204,
                         "end": 206
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 200,
                     "end": 206
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 195,
                 "end": 206
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 195,
             "end": 207
         },
@@ -877,12 +986,14 @@ foo ? bar : baz => {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 209,
                             "end": 210
                         }
                     ],
                     "trailingComma": false,
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 209,
                     "end": 211
                 },
@@ -890,6 +1001,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 211,
                     "end": 214
                 },
@@ -898,14 +1010,17 @@ foo ? bar : baz => {};
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 214,
                     "end": 216
                 },
                 "flags": 33,
+                "transformFlags": 0,
                 "start": 207,
                 "end": 216
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 207,
             "end": 217
         },
@@ -923,12 +1038,14 @@ foo ? bar : baz => {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 219,
                             "end": 220
                         }
                     ],
                     "trailingComma": false,
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 219,
                     "end": 221
                 },
@@ -936,6 +1053,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 221,
                     "end": 224
                 },
@@ -946,12 +1064,14 @@ foo ? bar : baz => {};
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 224,
                         "end": 226
                     },
                     "operatorToken": {
                         "kind": 67143222,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 226,
                         "end": 228
                     },
@@ -960,18 +1080,22 @@ foo ? bar : baz => {};
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 228,
                         "end": 230
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 224,
                     "end": 230
                 },
                 "flags": 33,
+                "transformFlags": 0,
                 "start": 217,
                 "end": 230
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 217,
             "end": 231
         },
@@ -989,6 +1113,7 @@ foo ? bar : baz => {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 233,
                             "end": 234
                         },
@@ -997,12 +1122,14 @@ foo ? bar : baz => {};
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 235,
                             "end": 237
                         }
                     ],
                     "trailingComma": false,
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 233,
                     "end": 238
                 },
@@ -1010,6 +1137,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 238,
                     "end": 241
                 },
@@ -1020,12 +1148,14 @@ foo ? bar : baz => {};
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 241,
                         "end": 243
                     },
                     "operatorToken": {
                         "kind": 99634,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 243,
                         "end": 245
                     },
@@ -1034,18 +1164,22 @@ foo ? bar : baz => {};
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 245,
                         "end": 247
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 241,
                     "end": 247
                 },
                 "flags": 33,
+                "transformFlags": 0,
                 "start": 231,
                 "end": 247
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 231,
             "end": 248
         },
@@ -1066,6 +1200,7 @@ foo ? bar : baz => {};
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 250,
                                     "end": 251
                                 },
@@ -1074,6 +1209,7 @@ foo ? bar : baz => {};
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 252,
                                     "end": 254
                                 },
@@ -1082,12 +1218,14 @@ foo ? bar : baz => {};
                                     "text": "z",
                                     "rawText": "z",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 255,
                                     "end": 257
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 33,
+                            "transformFlags": 0,
                             "start": 250,
                             "end": 258
                         },
@@ -1095,6 +1233,7 @@ foo ? bar : baz => {};
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 258,
                             "end": 261
                         },
@@ -1103,10 +1242,12 @@ foo ? bar : baz => {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 261,
                             "end": 263
                         },
                         "flags": 33,
+                        "transformFlags": 0,
                         "start": 248,
                         "end": 263
                     },
@@ -1115,6 +1256,7 @@ foo ? bar : baz => {};
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 264,
                         "end": 266
                     },
@@ -1123,15 +1265,18 @@ foo ? bar : baz => {};
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 267,
                         "end": 269
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 248,
                 "end": 269
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 248,
             "end": 270
         },
@@ -1149,6 +1294,7 @@ foo ? bar : baz => {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 272,
                             "end": 273
                         },
@@ -1157,12 +1303,14 @@ foo ? bar : baz => {};
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 274,
                             "end": 276
                         }
                     ],
                     "trailingComma": false,
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 272,
                     "end": 277
                 },
@@ -1170,6 +1318,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 277,
                     "end": 280
                 },
@@ -1182,6 +1331,7 @@ foo ? bar : baz => {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 280,
                             "end": 282
                         },
@@ -1190,16 +1340,19 @@ foo ? bar : baz => {};
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 283,
                             "end": 284
                         },
                         "flags": 96,
+                        "transformFlags": 2,
                         "start": 280,
                         "end": 284
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 284,
                         "end": 286
                     },
@@ -1208,18 +1361,22 @@ foo ? bar : baz => {};
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 286,
                         "end": 288
                     },
                     "flags": 0,
+                    "transformFlags": 128,
                     "start": 280,
                     "end": 288
                 },
                 "flags": 33,
+                "transformFlags": 0,
                 "start": 270,
                 "end": 288
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 270,
             "end": 289
         },
@@ -1234,6 +1391,7 @@ foo ? bar : baz => {};
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 291,
                     "end": 291
                 },
@@ -1241,6 +1399,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 292,
                     "end": 295
                 },
@@ -1259,6 +1418,7 @@ foo ? bar : baz => {};
                                         "text": "value",
                                         "rawText": "'value'",
                                         "flags": 4194400,
+                                        "transformFlags": 0,
                                         "start": 298,
                                         "end": 305
                                     },
@@ -1267,32 +1427,39 @@ foo ? bar : baz => {};
                                         "text": 42,
                                         "rawText": "42",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 306,
                                         "end": 309
                                     },
                                     "flags": 4194336,
+                                    "transformFlags": 128,
                                     "start": 298,
                                     "end": 309
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 4194320,
+                            "transformFlags": 0,
                             "start": 298,
                             "end": 309
                         },
                         "flags": 4194352,
+                        "transformFlags": 8,
                         "start": 297,
                         "end": 310
                     },
                     "flags": 295,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 311
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 289,
                 "end": 311
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 289,
             "end": 312
         },
@@ -1307,6 +1474,7 @@ foo ? bar : baz => {};
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 312,
                     "end": 314
                 },
@@ -1314,6 +1482,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 314,
                     "end": 317
                 },
@@ -1326,6 +1495,7 @@ foo ? bar : baz => {};
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 317,
                         "end": 319
                     },
@@ -1333,6 +1503,7 @@ foo ? bar : baz => {};
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 319,
                         "end": 322
                     },
@@ -1343,12 +1514,14 @@ foo ? bar : baz => {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 322,
                             "end": 324
                         },
                         "operatorToken": {
                             "kind": 99634,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 324,
                             "end": 326
                         },
@@ -1357,22 +1530,27 @@ foo ? bar : baz => {};
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 326,
                             "end": 328
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 322,
                         "end": 328
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 317,
                     "end": 328
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 312,
                 "end": 328
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 312,
             "end": 329
         },
@@ -1390,6 +1568,7 @@ foo ? bar : baz => {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 331,
                             "end": 332
                         },
@@ -1398,12 +1577,14 @@ foo ? bar : baz => {};
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 333,
                             "end": 335
                         }
                     ],
                     "trailingComma": false,
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 331,
                     "end": 336
                 },
@@ -1411,6 +1592,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 336,
                     "end": 339
                 },
@@ -1426,6 +1608,7 @@ foo ? bar : baz => {};
                                 "text": "u",
                                 "rawText": "u",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 341,
                                 "end": 342
                             },
@@ -1434,12 +1617,14 @@ foo ? bar : baz => {};
                                 "text": "v",
                                 "rawText": "v",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 343,
                                 "end": 345
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 341,
                         "end": 346
                     },
@@ -1447,6 +1632,7 @@ foo ? bar : baz => {};
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 346,
                         "end": 349
                     },
@@ -1459,12 +1645,14 @@ foo ? bar : baz => {};
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 349,
                                 "end": 351
                             },
                             "operatorToken": {
                                 "kind": 67143222,
                                 "flags": 96,
+                                "transformFlags": 32,
                                 "start": 351,
                                 "end": 352
                             },
@@ -1473,16 +1661,19 @@ foo ? bar : baz => {};
                                 "text": "u",
                                 "rawText": "u",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 352,
                                 "end": 353
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 349,
                             "end": 353
                         },
                         "operatorToken": {
                             "kind": 99634,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 353,
                             "end": 355
                         },
@@ -1493,12 +1684,14 @@ foo ? bar : baz => {};
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 355,
                                 "end": 357
                             },
                             "operatorToken": {
                                 "kind": 67143222,
                                 "flags": 96,
+                                "transformFlags": 32,
                                 "start": 357,
                                 "end": 358
                             },
@@ -1507,26 +1700,32 @@ foo ? bar : baz => {};
                                 "text": "v",
                                 "rawText": "v",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 358,
                                 "end": 359
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 357,
                             "end": 359
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 349,
                         "end": 359
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 339,
                     "end": 359
                 },
                 "flags": 33,
+                "transformFlags": 0,
                 "start": 329,
                 "end": 359
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 329,
             "end": 360
         },
@@ -1544,6 +1743,7 @@ foo ? bar : baz => {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 362,
                             "end": 363
                         },
@@ -1552,12 +1752,14 @@ foo ? bar : baz => {};
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 364,
                             "end": 366
                         }
                     ],
                     "trailingComma": false,
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 362,
                     "end": 367
                 },
@@ -1565,6 +1767,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 367,
                     "end": 370
                 },
@@ -1577,6 +1780,7 @@ foo ? bar : baz => {};
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 370,
                         "end": 372
                     },
@@ -1584,6 +1788,7 @@ foo ? bar : baz => {};
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 372,
                         "end": 375
                     },
@@ -1594,12 +1799,14 @@ foo ? bar : baz => {};
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 375,
                             "end": 377
                         },
                         "operatorToken": {
                             "kind": 67143222,
                             "flags": 96,
+                            "transformFlags": 32,
                             "start": 377,
                             "end": 379
                         },
@@ -1612,12 +1819,14 @@ foo ? bar : baz => {};
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 381,
                                     "end": 382
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 382,
                                     "end": 384
                                 },
@@ -1626,30 +1835,37 @@ foo ? bar : baz => {};
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 384,
                                     "end": 386
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 379,
                                 "end": 386
                             },
                             "flags": 379,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 387
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 375,
                         "end": 387
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 370,
                     "end": 387
                 },
                 "flags": 33,
+                "transformFlags": 0,
                 "start": 360,
                 "end": 387
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 360,
             "end": 388
         },
@@ -1664,6 +1880,7 @@ foo ? bar : baz => {};
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 388,
                     "end": 390
                 },
@@ -1671,6 +1888,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 390,
                     "end": 393
                 },
@@ -1686,6 +1904,7 @@ foo ? bar : baz => {};
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 395,
                                 "end": 396
                             },
@@ -1694,12 +1913,14 @@ foo ? bar : baz => {};
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 397,
                                 "end": 399
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 395,
                         "end": 400
                     },
@@ -1707,6 +1928,7 @@ foo ? bar : baz => {};
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 400,
                         "end": 403
                     },
@@ -1717,12 +1939,14 @@ foo ? bar : baz => {};
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 403,
                             "end": 405
                         },
                         "operatorToken": {
                             "kind": 67143222,
                             "flags": 96,
+                            "transformFlags": 32,
                             "start": 405,
                             "end": 407
                         },
@@ -1735,12 +1959,14 @@ foo ? bar : baz => {};
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 409,
                                     "end": 410
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 410,
                                     "end": 412
                                 },
@@ -1749,30 +1975,37 @@ foo ? bar : baz => {};
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 412,
                                     "end": 414
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 407,
                                 "end": 414
                             },
                             "flags": 407,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 415
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 403,
                         "end": 415
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 393,
                     "end": 415
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 388,
                 "end": 415
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 388,
             "end": 416
         },
@@ -1792,6 +2025,7 @@ foo ? bar : baz => {};
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 420,
                                 "end": 420
                             },
@@ -1799,6 +2033,7 @@ foo ? bar : baz => {};
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 421,
                                 "end": 424
                             },
@@ -1809,14 +2044,17 @@ foo ? bar : baz => {};
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 426,
                                     "end": 426
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 424,
                                 "end": 427
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 419,
                             "end": 427
                         },
@@ -1825,19 +2063,23 @@ foo ? bar : baz => {};
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 429,
                             "end": 430
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 416,
                     "end": 430
                 },
                 "flags": 416,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 431
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 416,
             "end": 432
         },
@@ -1850,12 +2092,14 @@ foo ? bar : baz => {};
                     "text": "y",
                     "rawText": "y",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 432,
                     "end": 435
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 435,
                     "end": 437
                 },
@@ -1873,6 +2117,7 @@ foo ? bar : baz => {};
                                     "parameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 440,
                                     "end": 440
                                 },
@@ -1880,6 +2125,7 @@ foo ? bar : baz => {};
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 441,
                                     "end": 444
                                 },
@@ -1890,14 +2136,17 @@ foo ? bar : baz => {};
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 446,
                                         "end": 446
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 444,
                                     "end": 447
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 439,
                                 "end": 447
                             },
@@ -1906,23 +2155,28 @@ foo ? bar : baz => {};
                                 "text": 0,
                                 "rawText": "0",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 449,
                                 "end": 450
                             }
                         ],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 437,
                         "end": 450
                     },
                     "flags": 437,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 451
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 432,
                 "end": 451
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 432,
             "end": 451
         },
@@ -1936,6 +2190,7 @@ foo ? bar : baz => {};
                         "text": "a",
                         "rawText": "a",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 452,
                         "end": 599
                     },
@@ -1948,6 +2203,7 @@ foo ? bar : baz => {};
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 600,
                             "end": 602
                         },
@@ -1955,6 +2211,7 @@ foo ? bar : baz => {};
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 602,
                             "end": 605
                         },
@@ -1963,19 +2220,23 @@ foo ? bar : baz => {};
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 605,
                             "end": 607
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 600,
                         "end": 607
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 452,
                 "end": 607
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 452,
             "end": 608
         },
@@ -1989,6 +2250,7 @@ foo ? bar : baz => {};
                         "text": "a",
                         "rawText": "a",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 608,
                         "end": 610
                     },
@@ -1997,6 +2259,7 @@ foo ? bar : baz => {};
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 611,
                         "end": 613
                     },
@@ -2012,6 +2275,7 @@ foo ? bar : baz => {};
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 616,
                                     "end": 617
                                 },
@@ -2020,12 +2284,14 @@ foo ? bar : baz => {};
                                     "text": "d",
                                     "rawText": "d",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 618,
                                     "end": 620
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 616,
                             "end": 621
                         },
@@ -2033,6 +2299,7 @@ foo ? bar : baz => {};
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 621,
                             "end": 624
                         },
@@ -2041,19 +2308,23 @@ foo ? bar : baz => {};
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 624,
                             "end": 626
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 614,
                         "end": 626
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 608,
                 "end": 626
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 608,
             "end": 627
         },
@@ -2069,6 +2340,7 @@ foo ? bar : baz => {};
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 629,
                             "end": 630
                         },
@@ -2077,6 +2349,7 @@ foo ? bar : baz => {};
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 631,
                             "end": 633
                         },
@@ -2092,6 +2365,7 @@ foo ? bar : baz => {};
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 636,
                                         "end": 637
                                     },
@@ -2100,12 +2374,14 @@ foo ? bar : baz => {};
                                         "text": "d",
                                         "rawText": "d",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 638,
                                         "end": 640
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 636,
                                 "end": 641
                             },
@@ -2113,6 +2389,7 @@ foo ? bar : baz => {};
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 641,
                                 "end": 644
                             },
@@ -2121,23 +2398,28 @@ foo ? bar : baz => {};
                                 "text": 0,
                                 "rawText": "0",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 644,
                                 "end": 646
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 634,
                             "end": 646
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 627,
                     "end": 646
                 },
                 "flags": 627,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 647
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 627,
             "end": 648
         },
@@ -2158,6 +2440,7 @@ foo ? bar : baz => {};
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 650,
                                     "end": 651
                                 },
@@ -2166,12 +2449,14 @@ foo ? bar : baz => {};
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 652,
                                     "end": 654
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 33,
+                            "transformFlags": 0,
                             "start": 650,
                             "end": 655
                         },
@@ -2179,6 +2464,7 @@ foo ? bar : baz => {};
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 655,
                             "end": 658
                         },
@@ -2187,10 +2473,12 @@ foo ? bar : baz => {};
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 658,
                             "end": 660
                         },
                         "flags": 33,
+                        "transformFlags": 0,
                         "start": 648,
                         "end": 660
                     },
@@ -2206,6 +2494,7 @@ foo ? bar : baz => {};
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 663,
                                     "end": 664
                                 },
@@ -2214,12 +2503,14 @@ foo ? bar : baz => {};
                                     "text": "d",
                                     "rawText": "d",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 665,
                                     "end": 667
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 663,
                             "end": 668
                         },
@@ -2227,6 +2518,7 @@ foo ? bar : baz => {};
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 668,
                             "end": 671
                         },
@@ -2235,19 +2527,23 @@ foo ? bar : baz => {};
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 671,
                             "end": 673
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 661,
                         "end": 673
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 648,
                 "end": 673
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 648,
             "end": 674
         },
@@ -2263,6 +2559,7 @@ foo ? bar : baz => {};
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 676,
                             "end": 677
                         },
@@ -2275,6 +2572,7 @@ foo ? bar : baz => {};
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 678,
                                 "end": 680
                             },
@@ -2282,6 +2580,7 @@ foo ? bar : baz => {};
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 680,
                                 "end": 683
                             },
@@ -2292,14 +2591,17 @@ foo ? bar : baz => {};
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 685,
                                     "end": 685
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 683,
                                 "end": 686
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 678,
                             "end": 686
                         },
@@ -2312,6 +2614,7 @@ foo ? bar : baz => {};
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 687,
                                 "end": 689
                             },
@@ -2319,6 +2622,7 @@ foo ? bar : baz => {};
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 689,
                                 "end": 692
                             },
@@ -2329,12 +2633,14 @@ foo ? bar : baz => {};
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 692,
                                     "end": 694
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 694,
                                     "end": 696
                                 },
@@ -2343,27 +2649,33 @@ foo ? bar : baz => {};
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 696,
                                     "end": 698
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 692,
                                 "end": 698
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 687,
                             "end": 698
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 674,
                     "end": 699
                 },
                 "flags": 674,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 699
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 674,
             "end": 700
         },
@@ -2386,6 +2698,7 @@ foo ? bar : baz => {};
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 703,
                                         "end": 704
                                     },
@@ -2394,12 +2707,14 @@ foo ? bar : baz => {};
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 705,
                                         "end": 707
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 703,
                                 "end": 708
                             },
@@ -2407,6 +2722,7 @@ foo ? bar : baz => {};
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 708,
                                 "end": 711
                             },
@@ -2417,14 +2733,17 @@ foo ? bar : baz => {};
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 713,
                                     "end": 713
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 711,
                                 "end": 714
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 702,
                             "end": 714
                         },
@@ -2439,6 +2758,7 @@ foo ? bar : baz => {};
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 717,
                                     "end": 718
                                 },
@@ -2446,6 +2766,7 @@ foo ? bar : baz => {};
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 718,
                                     "end": 721
                                 },
@@ -2456,12 +2777,14 @@ foo ? bar : baz => {};
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 721,
                                         "end": 723
                                     },
                                     "operatorToken": {
                                         "kind": 99634,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 723,
                                         "end": 725
                                     },
@@ -2470,31 +2793,38 @@ foo ? bar : baz => {};
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 725,
                                         "end": 727
                                     },
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 721,
                                     "end": 727
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 717,
                                 "end": 727
                             },
                             "flags": 715,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 728
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 700,
                     "end": 728
                 },
                 "flags": 700,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 729
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 700,
             "end": 730
         },
@@ -2510,6 +2840,7 @@ foo ? bar : baz => {};
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 732,
                             "end": 733
                         },
@@ -2523,6 +2854,7 @@ foo ? bar : baz => {};
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 736,
                                         "end": 737
                                     },
@@ -2538,6 +2870,7 @@ foo ? bar : baz => {};
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 740,
                                                     "end": 741
                                                 },
@@ -2546,12 +2879,14 @@ foo ? bar : baz => {};
                                                     "text": "c",
                                                     "rawText": "c",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 742,
                                                     "end": 744
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 740,
                                             "end": 745
                                         },
@@ -2559,6 +2894,7 @@ foo ? bar : baz => {};
                                         "arrowToken": {
                                             "kind": 10,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 745,
                                             "end": 748
                                         },
@@ -2567,32 +2903,39 @@ foo ? bar : baz => {};
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 748,
                                             "end": 750
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 738,
                                         "end": 750
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 734,
                                 "end": 750
                             },
                             "flags": 734,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 751
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 730,
                     "end": 751
                 },
                 "flags": 730,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 752
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 730,
             "end": 753
         },
@@ -2605,12 +2948,14 @@ foo ? bar : baz => {};
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 753,
                     "end": 832
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 832,
                     "end": 834
                 },
@@ -2619,12 +2964,14 @@ foo ? bar : baz => {};
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 834,
                     "end": 838
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 838,
                     "end": 840
                 },
@@ -2637,6 +2984,7 @@ foo ? bar : baz => {};
                         "text": "baz",
                         "rawText": "baz",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 840,
                         "end": 844
                     },
@@ -2644,6 +2992,7 @@ foo ? bar : baz => {};
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 844,
                         "end": 847
                     },
@@ -2654,22 +3003,27 @@ foo ? bar : baz => {};
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 849,
                             "end": 849
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 847,
                         "end": 850
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 840,
                     "end": 850
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 753,
                 "end": 850
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 753,
             "end": 851
         },
@@ -2689,16 +3043,19 @@ foo ? bar : baz => {};
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 893,
                                 "end": 893
                             },
                             "flags": 48,
+                            "transformFlags": 0,
                             "start": 892,
                             "end": 894
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 892,
                     "end": 895
                 },
@@ -2706,6 +3063,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 895,
                     "end": 898
                 },
@@ -2716,18 +3074,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 900,
                         "end": 900
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 898,
                     "end": 901
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 851,
                 "end": 901
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 851,
             "end": 902
         },
@@ -2745,6 +3107,7 @@ foo ? bar : baz => {};
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 904,
                             "end": 905
                         },
@@ -2755,16 +3118,19 @@ foo ? bar : baz => {};
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 908,
                                 "end": 908
                             },
                             "flags": 48,
+                            "transformFlags": 0,
                             "start": 906,
                             "end": 909
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 904,
                     "end": 910
                 },
@@ -2772,6 +3138,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 910,
                     "end": 913
                 },
@@ -2782,18 +3149,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 915,
                         "end": 915
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 913,
                     "end": 916
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 902,
                 "end": 916
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 902,
             "end": 917
         },
@@ -2813,10 +3184,12 @@ foo ? bar : baz => {};
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 920,
                                 "end": 920
                             },
                             "flags": 48,
+                            "transformFlags": 0,
                             "start": 919,
                             "end": 921
                         },
@@ -2825,12 +3198,14 @@ foo ? bar : baz => {};
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 922,
                             "end": 924
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 919,
                     "end": 925
                 },
@@ -2838,6 +3213,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 925,
                     "end": 928
                 },
@@ -2848,18 +3224,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 930,
                         "end": 930
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 928,
                     "end": 931
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 917,
                 "end": 931
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 917,
             "end": 932
         },
@@ -2879,16 +3259,19 @@ foo ? bar : baz => {};
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 935,
                                 "end": 935
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 934,
                             "end": 936
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 934,
                     "end": 937
                 },
@@ -2896,6 +3279,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 937,
                     "end": 940
                 },
@@ -2906,18 +3290,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 942,
                         "end": 942
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 940,
                     "end": 943
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 932,
                 "end": 943
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 932,
             "end": 944
         },
@@ -2935,6 +3323,7 @@ foo ? bar : baz => {};
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 946,
                             "end": 947
                         },
@@ -2945,16 +3334,19 @@ foo ? bar : baz => {};
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 950,
                                 "end": 950
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 948,
                             "end": 951
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 946,
                     "end": 952
                 },
@@ -2962,6 +3354,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 952,
                     "end": 955
                 },
@@ -2972,18 +3365,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 957,
                         "end": 957
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 955,
                     "end": 958
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 944,
                 "end": 958
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 944,
             "end": 959
         },
@@ -3003,10 +3400,12 @@ foo ? bar : baz => {};
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 962,
                                 "end": 962
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 961,
                             "end": 963
                         },
@@ -3015,12 +3414,14 @@ foo ? bar : baz => {};
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 964,
                             "end": 966
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 961,
                     "end": 967
                 },
@@ -3028,6 +3429,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 967,
                     "end": 970
                 },
@@ -3038,18 +3440,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 972,
                         "end": 972
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 970,
                     "end": 973
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 959,
                 "end": 973
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 959,
             "end": 974
         },
@@ -3070,6 +3476,7 @@ foo ? bar : baz => {};
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 976,
                                 "end": 977
                             },
@@ -3080,16 +3487,19 @@ foo ? bar : baz => {};
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 979,
                                 "end": 981
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 974,
                             "end": 981
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 976,
                     "end": 982
                 },
@@ -3097,6 +3507,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 982,
                     "end": 985
                 },
@@ -3107,18 +3518,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 987,
                         "end": 987
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 985,
                     "end": 988
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 974,
                 "end": 988
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 974,
             "end": 989
         },
@@ -3139,6 +3554,7 @@ foo ? bar : baz => {};
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 991,
                                 "end": 992
                             },
@@ -3149,10 +3565,12 @@ foo ? bar : baz => {};
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 994,
                                 "end": 996
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 989,
                             "end": 996
                         },
@@ -3161,12 +3579,14 @@ foo ? bar : baz => {};
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 997,
                             "end": 999
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 991,
                     "end": 1000
                 },
@@ -3174,6 +3594,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1000,
                     "end": 1003
                 },
@@ -3184,18 +3605,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1005,
                         "end": 1005
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1003,
                     "end": 1006
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 989,
                 "end": 1006
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 989,
             "end": 1007
         },
@@ -3213,6 +3638,7 @@ foo ? bar : baz => {};
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1009,
                             "end": 1010
                         },
@@ -3224,6 +3650,7 @@ foo ? bar : baz => {};
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1011,
                                 "end": 1013
                             },
@@ -3234,16 +3661,19 @@ foo ? bar : baz => {};
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1015,
                                 "end": 1017
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1007,
                             "end": 1017
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 1009,
                     "end": 1018
                 },
@@ -3251,6 +3681,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1018,
                     "end": 1021
                 },
@@ -3261,18 +3692,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1023,
                         "end": 1023
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1021,
                     "end": 1024
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 1007,
                 "end": 1024
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1007,
             "end": 1025
         },
@@ -3295,22 +3730,26 @@ foo ? bar : baz => {};
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 1028,
                                         "end": 1029
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 1028,
                                 "end": 1029
                             },
                             "flags": 48,
+                            "transformFlags": 0,
                             "start": 1027,
                             "end": 1030
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 1027,
                     "end": 1031
                 },
@@ -3318,6 +3757,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1031,
                     "end": 1034
                 },
@@ -3328,18 +3768,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1036,
                         "end": 1036
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1034,
                     "end": 1037
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 1025,
                 "end": 1037
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1025,
             "end": 1038
         },
@@ -3360,6 +3804,7 @@ foo ? bar : baz => {};
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1040,
                                 "end": 1041
                             },
@@ -3370,16 +3815,19 @@ foo ? bar : baz => {};
                                 "text": 9,
                                 "rawText": "9",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1043,
                                 "end": 1045
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1038,
                             "end": 1045
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 1040,
                     "end": 1046
                 },
@@ -3387,6 +3835,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1046,
                     "end": 1049
                 },
@@ -3397,18 +3846,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1051,
                         "end": 1051
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1049,
                     "end": 1052
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 1038,
                 "end": 1052
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1038,
             "end": 1053
         },
@@ -3426,6 +3879,7 @@ foo ? bar : baz => {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1055,
                             "end": 1056
                         },
@@ -3437,6 +3891,7 @@ foo ? bar : baz => {};
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1057,
                                 "end": 1059
                             },
@@ -3447,16 +3902,19 @@ foo ? bar : baz => {};
                                 "text": 9,
                                 "rawText": "9",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1061,
                                 "end": 1063
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1053,
                             "end": 1063
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 1055,
                     "end": 1064
                 },
@@ -3464,6 +3922,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1064,
                     "end": 1067
                 },
@@ -3474,18 +3933,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1069,
                         "end": 1069
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1067,
                     "end": 1070
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 1053,
                 "end": 1070
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1053,
             "end": 1071
         },
@@ -3506,6 +3969,7 @@ foo ? bar : baz => {};
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1073,
                                 "end": 1074
                             },
@@ -3516,10 +3980,12 @@ foo ? bar : baz => {};
                                 "text": 9,
                                 "rawText": "9",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1076,
                                 "end": 1078
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1071,
                             "end": 1078
                         },
@@ -3528,12 +3994,14 @@ foo ? bar : baz => {};
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1079,
                             "end": 1081
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 1073,
                     "end": 1082
                 },
@@ -3541,6 +4009,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1082,
                     "end": 1085
                 },
@@ -3551,18 +4020,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1087,
                         "end": 1087
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1085,
                     "end": 1088
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 1071,
                 "end": 1088
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1071,
             "end": 1089
         },
@@ -3580,6 +4053,7 @@ foo ? bar : baz => {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1091,
                             "end": 1092
                         },
@@ -3591,6 +4065,7 @@ foo ? bar : baz => {};
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1093,
                                 "end": 1095
                             },
@@ -3601,10 +4076,12 @@ foo ? bar : baz => {};
                                 "text": 9,
                                 "rawText": "9",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1097,
                                 "end": 1099
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1089,
                             "end": 1099
                         },
@@ -3613,12 +4090,14 @@ foo ? bar : baz => {};
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1100,
                             "end": 1102
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 1091,
                     "end": 1103
                 },
@@ -3626,6 +4105,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1103,
                     "end": 1106
                 },
@@ -3636,18 +4116,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1108,
                         "end": 1108
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1106,
                     "end": 1109
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 1089,
                 "end": 1109
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1089,
             "end": 1110
         },
@@ -3665,6 +4149,7 @@ foo ? bar : baz => {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1112,
                             "end": 1113
                         },
@@ -3676,6 +4161,7 @@ foo ? bar : baz => {};
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1114,
                                 "end": 1116
                             },
@@ -3686,10 +4172,12 @@ foo ? bar : baz => {};
                                 "text": 9,
                                 "rawText": "9",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1118,
                                 "end": 1120
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1110,
                             "end": 1120
                         },
@@ -3701,6 +4189,7 @@ foo ? bar : baz => {};
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1121,
                                 "end": 1123
                             },
@@ -3711,16 +4200,19 @@ foo ? bar : baz => {};
                                 "text": 8,
                                 "rawText": "8",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1125,
                                 "end": 1127
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1110,
                             "end": 1127
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 1112,
                     "end": 1128
                 },
@@ -3728,6 +4220,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1128,
                     "end": 1131
                 },
@@ -3738,18 +4231,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1133,
                         "end": 1133
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1131,
                     "end": 1134
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 1110,
                 "end": 1134
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1110,
             "end": 1135
         },
@@ -3767,6 +4264,7 @@ foo ? bar : baz => {};
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 1137,
                                 "end": 1140
                             },
@@ -3775,6 +4273,7 @@ foo ? bar : baz => {};
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1140,
                                 "end": 1141
                             },
@@ -3782,12 +4281,14 @@ foo ? bar : baz => {};
                             "type": null,
                             "right": null,
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 1137,
                             "end": 1141
                         }
                     ],
                     "trailingComma": false,
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 1137,
                     "end": 1142
                 },
@@ -3795,6 +4296,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1142,
                     "end": 1145
                 },
@@ -3805,18 +4307,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1147,
                         "end": 1147
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1145,
                     "end": 1148
                 },
                 "flags": 33,
+                "transformFlags": 0,
                 "start": 1135,
                 "end": 1148
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1135,
             "end": 1149
         },
@@ -3834,6 +4340,7 @@ foo ? bar : baz => {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1151,
                             "end": 1152
                         },
@@ -3842,6 +4349,7 @@ foo ? bar : baz => {};
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 1153,
                                 "end": 1157
                             },
@@ -3850,6 +4358,7 @@ foo ? bar : baz => {};
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1157,
                                 "end": 1158
                             },
@@ -3857,12 +4366,14 @@ foo ? bar : baz => {};
                             "type": null,
                             "right": null,
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 1153,
                             "end": 1158
                         }
                     ],
                     "trailingComma": false,
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 1151,
                     "end": 1159
                 },
@@ -3870,6 +4381,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1159,
                     "end": 1162
                 },
@@ -3880,18 +4392,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1164,
                         "end": 1164
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1162,
                     "end": 1165
                 },
                 "flags": 33,
+                "transformFlags": 0,
                 "start": 1149,
                 "end": 1165
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1149,
             "end": 1166
         },
@@ -3912,6 +4428,7 @@ foo ? bar : baz => {};
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1168,
                                 "end": 1169
                             },
@@ -3922,10 +4439,12 @@ foo ? bar : baz => {};
                                 "text": 9,
                                 "rawText": "9",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1171,
                                 "end": 1173
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1166,
                             "end": 1173
                         },
@@ -3934,6 +4453,7 @@ foo ? bar : baz => {};
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 1174,
                                 "end": 1178
                             },
@@ -3942,6 +4462,7 @@ foo ? bar : baz => {};
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1178,
                                 "end": 1179
                             },
@@ -3949,12 +4470,14 @@ foo ? bar : baz => {};
                             "type": null,
                             "right": null,
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 1174,
                             "end": 1179
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 1168,
                     "end": 1180
                 },
@@ -3962,6 +4485,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1180,
                     "end": 1183
                 },
@@ -3972,18 +4496,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1185,
                         "end": 1185
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1183,
                     "end": 1186
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 1166,
                 "end": 1186
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1166,
             "end": 1187
         },
@@ -4001,6 +4529,7 @@ foo ? bar : baz => {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1189,
                             "end": 1190
                         },
@@ -4012,6 +4541,7 @@ foo ? bar : baz => {};
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1191,
                                 "end": 1193
                             },
@@ -4022,10 +4552,12 @@ foo ? bar : baz => {};
                                 "text": 9,
                                 "rawText": "9",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1195,
                                 "end": 1197
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1187,
                             "end": 1197
                         },
@@ -4034,6 +4566,7 @@ foo ? bar : baz => {};
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 1198,
                                 "end": 1202
                             },
@@ -4042,6 +4575,7 @@ foo ? bar : baz => {};
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1202,
                                 "end": 1203
                             },
@@ -4049,12 +4583,14 @@ foo ? bar : baz => {};
                             "type": null,
                             "right": null,
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 1198,
                             "end": 1203
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 1189,
                     "end": 1204
                 },
@@ -4062,6 +4598,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1204,
                     "end": 1207
                 },
@@ -4072,18 +4609,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1209,
                         "end": 1209
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1207,
                     "end": 1210
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 1187,
                 "end": 1210
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1187,
             "end": 1211
         },
@@ -4101,6 +4642,7 @@ foo ? bar : baz => {};
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1213,
                             "end": 1214
                         },
@@ -4112,6 +4654,7 @@ foo ? bar : baz => {};
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1215,
                                 "end": 1217
                             },
@@ -4122,10 +4665,12 @@ foo ? bar : baz => {};
                                 "text": 9,
                                 "rawText": "9",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1219,
                                 "end": 1221
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1211,
                             "end": 1221
                         },
@@ -4139,16 +4684,19 @@ foo ? bar : baz => {};
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 1224,
                                         "end": 1225
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 1224,
                                 "end": 1225
                             },
                             "flags": 48,
+                            "transformFlags": 0,
                             "start": 1222,
                             "end": 1226
                         },
@@ -4160,6 +4708,7 @@ foo ? bar : baz => {};
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1227,
                                 "end": 1229
                             },
@@ -4170,10 +4719,12 @@ foo ? bar : baz => {};
                                 "text": 8,
                                 "rawText": "8",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1231,
                                 "end": 1233
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1211,
                             "end": 1233
                         },
@@ -4182,6 +4733,7 @@ foo ? bar : baz => {};
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 1234,
                                 "end": 1238
                             },
@@ -4190,6 +4742,7 @@ foo ? bar : baz => {};
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1238,
                                 "end": 1239
                             },
@@ -4197,12 +4750,14 @@ foo ? bar : baz => {};
                             "type": null,
                             "right": null,
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 1234,
                             "end": 1239
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 1213,
                     "end": 1240
                 },
@@ -4210,6 +4765,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1240,
                     "end": 1243
                 },
@@ -4220,18 +4776,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1245,
                         "end": 1245
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1243,
                     "end": 1246
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 1211,
                 "end": 1246
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1211,
             "end": 1247
         },
@@ -4257,16 +4817,19 @@ foo ? bar : baz => {};
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 1250,
                                             "end": 1251
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 1250,
                                     "end": 1251
                                 },
                                 "flags": 48,
+                                "transformFlags": 0,
                                 "start": 1249,
                                 "end": 1252
                             },
@@ -4279,20 +4842,24 @@ foo ? bar : baz => {};
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 1256,
                                     "end": 1256
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 1254,
                                 "end": 1257
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1249,
                             "end": 1257
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 1249,
                     "end": 1258
                 },
@@ -4300,6 +4867,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1258,
                     "end": 1261
                 },
@@ -4310,18 +4878,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1263,
                         "end": 1263
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1261,
                     "end": 1264
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 1247,
                 "end": 1264
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1247,
             "end": 1265
         },
@@ -4347,16 +4919,19 @@ foo ? bar : baz => {};
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 1268,
                                             "end": 1269
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 1268,
                                     "end": 1269
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 1267,
                                 "end": 1270
                             },
@@ -4369,20 +4944,24 @@ foo ? bar : baz => {};
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 1274,
                                     "end": 1274
                                 },
                                 "flags": 32,
+                                "transformFlags": 8,
                                 "start": 1272,
                                 "end": 1275
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1267,
                             "end": 1275
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 1267,
                     "end": 1276
                 },
@@ -4390,6 +4969,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1276,
                     "end": 1279
                 },
@@ -4400,18 +4980,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1281,
                         "end": 1281
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1279,
                     "end": 1282
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 1265,
                 "end": 1282
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1265,
             "end": 1283
         },
@@ -4437,6 +5021,7 @@ foo ? bar : baz => {};
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 1286,
                                             "end": 1287
                                         },
@@ -4447,26 +5032,31 @@ foo ? bar : baz => {};
                                             "text": 42,
                                             "rawText": "42",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 1289,
                                             "end": 1292
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 1286,
                                         "end": 1292
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 1286,
                                 "end": 1292
                             },
                             "flags": 48,
+                            "transformFlags": 0,
                             "start": 1285,
                             "end": 1293
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 1285,
                     "end": 1294
                 },
@@ -4474,6 +5064,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1294,
                     "end": 1297
                 },
@@ -4484,18 +5075,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1299,
                         "end": 1299
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1297,
                     "end": 1300
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 1283,
                 "end": 1300
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1283,
             "end": 1301
         },
@@ -4521,6 +5116,7 @@ foo ? bar : baz => {};
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 1304,
                                             "end": 1305
                                         },
@@ -4531,26 +5127,31 @@ foo ? bar : baz => {};
                                             "text": 0,
                                             "rawText": "0",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 1307,
                                             "end": 1309
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 1304,
                                         "end": 1309
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 1304,
                                 "end": 1309
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1303,
                             "end": 1310
                         }
                     ],
                     "trailingComma": false,
                     "flags": 35,
+                    "transformFlags": 0,
                     "start": 1303,
                     "end": 1311
                 },
@@ -4558,6 +5159,7 @@ foo ? bar : baz => {};
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1311,
                     "end": 1314
                 },
@@ -4568,18 +5170,22 @@ foo ? bar : baz => {};
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1316,
                         "end": 1316
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1314,
                     "end": 1317
                 },
                 "flags": 35,
+                "transformFlags": 0,
                 "start": 1301,
                 "end": 1317
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1301,
             "end": 1318
         }
@@ -4588,6 +5194,7 @@ foo ? bar : baz => {};
     "source": "() => {};\n() => { return 42 };\n1 < (() => {});\nx => { return x; };\n(x) => { return x; };\n(x, y) => { return x + y; };\n(x, y, z) => { return x + y + z; };\n(x, y) => { x.a = y; };\n() => 42;\nx => x;\nx => x * x;\n(x) => x;\n(x) => x * x;\n(x, y) => x + y;\n(x, y, z) => x, y, z;\n(x, y) => x.a = y;\n() => ({'value': 42});\nx => y => x + y;\n(x, y) => (u, v) => x*u + y*v;\n(x, y) => z => z * (x + y);\nx => (y, z) => z * (x + y);\n\n(() => {}\n,0);\n\ny = (() => {}\n,0):\n\n// Those are comma-separated expressions, with arrow functions as items.\n// They stress the code for validating arrow function parameter lists.\na, b => 0;\na, b, (c, d) => 0;\n(a, b, (c, d) => 0);\n(a, b) => 0, (c, d) => 1;\n(a, b => {}, a => a + 1);\n((a, b) => {}, (a => a + 1));\n(a, (a, (b, c) => 0));\n\n// Arrow has more precedence, this is the same as: foo ? bar : (baz = {})\nfoo ? bar : baz => {};\n\n// Arrows with non-simple parameters.\n({}) => {};\n(a, {}) => {};\n({}, a) => {};\n([]) => {};\n(a, []) => {};\n([], a) => {};\n(a = b) => {};\n(a = b, c) => {};\n(a, b = c) => {};\n({a}) => {};\n(x = 9) => {};\n(x, y = 9) => {};\n(x = 9, y) => {};\n(x, y = 9, z) => {};\n(x, y = 9, z = 8) => {};\n(...a) => {};\n(x, ...a) => {};\n(x = 9, ...a) => {};\n(x, y = 9, ...a) => {};\n(x, y = 9, {b}, z = 8, ...a) => {};\n({a} = {}) => {};\n([x] = []) => {};\n({a = 42}) => {};\n([x = 0]) => {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 1318
 }

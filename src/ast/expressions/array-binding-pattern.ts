@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { BindingElementList } from './binding-element-list';
 
 /**
@@ -18,6 +18,7 @@ export function createArrayBindingPattern(
     kind: SyntaxKind.ArrayBindingPattern,
     elementList,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

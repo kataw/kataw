@@ -24,6 +24,7 @@ x({async foo(){}, bar(){}});
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -40,6 +41,7 @@ x({async foo(){}, bar(){}});
                                         "asyncKeyword": {
                                             "kind": 82031,
                                             "flags": 352,
+                                            "transformFlags": 0,
                                             "start": 3,
                                             "end": 8
                                         },
@@ -53,6 +55,7 @@ x({async foo(){}, bar(){}});
                                                 "text": "foo",
                                                 "rawText": "foo",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 8,
                                                 "end": 12
                                             },
@@ -62,6 +65,7 @@ x({async foo(){}, bar(){}});
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 288,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 14
                                             },
@@ -73,18 +77,22 @@ x({async foo(){}, bar(){}});
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 15,
                                                     "end": 15
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 16
                                             },
                                             "flags": 288,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 16
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 16
                                     },
@@ -101,6 +109,7 @@ x({async foo(){}, bar(){}});
                                                 "text": "bar",
                                                 "rawText": "bar",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 17,
                                                 "end": 21
                                             },
@@ -110,6 +119,7 @@ x({async foo(){}, bar(){}});
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 23
                                             },
@@ -121,42 +131,51 @@ x({async foo(){}, bar(){}});
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 24,
                                                     "end": 24
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 25
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 25
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 25
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 25
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 2,
                             "end": 26
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 26
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -165,6 +184,7 @@ x({async foo(){}, bar(){}});
     "source": "x({async foo(){}, bar(){}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

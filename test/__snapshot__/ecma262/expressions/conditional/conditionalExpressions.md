@@ -36,6 +36,7 @@ var h = [{h:5}, null];
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -49,6 +50,7 @@ var h = [{h:5}, null];
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -58,12 +60,14 @@ var h = [{h:5}, null];
                             "shortCircuit": {
                                 "kind": 205586437,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 13
                             },
                             "questionToken": {
                                 "kind": 134217750,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
                             },
@@ -72,35 +76,42 @@ var h = [{h:5}, null];
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 17
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 19
                             },
                             "alternate": {
                                 "kind": 138477575,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 24
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 24
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 24
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         },
@@ -110,6 +121,7 @@ var h = [{h:5}, null];
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 29
             },
@@ -123,6 +135,7 @@ var h = [{h:5}, null];
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 31
                         },
@@ -132,12 +145,14 @@ var h = [{h:5}, null];
                             "shortCircuit": {
                                 "kind": 205586437,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 39
                             },
                             "questionToken": {
                                 "kind": 134217750,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 41
                             },
@@ -146,12 +161,14 @@ var h = [{h:5}, null];
                                 "text": "undefined",
                                 "rawText": "undefined",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 51
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 51,
                                 "end": 53
                             },
@@ -160,23 +177,28 @@ var h = [{h:5}, null];
                                 "text": 0,
                                 "rawText": "0",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 53,
                                 "end": 55
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 33,
                             "end": 55
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 29,
                         "end": 55
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 55
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 25,
             "end": 56
         },
@@ -186,6 +208,7 @@ var h = [{h:5}, null];
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 56,
                 "end": 60
             },
@@ -199,6 +222,7 @@ var h = [{h:5}, null];
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 60,
                             "end": 62
                         },
@@ -208,12 +232,14 @@ var h = [{h:5}, null];
                             "shortCircuit": {
                                 "kind": 205586437,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 64,
                                 "end": 70
                             },
                             "questionToken": {
                                 "kind": 134217750,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 70,
                                 "end": 72
                             },
@@ -222,12 +248,14 @@ var h = [{h:5}, null];
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 72,
                                 "end": 74
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 74,
                                 "end": 76
                             },
@@ -236,23 +264,28 @@ var h = [{h:5}, null];
                                 "text": 0,
                                 "rawText": "0",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 76,
                                 "end": 78
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 64,
                             "end": 78
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 60,
                         "end": 78
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 60,
                 "end": 78
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 56,
             "end": 79
         },
@@ -262,6 +295,7 @@ var h = [{h:5}, null];
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 79,
                 "end": 83
             },
@@ -275,6 +309,7 @@ var h = [{h:5}, null];
                             "text": "d",
                             "rawText": "d",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 83,
                             "end": 85
                         },
@@ -284,47 +319,56 @@ var h = [{h:5}, null];
                             "shortCircuit": {
                                 "kind": 205586437,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 87,
                                 "end": 93
                             },
                             "questionToken": {
                                 "kind": 134217750,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 93,
                                 "end": 95
                             },
                             "consequent": {
                                 "kind": 205586437,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 95,
                                 "end": 101
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 101,
                                 "end": 103
                             },
                             "alternate": {
                                 "kind": 24752947,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 103,
                                 "end": 108
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 87,
                             "end": 108
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 83,
                         "end": 108
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 83,
                 "end": 108
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 79,
             "end": 109
         },
@@ -334,6 +378,7 @@ var h = [{h:5}, null];
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 109,
                 "end": 113
             },
@@ -347,6 +392,7 @@ var h = [{h:5}, null];
                             "text": "e",
                             "rawText": "e",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 113,
                             "end": 115
                         },
@@ -356,12 +402,14 @@ var h = [{h:5}, null];
                             "shortCircuit": {
                                 "kind": 205586437,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 117,
                                 "end": 123
                             },
                             "questionToken": {
                                 "kind": 134217750,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 123,
                                 "end": 125
                             },
@@ -370,12 +418,14 @@ var h = [{h:5}, null];
                                 "text": "foo",
                                 "rawText": "\"foo\"",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 125,
                                 "end": 131
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 131,
                                 "end": 133
                             },
@@ -384,23 +434,28 @@ var h = [{h:5}, null];
                                 "text": "bar",
                                 "rawText": "\"bar\"",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 133,
                                 "end": 139
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 117,
                             "end": 139
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 113,
                         "end": 139
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 113,
                 "end": 139
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 109,
             "end": 140
         },
@@ -410,6 +465,7 @@ var h = [{h:5}, null];
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 140,
                 "end": 144
             },
@@ -423,6 +479,7 @@ var h = [{h:5}, null];
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 144,
                             "end": 146
                         },
@@ -432,24 +489,28 @@ var h = [{h:5}, null];
                             "shortCircuit": {
                                 "kind": 205586437,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 148,
                                 "end": 154
                             },
                             "questionToken": {
                                 "kind": 134217750,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 154,
                                 "end": 156
                             },
                             "consequent": {
                                 "kind": 138477575,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 156,
                                 "end": 161
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 161,
                                 "end": 163
                             },
@@ -458,23 +519,28 @@ var h = [{h:5}, null];
                                 "text": "undefined",
                                 "rawText": "undefined",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 163,
                                 "end": 173
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 148,
                             "end": 173
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 144,
                         "end": 173
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 144,
                 "end": 173
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 140,
             "end": 174
         },
@@ -484,6 +550,7 @@ var h = [{h:5}, null];
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 174,
                 "end": 178
             },
@@ -497,6 +564,7 @@ var h = [{h:5}, null];
                             "text": "g",
                             "rawText": "g",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 178,
                             "end": 180
                         },
@@ -506,12 +574,14 @@ var h = [{h:5}, null];
                             "shortCircuit": {
                                 "kind": 24752947,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 182,
                                 "end": 187
                             },
                             "questionToken": {
                                 "kind": 134217750,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 187,
                                 "end": 189
                             },
@@ -528,6 +598,7 @@ var h = [{h:5}, null];
                                                 "text": "g",
                                                 "rawText": "g",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 191,
                                                 "end": 192
                                             },
@@ -536,49 +607,59 @@ var h = [{h:5}, null];
                                                 "text": 5,
                                                 "rawText": "5",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 193,
                                                 "end": 194
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 191,
                                             "end": 194
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 191,
                                     "end": 194
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 189,
                                 "end": 195
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 195,
                                 "end": 197
                             },
                             "alternate": {
                                 "kind": 138477575,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 197,
                                 "end": 202
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 182,
                             "end": 202
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 178,
                         "end": 202
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 178,
                 "end": 202
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 174,
             "end": 203
         },
@@ -588,6 +669,7 @@ var h = [{h:5}, null];
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 203,
                 "end": 207
             },
@@ -601,6 +683,7 @@ var h = [{h:5}, null];
                             "text": "h",
                             "rawText": "h",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 207,
                             "end": 209
                         },
@@ -623,6 +706,7 @@ var h = [{h:5}, null];
                                                         "text": "h",
                                                         "rawText": "h",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 214,
                                                         "end": 215
                                                     },
@@ -631,49 +715,59 @@ var h = [{h:5}, null];
                                                         "text": 5,
                                                         "rawText": "5",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 216,
                                                         "end": 217
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 128,
                                                     "start": 214,
                                                     "end": 217
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 214,
                                             "end": 217
                                         },
                                         "flags": 48,
+                                        "transformFlags": 8,
                                         "start": 213,
                                         "end": 218
                                     },
                                     {
                                         "kind": 138477575,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 219,
                                         "end": 224
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 213,
                                 "end": 224
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 211,
                             "end": 225
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 207,
                         "end": 225
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 207,
                 "end": 225
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 203,
             "end": 226
         }
@@ -682,6 +776,7 @@ var h = [{h:5}, null];
     "source": "var a = false ? 1 : null;\nvar b = false ? undefined : 0;\nvar c = false ? 1 : 0;\nvar d = false ? false : true;\nvar e = false ? \"foo\" : \"bar\";\nvar f = false ? null : undefined;\nvar g = true ? {g:5} : null;\nvar h = [{h:5}, null];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 226
 }

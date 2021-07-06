@@ -31,26 +31,31 @@
                         {
                             "kind": 230,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 1
                         },
                         {
                             "kind": 230,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 2
                         }
                     ],
                     "trailingComma": true,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 4
         }
@@ -59,6 +64,7 @@
     "source": "[,,]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 4
 }

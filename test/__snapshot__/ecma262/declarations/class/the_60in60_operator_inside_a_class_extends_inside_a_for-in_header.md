@@ -39,6 +39,7 @@ for (class x extends a in b {} in c);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -48,6 +49,7 @@ for (class x extends a in b {} in c);
                 "classKeyword": {
                     "kind": 37822544,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 10
                 },
@@ -56,6 +58,7 @@ for (class x extends a in b {} in c);
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
@@ -67,6 +70,7 @@ for (class x extends a in b {} in c);
                         "extendsKeyword": {
                             "kind": 4194391,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 20
                         },
@@ -75,11 +79,13 @@ for (class x extends a in b {} in c);
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 22
                         },
                         "typeParameter": null,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 22
                     },
@@ -87,20 +93,24 @@ for (class x extends a in b {} in c);
                         "kind": 303,
                         "elements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 12
                     },
                     "flags": 12,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 12
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 22
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 25
             },
@@ -109,6 +119,7 @@ for (class x extends a in b {} in c);
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 27
             },
@@ -118,14 +129,17 @@ for (class x extends a in b {} in c);
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 29
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 30
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         },
@@ -138,12 +152,14 @@ for (class x extends a in b {} in c);
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 30
                 },
                 "operatorToken": {
                     "kind": 21006388,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 33
                 },
@@ -152,20 +168,24 @@ for (class x extends a in b {} in c);
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 35
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 30,
             "end": 35
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 36,
             "end": 37
         }
@@ -174,6 +194,7 @@ for (class x extends a in b {} in c);
     "source": "for (class x extends a in b {} in c);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }

@@ -53,22 +53,26 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 4
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 4
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 1,
                         "end": 6
                     },
                     "operatorToken": {
                         "kind": 4138,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 10
                     },
@@ -82,28 +86,34 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "text": 2,
                                     "rawText": "2",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 14
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 14
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 10,
                         "end": 16
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 1,
                     "end": 16
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         },
@@ -125,12 +135,14 @@ x({ x: x &&= 2 ] = { x: 2 });
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 24
                                     },
                                     "operatorToken": {
                                         "kind": 4138,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 28
                                     },
@@ -139,26 +151,31 @@ x({ x: x &&= 2 ] = { x: 2 });
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 30
                                     },
                                     "flags": 0,
+                                    "transformFlags": 128,
                                     "start": 22,
                                     "end": 30
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 30
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 21,
                         "end": 32
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 34
                     },
@@ -172,28 +189,34 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "text": 2,
                                     "rawText": "2",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 38
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 36,
                             "end": 38
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 34,
                         "end": 40
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 21,
                     "end": 40
                 },
                 "flags": 18,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 41
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 18,
             "end": 42
         },
@@ -213,22 +236,26 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 46,
                                     "end": 48
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 46,
                             "end": 48
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 45,
                         "end": 50
                     },
                     "operatorToken": {
                         "kind": 4138,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 50,
                         "end": 54
                     },
@@ -245,6 +272,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 56,
                                         "end": 58
                                     },
@@ -253,32 +281,39 @@ x({ x: x &&= 2 ] = { x: 2 });
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 59,
                                         "end": 61
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 56,
                                     "end": 61
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 56,
                             "end": 61
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 54,
                         "end": 63
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 45,
                     "end": 63
                 },
                 "flags": 42,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 64
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 42,
             "end": 65
         },
@@ -290,14 +325,17 @@ x({ x: x &&= 2 ] = { x: 2 });
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 65,
                     "end": 80
                 },
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 80
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 65,
             "end": 80
         },
@@ -313,12 +351,14 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 86,
                             "end": 88
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 88,
                             "end": 89
                         },
@@ -329,29 +369,35 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 "text": 2,
                                 "rawText": "2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 89,
                                 "end": 91
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 89,
                             "end": 91
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 86,
                         "end": 91
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 86,
                 "end": 91
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 84,
             "end": 93
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 94,
             "end": 95
         },
@@ -371,22 +417,26 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 99,
                                     "end": 101
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 99,
                             "end": 101
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 98,
                         "end": 103
                     },
                     "operatorToken": {
                         "kind": 4139,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 103,
                         "end": 107
                     },
@@ -400,28 +450,34 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "text": 2,
                                     "rawText": "2",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 109,
                                     "end": 111
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 109,
                             "end": 111
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 107,
                         "end": 113
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 98,
                     "end": 113
                 },
                 "flags": 95,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 114
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 95,
             "end": 115
         },
@@ -443,12 +499,14 @@ x({ x: x &&= 2 ] = { x: 2 });
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 119,
                                         "end": 121
                                     },
                                     "operatorToken": {
                                         "kind": 4139,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 121,
                                         "end": 125
                                     },
@@ -457,26 +515,31 @@ x({ x: x &&= 2 ] = { x: 2 });
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 125,
                                         "end": 127
                                     },
                                     "flags": 0,
+                                    "transformFlags": 128,
                                     "start": 119,
                                     "end": 127
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 119,
                             "end": 127
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 118,
                         "end": 129
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 129,
                         "end": 131
                     },
@@ -490,28 +553,34 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "text": 2,
                                     "rawText": "2",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 133,
                                     "end": 135
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 133,
                             "end": 135
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 131,
                         "end": 137
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 118,
                     "end": 137
                 },
                 "flags": 115,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 138
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 115,
             "end": 139
         },
@@ -531,22 +600,26 @@ x({ x: x &&= 2 ] = { x: 2 });
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 143,
                                     "end": 145
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 143,
                             "end": 145
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 142,
                         "end": 147
                     },
                     "operatorToken": {
                         "kind": 4139,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 147,
                         "end": 151
                     },
@@ -563,6 +636,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 153,
                                         "end": 155
                                     },
@@ -571,32 +645,39 @@ x({ x: x &&= 2 ] = { x: 2 });
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 156,
                                         "end": 158
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 153,
                                     "end": 158
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 153,
                             "end": 158
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 151,
                         "end": 160
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 142,
                     "end": 160
                 },
                 "flags": 139,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 161
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 139,
             "end": 162
         },
@@ -608,14 +689,17 @@ x({ x: x &&= 2 ] = { x: 2 });
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 162,
                     "end": 177
                 },
                 "flags": 162,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 177
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 162,
             "end": 177
         },
@@ -631,12 +715,14 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 183,
                             "end": 185
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 185,
                             "end": 186
                         },
@@ -647,29 +733,35 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 "text": 2,
                                 "rawText": "2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 186,
                                 "end": 188
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 186,
                             "end": 188
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 183,
                         "end": 188
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 183,
                 "end": 188
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 181,
             "end": 190
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 191,
             "end": 192
         },
@@ -682,6 +774,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 192,
                     "end": 195
                 },
@@ -701,6 +794,7 @@ x({ x: x &&= 2 ] = { x: 2 });
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 197,
                                             "end": 199
                                         },
@@ -711,12 +805,14 @@ x({ x: x &&= 2 ] = { x: 2 });
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 200,
                                                 "end": 202
                                             },
                                             "operatorToken": {
                                                 "kind": 4139,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 202,
                                                 "end": 206
                                             },
@@ -725,38 +821,46 @@ x({ x: x &&= 2 ] = { x: 2 });
                                                 "text": 2,
                                                 "rawText": "2",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 206,
                                                 "end": 208
                                             },
                                             "flags": 0,
+                                            "transformFlags": 128,
                                             "start": 197,
                                             "end": 208
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 197,
                                         "end": 208
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 197,
                                 "end": 208
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 196,
                             "end": 208
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 196,
                     "end": 208
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 192,
                 "end": 208
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 192,
             "end": 208
         },
@@ -772,12 +876,14 @@ x({ x: x &&= 2 ] = { x: 2 });
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 214,
                             "end": 216
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 216,
                             "end": 217
                         },
@@ -788,29 +894,35 @@ x({ x: x &&= 2 ] = { x: 2 });
                                 "text": 2,
                                 "rawText": "2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 217,
                                 "end": 219
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 217,
                             "end": 219
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 214,
                         "end": 219
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 214,
                 "end": 219
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 212,
             "end": 221
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 222,
             "end": 223
         }
@@ -819,6 +931,7 @@ x({ x: x &&= 2 ] = { x: 2 });
     "source": "([ x ] ||= [ 2 ]);\n\n([ x ||= 2 ] = [ 2 ]);\n\n({ x } ||= { x: 2 });\n\n({ x: x ||= 2 ] = { x: 2 });\n\n([ x ] &&= [ 2 ]);\n\n([ x &&= 2 ] = [ 2 ]);\n\n({ x } &&= { x: 2 });\n\n({ x: x &&= 2 ] = { x: 2 });\n\nx({ x: x &&= 2 ] = { x: 2 });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 223
 }

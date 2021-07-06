@@ -31,6 +31,7 @@ foo( a instanceof b + c )
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -46,12 +47,14 @@ foo( a instanceof b + c )
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 4,
                                     "end": 6
                                 },
                                 "operatorToken": {
                                     "kind": 4229173,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 17
                                 },
@@ -60,16 +63,19 @@ foo( a instanceof b + c )
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 19
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 19
                             },
                             "operatorToken": {
                                 "kind": 99634,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 21
                             },
@@ -78,24 +84,29 @@ foo( a instanceof b + c )
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 23
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 23
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 23
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -104,6 +115,7 @@ foo( a instanceof b + c )
     "source": "foo( a instanceof b + c )",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -114,7 +126,7 @@ foo( a instanceof b + c )
 ```javascript
 
 foo(
-  a instanceof  b +  c
+  a instanceof b + c
 );
 ```
 

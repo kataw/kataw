@@ -22,12 +22,14 @@ this?.#c[d];
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 6
                 },
                 "member": {
                     "kind": 4276321,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
@@ -43,14 +45,17 @@ this?.#c[d];
                                 "text": "#c",
                                 "rawText": "#c",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 8
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 6,
                             "end": 8
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 8
                     },
@@ -59,18 +64,22 @@ this?.#c[d];
                         "text": "d",
                         "rawText": "d",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 10
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 8,
                     "end": 10
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -79,6 +88,7 @@ this?.#c[d];
     "source": "this?.#c[d];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

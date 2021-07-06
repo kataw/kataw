@@ -29,6 +29,7 @@ class var {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class var {}
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 5
             },
@@ -48,14 +50,17 @@ class var {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 5,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -65,6 +70,7 @@ class var {}
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -80,25 +86,30 @@ class var {}
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 11
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 12
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 9,
                         "end": 12
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 5,
             "end": 12
         }
@@ -107,6 +118,7 @@ class var {}
     "source": "class var {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

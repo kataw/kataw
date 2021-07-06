@@ -39,6 +39,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 97,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -51,20 +52,24 @@
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 21
                 },
                 "operand": {
                     "kind": 4276321,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 26
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 14,
             "end": 27
         },
@@ -75,10 +80,12 @@
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 41
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 27,
             "end": 42
         },
@@ -89,6 +96,7 @@
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 42,
                     "end": 49
                 },
@@ -97,14 +105,17 @@
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 49,
                     "end": 51
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 42,
                 "end": 51
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 42,
             "end": 52
         },
@@ -115,10 +126,12 @@
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 52,
                 "end": 66
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 52,
             "end": 67
         },
@@ -129,6 +142,7 @@
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 67,
                     "end": 74
                 },
@@ -139,6 +153,7 @@
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 74,
                         "end": 78
                     },
@@ -147,18 +162,22 @@
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 79,
                         "end": 79
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 74,
                     "end": 80
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 67,
                 "end": 80
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 67,
             "end": 81
         },
@@ -169,10 +188,12 @@
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 81,
                 "end": 95
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 81,
             "end": 96
         },
@@ -185,6 +206,7 @@
                     "operandToken": {
                         "kind": 4259886,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 96,
                         "end": 103
                     },
@@ -193,16 +215,19 @@
                         "text": 1,
                         "rawText": "1",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 103,
                         "end": 105
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 96,
                     "end": 105
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 105,
                     "end": 107
                 },
@@ -211,14 +236,17 @@
                     "text": 2,
                     "rawText": "2",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 107,
                     "end": 109
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 96,
                 "end": 109
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 96,
             "end": 110
         },
@@ -229,10 +257,12 @@
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 110,
                 "end": 124
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 110,
             "end": 125
         },
@@ -243,6 +273,7 @@
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 125,
                     "end": 132
                 },
@@ -253,6 +284,7 @@
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 132,
                         "end": 136
                     },
@@ -261,18 +293,22 @@
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 137,
                         "end": 140
                     },
                     "flags": 96,
+                    "transformFlags": 2,
                     "start": 132,
                     "end": 140
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 125,
                 "end": 140
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 125,
             "end": 141
         },
@@ -283,10 +319,12 @@
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 141,
                 "end": 155
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 141,
             "end": 156
         },
@@ -297,6 +335,7 @@
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 156,
                     "end": 163
                 },
@@ -307,6 +346,7 @@
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 163,
                         "end": 167
                     },
@@ -315,18 +355,22 @@
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 168,
                         "end": 171
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 163,
                     "end": 172
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 156,
                 "end": 172
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 156,
             "end": 173
         },
@@ -337,10 +381,12 @@
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 173,
                 "end": 187
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 173,
             "end": 188
         },
@@ -351,6 +397,7 @@
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 188,
                     "end": 195
                 },
@@ -359,6 +406,7 @@
                     "operandToken": {
                         "kind": 196636,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 199,
                         "end": 201
                     },
@@ -367,18 +415,22 @@
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 195,
                         "end": 199
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 195,
                     "end": 201
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 188,
                 "end": 201
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 188,
             "end": 202
         },
@@ -389,10 +441,12 @@
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 202,
                 "end": 216
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 202,
             "end": 217
         },
@@ -403,6 +457,7 @@
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 217,
                     "end": 224
                 },
@@ -411,6 +466,7 @@
                     "operandToken": {
                         "kind": 196636,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 224,
                         "end": 227
                     },
@@ -419,18 +475,22 @@
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 227,
                         "end": 230
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 224,
                     "end": 230
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 217,
                 "end": 230
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 217,
             "end": 231
         },
@@ -441,10 +501,12 @@
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 231,
                 "end": 245
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 231,
             "end": 246
         },
@@ -455,6 +517,7 @@
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 246,
                     "end": 253
                 },
@@ -463,6 +526,7 @@
                     "newKeyword": {
                         "kind": 138477661,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 253,
                         "end": 257
                     },
@@ -471,6 +535,7 @@
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 257,
                         "end": 261
                     },
@@ -479,18 +544,22 @@
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 262,
                         "end": 262
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 253,
                     "end": 263
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 246,
                 "end": 263
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 246,
             "end": 264
         },
@@ -501,10 +570,12 @@
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 264,
                 "end": 278
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 264,
             "end": 279
         },
@@ -515,6 +586,7 @@
                 "operandToken": {
                     "kind": 4259886,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 279,
                     "end": 286
                 },
@@ -523,6 +595,7 @@
                     "newKeyword": {
                         "kind": 138477661,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 286,
                         "end": 290
                     },
@@ -531,6 +604,7 @@
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 290,
                         "end": 294
                     },
@@ -542,24 +616,29 @@
                                 "text": "bar",
                                 "rawText": "bar",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 295,
                                 "end": 298
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 295,
                         "end": 298
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 286,
                     "end": 299
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 279,
                 "end": 299
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 279,
             "end": 300
         }
@@ -568,6 +647,7 @@
     "source": "\n\"use strict\"; delete this;\n\n\"use strict\"; delete 1;\n\n\"use strict\"; delete foo();\n\n\"use strict\"; delete 1 + 2;\n\n\"use strict\"; delete foo.bar;\n\n\"use strict\"; delete foo[bar];\n\n\"use strict\"; delete foo--;\n\n\"use strict\"; delete --foo;\n\n\"use strict\"; delete new foo();\n\n\"use strict\"; delete new foo(bar);\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 301
 }
@@ -589,7 +669,7 @@ delete foo();
 
 "\"use strict\"";
 
-delete 1 +  2;
+delete 1 + 2;
 
 "\"use strict\"";
 

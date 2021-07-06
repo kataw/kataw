@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { Identifier } from '../expressions/identifier-expr';
 import { StringLiteral } from '../expressions/string-literal';
@@ -26,6 +26,7 @@ export function createExportSpecifier(
     asKeyword,
     binding,
     flags: NodeFlags.IsStatement,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

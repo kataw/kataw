@@ -22,12 +22,14 @@ foo: while(true)continue foo;
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 4
             },
@@ -36,12 +38,14 @@ foo: while(true)continue foo;
                 "whileKeyword": {
                     "kind": 37757028,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 10
                 },
                 "expression": {
                     "kind": 24752947,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 15
                 },
@@ -50,6 +54,7 @@ foo: while(true)continue foo;
                     "continueKeyword": {
                         "kind": 37757009,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 24
                     },
@@ -58,18 +63,22 @@ foo: while(true)continue foo;
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 28
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 29
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -78,6 +87,7 @@ foo: while(true)continue foo;
     "source": "foo: while(true)continue foo;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

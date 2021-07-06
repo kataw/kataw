@@ -32,6 +32,7 @@ function g(x: any): string {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -41,6 +42,7 @@ function g(x: any): string {
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -56,6 +58,7 @@ function g(x: any): string {
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
@@ -67,21 +70,25 @@ function g(x: any): string {
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 17
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 17
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 17
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 17
             },
@@ -96,6 +103,7 @@ function g(x: any): string {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 37
                             },
@@ -106,12 +114,14 @@ function g(x: any): string {
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 39
                                 },
                                 "operatorToken": {
                                     "kind": 33047,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 42
                                 },
@@ -120,23 +130,28 @@ function g(x: any): string {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 42,
                                     "end": 44
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 44
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 28,
                             "end": 45
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 45
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 47
             },
@@ -147,14 +162,17 @@ function g(x: any): string {
                 "type": {
                     "kind": 134234347,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 26
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 47
         }
@@ -163,6 +181,7 @@ function g(x: any): string {
     "source": "function g(x: any): string {\n  return x ?? 1;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 47
 }
@@ -173,7 +192,7 @@ function g(x: any): string {
 ```javascript
 
 function g(x: any ): string  {
-  return x ??  1;
+  return x ?? 1;
 }
 ```
 

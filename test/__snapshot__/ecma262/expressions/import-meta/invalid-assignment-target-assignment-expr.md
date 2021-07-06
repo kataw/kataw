@@ -30,22 +30,26 @@ import.meta = 0;
                     "importKeyword": {
                         "kind": 37814364,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 6
                     },
                     "metaIdentifier": {
                         "kind": 16595,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 11
                     },
                     "flags": 6,
+                    "transformFlags": 0,
                     "start": 96,
                     "end": 11
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
@@ -54,14 +58,17 @@ import.meta = 0;
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -70,6 +77,7 @@ import.meta = 0;
     "source": "import.meta = 0;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

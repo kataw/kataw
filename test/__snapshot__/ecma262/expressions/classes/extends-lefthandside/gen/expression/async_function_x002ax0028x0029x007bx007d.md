@@ -32,6 +32,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -40,6 +41,7 @@
                         "text": "B",
                         "rawText": "B",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 8
                     },
@@ -51,6 +53,7 @@
                             "extendsKeyword": {
                                 "kind": 4194391,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 16
                             },
@@ -59,18 +62,21 @@
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 22
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 31
                                 },
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
+                                    "transformFlags": 32,
                                     "start": 31,
                                     "end": 33
                                 },
@@ -81,6 +87,7 @@
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 34
                                 },
@@ -91,20 +98,24 @@
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 36,
                                         "end": 36
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 37
                                 },
                                 "returnType": null,
                                 "flags": 416,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 37
                             },
                             "typeParameter": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 37
                         },
@@ -112,22 +123,27 @@
                             "kind": 303,
                             "elements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 39
                         },
                         "flags": 8,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 40
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 40
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 41
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 41
         }
@@ -136,6 +152,7 @@
     "source": "(class B extends async function *(){} {})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }

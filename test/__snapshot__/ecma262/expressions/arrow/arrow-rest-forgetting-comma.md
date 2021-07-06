@@ -23,14 +23,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 2
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 2
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 2
         },
@@ -41,10 +44,12 @@
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 6,
             "end": 7
         },
@@ -55,10 +60,12 @@
                 "text": 0,
                 "rawText": "0",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 13
         }
@@ -67,6 +74,7 @@
     "source": "(a ...b) => 0",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

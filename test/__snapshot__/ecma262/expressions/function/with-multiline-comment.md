@@ -28,6 +28,7 @@ x; })
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 9
                     },
@@ -39,6 +40,7 @@ x; })
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 10
                     },
@@ -53,6 +55,7 @@ x; })
                                     "returnKeyword": {
                                         "kind": 37757022,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 19
                                     },
@@ -61,32 +64,39 @@ x; })
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 44
                                     },
                                     "flags": 80,
+                                    "transformFlags": 256,
                                     "start": 12,
                                     "end": 45
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 45
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 47
                     },
                     "returnType": null,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 47
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 48
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 49
         },
@@ -100,6 +110,7 @@ x; })
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 52,
                         "end": 60
                     },
@@ -111,6 +122,7 @@ x; })
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 61,
                         "end": 61
                     },
@@ -125,11 +137,13 @@ x; })
                                     "returnKeyword": {
                                         "kind": 37757022,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 63,
                                         "end": 70
                                     },
                                     "expression": null,
                                     "flags": 80,
+                                    "transformFlags": 256,
                                     "start": 63,
                                     "end": 70
                                 },
@@ -140,32 +154,39 @@ x; })
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 97,
+                                        "transformFlags": 0,
                                         "start": 70,
                                         "end": 83
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 70,
                                     "end": 84
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 63,
                             "end": 84
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 62,
                         "end": 86
                     },
                     "returnType": null,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 52,
                     "end": 86
                 },
                 "flags": 49,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 87
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 49,
             "end": 87
         }
@@ -174,6 +195,7 @@ x; })
     "source": "(function(){ return/* Multiline\\nComment */x; });\n\n(function(){ return // Comment\nx; })",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 87
 }

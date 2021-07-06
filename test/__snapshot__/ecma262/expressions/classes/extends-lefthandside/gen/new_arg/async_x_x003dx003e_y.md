@@ -31,6 +31,7 @@ x => y
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -39,15 +40,18 @@ x => y
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 9
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -62,6 +66,7 @@ x => y
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
@@ -69,6 +74,7 @@ x => y
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 14
                 },
@@ -77,14 +83,17 @@ x => y
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 16
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 9,
             "end": 16
         }
@@ -93,6 +102,7 @@ x => y
     "source": "new async\nx => y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

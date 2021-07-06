@@ -31,6 +31,7 @@ class D {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -39,6 +40,7 @@ class D {
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -65,6 +67,7 @@ class D {
                                     "text": "ma",
                                     "rawText": "ma",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 25
                                 },
@@ -74,6 +77,7 @@ class D {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 27
                                 },
@@ -85,18 +89,22 @@ class D {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 29
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 30
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 30
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 30
                         },
@@ -116,6 +124,7 @@ class D {
                                     "text": "mb",
                                     "rawText": "mb",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 53
                                 },
@@ -125,6 +134,7 @@ class D {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 54,
                                     "end": 55
                                 },
@@ -136,31 +146,38 @@ class D {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 57,
                                         "end": 57
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 55,
                                     "end": 58
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 53,
                                 "end": 58
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 58
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 58
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 60
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 0,
             "end": 60
         },
@@ -171,6 +188,7 @@ class D {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 60,
                 "end": 67
             },
@@ -179,6 +197,7 @@ class D {
                 "text": "D",
                 "rawText": "D",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 67,
                 "end": 69
             },
@@ -205,6 +224,7 @@ class D {
                                     "text": "ma",
                                     "rawText": "ma",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 71,
                                     "end": 78
                                 },
@@ -214,6 +234,7 @@ class D {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 79,
                                     "end": 80
                                 },
@@ -225,18 +246,22 @@ class D {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 82,
                                         "end": 82
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 80,
                                     "end": 83
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 78,
                                 "end": 83
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 71,
                             "end": 83
                         },
@@ -256,6 +281,7 @@ class D {
                                     "text": "mb",
                                     "rawText": "mb",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 83,
                                     "end": 114
                                 },
@@ -265,6 +291,7 @@ class D {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 115,
                                     "end": 116
                                 },
@@ -276,31 +303,38 @@ class D {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 118,
                                         "end": 118
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 116,
                                     "end": 119
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 114,
                                 "end": 119
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 83,
                             "end": 119
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 71,
                     "end": 119
                 },
                 "flags": 69,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 121
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 60,
             "end": 121
         }
@@ -309,6 +343,7 @@ class D {
     "source": "// #8718\nclass C {\n    ma() {} /* D */ /* E */\n    mb() {}\n}\n\nclass D {\n    ma() {} /* D */ /* E */ /* F */\n    mb() {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 121
 }

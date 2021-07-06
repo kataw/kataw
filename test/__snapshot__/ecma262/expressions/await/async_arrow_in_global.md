@@ -20,6 +20,7 @@ async (await) => x
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -32,12 +33,14 @@ async (await) => x
                         "text": "await",
                         "rawText": "await",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 12
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 13
             },
@@ -45,6 +48,7 @@ async (await) => x
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 16
             },
@@ -53,10 +57,12 @@ async (await) => x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 18
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -65,6 +71,7 @@ async (await) => x
     "source": "async (await) => x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

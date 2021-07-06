@@ -22,10 +22,12 @@
                 "text": "a 4 b",
                 "rawText": "a \\4 b",
                 "flags": 134217824,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         }
@@ -34,6 +36,7 @@
     "source": "`a \\4 b`;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

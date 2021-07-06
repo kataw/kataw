@@ -39,6 +39,7 @@ for ([x.y] in obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -54,6 +55,7 @@ for ([x.y] in obj);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 7
                             },
@@ -62,26 +64,31 @@ for ([x.y] in obj);
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             },
                             "flags": 96,
+                            "transformFlags": 2,
                             "start": 6,
                             "end": 9
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 9
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 5,
                 "end": 10
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 13
             },
@@ -90,16 +97,19 @@ for ([x.y] in obj);
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -108,6 +118,7 @@ for ([x.y] in obj);
     "source": "for ([x.y] in obj);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

@@ -66,6 +66,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -74,14 +75,17 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         },
@@ -94,6 +98,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 16
                 },
@@ -105,20 +110,24 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 18
                         }
                     ],
                     "trailingComma": true,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 13,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 27
         },
@@ -131,6 +140,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 30
                 },
@@ -142,20 +152,24 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 37
                         }
                     ],
                     "trailingComma": true,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 38
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 27,
                 "end": 44
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 27,
             "end": 46
         },
@@ -168,6 +182,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 46,
                     "end": 49
                 },
@@ -179,20 +194,24 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 55,
                             "end": 56
                         }
                     ],
                     "trailingComma": true,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 55,
                     "end": 57
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 46,
                 "end": 63
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 46,
             "end": 65
         },
@@ -205,6 +224,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 65,
                     "end": 68
                 },
@@ -216,20 +236,24 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 74,
                             "end": 75
                         }
                     ],
                     "trailingComma": true,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 74,
                     "end": 76
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 65,
                 "end": 82
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 65,
             "end": 89
         },
@@ -244,6 +268,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 92,
                         "end": 93
                     },
@@ -255,24 +280,29 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 99,
                                 "end": 100
                             }
                         ],
                         "trailingComma": true,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 99,
                         "end": 101
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 89,
                     "end": 107
                 },
                 "flags": 89,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 114
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 89,
             "end": 115
         },
@@ -287,6 +317,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 118,
                         "end": 119
                     },
@@ -298,24 +329,29 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 127,
                                 "end": 128
                             }
                         ],
                         "trailingComma": true,
                         "flags": 33,
+                        "transformFlags": 0,
                         "start": 127,
                         "end": 129
                     },
                     "flags": 268435489,
+                    "transformFlags": 1,
                     "start": 115,
                     "end": 135
                 },
                 "flags": 115,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 145
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 115,
             "end": 146
         },
@@ -328,6 +364,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 146,
                     "end": 150
                 },
@@ -339,20 +376,24 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 156,
                             "end": 157
                         }
                     ],
                     "trailingComma": true,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 156,
                     "end": 158
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 146,
                 "end": 184
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 146,
             "end": 186
         },
@@ -365,6 +406,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "text": "let",
                     "rawText": "let",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 186,
                     "end": 193
                 },
@@ -380,16 +422,19 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 196,
                                     "end": 196
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 195,
                                 "end": 202
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 202,
                                 "end": 208
                             },
@@ -398,24 +443,29 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 208,
                                 "end": 214
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 195,
                             "end": 214
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 195,
                     "end": 214
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 186,
                 "end": 215
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 186,
             "end": 217
         }
@@ -424,6 +474,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
     "source": "let (/*1*/) ;\n\nx(a,/*1*/) ;\n\nx(/*1*/a,/*2*/) ;\n\nx/*1*/(a,/*2*/) ;\n\nx/*1*/(a,/*2*/)/*3*/ ;\n\n(x/*1*/(a,/*2*/)/*3*/ );\n\n(x\n\n/*1*/(a,/*2*/)\n\n\n/*3*/ );\n\n\nx/*1*/(a,\n\n\n\n\n\n\n/*2*/\n\n\n\n\n\n\n\n\n//3\n) ;\n\n\n\nlet ({/*1*/}/*2*/=/*3*/c) ;\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 218
 }

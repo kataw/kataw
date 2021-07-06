@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -38,6 +39,7 @@
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
@@ -49,16 +51,19 @@
                         "text": "await",
                         "rawText": "await",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 25
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
             "flags": 268435488,
+            "transformFlags": 1,
             "start": 13,
             "end": 26
         },
@@ -69,10 +74,12 @@
                 "text": 1,
                 "rawText": "1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 28,
             "end": 30
         }
@@ -81,6 +88,7 @@
     "source": "\"use strict\"; async(await) = 1",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

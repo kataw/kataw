@@ -27,6 +27,7 @@ do while [catch] =! class function try while with foo!
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -35,6 +36,7 @@ do while [catch] =! class function try while with foo!
                 "whileKeyword": {
                     "kind": 37757028,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 8
                 },
@@ -45,10 +47,12 @@ do while [catch] =! class function try while with foo!
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 10
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 8,
                     "end": 10
                 },
@@ -61,10 +65,12 @@ do while [catch] =! class function try while with foo!
                             "kind": 249,
                             "statements": [],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 10
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 10
                     },
@@ -73,6 +79,7 @@ do while [catch] =! class function try while with foo!
                         "catchKeyword": {
                             "kind": 4202575,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 15
                         },
@@ -83,24 +90,29 @@ do while [catch] =! class function try while with foo!
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 15
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 15
                         },
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 15
                     },
                     "finallyKeyword": null,
                     "finallyBlock": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 15
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 15
             },
@@ -110,10 +122,12 @@ do while [catch] =! class function try while with foo!
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         },
@@ -124,6 +138,7 @@ do while [catch] =! class function try while with foo!
                 "operandToken": {
                     "kind": 65584,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 19
                 },
@@ -133,6 +148,7 @@ do while [catch] =! class function try while with foo!
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 25
                     },
@@ -145,22 +161,27 @@ do while [catch] =! class function try while with foo!
                             "kind": 303,
                             "elements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 25
                         },
                         "flags": 25,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 25
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 18,
             "end": 25
         },
@@ -171,6 +192,7 @@ do while [catch] =! class function try while with foo!
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 34
             },
@@ -182,6 +204,7 @@ do while [catch] =! class function try while with foo!
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 34
             },
@@ -192,15 +215,18 @@ do while [catch] =! class function try while with foo!
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 34,
                     "end": 34
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 34
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 25,
             "end": 34
         },
@@ -209,6 +235,7 @@ do while [catch] =! class function try while with foo!
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 38
             },
@@ -218,10 +245,12 @@ do while [catch] =! class function try while with foo!
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 38
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 38
             },
@@ -233,14 +262,17 @@ do while [catch] =! class function try while with foo!
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 38
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 38
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 34,
             "end": 38
         },
@@ -249,6 +281,7 @@ do while [catch] =! class function try while with foo!
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 44
             },
@@ -257,6 +290,7 @@ do while [catch] =! class function try while with foo!
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 44,
                 "end": 44
             },
@@ -265,6 +299,7 @@ do while [catch] =! class function try while with foo!
                 "withKeyword": {
                     "kind": 37757029,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 44,
                     "end": 49
                 },
@@ -273,6 +308,7 @@ do while [catch] =! class function try while with foo!
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 49,
                     "end": 53
                 },
@@ -283,6 +319,7 @@ do while [catch] =! class function try while with foo!
                         "operandToken": {
                             "kind": 65584,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 53,
                             "end": 54
                         },
@@ -291,22 +328,27 @@ do while [catch] =! class function try while with foo!
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 54,
                             "end": 54
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 53,
                         "end": 54
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 53,
                     "end": 54
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 44,
                 "end": 54
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 38,
             "end": 54
         }
@@ -315,6 +357,7 @@ do while [catch] =! class function try while with foo!
     "source": "do while [catch] =! class function try while with foo!",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 54
 }

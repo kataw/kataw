@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -38,12 +39,14 @@
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 22
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 22,
                 "end": 24
             },
@@ -52,6 +55,7 @@
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 25
             },
@@ -61,6 +65,7 @@
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 26
             },
@@ -77,6 +82,7 @@
                                 "yieldKeyword": {
                                     "kind": 8454253,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 33
                                 },
@@ -87,6 +93,7 @@
                                     "operandToken": {
                                         "kind": 138477613,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 40
                                     },
@@ -95,32 +102,39 @@
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 40,
                                         "end": 42
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 42
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 42
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 42
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 42
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 43
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 13,
             "end": 43
         }
@@ -129,6 +143,7 @@
     "source": "'use strict'; function *a(){yield typeof 0}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }

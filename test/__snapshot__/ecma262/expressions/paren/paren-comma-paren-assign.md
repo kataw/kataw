@@ -33,6 +33,7 @@
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 4
                                     },
@@ -41,29 +42,35 @@
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 6
                                     }
                                 ],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 7
                             },
                             "flags": 2,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 7
                         },
                         "flags": 1,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 8
                     },
                     "flags": 0,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 9
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
@@ -72,14 +79,17 @@
                     "text": 5,
                     "rawText": "5",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -88,6 +98,7 @@
     "source": "(((x,x))) = 5",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

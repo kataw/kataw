@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { BindingElement } from './binding-element';
 import { ArrayBindingPattern } from './array-binding-pattern';
 import { ObjectBindingPattern } from './object-binding-pattern';
@@ -35,6 +35,7 @@ export function createBindingElementList(
     elements,
     trailingComma,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

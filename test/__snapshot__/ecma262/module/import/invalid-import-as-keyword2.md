@@ -26,6 +26,7 @@ import { s as static } from 'm.js'
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ import { s as static } from 'm.js'
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 27
                 },
@@ -44,10 +46,12 @@ import { s as static } from 'm.js'
                     "text": "m.js",
                     "rawText": "'m.js'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 34
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 34
             },
@@ -70,12 +74,14 @@ import { s as static } from 'm.js'
                                     "text": "s",
                                     "rawText": "s",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 10
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 13
                                 },
@@ -84,27 +90,33 @@ import { s as static } from 'm.js'
                                     "text": "static",
                                     "rawText": "static",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 20
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 20
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 20
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 22
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 22
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -113,6 +125,7 @@ import { s as static } from 'm.js'
     "source": "import { s as static } from 'm.js'",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

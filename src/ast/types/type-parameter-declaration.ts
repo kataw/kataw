@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { TypeParameterList } from './type-parameter-list';
 
 export interface TypeParameterDeclaration extends SyntaxNode {
@@ -15,6 +15,7 @@ export function createTypeParameterDeclaration(
     kind: SyntaxKind.TypeParameterDeclaration,
     declarations,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

@@ -28,6 +28,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -36,6 +37,7 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 8
                     },
@@ -62,6 +64,7 @@
                                             "text": "constructor",
                                             "rawText": "constructor",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 24
                                         },
@@ -71,6 +74,7 @@
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 2048,
+                                            "transformFlags": 0,
                                             "start": 26,
                                             "end": 27
                                         },
@@ -82,18 +86,22 @@
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 29,
                                                 "end": 29
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 30
                                         },
                                         "flags": 2048,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 30
                                     },
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 30
                                 },
@@ -113,6 +121,7 @@
                                             "text": "constructor",
                                             "rawText": "constructor",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 44
                                         },
@@ -122,6 +131,7 @@
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 2048,
+                                            "transformFlags": 0,
                                             "start": 46,
                                             "end": 47
                                         },
@@ -133,39 +143,48 @@
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 49,
                                                 "end": 49
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 47,
                                             "end": 50
                                         },
                                         "flags": 2048,
+                                        "transformFlags": 0,
                                         "start": 44,
                                         "end": 50
                                     },
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 50
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 50
                         },
                         "flags": 8,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 52
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 52
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 53
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 53
         }
@@ -174,6 +193,7 @@
     "source": "(class x {\n  constructor () {}\n  constructor () {}\n})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 53
 }

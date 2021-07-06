@@ -26,12 +26,14 @@ export default () => x
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -44,6 +46,7 @@ export default () => x
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 16
                 },
@@ -51,6 +54,7 @@ export default () => x
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 20
                 },
@@ -59,14 +63,17 @@ export default () => x
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 22
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -75,6 +82,7 @@ export default () => x
     "source": "export default () => x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

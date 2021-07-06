@@ -31,6 +31,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -39,6 +40,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                 "text": "Expr",
                 "rawText": "Expr",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 9
             },
@@ -54,6 +56,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 11
                             },
@@ -61,22 +64,26 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 11
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 11
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 12
             },
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 14
             },
@@ -94,6 +101,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                 "text": "FieldExpr",
                                 "rawText": "FieldExpr",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 24
                             },
@@ -113,29 +121,35 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                                     "text": "T",
                                                     "rawText": "T",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 25,
                                                     "end": 26
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 26
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 26
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 26
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 27
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 27
                         },
@@ -146,6 +160,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                 "text": "LiteralExpr",
                                 "rawText": "LiteralExpr",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 41
                             },
@@ -165,42 +180,51 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                                     "text": "T",
                                                     "rawText": "T",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 42,
                                                     "end": 43
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 42,
                                                 "end": 43
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 42,
                                             "end": 43
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 42,
                                     "end": 43
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 41,
                                 "end": 44
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 44
                         }
                     ],
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 44
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 44
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 45
         },
@@ -210,6 +234,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 51
             },
@@ -218,6 +243,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                 "text": "ConstantExpr",
                 "rawText": "ConstantExpr",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 51,
                 "end": 64
             },
@@ -233,6 +259,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 65,
                                 "end": 66
                             },
@@ -240,22 +267,26 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 65,
                             "end": 66
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 65,
                     "end": 66
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 64,
                 "end": 67
             },
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 67,
                 "end": 69
             },
@@ -273,6 +304,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                 "text": "Expr",
                                 "rawText": "Expr",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 69,
                                 "end": 74
                             },
@@ -292,29 +324,35 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                                     "text": "Constant",
                                                     "rawText": "Constant",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 75,
                                                     "end": 83
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 75,
                                                 "end": 83
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 75,
                                             "end": 83
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 75,
                                     "end": 83
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 74,
                                 "end": 84
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 69,
                             "end": 84
                         },
@@ -325,6 +363,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                 "text": "LiteralExpr",
                                 "rawText": "LiteralExpr",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 86,
                                 "end": 98
                             },
@@ -344,42 +383,51 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                                     "text": "T",
                                                     "rawText": "T",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 99,
                                                     "end": 100
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 99,
                                                 "end": 100
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 99,
                                             "end": 100
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 99,
                                     "end": 100
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 98,
                                 "end": 101
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 86,
                             "end": 101
                         }
                     ],
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 84,
                     "end": 101
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 69,
                 "end": 101
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 45,
             "end": 102
         }
@@ -388,6 +436,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
     "source": "type Expr<T> = FieldExpr<T> | LiteralExpr<T>;\n\ntype ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 102
 }

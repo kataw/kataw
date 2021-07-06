@@ -30,6 +30,7 @@ x[a
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -38,14 +39,17 @@ x[a
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 3
                 },
                 "flags": 536870944,
+                "transformFlags": 4,
                 "start": 0,
                 "end": 3
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 3
         }
@@ -54,6 +58,7 @@ x[a
     "source": "x[a",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 3
 }

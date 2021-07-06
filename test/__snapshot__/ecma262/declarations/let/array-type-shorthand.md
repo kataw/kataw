@@ -28,6 +28,7 @@ let arr: number[] = [0, 1, 2, 3];
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let arr: number[] = [0, 1, 2, 3];
                             "text": "arr",
                             "rawText": "arr",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -53,14 +55,17 @@ let arr: number[] = [0, 1, 2, 3];
                                 "type": {
                                     "kind": 134234345,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 15
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 17
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 17
                         },
@@ -74,6 +79,7 @@ let arr: number[] = [0, 1, 2, 3];
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 22
                                     },
@@ -82,6 +88,7 @@ let arr: number[] = [0, 1, 2, 3];
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 25
                                     },
@@ -90,6 +97,7 @@ let arr: number[] = [0, 1, 2, 3];
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 28
                                     },
@@ -98,29 +106,35 @@ let arr: number[] = [0, 1, 2, 3];
                                         "text": 3,
                                         "rawText": "3",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 31
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 31
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 19,
                             "end": 32
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 32
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 32
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -129,6 +143,7 @@ let arr: number[] = [0, 1, 2, 3];
     "source": "let arr: number[] = [0, 1, 2, 3];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

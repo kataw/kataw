@@ -28,10 +28,12 @@ left@{xa0}@right
                 "text": "left",
                 "rawText": "left",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 4
         },
@@ -46,6 +48,7 @@ left@{xa0}@right
                         "decoratorToken": {
                             "kind": 34611453,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 5
                         },
@@ -54,15 +57,18 @@ left@{xa0}@right
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 5
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 5
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 5
             },
@@ -86,6 +92,7 @@ left@{xa0}@right
                                 "text": "xa0",
                                 "rawText": "xa0",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 9
                             },
@@ -93,19 +100,23 @@ left@{xa0}@right
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 6,
                             "end": 9
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 9
                 },
                 "flags": 5,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 4,
             "end": 10
         },
@@ -120,6 +131,7 @@ left@{xa0}@right
                         "decoratorToken": {
                             "kind": 34611453,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 11
                         },
@@ -128,15 +140,18 @@ left@{xa0}@right
                             "text": "right",
                             "rawText": "right",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 16
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 16
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 16
             },
@@ -146,6 +161,7 @@ left@{xa0}@right
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 16
             },
@@ -157,14 +173,17 @@ left@{xa0}@right
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 16
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 16
         }
@@ -173,6 +192,7 @@ left@{xa0}@right
     "source": "left@{xa0}@right",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

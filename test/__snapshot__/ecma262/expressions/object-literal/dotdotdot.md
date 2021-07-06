@@ -21,6 +21,7 @@ var { ...{ x = 5 } } = {x : 1};
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -39,6 +40,7 @@ var { ...{ x = 5 } } = {x : 1};
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 9
                                         },
@@ -47,6 +49,7 @@ var { ...{ x = 5 } } = {x : 1};
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 9
                                         },
@@ -54,6 +57,7 @@ var { ...{ x = 5 } } = {x : 1};
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 9
                                     },
@@ -64,6 +68,7 @@ var { ...{ x = 5 } } = {x : 1};
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 9
                                         },
@@ -80,6 +85,7 @@ var { ...{ x = 5 } } = {x : 1};
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 10,
                                                             "end": 12
                                                         },
@@ -90,35 +96,42 @@ var { ...{ x = 5 } } = {x : 1};
                                                             "text": 5,
                                                             "rawText": "5",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 14,
                                                             "end": 16
                                                         },
                                                         "flags": 0,
+                                                        "transformFlags": 0,
                                                         "start": 10,
                                                         "end": 16
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 16
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 18
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 18
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 18
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 20
                         },
@@ -136,6 +149,7 @@ var { ...{ x = 5 } } = {x : 1};
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 24,
                                             "end": 25
                                         },
@@ -144,33 +158,40 @@ var { ...{ x = 5 } } = {x : 1};
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 29
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 24,
                                         "end": 29
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 29
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 22,
                             "end": 30
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 30
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -179,6 +200,7 @@ var { ...{ x = 5 } } = {x : 1};
     "source": "var { ...{ x = 5 } } = {x : 1};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

@@ -50,6 +50,7 @@
                                     "text": "X",
                                     "rawText": "\"X\"",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1,
                                     "end": 4
                                 },
@@ -58,26 +59,31 @@
                                     "text": "length",
                                     "rawText": "length",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 11
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 1,
                                 "end": 11
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 11
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 12
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 14
                 },
@@ -86,14 +92,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 16
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -102,6 +111,7 @@
     "source": "[\"X\".length] = x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

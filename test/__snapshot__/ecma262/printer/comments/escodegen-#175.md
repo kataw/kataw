@@ -24,12 +24,14 @@ test/**/*-test.js
                     "text": "test",
                     "rawText": "test",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 4,
                     "end": 9
                 },
@@ -38,6 +40,7 @@ test/**/*-test.js
                     "operandToken": {
                         "kind": 134318643,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 10
                     },
@@ -48,6 +51,7 @@ test/**/*-test.js
                             "text": "test",
                             "rawText": "test",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 14
                         },
@@ -56,22 +60,27 @@ test/**/*-test.js
                             "text": "js",
                             "rawText": "js",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 17
                         },
                         "flags": 96,
+                        "transformFlags": 2,
                         "start": 10,
                         "end": 17
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 17
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -80,6 +89,7 @@ test/**/*-test.js
     "source": "test/**/*-test.js",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }
@@ -89,7 +99,7 @@ test/**/*-test.js
 
 ```javascript
 
-test *  -test.js;
+test * -test.js;
 ```
 
 ### Diagnostics

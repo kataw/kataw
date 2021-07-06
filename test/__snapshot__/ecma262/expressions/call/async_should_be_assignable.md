@@ -24,12 +24,14 @@ async = 5 + 5;
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -40,12 +42,14 @@ async = 5 + 5;
                         "text": 5,
                         "rawText": "5",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 9
                     },
                     "operatorToken": {
                         "kind": 99634,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 11
                     },
@@ -54,18 +58,22 @@ async = 5 + 5;
                         "text": 5,
                         "rawText": "5",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 13
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 13
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -74,6 +82,7 @@ async = 5 + 5;
     "source": "async = 5 + 5;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }
@@ -83,7 +92,7 @@ async = 5 + 5;
 
 ```javascript
 
-async = 5 +  5;
+async = 5 + 5;
 ```
 
 ### Diagnostics

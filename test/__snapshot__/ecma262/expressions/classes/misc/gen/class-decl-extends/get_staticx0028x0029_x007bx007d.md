@@ -29,6 +29,7 @@ class C extends Base { get static() {} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class C extends Base { get static() {} }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -48,6 +50,7 @@ class C extends Base { get static() {} }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -56,11 +59,13 @@ class C extends Base { get static() {} }
                         "text": "Base",
                         "rawText": "Base",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 20
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 20
                 },
@@ -76,6 +81,7 @@ class C extends Base { get static() {} }
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 26
                             },
@@ -88,6 +94,7 @@ class C extends Base { get static() {} }
                                     "text": "static",
                                     "rawText": "static",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 33
                                 },
@@ -97,6 +104,7 @@ class C extends Base { get static() {} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 35
                                 },
@@ -108,31 +116,38 @@ class C extends Base { get static() {} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 37,
                                         "end": 37
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 38
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 38
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 38
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 38
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -141,6 +156,7 @@ class C extends Base { get static() {} }
     "source": "class C extends Base { get static() {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }

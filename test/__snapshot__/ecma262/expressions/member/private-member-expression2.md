@@ -24,6 +24,7 @@ this.#b();
                     "member": {
                         "kind": 4276321,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 4
                     },
@@ -32,10 +33,12 @@ this.#b();
                         "text": "#b",
                         "rawText": "#b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 7
                     },
                     "flags": 96,
+                    "transformFlags": 2,
                     "start": 0,
                     "end": 7
                 },
@@ -44,14 +47,17 @@ this.#b();
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 8
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         }
@@ -60,6 +66,7 @@ this.#b();
     "source": "this.#b();",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

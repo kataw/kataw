@@ -26,6 +26,7 @@ import {x} from "y"
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ import {x} from "y"
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 15
                 },
@@ -44,10 +46,12 @@ import {x} from "y"
                     "text": "y",
                     "rawText": "\"y\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 19
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 19
             },
@@ -72,27 +76,33 @@ import {x} from "y"
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 9
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 9
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 10
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -101,6 +111,7 @@ import {x} from "y"
     "source": "import {x} from \"y\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

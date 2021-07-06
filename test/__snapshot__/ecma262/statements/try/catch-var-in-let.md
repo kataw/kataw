@@ -20,6 +20,7 @@ try {} catch (e) { let e = x; }
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -29,10 +30,12 @@ try {} catch (e) { let e = x; }
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 6
             },
@@ -41,6 +44,7 @@ try {} catch (e) { let e = x; }
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
@@ -49,6 +53,7 @@ try {} catch (e) { let e = x; }
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 15
                 },
@@ -62,6 +67,7 @@ try {} catch (e) { let e = x; }
                                 "lexicalKeyword": {
                                     "kind": 41951307,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 22
                                 },
@@ -75,6 +81,7 @@ try {} catch (e) { let e = x; }
                                                 "text": "e",
                                                 "rawText": "e",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 24
                                             },
@@ -84,38 +91,46 @@ try {} catch (e) { let e = x; }
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 28
                                             },
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 22,
                                             "end": 28
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 28
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 29
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 29
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 31
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 31
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -124,6 +139,7 @@ try {} catch (e) { let e = x; }
     "source": "try {} catch (e) { let e = x; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

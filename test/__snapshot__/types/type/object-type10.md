@@ -29,6 +29,7 @@ type a = {function:y.z[][][]};
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = {function:y.z[][][]};
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = {function:y.z[][][]};
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -65,6 +68,7 @@ type a = {function:y.z[][][]};
                                 "text": "function",
                                 "rawText": "function",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 18
                             },
@@ -88,6 +92,7 @@ type a = {function:y.z[][][]};
                                                         "text": "y",
                                                         "rawText": "y",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 19,
                                                         "end": 20
                                                     },
@@ -96,49 +101,60 @@ type a = {function:y.z[][][]};
                                                         "text": "z",
                                                         "rawText": "z",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 21,
                                                         "end": 22
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 19,
                                                     "end": 22
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 22
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 24
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 26
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 28
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 28
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 28
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 29
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 29
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -147,6 +163,7 @@ type a = {function:y.z[][][]};
     "source": "type a = {function:y.z[][][]};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

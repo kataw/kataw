@@ -33,6 +33,7 @@ await => async.await[async / ((async) => foo.bar)]
                     "text": "await",
                     "rawText": "await",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -40,6 +41,7 @@ await => async.await[async / ((async) => foo.bar)]
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -52,6 +54,7 @@ await => async.await[async / ((async) => foo.bar)]
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 14
                         },
@@ -60,10 +63,12 @@ await => async.await[async / ((async) => foo.bar)]
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 20
                         },
                         "flags": 96,
+                        "transformFlags": 2,
                         "start": 8,
                         "end": 20
                     },
@@ -74,12 +79,14 @@ await => async.await[async / ((async) => foo.bar)]
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 26
                         },
                         "operatorToken": {
                             "kind": 35640,
                             "flags": 96,
+                            "transformFlags": 32,
                             "start": 26,
                             "end": 28
                         },
@@ -97,12 +104,14 @@ await => async.await[async / ((async) => foo.bar)]
                                             "text": "async",
                                             "rawText": "async",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 31,
                                             "end": 36
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 37
                                 },
@@ -110,6 +119,7 @@ await => async.await[async / ((async) => foo.bar)]
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 40
                                 },
@@ -120,6 +130,7 @@ await => async.await[async / ((async) => foo.bar)]
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 40,
                                         "end": 44
                                     },
@@ -128,34 +139,42 @@ await => async.await[async / ((async) => foo.bar)]
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 45,
                                         "end": 48
                                     },
                                     "flags": 96,
+                                    "transformFlags": 2,
                                     "start": 40,
                                     "end": 48
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 48
                             },
                             "flags": 28,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 49
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 49
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 8,
                     "end": 50
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 50
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 50
         }
@@ -164,6 +183,7 @@ await => async.await[async / ((async) => foo.bar)]
     "source": "await => async.await[async / ((async) => foo.bar)]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 50
 }
@@ -173,7 +193,7 @@ await => async.await[async / ((async) => foo.bar)]
 
 ```javascript
 
-await => async.await[async /  ((async) => foo.bar)];
+await => async.await[async / ((async) => foo.bar)];
 ```
 
 ### Diagnostics

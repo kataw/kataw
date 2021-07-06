@@ -22,6 +22,7 @@ function test({...[]}) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function test({...[]}) {}
                 "text": "test",
                 "rawText": "test",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 13
             },
@@ -48,6 +50,7 @@ function test({...[]}) {}
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 18
                                     },
@@ -58,10 +61,12 @@ function test({...[]}) {}
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 19
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 20
                                     },
@@ -69,22 +74,26 @@ function test({...[]}) {}
                                     "type": null,
                                     "right": null,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 20
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 20
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 21
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 21
             },
@@ -95,15 +104,18 @@ function test({...[]}) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 24
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 25
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -112,6 +124,7 @@ function test({...[]}) {}
     "source": "function test({...[]}) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

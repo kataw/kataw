@@ -25,12 +25,14 @@ a /*1*/ ? /*2*/ b /*3*/: /*4*/c
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 9
                 },
@@ -39,12 +41,14 @@ a /*1*/ ? /*2*/ b /*3*/: /*4*/c
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 17
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 24
                 },
@@ -53,14 +57,17 @@ a /*1*/ ? /*2*/ b /*3*/: /*4*/c
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 31
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -69,6 +76,7 @@ a /*1*/ ? /*2*/ b /*3*/: /*4*/c
     "source": "a /*1*/ ? /*2*/ b /*3*/: /*4*/c\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

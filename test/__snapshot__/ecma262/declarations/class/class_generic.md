@@ -37,6 +37,7 @@ class C<T> {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -45,6 +46,7 @@ class C<T> {
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -60,6 +62,7 @@ class C<T> {
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             },
@@ -67,16 +70,19 @@ class C<T> {
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 9
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 9
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 10
             },
@@ -97,6 +103,7 @@ class C<T> {
                                 "text": "arr",
                                 "rawText": "arr",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 18
                             },
@@ -112,6 +119,7 @@ class C<T> {
                                         "text": "Array",
                                         "rawText": "Array",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 25
                                     },
@@ -138,6 +146,7 @@ class C<T> {
                                                                     "text": "value",
                                                                     "rawText": "value",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 27,
                                                                     "end": 32
                                                                 },
@@ -153,58 +162,70 @@ class C<T> {
                                                                             "text": "T",
                                                                             "rawText": "T",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 33,
                                                                             "end": 35
                                                                         },
                                                                         "typeParameters": null,
                                                                         "flags": 2097152,
+                                                                        "transformFlags": 0,
                                                                         "start": 33,
                                                                         "end": 35
                                                                     },
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 33,
                                                                     "end": 35
                                                                 },
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 27,
                                                                 "end": 35
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 26,
                                                         "end": 36
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 26,
                                                     "end": 36
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 26,
                                             "end": 36
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 37
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 37
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 37
                             },
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 12,
                             "end": 37
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 37,
                             "end": 38
                         },
@@ -224,6 +245,7 @@ class C<T> {
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 45
                                 },
@@ -239,6 +261,7 @@ class C<T> {
                                                 "text": "value",
                                                 "rawText": "value",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 46,
                                                 "end": 51
                                             },
@@ -254,26 +277,31 @@ class C<T> {
                                                         "text": "T",
                                                         "rawText": "T",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 52,
                                                         "end": 54
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 52,
                                                     "end": 54
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 52,
                                                 "end": 54
                                             },
                                             "right": null,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 46,
                                             "end": 54
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 46,
                                     "end": 55
                                 },
@@ -290,6 +318,7 @@ class C<T> {
                                                 "varKeyword": {
                                                     "kind": 37757002,
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 57,
                                                     "end": 65
                                                 },
@@ -303,6 +332,7 @@ class C<T> {
                                                                 "text": "entry",
                                                                 "rawText": "entry",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 65,
                                                                 "end": 71
                                                             },
@@ -324,6 +354,7 @@ class C<T> {
                                                                                 "text": "value",
                                                                                 "rawText": "value",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 74,
                                                                                 "end": 79
                                                                             },
@@ -339,29 +370,35 @@ class C<T> {
                                                                                         "text": "T",
                                                                                         "rawText": "T",
                                                                                         "flags": 96,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 80,
                                                                                         "end": 82
                                                                                     },
                                                                                     "typeParameters": null,
                                                                                     "flags": 2097152,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 80,
                                                                                     "end": 82
                                                                                 },
                                                                                 "flags": 2097152,
+                                                                                "transformFlags": 0,
                                                                                 "start": 80,
                                                                                 "end": 82
                                                                             },
                                                                             "flags": 2097152,
+                                                                            "transformFlags": 0,
                                                                             "start": 74,
                                                                             "end": 82
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
                                                                     "flags": 2097152,
+                                                                    "transformFlags": 0,
                                                                     "start": 72,
                                                                     "end": 83
                                                                 },
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 72,
                                                                 "end": 83
                                                             },
@@ -375,29 +412,35 @@ class C<T> {
                                                                             "text": "value",
                                                                             "rawText": "value",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 87,
                                                                             "end": 92
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
                                                                     "flags": 16,
+                                                                    "transformFlags": 0,
                                                                     "start": 87,
                                                                     "end": 92
                                                                 },
                                                                 "flags": 48,
+                                                                "transformFlags": 8,
                                                                 "start": 85,
                                                                 "end": 93
                                                             },
                                                             "flags": 16,
+                                                            "transformFlags": 128,
                                                             "start": 65,
                                                             "end": 93
                                                         }
                                                     ],
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 65,
                                                     "end": 93
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 57,
                                                 "end": 94
                                             },
@@ -412,6 +455,7 @@ class C<T> {
                                                             "member": {
                                                                 "kind": 4276321,
                                                                 "flags": 97,
+                                                                "transformFlags": 0,
                                                                 "start": 94,
                                                                 "end": 103
                                                             },
@@ -420,10 +464,12 @@ class C<T> {
                                                                 "text": "arr",
                                                                 "rawText": "arr",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 104,
                                                                 "end": 107
                                                             },
                                                             "flags": 97,
+                                                            "transformFlags": 2,
                                                             "start": 94,
                                                             "end": 107
                                                         },
@@ -432,10 +478,12 @@ class C<T> {
                                                             "text": "push",
                                                             "rawText": "push",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 108,
                                                             "end": 112
                                                         },
                                                         "flags": 97,
+                                                        "transformFlags": 2,
                                                         "start": 94,
                                                         "end": 112
                                                     },
@@ -447,50 +495,61 @@ class C<T> {
                                                                 "text": "entry",
                                                                 "rawText": "entry",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 113,
                                                                 "end": 118
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 113,
                                                         "end": 118
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 1,
                                                     "start": 94,
                                                     "end": 119
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 94,
                                                 "end": 120
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 57,
                                         "end": 120
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 55,
                                     "end": 124
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 45,
                                 "end": 124
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 38,
                             "end": 124
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 124
                 },
                 "flags": 10,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 126
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 126
         }
@@ -499,6 +558,7 @@ class C<T> {
     "source": "class C<T> {\n  arr: Array<{value: T}>;\n\n  foo(value: T) {\n    var entry: {value: T} = {value};\n    this.arr.push(entry);\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 126
 }

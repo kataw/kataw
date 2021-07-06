@@ -29,12 +29,14 @@ function *f(x = delete ((class) = f)) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -43,6 +45,7 @@ function *f(x = delete ((class) = f)) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -58,6 +61,7 @@ function *f(x = delete ((class) = f)) {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
@@ -68,6 +72,7 @@ function *f(x = delete ((class) = f)) {}
                             "operandToken": {
                                 "kind": 4259886,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 22
                             },
@@ -83,6 +88,7 @@ function *f(x = delete ((class) = f)) {}
                                             "classKeyword": {
                                                 "kind": 37822544,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 30
                                             },
@@ -95,24 +101,29 @@ function *f(x = delete ((class) = f)) {}
                                                     "kind": 303,
                                                     "elements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 30,
                                                     "end": 30
                                                 },
                                                 "flags": 30,
+                                                "transformFlags": 0,
                                                 "start": 32,
                                                 "end": 30
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 30
                                         },
                                         "flags": 24,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 31
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 33
                                     },
@@ -121,28 +132,34 @@ function *f(x = delete ((class) = f)) {}
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 35
                                     },
                                     "flags": 0,
+                                    "transformFlags": 128,
                                     "start": 24,
                                     "end": 35
                                 },
                                 "flags": 22,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 36
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 36
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 36
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 36
             },
@@ -153,15 +170,18 @@ function *f(x = delete ((class) = f)) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 39
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 37,
                 "end": 40
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -170,6 +190,7 @@ function *f(x = delete ((class) = f)) {}
     "source": "function *f(x = delete ((class) = f)) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }

@@ -31,12 +31,14 @@
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1,
                                     "end": 2
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 4
                                 },
@@ -52,22 +54,26 @@
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 6,
                                                     "end": 7
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 7
                                         },
                                         "flags": 32,
+                                        "transformFlags": 8,
                                         "start": 4,
                                         "end": 8
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 10
                                     },
@@ -76,14 +82,17 @@
                                         "text": "c",
                                         "rawText": "c",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 12
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 4,
                                     "end": 12
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 1,
                                 "end": 12
                             },
@@ -102,10 +111,12 @@
                                                     "text": "d",
                                                     "rawText": "d",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 16,
                                                     "end": 17
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 18
                                             },
@@ -114,20 +125,24 @@
                                                 "text": "e",
                                                 "rawText": "e",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 21
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 15,
                                             "end": 21
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 21
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 13,
                                 "end": 22
                             },
@@ -136,22 +151,26 @@
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 25
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 25
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 26
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 28
                 },
@@ -160,14 +179,17 @@
                     "text": "g",
                     "rawText": "g",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 30
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -176,6 +198,7 @@
     "source": "[a = [b] = c, {[d]: e}, f] = g",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

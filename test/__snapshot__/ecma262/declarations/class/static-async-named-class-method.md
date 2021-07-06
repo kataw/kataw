@@ -22,6 +22,7 @@ class A {static async() { }};
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class A {static async() { }};
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -47,6 +49,7 @@ class A {static async() { }};
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 15
                             },
@@ -61,6 +64,7 @@ class A {static async() { }};
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 21
                                 },
@@ -70,6 +74,7 @@ class A {static async() { }};
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 23
                                 },
@@ -81,37 +86,45 @@ class A {static async() { }};
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 25
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 27
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 27
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 27
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 27
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 28,
             "end": 29
         }
@@ -120,6 +133,7 @@ class A {static async() { }};
     "source": "class A {static async() { }};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

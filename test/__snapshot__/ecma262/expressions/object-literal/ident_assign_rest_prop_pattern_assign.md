@@ -24,12 +24,14 @@ a = {...b.c} = d;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -45,6 +47,7 @@ a = {...b.c} = d;
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 8
                                     },
@@ -55,6 +58,7 @@ a = {...b.c} = d;
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 9
                                         },
@@ -63,30 +67,36 @@ a = {...b.c} = d;
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 11
                                         },
                                         "flags": 96,
+                                        "transformFlags": 2,
                                         "start": 8,
                                         "end": 11
                                     },
                                     "flags": 1073741856,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 11
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 11
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 3,
                         "end": 12
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     },
@@ -95,18 +105,22 @@ a = {...b.c} = d;
                         "text": "d",
                         "rawText": "d",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 16
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 3,
                     "end": 16
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -115,6 +129,7 @@ a = {...b.c} = d;
     "source": "a = {...b.c} = d;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

@@ -46,6 +46,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -55,6 +56,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                 "text": "excludeFirstFiveResults",
                 "rawText": "excludeFirstFiveResults",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 32
             },
@@ -72,6 +74,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                     "text": "first",
                                     "rawText": "first",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 39
                                 },
@@ -80,6 +83,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                     "text": "second",
                                     "rawText": "second",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 40,
                                     "end": 47
                                 },
@@ -88,6 +92,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                     "text": "third",
                                     "rawText": "third",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 48,
                                     "end": 54
                                 },
@@ -96,6 +101,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                     "text": "fourth",
                                     "rawText": "fourth",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 55,
                                     "end": 62
                                 },
@@ -104,6 +110,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                     "text": "fifth",
                                     "rawText": "fifth",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 63,
                                     "end": 69
                                 },
@@ -112,6 +119,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 70,
                                         "end": 74
                                     },
@@ -120,6 +128,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "text": "rest",
                                         "rawText": "rest",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 74,
                                         "end": 78
                                     },
@@ -127,22 +136,26 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                     "type": null,
                                     "right": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 70,
                                     "end": 78
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 78
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 33,
                         "end": 79
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 79
             },
@@ -157,6 +170,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 82,
                                 "end": 91
                             },
@@ -165,24 +179,29 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                 "text": "rest",
                                 "rawText": "rest",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 91,
                                 "end": 96
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 82,
                             "end": 97
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 82,
                     "end": 97
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 80,
                 "end": 99
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 99
         },
@@ -193,6 +212,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 99,
                 "end": 109
             },
@@ -202,6 +222,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                 "text": "excludeFirstFiveResults2",
                 "rawText": "excludeFirstFiveResults2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 109,
                 "end": 134
             },
@@ -222,6 +243,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "text": "first",
                                         "rawText": "first",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 136,
                                         "end": 141
                                     },
@@ -230,6 +252,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "text": "second",
                                         "rawText": "second",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 142,
                                         "end": 149
                                     },
@@ -238,6 +261,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "text": "third",
                                         "rawText": "third",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 150,
                                         "end": 156
                                     },
@@ -246,6 +270,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "text": "fourth",
                                         "rawText": "fourth",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 157,
                                         "end": 164
                                     },
@@ -254,6 +279,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "text": "fifth",
                                         "rawText": "fifth",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 165,
                                         "end": 171
                                     },
@@ -262,6 +288,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 172,
                                             "end": 176
                                         },
@@ -270,6 +297,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                             "text": "rest",
                                             "rawText": "rest",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 176,
                                             "end": 180
                                         },
@@ -277,16 +305,19 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 172,
                                         "end": 180
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 136,
                                 "end": 180
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 135,
                             "end": 181
                         },
@@ -297,16 +328,19 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                             "text": "DEFAULT_FIVE_RESULTS",
                             "rawText": "DEFAULT_FIVE_RESULTS",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 183,
                             "end": 204
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 135,
                         "end": 204
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 135,
                 "end": 204
             },
@@ -321,6 +355,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 207,
                                 "end": 216
                             },
@@ -329,24 +364,29 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                 "text": "rest",
                                 "rawText": "rest",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 216,
                                 "end": 221
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 207,
                             "end": 222
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 207,
                     "end": 222
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 205,
                 "end": 224
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 99,
             "end": 224
         },
@@ -357,6 +397,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 224,
                 "end": 234
             },
@@ -366,6 +407,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                 "text": "excludeFirstFiveResults3",
                 "rawText": "excludeFirstFiveResults3",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 234,
                 "end": 259
             },
@@ -386,6 +428,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "text": "firstResult",
                                         "rawText": "firstResult",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 261,
                                         "end": 272
                                     },
@@ -394,6 +437,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "text": "secondResult",
                                         "rawText": "secondResult",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 273,
                                         "end": 286
                                     },
@@ -402,6 +446,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "text": "thirdResult",
                                         "rawText": "thirdResult",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 287,
                                         "end": 299
                                     },
@@ -410,6 +455,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "text": "fourthResult",
                                         "rawText": "fourthResult",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 300,
                                         "end": 313
                                     },
@@ -418,6 +464,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "text": "fifthResult",
                                         "rawText": "fifthResult",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 314,
                                         "end": 326
                                     },
@@ -426,6 +473,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 327,
                                             "end": 331
                                         },
@@ -434,6 +482,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                             "text": "rest",
                                             "rawText": "rest",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 331,
                                             "end": 335
                                         },
@@ -441,16 +490,19 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 327,
                                         "end": 335
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 261,
                                 "end": 335
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 260,
                             "end": 336
                         },
@@ -466,6 +518,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 340,
                                         "end": 341
                                     },
@@ -474,6 +527,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 342,
                                         "end": 344
                                     },
@@ -482,6 +536,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "text": 3,
                                         "rawText": "3",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 345,
                                         "end": 347
                                     },
@@ -490,6 +545,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "text": 4,
                                         "rawText": "4",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 348,
                                         "end": 350
                                     },
@@ -498,26 +554,31 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                         "text": 5,
                                         "rawText": "5",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 351,
                                         "end": 353
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 340,
                                 "end": 353
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 338,
                             "end": 354
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 260,
                         "end": 354
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 260,
                 "end": 354
             },
@@ -532,6 +593,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 357,
                                 "end": 366
                             },
@@ -540,24 +602,29 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                 "text": "rest",
                                 "rawText": "rest",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 366,
                                 "end": 371
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 357,
                             "end": 372
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 357,
                     "end": 372
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 355,
                 "end": 374
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 224,
             "end": 374
         },
@@ -566,6 +633,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 374,
                 "end": 381
             },
@@ -579,6 +647,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                             "text": "excludeFirstFiveResults5",
                             "rawText": "excludeFirstFiveResults5",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 381,
                             "end": 406
                         },
@@ -600,6 +669,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                     "text": "first",
                                                     "rawText": "first",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 411,
                                                     "end": 416
                                                 },
@@ -608,6 +678,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                     "text": "second",
                                                     "rawText": "second",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 417,
                                                     "end": 424
                                                 },
@@ -616,6 +687,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                     "text": "third",
                                                     "rawText": "third",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 425,
                                                     "end": 431
                                                 },
@@ -624,6 +696,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                     "text": "fourth",
                                                     "rawText": "fourth",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 432,
                                                     "end": 439
                                                 },
@@ -632,6 +705,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                     "text": "fifth",
                                                     "rawText": "fifth",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 440,
                                                     "end": 446
                                                 },
@@ -640,6 +714,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                     "ellipsisToken": {
                                                         "kind": 524302,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 447,
                                                         "end": 451
                                                     },
@@ -648,6 +723,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                         "text": "rest",
                                                         "rawText": "rest",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 451,
                                                         "end": 455
                                                     },
@@ -655,22 +731,26 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                     "type": null,
                                                     "right": null,
                                                     "flags": 1073741856,
+                                                    "transformFlags": 0,
                                                     "start": 447,
                                                     "end": 455
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 411,
                                             "end": 455
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 410,
                                         "end": 456
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 410,
                                 "end": 457
                             },
@@ -678,6 +758,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 457,
                                 "end": 460
                             },
@@ -692,6 +773,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 462,
                                                 "end": 471
                                             },
@@ -700,36 +782,44 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                 "text": "rest",
                                                 "rawText": "rest",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 471,
                                                 "end": 476
                                             },
                                             "flags": 81,
+                                            "transformFlags": 256,
                                             "start": 462,
                                             "end": 477
                                         }
                                     ],
                                     "flags": 33,
+                                    "transformFlags": 0,
                                     "start": 462,
                                     "end": 477
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 460,
                                 "end": 479
                             },
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 408,
                             "end": 479
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 381,
                         "end": 479
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 381,
                 "end": 479
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 374,
             "end": 479
         },
@@ -740,6 +830,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 479,
                 "end": 486
             },
@@ -748,6 +839,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 486,
                 "end": 488
             },
@@ -774,6 +866,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                     "text": "excludeFirstFiveResults",
                                     "rawText": "excludeFirstFiveResults",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 490,
                                     "end": 516
                                 },
@@ -791,6 +884,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                         "text": "first",
                                                         "rawText": "first",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 518,
                                                         "end": 523
                                                     },
@@ -799,6 +893,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                         "text": "second",
                                                         "rawText": "second",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 524,
                                                         "end": 531
                                                     },
@@ -807,6 +902,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                         "text": "third",
                                                         "rawText": "third",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 532,
                                                         "end": 538
                                                     },
@@ -815,6 +911,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                         "text": "fourth",
                                                         "rawText": "fourth",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 539,
                                                         "end": 546
                                                     },
@@ -823,6 +920,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                         "text": "fifth",
                                                         "rawText": "fifth",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 547,
                                                         "end": 553
                                                     },
@@ -831,6 +929,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                         "ellipsisToken": {
                                                             "kind": 524302,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 554,
                                                             "end": 558
                                                         },
@@ -839,6 +938,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                             "text": "restOfResults",
                                                             "rawText": "restOfResults",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 558,
                                                             "end": 571
                                                         },
@@ -846,22 +946,26 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                         "type": null,
                                                         "right": null,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 554,
                                                         "end": 571
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 0,
+                                                "transformFlags": 0,
                                                 "start": 518,
                                                 "end": 571
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 517,
                                             "end": 572
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 517,
                                     "end": 573
                                 },
@@ -877,6 +981,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 81,
+                                                    "transformFlags": 0,
                                                     "start": 575,
                                                     "end": 586
                                                 },
@@ -885,40 +990,49 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                     "text": "restOfResults",
                                                     "rawText": "restOfResults",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 586,
                                                     "end": 600
                                                 },
                                                 "flags": 81,
+                                                "transformFlags": 256,
                                                 "start": 575,
                                                 "end": 601
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 575,
                                         "end": 601
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 573,
                                     "end": 605
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 516,
                                 "end": 605
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 490,
                             "end": 605
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 490,
                     "end": 605
                 },
                 "flags": 488,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 607
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 479,
             "end": 607
         },
@@ -933,6 +1047,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                         "text": "promise",
                         "rawText": "promise",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 607,
                         "end": 616
                     },
@@ -941,10 +1056,12 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                         "text": "then",
                         "rawText": "then",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 617,
                         "end": 621
                     },
                     "flags": 97,
+                    "transformFlags": 2,
                     "start": 607,
                     "end": 621
                 },
@@ -968,6 +1085,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                     "text": "firstResult",
                                                     "rawText": "firstResult",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 624,
                                                     "end": 635
                                                 },
@@ -976,6 +1094,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                     "text": "secondResult",
                                                     "rawText": "secondResult",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 636,
                                                     "end": 649
                                                 },
@@ -984,6 +1103,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                     "text": "thirdResult",
                                                     "rawText": "thirdResult",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 650,
                                                     "end": 662
                                                 },
@@ -992,6 +1112,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                     "text": "fourthResult",
                                                     "rawText": "fourthResult",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 663,
                                                     "end": 676
                                                 },
@@ -1000,6 +1121,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                     "text": "fifthResult",
                                                     "rawText": "fifthResult",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 677,
                                                     "end": 689
                                                 },
@@ -1008,6 +1130,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                     "ellipsisToken": {
                                                         "kind": 524302,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 690,
                                                         "end": 694
                                                     },
@@ -1016,6 +1139,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                         "text": "rest",
                                                         "rawText": "rest",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 694,
                                                         "end": 698
                                                     },
@@ -1023,22 +1147,26 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                     "type": null,
                                                     "right": null,
                                                     "flags": 1073741856,
+                                                    "transformFlags": 0,
                                                     "start": 690,
                                                     "end": 698
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 624,
                                             "end": 698
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 623,
                                         "end": 699
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 623,
                                 "end": 700
                             },
@@ -1046,6 +1174,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 700,
                                 "end": 703
                             },
@@ -1060,6 +1189,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 705,
                                                 "end": 714
                                             },
@@ -1068,37 +1198,45 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                 "text": "rest",
                                                 "rawText": "rest",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 714,
                                                 "end": 719
                                             },
                                             "flags": 81,
+                                            "transformFlags": 256,
                                             "start": 705,
                                             "end": 720
                                         }
                                     ],
                                     "flags": 33,
+                                    "transformFlags": 0,
                                     "start": 705,
                                     "end": 720
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 703,
                                 "end": 722
                             },
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 622,
                             "end": 722
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 622,
                     "end": 722
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 607,
                 "end": 723
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 607,
             "end": 724
         }
@@ -1107,6 +1245,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
     "source": "function excludeFirstFiveResults([first, second, third, fourth, fifth, ...rest]) {\n  return rest;\n}\n\nfunction excludeFirstFiveResults2([first, second, third, fourth, fifth, ...rest] = DEFAULT_FIVE_RESULTS) {\n  return rest;\n}\n\nfunction excludeFirstFiveResults3([firstResult, secondResult, thirdResult, fourthResult, fifthResult, ...rest] = [1, 2, 3, 4, 5]) {\n  return rest;\n}\n\nconst excludeFirstFiveResults5 = ([first, second, third, fourth, fifth, ...rest]) => {\n  return rest;\n}\n\nclass A {\n  excludeFirstFiveResults([first, second, third, fourth, fifth, ...restOfResults]) {\n    return restOfResults;\n  }\n}\n\npromise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult, ...rest]) => {\n  return rest;\n});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 724
 }

@@ -27,6 +27,7 @@ async (x = delete ((new) = f)) => {}
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,6 +43,7 @@ async (x = delete ((new) = f)) => {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         },
@@ -52,6 +54,7 @@ async (x = delete ((new) = f)) => {}
                             "operandToken": {
                                 "kind": 4259886,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 17
                             },
@@ -66,6 +69,7 @@ async (x = delete ((new) = f)) => {}
                                             "newKeyword": {
                                                 "kind": 138477661,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 20,
                                                 "end": 23
                                             },
@@ -74,21 +78,25 @@ async (x = delete ((new) = f)) => {}
                                                 "text": "",
                                                 "rawText": "",
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 23
                                             },
                                             "argumentList": null,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 23
                                         },
                                         "flags": 19,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 24
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 26
                                     },
@@ -97,28 +105,34 @@ async (x = delete ((new) = f)) => {}
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 28
                                     },
                                     "flags": 0,
+                                    "transformFlags": 128,
                                     "start": 19,
                                     "end": 28
                                 },
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 29
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 29
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 29
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 30
             },
@@ -126,6 +140,7 @@ async (x = delete ((new) = f)) => {}
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 33
             },
@@ -136,14 +151,17 @@ async (x = delete ((new) = f)) => {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 35
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 36
             },
             "flags": 290,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -152,6 +170,7 @@ async (x = delete ((new) = f)) => {}
     "source": "async (x = delete ((new) = f)) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

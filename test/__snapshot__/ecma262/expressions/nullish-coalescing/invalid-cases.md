@@ -43,12 +43,14 @@ a+1 ?? b+1 && c;
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 0
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -57,14 +59,17 @@ a+1 ?? b+1 && c;
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 5
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -77,12 +82,14 @@ a+1 ?? b+1 && c;
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 9
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 12
                 },
@@ -91,14 +98,17 @@ a+1 ?? b+1 && c;
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 12
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 6,
             "end": 13
         },
@@ -113,12 +123,14 @@ a+1 ?? b+1 && c;
                         "text": "a",
                         "rawText": "a",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 16
                     },
                     "operatorToken": {
                         "kind": 33339,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 19
                     },
@@ -127,16 +139,19 @@ a+1 ?? b+1 && c;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 21
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 21
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 24
                 },
@@ -145,14 +160,17 @@ a+1 ?? b+1 && c;
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 26
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 27
         },
@@ -167,12 +185,14 @@ a+1 ?? b+1 && c;
                         "text": "a",
                         "rawText": "a",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 27,
                         "end": 30
                     },
                     "operatorToken": {
                         "kind": 33594,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 30,
                         "end": 33
                     },
@@ -181,16 +201,19 @@ a+1 ?? b+1 && c;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 33,
                         "end": 35
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 35
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 38
                 },
@@ -199,14 +222,17 @@ a+1 ?? b+1 && c;
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 40
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 27,
             "end": 41
         },
@@ -219,12 +245,14 @@ a+1 ?? b+1 && c;
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 41,
                     "end": 44
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 44,
                     "end": 47
                 },
@@ -235,12 +263,14 @@ a+1 ?? b+1 && c;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 47,
                         "end": 49
                     },
                     "operatorToken": {
                         "kind": 33339,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 49,
                         "end": 52
                     },
@@ -249,18 +279,22 @@ a+1 ?? b+1 && c;
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 52,
                         "end": 54
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 49,
                     "end": 54
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 41,
                 "end": 54
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 41,
             "end": 55
         },
@@ -273,12 +307,14 @@ a+1 ?? b+1 && c;
                     "text": "a",
                     "rawText": "a",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 55,
                     "end": 58
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 58,
                     "end": 61
                 },
@@ -289,12 +325,14 @@ a+1 ?? b+1 && c;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 61,
                         "end": 63
                     },
                     "operatorToken": {
                         "kind": 33594,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 63,
                         "end": 66
                     },
@@ -303,18 +341,22 @@ a+1 ?? b+1 && c;
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 66,
                         "end": 68
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 63,
                     "end": 68
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 55,
                 "end": 68
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 55,
             "end": 69
         },
@@ -331,12 +373,14 @@ a+1 ?? b+1 && c;
                             "text": "a",
                             "rawText": "a",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 69,
                             "end": 72
                         },
                         "operatorToken": {
                             "kind": 99634,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 72,
                             "end": 73
                         },
@@ -345,16 +389,19 @@ a+1 ?? b+1 && c;
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 73,
                             "end": 74
                         },
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 69,
                         "end": 74
                     },
                     "operatorToken": {
                         "kind": 33339,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 74,
                         "end": 77
                     },
@@ -365,12 +412,14 @@ a+1 ?? b+1 && c;
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 77,
                             "end": 79
                         },
                         "operatorToken": {
                             "kind": 99634,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 79,
                             "end": 80
                         },
@@ -379,20 +428,24 @@ a+1 ?? b+1 && c;
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 80,
                             "end": 81
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 79,
                         "end": 81
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 69,
                     "end": 81
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 81,
                     "end": 84
                 },
@@ -401,14 +454,17 @@ a+1 ?? b+1 && c;
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 84,
                     "end": 86
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 69,
                 "end": 86
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 69,
             "end": 86
         },
@@ -425,12 +481,14 @@ a+1 ?? b+1 && c;
                             "text": "a",
                             "rawText": "a",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 86,
                             "end": 89
                         },
                         "operatorToken": {
                             "kind": 99634,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 89,
                             "end": 90
                         },
@@ -439,16 +497,19 @@ a+1 ?? b+1 && c;
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 90,
                             "end": 91
                         },
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 86,
                         "end": 91
                     },
                     "operatorToken": {
                         "kind": 33594,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 91,
                         "end": 94
                     },
@@ -459,12 +520,14 @@ a+1 ?? b+1 && c;
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 94,
                             "end": 96
                         },
                         "operatorToken": {
                             "kind": 99634,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 96,
                             "end": 97
                         },
@@ -473,20 +536,24 @@ a+1 ?? b+1 && c;
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 97,
                             "end": 98
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 96,
                         "end": 98
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 86,
                     "end": 98
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 98,
                     "end": 101
                 },
@@ -495,14 +562,17 @@ a+1 ?? b+1 && c;
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 101,
                     "end": 103
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 86,
                 "end": 103
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 86,
             "end": 104
         },
@@ -517,12 +587,14 @@ a+1 ?? b+1 && c;
                         "text": "a",
                         "rawText": "a",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 104,
                         "end": 107
                     },
                     "operatorToken": {
                         "kind": 99634,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 107,
                         "end": 108
                     },
@@ -531,16 +603,19 @@ a+1 ?? b+1 && c;
                         "text": 1,
                         "rawText": "1",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 108,
                         "end": 109
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 104,
                     "end": 109
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 109,
                     "end": 112
                 },
@@ -553,12 +628,14 @@ a+1 ?? b+1 && c;
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 112,
                             "end": 114
                         },
                         "operatorToken": {
                             "kind": 99634,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 114,
                             "end": 115
                         },
@@ -567,16 +644,19 @@ a+1 ?? b+1 && c;
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 115,
                             "end": 116
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 114,
                         "end": 116
                     },
                     "operatorToken": {
                         "kind": 33339,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 116,
                         "end": 119
                     },
@@ -585,18 +665,22 @@ a+1 ?? b+1 && c;
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 119,
                         "end": 121
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 114,
                     "end": 121
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 104,
                 "end": 121
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 104,
             "end": 122
         },
@@ -611,12 +695,14 @@ a+1 ?? b+1 && c;
                         "text": "a",
                         "rawText": "a",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 122,
                         "end": 125
                     },
                     "operatorToken": {
                         "kind": 99634,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 125,
                         "end": 126
                     },
@@ -625,16 +711,19 @@ a+1 ?? b+1 && c;
                         "text": 1,
                         "rawText": "1",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 126,
                         "end": 127
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 122,
                     "end": 127
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 127,
                     "end": 130
                 },
@@ -647,12 +736,14 @@ a+1 ?? b+1 && c;
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 130,
                             "end": 132
                         },
                         "operatorToken": {
                             "kind": 99634,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 132,
                             "end": 133
                         },
@@ -661,16 +752,19 @@ a+1 ?? b+1 && c;
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 133,
                             "end": 134
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 132,
                         "end": 134
                     },
                     "operatorToken": {
                         "kind": 33594,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 134,
                         "end": 137
                     },
@@ -679,18 +773,22 @@ a+1 ?? b+1 && c;
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 137,
                         "end": 139
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 132,
                     "end": 139
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 122,
                 "end": 139
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 122,
             "end": 140
         }
@@ -699,6 +797,7 @@ a+1 ?? b+1 && c;
     "source": "\n?? b;\n\na ??;\n\na || b ?? c;\n\na && b ?? c;\n\na ?? b || c;\n\na ?? b && c;\n\na+1 || b+1 ?? c\n\na+1 && b+1 ?? c;\n\na+1 ?? b+1 || c;\n\na+1 ?? b+1 && c;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 140
 }

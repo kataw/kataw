@@ -28,6 +28,7 @@ async (a): void => {}
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -40,12 +41,14 @@ async (a): void => {}
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 8
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 15
             },
@@ -56,16 +59,19 @@ async (a): void => {}
                 "type": {
                     "kind": 138477615,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 15
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 15
             },
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 18
             },
@@ -76,14 +82,17 @@ async (a): void => {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 20
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 21
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -92,6 +101,7 @@ async (a): void => {}
     "source": "async (a): void => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

@@ -22,6 +22,7 @@ new Foo["bar"]
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -32,6 +33,7 @@ new Foo["bar"]
                         "text": "Foo",
                         "rawText": "Foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 7
                     },
@@ -40,19 +42,23 @@ new Foo["bar"]
                         "text": "bar",
                         "rawText": "\"bar\"",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 13
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 0,
                     "end": 14
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -61,6 +67,7 @@ new Foo["bar"]
     "source": "new Foo[\"bar\"]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

@@ -34,6 +34,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -46,22 +47,27 @@
                             "kind": 303,
                             "elements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 7
                         },
                         "flags": 6,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 8
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 8
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         },
@@ -71,10 +77,12 @@
                 "kind": 371,
                 "text": "/ foo /",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 8,
             "end": 17
         },
@@ -85,10 +93,12 @@
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 17,
             "end": 19
         }
@@ -97,6 +107,7 @@
     "source": "(class{}\n / foo / g)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

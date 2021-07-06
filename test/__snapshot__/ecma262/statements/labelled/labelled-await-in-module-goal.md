@@ -32,6 +32,7 @@ var await;
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -40,26 +41,31 @@ var await;
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 6
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 7
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -70,6 +76,7 @@ var await;
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 16449,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 22
                 },
@@ -78,26 +85,31 @@ var await;
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 22
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 22
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 23
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 25
             },
             "flags": 16401,
+            "transformFlags": 0,
             "start": 9,
             "end": 25
         },
@@ -107,6 +119,7 @@ var await;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 30
             },
@@ -120,21 +133,25 @@ var await;
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 36
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 30,
                         "end": 36
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 25,
             "end": 37
         }
@@ -143,6 +160,7 @@ var await;
     "source": " await: ;\n\n \\u0061wait: ;\n\nvar await;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }

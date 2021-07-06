@@ -22,6 +22,7 @@ function a([a, b, ...[ok]]) {};
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function a([a, b, ...[ok]]) {};
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -48,6 +50,7 @@ function a([a, b, ...[ok]]) {};
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 13
                                 },
@@ -56,6 +59,7 @@ function a([a, b, ...[ok]]) {};
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 16
                                 },
@@ -64,6 +68,7 @@ function a([a, b, ...[ok]]) {};
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 21
                                     },
@@ -77,16 +82,19 @@ function a([a, b, ...[ok]]) {};
                                                     "text": "ok",
                                                     "rawText": "ok",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 22,
                                                     "end": 24
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 0,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 24
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 25
                                     },
@@ -94,22 +102,26 @@ function a([a, b, ...[ok]]) {};
                                     "type": null,
                                     "right": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 25
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 25
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 26
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 26
             },
@@ -120,21 +132,25 @@ function a([a, b, ...[ok]]) {};
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 29
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 30
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 30,
             "end": 31
         }
@@ -143,6 +159,7 @@ function a([a, b, ...[ok]]) {};
     "source": "function a([a, b, ...[ok]]) {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

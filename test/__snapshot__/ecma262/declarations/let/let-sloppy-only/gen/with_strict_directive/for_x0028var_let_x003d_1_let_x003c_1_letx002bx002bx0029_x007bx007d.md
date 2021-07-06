@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -36,6 +37,7 @@
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
@@ -44,6 +46,7 @@
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 22
                 },
@@ -57,6 +60,7 @@
                                 "text": "let",
                                 "rawText": "let",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 26
                             },
@@ -66,19 +70,23 @@
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 30
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 22,
                             "end": 30
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 30
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 31
             },
@@ -87,6 +95,7 @@
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 44,
                     "end": 46
                 },
@@ -95,10 +104,12 @@
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 40,
                     "end": 44
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 40,
                 "end": 46
             },
@@ -109,12 +120,14 @@
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 35
                 },
                 "operatorToken": {
                     "kind": 536971330,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 37
                 },
@@ -123,10 +136,12 @@
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 39
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 39
             },
@@ -136,14 +151,17 @@
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 49,
                     "end": 49
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 47,
                 "end": 50
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 13,
             "end": 50
         }
@@ -152,6 +170,7 @@
     "source": "\"use strict\"; for (var let = 1; let < 1; let++) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 50
 }

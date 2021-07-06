@@ -40,6 +40,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -60,6 +61,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 6
                                         },
@@ -68,11 +70,13 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 9
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 9
                                     },
@@ -83,6 +87,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 12
                                         },
@@ -91,11 +96,13 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 15
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 15
                                     },
@@ -106,6 +113,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 18
                                         },
@@ -121,6 +129,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 21,
                                                             "end": 23
                                                         },
@@ -129,6 +138,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 24,
                                                             "end": 26
                                                         },
@@ -137,35 +147,42 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                                             "text": 10,
                                                             "rawText": "10",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 28,
                                                             "end": 31
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 21,
                                                         "end": 31
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 31
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 32
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 32
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 32
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 34
                         },
@@ -175,19 +192,23 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 36,
                             "end": 38
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 38
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 38
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 39
         }
@@ -196,6 +217,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
     "source": "var {x: x, y: y, z: { a: a = 10} } = b;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }

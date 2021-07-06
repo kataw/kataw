@@ -22,10 +22,12 @@
                 "text": "some \" quote",
                 "rawText": "some \\\" quote",
                 "flags": 134217824,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -34,6 +36,7 @@
     "source": "`some \\\" quote`;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

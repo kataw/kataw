@@ -22,6 +22,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
                 "text": "createElement",
                 "rawText": "createElement",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 22
             },
@@ -46,6 +48,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
                             "text": "tagName",
                             "rawText": "tagName",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 30
                         },
@@ -53,12 +56,14 @@ function createElement(tagName: "div"): HTMLDivElement {}
                         "type": null,
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 30
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 30
             },
@@ -69,10 +74,12 @@ function createElement(tagName: "div"): HTMLDivElement {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 37
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 37,
                 "end": 37
             },
@@ -85,14 +92,17 @@ function createElement(tagName: "div"): HTMLDivElement {}
                     "text": "div",
                     "rawText": "\"div\"",
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 37
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 37
         },
@@ -103,10 +113,12 @@ function createElement(tagName: "div"): HTMLDivElement {}
                 "text": "HTMLDivElement",
                 "rawText": "HTMLDivElement",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 54
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 39,
             "end": 54
         },
@@ -116,10 +128,12 @@ function createElement(tagName: "div"): HTMLDivElement {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 56,
                 "end": 56
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 54,
             "end": 57
         }
@@ -128,6 +142,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
     "source": "function createElement(tagName: \"div\"): HTMLDivElement {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 57
 }

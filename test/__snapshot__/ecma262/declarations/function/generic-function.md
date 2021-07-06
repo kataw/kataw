@@ -32,6 +32,7 @@ function from<T>(arg: any): Query<T> {
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -39,6 +40,7 @@ function from<T>(arg: any): Query<T> {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 16
             },
@@ -48,6 +50,7 @@ function from<T>(arg: any): Query<T> {
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 21
             },
@@ -63,6 +66,7 @@ function from<T>(arg: any): Query<T> {
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 23
                             },
@@ -70,16 +74,19 @@ function from<T>(arg: any): Query<T> {
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 23
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 23
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 24
             },
@@ -94,6 +101,7 @@ function from<T>(arg: any): Query<T> {
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 28
                         },
@@ -105,21 +113,25 @@ function from<T>(arg: any): Query<T> {
                             "type": {
                                 "kind": 134234254,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 37
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 37
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 25,
                         "end": 37
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 37
             },
@@ -135,6 +147,7 @@ function from<T>(arg: any): Query<T> {
                         "text": "Query",
                         "rawText": "Query",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 39,
                         "end": 45
                     },
@@ -154,43 +167,52 @@ function from<T>(arg: any): Query<T> {
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 46,
                                             "end": 47
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 46,
                                         "end": 47
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 46,
                                     "end": 47
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 46,
                             "end": 47
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 45,
                         "end": 48
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 48
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 48
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 7,
             "end": 48
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 48,
             "end": 49
         },
@@ -201,6 +223,7 @@ function from<T>(arg: any): Query<T> {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 49,
                 "end": 58
             },
@@ -210,6 +233,7 @@ function from<T>(arg: any): Query<T> {
                 "text": "from",
                 "rawText": "from",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 58,
                 "end": 63
             },
@@ -225,6 +249,7 @@ function from<T>(arg: any): Query<T> {
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 64,
                                 "end": 65
                             },
@@ -232,16 +257,19 @@ function from<T>(arg: any): Query<T> {
                             "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 64,
                             "end": 65
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 64,
                     "end": 65
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 63,
                 "end": 66
             },
@@ -256,6 +284,7 @@ function from<T>(arg: any): Query<T> {
                             "text": "arg",
                             "rawText": "arg",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 67,
                             "end": 70
                         },
@@ -267,21 +296,25 @@ function from<T>(arg: any): Query<T> {
                             "type": {
                                 "kind": 134234252,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 71,
                                 "end": 75
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 71,
                             "end": 75
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 67,
                         "end": 75
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 67,
                 "end": 75
             },
@@ -296,6 +329,7 @@ function from<T>(arg: any): Query<T> {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 88,
                                 "end": 99
                             },
@@ -304,19 +338,23 @@ function from<T>(arg: any): Query<T> {
                                 "text": "undefined",
                                 "rawText": "undefined",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 99,
                                 "end": 109
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 88,
                             "end": 110
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 88,
                     "end": 110
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 86,
                 "end": 112
             },
@@ -331,6 +369,7 @@ function from<T>(arg: any): Query<T> {
                         "text": "Query",
                         "rawText": "Query",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 77,
                         "end": 83
                     },
@@ -350,37 +389,45 @@ function from<T>(arg: any): Query<T> {
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 84,
                                             "end": 85
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 84,
                                         "end": 85
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 84,
                                     "end": 85
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 84,
                             "end": 85
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 83,
                         "end": 86
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 77,
                     "end": 86
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 77,
                 "end": 86
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 49,
             "end": 112
         }
@@ -389,6 +436,7 @@ function from<T>(arg: any): Query<T> {
     "source": "declare function from<T>(arg: boolean): Query<T>;\nfunction from<T>(arg: any): Query<T> {\n    return undefined;\n}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 113
 }

@@ -40,6 +40,7 @@ var p/
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -53,21 +54,25 @@ var p/
                             "text": "p",
                             "rawText": "p",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 5
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -80,12 +85,14 @@ var p/
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 5,
                     "end": 6
                 },
@@ -94,14 +101,17 @@ var p/
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 6
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 5,
             "end": 6
         }
@@ -110,6 +120,7 @@ var p/
     "source": "var p/",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 6
 }

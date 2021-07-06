@@ -33,12 +33,14 @@ test
                     "text": "test",
                     "rawText": "test",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 8
                 },
@@ -52,6 +54,7 @@ test
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 11
                         },
@@ -67,30 +70,36 @@ test
                                     "text": "T",
                                     "rawText": "T",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 14
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 14
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 14
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 14
                     },
                     "flags": 8,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 15
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 16
                 },
@@ -103,6 +112,7 @@ test
                         "text": "U",
                         "rawText": "U",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 18
                     },
@@ -110,6 +120,7 @@ test
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 21
                     },
@@ -118,18 +129,22 @@ test
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 23
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 23
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -138,6 +153,7 @@ test
     "source": "test\n  ? (x: T): U => y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

@@ -28,6 +28,7 @@ var x, y, z; for (x in { super } = z = {});
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,12 +42,14 @@ var x, y, z; for (x in { super } = z = {});
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 5
                     },
@@ -57,12 +60,14 @@ var x, y, z; for (x in { super } = z = {});
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 6,
                         "end": 8
                     },
@@ -73,21 +78,25 @@ var x, y, z; for (x in { super } = z = {});
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 9,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -96,6 +105,7 @@ var x, y, z; for (x in { super } = z = {});
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 16
             },
@@ -104,12 +114,14 @@ var x, y, z; for (x in { super } = z = {});
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 22
             },
@@ -125,22 +137,26 @@ var x, y, z; for (x in { super } = z = {});
                                 "text": "super",
                                 "rawText": "super",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 30
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 30
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 22,
                     "end": 32
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 34
                 },
@@ -151,12 +167,14 @@ var x, y, z; for (x in { super } = z = {});
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 34,
                         "end": 36
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 36,
                         "end": 38
                     },
@@ -167,28 +185,34 @@ var x, y, z; for (x in { super } = z = {});
                             "properties": [],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 40,
                             "end": 40
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 38,
                         "end": 41
                     },
                     "flags": 0,
+                    "transformFlags": 128,
                     "start": 34,
                     "end": 41
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 22,
                 "end": 41
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 42,
                 "end": 43
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 12,
             "end": 43
         }
@@ -197,6 +221,7 @@ var x, y, z; for (x in { super } = z = {});
     "source": "var x, y, z; for (x in { super } = z = {});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }

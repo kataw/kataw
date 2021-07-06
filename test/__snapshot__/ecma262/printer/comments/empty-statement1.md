@@ -18,6 +18,7 @@ while-statement6# Kataw parser test case
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         }
@@ -26,6 +27,7 @@ while-statement6# Kataw parser test case
     "source": " /*1*/;/*2*/",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

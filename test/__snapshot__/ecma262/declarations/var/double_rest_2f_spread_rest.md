@@ -29,6 +29,7 @@ var [... ...foo] = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,6 +48,7 @@ var [... ...foo] = obj;
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -55,6 +57,7 @@ var [... ...foo] = obj;
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 8
                                         },
@@ -62,6 +65,7 @@ var [... ...foo] = obj;
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 8
                                     },
@@ -70,6 +74,7 @@ var [... ...foo] = obj;
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 12
                                         },
@@ -78,6 +83,7 @@ var [... ...foo] = obj;
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 15
                                         },
@@ -85,16 +91,19 @@ var [... ...foo] = obj;
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 15
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 15
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 16
                         },
@@ -104,19 +113,23 @@ var [... ...foo] = obj;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 22
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 22
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -125,6 +138,7 @@ var [... ...foo] = obj;
     "source": "var [... ...foo] = obj;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

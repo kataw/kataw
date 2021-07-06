@@ -22,6 +22,7 @@ new (x().y)();
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -36,6 +37,7 @@ new (x().y)();
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 6
                             },
@@ -44,10 +46,12 @@ new (x().y)();
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 7
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 3,
                             "end": 8
                         },
@@ -56,14 +60,17 @@ new (x().y)();
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 10
                         },
                         "flags": 268435488,
+                        "transformFlags": 2,
                         "start": 3,
                         "end": 10
                     },
                     "flags": 3,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 11
                 },
@@ -72,14 +79,17 @@ new (x().y)();
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 12
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -88,6 +98,7 @@ new (x().y)();
     "source": "new (x().y)();",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

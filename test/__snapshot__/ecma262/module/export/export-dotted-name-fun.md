@@ -28,6 +28,7 @@ export function bar() {
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -38,6 +39,7 @@ export function bar() {
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 15
                 },
@@ -47,6 +49,7 @@ export function bar() {
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 19
                 },
@@ -56,6 +59,7 @@ export function bar() {
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 20
                 },
@@ -70,6 +74,7 @@ export function bar() {
                                 "returnKeyword": {
                                     "kind": 37757022,
                                     "flags": 81,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 34
                                 },
@@ -86,6 +91,7 @@ export function bar() {
                                                     "text": "A",
                                                     "rawText": "A",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 34,
                                                     "end": 36
                                                 },
@@ -94,10 +100,12 @@ export function bar() {
                                                     "text": "B",
                                                     "rawText": "B",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 37,
                                                     "end": 38
                                                 },
                                                 "flags": 96,
+                                                "transformFlags": 2,
                                                 "start": 34,
                                                 "end": 38
                                             },
@@ -106,10 +114,12 @@ export function bar() {
                                                 "text": "C",
                                                 "rawText": "C",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 39,
                                                 "end": 40
                                             },
                                             "flags": 96,
+                                            "transformFlags": 2,
                                             "start": 34,
                                             "end": 40
                                         },
@@ -118,10 +128,12 @@ export function bar() {
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 41,
                                             "end": 44
                                         },
                                         "flags": 96,
+                                        "transformFlags": 2,
                                         "start": 34,
                                         "end": 44
                                     },
@@ -130,28 +142,34 @@ export function bar() {
                                         "elements": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 45,
                                         "end": 45
                                     },
                                     "flags": 268435488,
+                                    "transformFlags": 1,
                                     "start": 34,
                                     "end": 46
                                 },
                                 "flags": 81,
+                                "transformFlags": 256,
                                 "start": 23,
                                 "end": 47
                             }
                         ],
                         "flags": 33,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 47
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 49
                 },
                 "returnType": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 49
             },
@@ -160,6 +178,7 @@ export function bar() {
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 49
         }
@@ -168,6 +187,7 @@ export function bar() {
     "source": "export function bar() {\n    return A.B.C.foo();\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 49
 }

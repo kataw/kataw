@@ -40,6 +40,7 @@ var [foo:bar] = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -61,6 +62,7 @@ var [foo:bar] = obj;
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -76,30 +78,36 @@ var [foo:bar] = obj;
                                                     "text": "bar",
                                                     "rawText": "bar",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 9,
                                                     "end": 12
                                                 },
                                                 "typeParameters": null,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 9,
                                                 "end": 12
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 12
                                         },
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 12
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 12
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 13
                         },
@@ -109,19 +117,23 @@ var [foo:bar] = obj;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 19
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 19
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -130,6 +142,7 @@ var [foo:bar] = obj;
     "source": "var [foo:bar] = obj;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

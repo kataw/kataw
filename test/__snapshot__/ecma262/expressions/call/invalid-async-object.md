@@ -22,6 +22,7 @@ async ({a = b});
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -40,6 +41,7 @@ async ({a = b});
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 9
                                     },
@@ -48,36 +50,43 @@ async ({a = b});
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 13
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 13
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 13
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 7,
                         "end": 14
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 0
             },
             "flags": 268435490,
+            "transformFlags": 1,
             "start": 0,
             "end": 15
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 15,
             "end": 16
         }
@@ -86,6 +95,7 @@ async ({a = b});
     "source": "async ({a = b});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

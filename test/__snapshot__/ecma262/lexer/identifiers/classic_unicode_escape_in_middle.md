@@ -22,10 +22,12 @@ xxx\u0065xxx
                 "text": "xxxexxx",
                 "rawText": "xxx\\u0065xxx",
                 "flags": 16480,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -34,6 +36,7 @@ xxx\u0065xxx
     "source": "xxx\\u0065xxx",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

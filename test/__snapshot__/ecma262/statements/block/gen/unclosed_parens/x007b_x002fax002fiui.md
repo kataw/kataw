@@ -35,14 +35,17 @@
                                 "kind": 132,
                                 "expressions": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 4
                             },
                             "flags": 1,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 4
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 4
                     },
@@ -52,19 +55,23 @@
                             "kind": 371,
                             "text": "/a/iui",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 11
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         }
@@ -73,6 +80,7 @@
     "source": "{( { /a/iui",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

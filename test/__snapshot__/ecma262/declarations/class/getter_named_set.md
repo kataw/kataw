@@ -41,6 +41,7 @@ class A {get set(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -49,6 +50,7 @@ class A {get set(){}}
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -68,6 +70,7 @@ class A {get set(){}}
                             "setKeyword": {
                                 "kind": 16498,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 12
                             },
@@ -80,6 +83,7 @@ class A {get set(){}}
                                     "text": "set",
                                     "rawText": "set",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 16
                                 },
@@ -89,6 +93,7 @@ class A {get set(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 18
                                 },
@@ -100,31 +105,38 @@ class A {get set(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 19
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 20
                                 },
                                 "flags": 1024,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 20
                             },
                             "flags": 1024,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 20
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 20
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -133,6 +145,7 @@ class A {get set(){}}
     "source": "class A {get set(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

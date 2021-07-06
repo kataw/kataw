@@ -22,6 +22,7 @@ class x { foo(){ function f(){ super.foo; } }}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class x { foo(){ function f(){ super.foo; } }}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -56,6 +58,7 @@ class x { foo(){ function f(){ super.foo; } }}
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 13
                                 },
@@ -65,6 +68,7 @@ class x { foo(){ function f(){ super.foo; } }}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 15
                                 },
@@ -82,6 +86,7 @@ class x { foo(){ function f(){ super.foo; } }}
                                                 "functionKeyword": {
                                                     "kind": 37822554,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 16,
                                                     "end": 25
                                                 },
@@ -91,6 +96,7 @@ class x { foo(){ function f(){ super.foo; } }}
                                                     "text": "f",
                                                     "rawText": "f",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 25,
                                                     "end": 27
                                                 },
@@ -100,6 +106,7 @@ class x { foo(){ function f(){ super.foo; } }}
                                                     "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 28,
                                                     "end": 28
                                                 },
@@ -116,6 +123,7 @@ class x { foo(){ function f(){ super.foo; } }}
                                                                     "member": {
                                                                         "kind": 4259935,
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 30,
                                                                         "end": 36
                                                                     },
@@ -124,58 +132,71 @@ class x { foo(){ function f(){ super.foo; } }}
                                                                         "text": "foo",
                                                                         "rawText": "foo",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 37,
                                                                         "end": 40
                                                                     },
                                                                     "flags": 96,
+                                                                    "transformFlags": 2,
                                                                     "start": 30,
                                                                     "end": 40
                                                                 },
                                                                 "flags": 16,
+                                                                "transformFlags": 0,
                                                                 "start": 30,
                                                                 "end": 41
                                                             }
                                                         ],
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 30,
                                                         "end": 41
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 29,
                                                     "end": 43
                                                 },
                                                 "returnType": null,
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 16,
                                                 "end": 43
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 43
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 45
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 45
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 45
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 45
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 46
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 46
         }
@@ -184,6 +205,7 @@ class x { foo(){ function f(){ super.foo; } }}
     "source": "class x { foo(){ function f(){ super.foo; } }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 46
 }

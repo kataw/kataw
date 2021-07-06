@@ -24,12 +24,14 @@ s = {"foo": await a = x} = x
                     "text": "s",
                     "rawText": "s",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -48,6 +50,7 @@ s = {"foo": await a = x} = x
                                         "text": "foo",
                                         "rawText": "\"foo\"",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 10
                                     },
@@ -56,10 +59,12 @@ s = {"foo": await a = x} = x
                                         "text": "await",
                                         "rawText": "await",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 17
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 5,
                                     "end": 17
                                 },
@@ -70,6 +75,7 @@ s = {"foo": await a = x} = x
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 19
                                     },
@@ -78,26 +84,31 @@ s = {"foo": await a = x} = x
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 23
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 23
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 23
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 3,
                         "end": 24
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 26
                     },
@@ -106,18 +117,22 @@ s = {"foo": await a = x} = x
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 28
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 3,
                     "end": 28
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -126,6 +141,7 @@ s = {"foo": await a = x} = x
     "source": "s = {\"foo\": await a = x} = x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

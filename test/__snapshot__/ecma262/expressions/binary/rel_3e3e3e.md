@@ -24,12 +24,14 @@ a>>>b
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 35142,
                     "flags": 96,
+                    "transformFlags": 64,
                     "start": 1,
                     "end": 4
                 },
@@ -38,14 +40,17 @@ a>>>b
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 5
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         }
@@ -54,6 +59,7 @@ a>>>b
     "source": "a>>>b",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 5
 }
@@ -63,7 +69,7 @@ a>>>b
 
 ```javascript
 
-a >>>  b;
+a >>> b;
 ```
 
 ### Diagnostics

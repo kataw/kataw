@@ -28,6 +28,7 @@ class x{ constructor(){} 9(){} }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -36,6 +37,7 @@ class x{ constructor(){} 9(){} }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -62,6 +64,7 @@ class x{ constructor(){} 9(){} }
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 20
                                 },
@@ -71,6 +74,7 @@ class x{ constructor(){} 9(){} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 22
                                 },
@@ -82,18 +86,22 @@ class x{ constructor(){} 9(){} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 23
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 24
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 24
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 24
                         },
@@ -113,6 +121,7 @@ class x{ constructor(){} 9(){} }
                                     "text": 9,
                                     "rawText": "9",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 26
                                 },
@@ -122,6 +131,7 @@ class x{ constructor(){} 9(){} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 28
                                 },
@@ -133,31 +143,38 @@ class x{ constructor(){} 9(){} }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 29
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 30
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 30
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 30
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 30
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -166,6 +183,7 @@ class x{ constructor(){} 9(){} }
     "source": "class x{ constructor(){} 9(){} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

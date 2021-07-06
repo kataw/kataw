@@ -20,6 +20,7 @@ for (let {a:=c} = z;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -28,6 +29,7 @@ for (let {a:=c} = z;;);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
@@ -48,6 +50,7 @@ for (let {a:=c} = z;;);
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 11
                                             },
@@ -56,6 +59,7 @@ for (let {a:=c} = z;;);
                                                 "text": "",
                                                 "rawText": "",
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 12
                                             },
@@ -64,20 +68,24 @@ for (let {a:=c} = z;;);
                                                 "text": "c",
                                                 "rawText": "c",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 14
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 14
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 14
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 15
                             },
@@ -87,19 +95,23 @@ for (let {a:=c} = z;;);
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 19
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 8,
                             "end": 19
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 19
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 19
             },
@@ -108,10 +120,12 @@ for (let {a:=c} = z;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 23
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -120,6 +134,7 @@ for (let {a:=c} = z;;);
     "source": "for (let {a:=c} = z;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

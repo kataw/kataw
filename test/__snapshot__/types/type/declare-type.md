@@ -28,12 +28,14 @@ declare type bool = any;
             "declareToken": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 12
             },
@@ -42,6 +44,7 @@ declare type bool = any;
                 "text": "bool",
                 "rawText": "bool",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 17
             },
@@ -49,6 +52,7 @@ declare type bool = any;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
@@ -59,14 +63,17 @@ declare type bool = any;
                 "type": {
                     "kind": 134234252,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 23
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 23
             },
             "flags": 4160,
+            "transformFlags": 0,
             "start": 7,
             "end": 24
         }
@@ -75,6 +82,7 @@ declare type bool = any;
     "source": "declare type bool = any;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

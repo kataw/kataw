@@ -22,6 +22,7 @@ function c(eval){ }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function c(eval){ }
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -43,12 +45,14 @@ function c(eval){ }
                         "text": "eval",
                         "rawText": "eval",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 15
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 15
             },
@@ -59,15 +63,18 @@ function c(eval){ }
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 19
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -76,6 +83,7 @@ function c(eval){ }
     "source": "function c(eval){ }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

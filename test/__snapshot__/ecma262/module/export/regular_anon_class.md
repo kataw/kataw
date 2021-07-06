@@ -26,12 +26,14 @@ export default class {} foo
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "defaultKeyword": {
                 "kind": 4194387,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -42,6 +44,7 @@ export default class {} foo
                 "classKeyword": {
                     "kind": 37822544,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 20
                 },
@@ -54,18 +57,22 @@ export default class {} foo
                         "kind": 303,
                         "elements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 22
                     },
                     "flags": 20,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 23
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         },
@@ -76,10 +83,12 @@ export default class {} foo
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 23,
             "end": 27
         }
@@ -88,6 +97,7 @@ export default class {} foo
     "source": "export default class {} foo",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

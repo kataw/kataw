@@ -30,6 +30,7 @@ foo(function f(){})
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -42,6 +43,7 @@ foo(function f(){})
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 12
                             },
@@ -51,6 +53,7 @@ foo(function f(){})
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 14
                             },
@@ -60,6 +63,7 @@ foo(function f(){})
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 15
                             },
@@ -70,29 +74,35 @@ foo(function f(){})
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 17
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
                             },
                             "returnType": null,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 18
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 18
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -101,6 +111,7 @@ foo(function f(){})
     "source": "foo(function f(){})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

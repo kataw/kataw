@@ -27,6 +27,7 @@ export {}
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -37,10 +38,12 @@ export {}
                     "kind": 289,
                     "specifiers": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 8
                 },
                 "flags": 1,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 9
             },
@@ -48,6 +51,7 @@ export {}
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -62,12 +66,14 @@ export {}
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 9
                     },
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 97,
+                        "transformFlags": 32,
                         "start": 9,
                         "end": 11
                     },
@@ -76,16 +82,19 @@ export {}
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 14
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 14
                 },
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 14,
                     "end": 15
                 },
@@ -94,14 +103,17 @@ export {}
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 9,
             "end": 15
         }
@@ -110,6 +122,7 @@ export {}
     "source": "export {}\n/foo/",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

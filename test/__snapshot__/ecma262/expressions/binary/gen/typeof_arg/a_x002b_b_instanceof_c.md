@@ -31,6 +31,7 @@ typeof a + b instanceof c
                     "operandToken": {
                         "kind": 138477613,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 6
                     },
@@ -39,16 +40,19 @@ typeof a + b instanceof c
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 8
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
@@ -59,12 +63,14 @@ typeof a + b instanceof c
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 12
                     },
                     "operatorToken": {
                         "kind": 4229173,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 23
                     },
@@ -73,18 +79,22 @@ typeof a + b instanceof c
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 25
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -93,6 +103,7 @@ typeof a + b instanceof c
     "source": "typeof a + b instanceof c",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }
@@ -102,7 +113,7 @@ typeof a + b instanceof c
 
 ```javascript
 
-typeof a +  b instanceof  c;
+typeof a + b instanceof c;
 ```
 
 ### Diagnostics

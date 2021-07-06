@@ -27,6 +27,7 @@ c\u006fnst = x;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 16464,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
@@ -34,10 +35,12 @@ c\u006fnst = x;
                 "kind": 151,
                 "bindingList": [],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 10
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -48,10 +51,12 @@ c\u006fnst = x;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 12,
             "end": 15
         }
@@ -60,6 +65,7 @@ c\u006fnst = x;
     "source": "c\\u006fnst = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

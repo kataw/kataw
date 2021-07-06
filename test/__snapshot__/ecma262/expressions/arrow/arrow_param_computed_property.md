@@ -35,12 +35,14 @@
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 3
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 4
                     },
@@ -48,6 +50,7 @@
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 7
                     },
@@ -56,18 +59,22 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 9
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 9
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -83,6 +90,7 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 15
                         },
@@ -98,12 +106,14 @@
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 19
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 20
                             },
@@ -111,6 +121,7 @@
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 23
                             },
@@ -119,23 +130,28 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 25
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 25
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 25
                 },
                 "flags": 11,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 27
         },
@@ -150,6 +166,7 @@
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 30,
                         "end": 31
                     },
@@ -158,18 +175,22 @@
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 33
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 27,
                     "end": 34
                 },
                 "flags": 27,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 27,
             "end": 35
         },
@@ -180,10 +201,12 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 38,
             "end": 41
         }
@@ -192,6 +215,7 @@
     "source": "((a) => x);\n\n(x, (a) => x);\n\n(a[b]) => x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }

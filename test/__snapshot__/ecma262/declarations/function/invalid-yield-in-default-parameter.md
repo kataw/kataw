@@ -22,12 +22,14 @@ function* x() { function* foo(a = 1 + (yield)) {} }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -36,6 +38,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 11
             },
@@ -45,6 +48,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -61,12 +65,14 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 24
                             },
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 24,
                                 "end": 25
                             },
@@ -75,6 +81,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 29
                             },
@@ -90,6 +97,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 31
                                         },
@@ -102,12 +110,14 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                                 "text": 1,
                                                 "rawText": "1",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 35
                                             },
                                             "operatorToken": {
                                                 "kind": 99634,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 35,
                                                 "end": 37
                                             },
@@ -118,6 +128,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                                     "yieldKeyword": {
                                                         "kind": 8454253,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 39,
                                                         "end": 44
                                                     },
@@ -125,24 +136,29 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                                     "asteriskToken": null,
                                                     "expression": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 39,
                                                     "end": 44
                                                 },
                                                 "flags": 37,
+                                                "transformFlags": 0,
                                                 "start": 32,
                                                 "end": 45
                                             },
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 33,
                                             "end": 45
                                         },
                                         "flags": 34,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 45
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 45
                             },
@@ -153,29 +169,35 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 48,
                                     "end": 48
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 46,
                                 "end": 49
                             },
                             "returnType": null,
                             "flags": 272,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 49
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 49
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 51
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 51
         }
@@ -184,6 +206,7 @@ function* x() { function* foo(a = 1 + (yield)) {} }
     "source": "function* x() { function* foo(a = 1 + (yield)) {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 51
 }

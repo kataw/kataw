@@ -26,12 +26,14 @@ a ?? b ?? c;
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
                     "operatorToken": {
                         "kind": 33047,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 4
                     },
@@ -40,16 +42,19 @@ a ?? b ?? c;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 6
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 9
                 },
@@ -58,14 +63,17 @@ a ?? b ?? c;
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -74,6 +82,7 @@ a ?? b ?? c;
     "source": "a ?? b ?? c;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }
@@ -83,7 +92,7 @@ a ?? b ?? c;
 
 ```javascript
 
-a ??  b ??  c;
+a ?? b ?? c;
 ```
 
 ### Diagnostics

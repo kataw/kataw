@@ -22,6 +22,7 @@ class X { static \u0061sync x() { await x } }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class X { static \u0061sync x() { await x } }
                 "text": "X",
                 "rawText": "X",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -47,12 +49,14 @@ class X { static \u0061sync x() { await x } }
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 16
                             },
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 16448,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 27
                             },
@@ -66,6 +70,7 @@ class X { static \u0061sync x() { await x } }
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 29
                                 },
@@ -75,6 +80,7 @@ class X { static \u0061sync x() { await x } }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 31
                                 },
@@ -92,6 +98,7 @@ class X { static \u0061sync x() { await x } }
                                                     "awaitKeyword": {
                                                         "kind": 82196,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 33,
                                                         "end": 39
                                                     },
@@ -100,44 +107,54 @@ class X { static \u0061sync x() { await x } }
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 39,
                                                         "end": 41
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 33,
                                                     "end": 41
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 33,
                                                 "end": 41
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 41
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 43
                                 },
                                 "flags": 256,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 43
                             },
                             "flags": 256,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 43
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 43
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 45
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 45
         }
@@ -146,6 +163,7 @@ class X { static \u0061sync x() { await x } }
     "source": "class X { static \\u0061sync x() { await x } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 45
 }

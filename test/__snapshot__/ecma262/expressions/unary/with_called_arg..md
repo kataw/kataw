@@ -22,6 +22,7 @@ new + x()
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -30,6 +31,7 @@ new + x()
                     "operandToken": {
                         "kind": 99634,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 5
                     },
@@ -40,6 +42,7 @@ new + x()
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
@@ -48,23 +51,28 @@ new + x()
                             "elements": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 8
                         },
                         "flags": 268435488,
+                        "transformFlags": 1,
                         "start": 5,
                         "end": 9
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 9
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         }
@@ -73,6 +81,7 @@ new + x()
     "source": "new + x()",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

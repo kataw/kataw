@@ -32,6 +32,7 @@
                         "tryKeyword": {
                             "kind": 37757027,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 4
                         },
@@ -41,10 +42,12 @@
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 4
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 4
                         },
@@ -56,14 +59,17 @@
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 4
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 4
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 4
                     },
@@ -74,6 +80,7 @@
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 13
                         },
@@ -83,6 +90,7 @@
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 17
                         },
@@ -92,6 +100,7 @@
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 18
                         },
@@ -102,15 +111,18 @@
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 21
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 22
                         },
                         "returnType": null,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 22
                     },
@@ -123,10 +135,12 @@
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 22
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 22
                         },
@@ -135,6 +149,7 @@
                             "catchKeyword": {
                                 "kind": 4202575,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 28
                             },
@@ -143,6 +158,7 @@
                                 "text": "e",
                                 "rawText": "e",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 31
                             },
@@ -152,29 +168,35 @@
                                     "kind": 249,
                                     "statements": [],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 34,
                                     "end": 34
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 35
                             },
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 35
                         },
                         "finallyKeyword": null,
                         "finallyBlock": null,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 35
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -183,6 +205,7 @@
     "source": "{try function foo() {} catch (e) {}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

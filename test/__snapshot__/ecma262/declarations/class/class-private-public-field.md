@@ -51,6 +51,7 @@ class C { f(){ this.#a } #a; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -59,6 +60,7 @@ class C { f(){ this.#a } #a; }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -80,6 +82,7 @@ class C { f(){ this.#a } #a; }
                                 "text": "#a",
                                 "rawText": "#a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 12
                             },
@@ -87,12 +90,14 @@ class C { f(){ this.#a } #a; }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 9,
                             "end": 12
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
@@ -107,6 +112,7 @@ class C { f(){ this.#a } #a; }
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
                             },
@@ -117,6 +123,7 @@ class C { f(){ this.#a } #a; }
                                 "member": {
                                     "kind": 4276321,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 22
                                 },
@@ -125,33 +132,40 @@ class C { f(){ this.#a } #a; }
                                     "text": "#a",
                                     "rawText": "#a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 25
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 17,
                                 "end": 25
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 13,
                             "end": 25
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 26
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 26
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         },
@@ -162,6 +176,7 @@ class C { f(){ this.#a } #a; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 35
             },
@@ -170,6 +185,7 @@ class C { f(){ this.#a } #a; }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 37
             },
@@ -191,6 +207,7 @@ class C { f(){ this.#a } #a; }
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 41
                             },
@@ -201,6 +218,7 @@ class C { f(){ this.#a } #a; }
                                 "member": {
                                     "kind": 4276321,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 48
                                 },
@@ -209,20 +227,24 @@ class C { f(){ this.#a } #a; }
                                     "text": "#a",
                                     "rawText": "#a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 49,
                                     "end": 51
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 43,
                                 "end": 51
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 39,
                             "end": 51
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 51,
                             "end": 52
                         },
@@ -237,6 +259,7 @@ class C { f(){ this.#a } #a; }
                                 "text": "#a",
                                 "rawText": "#a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 52,
                                 "end": 55
                             },
@@ -244,25 +267,30 @@ class C { f(){ this.#a } #a; }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 52,
                             "end": 55
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 55,
                             "end": 56
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 56
                 },
                 "flags": 37,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 58
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 28,
             "end": 58
         },
@@ -273,6 +301,7 @@ class C { f(){ this.#a } #a; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 58,
                 "end": 65
             },
@@ -281,6 +310,7 @@ class C { f(){ this.#a } #a; }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 65,
                 "end": 67
             },
@@ -302,6 +332,7 @@ class C { f(){ this.#a } #a; }
                                 "text": "#a",
                                 "rawText": "#a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 69,
                                 "end": 72
                             },
@@ -309,12 +340,14 @@ class C { f(){ this.#a } #a; }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 69,
                             "end": 72
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 72,
                             "end": 73
                         },
@@ -331,6 +364,7 @@ class C { f(){ this.#a } #a; }
                                     "member": {
                                         "kind": 4276321,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 75,
                                         "end": 79
                                     },
@@ -339,14 +373,17 @@ class C { f(){ this.#a } #a; }
                                         "text": "#a",
                                         "rawText": "#a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 80,
                                         "end": 82
                                     },
                                     "flags": 96,
+                                    "transformFlags": 2,
                                     "start": 75,
                                     "end": 82
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 73,
                                 "end": 83
                             },
@@ -354,25 +391,30 @@ class C { f(){ this.#a } #a; }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 73,
                             "end": 83
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 83,
                             "end": 84
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 69,
                     "end": 84
                 },
                 "flags": 67,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 86
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 58,
             "end": 86
         },
@@ -383,6 +425,7 @@ class C { f(){ this.#a } #a; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 86,
                 "end": 93
             },
@@ -391,6 +434,7 @@ class C { f(){ this.#a } #a; }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 93,
                 "end": 95
             },
@@ -414,6 +458,7 @@ class C { f(){ this.#a } #a; }
                                     "member": {
                                         "kind": 4276321,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 99,
                                         "end": 103
                                     },
@@ -422,14 +467,17 @@ class C { f(){ this.#a } #a; }
                                         "text": "#a",
                                         "rawText": "#a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 104,
                                         "end": 106
                                     },
                                     "flags": 96,
+                                    "transformFlags": 2,
                                     "start": 99,
                                     "end": 106
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 97,
                                 "end": 107
                             },
@@ -437,12 +485,14 @@ class C { f(){ this.#a } #a; }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 97,
                             "end": 107
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 107,
                             "end": 108
                         },
@@ -457,6 +507,7 @@ class C { f(){ this.#a } #a; }
                                 "text": "#a",
                                 "rawText": "#a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 108,
                                 "end": 111
                             },
@@ -464,25 +515,30 @@ class C { f(){ this.#a } #a; }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 108,
                             "end": 111
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 111,
                             "end": 112
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 97,
                     "end": 112
                 },
                 "flags": 95,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 114
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 86,
             "end": 114
         },
@@ -493,6 +549,7 @@ class C { f(){ this.#a } #a; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 114,
                 "end": 121
             },
@@ -501,6 +558,7 @@ class C { f(){ this.#a } #a; }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 121,
                 "end": 123
             },
@@ -522,6 +580,7 @@ class C { f(){ this.#a } #a; }
                                 "text": "#a",
                                 "rawText": "#a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 125,
                                 "end": 128
                             },
@@ -529,12 +588,14 @@ class C { f(){ this.#a } #a; }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 125,
                             "end": 128
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 128,
                             "end": 129
                         },
@@ -554,6 +615,7 @@ class C { f(){ this.#a } #a; }
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 129,
                                     "end": 131
                                 },
@@ -563,6 +625,7 @@ class C { f(){ this.#a } #a; }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 132,
                                     "end": 133
                                 },
@@ -580,6 +643,7 @@ class C { f(){ this.#a } #a; }
                                                     "member": {
                                                         "kind": 4276321,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 134,
                                                         "end": 139
                                                     },
@@ -588,44 +652,54 @@ class C { f(){ this.#a } #a; }
                                                         "text": "#a",
                                                         "rawText": "#a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 140,
                                                         "end": 142
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 2,
                                                     "start": 134,
                                                     "end": 142
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 134,
                                                 "end": 142
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 134,
                                         "end": 142
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 133,
                                     "end": 144
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 131,
                                 "end": 144
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 129,
                             "end": 144
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 125,
                     "end": 144
                 },
                 "flags": 123,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 146
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 114,
             "end": 146
         },
@@ -636,6 +710,7 @@ class C { f(){ this.#a } #a; }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 146,
                 "end": 153
             },
@@ -644,6 +719,7 @@ class C { f(){ this.#a } #a; }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 153,
                 "end": 155
             },
@@ -670,6 +746,7 @@ class C { f(){ this.#a } #a; }
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 157,
                                     "end": 159
                                 },
@@ -679,6 +756,7 @@ class C { f(){ this.#a } #a; }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 160,
                                     "end": 161
                                 },
@@ -696,6 +774,7 @@ class C { f(){ this.#a } #a; }
                                                     "member": {
                                                         "kind": 4276321,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 162,
                                                         "end": 167
                                                     },
@@ -704,31 +783,38 @@ class C { f(){ this.#a } #a; }
                                                         "text": "#a",
                                                         "rawText": "#a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 168,
                                                         "end": 170
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 2,
                                                     "start": 162,
                                                     "end": 170
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 162,
                                                 "end": 170
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 162,
                                         "end": 170
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 161,
                                     "end": 172
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 159,
                                 "end": 172
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 157,
                             "end": 172
                         },
@@ -743,6 +829,7 @@ class C { f(){ this.#a } #a; }
                                 "text": "#a",
                                 "rawText": "#a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 172,
                                 "end": 175
                             },
@@ -750,25 +837,30 @@ class C { f(){ this.#a } #a; }
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 172,
                             "end": 175
                         },
                         {
                             "kind": 1108353041,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 175,
                             "end": 176
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 157,
                     "end": 176
                 },
                 "flags": 155,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 178
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 146,
             "end": 178
         }
@@ -777,6 +869,7 @@ class C { f(){ this.#a } #a; }
     "source": "class C { #a; a = this.#a; }\n\nclass C { a = this.#a; #a; }\n\nclass C { #a; [this.#a]; }\n\nclass C { [this.#a]; #a; }\n\nclass C { #a; f(){ this.#a } }\n\nclass C { f(){ this.#a } #a; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 178
 }

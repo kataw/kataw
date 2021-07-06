@@ -23,6 +23,7 @@ const example = (obj) => {
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -36,6 +37,7 @@ const example = (obj) => {
                             "text": "example",
                             "rawText": "example",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 13
                         },
@@ -52,12 +54,14 @@ const example = (obj) => {
                                         "text": "obj",
                                         "rawText": "obj",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 20
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 21
                             },
@@ -65,6 +69,7 @@ const example = (obj) => {
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 24
                             },
@@ -79,6 +84,7 @@ const example = (obj) => {
                                             "lexicalKeyword": {
                                                 "kind": 37757004,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 34
                                             },
@@ -92,6 +98,7 @@ const example = (obj) => {
                                                             "text": "foo",
                                                             "rawText": "foo",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 34,
                                                             "end": 38
                                                         },
@@ -101,19 +108,23 @@ const example = (obj) => {
                                                             "text": "foo",
                                                             "rawText": "'foo'",
                                                             "flags": 4194400,
+                                                            "transformFlags": 0,
                                                             "start": 40,
                                                             "end": 46
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 34,
                                                         "end": 46
                                                     }
                                                 ],
                                                 "flags": 16777232,
+                                                "transformFlags": 0,
                                                 "start": 34,
                                                 "end": 46
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 26,
                                             "end": 47
                                         },
@@ -122,6 +133,7 @@ const example = (obj) => {
                                             "lexicalKeyword": {
                                                 "kind": 37757004,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 47,
                                                 "end": 55
                                             },
@@ -151,10 +163,12 @@ const example = (obj) => {
                                                                                             "text": "foo",
                                                                                             "rawText": "foo",
                                                                                             "flags": 96,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 69,
                                                                                             "end": 72
                                                                                         },
                                                                                         "flags": 32,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 59,
                                                                                         "end": 72
                                                                                     }
@@ -164,14 +178,17 @@ const example = (obj) => {
                                                                                     "text": "",
                                                                                     "rawText": "",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 72,
                                                                                     "end": 74
                                                                                 },
                                                                                 "flags": 32,
+                                                                                "transformFlags": 0,
                                                                                 "start": 59,
                                                                                 "end": 74
                                                                             },
                                                                             "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 57,
                                                                             "end": 75
                                                                         },
@@ -180,11 +197,13 @@ const example = (obj) => {
                                                                             "text": "_",
                                                                             "rawText": "_",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 76,
                                                                             "end": 78
                                                                         },
                                                                         "initializer": null,
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 57,
                                                                         "end": 78
                                                                     },
@@ -193,6 +212,7 @@ const example = (obj) => {
                                                                         "ellipsisToken": {
                                                                             "kind": 524302,
                                                                             "flags": 64,
+                                                                            "transformFlags": 0,
                                                                             "start": 79,
                                                                             "end": 83
                                                                         },
@@ -201,6 +221,7 @@ const example = (obj) => {
                                                                             "text": "rest",
                                                                             "rawText": "rest",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 83,
                                                                             "end": 87
                                                                         },
@@ -208,16 +229,19 @@ const example = (obj) => {
                                                                         "type": null,
                                                                         "right": null,
                                                                         "flags": 0,
+                                                                        "transformFlags": 0,
                                                                         "start": 79,
                                                                         "end": 87
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 57,
                                                                 "end": 87
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 55,
                                                             "end": 89
                                                         },
@@ -227,45 +251,55 @@ const example = (obj) => {
                                                             "text": "obj",
                                                             "rawText": "obj",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 91,
                                                             "end": 95
                                                         },
                                                         "flags": 16,
+                                                        "transformFlags": 128,
                                                         "start": 55,
                                                         "end": 95
                                                     }
                                                 ],
                                                 "flags": 16777232,
+                                                "transformFlags": 0,
                                                 "start": 55,
                                                 "end": 95
                                             },
                                             "flags": 33554448,
+                                            "transformFlags": 0,
                                             "start": 47,
                                             "end": 96
                                         }
                                     ],
                                     "flags": 33,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 96
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 98
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 98
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 5,
                         "end": 98
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 98
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 99
         }
@@ -274,6 +308,7 @@ const example = (obj) => {
     "source": "const example = (obj) => {\n  const foo = 'foo';\n  const { [`prefix_${foo}`]: _, ...rest } = obj;\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 99
 }

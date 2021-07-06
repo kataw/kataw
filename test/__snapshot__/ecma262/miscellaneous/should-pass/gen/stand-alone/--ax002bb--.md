@@ -31,6 +31,7 @@
                     "operandToken": {
                         "kind": 196636,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 2
                     },
@@ -39,16 +40,19 @@
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 3
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 4
                 },
@@ -57,6 +61,7 @@
                     "operandToken": {
                         "kind": 196636,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 7
                     },
@@ -65,18 +70,22 @@
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 5
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 7
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         }
@@ -85,6 +94,7 @@
     "source": "--a+b--",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }
@@ -94,7 +104,7 @@
 
 ```javascript
 
--- a +  b-- ;
+-- a + b-- ;
 ```
 
 ### Diagnostics

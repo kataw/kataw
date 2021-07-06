@@ -28,6 +28,7 @@ var {a: my_var} = {a: 3}; my_var;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -48,6 +49,7 @@ var {a: my_var} = {a: 3}; my_var;
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 6
                                         },
@@ -56,21 +58,25 @@ var {a: my_var} = {a: 3}; my_var;
                                             "text": "my_var",
                                             "rawText": "my_var",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 14
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 14
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 14
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 15
                         },
@@ -88,6 +94,7 @@ var {a: my_var} = {a: 3}; my_var;
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 20
                                         },
@@ -96,33 +103,40 @@ var {a: my_var} = {a: 3}; my_var;
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 23
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 19,
                                         "end": 23
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 23
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 17,
                             "end": 24
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 24
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         },
@@ -133,10 +147,12 @@ var {a: my_var} = {a: 3}; my_var;
                 "text": "my_var",
                 "rawText": "my_var",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 25,
             "end": 33
         }
@@ -145,6 +161,7 @@ var {a: my_var} = {a: 3}; my_var;
     "source": "var {a: my_var} = {a: 3}; my_var;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

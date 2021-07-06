@@ -21,6 +21,7 @@ var y = { \u0066inally: x } = { finally: 42 };
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -34,6 +35,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -53,6 +55,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                                 "text": "finally",
                                                 "rawText": "\\u0066inally",
                                                 "flags": 16480,
+                                                "transformFlags": 0,
                                                 "start": 9,
                                                 "end": 22
                                             },
@@ -61,26 +64,31 @@ var y = { \u0066inally: x } = { finally: 42 };
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 25
                                             },
                                             "flags": 16416,
+                                            "transformFlags": 128,
                                             "start": 9,
                                             "end": 25
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16400,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 25
                                 },
                                 "flags": 16432,
+                                "transformFlags": 8,
                                 "start": 7,
                                 "end": 27
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 29
                             },
@@ -97,6 +105,7 @@ var y = { \u0066inally: x } = { finally: 42 };
                                                 "text": "finally",
                                                 "rawText": "finally",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 39
                                             },
@@ -105,37 +114,45 @@ var y = { \u0066inally: x } = { finally: 42 };
                                                 "text": 42,
                                                 "rawText": "42",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 40,
                                                 "end": 43
                                             },
                                             "flags": 32,
+                                            "transformFlags": 128,
                                             "start": 31,
                                             "end": 43
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 43
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 29,
                                 "end": 45
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 7,
                             "end": 45
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 45
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 45
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 46
         }
@@ -144,6 +161,7 @@ var y = { \u0066inally: x } = { finally: 42 };
     "source": "var y = { \\u0066inally: x } = { finally: 42 };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 46
 }

@@ -26,10 +26,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -39,10 +41,12 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 21
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 12,
             "end": 27
         }
@@ -51,6 +55,7 @@
     "source": "/*1*/{/*2*/}\n\n\n/*1*/{/*2*/}\n\n// 3",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

@@ -21,6 +21,7 @@ var {...{z}} = { z: 1};
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -39,6 +40,7 @@ var {...{z}} = { z: 1};
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -47,6 +49,7 @@ var {...{z}} = { z: 1};
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 8
                                         },
@@ -54,6 +57,7 @@ var {...{z}} = { z: 1};
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 8
                                     },
@@ -64,6 +68,7 @@ var {...{z}} = { z: 1};
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 8
                                         },
@@ -77,31 +82,37 @@ var {...{z}} = { z: 1};
                                                         "text": "z",
                                                         "rawText": "z",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 9,
                                                         "end": 10
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 9,
                                                 "end": 10
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 11
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 11
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 11
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 12
                         },
@@ -119,6 +130,7 @@ var {...{z}} = { z: 1};
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 18
                                         },
@@ -127,33 +139,40 @@ var {...{z}} = { z: 1};
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 21
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 16,
                                         "end": 21
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 21
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 14,
                             "end": 22
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 22
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -162,6 +181,7 @@ var {...{z}} = { z: 1};
     "source": "var {...{z}} = { z: 1};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

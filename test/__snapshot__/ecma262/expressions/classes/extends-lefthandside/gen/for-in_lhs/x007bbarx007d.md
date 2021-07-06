@@ -27,6 +27,7 @@ for ({bar} in x) ;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,22 +41,26 @@ for ({bar} in x) ;
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 9
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 9
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 5,
                 "end": 10
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 13
             },
@@ -64,16 +69,19 @@ for ({bar} in x) ;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 18
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -82,6 +90,7 @@ for ({bar} in x) ;
     "source": "for ({bar} in x) ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

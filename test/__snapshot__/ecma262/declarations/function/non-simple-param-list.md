@@ -36,6 +36,7 @@ function f(x, ...y) { 'use strict' }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -45,6 +46,7 @@ function f(x, ...y) { 'use strict' }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -57,12 +59,14 @@ function f(x, ...y) { 'use strict' }
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 12
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 12
             },
@@ -76,21 +80,25 @@ function f(x, ...y) { 'use strict' }
                             "text": "use strict",
                             "rawText": "'use strict'",
                             "flags": 4194400,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 28
                         }
                     ],
                     "statements": [],
                     "flags": 4194336,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 28
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 30
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         },
@@ -101,6 +109,7 @@ function f(x, ...y) { 'use strict' }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 40
             },
@@ -110,6 +119,7 @@ function f(x, ...y) { 'use strict' }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 40,
                 "end": 42
             },
@@ -127,22 +137,26 @@ function f(x, ...y) { 'use strict' }
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 45
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 44,
                             "end": 45
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 43,
                         "end": 46
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 43,
                 "end": 46
             },
@@ -156,21 +170,25 @@ function f(x, ...y) { 'use strict' }
                             "text": "use strict",
                             "rawText": "'use strict'",
                             "flags": 4194400,
+                            "transformFlags": 0,
                             "start": 49,
                             "end": 62
                         }
                     ],
                     "statements": [],
                     "flags": 4194336,
+                    "transformFlags": 0,
                     "start": 49,
                     "end": 62
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 47,
                 "end": 64
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 30,
             "end": 64
         },
@@ -181,6 +199,7 @@ function f(x, ...y) { 'use strict' }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 64,
                 "end": 74
             },
@@ -190,6 +209,7 @@ function f(x, ...y) { 'use strict' }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 74,
                 "end": 76
             },
@@ -207,22 +227,26 @@ function f(x, ...y) { 'use strict' }
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 78,
                                     "end": 79
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 78,
                             "end": 79
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 77,
                         "end": 80
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 77,
                 "end": 80
             },
@@ -236,21 +260,25 @@ function f(x, ...y) { 'use strict' }
                             "text": "use strict",
                             "rawText": "'use strict'",
                             "flags": 4194400,
+                            "transformFlags": 0,
                             "start": 83,
                             "end": 96
                         }
                     ],
                     "statements": [],
                     "flags": 4194336,
+                    "transformFlags": 0,
                     "start": 83,
                     "end": 96
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 81,
                 "end": 98
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 64,
             "end": 98
         },
@@ -261,6 +289,7 @@ function f(x, ...y) { 'use strict' }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 98,
                 "end": 108
             },
@@ -270,6 +299,7 @@ function f(x, ...y) { 'use strict' }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 108,
                 "end": 110
             },
@@ -285,6 +315,7 @@ function f(x, ...y) { 'use strict' }
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 111,
                             "end": 112
                         },
@@ -295,16 +326,19 @@ function f(x, ...y) { 'use strict' }
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 114,
                             "end": 116
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 111,
                         "end": 116
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 111,
                 "end": 116
             },
@@ -318,21 +352,25 @@ function f(x, ...y) { 'use strict' }
                             "text": "use strict",
                             "rawText": "'use strict'",
                             "flags": 4194400,
+                            "transformFlags": 0,
                             "start": 119,
                             "end": 132
                         }
                     ],
                     "statements": [],
                     "flags": 4194336,
+                    "transformFlags": 0,
                     "start": 119,
                     "end": 132
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 117,
                 "end": 134
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 98,
             "end": 134
         },
@@ -343,6 +381,7 @@ function f(x, ...y) { 'use strict' }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 134,
                 "end": 144
             },
@@ -352,6 +391,7 @@ function f(x, ...y) { 'use strict' }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 144,
                 "end": 146
             },
@@ -364,6 +404,7 @@ function f(x, ...y) { 'use strict' }
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 147,
                         "end": 148
                     },
@@ -372,6 +413,7 @@ function f(x, ...y) { 'use strict' }
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 149,
                             "end": 153
                         },
@@ -380,6 +422,7 @@ function f(x, ...y) { 'use strict' }
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 153,
                             "end": 154
                         },
@@ -387,12 +430,14 @@ function f(x, ...y) { 'use strict' }
                         "type": null,
                         "right": null,
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 149,
                         "end": 154
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 147,
                 "end": 154
             },
@@ -406,21 +451,25 @@ function f(x, ...y) { 'use strict' }
                             "text": "use strict",
                             "rawText": "'use strict'",
                             "flags": 4194400,
+                            "transformFlags": 0,
                             "start": 157,
                             "end": 170
                         }
                     ],
                     "statements": [],
                     "flags": 4194336,
+                    "transformFlags": 0,
                     "start": 157,
                     "end": 170
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 155,
                 "end": 172
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 134,
             "end": 172
         },
@@ -434,6 +483,7 @@ function f(x, ...y) { 'use strict' }
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 175,
                         "end": 183
                     },
@@ -453,22 +503,26 @@ function f(x, ...y) { 'use strict' }
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 185,
                                             "end": 186
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 185,
                                     "end": 186
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 184,
                                 "end": 187
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 184,
                         "end": 187
                     },
@@ -482,29 +536,35 @@ function f(x, ...y) { 'use strict' }
                                     "text": "use strict",
                                     "rawText": "'use strict'",
                                     "flags": 4194400,
+                                    "transformFlags": 0,
                                     "start": 190,
                                     "end": 203
                                 }
                             ],
                             "statements": [],
                             "flags": 4194336,
+                            "transformFlags": 0,
                             "start": 190,
                             "end": 203
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 188,
                         "end": 205
                     },
                     "returnType": null,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 175,
                     "end": 205
                 },
                 "flags": 172,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 206
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 172,
             "end": 207
         },
@@ -518,6 +578,7 @@ function f(x, ...y) { 'use strict' }
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 210,
                         "end": 218
                     },
@@ -535,6 +596,7 @@ function f(x, ...y) { 'use strict' }
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 219,
                                     "end": 220
                                 },
@@ -545,16 +607,19 @@ function f(x, ...y) { 'use strict' }
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 222,
                                     "end": 224
                                 },
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 219,
                                 "end": 224
                             }
                         ],
                         "trailingComma": false,
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 219,
                         "end": 224
                     },
@@ -568,29 +633,35 @@ function f(x, ...y) { 'use strict' }
                                     "text": "use strict",
                                     "rawText": "'use strict'",
                                     "flags": 4194400,
+                                    "transformFlags": 0,
                                     "start": 227,
                                     "end": 240
                                 }
                             ],
                             "statements": [],
                             "flags": 4194336,
+                            "transformFlags": 0,
                             "start": 227,
                             "end": 240
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 225,
                         "end": 242
                     },
                     "returnType": null,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 210,
                     "end": 242
                 },
                 "flags": 207,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 243
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 207,
             "end": 244
         },
@@ -604,6 +675,7 @@ function f(x, ...y) { 'use strict' }
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 247,
                         "end": 255
                     },
@@ -618,6 +690,7 @@ function f(x, ...y) { 'use strict' }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 256,
                                 "end": 257
                             },
@@ -626,6 +699,7 @@ function f(x, ...y) { 'use strict' }
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 258,
                                     "end": 262
                                 },
@@ -634,6 +708,7 @@ function f(x, ...y) { 'use strict' }
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 262,
                                     "end": 263
                                 },
@@ -641,12 +716,14 @@ function f(x, ...y) { 'use strict' }
                                 "type": null,
                                 "right": null,
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 258,
                                 "end": 263
                             }
                         ],
                         "trailingComma": false,
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 256,
                         "end": 263
                     },
@@ -660,29 +737,35 @@ function f(x, ...y) { 'use strict' }
                                     "text": "use strict",
                                     "rawText": "'use strict'",
                                     "flags": 4194400,
+                                    "transformFlags": 0,
                                     "start": 266,
                                     "end": 279
                                 }
                             ],
                             "statements": [],
                             "flags": 4194336,
+                            "transformFlags": 0,
                             "start": 266,
                             "end": 279
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 264,
                         "end": 281
                     },
                     "returnType": null,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 247,
                     "end": 281
                 },
                 "flags": 244,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 282
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 244,
             "end": 283
         }
@@ -691,6 +774,7 @@ function f(x, ...y) { 'use strict' }
     "source": "function f(x) { 'use strict' }\n\nfunction f([x]) { 'use strict' }\n\nfunction f({x}) { 'use strict' }\n\nfunction f(x = 1) { 'use strict' }\n\nfunction f(x, ...y) { 'use strict' }\n\n(function([x]) { 'use strict' });\n\n(function(x = 1) { 'use strict' });\n\n(function(x, ...y) { 'use strict' });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 283
 }

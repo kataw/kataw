@@ -30,14 +30,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 7
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         },
@@ -48,10 +51,12 @@
                 "text": "string",
                 "rawText": "string",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 8,
             "end": 15
         },
@@ -67,12 +72,14 @@
                             "text": "string",
                             "rawText": "string",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 25
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 27
                         },
@@ -81,10 +88,12 @@
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 29
                         },
                         "flags": 0,
+                        "transformFlags": 128,
                         "start": 18,
                         "end": 29
                     },
@@ -95,12 +104,14 @@
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 32
                         },
                         "questionToken": {
                             "kind": 134217750,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 33
                         },
@@ -109,6 +120,7 @@
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 33,
                             "end": 33
                         },
@@ -118,19 +130,23 @@
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 33,
                             "end": 33
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 30,
                         "end": 33
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 18,
             "end": 33
         },
@@ -141,10 +157,12 @@
                 "text": "ok",
                 "rawText": "ok",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 37,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 37,
             "end": 40
         }
@@ -153,6 +171,7 @@
     "source": "({x: [y: string]}: string = y, z?) => ok",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }

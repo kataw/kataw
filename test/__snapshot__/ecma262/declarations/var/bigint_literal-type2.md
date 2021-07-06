@@ -27,6 +27,7 @@ var a: 0x7Bn
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,6 +41,7 @@ var a: 0x7Bn
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -52,24 +54,29 @@ var a: 0x7Bn
                                 "text": 123,
                                 "rawText": "0x7Bn",
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 12
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 12
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 12
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -78,6 +85,7 @@ var a: 0x7Bn
     "source": "var a: 0x7Bn",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

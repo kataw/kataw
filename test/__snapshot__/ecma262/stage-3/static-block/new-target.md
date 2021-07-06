@@ -37,6 +37,7 @@ class Base {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -45,6 +46,7 @@ class Base {
                 "text": "Base",
                 "rawText": "Base",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 10
             },
@@ -71,6 +73,7 @@ class Base {
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 26
                                 },
@@ -80,6 +83,7 @@ class Base {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 28
                                 },
@@ -99,6 +103,7 @@ class Base {
                                                         "member": {
                                                             "kind": 4276321,
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 30,
                                                             "end": 39
                                                         },
@@ -107,16 +112,19 @@ class Base {
                                                             "text": "Foo",
                                                             "rawText": "Foo",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 40,
                                                             "end": 43
                                                         },
                                                         "flags": 97,
+                                                        "transformFlags": 2,
                                                         "start": 30,
                                                         "end": 43
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4125,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 43,
                                                         "end": 45
                                                     },
@@ -126,6 +134,7 @@ class Base {
                                                         "classKeyword": {
                                                             "kind": 37822544,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 45,
                                                             "end": 51
                                                         },
@@ -144,6 +153,7 @@ class Base {
                                                                         "staticKeyword": {
                                                                             "kind": 8388716,
                                                                             "flags": 64,
+                                                                            "transformFlags": 0,
                                                                             "start": 53,
                                                                             "end": 66
                                                                         },
@@ -153,6 +163,7 @@ class Base {
                                                                             "text": "#_",
                                                                             "rawText": "#_",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 66,
                                                                             "end": 69
                                                                         },
@@ -171,6 +182,7 @@ class Base {
                                                                                         "parameters": [],
                                                                                         "trailingComma": false,
                                                                                         "flags": 32,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 74,
                                                                                         "end": 74
                                                                                     },
@@ -178,6 +190,7 @@ class Base {
                                                                                     "arrowToken": {
                                                                                         "kind": 10,
                                                                                         "flags": 64,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 75,
                                                                                         "end": 78
                                                                                     },
@@ -196,6 +209,7 @@ class Base {
                                                                                                             "member": {
                                                                                                                 "kind": 4276321,
                                                                                                                 "flags": 97,
+                                                                                                                "transformFlags": 0,
                                                                                                                 "start": 80,
                                                                                                                 "end": 93
                                                                                                             },
@@ -204,16 +218,19 @@ class Base {
                                                                                                                 "text": "foo",
                                                                                                                 "rawText": "foo",
                                                                                                                 "flags": 96,
+                                                                                                                "transformFlags": 0,
                                                                                                                 "start": 94,
                                                                                                                 "end": 97
                                                                                                             },
                                                                                                             "flags": 97,
+                                                                                                            "transformFlags": 2,
                                                                                                             "start": 80,
                                                                                                             "end": 97
                                                                                                         },
                                                                                                         "operatorToken": {
                                                                                                             "kind": 4125,
                                                                                                             "flags": 96,
+                                                                                                            "transformFlags": 0,
                                                                                                             "start": 97,
                                                                                                             "end": 99
                                                                                                         },
@@ -222,41 +239,50 @@ class Base {
                                                                                                             "newKeyword": {
                                                                                                                 "kind": 138477661,
                                                                                                                 "flags": 96,
+                                                                                                                "transformFlags": 0,
                                                                                                                 "start": 99,
                                                                                                                 "end": 103
                                                                                                             },
                                                                                                             "targetIdentifier": {
                                                                                                                 "kind": 16594,
                                                                                                                 "flags": 96,
+                                                                                                                "transformFlags": 0,
                                                                                                                 "start": 104,
                                                                                                                 "end": 110
                                                                                                             },
                                                                                                             "flags": 96,
+                                                                                                            "transformFlags": 0,
                                                                                                             "start": 99,
                                                                                                             "end": 110
                                                                                                         },
                                                                                                         "flags": 0,
+                                                                                                        "transformFlags": 128,
                                                                                                         "start": 80,
                                                                                                         "end": 110
                                                                                                     },
                                                                                                     "flags": 16,
+                                                                                                    "transformFlags": 0,
                                                                                                     "start": 80,
                                                                                                     "end": 111
                                                                                                 }
                                                                                             ],
                                                                                             "flags": 33,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 80,
                                                                                             "end": 111
                                                                                         },
                                                                                         "flags": 32,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 78,
                                                                                         "end": 119
                                                                                     },
                                                                                     "flags": 32,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 73,
                                                                                     "end": 119
                                                                                 },
                                                                                 "flags": 71,
+                                                                                "transformFlags": 0,
                                                                                 "start": 32,
                                                                                 "end": 120
                                                                             },
@@ -265,71 +291,87 @@ class Base {
                                                                                 "elements": [],
                                                                                 "trailingComma": false,
                                                                                 "flags": 32,
+                                                                                "transformFlags": 0,
                                                                                 "start": 121,
                                                                                 "end": 121
                                                                             },
                                                                             "flags": 268435488,
+                                                                            "transformFlags": 1,
                                                                             "start": 71,
                                                                             "end": 122
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 128,
                                                                         "start": 66,
                                                                         "end": 122
                                                                     },
                                                                     {
                                                                         "kind": 1108353041,
                                                                         "flags": 64,
+                                                                        "transformFlags": 0,
                                                                         "start": 122,
                                                                         "end": 123
                                                                     }
                                                                 ],
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 53,
                                                                 "end": 123
                                                             },
                                                             "flags": 51,
+                                                            "transformFlags": 0,
                                                             "start": 32,
                                                             "end": 129
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 45,
                                                         "end": 129
                                                     },
                                                     "flags": 0,
+                                                    "transformFlags": 128,
                                                     "start": 30,
                                                     "end": 129
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 30,
                                                 "end": 130
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 130
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 134
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 134
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 134
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 134
                 },
                 "flags": 10,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 137
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 137
         }
@@ -338,6 +380,7 @@ class Base {
     "source": "class Base {\n  constructor() {\n    this.Foo = class {\n      static #_ = (() => {\n        this.foo = new.target;\n      })();\n    };\n  }\n\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 137
 }

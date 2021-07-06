@@ -24,6 +24,7 @@ wrap({async 'foo'(){}});
                     "text": "wrap",
                     "rawText": "wrap",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
@@ -40,6 +41,7 @@ wrap({async 'foo'(){}});
                                         "asyncKeyword": {
                                             "kind": 82031,
                                             "flags": 352,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 11
                                         },
@@ -53,6 +55,7 @@ wrap({async 'foo'(){}});
                                                 "text": "foo",
                                                 "rawText": "'foo'",
                                                 "flags": 4194400,
+                                                "transformFlags": 0,
                                                 "start": 11,
                                                 "end": 17
                                             },
@@ -62,6 +65,7 @@ wrap({async 'foo'(){}});
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 288,
+                                                "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 19
                                             },
@@ -73,42 +77,51 @@ wrap({async 'foo'(){}});
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 20,
                                                     "end": 20
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 21
                                             },
                                             "flags": 288,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 21
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 6,
                                         "end": 21
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 21
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 5,
                             "end": 22
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 22
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -117,6 +130,7 @@ wrap({async 'foo'(){}});
     "source": "wrap({async 'foo'(){}});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { ArrowTypeParameter } from './arrow-type-parameter';
 
 export interface ArrowTypeParameterList extends SyntaxNode {
@@ -17,6 +17,7 @@ export function createArrowTypeParameterList(
     parameters,
     trailingComma,
     flags: NodeFlags.IsTypeNode,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

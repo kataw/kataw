@@ -22,6 +22,7 @@ function g() {  function f(){} function f(){} }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function g() {  function f(){} function f(){} }
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -40,6 +42,7 @@ function g() {  function f(){} function f(){} }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -56,6 +59,7 @@ function g() {  function f(){} function f(){} }
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 24
                             },
@@ -65,6 +69,7 @@ function g() {  function f(){} function f(){} }
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
                             },
@@ -74,6 +79,7 @@ function g() {  function f(){} function f(){} }
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 27
                             },
@@ -84,15 +90,18 @@ function g() {  function f(){} function f(){} }
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 29
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 30
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 30
                         },
@@ -103,6 +112,7 @@ function g() {  function f(){} function f(){} }
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 39
                             },
@@ -112,6 +122,7 @@ function g() {  function f(){} function f(){} }
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 41
                             },
@@ -121,6 +132,7 @@ function g() {  function f(){} function f(){} }
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 42
                             },
@@ -131,29 +143,35 @@ function g() {  function f(){} function f(){} }
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 44,
                                     "end": 44
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 43,
                                 "end": 45
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 45
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 45
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 47
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 47
         }
@@ -162,6 +180,7 @@ function g() {  function f(){} function f(){} }
     "source": "function g() {  function f(){} function f(){} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 47
 }

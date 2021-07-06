@@ -28,6 +28,7 @@ var [let] = []
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -46,16 +47,19 @@ var [let] = []
                                         "text": "let",
                                         "rawText": "let",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 8
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 8
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 9
                         },
@@ -67,23 +71,28 @@ var [let] = []
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 13
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 11,
                             "end": 14
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 14
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -92,6 +101,7 @@ var [let] = []
     "source": "var [let] = []",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

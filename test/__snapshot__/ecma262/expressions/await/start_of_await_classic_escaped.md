@@ -20,6 +20,7 @@ async () => { var \u0061wait; }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -29,6 +30,7 @@ async () => { var \u0061wait; }
                 "parameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 7
             },
@@ -36,6 +38,7 @@ async () => { var \u0061wait; }
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
@@ -51,6 +54,7 @@ async () => { var \u0061wait; }
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 17
                             },
@@ -64,34 +68,41 @@ async () => { var \u0061wait; }
                                             "text": "await",
                                             "rawText": "\\u0061wait",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 28
                                         },
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
+                                        "transformFlags": 128,
                                         "start": 17,
                                         "end": 28
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 28
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 29
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 29
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 31
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -100,6 +111,7 @@ async () => { var \u0061wait; }
     "source": "async () => { var \\u0061wait; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

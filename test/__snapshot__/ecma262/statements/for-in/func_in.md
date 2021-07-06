@@ -39,6 +39,7 @@ for (function(){ a in b; }.prop in x);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -50,6 +51,7 @@ for (function(){ a in b; }.prop in x);
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 13
                     },
@@ -61,6 +63,7 @@ for (function(){ a in b; }.prop in x);
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 14
                     },
@@ -79,12 +82,14 @@ for (function(){ a in b; }.prop in x);
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 18
                                         },
                                         "operatorToken": {
                                             "kind": 21006388,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 21
                                         },
@@ -93,28 +98,34 @@ for (function(){ a in b; }.prop in x);
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 23
                                         },
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 23
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 24
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 24
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 26
                     },
                     "returnType": null,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 26
                 },
@@ -123,16 +134,19 @@ for (function(){ a in b; }.prop in x);
                     "text": "prop",
                     "rawText": "prop",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 31
                 },
                 "flags": 32,
+                "transformFlags": 2,
                 "start": 5,
                 "end": 31
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 34
             },
@@ -141,16 +155,19 @@ for (function(){ a in b; }.prop in x);
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 36
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 37,
                 "end": 38
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         }
@@ -159,6 +176,7 @@ for (function(){ a in b; }.prop in x);
     "source": "for (function(){ a in b; }.prop in x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }
@@ -169,7 +187,7 @@ for (function(){ a in b; }.prop in x);
 ```javascript
 
 for (function () {
-  a in  b;
+  a in b;
 }.prop in x);
 ```
 

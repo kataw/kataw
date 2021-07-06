@@ -37,6 +37,7 @@ let f4 = () => doThing(a, /* ... */ b);
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -50,6 +51,7 @@ let f4 = () => doThing(a, /* ... */ b);
                             "text": "f1",
                             "rawText": "f1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 6
                         },
@@ -63,6 +65,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 10
                             },
@@ -70,6 +73,7 @@ let f4 = () => doThing(a, /* ... */ b);
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 23
                             },
@@ -80,27 +84,33 @@ let f4 = () => doThing(a, /* ... */ b);
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 25
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 26
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 26
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 26
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 26
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         },
@@ -116,6 +126,7 @@ let f4 = () => doThing(a, /* ... */ b);
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 36
                         },
@@ -127,6 +138,7 @@ let f4 = () => doThing(a, /* ... */ b);
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 38,
                             "end": 38
                         },
@@ -137,19 +149,23 @@ let f4 = () => doThing(a, /* ... */ b);
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 50,
                                 "end": 50
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 48,
                             "end": 51
                         },
                         "returnType": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 28,
                         "end": 51
                     },
                     "flags": 26,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 52
                 },
@@ -158,14 +174,17 @@ let f4 = () => doThing(a, /* ... */ b);
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 53,
                     "end": 53
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 26,
                 "end": 63
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 26,
             "end": 63
         },
@@ -176,6 +195,7 @@ let f4 = () => doThing(a, /* ... */ b);
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 63,
                 "end": 72
             },
@@ -185,6 +205,7 @@ let f4 = () => doThing(a, /* ... */ b);
                 "text": "f2",
                 "rawText": "f2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 72,
                 "end": 75
             },
@@ -194,6 +215,7 @@ let f4 = () => doThing(a, /* ... */ b);
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 76,
                 "end": 76
             },
@@ -204,15 +226,18 @@ let f4 = () => doThing(a, /* ... */ b);
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 88,
                     "end": 88
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 86,
                 "end": 89
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 63,
             "end": 89
         },
@@ -221,6 +246,7 @@ let f4 = () => doThing(a, /* ... */ b);
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 89,
                 "end": 96
             },
@@ -234,6 +260,7 @@ let f4 = () => doThing(a, /* ... */ b);
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 96,
                             "end": 100
                         },
@@ -256,6 +283,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                                 "text": "f",
                                                 "rawText": "f",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 104,
                                                 "end": 108
                                             },
@@ -265,6 +293,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 33,
+                                                "transformFlags": 0,
                                                 "start": 109,
                                                 "end": 119
                                             },
@@ -276,18 +305,22 @@ let f4 = () => doThing(a, /* ... */ b);
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 121,
                                                     "end": 121
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 119,
                                                 "end": 122
                                             },
                                             "flags": 33,
+                                            "transformFlags": 0,
                                             "start": 108,
                                             "end": 122
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 104,
                                         "end": 122
                                     },
@@ -299,6 +332,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                             "text": "f",
                                             "rawText": "f",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 123,
                                             "end": 127
                                         },
@@ -311,6 +345,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                                 "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 130,
                                                 "end": 130
                                             },
@@ -318,6 +353,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 140,
                                                 "end": 143
                                             },
@@ -328,18 +364,22 @@ let f4 = () => doThing(a, /* ... */ b);
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 145,
                                                     "end": 145
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 143,
                                                 "end": 146
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 128,
                                             "end": 146
                                         },
                                         "flags": 33,
+                                        "transformFlags": 128,
                                         "start": 123,
                                         "end": 146
                                     },
@@ -351,6 +391,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                             "text": "f",
                                             "rawText": "f",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 147,
                                             "end": 151
                                         },
@@ -360,6 +401,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                             "functionKeyword": {
                                                 "kind": 37822554,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 152,
                                                 "end": 161
                                             },
@@ -371,6 +413,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 162,
                                                 "end": 162
                                             },
@@ -381,19 +424,23 @@ let f4 = () => doThing(a, /* ... */ b);
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 174,
                                                     "end": 174
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 172,
                                                 "end": 175
                                             },
                                             "returnType": null,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 152,
                                             "end": 175
                                         },
                                         "flags": 33,
+                                        "transformFlags": 128,
                                         "start": 147,
                                         "end": 175
                                     },
@@ -405,6 +452,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                             "text": "f",
                                             "rawText": "f",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 176,
                                             "end": 180
                                         },
@@ -414,6 +462,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                             "functionKeyword": {
                                                 "kind": 37822554,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 181,
                                                 "end": 190
                                             },
@@ -423,6 +472,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                                 "text": "f",
                                                 "rawText": "f",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 190,
                                                 "end": 192
                                             },
@@ -432,6 +482,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 193,
                                                 "end": 193
                                             },
@@ -442,42 +493,51 @@ let f4 = () => doThing(a, /* ... */ b);
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 205,
                                                     "end": 205
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 203,
                                                 "end": 206
                                             },
                                             "returnType": null,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 181,
                                             "end": 206
                                         },
                                         "flags": 33,
+                                        "transformFlags": 128,
                                         "start": 176,
                                         "end": 206
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 104,
                                 "end": 206
                             },
                             "flags": 49,
+                            "transformFlags": 8,
                             "start": 102,
                             "end": 208
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 96,
                         "end": 208
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 96,
                 "end": 208
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 89,
             "end": 208
         },
@@ -490,6 +550,7 @@ let f4 = () => doThing(a, /* ... */ b);
                     "text": "f",
                     "rawText": "f",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 208,
                     "end": 211
                 },
@@ -498,14 +559,17 @@ let f4 = () => doThing(a, /* ... */ b);
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 212,
                     "end": 212
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 208,
                 "end": 222
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 208,
             "end": 223
         },
@@ -518,6 +582,7 @@ let f4 = () => doThing(a, /* ... */ b);
                     "text": "f",
                     "rawText": "f",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 223,
                     "end": 225
                 },
@@ -529,20 +594,24 @@ let f4 = () => doThing(a, /* ... */ b);
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 226,
                             "end": 227
                         }
                     ],
                     "trailingComma": true,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 226,
                     "end": 228
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 223,
                 "end": 239
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 223,
             "end": 240
         },
@@ -555,6 +624,7 @@ let f4 = () => doThing(a, /* ... */ b);
                     "text": "f",
                     "rawText": "f",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 240,
                     "end": 242
                 },
@@ -566,6 +636,7 @@ let f4 = () => doThing(a, /* ... */ b);
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 243,
                             "end": 244
                         },
@@ -574,20 +645,24 @@ let f4 = () => doThing(a, /* ... */ b);
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 245,
                             "end": 257
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 243,
                     "end": 257
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 240,
                 "end": 258
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 240,
             "end": 259
         },
@@ -600,6 +675,7 @@ let f4 = () => doThing(a, /* ... */ b);
                     "text": "f",
                     "rawText": "f",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 259,
                     "end": 261
                 },
@@ -611,6 +687,7 @@ let f4 = () => doThing(a, /* ... */ b);
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 262,
                             "end": 273
                         },
@@ -619,20 +696,24 @@ let f4 = () => doThing(a, /* ... */ b);
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 274,
                             "end": 276
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 262,
                     "end": 276
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 259,
                 "end": 277
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 259,
             "end": 278
         },
@@ -641,6 +722,7 @@ let f4 = () => doThing(a, /* ... */ b);
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 278,
                 "end": 283
             },
@@ -654,6 +736,7 @@ let f4 = () => doThing(a, /* ... */ b);
                             "text": "f3",
                             "rawText": "f3",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 283,
                             "end": 286
                         },
@@ -667,6 +750,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 290,
                                 "end": 290
                             },
@@ -674,6 +758,7 @@ let f4 = () => doThing(a, /* ... */ b);
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 291,
                                 "end": 294
                             },
@@ -682,6 +767,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                 "importKeyword": {
                                     "kind": 37814364,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 294,
                                     "end": 301
                                 },
@@ -690,27 +776,33 @@ let f4 = () => doThing(a, /* ... */ b);
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 302,
                                     "end": 303
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 301,
                                 "end": 314
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 288,
                             "end": 314
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 283,
                         "end": 314
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 283,
                 "end": 314
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 278,
             "end": 315
         },
@@ -719,6 +811,7 @@ let f4 = () => doThing(a, /* ... */ b);
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 315,
                 "end": 319
             },
@@ -732,6 +825,7 @@ let f4 = () => doThing(a, /* ... */ b);
                             "text": "f4",
                             "rawText": "f4",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 319,
                             "end": 322
                         },
@@ -745,6 +839,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 326,
                                 "end": 326
                             },
@@ -752,6 +847,7 @@ let f4 = () => doThing(a, /* ... */ b);
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 327,
                                 "end": 330
                             },
@@ -762,6 +858,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                     "text": "doThing",
                                     "rawText": "doThing",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 330,
                                     "end": 338
                                 },
@@ -773,6 +870,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 339,
                                             "end": 340
                                         },
@@ -781,33 +879,40 @@ let f4 = () => doThing(a, /* ... */ b);
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 341,
                                             "end": 353
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 339,
                                     "end": 353
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 330,
                                 "end": 354
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 324,
                             "end": 354
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 319,
                         "end": 354
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 319,
                 "end": 354
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 315,
             "end": 355
         }
@@ -816,6 +921,7 @@ let f4 = () => doThing(a, /* ... */ b);
     "source": "let f1 = (/* ... */) => {}\n(function (/* ... */) {})(/* ... */)\nfunction f2(/* ... */) {}\n\nconst obj = {\n  f(/* ... */) {},\n  f: (/* ... */) => {},\n  f: function(/* ... */) {},\n  f: function f(/* ... */) {}\n}\n\nf(/* ... */);\nf(a, /* ... */);\nf(a, /* ... */ b);\nf(/* ... */ a, b);\n\nlet f3 = () => import(a /* ... */);\nlet f4 = () => doThing(a, /* ... */ b);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 355
 }

@@ -30,6 +30,7 @@ function x(): |  () => number {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function x(): |  () => number {}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -48,6 +50,7 @@ function x(): |  () => number {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -58,10 +61,12 @@ function x(): |  () => number {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 31
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 32
             },
@@ -70,6 +75,7 @@ function x(): |  () => number {}
                 "bitwiseOrToken": {
                     "kind": 134251592,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
@@ -82,12 +88,14 @@ function x(): |  () => number {}
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 18
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 22
                     },
@@ -98,22 +106,27 @@ function x(): |  () => number {}
                         "type": {
                             "kind": 134234345,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 29
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 29
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 29
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -122,6 +135,7 @@ function x(): |  () => number {}
     "source": "function x(): |  () => number {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

@@ -22,6 +22,7 @@ new C?.b.d()
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -30,6 +31,7 @@ new C?.b.d()
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 7
                     },
@@ -38,6 +40,7 @@ new C?.b.d()
                         "text": "C",
                         "rawText": "C",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 5
                     },
@@ -53,14 +56,17 @@ new C?.b.d()
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 8
                                 },
                                 "flags": 536870944,
+                                "transformFlags": 2,
                                 "start": 7,
                                 "end": 8
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         },
@@ -69,14 +75,17 @@ new C?.b.d()
                             "text": "d",
                             "rawText": "d",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 10
                         },
                         "flags": 536870944,
+                        "transformFlags": 2,
                         "start": 8,
                         "end": 10
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 10
                 },
@@ -85,14 +94,17 @@ new C?.b.d()
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 11
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -101,6 +113,7 @@ new C?.b.d()
     "source": "new C?.b.d()",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

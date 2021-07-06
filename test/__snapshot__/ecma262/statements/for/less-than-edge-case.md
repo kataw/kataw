@@ -30,6 +30,7 @@ for (let i = 0; i < require('foo').bar; i++) {
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -38,6 +39,7 @@ for (let i = 0; i < require('foo').bar; i++) {
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
@@ -51,6 +53,7 @@ for (let i = 0; i < require('foo').bar; i++) {
                                 "text": "i",
                                 "rawText": "i",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             },
@@ -60,19 +63,23 @@ for (let i = 0; i < require('foo').bar; i++) {
                                 "text": 0,
                                 "rawText": "0",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 14
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 8,
                             "end": 14
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 14
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
@@ -81,6 +88,7 @@ for (let i = 0; i < require('foo').bar; i++) {
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 41,
                     "end": 43
                 },
@@ -89,10 +97,12 @@ for (let i = 0; i < require('foo').bar; i++) {
                     "text": "i",
                     "rawText": "i",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 39,
                     "end": 41
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 43
             },
@@ -103,12 +113,14 @@ for (let i = 0; i < require('foo').bar; i++) {
                     "text": "i",
                     "rawText": "i",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
                 "operatorToken": {
                     "kind": 536971330,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 19
                 },
@@ -121,6 +133,7 @@ for (let i = 0; i < require('foo').bar; i++) {
                             "text": "require",
                             "rawText": "require",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 27
                         },
@@ -132,16 +145,19 @@ for (let i = 0; i < require('foo').bar; i++) {
                                     "text": "foo",
                                     "rawText": "'foo'",
                                     "flags": 4194400,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 33
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 33
                         },
                         "flags": 268435488,
+                        "transformFlags": 1,
                         "start": 19,
                         "end": 34
                     },
@@ -150,14 +166,17 @@ for (let i = 0; i < require('foo').bar; i++) {
                         "text": "bar",
                         "rawText": "bar",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 35,
                         "end": 38
                     },
                     "flags": 268435488,
+                    "transformFlags": 2,
                     "start": 19,
                     "end": 38
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 38
             },
@@ -175,6 +194,7 @@ for (let i = 0; i < require('foo').bar; i++) {
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 46,
                                     "end": 52
                                 },
@@ -186,33 +206,40 @@ for (let i = 0; i < require('foo').bar; i++) {
                                             "text": "i",
                                             "rawText": "i",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 53,
                                             "end": 54
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 53,
                                     "end": 54
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 46,
                                 "end": 55
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 46,
                             "end": 56
                         }
                     ],
                     "flags": 17,
+                    "transformFlags": 0,
                     "start": 46,
                     "end": 56
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 44,
                 "end": 58
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 58
         }
@@ -221,6 +248,7 @@ for (let i = 0; i < require('foo').bar; i++) {
     "source": "for (let i = 0; i < require('foo').bar; i++) {\n    x(i);\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 58
 }
@@ -230,7 +258,7 @@ for (let i = 0; i < require('foo').bar; i++) {
 
 ```javascript
 
-for (let i = 0; i++ ; i  <  require('\'foo\'').bar)
+for (let i = 0; i++ ; i  < require('\'foo\'').bar)
   {
     x(
       i

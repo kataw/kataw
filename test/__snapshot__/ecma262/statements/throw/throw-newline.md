@@ -22,6 +22,7 @@ throw /**/\n x;
             "throwKeyword": {
                 "kind": 37757026,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,10 +31,12 @@ throw /**/\n x;
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 5
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -42,6 +45,7 @@ throw /**/\n x;
             "throwKeyword": {
                 "kind": 37757026,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 20
             },
@@ -50,10 +54,12 @@ throw /**/\n x;
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 20
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 5,
             "end": 20
         },
@@ -64,10 +70,12 @@ throw /**/\n x;
                 "text": "n",
                 "rawText": "n",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 26,
             "end": 27
         },
@@ -78,10 +86,12 @@ throw /**/\n x;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 27,
             "end": 30
         }
@@ -90,6 +100,7 @@ throw /**/\n x;
     "source": "throw //\\n x;\n\nthrow /**/\\n x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

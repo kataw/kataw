@@ -40,6 +40,7 @@ var x = ...y;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -53,6 +54,7 @@ var x = ...y;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -62,19 +64,23 @@ var x = ...y;
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 7
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 7
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         },
@@ -85,10 +91,12 @@ var x = ...y;
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 13
         }
@@ -97,6 +105,7 @@ var x = ...y;
     "source": "var x = ...y;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

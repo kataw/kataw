@@ -40,6 +40,7 @@ var a: -z
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -53,21 +54,25 @@ var a: -z
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 5
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -78,6 +83,7 @@ var a: -z
                 "operandToken": {
                     "kind": 134318643,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
@@ -86,14 +92,17 @@ var a: -z
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 9
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 6,
             "end": 9
         }
@@ -102,6 +111,7 @@ var a: -z
     "source": "var a: -z",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

@@ -22,12 +22,14 @@ function* fn(yield) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -36,6 +38,7 @@ function* fn(yield) {}
                 "text": "fn",
                 "rawText": "fn",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 12
             },
@@ -48,12 +51,14 @@ function* fn(yield) {}
                         "text": "yield",
                         "rawText": "yield",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 18
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 18
             },
@@ -64,15 +69,18 @@ function* fn(yield) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 21
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 22
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -81,6 +89,7 @@ function* fn(yield) {}
     "source": "function* fn(yield) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

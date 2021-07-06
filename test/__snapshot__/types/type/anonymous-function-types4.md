@@ -29,6 +29,7 @@ type A = (Array<string>) => void
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type A = (Array<string>) => void
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type A = (Array<string>) => void
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -67,6 +70,7 @@ type A = (Array<string>) => void
                                         "text": "Array",
                                         "rawText": "Array",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 15
                                     },
@@ -82,42 +86,50 @@ type A = (Array<string>) => void
                                                     "type": {
                                                         "kind": 134234347,
                                                         "flags": 2097216,
+                                                        "transformFlags": 0,
                                                         "start": 16,
                                                         "end": 22
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 16,
                                                     "end": 22
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 22
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 23
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 23
                                 },
                                 "optionalToken": null,
                                 "types": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 24
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 24
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 27
                     },
@@ -128,22 +140,27 @@ type A = (Array<string>) => void
                         "type": {
                             "kind": 138477615,
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 32
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 27,
                         "end": 32
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 32
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 32
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -152,6 +169,7 @@ type A = (Array<string>) => void
     "source": "type A = (Array<string>) => void",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

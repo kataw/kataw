@@ -26,6 +26,7 @@ obj.voi\u0064 = 42;
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -34,16 +35,19 @@ obj.voi\u0064 = 42;
                         "text": "void",
                         "rawText": "voi\\u0064",
                         "flags": 16480,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 13
                     },
                     "flags": 96,
+                    "transformFlags": 2,
                     "start": 0,
                     "end": 13
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
@@ -52,14 +56,17 @@ obj.voi\u0064 = 42;
                     "text": 42,
                     "rawText": "42",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 18
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -68,6 +75,7 @@ obj.voi\u0064 = 42;
     "source": "obj.voi\\u0064 = 42;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

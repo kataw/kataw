@@ -38,12 +38,14 @@
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 2
                             },
                             "optionalToken": {
                                 "kind": 134217750,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 3
                             },
@@ -58,20 +60,24 @@
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 4,
                                         "end": 5
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 4,
                                     "end": 5
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 5
                             },
                             "right": null,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 5
                         },
@@ -82,12 +88,14 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 8
                             },
                             "questionToken": {
                                 "kind": 134217750,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 9
                             },
@@ -96,12 +104,14 @@
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 10
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 11
                             },
@@ -110,23 +120,28 @@
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 12
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 12
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 13
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         },
@@ -137,10 +152,12 @@
                 "text": 0,
                 "rawText": "0",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 15,
             "end": 17
         }
@@ -149,6 +166,7 @@
     "source": "(a?:b, x?b:c)=>0;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

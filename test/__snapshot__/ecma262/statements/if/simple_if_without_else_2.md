@@ -20,6 +20,7 @@ if (foo) bar; else doo;
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -28,6 +29,7 @@ if (foo) bar; else doo;
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 7
             },
@@ -38,16 +40,19 @@ if (foo) bar; else doo;
                     "text": "bar",
                     "rawText": "bar",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 12
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 13
             },
             "elseKeyword": {
                 "kind": 4194389,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 18
             },
@@ -58,14 +63,17 @@ if (foo) bar; else doo;
                     "text": "doo",
                     "rawText": "doo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 22
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 23
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -74,6 +82,7 @@ if (foo) bar; else doo;
     "source": "if (foo) bar; else doo;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

@@ -45,12 +45,14 @@ x << y | z;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -61,12 +63,14 @@ x << y | z;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 5
                     },
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 5,
                         "end": 7
                     },
@@ -75,18 +79,22 @@ x << y | z;
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 9
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 9
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -101,12 +109,14 @@ x << y | z;
                         "text": "x",
                         "rawText": "x",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 12
                     },
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 12,
                         "end": 14
                     },
@@ -115,16 +125,19 @@ x << y | z;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 16
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 16
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 18
                 },
@@ -133,14 +146,17 @@ x << y | z;
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 21
         },
@@ -153,12 +169,14 @@ x << y | z;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 24
                 },
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 24,
                     "end": 26
                 },
@@ -169,12 +187,14 @@ x << y | z;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 28
                     },
                     "operatorToken": {
                         "kind": 35639,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 28,
                         "end": 30
                     },
@@ -183,18 +203,22 @@ x << y | z;
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 30,
                         "end": 32
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 32
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 21,
             "end": 33
         },
@@ -209,12 +233,14 @@ x << y | z;
                         "text": "x",
                         "rawText": "x",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 33,
                         "end": 35
                     },
                     "operatorToken": {
                         "kind": 35640,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 35,
                         "end": 37
                     },
@@ -223,16 +249,19 @@ x << y | z;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 37,
                         "end": 39
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 39
                 },
                 "operatorToken": {
                     "kind": 35639,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 39,
                     "end": 41
                 },
@@ -241,14 +270,17 @@ x << y | z;
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 41,
                     "end": 43
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 43
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 33,
             "end": 44
         },
@@ -263,12 +295,14 @@ x << y | z;
                         "text": "x",
                         "rawText": "x",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 44,
                         "end": 46
                     },
                     "operatorToken": {
                         "kind": 35639,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 46,
                         "end": 48
                     },
@@ -277,16 +311,19 @@ x << y | z;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 48,
                         "end": 50
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 44,
                     "end": 50
                 },
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 50,
                     "end": 52
                 },
@@ -295,14 +332,17 @@ x << y | z;
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 52,
                     "end": 54
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 44,
                 "end": 54
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 44,
             "end": 55
         },
@@ -317,12 +357,14 @@ x << y | z;
                         "text": "x",
                         "rawText": "x",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 55,
                         "end": 57
                     },
                     "operatorToken": {
                         "kind": 35639,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 57,
                         "end": 59
                     },
@@ -331,16 +373,19 @@ x << y | z;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 59,
                         "end": 61
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 55,
                     "end": 61
                 },
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 61,
                     "end": 63
                 },
@@ -349,14 +394,17 @@ x << y | z;
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 63,
                     "end": 65
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 55,
                 "end": 65
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 55,
             "end": 66
         },
@@ -371,12 +419,14 @@ x << y | z;
                         "text": "x",
                         "rawText": "x",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 66,
                         "end": 69
                     },
                     "operatorToken": {
                         "kind": 35639,
                         "flags": 96,
+                        "transformFlags": 32,
                         "start": 69,
                         "end": 71
                     },
@@ -385,16 +435,19 @@ x << y | z;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 71,
                         "end": 73
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 66,
                     "end": 73
                 },
                 "operatorToken": {
                     "kind": 35639,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 73,
                     "end": 75
                 },
@@ -403,14 +456,17 @@ x << y | z;
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 75,
                     "end": 77
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 66,
                 "end": 77
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 66,
             "end": 78
         },
@@ -425,12 +481,14 @@ x << y | z;
                         "text": "x",
                         "rawText": "x",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 78,
                         "end": 81
                     },
                     "operatorToken": {
                         "kind": 35140,
                         "flags": 96,
+                        "transformFlags": 64,
                         "start": 81,
                         "end": 84
                     },
@@ -439,16 +497,19 @@ x << y | z;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 84,
                         "end": 86
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 78,
                     "end": 86
                 },
                 "operatorToken": {
                     "kind": 35141,
                     "flags": 96,
+                    "transformFlags": 64,
                     "start": 86,
                     "end": 89
                 },
@@ -457,14 +518,17 @@ x << y | z;
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 89,
                     "end": 91
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 78,
                 "end": 91
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 78,
             "end": 92
         },
@@ -479,12 +543,14 @@ x << y | z;
                         "text": "x",
                         "rawText": "x",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 92,
                         "end": 94
                     },
                     "operatorToken": {
                         "kind": 35142,
                         "flags": 96,
+                        "transformFlags": 64,
                         "start": 94,
                         "end": 98
                     },
@@ -493,16 +559,19 @@ x << y | z;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 98,
                         "end": 100
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 92,
                     "end": 100
                 },
                 "operatorToken": {
                     "kind": 35140,
                     "flags": 96,
+                    "transformFlags": 64,
                     "start": 100,
                     "end": 103
                 },
@@ -511,14 +580,17 @@ x << y | z;
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 103,
                     "end": 105
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 92,
                 "end": 105
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 92,
             "end": 106
         },
@@ -533,12 +605,14 @@ x << y | z;
                         "text": "x",
                         "rawText": "x",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 106,
                         "end": 108
                     },
                     "operatorToken": {
                         "kind": 35142,
                         "flags": 96,
+                        "transformFlags": 64,
                         "start": 108,
                         "end": 112
                     },
@@ -547,16 +621,19 @@ x << y | z;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 112,
                         "end": 114
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 106,
                     "end": 114
                 },
                 "operatorToken": {
                     "kind": 35142,
                     "flags": 96,
+                    "transformFlags": 64,
                     "start": 114,
                     "end": 118
                 },
@@ -565,14 +642,17 @@ x << y | z;
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 118,
                     "end": 120
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 106,
                 "end": 120
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 106,
             "end": 121
         },
@@ -585,12 +665,14 @@ x << y | z;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 121,
                     "end": 123
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 123,
                     "end": 125
                 },
@@ -601,12 +683,14 @@ x << y | z;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 125,
                         "end": 127
                     },
                     "operatorToken": {
                         "kind": 35141,
                         "flags": 96,
+                        "transformFlags": 64,
                         "start": 127,
                         "end": 130
                     },
@@ -615,18 +699,22 @@ x << y | z;
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 130,
                         "end": 132
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 127,
                     "end": 132
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 121,
                 "end": 132
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 121,
             "end": 133
         },
@@ -639,12 +727,14 @@ x << y | z;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 133,
                     "end": 136
                 },
                 "operatorToken": {
                     "kind": 134251592,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 136,
                     "end": 138
                 },
@@ -655,12 +745,14 @@ x << y | z;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 138,
                         "end": 140
                     },
                     "operatorToken": {
                         "kind": 134252103,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 140,
                         "end": 142
                     },
@@ -669,18 +761,22 @@ x << y | z;
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 142,
                         "end": 144
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 140,
                     "end": 144
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 133,
                 "end": 144
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 133,
             "end": 145
         },
@@ -695,12 +791,14 @@ x << y | z;
                         "text": "x",
                         "rawText": "x",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 145,
                         "end": 147
                     },
                     "operatorToken": {
                         "kind": 134252103,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 147,
                         "end": 149
                     },
@@ -709,16 +807,19 @@ x << y | z;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 149,
                         "end": 151
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 145,
                     "end": 151
                 },
                 "operatorToken": {
                     "kind": 134251592,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 151,
                     "end": 153
                 },
@@ -727,14 +828,17 @@ x << y | z;
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 153,
                     "end": 155
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 145,
                 "end": 155
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 145,
             "end": 156
         },
@@ -749,12 +853,14 @@ x << y | z;
                         "text": "x",
                         "rawText": "x",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 156,
                         "end": 158
                     },
                     "operatorToken": {
                         "kind": 134251849,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 158,
                         "end": 160
                     },
@@ -763,16 +869,19 @@ x << y | z;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 160,
                         "end": 162
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 156,
                     "end": 162
                 },
                 "operatorToken": {
                     "kind": 134251849,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 162,
                     "end": 164
                 },
@@ -781,14 +890,17 @@ x << y | z;
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 164,
                     "end": 166
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 156,
                 "end": 166
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 156,
             "end": 167
         },
@@ -803,12 +915,14 @@ x << y | z;
                         "text": "x",
                         "rawText": "x",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 167,
                         "end": 169
                     },
                     "operatorToken": {
                         "kind": 134252103,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 169,
                         "end": 171
                     },
@@ -817,16 +931,19 @@ x << y | z;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 171,
                         "end": 173
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 167,
                     "end": 173
                 },
                 "operatorToken": {
                     "kind": 134252103,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 173,
                     "end": 175
                 },
@@ -835,14 +952,17 @@ x << y | z;
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 175,
                     "end": 177
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 167,
                 "end": 177
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 167,
             "end": 178
         },
@@ -857,12 +977,14 @@ x << y | z;
                         "text": "x",
                         "rawText": "x",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 178,
                         "end": 180
                     },
                     "operatorToken": {
                         "kind": 134251592,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 180,
                         "end": 182
                     },
@@ -871,16 +993,19 @@ x << y | z;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 182,
                         "end": 184
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 178,
                     "end": 184
                 },
                 "operatorToken": {
                     "kind": 134251592,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 184,
                     "end": 186
                 },
@@ -889,14 +1014,17 @@ x << y | z;
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 186,
                     "end": 188
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 178,
                 "end": 188
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 178,
             "end": 189
         },
@@ -909,12 +1037,14 @@ x << y | z;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 189,
                     "end": 191
                 },
                 "operatorToken": {
                     "kind": 134252103,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 191,
                     "end": 193
                 },
@@ -925,12 +1055,14 @@ x << y | z;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 193,
                         "end": 195
                     },
                     "operatorToken": {
                         "kind": 35141,
                         "flags": 96,
+                        "transformFlags": 64,
                         "start": 195,
                         "end": 198
                     },
@@ -939,18 +1071,22 @@ x << y | z;
                         "text": "z",
                         "rawText": "z",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 198,
                         "end": 200
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 195,
                     "end": 200
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 189,
                 "end": 200
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 189,
             "end": 201
         },
@@ -965,12 +1101,14 @@ x << y | z;
                         "text": "x",
                         "rawText": "x",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 201,
                         "end": 203
                     },
                     "operatorToken": {
                         "kind": 35140,
                         "flags": 96,
+                        "transformFlags": 64,
                         "start": 203,
                         "end": 206
                     },
@@ -979,16 +1117,19 @@ x << y | z;
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 206,
                         "end": 208
                     },
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 201,
                     "end": 208
                 },
                 "operatorToken": {
                     "kind": 134251592,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 208,
                     "end": 210
                 },
@@ -997,14 +1138,17 @@ x << y | z;
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 210,
                     "end": 212
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 201,
                 "end": 212
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 201,
             "end": 213
         }
@@ -1013,6 +1157,7 @@ x << y | z;
     "source": "x + y / z;\nx / y + z;\n\nx * y % z;\nx / y % z;\nx % y * z;\nx % y / z;\n\nx % y % z;\n\nx << y >> z;\nx >>> y << z;\nx >>> y >>> z;\nx + y >> z;\n\nx | y & z;\nx & y | z;\nx ^ y ^ z;\nx & y & z;\nx | y | z;\nx & y >> z;\nx << y | z;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 213
 }
@@ -1022,40 +1167,40 @@ x << y | z;
 
 ```javascript
 
-x +  y /  z;
-x /  y +  z;
+x + y / z;
+x / y + z;
 
-x *  y %  z;
+x * y % z;
 
-x /  y %  z;
+x / y % z;
 
-x %  y *  z;
+x % y * z;
 
-x %  y /  z;
+x % y / z;
 
-x %  y %  z;
+x % y % z;
 
-x <<  y >>  z;
+x << y >> z;
 
-x >>>  y <<  z;
+x >>> y << z;
 
-x >>>  y >>>  z;
+x >>> y >>> z;
 
-x +  y >>  z;
+x + y >> z;
 
-x |  y &  z;
+x | y & z;
 
-x &  y |  z;
+x & y | z;
 
-x ^  y ^  z;
+x ^ y ^ z;
 
-x &  y &  z;
+x & y & z;
 
-x |  y |  z;
+x | y | z;
 
-x &  y >>  z;
+x & y >> z;
 
-x <<  y |  z;
+x << y | z;
 
 ```
 

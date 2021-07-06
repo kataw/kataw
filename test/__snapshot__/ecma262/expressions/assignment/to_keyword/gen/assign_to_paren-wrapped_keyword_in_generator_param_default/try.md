@@ -29,12 +29,14 @@ function *f(x = (try) = f) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -43,6 +45,7 @@ function *f(x = (try) = f) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -58,6 +61,7 @@ function *f(x = (try) = f) {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
@@ -70,20 +74,24 @@ function *f(x = (try) = f) {}
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 17
                             },
                             "flags": 15,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 17
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 17
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 17
             },
@@ -94,15 +102,18 @@ function *f(x = (try) = f) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         },
@@ -111,6 +122,7 @@ function *f(x = (try) = f) {}
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 20
             },
@@ -120,10 +132,12 @@ function *f(x = (try) = f) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 20
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 20
             },
@@ -135,14 +149,17 @@ function *f(x = (try) = f) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 20
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 17,
             "end": 20
         },
@@ -153,10 +170,12 @@ function *f(x = (try) = f) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 23,
             "end": 25
         },
@@ -166,10 +185,12 @@ function *f(x = (try) = f) {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 26,
             "end": 29
         }
@@ -178,6 +199,7 @@ function *f(x = (try) = f) {}
     "source": "function *f(x = (try) = f) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

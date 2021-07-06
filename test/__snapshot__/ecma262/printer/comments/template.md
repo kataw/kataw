@@ -29,6 +29,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,21 +43,25 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 5
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 5
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -65,6 +70,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 10
             },
@@ -78,6 +84,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 12
                         },
@@ -87,19 +94,23 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                             "text": "this is a template",
                             "rawText": "this is a template",
                             "flags": 134217824,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 35
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 10,
                         "end": 35
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 35
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 6,
             "end": 36
         },
@@ -108,6 +119,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 36,
                 "end": 40
             },
@@ -121,6 +133,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 40,
                             "end": 42
                         },
@@ -130,19 +143,23 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                             "text": "this is a templatewith multiple\nlines",
                             "rawText": "this is a template\\\nwith multiple\nlines",
                             "flags": 134217824,
+                            "transformFlags": 0,
                             "start": 44,
                             "end": 86
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 40,
                         "end": 86
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 40,
                 "end": 86
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 36,
             "end": 87
         },
@@ -151,6 +168,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 87,
                 "end": 91
             },
@@ -164,6 +182,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                             "text": "d",
                             "rawText": "d",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 91,
                             "end": 93
                         },
@@ -175,6 +194,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 95,
                                 "end": 97
                             },
@@ -183,23 +203,28 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                                 "text": "template with function",
                                 "rawText": "template with function",
                                 "flags": 134217824,
+                                "transformFlags": 0,
                                 "start": 97,
                                 "end": 121
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 95,
                             "end": 121
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 91,
                         "end": 121
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 91,
                 "end": 121
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 87,
             "end": 122
         },
@@ -208,6 +233,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 122,
                 "end": 126
             },
@@ -221,6 +247,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                             "text": "e",
                             "rawText": "e",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 126,
                             "end": 128
                         },
@@ -232,6 +259,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 130,
                                 "end": 132
                             },
@@ -247,10 +275,12 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                                             "text": "some",
                                             "rawText": "some",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 149,
                                             "end": 158
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 132,
                                         "end": 158
                                     },
@@ -263,10 +293,12 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                                             "text": "variables",
                                             "rawText": "variables",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 167,
                                             "end": 176
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 158,
                                         "end": 176
                                     }
@@ -276,27 +308,33 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                                     "text": "",
                                     "rawText": "",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 176,
                                     "end": 178
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 132,
                                 "end": 178
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 130,
                             "end": 178
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 126,
                         "end": 178
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 126,
                 "end": 178
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 122,
             "end": 179
         },
@@ -305,6 +343,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 179,
                 "end": 183
             },
@@ -318,6 +357,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 183,
                             "end": 185
                         },
@@ -329,6 +369,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 187,
                                 "end": 189
                             },
@@ -344,10 +385,12 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                                             "text": "some",
                                             "rawText": "some",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 206,
                                             "end": 210
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 189,
                                         "end": 210
                                     },
@@ -360,10 +403,12 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                                             "text": "variables",
                                             "rawText": "variables",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 213,
                                             "end": 222
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 210,
                                         "end": 222
                                     },
@@ -376,10 +421,12 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                                             "text": "attached",
                                             "rawText": "attached",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 225,
                                             "end": 233
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 222,
                                         "end": 233
                                     }
@@ -389,27 +436,33 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                                     "text": "",
                                     "rawText": "",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 233,
                                     "end": 235
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 189,
                                 "end": 235
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 187,
                             "end": 235
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 183,
                         "end": 235
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 183,
                 "end": 235
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 179,
             "end": 236
         },
@@ -418,6 +471,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 236,
                 "end": 240
             },
@@ -431,6 +485,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                             "text": "g",
                             "rawText": "g",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 240,
                             "end": 242
                         },
@@ -444,6 +499,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 249,
                                     "end": 256
                                 },
@@ -452,10 +508,12 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 262,
                                     "end": 262
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 249,
                                 "end": 268
                             },
@@ -464,23 +522,28 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                                 "text": "template with function call before",
                                 "rawText": "template with function call before",
                                 "flags": 134217824,
+                                "transformFlags": 0,
                                 "start": 268,
                                 "end": 304
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 249,
                             "end": 304
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 240,
                         "end": 304
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 240,
                 "end": 304
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 236,
             "end": 305
         },
@@ -489,6 +552,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 305,
                 "end": 309
             },
@@ -502,6 +566,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                             "text": "h",
                             "rawText": "h",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 309,
                             "end": 311
                         },
@@ -517,6 +582,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 313,
                                         "end": 315
                                     },
@@ -525,10 +591,12 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                                         "elements": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 316,
                                         "end": 316
                                     },
                                     "flags": 268435488,
+                                    "transformFlags": 1,
                                     "start": 313,
                                     "end": 317
                                 },
@@ -537,10 +605,12 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                                     "text": "g",
                                     "rawText": "g",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 323,
                                     "end": 329
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 2,
                                 "start": 313,
                                 "end": 329
                             },
@@ -549,23 +619,28 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                                 "text": "template with more complex function call",
                                 "rawText": "template with more complex function call",
                                 "flags": 134217824,
+                                "transformFlags": 0,
                                 "start": 329,
                                 "end": 371
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 313,
                             "end": 371
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 309,
                         "end": 371
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 309,
                 "end": 371
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 305,
             "end": 372
         }
@@ -574,6 +649,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
     "source": "let a;\nlet b = `this is a template`;\nlet c = `this is a template\\\nwith multiple\nlines`;\nlet d = f`template with function`;\nlet e = f`template with ${/*1*/some}/*2*/ ${variables}`;\nlet f = f`template with ${some}${variables}${attached}`;\nlet g/*3*/ = /*4*/f/*5*/(/*6*/)`template with function call before`;\nlet h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 377
 }

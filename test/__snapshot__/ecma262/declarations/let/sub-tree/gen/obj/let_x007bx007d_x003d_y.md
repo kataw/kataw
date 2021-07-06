@@ -33,12 +33,14 @@ a = { let
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -52,24 +54,29 @@ a = { let
                                 "text": "let",
                                 "rawText": "let",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 9
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 9
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 9
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -79,10 +86,12 @@ a = { let
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 9,
             "end": 14
         },
@@ -93,10 +102,12 @@ a = { let
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 14,
             "end": 16
         }
@@ -105,6 +116,7 @@ a = { let
     "source": "a = { let\n{} = y }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

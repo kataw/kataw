@@ -22,6 +22,7 @@ function x(){""[new.target]}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function x(){""[new.target]}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -40,6 +42,7 @@ function x(){""[new.target]}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -58,6 +61,7 @@ function x(){""[new.target]}
                                     "text": "",
                                     "rawText": "\"\"",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 15
                                 },
@@ -66,38 +70,46 @@ function x(){""[new.target]}
                                     "newKeyword": {
                                         "kind": 138477661,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 19
                                     },
                                     "targetIdentifier": {
                                         "kind": 16594,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 26
                                     },
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 26
                                 },
                                 "flags": 536870944,
+                                "transformFlags": 4,
                                 "start": 13,
                                 "end": 27
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 27
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 27
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 28
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -106,6 +118,7 @@ function x(){""[new.target]}
     "source": "function x(){\"\"[new.target]}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

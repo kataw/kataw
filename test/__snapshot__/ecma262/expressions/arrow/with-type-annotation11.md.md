@@ -37,6 +37,7 @@
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 4
                             },
@@ -45,6 +46,7 @@
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 5
                             },
@@ -56,21 +58,25 @@
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 13
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 13
                             },
                             "right": null,
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 13
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 14
                 },
@@ -78,6 +84,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 16
                 },
@@ -86,14 +93,17 @@
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 17
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -102,6 +112,7 @@
     "source": "(...a: string)=>0;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

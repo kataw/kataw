@@ -29,10 +29,12 @@ inally {}
                 "text": "inally",
                 "rawText": "inally",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -42,10 +44,12 @@ inally {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 6,
             "end": 9
         }
@@ -54,6 +58,7 @@ inally {}
     "source": "inally {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

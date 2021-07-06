@@ -32,6 +32,7 @@ new oh,no
                         "newKeyword": {
                             "kind": 138477661,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 3
                         },
@@ -40,11 +41,13 @@ new oh,no
                             "text": "oh",
                             "rawText": "oh",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 6
                         },
                         "argumentList": null,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 6
                     },
@@ -53,15 +56,18 @@ new oh,no
                         "text": "no",
                         "rawText": "no",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 9
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         }
@@ -70,6 +76,7 @@ new oh,no
     "source": "new oh,no",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

@@ -28,12 +28,14 @@ foo: function x() {}
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 4
             },
@@ -44,6 +46,7 @@ foo: function x() {}
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 13
                 },
@@ -53,6 +56,7 @@ foo: function x() {}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
@@ -62,6 +66,7 @@ foo: function x() {}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 16
                 },
@@ -72,19 +77,23 @@ foo: function x() {}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 19
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 20
                 },
                 "returnType": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -93,6 +102,7 @@ foo: function x() {}
     "source": "foo: function x() {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

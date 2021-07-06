@@ -20,6 +20,7 @@ async () => new await x()
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -29,6 +30,7 @@ async () => new await x()
                 "parameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 7
             },
@@ -36,6 +38,7 @@ async () => new await x()
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
@@ -44,6 +47,7 @@ async () => new await x()
                 "newKeyword": {
                     "kind": 138477661,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 15
                 },
@@ -52,6 +56,7 @@ async () => new await x()
                     "awaitKeyword": {
                         "kind": 82196,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 21
                     },
@@ -62,6 +67,7 @@ async () => new await x()
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 23
                         },
@@ -70,23 +76,28 @@ async () => new await x()
                             "elements": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 24
                         },
                         "flags": 268435488,
+                        "transformFlags": 1,
                         "start": 21,
                         "end": 25
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 25
                 },
                 "argumentList": null,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 25
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         }
@@ -95,6 +106,7 @@ async () => new await x()
     "source": "async () => new await x()",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

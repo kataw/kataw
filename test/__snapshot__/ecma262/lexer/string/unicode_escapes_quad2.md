@@ -28,10 +28,12 @@
                 "text": "afail",
                 "rawText": "\"\\uafail\"",
                 "flags": 16480,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         }
@@ -40,6 +42,7 @@
     "source": "\"\\uafail\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

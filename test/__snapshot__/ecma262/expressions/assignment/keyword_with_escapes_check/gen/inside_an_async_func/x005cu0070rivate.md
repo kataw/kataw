@@ -27,6 +27,7 @@ async () => {  \u0070rivate = x  }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -36,6 +37,7 @@ async () => {  \u0070rivate = x  }
                 "parameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 7
             },
@@ -43,6 +45,7 @@ async () => {  \u0070rivate = x  }
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
@@ -61,12 +64,14 @@ async () => {  \u0070rivate = x  }
                                     "text": "private",
                                     "rawText": "\\u0070rivate",
                                     "flags": 16480,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 27
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 27,
                                     "end": 29
                                 },
@@ -75,27 +80,33 @@ async () => {  \u0070rivate = x  }
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 31
                                 },
                                 "flags": 0,
+                                "transformFlags": 128,
                                 "start": 13,
                                 "end": 31
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 31
                         }
                     ],
                     "flags": 16416,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 31
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 34
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -104,6 +115,7 @@ async () => {  \u0070rivate = x  }
     "source": "async () => {  \\u0070rivate = x  }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

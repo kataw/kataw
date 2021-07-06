@@ -24,12 +24,14 @@ x / await
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 35640,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 1,
                     "end": 3
                 },
@@ -38,14 +40,17 @@ x / await
                     "text": "await",
                     "rawText": "await",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 9
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         }
@@ -54,6 +59,7 @@ x / await
     "source": "x / await",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }
@@ -63,7 +69,7 @@ x / await
 
 ```javascript
 
-x /  await;
+x / await;
 ```
 
 ### Diagnostics

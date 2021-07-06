@@ -68,10 +68,12 @@
                 "text": 0,
                 "rawText": "0",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 1
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 3
         },
@@ -82,10 +84,12 @@
                 "text": 1,
                 "rawText": "1",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 3,
             "end": 7
         },
@@ -96,10 +100,12 @@
                 "text": 2,
                 "rawText": "2",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 7,
             "end": 11
         },
@@ -110,10 +116,12 @@
                 "text": 3,
                 "rawText": "3",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 15
         },
@@ -124,10 +132,12 @@
                 "text": 4,
                 "rawText": "4",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 15,
             "end": 19
         },
@@ -138,10 +148,12 @@
                 "text": 5,
                 "rawText": "5",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 19,
             "end": 23
         },
@@ -152,10 +164,12 @@
                 "text": 6,
                 "rawText": "6",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 23,
             "end": 27
         },
@@ -166,10 +180,12 @@
                 "text": 7,
                 "rawText": "7",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 27,
             "end": 31
         },
@@ -180,10 +196,12 @@
                 "text": 8,
                 "rawText": "8",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 31,
             "end": 35
         },
@@ -194,10 +212,12 @@
                 "text": 9,
                 "rawText": "9",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 37
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 35,
             "end": 39
         },
@@ -208,10 +228,12 @@
                 "text": 10,
                 "rawText": "1_0",
                 "flags": 65633,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 43
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 39,
             "end": 45
         },
@@ -222,10 +244,12 @@
                 "text": 21,
                 "rawText": "21",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 48
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 45,
             "end": 50
         },
@@ -236,10 +260,12 @@
                 "text": 32,
                 "rawText": "32",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 50,
                 "end": 53
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 50,
             "end": 55
         },
@@ -250,10 +276,12 @@
                 "text": 43,
                 "rawText": "43",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 55,
                 "end": 58
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 55,
             "end": 60
         },
@@ -264,10 +292,12 @@
                 "text": 54,
                 "rawText": "54",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 60,
                 "end": 63
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 60,
             "end": 65
         },
@@ -278,10 +308,12 @@
                 "text": 65,
                 "rawText": "65",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 65,
                 "end": 68
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 65,
             "end": 70
         },
@@ -292,10 +324,12 @@
                 "text": 76,
                 "rawText": "76",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 70,
                 "end": 73
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 70,
             "end": 75
         },
@@ -306,10 +340,12 @@
                 "text": 87,
                 "rawText": "87",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 75,
                 "end": 78
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 75,
             "end": 80
         },
@@ -320,10 +356,12 @@
                 "text": 98,
                 "rawText": "98",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 80,
                 "end": 83
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 80,
             "end": 85
         },
@@ -334,10 +372,12 @@
                 "text": 19,
                 "rawText": "19",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 85,
                 "end": 88
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 85,
             "end": 90
         },
@@ -348,10 +388,12 @@
                 "text": 123,
                 "rawText": "12_3",
                 "flags": 65633,
+                "transformFlags": 0,
                 "start": 90,
                 "end": 95
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 90,
             "end": 97
         },
@@ -362,10 +404,12 @@
                 "text": 456,
                 "rawText": "456",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 97,
                 "end": 101
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 97,
             "end": 103
         },
@@ -376,10 +420,12 @@
                 "text": 7890,
                 "rawText": "7890",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 103,
                 "end": 108
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 103,
             "end": 110
         },
@@ -390,10 +436,12 @@
                 "text": 1234567890,
                 "rawText": "123_4_5_67890",
                 "flags": 65633,
+                "transformFlags": 0,
                 "start": 110,
                 "end": 124
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 110,
             "end": 124
         }
@@ -402,6 +450,7 @@
     "source": "0\n;\n1\n;\n2\n;\n3\n;\n4\n;\n5\n;\n6\n;\n7\n;\n8\n;\n9\n;\n1_0\n;\n21\n;\n32\n;\n43\n;\n54\n;\n65\n;\n76\n;\n87\n;\n98\n;\n19\n;\n12_3\n;\n456\n;\n7890\n;\n123_4_5_67890",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 124
 }

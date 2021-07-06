@@ -39,6 +39,7 @@ for (((x)=>{}) in y);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -56,12 +57,14 @@ for (((x)=>{}) in y);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 8
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 9
                     },
@@ -69,6 +72,7 @@ for (((x)=>{}) in y);
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 11
                     },
@@ -79,24 +83,29 @@ for (((x)=>{}) in y);
                             "directives": [],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 12
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 13
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 13
                 },
                 "flags": 5,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 14
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 17
             },
@@ -105,16 +114,19 @@ for (((x)=>{}) in y);
                 "text": "y",
                 "rawText": "y",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 21
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -123,6 +135,7 @@ for (((x)=>{}) in y);
     "source": "for (((x)=>{}) in y);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

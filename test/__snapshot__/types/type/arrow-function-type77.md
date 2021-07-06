@@ -29,6 +29,7 @@ type a = ({} | {}) => T;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = ({} | {}) => T;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = ({} | {}) => T;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -69,6 +72,7 @@ type a = ({} | {}) => T;
                                             "properties": [],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 12
                                         },
@@ -77,27 +81,32 @@ type a = ({} | {}) => T;
                                             "properties": [],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 17
                                         }
                                     ],
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 17
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 17
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 18
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 21
                     },
@@ -112,27 +121,33 @@ type a = ({} | {}) => T;
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 23
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 23
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 23
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 23
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 23
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -141,6 +156,7 @@ type a = ({} | {}) => T;
     "source": "type a = ({} | {}) => T;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

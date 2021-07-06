@@ -32,6 +32,7 @@ result = [[x]] = vals;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -45,21 +46,25 @@ result = [[x]] = vals;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 5
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -69,6 +74,7 @@ result = [[x]] = vals;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 11
             },
@@ -82,21 +88,25 @@ result = [[x]] = vals;
                             "text": "result",
                             "rawText": "result",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 18
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 11,
                         "end": 18
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 6,
             "end": 19
         },
@@ -106,6 +116,7 @@ result = [[x]] = vals;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 23
             },
@@ -119,6 +130,7 @@ result = [[x]] = vals;
                             "text": "vals",
                             "rawText": "vals",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 28
                         },
@@ -138,39 +150,47 @@ result = [[x]] = vals;
                                                     "text": 1,
                                                     "rawText": "1",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 33,
                                                     "end": 34
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 33,
                                             "end": 34
                                         },
                                         "flags": 32,
+                                        "transformFlags": 8,
                                         "start": 32,
                                         "end": 35
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 35
                             },
                             "flags": 32,
+                            "transformFlags": 8,
                             "start": 30,
                             "end": 36
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 23,
                         "end": 36
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 19,
             "end": 37
         },
@@ -183,12 +203,14 @@ result = [[x]] = vals;
                     "text": "result",
                     "rawText": "result",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 45
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 45,
                     "end": 47
                 },
@@ -209,32 +231,38 @@ result = [[x]] = vals;
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 50,
                                                 "end": 51
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 50,
                                         "end": 51
                                     },
                                     "flags": 32,
+                                    "transformFlags": 8,
                                     "start": 49,
                                     "end": 52
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 49,
                             "end": 52
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 47,
                         "end": 53
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 53,
                         "end": 55
                     },
@@ -243,18 +271,22 @@ result = [[x]] = vals;
                         "text": "vals",
                         "rawText": "vals",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 55,
                         "end": 60
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 47,
                     "end": 60
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 37,
                 "end": 60
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 37,
             "end": 61
         }
@@ -263,6 +295,7 @@ result = [[x]] = vals;
     "source": "var x;\n\nvar result;\nvar vals = [[1]];\n\nresult = [[x]] = vals;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 61
 }

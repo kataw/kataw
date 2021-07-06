@@ -22,12 +22,14 @@ function *await(){}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -36,6 +38,7 @@ function *await(){}
                 "text": "await",
                 "rawText": "await",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 15
             },
@@ -45,6 +48,7 @@ function *await(){}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 16
             },
@@ -55,15 +59,18 @@ function *await(){}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 18
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -72,6 +79,7 @@ function *await(){}
     "source": "function *await(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

@@ -29,6 +29,7 @@ type a = ({}[x]) => T;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = ({}[x]) => T;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = ({}[x]) => T;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -68,6 +71,7 @@ type a = ({}[x]) => T;
                                         "properties": [],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 12
                                     },
@@ -82,35 +86,42 @@ type a = ({}[x]) => T;
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 13,
                                                 "end": 14
                                             },
                                             "typeParameters": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 14
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 14
                                     },
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 16
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 15
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 16
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 19
                     },
@@ -125,27 +136,33 @@ type a = ({}[x]) => T;
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 21
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 21
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 21
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 21
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 21
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -154,6 +171,7 @@ type a = ({}[x]) => T;
     "source": "type a = ({}[x]) => T;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -38,6 +39,7 @@
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
@@ -50,6 +52,7 @@
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 27
                     },
@@ -58,11 +61,13 @@
                         "text": "A",
                         "rawText": "A",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 27,
                         "end": 29
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 29
                 },
@@ -70,14 +75,17 @@
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 30
                 },
                 "flags": 19,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 31
         }
@@ -86,6 +94,7 @@
     "source": "\"use strict\"; class extends A{}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

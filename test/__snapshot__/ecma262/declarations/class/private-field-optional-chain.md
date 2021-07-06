@@ -29,6 +29,7 @@ class Foo {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class Foo {
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -58,6 +60,7 @@ class Foo {
                                 "text": "#x",
                                 "rawText": "#x",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 15
                             },
@@ -65,6 +68,7 @@ class Foo {
                             "type": null,
                             "initializer": null,
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 11,
                             "end": 15
                         },
@@ -84,6 +88,7 @@ class Foo {
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 20
                                 },
@@ -93,6 +98,7 @@ class Foo {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 22
                                 },
@@ -110,12 +116,14 @@ class Foo {
                                                     "chainToken": {
                                                         "kind": 393240,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 31,
                                                         "end": 33
                                                     },
                                                     "member": {
                                                         "kind": 4276321,
                                                         "flags": 97,
+                                                        "transformFlags": 0,
                                                         "start": 24,
                                                         "end": 31
                                                     },
@@ -131,14 +139,17 @@ class Foo {
                                                                     "text": "#x",
                                                                     "rawText": "#x",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 33,
                                                                     "end": 35
                                                                 },
                                                                 "flags": 536870944,
+                                                                "transformFlags": 2,
                                                                 "start": 33,
                                                                 "end": 35
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 33,
                                                             "end": 35
                                                         },
@@ -147,18 +158,22 @@ class Foo {
                                                             "text": "y",
                                                             "rawText": "y",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 36,
                                                             "end": 37
                                                         },
                                                         "flags": 536870944,
+                                                        "transformFlags": 2,
                                                         "start": 35,
                                                         "end": 37
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 24,
                                                     "end": 37
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 24,
                                                 "end": 37
                                             },
@@ -169,12 +184,14 @@ class Foo {
                                                     "chainToken": {
                                                         "kind": 393240,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 44,
                                                         "end": 46
                                                     },
                                                     "member": {
                                                         "kind": 4276321,
                                                         "flags": 97,
+                                                        "transformFlags": 0,
                                                         "start": 37,
                                                         "end": 44
                                                     },
@@ -190,14 +207,17 @@ class Foo {
                                                                     "text": "y",
                                                                     "rawText": "y",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 46,
                                                                     "end": 47
                                                                 },
                                                                 "flags": 536870944,
+                                                                "transformFlags": 2,
                                                                 "start": 46,
                                                                 "end": 47
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 46,
                                                             "end": 47
                                                         },
@@ -206,18 +226,22 @@ class Foo {
                                                             "text": "#x",
                                                             "rawText": "#x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 48,
                                                             "end": 50
                                                         },
                                                         "flags": 536870944,
+                                                        "transformFlags": 2,
                                                         "start": 47,
                                                         "end": 50
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 37,
                                                     "end": 50
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 37,
                                                 "end": 50
                                             },
@@ -228,6 +252,7 @@ class Foo {
                                                     "chainToken": {
                                                         "kind": 393240,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 60,
                                                         "end": 62
                                                     },
@@ -236,6 +261,7 @@ class Foo {
                                                         "member": {
                                                             "kind": 4276321,
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 50,
                                                             "end": 57
                                                         },
@@ -244,10 +270,12 @@ class Foo {
                                                             "text": "#x",
                                                             "rawText": "#x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 58,
                                                             "end": 60
                                                         },
                                                         "flags": 97,
+                                                        "transformFlags": 2,
                                                         "start": 50,
                                                         "end": 60
                                                     },
@@ -261,52 +289,64 @@ class Foo {
                                                                 "text": "y",
                                                                 "rawText": "y",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 62,
                                                                 "end": 63
                                                             },
                                                             "flags": 536870944,
+                                                            "transformFlags": 2,
                                                             "start": 62,
                                                             "end": 63
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 62,
                                                         "end": 63
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 50,
                                                     "end": 63
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 50,
                                                 "end": 63
                                             }
                                         ],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 63
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 66
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 66
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 66
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 66
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 68
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 68
         }
@@ -315,6 +355,7 @@ class Foo {
     "source": "class Foo {\n\t#x\n\tfoo() {\n\t\tthis?.#x.y\n\t\tthis?.y.#x\n\t\tthis.#x?.y\n\t}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 68
 }

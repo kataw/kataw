@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { BindingList } from './binding-list';
 
@@ -21,6 +21,7 @@ export function createLexicalDeclaration(
     lexicalKeyword,
     binding,
     flags: NodeFlags.IsStatement | NodeFlags.Lexical,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

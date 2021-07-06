@@ -29,6 +29,7 @@ type a = ((q, x)=> T) => T;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type a = ((q, x)=> T) => T;
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type a = ((q, x)=> T) => T;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -76,17 +79,20 @@ type a = ((q, x)=> T) => T;
                                                             "text": "q",
                                                             "rawText": "q",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 11,
                                                             "end": 12
                                                         },
                                                         "typeParameters": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 8,
                                                         "end": 12
                                                     },
                                                     "optionalToken": null,
                                                     "types": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 8,
                                                     "end": 12
                                                 },
@@ -102,33 +108,39 @@ type a = ((q, x)=> T) => T;
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 13,
                                                             "end": 15
                                                         },
                                                         "typeParameters": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 13,
                                                         "end": 15
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 13,
                                                     "end": 15
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 15
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 18
                                 },
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 18
                                 },
@@ -143,31 +155,37 @@ type a = ((q, x)=> T) => T;
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 20
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 20
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 20
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 20
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 21
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 24
                     },
@@ -182,27 +200,33 @@ type a = ((q, x)=> T) => T;
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 26
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 26
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 26
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 26
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -211,6 +235,7 @@ type a = ((q, x)=> T) => T;
     "source": "type a = ((q, x)=> T) => T;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

@@ -22,6 +22,7 @@ async({c=3} = {})
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,6 +43,7 @@ async({c=3} = {})
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 8
                                         },
@@ -50,26 +52,31 @@ async({c=3} = {})
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 10
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 10
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 10
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 6,
                             "end": 11
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 13
                         },
@@ -80,24 +87,29 @@ async({c=3} = {})
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 15
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 13,
                             "end": 16
                         },
                         "flags": 32,
+                        "transformFlags": 128,
                         "start": 6,
                         "end": 16
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 0
             },
             "flags": 268435490,
+            "transformFlags": 1,
             "start": 0,
             "end": 17
         }
@@ -106,6 +118,7 @@ async({c=3} = {})
     "source": "async({c=3} = {})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

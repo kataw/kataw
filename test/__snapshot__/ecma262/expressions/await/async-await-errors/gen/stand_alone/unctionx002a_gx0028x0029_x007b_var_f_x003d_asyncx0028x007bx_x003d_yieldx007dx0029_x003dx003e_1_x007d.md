@@ -31,12 +31,14 @@ unction* g() { var f = async({x = yield}) => 1; }
                     "text": "unction",
                     "rawText": "unction",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 7,
                     "end": 8
                 },
@@ -47,6 +49,7 @@ unction* g() { var f = async({x = yield}) => 1; }
                         "text": "g",
                         "rawText": "g",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 10
                     },
@@ -55,18 +58,22 @@ unction* g() { var f = async({x = yield}) => 1; }
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 11
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 8,
                     "end": 12
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -81,6 +88,7 @@ unction* g() { var f = async({x = yield}) => 1; }
                         "varKeyword": {
                             "kind": 37757002,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 18
                         },
@@ -94,6 +102,7 @@ unction* g() { var f = async({x = yield}) => 1; }
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 20
                                     },
@@ -103,6 +112,7 @@ unction* g() { var f = async({x = yield}) => 1; }
                                         "asyncKeyword": {
                                             "kind": 82031,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 28
                                         },
@@ -123,6 +133,7 @@ unction* g() { var f = async({x = yield}) => 1; }
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 30,
                                                                     "end": 31
                                                                 },
@@ -133,26 +144,31 @@ unction* g() { var f = async({x = yield}) => 1; }
                                                                     "text": "yield",
                                                                     "rawText": "yield",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 33,
                                                                     "end": 39
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 30,
                                                                 "end": 39
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 30,
                                                         "end": 39
                                                     },
                                                     "flags": 48,
+                                                    "transformFlags": 0,
                                                     "start": 29,
                                                     "end": 40
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 34,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 41
                                         },
@@ -160,6 +176,7 @@ unction* g() { var f = async({x = yield}) => 1; }
                                         "arrowToken": {
                                             "kind": 10,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 41,
                                             "end": 44
                                         },
@@ -168,32 +185,39 @@ unction* g() { var f = async({x = yield}) => 1; }
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 44,
                                             "end": 46
                                         },
                                         "flags": 290,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 46
                                     },
                                     "flags": 16,
+                                    "transformFlags": 128,
                                     "start": 18,
                                     "end": 46
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 46
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 47
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 47
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 12,
             "end": 49
         }
@@ -202,6 +226,7 @@ unction* g() { var f = async({x = yield}) => 1; }
     "source": "unction* g() { var f = async({x = yield}) => 1; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 49
 }

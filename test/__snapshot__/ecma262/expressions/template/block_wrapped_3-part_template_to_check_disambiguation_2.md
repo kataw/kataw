@@ -34,10 +34,12 @@
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 9
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 1,
                                     "end": 9
                                 },
@@ -50,10 +52,12 @@
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 18
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 18
                                 },
@@ -73,10 +77,12 @@
                                                     "text": "d",
                                                     "rawText": "d",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 31,
                                                     "end": 32
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 32
                                             },
@@ -89,10 +95,12 @@
                                                     "text": "e",
                                                     "rawText": "e",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 38,
                                                     "end": 39
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 32,
                                                 "end": 39
                                             },
@@ -105,10 +113,12 @@
                                                     "text": "f",
                                                     "rawText": "f",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 45,
                                                     "end": 46
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 39,
                                                 "end": 46
                                             }
@@ -118,14 +128,17 @@
                                             "text": " z",
                                             "rawText": " z",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 46,
                                             "end": 50
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 50
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 50
                                 }
@@ -135,23 +148,28 @@
                                 "text": " baz",
                                 "rawText": " baz",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 50,
                                 "end": 56
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 56
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 56
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 56
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 57
         }
@@ -160,6 +178,7 @@
     "source": "{`foo ${a} and ${b} and ${`w ${d} x ${e} y ${f} z`} baz`}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 57
 }

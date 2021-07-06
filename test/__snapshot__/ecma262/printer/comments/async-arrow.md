@@ -49,6 +49,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -58,6 +59,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "parameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 8
             },
@@ -65,6 +67,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -73,16 +76,19 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 17
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 17,
             "end": 18
         },
@@ -91,6 +97,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 25
             },
@@ -103,12 +110,14 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 27,
                         "end": 28
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 34
             },
@@ -116,6 +125,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 36
             },
@@ -124,16 +134,19 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 36,
                 "end": 37
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 18,
             "end": 37
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 37,
             "end": 38
         },
@@ -142,6 +155,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 45
             },
@@ -154,12 +168,14 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 47,
                         "end": 53
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 47,
                 "end": 59
             },
@@ -167,6 +183,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 59,
                 "end": 61
             },
@@ -175,16 +192,19 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 61,
                 "end": 62
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 38,
             "end": 62
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 62,
             "end": 63
         },
@@ -193,6 +213,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 63,
                 "end": 70
             },
@@ -205,12 +226,14 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 72,
                         "end": 78
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 72,
                 "end": 84
             },
@@ -218,6 +241,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 84,
                 "end": 86
             },
@@ -226,16 +250,19 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 86,
                 "end": 87
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 63,
             "end": 87
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 87,
             "end": 88
         },
@@ -244,6 +271,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 88,
                 "end": 95
             },
@@ -256,12 +284,14 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 97,
                         "end": 103
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 97,
                 "end": 109
             },
@@ -269,6 +299,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 109,
                 "end": 111
             },
@@ -277,16 +308,19 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 111,
                 "end": 112
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 88,
             "end": 112
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 112,
             "end": 113
         },
@@ -295,6 +329,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 113,
                 "end": 120
             },
@@ -307,6 +342,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 122,
                         "end": 123
                     },
@@ -315,12 +351,14 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 129,
                         "end": 136
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 122,
                 "end": 137
             },
@@ -328,6 +366,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 137,
                 "end": 139
             },
@@ -336,16 +375,19 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 139,
                 "end": 140
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 113,
             "end": 140
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 140,
             "end": 141
         },
@@ -354,6 +396,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 141,
                 "end": 148
             },
@@ -366,12 +409,14 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 150,
                         "end": 151
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 150,
                 "end": 163
             },
@@ -379,6 +424,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 163,
                 "end": 165
             },
@@ -387,16 +433,19 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 165,
                 "end": 166
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 141,
             "end": 166
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 166,
             "end": 167
         },
@@ -405,6 +454,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 167,
                 "end": 174
             },
@@ -420,6 +470,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 176,
                             "end": 177
                         },
@@ -431,21 +482,25 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 183,
                                 "end": 196
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 183,
                             "end": 196
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 176,
                         "end": 196
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 176,
                 "end": 197
             },
@@ -453,6 +508,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 197,
                 "end": 199
             },
@@ -461,16 +517,19 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 199,
                 "end": 200
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 167,
             "end": 200
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 200,
             "end": 201
         },
@@ -479,6 +538,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 201,
                 "end": 208
             },
@@ -491,6 +551,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 210,
                             "end": 213
                         },
@@ -499,6 +560,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 213,
                             "end": 214
                         },
@@ -510,21 +572,25 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 220,
                                 "end": 233
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 220,
                             "end": 233
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 210,
                         "end": 233
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 210,
                 "end": 234
             },
@@ -532,6 +598,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 234,
                 "end": 236
             },
@@ -540,16 +607,19 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 236,
                 "end": 237
             },
             "flags": 290,
+            "transformFlags": 0,
             "start": 201,
             "end": 237
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 237,
             "end": 238
         },
@@ -558,6 +628,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 238,
                 "end": 245
             },
@@ -570,6 +641,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                         "ellipsisToken": {
                             "kind": 524302,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 247,
                             "end": 250
                         },
@@ -578,6 +650,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 250,
                             "end": 251
                         },
@@ -589,15 +662,18 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 257,
                                 "end": 270
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 257,
                             "end": 270
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 247,
                         "end": 270
                     },
@@ -608,16 +684,19 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                             "elements": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 273,
                             "end": 273
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 271,
                         "end": 279
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 247,
                 "end": 280
             },
@@ -625,6 +704,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 280,
                 "end": 282
             },
@@ -633,16 +713,19 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 282,
                 "end": 283
             },
             "flags": 290,
+            "transformFlags": 0,
             "start": 238,
             "end": 283
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 283,
             "end": 284
         },
@@ -651,6 +734,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 284,
                 "end": 292
             },
@@ -666,12 +750,14 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 302,
                             "end": 303
                         },
                         "optionalToken": {
                             "kind": 134217750,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 303,
                             "end": 312
                         },
@@ -682,21 +768,25 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 321,
                                 "end": 335
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 321,
                             "end": 335
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 302,
                         "end": 335
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 302,
                 "end": 368
             },
@@ -707,16 +797,19 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                 "type": {
                     "kind": 134234347,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 353,
                     "end": 368
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 353,
                 "end": 368
             },
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 368,
                 "end": 379
             },
@@ -727,14 +820,17 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 390,
                     "end": 390
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 379,
                 "end": 391
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 284,
             "end": 391
         }
@@ -743,6 +839,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
     "source": "\nasync (/*1*/)=>x;\n\nasync (a/*1*/)=>x;\n\nasync (/*1*/a/*2*/)=>x;\n\nasync (/*1*/a/*2*/)=>x;\n\nasync (/*1*/a/*2*/)=>x;\n\nasync (a/*1*/, /*2*/b)=>x;\n\nasync (a/*1*/,/*2*/)=>x;\n\nasync (a/*1*/: /*2*/ string)=>x;\n\nasync (...a/*1*/: /*2*/ string)=>x;\n\nasync (...a/*1*/: /*2*/ string, [/*2*/])=>x;\n\n async /* 1 */ (x/* 2 */ ?/* 3 */ :/* 4 */ string/* 5 */ )/* 6 */ :/* 7 */  string /* 8 */ => /* 9 */  {}\n\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 393
 }

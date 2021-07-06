@@ -36,6 +36,7 @@ async => {}, a
                             "text": "async",
                             "rawText": "async",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 5
                         },
@@ -43,6 +44,7 @@ async => {}, a
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 8
                         },
@@ -53,14 +55,17 @@ async => {}, a
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 10
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 11
                         },
                         "flags": 288,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 11
                     },
@@ -69,15 +74,18 @@ async => {}, a
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -86,6 +94,7 @@ async => {}, a
     "source": "async => {}, a",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

@@ -21,18 +21,21 @@ async function * f(){}
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 14,
                 "end": 16
             },
@@ -41,6 +44,7 @@ async function * f(){}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 18
             },
@@ -50,6 +54,7 @@ async function * f(){}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 19
             },
@@ -60,15 +65,18 @@ async function * f(){}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 21
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 22
             },
             "returnType": null,
             "flags": 400,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -77,6 +85,7 @@ async function * f(){}
     "source": "async function * f(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

@@ -29,12 +29,14 @@ function * gen() { function not_gen() { async function g(){let x = async functio
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -43,6 +45,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                 "text": "gen",
                 "rawText": "gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 14
             },
@@ -52,6 +55,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 15
             },
@@ -68,6 +72,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 27
                             },
@@ -77,6 +82,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                 "text": "not_gen",
                                 "rawText": "not_gen",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 35
                             },
@@ -86,6 +92,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 36
                             },
@@ -101,12 +108,14 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                             "asyncKeyword": {
                                                 "kind": 82031,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 39,
                                                 "end": 45
                                             },
                                             "functionKeyword": {
                                                 "kind": 37822554,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 45,
                                                 "end": 54
                                             },
@@ -116,6 +125,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                 "text": "g",
                                                 "rawText": "g",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 54,
                                                 "end": 56
                                             },
@@ -125,6 +135,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 57,
                                                 "end": 57
                                             },
@@ -139,6 +150,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                             "lexicalKeyword": {
                                                                 "kind": 41951307,
                                                                 "flags": 80,
+                                                                "transformFlags": 0,
                                                                 "start": 59,
                                                                 "end": 62
                                                             },
@@ -152,6 +164,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                             "text": "x",
                                                                             "rawText": "x",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 62,
                                                                             "end": 64
                                                                         },
@@ -161,12 +174,14 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                             "asyncKeyword": {
                                                                                 "kind": 82031,
                                                                                 "flags": 64,
+                                                                                "transformFlags": 0,
                                                                                 "start": 66,
                                                                                 "end": 72
                                                                             },
                                                                             "functionKeyword": {
                                                                                 "kind": 37822554,
                                                                                 "flags": 64,
+                                                                                "transformFlags": 0,
                                                                                 "start": 72,
                                                                                 "end": 81
                                                                             },
@@ -176,6 +191,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                 "text": "f",
                                                                                 "rawText": "f",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 81,
                                                                                 "end": 83
                                                                             },
@@ -191,6 +207,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                             "text": "foo",
                                                                                             "rawText": "foo",
                                                                                             "flags": 96,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 84,
                                                                                             "end": 87
                                                                                         },
@@ -206,6 +223,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                                         "text": "h",
                                                                                                         "rawText": "h",
                                                                                                         "flags": 96,
+                                                                                                        "transformFlags": 0,
                                                                                                         "start": 91,
                                                                                                         "end": 92
                                                                                                     },
@@ -222,6 +240,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                                                         "text": "m",
                                                                                                                         "rawText": "m",
                                                                                                                         "flags": 96,
+                                                                                                                        "transformFlags": 0,
                                                                                                                         "start": 95,
                                                                                                                         "end": 96
                                                                                                                     },
@@ -232,6 +251,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                                                             "text": "t",
                                                                                                                             "rawText": "t",
                                                                                                                             "flags": 96,
+                                                                                                                            "transformFlags": 0,
                                                                                                                             "start": 97,
                                                                                                                             "end": 99
                                                                                                                         },
@@ -243,6 +263,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                                                                     "awaitKeyword": {
                                                                                                                                         "kind": 82196,
                                                                                                                                         "flags": 64,
+                                                                                                                                        "transformFlags": 0,
                                                                                                                                         "start": 100,
                                                                                                                                         "end": 105
                                                                                                                                     },
@@ -251,54 +272,65 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                                                                         "text": "bar",
                                                                                                                                         "rawText": "bar",
                                                                                                                                         "flags": 96,
+                                                                                                                                        "transformFlags": 0,
                                                                                                                                         "start": 105,
                                                                                                                                         "end": 109
                                                                                                                                     },
                                                                                                                                     "flags": 32,
+                                                                                                                                    "transformFlags": 0,
                                                                                                                                     "start": 100,
                                                                                                                                     "end": 109
                                                                                                                                 }
                                                                                                                             ],
                                                                                                                             "trailingComma": false,
                                                                                                                             "flags": 32,
+                                                                                                                            "transformFlags": 0,
                                                                                                                             "start": 100,
                                                                                                                             "end": 109
                                                                                                                         },
                                                                                                                         "flags": 268435488,
+                                                                                                                        "transformFlags": 1,
                                                                                                                         "start": 95,
                                                                                                                         "end": 110
                                                                                                                     },
                                                                                                                     "flags": 32,
+                                                                                                                    "transformFlags": 128,
                                                                                                                     "start": 95,
                                                                                                                     "end": 110
                                                                                                                 }
                                                                                                             ],
                                                                                                             "trailingComma": false,
                                                                                                             "flags": 16,
+                                                                                                            "transformFlags": 0,
                                                                                                             "start": 95,
                                                                                                             "end": 110
                                                                                                         },
                                                                                                         "flags": 48,
+                                                                                                        "transformFlags": 8,
                                                                                                         "start": 93,
                                                                                                         "end": 111
                                                                                                     }
                                                                                                 ],
                                                                                                 "trailingComma": false,
                                                                                                 "flags": 32,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 91,
                                                                                                 "end": 111
                                                                                             },
                                                                                             "flags": 32,
+                                                                                            "transformFlags": 8,
                                                                                             "start": 89,
                                                                                             "end": 112
                                                                                         },
                                                                                         "flags": 34,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 84,
                                                                                         "end": 112
                                                                                     }
                                                                                 ],
                                                                                 "trailingComma": false,
                                                                                 "flags": 34,
+                                                                                "transformFlags": 0,
                                                                                 "start": 84,
                                                                                 "end": 112
                                                                             },
@@ -309,70 +341,85 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                     "directives": [],
                                                                                     "statements": [],
                                                                                     "flags": 32,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 114,
                                                                                     "end": 114
                                                                                 },
                                                                                 "flags": 32,
+                                                                                "transformFlags": 0,
                                                                                 "start": 113,
                                                                                 "end": 115
                                                                             },
                                                                             "returnType": null,
                                                                             "flags": 160,
+                                                                            "transformFlags": 0,
                                                                             "start": 66,
                                                                             "end": 115
                                                                         },
                                                                         "flags": 16,
+                                                                        "transformFlags": 128,
                                                                         "start": 62,
                                                                         "end": 115
                                                                     }
                                                                 ],
                                                                 "flags": 16,
+                                                                "transformFlags": 0,
                                                                 "start": 62,
                                                                 "end": 115
                                                             },
                                                             "flags": 33554448,
+                                                            "transformFlags": 0,
                                                             "start": 59,
                                                             "end": 115
                                                         }
                                                     ],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 59,
                                                     "end": 115
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 58,
                                                 "end": 120
                                             },
                                             "returnType": null,
                                             "flags": 144,
+                                            "transformFlags": 0,
                                             "start": 39,
                                             "end": 120
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 120
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 122
                             },
                             "returnType": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 122
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 122
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 123
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 123
         }
@@ -381,6 +428,7 @@ function * gen() { function not_gen() { async function g(){let x = async functio
     "source": "function * gen() { function not_gen() { async function g(){let x = async function f(foo = [h, {m: t(await bar)}]){}    } }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 123
 }

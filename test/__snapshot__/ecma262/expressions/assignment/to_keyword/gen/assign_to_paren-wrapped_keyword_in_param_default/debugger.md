@@ -29,6 +29,7 @@ async (x = (debugger) = f) => {}
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,12 +43,14 @@ async (x = (debugger) = f) => {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 10
                         },
@@ -58,24 +61,29 @@ async (x = (debugger) = f) => {}
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 12
                             },
                             "flags": 10,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 12
                         },
                         "flags": 32,
+                        "transformFlags": 128,
                         "start": 7,
                         "end": 12
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 0
             },
             "flags": 268435490,
+            "transformFlags": 1,
             "start": 0,
             "end": 12
         },
@@ -84,10 +92,12 @@ async (x = (debugger) = f) => {}
             "debuggerKeyword": {
                 "kind": 37757010,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 12,
             "end": 20
         },
@@ -98,10 +108,12 @@ async (x = (debugger) = f) => {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 23,
             "end": 25
         },
@@ -111,10 +123,12 @@ async (x = (debugger) = f) => {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 29,
             "end": 32
         }
@@ -123,6 +137,7 @@ async (x = (debugger) = f) => {}
     "source": "async (x = (debugger) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

@@ -29,6 +29,7 @@
                                 "text": "__proto__",
                                 "rawText": "__proto__",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 12
                             },
@@ -37,24 +38,29 @@
                                 "text": "__proto__",
                                 "rawText": "__proto__",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 23
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 23
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 25
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -63,6 +69,7 @@
     "source": "({ __proto__, __proto__ })",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

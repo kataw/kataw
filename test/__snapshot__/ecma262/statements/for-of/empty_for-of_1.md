@@ -39,6 +39,7 @@ for (a of b);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -48,12 +49,14 @@ for (a of b);
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 6
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 9
             },
@@ -62,16 +65,19 @@ for (a of b);
                 "text": "b",
                 "rawText": "b",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 11
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 13
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         }
@@ -80,6 +86,7 @@ for (a of b);
     "source": "for (a of b);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

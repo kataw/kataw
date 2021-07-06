@@ -31,14 +31,17 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 1
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 1
         },
@@ -51,10 +54,12 @@
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
                 "flags": 16400,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 1
             },
@@ -62,6 +67,7 @@
             "finallyKeyword": {
                 "kind": 37757016,
                 "flags": 16448,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 13
             },
@@ -71,14 +77,17 @@
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 13
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1,
             "end": 13
         },
@@ -89,16 +98,19 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 15,
             "end": 17
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 18,
             "end": 19
         }
@@ -107,6 +119,7 @@
     "source": "(fin\\u0061lly = x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

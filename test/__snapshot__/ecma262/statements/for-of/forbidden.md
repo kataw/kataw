@@ -24,6 +24,7 @@ async () => {
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -33,12 +34,14 @@ async () => {
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 10
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 13
             },
@@ -47,16 +50,19 @@ async () => {
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 17
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         },
@@ -65,6 +71,7 @@ async () => {
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 24
             },
@@ -74,6 +81,7 @@ async () => {
                 "parameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 26
             },
@@ -81,6 +89,7 @@ async () => {
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 30
             },
@@ -95,6 +104,7 @@ async () => {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 38
                             },
@@ -104,12 +114,14 @@ async () => {
                                 "text": "async",
                                 "rawText": "async",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 45
                             },
                             "ofKeyword": {
                                 "kind": 16793717,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 45,
                                 "end": 48
                             },
@@ -118,29 +130,35 @@ async () => {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 48,
                                 "end": 50
                             },
                             "statement": {
                                 "kind": 168,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 51,
                                 "end": 52
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 52
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 52
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 54
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 17,
             "end": 54
         }
@@ -149,6 +167,7 @@ async () => {
     "source": "for (async of x);\n\nasync () => {\n  for (async of x);\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 54
 }

@@ -32,6 +32,7 @@ hello();
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -45,6 +46,7 @@ hello();
                             "text": "hello",
                             "rawText": "hello",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 9
                         },
@@ -64,6 +66,7 @@ hello();
                                             "text": "greeting",
                                             "rawText": "greeting",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 21
                                         },
@@ -75,10 +78,12 @@ hello();
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 28
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 28
                                         },
@@ -87,16 +92,19 @@ hello();
                                             "text": " world",
                                             "rawText": "' world'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 39
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 39
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 49
                             },
@@ -107,16 +115,19 @@ hello();
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 42,
                                     "end": 49
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 49
                             },
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 49,
                                 "end": 52
                             },
@@ -137,6 +148,7 @@ hello();
                                                         "text": "console",
                                                         "rawText": "console",
                                                         "flags": 97,
+                                                        "transformFlags": 0,
                                                         "start": 54,
                                                         "end": 64
                                                     },
@@ -145,10 +157,12 @@ hello();
                                                         "text": "log",
                                                         "rawText": "log",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 65,
                                                         "end": 68
                                                     },
                                                     "flags": 97,
+                                                    "transformFlags": 2,
                                                     "start": 54,
                                                     "end": 68
                                                 },
@@ -162,12 +176,14 @@ hello();
                                                                 "text": "hello",
                                                                 "rawText": "'hello'",
                                                                 "flags": 4194400,
+                                                                "transformFlags": 0,
                                                                 "start": 69,
                                                                 "end": 76
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 99634,
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 76,
                                                                 "end": 78
                                                             },
@@ -176,50 +192,61 @@ hello();
                                                                 "text": "greeting",
                                                                 "rawText": "greeting",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 78,
                                                                 "end": 87
                                                             },
                                                             "flags": 4194400,
+                                                            "transformFlags": 0,
                                                             "start": 69,
                                                             "end": 87
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 69,
                                                     "end": 87
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 1,
                                                 "start": 54,
                                                 "end": 88
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 54,
                                             "end": 89
                                         }
                                     ],
                                     "flags": 33,
+                                    "transformFlags": 0,
                                     "start": 54,
                                     "end": 89
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 52,
                                 "end": 91
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 91
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 91
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 91
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 92
         },
@@ -232,6 +259,7 @@ hello();
                     "text": "hello",
                     "rawText": "hello",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 92,
                     "end": 99
                 },
@@ -240,14 +268,17 @@ hello();
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 100,
                     "end": 100
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 92,
                 "end": 101
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 92,
             "end": 102
         }
@@ -256,6 +287,7 @@ hello();
     "source": "let hello = (greeting:string = ' world') : string => {\n  console.log('hello' + greeting);\n};\n\nhello();",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 102
 }
@@ -266,7 +298,7 @@ hello();
 ```javascript
 
 let hello = (greeting: string  = '\' world\'') => {
-    console.log('\'hello\'' +  greeting);
+    console.log('\'hello\'' + greeting);
   };
 hello();
 

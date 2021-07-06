@@ -29,6 +29,7 @@
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 4
                             },
@@ -37,6 +38,7 @@
                                 "text": "rest",
                                 "rawText": "rest",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 8
                             },
@@ -44,12 +46,14 @@
                             "type": null,
                             "right": null,
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 8
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 10
                 },
@@ -57,6 +61,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 13
                 },
@@ -67,18 +72,22 @@
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 15
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 16
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -87,6 +96,7 @@
     "source": "(...rest,) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

@@ -30,12 +30,14 @@ async <(T, U)>y
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 536971330,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -51,6 +53,7 @@ async <(T, U)>y
                                     "text": "T",
                                     "rawText": "T",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 9
                                 },
@@ -59,21 +62,25 @@ async <(T, U)>y
                                     "text": "U",
                                     "rawText": "U",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 12
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 13
                         },
                         "flags": 7,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 13
                     },
                     "operatorToken": {
                         "kind": 34883,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 14
                     },
@@ -82,18 +89,22 @@ async <(T, U)>y
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 15
                     },
                     "flags": 39,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -102,6 +113,7 @@ async <(T, U)>y
     "source": "async <(T, U)>y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -111,7 +123,7 @@ async <(T, U)>y
 
 ```javascript
 
-async  <  (T, U) >  y;
+async  < (T, U) > y;
 ```
 
 ### Diagnostics

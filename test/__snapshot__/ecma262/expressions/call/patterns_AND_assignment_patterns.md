@@ -22,6 +22,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,6 +43,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 8
                                         },
@@ -50,20 +52,24 @@ async({a=1}. {b=2}, {c=3} = {}))
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 10
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 10
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 10
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 6,
                             "end": 11
                         },
@@ -72,10 +78,12 @@ async({a=1}. {b=2}, {c=3} = {}))
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 12
                         },
                         "flags": 48,
+                        "transformFlags": 2,
                         "start": 6,
                         "end": 12
                     },
@@ -91,6 +99,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 15
                                     },
@@ -99,20 +108,24 @@ async({a=1}. {b=2}, {c=3} = {}))
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 17
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 17
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 17
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 12,
                         "end": 18
                     },
@@ -130,6 +143,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 22
                                         },
@@ -138,26 +152,31 @@ async({a=1}. {b=2}, {c=3} = {}))
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 24
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 21,
                                         "end": 24
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 24
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 19,
                             "end": 25
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 27
                         },
@@ -168,24 +187,29 @@ async({a=1}. {b=2}, {c=3} = {}))
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 29
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 27,
                             "end": 30
                         },
                         "flags": 32,
+                        "transformFlags": 128,
                         "start": 19,
                         "end": 30
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 0
             },
             "flags": 268435490,
+            "transformFlags": 1,
             "start": 0,
             "end": 31
         }
@@ -194,6 +218,7 @@ async({a=1}. {b=2}, {c=3} = {}))
     "source": "async({a=1}. {b=2}, {c=3} = {}))",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

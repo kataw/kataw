@@ -29,6 +29,7 @@ type A = {
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type A = {
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type A = {
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -61,6 +64,7 @@ type A = {
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 16
                             },
@@ -77,37 +81,45 @@ type A = {
                                             "text": "B",
                                             "rawText": "B",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 35
                                         },
                                         "typeParameters": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 35
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 55
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 55
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 55
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 57
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 57
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 57
         }
@@ -116,6 +128,7 @@ type A = {
     "source": "type A = {\n  ...( /* comment 1 */ B  /* comment 1 */  )\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 57
 }

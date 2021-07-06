@@ -22,6 +22,7 @@ if /* comment 1 */ (
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -30,6 +31,7 @@ if /* comment 1 */ (
                 "text": "x",
                 "rawText": "x",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 42
             },
@@ -39,16 +41,19 @@ if /* comment 1 */ (
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 75,
                     "end": 75
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 58,
                 "end": 76
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 76
         }
@@ -57,6 +62,7 @@ if /* comment 1 */ (
     "source": "if /* comment 1 */ (\n  /* comment 2 */\n  x/* comment 3 */)/* comment 4 */ {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 76
 }

@@ -23,14 +23,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 7
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         },
@@ -41,10 +44,12 @@
                 "text": "symbol",
                 "rawText": "symbol",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 8,
             "end": 15
         },
@@ -55,10 +60,12 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 19,
             "end": 21
         }
@@ -67,6 +74,7 @@
     "source": "(...{a}: symbol) => x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

@@ -27,6 +27,7 @@ await x;
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -35,6 +36,7 @@ await x;
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
@@ -48,6 +50,7 @@ await x;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 14
                             },
@@ -57,19 +60,23 @@ await x;
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 12,
                             "end": 18
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 18
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 19
             },
@@ -78,6 +85,7 @@ await x;
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         },
@@ -88,6 +96,7 @@ await x;
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 25
                 },
@@ -96,14 +105,17 @@ await x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 27
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 19,
             "end": 28
         }
@@ -112,6 +124,7 @@ await x;
     "source": "export const x = 1;\nawait x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

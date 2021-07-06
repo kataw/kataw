@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { Identifier } from './identifier-expr';
 import { PrivateIdentifier } from './private-identifier';
 import { OptionalChain } from './optional-chain';
@@ -23,6 +23,7 @@ export function createIndexExpressionChain(
     chain,
     expression,
     flags: NodeFlags.ExpressionNode | NodeFlags.IsMemberExpression,
+    transformFlags: TransformFlags.IndexExpression,
     start,
     end
   };

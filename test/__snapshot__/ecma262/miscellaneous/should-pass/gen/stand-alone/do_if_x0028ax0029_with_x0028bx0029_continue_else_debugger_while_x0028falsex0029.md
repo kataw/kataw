@@ -27,6 +27,7 @@ do if (a) with (b) continue; else debugger; while (false)
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -35,6 +36,7 @@ do if (a) with (b) continue; else debugger; while (false)
                 "ifKeyword": {
                     "kind": 37757019,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 5
                 },
@@ -43,6 +45,7 @@ do if (a) with (b) continue; else debugger; while (false)
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 8
                 },
@@ -51,6 +54,7 @@ do if (a) with (b) continue; else debugger; while (false)
                     "withKeyword": {
                         "kind": 37757029,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 14
                     },
@@ -59,6 +63,7 @@ do if (a) with (b) continue; else debugger; while (false)
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 17
                     },
@@ -67,21 +72,25 @@ do if (a) with (b) continue; else debugger; while (false)
                         "continueKeyword": {
                             "kind": 37757009,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 27
                         },
                         "label": null,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 28
                     },
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 28
                 },
                 "elseKeyword": {
                     "kind": 4194389,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 33
                 },
@@ -90,30 +99,36 @@ do if (a) with (b) continue; else debugger; while (false)
                     "debuggerKeyword": {
                         "kind": 37757010,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 33,
                         "end": 42
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 43
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 43
             },
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 43,
                 "end": 49
             },
             "expression": {
                 "kind": 205586437,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 51,
                 "end": 56
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 57
         }
@@ -122,6 +137,7 @@ do if (a) with (b) continue; else debugger; while (false)
     "source": "do if (a) with (b) continue; else debugger; while (false)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 57
 }

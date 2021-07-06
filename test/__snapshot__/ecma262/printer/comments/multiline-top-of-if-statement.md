@@ -25,6 +25,7 @@
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -38,6 +39,7 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
@@ -47,19 +49,23 @@
                             "text": 0,
                             "rawText": "0",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 12
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 6,
                         "end": 12
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 12
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         },
@@ -68,12 +74,14 @@
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 84
             },
             "expression": {
                 "kind": 24752947,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 86,
                 "end": 90
             },
@@ -89,25 +97,30 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 93,
                                 "end": 99
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 93,
                             "end": 100
                         }
                     ],
                     "flags": 17,
+                    "transformFlags": 0,
                     "start": 93,
                     "end": 100
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 91,
                 "end": 104
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 81,
+            "transformFlags": 0,
             "start": 13,
             "end": 104
         }
@@ -116,6 +129,7 @@
     "source": " const x = 0;\n\n  /* istanbul ignore if */ // debug case currently not triggered\n  if (true) {\n    x;\n  }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 104
 }

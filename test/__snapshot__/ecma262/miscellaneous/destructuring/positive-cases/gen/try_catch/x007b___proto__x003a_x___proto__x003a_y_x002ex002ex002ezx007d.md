@@ -27,6 +27,7 @@ try {} catch({ __proto__: x, __proto__: y, ...z}) {}
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,10 +37,12 @@ try {} catch({ __proto__: x, __proto__: y, ...z}) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 6
             },
@@ -48,6 +51,7 @@ try {} catch({ __proto__: x, __proto__: y, ...z}) {}
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
@@ -63,6 +67,7 @@ try {} catch({ __proto__: x, __proto__: y, ...z}) {}
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 24
                                 },
@@ -71,11 +76,13 @@ try {} catch({ __proto__: x, __proto__: y, ...z}) {}
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 27
                                 },
                                 "initializer": null,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 27
                             },
@@ -86,6 +93,7 @@ try {} catch({ __proto__: x, __proto__: y, ...z}) {}
                                     "text": "__proto__",
                                     "rawText": "__proto__",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 38
                                 },
@@ -94,11 +102,13 @@ try {} catch({ __proto__: x, __proto__: y, ...z}) {}
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 41
                                 },
                                 "initializer": null,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 41
                             },
@@ -107,6 +117,7 @@ try {} catch({ __proto__: x, __proto__: y, ...z}) {}
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 42,
                                     "end": 46
                                 },
@@ -115,6 +126,7 @@ try {} catch({ __proto__: x, __proto__: y, ...z}) {}
                                     "text": "z",
                                     "rawText": "z",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 46,
                                     "end": 47
                                 },
@@ -122,16 +134,19 @@ try {} catch({ __proto__: x, __proto__: y, ...z}) {}
                                 "type": null,
                                 "right": null,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 42,
                                 "end": 47
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 47
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 48
                 },
@@ -141,20 +156,24 @@ try {} catch({ __proto__: x, __proto__: y, ...z}) {}
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 51,
                         "end": 51
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 49,
                     "end": 52
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 52
             },
             "finallyKeyword": null,
             "finallyBlock": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 52
         }
@@ -163,6 +182,7 @@ try {} catch({ __proto__: x, __proto__: y, ...z}) {}
     "source": "try {} catch({ __proto__: x, __proto__: y, ...z}) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 52
 }

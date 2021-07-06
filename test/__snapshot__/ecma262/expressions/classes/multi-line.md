@@ -26,6 +26,7 @@ class C extends (
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -34,6 +35,7 @@ class C extends (
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -45,6 +47,7 @@ class C extends (
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -58,6 +61,7 @@ class C extends (
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 21
                                 },
@@ -66,20 +70,24 @@ class C extends (
                                     "text": "c",
                                     "rawText": "c",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 26
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 28
                         },
                         "flags": 15,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 28
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 28
                 },
@@ -87,14 +95,17 @@ class C extends (
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 30
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -103,6 +114,7 @@ class C extends (
     "source": "class C extends (\n  a,\n  c\n) {\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

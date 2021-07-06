@@ -21,6 +21,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -35,14 +36,17 @@
                     "text": "eval",
                     "rawText": "eval",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 19
                 },
                 "flags": 13,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 21
         },
@@ -53,10 +57,12 @@
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 21,
             "end": 36
         },
@@ -71,12 +77,14 @@
                         "text": "eval",
                         "rawText": "eval",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 38,
                         "end": 42
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 42,
                         "end": 44
                     },
@@ -85,18 +93,22 @@
                         "text": "arguments",
                         "rawText": "arguments",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 44,
                         "end": 54
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 36,
                     "end": 54
                 },
                 "flags": 36,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 55
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 36,
             "end": 56
         }
@@ -105,6 +117,7 @@
     "source": "\"use strict\"; (eval);\n\n\"use strict\"; (eval = arguments);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 56
 }

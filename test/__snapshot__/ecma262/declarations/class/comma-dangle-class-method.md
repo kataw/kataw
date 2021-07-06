@@ -22,6 +22,7 @@ class A { foo(a, b,) {} };
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class A { foo(a, b,) {} };
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -56,6 +58,7 @@ class A { foo(a, b,) {} };
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 13
                                 },
@@ -68,6 +71,7 @@ class A { foo(a, b,) {} };
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 15
                                         },
@@ -76,12 +80,14 @@ class A { foo(a, b,) {} };
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 18
                                         }
                                     ],
                                     "trailingComma": true,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 20
                                 },
@@ -93,37 +99,45 @@ class A { foo(a, b,) {} };
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 22
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 23
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 23
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 23
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 23
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 25,
             "end": 26
         }
@@ -132,6 +146,7 @@ class A { foo(a, b,) {} };
     "source": "class A { foo(a, b,) {} };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

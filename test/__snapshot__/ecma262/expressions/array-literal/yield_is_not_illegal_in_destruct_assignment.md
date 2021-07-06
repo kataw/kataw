@@ -22,12 +22,14 @@ function* g() {   [...{ x = yield }] = y   }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -36,6 +38,7 @@ function* g() {   [...{ x = yield }] = y   }
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 11
             },
@@ -45,6 +48,7 @@ function* g() {   [...{ x = yield }] = y   }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -68,6 +72,7 @@ function* g() {   [...{ x = yield }] = y   }
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 19,
                                                     "end": 22
                                                 },
@@ -83,6 +88,7 @@ function* g() {   [...{ x = yield }] = y   }
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 23,
                                                                     "end": 25
                                                                 },
@@ -91,6 +97,7 @@ function* g() {   [...{ x = yield }] = y   }
                                                                     "yieldKeyword": {
                                                                         "kind": 8454253,
                                                                         "flags": 64,
+                                                                        "transformFlags": 0,
                                                                         "start": 27,
                                                                         "end": 33
                                                                     },
@@ -98,40 +105,48 @@ function* g() {   [...{ x = yield }] = y   }
                                                                     "asteriskToken": null,
                                                                     "expression": null,
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 27,
                                                                     "end": 33
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 23,
                                                                 "end": 33
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 16,
+                                                        "transformFlags": 0,
                                                         "start": 23,
                                                         "end": 33
                                                     },
                                                     "flags": 48,
+                                                    "transformFlags": 8,
                                                     "start": 22,
                                                     "end": 35
                                                 },
                                                 "flags": 1073741856,
+                                                "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 35
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 35
                                     },
                                     "flags": 32,
+                                    "transformFlags": 8,
                                     "start": 15,
                                     "end": 36
                                 },
                                 "operatorToken": {
                                     "kind": 4125,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 38
                                 },
@@ -140,28 +155,34 @@ function* g() {   [...{ x = yield }] = y   }
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 40
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 15,
                                 "end": 40
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 40
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 40
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 44
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 44
         }
@@ -170,6 +191,7 @@ function* g() {   [...{ x = yield }] = y   }
     "source": "function* g() {   [...{ x = yield }] = y   }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 44
 }

@@ -48,6 +48,7 @@ type T = { [string]: Class<null> }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -56,6 +57,7 @@ type T = { [string]: Class<null> }
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -67,14 +69,17 @@ type T = { [string]: Class<null> }
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 9
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         },
@@ -85,6 +90,7 @@ type T = { [string]: Class<null> }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 18
             },
@@ -93,6 +99,7 @@ type T = { [string]: Class<null> }
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 20
             },
@@ -119,6 +126,7 @@ type T = { [string]: Class<null> }
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 28
                                 },
@@ -134,6 +142,7 @@ type T = { [string]: Class<null> }
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 29,
                                                 "end": 30
                                             },
@@ -145,21 +154,25 @@ type T = { [string]: Class<null> }
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 31,
                                                     "end": 37
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 31,
                                                 "end": 37
                                             },
                                             "right": null,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 37
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 38
                                 },
@@ -170,10 +183,12 @@ type T = { [string]: Class<null> }
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 39,
                                         "end": 43
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 43
                                 },
@@ -184,31 +199,38 @@ type T = { [string]: Class<null> }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 45,
                                         "end": 45
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 43,
                                     "end": 47
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 47
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 47
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 47
                 },
                 "flags": 20,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 49
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 11,
             "end": 49
         },
@@ -219,6 +241,7 @@ type T = { [string]: Class<null> }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 49,
                 "end": 59
             },
@@ -228,6 +251,7 @@ type T = { [string]: Class<null> }
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 59,
                 "end": 63
             },
@@ -243,6 +267,7 @@ type T = { [string]: Class<null> }
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 64,
                             "end": 65
                         },
@@ -258,6 +283,7 @@ type T = { [string]: Class<null> }
                                     "text": "Class",
                                     "rawText": "Class",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 66,
                                     "end": 72
                                 },
@@ -277,44 +303,53 @@ type T = { [string]: Class<null> }
                                                         "text": "A",
                                                         "rawText": "A",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 73,
                                                         "end": 74
                                                     },
                                                     "typeParameters": null,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 73,
                                                     "end": 74
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 73,
                                                 "end": 74
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 73,
                                         "end": 74
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 72,
                                     "end": 75
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 66,
                                 "end": 75
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 66,
                             "end": 75
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 64,
                         "end": 75
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 64,
                 "end": 75
             },
@@ -329,6 +364,7 @@ type T = { [string]: Class<null> }
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 81,
                                 "end": 90
                             },
@@ -337,6 +373,7 @@ type T = { [string]: Class<null> }
                                 "newKeyword": {
                                     "kind": 138477661,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 90,
                                     "end": 94
                                 },
@@ -345,6 +382,7 @@ type T = { [string]: Class<null> }
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 94,
                                     "end": 96
                                 },
@@ -353,23 +391,28 @@ type T = { [string]: Class<null> }
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 97,
                                     "end": 97
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 90,
                                 "end": 98
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 81,
                             "end": 99
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 81,
                     "end": 99
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 79,
                 "end": 107
             },
@@ -384,19 +427,23 @@ type T = { [string]: Class<null> }
                         "text": "A",
                         "rawText": "A",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 77,
                         "end": 79
                     },
                     "typeParameters": null,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 77,
                     "end": 79
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 77,
                 "end": 79
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 49,
             "end": 107
         },
@@ -407,6 +454,7 @@ type T = { [string]: Class<null> }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 107,
                 "end": 114
             },
@@ -415,6 +463,7 @@ type T = { [string]: Class<null> }
                 "text": "B",
                 "rawText": "B",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 114,
                 "end": 116
             },
@@ -441,6 +490,7 @@ type T = { [string]: Class<null> }
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 118,
                                     "end": 132
                                 },
@@ -456,6 +506,7 @@ type T = { [string]: Class<null> }
                                                 "text": "_",
                                                 "rawText": "_",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 133,
                                                 "end": 134
                                             },
@@ -467,21 +518,25 @@ type T = { [string]: Class<null> }
                                                 "type": {
                                                     "kind": 134234252,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 135,
                                                     "end": 139
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 135,
                                                 "end": 139
                                             },
                                             "right": null,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 133,
                                             "end": 139
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2080,
+                                    "transformFlags": 0,
                                     "start": 133,
                                     "end": 140
                                 },
@@ -493,31 +548,38 @@ type T = { [string]: Class<null> }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 142,
                                         "end": 142
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 140,
                                     "end": 144
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 132,
                                 "end": 144
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 118,
                             "end": 144
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 118,
                     "end": 144
                 },
                 "flags": 116,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 146
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 107,
             "end": 146
         },
@@ -528,6 +590,7 @@ type T = { [string]: Class<null> }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 146,
                 "end": 153
             },
@@ -536,6 +599,7 @@ type T = { [string]: Class<null> }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 153,
                 "end": 155
             },
@@ -547,6 +611,7 @@ type T = { [string]: Class<null> }
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 155,
                         "end": 163
                     },
@@ -555,11 +620,13 @@ type T = { [string]: Class<null> }
                         "text": "B",
                         "rawText": "B",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 163,
                         "end": 165
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 163,
                     "end": 165
                 },
@@ -582,6 +649,7 @@ type T = { [string]: Class<null> }
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 167,
                                     "end": 173
                                 },
@@ -597,6 +665,7 @@ type T = { [string]: Class<null> }
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 174,
                                                 "end": 175
                                             },
@@ -608,21 +677,25 @@ type T = { [string]: Class<null> }
                                                 "type": {
                                                     "kind": 134234347,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 176,
                                                     "end": 182
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 176,
                                                 "end": 182
                                             },
                                             "right": null,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 174,
                                             "end": 182
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 174,
                                     "end": 183
                                 },
@@ -633,10 +706,12 @@ type T = { [string]: Class<null> }
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 184,
                                         "end": 188
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 184,
                                     "end": 188
                                 },
@@ -647,31 +722,38 @@ type T = { [string]: Class<null> }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 190,
                                         "end": 190
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 188,
                                     "end": 192
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 173,
                                 "end": 192
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 167,
                             "end": 192
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 167,
                     "end": 192
                 },
                 "flags": 155,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 194
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 146,
             "end": 194
         },
@@ -681,6 +763,7 @@ type T = { [string]: Class<null> }
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 194,
                 "end": 200
             },
@@ -689,6 +772,7 @@ type T = { [string]: Class<null> }
                 "text": "T",
                 "rawText": "T",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 200,
                 "end": 202
             },
@@ -696,6 +780,7 @@ type T = { [string]: Class<null> }
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 202,
                 "end": 204
             },
@@ -714,6 +799,7 @@ type T = { [string]: Class<null> }
                             "key": {
                                 "kind": 134234347,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 208,
                                 "end": 214
                             },
@@ -728,6 +814,7 @@ type T = { [string]: Class<null> }
                                         "text": "Class",
                                         "rawText": "Class",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 216,
                                         "end": 222
                                     },
@@ -743,46 +830,56 @@ type T = { [string]: Class<null> }
                                                     "type": {
                                                         "kind": 138477575,
                                                         "flags": 2097216,
+                                                        "transformFlags": 0,
                                                         "start": 223,
                                                         "end": 227
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 223,
                                                     "end": 227
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 223,
                                             "end": 227
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 222,
                                         "end": 228
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 216,
                                     "end": 228
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 216,
                                 "end": 228
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 206,
                             "end": 228
                         }
                     ],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 204,
                     "end": 230
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 204,
                 "end": 230
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 194,
             "end": 230
         }
@@ -791,6 +888,7 @@ type T = { [string]: Class<null> }
     "source": "class A { }\n\nclass A {\n  foo(x:number):void { }\n}\n\nfunction foo(x: Class<A>): A {\n  return new x(); // OK\n}\n\nclass B {\n  constructor(_: any) { }\n}\n\nclass C extends B {\n  foo(x:string):void { }\n}\n\ntype T = { [string]: Class<null> }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 230
 }

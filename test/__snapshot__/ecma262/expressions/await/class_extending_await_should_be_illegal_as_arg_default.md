@@ -21,12 +21,14 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -36,6 +38,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -45,6 +48,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -71,6 +75,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                                 "text": "fail",
                                                 "rawText": "fail",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 24,
                                                 "end": 28
                                             },
@@ -82,6 +87,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                                 "classKeyword": {
                                                     "kind": 37822544,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 30,
                                                     "end": 36
                                                 },
@@ -90,6 +96,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                                     "text": "A",
                                                     "rawText": "A",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 36,
                                                     "end": 38
                                                 },
@@ -101,6 +108,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                                         "extendsKeyword": {
                                                             "kind": 4194391,
                                                             "flags": 80,
+                                                            "transformFlags": 0,
                                                             "start": 38,
                                                             "end": 46
                                                         },
@@ -109,6 +117,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                                             "awaitKeyword": {
                                                                 "kind": 82196,
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 46,
                                                                 "end": 52
                                                             },
@@ -117,15 +126,18 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                                                 "text": "foo",
                                                                 "rawText": "foo",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 52,
                                                                 "end": 56
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 46,
                                                             "end": 56
                                                         },
                                                         "typeParameter": null,
                                                         "flags": 16,
+                                                        "transformFlags": 0,
                                                         "start": 46,
                                                         "end": 56
                                                     },
@@ -133,24 +145,29 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                                         "kind": 303,
                                                         "elements": [],
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 58,
                                                         "end": 58
                                                     },
                                                     "flags": 38,
+                                                    "transformFlags": 0,
                                                     "start": 32,
                                                     "end": 59
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 30,
                                                 "end": 59
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 59
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 34,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 60
                                 },
@@ -158,6 +175,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 60,
                                     "end": 63
                                 },
@@ -166,28 +184,34 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                     "text": "fail",
                                     "rawText": "fail",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 63,
                                     "end": 68
                                 },
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 68
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 68
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 68
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 73
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 73
         }
@@ -196,6 +220,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
     "source": "async function f(){    (fail = class A extends await foo {}) => fail    }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 73
 }

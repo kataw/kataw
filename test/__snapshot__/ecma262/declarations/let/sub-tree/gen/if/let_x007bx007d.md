@@ -29,6 +29,7 @@ if (a) let
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -37,6 +38,7 @@ if (a) let
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 5
             },
@@ -47,16 +49,19 @@ if (a) let
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 10
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 10
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -66,10 +71,12 @@ if (a) let
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
             "flags": 17,
+            "transformFlags": 0,
             "start": 10,
             "end": 13
         }
@@ -78,6 +85,7 @@ if (a) let
     "source": "if (a) let\n{}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

@@ -44,10 +44,12 @@
                 "text": "\u0000",
                 "rawText": "\"\\x00\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         },
@@ -58,10 +60,12 @@
                 "text": "\u0012",
                 "rawText": "\"\\x12\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 8,
             "end": 17
         },
@@ -72,10 +76,12 @@
                 "text": "4",
                 "rawText": "\"\\x34\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 17,
             "end": 26
         },
@@ -86,10 +92,12 @@
                 "text": "V",
                 "rawText": "\"\\x56\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 33
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 26,
             "end": 35
         },
@@ -100,10 +108,12 @@
                 "text": "x",
                 "rawText": "\"\\x78\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 35,
             "end": 44
         },
@@ -114,10 +124,12 @@
                 "text": "",
                 "rawText": "\"\\x9a\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 44,
                 "end": 51
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 44,
             "end": 53
         },
@@ -128,10 +140,12 @@
                 "text": "«",
                 "rawText": "\"\\xAb\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 53,
                 "end": 60
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 53,
             "end": 62
         },
@@ -142,10 +156,12 @@
                 "text": "¼",
                 "rawText": "\"\\xBc\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 62,
                 "end": 69
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 62,
             "end": 71
         },
@@ -156,10 +172,12 @@
                 "text": "Í",
                 "rawText": "\"\\xCd\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 71,
                 "end": 78
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 71,
             "end": 80
         },
@@ -170,10 +188,12 @@
                 "text": "Þ",
                 "rawText": "\"\\xDe\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 80,
                 "end": 87
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 80,
             "end": 89
         },
@@ -184,10 +204,12 @@
                 "text": "ï",
                 "rawText": "\"\\xEf\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 89,
                 "end": 96
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 89,
             "end": 98
         },
@@ -198,10 +220,12 @@
                 "text": "ð",
                 "rawText": "\"\\xF0\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 98,
                 "end": 105
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 98,
             "end": 105
         }
@@ -210,6 +234,7 @@
     "source": "\"\\x00\"\n;\n\"\\x12\"\n;\n\"\\x34\"\n;\n\"\\x56\"\n;\n\"\\x78\"\n;\n\"\\x9a\"\n;\n\"\\xAb\"\n;\n\"\\xBc\"\n;\n\"\\xCd\"\n;\n\"\\xDe\"\n;\n\"\\xEf\"\n;\n\"\\xF0\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 105
 }

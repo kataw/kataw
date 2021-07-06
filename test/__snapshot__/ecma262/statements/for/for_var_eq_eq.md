@@ -39,6 +39,7 @@ for (var r == y in x );
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,6 +48,7 @@ for (var r == y in x );
                 "varKeyword": {
                     "kind": 37757002,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -60,21 +62,25 @@ for (var r == y in x );
                                 "text": "r",
                                 "rawText": "r",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 8,
                             "end": 10
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -86,12 +92,14 @@ for (var r == y in x );
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 34622,
                     "flags": 96,
+                    "transformFlags": 16,
                     "start": 10,
                     "end": 13
                 },
@@ -102,12 +110,14 @@ for (var r == y in x );
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 15
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 18
                     },
@@ -116,24 +126,29 @@ for (var r == y in x );
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 20
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 20
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 20
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 23
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -142,6 +157,7 @@ for (var r == y in x );
     "source": "for (var r == y in x );",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

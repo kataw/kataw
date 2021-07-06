@@ -20,11 +20,13 @@ break
             "breakKeyword": {
                 "kind": 37757005,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "label": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         }
@@ -33,6 +35,7 @@ break
     "source": "break",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 5
 }

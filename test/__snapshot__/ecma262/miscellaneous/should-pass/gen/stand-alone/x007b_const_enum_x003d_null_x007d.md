@@ -32,6 +32,7 @@
                         "lexicalKeyword": {
                             "kind": 37757004,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 7
                         },
@@ -45,6 +46,7 @@
                                         "text": "enum",
                                         "rawText": "enum",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 12
                                     },
@@ -52,28 +54,34 @@
                                     "initializer": {
                                         "kind": 138477575,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 19
                                     },
                                     "flags": 16,
+                                    "transformFlags": 128,
                                     "start": 7,
                                     "end": 19
                                 }
                             ],
                             "flags": 16777232,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 19
                         },
                         "flags": 33554448,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 20
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -82,6 +90,7 @@
     "source": "{ const enum = null; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

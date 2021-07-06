@@ -20,6 +20,7 @@ do let x; while (false)
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -30,10 +31,12 @@ do let x; while (false)
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 6
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 6
             },
@@ -43,10 +46,12 @@ do let x; while (false)
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -55,12 +60,14 @@ do let x; while (false)
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 15
             },
             "expression": {
                 "kind": 205586437,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 22
             },
@@ -71,14 +78,17 @@ do let x; while (false)
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 23
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 23
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 9,
             "end": 23
         }
@@ -87,6 +97,7 @@ do let x; while (false)
     "source": "do let x; while (false)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

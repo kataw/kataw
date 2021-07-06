@@ -65,6 +65,7 @@ function StatelessFunctionalComponent3(
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -74,6 +75,7 @@ function StatelessFunctionalComponent3(
                 "text": "StatelessFunctionalComponent",
                 "rawText": "StatelessFunctionalComponent",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 37
             },
@@ -91,6 +93,7 @@ function StatelessFunctionalComponent3(
                                     "text": "isActive",
                                     "rawText": "isActive",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 50
                                 },
@@ -99,6 +102,7 @@ function StatelessFunctionalComponent3(
                                     "text": "onFiltersUpdated",
                                     "rawText": "onFiltersUpdated",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 51,
                                     "end": 70
                                 },
@@ -107,6 +111,7 @@ function StatelessFunctionalComponent3(
                                     "text": "onSelect",
                                     "rawText": "onSelect",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 71,
                                     "end": 82
                                 },
@@ -115,6 +120,7 @@ function StatelessFunctionalComponent3(
                                     "text": "onSubmitAndDeselect",
                                     "rawText": "onSubmitAndDeselect",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 83,
                                     "end": 105
                                 },
@@ -123,6 +129,7 @@ function StatelessFunctionalComponent3(
                                     "text": "onCancel",
                                     "rawText": "onCancel",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 106,
                                     "end": 117
                                 },
@@ -131,6 +138,7 @@ function StatelessFunctionalComponent3(
                                     "text": "searchFilters",
                                     "rawText": "searchFilters",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 118,
                                     "end": 134
                                 },
@@ -139,6 +147,7 @@ function StatelessFunctionalComponent3(
                                     "text": "title",
                                     "rawText": "title",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 135,
                                     "end": 143
                                 },
@@ -147,22 +156,26 @@ function StatelessFunctionalComponent3(
                                     "text": "items",
                                     "rawText": "items",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 144,
                                     "end": 152
                                 }
                             ],
                             "trailingComma": true,
                             "flags": 33,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 153
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 38,
                         "end": 155
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 155
             },
@@ -179,24 +192,29 @@ function StatelessFunctionalComponent3(
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 158,
                                 "end": 162
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 158,
                             "end": 162
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 158,
                     "end": 162
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 156,
                 "end": 164
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 164
         },
@@ -207,6 +225,7 @@ function StatelessFunctionalComponent3(
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 164,
                 "end": 175
             },
@@ -216,6 +235,7 @@ function StatelessFunctionalComponent3(
                 "text": "StatelessFunctionalComponent2",
                 "rawText": "StatelessFunctionalComponent2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 175,
                 "end": 205
             },
@@ -239,6 +259,7 @@ function StatelessFunctionalComponent3(
                                             "text": "isActive",
                                             "rawText": "isActive",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 207,
                                             "end": 218
                                         },
@@ -247,10 +268,12 @@ function StatelessFunctionalComponent3(
                                         "right": {
                                             "kind": 24752947,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 220,
                                             "end": 225
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 207,
                                         "end": 225
                                     },
@@ -262,6 +285,7 @@ function StatelessFunctionalComponent3(
                                             "text": "onFiltersUpdated",
                                             "rawText": "onFiltersUpdated",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 226,
                                             "end": 245
                                         },
@@ -276,6 +300,7 @@ function StatelessFunctionalComponent3(
                                                 "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 249,
                                                 "end": 249
                                             },
@@ -283,20 +308,24 @@ function StatelessFunctionalComponent3(
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 250,
                                                 "end": 253
                                             },
                                             "contents": {
                                                 "kind": 138477575,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 253,
                                                 "end": 258
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 247,
                                             "end": 258
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 226,
                                         "end": 258
                                     },
@@ -308,6 +337,7 @@ function StatelessFunctionalComponent3(
                                             "text": "onSelect",
                                             "rawText": "onSelect",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 259,
                                             "end": 270
                                         },
@@ -322,6 +352,7 @@ function StatelessFunctionalComponent3(
                                                 "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 274,
                                                 "end": 274
                                             },
@@ -329,20 +360,24 @@ function StatelessFunctionalComponent3(
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 275,
                                                 "end": 278
                                             },
                                             "contents": {
                                                 "kind": 138477575,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 278,
                                                 "end": 283
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 272,
                                             "end": 283
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 259,
                                         "end": 283
                                     },
@@ -354,6 +389,7 @@ function StatelessFunctionalComponent3(
                                             "text": "onSubmitAndDeselect",
                                             "rawText": "onSubmitAndDeselect",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 284,
                                             "end": 306
                                         },
@@ -368,6 +404,7 @@ function StatelessFunctionalComponent3(
                                                 "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 310,
                                                 "end": 310
                                             },
@@ -375,20 +412,24 @@ function StatelessFunctionalComponent3(
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 311,
                                                 "end": 314
                                             },
                                             "contents": {
                                                 "kind": 138477575,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 314,
                                                 "end": 319
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 308,
                                             "end": 319
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 284,
                                         "end": 319
                                     },
@@ -400,6 +441,7 @@ function StatelessFunctionalComponent3(
                                             "text": "onCancel",
                                             "rawText": "onCancel",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 320,
                                             "end": 331
                                         },
@@ -414,6 +456,7 @@ function StatelessFunctionalComponent3(
                                                 "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 335,
                                                 "end": 335
                                             },
@@ -421,20 +464,24 @@ function StatelessFunctionalComponent3(
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 336,
                                                 "end": 339
                                             },
                                             "contents": {
                                                 "kind": 138477575,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 339,
                                                 "end": 344
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 333,
                                             "end": 344
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 320,
                                         "end": 344
                                     },
@@ -446,6 +493,7 @@ function StatelessFunctionalComponent3(
                                             "text": "searchFilters",
                                             "rawText": "searchFilters",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 345,
                                             "end": 361
                                         },
@@ -454,10 +502,12 @@ function StatelessFunctionalComponent3(
                                         "right": {
                                             "kind": 138477575,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 363,
                                             "end": 368
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 345,
                                         "end": 368
                                     },
@@ -469,6 +519,7 @@ function StatelessFunctionalComponent3(
                                             "text": "title",
                                             "rawText": "title",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 369,
                                             "end": 377
                                         },
@@ -479,10 +530,12 @@ function StatelessFunctionalComponent3(
                                             "text": "",
                                             "rawText": "''",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 379,
                                             "end": 382
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 369,
                                         "end": 382
                                     },
@@ -494,6 +547,7 @@ function StatelessFunctionalComponent3(
                                             "text": "items",
                                             "rawText": "items",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 383,
                                             "end": 391
                                         },
@@ -506,24 +560,29 @@ function StatelessFunctionalComponent3(
                                                 "elements": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 395,
                                                 "end": 395
                                             },
                                             "flags": 32,
+                                            "transformFlags": 8,
                                             "start": 393,
                                             "end": 396
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 383,
                                         "end": 396
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 33,
+                                "transformFlags": 0,
                                 "start": 207,
                                 "end": 397
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 206,
                             "end": 399
                         },
@@ -536,20 +595,24 @@ function StatelessFunctionalComponent3(
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 403,
                                 "end": 403
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 401,
                             "end": 404
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 206,
                         "end": 404
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 206,
                 "end": 404
             },
@@ -564,6 +627,7 @@ function StatelessFunctionalComponent3(
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 407,
                                 "end": 416
                             },
@@ -572,24 +636,29 @@ function StatelessFunctionalComponent3(
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 416,
                                 "end": 418
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 407,
                             "end": 419
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 407,
                     "end": 419
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 405,
                 "end": 421
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 164,
             "end": 421
         },
@@ -600,6 +669,7 @@ function StatelessFunctionalComponent3(
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 421,
                 "end": 431
             },
@@ -609,6 +679,7 @@ function StatelessFunctionalComponent3(
                 "text": "StatelessFunctionalComponent3",
                 "rawText": "StatelessFunctionalComponent3",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 431,
                 "end": 461
             },
@@ -629,6 +700,7 @@ function StatelessFunctionalComponent3(
                                         "text": "isActive",
                                         "rawText": "isActive",
                                         "flags": 97,
+                                        "transformFlags": 0,
                                         "start": 466,
                                         "end": 479
                                     },
@@ -640,6 +712,7 @@ function StatelessFunctionalComponent3(
                                             "text": "onFiltersUpdated",
                                             "rawText": "onFiltersUpdated",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 480,
                                             "end": 501
                                         },
@@ -654,6 +727,7 @@ function StatelessFunctionalComponent3(
                                                 "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 505,
                                                 "end": 505
                                             },
@@ -661,20 +735,24 @@ function StatelessFunctionalComponent3(
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 506,
                                                 "end": 509
                                             },
                                             "contents": {
                                                 "kind": 138477575,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 509,
                                                 "end": 514
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 503,
                                             "end": 514
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 480,
                                         "end": 514
                                     },
@@ -686,6 +764,7 @@ function StatelessFunctionalComponent3(
                                             "text": "onSelect",
                                             "rawText": "onSelect",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 515,
                                             "end": 528
                                         },
@@ -700,6 +779,7 @@ function StatelessFunctionalComponent3(
                                                 "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 532,
                                                 "end": 532
                                             },
@@ -707,20 +787,24 @@ function StatelessFunctionalComponent3(
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 533,
                                                 "end": 536
                                             },
                                             "contents": {
                                                 "kind": 138477575,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 536,
                                                 "end": 541
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 530,
                                             "end": 541
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 515,
                                         "end": 541
                                     },
@@ -732,6 +816,7 @@ function StatelessFunctionalComponent3(
                                             "text": "onSubmitAndDeselect",
                                             "rawText": "onSubmitAndDeselect",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 542,
                                             "end": 566
                                         },
@@ -746,6 +831,7 @@ function StatelessFunctionalComponent3(
                                                 "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 570,
                                                 "end": 570
                                             },
@@ -753,20 +839,24 @@ function StatelessFunctionalComponent3(
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 571,
                                                 "end": 574
                                             },
                                             "contents": {
                                                 "kind": 138477575,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 574,
                                                 "end": 579
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 568,
                                             "end": 579
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 542,
                                         "end": 579
                                     },
@@ -778,6 +868,7 @@ function StatelessFunctionalComponent3(
                                             "text": "onCancel",
                                             "rawText": "onCancel",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 580,
                                             "end": 593
                                         },
@@ -792,6 +883,7 @@ function StatelessFunctionalComponent3(
                                                 "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 597,
                                                 "end": 597
                                             },
@@ -799,20 +891,24 @@ function StatelessFunctionalComponent3(
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 598,
                                                 "end": 601
                                             },
                                             "contents": {
                                                 "kind": 138477575,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 601,
                                                 "end": 606
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 595,
                                             "end": 606
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 580,
                                         "end": 606
                                     },
@@ -824,6 +920,7 @@ function StatelessFunctionalComponent3(
                                             "text": "searchFilters",
                                             "rawText": "searchFilters",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 607,
                                             "end": 625
                                         },
@@ -832,10 +929,12 @@ function StatelessFunctionalComponent3(
                                         "right": {
                                             "kind": 138477575,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 627,
                                             "end": 632
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 607,
                                         "end": 632
                                     },
@@ -847,6 +946,7 @@ function StatelessFunctionalComponent3(
                                             "text": "title",
                                             "rawText": "title",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 633,
                                             "end": 643
                                         },
@@ -857,10 +957,12 @@ function StatelessFunctionalComponent3(
                                             "text": "",
                                             "rawText": "''",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 645,
                                             "end": 648
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 633,
                                         "end": 648
                                     },
@@ -872,6 +974,7 @@ function StatelessFunctionalComponent3(
                                             "text": "items",
                                             "rawText": "items",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 649,
                                             "end": 659
                                         },
@@ -884,24 +987,29 @@ function StatelessFunctionalComponent3(
                                                 "elements": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 663,
                                                 "end": 663
                                             },
                                             "flags": 32,
+                                            "transformFlags": 8,
                                             "start": 661,
                                             "end": 664
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 649,
                                         "end": 664
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 33,
+                                "transformFlags": 0,
                                 "start": 466,
                                 "end": 665
                             },
                             "flags": 33,
+                            "transformFlags": 0,
                             "start": 462,
                             "end": 669
                         },
@@ -920,36 +1028,43 @@ function StatelessFunctionalComponent3(
                                             "text": "isActive",
                                             "rawText": "isActive",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 673,
                                             "end": 686
                                         },
                                         "right": {
                                             "kind": 24752947,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 687,
                                             "end": 692
                                         },
                                         "flags": 33,
+                                        "transformFlags": 128,
                                         "start": 673,
                                         "end": 692
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 673,
                                 "end": 692
                             },
                             "flags": 49,
+                            "transformFlags": 8,
                             "start": 671,
                             "end": 696
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 462,
                         "end": 696
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 462,
                 "end": 696
             },
@@ -964,6 +1079,7 @@ function StatelessFunctionalComponent3(
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 700,
                                 "end": 709
                             },
@@ -972,24 +1088,29 @@ function StatelessFunctionalComponent3(
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 709,
                                 "end": 711
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 700,
                             "end": 712
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 700,
                     "end": 712
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 698,
                 "end": 714
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 421,
             "end": 714
         }
@@ -998,6 +1119,7 @@ function StatelessFunctionalComponent3(
     "source": "function StatelessFunctionalComponent({\n  isActive,\n  onFiltersUpdated,\n  onSelect,\n  onSubmitAndDeselect,\n  onCancel,\n  searchFilters,\n  title,\n  items,\n}) {\n  x\n}\n\n\nfunction StatelessFunctionalComponent2({\n  isActive = true,\n  onFiltersUpdated = () => null,\n  onSelect = () => null,\n  onSubmitAndDeselect = () => null,\n  onCancel = () => null,\n  searchFilters = null,\n  title = '',\n  items = [],\n} = {}) {\n  return x;\n}\n\nfunction StatelessFunctionalComponent3(\n  {\n    isActive,\n    onFiltersUpdated = () => null,\n    onSelect = () => null,\n    onSubmitAndDeselect = () => null,\n    onCancel = () => null,\n    searchFilters = null,\n    title = '',\n    items = [],\n  } = {\n    isActive: true\n  }\n) {\n  return x;\n}\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 715
 }

@@ -28,6 +28,7 @@ await (async () => {})()
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -40,6 +41,7 @@ await (async () => {})()
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 12
                             },
@@ -49,6 +51,7 @@ await (async () => {})()
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 14
                             },
@@ -56,6 +59,7 @@ await (async () => {})()
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 18
                             },
@@ -66,18 +70,22 @@ await (async () => {})()
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 20
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 21
                             },
                             "flags": 288,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 21
                         },
                         "flags": 5,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 22
                     },
@@ -86,18 +94,22 @@ await (async () => {})()
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 23
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 5,
                     "end": 24
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -106,6 +118,7 @@ await (async () => {})()
     "source": "await (async () => {})()",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

@@ -23,6 +23,7 @@ for /* comment */(;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -32,10 +33,12 @@ for /* comment */(;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 20
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         },
@@ -44,6 +47,7 @@ for /* comment */(;;);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 25
             },
@@ -53,10 +57,12 @@ for /* comment */(;;);
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 43,
                 "end": 44
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 20,
             "end": 44
         }
@@ -65,6 +71,7 @@ for /* comment */(;;);
     "source": "for // comment\n(;;);\n\nfor /* comment */(;;);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 44
 }

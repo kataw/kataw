@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 
 /**
  * PrivateIdentifier
@@ -14,6 +14,7 @@ export function createPrivateIdentifier(text: string, rawText: string, start: nu
     text,
     rawText,
     flags: NodeFlags.NoChildren | NodeFlags.ExpressionNode,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

@@ -21,6 +21,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -33,12 +34,14 @@
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 18
             },
@@ -49,12 +52,14 @@
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 27
                 },
                 "asteriskToken": {
                     "kind": 67143222,
                     "flags": 64,
+                    "transformFlags": 32,
                     "start": 27,
                     "end": 28
                 },
@@ -63,6 +68,7 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 30
                 },
@@ -72,6 +78,7 @@
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 31
                 },
@@ -82,19 +89,23 @@
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 34,
                         "end": 34
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 35
                 },
                 "returnType": null,
                 "flags": 272,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 35
         },
@@ -105,10 +116,12 @@
                 "text": "use strict",
                 "rawText": "'use strict'",
                 "flags": 4194401,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 49
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 35,
             "end": 50
         },
@@ -119,12 +132,14 @@
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 50,
                 "end": 54
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 54,
                 "end": 55
             },
@@ -135,6 +150,7 @@
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 55,
                     "end": 64
                 },
@@ -144,6 +160,7 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 64,
                     "end": 66
                 },
@@ -153,6 +170,7 @@
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 67,
                     "end": 67
                 },
@@ -163,19 +181,23 @@
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 70,
                         "end": 70
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 68,
                     "end": 71
                 },
                 "returnType": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 55,
                 "end": 71
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 50,
             "end": 71
         }
@@ -184,6 +206,7 @@
     "source": "'use strict'; bar: function* x() {}\n\n'use strict'; bar: function x() {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 71
 }

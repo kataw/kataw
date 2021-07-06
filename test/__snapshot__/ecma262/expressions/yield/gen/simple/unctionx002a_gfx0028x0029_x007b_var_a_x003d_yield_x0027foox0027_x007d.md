@@ -31,12 +31,14 @@ unction* gf() { var a = yield 'foo'; }
                     "text": "unction",
                     "rawText": "unction",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 7
                 },
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 7,
                     "end": 8
                 },
@@ -47,6 +49,7 @@ unction* gf() { var a = yield 'foo'; }
                         "text": "gf",
                         "rawText": "gf",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 11
                     },
@@ -55,18 +58,22 @@ unction* gf() { var a = yield 'foo'; }
                         "elements": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 12
                     },
                     "flags": 268435488,
+                    "transformFlags": 1,
                     "start": 8,
                     "end": 13
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         },
@@ -81,6 +88,7 @@ unction* gf() { var a = yield 'foo'; }
                         "varKeyword": {
                             "kind": 37757002,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 19
                         },
@@ -94,6 +102,7 @@ unction* gf() { var a = yield 'foo'; }
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 21
                                     },
@@ -103,19 +112,23 @@ unction* gf() { var a = yield 'foo'; }
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 29
                                     },
                                     "flags": 16,
+                                    "transformFlags": 128,
                                     "start": 19,
                                     "end": 29
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 29
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 29
                     },
@@ -126,19 +139,23 @@ unction* gf() { var a = yield 'foo'; }
                             "text": "foo",
                             "rawText": "'foo'",
                             "flags": 4194400,
+                            "transformFlags": 0,
                             "start": 29,
                             "end": 35
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 36
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 38
         }
@@ -147,6 +164,7 @@ unction* gf() { var a = yield 'foo'; }
     "source": "unction* gf() { var a = yield 'foo'; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }

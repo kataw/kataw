@@ -20,6 +20,7 @@ switch (x) { default: continue foo; }
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -28,6 +29,7 @@ switch (x) { default: continue foo; }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -39,12 +41,14 @@ switch (x) { default: continue foo; }
                         "defaultKeyword": {
                             "kind": 4194387,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 20
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 21
                         },
@@ -54,6 +58,7 @@ switch (x) { default: continue foo; }
                                 "continueKeyword": {
                                     "kind": 37757009,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 30
                                 },
@@ -62,24 +67,29 @@ switch (x) { default: continue foo; }
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 34
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 35
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 35
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 35
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 37
         }
@@ -88,6 +98,7 @@ switch (x) { default: continue foo; }
     "source": "switch (x) { default: continue foo; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }

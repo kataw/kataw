@@ -26,6 +26,7 @@
                     "parameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
@@ -33,6 +34,7 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 5
                 },
@@ -41,14 +43,17 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -57,11 +62,13 @@
             "returnKeyword": {
                 "kind": 37757022,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 12
             },
             "expression": null,
             "flags": 80,
+            "transformFlags": 256,
             "start": 5,
             "end": 12
         }
@@ -70,6 +77,7 @@
     "source": "() => return",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

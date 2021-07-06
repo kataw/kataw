@@ -20,6 +20,7 @@ let {...obj1,...obj2} = foo
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -38,6 +39,7 @@ let {...obj1,...obj2} = foo
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -46,6 +48,7 @@ let {...obj1,...obj2} = foo
                                             "text": "obj1",
                                             "rawText": "obj1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 12
                                         },
@@ -53,6 +56,7 @@ let {...obj1,...obj2} = foo
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 12
                                     },
@@ -61,6 +65,7 @@ let {...obj1,...obj2} = foo
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 16
                                         },
@@ -69,6 +74,7 @@ let {...obj1,...obj2} = foo
                                             "text": "obj2",
                                             "rawText": "obj2",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 20
                                         },
@@ -76,16 +82,19 @@ let {...obj1,...obj2} = foo
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 13,
                                         "end": 20
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 20
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 21
                         },
@@ -95,19 +104,23 @@ let {...obj1,...obj2} = foo
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 27
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 27
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 27
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -116,6 +129,7 @@ let {...obj1,...obj2} = foo
     "source": "let {...obj1,...obj2} = foo",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

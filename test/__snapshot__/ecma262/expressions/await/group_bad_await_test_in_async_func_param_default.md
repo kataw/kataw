@@ -21,12 +21,14 @@ async function f(x=(await)=y){}
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 14
             },
@@ -36,6 +38,7 @@ async function f(x=(await)=y){}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -51,6 +54,7 @@ async function f(x=(await)=y){}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 18
                         },
@@ -65,6 +69,7 @@ async function f(x=(await)=y){}
                                     "awaitKeyword": {
                                         "kind": 82196,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 25
                                     },
@@ -73,20 +78,24 @@ async function f(x=(await)=y){}
                                         "text": "",
                                         "rawText": "",
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 25
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 25
                                 },
                                 "flags": 19,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 26
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 27
                             },
@@ -95,20 +104,24 @@ async function f(x=(await)=y){}
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 28
                             },
                             "flags": 0,
+                            "transformFlags": 128,
                             "start": 19,
                             "end": 28
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 28
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 28
             },
@@ -119,15 +132,18 @@ async function f(x=(await)=y){}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 30
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 31
             },
             "returnType": null,
             "flags": 144,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -136,6 +152,7 @@ async function f(x=(await)=y){}
     "source": "async function f(x=(await)=y){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

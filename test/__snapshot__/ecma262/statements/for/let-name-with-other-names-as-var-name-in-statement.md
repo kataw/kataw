@@ -21,6 +21,7 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -29,6 +30,7 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
@@ -42,12 +44,14 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 10
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 8,
                             "end": 10
                         },
@@ -58,12 +62,14 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 13
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 11,
                             "end": 13
                         },
@@ -74,12 +80,14 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 16
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 14,
                             "end": 16
                         },
@@ -90,21 +98,25 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                                 "text": "d",
                                 "rawText": "d",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 19
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 17,
                             "end": 19
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 19
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 19
             },
@@ -121,6 +133,7 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 28
                             },
@@ -134,21 +147,25 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 28,
                                             "end": 32
                                         },
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
+                                        "transformFlags": 128,
                                         "start": 28,
                                         "end": 32
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 32
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 33
                         },
@@ -158,6 +175,7 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 37
                             },
@@ -171,21 +189,25 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                                             "text": "bar",
                                             "rawText": "bar",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 37,
                                             "end": 41
                                         },
                                         "type": null,
                                         "initializer": null,
                                         "flags": 16,
+                                        "transformFlags": 128,
                                         "start": 37,
                                         "end": 41
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 41
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 33,
                             "end": 42
                         },
@@ -200,6 +222,7 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                                         "varKeyword": {
                                             "kind": 37757002,
                                             "flags": 80,
+                                            "transformFlags": 0,
                                             "start": 44,
                                             "end": 48
                                         },
@@ -213,12 +236,14 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                                                         "text": "doo",
                                                         "rawText": "doo",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 48,
                                                         "end": 52
                                                     },
                                                     "type": null,
                                                     "initializer": null,
                                                     "flags": 16,
+                                                    "transformFlags": 128,
                                                     "start": 48,
                                                     "end": 52
                                                 },
@@ -229,12 +254,14 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 53,
                                                         "end": 55
                                                     },
                                                     "type": null,
                                                     "initializer": null,
                                                     "flags": 16,
+                                                    "transformFlags": 128,
                                                     "start": 53,
                                                     "end": 55
                                                 },
@@ -245,43 +272,52 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                                                         "text": "ee",
                                                         "rawText": "ee",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 56,
                                                         "end": 59
                                                     },
                                                     "type": null,
                                                     "initializer": null,
                                                     "flags": 16,
+                                                    "transformFlags": 128,
                                                     "start": 56,
                                                     "end": 59
                                                 }
                                             ],
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 48,
                                             "end": 59
                                         },
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 44,
                                         "end": 60
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 44,
                                 "end": 60
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 42,
                             "end": 62
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 62
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 64
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 64
         }
@@ -290,6 +326,7 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
     "source": "for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 65
 }

@@ -20,12 +20,14 @@ while (true) continue x;
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
             "expression": {
                 "kind": 24752947,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 11
             },
@@ -34,6 +36,7 @@ while (true) continue x;
                 "continueKeyword": {
                     "kind": 37757009,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 21
                 },
@@ -42,14 +45,17 @@ while (true) continue x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 23
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 24
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -58,6 +64,7 @@ while (true) continue x;
     "source": "while (true) continue x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

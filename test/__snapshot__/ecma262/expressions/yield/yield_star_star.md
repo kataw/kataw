@@ -24,12 +24,14 @@ yield ** x;
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 35897,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 8
                 },
@@ -38,14 +40,17 @@ yield ** x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         }
@@ -54,6 +59,7 @@ yield ** x;
     "source": "yield ** x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }
@@ -63,7 +69,7 @@ yield ** x;
 
 ```javascript
 
-yield **  x;
+yield ** x;
 ```
 
 ### Diagnostics

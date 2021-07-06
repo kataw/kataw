@@ -27,6 +27,7 @@ var a: (number: number) => number = (number) => { return 123; }
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,6 +41,7 @@ var a: (number: number) => number = (number) => { return 123; }
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -61,6 +63,7 @@ var a: (number: number) => number = (number) => { return 123; }
                                                 "text": "number",
                                                 "rawText": "number",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 8,
                                                 "end": 14
                                             },
@@ -72,26 +75,31 @@ var a: (number: number) => number = (number) => { return 123; }
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 15,
                                                     "end": 22
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 22
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 22
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 22
                                 },
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 26
                                 },
@@ -102,18 +110,22 @@ var a: (number: number) => number = (number) => { return 123; }
                                     "type": {
                                         "kind": 134234345,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 33
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 33
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 33
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 33
                         },
@@ -129,12 +141,14 @@ var a: (number: number) => number = (number) => { return 123; }
                                         "text": "number",
                                         "rawText": "number",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 37,
                                         "end": 43
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 44
                             },
@@ -142,6 +156,7 @@ var a: (number: number) => number = (number) => { return 123; }
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 44,
                                 "end": 47
                             },
@@ -156,6 +171,7 @@ var a: (number: number) => number = (number) => { return 123; }
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 49,
                                                 "end": 56
                                             },
@@ -164,36 +180,44 @@ var a: (number: number) => number = (number) => { return 123; }
                                                 "text": 123,
                                                 "rawText": "123",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 56,
                                                 "end": 60
                                             },
                                             "flags": 80,
+                                            "transformFlags": 256,
                                             "start": 49,
                                             "end": 61
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 49,
                                     "end": 61
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 47,
                                 "end": 63
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 35,
                             "end": 63
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 63
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 63
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 63
         }
@@ -202,6 +226,7 @@ var a: (number: number) => number = (number) => { return 123; }
     "source": "var a: (number: number) => number = (number) => { return 123; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 63
 }

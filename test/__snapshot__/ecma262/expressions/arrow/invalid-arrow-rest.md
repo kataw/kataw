@@ -23,14 +23,17 @@
                     "kind": 132,
                     "expressions": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 10
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -41,10 +44,12 @@
                 "text": "NaN",
                 "rawText": "NaN",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 14,
             "end": 17
         },
@@ -54,16 +59,19 @@
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 21,
             "end": 24
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 24,
             "end": 25
         }
@@ -72,6 +80,7 @@
     "source": "(...rest = ...NaN) => {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

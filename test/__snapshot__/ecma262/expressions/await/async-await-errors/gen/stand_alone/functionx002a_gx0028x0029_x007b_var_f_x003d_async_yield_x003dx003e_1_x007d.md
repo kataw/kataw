@@ -29,12 +29,14 @@ function* g() { var f = async yield => 1; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -43,6 +45,7 @@ function* g() { var f = async yield => 1; }
                 "text": "g",
                 "rawText": "g",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 11
             },
@@ -52,6 +55,7 @@ function* g() { var f = async yield => 1; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -67,6 +71,7 @@ function* g() { var f = async yield => 1; }
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 19
                             },
@@ -80,6 +85,7 @@ function* g() { var f = async yield => 1; }
                                             "text": "f",
                                             "rawText": "f",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 21
                                         },
@@ -89,6 +95,7 @@ function* g() { var f = async yield => 1; }
                                             "asyncKeyword": {
                                                 "kind": 82031,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 29
                                             },
@@ -98,6 +105,7 @@ function* g() { var f = async yield => 1; }
                                                 "text": "yield",
                                                 "rawText": "yield",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 29,
                                                 "end": 35
                                             },
@@ -105,6 +113,7 @@ function* g() { var f = async yield => 1; }
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 35,
                                                 "end": 38
                                             },
@@ -113,37 +122,45 @@ function* g() { var f = async yield => 1; }
                                                 "text": 1,
                                                 "rawText": "1",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 38,
                                                 "end": 40
                                             },
                                             "flags": 288,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 40
                                         },
                                         "flags": 16,
+                                        "transformFlags": 128,
                                         "start": 19,
                                         "end": 40
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 40
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 41
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 41
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 43
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 43
         }
@@ -152,6 +169,7 @@ function* g() { var f = async yield => 1; }
     "source": "function* g() { var f = async yield => 1; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 43
 }

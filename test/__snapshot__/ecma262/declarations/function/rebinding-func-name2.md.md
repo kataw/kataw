@@ -24,12 +24,14 @@ x=function f(){ var f }
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 2
                 },
@@ -39,6 +41,7 @@ x=function f(){ var f }
                     "functionKeyword": {
                         "kind": 37822554,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 10
                     },
@@ -48,6 +51,7 @@ x=function f(){ var f }
                         "text": "f",
                         "rawText": "f",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 12
                     },
@@ -57,6 +61,7 @@ x=function f(){ var f }
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 13
                     },
@@ -72,6 +77,7 @@ x=function f(){ var f }
                                     "varKeyword": {
                                         "kind": 37757002,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 19
                                     },
@@ -85,43 +91,52 @@ x=function f(){ var f }
                                                     "text": "f",
                                                     "rawText": "f",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 19,
                                                     "end": 21
                                                 },
                                                 "type": null,
                                                 "initializer": null,
                                                 "flags": 16,
+                                                "transformFlags": 128,
                                                 "start": 19,
                                                 "end": 21
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 21
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 21
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 21
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 23
                     },
                     "returnType": null,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 23
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -130,6 +145,7 @@ x=function f(){ var f }
     "source": "x=function f(){ var f }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

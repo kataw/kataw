@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { ExpressionNode } from '../expressions';
 import { FunctionDeclaration } from '../statements/function-declaration';
@@ -23,6 +23,7 @@ export function createExportDefault(
     defaultKeyword,
     declaration,
     flags: NodeFlags.IsStatement,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

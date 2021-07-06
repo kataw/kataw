@@ -27,6 +27,7 @@ const {[a]: c} = v
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -49,10 +50,12 @@ const {[a]: c} = v
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 8,
                                                 "end": 9
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 10
                                         },
@@ -61,21 +64,25 @@ const {[a]: c} = v
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 13
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 13
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 13
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 14
                         },
@@ -85,19 +92,23 @@ const {[a]: c} = v
                             "text": "v",
                             "rawText": "v",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 18
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 5,
                         "end": 18
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 18
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -106,6 +117,7 @@ const {[a]: c} = v
     "source": "const {[a]: c} = v",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

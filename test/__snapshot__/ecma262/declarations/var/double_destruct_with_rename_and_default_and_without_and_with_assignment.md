@@ -40,6 +40,7 @@ var {x:y=z}, {a:b=c} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -60,6 +61,7 @@ var {x:y=z}, {a:b=c} = obj;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 6
                                         },
@@ -68,6 +70,7 @@ var {x:y=z}, {a:b=c} = obj;
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 8
                                         },
@@ -76,26 +79,31 @@ var {x:y=z}, {a:b=c} = obj;
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 10
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 10
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 10
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 11
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 11
                     },
@@ -113,6 +121,7 @@ var {x:y=z}, {a:b=c} = obj;
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 15
                                         },
@@ -121,6 +130,7 @@ var {x:y=z}, {a:b=c} = obj;
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 17
                                         },
@@ -129,20 +139,24 @@ var {x:y=z}, {a:b=c} = obj;
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 19
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 19
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 19
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 20
                         },
@@ -152,19 +166,23 @@ var {x:y=z}, {a:b=c} = obj;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 26
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 12,
                         "end": 26
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -173,6 +191,7 @@ var {x:y=z}, {a:b=c} = obj;
     "source": "var {x:y=z}, {a:b=c} = obj;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

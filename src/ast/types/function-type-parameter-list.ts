@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { FunctionTypeParameter } from './function-type-parameter';
 
 export interface FunctionTypeParameterList extends SyntaxNode {
@@ -17,6 +17,7 @@ export function createFunctionTypeParameterList(
     parameters,
     trailingComma,
     flags: NodeFlags.IsTypeNode,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

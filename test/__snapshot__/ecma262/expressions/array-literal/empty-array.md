@@ -31,14 +31,17 @@
                     "elements": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 0,
                 "end": 2
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 2
         }
@@ -47,6 +50,7 @@
     "source": "[]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 2
 }

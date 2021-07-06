@@ -90,6 +90,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 6
                                 },
@@ -98,10 +99,12 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 7,
                                     "end": 9
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 2,
                                 "end": 9
                             },
@@ -112,6 +115,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 14
                                 },
@@ -123,6 +127,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 18
                                     },
@@ -132,6 +137,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1056,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 20
                                     },
@@ -143,36 +149,44 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 22
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 23
                                     },
                                     "flags": 1056,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 23
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 23
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 23
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 24
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         },
@@ -193,6 +207,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 34
                                 },
@@ -201,10 +216,12 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 37
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 30,
                                 "end": 37
                             },
@@ -216,6 +233,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "setKeyword": {
                                     "kind": 16499,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 42
                                 },
@@ -226,6 +244,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 42,
                                         "end": 46
                                     },
@@ -238,12 +257,14 @@ x = {y: {z: 1}}?.y?.z;
                                                 "text": "v",
                                                 "rawText": "v",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 47,
                                                 "end": 48
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 608,
+                                        "transformFlags": 0,
                                         "start": 47,
                                         "end": 49
                                     },
@@ -255,36 +276,44 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 51,
                                             "end": 51
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 49,
                                         "end": 52
                                     },
                                     "flags": 544,
+                                    "transformFlags": 0,
                                     "start": 46,
                                     "end": 52
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 52
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 30,
                         "end": 52
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 29,
                     "end": 53
                 },
                 "flags": 26,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 54
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 26,
             "end": 55
         },
@@ -305,6 +334,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": "foo",
                                     "rawText": "\"foo\"",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 59,
                                     "end": 65
                                 },
@@ -313,10 +343,12 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 66,
                                     "end": 68
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 59,
                                 "end": 68
                             },
@@ -327,6 +359,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 69,
                                     "end": 73
                                 },
@@ -338,6 +371,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": "foo",
                                         "rawText": "\"foo\"",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 73,
                                         "end": 79
                                     },
@@ -347,6 +381,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1056,
+                                        "transformFlags": 0,
                                         "start": 80,
                                         "end": 81
                                     },
@@ -358,36 +393,44 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 83,
                                             "end": 83
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 81,
                                         "end": 84
                                     },
                                     "flags": 1056,
+                                    "transformFlags": 0,
                                     "start": 79,
                                     "end": 84
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 69,
                                 "end": 84
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 59,
                         "end": 84
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 58,
                     "end": 85
                 },
                 "flags": 55,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 86
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 55,
             "end": 87
         },
@@ -408,6 +451,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": "foo",
                                     "rawText": "\"foo\"",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 91,
                                     "end": 96
                                 },
@@ -416,10 +460,12 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 97,
                                     "end": 99
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 91,
                                 "end": 99
                             },
@@ -431,6 +477,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "setKeyword": {
                                     "kind": 16499,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 100,
                                     "end": 104
                                 },
@@ -441,6 +488,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": "foo",
                                         "rawText": "\"foo\"",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 104,
                                         "end": 110
                                     },
@@ -453,12 +501,14 @@ x = {y: {z: 1}}?.y?.z;
                                                 "text": "v",
                                                 "rawText": "v",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 111,
                                                 "end": 112
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 608,
+                                        "transformFlags": 0,
                                         "start": 111,
                                         "end": 113
                                     },
@@ -470,36 +520,44 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 115,
                                             "end": 115
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 113,
                                         "end": 116
                                     },
                                     "flags": 544,
+                                    "transformFlags": 0,
                                     "start": 110,
                                     "end": 116
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 100,
                                 "end": 116
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 91,
                         "end": 116
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 90,
                     "end": 117
                 },
                 "flags": 87,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 118
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 87,
             "end": 119
         },
@@ -520,6 +578,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 123,
                                     "end": 124
                                 },
@@ -528,10 +587,12 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 125,
                                     "end": 127
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 123,
                                 "end": 127
                             },
@@ -542,6 +603,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 128,
                                     "end": 132
                                 },
@@ -553,6 +615,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 132,
                                         "end": 134
                                     },
@@ -562,6 +625,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1056,
+                                        "transformFlags": 0,
                                         "start": 135,
                                         "end": 136
                                     },
@@ -573,36 +637,44 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 138,
                                             "end": 138
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 136,
                                         "end": 139
                                     },
                                     "flags": 1056,
+                                    "transformFlags": 0,
                                     "start": 134,
                                     "end": 139
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 128,
                                 "end": 139
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 123,
                         "end": 139
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 122,
                     "end": 140
                 },
                 "flags": 119,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 141
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 119,
             "end": 142
         },
@@ -623,6 +695,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 146,
                                     "end": 147
                                 },
@@ -631,10 +704,12 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 148,
                                     "end": 150
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 146,
                                 "end": 150
                             },
@@ -646,6 +721,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "setKeyword": {
                                     "kind": 16499,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 151,
                                     "end": 155
                                 },
@@ -656,6 +732,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 155,
                                         "end": 157
                                     },
@@ -668,12 +745,14 @@ x = {y: {z: 1}}?.y?.z;
                                                 "text": "v",
                                                 "rawText": "v",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 158,
                                                 "end": 159
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 608,
+                                        "transformFlags": 0,
                                         "start": 158,
                                         "end": 160
                                     },
@@ -685,36 +764,44 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 162,
                                             "end": 162
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 160,
                                         "end": 163
                                     },
                                     "flags": 544,
+                                    "transformFlags": 0,
                                     "start": 157,
                                     "end": 163
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 151,
                                 "end": 163
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 146,
                         "end": 163
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 145,
                     "end": 164
                 },
                 "flags": 142,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 165
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 142,
             "end": 166
         },
@@ -734,6 +821,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 170,
                                     "end": 173
                                 },
@@ -745,6 +833,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 173,
                                         "end": 177
                                     },
@@ -754,6 +843,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1056,
+                                        "transformFlags": 0,
                                         "start": 178,
                                         "end": 179
                                     },
@@ -765,18 +855,22 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 181,
                                             "end": 181
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 179,
                                         "end": 182
                                     },
                                     "flags": 1056,
+                                    "transformFlags": 0,
                                     "start": 177,
                                     "end": 182
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 170,
                                 "end": 182
                             },
@@ -787,6 +881,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 183,
                                     "end": 187
                                 },
@@ -798,6 +893,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 187,
                                         "end": 191
                                     },
@@ -807,6 +903,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1056,
+                                        "transformFlags": 0,
                                         "start": 192,
                                         "end": 193
                                     },
@@ -818,36 +915,44 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 195,
                                             "end": 195
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 193,
                                         "end": 196
                                     },
                                     "flags": 1056,
+                                    "transformFlags": 0,
                                     "start": 191,
                                     "end": 196
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 183,
                                 "end": 196
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 170,
                         "end": 196
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 169,
                     "end": 197
                 },
                 "flags": 166,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 198
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 166,
             "end": 199
         },
@@ -868,6 +973,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "setKeyword": {
                                     "kind": 16499,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 203,
                                     "end": 206
                                 },
@@ -878,6 +984,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 206,
                                         "end": 210
                                     },
@@ -890,12 +997,14 @@ x = {y: {z: 1}}?.y?.z;
                                                 "text": "_",
                                                 "rawText": "_",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 211,
                                                 "end": 212
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 608,
+                                        "transformFlags": 0,
                                         "start": 211,
                                         "end": 213
                                     },
@@ -907,18 +1016,22 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 215,
                                             "end": 215
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 213,
                                         "end": 216
                                     },
                                     "flags": 544,
+                                    "transformFlags": 0,
                                     "start": 210,
                                     "end": 216
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 203,
                                 "end": 216
                             },
@@ -930,6 +1043,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "setKeyword": {
                                     "kind": 16499,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 217,
                                     "end": 221
                                 },
@@ -940,6 +1054,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 221,
                                         "end": 225
                                     },
@@ -952,12 +1067,14 @@ x = {y: {z: 1}}?.y?.z;
                                                 "text": "v",
                                                 "rawText": "v",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 226,
                                                 "end": 227
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 608,
+                                        "transformFlags": 0,
                                         "start": 226,
                                         "end": 228
                                     },
@@ -969,36 +1086,44 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 230,
                                             "end": 230
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 228,
                                         "end": 231
                                     },
                                     "flags": 544,
+                                    "transformFlags": 0,
                                     "start": 225,
                                     "end": 231
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 217,
                                 "end": 231
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 203,
                         "end": 231
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 202,
                     "end": 232
                 },
                 "flags": 199,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 233
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 199,
             "end": 234
         },
@@ -1011,12 +1136,14 @@ x = {y: {z: 1}}?.y?.z;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 234,
                     "end": 237
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 237,
                     "end": 239
                 },
@@ -1030,6 +1157,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 241,
                                 "end": 242
                             },
@@ -1038,16 +1166,19 @@ x = {y: {z: 1}}?.y?.z;
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 243,
                                     "end": 247
                                 },
                                 "argument": {
                                     "kind": 138477575,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 247,
                                     "end": 251
                                 },
                                 "flags": 1073741856,
+                                "transformFlags": 0,
                                 "start": 243,
                                 "end": 251
                             },
@@ -1056,24 +1187,29 @@ x = {y: {z: 1}}?.y?.z;
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 252,
                                 "end": 254
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 241,
                         "end": 254
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 239,
                     "end": 255
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 234,
                 "end": 255
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 234,
             "end": 255
         },
@@ -1086,12 +1222,14 @@ x = {y: {z: 1}}?.y?.z;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 256,
                     "end": 259
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 259,
                     "end": 261
                 },
@@ -1105,6 +1243,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 263,
                                 "end": 264
                             },
@@ -1113,6 +1252,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 265,
                                     "end": 269
                                 },
@@ -1125,6 +1265,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "parameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 270,
                                         "end": 270
                                     },
@@ -1132,6 +1273,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 271,
                                         "end": 273
                                     },
@@ -1142,18 +1284,22 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 274,
                                             "end": 274
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 273,
                                         "end": 275
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 269,
                                     "end": 275
                                 },
                                 "flags": 1073741856,
+                                "transformFlags": 0,
                                 "start": 265,
                                 "end": 275
                             },
@@ -1162,24 +1308,29 @@ x = {y: {z: 1}}?.y?.z;
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 276,
                                 "end": 278
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 263,
                         "end": 278
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 261,
                     "end": 279
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 256,
                 "end": 279
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 256,
             "end": 280
         },
@@ -1192,12 +1343,14 @@ x = {y: {z: 1}}?.y?.z;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 280,
                     "end": 283
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 283,
                     "end": 285
                 },
@@ -1211,6 +1364,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 287,
                                 "end": 288
                             },
@@ -1219,6 +1373,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 289,
                                     "end": 293
                                 },
@@ -1235,6 +1390,7 @@ x = {y: {z: 1}}?.y?.z;
                                                 "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 295,
                                                 "end": 295
                                             },
@@ -1242,6 +1398,7 @@ x = {y: {z: 1}}?.y?.z;
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 296,
                                                 "end": 298
                                             },
@@ -1252,18 +1409,22 @@ x = {y: {z: 1}}?.y?.z;
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 299,
                                                     "end": 299
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 298,
                                                 "end": 300
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 294,
                                             "end": 300
                                         },
                                         "flags": 293,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 301
                                     },
@@ -1272,14 +1433,17 @@ x = {y: {z: 1}}?.y?.z;
                                         "elements": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 302,
                                         "end": 302
                                     },
                                     "flags": 268435488,
+                                    "transformFlags": 1,
                                     "start": 293,
                                     "end": 303
                                 },
                                 "flags": 1073741856,
+                                "transformFlags": 0,
                                 "start": 289,
                                 "end": 303
                             },
@@ -1288,24 +1452,29 @@ x = {y: {z: 1}}?.y?.z;
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 304,
                                 "end": 306
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 287,
                         "end": 306
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 285,
                     "end": 307
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 280,
                 "end": 307
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 280,
             "end": 308
         },
@@ -1318,12 +1487,14 @@ x = {y: {z: 1}}?.y?.z;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 308,
                     "end": 311
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 311,
                     "end": 313
                 },
@@ -1337,6 +1508,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 315,
                                 "end": 316
                             },
@@ -1345,6 +1517,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 317,
                                     "end": 321
                                 },
@@ -1366,6 +1539,7 @@ x = {y: {z: 1}}?.y?.z;
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 322,
                                                         "end": 323
                                                     },
@@ -1375,6 +1549,7 @@ x = {y: {z: 1}}?.y?.z;
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 324,
                                                         "end": 325
                                                     },
@@ -1386,32 +1561,39 @@ x = {y: {z: 1}}?.y?.z;
                                                             "directives": [],
                                                             "statements": [],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 327,
                                                             "end": 327
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 325,
                                                         "end": 328
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 323,
                                                     "end": 328
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 322,
                                                 "end": 328
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 322,
                                         "end": 328
                                     },
                                     "flags": 48,
+                                    "transformFlags": 8,
                                     "start": 321,
                                     "end": 329
                                 },
                                 "flags": 1073741856,
+                                "transformFlags": 0,
                                 "start": 317,
                                 "end": 329
                             },
@@ -1420,24 +1602,29 @@ x = {y: {z: 1}}?.y?.z;
                                 "text": "c",
                                 "rawText": "c",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 330,
                                 "end": 332
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 315,
                         "end": 332
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 313,
                     "end": 333
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 308,
                 "end": 333
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 308,
             "end": 334
         },
@@ -1450,12 +1637,14 @@ x = {y: {z: 1}}?.y?.z;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 334,
                     "end": 337
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 337,
                     "end": 339
                 },
@@ -1464,6 +1653,7 @@ x = {y: {z: 1}}?.y?.z;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 346,
                         "end": 348
                     },
@@ -1480,6 +1670,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 341,
                                         "end": 342
                                     },
@@ -1488,20 +1679,24 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 343,
                                         "end": 345
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 341,
                                     "end": 345
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 341,
                             "end": 345
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 339,
                         "end": 346
                     },
@@ -1515,26 +1710,32 @@ x = {y: {z: 1}}?.y?.z;
                                 "text": "y",
                                 "rawText": "'y'",
                                 "flags": 4194400,
+                                "transformFlags": 0,
                                 "start": 349,
                                 "end": 352
                             },
                             "flags": 536870944,
+                            "transformFlags": 4,
                             "start": 348,
                             "end": 352
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 348,
                         "end": 353
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 339,
                     "end": 353
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 334,
                 "end": 353
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 334,
             "end": 354
         },
@@ -1547,12 +1748,14 @@ x = {y: {z: 1}}?.y?.z;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 354,
                     "end": 357
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 357,
                     "end": 359
                 },
@@ -1561,6 +1764,7 @@ x = {y: {z: 1}}?.y?.z;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 374,
                         "end": 376
                     },
@@ -1569,6 +1773,7 @@ x = {y: {z: 1}}?.y?.z;
                         "chainToken": {
                             "kind": 393240,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 371,
                             "end": 373
                         },
@@ -1585,6 +1790,7 @@ x = {y: {z: 1}}?.y?.z;
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 361,
                                             "end": 362
                                         },
@@ -1601,6 +1807,7 @@ x = {y: {z: 1}}?.y?.z;
                                                             "text": "z",
                                                             "rawText": "z",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 365,
                                                             "end": 366
                                                         },
@@ -1609,34 +1816,41 @@ x = {y: {z: 1}}?.y?.z;
                                                             "text": 1,
                                                             "rawText": "1",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 367,
                                                             "end": 369
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 128,
                                                         "start": 365,
                                                         "end": 369
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 365,
                                                 "end": 369
                                             },
                                             "flags": 48,
+                                            "transformFlags": 8,
                                             "start": 363,
                                             "end": 370
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 361,
                                         "end": 370
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 361,
                                 "end": 370
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 359,
                             "end": 371
                         },
@@ -1650,18 +1864,22 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 373,
                                     "end": 374
                                 },
                                 "flags": 536870944,
+                                "transformFlags": 2,
                                 "start": 373,
                                 "end": 374
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 373,
                             "end": 374
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 359,
                         "end": 374
                     },
@@ -1675,26 +1893,32 @@ x = {y: {z: 1}}?.y?.z;
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 376,
                                 "end": 377
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 376,
                             "end": 377
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 376,
                         "end": 377
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 359,
                     "end": 377
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 354,
                 "end": 377
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 354,
             "end": 378
         },
@@ -1707,12 +1931,14 @@ x = {y: {z: 1}}?.y?.z;
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 378,
                     "end": 381
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 381,
                     "end": 383
                 },
@@ -1721,6 +1947,7 @@ x = {y: {z: 1}}?.y?.z;
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 398,
                         "end": 400
                     },
@@ -1729,6 +1956,7 @@ x = {y: {z: 1}}?.y?.z;
                         "chainToken": {
                             "kind": 393240,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 395,
                             "end": 397
                         },
@@ -1745,6 +1973,7 @@ x = {y: {z: 1}}?.y?.z;
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 385,
                                             "end": 386
                                         },
@@ -1761,6 +1990,7 @@ x = {y: {z: 1}}?.y?.z;
                                                             "text": "z",
                                                             "rawText": "z",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 389,
                                                             "end": 390
                                                         },
@@ -1769,34 +1999,41 @@ x = {y: {z: 1}}?.y?.z;
                                                             "text": 1,
                                                             "rawText": "1",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 391,
                                                             "end": 393
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 128,
                                                         "start": 389,
                                                         "end": 393
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 389,
                                                 "end": 393
                                             },
                                             "flags": 48,
+                                            "transformFlags": 8,
                                             "start": 387,
                                             "end": 394
                                         },
                                         "flags": 32,
+                                        "transformFlags": 128,
                                         "start": 385,
                                         "end": 394
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 385,
                                 "end": 394
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 383,
                             "end": 395
                         },
@@ -1810,18 +2047,22 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 397,
                                     "end": 398
                                 },
                                 "flags": 536870944,
+                                "transformFlags": 2,
                                 "start": 397,
                                 "end": 398
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 397,
                             "end": 398
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 383,
                         "end": 398
                     },
@@ -1835,26 +2076,32 @@ x = {y: {z: 1}}?.y?.z;
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 400,
                                 "end": 401
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 400,
                             "end": 401
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 400,
                         "end": 401
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 383,
                     "end": 401
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 378,
                 "end": 401
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 378,
             "end": 402
         },
@@ -1875,6 +2122,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 406,
                                     "end": 410
                                 },
@@ -1883,10 +2131,12 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 411,
                                     "end": 413
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 406,
                                 "end": 413
                             },
@@ -1897,6 +2147,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 414,
                                     "end": 418
                                 },
@@ -1908,6 +2159,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": "foo",
                                         "rawText": "\"foo\"",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 418,
                                         "end": 424
                                     },
@@ -1917,6 +2169,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1056,
+                                        "transformFlags": 0,
                                         "start": 425,
                                         "end": 426
                                     },
@@ -1928,36 +2181,44 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 428,
                                             "end": 428
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 426,
                                         "end": 429
                                     },
                                     "flags": 1056,
+                                    "transformFlags": 0,
                                     "start": 424,
                                     "end": 429
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 414,
                                 "end": 429
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 406,
                         "end": 429
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 405,
                     "end": 430
                 },
                 "flags": 402,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 431
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 402,
             "end": 432
         },
@@ -1978,6 +2239,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 436,
                                     "end": 440
                                 },
@@ -1986,10 +2248,12 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 441,
                                     "end": 443
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 436,
                                 "end": 443
                             },
@@ -2001,6 +2265,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "setKeyword": {
                                     "kind": 16499,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 444,
                                     "end": 448
                                 },
@@ -2011,6 +2276,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": "foo",
                                         "rawText": "\"foo\"",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 448,
                                         "end": 454
                                     },
@@ -2023,12 +2289,14 @@ x = {y: {z: 1}}?.y?.z;
                                                 "text": "v",
                                                 "rawText": "v",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 455,
                                                 "end": 456
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 608,
+                                        "transformFlags": 0,
                                         "start": 455,
                                         "end": 457
                                     },
@@ -2040,36 +2308,44 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 459,
                                             "end": 459
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 457,
                                         "end": 460
                                     },
                                     "flags": 544,
+                                    "transformFlags": 0,
                                     "start": 454,
                                     "end": 460
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 444,
                                 "end": 460
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 436,
                         "end": 460
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 435,
                     "end": 461
                 },
                 "flags": 432,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 462
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 432,
             "end": 463
         },
@@ -2095,6 +2371,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": "get",
                                         "rawText": "get",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 467,
                                         "end": 471
                                     },
@@ -2104,6 +2381,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 472,
                                         "end": 473
                                     },
@@ -2115,36 +2393,44 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 474,
                                             "end": 474
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 473,
                                         "end": 475
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 471,
                                     "end": 475
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 467,
                                 "end": 475
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 467,
                         "end": 475
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 466,
                     "end": 477
                 },
                 "flags": 463,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 478
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 463,
             "end": 479
         },
@@ -2165,6 +2451,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": "set",
                                     "rawText": "set",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 483,
                                     "end": 487
                                 },
@@ -2173,28 +2460,34 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 0,
                                     "rawText": "0",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 489,
                                     "end": 491
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 483,
                                 "end": 491
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 483,
                         "end": 491
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 482,
                     "end": 493
                 },
                 "flags": 479,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 494
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 479,
             "end": 495
         },
@@ -2215,6 +2508,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": "if",
                                     "rawText": "if",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 499,
                                     "end": 502
                                 },
@@ -2223,28 +2517,34 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 4,
                                     "rawText": "4",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 503,
                                     "end": 505
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 499,
                                 "end": 505
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 499,
                         "end": 505
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 498,
                     "end": 507
                 },
                 "flags": 495,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 508
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 495,
             "end": 509
         },
@@ -2262,6 +2562,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
+                                    "transformFlags": 0,
                                     "start": 513,
                                     "end": 519
                                 },
@@ -2275,6 +2576,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": 0,
                                         "rawText": "0",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 519,
                                         "end": 521
                                     },
@@ -2284,6 +2586,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 288,
+                                        "transformFlags": 0,
                                         "start": 522,
                                         "end": 523
                                     },
@@ -2295,36 +2598,44 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 524,
                                             "end": 524
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 523,
                                         "end": 525
                                     },
                                     "flags": 288,
+                                    "transformFlags": 0,
                                     "start": 521,
                                     "end": 525
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 513,
                                 "end": 525
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 513,
                         "end": 525
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 512,
                     "end": 527
                 },
                 "flags": 509,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 528
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 509,
             "end": 529
         },
@@ -2345,6 +2656,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": "interface",
                                     "rawText": "interface",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 533,
                                     "end": 543
                                 },
@@ -2353,28 +2665,34 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 5,
                                     "rawText": "5",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 544,
                                     "end": 546
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 533,
                                 "end": 546
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 533,
                         "end": 546
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 532,
                     "end": 548
                 },
                 "flags": 529,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 549
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 529,
             "end": 550
         },
@@ -2392,6 +2710,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
+                                    "transformFlags": 0,
                                     "start": 554,
                                     "end": 560
                                 },
@@ -2405,6 +2724,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": "set",
                                         "rawText": "set",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 560,
                                         "end": 564
                                     },
@@ -2414,6 +2734,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 288,
+                                        "transformFlags": 0,
                                         "start": 565,
                                         "end": 566
                                     },
@@ -2425,36 +2746,44 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 567,
                                             "end": 567
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 566,
                                         "end": 568
                                     },
                                     "flags": 288,
+                                    "transformFlags": 0,
                                     "start": 564,
                                     "end": 568
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 554,
                                 "end": 568
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 554,
                         "end": 568
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 553,
                     "end": 570
                 },
                 "flags": 550,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 571
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 550,
             "end": 572
         },
@@ -2475,6 +2804,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": "async",
                                     "rawText": "async",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 576,
                                     "end": 582
                                 },
@@ -2483,28 +2813,34 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 0,
                                     "rawText": "0",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 584,
                                     "end": 586
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 576,
                                 "end": 586
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 576,
                         "end": 586
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 575,
                     "end": 588
                 },
                 "flags": 572,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 589
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 572,
             "end": 590
         },
@@ -2515,10 +2851,12 @@ x = {y: {z: 1}}?.y?.z;
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 590,
                 "end": 604
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 590,
             "end": 605
         },
@@ -2537,6 +2875,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
+                                    "transformFlags": 32,
                                     "start": 608,
                                     "end": 610
                                 },
@@ -2549,6 +2888,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": "async",
                                         "rawText": "async",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 610,
                                         "end": 615
                                     },
@@ -2558,6 +2898,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 160,
+                                        "transformFlags": 0,
                                         "start": 616,
                                         "end": 617
                                     },
@@ -2569,36 +2910,44 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 618,
                                             "end": 618
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 617,
                                         "end": 619
                                     },
                                     "flags": 160,
+                                    "transformFlags": 0,
                                     "start": 615,
                                     "end": 619
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 608,
                                 "end": 619
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 608,
                         "end": 619
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 607,
                     "end": 621
                 },
                 "flags": 605,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 622
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 605,
             "end": 623
         },
@@ -2609,10 +2958,12 @@ x = {y: {z: 1}}?.y?.z;
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 623,
                 "end": 636
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 623,
             "end": 637
         },
@@ -2632,6 +2983,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 640,
                                     "end": 644
                                 },
@@ -2643,6 +2995,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 644,
                                         "end": 646
                                     },
@@ -2652,6 +3005,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1056,
+                                        "transformFlags": 0,
                                         "start": 647,
                                         "end": 648
                                     },
@@ -2663,36 +3017,44 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 650,
                                             "end": 650
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 648,
                                         "end": 651
                                     },
                                     "flags": 1056,
+                                    "transformFlags": 0,
                                     "start": 646,
                                     "end": 651
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 640,
                                 "end": 651
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 640,
                         "end": 651
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 639,
                     "end": 653
                 },
                 "flags": 637,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 654
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 637,
             "end": 655
         },
@@ -2703,10 +3065,12 @@ x = {y: {z: 1}}?.y?.z;
                 "text": "use strict",
                 "rawText": "\"use strict\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 655,
                 "end": 668
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 655,
             "end": 669
         },
@@ -2727,6 +3091,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 672,
                                     "end": 676
                                 },
@@ -2735,10 +3100,12 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 677,
                                     "end": 679
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 672,
                                 "end": 679
                             },
@@ -2750,6 +3117,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "setKeyword": {
                                     "kind": 16499,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 680,
                                     "end": 684
                                 },
@@ -2760,6 +3128,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": "bar",
                                         "rawText": "bar",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 684,
                                         "end": 688
                                     },
@@ -2772,12 +3141,14 @@ x = {y: {z: 1}}?.y?.z;
                                                 "text": "v",
                                                 "rawText": "v",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 689,
                                                 "end": 690
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 608,
+                                        "transformFlags": 0,
                                         "start": 689,
                                         "end": 691
                                     },
@@ -2789,36 +3160,44 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 693,
                                             "end": 693
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 691,
                                         "end": 694
                                     },
                                     "flags": 544,
+                                    "transformFlags": 0,
                                     "start": 688,
                                     "end": 694
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 680,
                                 "end": 694
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 672,
                         "end": 694
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 671,
                     "end": 696
                 },
                 "flags": 669,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 697
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 669,
             "end": 698
         },
@@ -2839,6 +3218,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 702,
                                     "end": 704
                                 },
@@ -2847,10 +3227,12 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 705,
                                     "end": 707
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 702,
                                 "end": 707
                             },
@@ -2862,6 +3244,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "setKeyword": {
                                     "kind": 16499,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 708,
                                     "end": 712
                                 },
@@ -2872,6 +3255,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 712,
                                         "end": 714
                                     },
@@ -2884,12 +3268,14 @@ x = {y: {z: 1}}?.y?.z;
                                                 "text": "v",
                                                 "rawText": "v",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 715,
                                                 "end": 716
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 608,
+                                        "transformFlags": 0,
                                         "start": 715,
                                         "end": 717
                                     },
@@ -2901,36 +3287,44 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 719,
                                             "end": 719
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 717,
                                         "end": 720
                                     },
                                     "flags": 544,
+                                    "transformFlags": 0,
                                     "start": 714,
                                     "end": 720
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 708,
                                 "end": 720
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 702,
                         "end": 720
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 701,
                     "end": 722
                 },
                 "flags": 698,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 723
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 698,
             "end": 724
         },
@@ -2951,6 +3345,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": "get",
                                     "rawText": "get",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 728,
                                     "end": 732
                                 },
@@ -2959,10 +3354,12 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 733,
                                     "end": 735
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 728,
                                 "end": 735
                             },
@@ -2973,6 +3370,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 736,
                                     "end": 740
                                 },
@@ -2984,6 +3382,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 740,
                                         "end": 744
                                     },
@@ -2993,6 +3392,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 1056,
+                                        "transformFlags": 0,
                                         "start": 745,
                                         "end": 746
                                     },
@@ -3004,36 +3404,44 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 748,
                                             "end": 748
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 746,
                                         "end": 749
                                     },
                                     "flags": 1056,
+                                    "transformFlags": 0,
                                     "start": 744,
                                     "end": 749
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 736,
                                 "end": 749
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 728,
                         "end": 749
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 727,
                     "end": 751
                 },
                 "flags": 724,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 752
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 724,
             "end": 753
         },
@@ -3054,6 +3462,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": "set",
                                     "rawText": "set",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 757,
                                     "end": 761
                                 },
@@ -3062,10 +3471,12 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 762,
                                     "end": 764
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 757,
                                 "end": 764
                             },
@@ -3077,6 +3488,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "setKeyword": {
                                     "kind": 16499,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 765,
                                     "end": 769
                                 },
@@ -3087,6 +3499,7 @@ x = {y: {z: 1}}?.y?.z;
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 769,
                                         "end": 773
                                     },
@@ -3099,12 +3512,14 @@ x = {y: {z: 1}}?.y?.z;
                                                 "text": "_",
                                                 "rawText": "_",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 774,
                                                 "end": 775
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 608,
+                                        "transformFlags": 0,
                                         "start": 774,
                                         "end": 776
                                     },
@@ -3116,36 +3531,44 @@ x = {y: {z: 1}}?.y?.z;
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 778,
                                             "end": 778
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 776,
                                         "end": 779
                                     },
                                     "flags": 544,
+                                    "transformFlags": 0,
                                     "start": 773,
                                     "end": 779
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 765,
                                 "end": 779
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 757,
                         "end": 779
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 756,
                     "end": 781
                 },
                 "flags": 753,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 782
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 753,
             "end": 783
         },
@@ -3166,6 +3589,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 787,
                                     "end": 789
                                 },
@@ -3174,10 +3598,12 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 790,
                                     "end": 792
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 787,
                                 "end": 792
                             },
@@ -3189,6 +3615,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 2,
                                     "rawText": "2",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 793,
                                     "end": 795
                                 },
@@ -3197,28 +3624,34 @@ x = {y: {z: 1}}?.y?.z;
                                     "text": 2,
                                     "rawText": "2",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 796,
                                     "end": 798
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 793,
                                 "end": 798
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 787,
                         "end": 798
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 786,
                     "end": 800
                 },
                 "flags": 783,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 801
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 783,
             "end": 802
         }
@@ -3227,6 +3660,7 @@ x = {y: {z: 1}}?.y?.z;
     "source": "({ foo: 1, get foo() {}});\n\n({ foo: 1, set foo(v) {}});\n\n({ \"foo\": 1, get \"foo\"() {}});\n\n({\"foo\": 1, set \"foo\"(v) {}});\n\n({1: 1, get 1() {}});\n\n({1: 1, set 1(v) {}});\n\n({get foo() {}, get foo() {}});\n\n({set foo(_) {}, set foo(v) {}});\n\nx = {a, ...null, b}:\n\nx = {a, ...()=>{}, b};\n\nx = {a, ...(()=>{})(), b};\n\nx = {a, ...{b() {}}, c};\n\nx = {y: 1}?.['y'];\n\nx = {y: {z: 1}}?.y?.z;\n\nx = {y: {z: 1}}?.y?.z;\n\n({ foo: 1, get \"foo\"() {}});\n\n({ foo: 1, set \"foo\"(v) {}});\n\n({ get(){} });\n\n({ set : 0 });\n\n({ if: 4 });\n\n({ async 0(){} });\n\n({ interface: 5 });\n\n({ async set(){} });\n\n({ async : 0 });\n\n\"use strict\"; ({ *async(){} });\n\"use strict\"; ({ get 1() {} });\n\"use strict\"; ({ foo: 1, set bar(v) {} });\n\n({ 1: 1, set 2(v) {} });\n\n({ get: 1, get foo() {} });\n\n({ set: 1, set foo(_) {} });\n\n({ 1: 1, 2: 2 });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 802
 }

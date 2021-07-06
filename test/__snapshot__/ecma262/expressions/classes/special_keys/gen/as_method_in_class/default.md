@@ -29,6 +29,7 @@ class x {default(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class x {default(){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -63,6 +65,7 @@ class x {default(){}}
                                     "text": "default",
                                     "rawText": "default",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 16
                                 },
@@ -72,6 +75,7 @@ class x {default(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 18
                                 },
@@ -83,31 +87,38 @@ class x {default(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 19
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 20
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 20
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 20
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 20
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -116,6 +127,7 @@ class x {default(){}}
     "source": "class x {default(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

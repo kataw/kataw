@@ -29,12 +29,14 @@
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 2
                             },
                             "operatorToken": {
                                 "kind": 67143222,
                                 "flags": 96,
+                                "transformFlags": 32,
                                 "start": 2,
                                 "end": 4
                             },
@@ -43,24 +45,29 @@
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 6
                             },
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 6
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 6
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         }
@@ -69,6 +76,7 @@
     "source": "[a * 1]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }
@@ -78,7 +86,7 @@
 
 ```javascript
 
-[a *  1];
+[a * 1];
 ```
 
 ### Diagnostics

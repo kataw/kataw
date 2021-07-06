@@ -32,6 +32,7 @@ function f() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -41,6 +42,7 @@ function f() {
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -50,6 +52,7 @@ function f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -63,6 +66,7 @@ function f() {
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 97,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 29
                         }
@@ -73,6 +77,7 @@ function f() {
                             "doKeyword": {
                                 "kind": 4202580,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 35
                             },
@@ -85,12 +90,14 @@ function f() {
                                         "text": "",
                                         "rawText": "",
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 35,
                                         "end": 35
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 35,
                                         "end": 37
                                     },
@@ -99,14 +106,17 @@ function f() {
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 37,
                                         "end": 39
                                     },
                                     "flags": 0,
+                                    "transformFlags": 128,
                                     "start": 35,
                                     "end": 39
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 39
                             },
@@ -116,24 +126,29 @@ function f() {
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 39
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 30,
                             "end": 39
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 39
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 41
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 41
         }
@@ -142,6 +157,7 @@ function f() {
     "source": "function f() {\n  \"use strict\";\n  do = x\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }

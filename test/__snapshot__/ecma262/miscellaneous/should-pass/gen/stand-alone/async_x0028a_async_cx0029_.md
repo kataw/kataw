@@ -29,6 +29,7 @@ async (a, async, c);
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -40,6 +41,7 @@ async (a, async, c);
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 8
                     },
@@ -48,6 +50,7 @@ async (a, async, c);
                         "text": "async",
                         "rawText": "async",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 15
                     },
@@ -56,22 +59,26 @@ async (a, async, c);
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 18
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 0
             },
             "flags": 268435488,
+            "transformFlags": 1,
             "start": 0,
             "end": 19
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 19,
             "end": 20
         }
@@ -80,6 +87,7 @@ async (a, async, c);
     "source": "async (a, async, c);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

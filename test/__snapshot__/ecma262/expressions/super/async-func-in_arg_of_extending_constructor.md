@@ -22,6 +22,7 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -41,6 +43,7 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
                     "extendsKeyword": {
                         "kind": 4194391,
                         "flags": 80,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 15
                     },
@@ -49,11 +52,13 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
                         "text": "y",
                         "rawText": "y",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
                     "typeParameter": null,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -76,6 +81,7 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 31
                                 },
@@ -85,6 +91,7 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 33
                                 },
@@ -100,6 +107,7 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
                                                 "returnKeyword": {
                                                     "kind": 37757022,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 34,
                                                     "end": 41
                                                 },
@@ -108,12 +116,14 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
                                                     "asyncKeyword": {
                                                         "kind": 82031,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 41,
                                                         "end": 47
                                                     },
                                                     "functionKeyword": {
                                                         "kind": 37822554,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 47,
                                                         "end": 56
                                                     },
@@ -131,6 +141,7 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
                                                                     "text": "a",
                                                                     "rawText": "a",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 57,
                                                                     "end": 58
                                                                 },
@@ -141,6 +152,7 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
                                                                     "member": {
                                                                         "kind": 4259935,
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 59,
                                                                         "end": 64
                                                                     },
@@ -149,20 +161,24 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
                                                                         "text": "foo",
                                                                         "rawText": "foo",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 65,
                                                                         "end": 68
                                                                     },
                                                                     "flags": 536870944,
+                                                                    "transformFlags": 4,
                                                                     "start": 59,
                                                                     "end": 69
                                                                 },
                                                                 "flags": 34,
+                                                                "transformFlags": 0,
                                                                 "start": 57,
                                                                 "end": 69
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 34,
+                                                        "transformFlags": 0,
                                                         "start": 57,
                                                         "end": 69
                                                     },
@@ -173,49 +189,60 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
                                                             "directives": [],
                                                             "statements": [],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 72,
                                                             "end": 72
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 70,
                                                         "end": 73
                                                     },
                                                     "returnType": null,
                                                     "flags": 160,
+                                                    "transformFlags": 0,
                                                     "start": 41,
                                                     "end": 73
                                                 },
                                                 "flags": 80,
+                                                "transformFlags": 256,
                                                 "start": 34,
                                                 "end": 74
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 74
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 76
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 31,
                                 "end": 76
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 76
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 76
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 77
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 77
         }
@@ -224,6 +251,7 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
     "source": "class x extends y { constructor(){ return async function(a=super[foo]) {}; }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 77
 }

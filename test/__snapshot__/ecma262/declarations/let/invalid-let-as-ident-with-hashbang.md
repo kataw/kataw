@@ -21,6 +21,7 @@ let x = ;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -34,6 +35,7 @@ let x = ;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -43,19 +45,23 @@ let x = ;
                             "text": "",
                             "rawText": "",
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 7
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 7
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 7
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -66,6 +72,7 @@ let x = ;
                 "operandToken": {
                     "kind": 65584,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 12
                 },
@@ -74,14 +81,17 @@ let x = ;
                     "text": "hashbang",
                     "rawText": "hashbang",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 21
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 21
         }
@@ -90,6 +100,7 @@ let x = ;
     "source": "let x = ;\n#! hashbang",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

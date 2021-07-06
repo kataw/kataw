@@ -31,14 +31,17 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 1
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 1
         },
@@ -47,6 +50,7 @@
             "continueKeyword": {
                 "kind": 37757009,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 9
             },
@@ -55,10 +59,12 @@
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1,
             "end": 9
         },
@@ -69,10 +75,12 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 13
         }
@@ -81,6 +89,7 @@
     "source": "(continue = x)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

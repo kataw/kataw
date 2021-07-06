@@ -32,16 +32,19 @@
                         "text": 1,
                         "rawText": "1",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 2
                     },
                     "flags": 0,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 3
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 5
                 },
@@ -50,14 +53,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         }
@@ -66,6 +72,7 @@
     "source": "(1) = x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }

@@ -36,23 +36,28 @@
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 2
                             },
                             "flags": 1,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 2
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 2
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 2
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 2
         },
@@ -63,10 +68,12 @@
                 "text": "string",
                 "rawText": "string",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 4,
             "end": 11
         }
@@ -75,6 +82,7 @@
     "source": "{( : string",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

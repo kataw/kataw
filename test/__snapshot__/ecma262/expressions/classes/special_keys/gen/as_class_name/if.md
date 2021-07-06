@@ -29,6 +29,7 @@ class if {}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class if {}
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 5
             },
@@ -48,14 +50,17 @@ class if {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 5
                 },
                 "flags": 5,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 5
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -64,6 +69,7 @@ class if {}
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 8
             },
@@ -74,10 +80,12 @@ class if {}
                     "properties": [],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 10
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 8,
                 "end": 11
             },
@@ -88,16 +96,19 @@ class if {}
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 11
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 5,
             "end": 11
         }
@@ -106,6 +117,7 @@ class if {}
     "source": "class if {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

@@ -39,6 +39,7 @@ const foo = bar, zoo = boo
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -52,6 +53,7 @@ const foo = bar, zoo = boo
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 9
                         },
@@ -61,10 +63,12 @@ const foo = bar, zoo = boo
                             "text": "bar",
                             "rawText": "bar",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 15
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 5,
                         "end": 15
                     },
@@ -75,6 +79,7 @@ const foo = bar, zoo = boo
                             "text": "zoo",
                             "rawText": "zoo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 20
                         },
@@ -84,19 +89,23 @@ const foo = bar, zoo = boo
                             "text": "boo",
                             "rawText": "boo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 26
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 16,
                         "end": 26
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 26
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -105,6 +114,7 @@ const foo = bar, zoo = boo
     "source": "const foo = bar, zoo = boo",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

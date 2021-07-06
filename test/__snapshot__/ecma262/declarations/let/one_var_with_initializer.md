@@ -20,6 +20,7 @@ let [foo=a] = arr;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ let [foo=a] = arr;
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -51,20 +53,24 @@ let [foo=a] = arr;
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 10
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 10
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 10
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 11
                         },
@@ -74,19 +80,23 @@ let [foo=a] = arr;
                             "text": "arr",
                             "rawText": "arr",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 17
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 17
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 17
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -95,6 +105,7 @@ let [foo=a] = arr;
     "source": "let [foo=a] = arr;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { ElementList } from './element-list';
 
 export interface ArrayLiteral extends SyntaxNode {
@@ -15,6 +15,7 @@ export function createArrayLiteral(
     kind: SyntaxKind.ArrayLiteral,
     elementList,
     flags,
+    transformFlags: TransformFlags.ArrayOrObjectLiteral,
     start,
     end
   };

@@ -31,12 +31,14 @@ yield * \n { yield: 12 }
                     "text": "yield",
                     "rawText": "yield",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 67143222,
                     "flags": 96,
+                    "transformFlags": 32,
                     "start": 5,
                     "end": 7
                 },
@@ -45,14 +47,17 @@ yield * \n { yield: 12 }
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 7
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         },
@@ -63,10 +68,12 @@ yield * \n { yield: 12 }
                 "text": "n",
                 "rawText": "n",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 9,
             "end": 10
         },
@@ -82,12 +89,14 @@ yield * \n { yield: 12 }
                             "text": "yield",
                             "rawText": "yield",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 18
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 19
                         },
@@ -98,23 +107,28 @@ yield * \n { yield: 12 }
                                 "text": 12,
                                 "rawText": "12",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 22
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 22
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 22
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 24
         }
@@ -123,6 +137,7 @@ yield * \n { yield: 12 }
     "source": "yield * \\n { yield: 12 }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

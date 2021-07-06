@@ -34,6 +34,7 @@ var f = {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,6 +48,7 @@ var f = {
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -63,6 +65,7 @@ var f = {
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 15
                                         },
@@ -76,10 +79,12 @@ var f = {
                                                     "text": "d",
                                                     "rawText": "'d'",
                                                     "flags": 4194400,
+                                                    "transformFlags": 0,
                                                     "start": 17,
                                                     "end": 20
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 21
                                             },
@@ -89,6 +94,7 @@ var f = {
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1057,
+                                                "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 23
                                             },
@@ -104,6 +110,7 @@ var f = {
                                                             "returnKeyword": {
                                                                 "kind": 37757022,
                                                                 "flags": 80,
+                                                                "transformFlags": 0,
                                                                 "start": 25,
                                                                 "end": 32
                                                             },
@@ -112,27 +119,33 @@ var f = {
                                                                 "text": "foo",
                                                                 "rawText": "'foo'",
                                                                 "flags": 4194400,
+                                                                "transformFlags": 0,
                                                                 "start": 32,
                                                                 "end": 38
                                                             },
                                                             "flags": 80,
+                                                            "transformFlags": 256,
                                                             "start": 25,
                                                             "end": 39
                                                         }
                                                     ],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 25,
                                                     "end": 39
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 41
                                             },
                                             "flags": 1057,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 41
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 41
                                     },
@@ -144,6 +157,7 @@ var f = {
                                         "setKeyword": {
                                             "kind": 16499,
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 42,
                                             "end": 48
                                         },
@@ -156,10 +170,12 @@ var f = {
                                                     "text": "d",
                                                     "rawText": "'d'",
                                                     "flags": 4194400,
+                                                    "transformFlags": 0,
                                                     "start": 50,
                                                     "end": 53
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 48,
                                                 "end": 54
                                             },
@@ -175,6 +191,7 @@ var f = {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 55,
                                                             "end": 56
                                                         },
@@ -186,21 +203,25 @@ var f = {
                                                             "type": {
                                                                 "kind": 134234345,
                                                                 "flags": 2097216,
+                                                                "transformFlags": 0,
                                                                 "start": 57,
                                                                 "end": 64
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 57,
                                                             "end": 64
                                                         },
                                                         "right": null,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 55,
                                                         "end": 64
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 545,
+                                                "transformFlags": 0,
                                                 "start": 55,
                                                 "end": 65
                                             },
@@ -212,18 +233,22 @@ var f = {
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 67,
                                                     "end": 67
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 65,
                                                 "end": 68
                                             },
                                             "flags": 545,
+                                            "transformFlags": 0,
                                             "start": 54,
                                             "end": 68
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 42,
                                         "end": 68
                                     },
@@ -235,6 +260,7 @@ var f = {
                                         "setKeyword": {
                                             "kind": 16499,
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 69,
                                             "end": 75
                                         },
@@ -245,6 +271,7 @@ var f = {
                                                 "text": "stringLiteral",
                                                 "rawText": "\"stringLiteral\"",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 75,
                                                 "end": 91
                                             },
@@ -260,6 +287,7 @@ var f = {
                                                             "text": "x",
                                                             "rawText": "x",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 92,
                                                             "end": 93
                                                         },
@@ -271,21 +299,25 @@ var f = {
                                                             "type": {
                                                                 "kind": 134234345,
                                                                 "flags": 2097216,
+                                                                "transformFlags": 0,
                                                                 "start": 94,
                                                                 "end": 101
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 94,
                                                             "end": 101
                                                         },
                                                         "right": null,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 92,
                                                         "end": 101
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 545,
+                                                "transformFlags": 0,
                                                 "start": 92,
                                                 "end": 102
                                             },
@@ -297,18 +329,22 @@ var f = {
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 104,
                                                     "end": 104
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 102,
                                                 "end": 106
                                             },
                                             "flags": 545,
+                                            "transformFlags": 0,
                                             "start": 91,
                                             "end": 106
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 69,
                                         "end": 106
                                     },
@@ -319,6 +355,7 @@ var f = {
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 107,
                                             "end": 113
                                         },
@@ -330,6 +367,7 @@ var f = {
                                                 "text": "stringLiteral",
                                                 "rawText": "\"stringLiteral\"",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 113,
                                                 "end": 129
                                             },
@@ -339,6 +377,7 @@ var f = {
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 1057,
+                                                "transformFlags": 0,
                                                 "start": 130,
                                                 "end": 131
                                             },
@@ -349,10 +388,12 @@ var f = {
                                                 "type": {
                                                     "kind": 134234345,
                                                     "flags": 2097216,
+                                                    "transformFlags": 0,
                                                     "start": 132,
                                                     "end": 139
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 132,
                                                 "end": 139
                                             },
@@ -367,6 +408,7 @@ var f = {
                                                             "returnKeyword": {
                                                                 "kind": 37757022,
                                                                 "flags": 80,
+                                                                "transformFlags": 0,
                                                                 "start": 141,
                                                                 "end": 148
                                                             },
@@ -375,50 +417,61 @@ var f = {
                                                                 "text": 4,
                                                                 "rawText": "4",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 148,
                                                                 "end": 150
                                                             },
                                                             "flags": 80,
+                                                            "transformFlags": 256,
                                                             "start": 141,
                                                             "end": 151
                                                         }
                                                     ],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 141,
                                                     "end": 151
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 139,
                                                 "end": 153
                                             },
                                             "flags": 1057,
+                                            "transformFlags": 0,
                                             "start": 129,
                                             "end": 153
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 107,
                                         "end": 153
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 154
                             },
                             "flags": 49,
+                            "transformFlags": 8,
                             "start": 7,
                             "end": 156
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 156
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 156
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 157
         }
@@ -427,6 +480,7 @@ var f = {
     "source": "var f = {\n  get ['d']() { return 'foo'; },\n  set ['d'](x: number) {},\n  set \"stringLiteral\"(x: number) { },\n  get \"stringLiteral\"(): number { return 4; },\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 157
 }

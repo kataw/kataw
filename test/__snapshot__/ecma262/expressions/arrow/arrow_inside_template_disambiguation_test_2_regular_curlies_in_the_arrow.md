@@ -33,6 +33,7 @@
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 5
                             },
@@ -40,6 +41,7 @@
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 8
                             },
@@ -50,12 +52,14 @@
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 10
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 12
                                 },
@@ -66,22 +70,27 @@
                                         "properties": [],
                                         "trailingComma": false,
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 14
                                     },
                                     "flags": 48,
+                                    "transformFlags": 8,
                                     "start": 12,
                                     "end": 15
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 15
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 15
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 15
                     }
@@ -91,14 +100,17 @@
                     "text": "Y",
                     "rawText": "Y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 18
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -107,6 +119,7 @@
     "source": "`X${a => b + {}}Y`",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }
@@ -116,7 +129,7 @@
 
 ```javascript
 
-`X${a => b +  {}}Y`;
+`X${a => b + {}}Y`;
 ```
 
 ### Diagnostics

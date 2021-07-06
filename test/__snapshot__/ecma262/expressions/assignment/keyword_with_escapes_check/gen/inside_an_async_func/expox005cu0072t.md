@@ -27,6 +27,7 @@ async () => {  expo\u0072t = x  }
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -36,6 +37,7 @@ async () => {  expo\u0072t = x  }
                 "parameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 7
             },
@@ -43,6 +45,7 @@ async () => {  expo\u0072t = x  }
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
@@ -57,6 +60,7 @@ async () => {  expo\u0072t = x  }
                             "exportKeyword": {
                                 "kind": 4202582,
                                 "flags": 16464,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 26
                             },
@@ -66,19 +70,23 @@ async () => {  expo\u0072t = x  }
                             "fromClause": null,
                             "exportKind": 0,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 26
                         }
                     ],
                     "flags": 16416,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 26
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 26
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         },
@@ -89,10 +97,12 @@ async () => {  expo\u0072t = x  }
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 28,
             "end": 30
         }
@@ -101,6 +111,7 @@ async () => {  expo\u0072t = x  }
     "source": "async () => {  expo\\u0072t = x  }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

@@ -31,12 +31,14 @@ x = class extends (a ? null : yield) { }
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -46,6 +48,7 @@ x = class extends (a ? null : yield) { }
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 9
                     },
@@ -58,6 +61,7 @@ x = class extends (a ? null : yield) { }
                             "extendsKeyword": {
                                 "kind": 4194391,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 17
                             },
@@ -70,24 +74,28 @@ x = class extends (a ? null : yield) { }
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 20
                                     },
                                     "questionToken": {
                                         "kind": 134217750,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 22
                                     },
                                     "consequent": {
                                         "kind": 138477575,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 27
                                     },
                                     "colonToken": {
                                         "kind": 21,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 29
                                     },
@@ -96,19 +104,23 @@ x = class extends (a ? null : yield) { }
                                         "text": "yield",
                                         "rawText": "yield",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 35
                                     },
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 35
                                 },
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 36
                             },
                             "typeParameter": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 36
                         },
@@ -116,22 +128,27 @@ x = class extends (a ? null : yield) { }
                             "kind": 303,
                             "elements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 38,
                             "end": 38
                         },
                         "flags": 9,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 40
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 40
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -140,6 +157,7 @@ x = class extends (a ? null : yield) { }
     "source": "x = class extends (a ? null : yield) { }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }

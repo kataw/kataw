@@ -34,12 +34,14 @@ x = {set this(this: string):number{}};
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -56,6 +58,7 @@ x = {set this(this: string):number{}};
                                 "setKeyword": {
                                     "kind": 16499,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 8
                                 },
@@ -66,6 +69,7 @@ x = {set this(this: string):number{}};
                                         "text": "this",
                                         "rawText": "this",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 13
                                     },
@@ -81,6 +85,7 @@ x = {set this(this: string):number{}};
                                                     "text": "this",
                                                     "rawText": "this",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 14,
                                                     "end": 18
                                                 },
@@ -88,12 +93,14 @@ x = {set this(this: string):number{}};
                                                 "type": null,
                                                 "right": null,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 18
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 544,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 19
                                     },
@@ -104,10 +111,12 @@ x = {set this(this: string):number{}};
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 26
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 26
                                     },
@@ -118,36 +127,44 @@ x = {set this(this: string):number{}};
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 27
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 28
                                     },
                                     "flags": 544,
+                                    "transformFlags": 0,
                                     "start": 13,
                                     "end": 28
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 28
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 28
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 29
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         },
@@ -160,12 +177,14 @@ x = {set this(this: string):number{}};
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 30,
                     "end": 33
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 35
                 },
@@ -182,6 +201,7 @@ x = {set this(this: string):number{}};
                                 "setKeyword": {
                                     "kind": 16499,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 37,
                                     "end": 40
                                 },
@@ -192,6 +212,7 @@ x = {set this(this: string):number{}};
                                         "text": "this",
                                         "rawText": "this",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 40,
                                         "end": 45
                                     },
@@ -207,6 +228,7 @@ x = {set this(this: string):number{}};
                                                     "text": "this",
                                                     "rawText": "this",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 46,
                                                     "end": 50
                                                 },
@@ -218,21 +240,25 @@ x = {set this(this: string):number{}};
                                                     "type": {
                                                         "kind": 134234347,
                                                         "flags": 2097216,
+                                                        "transformFlags": 0,
                                                         "start": 51,
                                                         "end": 58
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 51,
                                                     "end": 58
                                                 },
                                                 "right": null,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 46,
                                                 "end": 58
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 544,
+                                        "transformFlags": 0,
                                         "start": 46,
                                         "end": 59
                                     },
@@ -243,10 +269,12 @@ x = {set this(this: string):number{}};
                                         "type": {
                                             "kind": 134234345,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 60,
                                             "end": 66
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 60,
                                         "end": 66
                                     },
@@ -257,36 +285,44 @@ x = {set this(this: string):number{}};
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 67,
                                             "end": 67
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 66,
                                         "end": 68
                                     },
                                     "flags": 544,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 68
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 37,
                                 "end": 68
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 37,
                         "end": 68
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 35,
                     "end": 69
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 30,
                 "end": 69
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 30,
             "end": 70
         }
@@ -295,6 +331,7 @@ x = {set this(this: string):number{}};
     "source": "x = {set this(this):number{}};\n\nx = {set this(this: string):number{}};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 70
 }

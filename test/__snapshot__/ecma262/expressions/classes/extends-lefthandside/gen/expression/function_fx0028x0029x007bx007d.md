@@ -32,6 +32,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -40,6 +41,7 @@
                         "text": "B",
                         "rawText": "B",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 8
                     },
@@ -51,6 +53,7 @@
                             "extendsKeyword": {
                                 "kind": 4194391,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 16
                             },
@@ -60,6 +63,7 @@
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 25
                                 },
@@ -69,6 +73,7 @@
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 27
                                 },
@@ -78,6 +83,7 @@
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 28,
                                     "end": 28
                                 },
@@ -88,20 +94,24 @@
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 30,
                                         "end": 30
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 31
                                 },
                                 "returnType": null,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 31
                             },
                             "typeParameter": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 31
                         },
@@ -109,22 +119,27 @@
                             "kind": 303,
                             "elements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 33,
                             "end": 33
                         },
                         "flags": 8,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 34
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 34
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 35
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -133,6 +148,7 @@
     "source": "(class B extends function f(){} {})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

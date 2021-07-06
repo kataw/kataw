@@ -24,12 +24,14 @@ async + 10;
                     "text": "async",
                     "rawText": "async",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -38,14 +40,17 @@ async + 10;
                     "text": 10,
                     "rawText": "10",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 10
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         }
@@ -54,6 +59,7 @@ async + 10;
     "source": "async + 10;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }
@@ -63,7 +69,7 @@ async + 10;
 
 ```javascript
 
-async +  10;
+async + 10;
 ```
 
 ### Diagnostics

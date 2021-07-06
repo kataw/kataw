@@ -35,6 +35,7 @@ var c: { (): string; (x: number): string } =
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 59
             },
@@ -48,6 +49,7 @@ var c: { (): string; (x: number): string } =
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 59,
                             "end": 61
                         },
@@ -68,6 +70,7 @@ var c: { (): string; (x: number): string } =
                                             "parameters": [],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 66,
                                             "end": 66
                                         },
@@ -78,14 +81,17 @@ var c: { (): string; (x: number): string } =
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 68,
                                                 "end": 75
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 68,
                                             "end": 75
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 64,
                                         "end": 76
                                     },
@@ -105,6 +111,7 @@ var c: { (): string; (x: number): string } =
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 78,
                                                         "end": 79
                                                     },
@@ -116,20 +123,24 @@ var c: { (): string; (x: number): string } =
                                                         "type": {
                                                             "kind": 134234345,
                                                             "flags": 2097216,
+                                                            "transformFlags": 0,
                                                             "start": 80,
                                                             "end": 87
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 80,
                                                         "end": 87
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 78,
                                                     "end": 87
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 78,
                                             "end": 87
                                         },
@@ -140,24 +151,29 @@ var c: { (): string; (x: number): string } =
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 89,
                                                 "end": 96
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 89,
                                             "end": 96
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 76,
                                         "end": 96
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 62,
                                 "end": 98
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 62,
                             "end": 98
                         },
@@ -167,6 +183,7 @@ var c: { (): string; (x: number): string } =
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 100,
                                 "end": 111
                             },
@@ -184,12 +201,14 @@ var c: { (): string; (x: number): string } =
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 113,
                                             "end": 114
                                         },
                                         "optionalToken": {
                                             "kind": 134217750,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 114,
                                             "end": 115
                                         },
@@ -200,21 +219,25 @@ var c: { (): string; (x: number): string } =
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 116,
                                                 "end": 123
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 116,
                                             "end": 123
                                         },
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 113,
                                         "end": 123
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 113,
                                 "end": 123
                             },
@@ -229,6 +252,7 @@ var c: { (): string; (x: number): string } =
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 134,
                                                 "end": 141
                                             },
@@ -237,19 +261,23 @@ var c: { (): string; (x: number): string } =
                                                 "text": "hi",
                                                 "rawText": "\"hi\"",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 141,
                                                 "end": 146
                                             },
                                             "flags": 80,
+                                            "transformFlags": 256,
                                             "start": 134,
                                             "end": 147
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 134,
                                     "end": 147
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 132,
                                 "end": 149
                             },
@@ -260,27 +288,33 @@ var c: { (): string; (x: number): string } =
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 125,
                                     "end": 132
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 125,
                                 "end": 132
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 100,
                             "end": 149
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 59,
                         "end": 149
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 59,
                 "end": 149
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 150
         },
@@ -290,6 +324,7 @@ var c: { (): string; (x: number): string } =
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 150,
                 "end": 220
             },
@@ -303,6 +338,7 @@ var c: { (): string; (x: number): string } =
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 220,
                             "end": 222
                         },
@@ -323,6 +359,7 @@ var c: { (): string; (x: number): string } =
                                             "parameters": [],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 227,
                                             "end": 227
                                         },
@@ -333,14 +370,17 @@ var c: { (): string; (x: number): string } =
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 229,
                                                 "end": 236
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 229,
                                             "end": 236
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 225,
                                         "end": 237
                                     },
@@ -360,6 +400,7 @@ var c: { (): string; (x: number): string } =
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 239,
                                                         "end": 240
                                                     },
@@ -371,20 +412,24 @@ var c: { (): string; (x: number): string } =
                                                         "type": {
                                                             "kind": 134234345,
                                                             "flags": 2097216,
+                                                            "transformFlags": 0,
                                                             "start": 241,
                                                             "end": 248
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 241,
                                                         "end": 248
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 239,
                                                     "end": 248
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 239,
                                             "end": 248
                                         },
@@ -395,24 +440,29 @@ var c: { (): string; (x: number): string } =
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 250,
                                                 "end": 257
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 250,
                                             "end": 257
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 237,
                                         "end": 257
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 223,
                                 "end": 259
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 223,
                             "end": 259
                         },
@@ -422,6 +472,7 @@ var c: { (): string; (x: number): string } =
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 261,
                                 "end": 272
                             },
@@ -439,6 +490,7 @@ var c: { (): string; (x: number): string } =
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 274,
                                             "end": 275
                                         },
@@ -450,21 +502,25 @@ var c: { (): string; (x: number): string } =
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 276,
                                                 "end": 283
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 276,
                                             "end": 283
                                         },
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 274,
                                         "end": 283
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 274,
                                 "end": 283
                             },
@@ -479,6 +535,7 @@ var c: { (): string; (x: number): string } =
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 80,
+                                                "transformFlags": 0,
                                                 "start": 294,
                                                 "end": 301
                                             },
@@ -487,19 +544,23 @@ var c: { (): string; (x: number): string } =
                                                 "text": "hi",
                                                 "rawText": "\"hi\"",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 301,
                                                 "end": 306
                                             },
                                             "flags": 80,
+                                            "transformFlags": 256,
                                             "start": 294,
                                             "end": 307
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 294,
                                     "end": 307
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 292,
                                 "end": 309
                             },
@@ -510,27 +571,33 @@ var c: { (): string; (x: number): string } =
                                 "type": {
                                     "kind": 134234347,
                                     "flags": 2097216,
+                                    "transformFlags": 0,
                                     "start": 285,
                                     "end": 292
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 285,
                                 "end": 292
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 261,
                             "end": 309
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 220,
                         "end": 309
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 220,
                 "end": 309
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 150,
             "end": 310
         }
@@ -539,6 +606,7 @@ var c: { (): string; (x: number): string } =
     "source": "// It should be fine when a function satisfies them all\nvar b: { (): string; (x: number): string } =\n  function (x?: number): string { return \"hi\"; };\n\n// ...but should notice when a function doesn't satisfy them all\nvar c: { (): string; (x: number): string } =\n  function (x: number): string { return \"hi\"; };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 310
 }

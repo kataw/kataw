@@ -20,6 +20,7 @@ for await (;;) {}
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -32,14 +33,17 @@ for await (;;) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 16
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 17
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -48,6 +52,7 @@ for await (;;) {}
     "source": "for await (;;) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

@@ -31,12 +31,14 @@ publ\u0069c = x;
                     "text": "public",
                     "rawText": "publ\\u0069c",
                     "flags": 16480,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 11
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
@@ -45,14 +47,17 @@ publ\u0069c = x;
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -61,6 +66,7 @@ publ\u0069c = x;
     "source": "publ\\u0069c = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

@@ -22,6 +22,7 @@
                 "operandToken": {
                     "kind": 196636,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 2
                 },
@@ -30,14 +31,17 @@
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 8
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 8
         }
@@ -46,6 +50,7 @@
     "source": "--/*1*/a",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

@@ -20,6 +20,7 @@ for (;false;) const x = 1;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -28,6 +29,7 @@ for (;false;) const x = 1;
             "incrementor": {
                 "kind": 205586437,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 11
             },
@@ -38,14 +40,17 @@ for (;false;) const x = 1;
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 13
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         },
@@ -54,6 +59,7 @@ for (;false;) const x = 1;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
@@ -67,6 +73,7 @@ for (;false;) const x = 1;
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 21
                         },
@@ -76,19 +83,23 @@ for (;false;) const x = 1;
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 25
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 19,
                         "end": 25
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 25
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 13,
             "end": 26
         }
@@ -97,6 +108,7 @@ for (;false;) const x = 1;
     "source": "for (;false;) const x = 1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

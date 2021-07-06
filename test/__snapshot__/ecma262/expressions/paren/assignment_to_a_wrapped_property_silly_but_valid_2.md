@@ -28,6 +28,7 @@
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 2
                         },
@@ -36,20 +37,24 @@
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 4
                         },
                         "flags": 536870944,
+                        "transformFlags": 4,
                         "start": 0,
                         "end": 5
                     },
                     "flags": 0,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4130,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 9
                 },
@@ -58,14 +63,17 @@
                     "text": 1,
                     "rawText": "1",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -74,6 +82,7 @@
     "source": "(a[b]) += 1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

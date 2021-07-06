@@ -26,6 +26,7 @@
                         "chainToken": {
                             "kind": 393240,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 4
                         },
@@ -34,6 +35,7 @@
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 2
                         },
@@ -47,22 +49,27 @@
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 6
                                 },
                                 "flags": 536870944,
+                                "transformFlags": 4,
                                 "start": 4,
                                 "end": 6
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 7
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 7
                     },
                     "flags": 0,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 8
                 },
@@ -74,20 +81,24 @@
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 10
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 10
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         }
@@ -96,6 +107,7 @@
     "source": "(a?.[b])(c)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

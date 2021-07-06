@@ -22,10 +22,12 @@
                 "text": "373",
                 "rawText": "\\373",
                 "flags": 134217824,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         }
@@ -34,6 +36,7 @@
     "source": "`\\373`",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 6
 }

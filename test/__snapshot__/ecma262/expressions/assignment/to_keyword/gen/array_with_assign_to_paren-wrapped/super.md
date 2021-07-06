@@ -29,6 +29,7 @@ async x => (super) = 1
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -38,6 +39,7 @@ async x => (super) = 1
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -45,6 +47,7 @@ async x => (super) = 1
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 10
                 },
@@ -57,6 +60,7 @@ async x => (super) = 1
                             "member": {
                                 "kind": 4259935,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 17
                             },
@@ -65,20 +69,24 @@ async x => (super) = 1
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 17
                             },
                             "flags": 32,
+                            "transformFlags": 2,
                             "start": 12,
                             "end": 17
                         },
                         "flags": 10,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 18
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 20
                     },
@@ -87,18 +95,22 @@ async x => (super) = 1
                         "text": 1,
                         "rawText": "1",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 22
                     },
                     "flags": 0,
+                    "transformFlags": 128,
                     "start": 10,
                     "end": 22
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -107,6 +119,7 @@ async x => (super) = 1
     "source": "async x => (super) = 1",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

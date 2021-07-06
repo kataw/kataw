@@ -39,6 +39,7 @@ let [a=[...b], ...c] = obj;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -60,6 +61,7 @@ let [a=[...b], ...c] = obj;
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 6
                                         },
@@ -75,6 +77,7 @@ let [a=[...b], ...c] = obj;
                                                         "ellipsisToken": {
                                                             "kind": 524302,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 8,
                                                             "end": 11
                                                         },
@@ -83,24 +86,29 @@ let [a=[...b], ...c] = obj;
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 11,
                                                             "end": 12
                                                         },
                                                         "flags": 1073741856,
+                                                        "transformFlags": 0,
                                                         "start": 8,
                                                         "end": 12
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 8,
                                                 "end": 12
                                             },
                                             "flags": 32,
+                                            "transformFlags": 8,
                                             "start": 7,
                                             "end": 13
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 13
                                     },
@@ -109,6 +117,7 @@ let [a=[...b], ...c] = obj;
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 18
                                         },
@@ -117,6 +126,7 @@ let [a=[...b], ...c] = obj;
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 18,
                                             "end": 19
                                         },
@@ -124,16 +134,19 @@ let [a=[...b], ...c] = obj;
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 19
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 19
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 20
                         },
@@ -143,19 +156,23 @@ let [a=[...b], ...c] = obj;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 26
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 26
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 26
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -164,6 +181,7 @@ let [a=[...b], ...c] = obj;
     "source": "let [a=[...b], ...c] = obj;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

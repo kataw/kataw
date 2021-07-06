@@ -26,6 +26,7 @@ import };
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -35,12 +36,14 @@ import };
             "moduleSpecifier": null,
             "importClause": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 8,
             "end": 9
         }
@@ -49,6 +52,7 @@ import };
     "source": "import };",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }

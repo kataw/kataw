@@ -28,6 +28,7 @@ var f = (argument1,[a,b,...rest]) => {};
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ var f = (argument1,[a,b,...rest]) => {};
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -57,6 +59,7 @@ var f = (argument1,[a,b,...rest]) => {};
                                         "text": "argument1",
                                         "rawText": "argument1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 18
                                     },
@@ -70,6 +73,7 @@ var f = (argument1,[a,b,...rest]) => {};
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 20,
                                                     "end": 21
                                                 },
@@ -78,6 +82,7 @@ var f = (argument1,[a,b,...rest]) => {};
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 22,
                                                     "end": 23
                                                 },
@@ -86,6 +91,7 @@ var f = (argument1,[a,b,...rest]) => {};
                                                     "ellipsisToken": {
                                                         "kind": 524302,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 24,
                                                         "end": 27
                                                     },
@@ -94,6 +100,7 @@ var f = (argument1,[a,b,...rest]) => {};
                                                         "text": "rest",
                                                         "rawText": "rest",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 27,
                                                         "end": 31
                                                     },
@@ -101,22 +108,26 @@ var f = (argument1,[a,b,...rest]) => {};
                                                     "type": null,
                                                     "right": null,
                                                     "flags": 1073741856,
+                                                    "transformFlags": 0,
                                                     "start": 24,
                                                     "end": 31
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 31
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 32
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 33
                             },
@@ -124,6 +135,7 @@ var f = (argument1,[a,b,...rest]) => {};
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 33,
                                 "end": 36
                             },
@@ -134,27 +146,33 @@ var f = (argument1,[a,b,...rest]) => {};
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 38
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 39
                             },
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 39
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 39
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 40
         }
@@ -163,6 +181,7 @@ var f = (argument1,[a,b,...rest]) => {};
     "source": "var f = (argument1,[a,b,...rest]) => {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }

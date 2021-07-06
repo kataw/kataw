@@ -39,6 +39,7 @@ let one = {
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -52,6 +53,7 @@ let one = {
                             "text": "one",
                             "rawText": "one",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -74,6 +76,7 @@ let one = {
                                                 "text": "m1",
                                                 "rawText": "m1",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 11,
                                                 "end": 16
                                             },
@@ -89,6 +92,7 @@ let one = {
                                                             "text": "this",
                                                             "rawText": "this",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 17,
                                                             "end": 21
                                                         },
@@ -100,21 +104,25 @@ let one = {
                                                             "type": {
                                                                 "kind": 134234345,
                                                                 "flags": 2097216,
+                                                                "transformFlags": 0,
                                                                 "start": 22,
                                                                 "end": 29
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 22,
                                                             "end": 29
                                                         },
                                                         "right": null,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 17,
                                                         "end": 29
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 33,
+                                                "transformFlags": 0,
                                                 "start": 17,
                                                 "end": 30
                                             },
@@ -126,18 +134,22 @@ let one = {
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 32,
                                                     "end": 32
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 30,
                                                 "end": 33
                                             },
                                             "flags": 33,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 33
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 33
                                     },
@@ -154,6 +166,7 @@ let one = {
                                                 "text": "m2",
                                                 "rawText": "m2",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 34,
                                                 "end": 40
                                             },
@@ -169,6 +182,7 @@ let one = {
                                                             "text": "this",
                                                             "rawText": "this",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 41,
                                                             "end": 45
                                                         },
@@ -180,15 +194,18 @@ let one = {
                                                             "type": {
                                                                 "kind": 134234345,
                                                                 "flags": 2097216,
+                                                                "transformFlags": 0,
                                                                 "start": 46,
                                                                 "end": 53
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 46,
                                                             "end": 53
                                                         },
                                                         "right": null,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 41,
                                                         "end": 53
                                                     },
@@ -197,12 +214,14 @@ let one = {
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 54,
                                                         "end": 56
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 41,
                                                 "end": 57
                                             },
@@ -214,18 +233,22 @@ let one = {
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 59,
                                                     "end": 59
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 57,
                                                 "end": 60
                                             },
                                             "flags": 33,
+                                            "transformFlags": 0,
                                             "start": 40,
                                             "end": 60
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 60
                                     },
@@ -242,6 +265,7 @@ let one = {
                                                 "text": "m3",
                                                 "rawText": "m3",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 61,
                                                 "end": 67
                                             },
@@ -257,6 +281,7 @@ let one = {
                                                             "text": "this",
                                                             "rawText": "this",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 68,
                                                             "end": 72
                                                         },
@@ -268,15 +293,18 @@ let one = {
                                                             "type": {
                                                                 "kind": 134234345,
                                                                 "flags": 2097216,
+                                                                "transformFlags": 0,
                                                                 "start": 73,
                                                                 "end": 80
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 73,
                                                             "end": 80
                                                         },
                                                         "right": null,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 68,
                                                         "end": 80
                                                     },
@@ -285,6 +313,7 @@ let one = {
                                                         "ellipsisToken": {
                                                             "kind": 524302,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 81,
                                                             "end": 85
                                                         },
@@ -293,6 +322,7 @@ let one = {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 85,
                                                             "end": 86
                                                         },
@@ -300,12 +330,14 @@ let one = {
                                                         "type": null,
                                                         "right": null,
                                                         "flags": 34,
+                                                        "transformFlags": 0,
                                                         "start": 81,
                                                         "end": 86
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 35,
+                                                "transformFlags": 0,
                                                 "start": 68,
                                                 "end": 87
                                             },
@@ -317,18 +349,22 @@ let one = {
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 89,
                                                     "end": 89
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 87,
                                                 "end": 90
                                             },
                                             "flags": 33,
+                                            "transformFlags": 0,
                                             "start": 67,
                                             "end": 90
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 61,
                                         "end": 90
                                     },
@@ -345,6 +381,7 @@ let one = {
                                                 "text": "m4",
                                                 "rawText": "m4",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 91,
                                                 "end": 97
                                             },
@@ -360,6 +397,7 @@ let one = {
                                                             "text": "this",
                                                             "rawText": "this",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 98,
                                                             "end": 102
                                                         },
@@ -371,15 +409,18 @@ let one = {
                                                             "type": {
                                                                 "kind": 134234345,
                                                                 "flags": 2097216,
+                                                                "transformFlags": 0,
                                                                 "start": 103,
                                                                 "end": 110
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 103,
                                                             "end": 110
                                                         },
                                                         "right": null,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 98,
                                                         "end": 110
                                                     },
@@ -388,6 +429,7 @@ let one = {
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 111,
                                                         "end": 113
                                                     },
@@ -396,6 +438,7 @@ let one = {
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 114,
                                                         "end": 116
                                                     },
@@ -404,6 +447,7 @@ let one = {
                                                         "ellipsisToken": {
                                                             "kind": 524302,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 117,
                                                             "end": 121
                                                         },
@@ -412,6 +456,7 @@ let one = {
                                                             "text": "c",
                                                             "rawText": "c",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 121,
                                                             "end": 122
                                                         },
@@ -419,12 +464,14 @@ let one = {
                                                         "type": null,
                                                         "right": null,
                                                         "flags": 34,
+                                                        "transformFlags": 0,
                                                         "start": 117,
                                                         "end": 122
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 99,
+                                                "transformFlags": 0,
                                                 "start": 98,
                                                 "end": 123
                                             },
@@ -436,18 +483,22 @@ let one = {
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 125,
                                                     "end": 125
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 123,
                                                 "end": 126
                                             },
                                             "flags": 33,
+                                            "transformFlags": 0,
                                             "start": 97,
                                             "end": 126
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 91,
                                         "end": 126
                                     },
@@ -464,6 +515,7 @@ let one = {
                                                 "text": "m5",
                                                 "rawText": "m5",
                                                 "flags": 97,
+                                                "transformFlags": 0,
                                                 "start": 127,
                                                 "end": 133
                                             },
@@ -479,6 +531,7 @@ let one = {
                                                                 "text": "T",
                                                                 "rawText": "T",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 134,
                                                                 "end": 135
                                                             },
@@ -486,16 +539,19 @@ let one = {
                                                             "assignToken": null,
                                                             "defaultType": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 134,
                                                             "end": 135
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 134,
                                                     "end": 135
                                                 },
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 133,
                                                 "end": 136
                                             },
@@ -510,6 +566,7 @@ let one = {
                                                             "text": "this",
                                                             "rawText": "this",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 137,
                                                             "end": 141
                                                         },
@@ -525,26 +582,31 @@ let one = {
                                                                     "text": "T",
                                                                     "rawText": "T",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 142,
                                                                     "end": 144
                                                                 },
                                                                 "typeParameters": null,
                                                                 "flags": 2097152,
+                                                                "transformFlags": 0,
                                                                 "start": 142,
                                                                 "end": 144
                                                             },
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 142,
                                                             "end": 144
                                                         },
                                                         "right": null,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 137,
                                                         "end": 144
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 33,
+                                                "transformFlags": 0,
                                                 "start": 137,
                                                 "end": 145
                                             },
@@ -556,41 +618,50 @@ let one = {
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 147,
                                                     "end": 147
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 145,
                                                 "end": 148
                                             },
                                             "flags": 33,
+                                            "transformFlags": 0,
                                             "start": 133,
                                             "end": 148
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 127,
                                         "end": 148
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 148
                             },
                             "flags": 49,
+                            "transformFlags": 8,
                             "start": 9,
                             "end": 151
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 151
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 151
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 152
         }
@@ -599,6 +670,7 @@ let one = {
     "source": "let one = {\n  m1(this: number) {},\n\n  m2(this: number, a) {},\n\n  m3(this: number, ...a) {},\n\n  m4(this: number, a, b, ...c) {},\n\n  m5<T>(this: T) {}\n\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 152
 }

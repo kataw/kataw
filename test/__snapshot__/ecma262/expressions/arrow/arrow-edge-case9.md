@@ -32,12 +32,14 @@ a ? (b) : c => <T>(d) : e => f;
                     "text": "a",
                     "rawText": "a",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "questionToken": {
                     "kind": 134217750,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -48,16 +50,19 @@ a ? (b) : c => <T>(d) : e => f;
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 6
                     },
                     "flags": 3,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 7
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 9
                 },
@@ -70,6 +75,7 @@ a ? (b) : c => <T>(d) : e => f;
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 11
                     },
@@ -77,6 +83,7 @@ a ? (b) : c => <T>(d) : e => f;
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 14
                     },
@@ -95,6 +102,7 @@ a ? (b) : c => <T>(d) : e => f;
                                             "text": "T",
                                             "rawText": "T",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 17
                                         },
@@ -102,16 +110,19 @@ a ? (b) : c => <T>(d) : e => f;
                                         "assignToken": null,
                                         "defaultType": null,
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 16,
                                         "end": 17
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 17
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 18
                         },
@@ -123,12 +134,14 @@ a ? (b) : c => <T>(d) : e => f;
                                     "text": "d",
                                     "rawText": "d",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 20
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 25
                         },
@@ -143,21 +156,25 @@ a ? (b) : c => <T>(d) : e => f;
                                     "text": "e",
                                     "rawText": "e",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 25
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 25
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 25
                         },
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 25,
                             "end": 28
                         },
@@ -166,22 +183,27 @@ a ? (b) : c => <T>(d) : e => f;
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 30
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 30
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 30
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -190,6 +212,7 @@ a ? (b) : c => <T>(d) : e => f;
     "source": "a ? (b) : c => <T>(d) : e => f;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

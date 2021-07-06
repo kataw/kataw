@@ -39,6 +39,7 @@ for (const x in obj) { var x = 13 }
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -47,6 +48,7 @@ for (const x in obj) { var x = 13 }
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 10
                 },
@@ -60,27 +62,32 @@ for (const x in obj) { var x = 13 }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 10,
                             "end": 12
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 12
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 12
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 15
             },
@@ -89,6 +96,7 @@ for (const x in obj) { var x = 13 }
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 19
             },
@@ -103,6 +111,7 @@ for (const x in obj) { var x = 13 }
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 26
                             },
@@ -116,6 +125,7 @@ for (const x in obj) { var x = 13 }
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 26,
                                             "end": 28
                                         },
@@ -125,32 +135,39 @@ for (const x in obj) { var x = 13 }
                                             "text": 13,
                                             "rawText": "13",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 30,
                                             "end": 33
                                         },
                                         "flags": 16,
+                                        "transformFlags": 128,
                                         "start": 26,
                                         "end": 33
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 33
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 33
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 33
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 35
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -159,6 +176,7 @@ for (const x in obj) { var x = 13 }
     "source": "for (const x in obj) { var x = 13 }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

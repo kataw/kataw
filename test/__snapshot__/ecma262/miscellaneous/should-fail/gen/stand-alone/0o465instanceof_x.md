@@ -29,10 +29,12 @@
                 "text": 309,
                 "rawText": "0o465i",
                 "flags": 262240,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -43,10 +45,12 @@
                 "text": "nstanceof",
                 "rawText": "nstanceof",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 6,
             "end": 15
         },
@@ -57,10 +61,12 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 15,
             "end": 17
         }
@@ -69,6 +75,7 @@
     "source": "0o465instanceof x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

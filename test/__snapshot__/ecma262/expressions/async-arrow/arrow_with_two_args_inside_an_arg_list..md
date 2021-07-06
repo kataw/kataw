@@ -24,6 +24,7 @@ f((async (a, b) => a + b));
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -37,6 +38,7 @@ f((async (a, b) => a + b));
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 8
                                 },
@@ -49,6 +51,7 @@ f((async (a, b) => a + b));
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 11
                                         },
@@ -57,12 +60,14 @@ f((async (a, b) => a + b));
                                             "text": "b",
                                             "rawText": "b",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 14
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 15
                                 },
@@ -70,6 +75,7 @@ f((async (a, b) => a + b));
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 18
                                 },
@@ -80,12 +86,14 @@ f((async (a, b) => a + b));
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 20
                                     },
                                     "operatorToken": {
                                         "kind": 99634,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 22
                                     },
@@ -94,32 +102,39 @@ f((async (a, b) => a + b));
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 24
                                     },
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 24
                                 },
                                 "flags": 288,
+                                "transformFlags": 0,
                                 "start": 3,
                                 "end": 24
                             },
                             "flags": 2,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 25
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 25
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -128,6 +143,7 @@ f((async (a, b) => a + b));
     "source": "f((async (a, b) => a + b));",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }
@@ -138,7 +154,7 @@ f((async (a, b) => a + b));
 ```javascript
 
 f(
-  (async (a, b) => a +  b)
+  (async (a, b) => a + b)
 );
 ```
 

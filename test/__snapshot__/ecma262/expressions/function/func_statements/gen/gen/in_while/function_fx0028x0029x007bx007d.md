@@ -27,6 +27,7 @@ while (x) function f(){}
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -35,6 +36,7 @@ while (x) function f(){}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 8
             },
@@ -45,6 +47,7 @@ while (x) function f(){}
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 18
                 },
@@ -54,6 +57,7 @@ while (x) function f(){}
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
@@ -63,6 +67,7 @@ while (x) function f(){}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 21
                 },
@@ -73,19 +78,23 @@ while (x) function f(){}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 23,
                         "end": 23
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 24
                 },
                 "returnType": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 24
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -94,6 +103,7 @@ while (x) function f(){}
     "source": "while (x) function f(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

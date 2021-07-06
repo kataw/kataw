@@ -31,6 +31,7 @@ import('hello', 'world', '!');
                         "importKeyword": {
                             "kind": 37814364,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 6
                         },
@@ -39,10 +40,12 @@ import('hello', 'world', '!');
                             "text": "hello",
                             "rawText": "'hello'",
                             "flags": 4194400,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 14
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 14
                     },
@@ -51,6 +54,7 @@ import('hello', 'world', '!');
                         "text": "world",
                         "rawText": "'world'",
                         "flags": 4194400,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 23
                     },
@@ -59,21 +63,25 @@ import('hello', 'world', '!');
                         "text": "!",
                         "rawText": "'!'",
                         "flags": 4194400,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 28
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 29,
             "end": 30
         }
@@ -82,6 +90,7 @@ import('hello', 'world', '!');
     "source": "import('hello', 'world', '!');",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

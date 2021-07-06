@@ -36,6 +36,7 @@ import {eval as o} from 'foo';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -46,6 +47,7 @@ import {eval as o} from 'foo';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 18
                 },
@@ -54,10 +56,12 @@ import {eval as o} from 'foo';
                     "text": "foo",
                     "rawText": "'foo'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 24
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 24
             },
@@ -82,27 +86,33 @@ import {eval as o} from 'foo';
                                     "text": "eval",
                                     "rawText": "eval",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 12
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 12
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 12
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 13
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 25
         },
@@ -111,6 +121,7 @@ import {eval as o} from 'foo';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 33
             },
@@ -121,6 +132,7 @@ import {eval as o} from 'foo';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 45,
                     "end": 50
                 },
@@ -129,10 +141,12 @@ import {eval as o} from 'foo';
                     "text": "foo",
                     "rawText": "'foo'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 50,
                     "end": 56
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 56
             },
@@ -157,27 +171,33 @@ import {eval as o} from 'foo';
                                     "text": "eval",
                                     "rawText": "ev\\u0061l",
                                     "flags": 16480,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 44
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 44
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 35,
                         "end": 44
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 45
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 45
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 25,
             "end": 57
         },
@@ -186,6 +206,7 @@ import {eval as o} from 'foo';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 57,
                 "end": 65
             },
@@ -196,6 +217,7 @@ import {eval as o} from 'foo';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 77,
                     "end": 82
                 },
@@ -204,10 +226,12 @@ import {eval as o} from 'foo';
                     "text": "foo",
                     "rawText": "'foo'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 82,
                     "end": 88
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 77,
                 "end": 88
             },
@@ -230,12 +254,14 @@ import {eval as o} from 'foo';
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 67,
                                     "end": 68
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 68,
                                     "end": 71
                                 },
@@ -244,27 +270,33 @@ import {eval as o} from 'foo';
                                     "text": "eval",
                                     "rawText": "eval",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 71,
                                     "end": 76
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 67,
                                 "end": 76
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 67,
                         "end": 76
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 65,
                     "end": 77
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 57,
                 "end": 77
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 57,
             "end": 89
         },
@@ -273,6 +305,7 @@ import {eval as o} from 'foo';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 89,
                 "end": 97
             },
@@ -283,6 +316,7 @@ import {eval as o} from 'foo';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 115,
                     "end": 120
                 },
@@ -291,10 +325,12 @@ import {eval as o} from 'foo';
                     "text": "foo",
                     "rawText": "'foo'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 120,
                     "end": 126
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 115,
                 "end": 126
             },
@@ -317,12 +353,14 @@ import {eval as o} from 'foo';
                                     "text": "xy",
                                     "rawText": "xy",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 99,
                                     "end": 101
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 101,
                                     "end": 104
                                 },
@@ -331,27 +369,33 @@ import {eval as o} from 'foo';
                                     "text": "eval",
                                     "rawText": "ev\\u0061l",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 104,
                                     "end": 114
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 99,
                                 "end": 114
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 99,
                         "end": 114
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 97,
                     "end": 115
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 89,
                 "end": 115
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 89,
             "end": 127
         },
@@ -360,6 +404,7 @@ import {eval as o} from 'foo';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 127,
                 "end": 135
             },
@@ -370,6 +415,7 @@ import {eval as o} from 'foo';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 152,
                     "end": 157
                 },
@@ -378,10 +424,12 @@ import {eval as o} from 'foo';
                     "text": "foo",
                     "rawText": "'foo'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 157,
                     "end": 163
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 152,
                 "end": 163
             },
@@ -406,27 +454,33 @@ import {eval as o} from 'foo';
                                     "text": "arguments",
                                     "rawText": "\\u0061rguments",
                                     "flags": 16480,
+                                    "transformFlags": 0,
                                     "start": 137,
                                     "end": 151
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 137,
                                 "end": 151
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 137,
                         "end": 151
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 135,
                     "end": 152
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 127,
                 "end": 152
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 127,
             "end": 164
         },
@@ -435,6 +489,7 @@ import {eval as o} from 'foo';
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 164,
                 "end": 172
             },
@@ -445,6 +500,7 @@ import {eval as o} from 'foo';
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 184,
                     "end": 189
                 },
@@ -453,10 +509,12 @@ import {eval as o} from 'foo';
                     "text": "foo",
                     "rawText": "'foo'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 189,
                     "end": 195
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 184,
                 "end": 195
             },
@@ -479,12 +537,14 @@ import {eval as o} from 'foo';
                                     "text": "eval",
                                     "rawText": "eval",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 174,
                                     "end": 178
                                 },
                                 "asKeyword": {
                                     "kind": 16494,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 178,
                                     "end": 181
                                 },
@@ -493,27 +553,33 @@ import {eval as o} from 'foo';
                                     "text": "o",
                                     "rawText": "o",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 181,
                                     "end": 183
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 174,
                                 "end": 183
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 174,
                         "end": 183
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 172,
                     "end": 184
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 164,
                 "end": 184
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 164,
             "end": 196
         }
@@ -522,6 +588,7 @@ import {eval as o} from 'foo';
     "source": "import {eval} from 'foo';\n\nimport {ev\\u0061l} from 'foo';\n\nimport {x as eval} from 'foo';\n\nimport {xy as ev\\u0061l} from 'foo';\n\nimport {\\u0061rguments} from 'foo';\n\nimport {eval as o} from 'foo';",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 196
 }

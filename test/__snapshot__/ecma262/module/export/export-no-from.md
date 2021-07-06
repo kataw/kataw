@@ -27,6 +27,7 @@ export { x }
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -40,21 +41,25 @@ export { x }
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 5
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 5
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -63,6 +68,7 @@ export { x }
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 13
             },
@@ -80,21 +86,25 @@ export { x }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 17
                             },
                             "asKeyword": null,
                             "binding": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 17
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 19
             },
@@ -102,6 +112,7 @@ export { x }
             "fromClause": null,
             "exportKind": 0,
             "flags": 81,
+            "transformFlags": 0,
             "start": 6,
             "end": 19
         }
@@ -110,6 +121,7 @@ export { x }
     "source": "let x;\nexport { x }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

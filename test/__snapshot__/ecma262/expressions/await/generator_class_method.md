@@ -22,6 +22,7 @@ class x {*f(await){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class x {*f(await){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -51,6 +53,7 @@ class x {*f(await){}}
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
+                                "transformFlags": 32,
                                 "start": 9,
                                 "end": 10
                             },
@@ -61,6 +64,7 @@ class x {*f(await){}}
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 11
                                 },
@@ -73,12 +77,14 @@ class x {*f(await){}}
                                             "text": "await",
                                             "rawText": "await",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 17
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 18
                                 },
@@ -90,31 +96,38 @@ class x {*f(await){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 19
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 20
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 20
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 20
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 20
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -123,6 +136,7 @@ class x {*f(await){}}
     "source": "class x {*f(await){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

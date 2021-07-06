@@ -23,6 +23,7 @@ async
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -34,22 +35,26 @@ async
                         "text": 2,
                         "rawText": "2",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 8
                     }
                 ],
                 "trailingComma": false,
                 "flags": 33,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "flags": 268435489,
+            "transformFlags": 1,
             "start": 0,
             "end": 9
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 9,
             "end": 10
         }
@@ -58,6 +63,7 @@ async
     "source": "async\n(2);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

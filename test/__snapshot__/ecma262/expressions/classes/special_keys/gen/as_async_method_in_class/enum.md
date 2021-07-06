@@ -29,6 +29,7 @@ class x {async enum(){}}
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class x {async enum(){}}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -55,6 +57,7 @@ class x {async enum(){}}
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 14
                             },
@@ -68,6 +71,7 @@ class x {async enum(){}}
                                     "text": "enum",
                                     "rawText": "enum",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 19
                                 },
@@ -77,6 +81,7 @@ class x {async enum(){}}
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 21
                                 },
@@ -88,31 +93,38 @@ class x {async enum(){}}
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 22
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 23
                                 },
                                 "flags": 256,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 23
                             },
                             "flags": 256,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 23
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 23
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -121,6 +133,7 @@ class x {async enum(){}}
     "source": "class x {async enum(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

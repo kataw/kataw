@@ -26,6 +26,7 @@
                         "operandToken": {
                             "kind": 65584,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 2
                         },
@@ -34,14 +35,17 @@
                             "text": "t",
                             "rawText": "t",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 3
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 3
                     },
                     "flags": 0,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 4
                 },
@@ -50,14 +54,17 @@
                     "text": "y",
                     "rawText": "y",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 6
                 },
                 "flags": 32,
+                "transformFlags": 2,
                 "start": 0,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         }
@@ -66,6 +73,7 @@
     "source": "(!t).y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 6
 }

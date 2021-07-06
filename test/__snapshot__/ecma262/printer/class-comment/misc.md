@@ -27,6 +27,7 @@ class x {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -35,6 +36,7 @@ class x {
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -61,6 +63,7 @@ class x {
                                     "text": "focus",
                                     "rawText": "focus",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 17
                                 },
@@ -70,6 +73,7 @@ class x {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 19
                                 },
@@ -81,31 +85,38 @@ class x {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 33,
+                                        "transformFlags": 0,
                                         "start": 36,
                                         "end": 36
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 57
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 57
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 57
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 57
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 59
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 59
         }
@@ -114,6 +125,7 @@ class x {
     "source": "class x {\n  focus() // comment 1\n  {\n    // comment 2\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 59
 }

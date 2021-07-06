@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { TypeNode } from './';
 
 export interface ParenthesizedType extends SyntaxNode {
@@ -10,6 +10,7 @@ export function createParenthesizedType(type: any, start: number, end: number): 
     kind: SyntaxKind.ParenthesizedType,
     type,
     flags: NodeFlags.IsTypeNode,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

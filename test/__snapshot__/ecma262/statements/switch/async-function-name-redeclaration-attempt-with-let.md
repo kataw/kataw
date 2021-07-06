@@ -20,6 +20,7 @@ switch (0) { case 1: async function f() {} default: let f }
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -28,6 +29,7 @@ switch (0) { case 1: async function f() {} default: let f }
                 "text": 0,
                 "rawText": "0",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 9
             },
@@ -39,6 +41,7 @@ switch (0) { case 1: async function f() {} default: let f }
                         "caseKeyword": {
                             "kind": 4194382,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 17
                         },
@@ -47,12 +50,14 @@ switch (0) { case 1: async function f() {} default: let f }
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 19
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 20
                         },
@@ -63,12 +68,14 @@ switch (0) { case 1: async function f() {} default: let f }
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 26
                                 },
                                 "functionKeyword": {
                                     "kind": 37822554,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 35
                                 },
@@ -78,6 +85,7 @@ switch (0) { case 1: async function f() {} default: let f }
                                     "text": "f",
                                     "rawText": "f",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 37
                                 },
@@ -87,6 +95,7 @@ switch (0) { case 1: async function f() {} default: let f }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 38
                                 },
@@ -97,20 +106,24 @@ switch (0) { case 1: async function f() {} default: let f }
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 41,
                                         "end": 41
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 42
                                 },
                                 "returnType": null,
                                 "flags": 144,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 42
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 42
                     },
@@ -119,12 +132,14 @@ switch (0) { case 1: async function f() {} default: let f }
                         "defaultKeyword": {
                             "kind": 4194387,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 42,
                             "end": 50
                         },
                         "colonToken": {
                             "kind": 21,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 50,
                             "end": 51
                         },
@@ -134,6 +149,7 @@ switch (0) { case 1: async function f() {} default: let f }
                                 "lexicalKeyword": {
                                     "kind": 41951307,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 51,
                                     "end": 55
                                 },
@@ -147,35 +163,42 @@ switch (0) { case 1: async function f() {} default: let f }
                                                 "text": "f",
                                                 "rawText": "f",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 55,
                                                 "end": 57
                                             },
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 55,
                                             "end": 57
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 55,
                                     "end": 57
                                 },
                                 "flags": 33554448,
+                                "transformFlags": 0,
                                 "start": 51,
                                 "end": 57
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 42,
                         "end": 57
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 57
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 59
         }
@@ -184,6 +207,7 @@ switch (0) { case 1: async function f() {} default: let f }
     "source": "switch (0) { case 1: async function f() {} default: let f }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 59
 }

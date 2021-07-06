@@ -20,6 +20,7 @@ for (let {x:y=z}, {a:b=c} of obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -29,6 +30,7 @@ for (let {x:y=z}, {a:b=c} of obj);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
@@ -49,6 +51,7 @@ for (let {x:y=z}, {a:b=c} of obj);
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 10,
                                                 "end": 11
                                             },
@@ -57,6 +60,7 @@ for (let {x:y=z}, {a:b=c} of obj);
                                                 "text": "y",
                                                 "rawText": "y",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 13
                                             },
@@ -65,26 +69,31 @@ for (let {x:y=z}, {a:b=c} of obj);
                                                 "text": "z",
                                                 "rawText": "z",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 14,
                                                 "end": 15
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 15
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 15
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 16
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 8,
                             "end": 16
                         },
@@ -102,6 +111,7 @@ for (let {x:y=z}, {a:b=c} of obj);
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 20
                                             },
@@ -110,6 +120,7 @@ for (let {x:y=z}, {a:b=c} of obj);
                                                 "text": "b",
                                                 "rawText": "b",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 22
                                             },
@@ -118,41 +129,49 @@ for (let {x:y=z}, {a:b=c} of obj);
                                                 "text": "c",
                                                 "rawText": "c",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 24
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 19,
                                             "end": 24
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 24
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 25
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 17,
                             "end": 25
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 25
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 25
             },
             "ofKeyword": {
                 "kind": 16793717,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 28
             },
@@ -161,16 +180,19 @@ for (let {x:y=z}, {a:b=c} of obj);
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 32
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 34
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         }
@@ -179,6 +201,7 @@ for (let {x:y=z}, {a:b=c} of obj);
     "source": "for (let {x:y=z}, {a:b=c} of obj);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

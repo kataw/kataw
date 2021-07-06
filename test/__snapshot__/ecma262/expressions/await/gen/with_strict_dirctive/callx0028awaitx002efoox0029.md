@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "'use strict'",
             "flags": 4194400,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -40,6 +41,7 @@
                     "text": "call",
                     "rawText": "call",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 18
                 },
@@ -53,6 +55,7 @@
                                 "text": "await",
                                 "rawText": "await",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 24
                             },
@@ -61,24 +64,29 @@
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 28
                             },
                             "flags": 96,
+                            "transformFlags": 2,
                             "start": 19,
                             "end": 28
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 28
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 13,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 29
         }
@@ -87,6 +95,7 @@
     "source": "'use strict'; call(await.foo)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }

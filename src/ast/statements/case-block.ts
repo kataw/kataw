@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { CaseClause } from './case-clause';
 import { DefaultClause } from './default-clause';
 
@@ -17,6 +17,7 @@ export function createCaseBlock(clauses: CaseOrDefaultClause[], start: number, e
     kind: SyntaxKind.CaseBlock,
     clauses,
     flags: NodeFlags.IsStatement,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

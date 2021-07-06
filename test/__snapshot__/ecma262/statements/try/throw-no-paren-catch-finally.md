@@ -20,6 +20,7 @@ throw {x} catch finally
             "throwKeyword": {
                 "kind": 37757026,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -33,20 +34,24 @@ throw {x} catch finally
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 8
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 5,
                 "end": 9
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         },
@@ -59,10 +64,12 @@ throw {x} catch finally
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 9
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 9
             },
@@ -71,6 +78,7 @@ throw {x} catch finally
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 15
                 },
@@ -81,20 +89,24 @@ throw {x} catch finally
                         "kind": 249,
                         "statements": [],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 15
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 15
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 15
             },
             "finallyKeyword": {
                 "kind": 37757016,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 23
             },
@@ -104,14 +116,17 @@ throw {x} catch finally
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 23
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 9,
             "end": 23
         }
@@ -120,6 +135,7 @@ throw {x} catch finally
     "source": "throw {x} catch finally",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

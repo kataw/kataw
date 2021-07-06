@@ -24,6 +24,7 @@ new new A().foo
                     "newKeyword": {
                         "kind": 138477661,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -32,6 +33,7 @@ new new A().foo
                         "newKeyword": {
                             "kind": 138477661,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -40,6 +42,7 @@ new new A().foo
                             "text": "A",
                             "rawText": "A",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 9
                         },
@@ -48,15 +51,18 @@ new new A().foo
                             "elements": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 10
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 11
                     },
                     "argumentList": null,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 11
                 },
@@ -65,14 +71,17 @@ new new A().foo
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 15
                 },
                 "flags": 96,
+                "transformFlags": 2,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -81,6 +90,7 @@ new new A().foo
     "source": "new new A().foo",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

@@ -39,12 +39,14 @@ x = class {y = 1; 'z' = 2}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -54,6 +56,7 @@ x = class {y = 1; 'z' = 2}
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 9
                     },
@@ -76,6 +79,7 @@ x = class {y = 1; 'z' = 2}
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 12
                                     },
@@ -86,16 +90,19 @@ x = class {y = 1; 'z' = 2}
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 16
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 11,
                                     "end": 16
                                 },
                                 {
                                     "kind": 1108353041,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 17
                                 },
@@ -110,6 +117,7 @@ x = class {y = 1; 'z' = 2}
                                         "text": "z",
                                         "rawText": "'z'",
                                         "flags": 4194400,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 21
                                     },
@@ -120,31 +128,38 @@ x = class {y = 1; 'z' = 2}
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 25
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 17,
                                     "end": 25
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 25
                         },
                         "flags": 9,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 26
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 26
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         },
@@ -157,12 +172,14 @@ x = class {y = 1; 'z' = 2}
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 29
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 31
                 },
@@ -172,6 +189,7 @@ x = class {y = 1; 'z' = 2}
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 31,
                         "end": 37
                     },
@@ -199,6 +217,7 @@ x = class {y = 1; 'z' = 2}
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 39,
                                             "end": 40
                                         },
@@ -208,6 +227,7 @@ x = class {y = 1; 'z' = 2}
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
+                                            "transformFlags": 0,
                                             "start": 41,
                                             "end": 42
                                         },
@@ -219,24 +239,29 @@ x = class {y = 1; 'z' = 2}
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 44,
                                                 "end": 44
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 42,
                                             "end": 45
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 40,
                                         "end": 45
                                     },
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 39,
                                     "end": 45
                                 },
                                 {
                                     "kind": 1108353041,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 46
                                 },
@@ -256,6 +281,7 @@ x = class {y = 1; 'z' = 2}
                                             "text": "z",
                                             "rawText": "'z'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 46,
                                             "end": 50
                                         },
@@ -265,6 +291,7 @@ x = class {y = 1; 'z' = 2}
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 0,
+                                            "transformFlags": 0,
                                             "start": 51,
                                             "end": 52
                                         },
@@ -276,39 +303,48 @@ x = class {y = 1; 'z' = 2}
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 54,
                                                 "end": 54
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 52,
                                             "end": 55
                                         },
                                         "flags": 0,
+                                        "transformFlags": 0,
                                         "start": 50,
                                         "end": 55
                                     },
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 46,
                                     "end": 55
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 39,
                             "end": 55
                         },
                         "flags": 37,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 56
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 56
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 26,
                 "end": 56
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 26,
             "end": 56
         },
@@ -321,12 +357,14 @@ x = class {y = 1; 'z' = 2}
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 56,
                     "end": 59
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 59,
                     "end": 61
                 },
@@ -336,6 +374,7 @@ x = class {y = 1; 'z' = 2}
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 61,
                         "end": 67
                     },
@@ -356,6 +395,7 @@ x = class {y = 1; 'z' = 2}
                                     "setKeyword": {
                                         "kind": 16498,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 69,
                                         "end": 72
                                     },
@@ -368,6 +408,7 @@ x = class {y = 1; 'z' = 2}
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 72,
                                             "end": 74
                                         },
@@ -377,6 +418,7 @@ x = class {y = 1; 'z' = 2}
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
+                                            "transformFlags": 0,
                                             "start": 75,
                                             "end": 76
                                         },
@@ -388,24 +430,29 @@ x = class {y = 1; 'z' = 2}
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 78,
                                                 "end": 78
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 76,
                                             "end": 79
                                         },
                                         "flags": 1024,
+                                        "transformFlags": 0,
                                         "start": 74,
                                         "end": 79
                                     },
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 69,
                                     "end": 79
                                 },
                                 {
                                     "kind": 1108353041,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 79,
                                     "end": 80
                                 },
@@ -419,6 +466,7 @@ x = class {y = 1; 'z' = 2}
                                     "getKeyword": {
                                         "kind": 16499,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 80,
                                         "end": 84
                                     },
@@ -430,6 +478,7 @@ x = class {y = 1; 'z' = 2}
                                             "text": "z",
                                             "rawText": "'z'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 84,
                                             "end": 88
                                         },
@@ -442,12 +491,14 @@ x = class {y = 1; 'z' = 2}
                                                     "text": "z",
                                                     "rawText": "z",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 89,
                                                     "end": 90
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 608,
+                                            "transformFlags": 0,
                                             "start": 89,
                                             "end": 91
                                         },
@@ -459,39 +510,48 @@ x = class {y = 1; 'z' = 2}
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 93,
                                                 "end": 93
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 91,
                                             "end": 94
                                         },
                                         "flags": 512,
+                                        "transformFlags": 0,
                                         "start": 88,
                                         "end": 94
                                     },
                                     "flags": 512,
+                                    "transformFlags": 0,
                                     "start": 80,
                                     "end": 94
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 69,
                             "end": 94
                         },
                         "flags": 67,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 95
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 61,
                     "end": 95
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 56,
                 "end": 95
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 56,
             "end": 95
         },
@@ -504,12 +564,14 @@ x = class {y = 1; 'z' = 2}
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 95,
                     "end": 98
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 98,
                     "end": 100
                 },
@@ -519,6 +581,7 @@ x = class {y = 1; 'z' = 2}
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 100,
                         "end": 106
                     },
@@ -539,6 +602,7 @@ x = class {y = 1; 'z' = 2}
                                     "setKeyword": {
                                         "kind": 16498,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 108,
                                         "end": 111
                                     },
@@ -551,6 +615,7 @@ x = class {y = 1; 'z' = 2}
                                             "text": "y",
                                             "rawText": "y",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 111,
                                             "end": 113
                                         },
@@ -560,6 +625,7 @@ x = class {y = 1; 'z' = 2}
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 1024,
+                                            "transformFlags": 0,
                                             "start": 114,
                                             "end": 115
                                         },
@@ -571,24 +637,29 @@ x = class {y = 1; 'z' = 2}
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 117,
                                                 "end": 117
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 115,
                                             "end": 118
                                         },
                                         "flags": 1024,
+                                        "transformFlags": 0,
                                         "start": 113,
                                         "end": 118
                                     },
                                     "flags": 1024,
+                                    "transformFlags": 0,
                                     "start": 108,
                                     "end": 118
                                 },
                                 {
                                     "kind": 1108353041,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 118,
                                     "end": 119
                                 },
@@ -602,6 +673,7 @@ x = class {y = 1; 'z' = 2}
                                     "getKeyword": {
                                         "kind": 16499,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 119,
                                         "end": 123
                                     },
@@ -613,6 +685,7 @@ x = class {y = 1; 'z' = 2}
                                             "text": "z",
                                             "rawText": "'z'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 123,
                                             "end": 127
                                         },
@@ -625,12 +698,14 @@ x = class {y = 1; 'z' = 2}
                                                     "text": "z",
                                                     "rawText": "z",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 128,
                                                     "end": 129
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 608,
+                                            "transformFlags": 0,
                                             "start": 128,
                                             "end": 130
                                         },
@@ -642,39 +717,48 @@ x = class {y = 1; 'z' = 2}
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 132,
                                                 "end": 132
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 130,
                                             "end": 133
                                         },
                                         "flags": 512,
+                                        "transformFlags": 0,
                                         "start": 127,
                                         "end": 133
                                     },
                                     "flags": 512,
+                                    "transformFlags": 0,
                                     "start": 119,
                                     "end": 133
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 108,
                             "end": 133
                         },
                         "flags": 106,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 134
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 100,
                     "end": 134
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 95,
                 "end": 134
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 95,
             "end": 134
         },
@@ -687,12 +771,14 @@ x = class {y = 1; 'z' = 2}
                     "text": "x",
                     "rawText": "x",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 134,
                     "end": 137
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 137,
                     "end": 139
                 },
@@ -702,6 +788,7 @@ x = class {y = 1; 'z' = 2}
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 139,
                         "end": 145
                     },
@@ -724,6 +811,7 @@ x = class {y = 1; 'z' = 2}
                                         "text": "y",
                                         "rawText": "y",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 147,
                                         "end": 148
                                     },
@@ -734,16 +822,19 @@ x = class {y = 1; 'z' = 2}
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 150,
                                         "end": 152
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 147,
                                     "end": 152
                                 },
                                 {
                                     "kind": 1108353041,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 152,
                                     "end": 153
                                 },
@@ -758,6 +849,7 @@ x = class {y = 1; 'z' = 2}
                                         "text": "z",
                                         "rawText": "'z'",
                                         "flags": 4194400,
+                                        "transformFlags": 0,
                                         "start": 153,
                                         "end": 157
                                     },
@@ -768,31 +860,38 @@ x = class {y = 1; 'z' = 2}
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 159,
                                         "end": 161
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 153,
                                     "end": 161
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 147,
                             "end": 161
                         },
                         "flags": 145,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 162
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 139,
                     "end": 162
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 134,
                 "end": 162
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 134,
             "end": 162
         }
@@ -801,6 +900,7 @@ x = class {y = 1; 'z' = 2}
     "source": "x = class {y = 1; 'z' = 2}\n\nx = class {y() {}; 'z'() {}}\n\nx = class {get y() {}; set 'z'(z) {}}\n\nx = class {get y() {}; set 'z'(z) {}}\n\nx = class {y = 1; 'z' = 2}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 162
 }

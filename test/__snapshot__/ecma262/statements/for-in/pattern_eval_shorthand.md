@@ -39,6 +39,7 @@ for ({ eval = 0 } in [{}]) ;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -54,6 +55,7 @@ for ({ eval = 0 } in [{}]) ;
                                 "text": "eval",
                                 "rawText": "eval",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 11
                             },
@@ -62,26 +64,31 @@ for ({ eval = 0 } in [{}]) ;
                                 "text": 0,
                                 "rawText": "0",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 15
                         }
                     ],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 15
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 5,
                 "end": 17
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 20
             },
@@ -97,30 +104,36 @@ for ({ eval = 0 } in [{}]) ;
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 23
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 22,
                             "end": 24
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 24
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 20,
                 "end": 25
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 28
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -129,6 +142,7 @@ for ({ eval = 0 } in [{}]) ;
     "source": "for ({ eval = 0 } in [{}]) ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

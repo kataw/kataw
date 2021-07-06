@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { ExpressionNode } from '.';
 
 export interface CommaOperator extends SyntaxNode {
@@ -11,6 +11,7 @@ export function createCommaOperator(expressions: ExpressionNode[], start: number
     kind: SyntaxKind.CommaOperator,
     expressions,
     flags: NodeFlags.ExpressionNode,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

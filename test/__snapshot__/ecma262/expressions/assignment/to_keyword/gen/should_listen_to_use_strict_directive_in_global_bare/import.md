@@ -26,6 +26,7 @@
             "text": "use strict",
             "rawText": "\"use strict\"",
             "flags": 96,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -36,6 +37,7 @@
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 20
             },
@@ -45,6 +47,7 @@
             "moduleSpecifier": null,
             "importClause": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 13,
             "end": 20
         },
@@ -55,10 +58,12 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 22,
             "end": 25
         }
@@ -67,6 +72,7 @@
     "source": "\"use strict\"; import = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 25
 }

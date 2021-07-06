@@ -29,6 +29,7 @@ type X = (?await:string) => T;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type X = (?await:string) => T;
                 "text": "X",
                 "rawText": "X",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type X = (?await:string) => T;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -62,6 +65,7 @@ type X = (?await:string) => T;
                             "nullableToken": {
                                 "kind": 134217750,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 11
                             },
@@ -72,31 +76,38 @@ type X = (?await:string) => T;
                                     "text": "await",
                                     "rawText": "await",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 16
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 16
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 16
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 16
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 16
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 16
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         },
@@ -107,10 +118,12 @@ type X = (?await:string) => T;
                 "text": "string",
                 "rawText": "string",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 23
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 17,
             "end": 23
         },
@@ -121,10 +134,12 @@ type X = (?await:string) => T;
                 "text": "T",
                 "rawText": "T",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 27,
             "end": 30
         }
@@ -133,6 +148,7 @@ type X = (?await:string) => T;
     "source": "type X = (?await:string) => T;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

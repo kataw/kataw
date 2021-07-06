@@ -27,6 +27,7 @@ for (async function(){} in x) ;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -35,12 +36,14 @@ for (async function(){} in x) ;
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 10
                 },
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 19
                 },
@@ -52,6 +55,7 @@ for (async function(){} in x) ;
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 20
                 },
@@ -62,21 +66,25 @@ for (async function(){} in x) ;
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 22
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 23
                 },
                 "returnType": null,
                 "flags": 160,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 23
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 26
             },
@@ -85,16 +93,19 @@ for (async function(){} in x) ;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 28
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 31
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -103,6 +114,7 @@ for (async function(){} in x) ;
     "source": "for (async function(){} in x) ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

@@ -24,12 +24,14 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                     "text": "result",
                     "rawText": "result",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 8
                 },
@@ -47,12 +49,14 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         "text": "xCls",
                                         "rawText": "xCls",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 15
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 17
                                     },
@@ -62,6 +66,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         "classKeyword": {
                                             "kind": 37822544,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 23
                                         },
@@ -70,6 +75,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 25
                                         },
@@ -81,18 +87,22 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                 "kind": 303,
                                                 "elements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 27,
                                                 "end": 27
                                             },
                                             "flags": 25,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 28
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 28
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 10,
                                     "end": 28
                                 },
@@ -103,12 +113,14 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         "text": "cls",
                                         "rawText": "cls",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 33
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 35
                                     },
@@ -118,6 +130,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         "classKeyword": {
                                             "kind": 37822544,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 35,
                                             "end": 41
                                         },
@@ -130,18 +143,22 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                 "kind": 303,
                                                 "elements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 43,
                                                 "end": 43
                                             },
                                             "flags": 41,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 44
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 35,
                                         "end": 44
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 29,
                                     "end": 44
                                 },
@@ -152,12 +169,14 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         "text": "xCls2",
                                         "rawText": "xCls2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 45,
                                         "end": 51
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 51,
                                         "end": 53
                                     },
@@ -167,6 +186,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                         "classKeyword": {
                                             "kind": 37822544,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 53,
                                             "end": 59
                                         },
@@ -185,6 +205,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                         "staticKeyword": {
                                                             "kind": 8388716,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 61,
                                                             "end": 68
                                                         },
@@ -199,6 +220,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                                 "text": "name",
                                                                 "rawText": "name",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 68,
                                                                 "end": 73
                                                             },
@@ -208,6 +230,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
                                                                 "flags": 0,
+                                                                "transformFlags": 0,
                                                                 "start": 74,
                                                                 "end": 75
                                                             },
@@ -219,51 +242,62 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                                     "directives": [],
                                                                     "statements": [],
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 77,
                                                                     "end": 77
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 75,
                                                                 "end": 78
                                                             },
                                                             "flags": 0,
+                                                            "transformFlags": 0,
                                                             "start": 73,
                                                             "end": 78
                                                         },
                                                         "flags": 0,
+                                                        "transformFlags": 0,
                                                         "start": 68,
                                                         "end": 78
                                                     }
                                                 ],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 61,
                                                 "end": 78
                                             },
                                             "flags": 59,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 80
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 53,
                                         "end": 80
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 45,
                                     "end": 80
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 80
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 8,
                         "end": 82
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 82,
                         "end": 84
                     },
@@ -272,18 +306,22 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                         "text": "vals",
                         "rawText": "vals",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 84,
                         "end": 89
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 8,
                     "end": 89
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 89
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 90
         }
@@ -292,6 +330,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
     "source": "result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} } ] = vals;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 90
 }

@@ -32,6 +32,7 @@ type T2 = number;
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -39,6 +40,7 @@ type T2 = number;
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
@@ -47,6 +49,7 @@ type T2 = number;
                 "text": "C1",
                 "rawText": "C1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 16
             },
@@ -59,14 +62,17 @@ type T2 = number;
                     "properties": [],
                     "trailingComma": false,
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 19
                 },
                 "flags": 4128,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         },
@@ -75,12 +81,14 @@ type T2 = number;
             "declareToken": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 28
             },
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 33
             },
@@ -89,6 +97,7 @@ type T2 = number;
                 "text": "T1",
                 "rawText": "T1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 36
             },
@@ -96,6 +105,7 @@ type T2 = number;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 36,
                 "end": 38
             },
@@ -106,14 +116,17 @@ type T2 = number;
                 "type": {
                     "kind": 134234345,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 45
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 38,
                 "end": 45
             },
             "flags": 4160,
+            "transformFlags": 0,
             "start": 28,
             "end": 46
         },
@@ -123,6 +136,7 @@ type T2 = number;
             "typeToken": {
                 "kind": 24775,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 46,
                 "end": 52
             },
@@ -131,6 +145,7 @@ type T2 = number;
                 "text": "T2",
                 "rawText": "T2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 52,
                 "end": 55
             },
@@ -138,6 +153,7 @@ type T2 = number;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 55,
                 "end": 57
             },
@@ -148,14 +164,17 @@ type T2 = number;
                 "type": {
                     "kind": 134234345,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 57,
                     "end": 64
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 57,
                 "end": 64
             },
             "flags": 65,
+            "transformFlags": 0,
             "start": 46,
             "end": 65
         }
@@ -164,6 +183,7 @@ type T2 = number;
     "source": "declare class C1 {}\n\ndeclare type T1 = number;\n\ntype T2 = number;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 65
 }

@@ -29,6 +29,7 @@ var obj: { foo?: boolean } = {};
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var obj: { foo?: boolean } = {};
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -63,12 +65,14 @@ var obj: { foo?: boolean } = {};
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 14
                                         },
                                         "optionalToken": {
                                             "kind": 134217750,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 15
                                         },
@@ -79,24 +83,29 @@ var obj: { foo?: boolean } = {};
                                             "type": {
                                                 "kind": 134234254,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 16,
                                                 "end": 24
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 24
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 10,
                                         "end": 24
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 26
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 26
                         },
@@ -107,23 +116,28 @@ var obj: { foo?: boolean } = {};
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 30,
                                 "end": 30
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 28,
                             "end": 31
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 31
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -132,6 +146,7 @@ var obj: { foo?: boolean } = {};
     "source": "var obj: { foo?: boolean } = {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

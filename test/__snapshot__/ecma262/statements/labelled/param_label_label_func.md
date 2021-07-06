@@ -22,6 +22,7 @@ function w(casecase){y:j:function casecase(){}}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function w(casecase){y:j:function casecase(){}}
                 "text": "w",
                 "rawText": "w",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -43,12 +45,14 @@ function w(casecase){y:j:function casecase(){}}
                         "text": "casecase",
                         "rawText": "casecase",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 19
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 19
             },
@@ -65,12 +69,14 @@ function w(casecase){y:j:function casecase(){}}
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 22
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 23
                             },
@@ -81,12 +87,14 @@ function w(casecase){y:j:function casecase(){}}
                                     "text": "j",
                                     "rawText": "j",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 24
                                 },
                                 "colonToken": {
                                     "kind": 21,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 25
                                 },
@@ -97,6 +105,7 @@ function w(casecase){y:j:function casecase(){}}
                                     "functionKeyword": {
                                         "kind": 37822554,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 33
                                     },
@@ -106,6 +115,7 @@ function w(casecase){y:j:function casecase(){}}
                                         "text": "casecase",
                                         "rawText": "casecase",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 33,
                                         "end": 42
                                     },
@@ -115,6 +125,7 @@ function w(casecase){y:j:function casecase(){}}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 43,
                                         "end": 43
                                     },
@@ -125,37 +136,45 @@ function w(casecase){y:j:function casecase(){}}
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 45,
                                             "end": 45
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 44,
                                         "end": 46
                                     },
                                     "returnType": null,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 25,
                                     "end": 46
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 46
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 46
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 46
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 47
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 47
         }
@@ -164,6 +183,7 @@ function w(casecase){y:j:function casecase(){}}
     "source": "function w(casecase){y:j:function casecase(){}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 47
 }

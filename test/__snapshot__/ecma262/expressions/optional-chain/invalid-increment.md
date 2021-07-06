@@ -22,6 +22,7 @@ obj?.foo++
                 "operandToken": {
                     "kind": 196635,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 10
                 },
@@ -30,6 +31,7 @@ obj?.foo++
                     "chainToken": {
                         "kind": 393240,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 5
                     },
@@ -38,6 +40,7 @@ obj?.foo++
                         "text": "obj",
                         "rawText": "obj",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 3
                     },
@@ -51,26 +54,32 @@ obj?.foo++
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 8
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 5,
                             "end": 8
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 8
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         }
@@ -79,6 +88,7 @@ obj?.foo++
     "source": "obj?.foo++",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 10
 }

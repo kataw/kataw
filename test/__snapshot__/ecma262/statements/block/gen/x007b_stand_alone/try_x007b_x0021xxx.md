@@ -32,6 +32,7 @@
                         "tryKeyword": {
                             "kind": 37757027,
                             "flags": 80,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 5
                         },
@@ -47,6 +48,7 @@
                                             "operandToken": {
                                                 "kind": 65584,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 7,
                                                 "end": 9
                                             },
@@ -55,23 +57,28 @@
                                                 "text": "xxx",
                                                 "rawText": "xxx",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 9,
                                                 "end": 12
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 12
                                         },
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 12
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 12
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 12
                         },
@@ -83,23 +90,28 @@
                                 "kind": 249,
                                 "statements": [],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 12
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 12
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 12
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -108,6 +120,7 @@
     "source": "{ try { !xxx",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

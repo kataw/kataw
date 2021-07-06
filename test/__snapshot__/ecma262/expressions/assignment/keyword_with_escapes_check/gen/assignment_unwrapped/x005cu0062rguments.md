@@ -31,12 +31,14 @@
                     "text": "brguments",
                     "rawText": "\\u0062rguments",
                     "flags": 16480,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 14
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 16
                 },
@@ -45,14 +47,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 18
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -61,6 +66,7 @@
     "source": "\\u0062rguments = x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

@@ -28,6 +28,7 @@ const [foo:bar] = obj;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -49,6 +50,7 @@ const [foo:bar] = obj;
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 10
                                         },
@@ -56,31 +58,37 @@ const [foo:bar] = obj;
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 10
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 10
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 10
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 5,
                         "end": 10
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 10
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 10
         },
@@ -91,10 +99,12 @@ const [foo:bar] = obj;
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 11,
             "end": 14
         },
@@ -105,10 +115,12 @@ const [foo:bar] = obj;
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 17,
             "end": 22
         }
@@ -117,6 +129,7 @@ const [foo:bar] = obj;
     "source": "const [foo:bar] = obj;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

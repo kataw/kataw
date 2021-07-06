@@ -20,6 +20,7 @@ for (let [x, ...[foo, bar]] = obj);
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -28,6 +29,7 @@ for (let [x, ...[foo, bar]] = obj);
                 "lexicalKeyword": {
                     "kind": 41951307,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 8
                 },
@@ -46,6 +48,7 @@ for (let [x, ...[foo, bar]] = obj);
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 11
                                         },
@@ -54,6 +57,7 @@ for (let [x, ...[foo, bar]] = obj);
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 12,
                                                 "end": 16
                                             },
@@ -67,6 +71,7 @@ for (let [x, ...[foo, bar]] = obj);
                                                             "text": "foo",
                                                             "rawText": "foo",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 17,
                                                             "end": 20
                                                         },
@@ -75,16 +80,19 @@ for (let [x, ...[foo, bar]] = obj);
                                                             "text": "bar",
                                                             "rawText": "bar",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 21,
                                                             "end": 25
                                                         }
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 0,
+                                                    "transformFlags": 0,
                                                     "start": 17,
                                                     "end": 25
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 16,
                                                 "end": 26
                                             },
@@ -92,16 +100,19 @@ for (let [x, ...[foo, bar]] = obj);
                                             "type": null,
                                             "right": null,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 26
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 26
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 27
                             },
@@ -111,19 +122,23 @@ for (let [x, ...[foo, bar]] = obj);
                                 "text": "obj",
                                 "rawText": "obj",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 33
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 8,
                             "end": 33
                         }
                     ],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 33
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 33
             },
@@ -133,16 +148,19 @@ for (let [x, ...[foo, bar]] = obj);
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 33,
                 "end": 33
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 35
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -151,6 +169,7 @@ for (let [x, ...[foo, bar]] = obj);
     "source": "for (let [x, ...[foo, bar]] = obj);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

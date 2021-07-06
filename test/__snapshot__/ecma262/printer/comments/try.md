@@ -32,6 +32,7 @@ finally { // Comment 8
             "tryKeyword": {
                 "kind": 37757027,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 16
             },
@@ -41,10 +42,12 @@ finally { // Comment 8
                     "kind": 249,
                     "statements": [],
                     "flags": 17,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 18
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 48
             },
@@ -53,6 +56,7 @@ finally { // Comment 8
                 "catchKeyword": {
                     "kind": 4202575,
                     "flags": 81,
+                    "transformFlags": 0,
                     "start": 48,
                     "end": 67
                 },
@@ -61,6 +65,7 @@ finally { // Comment 8
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 68,
                     "end": 69
                 },
@@ -70,20 +75,24 @@ finally { // Comment 8
                         "kind": 249,
                         "statements": [],
                         "flags": 17,
+                        "transformFlags": 0,
                         "start": 72,
                         "end": 72
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 70,
                     "end": 102
                 },
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 48,
                 "end": 102
             },
             "finallyKeyword": {
                 "kind": 37757016,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 102,
                 "end": 123
             },
@@ -93,14 +102,17 @@ finally { // Comment 8
                     "kind": 249,
                     "statements": [],
                     "flags": 17,
+                    "transformFlags": 0,
                     "start": 125,
                     "end": 125
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 123,
                 "end": 155
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 155
         }
@@ -109,6 +121,7 @@ finally { // Comment 8
     "source": "// Comment 1\ntry { // Comment 2\n  // Comment 3\n}\n// Comment 4\ncatch(e) { // Comment 5\n  // Comment 6\n}\n// Comment 7\nfinally { // Comment 8\n  // Comment 9\n}\n// Comment 10",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 169
 }

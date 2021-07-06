@@ -34,6 +34,7 @@ function f() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -43,6 +44,7 @@ function f() {
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -52,6 +54,7 @@ function f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -68,6 +71,7 @@ function f() {
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 22
                             },
@@ -76,6 +80,7 @@ function f() {
                                 "text": "C",
                                 "rawText": "C",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 24
                             },
@@ -93,6 +98,7 @@ function f() {
                                             "staticKeyword": {
                                                 "kind": 8388716,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 26,
                                                 "end": 37
                                             },
@@ -108,50 +114,61 @@ function f() {
                                                                 "text": "arguments",
                                                                 "rawText": "arguments",
                                                                 "flags": 97,
+                                                                "transformFlags": 0,
                                                                 "start": 39,
                                                                 "end": 55
                                                             },
                                                             "flags": 16,
+                                                            "transformFlags": 0,
                                                             "start": 39,
                                                             "end": 55
                                                         }
                                                     ],
                                                     "flags": 17,
+                                                    "transformFlags": 0,
                                                     "start": 39,
                                                     "end": 55
                                                 },
                                                 "flags": 26,
+                                                "transformFlags": 0,
                                                 "start": 0,
                                                 "end": 61
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 26,
                                             "end": 61
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 61
                                 },
                                 "flags": 24,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 65
                             },
                             "flags": 17,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 65
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 65
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 67
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 67
         }
@@ -160,6 +177,7 @@ function f() {
     "source": "function f() {\n  class C {\n    static {\n      arguments\n    }\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 67
 }

@@ -27,6 +27,7 @@ async (x = delete ((false) = f)) => {}
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,6 +43,7 @@ async (x = delete ((false) = f)) => {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         },
@@ -52,6 +54,7 @@ async (x = delete ((false) = f)) => {}
                             "operandToken": {
                                 "kind": 4259886,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 17
                             },
@@ -64,16 +67,19 @@ async (x = delete ((false) = f)) => {}
                                         "expression": {
                                             "kind": 205586437,
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 25
                                         },
                                         "flags": 19,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 26
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 28
                                     },
@@ -82,28 +88,34 @@ async (x = delete ((false) = f)) => {}
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 28,
                                         "end": 30
                                     },
                                     "flags": 0,
+                                    "transformFlags": 128,
                                     "start": 19,
                                     "end": 30
                                 },
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 31
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 31
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 31
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 32
             },
@@ -111,6 +123,7 @@ async (x = delete ((false) = f)) => {}
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 35
             },
@@ -121,14 +134,17 @@ async (x = delete ((false) = f)) => {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 37,
                     "end": 37
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 38
             },
             "flags": 290,
+            "transformFlags": 0,
             "start": 0,
             "end": 38
         }
@@ -137,6 +153,7 @@ async (x = delete ((false) = f)) => {}
     "source": "async (x = delete ((false) = f)) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 38
 }

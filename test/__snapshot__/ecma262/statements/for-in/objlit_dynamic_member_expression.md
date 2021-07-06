@@ -39,6 +39,7 @@ for ({}[b] in c) d;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -51,10 +52,12 @@ for ({}[b] in c) d;
                         "properties": [],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 6
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 5,
                     "end": 7
                 },
@@ -63,16 +66,19 @@ for ({}[b] in c) d;
                     "text": "b",
                     "rawText": "b",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 9
                 },
                 "flags": 536870944,
+                "transformFlags": 4,
                 "start": 0,
                 "end": 10
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 13
             },
@@ -81,6 +87,7 @@ for ({}[b] in c) d;
                 "text": "c",
                 "rawText": "c",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
@@ -91,14 +98,17 @@ for ({}[b] in c) d;
                     "text": "d",
                     "rawText": "d",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 18
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 19
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 19
         }
@@ -107,6 +117,7 @@ for ({}[b] in c) d;
     "source": "for ({}[b] in c) d;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 19
 }

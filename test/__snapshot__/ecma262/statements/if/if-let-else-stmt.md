@@ -20,12 +20,14 @@ if (true) let x; else ;
             "ifKeyword": {
                 "kind": 37757019,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
             "expression": {
                 "kind": 24752947,
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 8
             },
@@ -36,16 +38,19 @@ if (true) let x; else ;
                     "text": "let",
                     "rawText": "let",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 13
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 13
             },
             "elseKeyword": null,
             "alternate": null,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         },
@@ -56,16 +61,19 @@ if (true) let x; else ;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 16
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 21,
             "end": 23
         }
@@ -74,6 +82,7 @@ if (true) let x; else ;
     "source": "if (true) let x; else ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

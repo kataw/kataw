@@ -20,6 +20,7 @@ while(z) continue foo
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -28,6 +29,7 @@ while(z) continue foo
                 "text": "z",
                 "rawText": "z",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 7
             },
@@ -36,6 +38,7 @@ while(z) continue foo
                 "continueKeyword": {
                     "kind": 37757009,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 17
                 },
@@ -44,14 +47,17 @@ while(z) continue foo
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 21
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 21
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -60,6 +66,7 @@ while(z) continue foo
     "source": "while(z) continue foo",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

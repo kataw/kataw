@@ -29,12 +29,14 @@ function *f(x = (true) = f) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -43,6 +45,7 @@ function *f(x = (true) = f) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -58,6 +61,7 @@ function *f(x = (true) = f) {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
@@ -70,16 +74,19 @@ function *f(x = (true) = f) {}
                                 "expression": {
                                     "kind": 24752947,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 17,
                                     "end": 21
                                 },
                                 "flags": 15,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 22
                             },
                             "operatorToken": {
                                 "kind": 4125,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 24
                             },
@@ -88,20 +95,24 @@ function *f(x = (true) = f) {}
                                 "text": "f",
                                 "rawText": "f",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
                             },
                             "flags": 0,
+                            "transformFlags": 128,
                             "start": 15,
                             "end": 26
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 26
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 26
             },
@@ -112,15 +123,18 @@ function *f(x = (true) = f) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 29,
                     "end": 29
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 30
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -129,6 +143,7 @@ function *f(x = (true) = f) {}
     "source": "function *f(x = (true) = f) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

@@ -29,6 +29,7 @@ async (x = (do) = f) => {}
                 "text": "async",
                 "rawText": "async",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,12 +43,14 @@ async (x = (do) = f) => {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 8
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 10
                         },
@@ -58,24 +61,29 @@ async (x = (do) = f) => {}
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 12
                             },
                             "flags": 10,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 12
                         },
                         "flags": 32,
+                        "transformFlags": 128,
                         "start": 7,
                         "end": 12
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 0
             },
             "flags": 268435490,
+            "transformFlags": 1,
             "start": 0,
             "end": 12
         },
@@ -84,6 +92,7 @@ async (x = (do) = f) => {}
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 14
             },
@@ -94,10 +103,12 @@ async (x = (do) = f) => {}
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 14
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 14
             },
@@ -107,10 +118,12 @@ async (x = (do) = f) => {}
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 14
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 12,
             "end": 15
         },
@@ -121,10 +134,12 @@ async (x = (do) = f) => {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 19
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 17,
             "end": 19
         },
@@ -134,10 +149,12 @@ async (x = (do) = f) => {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 25,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 23,
             "end": 26
         }
@@ -146,6 +163,7 @@ async (x = (do) = f) => {}
     "source": "async (x = (do) = f) => {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

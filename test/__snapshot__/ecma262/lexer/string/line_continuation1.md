@@ -40,10 +40,12 @@ post"
                 "text": "",
                 "rawText": "\"\\\n\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -54,10 +56,12 @@ post"
                 "text": "pre",
                 "rawText": "\"pre\\\n\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 6,
             "end": 16
         },
@@ -68,10 +72,12 @@ post"
                 "text": "post",
                 "rawText": "\"\\\npost\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 16,
             "end": 27
         },
@@ -82,10 +88,12 @@ post"
                 "text": "prepost",
                 "rawText": "\"pre\\\npost\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 27,
             "end": 41
         },
@@ -96,10 +104,12 @@ post"
                 "text": "@{xd}@",
                 "rawText": "\"\\@{xd}@\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 41,
                 "end": 51
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 41,
             "end": 53
         },
@@ -110,10 +120,12 @@ post"
                 "text": "pre@{xd}@",
                 "rawText": "\"pre\\@{xd}@\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 53,
                 "end": 66
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 53,
             "end": 68
         },
@@ -124,10 +136,12 @@ post"
                 "text": "@{xd}@post",
                 "rawText": "\"\\@{xd}@post\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 68,
                 "end": 82
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 68,
             "end": 84
         },
@@ -138,10 +152,12 @@ post"
                 "text": "pre@{xd}@post",
                 "rawText": "\"pre\\@{xd}@post\"",
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 84,
                 "end": 101
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 84,
             "end": 101
         }
@@ -150,6 +166,7 @@ post"
     "source": "\"\\\n\"\n;\n\"pre\\\n\"\n;\n\"\\\npost\"\n;\n\"pre\\\npost\"\n;\n\"\\@{xd}@\"\n;\n\"pre\\@{xd}@\"\n;\n\"\\@{xd}@post\"\n;\n\"pre\\@{xd}@post\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 101
 }

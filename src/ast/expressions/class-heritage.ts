@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { ExpressionNode } from '.';
 import { TypeParameterInstantiation } from '../types/type-parameter-instantiation';
@@ -25,6 +25,7 @@ export function createClassHeritage(
     expression,
     typeParameter,
     flags: NodeFlags.IsStatement,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

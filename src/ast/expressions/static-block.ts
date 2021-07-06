@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { DecoratorList } from './decorator-list';
 import { BlockStatement } from '../statements/block-stmt';
@@ -28,6 +28,7 @@ export function createStaticBlock(
     staticKeyword,
     block,
     flags: NodeFlags.ExpressionNode,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

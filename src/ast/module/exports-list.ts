@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { ExportSpecifier } from './export-specifier';
 
 export interface ExportsList extends SyntaxNode {
@@ -10,6 +10,7 @@ export function createExportsList(specifiers: ExportSpecifier[], start: number, 
     kind: SyntaxKind.ExportsList,
     specifiers,
     flags: NodeFlags.IsStatement,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

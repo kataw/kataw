@@ -20,6 +20,7 @@ for (const [x, x] in {}) {}
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -28,6 +29,7 @@ for (const [x, x] in {}) {}
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 10
                 },
@@ -46,6 +48,7 @@ for (const [x, x] in {}) {}
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 13
                                         },
@@ -54,37 +57,44 @@ for (const [x, x] in {}) {}
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 16
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 16
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 17
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 10,
                             "end": 17
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 17
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 17
             },
             "inKeyword": {
                 "kind": 21006388,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 20
             },
@@ -95,10 +105,12 @@ for (const [x, x] in {}) {}
                     "properties": [],
                     "trailingComma": false,
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 22,
                     "end": 22
                 },
                 "flags": 48,
+                "transformFlags": 8,
                 "start": 20,
                 "end": 23
             },
@@ -108,14 +120,17 @@ for (const [x, x] in {}) {}
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 26
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 27
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -124,6 +139,7 @@ for (const [x, x] in {}) {}
     "source": "for (const [x, x] in {}) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

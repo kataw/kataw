@@ -23,6 +23,7 @@ var C = class { async method() {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,6 +37,7 @@ var C = class { async method() {
                             "text": "C",
                             "rawText": "C",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -46,6 +48,7 @@ var C = class { async method() {
                             "classKeyword": {
                                 "kind": 37822544,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 13
                             },
@@ -65,6 +68,7 @@ var C = class { async method() {
                                             "asyncKeyword": {
                                                 "kind": 82031,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 15,
                                                 "end": 21
                                             },
@@ -78,6 +82,7 @@ var C = class { async method() {
                                                     "text": "method",
                                                     "rawText": "method",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 21,
                                                     "end": 28
                                                 },
@@ -87,6 +92,7 @@ var C = class { async method() {
                                                     "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 256,
+                                                    "transformFlags": 0,
                                                     "start": 29,
                                                     "end": 30
                                                 },
@@ -104,6 +110,7 @@ var C = class { async method() {
                                                                     "operandToken": {
                                                                         "kind": 138477615,
                                                                         "flags": 97,
+                                                                        "transformFlags": 0,
                                                                         "start": 32,
                                                                         "end": 41
                                                                     },
@@ -112,6 +119,7 @@ var C = class { async method() {
                                                                         "awaitKeyword": {
                                                                             "kind": 82196,
                                                                             "flags": 64,
+                                                                            "transformFlags": 0,
                                                                             "start": 41,
                                                                             "end": 47
                                                                         },
@@ -120,61 +128,75 @@ var C = class { async method() {
                                                                             "text": "",
                                                                             "rawText": "",
                                                                             "flags": 64,
+                                                                            "transformFlags": 0,
                                                                             "start": 47,
                                                                             "end": 47
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 41,
                                                                         "end": 47
                                                                     },
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 32,
                                                                     "end": 47
                                                                 },
                                                                 "flags": 16,
+                                                                "transformFlags": 0,
                                                                 "start": 32,
                                                                 "end": 48
                                                             }
                                                         ],
                                                         "flags": 33,
+                                                        "transformFlags": 0,
                                                         "start": 32,
                                                         "end": 48
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 30,
                                                     "end": 50
                                                 },
                                                 "flags": 256,
+                                                "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 50
                                             },
                                             "flags": 256,
+                                            "transformFlags": 0,
                                             "start": 15,
                                             "end": 50
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 50
                                 },
                                 "flags": 13,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 51
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 51
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 51
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 51
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 52
         }
@@ -183,6 +205,7 @@ var C = class { async method() {
     "source": "var C = class { async method() {\n    void await;\n}};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 52
 }

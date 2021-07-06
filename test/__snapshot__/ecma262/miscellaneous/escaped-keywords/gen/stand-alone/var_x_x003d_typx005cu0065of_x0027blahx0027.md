@@ -28,6 +28,7 @@ var x = typ\u0065of 'blah'
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -41,6 +42,7 @@ var x = typ\u0065of 'blah'
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -50,6 +52,7 @@ var x = typ\u0065of 'blah'
                             "operandToken": {
                                 "kind": 138477613,
                                 "flags": 16480,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 19
                             },
@@ -58,23 +61,28 @@ var x = typ\u0065of 'blah'
                                 "text": "blah",
                                 "rawText": "'blah'",
                                 "flags": 4194400,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 26
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 26
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 26
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -83,6 +91,7 @@ var x = typ\u0065of 'blah'
     "source": "var x = typ\\u0065of 'blah'",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

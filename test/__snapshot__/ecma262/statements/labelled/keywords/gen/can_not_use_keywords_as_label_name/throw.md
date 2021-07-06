@@ -27,6 +27,7 @@ throw: x
             "throwKeyword": {
                 "kind": 37757026,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -35,10 +36,12 @@ throw: x
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 5
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 5
         },
@@ -49,10 +52,12 @@ throw: x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 6,
             "end": 8
         }
@@ -61,6 +66,7 @@ throw: x
     "source": "throw: x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 8
 }

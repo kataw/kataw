@@ -37,6 +37,7 @@
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 8
                                     },
@@ -46,6 +47,7 @@
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 14,
                                         "end": 20
                                     },
@@ -57,36 +59,44 @@
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 21
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 22
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 22
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 22
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 22
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 23
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 24
         }
@@ -95,6 +105,7 @@
     "source": "({/*1*/x/*2*/(/*3*/){}})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 24
 }

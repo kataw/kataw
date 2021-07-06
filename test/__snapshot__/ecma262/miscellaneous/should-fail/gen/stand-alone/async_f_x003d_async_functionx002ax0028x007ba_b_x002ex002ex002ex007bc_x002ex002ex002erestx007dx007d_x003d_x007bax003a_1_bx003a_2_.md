@@ -29,6 +29,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -38,6 +39,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -50,12 +52,14 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                         "text": "",
                         "rawText": "",
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 7
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 9
                     },
@@ -64,18 +68,21 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                         "asyncKeyword": {
                             "kind": 82031,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 15
                         },
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 24
                         },
                         "asteriskToken": {
                             "kind": 67143222,
                             "flags": 64,
+                            "transformFlags": 32,
                             "start": 24,
                             "end": 25
                         },
@@ -97,6 +104,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 27,
                                                     "end": 28
                                                 },
@@ -105,6 +113,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                     "text": "b",
                                                     "rawText": "b",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 29,
                                                     "end": 31
                                                 },
@@ -113,6 +122,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                     "ellipsisToken": {
                                                         "kind": 524302,
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 32,
                                                         "end": 36
                                                     },
@@ -121,6 +131,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                         "text": "",
                                                         "rawText": "",
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 36,
                                                         "end": 36
                                                     },
@@ -128,6 +139,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                     "type": null,
                                                     "right": null,
                                                     "flags": 0,
+                                                    "transformFlags": 0,
                                                     "start": 32,
                                                     "end": 36
                                                 },
@@ -138,6 +150,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                         "text": "",
                                                         "rawText": "",
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 36,
                                                         "end": 36
                                                     },
@@ -151,6 +164,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                                     "text": "c",
                                                                     "rawText": "c",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 37,
                                                                     "end": 38
                                                                 },
@@ -159,6 +173,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                                     "ellipsisToken": {
                                                                         "kind": 524302,
                                                                         "flags": 64,
+                                                                        "transformFlags": 0,
                                                                         "start": 39,
                                                                         "end": 43
                                                                     },
@@ -167,6 +182,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                                         "text": "rest",
                                                                         "rawText": "rest",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 43,
                                                                         "end": 47
                                                                     },
@@ -174,31 +190,37 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                                     "type": null,
                                                                     "right": null,
                                                                     "flags": 0,
+                                                                    "transformFlags": 0,
                                                                     "start": 39,
                                                                     "end": 47
                                                                 }
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 37,
                                                             "end": 47
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 36,
                                                         "end": 48
                                                     },
                                                     "initializer": null,
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 36,
                                                     "end": 48
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 27,
                                             "end": 48
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 49
                                     },
@@ -217,6 +239,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 53,
                                                         "end": 54
                                                     },
@@ -225,10 +248,12 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                         "text": 1,
                                                         "rawText": "1",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 55,
                                                         "end": 57
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 128,
                                                     "start": 53,
                                                     "end": 57
                                                 },
@@ -240,6 +265,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 58,
                                                         "end": 60
                                                     },
@@ -248,10 +274,12 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                         "text": 2,
                                                         "rawText": "2",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 61,
                                                         "end": 63
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 128,
                                                     "start": 58,
                                                     "end": 63
                                                 },
@@ -263,6 +291,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                         "text": "c",
                                                         "rawText": "c",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 64,
                                                         "end": 66
                                                     },
@@ -271,10 +300,12 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                         "text": 3,
                                                         "rawText": "3",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 67,
                                                         "end": 69
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 128,
                                                     "start": 64,
                                                     "end": 69
                                                 },
@@ -286,6 +317,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                         "text": "d",
                                                         "rawText": "d",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 70,
                                                         "end": 72
                                                     },
@@ -294,10 +326,12 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                         "text": 4,
                                                         "rawText": "4",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 73,
                                                         "end": 75
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 128,
                                                     "start": 70,
                                                     "end": 75
                                                 },
@@ -309,6 +343,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                         "text": "e",
                                                         "rawText": "e",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 76,
                                                         "end": 78
                                                     },
@@ -317,30 +352,36 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                         "text": 5,
                                                         "rawText": "5",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 79,
                                                         "end": 81
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 128,
                                                     "start": 76,
                                                     "end": 81
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 53,
                                             "end": 81
                                         },
                                         "flags": 48,
+                                        "transformFlags": 8,
                                         "start": 51,
                                         "end": 82
                                     },
                                     "flags": 34,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 82
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 82
                         },
@@ -351,27 +392,33 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 85,
                                 "end": 85
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 83,
                             "end": 86
                         },
                         "returnType": null,
                         "flags": 416,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 86
                     },
                     "flags": 0,
+                    "transformFlags": 128,
                     "start": 7,
                     "end": 86
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 86
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 86
         }
@@ -380,6 +427,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
     "source": "async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 5}) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 86
 }

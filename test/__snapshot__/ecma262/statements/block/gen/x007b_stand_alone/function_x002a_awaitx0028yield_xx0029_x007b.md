@@ -34,12 +34,14 @@
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 10
                         },
                         "asteriskToken": {
                             "kind": 67143222,
                             "flags": 64,
+                            "transformFlags": 32,
                             "start": 10,
                             "end": 12
                         },
@@ -48,6 +50,7 @@
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 18
                         },
@@ -60,6 +63,7 @@
                                     "text": "yield",
                                     "rawText": "yield",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 24
                                 },
@@ -68,12 +72,14 @@
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 26
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 26
                         },
@@ -84,21 +90,25 @@
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 27,
                                 "end": 27
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 27,
                             "end": 27
                         },
                         "returnType": null,
                         "flags": 272,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 27
                     },
                     {
                         "kind": 168,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 27,
                         "end": 29
                     },
@@ -108,19 +118,23 @@
                             "kind": 249,
                             "statements": [],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 31
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 31
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -129,6 +143,7 @@
     "source": "{ function * await(yield x) ; {",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

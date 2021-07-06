@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { ExportsList } from './exports-list';
 
 export interface NamedExports extends SyntaxNode {
@@ -15,6 +15,7 @@ export function createNamedExports(
     kind: SyntaxKind.NamedExports,
     exportsList,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

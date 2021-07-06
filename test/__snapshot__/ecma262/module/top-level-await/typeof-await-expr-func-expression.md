@@ -28,6 +28,7 @@ typeof await function() {};
                 "operandToken": {
                     "kind": 138477613,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
@@ -36,6 +37,7 @@ typeof await function() {};
                     "awaitKeyword": {
                         "kind": 82196,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 12
                     },
@@ -45,6 +47,7 @@ typeof await function() {};
                         "functionKeyword": {
                             "kind": 37822554,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 21
                         },
@@ -56,6 +59,7 @@ typeof await function() {};
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 22,
                             "end": 22
                         },
@@ -66,27 +70,33 @@ typeof await function() {};
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 25
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 23,
                             "end": 26
                         },
                         "returnType": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 26
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 26
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 26
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -95,6 +105,7 @@ typeof await function() {};
     "source": "typeof await function() {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

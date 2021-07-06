@@ -32,6 +32,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -53,6 +54,7 @@
                                     "getKeyword": {
                                         "kind": 16499,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 12
                                     },
@@ -64,6 +66,7 @@
                                             "text": "#await",
                                             "rawText": "#await",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 19
                                         },
@@ -76,12 +79,14 @@
                                                     "text": "test",
                                                     "rawText": "test",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 20,
                                                     "end": 24
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 608,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 25
                                         },
@@ -93,39 +98,48 @@
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 27,
                                                 "end": 27
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 25,
                                             "end": 28
                                         },
                                         "flags": 512,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 28
                                     },
                                     "flags": 512,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 28
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 28
                         },
                         "flags": 6,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 30
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 30
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -134,6 +148,7 @@
     "source": "(class { set #await(test) {} });",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

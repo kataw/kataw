@@ -31,12 +31,14 @@ function *f(){
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -45,6 +47,7 @@ function *f(){
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -54,6 +57,7 @@ function *f(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -68,6 +72,7 @@ function *f(){
                             "exportKeyword": {
                                 "kind": 4202582,
                                 "flags": 16465,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 28
                             },
@@ -77,20 +82,24 @@ function *f(){
                             "fromClause": null,
                             "exportKind": 0,
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 28
                         }
                     ],
                     "flags": 16417,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 28
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 28
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         },
@@ -101,10 +110,12 @@ function *f(){
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 32
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 30,
             "end": 32
         }
@@ -113,6 +124,7 @@ function *f(){
     "source": "function *f(){\n  \\u0065xport = x\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 34
 }

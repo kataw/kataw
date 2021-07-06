@@ -30,6 +30,7 @@ class Foo { x = arguments }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -38,6 +39,7 @@ class Foo { x = arguments }
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -59,6 +61,7 @@ class Foo { x = arguments }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 13
                             },
@@ -69,23 +72,28 @@ class Foo { x = arguments }
                                 "text": "arguments",
                                 "rawText": "arguments",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 25
                             },
                             "flags": 32,
+                            "transformFlags": 128,
                             "start": 11,
                             "end": 25
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 25
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -94,6 +102,7 @@ class Foo { x = arguments }
     "source": "class Foo { x = arguments }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

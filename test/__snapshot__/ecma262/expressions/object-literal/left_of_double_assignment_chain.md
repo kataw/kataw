@@ -31,6 +31,7 @@
                                     "text": "a",
                                     "rawText": "a",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 3
                                 },
@@ -39,22 +40,26 @@
                                     "text": "b",
                                     "rawText": "b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 4,
                                     "end": 6
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 6
                         },
                         "flags": 48,
+                        "transformFlags": 8,
                         "start": 1,
                         "end": 7
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 9
                     },
@@ -65,12 +70,14 @@
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 11
                         },
                         "operatorToken": {
                             "kind": 4125,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 13
                         },
@@ -79,22 +86,27 @@
                             "text": "d",
                             "rawText": "d",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 15
                         },
                         "flags": 0,
+                        "transformFlags": 128,
                         "start": 9,
                         "end": 15
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 1,
                     "end": 15
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 16
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -103,6 +115,7 @@
     "source": "({a, b} = c = d)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

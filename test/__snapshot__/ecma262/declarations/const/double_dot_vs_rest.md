@@ -39,6 +39,7 @@ const [..x] = obj;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -54,25 +55,30 @@ const [..x] = obj;
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 7
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 5,
                         "end": 7
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         },
@@ -83,10 +89,12 @@ const [..x] = obj;
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 9,
             "end": 10
         },
@@ -97,10 +105,12 @@ const [..x] = obj;
                 "text": "obj",
                 "rawText": "obj",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 18
         }
@@ -109,6 +119,7 @@ const [..x] = obj;
     "source": "const [..x] = obj;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

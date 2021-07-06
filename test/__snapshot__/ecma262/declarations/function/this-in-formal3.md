@@ -30,6 +30,7 @@ function one(this) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function one(this) {}
                 "text": "one",
                 "rawText": "one",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -54,6 +56,7 @@ function one(this) {}
                             "text": "this",
                             "rawText": "this",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 17
                         },
@@ -61,12 +64,14 @@ function one(this) {}
                         "type": null,
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 17
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 17
             },
@@ -77,15 +82,18 @@ function one(this) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 20
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 21
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -94,6 +102,7 @@ function one(this) {}
     "source": "function one(this) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

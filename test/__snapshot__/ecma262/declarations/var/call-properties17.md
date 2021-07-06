@@ -29,6 +29,7 @@ var b: { (x: number): number } = (x) => "hi"
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var b: { (x: number): number } = (x) => "hi"
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -68,6 +70,7 @@ var b: { (x: number): number } = (x) => "hi"
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 10,
                                                         "end": 11
                                                     },
@@ -79,20 +82,24 @@ var b: { (x: number): number } = (x) => "hi"
                                                         "type": {
                                                             "kind": 134234345,
                                                             "flags": 2097216,
+                                                            "transformFlags": 0,
                                                             "start": 12,
                                                             "end": 19
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 12,
                                                         "end": 19
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 10,
                                                     "end": 19
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 19
                                         },
@@ -103,24 +110,29 @@ var b: { (x: number): number } = (x) => "hi"
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 28
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 28
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 28
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 30
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 30
                         },
@@ -136,12 +148,14 @@ var b: { (x: number): number } = (x) => "hi"
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 35
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 36
                             },
@@ -149,6 +163,7 @@ var b: { (x: number): number } = (x) => "hi"
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 39
                             },
@@ -157,23 +172,28 @@ var b: { (x: number): number } = (x) => "hi"
                                 "text": "hi",
                                 "rawText": "\"hi\"",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 44
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 44
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 44
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 44
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 44
         }
@@ -182,6 +202,7 @@ var b: { (x: number): number } = (x) => "hi"
     "source": "var b: { (x: number): number } = (x) => \"hi\"",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 44
 }

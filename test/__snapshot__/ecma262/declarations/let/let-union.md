@@ -30,6 +30,7 @@
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 10
             },
@@ -43,6 +44,7 @@
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 10,
                             "end": 12
                         },
@@ -51,6 +53,7 @@
                             "bitwiseOrToken": {
                                 "kind": 134251592,
                                 "flags": 65,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 21
                             },
@@ -58,24 +61,29 @@
                             "type": {
                                 "kind": 134234347,
                                 "flags": 2097217,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 58
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 58
                         },
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 10,
                         "end": 58
                     }
                 ],
                 "flags": 17,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 58
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 59
         }
@@ -84,6 +92,7 @@
     "source": "\n      let x:\n      |\n       /* detached comment */ string;\n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 60
 }

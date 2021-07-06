@@ -35,14 +35,17 @@
                                 "kind": 132,
                                 "expressions": [],
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 10
                             },
                             "flags": 1,
+                            "transformFlags": 0,
                             "start": 34,
                             "end": 10
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 10
                     },
@@ -52,19 +55,23 @@
                             "kind": 249,
                             "statements": [],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 11
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 11
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 11
         }
@@ -73,6 +80,7 @@
     "source": "{( {switch{",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 11
 }

@@ -32,6 +32,7 @@
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 6
                     },
@@ -40,6 +41,7 @@
                         "text": "B",
                         "rawText": "B",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 8
                     },
@@ -51,6 +53,7 @@
                             "extendsKeyword": {
                                 "kind": 4194391,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 16
                             },
@@ -59,6 +62,7 @@
                                 "member": {
                                     "kind": 4259935,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 22
                                 },
@@ -67,15 +71,18 @@
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 26
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 16,
                                 "end": 26
                             },
                             "typeParameter": null,
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 26
                         },
@@ -83,22 +90,27 @@
                             "kind": 303,
                             "elements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 28
                         },
                         "flags": 8,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 29
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 29
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -107,6 +119,7 @@
     "source": "(class B extends super.foo {})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

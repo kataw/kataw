@@ -28,6 +28,7 @@ function f(){foo}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -37,6 +38,7 @@ function f(){foo}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -46,6 +48,7 @@ function f(){foo}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -62,24 +65,29 @@ function f(){foo}
                                 "text": "foo",
                                 "rawText": "foo",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 16
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 16
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 16
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 17
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -88,6 +96,7 @@ function f(){foo}
     "source": "function f(){foo}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

@@ -23,6 +23,7 @@ var foo = /* comment */ (
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -36,6 +37,7 @@ var foo = /* comment */ (
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -47,23 +49,28 @@ var foo = /* comment */ (
                                 "text": 42,
                                 "rawText": "42",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 25,
                                 "end": 32
                             },
                             "flags": 9,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 34
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 34
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -72,6 +79,7 @@ var foo = /* comment */ (
     "source": "var foo = /* comment */ (\n    42\n);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

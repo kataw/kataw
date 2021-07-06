@@ -41,22 +41,26 @@
                                         "text": "interface",
                                         "rawText": "interface",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 2,
                                         "end": 11
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 11
                             },
                             "flags": 48,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 12
                         }
                     ],
                     "trailingComma": false,
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 13
                 },
@@ -64,20 +68,24 @@
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 16
                 },
                 "contents": {
                     "kind": 138477575,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 21
                 },
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -86,6 +94,7 @@
     "source": "({interface}) => null",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

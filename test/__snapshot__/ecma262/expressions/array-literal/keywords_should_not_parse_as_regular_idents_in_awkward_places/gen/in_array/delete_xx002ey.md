@@ -34,6 +34,7 @@
                             "operandToken": {
                                 "kind": 4259886,
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 1,
                                 "end": 8
                             },
@@ -44,6 +45,7 @@
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 10
                                 },
@@ -52,28 +54,34 @@
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 12
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 8,
                                 "end": 12
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 1,
                             "end": 12
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 12
                 },
                 "flags": 32,
+                "transformFlags": 8,
                 "start": 0,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -82,6 +90,7 @@
     "source": "[ delete x.y ]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

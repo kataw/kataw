@@ -28,6 +28,7 @@ while (a);
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -40,6 +41,7 @@ while (a);
                         "text": "let",
                         "rawText": "let",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 6
                     },
@@ -48,20 +50,24 @@ while (a);
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 9
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 2,
                     "end": 10
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 10
             },
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 16
             },
@@ -70,10 +76,12 @@ while (a);
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 19
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -82,6 +90,7 @@ while (a);
     "source": "do let [x]\nwhile (a);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

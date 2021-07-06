@@ -32,6 +32,7 @@ declare function three(value :mixed) :boolean;
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
@@ -39,6 +40,7 @@ declare function three(value :mixed) :boolean;
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 16
             },
@@ -48,6 +50,7 @@ declare function three(value :mixed) :boolean;
                 "text": "one",
                 "rawText": "one",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 20
             },
@@ -63,6 +66,7 @@ declare function three(value :mixed) :boolean;
                             "text": "value",
                             "rawText": "value",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 21,
                             "end": 26
                         },
@@ -74,21 +78,25 @@ declare function three(value :mixed) :boolean;
                             "type": {
                                 "kind": 138477575,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 28,
                                 "end": 32
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 28,
                             "end": 32
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 21,
                         "end": 32
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 32
             },
@@ -100,20 +108,24 @@ declare function three(value :mixed) :boolean;
                 "type": {
                     "kind": 205586437,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 35,
                     "end": 40
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 35,
                 "end": 40
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 7,
             "end": 40
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 40,
             "end": 41
         },
@@ -122,6 +134,7 @@ declare function three(value :mixed) :boolean;
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 41,
                 "end": 50
             },
@@ -129,6 +142,7 @@ declare function three(value :mixed) :boolean;
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 50,
                 "end": 59
             },
@@ -138,6 +152,7 @@ declare function three(value :mixed) :boolean;
                 "text": "two",
                 "rawText": "two",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 59,
                 "end": 63
             },
@@ -153,6 +168,7 @@ declare function three(value :mixed) :boolean;
                             "text": "value",
                             "rawText": "value",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 64,
                             "end": 69
                         },
@@ -164,21 +180,25 @@ declare function three(value :mixed) :boolean;
                             "type": {
                                 "kind": 138477615,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 71,
                                 "end": 75
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 71,
                             "end": 75
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 64,
                         "end": 75
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 64,
                 "end": 75
             },
@@ -190,20 +210,24 @@ declare function three(value :mixed) :boolean;
                 "type": {
                     "kind": 205586437,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 78,
                     "end": 83
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 78,
                 "end": 83
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 50,
             "end": 83
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 83,
             "end": 84
         },
@@ -212,6 +236,7 @@ declare function three(value :mixed) :boolean;
             "declareKeyword": {
                 "kind": 82165,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 84,
                 "end": 93
             },
@@ -219,6 +244,7 @@ declare function three(value :mixed) :boolean;
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 93,
                 "end": 102
             },
@@ -228,6 +254,7 @@ declare function three(value :mixed) :boolean;
                 "text": "three",
                 "rawText": "three",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 102,
                 "end": 108
             },
@@ -243,6 +270,7 @@ declare function three(value :mixed) :boolean;
                             "text": "value",
                             "rawText": "value",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 109,
                             "end": 114
                         },
@@ -258,26 +286,31 @@ declare function three(value :mixed) :boolean;
                                     "text": "mixed",
                                     "rawText": "mixed",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 116,
                                     "end": 121
                                 },
                                 "typeParameters": null,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 116,
                                 "end": 121
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 116,
                             "end": 121
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 109,
                         "end": 121
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 109,
                 "end": 121
             },
@@ -289,20 +322,24 @@ declare function three(value :mixed) :boolean;
                 "type": {
                     "kind": 134234254,
                     "flags": 2097216,
+                    "transformFlags": 0,
                     "start": 124,
                     "end": 131
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 124,
                 "end": 131
             },
             "flags": 4112,
+            "transformFlags": 0,
             "start": 93,
             "end": 131
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 131,
             "end": 132
         }
@@ -311,6 +348,7 @@ declare function three(value :mixed) :boolean;
     "source": "declare function one(value :null) :false;\n\ndeclare function two(value :void) :false;\n\ndeclare function three(value :mixed) :boolean;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 132
 }

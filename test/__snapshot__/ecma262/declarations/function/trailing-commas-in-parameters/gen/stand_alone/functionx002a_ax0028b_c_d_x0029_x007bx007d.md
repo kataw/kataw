@@ -29,12 +29,14 @@ function* a(b,c,d,) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -43,6 +45,7 @@ function* a(b,c,d,) {}
                 "text": "a",
                 "rawText": "a",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 11
             },
@@ -55,6 +58,7 @@ function* a(b,c,d,) {}
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 13
                     },
@@ -63,6 +67,7 @@ function* a(b,c,d,) {}
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 15
                     },
@@ -71,12 +76,14 @@ function* a(b,c,d,) {}
                         "text": "d",
                         "rawText": "d",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 17
                     }
                 ],
                 "trailingComma": true,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 18
             },
@@ -87,15 +94,18 @@ function* a(b,c,d,) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 21
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 19,
                 "end": 22
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -104,6 +114,7 @@ function* a(b,c,d,) {}
     "source": "function* a(b,c,d,) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

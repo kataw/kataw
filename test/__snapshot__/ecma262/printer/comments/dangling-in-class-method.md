@@ -26,6 +26,7 @@ class Foo {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -34,6 +35,7 @@ class Foo {
                 "text": "Foo",
                 "rawText": "Foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 9
             },
@@ -60,6 +62,7 @@ class Foo {
                                     "text": "method",
                                     "rawText": "method",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 20
                                 },
@@ -69,6 +72,7 @@ class Foo {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 0,
+                                    "transformFlags": 0,
                                     "start": 21,
                                     "end": 36
                                 },
@@ -80,31 +84,38 @@ class Foo {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 38,
                                         "end": 38
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 36,
                                     "end": 39
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 39
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 39
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 39
                 },
                 "flags": 9,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 41
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 41
         }
@@ -113,6 +124,7 @@ class Foo {
     "source": "class Foo {\n  method(\n    // foo\n  ) {}\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 41
 }

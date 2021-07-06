@@ -24,6 +24,7 @@ z(z(z(a&&=)));
                     "text": "z",
                     "rawText": "z",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
@@ -37,6 +38,7 @@ z(z(z(a&&=)));
                                 "text": "z",
                                 "rawText": "z",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 3
                             },
@@ -50,6 +52,7 @@ z(z(z(a&&=)));
                                             "text": "z",
                                             "rawText": "z",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 4,
                                             "end": 5
                                         },
@@ -63,12 +66,14 @@ z(z(z(a&&=)));
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 6,
                                                         "end": 7
                                                     },
                                                     "operatorToken": {
                                                         "kind": 4139,
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 7,
                                                         "end": 10
                                                     },
@@ -77,44 +82,53 @@ z(z(z(a&&=)));
                                                         "text": "",
                                                         "rawText": "",
                                                         "flags": 64,
+                                                        "transformFlags": 0,
                                                         "start": 10,
                                                         "end": 10
                                                     },
                                                     "flags": 0,
+                                                    "transformFlags": 128,
                                                     "start": 6,
                                                     "end": 10
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 6,
                                             "end": 10
                                         },
                                         "flags": 268435488,
+                                        "transformFlags": 1,
                                         "start": 4,
                                         "end": 11
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 11
                             },
                             "flags": 268435488,
+                            "transformFlags": 1,
                             "start": 2,
                             "end": 12
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 12
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -123,6 +137,7 @@ z(z(z(a&&=)));
     "source": "z(z(z(a&&=)));",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

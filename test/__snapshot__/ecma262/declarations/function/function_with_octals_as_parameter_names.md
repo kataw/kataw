@@ -22,6 +22,7 @@ function foo(001, 003) { "use strict"; }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function foo(001, 003) { "use strict"; }
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -40,6 +42,7 @@ function foo(001, 003) { "use strict"; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
@@ -50,15 +53,18 @@ function foo(001, 003) { "use strict"; }
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 13
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 13
         },
@@ -72,6 +78,7 @@ function foo(001, 003) { "use strict"; }
                         "text": 1,
                         "rawText": "001",
                         "flags": 131168,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 16
                     },
@@ -80,15 +87,18 @@ function foo(001, 003) { "use strict"; }
                         "text": 3,
                         "rawText": "003",
                         "flags": 131168,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 21
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 21
         },
@@ -104,19 +114,23 @@ function foo(001, 003) { "use strict"; }
                             "text": "use strict",
                             "rawText": "\"use strict\"",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 24,
                             "end": 37
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 38
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 38
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 22,
             "end": 40
         }
@@ -125,6 +139,7 @@ function foo(001, 003) { "use strict"; }
     "source": "function foo(001, 003) { \"use strict\"; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }

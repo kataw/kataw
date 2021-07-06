@@ -37,6 +37,7 @@ function f2() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -46,6 +47,7 @@ function f2() {
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -55,6 +57,7 @@ function f2() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 11
             },
@@ -69,6 +72,7 @@ function f2() {
                             "lexicalKeyword": {
                                 "kind": 37757004,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 22
                             },
@@ -82,6 +86,7 @@ function f2() {
                                             "text": "appEntities",
                                             "rawText": "appEntities",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 34
                                         },
@@ -97,6 +102,7 @@ function f2() {
                                                         "text": "getAppEntities",
                                                         "rawText": "getAppEntities",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 36,
                                                         "end": 51
                                                     },
@@ -108,16 +114,19 @@ function f2() {
                                                                 "text": "loadObject",
                                                                 "rawText": "loadObject",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 52,
                                                                 "end": 62
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 52,
                                                         "end": 62
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 1,
                                                     "start": 36,
                                                     "end": 63
                                                 },
@@ -126,10 +135,12 @@ function f2() {
                                                     "text": "filter",
                                                     "rawText": "filter",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 64,
                                                     "end": 70
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 2,
                                                 "start": 36,
                                                 "end": 70
                                             },
@@ -145,6 +156,7 @@ function f2() {
                                                             "text": "entity",
                                                             "rawText": "entity",
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 71,
                                                             "end": 82
                                                         },
@@ -152,6 +164,7 @@ function f2() {
                                                         "arrowToken": {
                                                             "kind": 10,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 82,
                                                             "end": 85
                                                         },
@@ -166,12 +179,14 @@ function f2() {
                                                                         "text": "entity",
                                                                         "rawText": "entity",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 85,
                                                                         "end": 92
                                                                     },
                                                                     "operatorToken": {
                                                                         "kind": 33594,
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 92,
                                                                         "end": 95
                                                                     },
@@ -184,6 +199,7 @@ function f2() {
                                                                                 "text": "entity",
                                                                                 "rawText": "entity",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 95,
                                                                                 "end": 102
                                                                             },
@@ -192,10 +208,12 @@ function f2() {
                                                                                 "text": "isInstallAvailable",
                                                                                 "rawText": "isInstallAvailable",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 103,
                                                                                 "end": 121
                                                                             },
                                                                             "flags": 96,
+                                                                            "transformFlags": 2,
                                                                             "start": 95,
                                                                             "end": 121
                                                                         },
@@ -204,20 +222,24 @@ function f2() {
                                                                             "elements": [],
                                                                             "trailingComma": false,
                                                                             "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 122,
                                                                             "end": 122
                                                                         },
                                                                         "flags": 268435488,
+                                                                        "transformFlags": 1,
                                                                         "start": 95,
                                                                         "end": 123
                                                                     },
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 85,
                                                                     "end": 123
                                                                 },
                                                                 "operatorToken": {
                                                                     "kind": 33594,
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 123,
                                                                     "end": 126
                                                                 },
@@ -226,6 +248,7 @@ function f2() {
                                                                     "operandToken": {
                                                                         "kind": 65584,
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 126,
                                                                         "end": 128
                                                                     },
@@ -238,6 +261,7 @@ function f2() {
                                                                                 "text": "entity",
                                                                                 "rawText": "entity",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 128,
                                                                                 "end": 134
                                                                             },
@@ -246,10 +270,12 @@ function f2() {
                                                                                 "text": "isQueue",
                                                                                 "rawText": "isQueue",
                                                                                 "flags": 96,
+                                                                                "transformFlags": 0,
                                                                                 "start": 135,
                                                                                 "end": 142
                                                                             },
                                                                             "flags": 96,
+                                                                            "transformFlags": 2,
                                                                             "start": 128,
                                                                             "end": 142
                                                                         },
@@ -258,24 +284,29 @@ function f2() {
                                                                             "elements": [],
                                                                             "trailingComma": false,
                                                                             "flags": 32,
+                                                                            "transformFlags": 0,
                                                                             "start": 143,
                                                                             "end": 143
                                                                         },
                                                                         "flags": 268435488,
+                                                                        "transformFlags": 1,
                                                                         "start": 128,
                                                                         "end": 144
                                                                     },
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 126,
                                                                     "end": 144
                                                                 },
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 85,
                                                                 "end": 144
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 33594,
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 144,
                                                                 "end": 147
                                                             },
@@ -288,6 +319,7 @@ function f2() {
                                                                         "text": "entity",
                                                                         "rawText": "entity",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 147,
                                                                         "end": 154
                                                                     },
@@ -296,10 +328,12 @@ function f2() {
                                                                         "text": "isDisabled",
                                                                         "rawText": "isDisabled",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 155,
                                                                         "end": 165
                                                                     },
                                                                     "flags": 96,
+                                                                    "transformFlags": 2,
                                                                     "start": 147,
                                                                     "end": 165
                                                                 },
@@ -308,55 +342,67 @@ function f2() {
                                                                     "elements": [],
                                                                     "trailingComma": false,
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 166,
                                                                     "end": 166
                                                                 },
                                                                 "flags": 268435488,
+                                                                "transformFlags": 1,
                                                                 "start": 147,
                                                                 "end": 167
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 85,
                                                             "end": 167
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 71,
                                                         "end": 167
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 71,
                                                 "end": 167
                                             },
                                             "flags": 268435488,
+                                            "transformFlags": 1,
                                             "start": 36,
                                             "end": 171
                                         },
                                         "flags": 16,
+                                        "transformFlags": 128,
                                         "start": 22,
                                         "end": 171
                                     }
                                 ],
                                 "flags": 16777232,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 171
                             },
                             "flags": 33554448,
+                            "transformFlags": 0,
                             "start": 14,
                             "end": 171
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 171
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 173
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 173
         },
@@ -367,6 +413,7 @@ function f2() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 173,
                 "end": 183
             },
@@ -376,6 +423,7 @@ function f2() {
                 "text": "f2",
                 "rawText": "f2",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 183,
                 "end": 186
             },
@@ -385,6 +433,7 @@ function f2() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 187,
                 "end": 187
             },
@@ -399,6 +448,7 @@ function f2() {
                             "lexicalKeyword": {
                                 "kind": 37757004,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 190,
                                 "end": 198
                             },
@@ -412,6 +462,7 @@ function f2() {
                                             "text": "appEntities",
                                             "rawText": "appEntities",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 198,
                                             "end": 210
                                         },
@@ -427,6 +478,7 @@ function f2() {
                                                         "text": "getAppEntities",
                                                         "rawText": "getAppEntities",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 212,
                                                         "end": 227
                                                     },
@@ -438,16 +490,19 @@ function f2() {
                                                                 "text": "loadObject",
                                                                 "rawText": "loadObject",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 228,
                                                                 "end": 238
                                                             }
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 228,
                                                         "end": 238
                                                     },
                                                     "flags": 268435488,
+                                                    "transformFlags": 1,
                                                     "start": 212,
                                                     "end": 239
                                                 },
@@ -456,10 +511,12 @@ function f2() {
                                                     "text": "map",
                                                     "rawText": "map",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 240,
                                                     "end": 243
                                                 },
                                                 "flags": 268435488,
+                                                "transformFlags": 2,
                                                 "start": 212,
                                                 "end": 243
                                             },
@@ -475,6 +532,7 @@ function f2() {
                                                             "text": "entity",
                                                             "rawText": "entity",
                                                             "flags": 97,
+                                                            "transformFlags": 0,
                                                             "start": 244,
                                                             "end": 255
                                                         },
@@ -482,6 +540,7 @@ function f2() {
                                                         "arrowToken": {
                                                             "kind": 10,
                                                             "flags": 64,
+                                                            "transformFlags": 0,
                                                             "start": 255,
                                                             "end": 258
                                                         },
@@ -498,12 +557,14 @@ function f2() {
                                                                             "text": "entity",
                                                                             "rawText": "entity",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 258,
                                                                             "end": 265
                                                                         },
                                                                         "operatorToken": {
                                                                             "kind": 33594,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 265,
                                                                             "end": 268
                                                                         },
@@ -516,6 +577,7 @@ function f2() {
                                                                                     "text": "entity",
                                                                                     "rawText": "entity",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 268,
                                                                                     "end": 275
                                                                                 },
@@ -524,10 +586,12 @@ function f2() {
                                                                                     "text": "isInstallAvailable",
                                                                                     "rawText": "isInstallAvailable",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 276,
                                                                                     "end": 294
                                                                                 },
                                                                                 "flags": 96,
+                                                                                "transformFlags": 2,
                                                                                 "start": 268,
                                                                                 "end": 294
                                                                             },
@@ -536,20 +600,24 @@ function f2() {
                                                                                 "elements": [],
                                                                                 "trailingComma": false,
                                                                                 "flags": 32,
+                                                                                "transformFlags": 0,
                                                                                 "start": 295,
                                                                                 "end": 295
                                                                             },
                                                                             "flags": 268435488,
+                                                                            "transformFlags": 1,
                                                                             "start": 268,
                                                                             "end": 296
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 258,
                                                                         "end": 296
                                                                     },
                                                                     "operatorToken": {
                                                                         "kind": 33594,
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 296,
                                                                         "end": 299
                                                                     },
@@ -558,6 +626,7 @@ function f2() {
                                                                         "operandToken": {
                                                                             "kind": 65584,
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 299,
                                                                             "end": 301
                                                                         },
@@ -570,6 +639,7 @@ function f2() {
                                                                                     "text": "entity",
                                                                                     "rawText": "entity",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 301,
                                                                                     "end": 307
                                                                                 },
@@ -578,10 +648,12 @@ function f2() {
                                                                                     "text": "isQueue",
                                                                                     "rawText": "isQueue",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 308,
                                                                                     "end": 315
                                                                                 },
                                                                                 "flags": 96,
+                                                                                "transformFlags": 2,
                                                                                 "start": 301,
                                                                                 "end": 315
                                                                             },
@@ -590,24 +662,29 @@ function f2() {
                                                                                 "elements": [],
                                                                                 "trailingComma": false,
                                                                                 "flags": 32,
+                                                                                "transformFlags": 0,
                                                                                 "start": 316,
                                                                                 "end": 316
                                                                             },
                                                                             "flags": 268435488,
+                                                                            "transformFlags": 1,
                                                                             "start": 301,
                                                                             "end": 317
                                                                         },
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 299,
                                                                         "end": 317
                                                                     },
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 258,
                                                                     "end": 317
                                                                 },
                                                                 "operatorToken": {
                                                                     "kind": 33594,
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 317,
                                                                     "end": 320
                                                                 },
@@ -620,6 +697,7 @@ function f2() {
                                                                             "text": "entity",
                                                                             "rawText": "entity",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 320,
                                                                             "end": 327
                                                                         },
@@ -628,10 +706,12 @@ function f2() {
                                                                             "text": "isDisabled",
                                                                             "rawText": "isDisabled",
                                                                             "flags": 96,
+                                                                            "transformFlags": 0,
                                                                             "start": 328,
                                                                             "end": 338
                                                                         },
                                                                         "flags": 96,
+                                                                        "transformFlags": 2,
                                                                         "start": 320,
                                                                         "end": 338
                                                                     },
@@ -640,20 +720,24 @@ function f2() {
                                                                         "elements": [],
                                                                         "trailingComma": false,
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 339,
                                                                         "end": 339
                                                                     },
                                                                     "flags": 268435488,
+                                                                    "transformFlags": 1,
                                                                     "start": 320,
                                                                     "end": 340
                                                                 },
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 258,
                                                                 "end": 340
                                                             },
                                                             "operatorToken": {
                                                                 "kind": 33594,
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 340,
                                                                 "end": 343
                                                             },
@@ -670,6 +754,7 @@ function f2() {
                                                                                 "text": "id",
                                                                                 "rawText": "id",
                                                                                 "flags": 97,
+                                                                                "transformFlags": 0,
                                                                                 "start": 345,
                                                                                 "end": 354
                                                                             },
@@ -680,6 +765,7 @@ function f2() {
                                                                                     "text": "entity",
                                                                                     "rawText": "entity",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 355,
                                                                                     "end": 362
                                                                                 },
@@ -688,69 +774,84 @@ function f2() {
                                                                                     "text": "id",
                                                                                     "rawText": "id",
                                                                                     "flags": 96,
+                                                                                    "transformFlags": 0,
                                                                                     "start": 363,
                                                                                     "end": 365
                                                                                 },
                                                                                 "flags": 96,
+                                                                                "transformFlags": 2,
                                                                                 "start": 345,
                                                                                 "end": 365
                                                                             },
                                                                             "flags": 33,
+                                                                            "transformFlags": 128,
                                                                             "start": 345,
                                                                             "end": 365
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
                                                                     "flags": 17,
+                                                                    "transformFlags": 0,
                                                                     "start": 345,
                                                                     "end": 365
                                                                 },
                                                                 "flags": 49,
+                                                                "transformFlags": 8,
                                                                 "start": 343,
                                                                 "end": 371
                                                             },
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 258,
                                                             "end": 371
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 244,
                                                         "end": 371
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 244,
                                                 "end": 371
                                             },
                                             "flags": 268435488,
+                                            "transformFlags": 1,
                                             "start": 212,
                                             "end": 375
                                         },
                                         "flags": 16,
+                                        "transformFlags": 128,
                                         "start": 198,
                                         "end": 375
                                     }
                                 ],
                                 "flags": 16777232,
+                                "transformFlags": 0,
                                 "start": 198,
                                 "end": 375
                             },
                             "flags": 33554448,
+                            "transformFlags": 0,
                             "start": 190,
                             "end": 375
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 190,
                     "end": 375
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 188,
                 "end": 377
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 173,
             "end": 377
         },
@@ -772,12 +873,14 @@ function f2() {
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 381,
                                     "end": 382
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 381,
                             "end": 383
                         },
@@ -785,6 +888,7 @@ function f2() {
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 383,
                             "end": 386
                         },
@@ -793,20 +897,24 @@ function f2() {
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 386,
                             "end": 388
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 380,
                         "end": 388
                     },
                     "flags": 377,
+                    "transformFlags": 0,
                     "start": 33,
                     "end": 389
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 389,
                     "end": 391
                 },
@@ -815,14 +923,17 @@ function f2() {
                     "text": "",
                     "rawText": "''",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 391,
                     "end": 394
                 },
                 "flags": 377,
+                "transformFlags": 0,
                 "start": 377,
                 "end": 394
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 377,
             "end": 395
         },
@@ -835,12 +946,14 @@ function f2() {
                     "text": "",
                     "rawText": "''",
                     "flags": 4194401,
+                    "transformFlags": 0,
                     "start": 395,
                     "end": 398
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 398,
                     "end": 400
                 },
@@ -858,12 +971,14 @@ function f2() {
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 403,
                                     "end": 404
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 403,
                             "end": 405
                         },
@@ -871,6 +986,7 @@ function f2() {
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 405,
                             "end": 408
                         },
@@ -879,22 +995,27 @@ function f2() {
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 408,
                             "end": 410
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 402,
                         "end": 410
                     },
                     "flags": 400,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 411
                 },
                 "flags": 4194401,
+                "transformFlags": 0,
                 "start": 395,
                 "end": 411
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 395,
             "end": 412
         }
@@ -903,6 +1024,7 @@ function f2() {
     "source": "function f() {\n  const appEntities = getAppEntities(loadObject).filter(\n    entity => entity && entity.isInstallAvailable() && !entity.isQueue() && entity.isDisabled()\n  )\n}\n\nfunction f2() {\n  const appEntities = getAppEntities(loadObject).map(\n    entity => entity && entity.isInstallAvailable() && !entity.isQueue() && entity.isDisabled() && {\n      id: entity.id\n    }\n  )\n}\n\n((x) => x) + '';\n'' + ((x) => x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 412
 }
@@ -914,18 +1036,25 @@ function f2() {
 
 function f() {
   const appEntities = getAppEntities(loadObject).filter(entity =>
-      entity &&  entity.isInstallAvailable() &&  !entity.isQueue() &&  entity.isDisabled());
+      entity &&
+      entity.isInstallAvailable() &&
+      !entity.isQueue() &&
+      entity.isDisabled());
 }
 function f2() {
   const appEntities = getAppEntities(loadObject).map(entity =>
-      entity &&  entity.isInstallAvailable() &&  !entity.isQueue() &&  entity.isDisabled() &&  {
+      entity &&
+      entity.isInstallAvailable() &&
+      !entity.isQueue() &&
+      entity.isDisabled() &&
+      {
         id: entity.id
       });
 }
 
-((x) => x) +  '\'\'';
+((x) => x) + '\'\'';
 
-'\'\'' +  ((x) => x);
+'\'\'' + ((x) => x);
 
 ```
 

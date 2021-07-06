@@ -28,6 +28,7 @@ void await [];
                 "operandToken": {
                     "kind": 138477615,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
@@ -36,6 +37,7 @@ void await [];
                     "awaitKeyword": {
                         "kind": 82196,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 10
                     },
@@ -46,22 +48,27 @@ void await [];
                             "elements": [],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 12
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 10,
                         "end": 13
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 13
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 13
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -70,6 +77,7 @@ void await [];
     "source": "void await [];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

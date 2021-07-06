@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 
 export interface StringLiteral extends SyntaxNode {
   readonly kind: SyntaxKind.StringLiteral;
@@ -18,6 +18,7 @@ export function createStringLiteral(
     text,
     rawText,
     flags,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

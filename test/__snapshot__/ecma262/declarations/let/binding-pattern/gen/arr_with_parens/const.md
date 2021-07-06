@@ -27,6 +27,7 @@ const [(x)] = v
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -42,25 +43,30 @@ const [(x)] = v
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 7
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 7
                         },
                         "type": null,
                         "initializer": null,
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 5,
                         "end": 7
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         },
@@ -73,14 +79,17 @@ const [(x)] = v
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 9
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 10
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 7,
             "end": 10
         },
@@ -91,10 +100,12 @@ const [(x)] = v
                 "text": "v",
                 "rawText": "v",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 13,
             "end": 15
         }
@@ -103,6 +114,7 @@ const [(x)] = v
     "source": "const [(x)] = v",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

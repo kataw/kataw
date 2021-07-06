@@ -29,6 +29,7 @@ async x => ok[foo]
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -38,6 +39,7 @@ async x => ok[foo]
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
@@ -45,6 +47,7 @@ async x => ok[foo]
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 10
                 },
@@ -55,6 +58,7 @@ async x => ok[foo]
                         "text": "ok",
                         "rawText": "ok",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 13
                     },
@@ -63,18 +67,22 @@ async x => ok[foo]
                         "text": "foo",
                         "rawText": "foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 17
                     },
                     "flags": 536870944,
+                    "transformFlags": 4,
                     "start": 10,
                     "end": 18
                 },
                 "flags": 288,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -83,6 +91,7 @@ async x => ok[foo]
     "source": "async x => ok[foo]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

@@ -32,12 +32,14 @@ x = class Foo { static x = class extends this {} }
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -47,6 +49,7 @@ x = class Foo { static x = class extends this {} }
                     "classKeyword": {
                         "kind": 37822544,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 9
                     },
@@ -55,6 +58,7 @@ x = class Foo { static x = class extends this {} }
                         "text": "Foo",
                         "rawText": "Foo",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 13
                     },
@@ -72,6 +76,7 @@ x = class Foo { static x = class extends this {} }
                                     "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 22
                                     },
@@ -81,6 +86,7 @@ x = class Foo { static x = class extends this {} }
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 24
                                     },
@@ -92,6 +98,7 @@ x = class Foo { static x = class extends this {} }
                                         "classKeyword": {
                                             "kind": 37822544,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 26,
                                             "end": 32
                                         },
@@ -104,17 +111,20 @@ x = class Foo { static x = class extends this {} }
                                                 "extendsKeyword": {
                                                     "kind": 4194391,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 32,
                                                     "end": 40
                                                 },
                                                 "expression": {
                                                     "kind": 4276321,
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 40,
                                                     "end": 45
                                                 },
                                                 "typeParameter": null,
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 40,
                                                 "end": 45
                                             },
@@ -122,39 +132,48 @@ x = class Foo { static x = class extends this {} }
                                                 "kind": 303,
                                                 "elements": [],
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 47,
                                                 "end": 47
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 48
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 48
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 22,
                                     "end": 48
                                 }
                             ],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 48
                         },
                         "flags": 13,
+                        "transformFlags": 0,
                         "start": 32,
                         "end": 50
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 50
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 50
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 50
         }
@@ -163,6 +182,7 @@ x = class Foo { static x = class extends this {} }
     "source": "x = class Foo { static x = class extends this {} }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 50
 }

@@ -24,12 +24,14 @@ f = (interface) => { "use strict"; }
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -45,12 +47,14 @@ f = (interface) => { "use strict"; }
                                 "text": "interface",
                                 "rawText": "interface",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 14
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 15
                     },
@@ -58,6 +62,7 @@ f = (interface) => { "use strict"; }
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 18
                     },
@@ -71,28 +76,34 @@ f = (interface) => { "use strict"; }
                                     "text": "use strict",
                                     "rawText": "\"use strict\"",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 33
                                 }
                             ],
                             "statements": [],
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 34
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 36
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 3,
                     "end": 36
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -101,6 +112,7 @@ f = (interface) => { "use strict"; }
     "source": "f = (interface) => { \"use strict\"; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

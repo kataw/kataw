@@ -34,6 +34,7 @@ a.b<T>(e)
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 0,
                             "end": 1
                         },
@@ -42,16 +43,19 @@ a.b<T>(e)
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 3
                         },
                         "flags": 96,
+                        "transformFlags": 2,
                         "start": 0,
                         "end": 3
                     },
                     "operatorToken": {
                         "kind": 536971330,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 3,
                         "end": 4
                     },
@@ -60,16 +64,19 @@ a.b<T>(e)
                         "text": "T",
                         "rawText": "T",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 5
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
                 "operatorToken": {
                     "kind": 34883,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 6
                 },
@@ -80,18 +87,22 @@ a.b<T>(e)
                         "text": "e",
                         "rawText": "e",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 7,
                         "end": 8
                     },
                     "flags": 6,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 9
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 9
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 9
         }
@@ -100,6 +111,7 @@ a.b<T>(e)
     "source": "a.b<T>(e)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 9
 }
@@ -109,7 +121,7 @@ a.b<T>(e)
 
 ```javascript
 
-a.b  <  T >  (e);
+a.b  < T > (e);
 ```
 
 ### Diagnostics

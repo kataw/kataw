@@ -29,6 +29,7 @@ type Fn1 = <T>(T) => T;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type Fn1 = <T>(T) => T;
                 "text": "Fn1",
                 "rawText": "Fn1",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 8
             },
@@ -44,6 +46,7 @@ type Fn1 = <T>(T) => T;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -65,6 +68,7 @@ type Fn1 = <T>(T) => T;
                                         "text": "T",
                                         "rawText": "T",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 13
                                     },
@@ -72,16 +76,19 @@ type Fn1 = <T>(T) => T;
                                     "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 12,
                                     "end": 13
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 10,
                         "end": 14
                     },
@@ -100,27 +107,32 @@ type Fn1 = <T>(T) => T;
                                         "text": "T",
                                         "rawText": "T",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 15,
                                         "end": 16
                                     },
                                     "typeParameters": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 15,
                                     "end": 16
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 16
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 16
                     },
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
+                        "transformFlags": 0,
                         "start": 17,
                         "end": 20
                     },
@@ -135,27 +147,33 @@ type Fn1 = <T>(T) => T;
                                 "text": "T",
                                 "rawText": "T",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 22
                             },
                             "typeParameters": null,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 22
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 22
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 22
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 22
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -164,6 +182,7 @@ type Fn1 = <T>(T) => T;
     "source": "type Fn1 = <T>(T) => T;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

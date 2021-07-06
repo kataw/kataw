@@ -22,10 +22,12 @@
                 "text": "use strict",
                 "rawText": "\"use\\x20strict\"",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         }
@@ -34,6 +36,7 @@
     "source": "\"use\\x20strict\";",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 16
 }

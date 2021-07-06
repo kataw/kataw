@@ -23,12 +23,14 @@ null?.fn
                 "chainToken": {
                     "kind": 393240,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 6
                 },
                 "member": {
                     "kind": 138477575,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
@@ -44,14 +46,17 @@ null?.fn
                                 "text": "fn",
                                 "rawText": "fn",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 8
                             },
                             "flags": 536870944,
+                            "transformFlags": 2,
                             "start": 6,
                             "end": 8
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 8
                     },
@@ -60,18 +65,22 @@ null?.fn
                         "text": "hello",
                         "rawText": "hello",
                         "flags": 134217824,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 18
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 18
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -80,6 +89,7 @@ null?.fn
     "source": "null?.fn\n  `hello`",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

@@ -25,6 +25,7 @@ function bar(a = v[1 + 1]) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -34,6 +35,7 @@ function bar(a = v[1 + 1]) {
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -49,6 +51,7 @@ function bar(a = v[1 + 1]) {
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 14
                         },
@@ -61,6 +64,7 @@ function bar(a = v[1 + 1]) {
                                 "text": "v",
                                 "rawText": "v",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 18
                             },
@@ -71,12 +75,14 @@ function bar(a = v[1 + 1]) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 20
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 22
                                 },
@@ -85,24 +91,29 @@ function bar(a = v[1 + 1]) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 24
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 24
                             },
                             "flags": 536870944,
+                            "transformFlags": 4,
                             "start": 16,
                             "end": 25
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 25
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 25
             },
@@ -113,15 +124,18 @@ function bar(a = v[1 + 1]) {
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 28
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 30
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         },
@@ -132,6 +146,7 @@ function bar(a = v[1 + 1]) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 30,
                 "end": 40
             },
@@ -141,6 +156,7 @@ function bar(a = v[1 + 1]) {
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 40,
                 "end": 44
             },
@@ -156,6 +172,7 @@ function bar(a = v[1 + 1]) {
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 45,
                             "end": 46
                         },
@@ -168,6 +185,7 @@ function bar(a = v[1 + 1]) {
                                 "text": "v",
                                 "rawText": "v",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 48,
                                 "end": 50
                             },
@@ -178,12 +196,14 @@ function bar(a = v[1 + 1]) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 51,
                                     "end": 52
                                 },
                                 "operatorToken": {
                                     "kind": 99634,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 52,
                                     "end": 54
                                 },
@@ -192,24 +212,29 @@ function bar(a = v[1 + 1]) {
                                     "text": 1,
                                     "rawText": "1",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 54,
                                     "end": 56
                                 },
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 51,
                                 "end": 56
                             },
                             "flags": 536870944,
+                            "transformFlags": 4,
                             "start": 48,
                             "end": 57
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 45,
                         "end": 57
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 45,
                 "end": 57
             },
@@ -220,15 +245,18 @@ function bar(a = v[1 + 1]) {
                     "directives": [],
                     "statements": [],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 60,
                     "end": 60
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 58,
                 "end": 62
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 30,
             "end": 62
         }
@@ -237,6 +265,7 @@ function bar(a = v[1 + 1]) {
     "source": "function foo(a = v[1 + 1]) { }\n\nfunction bar(a = v[1 + 1]) {\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 62
 }
@@ -246,8 +275,8 @@ function bar(a = v[1 + 1]) {
 
 ```javascript
 
-function foo(a = v[1 +  1]) {}
-function bar(a = v[1 +  1]) {}
+function foo(a = v[1 + 1]) {}
+function bar(a = v[1 + 1]) {}
 
 ```
 

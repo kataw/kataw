@@ -25,12 +25,14 @@
                     "text": "ignore me",
                     "rawText": "\"ignore me\"",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 11
                 },
                 "operatorToken": {
                     "kind": 99634,
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 13
                 },
@@ -39,14 +41,17 @@
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 13,
                     "end": 15
                 },
                 "flags": 97,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -55,6 +60,7 @@
     "source": "\"ignore me\"\n+ x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }
@@ -64,7 +70,7 @@
 
 ```javascript
 
-"\"ignore me\"" +  x;
+"\"ignore me\"" + x;
 ```
 
 ### Diagnostics

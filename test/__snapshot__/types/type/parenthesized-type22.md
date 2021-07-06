@@ -29,6 +29,7 @@ type X = ((1))
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type X = ((1))
                 "text": "X",
                 "rawText": "X",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 6
             },
@@ -44,6 +46,7 @@ type X = ((1))
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 8
             },
@@ -62,22 +65,27 @@ type X = ((1))
                             "text": 1,
                             "rawText": "1",
                             "flags": 2097216,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 12
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 12
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 14
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 14
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 14
         }
@@ -86,6 +94,7 @@ type X = ((1))
     "source": "type X = ((1))",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 14
 }

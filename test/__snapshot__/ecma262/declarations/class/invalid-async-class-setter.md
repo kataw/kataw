@@ -22,6 +22,7 @@ class A {async set foo(value) { }};
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ class A {async set foo(value) { }};
                 "text": "A",
                 "rawText": "A",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -48,6 +50,7 @@ class A {async set foo(value) { }};
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 14
                             },
@@ -61,6 +64,7 @@ class A {async set foo(value) { }};
                                     "text": "set",
                                     "rawText": "set",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 18
                                 },
@@ -70,6 +74,7 @@ class A {async set foo(value) { }};
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 256,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 18
                                 },
@@ -81,18 +86,22 @@ class A {async set foo(value) { }};
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 18,
                                         "end": 18
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 18
                                 },
                                 "flags": 256,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 18
                             },
                             "flags": 256,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 18
                         },
@@ -112,6 +121,7 @@ class A {async set foo(value) { }};
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 22
                                 },
@@ -124,12 +134,14 @@ class A {async set foo(value) { }};
                                             "text": "value",
                                             "rawText": "value",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 23,
                                             "end": 28
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 29
                                 },
@@ -141,37 +153,45 @@ class A {async set foo(value) { }};
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 31,
                                         "end": 31
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 29,
                                     "end": 33
                                 },
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 33
                             },
                             "flags": 0,
+                            "transformFlags": 0,
                             "start": 18,
                             "end": 33
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 33
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 34
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 34
         },
         {
             "kind": 168,
             "flags": 16,
+            "transformFlags": 0,
             "start": 34,
             "end": 35
         }
@@ -180,6 +200,7 @@ class A {async set foo(value) { }};
     "source": "class A {async set foo(value) { }};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

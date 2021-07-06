@@ -32,6 +32,7 @@ f(await 1);
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -41,6 +42,7 @@ f(await 1);
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -53,12 +55,14 @@ f(await 1);
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 12
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 11,
                 "end": 12
             },
@@ -73,6 +77,7 @@ f(await 1);
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 22
                             },
@@ -81,24 +86,29 @@ f(await 1);
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 24
                             },
                             "flags": 80,
+                            "transformFlags": 256,
                             "start": 15,
                             "end": 25
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 27
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         },
@@ -111,6 +121,7 @@ f(await 1);
                     "text": "f",
                     "rawText": "f",
                     "flags": 97,
+                    "transformFlags": 0,
                     "start": 27,
                     "end": 30
                 },
@@ -122,6 +133,7 @@ f(await 1);
                             "text": "await",
                             "rawText": "await",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 31,
                             "end": 36
                         },
@@ -130,20 +142,24 @@ f(await 1);
                             "text": 1,
                             "rawText": "1",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 36,
                             "end": 38
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 31,
                     "end": 38
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 27,
                 "end": 39
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 27,
             "end": 40
         }
@@ -152,6 +168,7 @@ f(await 1);
     "source": "function f(x) { return x; }\n\nf(await 1);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 40
 }

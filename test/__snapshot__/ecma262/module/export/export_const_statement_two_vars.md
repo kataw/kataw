@@ -26,6 +26,7 @@ export const x, y
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -34,6 +35,7 @@ export const x, y
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
@@ -47,12 +49,14 @@ export const x, y
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 14
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 12,
                             "end": 14
                         },
@@ -63,21 +67,25 @@ export const x, y
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 17
                             },
                             "type": null,
                             "initializer": null,
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 15,
                             "end": 17
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 17
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 17
             },
@@ -86,6 +94,7 @@ export const x, y
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         }
@@ -94,6 +103,7 @@ export const x, y
     "source": "export const x, y",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 17
 }

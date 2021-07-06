@@ -30,6 +30,7 @@ function func(x,  @foo x) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -39,6 +40,7 @@ function func(x,  @foo x) {}
                 "text": "func",
                 "rawText": "func",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 13
             },
@@ -51,12 +53,14 @@ function func(x,  @foo x) {}
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 15
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 16
             },
@@ -67,15 +71,18 @@ function func(x,  @foo x) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 16
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 16
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 16
         },
@@ -90,6 +97,7 @@ function func(x,  @foo x) {}
                         "decoratorToken": {
                             "kind": 34611453,
                             "flags": 64,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 19
                         },
@@ -98,15 +106,18 @@ function func(x,  @foo x) {}
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 22
                         },
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 22
                     }
                 ],
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 22
             },
@@ -116,6 +127,7 @@ function func(x,  @foo x) {}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 22,
                 "end": 24
             },
@@ -127,14 +139,17 @@ function func(x,  @foo x) {}
                     "kind": 303,
                     "elements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 24
                 },
                 "flags": 24,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 24
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 16,
             "end": 24
         },
@@ -144,10 +159,12 @@ function func(x,  @foo x) {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 25,
             "end": 28
         }
@@ -156,6 +173,7 @@ function func(x,  @foo x) {}
     "source": "function func(x,  @foo x) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

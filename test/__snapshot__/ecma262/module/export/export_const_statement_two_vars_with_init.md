@@ -26,6 +26,7 @@ export const x = 10, y = 20
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -34,6 +35,7 @@ export const x = 10, y = 20
                 "lexicalKeyword": {
                     "kind": 37757004,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 12
                 },
@@ -47,6 +49,7 @@ export const x = 10, y = 20
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 12,
                                 "end": 14
                             },
@@ -56,10 +59,12 @@ export const x = 10, y = 20
                                 "text": 10,
                                 "rawText": "10",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 19
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 12,
                             "end": 19
                         },
@@ -70,6 +75,7 @@ export const x = 10, y = 20
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 22
                             },
@@ -79,19 +85,23 @@ export const x = 10, y = 20
                                 "text": 20,
                                 "rawText": "20",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 27
                             },
                             "flags": 16,
+                            "transformFlags": 128,
                             "start": 20,
                             "end": 27
                         }
                     ],
                     "flags": 16777232,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 27
                 },
                 "flags": 33554448,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 27
             },
@@ -100,6 +110,7 @@ export const x = 10, y = 20
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         }
@@ -108,6 +119,7 @@ export const x = 10, y = 20
     "source": "export const x = 10, y = 20",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 27
 }

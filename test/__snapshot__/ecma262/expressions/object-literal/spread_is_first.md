@@ -35,6 +35,7 @@
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 2,
                                     "end": 5
                                 },
@@ -43,10 +44,12 @@
                                     "text": "rest",
                                     "rawText": "rest",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 9
                                 },
                                 "flags": 1073741856,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 9
                             },
@@ -55,24 +58,29 @@
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 12
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 12
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 13
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 14
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -81,6 +89,7 @@
     "source": "({...rest, x});",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

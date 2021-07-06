@@ -29,6 +29,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
             "typeToken": {
                 "kind": 24775,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
@@ -37,6 +38,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                 "text": "Tr",
                 "rawText": "Tr",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 7
             },
@@ -44,6 +46,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
             "assignToken": {
                 "kind": 4125,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 9
             },
@@ -65,6 +68,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                                         "text": "Return",
                                         "rawText": "Return",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 17
                                     },
@@ -72,16 +76,19 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                                     "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 17
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 11,
                             "end": 17
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 9,
                         "end": 18
                     },
@@ -90,6 +97,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                         "parameters": [],
                         "trailingComma": false,
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 19
                     },
@@ -106,12 +114,14 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 20
                             },
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 24
                             },
@@ -126,6 +136,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                                         "text": "Pr",
                                         "rawText": "Pr",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 27
                                     },
@@ -145,53 +156,65 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                                                             "text": "Return",
                                                             "rawText": "Return",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 28,
                                                             "end": 34
                                                         },
                                                         "typeParameters": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 28,
                                                         "end": 34
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 28,
                                                     "end": 34
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 28,
                                             "end": 34
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 27,
                                         "end": 35
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 35
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 35
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 19,
                             "end": 35
                         },
                         "flags": 2097152,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 35
                     },
                     "flags": 2097152,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 35
                 },
                 "flags": 2097152,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 35
             },
             "flags": 64,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         },
@@ -202,10 +225,12 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                 "text": "Return",
                 "rawText": "Return",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 39,
                 "end": 46
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 39,
             "end": 47
         }
@@ -214,6 +239,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
     "source": "type Tr = <Return>(() => Pr<Return>) => Return;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 47
 }

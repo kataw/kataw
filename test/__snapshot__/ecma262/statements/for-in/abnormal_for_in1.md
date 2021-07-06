@@ -50,6 +50,7 @@ function baz(x: boolean) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -59,6 +60,7 @@ function baz(x: boolean) {
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -74,6 +76,7 @@ function baz(x: boolean) {
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 14
                         },
@@ -85,21 +88,25 @@ function baz(x: boolean) {
                             "type": {
                                 "kind": 134234254,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 23
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 23
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 23
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 23
             },
@@ -115,6 +122,7 @@ function baz(x: boolean) {
                             "varKeyword": {
                                 "kind": 37757002,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 32
                             },
@@ -128,6 +136,7 @@ function baz(x: boolean) {
                                             "text": "obj",
                                             "rawText": "obj",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 32,
                                             "end": 36
                                         },
@@ -145,6 +154,7 @@ function baz(x: boolean) {
                                                             "text": "a",
                                                             "rawText": "a",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 40,
                                                             "end": 42
                                                         },
@@ -153,10 +163,12 @@ function baz(x: boolean) {
                                                             "text": 1,
                                                             "rawText": "1",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 43,
                                                             "end": 45
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 128,
                                                         "start": 40,
                                                         "end": 45
                                                     },
@@ -168,6 +180,7 @@ function baz(x: boolean) {
                                                             "text": "b",
                                                             "rawText": "b",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 46,
                                                             "end": 48
                                                         },
@@ -176,33 +189,40 @@ function baz(x: boolean) {
                                                             "text": 2,
                                                             "rawText": "2",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 49,
                                                             "end": 51
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 128,
                                                         "start": 46,
                                                         "end": 51
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 40,
                                                 "end": 51
                                             },
                                             "flags": 48,
+                                            "transformFlags": 8,
                                             "start": 38,
                                             "end": 52
                                         },
                                         "flags": 16,
+                                        "transformFlags": 128,
                                         "start": 32,
                                         "end": 52
                                     }
                                 ],
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 52
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 26,
                             "end": 53
                         },
@@ -211,6 +231,7 @@ function baz(x: boolean) {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 53,
                                 "end": 59
                             },
@@ -219,6 +240,7 @@ function baz(x: boolean) {
                                 "varKeyword": {
                                     "kind": 37757002,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 61,
                                     "end": 64
                                 },
@@ -232,27 +254,32 @@ function baz(x: boolean) {
                                                 "text": "prop",
                                                 "rawText": "prop",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 64,
                                                 "end": 69
                                             },
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 64,
                                             "end": 69
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 64,
                                     "end": 69
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 53,
                                 "end": 72
                             },
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 69,
                                 "end": 72
                             },
@@ -261,6 +288,7 @@ function baz(x: boolean) {
                                 "text": "obj",
                                 "rawText": "obj",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 72,
                                 "end": 76
                             },
@@ -274,6 +302,7 @@ function baz(x: boolean) {
                                             "ifKeyword": {
                                                 "kind": 37757019,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 79,
                                                 "end": 86
                                             },
@@ -282,6 +311,7 @@ function baz(x: boolean) {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 88,
                                                 "end": 89
                                             },
@@ -295,26 +325,31 @@ function baz(x: boolean) {
                                                             "continueKeyword": {
                                                                 "kind": 37757009,
                                                                 "flags": 81,
+                                                                "transformFlags": 0,
                                                                 "start": 92,
                                                                 "end": 107
                                                             },
                                                             "label": null,
                                                             "flags": 16,
+                                                            "transformFlags": 0,
                                                             "start": 92,
                                                             "end": 108
                                                         }
                                                     ],
                                                     "flags": 17,
+                                                    "transformFlags": 0,
                                                     "start": 92,
                                                     "end": 108
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 90,
                                                 "end": 114
                                             },
                                             "elseKeyword": null,
                                             "alternate": null,
                                             "flags": 81,
+                                            "transformFlags": 0,
                                             "start": 79,
                                             "end": 114
                                         },
@@ -323,38 +358,46 @@ function baz(x: boolean) {
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 114,
                                                 "end": 125
                                             },
                                             "expression": null,
                                             "flags": 81,
+                                            "transformFlags": 256,
                                             "start": 114,
                                             "end": 126
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 79,
                                     "end": 126
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 77,
                                 "end": 130
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 53,
                             "end": 130
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 26,
                     "end": 130
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 132
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 132
         },
@@ -365,6 +408,7 @@ function baz(x: boolean) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 132,
                 "end": 142
             },
@@ -374,6 +418,7 @@ function baz(x: boolean) {
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 142,
                 "end": 146
             },
@@ -389,6 +434,7 @@ function baz(x: boolean) {
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 147,
                             "end": 148
                         },
@@ -400,21 +446,25 @@ function baz(x: boolean) {
                             "type": {
                                 "kind": 134234254,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 149,
                                 "end": 157
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 149,
                             "end": 157
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 147,
                         "end": 157
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 147,
                 "end": 157
             },
@@ -429,6 +479,7 @@ function baz(x: boolean) {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 160,
                                 "end": 166
                             },
@@ -437,6 +488,7 @@ function baz(x: boolean) {
                                 "varKeyword": {
                                     "kind": 37757002,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 168,
                                     "end": 171
                                 },
@@ -450,27 +502,32 @@ function baz(x: boolean) {
                                                 "text": "prop",
                                                 "rawText": "prop",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 171,
                                                 "end": 176
                                             },
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 171,
                                             "end": 176
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 171,
                                     "end": 176
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 160,
                                 "end": 179
                             },
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 176,
                                 "end": 179
                             },
@@ -481,10 +538,12 @@ function baz(x: boolean) {
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 181,
                                     "end": 181
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 179,
                                 "end": 182
                             },
@@ -498,38 +557,46 @@ function baz(x: boolean) {
                                             "returnKeyword": {
                                                 "kind": 37757022,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 185,
                                                 "end": 196
                                             },
                                             "expression": null,
                                             "flags": 81,
+                                            "transformFlags": 256,
                                             "start": 185,
                                             "end": 197
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 185,
                                     "end": 197
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 183,
                                 "end": 201
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 160,
                             "end": 201
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 160,
                     "end": 201
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 158,
                 "end": 203
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 132,
             "end": 203
         },
@@ -540,6 +607,7 @@ function baz(x: boolean) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 203,
                 "end": 213
             },
@@ -549,6 +617,7 @@ function baz(x: boolean) {
                 "text": "baz",
                 "rawText": "baz",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 213,
                 "end": 217
             },
@@ -564,6 +633,7 @@ function baz(x: boolean) {
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 218,
                             "end": 219
                         },
@@ -575,21 +645,25 @@ function baz(x: boolean) {
                             "type": {
                                 "kind": 134234254,
                                 "flags": 2097216,
+                                "transformFlags": 0,
                                 "start": 220,
                                 "end": 228
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 220,
                             "end": 228
                         },
                         "right": null,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 218,
                         "end": 228
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 218,
                 "end": 228
             },
@@ -604,6 +678,7 @@ function baz(x: boolean) {
                             "forKeyword": {
                                 "kind": 37757017,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 231,
                                 "end": 237
                             },
@@ -612,6 +687,7 @@ function baz(x: boolean) {
                                 "varKeyword": {
                                     "kind": 37757002,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 239,
                                     "end": 242
                                 },
@@ -625,27 +701,32 @@ function baz(x: boolean) {
                                                 "text": "prop",
                                                 "rawText": "prop",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 242,
                                                 "end": 247
                                             },
                                             "type": null,
                                             "initializer": null,
                                             "flags": 16,
+                                            "transformFlags": 128,
                                             "start": 242,
                                             "end": 247
                                         }
                                     ],
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 242,
                                     "end": 247
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 231,
                                 "end": 250
                             },
                             "inKeyword": {
                                 "kind": 21006388,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 247,
                                 "end": 250
                             },
@@ -656,10 +737,12 @@ function baz(x: boolean) {
                                     "properties": [],
                                     "trailingComma": false,
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 252,
                                     "end": 252
                                 },
                                 "flags": 48,
+                                "transformFlags": 8,
                                 "start": 250,
                                 "end": 253
                             },
@@ -673,38 +756,46 @@ function baz(x: boolean) {
                                             "continueKeyword": {
                                                 "kind": 37757009,
                                                 "flags": 81,
+                                                "transformFlags": 0,
                                                 "start": 256,
                                                 "end": 269
                                             },
                                             "label": null,
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 256,
                                             "end": 270
                                         }
                                     ],
                                     "flags": 17,
+                                    "transformFlags": 0,
                                     "start": 256,
                                     "end": 270
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 254,
                                 "end": 274
                             },
                             "flags": 81,
+                            "transformFlags": 0,
                             "start": 231,
                             "end": 274
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 231,
                     "end": 274
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 229,
                 "end": 276
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 203,
             "end": 276
         }
@@ -713,6 +804,7 @@ function baz(x: boolean) {
     "source": "function foo(x: boolean) {\n  var obj = { a: 1, b: 2};\n  for (var prop in obj) {\n    if (x) {\n      continue;\n    }\n    return;\n  }\n}\n\nfunction bar(x: boolean) {\n  for (var prop in {}) {\n    return;\n  }\n}\n\nfunction baz(x: boolean) {\n  for (var prop in {}) {\n    continue;\n  }\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 276
 }

@@ -45,12 +45,14 @@
                                                         "kind": 371,
                                                         "text": "/false/",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 5,
                                                         "end": 13
                                                     },
                                                     "operatorToken": {
                                                         "kind": 35640,
                                                         "flags": 96,
+                                                        "transformFlags": 32,
                                                         "start": 13,
                                                         "end": 14
                                                     },
@@ -59,41 +61,50 @@
                                                         "text": "a",
                                                         "rawText": "a",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 14,
                                                         "end": 15
                                                     },
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 5,
                                                     "end": 15
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 5,
                                                 "end": 15
                                             }
                                         ],
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 15
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 3,
                                     "end": 15
                                 }
                             ],
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 15
                         },
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 15
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -102,6 +113,7 @@
     "source": "{ { { /false//a",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

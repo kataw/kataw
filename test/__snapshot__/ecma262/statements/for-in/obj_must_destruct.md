@@ -28,6 +28,7 @@ for ({x=y}=x in x) ;
             "forKeyword": {
                 "kind": 37757017,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -45,6 +46,7 @@ for ({x=y}=x in x) ;
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 7
                                 },
@@ -53,26 +55,31 @@ for ({x=y}=x in x) ;
                                     "text": "y",
                                     "rawText": "y",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 9
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 9
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 6,
                         "end": 9
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 5,
                     "end": 10
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 10,
                     "end": 11
                 },
@@ -83,12 +90,14 @@ for ({x=y}=x in x) ;
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 11,
                         "end": 12
                     },
                     "operatorToken": {
                         "kind": 21006388,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 15
                     },
@@ -97,14 +106,17 @@ for ({x=y}=x in x) ;
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 15,
                         "end": 17
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 17
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 5,
                 "end": 17
             },
@@ -114,16 +126,19 @@ for ({x=y}=x in x) ;
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
             "statement": {
                 "kind": 168,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 20
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -132,6 +147,7 @@ for ({x=y}=x in x) ;
     "source": "for ({x=y}=x in x) ;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

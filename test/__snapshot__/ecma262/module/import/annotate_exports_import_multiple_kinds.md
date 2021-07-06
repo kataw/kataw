@@ -32,6 +32,7 @@ module.exports = [
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -42,6 +43,7 @@ module.exports = [
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 21
                 },
@@ -50,10 +52,12 @@ module.exports = [
                     "text": "./lib1",
                     "rawText": "'./lib1'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 21,
                     "end": 30
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 16,
                 "end": 30
             },
@@ -78,27 +82,33 @@ module.exports = [
                                     "text": "foo1b",
                                     "rawText": "foo1b",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 8,
                                     "end": 14
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 8,
                                 "end": 14
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 14
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 16
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 16
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         },
@@ -107,6 +117,7 @@ module.exports = [
             "importKeyword": {
                 "kind": 37814364,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 38
             },
@@ -117,6 +128,7 @@ module.exports = [
                 "fromKeyword": {
                     "kind": 16500,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 47,
                     "end": 52
                 },
@@ -125,10 +137,12 @@ module.exports = [
                     "text": "./lib2",
                     "rawText": "'./lib2'",
                     "flags": 4194400,
+                    "transformFlags": 0,
                     "start": 52,
                     "end": 61
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 47,
                 "end": 61
             },
@@ -153,27 +167,33 @@ module.exports = [
                                     "text": "foo2",
                                     "rawText": "foo2",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 40,
                                     "end": 45
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 40,
                                 "end": 45
                             }
                         ],
                         "flags": 0,
+                        "transformFlags": 0,
                         "start": 40,
                         "end": 45
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 38,
                     "end": 47
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 47
             },
             "flags": 81,
+            "transformFlags": 0,
             "start": 31,
             "end": 62
         },
@@ -188,6 +208,7 @@ module.exports = [
                         "text": "module",
                         "rawText": "module",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 62,
                         "end": 70
                     },
@@ -196,16 +217,19 @@ module.exports = [
                         "text": "exports",
                         "rawText": "exports",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 71,
                         "end": 78
                     },
                     "flags": 97,
+                    "transformFlags": 2,
                     "start": 62,
                     "end": 78
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 78,
                     "end": 80
                 },
@@ -221,6 +245,7 @@ module.exports = [
                                     "text": "foo1b",
                                     "rawText": "foo1b",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 82,
                                     "end": 90
                                 },
@@ -229,10 +254,12 @@ module.exports = [
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 91,
                                     "end": 91
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 82,
                                 "end": 92
                             },
@@ -243,6 +270,7 @@ module.exports = [
                                     "text": "foo2",
                                     "rawText": "foo2",
                                     "flags": 97,
+                                    "transformFlags": 0,
                                     "start": 93,
                                     "end": 100
                                 },
@@ -251,28 +279,34 @@ module.exports = [
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 101,
                                     "end": 101
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 93,
                                 "end": 102
                             }
                         ],
                         "trailingComma": true,
                         "flags": 33,
+                        "transformFlags": 0,
                         "start": 82,
                         "end": 103
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 80,
                     "end": 105
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 62,
                 "end": 105
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 62,
             "end": 105
         }
@@ -281,6 +315,7 @@ module.exports = [
     "source": "import { foo1b } from './lib1';\nimport { foo2 } from './lib2';\n\nmodule.exports = [\n  foo1b(),\n  foo2(),\n]",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 105
 }

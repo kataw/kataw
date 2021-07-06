@@ -26,6 +26,7 @@ export function f(){}
             "exportKeyword": {
                 "kind": 4202582,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
@@ -36,6 +37,7 @@ export function f(){}
                 "functionKeyword": {
                     "kind": 37822554,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 15
                 },
@@ -45,6 +47,7 @@ export function f(){}
                     "text": "f",
                     "rawText": "f",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 17
                 },
@@ -54,6 +57,7 @@ export function f(){}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 18
                 },
@@ -64,15 +68,18 @@ export function f(){}
                         "directives": [],
                         "statements": [],
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 20
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 19,
                     "end": 21
                 },
                 "returnType": null,
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 21
             },
@@ -81,6 +88,7 @@ export function f(){}
             "fromClause": null,
             "exportKind": 0,
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 21
         }
@@ -89,6 +97,7 @@ export function f(){}
     "source": "export function f(){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 21
 }

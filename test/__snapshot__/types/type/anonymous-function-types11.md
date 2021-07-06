@@ -29,6 +29,7 @@ var f = (): string | (number) => 123;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var f = (): string | (number) => 123;
                             "text": "f",
                             "rawText": "f",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -55,6 +57,7 @@ var f = (): string | (number) => 123;
                                 "parameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 9
                             },
@@ -68,6 +71,7 @@ var f = (): string | (number) => 123;
                                         {
                                             "kind": 134234347,
                                             "flags": 2097216,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 18
                                         },
@@ -76,25 +80,30 @@ var f = (): string | (number) => 123;
                                             "type": {
                                                 "kind": 134234345,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 28
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 29
                                         }
                                     ],
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 18,
                                     "end": 29
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 29
                             },
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 29,
                                 "end": 32
                             },
@@ -103,23 +112,28 @@ var f = (): string | (number) => 123;
                                 "text": 123,
                                 "rawText": "123",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 32,
                                 "end": 36
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 36
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 36
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 36
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 37
         }
@@ -128,6 +142,7 @@ var f = (): string | (number) => 123;
     "source": "var f = (): string | (number) => 123;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 37
 }

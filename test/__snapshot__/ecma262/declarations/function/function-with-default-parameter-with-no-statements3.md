@@ -25,6 +25,7 @@ function bar(a = false) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -34,6 +35,7 @@ function bar(a = false) {
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 12
             },
@@ -49,6 +51,7 @@ function bar(a = false) {
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 13,
                             "end": 14
                         },
@@ -57,16 +60,19 @@ function bar(a = false) {
                         "right": {
                             "kind": 205586437,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 22
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 22
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 22
             },
@@ -77,15 +83,18 @@ function bar(a = false) {
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 25,
                     "end": 25
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 27
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 27
         },
@@ -96,6 +105,7 @@ function bar(a = false) {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 65,
+                "transformFlags": 0,
                 "start": 27,
                 "end": 37
             },
@@ -105,6 +115,7 @@ function bar(a = false) {
                 "text": "bar",
                 "rawText": "bar",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 37,
                 "end": 41
             },
@@ -120,6 +131,7 @@ function bar(a = false) {
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 42,
                             "end": 43
                         },
@@ -128,16 +140,19 @@ function bar(a = false) {
                         "right": {
                             "kind": 205586437,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 45,
                             "end": 51
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 42,
                         "end": 51
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 42,
                 "end": 51
             },
@@ -148,15 +163,18 @@ function bar(a = false) {
                     "directives": [],
                     "statements": [],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 54,
                     "end": 54
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 52,
                 "end": 56
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 27,
             "end": 56
         }
@@ -165,6 +183,7 @@ function bar(a = false) {
     "source": "function foo(a = false) { }\n\nfunction bar(a = false) {\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 56
 }

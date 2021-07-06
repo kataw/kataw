@@ -28,6 +28,7 @@ let {a:=c} = z;
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -48,6 +49,7 @@ let {a:=c} = z;
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 6
                                         },
@@ -56,6 +58,7 @@ let {a:=c} = z;
                                             "text": "",
                                             "rawText": "",
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 7,
                                             "end": 7
                                         },
@@ -64,20 +67,24 @@ let {a:=c} = z;
                                             "text": "c",
                                             "rawText": "c",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 8,
                                             "end": 9
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 9
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 9
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 10
                         },
@@ -87,19 +94,23 @@ let {a:=c} = z;
                             "text": "z",
                             "rawText": "z",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 14
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 14
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 14
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 15
         }
@@ -108,6 +119,7 @@ let {a:=c} = z;
     "source": "let {a:=c} = z;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

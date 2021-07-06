@@ -29,12 +29,14 @@ function *f(x = (switch) = f) {}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -43,6 +45,7 @@ function *f(x = (switch) = f) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 11
             },
@@ -58,6 +61,7 @@ function *f(x = (switch) = f) {}
                             "text": "x",
                             "rawText": "x",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 12,
                             "end": 13
                         },
@@ -70,20 +74,24 @@ function *f(x = (switch) = f) {}
                                 "text": "",
                                 "rawText": "",
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 17
                             },
                             "flags": 15,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 17
                         },
                         "flags": 34,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 17
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 17
             },
@@ -94,15 +102,18 @@ function *f(x = (switch) = f) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 17
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 17
         },
@@ -111,6 +122,7 @@ function *f(x = (switch) = f) {}
             "switchKeyword": {
                 "kind": 37757024,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 23
             },
@@ -119,6 +131,7 @@ function *f(x = (switch) = f) {}
                 "text": "",
                 "rawText": "",
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 23,
                 "end": 23
             },
@@ -126,10 +139,12 @@ function *f(x = (switch) = f) {}
                 "kind": 152,
                 "clauses": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 24,
                 "end": 24
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 17,
             "end": 24
         },
@@ -140,10 +155,12 @@ function *f(x = (switch) = f) {}
                 "text": "f",
                 "rawText": "f",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 26,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 26,
             "end": 28
         },
@@ -153,10 +170,12 @@ function *f(x = (switch) = f) {}
                 "kind": 249,
                 "statements": [],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 31,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 29,
             "end": 32
         }
@@ -165,6 +184,7 @@ function *f(x = (switch) = f) {}
     "source": "function *f(x = (switch) = f) {}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

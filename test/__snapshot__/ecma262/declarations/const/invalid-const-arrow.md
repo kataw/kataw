@@ -28,6 +28,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -41,6 +42,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                             "text": "fn",
                             "rawText": "fn",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 8
                         },
@@ -70,17 +72,20 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                                                 "text": "Object",
                                                                 "rawText": "Object",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 11,
                                                                 "end": 18
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 9,
                                                             "end": 18
                                                         },
                                                         "optionalToken": null,
                                                         "types": null,
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 9,
                                                         "end": 18
                                                     },
@@ -96,15 +101,18 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                                                 "text": "Object",
                                                                 "rawText": "Object",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 19,
                                                                 "end": 26
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 19,
                                                             "end": 26
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 19,
                                                         "end": 26
                                                     },
@@ -120,39 +128,46 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                                                 "text": "Object",
                                                                 "rawText": "Object",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 26,
                                                                 "end": 33
                                                             },
                                                             "typeParameters": null,
                                                             "flags": 2097152,
+                                                            "transformFlags": 0,
                                                             "start": 26,
                                                             "end": 33
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 26,
                                                         "end": 33
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 2097152,
+                                                "transformFlags": 0,
                                                 "start": 9,
                                                 "end": 33
                                             },
                                             "optionalToken": null,
                                             "types": null,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 35
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 35
                                 },
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 35,
                                     "end": 38
                                 },
@@ -163,18 +178,22 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                     "type": {
                                         "kind": 138477615,
                                         "flags": 2097216,
+                                        "transformFlags": 0,
                                         "start": 38,
                                         "end": 43
                                     },
                                     "flags": 2097152,
+                                    "transformFlags": 0,
                                     "start": 38,
                                     "end": 43
                                 },
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 43
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 43
                         },
@@ -190,6 +209,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                         "text": "o1",
                                         "rawText": "o1",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 47,
                                         "end": 50
                                     },
@@ -198,12 +218,14 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                         "text": "o2",
                                         "rawText": "o2",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 51,
                                         "end": 54
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 47,
                                 "end": 57
                             },
@@ -211,6 +233,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 57,
                                 "end": 60
                             },
@@ -219,23 +242,28 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                 "text": "o1",
                                 "rawText": "o1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 60,
                                 "end": 63
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 45,
                             "end": 63
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 5,
                         "end": 63
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 63
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 64
         }
@@ -244,6 +272,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
     "source": "const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 64
 }

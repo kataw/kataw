@@ -21,6 +21,7 @@ var {[a]: [b]} = c
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -43,10 +44,12 @@ var {[a]: [b]} = c
                                                 "text": "a",
                                                 "rawText": "a",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 6,
                                                 "end": 7
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 5,
                                             "end": 8
                                         },
@@ -60,31 +63,37 @@ var {[a]: [b]} = c
                                                         "text": "b",
                                                         "rawText": "b",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 11,
                                                         "end": 12
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 0,
+                                                "transformFlags": 0,
                                                 "start": 11,
                                                 "end": 12
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 13
                                         },
                                         "initializer": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 13
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 13
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 14
                         },
@@ -94,19 +103,23 @@ var {[a]: [b]} = c
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 18
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 18
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -115,6 +128,7 @@ var {[a]: [b]} = c
     "source": "var {[a]: [b]} = c",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

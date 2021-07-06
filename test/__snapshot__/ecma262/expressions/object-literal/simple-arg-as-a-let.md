@@ -24,12 +24,14 @@ o = {f(x) { let x }}
                     "text": "o",
                     "rawText": "o",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -51,6 +53,7 @@ o = {f(x) { let x }}
                                         "text": "f",
                                         "rawText": "f",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 6
                                     },
@@ -63,12 +66,14 @@ o = {f(x) { let x }}
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 7,
                                                 "end": 8
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 9
                                     },
@@ -84,6 +89,7 @@ o = {f(x) { let x }}
                                                     "lexicalKeyword": {
                                                         "kind": 41951307,
                                                         "flags": 80,
+                                                        "transformFlags": 0,
                                                         "start": 11,
                                                         "end": 15
                                                     },
@@ -97,56 +103,68 @@ o = {f(x) { let x }}
                                                                     "text": "x",
                                                                     "rawText": "x",
                                                                     "flags": 96,
+                                                                    "transformFlags": 0,
                                                                     "start": 15,
                                                                     "end": 17
                                                                 },
                                                                 "type": null,
                                                                 "initializer": null,
                                                                 "flags": 16,
+                                                                "transformFlags": 128,
                                                                 "start": 15,
                                                                 "end": 17
                                                             }
                                                         ],
                                                         "flags": 16,
+                                                        "transformFlags": 0,
                                                         "start": 15,
                                                         "end": 17
                                                     },
                                                     "flags": 33554448,
+                                                    "transformFlags": 0,
                                                     "start": 11,
                                                     "end": 17
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 17
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 19
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 6,
                                     "end": 19
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 19
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 19
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 20
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 20
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 20
         }
@@ -155,6 +173,7 @@ o = {f(x) { let x }}
     "source": "o = {f(x) { let x }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 20
 }

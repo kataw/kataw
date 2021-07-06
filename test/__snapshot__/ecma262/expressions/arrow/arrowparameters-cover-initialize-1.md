@@ -21,6 +21,7 @@ var af = (x = 1) => x;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -34,6 +35,7 @@ var af = (x = 1) => x;
                             "text": "af",
                             "rawText": "af",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 6
                         },
@@ -53,6 +55,7 @@ var af = (x = 1) => x;
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 11
                                         },
@@ -63,16 +66,19 @@ var af = (x = 1) => x;
                                             "text": 1,
                                             "rawText": "1",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 13,
                                             "end": 15
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 15
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
+                                "transformFlags": 0,
                                 "start": 10,
                                 "end": 16
                             },
@@ -80,6 +86,7 @@ var af = (x = 1) => x;
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 19
                             },
@@ -88,23 +95,28 @@ var af = (x = 1) => x;
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 21
                             },
                             "flags": 34,
+                            "transformFlags": 0,
                             "start": 8,
                             "end": 21
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 21
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 21
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 22
         }
@@ -113,6 +125,7 @@ var af = (x = 1) => x;
     "source": "var af = (x = 1) => x;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 22
 }

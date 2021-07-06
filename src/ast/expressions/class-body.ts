@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags , TransformFlags} from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { ClassElement } from './class-element';
 import { FieldDefinition } from './field-definition';
@@ -17,6 +17,7 @@ export function createClassBody(elements: ClassElements[], start: number, end: n
     kind: SyntaxKind.ClassBody,
     elements,
     flags: NodeFlags.ExpressionNode,
+    transformFlags: TransformFlags.None,
     start,
     end
   };

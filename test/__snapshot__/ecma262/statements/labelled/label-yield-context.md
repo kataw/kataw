@@ -24,12 +24,14 @@ function * x () {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -38,6 +40,7 @@ function * x () {
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 12
             },
@@ -47,6 +50,7 @@ function * x () {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 14
             },
@@ -63,12 +67,14 @@ function * x () {
                                 "text": "y",
                                 "rawText": "y",
                                 "flags": 97,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 23
                             },
                             "colonToken": {
                                 "kind": 21,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 24
                             },
@@ -79,6 +85,7 @@ function * x () {
                                     "yieldKeyword": {
                                         "kind": 8454253,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 24,
                                         "end": 30
                                     },
@@ -86,28 +93,34 @@ function * x () {
                                     "asteriskToken": null,
                                     "expression": null,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 30
                                 },
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 31
                             },
                             "flags": 17,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 31
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 31
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 33
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 33
         }
@@ -116,6 +129,7 @@ function * x () {
     "source": "function * x () {\n    y: yield;\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 33
 }

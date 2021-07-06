@@ -44,6 +44,7 @@
                                                         "text": "constructor",
                                                         "rawText": "constructor",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 3,
                                                         "end": 14
                                                     },
@@ -53,6 +54,7 @@
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 15,
                                                         "end": 16
                                                     },
@@ -64,44 +66,53 @@
                                                             "directives": [],
                                                             "statements": [],
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 17,
                                                             "end": 17
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 16,
                                                         "end": 18
                                                     },
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 14,
                                                     "end": 18
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 3,
                                                 "end": 18
                                             }
                                         ],
                                         "trailingComma": false,
                                         "flags": 16,
+                                        "transformFlags": 0,
                                         "start": 3,
                                         "end": 18
                                     },
                                     "flags": 48,
+                                    "transformFlags": 8,
                                     "start": 2,
                                     "end": 19
                                 }
                             ],
                             "trailingComma": false,
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 19
                         },
                         "flags": 32,
+                        "transformFlags": 8,
                         "start": 1,
                         "end": 20
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 22
                     },
@@ -110,18 +121,22 @@
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 24
                     },
                     "flags": 32,
+                    "transformFlags": 128,
                     "start": 1,
                     "end": 24
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 25
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 26
         }
@@ -130,6 +145,7 @@
     "source": "([{constructor(){}}] = b);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 26
 }

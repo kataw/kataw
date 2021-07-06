@@ -31,12 +31,14 @@ x = {arrow: async async => {}}
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 1
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 3
                 },
@@ -53,6 +55,7 @@ x = {arrow: async async => {}}
                                     "text": "arrow",
                                     "rawText": "arrow",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 10
                                 },
@@ -61,6 +64,7 @@ x = {arrow: async async => {}}
                                     "asyncKeyword": {
                                         "kind": 82031,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 17
                                     },
@@ -70,6 +74,7 @@ x = {arrow: async async => {}}
                                         "text": "async",
                                         "rawText": "async",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 17,
                                         "end": 23
                                     },
@@ -77,6 +82,7 @@ x = {arrow: async async => {}}
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
+                                        "transformFlags": 0,
                                         "start": 23,
                                         "end": 26
                                     },
@@ -87,36 +93,44 @@ x = {arrow: async async => {}}
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 28,
                                             "end": 28
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 29
                                     },
                                     "flags": 288,
+                                    "transformFlags": 0,
                                     "start": 11,
                                     "end": 29
                                 },
                                 "flags": 32,
+                                "transformFlags": 128,
                                 "start": 5,
                                 "end": 29
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 5,
                         "end": 29
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 3,
                     "end": 30
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 30
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 30
         }
@@ -125,6 +139,7 @@ x = {arrow: async async => {}}
     "source": "x = {arrow: async async => {}}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 30
 }

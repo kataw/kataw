@@ -38,6 +38,7 @@
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 1,
                                     "end": 4
                                 },
@@ -46,10 +47,12 @@
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 5,
                                     "end": 8
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 1,
                                 "end": 8
                             },
@@ -60,6 +63,7 @@
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 13
                                 },
@@ -68,26 +72,31 @@
                                     "text": "bar",
                                     "rawText": "bar",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 14,
                                     "end": 17
                                 },
                                 "flags": 96,
+                                "transformFlags": 2,
                                 "start": 9,
                                 "end": 17
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 17
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 0,
                     "end": 18
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 20
                 },
@@ -101,6 +110,7 @@
                                 "text": 1,
                                 "rawText": "1",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 22,
                                 "end": 23
                             },
@@ -109,24 +119,29 @@
                                 "text": 2,
                                 "rawText": "2",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 24,
                                 "end": 26
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 22,
                         "end": 26
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 20,
                     "end": 27
                 },
                 "flags": 32,
+                "transformFlags": 128,
                 "start": 0,
                 "end": 27
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 28
         }
@@ -135,6 +150,7 @@
     "source": "[foo.foo, foo.bar] = [1, 2];",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 28
 }

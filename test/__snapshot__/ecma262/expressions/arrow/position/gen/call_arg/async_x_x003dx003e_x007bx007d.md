@@ -31,6 +31,7 @@ foo(async x => {})
                     "text": "foo",
                     "rawText": "foo",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 3
                 },
@@ -42,6 +43,7 @@ foo(async x => {})
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 4,
                                 "end": 9
                             },
@@ -51,6 +53,7 @@ foo(async x => {})
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 9,
                                 "end": 11
                             },
@@ -58,6 +61,7 @@ foo(async x => {})
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 14
                             },
@@ -68,28 +72,34 @@ foo(async x => {})
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 16,
                                     "end": 16
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 14,
                                 "end": 17
                             },
                             "flags": 288,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 17
                         }
                     ],
                     "trailingComma": false,
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 17
                 },
                 "flags": 268435488,
+                "transformFlags": 1,
                 "start": 0,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -98,6 +108,7 @@ foo(async x => {})
     "source": "foo(async x => {})",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

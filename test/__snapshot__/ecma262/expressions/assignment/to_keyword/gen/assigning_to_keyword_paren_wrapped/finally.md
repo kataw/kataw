@@ -31,14 +31,17 @@
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 1
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 1
         },
@@ -51,10 +54,12 @@
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 1,
                     "end": 1
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 1
             },
@@ -62,6 +67,7 @@
             "finallyKeyword": {
                 "kind": 37757016,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 1,
                 "end": 8
             },
@@ -71,14 +77,17 @@
                     "kind": 249,
                     "statements": [],
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 8,
                     "end": 8
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 8
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 1,
             "end": 8
         },
@@ -89,10 +98,12 @@
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 12
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 10,
             "end": 12
         }
@@ -101,6 +112,7 @@
     "source": "(finally = x)",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 13
 }

@@ -24,6 +24,7 @@ function failsParse() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -33,6 +34,7 @@ function failsParse() {
                 "text": "failsParse",
                 "rawText": "failsParse",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 19
             },
@@ -42,6 +44,7 @@ function failsParse() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 20,
                 "end": 20
             },
@@ -56,6 +59,7 @@ function failsParse() {
                             "returnKeyword": {
                                 "kind": 37757022,
                                 "flags": 81,
+                                "transformFlags": 0,
                                 "start": 23,
                                 "end": 32
                             },
@@ -64,15 +68,18 @@ function failsParse() {
                                 "importKeyword": {
                                     "kind": 37814364,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 32,
                                     "end": 39
                                 },
                                 "metaIdentifier": null,
                                 "flags": 39,
+                                "transformFlags": 0,
                                 "start": 96,
                                 "end": 40
                             },
                             "flags": 81,
+                            "transformFlags": 256,
                             "start": 23,
                             "end": 40
                         },
@@ -85,6 +92,7 @@ function failsParse() {
                                     "text": "then",
                                     "rawText": "then",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 40,
                                     "end": 44
                                 },
@@ -93,28 +101,34 @@ function failsParse() {
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 45,
                                     "end": 45
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 40,
                                 "end": 46
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 40,
                             "end": 47
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 23,
                     "end": 47
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 49
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 49
         }
@@ -123,6 +137,7 @@ function failsParse() {
     "source": "function failsParse() {\n  return import.then();\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 49
 }

@@ -22,6 +22,7 @@ function fn() { (() => this)().#x }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -31,6 +32,7 @@ function fn() { (() => this)().#x }
                 "text": "fn",
                 "rawText": "fn",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 11
             },
@@ -40,6 +42,7 @@ function fn() { (() => this)().#x }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 12
             },
@@ -66,6 +69,7 @@ function fn() { (() => this)().#x }
                                                 "parameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 18,
                                                 "end": 18
                                             },
@@ -73,20 +77,24 @@ function fn() { (() => this)().#x }
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 22
                                             },
                                             "contents": {
                                                 "kind": 4276321,
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 22,
                                                 "end": 27
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 27
                                         },
                                         "flags": 15,
+                                        "transformFlags": 0,
                                         "start": 32,
                                         "end": 28
                                     },
@@ -95,10 +103,12 @@ function fn() { (() => this)().#x }
                                         "elements": [],
                                         "trailingComma": false,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 29,
                                         "end": 29
                                     },
                                     "flags": 268435488,
+                                    "transformFlags": 1,
                                     "start": 15,
                                     "end": 30
                                 },
@@ -107,28 +117,34 @@ function fn() { (() => this)().#x }
                                     "text": "#x",
                                     "rawText": "#x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 31,
                                     "end": 33
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 2,
                                 "start": 15,
                                 "end": 33
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 15,
                             "end": 33
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 15,
                     "end": 33
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 35
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 35
         }
@@ -137,6 +153,7 @@ function fn() { (() => this)().#x }
     "source": "function fn() { (() => this)().#x }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 35
 }

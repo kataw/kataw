@@ -20,6 +20,7 @@ let y = async x => { await x; }
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -33,6 +34,7 @@ let y = async x => { await x; }
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -42,6 +44,7 @@ let y = async x => { await x; }
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 7,
                                 "end": 13
                             },
@@ -51,6 +54,7 @@ let y = async x => { await x; }
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 13,
                                 "end": 15
                             },
@@ -58,6 +62,7 @@ let y = async x => { await x; }
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 15,
                                 "end": 18
                             },
@@ -74,6 +79,7 @@ let y = async x => { await x; }
                                                 "awaitKeyword": {
                                                     "kind": 82196,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 20,
                                                     "end": 26
                                                 },
@@ -82,40 +88,49 @@ let y = async x => { await x; }
                                                     "text": "x",
                                                     "rawText": "x",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 26,
                                                     "end": 28
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 20,
                                                 "end": 28
                                             },
                                             "flags": 16,
+                                            "transformFlags": 0,
                                             "start": 20,
                                             "end": 29
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 29
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 18,
                                 "end": 31
                             },
                             "flags": 288,
+                            "transformFlags": 0,
                             "start": 7,
                             "end": 31
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 31
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 31
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 31
         }
@@ -124,6 +139,7 @@ let y = async x => { await x; }
     "source": "let y = async x => { await x; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

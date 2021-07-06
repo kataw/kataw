@@ -24,12 +24,14 @@ function* fn() {
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 9
             },
@@ -38,6 +40,7 @@ function* fn() {
                 "text": "fn",
                 "rawText": "fn",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 9,
                 "end": 12
             },
@@ -47,6 +50,7 @@ function* fn() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 13
             },
@@ -73,6 +77,7 @@ function* fn() {
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 20,
                                                 "end": 21
                                             },
@@ -83,6 +88,7 @@ function* fn() {
                                                 "yieldKeyword": {
                                                     "kind": 8454253,
                                                     "flags": 64,
+                                                    "transformFlags": 0,
                                                     "start": 23,
                                                     "end": 29
                                                 },
@@ -90,16 +96,19 @@ function* fn() {
                                                 "asteriskToken": null,
                                                 "expression": null,
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 23,
                                                 "end": 29
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 16,
                                             "end": 29
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 35,
+                                    "transformFlags": 0,
                                     "start": 20,
                                     "end": 30
                                 },
@@ -107,6 +116,7 @@ function* fn() {
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
+                                    "transformFlags": 0,
                                     "start": 30,
                                     "end": 33
                                 },
@@ -117,32 +127,39 @@ function* fn() {
                                         "directives": [],
                                         "statements": [],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 35,
                                         "end": 35
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 33,
                                     "end": 36
                                 },
                                 "flags": 35,
+                                "transformFlags": 0,
                                 "start": 16,
                                 "end": 36
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 16,
                             "end": 37
                         }
                     ],
                     "flags": 33,
+                    "transformFlags": 0,
                     "start": 16,
                     "end": 37
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 39
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 39
         }
@@ -151,6 +168,7 @@ function* fn() {
     "source": "function* fn() {\n  (x = yield) => {};\n}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 39
 }

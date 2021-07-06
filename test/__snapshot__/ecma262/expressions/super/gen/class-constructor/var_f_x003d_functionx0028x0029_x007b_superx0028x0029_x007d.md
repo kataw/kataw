@@ -29,6 +29,7 @@ class C { constructor() { var f = function() { super(); } } }
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -37,6 +38,7 @@ class C { constructor() { var f = function() { super(); } } }
                 "text": "C",
                 "rawText": "C",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
@@ -63,6 +65,7 @@ class C { constructor() { var f = function() { super(); } } }
                                     "text": "constructor",
                                     "rawText": "constructor",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 9,
                                     "end": 21
                                 },
@@ -72,6 +75,7 @@ class C { constructor() { var f = function() { super(); } } }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 2048,
+                                    "transformFlags": 0,
                                     "start": 22,
                                     "end": 23
                                 },
@@ -88,6 +92,7 @@ class C { constructor() { var f = function() { super(); } } }
                                                 "varKeyword": {
                                                     "kind": 37757002,
                                                     "flags": 80,
+                                                    "transformFlags": 0,
                                                     "start": 25,
                                                     "end": 29
                                                 },
@@ -101,6 +106,7 @@ class C { constructor() { var f = function() { super(); } } }
                                                                 "text": "f",
                                                                 "rawText": "f",
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 29,
                                                                 "end": 31
                                                             },
@@ -111,6 +117,7 @@ class C { constructor() { var f = function() { super(); } } }
                                                                 "functionKeyword": {
                                                                     "kind": 37822554,
                                                                     "flags": 64,
+                                                                    "transformFlags": 0,
                                                                     "start": 33,
                                                                     "end": 42
                                                                 },
@@ -122,6 +129,7 @@ class C { constructor() { var f = function() { super(); } } }
                                                                     "formalParameters": [],
                                                                     "trailingComma": false,
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 43,
                                                                     "end": 43
                                                                 },
@@ -138,6 +146,7 @@ class C { constructor() { var f = function() { super(); } } }
                                                                                     "expression": {
                                                                                         "kind": 4259935,
                                                                                         "flags": 96,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 46,
                                                                                         "end": 52
                                                                                     },
@@ -146,71 +155,87 @@ class C { constructor() { var f = function() { super(); } } }
                                                                                         "elements": [],
                                                                                         "trailingComma": false,
                                                                                         "flags": 32,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 53,
                                                                                         "end": 53
                                                                                     },
                                                                                     "flags": 268435488,
+                                                                                    "transformFlags": 1,
                                                                                     "start": 46,
                                                                                     "end": 54
                                                                                 },
                                                                                 "flags": 16,
+                                                                                "transformFlags": 0,
                                                                                 "start": 46,
                                                                                 "end": 55
                                                                             }
                                                                         ],
                                                                         "flags": 32,
+                                                                        "transformFlags": 0,
                                                                         "start": 46,
                                                                         "end": 55
                                                                     },
                                                                     "flags": 32,
+                                                                    "transformFlags": 0,
                                                                     "start": 44,
                                                                     "end": 57
                                                                 },
                                                                 "returnType": null,
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 33,
                                                                 "end": 57
                                                             },
                                                             "flags": 16,
+                                                            "transformFlags": 128,
                                                             "start": 29,
                                                             "end": 57
                                                         }
                                                     ],
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 29,
                                                     "end": 57
                                                 },
                                                 "flags": 16,
+                                                "transformFlags": 0,
                                                 "start": 25,
                                                 "end": 57
                                             }
                                         ],
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 25,
                                         "end": 57
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 23,
                                     "end": 59
                                 },
                                 "flags": 2048,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 59
                             },
                             "flags": 2048,
+                            "transformFlags": 0,
                             "start": 9,
                             "end": 59
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 59
                 },
                 "flags": 7,
+                "transformFlags": 0,
                 "start": 32,
                 "end": 61
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 61
         }
@@ -219,6 +244,7 @@ class C { constructor() { var f = function() { super(); } } }
     "source": "class C { constructor() { var f = function() { super(); } } }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 61
 }

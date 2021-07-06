@@ -26,12 +26,14 @@ c && d ?? e;
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 1
                     },
                     "operatorToken": {
                         "kind": 33594,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 4
                     },
@@ -40,16 +42,19 @@ c && d ?? e;
                         "text": "d",
                         "rawText": "d",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 4,
                         "end": 6
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 6
                 },
                 "operatorToken": {
                     "kind": 33047,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 6,
                     "end": 9
                 },
@@ -58,14 +63,17 @@ c && d ?? e;
                     "text": "e",
                     "rawText": "e",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 9,
                     "end": 11
                 },
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 11
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         }
@@ -74,6 +82,7 @@ c && d ?? e;
     "source": "c && d ?? e;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 12
 }

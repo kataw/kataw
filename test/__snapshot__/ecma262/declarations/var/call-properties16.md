@@ -29,6 +29,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -42,6 +43,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
                             "text": "c",
                             "rawText": "c",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 5
                         },
@@ -68,6 +70,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
+                                                        "transformFlags": 0,
                                                         "start": 10,
                                                         "end": 11
                                                     },
@@ -79,20 +82,24 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                                         "type": {
                                                             "kind": 134234347,
                                                             "flags": 2097216,
+                                                            "transformFlags": 0,
                                                             "start": 12,
                                                             "end": 19
                                                         },
                                                         "flags": 2097152,
+                                                        "transformFlags": 0,
                                                         "start": 12,
                                                         "end": 19
                                                     },
                                                     "flags": 2097152,
+                                                    "transformFlags": 0,
                                                     "start": 10,
                                                     "end": 19
                                                 }
                                             ],
                                             "trailingComma": false,
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 10,
                                             "end": 19
                                         },
@@ -103,24 +110,29 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                             "type": {
                                                 "kind": 134234347,
                                                 "flags": 2097216,
+                                                "transformFlags": 0,
                                                 "start": 21,
                                                 "end": 28
                                             },
                                             "flags": 2097152,
+                                            "transformFlags": 0,
                                             "start": 21,
                                             "end": 28
                                         },
                                         "flags": 2097152,
+                                        "transformFlags": 0,
                                         "start": 8,
                                         "end": 28
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 2097152,
+                                "transformFlags": 0,
                                 "start": 6,
                                 "end": 30
                             },
                             "flags": 2097152,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 30
                         },
@@ -136,12 +148,14 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 34,
                                         "end": 35
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 36
                             },
@@ -149,6 +163,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 36,
                                 "end": 39
                             },
@@ -161,6 +176,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 39,
                                         "end": 41
                                     },
@@ -169,10 +185,12 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                         "text": "toFixed",
                                         "rawText": "toFixed",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 42,
                                         "end": 49
                                     },
                                     "flags": 96,
+                                    "transformFlags": 2,
                                     "start": 39,
                                     "end": 49
                                 },
@@ -181,27 +199,33 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                     "elements": [],
                                     "trailingComma": false,
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 50,
                                     "end": 50
                                 },
                                 "flags": 268435488,
+                                "transformFlags": 1,
                                 "start": 39,
                                 "end": 51
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 32,
                             "end": 51
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 51
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 51
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 51
         }
@@ -210,6 +234,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
     "source": "var c: { (x: string): string } = (x) => x.toFixed()",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 51
 }

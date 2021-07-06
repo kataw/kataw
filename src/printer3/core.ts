@@ -1,4 +1,4 @@
-import { SyntaxNode, SyntaxKind, NodeFlags, tokenToString } from '../ast/syntax-node';
+import { SyntaxNode, SyntaxKind, NodeFlags, TransformFlags, tokenToString } from '../ast/syntax-node';
 import { concat } from '../formatter/index';
 
 export interface Printer {
@@ -92,3 +92,34 @@ export function makeString(rawContent: any, enclosingQuote: any): any {
 
   return enclosingQuote + newContent + enclosingQuote;
 }
+
+export function shouldFlatten(node: any): boolean {
+  if (!node.left.operatorToken) return false
+  const parentOp = node.operatorToken.kind
+  const nodeOp = node.left.operatorToken.kind
+  const parentTransformFlags = node.operatorToken.transformFlags
+  const nodeTransformFlags = node.left.operatorToken.transformFlags
+  // Return 'false' if different precedence value
+  return (parentOp & SyntaxKind.Precedence) ^ (nodeOp & SyntaxKind.Precedence)
+    ? false
+    : parentOp === SyntaxKind.Exponentiate
+    ? false
+    : (nodeTransformFlags === SyntaxKind.Modulo &&
+        parentTransformFlags & TransformFlags.MultiplicativeOperators) ||
+      (parentTransformFlags === SyntaxKind.Modulo &&
+        nodeTransformFlags & TransformFlags.MultiplicativeOperators)
+    ? false
+    : nodeOp !== parentOp &&
+      parentTransformFlags & TransformFlags.MultiplicativeOperators &&
+      nodeTransformFlags & TransformFlags.MultiplicativeOperators
+    ? false
+    : parentTransformFlags &
+        (TransformFlags.BitshiftOperators | TransformFlags.EqualityOperators) &&
+      nodeTransformFlags &
+        (TransformFlags.BitshiftOperators | TransformFlags.EqualityOperators)
+    ? false
+    : true
+}
+
+
+

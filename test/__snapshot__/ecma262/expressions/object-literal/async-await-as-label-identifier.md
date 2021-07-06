@@ -25,6 +25,7 @@ var obj = {
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -38,6 +39,7 @@ var obj = {
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 7
                         },
@@ -52,6 +54,7 @@ var obj = {
                                         "asyncKeyword": {
                                             "kind": 82031,
                                             "flags": 353,
+                                            "transformFlags": 0,
                                             "start": 11,
                                             "end": 19
                                         },
@@ -65,6 +68,7 @@ var obj = {
                                                 "text": "method",
                                                 "rawText": "method",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 19,
                                                 "end": 26
                                             },
@@ -74,6 +78,7 @@ var obj = {
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 289,
+                                                "transformFlags": 0,
                                                 "start": 27,
                                                 "end": 28
                                             },
@@ -91,6 +96,7 @@ var obj = {
                                                                 "awaitKeyword": {
                                                                     "kind": 82196,
                                                                     "flags": 65,
+                                                                    "transformFlags": 0,
                                                                     "start": 30,
                                                                     "end": 40
                                                                 },
@@ -99,66 +105,80 @@ var obj = {
                                                                     "text": "",
                                                                     "rawText": "",
                                                                     "flags": 64,
+                                                                    "transformFlags": 0,
                                                                     "start": 40,
                                                                     "end": 40
                                                                 },
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 30,
                                                                 "end": 40
                                                             },
                                                             "colonToken": {
                                                                 "kind": 21,
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 40,
                                                                 "end": 41
                                                             },
                                                             "statement": {
                                                                 "kind": 168,
                                                                 "flags": 16,
+                                                                "transformFlags": 0,
                                                                 "start": 41,
                                                                 "end": 43
                                                             },
                                                             "flags": 17,
+                                                            "transformFlags": 0,
                                                             "start": 30,
                                                             "end": 43
                                                         }
                                                     ],
                                                     "flags": 33,
+                                                    "transformFlags": 0,
                                                     "start": 30,
                                                     "end": 43
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 28,
                                                 "end": 47
                                             },
                                             "flags": 289,
+                                            "transformFlags": 0,
                                             "start": 26,
                                             "end": 47
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 47
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 11,
                                 "end": 47
                             },
                             "flags": 49,
+                            "transformFlags": 8,
                             "start": 9,
                             "end": 49
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 49
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 49
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 50
         }
@@ -167,6 +187,7 @@ var obj = {
     "source": "var obj = {\n  async method() {\n    await: ;\n  }\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 50
 }

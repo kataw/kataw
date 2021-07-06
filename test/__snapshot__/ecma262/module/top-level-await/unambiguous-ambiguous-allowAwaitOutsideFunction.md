@@ -34,6 +34,7 @@ await / 0 /u
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 5
                 },
@@ -42,14 +43,17 @@ await / 0 /u
                     "text": 0,
                     "rawText": "0",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 5,
                     "end": 7
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 7
         },
@@ -60,6 +64,7 @@ await / 0 /u
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 7,
                     "end": 14
                 },
@@ -68,6 +73,7 @@ await / 0 /u
                     "operandToken": {
                         "kind": 99634,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 16
                     },
@@ -76,18 +82,22 @@ await / 0 /u
                         "text": 0,
                         "rawText": "0",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 16,
                         "end": 18
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 14,
                     "end": 18
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 18
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 7,
             "end": 18
         },
@@ -98,6 +108,7 @@ await / 0 /u
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 18,
                     "end": 24
                 },
@@ -106,6 +117,7 @@ await / 0 /u
                     "operandToken": {
                         "kind": 134318643,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 24,
                         "end": 26
                     },
@@ -114,18 +126,22 @@ await / 0 /u
                         "text": 0,
                         "rawText": "0",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 26,
                         "end": 28
                     },
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 24,
                     "end": 28
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 28
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 18,
             "end": 28
         },
@@ -136,6 +152,7 @@ await / 0 /u
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 28,
                     "end": 34
                 },
@@ -146,18 +163,22 @@ await / 0 /u
                         "text": 0,
                         "rawText": "0",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 36,
                         "end": 38
                     },
                     "flags": 34,
+                    "transformFlags": 0,
                     "start": 32,
                     "end": 40
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 28,
                 "end": 40
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 28,
             "end": 40
         },
@@ -168,6 +189,7 @@ await / 0 /u
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 40,
                     "end": 46
                 },
@@ -181,24 +203,29 @@ await / 0 /u
                                 "text": 0,
                                 "rawText": "0",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 48,
                                 "end": 50
                             }
                         ],
                         "trailingComma": false,
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 48,
                         "end": 50
                     },
                     "flags": 32,
+                    "transformFlags": 8,
                     "start": 46,
                     "end": 52
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 40,
                 "end": 52
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 40,
             "end": 52
         },
@@ -209,6 +236,7 @@ await / 0 /u
                 "awaitKeyword": {
                     "kind": 82196,
                     "flags": 65,
+                    "transformFlags": 0,
                     "start": 52,
                     "end": 58
                 },
@@ -216,14 +244,17 @@ await / 0 /u
                     "kind": 371,
                     "text": "/ 0 /u",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 58,
                     "end": 65
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 52,
                 "end": 65
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 52,
             "end": 65
         }
@@ -232,6 +263,7 @@ await / 0 /u
     "source": "await 0\n\nawait + 0\nawait - 0\nawait ( 0 )\nawait [ 0 ]\nawait / 0 /u",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 65
 }

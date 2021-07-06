@@ -50,6 +50,7 @@ module.exports = {
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -63,6 +64,7 @@ module.exports = {
                             "text": "ColorId",
                             "rawText": "ColorId",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 5,
                             "end": 13
                         },
@@ -80,6 +82,7 @@ module.exports = {
                                             "text": "RED",
                                             "rawText": "RED",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 17,
                                             "end": 23
                                         },
@@ -88,10 +91,12 @@ module.exports = {
                                             "text": "R",
                                             "rawText": "'R'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 24,
                                             "end": 28
                                         },
                                         "flags": 33,
+                                        "transformFlags": 128,
                                         "start": 17,
                                         "end": 28
                                     },
@@ -103,6 +108,7 @@ module.exports = {
                                             "text": "GREEN",
                                             "rawText": "GREEN",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 29,
                                             "end": 37
                                         },
@@ -111,10 +117,12 @@ module.exports = {
                                             "text": "G",
                                             "rawText": "'G'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 38,
                                             "end": 42
                                         },
                                         "flags": 33,
+                                        "transformFlags": 128,
                                         "start": 29,
                                         "end": 42
                                     },
@@ -126,6 +134,7 @@ module.exports = {
                                             "text": "BLUE",
                                             "rawText": "BLUE",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 43,
                                             "end": 50
                                         },
@@ -134,33 +143,40 @@ module.exports = {
                                             "text": "B",
                                             "rawText": "'B'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 51,
                                             "end": 55
                                         },
                                         "flags": 33,
+                                        "transformFlags": 128,
                                         "start": 43,
                                         "end": 55
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 17,
                                 "end": 56
                             },
                             "flags": 49,
+                            "transformFlags": 8,
                             "start": 15,
                             "end": 58
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 5,
                         "end": 58
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 58
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 0,
             "end": 59
         },
@@ -169,6 +185,7 @@ module.exports = {
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 59,
                 "end": 66
             },
@@ -182,6 +199,7 @@ module.exports = {
                             "text": "ColorNumber",
                             "rawText": "ColorNumber",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 66,
                             "end": 78
                         },
@@ -199,6 +217,7 @@ module.exports = {
                                             "text": "RED",
                                             "rawText": "RED",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 82,
                                             "end": 88
                                         },
@@ -207,10 +226,12 @@ module.exports = {
                                             "text": "ff0000",
                                             "rawText": "'ff0000'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 89,
                                             "end": 98
                                         },
                                         "flags": 33,
+                                        "transformFlags": 128,
                                         "start": 82,
                                         "end": 98
                                     },
@@ -222,6 +243,7 @@ module.exports = {
                                             "text": "GREEN",
                                             "rawText": "GREEN",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 99,
                                             "end": 107
                                         },
@@ -230,10 +252,12 @@ module.exports = {
                                             "text": "00ff00",
                                             "rawText": "'00ff00'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 108,
                                             "end": 117
                                         },
                                         "flags": 33,
+                                        "transformFlags": 128,
                                         "start": 99,
                                         "end": 117
                                     },
@@ -245,6 +269,7 @@ module.exports = {
                                             "text": "BLUE",
                                             "rawText": "BLUE",
                                             "flags": 97,
+                                            "transformFlags": 0,
                                             "start": 118,
                                             "end": 125
                                         },
@@ -253,33 +278,40 @@ module.exports = {
                                             "text": "0000ff",
                                             "rawText": "'0000ff'",
                                             "flags": 4194400,
+                                            "transformFlags": 0,
                                             "start": 126,
                                             "end": 135
                                         },
                                         "flags": 33,
+                                        "transformFlags": 128,
                                         "start": 118,
                                         "end": 135
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 82,
                                 "end": 136
                             },
                             "flags": 49,
+                            "transformFlags": 8,
                             "start": 80,
                             "end": 138
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 66,
                         "end": 138
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 66,
                 "end": 138
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 59,
             "end": 139
         },
@@ -288,6 +320,7 @@ module.exports = {
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
+                "transformFlags": 0,
                 "start": 139,
                 "end": 146
             },
@@ -301,6 +334,7 @@ module.exports = {
                             "text": "ColorIdToNumber",
                             "rawText": "ColorIdToNumber",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 146,
                             "end": 162
                         },
@@ -322,6 +356,7 @@ module.exports = {
                                                     "text": "ColorId",
                                                     "rawText": "ColorId",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 170,
                                                     "end": 177
                                                 },
@@ -330,14 +365,17 @@ module.exports = {
                                                     "text": "RED",
                                                     "rawText": "RED",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 178,
                                                     "end": 181
                                                 },
                                                 "flags": 96,
+                                                "transformFlags": 2,
                                                 "start": 170,
                                                 "end": 181
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 166,
                                             "end": 182
                                         },
@@ -348,6 +386,7 @@ module.exports = {
                                                 "text": "ColorNumber",
                                                 "rawText": "ColorNumber",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 183,
                                                 "end": 195
                                             },
@@ -356,14 +395,17 @@ module.exports = {
                                                 "text": "RED",
                                                 "rawText": "RED",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 196,
                                                 "end": 199
                                             },
                                             "flags": 96,
+                                            "transformFlags": 2,
                                             "start": 166,
                                             "end": 199
                                         },
                                         "flags": 33,
+                                        "transformFlags": 128,
                                         "start": 166,
                                         "end": 199
                                     },
@@ -379,6 +421,7 @@ module.exports = {
                                                     "text": "ColorId",
                                                     "rawText": "ColorId",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 204,
                                                     "end": 211
                                                 },
@@ -387,14 +430,17 @@ module.exports = {
                                                     "text": "GREEN",
                                                     "rawText": "GREEN",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 212,
                                                     "end": 217
                                                 },
                                                 "flags": 96,
+                                                "transformFlags": 2,
                                                 "start": 204,
                                                 "end": 217
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 200,
                                             "end": 218
                                         },
@@ -405,6 +451,7 @@ module.exports = {
                                                 "text": "ColorNumber",
                                                 "rawText": "ColorNumber",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 219,
                                                 "end": 231
                                             },
@@ -413,14 +460,17 @@ module.exports = {
                                                 "text": "GREEN",
                                                 "rawText": "GREEN",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 232,
                                                 "end": 237
                                             },
                                             "flags": 96,
+                                            "transformFlags": 2,
                                             "start": 200,
                                             "end": 237
                                         },
                                         "flags": 33,
+                                        "transformFlags": 128,
                                         "start": 200,
                                         "end": 237
                                     },
@@ -436,6 +486,7 @@ module.exports = {
                                                     "text": "ColorId",
                                                     "rawText": "ColorId",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 242,
                                                     "end": 249
                                                 },
@@ -444,14 +495,17 @@ module.exports = {
                                                     "text": "BLUE",
                                                     "rawText": "BLUE",
                                                     "flags": 96,
+                                                    "transformFlags": 0,
                                                     "start": 250,
                                                     "end": 254
                                                 },
                                                 "flags": 96,
+                                                "transformFlags": 2,
                                                 "start": 242,
                                                 "end": 254
                                             },
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 238,
                                             "end": 255
                                         },
@@ -462,6 +516,7 @@ module.exports = {
                                                 "text": "ColorNumber",
                                                 "rawText": "ColorNumber",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 256,
                                                 "end": 268
                                             },
@@ -470,37 +525,45 @@ module.exports = {
                                                 "text": "BLUE",
                                                 "rawText": "BLUE",
                                                 "flags": 96,
+                                                "transformFlags": 0,
                                                 "start": 269,
                                                 "end": 273
                                             },
                                             "flags": 96,
+                                            "transformFlags": 2,
                                             "start": 238,
                                             "end": 273
                                         },
                                         "flags": 33,
+                                        "transformFlags": 128,
                                         "start": 238,
                                         "end": 273
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 166,
                                 "end": 274
                             },
                             "flags": 49,
+                            "transformFlags": 8,
                             "start": 164,
                             "end": 276
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 146,
                         "end": 276
                     }
                 ],
                 "flags": 16777232,
+                "transformFlags": 0,
                 "start": 146,
                 "end": 276
             },
             "flags": 33554448,
+            "transformFlags": 0,
             "start": 139,
             "end": 276
         },
@@ -515,6 +578,7 @@ module.exports = {
                         "text": "module",
                         "rawText": "module",
                         "flags": 97,
+                        "transformFlags": 0,
                         "start": 276,
                         "end": 284
                     },
@@ -523,16 +587,19 @@ module.exports = {
                         "text": "exports",
                         "rawText": "exports",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 285,
                         "end": 292
                     },
                     "flags": 97,
+                    "transformFlags": 2,
                     "start": 276,
                     "end": 292
                 },
                 "operatorToken": {
                     "kind": 4125,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 292,
                     "end": 294
                 },
@@ -546,6 +613,7 @@ module.exports = {
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 65,
+                                    "transformFlags": 0,
                                     "start": 296,
                                     "end": 302
                                 },
@@ -554,10 +622,12 @@ module.exports = {
                                     "text": "dummy",
                                     "rawText": "dummy",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 302,
                                     "end": 307
                                 },
                                 "flags": 1073741856,
+                                "transformFlags": 0,
                                 "start": 296,
                                 "end": 307
                             },
@@ -571,10 +641,12 @@ module.exports = {
                                         "text": "hello",
                                         "rawText": "hello",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 312,
                                         "end": 317
                                     },
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 308,
                                     "end": 318
                                 },
@@ -583,10 +655,12 @@ module.exports = {
                                     "text": "world",
                                     "rawText": "'world'",
                                     "flags": 4194400,
+                                    "transformFlags": 0,
                                     "start": 319,
                                     "end": 327
                                 },
                                 "flags": 33,
+                                "transformFlags": 128,
                                 "start": 308,
                                 "end": 327
                             },
@@ -595,6 +669,7 @@ module.exports = {
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 65,
+                                    "transformFlags": 0,
                                     "start": 328,
                                     "end": 334
                                 },
@@ -603,28 +678,34 @@ module.exports = {
                                     "text": "dummy",
                                     "rawText": "dummy",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 334,
                                     "end": 339
                                 },
                                 "flags": 1073741856,
+                                "transformFlags": 0,
                                 "start": 328,
                                 "end": 339
                             }
                         ],
                         "trailingComma": true,
                         "flags": 17,
+                        "transformFlags": 0,
                         "start": 296,
                         "end": 340
                     },
                     "flags": 49,
+                    "transformFlags": 8,
                     "start": 294,
                     "end": 342
                 },
                 "flags": 0,
+                "transformFlags": 128,
                 "start": 276,
                 "end": 342
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 276,
             "end": 343
         }
@@ -633,6 +714,7 @@ module.exports = {
     "source": "const ColorId = {\n  RED: 'R',\n  GREEN: 'G',\n  BLUE: 'B',\n};\n\nconst ColorNumber = {\n  RED: 'ff0000',\n  GREEN: '00ff00',\n  BLUE: '0000ff',\n};\n\nconst ColorIdToNumber = {\n  [ColorId.RED]: ColorNumber.RED,\n  [ColorId.GREEN]: ColorNumber.GREEN,\n  [ColorId.BLUE]: ColorNumber.BLUE,\n}\n\nmodule.exports = {\n  ...dummy,\n  [hello]: 'world',\n  ...dummy,\n};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 343
 }

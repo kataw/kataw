@@ -22,12 +22,14 @@ function *foo() { (x = \u0079ield) }
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
             "asteriskToken": {
                 "kind": 67143222,
                 "flags": 64,
+                "transformFlags": 32,
                 "start": 8,
                 "end": 10
             },
@@ -36,6 +38,7 @@ function *foo() { (x = \u0079ield) }
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 13
             },
@@ -45,6 +48,7 @@ function *foo() { (x = \u0079ield) }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 14
             },
@@ -65,12 +69,14 @@ function *foo() { (x = \u0079ield) }
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 19,
                                         "end": 20
                                     },
                                     "operatorToken": {
                                         "kind": 4125,
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 20,
                                         "end": 22
                                     },
@@ -79,6 +85,7 @@ function *foo() { (x = \u0079ield) }
                                         "yieldKeyword": {
                                             "kind": 8454253,
                                             "flags": 16448,
+                                            "transformFlags": 0,
                                             "start": 22,
                                             "end": 33
                                         },
@@ -86,32 +93,39 @@ function *foo() { (x = \u0079ield) }
                                         "asteriskToken": null,
                                         "expression": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 22,
                                         "end": 33
                                     },
                                     "flags": 32,
+                                    "transformFlags": 128,
                                     "start": 17,
                                     "end": 33
                                 },
                                 "flags": 17,
+                                "transformFlags": 0,
                                 "start": 34,
                                 "end": 34
                             },
                             "flags": 16,
+                            "transformFlags": 0,
                             "start": 17,
                             "end": 34
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 34
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 15,
                 "end": 36
             },
             "returnType": null,
             "flags": 272,
+            "transformFlags": 0,
             "start": 0,
             "end": 36
         }
@@ -120,6 +134,7 @@ function *foo() { (x = \u0079ield) }
     "source": "function *foo() { (x = \\u0079ield) }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 36
 }

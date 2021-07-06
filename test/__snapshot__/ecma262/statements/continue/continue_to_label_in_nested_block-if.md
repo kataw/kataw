@@ -22,12 +22,14 @@ foo: while (true) { if (x) continue foo; }
                 "text": "foo",
                 "rawText": "foo",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 4
             },
@@ -36,12 +38,14 @@ foo: while (true) { if (x) continue foo; }
                 "whileKeyword": {
                     "kind": 37757028,
                     "flags": 80,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 10
                 },
                 "expression": {
                     "kind": 24752947,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 12,
                     "end": 16
                 },
@@ -55,6 +59,7 @@ foo: while (true) { if (x) continue foo; }
                                 "ifKeyword": {
                                     "kind": 37757019,
                                     "flags": 80,
+                                    "transformFlags": 0,
                                     "start": 19,
                                     "end": 22
                                 },
@@ -63,6 +68,7 @@ foo: while (true) { if (x) continue foo; }
                                     "text": "x",
                                     "rawText": "x",
                                     "flags": 96,
+                                    "transformFlags": 0,
                                     "start": 24,
                                     "end": 25
                                 },
@@ -71,6 +77,7 @@ foo: while (true) { if (x) continue foo; }
                                     "continueKeyword": {
                                         "kind": 37757009,
                                         "flags": 80,
+                                        "transformFlags": 0,
                                         "start": 26,
                                         "end": 35
                                     },
@@ -79,33 +86,40 @@ foo: while (true) { if (x) continue foo; }
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 35,
                                         "end": 39
                                     },
                                     "flags": 16,
+                                    "transformFlags": 0,
                                     "start": 26,
                                     "end": 40
                                 },
                                 "elseKeyword": null,
                                 "alternate": null,
                                 "flags": 80,
+                                "transformFlags": 0,
                                 "start": 19,
                                 "end": 40
                             }
                         ],
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 40
                     },
                     "flags": 16,
+                    "transformFlags": 0,
                     "start": 17,
                     "end": 42
                 },
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 4,
                 "end": 42
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 42
         }
@@ -114,6 +128,7 @@ foo: while (true) { if (x) continue foo; }
     "source": "foo: while (true) { if (x) continue foo; }",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 42
 }

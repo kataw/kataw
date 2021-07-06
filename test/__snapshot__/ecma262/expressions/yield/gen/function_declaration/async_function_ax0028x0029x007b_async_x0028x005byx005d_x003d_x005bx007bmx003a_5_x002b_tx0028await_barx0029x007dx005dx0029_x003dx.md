@@ -29,6 +29,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -38,6 +39,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                 "text": "not_gen",
                 "rawText": "not_gen",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 16
             },
@@ -47,6 +49,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 17,
                 "end": 17
             },
@@ -62,12 +65,14 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 20,
                                 "end": 26
                             },
                             "functionKeyword": {
                                 "kind": 37822554,
                                 "flags": 64,
+                                "transformFlags": 0,
                                 "start": 26,
                                 "end": 35
                             },
@@ -77,6 +82,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
+                                "transformFlags": 0,
                                 "start": 35,
                                 "end": 37
                             },
@@ -86,6 +92,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 38,
                                 "end": 38
                             },
@@ -100,6 +107,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                             "asyncKeyword": {
                                                 "kind": 82031,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 40,
                                                 "end": 50
                                             },
@@ -120,16 +128,19 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                         "text": "y",
                                                                         "rawText": "y",
                                                                         "flags": 96,
+                                                                        "transformFlags": 0,
                                                                         "start": 53,
                                                                         "end": 54
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 53,
                                                                 "end": 54
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 0,
                                                             "start": 52,
                                                             "end": 55
                                                         },
@@ -153,6 +164,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                         "text": "m",
                                                                                         "rawText": "m",
                                                                                         "flags": 96,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 60,
                                                                                         "end": 61
                                                                                     },
@@ -163,12 +175,14 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                             "text": 5,
                                                                                             "rawText": "5",
                                                                                             "flags": 96,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 62,
                                                                                             "end": 64
                                                                                         },
                                                                                         "operatorToken": {
                                                                                             "kind": 99634,
                                                                                             "flags": 96,
+                                                                                            "transformFlags": 0,
                                                                                             "start": 64,
                                                                                             "end": 66
                                                                                         },
@@ -179,6 +193,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                                 "text": "t",
                                                                                                 "rawText": "t",
                                                                                                 "flags": 96,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 66,
                                                                                                 "end": 68
                                                                                             },
@@ -190,6 +205,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                                         "awaitKeyword": {
                                                                                                             "kind": 82196,
                                                                                                             "flags": 64,
+                                                                                                            "transformFlags": 0,
                                                                                                             "start": 69,
                                                                                                             "end": 74
                                                                                                         },
@@ -198,58 +214,70 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                                                                             "text": "bar",
                                                                                                             "rawText": "bar",
                                                                                                             "flags": 96,
+                                                                                                            "transformFlags": 0,
                                                                                                             "start": 74,
                                                                                                             "end": 78
                                                                                                         },
                                                                                                         "flags": 32,
+                                                                                                        "transformFlags": 0,
                                                                                                         "start": 69,
                                                                                                         "end": 78
                                                                                                     }
                                                                                                 ],
                                                                                                 "trailingComma": false,
                                                                                                 "flags": 32,
+                                                                                                "transformFlags": 0,
                                                                                                 "start": 69,
                                                                                                 "end": 78
                                                                                             },
                                                                                             "flags": 268435488,
+                                                                                            "transformFlags": 1,
                                                                                             "start": 66,
                                                                                             "end": 79
                                                                                         },
                                                                                         "flags": 96,
+                                                                                        "transformFlags": 0,
                                                                                         "start": 60,
                                                                                         "end": 79
                                                                                     },
                                                                                     "flags": 32,
+                                                                                    "transformFlags": 128,
                                                                                     "start": 60,
                                                                                     "end": 79
                                                                                 }
                                                                             ],
                                                                             "trailingComma": false,
                                                                             "flags": 16,
+                                                                            "transformFlags": 0,
                                                                             "start": 60,
                                                                             "end": 79
                                                                         },
                                                                         "flags": 48,
+                                                                        "transformFlags": 8,
                                                                         "start": 59,
                                                                         "end": 80
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
+                                                                "transformFlags": 0,
                                                                 "start": 59,
                                                                 "end": 80
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 8,
                                                             "start": 57,
                                                             "end": 81
                                                         },
                                                         "flags": 32,
+                                                        "transformFlags": 0,
                                                         "start": 52,
                                                         "end": 81
                                                     }
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 34,
+                                                "transformFlags": 0,
                                                 "start": 52,
                                                 "end": 82
                                             },
@@ -257,6 +285,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
+                                                "transformFlags": 0,
                                                 "start": 82,
                                                 "end": 85
                                             },
@@ -267,42 +296,51 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
+                                                    "transformFlags": 0,
                                                     "start": 87,
                                                     "end": 87
                                                 },
                                                 "flags": 32,
+                                                "transformFlags": 0,
                                                 "start": 85,
                                                 "end": 88
                                             },
                                             "flags": 290,
+                                            "transformFlags": 0,
                                             "start": 40,
                                             "end": 88
                                         }
                                     ],
                                     "flags": 32,
+                                    "transformFlags": 0,
                                     "start": 40,
                                     "end": 88
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 39,
                                 "end": 94
                             },
                             "returnType": null,
                             "flags": 144,
+                            "transformFlags": 0,
                             "start": 20,
                             "end": 94
                         }
                     ],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 20,
                     "end": 94
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 18,
                 "end": 96
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 96
         }
@@ -311,6 +349,7 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
     "source": "function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     } }}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 97
 }

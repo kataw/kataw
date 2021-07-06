@@ -38,6 +38,7 @@ b
             "functionKeyword": {
                 "kind": 37822554,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 8
             },
@@ -47,6 +48,7 @@ b
                 "text": "commentedParameters",
                 "rawText": "commentedParameters",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 28
             },
@@ -59,6 +61,7 @@ b
                         "text": "a",
                         "rawText": "a",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 29,
                         "end": 49
                     },
@@ -67,12 +70,14 @@ b
                         "text": "b",
                         "rawText": "b",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 94,
                         "end": 96
                     }
                 ],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 96
             },
@@ -83,15 +88,18 @@ b
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 124,
                     "end": 124
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 123,
                 "end": 125
             },
             "returnType": null,
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 125
         }
@@ -100,6 +108,7 @@ b
     "source": "function commentedParameters(\n/* Parameter a */\na\n/* End of parameter a */\n/* Parameter b */\n,\nb\n/* End of parameter b */\n){}",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 125
 }

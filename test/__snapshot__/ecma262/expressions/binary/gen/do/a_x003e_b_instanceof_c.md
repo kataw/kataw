@@ -27,6 +27,7 @@ do a > b instanceof c while (x);
             "doKeyword": {
                 "kind": 4202580,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 2
             },
@@ -41,12 +42,14 @@ do a > b instanceof c while (x);
                             "text": "a",
                             "rawText": "a",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 2,
                             "end": 4
                         },
                         "operatorToken": {
                             "kind": 34883,
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 4,
                             "end": 6
                         },
@@ -55,16 +58,19 @@ do a > b instanceof c while (x);
                             "text": "b",
                             "rawText": "b",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 6,
                             "end": 8
                         },
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 8
                     },
                     "operatorToken": {
                         "kind": 4229173,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 8,
                         "end": 19
                     },
@@ -73,20 +79,24 @@ do a > b instanceof c while (x);
                         "text": "c",
                         "rawText": "c",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 19,
                         "end": 21
                     },
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 2,
                     "end": 21
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 2,
                 "end": 21
             },
             "whileKeyword": {
                 "kind": 37757028,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 21,
                 "end": 27
             },
@@ -95,10 +105,12 @@ do a > b instanceof c while (x);
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 29,
                 "end": 30
             },
             "flags": 80,
+            "transformFlags": 0,
             "start": 0,
             "end": 32
         }
@@ -107,6 +119,7 @@ do a > b instanceof c while (x);
     "source": "do a > b instanceof c while (x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 32
 }

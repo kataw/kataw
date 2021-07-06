@@ -41,10 +41,12 @@ opaque Ident: Type = SuperType;
                 "text": "opaque",
                 "rawText": "opaque",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 6
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 6
         },
@@ -55,12 +57,14 @@ opaque Ident: Type = SuperType;
                 "text": "Ident",
                 "rawText": "Ident",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 6,
                 "end": 12
             },
             "colonToken": {
                 "kind": 21,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 12,
                 "end": 13
             },
@@ -73,12 +77,14 @@ opaque Ident: Type = SuperType;
                         "text": "Type",
                         "rawText": "Type",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 13,
                         "end": 18
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 18,
                         "end": 20
                     },
@@ -87,18 +93,22 @@ opaque Ident: Type = SuperType;
                         "text": "SuperType",
                         "rawText": "SuperType",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 20,
                         "end": 30
                     },
                     "flags": 0,
+                    "transformFlags": 128,
                     "start": 13,
                     "end": 30
                 },
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 13,
                 "end": 31
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 6,
             "end": 31
         }
@@ -107,6 +117,7 @@ opaque Ident: Type = SuperType;
     "source": "opaque Ident: Type = SuperType;",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 31
 }

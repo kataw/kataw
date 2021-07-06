@@ -28,6 +28,7 @@ var [a,b,...rest] = {};
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 80,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 3
             },
@@ -46,6 +47,7 @@ var [a,b,...rest] = {};
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 5,
                                         "end": 6
                                     },
@@ -54,6 +56,7 @@ var [a,b,...rest] = {};
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 7,
                                         "end": 8
                                     },
@@ -62,6 +65,7 @@ var [a,b,...rest] = {};
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
+                                            "transformFlags": 0,
                                             "start": 9,
                                             "end": 12
                                         },
@@ -70,6 +74,7 @@ var [a,b,...rest] = {};
                                             "text": "rest",
                                             "rawText": "rest",
                                             "flags": 96,
+                                            "transformFlags": 0,
                                             "start": 12,
                                             "end": 16
                                         },
@@ -77,16 +82,19 @@ var [a,b,...rest] = {};
                                         "type": null,
                                         "right": null,
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 9,
                                         "end": 16
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
+                                "transformFlags": 0,
                                 "start": 5,
                                 "end": 16
                             },
                             "flags": 32,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 17
                         },
@@ -98,23 +106,28 @@ var [a,b,...rest] = {};
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
+                                "transformFlags": 0,
                                 "start": 21,
                                 "end": 21
                             },
                             "flags": 48,
+                            "transformFlags": 8,
                             "start": 19,
                             "end": 22
                         },
                         "flags": 16,
+                        "transformFlags": 128,
                         "start": 3,
                         "end": 22
                     }
                 ],
                 "flags": 16,
+                "transformFlags": 0,
                 "start": 3,
                 "end": 22
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 23
         }
@@ -123,6 +136,7 @@ var [a,b,...rest] = {};
     "source": "var [a,b,...rest] = {};",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 23
 }

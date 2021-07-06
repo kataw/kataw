@@ -33,12 +33,14 @@
                         "text": "public",
                         "rawText": "publ\\u0069c",
                         "flags": 16480,
+                        "transformFlags": 0,
                         "start": 1,
                         "end": 12
                     },
                     "operatorToken": {
                         "kind": 4125,
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 12,
                         "end": 14
                     },
@@ -47,18 +49,22 @@
                         "text": "x",
                         "rawText": "x",
                         "flags": 96,
+                        "transformFlags": 0,
                         "start": 14,
                         "end": 16
                     },
                     "flags": 16416,
+                    "transformFlags": 128,
                     "start": 0,
                     "end": 16
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 17
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 18
         }
@@ -67,6 +73,7 @@
     "source": "(publ\\u0069c = x);",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 18
 }

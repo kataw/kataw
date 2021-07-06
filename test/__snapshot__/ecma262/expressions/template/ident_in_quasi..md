@@ -29,10 +29,12 @@
                             "text": "n",
                             "rawText": "n",
                             "flags": 96,
+                            "transformFlags": 0,
                             "start": 3,
                             "end": 4
                         },
                         "flags": 32,
+                        "transformFlags": 0,
                         "start": 0,
                         "end": 4
                     }
@@ -42,14 +44,17 @@
                     "text": "",
                     "rawText": "n",
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 4
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 4
         }
@@ -58,6 +63,7 @@
     "source": "`${n",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 4
 }

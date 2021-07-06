@@ -29,6 +29,7 @@ void: x
                 "operandToken": {
                     "kind": 138477615,
                     "flags": 96,
+                    "transformFlags": 0,
                     "start": 0,
                     "end": 4
                 },
@@ -37,14 +38,17 @@ void: x
                     "text": "",
                     "rawText": "",
                     "flags": 64,
+                    "transformFlags": 0,
                     "start": 4,
                     "end": 4
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 4
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 4
         },
@@ -55,10 +59,12 @@ void: x
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 5,
                 "end": 7
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 5,
             "end": 7
         }
@@ -67,6 +73,7 @@ void: x
     "source": "void: x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 7
 }

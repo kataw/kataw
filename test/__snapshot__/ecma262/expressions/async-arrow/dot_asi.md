@@ -21,6 +21,7 @@ async ()=>{}
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 0,
                 "end": 5
             },
@@ -30,6 +31,7 @@ async ()=>{}
                 "parameters": [],
                 "trailingComma": false,
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 7,
                 "end": 7
             },
@@ -37,6 +39,7 @@ async ()=>{}
             "arrowToken": {
                 "kind": 10,
                 "flags": 64,
+                "transformFlags": 0,
                 "start": 8,
                 "end": 10
             },
@@ -47,14 +50,17 @@ async ()=>{}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
+                    "transformFlags": 0,
                     "start": 11,
                     "end": 11
                 },
                 "flags": 32,
+                "transformFlags": 0,
                 "start": 10,
                 "end": 12
             },
             "flags": 288,
+            "transformFlags": 0,
             "start": 0,
             "end": 12
         },
@@ -65,10 +71,12 @@ async ()=>{}
                 "text": "x",
                 "rawText": "x",
                 "flags": 96,
+                "transformFlags": 0,
                 "start": 14,
                 "end": 15
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 14,
             "end": 15
         }
@@ -77,6 +85,7 @@ async ()=>{}
     "source": "async ()=>{}\n.x",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 15
 }

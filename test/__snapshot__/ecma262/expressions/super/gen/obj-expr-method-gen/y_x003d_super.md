@@ -37,6 +37,7 @@
                                 "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
+                                    "transformFlags": 32,
                                     "start": 2,
                                     "end": 4
                                 },
@@ -49,6 +50,7 @@
                                         "text": "method",
                                         "rawText": "method",
                                         "flags": 96,
+                                        "transformFlags": 0,
                                         "start": 4,
                                         "end": 10
                                     },
@@ -58,6 +60,7 @@
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 160,
+                                        "transformFlags": 0,
                                         "start": 11,
                                         "end": 12
                                     },
@@ -77,12 +80,14 @@
                                                             "text": "y",
                                                             "rawText": "y",
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 14,
                                                             "end": 16
                                                         },
                                                         "operatorToken": {
                                                             "kind": 4125,
                                                             "flags": 96,
+                                                            "transformFlags": 0,
                                                             "start": 16,
                                                             "end": 18
                                                         },
@@ -91,6 +96,7 @@
                                                             "member": {
                                                                 "kind": 4259935,
                                                                 "flags": 96,
+                                                                "transformFlags": 0,
                                                                 "start": 18,
                                                                 "end": 24
                                                             },
@@ -99,53 +105,65 @@
                                                                 "text": "",
                                                                 "rawText": "",
                                                                 "flags": 64,
+                                                                "transformFlags": 0,
                                                                 "start": 24,
                                                                 "end": 24
                                                             },
                                                             "flags": 32,
+                                                            "transformFlags": 2,
                                                             "start": 18,
                                                             "end": 24
                                                         },
                                                         "flags": 0,
+                                                        "transformFlags": 128,
                                                         "start": 14,
                                                         "end": 24
                                                     },
                                                     "flags": 16,
+                                                    "transformFlags": 0,
                                                     "start": 14,
                                                     "end": 24
                                                 }
                                             ],
                                             "flags": 32,
+                                            "transformFlags": 0,
                                             "start": 14,
                                             "end": 24
                                         },
                                         "flags": 32,
+                                        "transformFlags": 0,
                                         "start": 12,
                                         "end": 26
                                     },
                                     "flags": 160,
+                                    "transformFlags": 0,
                                     "start": 10,
                                     "end": 26
                                 },
                                 "flags": 32,
+                                "transformFlags": 0,
                                 "start": 2,
                                 "end": 26
                             }
                         ],
                         "trailingComma": false,
                         "flags": 16,
+                        "transformFlags": 0,
                         "start": 2,
                         "end": 26
                     },
                     "flags": 48,
+                    "transformFlags": 8,
                     "start": 1,
                     "end": 28
                 },
                 "flags": 0,
+                "transformFlags": 0,
                 "start": 34,
                 "end": 29
             },
             "flags": 16,
+            "transformFlags": 0,
             "start": 0,
             "end": 29
         }
@@ -154,6 +172,7 @@
     "source": "({ *method() { y = super } })",
     "fileName": "__root__",
     "flags": 0,
+    "transformFlags": 0,
     "start": 0,
     "end": 29
 }
